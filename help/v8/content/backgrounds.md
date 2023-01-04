@@ -2,13 +2,13 @@
 audience: end-user
 title: 个性化您的电子邮件背景
 description: 了解如何个性化电子邮件背景
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 个性化您的电子邮件背景 {#backgrounds}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 以下是您可以使用的可用背景设置。
 
-* 设置 **[!UICONTROL 背景颜色]** 整封邮件。 确保在可从左侧面板访问的导航树中选择主体设置。
+* 设置 **[!UICONTROL 背景颜色]** 整封邮件。 确保在可从左侧窗格访问的导航树中选择主体设置。
 
    ![](assets/background_1.png)
 
@@ -37,26 +37,28 @@ ht-degree: 0%
 
    ![](assets/background_2.png)
 
-* 为每个结构组件设置不同的背景颜色。 在导航树中选择从左侧调色板可访问的结构，以仅将特定背景颜色应用于该结构。
-
-   确保未设置视区背景颜色，因为它可能隐藏结构背景颜色。
+* 为每个结构组件设置不同的背景颜色。 在左侧窗格的导航树中选择一个结构，以仅将特定背景颜色应用于该结构。
 
    ![](assets/background_3.png)
 
+   >[!NOTE]
+   >
+   >确保未设置视区背景颜色，因为它可能隐藏结构背景颜色。
+
 * 设置 **[!UICONTROL 背景图像]** ，以查看结构组件的内容。
+
+   ![](assets/background_4.png)
 
    >[!NOTE]
    >
    >某些电子邮件程序不支持背景图像。 不支持时，将改用行背景颜色。 确保在图像无法显示的情况下选择适当的回退背景颜色。
 
-   ![](assets/background_4.png)
-
 * 在列级别设置背景颜色。
+
+   ![](assets/background_5.png)
 
    >[!NOTE]
    >
    >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
 
    您也可以在列级别设置背景图像，但很少使用此方法。
-
-   ![](assets/background_5.png)

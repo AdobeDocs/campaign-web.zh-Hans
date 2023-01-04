@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 12%
 
 ---
 
@@ -23,32 +23,34 @@ ht-degree: 9%
 + [了解界面](get-started/user-interface.md)
 + [创建您的第一封电子邮件](email/create-email.md)
 + 创建电子邮件内容 {#content}
-   + [配置电子邮件内容](content/edit-content.md)
-   + 开始创建内容 {#start-design}
-      + [从头开始 ](content/create-email-content.md)
-      + [导入电子邮件内容](content/existing-content.md)
-      + [对您自己的内容进行编码](content/code-content.md)
-      + [使用模板](content/email-templates.md)
-      + [使用选件](content/offers.md)
-   + 构建和设计电子邮件 {#design-content}
+   + [编辑电子邮件内容](content/edit-content.md)
+   + 设计电子邮件 {#design-content}
+      + 开始设计内容 {#start-design}
+         + [从头开始 ](content/create-email-content.md)
+         + [导入电子邮件内容](content/existing-content.md)
+         + [对您自己的内容进行编码](content/code-content.md)
       + [使用内容组件](content/content-components.md)
-      + [添加图像](content/add-assets.md)
       + [生成文本版本](content/text-version-email.md)
       + [添加前标](content/preheader.md)
       + [添加链接和跟踪消息](content/message-tracking.md)
    + 设置内容样式 {#style}
-      + [背景设置](content/backgrounds.md)
-      + [调整垂直对齐和内边距](content/adjusting-vertical-alignment-and-padding.md)
+      + [电子邮件样式入门](content/get-started-email-style.md)
+      + [编辑背景设置](content/backgrounds.md)
+      + [调整垂直对齐和内边距](content/alignment-and-padding.md)
       + [为链接定义样式](content/styling-links.md)
-      + [添加内联样式属性](content/adding-inline-styling-attributes.md)
+      + [添加内联样式属性](content/inline-styling.md)
    + 个性化您的内容 {#personalize}
       + [个性化入门](personalization/personalize.md)
-      + [个性化上下文](personalization/personalization-contexts.md)
+   + [发送选件](content/offers.md)
 + 选择电子邮件受众 {#audience}
-   + [添加受众](audience/add-audience.md)
+   + [关于受众](audience/about-audiences.md)
+   + [选择受众](audience/add-audience.md)
    + [设置控制组](audience/control-group.md)
    + [使用区段生成器](audience/segment-builder.md)
-+ [预览和测试电子邮件](preview-test/preview-test.md)
++ 预览和测试电子邮件 {#preview-test}
+   + [关于预览和校样](preview-test/preview-test.md)
+   + [预览电子邮件内容](preview-test/preview-content.md)
+   + [  发送验证](preview-test/proofs.md)
 + 发送并监视电子邮件 {#monitor}
    + [准备和发送电子邮件](monitor/prepare-send.md)
    + [监控投放日志](monitor/delivery-logs.md)

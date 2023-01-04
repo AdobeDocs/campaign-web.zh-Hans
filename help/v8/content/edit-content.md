@@ -1,50 +1,64 @@
 ---
 audience: end-user
-title: 配置电子邮件内容
+title: 编辑电子邮件内容
 description: Campaign v8 Web文档
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
+# 编辑电子邮件内容 {#configure-content}
 
-# 配置电子邮件内容 {#configure-content}
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
-
-“编辑内容”按钮：显示主题行、附件、添加选件和启用跟踪的用例（+在模拟内容按钮上添加注释，其中包含链接以预览校样部分）
-
-![](assets/content-dashboard.png)
-
-## 电子邮件标题
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="创建电子邮件内容"
+>abstract="热障涂层"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="电子邮件标题"
 >abstract="热障涂层"
 
-## 电子邮件附件
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="电子邮件附件"
 >abstract="热障涂层"
-
-## 电子邮件跟踪
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="跟踪选项"
 >abstract="热障涂层"
 
+>[!NOTE]
+>
+>此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
+要开始创建电子邮件的内容，请单击 **[!UICONTROL 编辑内容]** 按钮。 利用此屏幕，可定义电子邮件的内容并访问Email Designer进行设计。
 
+![](assets/content-dashboard.png)
 
-<!--
-Offers same as campaign (no design, only selection)
-Diff from AJO:  attachement
--->
+定义电子邮件内容的步骤如下：
+
+1. 检查 **[!UICONTROL 从名称]** 和 **[!UICONTROL 从电子邮件]** 信息。 这些字段为只读字段，在创建电子邮件时在选定的电子邮件模板中进行配置。
+
+1. 定义电子邮件 **[!UICONTROL 主题行]**. 为此，请打开表达式编辑器以定义其内容，并使用各种属性、内容块或选件添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
+
+1. 如果要随电子邮件发送选件，请使用 **[!UICONTROL 选件]** 按钮。 然后，您便能够使用个性化字段将其插入到电子邮件中。 [了解如何发送优惠](offers.md)
+
+1. 单击 **[!UICONTROL Email Designer]** 按钮以构建和设计电子邮件的内容。 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
+
+   * [了解如何设计电子邮件](create-email-content.md)
+   * [设置内容样式](get-started-email-style.md)
+
+1. 如果要将文件附加到电子邮件，请单击 **[!UICONTROL 添加附件]** 按钮，然后选择一个或多个文件。
+
+   <!--limitation on size + number of files?-->
+
+1. 默认情况下，会为打开数和点击数启用电子邮件跟踪。 要禁用这些选项，请从 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
+
+定义电子邮件的内容后，使用 **[!UICONTROL 模拟内容]** 按钮以在发送前检查其显示方式。 [了解如何预览和测试电子邮件](../preview-test/preview-test.md)
+
+<!-- show screenshot showing an email fully configured + highlight the simulate content button-->

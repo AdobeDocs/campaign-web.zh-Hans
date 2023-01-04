@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: 使用电子邮件模板
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
-
 
 # 使用电子邮件内容模板 {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 使用 **[!UICONTROL 选择设计模板]** 部分以开始从模板构建内容。
 
 ![](assets/email_designer-templates.png)
-
-您可以选择：
-* 20个现成的电子邮件模板。
-* 已保存模板. [了解详情](#save-as-template)
 
 ## 另存为模板 {#save-as-template}
 

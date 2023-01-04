@@ -2,10 +2,11 @@
 audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 6%
+source-wordcount: '1131'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +19,13 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="界面"
->abstract="热障涂层"
-
-## 界面概述
-
-![](assets/home.png)
+>abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
 
 新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。
 
-浏览用户界面时的主要概念与Adobe Experience Platform相同。 请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) 以了解更多详细信息。
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -38,34 +37,24 @@ ht-degree: 6%
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 统一外壳
-
-访问社区学习、帮助中心、组织切换器、解决方案切换器
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## 上下文帮助?
-
-上下文帮助和Gainsight:集成/产品内指南
-
-## 主页
-
-## 常规
-
-列表屏幕模板选项卡
-
 ## 左侧导航菜单
 
-浏览左侧的链接以访问Campaign v8 Web功能。
+浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。
+
+![](assets/home.png)
 
 ### 主页
 
-* 横幅
-* 电子邮件渠道（跨投放）上的KPI:打开率、投放率等
-* 近期项目
-* 学习卡
+此屏幕包括快速访问Campaign v8主要Web功能的关键链接和资源。 的 **收件人** 列表提供了最近创建投放的快捷方式。 此列表显示了其创建和修改日期及状态。
+
+<!--
+* Banner
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+从主页的下部访问Campaign v8网关键帮助页。
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -78,78 +67,115 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="资源管理器"
->abstract="热障涂层"
+>abstract="的 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的文件夹层次结构。 浏览所有Campaign v8组件、文件夹和架构。 除电子邮件投放列表之外，所有列表屏幕均为只读。"
 
-Web UI中用于在控制台内容中导航的资源管理器菜单：控制台除了导航左侧菜单列表外，还导航第二个视图和过滤器。 资源管理器会从控制台中提供真正的文件夹层次结构。 确保在子文件夹中找到投放内容。 所有列表都可以只读访问。 无创建/编辑。 您可以配置列表（列）。 所有架构字段、链接的表均可用。
+的 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的文件夹层次结构。 浏览所有Campaign v8组件、文件夹和架构。 除电子邮件投放列表之外，所有列表屏幕均为只读。
 
-只能打开投放。
+资源管理器中显示的项目取决于您的用户权限。
 
-如果您需要查看收件人列表（年龄、性别）、交易或实时事务型消息。 查看每个/编辑 — >控制台。
+与在任何列表屏幕中一样，您可以配置列以个性化显示，以查看所需的所有信息。 请参阅 [部分](#list-screens).
 
-导航树视图取决于权限（与控制台相同）。
+有关Campaign资源管理器的详细信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Campaign 管理
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="活动"
->abstract="热障涂层"
+>abstract="这是您的营销活动列表。 您可以查看有用信息，如开始/结束/上次修改日期及其状态。 您可以按状态或开始/结束日期过滤列表。 营销活动模板也可用。 这些列表是只读的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="热障涂层"
+>abstract="浏览投放列表。 您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板。 其他项目为只读。 投放模板也可用。"
 
-* **促销活动**  — 营销活动列表。 无版本/创建。
-* **投放**  — 投放列表。 创建/编辑。
+* **促销活动**  — 这是营销活动列表。 默认情况下，您可以查看其开始/结束/上次修改日期及其状态。 您可以按状态或开始/结束日期过滤列表。 营销活动模板也可用。 这些列表是只读的。
+
+* **投放**  — 浏览投放列表。 默认情况下，您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板，以获取投放详细信息的概述。 其他渠道上的投放为只读。 投放模板也以只读模式提供。 您可以使用客户端控制台来编辑它们。 请参阅 [文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hans).
 
 ### 客户管理
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件人"
->abstract="热障涂层"
+>abstract="访问收件人数据库。 您可以查看有用信息，如其电子邮件地址、名字和姓氏。 此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="热障涂层"
+>abstract="这是您的受众列表。 您可以查看其类型、来源、创建/上次修改日期和标签。 您可以按来源筛选列表。 此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="订阅列表"
->abstract="热障涂层"
+>abstract="浏览订阅列表。 您可以查看其类型、模式和标签。 此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="定位工作流"
->abstract="热障涂层"
+>abstract="访问Campaign工作流的列表。 您可以查看其状态、上次/下次处理日期和环境。 您可以按状态、上次处理日期和工作流类型过滤列表。 工作流模板也可用。 这些列表是只读的。"
 
-* **收件人**  — 收件人列表。 无版本/创建。
-* **受众**  — 受众列表。 无版本/创建。
-* **订阅列表**  — 您的订阅列表。 无版本/创建。
-* **定位工作流**  — 定位工作流的列表。 无版本/创建。
+* **收件人**  — 访问收件人数据库。 默认情况下，您可以查看其电子邮件地址、名字和姓氏。 此列表为只读。
+* **受众**  — 这是您的受众列表。 默认情况下，您可以查看其类型、来源、创建/上次修改日期和标签。 您可以按来源筛选列表。 此列表为只读。
+* **订阅列表**  — 浏览订阅列表。 默认情况下，您可以查看其类型、模式和标签。 此列表为只读。
+* **定位工作流**  — 访问Campaign工作流的列表。 默认情况下，您可以查看其状态、上次/下次处理日期和环境。 您可以按状态、上次处理日期和工作流类型过滤列表。 工作流模板也可用。 这些列表是只读的。
 
 ### 决策管理
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="优惠"
->abstract="热障涂层"
+>abstract="浏览您的互动选件列表。 默认情况下，您可以查看其状态、开始/结束日期和环境。 您可以按州和开始/结束日期过滤列表。 还提供了选件模板。 这些列表是只读的。"
 
-* **选件**  — 选件列表。 无版本/创建。
+* **选件**  — 浏览您的互动选件列表。 默认情况下，您可以查看其状态、开始/结束日期和环境。 您可以按州和开始/结束日期过滤列表。 还提供了选件模板。 这些列表是只读的。
 
-## 过滤器列表{#filter-lists}
+## 顶部栏
 
-列表屏幕
+通过界面的顶栏，您可以：
 
-## 查找帮助和支持 {#find-help}
+* 作为Alpha客户分享您的反馈
+* 在IMS组织之间切换
+* 在Adobe Experience Cloud应用程序之间切换
+* 访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
-从主页的下半部分访问Adobe Journey Optimizer关键帮助页面。
+![](assets/unified-shell.png){width="70%" align="left"}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-使用 **帮助** 图标以访问帮助页面、与支持部门联系并分享反馈。 您可以从搜索字段搜索帮助文章和视频。
+## 情景帮助和入门指南
 
-## 支持的浏览器 {#browsers}
+界面中提供了上下文帮助。 如果可用，请单击 **?** 图标以显示帮助信息和相关文档链接。
 
-Adobe [!DNL Journey Optimizer] 界面在最新版本的Google Chrome中可发挥最佳作用。 在较旧版本或其他浏览器上使用某些功能时，您可能会遇到问题。
+![](assets/context-help.png){width="70%" align="left"}
 
+还提供了入门指南，以帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## 配置列表屏幕 {#list-screens}
+
+例如，左侧导航菜单中的几个链接 **投放** 或 **促销活动**，显示对象列表。 这些列表屏幕是只读的，但电子邮件投放列表除外。
+
+要更快查找项目，您可以使用搜索栏或根据上下文条件筛选列表。
+
+![](assets/filter.png){width="70%" align="left"}
+
+列表以列显示。 您可以通过更改列配置来显示其他信息。 为此，请单击列表右上角的图标。 您可以添加或删除列，并更改列的显示顺序。
+
+![](assets/columns.png){width="70%" align="left"}
+
+您可以通过单击任何列标题对列表中的项目进行排序。 将显示一个箭头（向上或向下），指示列表在该列上排序。 对于数值列或日期列，向上箭头表示列表按升序排序，而向下箭头表示降序。 对于字符串或字母数字列，值按字母顺序列出。
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->

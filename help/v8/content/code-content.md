@@ -2,13 +2,13 @@
 audience: end-user
 title: 编码您自己的电子邮件内容
 description: 了解如何编码您自己的电子邮件内容
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '140'
+ht-degree: 0%
 
 ---
-
 
 # 对您自己的内容进行编码 {#code-content}
 
@@ -18,29 +18,19 @@ ht-degree: 2%
 
 使用 **[!UICONTROL 编码您自己的]** 模式导入原始HTML和/或编码电子邮件内容。 此方法需要HTML技能。
 
-➡️ [在视频中发现此功能](#video)
-
->[!CAUTION]
->
-> 使用此方法时，无法引用来自Adobe Experience Manager Assets Essentials的图像。 您的HTML代码中引用的图像必须存储到公共位置。
-
 1. 在Email Designer主页中，选择 **[!UICONTROL 编码您自己的]**.
 
    ![](assets/code-your-own.png)
 
 1. 输入或粘贴原始HTML代码。
 
-1. 使用左窗格可利用 [!DNL Journey Optimizer] 个性化功能。
-
-   ![](assets/code-editor.png)
+1. 使用左窗格可利用个性化功能。
 
 1. 如果要打开Email Designer以从新设计开始发送电子邮件，请选择 **[!UICONTROL 更改设计]** 中。
 
    ![](assets/code-editor-change-design.png)
 
-1. 单击 **[!UICONTROL 预览]** 按钮以使用测试用户档案检查消息设计和个性化。
-
-   ![](assets/code-editor-preview.png)
+1. 单击 **[!UICONTROL 模拟内容]** 按钮以使用测试用户档案检查消息设计和个性化。
 
 1. 代码准备就绪后，单击 **[!UICONTROL 保存]** 然后返回消息创建屏幕以完成消息。
 

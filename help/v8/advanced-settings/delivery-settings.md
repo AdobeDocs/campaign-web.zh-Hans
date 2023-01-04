@@ -2,10 +2,11 @@
 audience: end-user
 title: 高级设置
 description: Campaign v8 Web文档
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 10%
+source-wordcount: '899'
+ht-degree: 24%
 
 ---
 
@@ -40,24 +41,47 @@ Documentation on this part is targeted for december 2022
 >title="类型"
 >abstract="利用分类，可控制、过滤和监控投放的发送。"
 
-### 压力参数 {#pressure-parameter}
+分类是在消息分析阶段执行的一系列分类规则。利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
+
+将分类与消息或消息模板关联时，将执行在分类中包含的分类规则以检查消息的有效性。
+
+### 压力参数 {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="投放权重"
 >abstract="投放权重允许您确定压力管理框架内优先级最高的投放。 权重最高的消息具有优先级。"
 
+在此部分中，压力参数允许您定义阈值。 这是指定时间段内可向一个用户档案发送的消息数量上限。 达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除用户档案，从而避免过度通信。
+
+阈值可以是常量，也可以是变量。这意味着在指定的时间段内，阈值可能因用户档案而异，甚至对于同一用户档案也可能有所不同。
+
+在 **粗细类型** 字段中，提供了三个选项：
+
+的 **交付重量** 字段
+
+的 **投放模式** 字段……
+
 ### 容量设置 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="收件人的重要性"
->abstract="热障涂层"
+>abstract="收件人的重要性是一个公式，用于确定在超出容量分类规则时保留哪些收件人。"
 
+在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则与电子邮件渠道关联。
+
+的 **收件人的重要性** 字段是一个公式，用于确定在超出容量分类规则时保留哪些收件人。
 
 ## 受众 {#audience}
 
+在此部分中，您可以选择在Adobe Campaign v8控制台中定义的目标映射。 如果您使用的收件人表不是Adobe Campaign提供的表，则需要创建Target映射。
+
 ## 投放 {#delivery}
+
+测试SMTP投放：使用此选项可测试通过SMTP的发送。 投放会一直处理到与SMTP服务器的连接，但不会发送：对于投放的每个收件人，Campaign会连接到SMTP提供程序服务器，执行SMTP RCPT TO命令，然后在SMTP DATA命令之前关闭连接。
+
+电子邮件密送：使用此选项，只需向消息目标添加密送电子邮件地址，即可通过密送方式在外部系统上存储电子邮件。
 
 ### 重试 {#retries}
 
@@ -66,7 +90,15 @@ Documentation on this part is targeted for december 2022
 >title="最大重试次数"
 >abstract="如果消息因临时错误而失败，则会在投放持续期间执行重试。"
 
+由于软错误或已忽略错误而临时未投放的消息将自动重试。 默认情况下，会为投放的第一天安排五次重试，最短间隔为一小时，分布在一天的24小时内。 在此之后，每天对一次重试进行编程，直到投放截止时间（在有效性选项卡中定义）为止。
+
 ## 审批 {#approval}
+
+**手动**
+
+**半自动**
+
+**自动的**
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -74,8 +106,6 @@ Documentation on this part is targeted for december 2022
 >abstract="投放的每个步骤都可获得批准，以确保对各个流程进行全面监控和控制。"
 
 ## 有效性 {#validity}
-
-### 有效期 {#validity-period}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
@@ -88,6 +118,16 @@ Documentation on this part is targeted for december 2022
 >abstract="“有效性限制”字段用于已上传的资源，主要用于镜像页面和图像。 此页面上的资源在有限的时间内有效。"
 
 
+利用投放持续时间字段，可输入全局投放重试的限制。 这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，会执行常规的可配置重试，直到达到有效性限制为止。
+
+您还可以选择指定日期。 要执行此操作，请选择明确设置有效日期。 在这种情况下，投放和有效期限制日期还允许您指定时间。 默认使用当前时间，但您可以直接在输入字段中修改此时间。
+
+资源的有效性限制：“有效性限制”字段用于已上传的资源，主要用于镜像页面和图像。 本页上的资源仅在限制时间内有效（以节省磁盘空间）。
+
+### 镜像页面管理 {#mirror}
+
+**镜像页面管理**
+
 ### 跟踪 {#tracking}
 
 >[!CONTEXTUALHELP]
@@ -95,16 +135,19 @@ Documentation on this part is targeted for december 2022
 >title="有效期"
 >abstract="此选项定义在URL上激活跟踪的持续时间。"
 
+**跟踪有效性限制**:此选项定义在URL上激活跟踪的持续时间。
+
+**过期URL的替换URL**:热障涂层
 
 
+## 测试设置{#test-setttings}
 
+**保持双倍**
 
+**保留已列入阻止列表的地址**
 
+**保留隔离地址**
 
+**保留投放代码以作验证**
 
-
-
-
-
-
-
+**标签前缀**

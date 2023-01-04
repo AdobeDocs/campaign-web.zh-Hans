@@ -2,7 +2,8 @@
 audience: end-user
 title: 报告
 description: Campaign v8 Web文档
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -51,9 +52,6 @@ Adobe Campaign提供了多种类型的报表，可在每次投放中访问这些
 
 * **打开次数的划分**:此报表显示了在相关时段内，操作系统、设备和浏览器的打开次数的细分情况。 对于每个类别，使用两个图表。 第一个报表显示有关计算机和移动设备上打开次数的统计信息。 第二个显示仅与移动设备上的打开次数相关的统计信息。
 
-**热点击**
+**热门点击**
 
 此报表可显示每个链接上的消息内容(HTML和/或文本)，以及链接的点击百分比。 个性化块退订链接、镜像页面链接和选件链接在累计的点击总数中会得到考虑，但不会显示在报表中。
-
-
-

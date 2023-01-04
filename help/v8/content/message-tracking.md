@@ -2,13 +2,13 @@
 audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 0%
 
 ---
-
 
 # 添加链接和跟踪消息 {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 1%
 >
 >此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
-使用 [!DNL Journey Optimizer] 添加指向内容的链接并跟踪发送的消息，以监控收件人的行为。
-
-## 启用跟踪 {#enable-tracking}
-
-您可以通过检查 **[!UICONTROL 电子邮件打开]** 和/或 **[!UICONTROL 单击电子邮件]** 选项。
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->默认情况下，这两个选项均处于启用状态。
-
-这样，您就可以通过以下方式跟踪收件人的行为：
-
-* **[!UICONTROL 电子邮件打开]**:已打开的消息。
-* **[!UICONTROL 单击电子邮件]**:单击电子邮件中的链接。
+使用Email designer添加指向内容的链接并跟踪发送的消息，以监控收件人的行为。
 
 ## 插入链接 {#insert-links}
 
@@ -39,7 +24,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->When [跟踪已启用](#enable-tracking)，则会跟踪消息内容中包含的所有链接。
+>启用跟踪后，将跟踪消息内容中包含的所有链接。
 
 要在电子邮件内容中插入链接，请执行以下步骤：
 
@@ -47,29 +32,13 @@ ht-degree: 1%
 
    ![](assets/message-tracking-insert-link.png)
 
-1. 选择要创建的链接类型：
-
-   * **[!UICONTROL 外部链接]**:插入指向外部URL的链接。
-
-   * **[!UICONTROL 登陆页面]**:插入指向登陆页面的链接。
-
-   * **[!UICONTROL 单击选择退出]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。
-
-   * **[!UICONTROL 外部选择加入/订阅]**:插入一个链接以接受从您的品牌接收通信。
-
-   * **[!UICONTROL 外部选择退订/退订]**:插入链接以取消订阅从您的品牌接收通信。
-
-   * **[!UICONTROL 镜像页面]**:插入链接以在Web浏览器中显示电子邮件内容。 在 [此部分](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. 您可以个性化您的链接。
+1. 添加 **[!UICONTROL 标签]** 和 **[!UICONTROL 链接]**.
 
 1. 保存更改。
 
 1. 创建链接后，您仍可以从 **[!UICONTROL 组件设置]** 窗格。
 
-   * 您可以编辑链接并更改其类型。
+   * 您可以编辑链接并更改其 **[!UICONTROL Target]**.
    * 您可以通过选中相应的选项来选择是否为链接添加下划线。
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ ht-degree: 1%
 
 镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件的内容相同。
 
-要在电子邮件中添加指向镜像页面的链接， [插入链接](#insert-links) 选择 **[!UICONTROL 镜像页面]** 作为链接类型。
+要在电子邮件中添加指向镜像页面的链接，请执行以下操作：
 
-![](assets/message-tracking-mirror-page.png)
+1. 选择元素并单击 **[!UICONTROL 插入链接]** 中。
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. 选择 **[!UICONTROL 插入链接]** 图标以访问个性化菜单。
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. 从 **[!UICONTROL 内容块]** 菜单，选择 **[!UICONTROL 镜像页面URL]** 单击 **[!UICONTROL 添加]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 将自动创建镜像页面。
 
@@ -123,4 +102,3 @@ ht-degree: 1%
    * **[!UICONTROL 镜像页面]**:将此URL视为镜像页面URL。
    * **[!UICONTROL 从不]**:从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-有关开始次数和点击次数的报告可在实时报告和全球报告中找到。

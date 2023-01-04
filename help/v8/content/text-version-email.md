@@ -2,13 +2,13 @@
 audience: end-user
 title: 创建电子邮件的文本版本
 description: 了解如何创建电子邮件的文本版本
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
 
 ---
-
 
 # 创建电子邮件的文本版本 {#text-version-email}
 

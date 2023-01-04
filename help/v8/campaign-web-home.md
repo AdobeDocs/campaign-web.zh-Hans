@@ -2,7 +2,8 @@
 keywords: Campaign Web；主页；热门主题
 description: Campaign Web v8帮助中心
 title: Adobe Campaign Web v8产品文档
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

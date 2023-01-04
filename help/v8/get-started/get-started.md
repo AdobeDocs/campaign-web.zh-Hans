@@ -2,10 +2,11 @@
 audience: end-user
 title: 入门
 description: Campaign v8 Web文档
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '332'
+ht-degree: 20%
 
 ---
 
@@ -14,8 +15,6 @@ ht-degree: 18%
 >[!NOTE]
 >
 >此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
-
-## Adobe Campaign V8 Web {#web-interface}
 
 <!--
 V8 web overview
@@ -34,15 +33,15 @@ only existing customers
 
 >[!NOTE]
 >
->Campaign v8 Web当前为Alpha版本。 仅限一小部分Alpha客户访问。 请注意，产品界面、功能和使用流程都可能会发生更改，恕不另行通知。
+>Campaign v8 Web当前为Alpha版本。 仅限一小部分Alpha客户访问。 请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-除了控制台提供的所有现有功能外，我们还为实践人员构建了Web界面，该界面可提供集成、直观且一致的用户体验。
+除了控制台提供的所有现有功能之外，我们还构建了一个Web界面，为实践者提供集成、直观和一致的用户体验。
 
 ## Alpha 功能
 
-此基于Web的现代用户界面当前仅适用于具有以下功能的Alpha实践人员：
+此基于Web的现代化界面目前仅适用于具有以下功能的Alpha从业者：
 
 **现代、直观、统一的体验**
 
@@ -53,7 +52,7 @@ No search and pulse notifications in Alpha
 -->
 * 使用左侧菜单和文件夹体验新导航
 
-**创建、启动和衡量单个电子邮件促销活动**
+**创建、启动和衡量电子邮件促销活动**
 
 * 使用电子邮件编辑器设计个性化电子邮件内容
 * 使用区段生成器定义受众
@@ -68,7 +67,7 @@ add info somewhere to remind users that
 
 ## 客户端控制台
 
-如果您需要使用Web UI中不可用的Campaign v8功能，则可以使用客户端控制台。 有关如何使用Campaign v8的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=en).
+如果您需要使用Web UI中不可用的Campaign v8功能，则可以使用客户端控制台。 有关如何使用Campaign v8的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans).
 
 数据在控制台和Web UI之间共享。 例如，如果您使用控制台创建了投放模板，则该模板将在Web界面中可用。
 
@@ -76,8 +75,8 @@ add info somewhere to remind users that
 
 ![](assets/connect.png)
 
-1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com)
-1. 使用您的Adobe IMS凭据登录
+1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com).
+1. 使用您的Adobe IMS凭据登录。
 1. 在 **快速访问** ，单击 **Campaign**.
 
 <!--

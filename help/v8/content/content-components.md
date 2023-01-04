@@ -2,13 +2,13 @@
 audience: end-user
 title: 使用电子邮件设计工具内容组件
 description: 了解如何在电子邮件中使用内容组件
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
-
 
 # 使用Email Designer内容组件 {#content-components}
 
@@ -36,24 +36,52 @@ ht-degree: 0%
 >title="关于内容组件"
 >abstract="内容组件是空内容占位符，您可以使用这些占位符创建模板的布局。"
 
+## 添加内容组件 {#add-content-components}
 
+要向电子邮件中添加内容组件并根据需要对其进行调整，请执行以下步骤。
+
+1. 在Email Designer中，使用现有内容或拖放 **[!UICONTROL 结构部件]** ，以定义电子邮件的布局。 [了解如何](create-email-content.md)
+
+1. 访问 **[!UICONTROL 内容组件]** 部分，从Email Designer左窗格中选择相应的按钮。
+
+   ![](assets/email_designer_content_components.png)
+
+1. 将您选择的内容组件拖放到相关结构组件中。
+
+   ![](assets/email_designer_add_content_components.png)
+
+   >[!NOTE]
+   >
+   >可以将多个组件添加到单个结构组件中，并添加到结构组件的每一列中。
+
+1. 使用 **[!UICONTROL 组件设置]** 窗格。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
+
+   ![](assets/email_designer_content_components_settings.png)
 
 从头开始创建电子邮件内容时， **[!UICONTROL 内容组件]** 允许您使用一旦放入电子邮件中即可使用的原始空组件进一步个性化电子邮件。
 您可以添加任意数量的 **[!UICONTROL 内容组件]** 你需要 **[!UICONTROL 结构部件]** 定义电子邮件的布局。
 
+## 容器 {#container}
+
+您可以添加一个简单的容器，在其中可以添加其他内容组件。 这允许您对容器应用特定样式，该样式将与内部使用的组件不同。
+
+例如，添加 **[!UICONTROL 容器]** 组件，然后添加 [按钮](#button) 组件。 您可以为容器使用特定背景，为按钮使用另一个背景。
+
+![](assets/email_designer_container_component.png)
+
 ## 按钮 {#buttons}
 
-使用 **[!UICONTROL 按钮]** 组件在电子邮件中插入多个按钮，并将电子邮件受众重定向到其他页面。
+使用 **[!UICONTROL 按钮]** 组件将一个或多个按钮插入到电子邮件中，并将电子邮件受众重定向到其他页面。
 
-1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 按钮]** 在 **[!UICONTROL 结构部件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 按钮]** 组件 **[!UICONTROL 结构部件]**.
 
    ![](assets/email_designer_13.png)
 
-1. 单击您新添加的按钮以个性化文本并有权访问 **[!UICONTROL 组件设置]** 电子邮件设计工具的右侧窗格中。
+1. 单击您新添加的按钮以个性化文本并有权访问 **[!UICONTROL 组件设置]** 在Email Designer右窗格中。
 
    ![](assets/email_designer_14.png)
 
-1. 在 **[!UICONTROL 链接]** 字段 **[!UICONTROL 组件设置]**，在单击按钮时添加您希望受众被重定向到的URL。
+1. 在 **[!UICONTROL 链接]** 字段中，添加您希望在单击按钮时重定向到的URL。
 
 1. 选择如何通过 **[!UICONTROL Target]** 下拉列表：
 
@@ -65,13 +93,13 @@ ht-degree: 0%
 
    ![](assets/email_designer_15.png)
 
-1. 您现在可以通过更改 **[!UICONTROL 样式]**, **[!UICONTROL 边距]** 和 **[!UICONTROL 边框]** 例如。
+1. 您可以通过更改样式属性(例如 **[!UICONTROL 边框]**, **[!UICONTROL 大小]**, **[!UICONTROL 边距]**&#x200B;等。 从 **[!UICONTROL 组件设置]** 中。
 
 ## 文本 {#text}
 
-使用 **[!UICONTROL 文本]** 组件在电子邮件中插入文本。 您可以在 **[!UICONTROL 组件设置]**.
+使用 **[!UICONTROL 文本]** 组件，以在电子邮件中插入文本，并调整样式（边框、大小、内边距等） 使用 **[!UICONTROL 组件设置]** 中。
 
-1. 在 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 文本]** 在 **[!UICONTROL 结构部件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 文本]** 在 **[!UICONTROL 结构部件]**.
 
    ![](assets/email_designer_11.png)
 
@@ -93,34 +121,33 @@ ht-degree: 0%
    * **[!UICONTROL 添加个性化]**:添加个性化字段以自定义用户档案数据的内容。
    * **[!UICONTROL 启用条件内容]**:添加条件内容，以将组件内容调整为目标用户档案。
 
-1. 调整 **[!UICONTROL 文本颜色]**, **[!UICONTROL 字体系列]** 和 **[!UICONTROL 大小]** 在 **[!UICONTROL 组件设置]**.
+1. 调整其他样式属性，如文本颜色、字体系列、边框、内边距、边距等。 从 **[!UICONTROL 组件设置]** 中。
 
    ![](assets/email_designer_12.png)
 
 ## 分隔条 {#divider}
 
 使用 **[!UICONTROL 除法器]** 用于插入划分线以组织电子邮件的布局和内容的组件。
-您可以在 **[!UICONTROL 组件设置]**.
+
+您可以调整样式属性，如 **[!UICONTROL 组件设置]** 中。
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-使用 **[!UICONTROL HTML]** 复制并粘贴现有HTML的不同部分。 这使您能够创建免费的模块化HTML组件。
+使用 **[!UICONTROL HTML]** 组件来复制粘贴现有HTML的不同部分。 这样，您就可以创建免费的模块化HTML组件来重复使用某些外部内容。
 
-为了使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件中的内容复制到组件中。
-
-1. 在 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL HTML]** 在 **[!UICONTROL 结构部件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL HTML]** 组件 **[!UICONTROL 结构部件]**.
 
    ![](assets/email_designer_22.png)
 
-1. 单击新添加的组件，然后 **[!UICONTROL 显示源代码]** 添加HTML。
+1. 单击新添加的组件，然后选择 **[!UICONTROL 显示源代码]** 从上下文工具栏添加HTML。
 
    ![](assets/email_designer_23.png)
 
-1. 复制并粘贴要添加到电子邮件的HTML代码，然后单击 **[!UICONTROL 保存]**.
-
-1. 您现在可以通过更改 **[!UICONTROL 样式]**, **[!UICONTROL 边距]** 和 **[!UICONTROL 边框]** 例如，添加链接以将受众重定向到其他内容。
+>[!NOTE]
+>
+>为了使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件中的内容复制到组件中。
 
 ## 图像 {#image}
 
@@ -132,70 +159,24 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL 浏览]** ，以从资产中选择图像文件。
 
-   要了解 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
-
-1. 单击新添加的组件以开始配置 **[!UICONTROL 内容组件]** 和 **[!UICONTROL 组件设置]** 电子邮件设计工具的右侧窗格中。
-
-1. 设置图像属性：
+1. 单击新添加的组件，然后使用 **[!UICONTROL 组件设置]** 窗格：
 
    * **[!UICONTROL 图像标题]** 用于为图像定义标题。
    * **[!UICONTROL 替换文本]** 用于定义链接到图像的标题。 此属性对应于altHTML属性。
 
    ![](assets/email_designer_10.png)
 
-1. 您现在可以通过更改 **[!UICONTROL 样式]**, **[!UICONTROL 边距]** 和 **[!UICONTROL 边框]** 例如，添加链接以将受众重定向到其他内容。
-
-## 视频 {#Video}
-
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="视频设置"
->abstract="使用此组件可在电子邮件中插入视频。 请注意，视频并非适用于所有电子邮件客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="视频设置"
->abstract="使用此组件可在登陆页面中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="视频设置"
->abstract="使用此组件在片段中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="视频设置"
->abstract="使用此组件可在模板中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
-
-使用 **[!UICONTROL 视频]** 组件通过URL链接在电子邮件中插入视频。
-
-1. 在 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 视频]** 在 **[!UICONTROL 结构部件]**.
-
-   ![](assets/email_designer_17.png)
-
-1. 单击新添加的组件以开始配置 **[!UICONTROL 内容组件]** 和 **[!UICONTROL 组件设置]** 电子邮件设计工具的右侧窗格中。
-
-1. 在 **[!UICONTROL 视频链接]** 字段 **[!UICONTROL 组件设置]**，添加您的视频URL。
-
-   ![](assets/email_designer_18.png)
-
-1. 您可以添加 **[!UICONTROL 海报图像]** 指定要显示的图像，直到受众单击播放按钮为止。
-
-1. 您现在可以通过更改 **[!UICONTROL 样式]**, **[!UICONTROL 边距]** 和 **[!UICONTROL 边框]** 例如。
+1. 调整其他样式属性，如边距、边框等。 或添加链接，以将受众重定向到 **[!UICONTROL 组件设置]** 中。
 
 ## 社交 {#social}
 
-使用 **[!UICONTROL 社交]** 组件，在电子邮件中插入指向社交媒体页面的链接。
+使用 **[!UICONTROL 社交]** 组件将指向社交媒体页面的链接插入到电子邮件内容中。
 
-1. 在 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 社交]** 在 **[!UICONTROL 结构部件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 社交]** 组件 **[!UICONTROL 结构部件]**.
 
-   ![](assets/email_designer_19.png)
+1. 单击新添加的组件。
 
-1. 单击新添加的组件以开始配置 **[!UICONTROL 内容组件]** 和 **[!UICONTROL 组件设置]** 电子邮件设计工具的右侧窗格中。
-
-1. 在 **[!UICONTROL 社交]** 字段 **[!UICONTROL 组件设置]**，选择要添加或删除的社交媒体。
+1. 在 **[!UICONTROL 社交]** 字段 **[!UICONTROL 组件设置]** 窗格，选择要添加或删除的社交媒体。
 
    ![](assets/email_designer_20.png)
 
@@ -207,8 +188,4 @@ ht-degree: 0%
 
 1. 您还可以根据需要在 **[!UICONTROL 图像]** 字段。
 
-1. 您现在可以通过更改 **[!UICONTROL 样式]**, **[!UICONTROL 边距]** 和 **[!UICONTROL 边框]**.
-
-## 选件决策 {#offer-decision}
-
-使用 **[!UICONTROL 优惠决策]** 组件，将决策（以前称为选件活动）插入消息。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
+1. 调整其他样式属性，如样式、边距、边框等。 从 **[!UICONTROL 组件设置]** 中。
