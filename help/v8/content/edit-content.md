@@ -3,9 +3,9 @@ audience: end-user
 title: 编辑电子邮件内容
 description: Campaign v8 Web文档
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="创建电子邮件内容"
->abstract="热障涂层"
+>abstract="通过此部分，您可以创建电子邮件的内容，并使用Email Designer为其提供精美的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
