@@ -3,7 +3,7 @@ audience: end-user
 title: 高级设置
 description: Campaign v8 Web文档
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ba6d27bd2c98616be6432aea34afd1eeba37ea55
+source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 18%
@@ -137,7 +137,6 @@ Documentation on this part is targeted for december 2022
 
 **镜像页面管理** 包含四个选项：
 
-* 
 
 ### 跟踪 {#tracking}
 
