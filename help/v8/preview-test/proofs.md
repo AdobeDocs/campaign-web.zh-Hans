@@ -3,10 +3,10 @@ audience: end-user
 title:   发送验证
 description: Campaign v8 Web文档
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -16,12 +16,11 @@ ht-degree: 0%
 >
 >此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
-通过发送校样，您可以验证电子邮件并检查各种元素，如链接、选择退出链接和镜像页面、图像，并检测可能的错误。
+通过发送测试电子邮件，您可以验证电子邮件并检查各种元素，如链接、选择退出链接和镜像页面、图像，并检测可能的错误。
 
 校样可以发送到两种类型的收件人：
 
-* **测试用户档案/受众**:向种子地址发送验证，种子地址是数据库中不属于电子邮件目标的其他收件人，
-
+* **测试用户档案**:向种子地址发送验证，这些地址是数据库中其他虚构的收件人，
 * **替换用户档案**:使用现有用户档案向特定电子邮件地址发送校样。 这样，您就可以将自己置于用户档案的位置，并获得用户档案将收到的消息的确切呈现形式。
 
 ## 选择校样收件人 {#recipients}
@@ -38,7 +37,7 @@ ht-degree: 0%
 
 1. 添加将接收测试电子邮件的测试用户档案。
 
-   您还可以使用构建受众，以根据您自己的标准来选择测试用户档案 **[!UICONTROL 添加测试受众]** 按钮。
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ ht-degree: 0%
 
 ![](assets/send-proof.png)
 
-发送校样后，即可从 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 利用这些日志，可访问已发送的校样以及与校样发送相关的特定统计信息。
+发送所需数量的校样，直到完成投放的内容为止。 完成此操作后，您可以向主目标发送电子邮件。 [了解如何准备和发送电子邮件](../monitor/prepare-send.md)
+
+## 访问发送的校样 {#access-proofs}
+
+发送校样后，即可从 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 利用这些日志，可访问为选定投放发送的所有校样，并可视化与其发送相关的特定统计信息。
 
 ![](assets/proof-log.png)
 
-发送所需数量的校样，直到完成投放的内容为止。 完成此操作后，您可以向主目标发送电子邮件。 [了解如何准备和发送电子邮件](../monitor/prepare-send.md)
+您还可以从投放列表（如任何投放）访问校样。
+
+![](assets/delivery-list.png)

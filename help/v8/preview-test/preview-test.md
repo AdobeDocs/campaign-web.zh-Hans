@@ -3,9 +3,9 @@ audience: end-user
 title: 关于预览和校样
 description: Campaign v8 Web文档
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 为此，Adobe Campaign允许您：
 
-* [预览电子邮件内容和个性化](#preview) 使用用户档案数据，
+* [预览电子邮件内容和个性化](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [发送校样](#send-proofs) 发送给特定收件人，以测试和验证电子邮件。
@@ -28,3 +28,7 @@ ht-degree: 0%
 这些操作是从 **[!UICONTROL 模拟内容]** 按钮，在从Email Designer创建电子邮件内容时可访问该按钮：
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>单击 **[!UICONTROL 审阅并发送]** 按钮。
