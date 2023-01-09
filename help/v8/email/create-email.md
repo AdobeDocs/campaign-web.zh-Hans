@@ -3,9 +3,9 @@ audience: end-user
 title: 创建您的第一封电子邮件
 description: Campaign v8 Web文档
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -116,9 +116,11 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >列表中可用的受众源自您的Campaign V8实例，或者如果已在您的实例上实施目标/源集成，则来自Adobe Experience Platform。
+   >列表中可用的受众源自您的Campaign V8实例，或来自Adobe Experience Platform（如果已在您的实例中配置目标/源集成）。
+   >
+   >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. 选择受众后，您可以根据需要编辑其规则。
+1. 选择受众后，您可以使用其他规则优化目标。
 
    您还可以设置一个控制组，以将电子邮件收件人的行为与未定向用户档案的行为进行比较。 [了解如何与控制组合作](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ ht-degree: 1%
 
 要计划发送电子邮件，请单击 **[!UICONTROL 启用]** 然后，指定发送所需的日期和时间。
 
-默认情况下， **[!UICONTROL 发送前确认]** 选项，这意味着您需要确认在指定的日期和时间发送电子邮件。 禁用此选项，可允许在计划的日期和时间发送电子邮件，无需确认。
+默认情况下， **[!UICONTROL 发送前确认]** 选项，这意味着您需要确认发送以允许在指定的日期和时间发送电子邮件。 禁用此选项，可允许在计划的日期和时间发送电子邮件，无需确认。
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ ht-degree: 1%
 
 电子邮件准备就绪后，您可以先预览并测试该电子邮件，然后再启动其发送。
 
-在此用例中，我们将使用现有用户档案预览电子邮件，并向目标之外的测试用户档案发送校样。
+在此用例中，我们将预览电子邮件，并使用现有用户档案发送校样。
 
 有关如何预览和测试电子邮件的其他信息，请参阅 [此部分](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ ht-degree: 1%
 
 1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择将接收校样的用户档案。
 
-   在此示例中，我们希望将校样发送到特定的测试用户档案，该测试用户档案是未包含在目标中的种子地址。 [了解如何使用种子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
