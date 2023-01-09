@@ -3,7 +3,7 @@ audience: end-user
 title: 在Email Designer中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="定义模板列"
 >abstract="Email Designer允许您通过定义列结构轻松定义模板的布局。"
 
-通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
+通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在数秒内设计电子邮件的正文。
 
 要开始构建电子邮件内容，请执行以下步骤：
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 插入个性化字段以根据用户档案数据自定义电子邮件内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
 
-1. 单击 **[!UICONTROL 链接]** 选项卡，以显示要跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 标记]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
+1. 单击 **[!UICONTROL 链接]** 选项卡，以显示要跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 类别]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
