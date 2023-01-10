@@ -3,10 +3,10 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 20%
+source-wordcount: '312'
+ht-degree: 15%
 
 ---
 
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="入门"
 >abstract="发现关键功能、用户界面和全局指南。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="创建和管理任务"
->abstract="Adobe Campaign 让您可以直接在应用程序中创建任务并管理其完整的生命周期."
 
 >[!NOTE]
 >
