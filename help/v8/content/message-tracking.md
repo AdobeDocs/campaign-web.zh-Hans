@@ -3,10 +3,10 @@ audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 1%
 
 ---
 
@@ -102,3 +102,8 @@ ht-degree: 0%
    * **[!UICONTROL 镜像页面]**:将此URL视为镜像页面URL。
    * **[!UICONTROL 从不]**:从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. 添加 **[!UICONTROL 类别]** 链接，以将跟踪链接分组，然后单击 **[!UICONTROL 保存]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. 发送投放后，访问投放报告。 在 **[!UICONTROL 跟踪]** 菜单 **[!UICONTROL URL和点击流]** 报表显示投放中哪些URL的访问次数最多。 [了解详情](../reporting/reports.md)
