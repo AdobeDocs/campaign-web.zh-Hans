@@ -3,10 +3,10 @@ audience: end-user
 title: 添加受众
 description: Campaign v8 Web文档
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 4%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 2%
    此屏幕显示在Adobe Campaign控制台中或从Adobe Experience Platform定义的所有现有受众。
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans).
 
 1. 选择受众并单击 **选择**.
 

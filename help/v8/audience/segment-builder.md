@@ -3,14 +3,14 @@ audience: end-user
 title: 使用区段生成器
 description: Campaign v8 Web文档
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# 使用区段生成器 {#segment-builder}
+# 使用规则生成器定义受众 {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本节介绍如何在设计新电子邮件时创建受众。 创建的受众只能在此电子邮件中使用。
 
-区段生成器允许您通过过滤Adobe Campaign数据库中包含的数据来定义消息所定向的群体。 如果要选择现有受众，请参阅 [部分](add-audience.md).
+规则生成器允许您通过过滤数据库中包含的数据来定义消息定向的群体。 如果要选择现有受众，请参阅 [部分](add-audience.md).
 
-有关区段生成器的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+有关规则生成器的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 要在设计电子邮件时创建新受众，请执行以下步骤：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder0.png)
 
-1. 选择 **创建您自己的**. 此时会显示区段生成器。
+1. 选择 **创建您自己的**. 将显示规则生成器。
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ ht-degree: 0%
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **受众**:利用此选项卡，可使用“Campaign Classic”控制台中定义的现有受众之一进行过滤。
+* **受众**:利用此选项卡，可使用在“Campaign Classic”控制台中或从Adobe Experience Platform中定义的现有受众之一进行过滤。
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans).
 
 您可以使用搜索栏快速查找元素。
 
@@ -87,7 +91,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder10.png)
 
-1. 单击 **查看结果** 以显示与查询匹配的收件人列表和数量。
+1. 单击 **查看结果** 以显示与查询匹配的收件人列表和数量。 您还可以添加列以可视化和检查数据。 在本例中，将 **城市** 列中，应该可以看到亚特兰大和西雅图。
 
    ![](assets/segment-builder11.png)
 

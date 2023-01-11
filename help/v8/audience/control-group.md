@@ -3,10 +3,10 @@ audience: end-user
 title: 设置控制组
 description: Campaign v8 Web文档
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 46%
+source-wordcount: '463'
+ht-degree: 45%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 46%
 
    ![](assets/control-group.png)
 
-* **按属性排名**:此选项允许您根据一个或多个排序顺序定义限制。
+* **按属性排名**:利用此选项，可根据特定排序顺序中的特定属性排除一组配置文件。
 
    ![](assets/control-group2.png)
 
