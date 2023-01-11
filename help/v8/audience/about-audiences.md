@@ -3,9 +3,9 @@ audience: end-user
 title: 关于受众
 description: 关于受众
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 7%
 
 ---
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-在此部分中，您将学习如何定义电子邮件的受众。 这是您投放的目标，即接收电子邮件的收件人。 受众类型取决于目标映射。
+在此部分中，您将学习如何定义电子邮件的受众。 这是您投放的目标，即接收电子邮件的收件人。 受众类型取决于投放模板中定义的目标映射。 请参阅 [部分](../email/create-email.md).
 
 要定义受众，您可以：
 

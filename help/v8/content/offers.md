@@ -3,7 +3,7 @@ audience: end-user
 title: 发送选件
 description: 发送选件
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
-Adobe Campaign v8 web允许您随在控制台中使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign V8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign V8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 
 通过电子邮件发送选件的步骤如下所示：
 

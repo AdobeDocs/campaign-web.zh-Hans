@@ -3,7 +3,7 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ### 主页
 
-此屏幕包括快速访问Campaign v8主要Web功能的关键链接和资源。 的 **收件人** 列表提供了最近创建和修改的投放的快捷方式。 此列表显示了其创建和修改日期及状态。
+此屏幕包括快速访问Campaign v8 Web主要功能的关键链接和资源。 的 **收件人** 列表提供了最近创建和修改的投放的快捷方式。 此列表显示了其创建和修改日期及状态。
 
 <!--
 * Banner
@@ -54,7 +54,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-从主页的下部访问Campaign v8网关键帮助页。
+从主页的下部访问Campaign v8 Web键帮助页面。
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-还提供了入门指南，以帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
+此外，还提供入门指南，帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
