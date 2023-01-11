@@ -3,9 +3,9 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 15%
 
 ---
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-除了控制台提供的所有现有功能之外，我们还构建了一个Web界面，为实践者提供集成、直观和一致的用户体验。
+除了控制台提供的所有现有功能外，我们还构建了基于Web的新式用户界面，以简化营销活动设计和交付，并与Adobe Experience Platform本机应用程序体验保持一致。
 
 ## Alpha 功能
 
-此基于Web的现代化界面目前仅适用于具有以下功能的Alpha从业者：
+此Web界面当前仅供具有以下功能的Alpha从业者使用：
 
 **现代、直观、统一的体验**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **创建、启动和衡量电子邮件促销活动**
 
 * 使用电子邮件编辑器设计个性化电子邮件内容
-* 使用区段生成器定义受众
+* 使用区段生成器定义目标受众
 * 预览、测试和发送电子邮件
 * 使用内置报告监控发送和测量结果
 

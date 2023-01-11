@@ -3,9 +3,9 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="界面"
 >abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
 
-新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。
+新的Campaign v8 Web界面提供了现代、集成且直观的用户体验，以简化工作流、营销活动设计和交付，并与Adobe Experience Platform本机应用程序体验保持一致。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
