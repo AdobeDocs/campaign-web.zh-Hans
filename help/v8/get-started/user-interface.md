@@ -3,9 +3,9 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="界面"
 >abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
 
-新的Campaign v8 Web界面提供了现代、集成且直观的用户体验，以简化工作流、营销活动设计和交付，并与Adobe Experience Platform本机应用程序体验保持一致。
+新的Campaign v8 Web界面提供了现代且直观的用户体验，以简化营销活动的设计和交付。 此新界面已与Adobe Experience Platform集成。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左侧导航菜单
 
-浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。
+浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。 所有列表在测试版和GA版本中都将可编辑。 左侧导航菜单中显示的项目取决于您的用户权限。
 
 ![](assets/home.png)
 
 ### 主页
 
-此屏幕包括快速访问Campaign v8主要Web功能的关键链接和资源。 的 **收件人** 列表提供了最近创建投放的快捷方式。 此列表显示了其创建和修改日期及状态。
+此屏幕包括快速访问Campaign v8主要Web功能的关键链接和资源。 的 **收件人** 列表提供了最近创建和修改的投放的快捷方式。 此列表显示了其创建和修改日期及状态。
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 通过界面的顶栏，您可以：
 
-* 作为Alpha客户分享您的反馈
-* 在IMS组织之间切换
+* 作为Alpha测试器分享您的反馈
+* 在组织和实例之间切换
 * 在Adobe Experience Cloud应用程序之间切换
 * 访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
