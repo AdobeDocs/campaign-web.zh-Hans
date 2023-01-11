@@ -3,10 +3,10 @@ audience: end-user
 title: 设置控制组
 description: Campaign v8 Web文档
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 45%
+source-wordcount: '545'
+ht-degree: 38%
 
 ---
 
@@ -56,6 +56,28 @@ ht-degree: 45%
 
 然后，定义 **大小限制**:您必须设置如何限制从主目标提取的用户档案数。
 
+**示例**
+
+您可以查看日志以检查和识别排除的用户档案。 让我们举一个随机排除五个用户档案的示例。
+
+![](assets/control-group4.png)
+
+在投放准备之后，您可以在以下屏幕上查看排除项：
+
+* 的 **排除** 投放仪表板中的KPI（发送之前）。
+
+   ![](assets/control-group5.png)
+
+* 的 **排除日志** 显示每个用户档案和相关扩展 **原因**.
+
+   ![](assets/control-group6.png)
+
+* 的 **排除原因** 显示每个分类规则的排除配置文件数。
+
+   ![](assets/control-group7.png)
+
+有关投放日志的更多信息，请参阅 [部分](../monitor/delivery-logs.md).
+
 ## 额外人群 {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ ht-degree: 45%
 
 * 要使用现有受众，请单击 **选择受众**. 请参阅 [部分](add-audience.md).
 
-* 要定义新查询，请选择 **创建您自己的** 和使用区段生成器定义排除条件。 请参阅 [部分](segment-builder.md).
+* 要定义新查询，请选择 **创建您自己的** 和使用规则生成器定义排除条件。 请参阅 [部分](segment-builder.md).
 
 目标中将排除受众中包含的或与查询结果匹配的用户档案。

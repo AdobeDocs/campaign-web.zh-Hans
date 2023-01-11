@@ -3,7 +3,7 @@ audience: end-user
 title: 创建您的第一封电子邮件
 description: Campaign v8 Web文档
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 1%
@@ -104,7 +104,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定义受众"
->abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，或从Adobe Experience Platform中选择，也可以选择使用区段生成器创建新受众。"
+>abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，或从Adobe Experience Platform中选择，也可以选择使用规则生成器创建新受众。"
 
 在此用例中，我们将向现有受众发送电子邮件。 有关如何使用受众的其他信息，请参阅 [此部分](../audience/about-audiences.md).
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 添加受众
 description: Campaign v8 Web文档
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
    ![](assets/create-audience3.png)
 
-1. 使用区段生成器，您可以使用其他过滤器或通过组合不同的受众来扩充您的受众。 请参阅 [部分](segment-builder.md).
+1. 使用规则生成器，您可以使用其他过滤器或通过组合不同的受众来扩充您的受众。 请参阅 [部分](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 准备和发送电子邮件
 description: Campaign v8 Web文档
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -60,7 +60,7 @@ send also KPIs
    * **交付**:要发送的消息数
    * **排除**:分类规则排除的消息数
 
-1. 单击 **日志** 按钮，并检查没有错误。 最后一个日志消息显示所有错误消息和错误数。 有关更多信息，请参阅[此章节](#send)。
+1. 单击 **日志** 按钮，并检查没有错误。 最后一个日志消息显示所有错误消息和错误数。 有关更多信息，请参阅[此章节](delivery-logs.md)。
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ send also KPIs
 
    ![](assets/send.png)
 
-1. 将显示发送进度。 检查显示的KPI。 您还可以检查日志。 有关更多信息，请参阅[此章节](#send)。
+1. 将显示发送进度。 检查显示的KPI。 您还可以检查日志。 有关更多信息，请参阅[此章节](delivery-logs.md)。
 
    ![](assets/send2.png)
 
