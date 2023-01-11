@@ -3,18 +3,16 @@ audience: end-user
 title: 在Email Designer中添加前标
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # 添加前标 {#preheader}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

@@ -3,23 +3,21 @@ audience: end-user
 title: 关于受众
 description: 关于受众
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 7%
+source-wordcount: '117'
+ht-degree: 8%
 
 ---
 
 # 关于受众 {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="受众入门"
 >abstract="了解如何管理电子邮件内容的受众。"
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 <!--
 Audience only created for the delivery, not available later-->

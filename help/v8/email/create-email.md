@@ -3,18 +3,16 @@ audience: end-user
 title: 创建您的第一封电子邮件
 description: Campaign v8 Web文档
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
 
 # 发送您的第一封电子邮件 {#first-email}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 此用例介绍如何创建您的第一封电子邮件。 我们将安排在特定日期向银牌和金牌忠诚客户发送电子邮件。 此电子邮件将使用预定义的模板进行设计，并将包含使用用户档案属性的个性化。
 

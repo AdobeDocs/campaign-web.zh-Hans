@@ -3,14 +3,16 @@ audience: end-user
 title: 发送选件
 description: 发送选件
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # 发送选件 {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="选件高级设置"
 >abstract="热障涂层"
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign V8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 

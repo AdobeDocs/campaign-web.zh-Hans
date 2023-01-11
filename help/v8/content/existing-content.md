@@ -3,18 +3,16 @@ audience: end-user
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
 
 # 导入电子邮件内容 {#existing-content}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 电子邮件设计器允许您导入现有HTML内容。 此内容可以是：
 

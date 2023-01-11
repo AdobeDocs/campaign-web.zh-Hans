@@ -3,18 +3,16 @@ audience: end-user
 title: 电子邮件样式入门
 description: 了解调整电子邮件内容样式的不同方法
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # 电子邮件样式入门 {#get-started-email-style}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 开始在 [!DNL Journey Optimizer]，则可以从“Email Designer”设置窗格中调整许多样式参数和属性。
 

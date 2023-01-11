@@ -3,9 +3,9 @@ audience: end-user
 title: 高级设置
 description: Campaign v8 Web文档
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1222'
 ht-degree: 22%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 22%
 # 高级设置 {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 这些设置包括 **技术交付参数** 在电子邮件模板中定义的附加内容。 如果要为特定投放修改其中的任何内容，请谨慎继续。
 

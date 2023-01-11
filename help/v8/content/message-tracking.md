@@ -3,18 +3,16 @@ audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # 添加链接和跟踪消息 {#tracking}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 使用Email designer添加指向内容的链接并跟踪发送的消息，以监控收件人的行为。
 

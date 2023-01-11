@@ -3,18 +3,16 @@ audience: end-user
 title:   发送验证
 description: Campaign v8 Web文档
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 #   发送验证 {#send-proofs}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 通过发送测试电子邮件，您可以验证电子邮件并检查各种元素，如链接、选择退出链接和镜像页面、图像，并检测可能的错误。
 

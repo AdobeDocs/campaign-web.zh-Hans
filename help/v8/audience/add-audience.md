@@ -3,23 +3,21 @@ audience: end-user
 title: 添加受众
 description: Campaign v8 Web文档
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '240'
 ht-degree: 4%
 
 ---
 
 # 选择受众 {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="选择现有受众"
 >abstract="受众在Adobe Campaign v8控制台中定义。 如果您有可用的Adobe Experience Platform集成，则还应该能够查看平台定义的受众。"
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 本节将介绍在定义电子邮件投放的目标群体时如何选择现有受众。 如果要创建新受众，请参阅 [部分](segment-builder.md).
 

@@ -3,14 +3,16 @@ audience: end-user
 title: 编辑电子邮件内容
 description: Campaign v8 Web文档
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # 编辑电子邮件内容 {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="跟踪选项"
 >abstract="热障涂层"
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 要开始创建电子邮件的内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 

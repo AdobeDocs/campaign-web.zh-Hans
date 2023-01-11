@@ -3,18 +3,16 @@ audience: end-user
 title: 添加内联样式属性
 description: 了解如何添加内联样式属性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
 # 添加内联样式属性 {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 在Email Designer界面中，当您选择某个元素并在右侧窗格中显示其设置时，可以自定义该特定元素的内联属性及其值。
 

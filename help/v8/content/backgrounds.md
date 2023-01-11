@@ -3,18 +3,16 @@ audience: end-user
 title: 个性化您的电子邮件背景
 description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # 个性化您的电子邮件背景 {#backgrounds}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

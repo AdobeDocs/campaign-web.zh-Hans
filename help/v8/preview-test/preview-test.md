@@ -3,18 +3,16 @@ audience: end-user
 title: 关于预览和校样
 description: Campaign v8 Web文档
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # 关于预览和校样 {#about-preview-proofs}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 定义电子邮件内容后，您可以在发送内容之前检查其显示方式。 这允许您测试电子邮件，以检测内容或个性化设置中可能出现的错误。
 

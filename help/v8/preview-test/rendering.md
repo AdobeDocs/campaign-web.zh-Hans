@@ -3,18 +3,16 @@ audience: end-user
 title: 测试电子邮件渲染
 description: Campaign v8 Web文档
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # 测试电子邮件渲染 {#rendering}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 在发送电子邮件之前，请确保以最佳方式在各种Web客户端、Web邮件和设备上向收件人显示您的消息。
 

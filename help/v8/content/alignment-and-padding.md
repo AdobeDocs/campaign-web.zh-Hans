@@ -3,18 +3,16 @@ audience: end-user
 title: 在Email Designer中调整垂直对齐和内边距
 description: 了解如何调整垂直对齐和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
 # 调整垂直对齐和内边距 {#alignment-and-padding}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 在此示例中，我们将调整由三列组成的结构组件内的填充和垂直对齐方式。
 

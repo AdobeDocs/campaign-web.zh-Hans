@@ -3,23 +3,21 @@ audience: end-user
 title: 预览电子邮件内容
 description: Campaign v8 Web文档
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # 预览电子邮件内容 {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="智能预览内容"
 >abstract="Adobe Campaign允许您在发送之前使用用户档案预览电子邮件的内容，以检查个性化以及收件人的查看方式。"
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 Adobe Campaign允许您在发送之前使用用户档案预览电子邮件的内容，以检查个性化以及收件人的查看方式。
 

@@ -3,18 +3,16 @@ audience: end-user
 title: 为链接定义样式
 description: 了解如何定义链接的样式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 # 为链接定义样式 {#styling-links}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 您可以在Email Designer中为链接加下划线并选择其颜色和目标。
 

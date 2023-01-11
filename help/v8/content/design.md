@@ -2,18 +2,16 @@
 audience: end-user
 title: 使用Email Designer
 description: Campaign v8 Web文档
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---
 
 # 使用Email Designer {#email-designer}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 
 

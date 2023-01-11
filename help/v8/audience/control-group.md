@@ -3,18 +3,14 @@ audience: end-user
 title: 设置控制组
 description: Campaign v8 Web文档
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 38%
+source-wordcount: '526'
+ht-degree: 40%
 
 ---
 
 # 设置控制组 {#control-group}
-
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
 
 您可以使用控制组避免向部分受众发送消息，以便衡量活动的影响。
 

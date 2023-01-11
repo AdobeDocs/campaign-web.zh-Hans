@@ -3,18 +3,16 @@ audience: end-user
 title: 使用区段生成器
 description: Campaign v8 Web文档
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # 使用规则生成器定义受众 {#segment-builder}
 
->[!NOTE]
->
->此文档正在构建中并且经常更新。 此内容的最终版本将于2023年1月准备就绪。
+![](../assets/do-not-localize/badge.png)
 
 本节介绍如何在设计新电子邮件时创建受众。 创建的受众只能在此电子邮件中使用。
 
