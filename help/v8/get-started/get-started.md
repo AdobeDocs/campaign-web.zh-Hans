@@ -3,10 +3,10 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 15%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-除了控制台提供的所有现有功能之外，我们还构建了基于Web的新式用户界面，以简化营销活动设计和交付，并与Adobe Experience Platform保持一致。
+最初只能通过富人 [客户端控制台](#ac-client), Campaign现在提供新的Web用户界面，以增强可用性、辅助功能，以及可显着改进用户体验的新设计。 这款新的现代UI简化了营销活动的设计和交付，并使其与包括Adobe Experience Platform在内的其他Adobe解决方案保持一致。
 
-## Alpha 功能
 
-此Web界面当前仅供具有以下功能的Alpha从业者使用：
+![](assets/home.png)
 
-**现代、直观、统一的体验**
+此新UI首先满足 **业务从业者**  — 所有典型的管理任务在此第一个版本中不可用，但将在后续版本中处理。 请注意，客户端控制台中提供的每个功能或选项目前并非在新的UI中都可用。 未来版本中将提供新用例、选项和功能。
 
-* 通过单个共享用户会话访问新界面和其他应用程序
-* 统一Shell集成：访问社区学习、帮助中心、解决方案切换器
-<!--
-No search and pulse notifications in Alpha
--->
-* 使用左侧菜单和文件夹体验新导航
+如果您需要访问Web UI中不可用的Campaign v8功能，则可以使用 [客户端控制台](#ac-client).
 
-**创建、启动和衡量电子邮件促销活动**
+## 关于Campaign客户端控制台{#ac-client}
 
-* 与电子邮件设计人员设计个性化电子邮件内容
-* 使用规则生成器定义目标受众
-* 预览、测试和发送电子邮件
-* 使用内置报告监控发送和测量结果
+Campaign客户端控制台是基于浏览器的应用程序，安装在您的系统上。 它使用Web服务API连接到Campaign应用程序服务器。
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+了解如何在 [此部分](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->请注意，测试版计划中将提供跨渠道营销活动和工作流管理功能。
+有关如何使用Campaign v8的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}.
 
-## 客户端控制台
-
-如果您需要使用Web UI中不可用的Campaign v8功能，则可以使用客户端控制台。 有关如何使用Campaign v8的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans).
-
-数据在控制台和Web UI之间共享。 例如，如果您使用控制台创建了投放模板，则该模板将在Web界面中可用。
+Campaign数据存储在应用程序服务器中。 数据可从客户端控制台和Web UI中使用。 例如，如果您使用客户端控制台创建投放模板，则该模板也可在Web UI中使用。 如果您在Web UI中创建电子邮件投放，则也可以从客户端控制台访问此投放。
 
 ## 连接到 Campaign
 
 ![](assets/connect.png)
 
-1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com).
+1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. 使用您的Adobe凭据登录。
 1. 在 **快速访问** ，单击 **Campaign**.
+1. 在下一页中，单击 **Launch** 按钮。
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
