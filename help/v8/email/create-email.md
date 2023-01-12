@@ -3,9 +3,9 @@ audience: end-user
 title: 创建您的第一封电子邮件
 description: Campaign v8 Web文档
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 0%
 
 1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择将接收校样的用户档案。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   在此示例中，我们希望将校样发送到特定的测试用户档案，该测试用户档案是未包含在目标中的种子地址。 了解如何在中使用种子地址 [Campaign Classicv7文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
