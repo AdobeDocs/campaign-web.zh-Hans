@@ -3,7 +3,7 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 12%
@@ -51,11 +51,12 @@ Campaign数据存储在应用程序服务器中。 数据可从客户端控制�
 
 ## 连接到 Campaign
 
-![](assets/connect.png)
 
 1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. 使用您的Adobe凭据登录。
 1. 在 **快速访问** ，单击 **Campaign**.
+   ![](assets/connect.png)
+
 1. 在下一页中，单击 **Launch** 按钮。
 
 <!--
