@@ -3,9 +3,9 @@ audience: end-user
 title: 编辑电子邮件内容
 description: Campaign v8 Web文档
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    <!--limitation on size + number of files?-->
 
-1. 默认情况下，会为打开数和点击数启用电子邮件跟踪。 要禁用这些选项，请从 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
+1. 默认情况下，会为投放启用跟踪。 您可以从 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
 
 定义电子邮件的内容后，使用 **[!UICONTROL 模拟内容]** 按钮以在发送前检查其显示方式。 [了解如何预览和测试电子邮件](../preview-test/preview-test.md)
 
