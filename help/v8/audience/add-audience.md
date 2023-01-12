@@ -3,7 +3,7 @@ audience: end-user
 title: 添加受众
 description: Campaign v8 Web文档
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 4%
@@ -33,7 +33,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans).
+   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
 
 1. 选择受众并单击 **选择**.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 创建您的第一封电子邮件
 description: Campaign v8 Web文档
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 1%
+source-wordcount: '1153'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >模板是特定的投放配置，已另存为模板以便重复使用。 投放模板由Adobe Campaign控制台中的管理员用户配置。 [了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hans){target=&quot;_blank&quot;}
+   >模板是特定的投放配置，已另存为模板以便重复使用。 投放模板由Adobe Campaign控制台中的管理员用户配置。 [了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ ht-degree: 1%
    >
    >列表中可用的受众源自您的Campaign V8实例，或来自Adobe Experience Platform（如果已在您的实例中配置目标/源集成）。
    >
-   >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 选择受众后，您可以使用其他规则优化目标。
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择将接收校样的用户档案。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

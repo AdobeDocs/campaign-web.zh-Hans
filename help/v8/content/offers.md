@@ -3,7 +3,7 @@ audience: end-user
 title: 发送选件
 description: 发送选件
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >title="选件高级设置"
 >abstract="热障涂层"
 
-Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign V8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 通过电子邮件发送选件的步骤如下所示：
 

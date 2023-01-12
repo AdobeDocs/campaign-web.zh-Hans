@@ -3,7 +3,7 @@ audience: end-user
 title: 使用区段生成器
 description: Campaign v8 Web文档
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans).
+   >要利用Adobe Experience Platform受众，您需要配置与目标的集成。 请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
 
 您可以使用搜索栏快速查找元素。
 

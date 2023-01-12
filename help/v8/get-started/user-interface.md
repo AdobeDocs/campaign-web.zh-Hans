@@ -3,10 +3,10 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Global report not alpha
 
 与在任何列表屏幕中一样，您可以配置列以个性化显示，以查看所需的所有信息。 请参阅 [部分](#list-screens).
 
-有关Campaign资源管理器的详细信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+有关Campaign资源管理器的详细信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **促销活动**  — 这是营销活动列表。 默认情况下，您可以查看其开始/结束/上次修改日期及其状态。 您可以按状态或开始/结束日期过滤列表。 营销活动模板也可用。 这些列表是只读的。
 
-* **投放**  — 浏览投放列表。 默认情况下，您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板，以获取投放详细信息的概述。 其他渠道上的投放为只读。 投放模板也以只读模式提供。 您可以使用客户端控制台来编辑它们。 请参阅 [文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hans).
+* **投放**  — 浏览投放列表。 默认情况下，您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板，以获取投放详细信息的概述。 其他渠道上的投放为只读。 投放模板也以只读模式提供。 您可以使用客户端控制台来编辑它们。 请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### 客户管理
 

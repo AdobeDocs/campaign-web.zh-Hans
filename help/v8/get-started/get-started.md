@@ -3,9 +3,9 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -58,6 +58,7 @@ Campaign数据存储在应用程序服务器中。 数据可从客户端控制�
    ![](assets/connect.png)
 
 1. 在下一页中，单击 **Launch** 按钮。
+您现在已连接到Campaign。 了解如何开始使用 [本页](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
