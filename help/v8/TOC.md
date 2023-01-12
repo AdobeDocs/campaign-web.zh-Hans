@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 11%
+source-wordcount: '168'
+ht-degree: 10%
 
 ---
 
@@ -54,5 +54,5 @@ ht-degree: 11%
 + 发送并监视电子邮件 {#monitor}
    + [准备和发送电子邮件](monitor/prepare-send.md)
    + [监控投放日志](monitor/delivery-logs.md)
+   + [电子邮件投放设置](advanced-settings/delivery-settings.md)
 + [报告](reporting/reports.md)
-+ [高级设置](advanced-settings/delivery-settings.md)
