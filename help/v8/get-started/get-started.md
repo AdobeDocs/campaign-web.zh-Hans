@@ -3,7 +3,7 @@ audience: end-user
 title: 入门
 description: Campaign v8 Web文档
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 12%
@@ -30,7 +30,7 @@ only existing customers
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-最初只能通过富人 [客户端控制台](#ac-client), Campaign现在提供新的Web用户界面，以增强可用性、辅助功能，以及可显着改进用户体验的新设计。 这款新的现代UI简化了营销活动的设计和交付，并使其与包括Adobe Experience Platform在内的其他Adobe解决方案保持一致。
+最初只能通过富人 [客户端控制台](#ac-client), Campaign现在提供新的Web用户界面，以增强可用性、辅助功能，以及可显着改进用户体验的新设计。 这款新的现代UI简化了营销活动的设计和交付，并与包括Adobe Experience Platform在内的其他Adobe解决方案保持一致。
 
 
 ![](assets/home.png)
