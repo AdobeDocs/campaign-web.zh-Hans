@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 * 插入动态 **个性化字段**
 
-   个性化字段用于消息的一级个性化。 您可以从个性化编辑器中选择数据库中可用的任何字段。 对于投放，您可以选择与收件人、消息或投放相关的任何字段。 这些个性化属性可插入到消息的主题行或正文中。
+   个性化字段用于消息的一级个性化。 您可以从个性化编辑器中选择数据库中可用的任何字段。 对于投放，您可以选择与收件人、消息或投放相关的任何字段。 这些个性化属性可插入到邮件的主题行或正文中。
 
    ![](assets/perso-subject-line.png)
 
-   上述语法可在内容中插入收件人的城市：&lt;%= recipient.location.city %>。
+   以下语法可在内容中插入收件人的城市：&lt;%= recipient.location.city %>。
 
 * 插入预定义 **内容块**
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 单击 **打开个性化对话框** 图标 **主题行** 字段。
 1. 输入主题行内容并选择要添加的个性化属性。
-1. 单击确认以验证。 个性化属性会添加到主题行。
+1. 单击 **确认** 验证。 个性化属性会添加到主题行。
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 
 ## 个性化您的选件 {#personalize-offers}
 
-在将文本类型内容添加到选件的表示时，您还可以访问个性化编辑器。
+在将文本类型内容添加到选件的表示时，您还可以访问个性化编辑器。 在 [此部分](../content/offers.md).
