@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 从 **[!UICONTROL 投放]** 菜单。
 
-1. 选择 **[!UICONTROL 电子邮件]** 渠道和模板，然后单击 **[!UICONTROL 创建]**.
+1. 选择 **[!UICONTROL 电子邮件]** 渠道和模板，然后单击 **[!UICONTROL 创建投放]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ ht-degree: 0%
    * **[!UICONTROL 提交代码]**:使用此字段根据您自己的命名约定组织投放，
    * **[!UICONTROL 描述]**:为投放指定描述，
    * **[!UICONTROL 自然]**:为分类目的指定电子邮件的性质。<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >如果您已使用特定自定义字段扩展了架构，则可以从 **[!UICONTROL 自定义选项]** 中。
@@ -79,7 +78,7 @@ ht-degree: 0%
 
    选择用于创建电子邮件内容的方法。 在此示例中，我们希望使用现有设计模板。
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ ht-degree: 0%
 
    ![](assets/add-perso.png)
 
-1. 准备好内容后，保存该内容，然后单击箭头以返回到电子邮件创建屏幕。
+1. 内容准备就绪后，保存并关闭您的设计，然后单击 **[!UICONTROL 保存]** 返回到电子邮件创建屏幕。
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ ht-degree: 0%
 
    您还可以设置一个控制组，以将电子邮件收件人的行为与未定向用户档案的行为进行比较。 [了解如何与控制组合作](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## 计划发送 {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ ht-degree: 0%
 
 电子邮件准备就绪后，您可以先预览并测试该电子邮件，然后再启动其发送。
 
-在此用例中，我们将预览电子邮件，并使用现有用户档案发送校样。
+在此用例中，我们将预览电子邮件，并将校样发送到特定的电子邮件地址，同时模拟某些目标用户档案。
 
 有关如何预览和测试电子邮件的其他信息，请参阅 [此部分](../preview-test/preview-test.md).
 
-1. 单击 **[!UICONTROL 审阅以发送]**. 此时会显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以使用修改按钮编辑其中的任何元素。
+1. 单击 **[!UICONTROL 审阅并发送]**. 此时会显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以使用修改按钮编辑其中的任何元素。
 
 1. 单击 **[!UICONTROL 模拟内容]** 按钮以预览电子邮件并发送校样。
 
@@ -159,21 +160,25 @@ ht-degree: 0%
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择将接收校样的用户档案。
+1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择用于发送校样的模式。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   在此示例中，我们将使用主目标模式中的“替换”，这意味着我们将向特定电子邮件地址发送校样，同时模拟投放所定向的某些用户档案。
 
-   在此示例中，我们希望将校样发送到特定的测试用户档案，该测试用户档案是未包含在目标中的种子地址。 了解如何在中使用种子地址 [Campaign Classicv7文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. 单击添加地址，然后指定将接收校样的电子邮件地址。
+
+   对于每个电子邮件地址，从目标中选择要模拟的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >您还可以通过模拟某些定向的用户档案并将校样消息发送到所选的电子邮件地址来测试消息。 [了解如何发送校样](../preview-test/preview-test.md)
-
 1. 单击 **[!UICONTROL 发送测试电子邮件]** 然后确认发送。
 
-   发送校样后，您可以单击 **[!UICONTROL 查看测试电子邮件日志]** 按钮。
+   使用选定的用户档案将校样发送到指定的电子邮件地址，其中包含 **[校样x]** 前缀。
+
+   ![](assets/proof-sent.png)
+
+   您可以随时检查发送状态，并通过单击 **[!UICONTROL 查看测试电子邮件日志]** 按钮。
 
 ## 发送并监视电子邮件 {#prepare-send}
 
@@ -183,11 +188,15 @@ ht-degree: 0%
 
    ![](assets/preparation.png)
 
-1. 准备好发送电子邮件后，单击 **[!UICONTROL 发送]** 然后确认发送。
+1. 准备好发送电子邮件后，单击 **[!UICONTROL 发送]** 或 **[!UICONTROL 按计划发送]** 然后确认发送。
 
-   您可以实时跟踪发送情况以及统计信息。 此外， **[!UICONTROL 日志]** 按钮，可访问有关电子邮件发送的详细信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. 发送电子邮件开始后（立即或在计划日期），您可以在此屏幕中实时跟踪其发送情况以及统计信息。
 
-1. 发送电子邮件后，您可以访问专用 [报告](../reporting/reports.md) 供进一步分析之用。
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >此外， **[!UICONTROL 日志]** 按钮，可访问有关电子邮件发送的详细信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
+
+1. 发送电子邮件后，您可以访问专用报告以进行进一步分析。 [了解如何使用报表](../reporting/reports.md)
    ![](assets/reports.png)
