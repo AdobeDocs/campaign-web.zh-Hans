@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 设置控制组
-description: Campaign v8 Web文档
+description: 了解如何在Campaign Web UI中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 40%
+source-wordcount: '536'
+ht-degree: 39%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 创建您的第一封电子邮件
-description: Campaign v8 Web文档
+title: 发送您的第一封电子邮件
+description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 报告
-description: Campaign v8 Web文档
+title: 投放报告
+description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# 报告 {#reports}
+# 投放报告 {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

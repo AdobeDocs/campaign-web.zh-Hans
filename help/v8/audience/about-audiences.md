@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 关于受众
-description: 关于受众
+title: 受众入门
+description: 了解如何在Campaign Web UI中使用受众
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 8%
+source-wordcount: '128'
+ht-degree: 9%
 
 ---
 
-# 关于受众 {#about-audiences}
+# 受众入门 {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
