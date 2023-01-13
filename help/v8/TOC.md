@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 10%
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 10%
       + [为链接定义样式](content/styling-links.md)
       + [添加内联样式属性](content/inline-styling.md)
    + 个性化您的内容 {#personalize}
-      + [个性化入门](personalization/personalize.md)
+      + [添加个性化内容](personalization/personalize.md)
    + [发送选件](content/offers.md)
 + 选择电子邮件受众 {#audience}
    + [关于受众](audience/about-audiences.md)
