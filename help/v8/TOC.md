@@ -5,7 +5,7 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
+source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # Adobe Campaign v8 Web文档 {#v8}
 
-+ [Campaign Web v8文档](campaign-web-home.md)
++ [Campaign v8 Web文档](campaign-web-home.md)
 + 新增功能 {#whats-new}
    + [最新发行说明](rn/release-notes.md)
    + [文档更新](rn/documentation-updates.md)
