@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8发行说明
 description: Campaign Web v8发行说明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 6f9c5d039a2bc2b3e5ee9359311184c8d5cb6a28
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
