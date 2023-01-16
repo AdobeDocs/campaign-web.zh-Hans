@@ -3,9 +3,9 @@ audience: end-user
 title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 22%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 22%
 
 ## 排除项
 
-的 **排除日志** 选项卡列出了从定向发送中排除的所有消息，并说明了发送失败的原因。
+的 **排除日志** 选项卡列出了从目标中排除的所有消息，并说明了发送失败的原因。
 
 ![](assets/logs3.png)
 
 ## 排除原因
 
-的 **排除原因** 选项卡显示从目标发送中排除的消息量（消息数）。
+的 **排除原因** 选项卡显示从目标中排除的消息量（消息数）。
 
 ![](assets/logs4.png)
 

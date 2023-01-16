@@ -3,7 +3,7 @@ audience: end-user
 title: 使用规则生成器定义受众
 description: 了解如何使用Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **查看结果：** 显示受众定向的收件人列表
+* **查看结果：** 显示受众定向的收件人列表。
 * **代码视图**:在SQL中显示基于代码的受众版本。
 * **显示高级属性**:如果要查看左侧面板中的完整属性列表，请勾选此选项：节点、分组、1-1链接、1-N链接。
 * **属性**:显示已创建受众的描述。

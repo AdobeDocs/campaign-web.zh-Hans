@@ -3,7 +3,7 @@ audience: end-user
 title: 准备和发送电子邮件
 description: 了解如何使用Campaign Web UI准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 4%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 准备发送{#prepare}
 
-定义内容、受众和计划后，您就可以准备消息。 在准备期间，将计算目标群体以及为目标中包含的每个用户档案生成的消息内容。 准备完成后，即可立即发送消息，或者在计划的日期和时间发送消息。 分析过程中使用的验证规则如下所述 [Campaign Classicv7文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+定义内容、受众和计划后，您就可以准备消息。 在准备期间，将计算目标群体以及为目标中包含的每个用户档案生成的消息内容。 准备完成后，即可立即发送消息，或者在计划的日期和时间发送消息。 分析过程中使用的验证规则在 [Campaign Classicv7文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 按照下面的步骤进行操作：
 

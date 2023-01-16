@@ -3,7 +3,7 @@ audience: end-user
 title: 设置控制组
 description: 了解如何在Campaign Web UI中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 39%
@@ -64,11 +64,11 @@ ht-degree: 39%
 
    ![](assets/control-group5.png)
 
-* 的 **排除日志** 显示每个用户档案和相关扩展 **原因**.
+* 的 **排除日志** 显示每个用户档案和相关排除 **原因**.
 
    ![](assets/control-group6.png)
 
-* 的 **排除原因** 显示每个分类规则的排除配置文件数。
+* 的 **排除原因** 显示每个分类规则的已排除配置文件数。
 
    ![](assets/control-group7.png)
 
