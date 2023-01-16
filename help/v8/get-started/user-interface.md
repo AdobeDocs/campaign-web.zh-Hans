@@ -3,9 +3,9 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="界面"
+>title="了解界面"
 >abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
 
 新的Campaign v8 Web界面提供了现代且直观的用户体验，以简化营销活动的设计和交付。 此新界面已与Adobe Experience Platform集成。

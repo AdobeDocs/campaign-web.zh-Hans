@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="了解如何使用Email Designer设计电子邮件内容。"
->abstract="了解如何设计内容"
+>title="了解如何设计电子邮件内容"
+>abstract="了解如何使用Email Designer。"
 
 在此用例中，我们将使用预定义的模板来设计电子邮件。
 
