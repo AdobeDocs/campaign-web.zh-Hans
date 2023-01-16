@@ -3,9 +3,9 @@ audience: end-user
 title: 发送选件
 description: 发送选件
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,13 @@ Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交
 
 ## 配置要建议的选件 {#configure}
 
-要选择要在电子邮件中建议的选件，请单击 **[!UICONTROL 选件]** 按钮，然后配置要建议的选件。
+1. 要选择要在电子邮件中建议的选件，请单击 **[!UICONTROL 选件]** 按钮。
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. 选择 **[!UICONTROL 选件空间]** 与选件环境匹配的选件。
+1. 配置应向收件人建议的选件。 首先，选择 **[!UICONTROL 选件空间]** 与选件环境匹配的选件。
+
+   ![](assets/create-content-offers.png)
 
 1. 要优化引擎的选件选择，请选择 **[!UICONTROL 选件类别]** 其中选件进行了排序。
 
@@ -67,10 +69,10 @@ Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交
 
 ## 将选件插入电子邮件 {#insert}
 
-选件会使用表达式编辑器添加到电子邮件中。 可以插入以下任一项：
+可以使用表达式编辑器将选件添加到电子邮件中。 可以插入以下任一项：
 
 * 在电子邮件主题行中，
-* 在电子邮件正文中，通过允许在任何内容组件中进行个性化。 [了解如何添加内容组件](content-components.md)
+* 通过允许在任何内容组件中进行个性化，在电子邮件正文中显示。 [了解如何添加内容组件](content-components.md)
 
 >[!NOTE]
 >
