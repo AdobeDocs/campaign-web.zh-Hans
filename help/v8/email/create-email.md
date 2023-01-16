@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
+source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-此用例介绍如何创建您的第一封电子邮件。 我们将安排在特定日期向银牌和金牌忠诚客户发送电子邮件。 此电子邮件将使用预定义的模板进行设计，并将包含使用用户档案属性的个性化。
+了解在此用例中如何创建您的第一个定向电子邮件。 我们将安排在特定日期向银牌和金牌忠诚客户发送电子邮件。
+
+利用预定义的设计模板，电子邮件还将基于客户用户档案属性提供个性化内容。
 
 ![](assets/delivery-list.png)
 
@@ -30,13 +32,13 @@ ht-degree: 0%
 >title="电子邮件属性"
 >abstract="属性是常用的投放参数，可帮助您命名投放并对其进行分类。 如果您的投放基于在Adobe Campaign v8控制台中定义的扩展架构，则某些特定 **自定义选项** 字段。"
 
-1. 从 **[!UICONTROL 投放]** 菜单。
+1. 要创建新投放，请转到 **[!UICONTROL 投放]** 菜单和选择 **[!UICONTROL 电子邮件]** 作为渠道。
 
-1. 选择 **[!UICONTROL 电子邮件]** 渠道和模板，然后单击 **[!UICONTROL 创建投放]**.
+1. 选择要使用的模板，然后单击 **[!UICONTROL 创建投放]**.
 
    >[!NOTE]
    >
-   >模板是特定的投放配置，已另存为模板以便重复使用。 投放模板由Adobe Campaign控制台中的管理员用户配置。 [了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >模板是预配置的投放设置，可保存以供将来使用。 管理员用户可以在Adobe Campaign控制台中创建这些配置文件。 [了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -47,13 +49,14 @@ ht-degree: 0%
    * **[!UICONTROL 提交代码]**:使用此字段根据您自己的命名约定组织投放，
    * **[!UICONTROL 描述]**:为投放指定描述，
    * **[!UICONTROL 自然]**:为分类目的指定电子邮件的性质。<!--The content of the list is defined in the delivery template selected when creating the email.-->
+
    >[!NOTE]
    >
-   >如果您已使用特定自定义字段扩展了架构，则可以从 **[!UICONTROL 自定义选项]** 中。
+   >如果您已使用特定自定义字段扩展了架构，则可以在 **[!UICONTROL 自定义选项]** 中。
 
    ![](assets/email-properties.png)
 
-   此外，高级设置（分类规则、目标映射等） 可从投放名称旁边的按钮中找到。 创建电子邮件时，会在选定的模板中预定义模板。 您可以根据需要编辑它们。
+   此外，通过单击投放名称旁边的按钮，还可以访问高级设置，如分类规则和目标映射。 这些设置在选定的模板中进行了预配置，但可以根据需要编辑此特定电子邮件。
 
 ## 创建电子邮件内容 {#create-content}
 
@@ -62,21 +65,23 @@ ht-degree: 0%
 >title="了解如何使用Email Designer设计电子邮件内容。"
 >abstract="了解如何设计内容"
 
-在此用例中，我们将使用预定义模板来设计电子邮件。 有关如何配置电子邮件内容的详细信息，请参阅 [此部分](../content/edit-content.md).
+在此用例中，我们将使用预定义的模板来设计电子邮件。
 
-1. 单击 **[!UICONTROL 编辑内容]** 按钮以开始创建电子邮件的内容。
+将使用预定义模板来设计电子邮件。 有关配置电子邮件内容的详细说明，请参阅 [此部分](../content/edit-content.md).
 
-   利用此屏幕，可配置电子邮件内容并使用Email Designer进行设计。
+1. 要开始创建电子邮件内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
+
+   这会将您带入专用界面，在该界面中，您可以配置电子邮件内容并使用Email Designer进行设计。
 
    ![](assets/edit-content.png)
 
-1. 指定电子邮件的主题，然后使用表达式编辑器对其进行个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
+1. 键入电子邮件的主题行，然后使用表达式编辑器对其进行个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以创建和设计电子邮件的内容。
+1. 要设计电子邮件的正文，请单击 **[!UICONTROL 编辑电子邮件正文]** 按钮。
 
-   选择用于创建电子邮件内容的方法。 在此示例中，我们希望使用现有设计模板。
+   选择用于创建电子邮件内容的方法。 在本例中，我们将使用预定义的设计模板。
 
    ![](assets/select-template.png)
 
@@ -86,13 +91,13 @@ ht-degree: 0%
 
     ![](assets/import-folder.png)-->
 
-1. 选择模板后，该模板会显示在Email Designer中，允许您根据需要对其进行编辑并添加个性化。
+1. 选择模板后，该模板将显示在Email Designer中，您可以在其中进行任何必要的编辑和添加个性化。
 
-   在此示例中，我们要在电子邮件标题中添加个性化。 要执行此操作，请选择组件块，然后单击 **[!UICONTROL 添加个性化]**.
+   例如，要将个性化添加到电子邮件标题，请选择组件块并单击 **[!UICONTROL 添加个性化]**.
 
    ![](assets/add-perso.png)
 
-1. 内容准备就绪后，保存并关闭您的设计，然后单击 **[!UICONTROL 保存]** 返回到电子邮件创建屏幕。
+1. 对内容满意后，保存并关闭您的设计。 单击 **[!UICONTROL 保存]** ，以返回到电子邮件创建屏幕。
 
    ![](assets/save-content.png)
 
@@ -103,9 +108,9 @@ ht-degree: 0%
 >title="定义受众"
 >abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，或从Adobe Experience Platform中选择，也可以选择使用规则生成器创建新受众。"
 
-在此用例中，我们将向现有受众发送电子邮件。 有关如何使用受众的其他信息，请参阅 [此部分](../audience/about-audiences.md).
+在此用例中，我们将向现有受众发送电子邮件。 有关如何使用受众的其他说明，请参阅 [此部分](../audience/about-audiences.md).
 
-1. 单击 **[!UICONTROL 选择受众]** 按钮，然后选择要定位的现有受众。
+1. 要选择电子邮件的受众，请单击 **[!UICONTROL 选择受众]** 按钮，然后从列表中选择现有受众。
 
    在此示例中，我们希望使用现有受众来定位属于银牌和金牌忠诚度积分级别的客户。
 
@@ -117,9 +122,9 @@ ht-degree: 0%
    >
    >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. 选择受众后，您可以使用其他规则优化目标。
+1. 选择受众后，您可以通过应用其他规则进一步优化目标。
 
-   您还可以设置一个控制组，以将电子邮件收件人的行为与未定向用户档案的行为进行比较。 [了解如何与控制组合作](../audience/control-group.md)
+   您还可以设置一个控制组来分析与未定向收件人相比电子邮件收件人的行为。 [了解如何与控制组合作](../audience/control-group.md)
 
    ![](assets/audience-selected.png)
 
@@ -130,29 +135,29 @@ ht-degree: 0%
 >title="计划发送"
 >abstract="定义发送的日期和确切时间。 通过为您的营销消息选择最合适的时间，您可以最大限度地提高打开率。"
 
-要计划发送电子邮件，请单击 **[!UICONTROL 启用]** 然后，指定发送所需的日期和时间。
+要计划发送电子邮件，请单击 **[!UICONTROL 启用]** 并设置发送所需的日期和时间。
 
-默认情况下， **[!UICONTROL 发送前确认]** 选项，这意味着您需要确认发送以允许在指定的日期和时间发送电子邮件。 禁用此选项，可允许在计划的日期和时间发送电子邮件，无需确认。
+默认情况下， **[!UICONTROL 发送前确认]** 选项，要求您在计划的日期和时间发送电子邮件之前确认发送。 如果您希望在计划的日期和时间自动发送电子邮件，则可以禁用此选项。
 
 ![](assets/schedule.png)
 
 ## 预览和测试电子邮件 {#preview-test}
 
-电子邮件准备就绪后，您可以先预览并测试该电子邮件，然后再启动其发送。
+在发送电子邮件之前，您可以预览并测试该电子邮件，以确保其符合您的预期。
 
-在此用例中，我们将预览电子邮件，并将校样发送到特定的电子邮件地址，同时模拟某些目标用户档案。
+在此用例中，我们将预览电子邮件并将测试版本发送到特定电子邮件地址，同时模拟某些目标用户档案。
 
 有关如何预览和测试电子邮件的其他信息，请参阅 [此部分](../preview-test/preview-test.md).
 
-1. 单击 **[!UICONTROL 审阅并发送]**. 此时会显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以使用修改按钮编辑其中的任何元素。
+1. 要查看和发送电子邮件，请单击 **[!UICONTROL 审阅并发送]**. 这将显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以通过单击修改按钮来编辑其中的任何元素。
 
-1. 单击 **[!UICONTROL 模拟内容]** 按钮以预览电子邮件并发送校样。
+1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。 这将打开预览界面。
 
    ![](assets/review-email.png)
 
-1. 在左侧区域中，选择用于预览电子邮件的用户档案。
+1. 在左侧，选择要用于预览电子邮件的用户档案。
 
-1. 右侧窗格中会根据所选的用户档案显示电子邮件的预览。 如果已添加多个用户档案，则可以在其中每个用户档案之间切换，以预览相应的电子邮件。
+   右侧窗格将显示基于所选用户档案的电子邮件预览。 如果已添加多个用户档案，则可以在它们之间切换以预览相应的电子邮件。
 
    ![](assets/preview.png)
 
@@ -160,21 +165,21 @@ ht-degree: 0%
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. 要发送电子邮件的校样，请单击 **[!UICONTROL 测试]** 按钮，然后选择用于发送校样的模式。
+1. 要发送电子邮件的测试版本，请单击 **[!UICONTROL 测试]** 按钮，然后选择要使用的模式。
 
-   在此示例中，我们将使用主目标模式中的“替换”，这意味着我们将向特定电子邮件地址发送校样，同时模拟投放所定向的某些用户档案。
+   在本例中，我们将使用 **[!UICONTROL 从主目标替换]** 模式，在模拟电子邮件所定向的某些用户档案时，将测试版本发送到特定电子邮件地址。
 
    ![](assets/proof-mode.png)
 
-1. 单击添加地址，然后指定将接收校样的电子邮件地址。
+1. 单击 **[!UICONTROL 添加地址]** 和指定将接收测试版本的电子邮件地址。
 
-   对于每个电子邮件地址，从目标中选择要模拟的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
+   对于每个电子邮件地址，选择要模拟的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 
    ![](assets/proof-test-profile.png)
 
-1. 单击 **[!UICONTROL 发送测试电子邮件]** 然后确认发送。
+1. 单击 **[!UICONTROL 发送测试电子邮件]** 确认发送。
 
-   使用选定的用户档案将校样发送到指定的电子邮件地址，其中包含 **[校样x]** 前缀。
+   测试版本将使用包含 **[校样x]** 前缀。
 
    ![](assets/proof-sent.png)
 
@@ -182,21 +187,20 @@ ht-degree: 0%
 
 ## 发送并监视电子邮件 {#prepare-send}
 
-审核并测试电子邮件后，即可启动其准备并发送。
+审核和测试电子邮件后，您可以启动准备并发送它。
 
-1. 单击 **[!UICONTROL 准备]** 以启动消息的准备工作。 [了解如何准备电子邮件](../monitor/prepare-send.md)
+1. 要开始准备电子邮件，请单击 **[!UICONTROL 准备]**. [了解如何准备电子邮件](../monitor/prepare-send.md)
 
    ![](assets/preparation.png)
 
-1. 准备好发送电子邮件后，单击 **[!UICONTROL 发送]** 或 **[!UICONTROL 按计划发送]** 然后确认发送。
+1. 准备好发送电子邮件后，单击 **[!UICONTROL 发送]** 按钮（或） **[!UICONTROL 按计划发送]** （如果已计划其发送）并确认发送。
 
-1. 发送电子邮件开始后（立即或在计划日期），您可以在此屏幕中实时跟踪其发送情况以及统计信息。
+1. 在发送过程中，您可以直接在此屏幕中跟踪其进度并实时查看统计信息。
 
    ![](assets/sent-mail.png)
 
-   >[!NOTE]
-   >
-   >此外， **[!UICONTROL 日志]** 按钮，可访问有关电子邮件发送的详细信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
+   您还可以通过单击 **[!UICONTROL 日志]** 按钮。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
-1. 发送电子邮件后，您可以访问专用报告以进行进一步分析。 [了解如何使用报表](../reporting/reports.md)
-   ![](assets/reports.png)
+1. 发送电子邮件后，您可以通过单击 **[!UICONTROL 报表]** 按钮。
+
+![](assets/reports.png)
