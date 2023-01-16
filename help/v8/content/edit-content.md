@@ -3,9 +3,9 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web UI中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 定义电子邮件 **[!UICONTROL 主题行]**. 要实现此目的，请直接在专用字段中键入主题，或打开表达式编辑器以定义如何使用各种属性和内容块或选件添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
 
-1. 如果要随电子邮件发送选件，请使用 **[!UICONTROL 选件]** 按钮。 然后，您便能够使用个性化字段将其插入到电子邮件中。 [了解如何发送优惠](offers.md)
+1. 如果要随电子邮件发送选件，请使用 **[!UICONTROL 设置选件]** 按钮。 然后，您便能够使用个性化字段将其插入到电子邮件中。 [了解如何发送优惠](offers.md)
 
-1. 单击 **[!UICONTROL Email Designer]** 按钮以构建和设计电子邮件的内容。 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以构建和设计电子邮件的内容。 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
    * [了解如何设计电子邮件](create-email-content.md)
    * [设置内容样式](get-started-email-style.md)
@@ -64,5 +64,3 @@ ht-degree: 0%
 1. 默认情况下，会为投放启用跟踪。 您可以从 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
 
 定义电子邮件的内容后，使用 **[!UICONTROL 模拟内容]** 按钮以在发送前检查其显示方式。 [了解如何预览和测试电子邮件](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
