@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8发行说明
 description: Campaign Web v8发行说明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: 6f9c5d039a2bc2b3e5ee9359311184c8d5cb6a28
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## 术语更新
 
-作为现有Campaign用户，请注意，已重命名一些概念，以符合行业中的最新术语标准。 这些更改仅适用于Web UI，不会反映在客户端控制台中。 下文概述了这些建议。
+作为现有Campaign用户，请注意，为符合最新的术语标准，已对一些概念进行了重命名。 这些更改仅适用于Campaign Web UI，且未反映在客户端控制台中。 下文概述了这些建议。
 
-* 现在已验证 **测试电子邮件**. 要发送校样，请使用 **测试** 按钮
+* 现在已验证 **测试电子邮件**:要发送校样，请使用 **测试** 按钮。 校样目标现在称为 **测试用户档案**
 * 投放分析现在是 **投放准备**. 当您需要启动分析时，单击 **准备** 按钮
 * 现在，可通过 **模拟内容** 按钮
 * 列表现已 **受众**
