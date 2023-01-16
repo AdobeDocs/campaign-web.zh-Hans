@@ -3,9 +3,9 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web UI中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 0%
    * [设置内容样式](get-started-email-style.md)
 
 1. 如果要将文件附加到电子邮件，请单击 **[!UICONTROL 添加附件]** 按钮，然后选择一个或多个文件。
+
+   为避免出现性能问题，建议在每封电子邮件中不要包含多个附件。
 
    <!--limitation on size + number of files?-->
 

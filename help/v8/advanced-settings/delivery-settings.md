@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放设置
 description: 进一步了解Campaign Web UI中的电子邮件投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1468'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ![Alpha版本](../assets/do-not-localize/badge.png)
 
-这些设置包括 **技术交付参数** 在电子邮件模板中定义的附加内容。
+这些设置包括 **技术交付参数** 在电子邮件模板中定义的附加内容。 它们可从 **配置投放设置** 图标。
 
 ## 电子邮件投放设置 {#email-delivery-settings}
 
