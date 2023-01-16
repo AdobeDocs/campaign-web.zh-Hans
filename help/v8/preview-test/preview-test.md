@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 关于预览和校样
-description: 了解如何预览消息和发送校样
+title: 关于预览和测试
+description: 了解如何预览消息和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# 关于预览和校样 {#about-preview-proofs}
+# 关于预览和测试电子邮件 {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 * [预览电子邮件内容和个性化](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [发送校样](#send-proofs) 特定收件人进行测试和验证。
+* [发送测试电子邮件](#send-proofs) 特定收件人进行测试和验证。
 
 这些操作可从 **[!UICONTROL 模拟内容]** 按钮，在从Email Designer创建电子邮件内容时可访问该按钮：
 

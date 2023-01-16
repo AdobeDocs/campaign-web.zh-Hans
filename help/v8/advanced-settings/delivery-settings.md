@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放设置
 description: 进一步了解Campaign Web UI中的电子邮件投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1472'
 ht-degree: 14%
 
 ---
@@ -183,8 +183,8 @@ ht-degree: 14%
 
 * **保留隔离的地址** 允许您从目标中保留任何地址未响应的用户档案。
 
-您还可以自定义校样的名称。
+您还可以自定义测试电子邮件的名称。
 
-使用 **保留校样的投放代码** 将与校样关联的投放代码与为与之关联的投放定义的交付代码相关联。
+使用 **保留校样的投放代码** 与测试电子邮件关联的投放代码与为与其相关的投放定义的投放代码相同。
 
-默认情况下，校样的主题以“PROOF #”为前缀，其中#是校样的编号。 您可以在 **标签前缀** 字段。
+默认情况下，测试电子邮件的主题以“PROOF #”为前缀，其中#是测试电子邮件的编号。 您可以在 **标签前缀** 字段。

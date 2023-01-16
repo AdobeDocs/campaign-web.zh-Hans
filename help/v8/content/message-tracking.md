@@ -3,9 +3,9 @@ audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在发送到测试用户档案的校样中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
+>在发送给测试用户档案的测试电子邮件中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
 
 镜像页面的保留期为60天。 延迟后，镜像页面将不再可用。
 

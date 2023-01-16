@@ -3,9 +3,9 @@ audience: end-user
 title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 22%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 ## 投放
 
-的 **投放** 选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
+的 **发送日志** 选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
 
 ![](assets/logs2.png)
 

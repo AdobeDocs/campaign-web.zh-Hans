@@ -3,9 +3,9 @@ audience: end-user
 title: 发送测试电子邮件
 description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -19,60 +19,61 @@ ht-degree: 1%
 测试电子邮件可发送给两种类型的收件人：
 
 * **测试用户档案**:向种子地址发送测试电子邮件，种子地址是数据库中其他虚构的收件人，
-* **替换用户档案**:模拟现有用户档案时，向特定电子邮件地址发送测试电子邮件。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案将收到的消息。
 
-## 选择校样收件人 {#recipients}
+* **从主目标替换**:模拟现有用户档案时，向特定电子邮件地址发送测试电子邮件。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案将收到的消息。
 
-1. 访问电子邮件内容创建屏幕，然后单击 **[!UICONTROL 模拟内容]**.
+## 选择测试收件人 {#recipients}
 
-1. 单击 **[!UICONTROL 测试]** 按钮，然后使用 **[!UICONTROL 模式]** 下拉列表中选择要接收校样的收件人类型：
+1. 访问电子邮件内容模拟屏幕，然后单击 **[!UICONTROL 测试]** 按钮。
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### 向测试用户档案发送校样
+1. 使用 **[!UICONTROL 模式]** 下拉列表，选择要接收测试电子邮件的收件人类型：
 
-1. 选择 **[!UICONTROL 使用测试用户档案]** 模式。
+   * **测试用户档案**:将测试电子邮件发送到种子地址，这些地址是数据库中其他虚构的收件人，
 
-1. 添加将接收测试电子邮件的测试用户档案。
+   * **从主目标替换**:在模拟现有用户档案时，将测试电子邮件发送到特定电子邮件地址。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案将收到的消息。
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### 向替换用户档案发送校样
-
-1. 选择 **[!UICONTROL 目标替换]** 模式。
-
-1. 添加将接收校样的电子邮件地址。
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >您可以指定任何电子邮件地址。 这样，即使用户不是Adobe Campaign V8用户，您也可以向其发送校样。
+   >默认情况下， **[!UICONTROL 测试用户档案]** 模式。 如果已选择用户档案以在内容模拟屏幕中预览电子邮件，则会预先选择这些用户档案作为测试收件人。 您可以清除选择和/或添加其他收件人。
 
-1. 对于每个电子邮件地址，从目标中选择要使用的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
+1. 要向替换用户档案发送测试电子邮件，请选择 **[!UICONTROL 目标替换]** 模式，然后执行以下步骤：
 
-   ![](assets/substitution.png)
+   1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定将接收测试电子邮件的电子邮件地址。
 
-选择校样收件人后，您可以发送测试电子邮件。 [了解如何发送校样](#send)
+      您可以输入任何电子邮件地址。 这允许您向任何用户发送测试电子邮件，即使他们不是Adobe Campaign V8用户也是如此。
 
->[!NOTE]
->
->如果要向校样的收件人发送最终电子邮件，请启用 **[!UICONTROL 在主目标中包含测试群体]** 选项。
+   1. 从目标中选择用于发送测试电子邮件的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 
-## 发送校样 {#send}
+   1. 确认收件人并重复操作以根据需要添加任意数量的地址。
 
-要将校样发送给选定的收件人，请单击 **[!UICONTROL 发送测试电子邮件]** 然后确认发送。
+      ![](assets/substitution.png)
+
+1. 选择测试收件人后，您可以发送测试电子邮件。 [了解如何发送测试电子邮件](#send)
+
+   >[!NOTE]
+   >
+   >如果要向测试电子邮件的收件人发送最终电子邮件，请启用 **[!UICONTROL 在主目标中包含测试群体]** 选项。
+
+## 发送测试电子邮件 {#send}
+
+要向选定的收件人发送测试电子邮件，请单击 **[!UICONTROL 发送测试电子邮件]** 然后确认发送。
 
 ![](assets/send-proof.png)
 
-发送所需数量的校样，直到完成投放的内容为止。 完成此操作后，您可以向主目标发送电子邮件。 [了解如何准备和发送电子邮件](../monitor/prepare-send.md)
+根据需要发送尽可能多的测试电子邮件，直到完成投放的内容为止。 完成此操作后，您可以向主目标发送电子邮件。 [了解如何准备和发送电子邮件](../monitor/prepare-send.md)
 
-## 访问发送的校样 {#access-proofs}
+## 访问已发送的测试电子邮件 {#access-proofs}
 
-发送校样后，即可从 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 利用这些日志，可访问为选定投放发送的所有校样，并可视化与其发送相关的特定统计信息。
+发送测试电子邮件后，即可从 **[!UICONTROL 查看测试电子邮件日志]** 按钮。
+
+利用这些日志，可访问为选定投放发送的所有测试电子邮件，并可视化与其发送相关的特定统计信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-您还可以从投放列表（如任何投放）访问校样。
+您还可以像任何投放一样从投放列表访问已发送的测试电子邮件。
 
 ![](assets/delivery-list.png)

@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 14%
+source-wordcount: '165'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 14%
    + [设置控制组](audience/control-group.md)
    + [使用规则生成器定义受众](audience/segment-builder.md)
 + 预览和测试电子邮件 {#preview-test}
-   + [关于预览和校样](preview-test/preview-test.md)
+   + [关于预览和测试](preview-test/preview-test.md)
    + [预览电子邮件内容](preview-test/preview-content.md)
-   + [  发送验证](preview-test/proofs.md)
+   + [发送测试电子邮件](preview-test/proofs.md)
 + 发送并监视电子邮件 {#monitor}
    + [准备和发送电子邮件](monitor/prepare-send.md)
    + [监控投放日志](monitor/delivery-logs.md)

@@ -3,9 +3,9 @@ keywords: Campaign Web；主页；热门主题
 description: Campaign Web v8帮助中心
 title: Adobe Campaign Web v8产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 9%
 
 ---
@@ -53,7 +53,7 @@ Campaign现在提供了新的Web用户界面，增强了可用性、辅助功能
 <img alt="验证" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>测试和发送校样</strong></a>
+<a href="preview-test/proofs.md"><strong>预览和测试电子邮件</strong></a>
 </div>
 <p>
 </td>
