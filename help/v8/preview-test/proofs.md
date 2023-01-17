@@ -3,9 +3,9 @@ audience: end-user
 title: 发送测试电子邮件
 description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 测试电子邮件可发送给两种类型的收件人：
 
-* **测试用户档案**:向种子地址发送测试电子邮件，种子地址是数据库中其他虚构的收件人，
+* **测试用户档案**:向种子地址发送测试电子邮件，这些地址是数据库中其他虚构的收件人。 这些配置文件可在Adobe Campaign控制台中创建到 **[!UICONTROL 资源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 种子地址]** 文件夹。
 
 * **从主目标替换**:模拟现有用户档案时，向特定电子邮件地址发送测试电子邮件。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案将收到的消息。
 

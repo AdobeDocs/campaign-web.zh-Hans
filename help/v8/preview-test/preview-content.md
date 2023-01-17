@@ -3,9 +3,9 @@ audience: end-user
 title: 预览电子邮件内容
 description: 了解如何使用Campaign Web UI预览电子邮件内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Adobe Campaign允许您在发送电子邮件内容之前预览其内容以检查个性化以及该内容向收件人显示的方式。
 
-您可以使用以下方式预览电子邮件：
-
-* **测试用户档案**:使用种子地址预览电子邮件，种子地址是数据库中其他虚构的收件人，
-* **用户档案**:使用现有配置文件预览电子邮件。
-
 要预览电子邮件的内容，请执行以下步骤：
 
 1. 访问电子邮件内容创建屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
    ![](assets/simulate.png)
 
-1. 通过单击 **[!UICONTROL 选择用户档案]** 按钮，然后使用 **[!UICONTROL 测试用户档案]** 和 **[!UICONTROL 用户档案]** 选项卡。
+1. 通过单击 **[!UICONTROL 选择用户档案]** 按钮，然后使用 **[!UICONTROL 测试用户档案]** 和 **[!UICONTROL 用户档案]** 从以下选项中进行选择：
+
+   * 的 **测试用户档案** 选项卡包含种子地址，这些地址是数据库中的其他虚构收件人。 这些配置文件可在Adobe Campaign控制台中创建到 **[!UICONTROL 资源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 种子地址]** 文件夹。
+   * 的 **用户档案** 选项卡列出了存储在 **[!UICONTROL 用户档案和目标]** 文件夹。
 
    您可以组合测试用户档案和用户档案以预览电子邮件。
 
