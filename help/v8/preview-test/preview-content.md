@@ -3,9 +3,9 @@ audience: end-user
 title: 预览电子邮件内容
 description: 了解如何使用Campaign Web UI预览电子邮件内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="智能预览内容"
->abstract="Adobe Campaign允许您在发送之前使用用户档案预览电子邮件的内容，以检查个性化以及收件人的查看方式。"
+>abstract="Adobe Campaign允许您使用用户档案在发送之前预览电子邮件的内容、检查个性化以及收件人的查看方式。"
 
-Adobe Campaign允许您在发送电子邮件内容之前预览其内容以检查个性化以及该内容向收件人显示的方式。
+Adobe Campaign允许您在发送电子邮件之前预览其内容、检查个性化以及其向收件人的显示方式。
 
 要预览电子邮件的内容，请执行以下步骤：
 
@@ -36,7 +36,7 @@ Adobe Campaign允许您在发送电子邮件内容之前预览其内容以检查
 
    ![](assets/preview-profile.png)
 
-1. 选择用户档案后，电子邮件的预览将显示在右侧窗格中。 个性化元素将替换为左侧窗格中所选用户档案的数据。
+1. 选择用户档案后，右侧窗格中会显示电子邮件的预览。 个性化元素将被替换为左侧窗格中所选用户档案的数据。
 
    如果已添加多个用户档案，则可以在列表中在它们之间切换以预览相应的电子邮件。
 

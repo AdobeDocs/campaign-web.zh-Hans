@@ -3,9 +3,9 @@ audience: end-user
 title: 在Email Designer中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 插入个性化字段以根据用户档案数据自定义电子邮件内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
 
-1. 单击 **[!UICONTROL 链接]** 选项卡，以显示要跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 类别]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
+1. 单击 **[!UICONTROL 链接]** 选项卡，以显示必须跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 类别]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >切换到代码编辑器后，您将无法还原到此电子邮件的可视设计器。
+   >切换到代码编辑器后，无法还原到此电子邮件的可视设计器。
 
 1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 以检查电子邮件渲染。 您可以选择桌面视图或移动设备视图。 [了解有关预览电子邮件的更多信息](../preview-test/preview-test.md)
 

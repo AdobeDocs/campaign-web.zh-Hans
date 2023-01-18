@@ -3,9 +3,9 @@ audience: end-user
 title: 个性化您的电子邮件背景
 description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---

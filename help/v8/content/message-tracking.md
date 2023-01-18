@@ -3,9 +3,9 @@ audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---

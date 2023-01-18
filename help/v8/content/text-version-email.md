@@ -3,9 +3,9 @@ audience: end-user
 title: 创建电子邮件的文本版本
 description: 了解如何创建电子邮件的文本版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 0%
 >
 >* 中所做的更改 **[!UICONTROL 纯文本]** 视图未反映在HTML视图中。
 >
->* 如果重新启用 **[!UICONTROL 与HTML同步]** 选项，您所做的更改将会丢失，并替换为从HTML版本生成的文本内容。
+>* 如果重新启用 **[!UICONTROL 与HTML同步]** 选项，则更改将会丢失，并替换为从HTML版本生成的文本内容。
 

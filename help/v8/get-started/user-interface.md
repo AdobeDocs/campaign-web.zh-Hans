@@ -3,9 +3,9 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左侧导航菜单
 
-浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。 所有列表在测试版和GA版本中都将可编辑。 左侧导航菜单中显示的项目取决于您的用户权限。
+浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。 所有列表都将在将来的版本中可编辑。 左侧导航菜单中显示的项目取决于您的用户权限。
 
 ![](assets/home.png)
 

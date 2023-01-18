@@ -3,7 +3,7 @@ audience: end-user
 title: 选择受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 5%
@@ -47,4 +47,4 @@ ht-degree: 5%
 
 1. 单击&#x200B;**保存**。
 
-您还可以设置一个控制组来衡量营销活动的影响。 控制组将不会收到消息。 这样，您就可以比较收到消息的群体的行为与未收到消息的联系人的行为。 请参阅 [部分](control-group.md).
+您还可以设置一个控制组来衡量营销活动的影响。 控制组未收到消息。 这样，您就可以比较收到消息的群体的行为与未收到消息的联系人的行为。 请参阅 [部分](control-group.md).

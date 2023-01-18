@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-了解在此用例中如何创建您的第一个定向电子邮件。 我们将安排在特定日期向银牌和金牌忠诚客户发送电子邮件。
+了解如何创建您的第一封定向电子邮件。 在此用例中，您计划在特定日期向银牌和金牌忠诚会员发送电子邮件。
 
-利用预定义的设计模板，电子邮件还将基于客户用户档案属性提供个性化内容。
+该电子邮件还基于预定义的设计模板，根据客户用户档案属性提供个性化内容。
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="选择电子邮件模板"
->abstract="模板在Adobe Campaign v8控制台中定义。 这是特定的投放配置，其中包含预定义的参数，如分类规则、个性化或路由参数。"
+>abstract="电子邮件模板是特定的投放配置，其中包含预定义的设置，例如分类规则、个性化或路由参数。 模板在Campaign客户端控制台中定义。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,23 +65,23 @@ ht-degree: 0%
 >title="了解如何设计电子邮件内容"
 >abstract="了解如何使用Email Designer。"
 
-在此用例中，我们将使用预定义的模板来设计电子邮件。
+在此用例中，您可以使用预定义的模板来设计我们的电子邮件。
 
-将使用预定义模板来设计电子邮件。 有关配置电子邮件内容的详细说明，请参阅 [此部分](../content/edit-content.md).
+有关如何配置电子邮件内容的详细说明，请参阅 [此部分](../content/edit-content.md).
 
 1. 要开始创建电子邮件内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 
-   这会将您带入专用界面，在该界面中，您可以配置电子邮件内容并使用Email Designer进行设计。
+   这会为您提供一个专用界面，您可以在该界面中配置电子邮件内容并使用Email Designer进行设计。
 
    ![](assets/edit-content.png)
 
-1. 键入电子邮件的主题行，然后使用表达式编辑器对其进行个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
+1. 输入电子邮件的主题行，然后使用表达式编辑器对其进行个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
 1. 要设计电子邮件的正文，请单击 **[!UICONTROL 编辑电子邮件正文]** 按钮。
 
-   选择用于创建电子邮件内容的方法。 在本例中，我们将使用预定义的设计模板。
+   选择用于创建电子邮件内容的方法。 在本例中，使用预定义的设计模板。
 
    ![](assets/select-template.png)
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
     ![](assets/import-folder.png)-->
 
-1. 选择模板后，该模板将显示在Email Designer中，您可以在其中进行任何必要的编辑和添加个性化。
+1. 选择模板后，该模板会显示在Email Designer中，您可以在其中进行任何必要的编辑和添加个性化。
 
    例如，要将个性化添加到电子邮件标题，请选择组件块并单击 **[!UICONTROL 添加个性化]**.
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定义受众"
->abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，或从Adobe Experience Platform中选择，也可以选择使用规则生成器创建新受众。"
+>abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，也可以从Adobe Experience Platform中选择，也可以使用规则生成器创建新受众。"
 
-在此用例中，我们将向现有受众发送电子邮件。 有关如何使用受众的其他说明，请参阅 [此部分](../audience/about-audiences.md).
+在此用例中，您会向现有受众发送电子邮件。 有关如何使用受众的其他说明，请参阅 [此部分](../audience/about-audiences.md).
 
 1. 要选择电子邮件的受众，请单击 **[!UICONTROL 选择受众]** 按钮，然后从列表中选择现有受众。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >列表中可用的受众源自您的Campaign V8实例，或来自Adobe Experience Platform（如果已在您的实例中配置目标/源集成）。
+   >列表中可用的受众源自您的Campaign v8实例，或者来自Adobe Experience Platform（如果已在您的实例中配置目标/源集成）。
    >
    >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -145,19 +145,19 @@ ht-degree: 0%
 
 在发送电子邮件之前，您可以预览并测试该电子邮件，以确保其符合您的预期。
 
-在此用例中，我们将预览电子邮件并将测试版本发送到特定电子邮件地址，同时模拟某些目标用户档案。
+在此用例中，您可以预览电子邮件，并将测试版本发送到特定的电子邮件地址，同时模拟某些目标用户档案。
 
 有关如何预览和测试电子邮件的其他信息，请参阅 [此部分](../preview-test/preview-test.md).
 
-1. 要查看和发送电子邮件，请单击 **[!UICONTROL 审阅并发送]**. 这将显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以通过单击修改按钮来编辑其中的任何元素。
+1. 要查看和发送电子邮件，请单击 **[!UICONTROL 审阅并发送]**. 此时会显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以通过单击修改按钮来编辑其中的任何元素。
 
-1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。 这将打开预览界面。
+1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。
 
    ![](assets/review-email.png)
 
 1. 在左侧，选择要用于预览电子邮件的用户档案。
 
-   右侧窗格将显示基于所选用户档案的电子邮件预览。 如果已添加多个用户档案，则可以在它们之间切换以预览相应的电子邮件。
+   右侧窗格显示基于所选用户档案的电子邮件预览。 如果已添加多个用户档案，则可以在它们之间切换以预览相应的电子邮件。
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ ht-degree: 0%
 
 1. 要发送电子邮件的测试版本，请单击 **[!UICONTROL 测试]** 按钮，然后选择要使用的模式。
 
-   在本例中，我们将使用 **[!UICONTROL 从主目标替换]** 模式，在模拟电子邮件所定向的某些用户档案时，将测试版本发送到特定电子邮件地址。
+   在本例中，使用 **[!UICONTROL 从主目标替换]** 模式，在模拟电子邮件所定向的某些用户档案时，将测试版本发送到特定电子邮件地址。
 
    ![](assets/proof-mode.png)
 
-1. 单击 **[!UICONTROL 添加地址]** 和指定将接收测试版本的电子邮件地址。
+1. 单击 **[!UICONTROL 添加地址]** 和指定接收测试版本的电子邮件地址。
 
    对于每个电子邮件地址，选择要模拟的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 准备和发送电子邮件
 description: 了解如何使用Campaign Web UI准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -94,4 +94,4 @@ send also KPIs
    >
    >的 **打开** 和 **点击次数** 指示器将在5分钟后更新。
 
-   您可以随时暂停发送，然后继续。 如果在发送投放时停止投放，您将无法继续。
+   您可以随时暂停发送，然后继续。 如果在发送投放时停止投放，则无法继续。

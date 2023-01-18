@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放设置
 description: 进一步了解Campaign Web UI中的电子邮件投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 14%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 14%
 * **取决于收件人**
 * **在每个规则中定义**
 
-使用 **交付重量** 字段来定义投放优先级。 每个投放都有一个权重，该权重表示其优先级级别。 默认情况下，投放的权重设置为5。 压力规则允许您定义要应用于的投放的权重。权重可以通过公式设置或计算，以适合收件人。 例如，您可以根据收件人兴趣定义投放的权重。
+使用 **交付重量** 字段来定义投放优先级。 每个投放都有一个权重，该权重表示其优先级级别。 默认情况下，投放的权重设置为5。 压力规则允许您定义应用于的投放的权重。 可以通过公式设置或计算权重以适合收件人。 例如，您可以根据收件人兴趣定义投放的权重。
 
 
 使用 **投放模式** 字段来选择目标评估模式。 提供了三种模式：
@@ -101,7 +101,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="最大重试次数"
->abstract="如果消息因临时错误而失败，则会在投放持续期间执行重试。"
+>abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 

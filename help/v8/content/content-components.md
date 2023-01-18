@@ -3,9 +3,9 @@ audience: end-user
 title: 使用电子邮件设计工具内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 容器 {#container}
 
-您可以添加一个简单的容器，在其中可以添加其他内容组件。 这允许您对容器应用特定样式，该样式将与内部使用的组件不同。
+您可以添加一个简单的容器，在其中添加其他内容组件。 这允许您对容器应用特定样式，该样式与内部使用的组件不同。
 
 例如，添加 **[!UICONTROL 容器]** 组件，然后添加 [按钮](#button) 组件。 您可以为容器使用特定背景，为按钮使用另一个背景。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 链接]** 字段中，添加您希望在单击按钮时重定向到的URL。
 
-1. 选择如何通过 **[!UICONTROL Target]** 下拉列表：
+1. 选择内容的显示方式 **[!UICONTROL Target]** 下拉列表：
 
    * **[!UICONTROL 无]**:在点击链接的同一帧中打开该链接（默认）。
    * **[!UICONTROL 空白]**:在新窗口或选项卡中打开链接。
@@ -180,7 +180,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 图像大小]** 字段。
 
-1. 单击每个社交媒体图标以配置 **[!UICONTROL URL]** 受众将被重定向到的页面。
+1. 单击每个社交媒体图标以配置 **[!UICONTROL URL]** 将受众重定向到的受众。
 
    ![](assets/email_designer_21.png)
 
