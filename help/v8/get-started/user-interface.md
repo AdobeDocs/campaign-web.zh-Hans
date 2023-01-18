@@ -3,10 +3,10 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1282'
+ht-degree: 2%
 
 ---
 
@@ -152,16 +152,6 @@ Navtree view depends on permissions (same as console).
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 情景帮助和入门指南
-
-界面中提供了上下文帮助。 如果可用，请单击 **?** 图标以显示帮助信息和相关文档链接。
-
-![](assets/context-help.png){width="70%" align="left"}
-
-此外，还提供入门指南，帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## 配置列表屏幕 {#list-screens}
 
 例如，左侧导航菜单中的几个链接 **投放** 或 **促销活动**，显示对象列表。 这些列表屏幕是只读的，但电子邮件投放列表除外。
@@ -175,6 +165,43 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 ![](assets/columns.png){width="70%" align="left"}
 
 您可以通过单击任何列标题对列表中的项目进行排序。 将显示一个箭头（向上或向下），指示列表在该列上排序。 对于数值列或日期列，向上箭头表示列表按升序排序，而向下箭头表示降序。 对于字符串或字母数字列，值按字母顺序列出。
+
+## 情景帮助和入门指南
+
+界面中提供了上下文帮助。 如果可用，请单击 **?** 图标以显示帮助信息和相关文档链接。
+
+![](assets/context-help.png){width="70%" align="left"}
+
+此外，还提供入门指南，帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## 支持的浏览器 {#browsers}
+
+Campaign v8 Web在最新版本的Google Chrome、Safari和Microsoft Edge中可发挥最佳作用。 在较旧版本或其他浏览器上使用某些功能时，您可能会遇到问题。
+
+## 语言首选项 {#language-pref}
+
+用户界面目前提供以下语言版本：
+
+* 英语
+* 法语
+* 德语
+* 意大利语
+* 西班牙语
+* 葡萄牙语（巴西）
+* 日语
+* 朝鲜语
+
+您的默认界面语言由用户配置文件中指定的首选语言决定。
+
+要更改语言，请执行以下操作：
+
+* 单击 **首选项** 从你的头像，在右上方。
+   ![](assets/preferences.png)
+* 然后，单击电子邮件地址下显示的语言
+* 选择首选语言并单击 **保存**. 如果您使用的组件未以第一种语言本地化，则可以选择第二种语言。
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
