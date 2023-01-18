@@ -3,7 +3,7 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
+source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -188,43 +188,19 @@ Campaign v8 Web目前提供以下语言版本：
 <tr>
 <td>
 <p>英语（美国） — 英语</p>
-</td>
-<td>
-<p>西班牙语 — ES</p>
-</td>
-<td>
-<p>朝鲜语 — KR</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>法语 — FR</p>
-</td>
-<td>
-<p>葡萄牙语（巴西） — PTBR</p>
-</td>
-<td>
-<p>简体中文 — CHS</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>德语 — DE</p>
-</td>
-<td>
-<p>日语 — JP</p>
-</td>
-<td>
-<p>繁体中文 — CHT</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>意大利语 — IT</p>
 </td>
 <td>
+<p>西班牙语 — ES</p>
+<p>葡萄牙语（巴西） — PTBR</p>
+<p>日语 — JP</p>
 </td>
 <td>
+<p>朝鲜语 — KR</p>
+<p>简体中文 — CHS</p>
+<p>繁体中文 — CHT</p>
 </td>
 </tr>
 </table>
