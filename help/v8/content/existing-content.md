@@ -1,36 +1,30 @@
 ---
 audience: end-user
-title: 导入电子邮件内容
-description: 了解如何导入电子邮件内容
+title: Import your email content
+description: Learn how to import email content
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 3%
-
 ---
-
-# 导入电子邮件内容 {#existing-content}
+# Import your email content {#existing-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-电子邮件设计器允许您导入现有HTML内容。 此内容可以是：
+The Email designer allows you to import existing HTML content. This content can be:
 
-* 安 **HTML文件** 带有合并样式表，
-* A **.zip文件夹** 使用HTML文件、样式表(.css)和图像。
+* An **HTML file** with an incorporated style sheet,
+* A **.zip folder** with the HTML file, the style sheet (.css) and images.
 
-   >[!NOTE]
-   >
-   >.zip文件结构没有限制。 但是，引用必须是相对的，并且与.zip文件夹的树结构相匹配。
+    >[!NOTE]
+    >
+    >There are no constraints on the .zip file structure. However, references must to be relative and fit with the tree structure of the .zip folder.
 
-要导入包含HTML内容的文件，请执行以下步骤：
+To import a file containing HTML content, follow the steps below:
 
-1. 在Email Designer主页中，选择 **[!UICONTROL 导入HTML]**.
+1. In the Email Designer home page, select **[!UICONTROL Import HTML]**.
 
-   ![](assets/import-html_2.png)
+    ![](assets/import-html_2.png)
 
-1. 拖放包含您的HTML内容的HTML或.zip文件，然后单击 **[!UICONTROL 导入]**.
+1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
 
-1. 上传HTML内容后，您可以利用Email Designer功能编辑和预览电子邮件。 [在本节中了解详情](create-email-content.md).
+1. Once the HTML content is uploaded, you can leverage the Email Designer capabilities to edit and preview your email. [Learn more in this section](create-email-content.md).
 
-   ![](assets/html-imported.png)
+    ![](assets/html-imported.png)

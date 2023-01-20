@@ -1,91 +1,85 @@
 ---
 audience: end-user
-title: 发送选件
-description: 发送选件
+title: Send offers
+description: Send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
-
 ---
-
-# 发送选件 {#offers-content}
+# Send offers {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="选件设置"
->abstract="热障涂层"
+>title="Offers settings"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="选件高级设置"
->abstract="热障涂层"
+>title="Offers Advanced Settings"
+>abstract="TBC"
 
-Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-通过电子邮件发送选件的步骤如下所示：
+The steps to send offers with an email are as follows:
 
-1. [配置要建议的选件](#configure),
-1. [将选件插入电子邮件](#insert).
+1. [Configure the offers to propose](#configure),
+1. [Insert the offers into the email](#insert).
 
-## 配置要建议的选件 {#configure}
+## Configure the offers to propose {#configure}
 
-1. 要选择要在电子邮件中建议的选件，请单击 **[!UICONTROL 选件]** 按钮。
+1. To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen.
 
-   ![](assets/setup-offers.png)
+    ![](assets/setup-offers.png)
 
-1. 配置应向收件人建议的选件。 首先，选择 **[!UICONTROL 选件空间]** 与选件环境匹配的选件。
+1. Configure which offers should be proposed to the recipients. First select the **[!UICONTROL Offer space]** that matches your offer environment.
 
-   ![](assets/create-content-offers.png)
+    ![](assets/create-content-offers.png)
 
-1. 要优化引擎的选件选择，请选择 **[!UICONTROL 选件类别]** 其中选件进行了排序。
+1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
 
-   如果未指定类别，则环境中包含的所有选件都将由选件引擎考虑，除非 **[!UICONTROL 选件主题]** 中。
+    If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
 
-   >[!NOTE]
-   >
-   >主题是在类别中上游定义的关键词。 它们充当过滤器，允许您通过在一组类别中选择选件来优化要显示的选件数量。
+    >[!NOTE]
+    >
+    >Themes are key words defined upstream in the categories. They act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
 
-1. 使用 **[!UICONTROL 建议]** 字段以指定要插入到电子邮件中的选件数量。
+1. Use the **[!UICONTROL Propositions]** field to specify the number of offers you want to insert into the email.
 
-1. 选择 **[!UICONTROL 排除不符合条件的收件人]** 选项。
+1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary.
 
-   利用此选项，可激活或取消激活排除符合条件的选件不足的收件人。
+    This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers.
+    
+    * If the option is enabled, recipients who do not have enough propositions are excluded from the delivery.
+    * If the option is disabled, these recipients are not excluded but they cannot have the requested number of propositions.
 
-   * 如果启用了选项，则投放中将排除没有足够建议的收件人。
-   * 如果禁用了选项，则不会排除这些收件人，但他们不能拥有所请求的建议数。
+1. If necessary, select the **[!UICONTROL Hide everything if no offer is selected]** option.
 
-1. 如有必要，请选择 **[!UICONTROL 未选择选件时隐藏所有内容]** 选项。
+    This option lets you choose how the message is processed in case one of the propositions does not exist.
+    
+    * If the option is enabled, the representation of the missing proposition is not displayed and no content appears in the message for this proposition.
+    * If the option is disabled, the message itself is cancelled during sending and recipients can no longer receive any messages.
 
-   利用此选项，可选择在其中某个命题不存在时如何处理消息。
+Once you have configured the offers to propose into your email, you can insert them into the email using the Expression Editor. [Learn how to insert offers into the email](#insert)
 
-   * 如果启用了选项，则不显示缺少命题的表示，并且此命题的消息中不显示任何内容。
-   * 如果禁用了选项，则在发送期间将取消消息本身，并且收件人无法再接收任何消息。
+## Insert offers into the email {#insert}
 
-将选件配置为在电子邮件中建议后，您可以使用表达式编辑器将其插入到电子邮件中。 [了解如何在电子邮件中插入选件](#insert)
+Offers can be added into the email using the Expression Editor. They can be inserted either:
 
-## 将选件插入电子邮件 {#insert}
-
-可以使用表达式编辑器将选件添加到电子邮件中。 可以插入以下任一项：
-
-* 在电子邮件主题行中，
-* 通过允许在任何内容组件中进行个性化，在电子邮件正文中显示。 [了解如何添加内容组件](content-components.md)
+* In the email subject line,
+* In the email body by allowing personalization in any content component. [Learn how to add content components](content-components.md)
 
 >[!NOTE]
 >
->在插入选件之前，请确保您已 [配置了要与电子邮件一起建议的选件](#configure).
+>Before inserting an offer, make sure you have [configured which offers to propose with the email](#configure).
 
-要使用表达式编辑器插入选件，请执行以下步骤：
+To insert an offer using the Expression Editor, follow these steps:
 
-1. 打开表达式编辑器，然后选择 **[!UICONTROL 建议]** 菜单。
+1. Open the Expression Editor, then select the **[!UICONTROL Propositions]** menu.
 
-   可用的建议将显示在列表中。 在配置要建议的选件时定义建议的数量。
+    Available propositions display in the list. The number of propositions is defined when configuring the offers to propose.
 
-   ![](assets/offer-insertion.png)
+    ![](assets/offer-insertion.png)
 
-1. 使用个性化字段、呈现函数或每个建议可用的选件属性，将建议添加到电子邮件主题或正文中。
+1. Add the propositions into the email subject or body using the personalization fields, rendering functions or offer attributes available for each proposition.
 
-   ![](assets/offer-inserted.png)
+    ![](assets/offer-inserted.png)

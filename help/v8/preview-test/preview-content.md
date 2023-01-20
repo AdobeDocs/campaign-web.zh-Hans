@@ -1,49 +1,43 @@
 ---
 audience: end-user
-title: 预览电子邮件内容
-description: 了解如何使用Campaign Web UI预览电子邮件内容
+title: Preview email content
+description: Learn how to preview your email content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
-
 ---
-
-# 预览电子邮件内容 {#preview}
+# Preview email content {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="智能预览内容"
->abstract="Adobe Campaign允许您使用用户档案在发送之前预览电子邮件的内容、检查个性化以及收件人的查看方式。"
+>title="Smart preview of your content"
+>abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
 
-Adobe Campaign允许您在发送电子邮件之前预览其内容、检查个性化以及其向收件人的显示方式。
+Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
 
-要预览电子邮件的内容，请执行以下步骤：
+To preview the content of your email, follow these steps:
 
-1. 访问电子邮件内容创建屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
+1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
 
-   ![](assets/simulate.png)
+    ![](assets/simulate.png)
 
-1. 通过单击 **[!UICONTROL 选择用户档案]** 按钮，然后使用 **[!UICONTROL 测试用户档案]** 和 **[!UICONTROL 用户档案]** 从以下选项中进行选择：
+1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
 
-   * 的 **测试用户档案** 选项卡包含种子地址，这些地址是数据库中的其他虚构收件人。 这些配置文件可在Adobe Campaign控制台中创建到 **[!UICONTROL 资源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 种子地址]** 文件夹。
-   * 的 **用户档案** 选项卡列出了存储在 **[!UICONTROL 用户档案和目标]** 文件夹。
+    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
 
-   您可以组合测试用户档案和用户档案以预览电子邮件。
+    You can combine both test profiles and profiles to preview your email.
 
-   ![](assets/preview-profile.png)
+    ![](assets/preview-profile.png)
 
-1. 选择用户档案后，右侧窗格中会显示电子邮件的预览。 个性化元素将被替换为左侧窗格中所选用户档案的数据。
+1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
-   如果已添加多个用户档案，则可以在列表中在它们之间切换以预览相应的电子邮件。
+    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
 
-   >[!NOTE]
-   >
-   >您可以通过单击右上角的专用图标，在不同设备（桌面、移动设备、平板电脑）上预览内容的呈现。
+    >[!NOTE]
+    >
+    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
 

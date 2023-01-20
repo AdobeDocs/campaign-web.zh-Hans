@@ -1,25 +1,19 @@
 ---
 audience: end-user
-title: 了解界面
-description: Campaign v8 Web用户界面
+title: Discover the interface
+description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 1%
-
 ---
-
-# 了解界面 {#user-interface}
+# Discover the interface {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="了解界面"
->abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
+>title="Discover the interface"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
 
-新的Campaign v8 Web界面提供了现代且直观的用户体验，以简化营销活动的设计和交付。 此新界面已与Adobe Experience Platform集成。
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -27,7 +21,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->此文档经常更新以反映产品用户界面中的最新更改。 但是，某些屏幕截图可能与您的用户界面略有不同。
+>This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
 <!--
@@ -35,15 +29,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 左侧导航菜单
+## Left navigation menu
 
-浏览左侧的链接以访问Campaign v8 Web功能。 多个链接显示可排序和过滤的对象列表。 您还可以配置列以显示所需的所有信息。 请参阅 [部分](#list-screens). 除电子邮件投放列表之外，所有列表屏幕均为只读。 Alpha中不提供单击任何用于编辑/查看的列表项。 所有列表都将在将来的版本中可编辑。 左侧导航菜单中显示的项目取决于您的用户权限。
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
-### 主页
+### Home
 
-此屏幕包括快速访问Campaign v8 Web主要功能的关键链接和资源。 的 **收件人** 列表提供了最近创建和修改的投放的快捷方式。 此列表显示了其创建和修改日期及状态。
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -52,7 +46,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-从主页的下部访问Campaign v8 Web键帮助页面。
+Access Campaign v8 Web key help pages from the lower section of the home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -60,20 +54,20 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### 资源管理器
+### Explorer
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="资源管理器"
->abstract="的 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的文件夹层次结构。 浏览所有Campaign v8组件、文件夹和架构。 除电子邮件投放列表之外，所有列表屏幕均为只读。"
+>title="Explorer"
+>abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
 
-的 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的文件夹层次结构。 浏览所有Campaign v8组件、文件夹和架构。 除电子邮件投放列表之外，所有列表屏幕均为只读。
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
 
-资源管理器中显示的项目取决于您的用户权限。
+The items displayed in the Explorer depend on your user permissions. 
 
-与在任何列表屏幕中一样，您可以配置列以个性化显示，以查看所需的所有信息。 请参阅 [部分](#list-screens).
+Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-有关Campaign资源管理器的详细信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+For more information on the Campaign explorer, refer to this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -82,144 +76,144 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### Campaign 管理
+### Campaign Management
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="活动"
->abstract="这是您的营销活动列表。 您可以查看有用信息，如开始/结束/上次修改日期及其状态。 您可以按状态或开始/结束日期过滤列表。 营销活动模板也可用。 这些列表是只读的。"
+>title="Campaigns"
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="投放"
->abstract="浏览投放列表。 您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板。 其他项目为只读。 投放模板也可用。"
+>title="Deliveries"
+>abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
 
-* **促销活动**  — 这是营销活动列表。 默认情况下，您可以查看其开始/结束/上次修改日期及其状态。 您可以按状态或开始/结束日期过滤列表。 营销活动模板也可用。 这些列表是只读的。
+* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
-* **投放**  — 浏览投放列表。 默认情况下，您可以查看其状态、上次修改日期以及关键KPI。 您可以按状态、联系日期或渠道过滤列表。 单击电子邮件投放以打开其仪表板，以获取投放详细信息的概述。 其他渠道上的投放为只读。 投放模板也以只读模式提供。 您可以使用客户端控制台来编辑它们。 请参阅 [文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   使用 **更多操作** 按钮以删除或复制投放。
+    Use the **More actions** button to delete or duplicate a delivery.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){width="70%" align="left"}
 
-### 客户管理
+### Customer Management
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="收件人"
->abstract="访问收件人数据库。 您可以查看有用信息，如其电子邮件地址、名字和姓氏。 此列表为只读。"
+>title="Recipients"
+>abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="受众"
->abstract="这是您的受众列表。 您可以查看其类型、来源、创建/上次修改日期和标签。 您可以按来源筛选列表。 此列表为只读。"
+>title="Audiences"
+>abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="订阅列表"
->abstract="浏览订阅列表。 您可以查看其类型、模式和标签。 此列表为只读。"
+>title="Subscriptions lists"
+>abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="定位工作流"
->abstract="访问Campaign工作流的列表。 您可以查看其状态、上次/下次处理日期和环境。 您可以按状态、上次处理日期和工作流类型过滤列表。 工作流模板也可用。 这些列表是只读的。"
+>title="Targeting workflows"
+>abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
 
-* **收件人**  — 访问收件人数据库。 默认情况下，您可以查看其电子邮件地址、名字和姓氏。 此列表为只读。
-* **受众**  — 这是您的受众列表。 默认情况下，您可以查看其类型、来源、创建/上次修改日期和标签。 您可以按来源筛选列表。 此列表为只读。
-* **订阅列表**  — 浏览订阅列表。 默认情况下，您可以查看其类型、模式和标签。 此列表为只读。
-* **定位工作流**  — 访问Campaign工作流的列表。 默认情况下，您可以查看其状态、上次/下次处理日期和环境。 您可以按状态、上次处理日期和工作流类型过滤列表。 工作流模板也可用。 这些列表是只读的。
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
+* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
+* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
-### 决策管理
+### Decision Management
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="优惠"
->abstract="浏览您的互动选件列表。 默认情况下，您可以查看其状态、开始/结束日期和环境。 您可以按州和开始/结束日期过滤列表。 还提供了选件模板。 这些列表是只读的。"
+>title="Offers"
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **选件**  — 浏览您的互动选件列表。 默认情况下，您可以查看其状态、开始/结束日期和环境。 您可以按州和开始/结束日期过滤列表。 还提供了选件模板。 这些列表是只读的。
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
-## 顶部栏
+## Top bar
 
-通过界面的顶栏，您可以：
+The top bar of the interface allows you to:
 
-* 作为Alpha测试器分享您的反馈
-* 在组织和实例之间切换
-* 在Adobe Experience Cloud应用程序之间切换
-* 访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
+* share your feedback as an Alpha tester
+* switch between organizations and instances
+* switch between your Adobe Experience Cloud applications
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 配置列表屏幕 {#list-screens}
+## Configure list screens {#list-screens}
 
-例如，左侧导航菜单中的几个链接 **投放** 或 **促销活动**，显示对象列表。 这些列表屏幕是只读的，但电子邮件投放列表除外。
+Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
 
-要更快查找项目，您可以使用搜索栏或根据上下文条件筛选列表。
+To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left"}
 
-列表以列显示。 您可以通过更改列配置来显示其他信息。 为此，请单击列表右上角的图标。 您可以添加或删除列，并更改列的显示顺序。
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-您可以通过单击任何列标题对列表中的项目进行排序。 将显示一个箭头（向上或向下），指示列表在该列上排序。 对于数值列或日期列，向上箭头表示列表按升序排序，而向下箭头表示降序。 对于字符串或字母数字列，值按字母顺序列出。
+You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## 情景帮助和入门指南
+## Contextual help and on-boarding guide
 
-界面中提供了上下文帮助。 如果可用，请单击 **?** 图标以显示帮助信息和相关文档链接。
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-此外，还提供入门指南，帮助您开始使用Campaign v8 Web。 单击右下角的图标，选择可用的分步方案之一，然后按照说明操作即可。
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## 支持的浏览器 {#browsers}
+## Supported browsers {#browsers}
 
-Campaign v8 Web在最新版本的Google Chrome、Safari和Microsoft Edge中可发挥最佳作用。 在较旧版本或其他浏览器上使用某些功能时，您可能会遇到问题。
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
-## 语言首选项 {#language-pref}
+## Language preferences {#language-pref}
 
-Campaign v8 Web目前提供以下语言版本：
+Campaign v8 Web is currently available in the following languages:
 
 <table>
 <tr>
 <td>
-<p>英语（美国） — 英语</p>
-<p>法语 — FR</p>
-<p>德语 — DE</p>
-<p>意大利语 — IT</p>
+<p>English (US) - EN-US</p>
+<p>French - FR</p>
+<p>German - DE</p>
+<p>Italian - IT</p>
 </td>
 <td>
-<p>西班牙语 — ES</p>
-<p>葡萄牙语（巴西） — PTBR</p>
-<p>日语 — JP</p>
+<p>Spanish - ES</p>
+<p>Portuguese (Brazilian) - PTBR</p>
+<p>Japanese - JP</p>
 </td>
 <td>
-<p>朝鲜语 — KR</p>
-<p>简体中文 — CHS</p>
-<p>繁体中文 — CHT</p>
+<p>Korean - KR</p>
+<p>Simplified Chinese - CHS</p>
+<p>Traditional Chinese - CHT</p>
 </td>
 </tr>
 </table>
 
-您的默认界面语言由用户配置文件中指定的首选语言决定。
+Your default interface language is determined by the preferred language specified in your user profile.
 
-要更改语言，请执行以下操作：
+To change your language:
 
-1. 单击右上方的配置文件图标，然后选择 **首选项**.
+1. Click on your profile icon, on the top right, then select **Preferences**.
 
-   ![](assets/preferences.png){width="70%" align="left"}
+    ![](assets/preferences.png){width="70%" align="left"}
 
-1. 然后，单击电子邮件地址下显示的语言。
+1. Then click the language displayed under your email address.
 
-   ![](assets/preferences2.png)
+    ![](assets/preferences2.png)
 
-1. 选择首选语言并单击 **保存**. 如果您使用的组件未以第一种语言本地化，则可以选择第二种语言。
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
-   ![](assets/select-language.png)
+    ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

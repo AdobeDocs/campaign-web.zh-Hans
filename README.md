@@ -1,61 +1,54 @@
----
-source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
-workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+# Contribute article
 
----
-# Contribute 文章
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
 
-我们鼓励我们社区以及文档团队外部的 Adobe 员工踊跃参与。
+## Adobe Open Source Code of Conduct
 
-## Adobe 开放源代码行为准则
-
-本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
 
-## 关于您对 Adobe 内容的参与程度
+## About your contributions to Adobe content
 
-请参阅 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-您的参与方式取决于您的个人身份以及您希望参与的更改类型：
+How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
-### 较小改动
+### Minor changes
 
-如果您出于好意而提供较小更新，请访问相应文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，该链接将转到文章的 GitHub 源。然后，只需使用 GitHub UI 进行更新。有关详细信息，请参阅常规 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for more information.
 
-您为此存储库中的文档和代码示例提交的较小更正或说明应遵守 Adobe 使用条款。
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
-### 社区成员的重大更改或新文章
+### Major changes or new articles from community members
 
-如果您是 Adobe 社区的成员，并且要创建新文章或提交重大更改，请使用 Git 存储库中的“问题”选项卡提交问题以开始与文档团队的对话。一旦您同意了计划，您将需要与员工合作，通过公共和专用存储库中的工作组合来帮助引入新内容。
+If you're part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you'll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Adobe 员工所做的重大更改
+### Major changes from Adobe Employees
 
-如果您是 Adobe Experience Cloud 解决方案的技术文档撰写人、项目经理或产品团队的开发人员，并且您的工作是参与技术文章的撰写或负责撰写技术文章，则应使用 `https://git.adobe.com/AdobeDocs` 上的专用存储库。
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## 工具和设置
+## Tools and setup
 
-社区参与者可以使用 GitHub UI 进行基本编辑，或者将存储库分类，做出重大贡献。
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-有关详细信息，请参阅 [Adobe 文档贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for details.
 
-## 如何使用标记设置主题格式
+## How to use markdown to format your topic
 
-此存储库中的所有文章都使用 GitHub 风格的标记。如果您不熟悉标记，请参阅：
+All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-* [标记基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可打印的标记清单](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## 标签
+## Labels
 
-在公共存储库中，自动标签被分配为提取请求，以帮助我们管理提取请求工作流，并帮助您了解提取请求的进展情况：
+In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
-* **发送给作者的更改**：已通知作者有待处理的提取请求。
-* **合并准备就绪**：准备由我们的提取请求审阅团队进行审阅。
+* **Change sent to author**: The author has been notified of the pending pull request.
+* **ready-to-merge**: Ready for review by our pull request review team.

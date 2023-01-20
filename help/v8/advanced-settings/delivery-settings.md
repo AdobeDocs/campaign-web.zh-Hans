@@ -1,190 +1,184 @@
 ---
 audience: end-user
-title: 电子邮件投放设置
-description: 进一步了解Campaign Web UI中的电子邮件投放设置
+title: Email Delivery Settings
+description: Learn more about email delivery settings in Campaign Web UI
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 14%
-
 ---
+# Email delivery settings {#email-del-settings}
 
-# 电子邮件投放设置 {#email-del-settings}
+![Alpha version](../assets/do-not-localize/badge.png)
 
-![Alpha版本](../assets/do-not-localize/badge.png)
+These settings are **technical delivery parameters** that are defined in the email template. They are available from the **Configure delivery settings** icon available when editing an email delivery.
 
-这些设置包括 **技术交付参数** 在电子邮件模板中定义的附加内容。 它们可从 **配置投放设置** 图标。
-
-## 电子邮件投放设置 {#email-delivery-settings}
+## Email delivery settings {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> 这些设置仅供您参考。 其中某些权限取决于您的配置和权限。 不得在此版本的产品中修改它们。
+> These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
 
-## 类型 {#typology}
+## Typology {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="类型"
->abstract="利用分类，可控制、过滤和监控投放的发送。"
+>title="Typology"
+>abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
-分类是在消息分析阶段执行的一系列&#x200B;**分类规则**。利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
+Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-当将分类与消息或消息模板关联时，执行包括在分类中的分类规则以在消息准备期间检查消息的有效性。
+When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
 
 ![](assets/delivery-settings-1.png)
 
 
-### 压力参数 {#pressure-parameters}
+### Pressure parameters {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="投放权重"
->abstract="投放权重允许您确定压力管理框架内优先级最高的投放。 权重最高的消息具有优先级。"
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
-在此部分中，压力参数允许您定义 **阈值**. 这是指定时间段内可向一个用户档案发送的消息数量上限。 达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除用户档案，从而避免过度通信。
+In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
-阈值可以是常量，也可以是变量。这意味着在指定的时间段内，阈值可能因用户档案而异，甚至对于同一用户档案也可能有所不同。
+Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-在 **粗细类型** 字段中，提供了三个选项：
+In the **Weight type** field, three options are available:
 
-* **常量**
-* **取决于收件人**
-* **在每个规则中定义**
+* **Constant**
+* **Depends on the recipient**
+* **Defined in each rule**
 
-使用 **交付重量** 字段来定义投放优先级。 每个投放都有一个权重，该权重表示其优先级级别。 默认情况下，投放的权重设置为5。 压力规则允许您定义应用于的投放的权重。 可以通过公式设置或计算权重以适合收件人。 例如，您可以根据收件人兴趣定义投放的权重。
+Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
 
-使用 **投放模式** 字段来选择目标评估模式。 提供了三种模式：
+Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
 
-* **目标估计和消息个性化**
-* **暂定目标的估算和审批**
-* **目标评估**
+* **Target estimation and message personalization**
+* **Estimation and approval of the provisional target**
+* **Target evaluation**
 
-疲劳管理随 **促销活动优化** 附加组件。 详细了解压力规则以及如何在 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}.
+Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
-### 容量设置 {#capacity-settings}
+### Capacity settings {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
->title="收件人的重要性"
->abstract="收件人的重要性是一个公式，用于确定在超出容量分类规则时保留哪些收件人。"
+>title="Importance of the recipient"
+>abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
-在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则与电子邮件渠道关联。
+In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
 
-的 **收件人的重要性** 字段是一个公式，用于确定在超出容量分类规则时保留哪些收件人。
+The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
-了解有关一致性和容量规则以及如何在 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
-
-
-## 受众 {#audience}
-
-在此部分中，您可以选择 **目标映射** 其中包括。 目标映射在Adobe Campaign v8控制台中定义。
-
-了解有关 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
-
-## 投放 {#delivery}
-
-投放参数是适用于您的投放的技术设置。
-
-* **路由**:默认情况下，会提供集成的电子邮件路由外部帐户。 其中包含允许应用程序发送电子邮件的技术参数。
-
-* **测试SMTP投放**:此选项用于测试通过SMTP发送的内容。 投放会一直处理到与SMTP服务器的连接，但不会发送：对于投放的每个收件人，Campaign会连接到SMTP提供程序服务器，执行SMTP RCPT TO命令，然后在SMTP DATA命令之前关闭连接。
-
-* **电子邮件密送**:此选项仅通过向消息目标添加密件抄送电子邮件地址，用于通过密件抄送在外部系统上存储电子邮件。 在中了解有关电子邮件密件抄送的更多信息 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Learn more about consistency and capacity rules and how to configure them in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
+## Audience {#audience}
 
-### 重试 {#retries}
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
+
+Learn more about target mappings in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+
+## Delivery {#delivery}
+
+Delivery parameters are technical settings which apply to your delivery. 
+
+* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
+
+* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+
+
+### Retries {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="最大重试次数"
->abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
+>title="Maximum number of retries"
+>abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-了解有关重试管理的更多信息，请参阅 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Learn more about retry management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-## 审批 {#approval}
+## Approval {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="审批方式"
->abstract="投放的每个步骤都可获得批准，以确保对各个流程进行全面监控和控制。"
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
 
-如果在投放准备期间生成警告，则可以配置投放以定义是否应仍执行该投放。 默认情况下，用户必须在分析阶段结束时确认消息的发送：此为 **手动** 验证。
+If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
-您可以在相应的字段中选择其他批准模式。 可用模式包括：
+You can select another approval mode in the appropriate field. Available modes are: 
 
-* **手动**:在分析阶段结束时，用户必须确认投放以开始发送。
+* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
 
-* **半自动**:如果分析阶段未生成警告消息，则自动开始发送。
+* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
 
-* **自动**:发送在分析阶段结束时自动开始，而不管其结果如何。
+* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 
-## 有效性 {#validity}
+## Validity {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
->title="投放持续时间"
->abstract="利用投放持续时间字段，可输入全局投放重试的限制。 这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，会执行常规的可配置重试，直到达到有效性限制为止。"
+>title="Delivery duration"
+>abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="资源有效期限"
->abstract="“有效性限制”字段用于已上传的资源，主要用于镜像页面和图像。 此页面上的资源在有限的时间内有效。"
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
 
 
-的 **投放持续时间** 字段允许您输入全局投放重试的限制。 这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，会执行常规的可配置重试，直到达到有效性限制为止。
+The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-您还可以选择指定日期。 要执行此操作，请选择 **明确设置有效日期**. 在这种情况下，投放和有效期限制日期还允许您指定时间。 默认使用当前时间，但您可以直接在输入字段中修改此时间。
+You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-**资源有效性限制** 用于已上传的资源，主要用于镜像页面和图像。 本页上的资源仅在限制时间内有效（以节省磁盘空间）。
+**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 ![](assets/delivery-settings-2.png)
 
 
-了解有关投放有效期的更多信息(位于 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Learn more about delivery validity period in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### 镜像页面管理 {#mirror}
+### Mirror page management {#mirror}
 
-镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件相同。 默认情况下，如果将链接插入到邮件内容中，则会生成镜像页面。
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
 
-除了默认模式之外，还提供以下选项：
+In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL 强制生成镜像页面]**:即使投放中未插入指向镜像页面的链接，也会创建镜像页面。
-* **[!UICONTROL 不生成镜像页面]**:即使投放中存在链接，也不会生成镜像页面。
-* **[!UICONTROL 生成仅使用消息标识符可访问的镜像页面]**:此选项允许您在投放日志窗口中访问包含个性化信息的镜像页面的内容。 为此，在投放结束后，单击 **[!UICONTROL 投放]** 选项卡上，选择要查看其镜像页面的收件人行。 单击 **[!UICONTROL 显示此消息的镜像页面……]** 链接。
+* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
+* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
 
-### 跟踪 {#tracking}
+### Tracking {#tracking}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="有效期"
->abstract="此选项定义在URL上激活跟踪的持续时间。"
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
 
-跟踪参数在相关部分中定义。 可能的选项包括：
+Tracking parameters are defined in the related section. Possible options are:
 
-**跟踪有效性限制**:使用此选项可更改在URL上激活跟踪的持续时间。
+**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
 
-**过期URL的替换URL**:使用此选项可输入回退网页的URL:跟踪过期后，将显示该标记。
+**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
-## 测试设置 {#test-setttings}
+## Test Settings {#test-setttings}
 
-您可以在此部分中设置排除参数。 可用选项包括：
+You can set the exclusion parameters in this section. Available options are:
 
-* **保持双倍** 允许您向满足多个定位标准的收件人授权多个投放。
+* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-* **保留列入阻止列表地址** 允许您从目标中保留任何不再被投放定向的用户档案，例如在退订（选择退出）后。
+* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
-* **保留隔离的地址** 允许您从目标中保留任何地址未响应的用户档案。
+* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-您还可以自定义测试电子邮件的名称。
+You can also customize the name of the test emails.
 
-使用 **保留校样的投放代码** 与测试电子邮件关联的投放代码与为与其相关的投放定义的投放代码相同。
+Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
 
-默认情况下，测试电子邮件的主题以“PROOF #”为前缀，其中#是测试电子邮件的编号。 您可以在 **标签前缀** 字段。
+By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.

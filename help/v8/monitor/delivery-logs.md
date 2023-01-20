@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: 监控投放日志
-description: 了解如何监控投放日志
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
-
 ---
-
-# 监控投放日志 {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="投放日志"
->abstract="热障涂层"
+>title="Delivery logs"
+>abstract="TBC"
 
-准备并发送电子邮件后，利用投放日志可验证是否存在错误。 可直接从消息仪表板访问这些日志。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-要查看日志，请访问投放仪表板，然后单击 **日志** 按钮。
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-提供了以下几个选项卡：
+Several tabs are available:
 
-## 日志
+## Logs
 
-的 **日志** 选项卡包含与投放和校样相关的所有消息。 利用特定的图标，可识别错误或警告。
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-列出了所有验证步骤、警告和错误。 彩色图标显示消息类型：
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* 灰色图标表示信息性消息。
-* 黄色图标表示非关键处理错误。
-* 红色图标表示阻止发送投放的严重错误。
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## 投放
+## Deliveries
 
-的 **发送日志** 选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## 排除项
+## Exclusions
 
-的 **排除日志** 选项卡列出了从目标中排除的所有消息，并说明了发送失败的原因。
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## 排除原因
+## Exclusion causes
 
-的 **排除原因** 选项卡显示从目标中排除的消息量（消息数）。
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## 跟踪的 URL
+## Tracked URLs
 
-的 **跟踪的URL** 选项卡会重组已发送消息中包含的URL，包括其URL类型和源URL。
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-## 跟踪
+## Tracking
 
-的 **跟踪** 选项卡列出了此投放的跟踪历史记录。 此选项卡显示已发送消息的跟踪数据，即所有受Adobe Campaign跟踪的URL。
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->如果未为投放启用跟踪，则不会显示此选项卡。
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

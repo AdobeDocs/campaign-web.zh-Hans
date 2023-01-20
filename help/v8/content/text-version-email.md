@@ -1,42 +1,35 @@
 ---
 audience: end-user
-title: 创建电子邮件的文本版本
-description: 了解如何创建电子邮件的文本版本
+title: Create the text version of an email
+description: Learn how to create the text version of an email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
-
 ---
-
-# 创建电子邮件的文本版本 {#text-version-email}
+# Create the text version of an email {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
+It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 
-默认情况下，Email Designer会创建 **[!UICONTROL 纯文本]** 电子邮件的版本，包括个性化字段。 此版本将自动生成并与内容的HTML版本同步。
+By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
 
-如果您希望对纯文本版本使用其他内容，请执行以下步骤：
+If you prefer using a different content for the plain text version, follow the steps below:
 
-1. 从您的电子邮件中，选择 **[!UICONTROL 纯文本]** 选项卡。
+1. From your email, select the **[!UICONTROL Plain text]** tab.
 
-   ![](assets/text_version_3.png)
+    ![](assets/text_version_3.png)
 
-1. 使用 **[!UICONTROL 与HTML同步]** 切换为禁用同步。
+1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
 
-   ![](assets/text_version_1.png)
+    ![](assets/text_version_1.png)
 
-1. 单击复选标记以确认您的选择。
+1. Click the check mark to confirm your choice.
 
-   ![](assets/text_version_2.png)
+    ![](assets/text_version_2.png)
 
-1. 然后，您可以根据需要编辑纯文本版本。
+1. You can then edit the plain text version as desired.
 
 >[!CAUTION]
 >
->* 中所做的更改 **[!UICONTROL 纯文本]** 视图未反映在HTML视图中。
+>* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
 >
->* 如果重新启用 **[!UICONTROL 与HTML同步]** 选项，则更改将会丢失，并替换为从HTML版本生成的文本内容。
-
+>*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.

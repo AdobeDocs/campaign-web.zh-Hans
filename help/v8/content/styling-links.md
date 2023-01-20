@@ -1,39 +1,33 @@
 ---
 audience: end-user
-title: 为链接定义样式
-description: 了解如何定义链接的样式
+title: Define a style for links
+description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
-
 ---
-
-# 为链接定义样式 {#styling-links}
+# Define a style for links {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-您可以在Email Designer中为链接加下划线并选择其颜色和目标。
+You can underline a link and select its color and target in the Email Designer.
 
-1. 在 **[!UICONTROL 文本]** 插入链接的组件，请选择您的链接。
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 
-1. 在 **[!UICONTROL 组件设置]** 菜单，勾选 **[!UICONTROL 下划线链接]** 标签加下划线。
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
 
    ![](assets/link_1.png)
 
-1. 选择如何通过 **[!UICONTROL Target]** 下拉列表：
+1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
 
-   * **[!UICONTROL 无]**:在点击链接的同一帧中打开该链接（默认）。
-   * **[!UICONTROL 空白]**:在新窗口或选项卡中打开链接。
-   * **[!UICONTROL Self]**:在点击链接的同一帧中打开该链接。
-   * **[!UICONTROL 父项]**:在父框架中打开链接。
-   * **[!UICONTROL 顶部]**:在窗口的完整正文中打开链接。
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
 
    ![](assets/link_2.png)
 
-1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从右窗格。
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
 
    ![](assets/link_3.png)
 
-1. 保存更改。
+1. Save your changes.
