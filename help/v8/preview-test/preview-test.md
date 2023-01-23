@@ -1,25 +1,32 @@
 ---
 audience: end-user
-title: About email preview and test
-description: Learn how to preview and test emails
+title: 关于电子邮件预览和测试
+description: 了解如何预览和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
+
 ---
-# About email preview and test {#about-preview-proofs}
+
+# 关于电子邮件预览和测试 {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
+在发送电子邮件之前，务必要检查和测试其内容，以确保其内容准确无误，且不会在内容或个性化设置中出错。
 
-To do this, Adobe Campaign allows you to:
+为此，Adobe Campaign允许您：
 
-* [Preview the email content and personalization](#preview),
+* [预览电子邮件内容和个性化](#preview),
+
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send test emails](#send-proofs) to specific recipients for testing and validation.
+* [发送测试电子邮件](#send-proofs) 特定收件人进行测试和验证。
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+这些操作可从 **[!UICONTROL 模拟内容]** 按钮，在从Email Designer创建电子邮件内容时可访问该按钮：
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
+>单击 **[!UICONTROL 审阅并发送]** 按钮。

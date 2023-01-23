@@ -1,27 +1,33 @@
 ---
 audience: end-user
-title: Test email rendering
-description: Learn how to test your email rendering in Campaign Web UI
+title: 测试电子邮件渲染
+description: 了解如何在Campaign Web UI中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 0%
+
 ---
-# Test the email rendering {#rendering}
+
+# 测试电子邮件渲染 {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
+在发送电子邮件之前，请确保以最佳方式在各种Web客户端、Web邮件和设备上向收件人显示您的消息。
 
-To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
+为此，Adobe Campaign允许您预览在可能接收消息的不同上下文中发送的消息，并检查主要桌面和应用程序（Web邮件、消息服务、移动设备等）的兼容性。
 
-To test the email rendering, follow these steps:
+要测试电子邮件渲染，请执行以下步骤：
 
-1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+1. 访问电子邮件内容创建屏幕，然后单击 **[!UICONTROL 模拟内容]**.
 
-1. Click the **[!UICONTROL Render email]** button.
+1. 单击 **[!UICONTROL 呈现电子邮件]** 按钮。
 
-    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+   左侧窗格提供各种桌面、移动设备和基于Web的电子邮件客户端。 选择所需的电子邮件客户端，以在右侧窗格中显示电子邮件的预览。
 
-    ![](assets/render-context.png)
+   ![](assets/render-context.png)
 
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+   >[!NOTE]
+   >
+   >电子邮件客户端列表提供了主要邮件客户端的示例。 通过顶部搜索栏旁边的过滤器按钮，可以使用其他电子邮件客户端。

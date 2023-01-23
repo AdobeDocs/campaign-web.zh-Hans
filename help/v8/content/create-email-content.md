@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Design emails in the Email Designer
-description: Learn how to design your emails content from scratch
+title: 在Email Designer中设计电子邮件
+description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 0%
+
 ---
-# Start from scratch {#create-email-content}
+
+# 从头开始 {#create-email-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="About Structure components"
->abstract="Structure components define the layout of the email."
+>title="关于结构组件"
+>abstract="结构组件可定义电子邮件的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="About Structure components"
->abstract="Structure components define the layout of the landing page."
+>title="关于结构组件"
+>abstract="结构组件可定义登陆页面的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="About Structure components"
->abstract="Structure components define the layout of the fragment."
+>title="关于结构组件"
+>abstract="结构组件定义片段的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="About Structure components"
->abstract="Structure components define the layout of the template."
+>title="关于结构组件"
+>abstract="结构组件定义模板的布局。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Defining email columns"
->abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+>title="定义电子邮件列"
+>abstract="Email Designer允许您通过定义列结构轻松定义电子邮件的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Defining landing page columns"
->abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
+>title="定义登陆页面列"
+>abstract="Email Designer允许您通过定义列结构轻松定义登陆页面的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Defining fragment columns"
->abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
+>title="定义片段列"
+>abstract="Email Designer允许您通过定义列结构轻松定义片段的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Defining template columns"
->abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
+>title="定义模板列"
+>abstract="Email Designer允许您通过定义列结构轻松定义模板的布局。"
 
-The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
+通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在数秒内设计电子邮件的正文。
 
-To start building your email content, follow the steps below:
+要开始构建电子邮件内容，请执行以下步骤：
 
-1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
+1. 从Email Designer主页中，选择 **[!UICONTROL 从头开始设计]** 选项。
 
-    ![](assets/email_designer.png)
+   ![](assets/email_designer.png)
 
-1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
-
-   >[!NOTE]
-   >
-   >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
-
-    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
-
-    ![](assets/email_designer_2.png)
-
-1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
-
-    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+1. 通过拖放开始设计电子邮件内容 **[!UICONTROL 结构部件]** 到画布中以定义电子邮件的布局。
 
    >[!NOTE]
    >
-   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
+   >堆叠列与所有电子邮件程序不兼容。 不支持时，不会堆叠列。
 
-1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+   ![](assets/email_designer_2.png)
 
-    ![](assets/email_designer_5.png)
+1. 添加任意数量的 **[!UICONTROL 结构部件]** 根据需要，在右侧的专用窗格中编辑其设置。
 
-1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+   选择 **[!UICONTROL n:n列]** 组件来定义所选的列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
 
-1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+   >[!NOTE]
+   >
+   >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
 
-    ![](assets/email_designer_7.png)
+1. 展开 **[!UICONTROL 内容组件]** ，并将所需数量的元素添加到一个或多个结构组件中。 [了解有关内容组件的更多信息](content-components.md)
 
-1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+1. 可使用 **[!UICONTROL 组件设置]** 窗格。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
 
-    >[!CAUTION]
-    >
-    >You cannot revert back to the visual designer for this email after switching to the code editor.
+   ![](assets/email_designer_5.png)
 
-1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
+1. 插入个性化字段以根据用户档案数据自定义电子邮件内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
 
-    ![](assets/email_designer_28.png)
+1. 单击 **[!UICONTROL 链接]** 选项卡，以显示必须跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 类别]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
 
-1. When your email is ready, click **[!UICONTROL Save]**.
+   ![](assets/email_designer_7.png)
+
+1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 [了解有关代码编辑器的更多信息](code-content.md)
+
+   >[!CAUTION]
+   >
+   >切换到代码编辑器后，无法还原到此电子邮件的可视设计器。
+
+1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 以检查电子邮件渲染。 您可以选择桌面视图或移动设备视图。 [了解有关预览电子邮件的更多信息](../preview-test/preview-test.md)
+
+   ![](assets/email_designer_28.png)
+
+1. 准备好电子邮件后，单击 **[!UICONTROL 保存]**.
 

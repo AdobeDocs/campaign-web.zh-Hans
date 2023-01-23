@@ -1,83 +1,89 @@
 ---
 audience: end-user
-title: Send your first email
-description: Learn how to send your first email with Campaign Web UI
+title: 发送您的第一封电子邮件
+description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1244'
+ht-degree: 0%
+
 ---
-# Send your first email {#first-email}
+
+# 发送您的第一封电子邮件 {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
+了解如何创建您的第一封定向电子邮件。 在此用例中，您计划在特定日期向银牌和金牌忠诚会员发送电子邮件。
 
-Based on a predefined design template, the email also features personalized content based on customer profile attributes.
+该电子邮件还基于预定义的设计模板，根据客户用户档案属性提供个性化内容。
 
 ![](assets/delivery-list.png)
 
-## Create the email {#create-email}
+## 创建电子邮件 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Select an email template"
->abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
+>title="选择电子邮件模板"
+>abstract="电子邮件模板是特定的投放配置，其中包含预定义的设置，例如分类规则、个性化或路由参数。 模板在Campaign客户端控制台中定义。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Email Properties"
->abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
+>title="电子邮件属性"
+>abstract="属性是常用的投放参数，可帮助您命名投放并对其进行分类。 如果您的投放基于在Adobe Campaign v8控制台中定义的扩展架构，则某些特定 **自定义选项** 字段。"
 
-1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
+1. 要创建新投放，请转到 **[!UICONTROL 投放]** 菜单和选择 **[!UICONTROL 电子邮件]** 作为渠道。
 
-1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
+1. 选择要使用的模板，然后单击 **[!UICONTROL 创建投放]**.
 
-    >[!NOTE]
-    >
-    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >模板是预配置的投放设置，可保存以供将来使用。 管理员用户可以在Adobe Campaign控制台中创建这些配置文件。 [了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-    ![](assets/channel-template.png)
+   ![](assets/channel-template.png)
 
-1. Provide a label for the email and configure additional options based on your needs:
+1. 为电子邮件提供标签，并根据您的需求配置其他选项：
 
-    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
-    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
-    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
-    * **[!UICONTROL Description]**: specify a description for the delivery,
-    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+   * **[!UICONTROL 内部名称]**:为投放分配唯一标识符，
+   * **[!UICONTROL 文件夹]**:将投放存储在特定文件夹中，
+   * **[!UICONTROL 提交代码]**:使用此字段根据您自己的命名约定组织投放，
+   * **[!UICONTROL 描述]**:为投放指定描述，
+   * **[!UICONTROL 自然]**:为分类目的指定电子邮件的性质。<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-    >[!NOTE]
-    >
-    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
+   >[!NOTE]
+   >
+   >如果您已使用特定自定义字段扩展了架构，则可以在 **[!UICONTROL 自定义选项]** 中。
 
-    ![](assets/email-properties.png)
+   ![](assets/email-properties.png)
 
-    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
+   此外，通过单击投放名称旁边的按钮，还可以访问高级设置，如分类规则和目标映射。 这些设置在选定的模板中进行了预配置，但可以根据需要编辑此特定电子邮件。
 
-## Create the email content {#create-content}
+## 创建电子邮件内容 {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Learn how to design your email content"
->abstract="Learn how to use the Email Designer."
+>title="了解如何设计电子邮件内容"
+>abstract="了解如何使用Email Designer。"
 
-In this use case, you use a predefined template to design our email.
+在此用例中，您可以使用预定义的模板来设计我们的电子邮件。
 
-Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
+有关如何配置电子邮件内容的详细说明，请参阅 [此部分](../content/edit-content.md).
 
-1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
+1. 要开始创建电子邮件内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 
-   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
+   这会为您提供一个专用界面，您可以在该界面中配置电子邮件内容并使用Email Designer进行设计。
 
-    ![](assets/edit-content.png)
+   ![](assets/edit-content.png)
 
-1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
+1. 输入电子邮件的主题行，然后使用表达式编辑器对其进行个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
 
-    ![](assets/subject-line.png)
+   ![](assets/subject-line.png)
 
-1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
+1. 要设计电子邮件的正文，请单击 **[!UICONTROL 编辑电子邮件正文]** 按钮。
 
-    Choose the method to use to create your email content. In this example, use a predefined design template.
+   选择用于创建电子邮件内容的方法。 在本例中，使用预定义的设计模板。
 
-    ![](assets/select-template.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -85,116 +91,116 @@ Detailed instructions on how to configure the email content are available in [th
 
     ![](assets/import-folder.png)-->
 
-1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
+1. 选择模板后，该模板会显示在Email Designer中，您可以在其中进行任何必要的编辑和添加个性化。
 
-    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
+   例如，要将个性化添加到电子邮件标题，请选择组件块并单击 **[!UICONTROL 添加个性化]**.
 
-    ![](assets/add-perso.png)
+   ![](assets/add-perso.png)
 
-1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
+1. 对内容满意后，保存并关闭您的设计。 单击 **[!UICONTROL 保存]** ，以返回到电子邮件创建屏幕。
 
-    ![](assets/save-content.png)
+   ![](assets/save-content.png)
 
-## Define the audience {#define-audience}
+## 定义受众 {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Define the audience"
->abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
+>title="定义受众"
+>abstract="为您的营销消息选择最佳受众。 您可以选择已在Campaign v8实例中定义的现有受众，也可以从Adobe Experience Platform中选择，也可以使用规则生成器创建新受众。"
 
-In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
+在此用例中，您会向现有受众发送电子邮件。 有关如何使用受众的其他说明，请参阅 [此部分](../audience/about-audiences.md).
 
-1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
+1. 要选择电子邮件的受众，请单击 **[!UICONTROL 选择受众]** 按钮，然后从列表中选择现有受众。
 
-    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+   在此示例中，我们希望使用现有受众来定位属于银牌和金牌忠诚度积分级别的客户。
 
-    ![](assets/create-audience.png)
+   ![](assets/create-audience.png)
 
-    >[!NOTE]
-    >
-    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
-    >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >列表中可用的受众源自您的Campaign v8实例，或者来自Adobe Experience Platform（如果已在您的实例中配置目标/源集成）。
+   >
+   >通过目标/源集成，您可以将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 [了解如何使用Campaign和Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. Once the audience is selected, you can further refine the target by applying additional rules.
+1. 选择受众后，您可以通过应用其他规则进一步优化目标。
 
-    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
+   您还可以设置一个控制组来分析与未定向收件人相比电子邮件收件人的行为。 [了解如何与控制组合作](../audience/control-group.md)
 
-    ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png)
 
-## Schedule the sending {#schedule}
+## 计划发送 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
+>title="计划发送"
+>abstract="定义发送的日期和确切时间。 通过为您的营销消息选择最合适的时间，您可以最大限度地提高打开率。"
 
-To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
+要计划发送电子邮件，请单击 **[!UICONTROL 启用]** 并设置发送所需的日期和时间。
 
-By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
+默认情况下， **[!UICONTROL 发送前确认]** 选项，要求您在计划的日期和时间发送电子邮件之前确认发送。 如果您希望在计划的日期和时间自动发送电子邮件，则可以禁用此选项。
 
 ![](assets/schedule.png)
 
-## Preview and test the email {#preview-test}
+## 预览和测试电子邮件 {#preview-test}
 
-Before sending your email, you can preview and test it to ensure it meets your expectations.
+在发送电子邮件之前，您可以预览并测试该电子邮件，以确保其符合您的预期。
 
-In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
+在此用例中，您可以预览电子邮件，并将测试版本发送到特定的电子邮件地址，同时模拟某些目标用户档案。
 
-Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
+有关如何预览和测试电子邮件的其他信息，请参阅 [此部分](../preview-test/preview-test.md).
 
-1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
+1. 要查看和发送电子邮件，请单击 **[!UICONTROL 审阅并发送]**. 此时会显示电子邮件的预览，以及所有已配置的属性、受众和计划。 您可以通过单击修改按钮来编辑其中的任何元素。
 
-1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
+1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。
 
-    ![](assets/review-email.png)
+   ![](assets/review-email.png)
 
-1. On the left-hand side, select the profile(s) you want to use to preview the email.
+1. 在左侧，选择要用于预览电子邮件的用户档案。
 
-    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
+   右侧窗格显示基于所选用户档案的电子邮件预览。 如果已添加多个用户档案，则可以在它们之间切换以预览相应的电子邮件。
 
-    ![](assets/preview.png)
+   ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
+1. 要发送电子邮件的测试版本，请单击 **[!UICONTROL 测试]** 按钮，然后选择要使用的模式。
 
-    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
+   在本例中，使用 **[!UICONTROL 从主目标替换]** 模式，在模拟电子邮件所定向的某些用户档案时，将测试版本发送到特定电子邮件地址。
 
-    ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png)
 
-1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
+1. 单击 **[!UICONTROL 添加地址]** 和指定接收测试版本的电子邮件地址。
 
-    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
+   对于每个电子邮件地址，选择要模拟的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 
-    ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png)
 
-1. Click **[!UICONTROL Send test email ]** and confirm the sending.
+1. 单击 **[!UICONTROL 发送测试电子邮件]** 确认发送。
 
-    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
+   测试版本将使用包含 **[校样x]** 前缀。
 
-    ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png)
 
-    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
+   您可以随时检查发送状态，并通过单击 **[!UICONTROL 查看测试电子邮件日志]** 按钮。
 
-## Send and monitor the email {#prepare-send}
+## 发送并监视电子邮件 {#prepare-send}
 
-After reviewing and testing your email, you can launch its preparation and send it.
+审核和测试电子邮件后，您可以启动准备并发送它。
 
-1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
+1. 要开始准备电子邮件，请单击 **[!UICONTROL 准备]**. [了解如何准备电子邮件](../monitor/prepare-send.md)
 
-    ![](assets/preparation.png)
- 
-1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
+   ![](assets/preparation.png)
 
-1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
+1. 准备好发送电子邮件后，单击 **[!UICONTROL 发送]** 按钮（或） **[!UICONTROL 按计划发送]** （如果已计划其发送）并确认发送。
 
-    ![](assets/sent-mail.png)
+1. 在发送过程中，您可以直接在此屏幕中跟踪其进度并实时查看统计信息。
 
-    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
+   ![](assets/sent-mail.png)
 
-1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
+   您还可以通过单击 **[!UICONTROL 日志]** 按钮。 [了解如何监控投放日志](../monitor/delivery-logs.md)
+
+1. 发送电子邮件后，您可以通过单击 **[!UICONTROL 报表]** 按钮。
 
 ![](assets/reports.png)

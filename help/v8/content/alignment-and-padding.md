@@ -1,37 +1,43 @@
 ---
 audience: end-user
-title: Adjust vertical alignment and padding in Email Designer
-description: Learn how to adjust vertical alignment and padding
+title: 在Email Designer中调整垂直对齐和内边距
+description: 了解如何调整垂直对齐和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 1%
+
 ---
-# Adjust vertical alignment and padding {#alignment-and-padding}
+
+# 调整垂直对齐和内边距 {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
+在本例中，我们调整由三列组成的结构组件内的填充和垂直对齐方式。
 
-1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. 直接在电子邮件中或使用 **[!UICONTROL 导航树]** 在左窗格中可用。
 
    ![](assets/alignment_1.png)
 
-1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
+1. 在上下文工具栏中，单击 **[!UICONTROL 选择列]** 并选择要编辑的。 您还可以从左侧的结构树中选择它。
 
    ![](assets/alignment_2.png)
 
-1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
+1. 该列的可编辑参数显示在 **[!UICONTROL 列设置]** 菜单。 调整 **[!UICONTROL 垂直对齐]** 使用专述章节。
 
    ![](assets/alignment_3.png)
 
-   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
+   例如，选择 **[!UICONTROL 底部]**. 内容组件移至列底部。
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
+1. 在 **[!UICONTROL 内边距]**，定义列内的顶部内边距，并设置该列的左边距和右边距。
 
    >[!NOTE]
    >
-   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
+   >单击锁图标可中断上/下或左/右内边距之间的同步。
 
    ![](assets/alignment_4.png)
 
-1. Proceed similarly to adjust the other columns' alignment and padding.
+1. 以类似方式继续调整其他列的对齐方式和内边距。
 
-1. Save your changes.
+1. 保存更改。

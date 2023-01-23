@@ -1,73 +1,79 @@
 ---
 audience: end-user
-title: Send test emails
-description: Learn how to define and send test emails
+title: 发送测试电子邮件
+description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 1%
+
 ---
-# Send test emails {#send-proofs}
+
+# 发送测试电子邮件 {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
+发送测试电子邮件是验证电子邮件促销活动并确定潜在问题的重要步骤。 通过发送测试电子邮件，您可以检查各种元素，如链接、选择退出链接、图像和镜像页面，并检测任何错误。
 
-Test emails can be sent to two types of recipients: 
+测试电子邮件可发送给两种类型的收件人：
 
-* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
-    
-* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
+* **测试用户档案**:向种子地址发送测试电子邮件，这些地址是数据库中其他虚构的收件人。 这些配置文件可在Adobe Campaign控制台中创建到 **[!UICONTROL 资源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 种子地址]** 文件夹。
 
-## Select the test recipients {#recipients}
+* **从主目标替换**:模拟现有用户档案时，向特定电子邮件地址发送测试电子邮件。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案收到的消息。
 
-1. Access the email content simulation screen, then click the **[!UICONTROL Test]** button.
+## 选择测试收件人 {#recipients}
 
-    ![](assets/test-button.png)
+1. 访问电子邮件内容模拟屏幕，然后单击 **[!UICONTROL 测试]** 按钮。
 
-1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
+   ![](assets/test-button.png)
 
-    * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
-    
-    * **Substitution from main target**: send the test email to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
+1. 使用 **[!UICONTROL 模式]** 下拉列表，用于选择接收测试电子邮件的收件人类型：
 
-    ![](assets/test-mode.png)
+   * **测试用户档案**:将测试电子邮件发送到种子地址，这些地址是数据库中其他虚构的收件人，
 
-    >[!NOTE]
-    >
-    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
+   * **从主目标替换**:在模拟现有用户档案时，将测试电子邮件发送到特定电子邮件地址。 这样，您就可以像收件人一样体验电子邮件，从而准确呈现用户档案将收到的消息。
 
-1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
+   ![](assets/test-mode.png)
 
-    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
+   >[!NOTE]
+   >
+   >默认情况下， **[!UICONTROL 测试用户档案]** 模式。 如果已选择用户档案以在内容模拟屏幕中预览电子邮件，则会预先选择这些用户档案作为测试收件人。 您可以清除选择和/或添加其他收件人。
 
-        You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
+1. 要向替换用户档案发送测试电子邮件，请选择 **[!UICONTROL 目标替换]** 模式，然后执行以下步骤：
 
-    1. Select the profile from the target to use to send the test email. You can also let Adobe Campaign select a random profile from the target.
+   1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定接收测试电子邮件的电子邮件地址。
 
-    1. Confirm the recipient and repeat the operation to add as many addresses as needed.
+      您可以输入任何电子邮件地址。 这允许您向任何用户发送测试电子邮件，即使他们不是Adobe Campaign V8用户也是如此。
 
-        ![](assets/substitution.png)
+   1. 从目标中选择用于发送测试电子邮件的用户档案。 您还可以让Adobe Campaign从目标中选择一个随机配置文件。
 
-1. Once the test recipients have been selected, you can send the test email. [Learn how to send test emails](#send)
+   1. 确认收件人并重复操作以根据需要添加任意数量的地址。
 
-    >[!NOTE]
-    >
-    >If you want to send the final email message to the recipients of the test email, enable the **[!UICONTROL Include test population in the main target]** option on.
+      ![](assets/substitution.png)
 
-## Send the test email {#send}
+1. 选择测试收件人后，您可以发送测试电子邮件。 [了解如何发送测试电子邮件](#send)
 
-To send the test email to the selected recipients, click **[!UICONTROL Send test email]** then confirm the sending.
+   >[!NOTE]
+   >
+   >如果要向测试电子邮件的收件人发送最终电子邮件，请启用 **[!UICONTROL 在主目标中包含测试群体]** 选项。
+
+## 发送测试电子邮件 {#send}
+
+要向选定的收件人发送测试电子邮件，请单击 **[!UICONTROL 发送测试电子邮件]** 然后确认发送。
 
 ![](assets/send-proof.png)
 
-Send as many test emails as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
+根据需要发送尽可能多的测试电子邮件，直到完成投放的内容为止。 完成此操作后，您可以向主目标发送电子邮件。 [了解如何准备和发送电子邮件](../monitor/prepare-send.md)
 
-## Access sent test emails {#access-proofs}
+## 访问已发送的测试电子邮件 {#access-proofs}
 
-Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button.
+发送测试电子邮件后，即可从 **[!UICONTROL 查看测试电子邮件日志]** 按钮。
 
-These logs allow you to access all the test emails sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
+利用这些日志，可访问为选定投放发送的所有测试电子邮件，并可视化与其发送相关的特定统计信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-You can also access sent test emails from the deliveries list, like any delivery.
+您还可以像任何投放一样从投放列表访问已发送的测试电子邮件。
 
 ![](assets/delivery-list.png)

@@ -1,29 +1,35 @@
 ---
 audience: end-user
-title: Code your own email content
-description: Learn how to code your own email content
+title: 编码您自己的电子邮件内容
+description: 了解如何编码您自己的电子邮件内容
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
+
 ---
-# Code your own content {#code-content}
+
+# 对您自己的内容进行编码 {#code-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
+使用 **[!UICONTROL 编码您自己的]** 模式导入原始HTML和/或编码电子邮件内容。 此方法需要HTML技能。
 
-1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
+1. 在Email Designer主页中，选择 **[!UICONTROL 编码您自己的]**.
 
-    ![](assets/code-your-own.png)
+   ![](assets/code-your-own.png)
 
-1. Enter or paste your raw HTML code. 
+1. 输入或粘贴原始HTML代码。
 
-1. Use the left pane to leverage personalization capabilities.
+1. 使用左窗格可利用个性化功能。
 
-1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
-    
-    ![](assets/code-editor-change-design.png)
+1. 如果要打开Email Designer以从新设计开始发送电子邮件，请选择 **[!UICONTROL 更改设计]** 中。
 
-1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
+   ![](assets/code-editor-change-design.png)
 
-1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
+1. 单击 **[!UICONTROL 模拟内容]** 按钮以使用测试用户档案检查消息设计和个性化。
 
-    ![](assets/code-editor-save.png)
+1. 代码准备就绪后，单击 **[!UICONTROL 保存]** 然后返回消息创建屏幕以完成消息。
+
+   ![](assets/code-editor-save.png)

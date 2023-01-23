@@ -1,56 +1,62 @@
 ---
 audience: end-user
-title: Personalize your email background
-description: Learn how to personalize your email background
+title: 个性化您的电子邮件背景
+description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
+
 ---
-# Personalize your email background {#backgrounds}
+
+# 个性化您的电子邮件背景 {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
+>title="背景设置"
+>abstract="您可以为内容个性化背景颜色或背景图像。 请注意，并非所有电子邮件客户端都支持背景图像。"
 
-When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
+在使用Email Designer设置背景时，Adobe建议执行以下操作：
 
-1. Apply a background color to the body of your email if required by your design.
-1. Usually, set background colors at the column level.
-1. Try not to use background colors on image or text components as they are difficult to manage.
+1. 根据您的设计需要，将背景颜色应用于电子邮件正文。
+1. 通常，在列级别设置背景颜色。
+1. 请尽量不要在图像或文本组件上使用背景颜色，因为它们很难管理。
 
-Below are the available background settings that you can use.
+以下是您可以使用的可用背景设置。
 
-* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
+* 设置 **[!UICONTROL 背景颜色]** 整封邮件。 确保在可从左侧窗格访问的导航树中选择主体设置。
 
-  ![](assets/background_1.png)
+   ![](assets/background_1.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
+* 通过选择 **[!UICONTROL 视区背景颜色]**. 此选项允许您从背景颜色中选择其他设置。
 
-  ![](assets/background_2.png)
+   ![](assets/background_2.png)
 
-* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
+* 为每个结构组件设置不同的背景颜色。 在左侧窗格的导航树中选择一个结构，以仅将特定背景颜色应用于该结构。
 
-  ![](assets/background_3.png)
+   ![](assets/background_3.png)
 
-  >[!NOTE]
-  >
-  >Make sure you do not set a viewport background color as it may hide the structure background colors.
+   >[!NOTE]
+   >
+   >确保未设置视区背景颜色，因为它可能隐藏结构背景颜色。
 
-* Set a **[!UICONTROL Background image]** for the content of a structure component.
+* 设置 **[!UICONTROL 背景图像]** ，以查看结构组件的内容。
 
-  ![](assets/background_4.png)
+   ![](assets/background_4.png)
 
-  >[!NOTE]
-  >
-  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
+   >[!NOTE]
+   >
+   >某些电子邮件程序不支持背景图像。 不支持时，将改用行背景颜色。 确保在图像无法显示的情况下选择适当的回退背景颜色。
 
-* Set a background color at the column level.
+* 在列级别设置背景颜色。
 
-  ![](assets/background_5.png)
+   ![](assets/background_5.png)
 
-  >[!NOTE]
-  >
-  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
+   >[!NOTE]
+   >
+   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
 
-  You can also set a background image at the column level, but this is rarely used.
+   您也可以在列级别设置背景图像，但很少使用此方法。
