@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8发行说明
 description: Campaign Web v8发行说明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->请注意，测试版中将提供跨渠道营销活动和工作流管理功能。
 
-## 术语更新
+## 术语更新{#terminology-updates}
 
 作为现有Campaign用户，请注意，为符合最新的术语标准，已对一些概念进行了重命名。 这些更改仅适用于Campaign Web UI，且未反映在客户端控制台中。 下文概述了这些建议。
 
@@ -62,3 +59,17 @@ add info somewhere to remind users that
 * 投放分析现在是 **投放准备**. 当您需要启动分析时，单击 **准备** 按钮
 * 现在，可通过 **模拟内容** 按钮
 * 列表现已 **受众**
+
+## 限制{#limitations-alpha}
+
+测试版中将提供一些Campaign关键功能，例如跨渠道营销活动和工作流管理。
+
+以下限制适用于此Alpha版本：
+
+* 唯一可编辑的对象是“投放”。 其他规则是只读的。 使用过滤器浏览所有过滤器。
+* 此版本专为一次性电子邮件促销活动而设计。 尚不支持其他渠道。
+* 管理用户界面不可用。
+* 报表量度（例如打开数和跟踪数据）每小时更新一次。
+* 投放仪表板KPI每5分钟更新一次。  — 但交付准备是实时的。
+* 尚未集成顶部栏中可用的Adobe Experience Cloud通知和统一帮助。
+
