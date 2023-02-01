@@ -3,9 +3,9 @@ audience: end-user
 title: 准备和发送电子邮件
 description: 了解如何使用Campaign Web UI准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,22 @@ send also KPIs
 
 ## 发送消息{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="已投放"
+>abstract="成功发送的消息数。 此指标每5分钟更新一次。 显示的百分比基于已发送消息的总数。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="打开"
+>abstract="已打开消息的数量。 此指标每5分钟更新一次。 显示的百分比是非重复打开次数与已投放消息数量的比率。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="点击次数"
+>abstract="在电子邮件中至少单击一次的收件人数。 此指标每5分钟更新一次。 显示的百分比是非重复点击次数与已投放消息数量的比率。"
+
+
 准备完成后，您现在即可发送消息。 只有立即发送的消息才需要此步骤。 如果消息已计划发送，则会在定义的日期发送。
 
 请执行以下步骤：
@@ -86,12 +102,12 @@ send also KPIs
 
    下面显示了不同的KPI:
 
-   * **已交付**:成功发送的消息数。 显示的百分比基于已发送消息的总数。
+   * **已交付**:成功投放的消息数。 显示的百分比基于已发送消息的总数。
    * **打开**:已打开消息的数量。 显示的百分比是非重复打开次数与已投放消息数量的比率。
    * **点击次数**:在电子邮件中至少单击一次的收件人数。 显示的百分比是非重复点击次数与已投放消息数量的比率。
 
    >[!NOTE]
    >
-   >的 **打开** 和 **点击次数** 指示器将在5分钟后更新。
+   >投放开始后，每5分钟更新一次所有指标。 投放准备指标是实时的。
 
    您可以随时暂停发送，然后继续。 如果在发送投放时停止投放，则无法继续。
