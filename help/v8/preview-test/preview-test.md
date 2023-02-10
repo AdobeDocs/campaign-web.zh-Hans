@@ -3,7 +3,7 @@ audience: end-user
 title: 关于电子邮件预览和测试
 description: 了解如何预览和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 为此，Adobe Campaign允许您：
 
-* [预览电子邮件内容和个性化](#preview),
+* [预览电子邮件内容和个性化](preview-content.md),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [发送测试电子邮件](#send-proofs) 特定收件人进行测试和验证。
+* [发送测试电子邮件](proofs.md) 特定收件人进行测试和验证。
 
 这些操作可从 **[!UICONTROL 模拟内容]** 按钮，在从Email Designer创建电子邮件内容时可访问该按钮：
 
