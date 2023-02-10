@@ -3,7 +3,7 @@ keywords: Campaign Web；主页；热门主题
 description: Campaign Web v8帮助中心
 title: Adobe Campaign Web v8产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 9%
@@ -41,7 +41,7 @@ Campaign现在提供了新的Web用户界面，增强了可用性、辅助功能
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="受众" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="受众" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>选择受众</strong></a>
@@ -50,7 +50,7 @@ Campaign现在提供了新的Web用户界面，增强了可用性、辅助功能
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="验证" src="assets/do-not-localize/email-config.jpg">
+<img alt="验证" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>预览和测试电子邮件</strong></a>
