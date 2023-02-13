@@ -3,9 +3,9 @@ audience: end-user
 title: 了解界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
+source-git-commit: d063c6757881b7793c8d399de42fde8423f44cdc
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1309'
 ht-degree: 1%
 
 ---
@@ -226,3 +226,22 @@ Campaign v8 Web目前提供以下语言版本：
 
 Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 -->
+
+
+
+<!--
+######## This part stores the contextualHelp definition for WebUI BETA ###########
+######## These blocks should be dispatched in the appropriate pages when available ###########
+######## PLEASE DO NOT DELETE ###########
+-->
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="短信报告摘要"
+>abstract="热障涂层"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="推送报表摘要"
+>abstract="热障涂层"
+
