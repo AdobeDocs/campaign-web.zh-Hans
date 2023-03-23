@@ -6,18 +6,18 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
-# 准备并发送电子邮件 {#prepare-send}
+# 准备并发送您的电子邮件 {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="准备并发送电子邮件"
->abstract="了解如何准备电子邮件，并了解有关发送KPI的更多信息。"
+>title="准备并发送您的电子邮件"
+>abstract="了解如何准备您的电子邮件，并了解有关发送关键绩效指标的更多信息。"
 
 <!--
 
@@ -74,18 +74,18 @@ send also KPIs
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="已投放"
->abstract="成功发送的消息数。 此指标每5分钟更新一次。 显示的百分比基于已发送消息的总数。"
+>title="已送达"
+>abstract="成功送达的邮件数。该指示器每 5 分钟更新一次。显示的百分比是基于已发送邮件的总数计算所得。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="打开"
->abstract="已打开消息的数量。 此指标每5分钟更新一次。 显示的百分比是非重复打开次数与已投放消息数量的比率。"
+>abstract="已打开消息的数量。 该指示器每 5 分钟更新一次。显示的百分比是不同打开次数与已送达邮件数的比率。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
->title="点击次数"
->abstract="在电子邮件中至少单击一次的收件人数。 此指标每5分钟更新一次。 显示的百分比是非重复点击次数与已投放消息数量的比率。"
+>title="单击次数"
+>abstract="在电子邮件中至少单击一次的收件人的数目。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
 
 
 准备完成后，您现在即可发送消息。 只有立即发送的消息才需要此步骤。 如果消息已计划发送，则会在定义的日期发送。
@@ -102,9 +102,9 @@ send also KPIs
 
    下面显示了不同的KPI:
 
-   * **已交付**:成功投放的消息数。 显示的百分比基于已发送消息的总数。
-   * **打开**:已打开消息的数量。 显示的百分比是非重复打开次数与已投放消息数量的比率。
-   * **点击次数**:在电子邮件中至少单击一次的收件人数。 显示的百分比是非重复点击次数与已投放消息数量的比率。
+   * **已交付**:成功投放的消息数。 显示的百分比是基于已发送邮件的总数计算所得。
+   * **打开**:已打开消息的数量。 显示的百分比是不同打开次数与已送达邮件数的比率。
+   * **点击次数**:在电子邮件中至少单击一次的收件人数。 显示的百分比是不同单击次数与已送达邮件数的比率。
 
    >[!NOTE]
    >

@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="投放日志"
->abstract="热障涂层"
+>abstract="待确认"
 
 准备并发送电子邮件后，利用投放日志可验证是否存在错误。 可直接从消息仪表板访问这些日志。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 

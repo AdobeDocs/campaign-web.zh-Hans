@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="创建电子邮件内容"
->abstract="通过此部分，您可以创建电子邮件的内容，并使用Email Designer为其提供精美的外观。"
+>abstract="通过此部分，您可以为电子邮件创建内容，并使用电子邮件设计器为其赋予精美外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="电子邮件标题"
->abstract="热障涂层"
+>title="电子邮件标头"
+>abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="电子邮件附件"
->abstract="热障涂层"
+>abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="跟踪选项"
->abstract="热障涂层"
+>abstract="待确认"
 
 要开始创建电子邮件的内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 

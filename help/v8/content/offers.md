@@ -6,7 +6,7 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="选件设置"
->abstract="热障涂层"
+>abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="选件高级设置"
->abstract="热障涂层"
+>abstract="待确认"
 
 Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

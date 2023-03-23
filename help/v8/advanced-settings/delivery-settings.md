@@ -6,7 +6,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 14%
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="利用分类，可控制、过滤和监控投放的发送。"
+>abstract="使用类型，您可以控制、筛选和监测投放发送情况。"
 
 分类是在消息分析阶段执行的一系列&#x200B;**分类规则**。利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
 
@@ -41,7 +41,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="投放权重"
->abstract="投放权重允许您确定压力管理框架内优先级最高的投放。 权重最高的消息具有优先级。"
+>abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
 
 在此部分中，压力参数允许您定义 **阈值**. 这是指定时间段内可向一个用户档案发送的消息数量上限。 达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除用户档案，从而避免过度通信。
 
@@ -69,7 +69,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="收件人的重要性"
->abstract="收件人的重要性是一个公式，用于确定在超出容量分类规则时保留哪些收件人。"
+>abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
 
 在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则与电子邮件渠道关联。
 
@@ -112,7 +112,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="审批方式"
->abstract="投放的每个步骤都可获得批准，以确保对各个流程进行全面监控和控制。"
+>abstract="投放的每个步骤都需经过审批，以确保对各个流程进行全面的监测和控制。"
 
 如果在投放准备期间生成警告，则可以配置投放以定义是否应仍执行该投放。 默认情况下，用户必须在分析阶段结束时确认消息的发送：此为 **手动** 验证。
 
@@ -130,15 +130,15 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="投放持续时间"
->abstract="利用投放持续时间字段，可输入全局投放重试的限制。 这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，会执行常规的可配置重试，直到达到有效性限制为止。"
+>abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="资源有效期限"
->abstract="“有效性限制”字段用于已上传的资源，主要用于镜像页面和图像。 此页面上的资源在有限的时间内有效。"
+>abstract="“有效期限”字段用于已上传的资源，主要用于镜像页面和图像。此页面上的资源在有限时间内有效。"
 
 
-的 **投放持续时间** 字段允许您输入全局投放重试的限制。 这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，会执行常规的可配置重试，直到达到有效性限制为止。
+的 **投放持续时间** 字段允许您输入全局投放重试的限制。 这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。
 
 您还可以选择指定日期。 要执行此操作，请选择 **明确设置有效日期**. 在这种情况下，投放和有效期限制日期还允许您指定时间。 默认使用当前时间，但您可以直接在输入字段中修改此时间。
 
@@ -165,7 +165,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="有效期"
->abstract="此选项定义在URL上激活跟踪的持续时间。"
+>abstract="此选项定义在 URL 上激活跟踪的持续时间。"
 
 跟踪参数在相关部分中定义。 可能的选项包括：
 

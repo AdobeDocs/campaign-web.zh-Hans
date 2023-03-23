@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="从目标中提取"
->abstract="热障涂层"
+>abstract="待确认"
 
 要定义控制组，您可以选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。
 
@@ -74,12 +74,12 @@ ht-degree: 26%
 
 有关投放日志的更多信息，请参阅 [部分](../monitor/delivery-logs.md).
 
-## 额外人群 {#extra-population}
+## 额外群体 {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="额外人群"
->abstract="热障涂层"
+>title="额外群体"
+>abstract="待确认"
 
 定义控制组的另一种方法是使用现有受众或通过定义查询从目标中排除特定群体。
 

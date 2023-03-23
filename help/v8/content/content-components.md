@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建电子邮件的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建登陆页面的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用它们创建片段的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建模板的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 ## 添加内容组件 {#add-content-components}
 

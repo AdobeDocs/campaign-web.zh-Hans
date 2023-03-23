@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -17,43 +17,43 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="关于结构组件"
->abstract="结构组件可定义电子邮件的布局。"
+>abstract="结构组件定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="关于结构组件"
->abstract="结构组件可定义登陆页面的布局。"
+>abstract="结构组件定义登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="关于结构组件"
->abstract="结构组件定义片段的布局。"
+>abstract="结构组件定义片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="关于结构组件"
->abstract="结构组件定义模板的布局。"
+>abstract="结构组件定义模板的版面。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定义电子邮件列"
->abstract="Email Designer允许您通过定义列结构轻松定义电子邮件的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="定义登陆页面列"
->abstract="Email Designer允许您通过定义列结构轻松定义登陆页面的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义片段列"
->abstract="Email Designer允许您通过定义列结构轻松定义片段的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定义模板列"
->abstract="Email Designer允许您通过定义列结构轻松定义模板的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义模板的版面。"
 
 通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在数秒内设计电子邮件的正文。
 
