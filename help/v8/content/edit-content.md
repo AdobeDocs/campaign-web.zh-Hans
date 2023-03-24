@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web UI中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 10%
+source-wordcount: '384'
+ht-degree: 8%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="电子邮件标头"
->abstract="待确认"
+>abstract="在此部分中，您可以控制电子邮件模板中定义的“发件人名称”和“发件人电子邮件”值。 可以使用表达式编辑器自定义主题行字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="电子邮件附件"
->abstract="待确认"
+>abstract="选择一个或多个要插入消息的文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="跟踪选项"
->abstract="待确认"
+>abstract="默认情况下，会为投放启用跟踪。 您可以从此处禁用此选项。"
 
 要开始创建电子邮件的内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 
@@ -61,6 +61,6 @@ ht-degree: 10%
 
    <!--limitation on size + number of files?-->
 
-1. 默认情况下，会为投放启用跟踪。 您可以从 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
+1. 默认情况下，会为投放启用跟踪。 您可以通过 **[!UICONTROL 可选功能]** 中。 [了解如何添加链接和管理跟踪](message-tracking.md)
 
 定义电子邮件的内容后，使用 **[!UICONTROL 模拟内容]** 按钮以在发送前检查其显示方式。 [了解如何预览和测试电子邮件](../preview-test/preview-test.md)

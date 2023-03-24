@@ -3,10 +3,10 @@ audience: end-user
 title: 设置控制组
 description: 了解如何在Campaign Web UI中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 26%
+source-wordcount: '576'
+ht-degree: 28%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="从目标中提取"
->abstract="待确认"
+>abstract="要定义控制组，您可以选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。"
 
 要定义控制组，您可以选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。
 
@@ -79,7 +79,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="待确认"
+>abstract="定义控制组的另一种方法是使用现有受众或通过定义查询从目标中排除特定群体。"
 
 定义控制组的另一种方法是使用现有受众或通过定义查询从目标中排除特定群体。
 

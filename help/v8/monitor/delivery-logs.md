@@ -3,10 +3,10 @@ audience: end-user
 title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
+source-wordcount: '306'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="投放日志"
->abstract="待确认"
+>abstract="利用投放日志，可验证是否没有错误。"
 
 准备并发送电子邮件后，利用投放日志可验证是否存在错误。 可直接从消息仪表板访问这些日志。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 

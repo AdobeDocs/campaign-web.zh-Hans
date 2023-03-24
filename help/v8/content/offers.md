@@ -3,26 +3,16 @@ audience: end-user
 title: 发送选件
 description: 发送选件
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
 # 发送选件 {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="选件设置"
->abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="选件高级设置"
->abstract="待确认"
 
 Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ Adobe Campaign v8 Web允许您使用 **[!UICONTROL 互动]** 模块。 有关交
 1. [将选件插入电子邮件](#insert).
 
 ## 配置要建议的选件 {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="选件设置"
+>abstract="配置应向收件人建议的选件。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="选件高级设置"
+>abstract="对选件配置高级选项。"
 
 1. 要选择要在电子邮件中建议的选件，请单击 **[!UICONTROL 选件]** 按钮。
 
