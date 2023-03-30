@@ -3,9 +3,9 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web UI中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="电子邮件标头"
->abstract="在此部分中，您可以控制电子邮件模板中定义的“发件人名称”和“发件人电子邮件”值。 可以使用表达式编辑器自定义主题行字段。"
+>title="电子邮件参数"
+>abstract="“发件人名称”和“发件人电子邮件”值在电子邮件模板中定义。 可以使用表达式编辑器对主题行进行个性化。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

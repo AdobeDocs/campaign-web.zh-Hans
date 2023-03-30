@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 * **[!UICONTROL 专有名词的格式功能]**:生成 **[!UICONTROL toSmartCase]** Javascript函数，该函数将每个单词的第一个字母更改为大写。
 * **[!UICONTROL 问候语]**:插入带有收件人全名的问候语，后跟逗号。 示例：“你好，无名氏”。
 * **[!UICONTROL 插入徽标]**:插入在实例设置中定义的徽标。
-* **[!UICONTROL 链接到镜像页面]**:插入指向的链接 [镜像页面](mirror-page.md). 默认格式为：“如果您无法正确查看此消息，请单击此处”。
+* **[!UICONTROL 链接到镜像页面]**:插入指向的链接 [镜像页面](../content/mirror-page.md). 默认格式为：“如果您无法正确查看此消息，请单击此处”。
 * **[!UICONTROL 镜像页面URL]**:插入镜像页面URL，使交付设计人员能够检查该链接。
 * **[!UICONTROL 统一模式下的优惠接受URL]**:插入一个URL，以便将选件设置为 **[!UICONTROL 已接受]**. （如果启用了交互模块，则此块可用）
 * **[!UICONTROL 注册确认]**:插入用于确认订阅的链接。

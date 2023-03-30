@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 15%
+source-wordcount: '172'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 15%
    + [发行说明](rn/release-notes.md)
    + [文档更新](rn/documentation-updates.md)
 + [入门](get-started/get-started.md)
-+ [了解界面](get-started/user-interface.md)
++ [探索界面](get-started/user-interface.md)
 + [创建您的第一封电子邮件](email/create-email.md)
 + 创建电子邮件内容 {#content}
    + [编辑电子邮件内容](content/edit-content.md)
@@ -31,6 +31,7 @@ ht-degree: 15%
          + [对您自己的内容进行编码](content/code-content.md)
       + [使用内容组件](content/content-components.md)
       + [生成文本版本](content/text-version-email.md)
+      + [添加指向镜像页面的链接](content/mirror-page.md)
       + [添加前标](content/preheader.md)
       + [添加链接和跟踪消息](content/message-tracking.md)
    + 设置内容样式 {#style}

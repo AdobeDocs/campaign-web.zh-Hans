@@ -3,9 +3,9 @@ audience: end-user
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -45,37 +45,7 @@ ht-degree: 1%
 >
 >营销类型电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务型]**)在渠道表面（即消息预设）级别定义，并在创建消息时定义。
 
-## 链接到镜像页面 {#mirror-page}
-
-镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件的内容相同。
-
-要在电子邮件中添加指向镜像页面的链接，请执行以下操作：
-
-1. 选择元素并单击 **[!UICONTROL 插入链接]** 中。
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. 选择 **[!UICONTROL 插入链接]** 图标以访问个性化菜单。
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. 从 **[!UICONTROL 内容块]** 菜单，选择 **[!UICONTROL 镜像页面URL]** 单击 **[!UICONTROL 添加]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-将自动创建镜像页面。
-
->[!IMPORTANT]
->
->镜像页面链接是自动生成的，无法编辑。 它们包含呈现原始电子邮件所需的所有加密个性化数据。 因此，使用具有大值的个性化属性可能会生成较长的镜像页面URL，这会阻止该链接在URL长度最大的Web浏览器中工作。
-
-发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容会显示在其默认的Web浏览器中。
-
->[!NOTE]
->
->在发送给测试用户档案的测试电子邮件中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
-
-镜像页面的保留期为60天。 延迟后，镜像页面将不再可用。
+应在所有电子邮件中添加指向镜像页面的特定链接。 了解有关镜像页面的更多信息，请参阅 [此部分](mirror-page.md).
 
 ## 管理跟踪 {#manage-tracking}
 
