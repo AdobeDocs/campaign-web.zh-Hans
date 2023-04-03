@@ -4,22 +4,31 @@ title: 选择受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 选择受众 {#add-audience}
+# 选择现有受众 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="选择现有受众"
 >abstract="在 Adobe Campaign v8 控制台中定义受众。如果您有可用的 Adobe Experience Platform 集成，也应能够看到 Platform 定义的受众。"
 
-本节将介绍在定义电子邮件投放的目标群体时如何选择现有受众。 如果要创建新受众，请参阅 [部分](segment-builder.md).
+本节将介绍在定义电子邮件投放的目标群体时如何选择现有受众。
+
+您还可以：
+
+* 创建新受众。 [了解详情](segment-builder.md)
+* 从文件导入受众. [了解详情](import-audience.md)
+* 使用Adobe Experience Platform受众。 [了解详情](aep-audience.md)。
+
+
+要为消息选择现有受众，请执行以下步骤：
 
 1. 从 **受众** 投放创建助手的部分，单击 **[!UICONTROL 选择受众]** 按钮。
 

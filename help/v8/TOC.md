@@ -5,9 +5,9 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 23%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 23%
       + [短信投放入门](sms/gs-sms.md)
 + 受众和收件人 {#audiences}
    + [受众入门](audience/about-audiences.md)
-   + [选择受众](audience/add-audience.md)
+   + [选择现有受众](audience/add-audience.md)
    + [使用规则生成器创建受众](audience/segment-builder.md)
    + [导入受众](audience/import-audience.md)
+   + [使用Adobe Experience Platform受众](audience/aep-audience.md)
    + [设置控制组](audience/control-group.md)
 + 跨渠道营销活动 {#campaigns}
    + [活动入门](campaigns/gs-campaigns.md)
