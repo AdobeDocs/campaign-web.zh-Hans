@@ -3,8 +3,8 @@ audience: end-user
 title: 准备和发送电子邮件
 description: 了解如何使用Campaign Web UI准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha" type="Informitive"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 28%
@@ -102,7 +102,7 @@ send also KPIs
 
    下面显示了不同的KPI:
 
-   * **已交付**:成功投放的消息数。 显示的百分比是基于已发送邮件的总数计算所得。
+   * **已交付**:成功发送的消息数。 显示的百分比是基于已发送邮件的总数计算所得。
    * **打开**:已打开消息的数量。 显示的百分比是不同打开次数与已送达邮件数的比率。
    * **点击次数**:在电子邮件中至少单击一次的收件人数。 显示的百分比是不同单击次数与已送达邮件数的比率。
 

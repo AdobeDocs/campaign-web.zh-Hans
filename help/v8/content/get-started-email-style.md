@@ -3,8 +3,8 @@ audience: end-user
 title: 电子邮件样式入门
 description: 了解调整电子邮件内容样式的不同方法
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alpha" type="Informitive"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
