@@ -3,16 +3,15 @@ audience: end-user
 title: 电子邮件样式入门
 description: 了解调整电子邮件内容样式的不同方法
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # 电子邮件样式入门 {#get-started-email-style}
-
-![](../assets/do-not-localize/badge.png)
 
 开始在 [!DNL Adobe Campaign]，则可以从“Email Designer”设置窗格中调整许多样式参数和属性。
 

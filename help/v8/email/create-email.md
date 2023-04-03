@@ -3,16 +3,16 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web UI发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1296'
 ht-degree: 12%
 
 ---
 
-# 发送您的第一封电子邮件 {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# 发送您的第一封电子邮件 {#first-email}
 
 了解如何创建您的第一封定向电子邮件。 在此用例中，您计划在特定日期向银牌和金牌忠诚会员发送电子邮件。
 

@@ -3,59 +3,60 @@ audience: end-user
 product: campaign
 title: 使用电子邮件模板
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
-# 使用电子邮件内容模板 {#email-content-templates}
+# 使用电子邮件模板 {#email-content-templates}
 
-![](../assets/do-not-localize/badge.png)
-
-使用 **[!UICONTROL 选择设计模板]** 部分以开始从模板构建内容。
+访问电子邮件内容时，请使用 **[!UICONTROL 选择设计模板]** 部分来开始从模板构建内容。
 
 ![](assets/email_designer-templates.png)
 
+Campaign附带一组内置模板，可在 **示例模板** 选项卡。 您可以添加自己的模板，并使用这些模板来构建电子邮件内容。 自定义模板存储在 **保存的模板** 选项卡。 在以下部分中了解如何将电子邮件另存为模板以及如何使用它。
+
 ## 另存为模板 {#save-as-template}
 
-设计电子邮件内容后，可以保存该内容以供将来重复使用。 为此，请执行以下步骤：
+设计电子邮件内容后，可将其另存为模板，以供将来重复使用。 保存的模板可供Adobe Campaign环境的所有用户使用。
 
-1. 单击屏幕右上方的省略号。
+要将电子邮件内容另存为模板，请执行以下步骤：
+
+1. 从Email designer中，单击屏幕右上方的省略号。
 
 1. 选择 **[!UICONTROL 保存设计模板]** 下拉菜单中。
 
    ![](assets/email_designer-save-template.png)
 
-1. 为此模板添加名称。
+1. 输入此模板的名称并保存
 
    ![](assets/email_designer-template-name.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-下次创建电子邮件时，您可以使用此模板来构建内容。 [了解如何](#use-saved-template)
+您现在可以 [使用此模板](#use-saved-template) 要构建新内容，请执行以下操作：它位于Email designer的“保存的模板”选项卡中。
 
 ![](assets/email_designer-saved-template.png)
 
 ## 使用保存的模板 {#use-saved-template}
 
+保存的模板将分组到电子邮件设计器中的特定表格中。 要从现有自定义模板创建电子邮件内容，请执行以下步骤：
+
 1. 打开 [电子邮件设计工具](create-email-content.md).
 
-1. 在 **[!UICONTROL 创建电子邮件屏幕]**, **[!UICONTROL 示例模板]** 选项卡。 选择 **[!UICONTROL 保存的模板]** 选项卡。
+1. 在 **[!UICONTROL 创建电子邮件]** 屏幕， **[!UICONTROL 示例模板]** 选项卡。 浏览到 **[!UICONTROL 保存的模板]** 选项卡访问自定义模板。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 以前所有 [保存的模板](#save-as-template) 显示。 你可以对它们进行排序 **[!UICONTROL 按名称]**, **[!UICONTROL 上次修改时间]** 和 **[!UICONTROL 上次创建时间]**.
+1. 所有 [保存的模板](#save-as-template) 显示。 你可以对它们进行排序 **[!UICONTROL 按名称]**, **[!UICONTROL 上次修改时间]** 和 **[!UICONTROL 上次创建时间]**.
 
    ![](assets/email_designer-saved-templates.png)
 
-1. 从列表中选择所选的模板。
-
-1. 选择后，您可以使用左右箭头在所有保存的模板之间导航。
+1. 从列表中选择模板以查看其内容。 使用左右箭头浏览模板。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 单击 **[!UICONTROL 使用此电子邮件]** 屏幕右上方。
+1. 单击 **[!UICONTROL 使用此电子邮件]** 模板。
 
-1. 使用电子邮件设计器根据需要编辑内容。
+1. 使用电子邮件设计器根据需要编辑内容。 [了解详情](create-email-content.md)

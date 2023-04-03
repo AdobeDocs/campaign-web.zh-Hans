@@ -3,16 +3,17 @@ audience: end-user
 title: 测试电子邮件渲染
 description: 了解如何在Campaign Web UI中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
+
 # 测试电子邮件渲染 {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 在发送电子邮件之前，请确保以最佳方式在各种Web客户端、Web邮件和设备上向收件人显示您的消息。
 

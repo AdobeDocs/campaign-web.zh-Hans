@@ -3,16 +3,15 @@ audience: end-user
 title: 创建电子邮件的文本版本
 description: 了解如何创建电子邮件的文本版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # 创建电子邮件的文本版本 {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
 

@@ -3,16 +3,15 @@ audience: end-user
 title: 使用规则生成器定义受众
 description: 了解如何使用Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # 使用规则生成器定义受众 {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 本节介绍如何在设计新电子邮件时创建受众。 创建的受众只能在此电子邮件中使用。
 

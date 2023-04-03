@@ -3,16 +3,15 @@ audience: end-user
 title: 发送测试电子邮件
 description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
 
 # 发送测试电子邮件 {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 发送测试电子邮件是验证电子邮件促销活动并确定潜在问题的重要步骤。 通过发送测试电子邮件，您可以检查各种元素，如链接、选择退出链接、图像和镜像页面，并检测任何错误。
 

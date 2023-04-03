@@ -3,22 +3,16 @@ audience: end-user
 title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
 # 投放报告 {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign提供了多种类型的报表，可在每次投放中访问这些报表。 这些报表允许您在内置的仪表板中测量和显示消息的影响和性能。
 
@@ -32,7 +26,7 @@ Adobe Campaign提供了多种类型的报表，可在每次投放中访问这些
 
    ![](assets/reporting2.png){width="70%" align="left"}
 
-## 发送中
+## 发送
 
 * **投放摘要**:此报表提供了有关投放的所有主要信息。 目标群体、排除原因、投放统计信息。
 

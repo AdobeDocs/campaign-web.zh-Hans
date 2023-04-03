@@ -3,16 +3,15 @@ audience: end-user
 title: 编码您自己的电子邮件内容
 description: 了解如何编码您自己的电子邮件内容
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# 对您自己的内容进行编码 {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# 编码您自己的电子邮件内容 {#code-content}
 
 使用 **[!UICONTROL 编码您自己的]** 模式导入原始HTML和/或编码电子邮件内容。 此方法需要HTML技能。
 
