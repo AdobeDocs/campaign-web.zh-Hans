@@ -5,10 +5,10 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 24%
+source-wordcount: '222'
+ht-degree: 23%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 24%
 + 受众和收件人 {#audiences}
    + [受众入门](audience/about-audiences.md)
    + [选择受众](audience/add-audience.md)
+   + [使用规则生成器创建受众](audience/segment-builder.md)
+   + [导入受众](audience/import-audience.md)
    + [设置控制组](audience/control-group.md)
-   + [使用规则生成器定义受众](audience/segment-builder.md)
 + 跨渠道营销活动 {#campaigns}
    + [活动入门](campaigns/gs-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
