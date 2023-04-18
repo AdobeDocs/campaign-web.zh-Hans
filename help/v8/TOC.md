@@ -5,9 +5,9 @@ description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
 title: Campaign v8 Web文档
 hide: true
-source-git-commit: f77b5a483f7276ecade687f9fd9e9028ec750dbf
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 23%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 23%
 + 工作流{#wf}
    + [工作流入门](workflows/gs-workflows.md)
    + 创建您的第一个工作流 {#create-workflow}
-      + [工作流创建入门](workflows/gs-workflow-creation.md)
+      + [工作流创建概述](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
       + [启动和监视工作流执行](workflows/start-monitor-workflows.md)
    + 设计工作流 {#design-workflows}

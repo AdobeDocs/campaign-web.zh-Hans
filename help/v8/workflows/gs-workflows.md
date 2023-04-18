@@ -4,16 +4,16 @@ title: 工作流入门
 description: 了解如何开始使用工作流
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 3%
 
 ---
 
 # 工作流入门 {#workflows}
 
-## 什么是Adobe Campaign工作流？
+## 什么是工作流？
 
 跨渠道营销对于任何希望有效接触其客户的企业都至关重要。 Adobe Campaign提供了一个全面的图形环境，可让您设计复杂的流程，从而帮助您轻松管理营销活动。
 
