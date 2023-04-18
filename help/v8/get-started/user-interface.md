@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1388'
 ht-degree: 34%
 
 ---
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="推送iOS内容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="短信内容"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="应用程序订阅者"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="测试泡"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="预览模式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="扩充数据"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="个性化"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="文件选择"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="列定义"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="设置参数格式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="报表发送"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="报表跟踪"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="报表概述"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="报告目标统计信息"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="汇总报表选择投放"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="促销活动属性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="营销活动计划"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="工作流列表"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="营销活动创建"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="营销活动计划"
+>abstract="待定"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="重复数据删除字段"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="重复数据删除设置"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="重复数据删除补码"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension补码"
 >abstract="待定"
