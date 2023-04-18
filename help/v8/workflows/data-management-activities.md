@@ -3,10 +3,11 @@ audience: end-user
 title: 使用工作流数据管理活动
 description: 了解如何在Adobe Campaign Web工作流中使用数据管理活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,12 @@ ht-degree: 0%
 
 ## 扩充 {#enrichment}
 
-定向活动后，通常在工作流中使用扩充活动。 它允许您使用来自数据库的其他信息增强目标数据。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="扩充活动"
+>abstract="利用扩充活动，可使用数据库中的其他信息增强目标数据。 它通常在定位活动后的工作流中使用。<br/>将扩充数据添加到工作流后，便可将其用于扩充活动后添加的活动，以根据客户的行为、偏好和需求将客户细分为不同的组，或创建更有可能与目标受众产生共鸣的个性化营销消息和营销活动。"
+
+利用扩充活动，可使用数据库中的其他信息增强目标数据。 它通常在定位活动后的工作流中使用。
 
 扩充数据可以：
 

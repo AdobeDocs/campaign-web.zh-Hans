@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1319'
+ht-degree: 34%
 
 ---
 
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="订阅列表"
 >abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表是只读的。"
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="定位工作流"
->abstract="访问您的活动工作流列表。您可以查看他们的状态、上次/下一次处理日期和环境。您可以按状态、最后处理日期和工作流类型过滤列表。也会提供工作流模板。这些列表为只读状态。"
 
 * **收件人**  — 访问收件人数据库。 默认情况下，您可以查看其电子邮件地址、名字和姓氏。 此列表是只读的。
 * **受众**  — 这是您的受众列表。 默认情况下，您可以查看其类型、来源、创建/上次修改日期和标签。 您可以按来源过滤列表。此列表是只读的。
