@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 34%
+source-wordcount: '1369'
+ht-degree: 33%
 
 ---
 
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="从文件导入受众"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="格式设置"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="列设置"
->abstract="待定"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="推送通知模板"
 >abstract="待定"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="示例文件"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列定义"
 >abstract="待定"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="营销活动计划"
->abstract="待定"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="工作流列表"
 >abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="营销活动创建"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="营销活动计划"
->abstract="待定"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
