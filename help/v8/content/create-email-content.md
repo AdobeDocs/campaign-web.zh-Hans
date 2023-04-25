@@ -4,9 +4,9 @@ title: 在Email Designer中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 24%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 24%
 
    ![](assets/email_designer_7.png)
 
-1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 [了解有关代码编辑器的更多信息](code-content.md)
+1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** ，以便直接处理电子邮件的源代码。 [了解有关代码编辑器的更多信息](code-content.md)
 
    >[!CAUTION]
    >
