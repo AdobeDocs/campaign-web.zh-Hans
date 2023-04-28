@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
+title: Adobe Campaign v8 Web文档
 description: Campaign v8 Web文档
 breadcrumb-title: Campaign 概述
-title: Campaign v8 Web文档
 hide: true
-source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
+source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
