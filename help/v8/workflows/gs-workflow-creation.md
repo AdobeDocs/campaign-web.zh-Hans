@@ -4,15 +4,17 @@ title: 使用Adobe Campaign Web创建工作流
 description: 了解如何使用Adobe Campaign Web构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 创建工作流的关键原则 {#gs-workflow-creation}
+
+内容待定
 
 工作流是流程定义：工作流图，用于表示应发生的事件。 工作流也是此过程的一个实例：工作流实例，用于表示实际发生的情况。
 
@@ -43,3 +45,5 @@ ht-degree: 0%
 创建工作流的主要步骤如下：
 
 待定：显示整个过程的图示，说明和参考文档页
+
+创建和定义属性>在画布中编排活动>根据需要配置设置>开始执行和监视
