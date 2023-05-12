@@ -1,15 +1,14 @@
 ---
 audience: end-user
-title: 使用Adobe Campaign Web创建营销活动
-description: 了解如何使用Adobe Campaign Web构建跨渠道营销活动
+title: 使用 Adobe Campaign Web 创建营销活动
+description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '23'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
-# 创建跨渠道活动 {#create-campaigns}
-
-
+# 创建跨渠道营销活动 {#create-campaigns}
