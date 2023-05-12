@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: 创建电子邮件的文本版本
-description: 了解如何创建电子邮件的文本版本
+title: 创建文本版本的电子邮件
+description: 了解如何创建文本版本的电子邮件
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 创建电子邮件的文本版本 {#text-version-email}
+# 创建文本版本的电子邮件 {#text-version-email}
 
-建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
+建议创建文本版本的电子邮件正文，以便在无法显示 HTML 内容时使用。
 
-默认情况下，Email Designer会创建 **[!UICONTROL 纯文本]** 电子邮件的版本，包括个性化字段。 此版本将自动生成并与内容的HTML版本同步。
+默认情况下，电子邮件设计器会创建&#x200B;**[!UICONTROL 纯文本]**&#x200B;版本的电子邮件，包括个性化字段。此版本将自动生成并与 HTML 版本的内容同步。
 
-如果您希望对纯文本版本使用其他内容，请执行以下步骤：
+如果您希望为纯文本版本使用其他内容，请执行以下步骤：
 
-1. 从您的电子邮件中，选择 **[!UICONTROL 纯文本]** 选项卡。
+1. 从电子邮件中，选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;选项卡。
 
    ![](assets/text_version_3.png)
 
-1. 使用 **[!UICONTROL 与HTML同步]** 切换为禁用同步。
+1. 使用&#x200B;**[!UICONTROL 与 HTML 同步]**&#x200B;开关以禁用同步。
 
    ![](assets/text_version_1.png)
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
    ![](assets/text_version_2.png)
 
-1. 然后，您可以根据需要编辑纯文本版本。
+1. 之后，您可以根据需要编辑纯文本版本。
 
 >[!CAUTION]
 >
->* 中所做的更改 **[!UICONTROL 纯文本]** 视图未反映在HTML视图中。
+>* 在&#x200B;**[!UICONTROL 纯文本]**&#x200B;视图中所做的更改不会反映在 HTML 视图中。
 >
->* 如果重新启用 **[!UICONTROL 与HTML同步]** 选项，则更改将会丢失，并替换为从HTML版本生成的文本内容。
+>* 如果您在更新纯文本内容后重新启用&#x200B;**[!UICONTROL 与 HTML 同步]**&#x200B;选项，您的更改将丢失，并替换为从 HTML 版本生成的文本内容。
 
