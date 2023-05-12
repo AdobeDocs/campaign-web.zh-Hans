@@ -5,26 +5,26 @@ description: 了解如何预览和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 关于电子邮件预览和测试 {#about-preview-proofs}
 
-在发送电子邮件之前，务必要检查和测试其内容，以确保其内容准确无误，且不会在内容或个性化设置中出错。
+在发送电子邮件前，请务必检查和测试其内容以确保准确性，并且内容或个性化设置未出错。
 
-为此，Adobe Campaign允许您：
+为此，Adobe Campaign 允许您：
 
-* [预览电子邮件内容和个性化](preview-content.md),
+* [预览电子邮件内容和个性化内容](preview-content.md)，
    <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [发送测试电子邮件](proofs.md) 特定收件人进行测试和验证。
+* 向特定收件人[发送测试电子邮件](proofs.md)以进行测试和验证。
 
-这些操作可从 **[!UICONTROL 模拟内容]** 按钮，在从Email Designer创建电子邮件内容时可访问该按钮：
+可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮（可在从电子邮件设计器创建电子邮件内容时进行访问）执行这些操作：
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->单击 **[!UICONTROL 审阅并发送]** 按钮。
+>此外，可以在单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮后从投放摘要中使用内容模拟。
