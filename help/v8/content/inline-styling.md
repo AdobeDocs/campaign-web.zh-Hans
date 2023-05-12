@@ -5,26 +5,26 @@ description: 了解如何添加内联样式属性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # 添加内联样式属性 {#adding-inline-styling-attributes}
 
-在Email Designer界面中，当您选择某个元素并在右侧窗格中显示其设置时，可以自定义该特定元素的内联属性及其值。
+在电子邮件设计器界面中，当您选择一个元素并在右侧窗格中显示其设置时，可以自定义该特定元素的内联属性及其值。
 
-1. 直接在内容中或使用 **[!UICONTROL 导航树]** 在左窗格中可用。
+1. 直接在内容中或使用左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;来选择组件。
 
-1. 从 **[!UICONTROL 组件设置]** 菜单，查找 **[!UICONTROL 内联样式]** 中。
+1. 从右侧的&#x200B;**[!UICONTROL 组件设置]**&#x200B;菜单中，查找&#x200B;**[!UICONTROL 样式内联]**&#x200B;部分。
 
    ![](assets/styles_1.png)
 
 1. 修改现有属性的值。
 
-1. 您可以使用 **+** 按钮。 您可以添加任何符合CSS的属性和值。
+1. 可以使用 **+** 按钮添加新属性。可以添加任何符合 CSS 的属性和值。
 
    ![](assets/styles_2.png)
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果子元素未定义特定的样式属性，则会继承父元素的样式。
+>如果子元素不具有定义的特定样式属性，则继承父元素的样式。
 
