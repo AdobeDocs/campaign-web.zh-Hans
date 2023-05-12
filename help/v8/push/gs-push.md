@@ -1,15 +1,14 @@
 ---
 audience: end-user
-title: 推送通知入门
-description: 了解如何使用Adobe Campaign Web创建和发送推送通知
+title: 开始使用推送通知
+description: 了解如何使用 Adobe Campaign Web 创建和发送推送通知
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '26'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 推送通知入门 {#push}
-
-
+# 开始使用推送通知 {#push}
