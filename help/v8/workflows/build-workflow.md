@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: 使用Adobe Campaign Web设计工作流
-description: 了解如何使用Adobe Campaign Web构建工作流
+title: 使用 Adobe Campaign Web 设计工作流
+description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
 # 编排工作流活动 {#build}
 
-内容TBC
+内容待确认
 
 工作流画布概述和原则
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 ## 使用工作流画布 {#canvas}
 
-* 状态和上次处理日期和时间
+* 状态和最后处理日期和时间
 * 导航工具栏（缩放、适合屏幕、显示图）
-* 用于编排活动的中央画布
+* 在其中编排活动的中央画布
 * 配置工作流设置
 * 活动配置窗格
 
 ## 添加和连接活动 {#activities}
 
-* 启动和结束工作流
+* 启动和终止工作流
 * 如何添加/删除活动
-* 处理过渡：查看结果，添加标签到过渡
-* 活动之间的关系：您可以添加或不添加与前一个活动相关的活动
+* 使用过渡：查看结果，向过渡添加标签
+* 活动之间的关系：可以根据上一个活动添加或不添加哪些活动
 
 成功设计工作流图后，您可以执行工作流并跟踪其各种任务的执行方式。 [了解如何启动工作流并监视其执行情况](start-monitor-workflows.md)

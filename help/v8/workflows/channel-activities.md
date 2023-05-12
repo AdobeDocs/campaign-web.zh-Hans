@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 使用工作流渠道活动
-description: 了解如何在Adobe Campaign Web工作流中使用渠道活动
+description: 了解如何将渠道活动用于 Adobe Campaign Web 工作流
 badge: label="Alpha" type="Positive"
 exl-id: 6f9be348-6138-470c-8c40-750dc0311424
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 1%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 
 ## 电子邮件 {#email}
 
-描述，您可以执行的用例（在活动之后可以链接的常见其他活动）
+描述，可以执行哪个用例（可以在活动前后链接的其他常见活动）
 
 如何添加和配置活动
 
