@@ -4,10 +4,10 @@ title: 定义链接的样式
 description: 了解如何定义链接的样式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
 
-1. 在&#x200B;**[!UICONTROL 组件设置]**&#x200B;菜单中，选中&#x200B;**[!UICONTROL 为链接添加下划线]**&#x200B;来为标签添加下划线。
+1. 在 **[!UICONTROL 设置]** 选项卡，勾选 **[!UICONTROL 下划线链接]** 标签加下划线。
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](assets/link_2.png)
 
-1. 要更改链接的颜色，请单击右侧窗格中的&#x200B;**[!UICONTROL 链接颜色]**。
+1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/link_3.png)
 

@@ -4,10 +4,10 @@ title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 100%
 
    ![](assets/preheader_body.png)
 
-1. 从&#x200B;**[!UICONTROL 正文设置]**&#x200B;右侧窗格中，单击&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段旁边的编辑图标来添加内容。
+1. 从 **[!UICONTROL 设置]** 选项卡上，添加您的预标题。 可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
 
    ![](assets/preheader_body_settings.png)
-
-1. 添加邮件引文。可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
-
-   ![](assets/preheader_3.png)
 
 1. 从&#x200B;**[!UICONTROL 编辑个性化内容]**&#x200B;窗口中，可以添加&#x200B;**[!UICONTROL 内容块]**、**[!UICONTROL 动态内容]**&#x200B;或&#x200B;**[!UICONTROL 个性化字段]**。
 

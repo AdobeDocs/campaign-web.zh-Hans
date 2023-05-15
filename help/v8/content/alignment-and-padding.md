@@ -4,10 +4,10 @@ title: 在电子邮件设计器中调整垂直对齐方式和内边距
 description: 了解如何调整垂直对齐方式和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    ![](assets/alignment_2.png)
 
-1. 该列的可编辑参数将显示在右侧的&#x200B;**[!UICONTROL 列设置]**&#x200B;菜单中。使用专用部分调整&#x200B;**[!UICONTROL 垂直对齐方式]**。
+1. 该列的可编辑参数显示在 **[!UICONTROL 样式]** 选项卡。 调整 **[!UICONTROL 对齐方式]** 使用专述章节。
 
    ![](assets/alignment_3.png)
 

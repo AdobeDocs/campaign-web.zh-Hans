@@ -4,10 +4,10 @@ title: 添加指向镜像页面的链接
 description: 了解如何添加和管理指向镜像页面的链接
 badge: label="Alpha" type="Positive"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
-workflow-type: ht
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign 生成的镜像页面包含所有个性化数据。
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. 选择&#x200B;**[!UICONTROL 插入链接]**&#x200B;图标以访问个性化菜单。
+1. 选择 **[!UICONTROL 添加个性化]** 图标以访问个性化菜单。
 
    ![](assets/message-tracking-mirror-page_2.png)
 

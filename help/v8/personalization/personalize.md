@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -38,43 +38,6 @@ ht-degree: 100%
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## 个性化电子邮件主题行 {#personalize-subject-line}
-
-要在邮件的&#x200B;**[!UICONTROL 主题行]**&#x200B;字段中添加个性化内容，请执行以下步骤：
-
-1. 单击&#x200B;**主题行**&#x200B;字段右侧的&#x200B;**打开个性化对话框**&#x200B;图标。
-1. 输入主题行内容并选择要添加的个性化属性。
-1. 单击&#x200B;**确认**&#x200B;以进行确认。个性化属性将添加到主题行。
-
-![](assets/perso-subject.png)
-
-## 个性化您的电子邮件内容 {#personalize-emails}
-
-要个性化电子邮件内容，请在电子邮件设计器中打开邮件，然后：
-
-1. 在文本块内单击。
-1. 在上下文工具栏中，选择&#x200B;**添加个性化内容**。
-
-   ![](assets/perso-add-to-content.png)
-
-1. 在个性化编辑器中插入收件人姓名并进行确认。
-
-   ![](assets/perso-add-name.png)
-
-   个性化属性将添加到电子邮件内容。
-
-   您可以模拟内容以检查渲染。[了解详情](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-要向电子邮件添加内容块，请执行相同的步骤，并从最后一个图标中选择内容块：
-
-![](assets/perso-insert-block.png)
-
-插入后，内容块将添加到电子邮件内容中，如下所示。在投放准备步骤中生成个性化内容时，它会自动适应收件人配置文件。
-
-![](assets/perso-content-block-in-email.png)
-
 
 内置内容块为：
 
@@ -92,7 +55,44 @@ ht-degree: 100%
 * **[!UICONTROL 内容电子邮件的样式]**&#x200B;和&#x200B;**[!UICONTROL 通知样式]**：生成使用预定义的 HTML 样式设置电子邮件格式的代码。
 * **[!UICONTROL 退订链接]**：插入一个链接，用于退订所有投放（列入阻止列表）。默认关联内容为：“您之所以收到这封邮件，是因为您一直与&#x200B;***您的组织名称***&#x200B;或关联公司有联系。要不再接收来自&#x200B;***您的组织名称***&#x200B;的邮件，请单击此处。”
 
+## 个性化电子邮件主题行 {#personalize-subject-line}
 
+要在邮件的&#x200B;**[!UICONTROL 主题行]**&#x200B;字段中添加个性化内容，请执行以下步骤：
+
+1. 单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标。
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. 输入主题行内容并选择要添加的个性化属性。
+
+1. 单击 **[!UICONTROL 确认]****验证。 个性化属性将添加到主题行。
+
+## 个性化您的电子邮件内容 {#personalize-emails}
+
+要个性化电子邮件内容，请在电子邮件设计器中打开邮件，然后：
+
+1. 在文本块内单击。
+1. 在上下文工具栏中，选择&#x200B;**[!UICONTROL 添加个性化内容]**。
+
+   ![](assets/perso-add-to-content.png)
+
+1. 在个性化编辑器中插入收件人姓名并进行确认。
+
+   ![](assets/perso-add-name.png)
+
+   个性化属性将添加到电子邮件内容。
+
+   您可以模拟内容以检查渲染。[了解详情](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. 要向电子邮件添加内容块，请执行相同的步骤，并从最后一个图标中选择内容块：
+
+   ![](assets/perso-insert-block.png)
+
+1. 插入内容块后，内容块会添加到电子邮件内容中。在投放准备步骤中，内容块会在生成个性化时自动适应收件人用户档案。
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## 个性化电子邮件中的链接 {#personalize-links}
 

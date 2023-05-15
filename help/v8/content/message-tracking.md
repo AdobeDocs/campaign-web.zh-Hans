@@ -4,10 +4,10 @@ title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. 保存您的更改。
 
-1. 创建链接后，仍可以从右侧的&#x200B;**[!UICONTROL 组件设置]**&#x200B;窗格修改它。
+1. 创建链接后，您仍可以从 **[!UICONTROL 设置]** 选项卡。
 
    * 可以编辑链接并更改其&#x200B;**[!UICONTROL 目标]**。
    * 可以通过选中相应的选项来选择是否为链接加下划线。
