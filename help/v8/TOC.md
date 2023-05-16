@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -72,10 +72,10 @@ ht-degree: 95%
 + 工作流{#wf}
    + [开始使用工作流](workflows/gs-workflows.md)
    + [访问和管理工作流](workflows/access-monitor.md)
-   + 创建您的第一个工作流 {#create-workflow}
+   + 创建并运行您的第一个工作流 {#create-workflow}
       + [工作流创建的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
-      + [添加和配置工作流活动](workflows/build-workflow.md)
+      + [添加和编排工作流活动](workflows/build-workflow.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
