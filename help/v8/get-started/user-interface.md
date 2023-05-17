@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign 创建属性"
->abstract="待定"
+>abstract="为营销活动定义属性和元数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campaign 创建计划"
->abstract="待定"
+>abstract="定义营销活动的计划。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送量度"
->abstract="待定"
+>abstract="已发送的电子邮件数量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误量度"
->abstract="待定"
+>abstract="状态为错误的电子邮件数量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="短信内容"
->abstract="待定"
+>abstract="定义短信的内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="应用程序订阅者"
->abstract="待定"
+>abstract="通过向主目标添加应用程序订阅者来预览和测试消息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="测试群体"
->abstract="待定"
+>abstract="选择测试群体模式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="预览模式"
->abstract="待定"
+>abstract="通过将测试群体包含到主目标来预览和测试消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
