@@ -4,10 +4,10 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 21%
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 透過Adobe Campaign細分功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，以完美鎖定您的行銷活動。
 
 ## 建立跨頻道行銷活動 {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="工作流列表"
+>abstract="您的行銷活動可用的工作流程清單。 使用「建立工作流程」按鈕，在行銷活動中新增工作流程。"
+
+
 
 在跨渠道营销活动中，单个营销通信使用不同的渠道。 数据在各渠道之间传递。 例如，客户基于他们与先前通信的交互通过多个渠道接收通信。
 
