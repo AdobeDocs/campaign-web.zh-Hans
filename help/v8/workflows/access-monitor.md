@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: ht
-source-wordcount: '79'
-ht-degree: 100%
+source-git-commit: daf2b536c2483ab350c468910863b1076773a080
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 55%
 
 ---
 
@@ -16,9 +16,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="工作流"
->abstract="访问您的活动工作流列表。您可以查看他们的状态、上次/下一次处理日期和环境。您可以按状态、最后处理日期和工作流类型筛选列表。也会提供工作流模板。这些列表为只读状态。"
+>abstract="在此畫面中，您可以存取工作流程清單、檢查其狀態、上次/下次執行日期，以及建立新工作流程。 瀏覽至「範本」標籤以存取工作流程範本。"
 
-内容待定
 
 ## 访问创建的工作流
 
