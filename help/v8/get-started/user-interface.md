@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="推送通知模板"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Campaign 创建属性"
->abstract="为营销活动定义属性和元数据。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campaign 创建计划"
->abstract="定义营销活动的计划。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +255,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送量度"
->abstract="已发送的电子邮件数量。"
+>abstract="傳遞的電子郵件數目。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误量度"
->abstract="状态为错误的电子邮件数量。"
+>abstract="具有錯誤狀態的電子郵件數目。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -289,17 +280,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="应用程序订阅者"
->abstract="通过向主目标添加应用程序订阅者来预览和测试消息。 "
+>abstract="將應用程式訂閱者新增至主要目標，以預覽和測試訊息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="测试群体"
->abstract="选择测试群体模式。"
+>title="測試母體"
+>abstract="選取測試母體模式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="预览模式"
->abstract="通过将测试群体包含到主目标来预览和测试消息。"
+>abstract="將測試母體包含至主要目標以預覽和測試訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列定义"
->abstract="待定"
+>abstract="從檔案中選取要插入的欄。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
->abstract="待定"
+>abstract="定義檔案的格式設定引數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -393,26 +384,26 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="属性选取器高级字段"
->abstract="待定"
+>title="屬性選擇器進階欄位"
+>abstract="使用進階欄位設定欄。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="规则生成器高级字段"
->abstract="待定"
+>title="規則產生器進階欄位"
+>abstract="使用進階欄位設定欄。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
->title="短信投放属性"
->abstract="待定"
+>title="簡訊傳遞屬性"
+>abstract="管理SMS傳送屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="推送投放属性"
->abstract="待定"
+>title="推播傳遞屬性"
+>abstract="管理推送傳遞屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="新隔离量度"
->abstract="待定"
+>title="新增隔離量度"
+>abstract="新增隔離量度。"
 
