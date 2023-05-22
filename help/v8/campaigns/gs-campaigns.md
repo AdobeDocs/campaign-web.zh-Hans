@@ -4,9 +4,9 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ ht-degree: 21%
 >id="acw_campaign_creation_properties"
 >title="Campaign 创建属性"
 >abstract="定義行銷活動的屬性和中繼資料。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campaign 属性"
+>abstract="定義您的Campaign設定和中繼資料。"
 
 行銷活動屬性會在建立新行銷活動時顯示。
 
