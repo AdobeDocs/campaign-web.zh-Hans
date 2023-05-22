@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 报告摘要"
->abstract="待定"
+>abstract="探索簡訊傳遞的報告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="推送报告摘要"
->abstract="待定"
+>abstract="探索推送傳遞的報告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="规则生成器高级属性"
->abstract="待定"
+>abstract="使用進階屬性來定義規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="推送 Android 内容"
->abstract="待定"
+>abstract="定義推播Android內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="推送 iOS 内容"
->abstract="待定"
+>abstract="定義推播iOS內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="报告发送"
->abstract="待定"
+>abstract="請參閱傳送指標，以取得行銷活動報告。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="报告跟踪"
->abstract="待定"
+>abstract="請參閱行銷活動報告的追蹤指標。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="报告概述"
->abstract="待定"
+>abstract="傳遞的關鍵量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="报告目标统计数据"
->abstract="待定"
+>abstract="此區段會根據對象顯示特定量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="报告汇总选择投放"
->abstract="待定"
+>title="傳遞的彙總報告"
+>abstract="至少選取兩個傳遞來顯示彙總資料報表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="工作流列表"
->abstract="待定"
+>abstract="您的行銷活動可用的工作流程清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="所需的权限"
->abstract="待定"
+>abstract="您的管理員必須先授予您許可權，您才能建立區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="所需的权限"
->abstract="待定"
+>abstract="您的管理員必須先授予您許可權，您才能建立區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="新增隔離量度"
 >abstract="新增隔離量度。"
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="簡訊範本選擇"
+>abstract="選取預先定義的範本以開始您的SMS傳送。"
