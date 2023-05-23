@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1527'
 ht-degree: 86%
 
 ---
@@ -302,20 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="个性化"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="文件选择"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="列定义"
->abstract="從檔案中選取要插入的欄。"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="格式化参数"
->abstract="定義檔案的格式設定引數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
