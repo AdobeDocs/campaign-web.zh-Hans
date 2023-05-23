@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 90%
 
 ---
 
@@ -59,11 +59,13 @@ ht-degree: 94%
       + [开始使用推送通知](push/gs-push.md)
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
+      + [创建短信投放](sms/create-sms.md)
+      + [設計簡訊傳遞 ](sms/content-sms.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
    + [使用规则生成器创建受众](audience/segment-builder.md)
-   + [导入受众](audience/file-audience.md)
+   + [從檔案載入對象](audience/file-audience.md)
    + [使用 Adobe Experience Platform 受众](audience/aep-audience.md)
    + [设置对照组](audience/control-group.md)
 + 跨渠道营销活动 {#campaigns}
