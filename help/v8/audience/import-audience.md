@@ -1,34 +1,40 @@
 ---
 audience: end-user
-title: 从文件导入收件人
-description: 了解如何从外部文件导入收件人
+title: 從檔案定位收件者
+description: 瞭解如何使用外部檔案中的收件者來建立您的電子郵件對象
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: a6c85aeed30726532ab6060fec5cb4b5e398d9ec
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 97%
+source-wordcount: '193'
+ht-degree: 34%
 
 ---
 
-# 从文件导入收件人 {#audience-from-file}
+# 從檔案定位收件者 {#audience-from-file}
 
-您可以通过上传文本文件 (TXT) 或逗号分隔值文件 (CSV) 从投放界面添加或更新联系人。然后系统会将它们添加到数据库中。
+您可以從外部檔案上傳連絡人。 此功能僅適用於電子郵件傳送。支援的格式為：文字檔(TXT)或逗號分隔值檔(CSV)。 然后系统会将它们添加到数据库中。
 
 >[!NOTE]
 >
->您还可以构建导入工作流来添加或更新多项配置文件。
+>您可以建立匯入工作流程以新增或更新多個設定檔。  了解详情
 
 
-要直接从界面添加本地文件中的配置文件，请执行以下步骤：
+若要直接從介面從本機檔案定位設定檔，請遵循下列步驟：
 
-1. 在投放创建窗口中，单击&#x200B;**选择受众**&#x200B;按钮，并选择&#x200B;**从文件选择**&#x200B;选项。
+1. 在電子郵件傳遞建立視窗中，按一下 **選取對象** 按鈕並選取 **從檔案選取** 選項。
+
+   ![](assets/select-from-file.png)
+
 1. 选择要上传的本地文件。
-1. 定义列设置以及设置数据格式的方式。您可以使用&#x200B;**“忽略”列**&#x200B;开关来跳过列。
 1. 预览数据在屏幕的中央部分中映射的方式。
+1. 從中選擇包含電子郵件地址的欄 **位址列位** 下拉式清單。
+1. 從可用選項調整欄設定以及如何格式化資料。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
 在创建和个性化消息内容时，可以在个性化编辑器中从输入文件中选择字段。
+
+![](assets/select-external-perso.png)
 
 ## 示例文件 {#sample-file}
 
@@ -40,10 +46,10 @@ ht-degree: 97%
 
 ```json
 {
-lastname,firstname,birthdate,email,crmID
-Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
-Mars,Daniel,17/11/1987,dannymars@example.com,123545
-Smith,Clara,08/02/1989,clara.smith@example.com,124567
-Durance,Allison,15/12/1978,allison.durance@example.com,120987
+lastname,firstname,city,birthdate,email,denylist
+Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
