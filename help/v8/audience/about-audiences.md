@@ -4,10 +4,10 @@ title: 开始使用受众
 description: 了解如何在 Campaign Web UI 中使用受众
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ control groups like acc: exract, random, based on attribute
 
 * 使用现有受众。[了解详情](add-audience.md)
 * 创建新受众。[了解详情](segment-builder.md)
-* 从文件导入受众。[了解详情](import-audience.md)
+* 使用外部檔案中的對象。 [了解详情](file-audience.md)
 * 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)
 
 此外，您可以定义对照组来避免向部分受众发送消息，并衡量营销活动的影响。[了解详情](control-group.md)

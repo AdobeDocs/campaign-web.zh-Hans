@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 94%
@@ -63,7 +63,7 @@ ht-degree: 94%
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
    + [使用规则生成器创建受众](audience/segment-builder.md)
-   + [导入受众](audience/import-audience.md)
+   + [导入受众](audience/file-audience.md)
    + [使用 Adobe Experience Platform 受众](audience/aep-audience.md)
    + [设置对照组](audience/control-group.md)
 + 跨渠道营销活动 {#campaigns}
@@ -71,11 +71,11 @@ ht-degree: 94%
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
 + 工作流{#wf}
    + [开始使用工作流](workflows/gs-workflows.md)
-   + [访问和管理工作流](workflows/access-monitor.md)
-   + 创建并运行您的第一个工作流 {#create-workflow}
+   + [存取和管理工作流程](workflows/access-monitor.md)
+   + 建立並執行第一個工作流程 {#create-workflow}
       + [工作流创建的主要原则](workflows/gs-workflow-creation.md)
-      + [创建工作流](workflows/create-workflow.md)
-      + [添加和编排工作流活动](workflows/build-workflow.md)
+      + [建立工作流程](workflows/create-workflow.md)
+      + [新增及協調工作流程活動](workflows/build-workflow.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
