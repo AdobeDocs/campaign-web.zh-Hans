@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 87%
+source-wordcount: '1535'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="营销活动"
->abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。也会提供营销活动模板。这些列表为只读状态。"
+>abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮以添加新营销活动。 选择一个营销活动以查看其内容、投放和详细信息。 浏览到“模板”选项卡以查看和创建模板。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="浏览您的投放列表。您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击一封要投放的电子邮件以打开其仪表板。其他项目为只读状态。也会提供投放模板。"
+>abstract="浏览您的投放列表。您可以查看其状态、联系和修改日期以及关键KPI。 您可以按状态、联系日期或渠道筛选列表。单击“创建投放”按钮以添加新投放。 选择投放以查看其内容、受众和详细信息。"
 
 * **营销活动** - 这是您的营销活动列表。默认情况下，您可以查看它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。也会提供营销活动模板。这些列表为只读状态。
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 报告摘要"
->abstract="探索簡訊傳遞的報告量度。"
+>abstract="了解短信投放的报告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="推送报告摘要"
->abstract="探索推送傳遞的報告量度。"
+>abstract="了解推送投放的报告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,42 +250,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="规则生成器高级属性"
->abstract="使用進階屬性來定義規則。"
+>abstract="使用高级属性定义规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送量度"
->abstract="傳遞的電子郵件數目。"
+>abstract="已送达的电子邮件数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误量度"
->abstract="具有錯誤狀態的電子郵件數目。"
+>abstract="具有错误状态的电子邮件数量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="推送 Android 内容"
->abstract="定義推播Android內容。"
+>abstract="定义推送Android内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="推送 iOS 内容"
->abstract="定義推播iOS內容。"
+>abstract="定义推送iOS内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="应用程序订阅者"
->abstract="將應用程式訂閱者新增至主要目標，以預覽和測試訊息。 "
+>abstract="通过将应用程序订阅者添加到主目标来预览和测试消息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="測試母體"
->abstract="選取測試母體模式。"
+>title="测试群体"
+>abstract="选择测试填充模式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="预览模式"
->abstract="將測試母體包含至主要目標以預覽和測試訊息。"
+>abstract="通过将测试群体包含到主目标来预览和测试消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -301,27 +301,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="报告发送"
->abstract="請參閱傳送指標，以取得行銷活動報告。"
+>abstract="请参阅发送指标，了解促销活动报告情况。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="报告跟踪"
->abstract="請參閱行銷活動報告的追蹤指標。"
+>abstract="请参阅营销活动报告的跟踪指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="报告概述"
->abstract="傳遞的關鍵量度。"
+>abstract="投放的关键指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="报告目标统计数据"
->abstract="此區段會根據對象顯示特定量度。"
+>abstract="此部分根据受众显示特定量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="傳遞的彙總報告"
->abstract="至少選取兩個傳遞來顯示彙總資料報表。"
+>title="投放的汇总报告"
+>abstract="选择至少两个投放以显示聚合数据报告。"
 
 
 >[!CONTEXTUALHELP]
@@ -347,34 +347,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="所需的权限"
->abstract="您的管理員必須先授予您許可權，您才能建立區段。"
+>abstract="在创建区段之前，您的管理员必须向您授予权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="所需的权限"
->abstract="您的管理員必須先授予您許可權，您才能建立區段。"
+>abstract="在创建区段之前，您的管理员必须向您授予权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="屬性選擇器進階欄位"
->abstract="使用進階欄位設定欄。"
+>title="属性选取器高级字段"
+>abstract="使用高级字段配置列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="使用進階欄位設定欄。"
+>title="规则生成器高级字段"
+>abstract="使用高级字段配置列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="推播傳遞屬性"
->abstract="管理推送傳遞屬性。"
+>title="推送投放属性"
+>abstract="管理推送投放属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="新增隔離量度"
->abstract="新增隔離量度。"
+>title="新建隔离量度"
+>abstract="新建隔离量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
->title="簡訊範本選擇"
->abstract="選取預先定義的範本以開始您的SMS傳送。"
+>title="短信模板选择"
+>abstract="选择预定义的模板以开始短信投放。"

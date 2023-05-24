@@ -13,59 +13,59 @@ ht-degree: 20%
 
 # 开始使用营销活动 {#campaigns}
 
-使用Adobe Campaign建立跨頻道行銷活動。 透過其行銷活動協調功能，您可以管理和集中客戶資料、設計客戶通訊和行銷活動，以建立不同管道的個人化體驗。 電子郵件、推播和簡訊頻道可供使用。
+使用Adobe Campaign创建跨渠道营销活动。 借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。
 
-針對所有平台和熒幕大小，設計和執行非大量電子郵件行銷活動，以傳遞個人化訊息。
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 透過Adobe Campaign細分功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，以完美鎖定您的行銷活動。
+设计和执行非大流量电子邮件促销活动，针对所有平台和屏幕大小提供个性化消息。
+<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 借助Adobe Campaign分段功能，您可以针对大容量数据库运行查询，并轻松定义动态营销区段，以完美地定位营销活动。
 
-## 建立跨頻道行銷活動 {#cross-channel-campaign}
+## 创建跨渠道营销活动 {#cross-channel-campaign}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="工作流列表"
->abstract="您的行銷活動可用的工作流程清單。 使用「建立工作流程」按鈕，在行銷活動中新增工作流程。"
+>abstract="您的营销活动可用的工作流列表。 使用“创建工作流”按钮可在营销策划中添加工作流。"
 
 
 
 在跨渠道营销活动中，单个营销通信使用不同的渠道。 数据在各渠道之间传递。 例如，客户基于他们与先前通信的交互通过多个渠道接收通信。
 
-## 定義您的行銷活動屬性 {#campaign-properties}
+## 定义营销活动属性 {#campaign-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign 创建属性"
->abstract="定義行銷活動的屬性和中繼資料。"
+>abstract="定义营销活动的属性和元数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Campaign 属性"
->abstract="定義您的Campaign設定和中繼資料。"
+>abstract="定义Campaign设置和元数据。"
 
-行銷活動屬性會在建立新行銷活動時顯示。
+营销活动属性会在创建新营销活动时显示。
 
-![定義您的行銷活動屬性](assets/campaign-properties.png)
+![定义营销活动属性](assets/campaign-properties.png)
 
-您也可以從以下位置存取行銷活動屬性： **設定行銷活動設定** 圖示，位於行銷活動標籤旁。
+您还可以从以下位置访问营销活动属性： **配置Campaign设置** 图标（在促销活动标签旁边）。
 
-在此畫面中，您可以變更：
+在此屏幕中，您可以更改：
 
 
 
-## 定義您的行銷活動排程 {#campaign-schedule}
+## 定义活动计划 {#campaign-schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campaign 创建计划"
->abstract="使用行銷活動屬性的「排程」區段來選取其時間範圍。 行銷活動在到達開始日期時開始。"
+>abstract="使用营销活动属性的“计划”部分选择其时间范围。 营销活动在到达开始日期时开始。"
 
-使用 **排程** 促銷活動屬性的區段來選取其時間範圍。 行銷活動在到達開始日期時開始。
+使用 **计划** 活动属性的部分，以选择其时间范围。 营销活动在到达开始日期时开始。
 
-開始和結束日期會顯示在行銷活動清單中，並可作為篩選條件使用。
+开始和结束日期显示在营销活动列表中，并可用作过滤器。
 
-![行銷活動清單](assets/campaign-list.png)
+![营销活动列表](assets/campaign-list.png)
 
-若要依行銷活動排程進行篩選，請開啟篩選器，然後使用 **開始 — 結束日期** 區段：
+要按营销活动计划进行筛选，请打开筛选器，然后使用 **开始 — 结束日期** 部分：
 
-![行銷活動清單](assets/campaign-filter-on-dates.png)
+![营销活动列表](assets/campaign-filter-on-dates.png)
 
