@@ -46,7 +46,7 @@ control groups like acc: exract, random, based on attribute
 
 * 使用现有受众。[了解详情](add-audience.md)
 * 创建新受众。[了解详情](segment-builder.md)
-* 使用外部檔案中的對象。 [了解详情](file-audience.md)
+* 使用来自外部文件的受众。 [了解详情](file-audience.md)
 * 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)
 
 此外，您可以定义对照组来避免向部分受众发送消息，并衡量营销活动的影响。[了解详情](control-group.md)

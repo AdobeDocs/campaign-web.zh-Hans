@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. 该列的可编辑参数显示在 **[!UICONTROL 样式]** 选项卡。 调整 **[!UICONTROL 对齐方式]** 使用专述章节。
+1. 该列的可编辑参数显示在 **[!UICONTROL 样式]** 选项卡。 调整 **[!UICONTROL 对齐方式]** 使用专用部分。
 
    ![](assets/alignment_3.png)
 

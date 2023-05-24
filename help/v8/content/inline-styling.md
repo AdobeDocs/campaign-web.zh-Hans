@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 直接在内容中或使用左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;来选择组件。
 
-1. 从 **[!UICONTROL 样式]** ，单击 **[!UICONTROL 高级]** 下拉菜单。
+1. 从 **[!UICONTROL 样式]** 选项卡，单击 **[!UICONTROL 高级]** 下拉菜单。
 
    ![](assets/styles_1.png)
 

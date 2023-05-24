@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 从 **[!UICONTROL 设置]** 选项卡上，添加您的预标题。 可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
+1. 从 **[!UICONTROL 设置]** 选项卡，添加预编译标头。 可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
 
    ![](assets/preheader_body_settings.png)
 

@@ -5,7 +5,7 @@ description: 探索可用于调整电子邮件内容样式的各种不同方式
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 

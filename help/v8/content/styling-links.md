@@ -18,7 +18,7 @@ ht-degree: 81%
 
 1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
 
-1. 在 **[!UICONTROL 设置]** 选项卡，勾选 **[!UICONTROL 下划线链接]** 标签加下划线。
+1. 在 **[!UICONTROL 设置]** 选项卡，选中 **[!UICONTROL 为链接加下划线]** 标签下划线。
 
    ![](assets/link_1.png)
 

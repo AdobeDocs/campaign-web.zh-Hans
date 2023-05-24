@@ -24,7 +24,7 @@ ht-degree: 97%
 您还可以：
 
 * 创建新受众。[了解详情](segment-builder.md)
-* 使用外部檔案中的對象。 [了解详情](file-audience.md)
+* 使用来自外部文件的受众。 [了解详情](file-audience.md)
 * 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)。
 
 

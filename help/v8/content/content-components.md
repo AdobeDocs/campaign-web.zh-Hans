@@ -37,9 +37,9 @@ ht-degree: 70%
 
 要将内容组件添加到您的电子邮件中，并根据您的需要调整这些内容组件，请执行以下步骤。
 
-1. 在Email Designer中，使用现有内容或拖放 **[!UICONTROL 结构]** ，以定义电子邮件的布局。 [了解如何操作](create-email-content.md)
+1. 在Email Designer中，使用现有内容或拖放 **[!UICONTROL 结构]** 空内容，以定义电子邮件的布局。 [了解如何操作](create-email-content.md)
 
-1. 拖放 **[!UICONTROL 内容]** 在相关结构组件中进行选择。
+1. 拖放 **[!UICONTROL 内容]** 在相关结构组件中选择的任何值。
 
    ![](assets/email_designer_add_content_components.png)
 
@@ -47,12 +47,12 @@ ht-degree: 70%
    >
    >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
 
-1. 使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
+1. 使用调整每个组件的样式属性 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-从头开始创建电子邮件内容时， **[!UICONTROL 内容]**  组件允许您使用一旦放入电子邮件中即可使用的原始空组件进一步个性化电子邮件。
-您可以添加任意数量的 **[!UICONTROL 内容]** 组件 **[!UICONTROL 结构]** 用于定义电子邮件布局的组件。
+从头开始创建电子邮件内容时， **[!UICONTROL 内容]**  组件允许您使用原始空组件进一步个性化电子邮件，这些组件一经放入电子邮件中即可使用。
+您可以添加任意数量的 **[!UICONTROL 内容]** 组件（根据需要） **[!UICONTROL 结构]** 定义电子邮件布局的组件。
 
 ## 容器 {#container}
 
@@ -66,15 +66,15 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 按钮]**&#x200B;组件可将一个或多个按钮插入电子邮件中，并将电子邮件受众重定向到另一个页面。
 
-1. 从 **[!UICONTROL 内容]** 列表，拖放 **[!UICONTROL 按钮]** 组件 **[!UICONTROL 结构]** 组件。
+1. 从 **[!UICONTROL 目录]** 列表，拖放 **[!UICONTROL 按钮]** 组件到 **[!UICONTROL 结构]** 组件。
 
    ![](assets/email_designer_13.png)
 
-1. 单击您新添加的按钮以个性化文本并有权访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
+1. 单击新添加的按钮以个性化文本并访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/email_designer_14.png)
 
-1. 从 **[!UICONTROL 设置]** 选项卡 **[!UICONTROL URL]** 字段中，添加您希望在单击按钮时重定向到的URL。
+1. 从 **[!UICONTROL 设置]** 选项卡，在 **[!UICONTROL URL]** 字段中，添加在单击按钮时要重定向到的URL。
 
 1. 使用&#x200B;**[!UICONTROL 目标]**&#x200B;下拉列表选择内容的显示方式：
 
@@ -86,17 +86,17 @@ ht-degree: 70%
 
    ![](assets/email_designer_15.png)
 
-1. 您可以通过从以下位置更改样式属性（例如&#x200B;**[!UICONTROL 边框]**、**[!UICONTROL 大小]**、**[!UICONTROL 边距]**&#x200B;等）来进一步个性化您的按钮：从 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
+1. 您可以通过从以下位置更改样式属性（例如&#x200B;**[!UICONTROL 边框]**、**[!UICONTROL 大小]**、**[!UICONTROL 边距]**&#x200B;等）来进一步个性化您的按钮：起始日期 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
 ## 文本 {#text}
 
 使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
-1. 从 **[!UICONTROL 内容]** 菜单，拖放 **[!UICONTROL 文本]** 在 **[!UICONTROL 结构]** 组件。
+1. 从 **[!UICONTROL 目录]** 菜单，拖放 **[!UICONTROL 文本]** 在 **[!UICONTROL 结构]** 组件。
 
    ![](assets/email_designer_11.png)
 
-1. 单击您新添加的组件以个性化文本并有权访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
+1. 单击新添加的组件以个性化文本并访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
 1. 使用工具栏中的以下可用选项更改文本：
 
@@ -122,7 +122,7 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 分隔条]**&#x200B;组件可插入分隔线来整理电子邮件的版面和内容。
 
-您可以调整样式属性，如 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
+您可以从以下位置调整样式属性，例如线条的颜色、样式和高度 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
 ![](assets/email_designer_16.png)
 
@@ -130,7 +130,7 @@ ht-degree: 70%
 
 使用 **[!UICONTROL HTML]** 组件可复制并粘贴现有 HTML 的不同部分。这使您能够创建免费的模块化 HTML 组件以重用某些外部内容。
 
-1. 从 **[!UICONTROL 组件]**，拖放 **[!UICONTROL HTML]** 组件 **[!UICONTROL 结构]** 组件。
+1. 起始日期 **[!UICONTROL 组件]**，拖放 **[!UICONTROL HTML]** 组件到 **[!UICONTROL 结构]** 组件。
 
    ![](assets/email_designer_22.png)
 
@@ -152,7 +152,7 @@ ht-degree: 70%
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;可从您的资产中选择图像文件。
 
-1. 单击新添加的组件，然后使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡：
+1. 单击新添加的组件，然后使用设置图像属性 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡：
 
    * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
    * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
@@ -165,11 +165,11 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 社交]**&#x200B;组件可将指向社交媒体页面的链接插入到电子邮件内容中。
 
-1. 从 **[!UICONTROL 组件]** ，拖放 **[!UICONTROL 社交]** 组件 **[!UICONTROL 结构]** 组件。
+1. 从 **[!UICONTROL 组件]** 菜单，拖放 **[!UICONTROL Social]** 组件到 **[!UICONTROL 结构]** 组件。
 
 1. 单击新添加的组件。
 
-1. 在 **[!UICONTROL 社交]** 字段 **[!UICONTROL 设置]** 选项卡，选择要添加或删除的社交媒体。
+1. 在 **[!UICONTROL Social]** 字段 **[!UICONTROL 设置]** 选项卡，选择要添加或删除的社交媒体。
 
    ![](assets/email_designer_20.png)
 

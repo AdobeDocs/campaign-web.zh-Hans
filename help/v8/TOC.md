@@ -60,12 +60,12 @@ ht-degree: 90%
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
-      + [設計簡訊傳遞 ](sms/content-sms.md)
+      + [设计短信投放 ](sms/content-sms.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
    + [使用规则生成器创建受众](audience/segment-builder.md)
-   + [從檔案載入對象](audience/file-audience.md)
+   + [从文件加载受众](audience/file-audience.md)
    + [使用 Adobe Experience Platform 受众](audience/aep-audience.md)
    + [设置对照组](audience/control-group.md)
 + 跨渠道营销活动 {#campaigns}
@@ -73,11 +73,11 @@ ht-degree: 90%
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
 + 工作流{#wf}
    + [开始使用工作流](workflows/gs-workflows.md)
-   + [存取和管理工作流程](workflows/access-monitor.md)
-   + 建立並執行第一個工作流程 {#create-workflow}
+   + [访问和管理工作流](workflows/access-monitor.md)
+   + 创建并运行第一个工作流 {#create-workflow}
       + [工作流创建的主要原则](workflows/gs-workflow-creation.md)
-      + [建立工作流程](workflows/create-workflow.md)
-      + [新增及協調工作流程活動](workflows/build-workflow.md)
+      + [创建工作流](workflows/create-workflow.md)
+      + [添加并编排工作流活动](workflows/build-workflow.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
