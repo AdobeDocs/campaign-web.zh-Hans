@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '959'
+ht-degree: 29%
 
 ---
 
@@ -34,6 +34,9 @@ Adobe Campaign v8 附带以下投放渠道：
 要创建独立投放，请执行以下步骤：
 
 1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击 **[!UICONTROL 创建投放]** 按钮。
+
+   ![](assets/create-a-delivery.png)
+
 1. 选择投放渠道。 要了解有关投放渠道以及如何定义投放内容的更多信息，请参阅以下部分：
 
    * [电子邮件渠道](../email/create-email.md)
@@ -108,3 +111,21 @@ Adobe Campaign v8 附带以下投放渠道：
 ## 投放和跟踪日志{#gs-tracking-logs}
 
 在发送后监测投放是确保营销活动有效并接触到客户的重要步骤。您可以在发送投放后进行监测，并了解如何管理投放失败和隔离。
+
+## 复制投放{#delivery-duplicate}
+
+您可以从投放列表或投放仪表板创建现有投放的副本。
+
+要从投放列表中复制投放，请执行以下步骤：
+
+1. 单击要复制的投放名称旁边的右侧的三个圆点按钮。
+1. 选择  **[!UICONTROL 复制]**.
+1. 确认复制：新的投放仪表板在中心屏幕中打开。
+
+
+要从仪表板上复制投放，请执行以下步骤：
+
+1. 打开投放，然后单击  **[!UICONTROL ...更多]** 按钮来打开屏幕。
+1. 选择  **[!UICONTROL 复制]**.
+1. 确认复制：新投放替换中央屏幕中的当前投放。
+
