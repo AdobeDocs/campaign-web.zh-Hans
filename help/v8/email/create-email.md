@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定义受众"
->abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。"
+>abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。未对“从文件选择”启用控制组，反之亦然。"
 
 在此用例中，您将电子邮件发送到现有受众。有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
 
