@@ -4,10 +4,10 @@ title: 从文件定位收件人
 description: 了解如何使用外部文件中的收件人构建电子邮件受众
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 21%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 21%
 在创建和个性化消息内容时，可以在个性化编辑器中从输入文件中选择字段。
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>您无法使用 [对照组](control-group.md) 从外部文件加载目标群体时。
 
 ## 示例文件 {#sample-file}
 

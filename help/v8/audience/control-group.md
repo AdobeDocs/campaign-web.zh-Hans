@@ -4,10 +4,10 @@ title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 要创建对照组，请从投放创建助手的&#x200B;**受众**&#x200B;部分中单击&#x200B;**[!UICONTROL 设置对照组]**&#x200B;按钮。
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>加载目标群体时不能使用对照组 [来自外部文件](file-audience.md).
+
 
 ## 从目标中提取 {#extract-target}
 
