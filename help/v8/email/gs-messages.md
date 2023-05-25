@@ -4,7 +4,7 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 33%
@@ -102,7 +102,7 @@ Adobe Campaign v8 附带以下投放渠道：
 
 ## 预览和测试投放
 
-定义消息内容后，您可以预览它以控制消息的呈现，并使用测试用户档案检查个性化设置。 [了解详情](preview.md)
+定义消息内容后，您可以预览它以控制消息的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../preview-test/preview-test.md)
 
 
 ## 投放和跟踪日志{#gs-tracking-logs}
