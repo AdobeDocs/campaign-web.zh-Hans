@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 35%
+source-wordcount: '604'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 附带以下投放渠道：
 
 ## 创建投放
 
-您可以从以下位置创建独立投放 **投放** 主菜单，或在营销活动上下文中创建投放。
+您可以从以下位置创建独立投放 **投放** 左侧菜单，或在营销活动上下文中创建投放，来自 **营销活动** 左侧菜单。
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Adobe Campaign v8 附带以下投放渠道：
 要在营销策划中创建投放，请执行以下步骤：
 
 1. 创建营销活动或打开现有营销活动。
+1. 创建工作流或打开现有工作流。
+1. 添加和配置 **构建受众** 活动，然后单击 `+`按钮。
+   ![](assets/add-delivery-in-wf.png)
+1. 选择投放活动：电子邮件、短信、推送通知(Android)或推送通知(iOS)。 要了解有关投放渠道以及如何定义投放内容的更多信息，请参阅以下部分：
+
+   * [电子邮件渠道](../email/create-email.md)
+   * [推送通知渠道](../push/gs-push.md)
+   * [短信渠道](../sms/create-sms.md)
+
+1. 启动工作流并检查日志。
 
 有关如何配置营销活动的更多信息，
 
