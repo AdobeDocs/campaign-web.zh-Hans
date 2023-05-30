@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 90%
+source-wordcount: '824'
+ht-degree: 67%
 
 ---
 
 
 # 个性化您的内容{#add-personalization}
+
+为了充分利用每个营销活动，Adobe Campaign为您提供了一种方法，可交付与客户级别对话的自定义内容。 根据用户档案数据，使用个性化功能为不同的组和个人创建自定义体验：您可以利用有关消息的数据和信息，根据每个特定收件人调整消息。 这可以是他们的名字、兴趣、居住地、购买的东西等等。
+
+使用Campaign创建动态内容并发送个性化消息。 可组合个性化功能以改进消息并创建自定义用户体验。
 
 可以通过以下方式个性化邮件内容：
 
@@ -29,26 +33,27 @@ ht-degree: 90%
 
 * 插入预定义的&#x200B;**内容块**
 
-   Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。可以从个性化编辑器的专用条目中获得内容块。
+   Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候语消息或指向电子邮件镜像页面的链接。 内容块可通过个性化编辑器中的专用条目使用。
 
    ![](assets/perso-content-blocks.png)
 
 * 创建 **条件内容**
 
-   例如，配置条件内容以根据收件人的配置文件添加动态个性化。 当特定条件为true时，插入文本块和/或图像。
+   例如，配置条件内容以根据收件人的配置文件添加动态个性化。 当特定条件为true时，插入文本块和/或图像。 当条件不为true时，您可以定义内容的替代版本。
 
 
-## 个性化电子邮件主题行 {#personalize-subject-line}
+## 个性化邮件的主题行 {#personalize-subject-line}
 
 要在邮件的&#x200B;**[!UICONTROL 主题行]**&#x200B;字段中添加个性化内容，请执行以下步骤：
 
-1. 单击&#x200B;**[!UICONTROL 主题行]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标。
+1. 打开投放并单击 **[!UICONTROL 编辑内容]**.
+1. 单击 **[!UICONTROL 打开个性化对话框]** 图标右侧的 **[!UICONTROL 主题行]** 电子邮件字段，或 **[!UICONTROL 标题]** 推送/短信投放的字段。
 
    ![](assets/perso-subject.png){width="600"}
 
-1. 输入主题行内容并选择要添加的个性化属性。
+1. 输入主题行或标题，然后选择要添加的个性化属性。
 
-1. 单击 **[!UICONTROL 确认]**&#x200B;如**验证。 个性化属性将添加到主题行。
+1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以进行确认。个性化属性即添加到内容中。
 
 ## 个性化您的电子邮件内容 {#personalize-emails}
 
