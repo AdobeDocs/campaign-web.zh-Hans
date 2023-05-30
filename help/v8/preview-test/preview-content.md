@@ -4,9 +4,9 @@ title: 预览电子邮件内容
 description: 了解如何使用 Campaign Web UI 预览电子邮件内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 预览电子邮件内容 {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="智能预览您的内容"
->abstract="使用配置文件数据在发送前预览电子邮件内容，控制个性化属性，并检查收件人查看邮件内容的效果。"
 
 使用 Adobe Campaign 中的内容模拟功能在发送前预览电子邮件内容，控制个性化内容，并检查电子邮件内容显示给收件人的效果。
 

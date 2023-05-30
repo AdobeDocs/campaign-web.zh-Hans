@@ -4,7 +4,7 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 29%
@@ -50,7 +50,7 @@ Adobe Campaign v8 附带以下投放渠道：
 1. 使用  **[!UICONTROL 模拟内容]** 按钮以测试您的投放和个性化设置。 在中了解有关消息模拟的更多信息 [本节](../preview-test/preview-test.md).
 1. 单击  **[!UICONTROL 准备]** 按钮以计算目标群体并生成消息。 准备步骤可能需要几分钟。 准备完成后，消息即可发送。 如果出现错误，请浏览 **日志** 以检查警报和警告。
 1. 检查结果，然后单击  **[!UICONTROL 发送]** 按钮以开始发送消息。
-1. 发送消息后，浏览到 **报告** 部分访问关键量度。 要了解有关投放报告的更多信息，请参阅 [本节](../reporting/reports.md).
+1. 发送消息后，浏览到 **报告** 部分访问关键量度。 要了解有关投放报告的更多信息，请参阅 [本节](../reporting/delivery-reports.md).
 
 >[!TAB 在营销活动中创建投放]
 
