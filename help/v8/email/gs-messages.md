@@ -4,14 +4,15 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '956'
 ht-degree: 29%
 
 ---
 
-# 在 Campaign Web 中开始使用消息 {#gs-messages}
+# 消息入门{#gs-messages}
+
 
 借助Adobe Campaign，您可以发送跨渠道营销活动，包括电子邮件、短信和推送通知，并使用各种专用报告衡量其有效性。 这些消息通过投放设计和发送，并且可以针对每个收件人进行个性化。这些投放可以是独立的，也可以包含在营销活动上下文中。
 
