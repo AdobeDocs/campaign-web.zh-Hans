@@ -4,16 +4,21 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 开始使用营销活动 {#campaigns}
 
-使用Adobe Campaign创建跨渠道营销活动。 借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="设计和发送跨渠道营销活动"
+>abstract="借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。"
+
+使用Adobe Campaign创建跨渠道营销活动。 借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。
 
 设计和执行非大流量电子邮件促销活动，针对所有平台和屏幕大小提供个性化消息。
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 借助Adobe Campaign分段功能，您可以针对大容量数据库运行查询，并轻松定义动态营销区段，以完美地定位营销活动。
@@ -25,8 +30,6 @@ ht-degree: 20%
 >id="acw_campaign_creation_workflow"
 >title="工作流列表"
 >abstract="您的营销活动可用的工作流列表。 使用“创建工作流”按钮可在营销策划中添加工作流。"
-
-
 
 在跨渠道营销活动中，单个营销通信使用不同的渠道。 数据在各渠道之间传递。 例如，客户基于他们与先前通信的交互通过多个渠道接收通信。
 

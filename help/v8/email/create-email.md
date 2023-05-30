@@ -4,15 +4,20 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # 发送您的第一封电子邮件 {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="使用Adobe Campaign发送您的第一封电子邮件"
+>abstract="了解如何使用Email Designer创建内容、预览和测试内容，以及在端到端用例中向现有受众发送电子邮件。"
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -20,7 +25,7 @@ ht-degree: 99%
 
 ![](assets/delivery-list.png)
 
-## 创建电子邮件 {#create-email}
+## 创建电子邮件 投放 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ ht-degree: 99%
 >title="电子邮件属性"
 >abstract="这些属性是常见的投放参数，可帮助您对投放的内容进行命名和分类。如果您的投放基于 Adobe Campaign v8 控制台中定义的扩展架构，则可以使用某些特定的&#x200B;**自定义选项**。"
 
-1. 要创建新的投放，请浏览到左边栏上的&#x200B;**[!UICONTROL 投放]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
+要创建新投放，请执行以下步骤：
+
+1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击  **[!UICONTROL 创建投放]** 按钮。
 
 1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为渠道，并选择一个模板。
 
@@ -60,11 +67,6 @@ ht-degree: 99%
    此外，可以单击投放名称旁边的按钮来访问高级设置，例如类型规则和目标映射。虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
 
 ## 创建电子邮件内容 {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="了解如何设计电子邮件内容"
->abstract="了解如何使用电子邮件设计器。"
 
 有关如何配置电子邮件内容的详细说明，请参阅[此章节](../content/edit-content.md)。
 
