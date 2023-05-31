@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,15 @@ ht-degree: 4%
    * **独立工作流程**：导航到工作流菜单，然后单击右上角的创建工作流按钮。
    * **营销活动工作流：** 导航到促销活动菜单，然后打开要创建新工作流的促销活动。 单击“工作流”选项卡右上角的创建工作流按钮。
 
-1. 此时将显示工作流的“属性”对话框。 选择用于创建工作流的模板并提供其名称。
-
-   工作流模板包含预配置的活动和全局属性配置，可重复用于创建新工作流。 它们是从客户端控制台创建的。 [了解如何使用模板](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   此时将显示工作流的“属性”对话框。
 
    ![](assets/workflow-create.png)
 
-1. 在其他选项部分，配置工作流的特定设置，如存储文件夹和时区。 [了解如何配置工作流属性](workflow-settings.md)
+1. 选择要用于创建工作流并为工作流提供标签的模板。
+
+   工作流模板包含预配置的活动和全局属性配置，可重复用于创建新工作流。 它们是从客户端控制台创建的。 [了解如何使用模板](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. 如果要为工作流配置特定设置（如存储文件夹和时区），请展开其他选项部分。 [了解如何配置工作流属性](workflow-settings.md)
 
 1. 单击创建工作流按钮以确认创建工作流。
 
