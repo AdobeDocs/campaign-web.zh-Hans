@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 91%
+source-wordcount: '287'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 91%
       + [创建工作流](workflows/create-workflow.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
-   + [工作流活动](workflows/workflow-activities.md)
+   + 使用工作流活动 {#design-workflows}
+      + [关于工作流活动](workflows/activities/about-activities.md)
+      + [And — 连接](workflows/activities/and-join.md)
+      + [构建受众](workflows/activities/build-audience.md)
+      + [结合](workflows/activities/combine.md)
+      + [电子邮件](workflows/activities/email.md)
+      + [结束](workflows/activities/end.md)
+      + [扩充](workflows/activities/enrichment.md)
+      + [分叉](workflows/activities/fork.md)
+      + [推送](workflows/activities/push.md)
+      + [短信](workflows/activities/sms.md)
+      + [等待](workflows/activities/wait.md)
 + 报告{#reports}
    + [报告入门](reporting/gs-reports.md)
    + [访问投放报告](reporting/delivery-reports.md)
