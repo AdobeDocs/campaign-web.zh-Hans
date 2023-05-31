@@ -4,10 +4,10 @@ title: 开始使用受众
 description: 了解如何在 Campaign Web UI 中使用受众
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="开始使用受众"
->abstract="了解如何使用Campaign规则生成器并定义筛选条件来为您的消息生成受众。"
+>abstract="了解如何使用Campaign规则生成器并定义筛选条件来为您的消息生成受众。 您还可以轻松地使用外部文件中的数据，或定位Adobe Experience Platform受众。"
 
 <!--
 Audience only created for the delivery, not available later-->
