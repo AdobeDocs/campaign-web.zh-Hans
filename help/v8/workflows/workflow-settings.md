@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 100%
 * 内部名称
 * 文件夹
 * 链接的营销活动 > 可以更改。如果是这样，工作流将从当前营销活动中消失并出现在新链接的营销活动中
+
+   在营销策划中创建工作流时，您将找到另一个Campaign字段，该字段允许您轻松识别并访问与工作流关联的营销策划。
+
 * 时区：定义一个默认用于工作流的所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 * 监督者：当工作流出错时，工作流监督组中的操作员将收到电子邮件通知，前提是他们的配置文件中填写了电子邮件地址。在工作流属性的&#x200B;**[!UICONTROL 监督者]**&#x200B;字段中选择此组。
 * 描述
