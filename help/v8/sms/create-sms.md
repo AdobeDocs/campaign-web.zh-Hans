@@ -3,7 +3,8 @@ audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 12%
@@ -42,4 +43,3 @@ ht-degree: 12%
 1. 单击 **[!UICONTROL 编辑内容]** 以开始设计短信消息的内容。
 
 1. 要将投放安排到特定的日期和时间，请打开 **[!UICONTROL 启用计划]** 选项。 启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。
-

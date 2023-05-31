@@ -5,7 +5,8 @@ description: 了解如何在Campaign中创建和使用投放模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -70,5 +71,3 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 1. 定义模板名称和设置。
 1. 单击 **[!UICONTROL 审核]** 按钮来定义模板内容并更改其属性。
 1. 保存新模板。
-
-

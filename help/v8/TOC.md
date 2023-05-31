@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 0105bb268e807b568f2d1c465f4636419fc070b6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 90%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
@@ -82,11 +82,8 @@ ht-degree: 90%
       + [添加并编排工作流活动](workflows/build-workflow.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
-   + 使用工作流活动 {#design-workflows}
-      + [定位活动](workflows/targeting-activities.md)
-      + [渠道活动](workflows/channel-activities.md)
-      + [数据管理活动](workflows/data-management-activities.md)
-+ 报告 {#reports}
+   + [工作流活动](workflows/workflow-activities.md)
++ 报告{#reports}
    + [报告入门](reporting/gs-reports.md)
    + [访问投放报告](reporting/delivery-reports.md)
 
