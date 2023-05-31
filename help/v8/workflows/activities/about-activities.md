@@ -4,23 +4,31 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 36%
+source-wordcount: '355'
+ht-degree: 5%
 
 ---
 
 
 # 关于工作流活动 {#workflow-activities}
 
+工作流活动分为三个类别。 根据上下文的不同，可用的活动可能会有所不同。
+
+以下各节详细介绍了所有活动：
+
+* [定位活动](#targeting)
+* [渠道活动](#channel)
+* [流量控制活动](#flow-control)
+
 ## 定位活动 {#targeting}
 
-利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
+这些活动专门用于定位、操纵和丰富人口数据。 通过定义受众，并使用交集、并集或排除操作拆分或组合这些受众，可让您构建一个或多个目标。
 
-* [构建受众](build-audience.md)
-* [结合](combine.md)
-* [扩充](enrichment.md)
+* 此 [构建受众](build-audience.md) 利用活动，可定义目标群体。 您可以选择现有受众，也可以使用规则生成器定义您自己的查询。
+* 此 [合并](combine.md) 活动允许对集客群体执行分段。 您可以使用并集、交集或排除项。
+* 此 [扩充](enrichment.md) 活动允许您定义要在工作流中处理的附加数据。 通过此活动，您可以利用集客过渡并配置活动以使用附加数据完成输出过渡。
 
 ## 渠道活动 {#channel}
 
@@ -30,26 +38,18 @@ ht-degree: 36%
 
 通过使用渠道活动，您可以创建全面的个性化营销活动，在多个接触点吸引客户并促进转化。
 
-渠道活动可从屏幕左侧的面板的“渠道”部分中使用。
-
 * [电子邮件](email.md)
 * [推送](push.md)
 * [短信](sms.md)
 
 ## 流量控制活动 {#flow-control}
 
-内容待定
+以下活动特定于组织和执行工作流。 他们的主要任务是协调其他活动：
 
-<!--à reformuler-->利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
-
-流量控制活动用于协调工作流活动。
-
-
-* [And — 连接](and-join.md)
-* [结束](end.md)
-* [分叉](fork.md)
-* [等待](wait.md)
-
+* 此 [And — 连接](and-join.md) 利用活动，可同步工作流的多个执行分支。
+* 此 [结束](end.md) 活动是可选的。 您可以使用
+* 此 [分支](fork.md) 利用活动，可创建叫客过渡以同时开始多个活动。
+* 此 [等待](wait.md) 活动可暂停执行部分工作流。
 
 <!--
 ## Data management activities {#data-management}

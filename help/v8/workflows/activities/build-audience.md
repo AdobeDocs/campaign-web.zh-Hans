@@ -3,9 +3,9 @@ audience: end-user
 title: 使用构建受众工作流活动
 description: 了解如何使用构建受众工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 16%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # 构建受众 {#build-audience}
 
-此活动允许您定义受众。 您可以选择现有的Campaign选件，也可以使用规则生成器定义自己的查询。
+此活动允许您定义受众。 您可以选择现有受众，也可以使用规则生成器定义您自己的查询。
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
