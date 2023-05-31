@@ -4,10 +4,10 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 74%
+source-wordcount: '853'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 74%
 
 ## 定位活动 {#targeting}
 
-内容待定
-
-<!--à reformuler-->利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
+利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
 
 ### 构建受众 {#build-audience}
 
+此活动允许您定义受众。 您可以选择现有的Campaign选件，也可以使用规则生成器定义自己的查询。
+
+此 **构建受众** 活动可以放在工作流的开头或任何其他活动之后。 任何活动都可以放置在 **构建受众**.
+
+要创建自己的查询，请执行以下操作：
+
+1. 选择 **创建您自己的（查询）**.
+1. 选择 **定位维度**. 定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，将从收件人中选择目标。 请参阅 [v8文档](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. 单击 **继续**.
+1. 使用规则生成器定义查询，与设计新电子邮件时创建受众的方式相同。 请参阅此[章节](../audience/segment-builder.md)。
+
+要选择现有受众，
+
+1. 选择 **读取受众**.
+1. 单击 **继续**.
+1. 选择受众，与设计新电子邮件时使用受众的方式相同。 请参阅此[章节](../audience/add-audience.md)。
+
 ### 结合 {#combine}
+
+此 **合并** 活动可以放在任何其他活动之后，但不能放在工作流的开头。 任何活动都可以放置在 **合并**.
 
 ### 扩充 {#enrichment}
 
