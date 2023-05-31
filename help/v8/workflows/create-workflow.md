@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
+source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 此时会显示可添加到图中的活动列表。 可用的活动取决于您在工作流图中的位置。 例如，添加第一个活动时，您可以通过定位受众、拆分工作流路径或设置等待活动以延迟工作流执行来启动工作流。 另一方面，如果在构建受众活动之后添加活动，则可以使用定位活动优化目标，通过渠道活动向受众发送投放，或通过流控制活动组织工作流过程。
 
-将活动添加到图后，将显示一个右侧窗格，允许您使用特定设置配置新添加的活动。 有关如何配置每个活动的详细信息，请参阅 [本节](get-started-activities.md).
+将活动添加到图后，将显示一个右侧窗格，允许您使用特定设置配置新添加的活动。 有关如何配置每个活动的详细信息，请参阅 [本节](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
