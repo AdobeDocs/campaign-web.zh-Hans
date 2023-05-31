@@ -4,10 +4,10 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 98%
+source-wordcount: '665'
+ht-degree: 74%
 
 ---
 
@@ -20,6 +20,49 @@ ht-degree: 98%
 
 <!--à reformuler-->利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
 
+### 构建受众 {#build-audience}
+
+### 结合 {#combine}
+
+## 渠道活动 {#channel}
+
+通过Adobe Campaign Web，您可以跨多个渠道（如电子邮件、短信或推送）自动执行营销活动。 借助Adobe Campaign工作流，您可以将渠道活动合并到画布中，以创建可根据客户行为触发操作的跨渠道工作流。
+
+例如，您可以创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信和推送。 您还可以在客户完成购买后发送跟进电子邮件，或通过短信向客户发送个性化的生日消息。
+
+通过使用渠道活动，您可以创建全面的个性化营销活动，在多个接触点吸引客户并促进转化。
+
+渠道活动可从屏幕左侧的面板的“渠道”部分中使用。
+
+### 电子邮件 {#email}
+
+描述，可以执行哪个用例（可以在活动前后链接的其他常见活动）
+
+如何添加和配置活动
+
+工作流中已配置活动的示例
+
+
+利用电子邮件投放活动，可在工作流中配置发送电子邮件。
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+同一工作流中的上游活动，通过受众定位活动定义了电子邮件收件人。
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### 短信 {#sms}
+
+### 推送通知 (Android) {#push-android}
+
+### 推送通知 (iOS) {#push-ios}
 
 ## 流量控制活动 {#flow-control}
 
@@ -28,6 +71,15 @@ ht-degree: 98%
 <!--à reformuler-->利用这些活动，您可以通过定义集合并使用交集、并集或差集操作来拆分或合并这些集合，从而构建一个或多个目标。
 
 流量控制活动用于协调工作流活动。
+
+### 分叉 {#fork}
+
+### AND-连接 {#end}
+
+
+### 等待 {#end}
+
+### 结束 {#end}
 
 ## 数据管理活动 {#data-management}
 
