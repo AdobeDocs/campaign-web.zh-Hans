@@ -4,9 +4,9 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 5%
 以下活动特定于组织和执行工作流。 他们的主要任务是协调其他活动：
 
 * 此 [And — 连接](and-join.md) 利用活动，可同步工作流的多个执行分支。
-* 此 [结束](end.md) 活动是可选的。 您可以使用
+* 此 [结束](end.md) 活动允许您以图形方式标记工作流的结尾。 这些活动没有功能影响，因此是可选的。
 * 此 [分支](fork.md) 利用活动，可创建叫客过渡以同时开始多个活动。
 * 此 [等待](wait.md) 活动可暂停执行部分工作流。
 

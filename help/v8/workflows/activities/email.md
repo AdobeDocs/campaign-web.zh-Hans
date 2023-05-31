@@ -3,21 +3,24 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 46%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # 电子邮件 {#email}
 
-描述，可以执行哪个用例（可以在活动前后链接的其他常见活动）
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-如何添加和配置活动
+how to add and configure the activity
 
-工作流中已配置活动的示例
+example of a configured activity within a workflow
+
+-->
 
 
 利用电子邮件投放活动，可在工作流中配置发送电子邮件。
