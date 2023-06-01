@@ -4,10 +4,10 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 5%
 * [定位活动](#targeting)
 * [渠道活动](#channel)
 * [流量控制活动](#flow-control)
+
+![](../assets/wokflow-activities.png)
 
 ## 定位活动 {#targeting}
 

@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,9 +63,9 @@ Adobe Campaign v8 附带以下投放渠道：
 
    ![](assets/add-delivery-in-wf.png)
 
-   此 **[!UICONTROL 构建受众]** 有关活动的详情，请参见 [本节](../workflows/workflow-activities.md#targeting).
+   此 **[!UICONTROL 构建受众]** 有关活动的详情，请参见 [本节](../workflows/activities/build-audience.md).
 
-1. 选择投放活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]** 或 **[!UICONTROL 推送通知(iOS)]**. 通过此了解关于工作流中的投放渠道活动以及如何定义投放内容的更多信息 [部分](../workflows/workflow-activities.md#channel).
+1. 选择投放活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]** 或 **[!UICONTROL 推送通知(iOS)]**. 通过此了解关于工作流中的投放渠道活动以及如何定义投放内容的更多信息 [部分](../workflows/activities/about-activities.md#channel).
 1. 启动工作流并检查日志。
 
 您还可以在营销策划中添加投放，而无需创建工作流。 要实现此目的，请浏览 **[!UICONTROL 投放]** 选项卡，然后单击 **[!UICONTROL 创建投放]** 按钮。
