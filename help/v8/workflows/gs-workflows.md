@@ -4,10 +4,10 @@ title: 开始使用工作流
 description: 了解如何开始使用工作流
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '387'
+ht-degree: 82%
 
 ---
 
@@ -41,12 +41,6 @@ ht-degree: 83%
 ## 让我们深入探究
 
 现在，您已了解什么是工作流，以及可以在Adobe Campaign中使用它们，接下来该深入了解这些文档部分以开始使用该功能。
-
-* 创建您的第一个工作流
-* 设计工作流
-* 访问和监控
-
-（指向子章节的链接待定）
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
