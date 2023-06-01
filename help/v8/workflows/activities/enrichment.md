@@ -3,10 +3,10 @@ audience: end-user
 title: 使用扩充工作流活动
 description: 了解如何使用扩充工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 96%
+source-wordcount: '364'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="扩充活动"
->abstract="扩充活动可让您使用数据库中的其他信息来增强目标数据。它通常用于定位活动之后的工作流中。<br/>在将扩充数据添加到工作流中后，可以在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
+>abstract="扩充活动可让您使用数据库中的其他信息来增强目标数据。它通常用在定向活动后的工作流中。<br/>在将扩充数据添加到工作流中后，可以在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
 扩充活动可让您使用数据库中的其他信息来增强目标数据。它通常用于定位活动之后的工作流中。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用等待工作流活动
 description: 了解如何使用等待工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 42%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 42%
 
 此 **等待** 活动用于在两个执行的活动之间传递的特定时间。 例如，在执行电子邮件投放活动后，等待几天，再分析这期间产生的打开次数和点击次数，然后再执行所有后续操作（提醒电子邮件、创建受众等）。
 
+## 配置
+
 按照以下步骤配置 **等待** 活动：
 
 1. 添加 **等待** 活动添加到工作流中。
@@ -25,7 +27,6 @@ ht-degree: 42%
 
 1. 选择时间单位 **期间**：秒、分钟、小时。
 
-
-
+## 示例
 
 
