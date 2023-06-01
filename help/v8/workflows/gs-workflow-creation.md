@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 59%
+source-wordcount: '251'
+ht-degree: 33%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 59%
 
 借助Campaign v8 Web，您可以将工作流构建到可视画布中，以设计跨渠道流程，例如分段、活动执行、文件处理。
 
-工作流可以从“工作流”菜单创建为独立的工作流，也可以从营销策划中的“营销策划”菜单创建。
-
-待定：独立工作流和营销活动工作流之间的具体特殊性。
+工作流可以从“工作流”菜单作为独立工作流创建，也可以直接在营销策划中创建，在这种情况下，工作流将链接到营销策划并与所有其他营销策划的工作流一起执行。
 
 ## 工作流的内容
 
 工作流图是应发生情况的表示形式。 它描述了要执行的各种任务以及如何将它们链接在一起。
+
+![](assets/workflow-example.png)
 
 每个工作流包含：
 
@@ -32,12 +32,45 @@ ht-degree: 59%
 
 * **过渡**：过渡将源活动链接到目标活动并定义其序列。
 
-* **工作表**：工作表包含了过渡所携带的所有信息。每个工作流均使用多个工作表。这些表中传输的数据可以在整个工作流的生命周期内加速和使用，前提是它未被清除。实际上，每次工作流被钝化时以及可能在执行最大工作流期间，都会清除不需要的表，以避免服务器过载。
+* **工作表**：工作表包含了过渡所携带的所有信息。每个工作流均使用多个工作表。这些表中传送的数据可在工作流的整个生命周期中使用。
 
 ## 创建工作流的主要步骤
 
 创建工作流的主要步骤如下所示：
 
-待定：图表显示整个过程，并带有解释和参考文档页面
-
-创建和定义属性 > 在画布中编排活动 > 根据需要配置设置 > 开始执行和监控
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-workflow.md#create">
+<img alt="商机" src="assets/do-not-localize/workflow-process-1 .jpeg">
+</a>
+<div><a href="create-workflow.md#create"><strong>创建工作流</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md#build">
+<img alt="不常见" src="assets/do-not-localize/workflow-process-2.jpeg">
+</a>
+<div>
+<a href="create-workflow.md#build"><strong>编排活动</strong></a>
+</div>
+<p></td>
+<td>
+<a href="workflow-settings.md">
+<img alt="验证" src="assets/do-not-localize/workflow-process-3.jpeg">
+</a>
+<div>
+<a href="workflow-settings.md"><strong>配置高级设置（可选）</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start-monitor-workflows.md">
+<img alt="启动和监控工作流" src="assets/do-not-localize/workflow-process-4.jpeg">
+</a>
+<div>
+<a href="start-monitor-workflows.md"><strong>启动和监控工作流执行</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
