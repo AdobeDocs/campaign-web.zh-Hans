@@ -4,10 +4,10 @@ title: 开始使用工作流
 description: 了解如何开始使用工作流
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 85%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -47,3 +47,31 @@ ht-degree: 85%
 * 访问和监控
 
 （指向子章节的链接待定）
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="访问和管理工作流" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>访问和管理工作流</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="商机" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>创建并运行第一个工作流</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="不常见" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>使用工作流活动</strong></a>
+</div>
+<p></td>
+</tr></table>
