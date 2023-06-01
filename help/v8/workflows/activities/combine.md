@@ -3,10 +3,10 @@ audience: end-user
 title: 使用组合工作流活动
 description: 了解如何使用合并工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 23%
+source-wordcount: '447'
+ht-degree: 22%
 
 ---
 
@@ -23,9 +23,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * 此 **交叉** 允许您仅保留活动中不同集客群体的共有元素。
 * 此 **排除项** 允许您根据特定条件从一个群体中排除某些元素。
 
+## 配置
+
 按照以下步骤配置 **合并** 活动：
 
-1. 添加您的 **合并** 之前任何分段过渡的活动。
+1. 添加多个活动，例如 **构建受众** 活动，以至少形成两个不同的执行分支。
+1. 添加 **合并** 之前任何分段过渡的活动。
 1. 选择分段类型：并集、交集或排除。
 1. 单击 **继续**.
 1. 在 **要联接的集** 部分，检查您之前希望加入的所有活动。
@@ -38,3 +41,22 @@ The **Combine** activity can be placed after any other activity, but not at the 
 对于 **交叉** 和 **排除项**，您可以检查 **生成完成** 选项。 补码将包含所有集客活动结果减去交集的并集。 然后，将向该活动添加其他叫客过渡。
 
 对于 **排除项**，选择 **主集** 从集客过渡，在 **要联接的集** 部分。 这是排除了元素的集合。其他集合用于匹配从主集中排除之前的元素。
+
+## 示例
+
+在以下示例中，我们添加了 **合并** 检索这两个查询的所有资料：18至27岁的人和34至40岁的人。
+
+![](../assets/wokflow-union-example.png)
+
+以下示例显示了 **交叉** 两个查询活动之间。 此处用于检索年龄在18到27岁之间且提供了电子邮件地址的用户档案。
+
+![](../assets/wokflow-intersection-example.png)
+
+以下各项 **排除** 示例显示两个查询，配置为筛选年龄在18到27岁之间且电子邮件地址无效的用户档案。 随后，具有无效电子邮件地址的用户档案将从第一个集合中排除。随后即可进行发送电子邮件之类的操作。
+
+![](../assets/wokflow-exclusion-example.png)
+
+
+
+
+
