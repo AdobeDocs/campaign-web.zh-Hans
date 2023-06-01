@@ -3,10 +3,10 @@ audience: end-user
 title: 使用等待工作流活动
 description: 了解如何使用等待工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ ht-degree: 42%
 
 ## 示例
 
+以下示例说明了 **等待** 活动。 发送某个活动的电子邮件邀请。在发送后24小时，会向同一群体发送短信投放。
 
+![](../assets/workflow-wait-example.png)
