@@ -4,10 +4,10 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '353'
+ht-degree: 17%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="设计和发送跨渠道营销活动"
->abstract="借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。"
+>abstract="Adobe Campaign功能可帮助您管理集中化的客户数据、设计客户通信和营销活动，以及跨不同渠道（电子邮件、推送和短信）创建个性化体验。"
 
-使用Adobe Campaign创建跨渠道营销活动。 借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 电子邮件、推送和短信渠道可用。
+使用Adobe Campaign创建跨渠道营销活动。 借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 在此版本中，电子邮件、推送和短信渠道可用。
 
 设计和执行非大流量电子邮件促销活动，针对所有平台和屏幕大小提供个性化消息。
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 借助Adobe Campaign分段功能，您可以针对大容量数据库运行查询，并轻松定义动态营销区段，以完美地定位营销活动。
+使用详细报告（包括打开次数、点击次数、转发次数等）衡量投放的有效性。 借助Adobe Campaign分段功能，您可以针对大容量数据库运行查询，并轻松定义动态营销区段，以完美地定位营销活动。
 
 ## 创建跨渠道营销活动 {#cross-channel-campaign}
 
