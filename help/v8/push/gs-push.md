@@ -4,11 +4,49 @@ title: 开始使用推送通知
 description: 了解如何使用 Adobe Campaign Web 创建和发送推送通知
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 15%
 
 ---
 
 # 开始使用推送通知 {#push}
+
+推送通知对于联系您的移动应用程序用户至关重要，即使他们未主动使用您的应用程序。 它们有多种用途，如提供更新、推动特定操作和通知交易。 请注意，用户必须选择加入才能接收这些通知。
+
+要创建推送通知，您有三个选项：
+
+* 工作流：将推送渠道活动添加到工作流并配置基本设置后，您可以从右侧窗格菜单中制作推送通知的内容。 有关如何配置工作流的详细说明，请参阅此页面。
+
+* 营销活动：创建营销活动后，即可创建推送通知投放。 有关设置营销策划的更多信息，请参阅此页面。
+
+* 独立投放：通过单个推送通知投放直接即时吸引客户，而无需工作流或营销活动。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="商机" src="assets/do-not-localize/push_create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>创建推送投放</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="content-push.md">
+<img alt="不常见" src="assets/do-not-localize/push_design.jpeg">
+</a>
+<div>
+<a href="content-push.md">设计推送投放<strong></strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="验证" src="assets/do-not-localize/push_send.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>发送推送投放</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
