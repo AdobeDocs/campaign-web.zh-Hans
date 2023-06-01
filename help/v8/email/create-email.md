@@ -4,9 +4,9 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1353'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="使用Adobe Campaign发送您的第一封电子邮件"
+>title="电子邮件入门"
 >abstract="从模板开始，或使用Adobe Campaign的新电子邮件设计工具创建电子邮件，而无需编写一行代码。 了解如何使用Email Designer创建内容、预览和测试内容，以及在端到端用例中向现有受众发送电子邮件。"
 
 
