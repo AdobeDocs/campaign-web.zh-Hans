@@ -4,22 +4,22 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: b75d6efecc8d154817dee3c26d87b31f44e78c7e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '641'
+ht-degree: 4%
 
 ---
 
 
-# 创建工作流 {#create}
+# 创建您的第一个工作流 {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="工作流属性"
 >abstract="待定"
 
-## 创建工作流 {#create-workflow}
+## 创建工作流 {#create}
 
 在Campaign v8 Web中创建工作流的第一步是将其创建为独立工作流或直接在营销策划中创建，并定义其常规属性。 为此，请执行以下步骤：
 

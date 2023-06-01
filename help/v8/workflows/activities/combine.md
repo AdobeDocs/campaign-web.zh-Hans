@@ -3,10 +3,10 @@ audience: end-user
 title: 使用组合工作流活动
 description: 了解如何使用合并工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 22%
+source-wordcount: '439'
+ht-degree: 17%
 
 ---
 
@@ -46,15 +46,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 在以下示例中，我们添加了 **合并** 检索这两个查询的所有资料：18至27岁的人和34至40岁的人。
 
-![](../assets/wokflow-union-example.png)
+![](../assets/workflow-union-example.png)
 
 以下示例显示了 **交叉** 两个查询活动之间。 此处用于检索年龄在18到27岁之间且提供了电子邮件地址的用户档案。
 
-![](../assets/wokflow-intersection-example.png)
+![](../assets/workflow-intersection-example.png)
 
-以下各项 **排除** 示例显示两个查询，配置为筛选年龄在18到27岁之间且电子邮件地址无效的用户档案。 随后，具有无效电子邮件地址的用户档案将从第一个集合中排除。随后即可进行发送电子邮件之类的操作。
+以下各项 **排除** 示例显示了两个查询，配置为筛选年龄在18到27岁之间且具有adobe电子邮件域的用户档案。 随后，具有Adobe电子邮件域的用户档案将从第一集中排除。
 
-![](../assets/wokflow-exclusion-example.png)
+![](../assets/workflow-exclusion-example.png)
 
 
 
