@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: 选择受众
+title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 97%
 
 您还可以：
 
-* 创建新受众。[了解详情](segment-builder.md)
-* 使用来自外部文件的受众。 [了解详情](file-audience.md)
+* 构建新受众。 [了解详情](segment-builder.md)
+* 从外部文件加载受众。 [了解详情](file-audience.md)
 * 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)。
 
 
