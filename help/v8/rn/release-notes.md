@@ -4,10 +4,10 @@ title: Campaign Web v8 发行说明
 description: Campaign Web v8 发行说明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ add info somewhere to remind users that
 以下限制适用于此 Alpha 版本：
 
 * 可编辑的对象只有投放、营销策划、工作流、受众和模板。 其他对象是只读的。使用筛选器来浏览所有对象。
+* 无法保存受众以供将来使用。
 * 管理用户界面不可用。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
