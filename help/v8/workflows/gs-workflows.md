@@ -4,10 +4,10 @@ title: 开始使用工作流
 description: 了解如何开始使用工作流
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 82%
+source-wordcount: '403'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="思路重新调整的工作流画布界面"
->abstract="我们全面的图形画布使您能够轻松设计分段、活动执行等流程。"
+>abstract="我们全面的图形画布使您能够轻松设计分段、活动执行等流程。 使用此高级工具触手可及，您可以简化工作流并提升营销策划。"
 
 
 ## 什么是工作流？
