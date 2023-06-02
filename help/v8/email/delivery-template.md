@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
+source-git-commit: e4a667f81c1d95c12003c2d93fb9f5fd9239a2eb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 2%
+source-wordcount: '921'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +29,13 @@ Sender and reply-to addresses?-->
 <!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## 访问和管理模板 {#access-manage-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="使用投放模板"
+>abstract="使用投放模板可轻松创建和保存现有投放以供将来使用。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="复制现有模板"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="将投放转换为模板"
 
 要访问内容模板列表，请选择 **[!UICONTROL Campaign Management]** > **[!UICONTROL 投放]** 从左侧菜单中，浏览到 **模板** 选项卡。
 
