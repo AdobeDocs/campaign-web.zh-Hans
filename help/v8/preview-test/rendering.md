@@ -4,10 +4,10 @@ title: 测试电子邮件渲染
 description: 了解如何在 Campaign Web UI 中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 10259e9c071fc20ef20677033abbbfecc886d4fc
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 74%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 在发送电子邮件之前，请确保您的邮件在各种 Web 客户端、Web 邮件和设备上以最佳方式显示给收件人。
 
 为此，Adobe Campaign 允许您在可能收到邮件的不同上下文中预览已发送邮件，并检查主要桌面和应用程序（网页邮件、邮件服务、移动设备等）的兼容性。
+
+>[!CAUTION]
+>
+>在Campaign中使用电子邮件渲染会向不受Adobe控制的第三方系统发送测试电子邮件。 要访问或删除此类数据，您需要直接与该第三方联系。 使用电子邮件渲染时，您确认Adobe对您可能发送到该第三方系统的任何数据不承担任何责任。
 
 要测试电子邮件渲染，请执行以下步骤：
 
@@ -32,3 +36,4 @@ ht-degree: 100%
    >[!NOTE]
    >
    >电子邮件客户端列表提供了主要邮件客户端的示例。可通过顶部搜索栏旁边的筛选器按钮使用其他电子邮件客户端。
+
