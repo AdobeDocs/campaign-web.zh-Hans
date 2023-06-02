@@ -4,14 +4,14 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# 启动和监控工作流执行 {#start-monitor}
+# 启动和监控工作流 {#start-monitor}
 
 创建工作流并设计要在画布中执行的任务后，您可以启动工作流并监视其执行情况。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 | ![](assets/activity-status-red.png) | 活动遇到错误。 要解决此问题，请打开工作流日志，以了解更多信息。 |
 | ![](assets/activity-status-green.png) | 已成功执行活动。 |
 
-## 监测日志和任务
+## 监测日志和任务 {#logs-tasks}
 
 监测工作流日志和任务是分析工作流并确保它们正常运行的关键步骤。 可从以下位置访问它们： **[!UICONTROL 日志]** 图标，该图标位于操作工具栏和每个活动的属性窗格中。
 
