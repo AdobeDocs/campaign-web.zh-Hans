@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 20%
+source-wordcount: '858'
+ht-degree: 17%
 
 ---
 
@@ -65,9 +65,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 默认关联]**：如果您的安装包含多个工作流服务器，请使用此字段选择将在其中执行工作流的计算机。 如果此字段中定义的值不存在于任何服务器上，则工作流将保持挂起状态。
 
-* **[!UICONTROL 将SQL查询保存到日志中]**：用于将SQL查询从工作流保存到日志中。 此功能是为高级用户保留的。它适用于包含定向活动的工作流，例如 **[!UICONTROL 构建受众]**. 启用此选项后，工作流执行期间发送到数据库的SQL查询将显示在Adobe Campaign中，允许您分析这些查询以优化查询或诊断问题。
-
-   查询将显示在 **[!UICONTROL SQL 日志]**&#x200B;选项卡中，该选项卡将添加到工作流（营销活动工作流除外）和&#x200B;**[!UICONTROL 属性]**&#x200B;活动中（启用该选项时）。<!-- where?-->
+* **[!UICONTROL 将SQL查询保存到日志中]**：用于将SQL查询从工作流保存到日志中。 此功能是为高级用户保留的。它适用于包含定向活动的工作流，例如 **[!UICONTROL 构建受众]**. 启用此选项后，工作流日志中会显示工作流执行期间发送到数据库的SQL查询，允许您分析这些查询以优化查询或诊断问题。
 
 ## 错误管理设置
 
