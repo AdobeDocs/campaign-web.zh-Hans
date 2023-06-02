@@ -4,10 +4,10 @@ title: 开始使用工作流
 description: 了解如何开始使用工作流
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 79%
 >id="acw_homepage_card4"
 >title="思路重新调整的工作流画布界面"
 >abstract="我们全面的图形画布使您能够轻松设计分段、活动执行等流程。 使用此高级工具触手可及，您可以简化工作流并提升营销策划。"
-
 
 ## 什么是工作流？
 
@@ -35,8 +34,9 @@ ht-degree: 79%
 
 以下是有关如何将工作流与 Adobe Campaign 结合使用的一些示例：
 
-* 从服务器下载文件并进行解压缩，然后将该文件中包含的记录导入 Adobe Campaign 数据库中。
-* 创建一次投放行动，将内容相关任务指派给一位或多位操作员，指定目标并在开始投放前获得批准。
+* 为非活动客户启动跟进活动，
+* 向所有服务的新订阅者发送欢迎电子邮件，
+* 根据客户的忠诚度计划状态或兴趣点个性化跨渠道投放。
 
 ## 让我们深入探究
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,23 @@ ht-degree: 4%
 >
 >您可以选择个性化每个活动之间的过渡名称。 要实现此目的，请选择过渡，然后在右窗格中更改其标签。
 
-完成工作流后，在图末尾添加结束活动。 此活动允许您以可视方式标记工作流的结尾，而不会对功能产生影响。
+下面是一个工作流示例，该示例旨在通过向所有对咖啡机感兴趣的客户(VIP客户除外)发送电子邮件。
+
+![](assets/workflow-example.png)
+
+为了实现这一目标，新增了以下活动：
+
+* A **[!UICONTROL 分支]** 活动将工作流划分为三条路径（每组客户一条路径），
+* **[!UICONTROL 构建受众]** 面向这三类客户的活动：
+
+   * 有电子邮件的客户，
+   * 属于预先存在的“Intersted in Coffee Machine(s)”受众的客户，
+   * 属于预先存在的“VIP或奖励”受众的客户。
+
+* A **[!UICONTROL 合并]** 活动，将客户通过电子邮件分组，并将对咖啡机感兴趣的客户分组，
+* A **[!UICONTROL 合并]** 活动不包括VIP客户，
+* An **[!UICONTROL 电子邮件投放]** 活动，向生成的客户发送电子邮件。
+
+完成工作流后，添加 **[!UICONTROL 结束]** 活动。 此活动允许您以可视方式标记工作流的结尾，而不会对功能产生影响。
 
 成功设计工作流图后，您可以执行工作流并跟踪其各种任务的进度。 [了解如何启动工作流并监视其执行](start-monitor-workflows.md)
