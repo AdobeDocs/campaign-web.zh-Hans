@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 24%
+source-wordcount: '884'
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="工作流属性"
->abstract="待定"
+>abstract="本节提供了创建工作流时也可以访问的通用工作流属性。 您可以选择用于创建工作流的模板并指定标签。 展开其他选项部分以配置特定设置，例如存储文件夹或时区的工作流。"
 
 此 **[!UICONTROL 属性]** 部分提供了在创建工作流时也可以访问的常规设置。
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="分段设置"
->abstract="待定"
+>abstract="在此部分中，您可以选择定向维度以在工作流中定向用户档案，然后选择在两个执行之间保留工作流结果。 此选项应仅用于测试目的，不得在生产工作流中启用。"
 
 * **[!UICONTROL 定位维度]**：选择定向维度以用于定向用户档案：收件人、合同受益人、操作员、订阅者等。
 * **[!UICONTROL 保留两次执行之间的临时人口结果]**：默认情况下，仅保留上次执行工作流的工作表。 技术工作流会清除以前执行的工作表，每天运行该工作流。
@@ -55,7 +55,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="执行设置"
->abstract="待定"
+>abstract="在此部分中，您可以配置与工作流执行相关的设置，如工作流历史记录保留的天数。"
 
 * **[!UICONTROL 历史记录（天）]**：指定必须清除历史记录的天数。 历史记录包含与工作流相关的元素：日志、任务、事件（链接到工作流操作的技术对象）。 现成的工作流模板的默认值为 30 天。历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次
 
@@ -74,7 +74,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="错误管理设置"
->abstract="待定"
+>abstract="在此部分中，您可以管理工作流在执行期间发生错误（暂停/停止执行或忽略错误）时的行为方式。"
 
 * **[!UICONTROL 错误管理]**：利用此字段，可定义在工作流任务出错时要执行的操作。 提供了两个可能的选项：
 
