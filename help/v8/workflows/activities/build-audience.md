@@ -3,17 +3,27 @@ audience: end-user
 title: 使用构建受众工作流活动
 description: 了解如何使用构建受众工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 14%
+source-wordcount: '314'
+ht-degree: 11%
 
 ---
 
 
 # 构建受众 {#build-audience}
 
-此活动允许您定义受众。 您可以选择现有受众，也可以使用规则生成器定义您自己的查询。
+此 **构建受众** 活动是 **定位** 活动。 此活动允许您定义将进入工作流的受众。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中 **构建受众** 活动。
+
+要定义受众群体，您可以：
+
+* 选择在客户端控制台中作为列表创建的现有受众。
+* 选择Adobe Experience Platform受众。
+* 通过定义和组合筛选条件，使用规则生成器构建新受众。
+
+>[!NOTE]
+>
+>在此上下文中，您无法从文件加载受众。 为此，您需要创建一个独立的投放。 [了解详情](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 按照以下步骤配置 **构建受众** 活动：
 
-1. 添加构建受众活动。
+1. 添加 **构建受众** 活动。
 1. 定义标签。
 1. 定义受众类型： **创建您自己的** 或 **读取受众**.
 
