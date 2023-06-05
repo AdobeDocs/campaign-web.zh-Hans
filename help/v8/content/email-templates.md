@@ -4,10 +4,10 @@ product: campaign
 title: 使用电子邮件模板
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 38%
+ht-degree: 29%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 要开始使用示例模板或保存的模板之一构建内容，请执行以下步骤。
 
-1. 打开[电子邮件设计器](create-email-content.md)。
+1. 打开 [电子邮件设计工具](create-email-content.md).
 
 1. 在&#x200B;**[!UICONTROL 创建您的电子邮件]**&#x200B;屏幕上，**[!UICONTROL 示例模板]**&#x200B;选项卡默认为选中状态。
 
@@ -67,6 +67,6 @@ ht-degree: 38%
 
    ![](assets/email_designer-template-name.png)
 
-您现在可以[使用此模板](#use-templates)构建新内容：可通过电子邮件设计器的“保存的模板”选项卡使用它。****
+您现在可以 [使用此模板](#use-templates) 要构建新内容，请执行以下操作： **[!UICONTROL 已保存模板]** 选项卡。
 
 ![](assets/email_designer-saved-template.png)
