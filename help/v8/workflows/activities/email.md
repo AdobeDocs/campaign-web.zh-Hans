@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 40%
 
 ---
 
@@ -27,12 +27,12 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 
 1. 选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。
 
+1. 选择 **模板**. 模板是已保存以供将来使用的预配置的投放设置。[了解详情](../../msg/delivery-template.md)
+
+1. 单击 **创建投放** 和定义消息的方式，与创建独立投放相同。 [了解详情](../../msg/gs-message.md)
+
+
 1. 启动工作流，并检查日志。
-
-
-
-
-
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
