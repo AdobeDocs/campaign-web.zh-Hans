@@ -4,10 +4,10 @@ title: 使用工作流活动
 description: 了解如何工作流活动
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 19%
+source-wordcount: '303'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 19%
 
 Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送）自动执行营销活动。 您可以将渠道活动合并到画布中，以创建可根据客户行为触发操作的跨渠道工作流。
 
-例如，您可以创建一个欢迎电子邮件活动，其中包含跨不同渠道（例如电子邮件、短信或推送消息）的一系列消息。您还可以在客户完成购买后发送跟进电子邮件，或通过短信向客户发送个性化的生日消息。
-
-通过使用渠道活动，您可以创建全面的个性化营销活动，在多个接触点吸引客户并促进转化。
+以下各项 **渠道** 活动可用：
 
 * [电子邮件](email.md)
 * [推送](push.md)

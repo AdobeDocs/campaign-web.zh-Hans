@@ -3,7 +3,7 @@ audience: end-user
 title: 使用构建受众工作流活动
 description: 了解如何使用构建受众工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->在此上下文中，您无法从文件加载受众。 为此，您需要创建一个独立的投放。 [了解详情](../../audience/about-audience.md)
+>在此上下文中，您无法从文件加载受众。 为此，您需要创建一个独立的投放。 [了解详情](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
