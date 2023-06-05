@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 83%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 83%
             + [调整垂直对齐方式和内边距](content/alignment-and-padding.md)
             + [定义链接的样式](content/styling-links.md)
             + [添加内联样式属性](content/inline-styling.md)
-         + [添加个性化内容](personalization/personalize.md)
-         + [添加条件内容](personalization/conditions.md)
          + [发送优惠](content/offers.md)
       + 预览和测试电子邮件 {#preview-test}
          + [关于预览和测试](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 83%
       + [创建短信投放](sms/create-sms.md)
       + [设计短信投放 ](sms/content-sms.md)
       + [发送短信投放 ](sms/send-sms.md)
+   + 使您的内容成为动态内容 {#dynamic-content}
+      + [动态内容入门](personalization/gs-personalization.md)
+      + [添加个性化内容](personalization/personalize.md)
+      + [添加条件内容](personalization/conditions.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
@@ -80,7 +82,7 @@ ht-degree: 83%
 + 工作流{#wf}
    + [开始使用工作流](workflows/gs-workflows.md)
    + [访问和管理工作流](workflows/access-monitor.md)
-   + 创建并运行第一个工作流 {#create-workflow}
+   + 创建并运行您的第一个工作流 {#create-workflow}
       + [工作流创建的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
       + [编排活动](workflows/orchestrate-activities.md)
