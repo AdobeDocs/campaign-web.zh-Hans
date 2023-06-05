@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 93%
+source-wordcount: '1329'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >模板是已保存以供将来使用的预配置的投放设置。管理员用户可以在 Adobe Campaign 控制台中创建模板。[了解如何使用投放模板](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}。
+   >模板是已保存以供将来使用的预配置的投放设置。[了解详情](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ ht-degree: 93%
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定义受众"
->abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。未对“从文件选择”启用控制组，反之亦然。"
+>abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。“从文件中选择”不启用对照组，反之亦然。"
 
 在此用例中，您将电子邮件发送到现有受众。有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
 
