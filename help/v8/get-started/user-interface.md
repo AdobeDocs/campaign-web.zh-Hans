@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 72%
@@ -97,7 +97,7 @@ Navtree view depends on permissions (same as console).
 
 * **营销活动**  — 这是营销活动和营销活动模板的列表。 默认情况下，您可以查看每个促销活动的开始/结束/创建/上次修改日期、当前状态以及创建该活动的促销活动操作员的姓名。 您可以按状态、开始/结束日期、文件夹筛选列表，或创建高级筛选器以定义您自己的筛选条件。 了解有关营销活动的更多信息 [在此部分中](../campaigns/gs-campaigns.md).
 
-* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。了解有关投放的更多信息 [在此部分中](../email/gs-messages.md).
+* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。了解有关投放的更多信息 [在此部分中](../msg/gs-messages.md).
 
    使用&#x200B;**更多操作**&#x200B;按钮来删除或复制投放。
 
