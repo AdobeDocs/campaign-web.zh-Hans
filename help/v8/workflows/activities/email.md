@@ -3,15 +3,36 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 电子邮件 {#email}
+# 电子邮件、短信、推送 {#email}
+
+Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送）自动执行营销活动。 您可以将渠道活动合并到画布中，以创建可根据客户行为触发操作的跨渠道工作流。
+
+例如，您可以创建一个欢迎电子邮件活动，其中包含跨不同渠道（例如电子邮件、短信或推送消息）的一系列消息。您还可以在客户完成购买后发送跟进电子邮件，或通过短信向客户发送个性化的生日消息。
+
+通过使用渠道活动，您可以创建全面的个性化营销活动，在多个接触点吸引客户并促进转化。
+
+以下是添加 **渠道** 工作流中的活动：
+
+1. 确保您已添加 **构建受众** 活动。 受众是投放的主要目标：接收消息的收件人。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中 **构建受众** 活动。 请参阅[此小节](build-audience.md)。
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. 选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。
+
+1. 启动工作流，并检查日志。
+
+
+
+
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-利用电子邮件投放活动，可在工作流中配置发送电子邮件。
 
 <!-- Scheduled emails available?
 
@@ -33,6 +54,6 @@ This can be a single send email and sent just once, or it can be a recurring ema
 
 When linked to a scheduler, you can define recurring emails.-->
 
-同一工作流中的上游活动，通过受众定位活动定义了电子邮件收件人。
+电子邮件收件人是通过受众定位活动在同一工作流中的活动上游定义的。
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
