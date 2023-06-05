@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 使用投放模板
-description: 了解如何在Campaign中创建和使用投放模板
+description: 了解如何在 Campaign 中创建和使用投放模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 3%
+source-wordcount: '937'
+ht-degree: 21%
 
 ---
 
@@ -19,14 +19,13 @@ ht-degree: 3%
 
 模板可以包括：
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [类型](../advanced-settings/delivery-settings.md#typology)
+* 发件人地址
 * An [受众](../audience/about-audiences.md)，包括 [对照组](../audience/control-group.md)
-* 自定义 [内容](../content/edit-content.md)<!--company logo, or signature-->
-* [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* 自定义 [内容](../content/edit-content.md)
+* [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)
 * 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* 其他投放属性，例如资源有效性、重试参数或隔离设置。
 
 ## 访问和管理模板 {#access-manage-templates}
 
@@ -71,7 +70,7 @@ Sender and reply-to addresses?-->
 
 ### 复制现有模板 {#copy-an-existing-template}
 
-Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短信。 创建投放模板的最简单方法是复制和自定义内置模板。
+Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、短信。创建投放模板的最简单方法是复制和自定义内置模板。
 
 >[!NOTE]
 >
@@ -79,7 +78,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 要复制投放模板，请执行以下步骤：
 
-1. 浏览至 **模板** 选项卡，从 **投放** 左侧菜单。 [了解详情](#access-manage-templates)
+1. 浏览到&#x200B;**模板**&#x200B;选项卡，从&#x200B;**投放**&#x200B;左侧菜单中，[了解详情](#access-manage-templates)
 1. 单击 **[!UICONTROL 更多操作]** 按钮，然后选择  **[!UICONTROL 复制]**.
 
    您还可以从列表中选择模板，然后从模板版本屏幕中选择此选项。
@@ -98,7 +97,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 现在，您可以在创建新投放时选择它。
+新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
 ### 将投放转换为模板 {#convert-an-existing-delivery}
 
@@ -119,18 +118,18 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 现在，您可以在创建新投放时选择它。
+新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
-### 创建新模板 {#create-a-new-template}
+### 创建新的模板 {#create-a-new-template}
 
 >[!NOTE]
 >
->为避免配置错误，Adobe建议您 [复制内置模板](#copy-an-existing-template) 和自定义其属性，而不是创建新模板。
+>为避免配置错误，Adobe 建议您[复制内置模板](#copy-an-existing-template)并自定义其属性，而不是创建新模板。
 
 要从头开始配置投放模板，请执行以下步骤：
 
-1. 浏览至 **模板** 选项卡，从 **投放** 左侧菜单。 [了解详情](#access-manage-templates)
-1. 单击 **[!UICONTROL 创建模板]** 按钮。
+1. 浏览到&#x200B;**模板**&#x200B;选项卡，从&#x200B;**投放**&#x200B;左侧菜单中，[了解详情](#access-manage-templates)
+1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;按钮。
 
    ![](assets/templates-create-button.png)
 
@@ -156,7 +155,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 现在，您可以在创建新投放时选择它。
+新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
 ## 测试投放模板 {#test-template}
 

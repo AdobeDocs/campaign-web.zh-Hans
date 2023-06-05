@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 86%
+source-wordcount: '322'
+ht-degree: 81%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 86%
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
-      + 创建电子邮件内容 {#content}
-         + [编辑电子邮件内容](content/edit-content.md)
-         + 设计电子邮件 {#design-content}
-            + 开始设计您的内容 {#start-design}
-               + [从头开始 ](content/create-email-content.md)
-               + [导入电子邮件内容](content/existing-content.md)
-               + [为自己的内容编写代码](content/code-content.md)
-               + [使用电子邮件内容模板](content/email-sample-templates.md)
+      + 定义电子邮件内容 {#content}
+         + [配置电子邮件内容](content/edit-content.md)
+         + 开始塑造电子邮件 {#start-design}
+            + [Email Designer 入门](content/get-started-email-designer.md)
+            + [从头开始 ](content/create-email-content.md)
+            + [导入电子邮件内容](content/existing-content.md)
+            + [为自己的内容编写代码](content/code-content.md)
+            + [使用电子邮件内容模板](content/email-templates.md)
+         + 设计内容 {#design-content}
             + [使用内容组件](content/content-components.md)
             + [生成文本版本](content/text-version-email.md)
             + [添加指向镜像页面的链接](content/mirror-page.md)

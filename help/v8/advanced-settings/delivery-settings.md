@@ -4,10 +4,10 @@ title: 电子邮件投放设置
 description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ ht-degree: 100%
 
 使用&#x200B;**保留投放代码以作验证**&#x200B;可将测试电子邮件关联到为与其相关的投放定义的相同投放代码。
 
-默认情况下，测试电子邮件的主题以“PROOF #”作为前缀，其中 # 是测试电子邮件的编号。您可以在&#x200B;**标签前缀**&#x200B;字段中更改此前缀。
+默认情况下，测试电子邮件的主题以“PROOF #”为前缀，其中#是测试电子邮件的编号。 您可以在&#x200B;**标签前缀**&#x200B;字段中更改此前缀。
