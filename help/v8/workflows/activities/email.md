@@ -3,9 +3,9 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 31%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 
 1. 选择 **模板**. 模板是已保存以供将来使用的预配置的投放设置。[了解详情](../../msg/delivery-template.md)
 
-1. 单击 **创建投放** 和定义消息的方式，与创建独立投放相同。 您还可以在其中定义投放设置、计划和模拟内容。 [了解详情](../../msg/gs-message.md)
+1. 单击 **创建投放** 和定义消息的方式，与创建独立投放相同。 您还可以在其中定义投放设置、计划和模拟内容。 [了解详情](../../msg/gs-messages.md)
 
 1. 导航回工作流，然后单击 **开始** 以启动工作流。
 
@@ -38,6 +38,9 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 1. 单击 **查看并发送** ，以确认发送。
 
 1. 在投放仪表板中，单击 **发送**.
+
+## 示例
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
