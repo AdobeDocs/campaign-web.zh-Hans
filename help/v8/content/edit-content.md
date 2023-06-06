@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 50%
+source-wordcount: '495'
+ht-degree: 44%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 50%
 >title="跟踪选项"
 >abstract="默认情况下，为投放启用跟踪。您可以从此处禁用该选项。"
 
-要开始创建电子邮件的内容，请单击 **[!UICONTROL 编辑内容]** 按钮来自 [电子邮件投放仪表板](../email/create-email.md) 屏幕。
+电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
+* 定义消息的基本元素，如发件人地址和主题行
+* 执行其他操作，如添加附件或设置优惠
+* 访问 [电子邮件设计工具](get-started-email-designer.md) 以开始构建电子邮件的适当内容
 
-![](assets/email-edit-content.png)
+要配置或编辑电子邮件的内容，请执行以下步骤。
 
-打开的屏幕允许您定义基本详细信息，执行一些其他操作，例如添加附件或设置优惠，以及访问 [电子邮件设计工具](#start-authoring) 以构建您的内容。
+1. 单击 **[!UICONTROL 编辑内容]** 按钮来自 [电子邮件投放仪表板](../email/create-email.md) 屏幕。
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-编辑电子邮件内容的步骤如下：
+1. 此时会打开电子邮件内容编辑屏幕。 如果您正在配置新电子邮件，则 **[!UICONTROL 发件人姓名]** 和 **[!UICONTROL 发件人电子邮件]** 已填充字段。
 
-1. 在 **[!UICONTROL 发件人姓名]** 字段中，使用易于收件人识别的名称（如您的品牌名称）来提高投放的打开率。
+   ![](assets/email-edit-content-dashboard.png)
 
-   为进一步改善收件人的体验，您可以添加一个人的姓名，例如“Emma from Megastore”。
+1. 此 **[!UICONTROL 发件人姓名]** 字段在电子邮件模板中定义。 如果要修改它，请使用收件人易于识别的名称（如您的品牌名称）来提高投放的打开率。
 
-1. 在 **[!UICONTROL 发件人电子邮件]** 地址字段，确保地址域与您委派给Adobe的子域相同。
+   >[!NOTE]
+   >
+   >    为进一步改善收件人的体验，您可以添加一个人的姓名，例如“Emma from Megastore”。
+
+1. 此 **[!UICONTROL 发件人电子邮件]** 地址字段也在电子邮件模板中定义。 确保地址域与您委派给Adobe的子域相同。
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ ht-degree: 50%
 
 1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，以使用来结构和设计电子邮件内容 [电子邮件设计工具](#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
-   * [了解如何设计电子邮件](create-email-content.md)
+   * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)
