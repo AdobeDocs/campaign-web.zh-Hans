@@ -4,16 +4,18 @@ title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 44%
+source-wordcount: '764'
+ht-degree: 45%
 
 ---
 
 # 设置对照组 {#control-group}
 
 控制组是从投放中排除的子群体。 您可以定义控制组以避免向部分受众发送消息，并比较投放后的行为与主要目标。 此选项可帮助您衡量营销活动的影响。
+
+## 启用对照组{#add-a-control-group}
 
 要添加控制组，请在定义投放受众时启用选项。 可以从主目标随机提取和/或从特定群体中选择该控制组。因此，有两种主要方法可定义控制组：
 
@@ -26,7 +28,7 @@ ht-degree: 44%
 
 >[!CAUTION]
 >
->加载目标群体时不能使用对照组 [来自外部文件](file-audience.md).
+>[从外部文件](file-audience.md)加载目标群体时，不能使用对照组。
 
 要将控制组添加到投放，请激活 **[!UICONTROL 启用对照组]** 切换，从 **Audience** 投放创建屏幕的部分。
 
@@ -57,7 +59,7 @@ ht-degree: 44%
 然后使用 **大小限制** 部分，以设置需要从主目标提取的配置文件数。 它可以是原始数字（例如，要排除的50个配置文件）或初始受众的百分比（例如，主目标的5%）。
 
 
-### 对照组的示例
+### 对照组的示例{#control-group-sample}
 
 例如，要创建包含100个最新收件人的控制组，请执行以下步骤：
 
@@ -69,7 +71,7 @@ ht-degree: 44%
 
 随后，这100个最年轻的新收件人将被排除在主要目标之外。
 
-### 检查您的对照组 {#check-extract-target}
+### 检查您的对照组 {#check-control-group}
 
 您可以查看日志以检查和识别排除的配置文件。让我们以随机排除五个配置文件为例。
 
@@ -118,4 +120,7 @@ ht-degree: 44%
 ## 比较结果{#control-group-results}
 
 发送投放后，您可以提取发送日志，以比较未收到通信的用户档案和有效目标之间的行为。 您还可以使用投放日志来构建新目标。
+
+要查看从目标中删除了哪些配置文件，请查看 **投放日志**. 了解详情 [在此部分中](#check-control-group).
+
 
