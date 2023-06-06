@@ -4,14 +4,14 @@ title: 从文件中锁定收件人
 description: 了解如何使用外部文件中的收件人来生成您的电子邮件受众
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 从文件加载收件人 {#audience-from-file}
+# 从文件加载电子邮件受众 {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -28,32 +28,33 @@ ht-degree: 100%
 >title="格式化参数"
 >abstract="检查文件的格式化参数。"
 
-您可以从外部文件上传联系人。此功能仅适用于电子邮件投放。支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。配置文件不会添加到数据库中，但输入文件中的所有字段都可用于个性化设置。
+您可以从外部文件上传联系人。用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。
 
->[!NOTE]
+>[!CAUTION]
 >
->您可以构建导入工作流来添加或更新数据库中的多个配置文件。了解详情
+>* 此功能仅适用于 **独立电子邮件投放**. 它不能用在工作流中，也不能用于短信或推送投放。
+>
+>* 从外部文件加载目标群体时，不能使用[对照组](control-group.md)。
 
 
-要直接从界面获取本地文件中的配置文件，请执行以下步骤：
 
+要直接从电子邮件界面定位本地文件中的用户档案，请执行以下步骤：
+
+1. 打开现有的电子邮件投放，或 [创建新的电子邮件投放](../email/create-email.md).
 1. 在电子邮件投放创建窗口中，从&#x200B;**受众**&#x200B;部分，单击&#x200B;**选择受众**&#x200B;按钮并选择&#x200B;**从文件选择**&#x200B;选项。
 
    ![](assets/select-from-file.png)
 
-1. 选择要上传的本地文件。
+1. 选择要上传的本地文件。格式必须与 [示例文件](#sample-file).
 1. 预览和检查数据在屏幕的中央部分中映射的方式。
 1. 从&#x200B;**地址字段**&#x200B;下拉列表中选择包含电子邮件地址的列。如果输入文件中有此类信息，您也可以选择阻止列表列。
 1. 调整列设置，以及如何从可用选项中格式化数据。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
-在创建和个性化消息内容时，可以在个性化编辑器中从输入文件中选择字段。
+创建和个性化消息内容时，您可以从的输入文件中选择字段 [个性化编辑器](../personalization/gs-personalization.md).
 
 ![](assets/select-external-perso.png)
 
->[!CAUTION]
->
->从外部文件加载目标群体时，不能使用[对照组](control-group.md)。
 
 ## 示例文件 {#sample-file}
 
@@ -62,12 +63,15 @@ ht-degree: 100%
 >title="示例文件"
 >abstract="支持的文件格式：txt、csv。使用第一行作为列标题。"
 
+支持的格式为 TXT 和 CSV。第一行是列标题。
 
-```json
+将文件格式与下面的示例文件对齐：
+
+```javascript
 {
 lastname,firstname,city,birthdate,email,denylist
 Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
 Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
