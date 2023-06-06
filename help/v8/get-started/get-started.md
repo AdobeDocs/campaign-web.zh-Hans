@@ -4,7 +4,7 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 90%
@@ -48,7 +48,7 @@ Campaign 数据存储在应用程序服务器中。可从客户端控制台和 W
 ## 连接到 Campaign
 
 
-1. 连接到 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}。
+1. 连接到 [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}。
 1. 使用您的 Adobe 凭据登录。
 1. 在&#x200B;**快速访问**&#x200B;部分中，单击 **Campaign**。
    ![](assets/connect.png)
