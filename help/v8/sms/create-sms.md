@@ -4,9 +4,9 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_sms_properties"
 >title="短信投放属性"
 >abstract="这些属性包含常见的投放参数，可帮助您对投放的内容进行命名和分类。如果您的投放基于扩展架构，则可以使用特定的自定义选项字段。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="定义短信受众"
+>abstract="为您的短信消息选择最佳受众。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="短信模板选择"
+>abstract="选择预定义模板来开始您的短信投放。"
 
 1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;主页，单击&#x200B;**[!UICONTROL 创建投放]**。
 

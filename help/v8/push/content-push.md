@@ -3,14 +3,24 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 7%
+source-wordcount: '785'
+ht-degree: 9%
 
 ---
 
 # 设计推送投放 {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="推送 Android 内容"
+>abstract="定义推送 Android 内容。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="推送 iOS 内容"
+>abstract="定义推送 iOS 内容。"
 
 ## 消息 {#push-message}
 

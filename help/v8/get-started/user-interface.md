@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 99%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="定义短信受众"
->abstract="为您的短信消息选择最佳受众。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="短信报告摘要"
->abstract="发现您的短信投放的报告量度。"
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="推送报告摘要"
->abstract="发现您的推送投放的报告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="错误量度"
 >abstract="具有错误状态的电子邮件数量。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="推送 Android 内容"
->abstract="定义推送 Android 内容。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="推送 iOS 内容"
->abstract="定义推送 iOS 内容。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="应用程序订阅者"
->abstract="通过将应用程序订阅者添加到主要目标来预览和测试消息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="规则生成器高级字段"
 >abstract="使用高级字段配置列。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="推送投放属性"
->abstract="管理推送投放属性。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新的隔离量度"
 >abstract="新的隔离量度。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="短信模板选择"
->abstract="选择预定义模板来开始您的短信投放。"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

@@ -3,10 +3,10 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 69%
+source-wordcount: '308'
+ht-degree: 70%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 69%
 >id="acw_push_notification_template"
 >title="推送通知模板"
 >abstract="选择推送通知模板以开始推送投放。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="推送投放属性"
+>abstract="管理推送投放属性。"
 
 1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;主页，单击&#x200B;**[!UICONTROL 创建投放]**。
 

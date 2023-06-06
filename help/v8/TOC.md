@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 467a2475c7610e8124c8babea6f63bd521a3aba4
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 78%
+source-wordcount: '332'
+ht-degree: 76%
 
 ---
 
@@ -102,4 +102,6 @@ ht-degree: 78%
 + 报告{#reports}
    + [报告入门](reporting/gs-reports.md)
    + [访问投放报告](reporting/delivery-reports.md)
-
+   + [电子邮件投放报告](reporting/email-report.md)
+   + [推送投放报告](reporting/push-report.md)
+   + [短信投放报告](reporting/sms-report.md)
