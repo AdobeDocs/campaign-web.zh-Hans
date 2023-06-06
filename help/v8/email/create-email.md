@@ -128,7 +128,7 @@ ht-degree: 86%
    >
    >列表中包含的受众来自您的 Campaign v8 实例或 Adobe Experience Platform（如果已在您的实例上配置目标/源集成）。
    >
-   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}。
+   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans){target="_blank"}。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
