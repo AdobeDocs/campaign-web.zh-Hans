@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 
 ## 示例
 
+这是一个具有分段和两次投放的跨渠道工作流示例。 该工作流面向拥有电子邮件地址并对咖啡机感兴趣的所有客户。 在此群体中，向常规客户发送电子邮件，向VIP客户发送短信。
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
