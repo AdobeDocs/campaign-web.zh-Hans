@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 99%
+source-wordcount: '1508'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Global report not alpha
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
-有关 Campaign 资源管理器的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}。
+有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
