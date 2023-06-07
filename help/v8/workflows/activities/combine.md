@@ -3,9 +3,9 @@ audience: end-user
 title: 使用组合工作流活动
 description: 了解如何使用合并工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 14%
 
 ---
@@ -65,11 +65,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ![](../assets/workflow-intersection-example.png)
 
-以下各项 **排除** 示例显示了两个查询，配置为筛选年龄在18到27岁之间且具有adobe电子邮件域的用户档案。 随后，具有Adobe电子邮件域的用户档案将从第一集中排除。
+以下各项 **排除** 示例显示两个查询，配置为筛选年龄在18到27岁之间且电子邮件域Adobe的用户档案。 随后，会从第一组中排除具有Adobe电子邮件域的用户档案。
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 

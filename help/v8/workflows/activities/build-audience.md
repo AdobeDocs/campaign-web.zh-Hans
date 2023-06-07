@@ -3,7 +3,7 @@ audience: end-user
 title: 使用构建受众工作流活动
 description: 了解如何使用构建受众工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%
@@ -52,6 +52,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## 示例
 
-这里有一个工作流的例子，它包含两个 **构建受众** 活动。 第一个目标是扑克玩家受众，然后是电子邮件投放。 第二个目标是VIP客户端受众，随后是短信投放。
+以下是包含两个工作流的工作流示例 **构建受众** 活动。 第一个目标是扑克玩家受众，然后是电子邮件投放。 第二个目标是VIP客户端受众，随后是短信投放。
 
 ![](../assets/workflow-audience-example.png)
