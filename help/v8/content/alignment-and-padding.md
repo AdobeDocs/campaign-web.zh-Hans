@@ -5,9 +5,9 @@ description: 了解如何调整垂直对齐方式和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. 该列的可编辑参数显示在 **[!UICONTROL 样式]** 选项卡。 调整 **[!UICONTROL 对齐方式]** 使用专用部分。
+1. 随后将在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中显示该列的可编辑参数。使用专用部分调整&#x200B;**[!UICONTROL 对齐方式]**。
 
    ![](assets/alignment_3.png)
 
