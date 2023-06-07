@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件工作流活动
 description: 了解如何使用电子邮件工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 27%
+source-wordcount: '347'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 
 ## 示例
 
-这是一个具有分段和两次投放的跨渠道工作流示例。 该工作流面向拥有电子邮件地址并对咖啡机感兴趣的所有客户。 在此群体中，向常规客户发送电子邮件，向VIP客户发送短信。
+这是一个具有分段和两次投放的跨渠道工作流示例。 该工作流面向居住在巴黎并对咖啡机感兴趣的所有客户。 在此群体中，向常规客户发送电子邮件，向VIP客户发送短信。
 
 ![](../assets/workflow-channel-example.png)
 <!--
@@ -62,8 +62,10 @@ This can be a single send email and sent just once, or it can be a recurring ema
 * Single send emails are standard emails, sent once.
 * Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-When linked to a scheduler, you can define recurring emails.-->
+When linked to a scheduler, you can define recurring emails.
+Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
 
-电子邮件收件人是通过受众定位活动在同一工作流中的活动上游定义的。
+-->
+
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

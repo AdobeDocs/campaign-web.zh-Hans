@@ -3,9 +3,9 @@ audience: end-user
 title: 使用分支工作流活动
 description: 了解如何使用分支工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # 分叉 {#fork}
 
-此 **分支** 利用活动，可创建叫客过渡以同时开始多个活动。
-
-此 **分支** 利用活动，可在同一工作流中独立地执行多个不同的活动。
+此 **分支** 活动是 **流量控制** 活动。 利用此选项可创建叫客过渡以同时启动多个活动。
 
 ## 配置
 
