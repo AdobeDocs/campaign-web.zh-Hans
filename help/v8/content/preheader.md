@@ -5,9 +5,9 @@ description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="添加邮件引文"
->abstract="邮件引文是简短的摘要文本，在从电子邮件客户端查看电子邮件时，这段内容显示在主题行之后。在许多情况下，它提供了电子邮件的简短摘要，通常只有一个句子。"
+>abstract="邮件引文是一段简短的摘要文本，当您从电子邮件客户端查看电子邮件时，将在主题行之后显示这段内容。在许多情况下，它提供电子邮件的简短摘要，并且一般只有一句话的长度。"
 
-邮件引文是简短的摘要文本，在从电子邮件客户端查看电子邮件时，这段内容显示在主题行之后。
+邮件引文是一段简短的摘要文本，当您从电子邮件客户端查看电子邮件时，将在主题行之后显示这段内容。
 
-在许多情况下，它提供了电子邮件的简短摘要，通常只有一个句子。
+在许多情况下，它提供电子邮件的简短摘要，并且一般只有一句话的长度。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 从 **[!UICONTROL 设置]** 选项卡，添加预编译标头。 可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
+1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，添加您的邮件引文。可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
 
    ![](assets/preheader_body_settings.png)
 
