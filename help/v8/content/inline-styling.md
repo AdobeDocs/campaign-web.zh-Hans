@@ -5,9 +5,9 @@ description: 了解如何添加内联样式属性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 直接在内容中或使用左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;来选择组件。
 
-1. 从 **[!UICONTROL 样式]** 选项卡，单击 **[!UICONTROL 高级]** 下拉菜单。
+1. 从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 高级]**&#x200B;下拉列表。
 
    ![](assets/styles_1.png)
 
