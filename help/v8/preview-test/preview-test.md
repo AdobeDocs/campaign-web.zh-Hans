@@ -4,14 +4,14 @@ title: 关于电子邮件预览和测试
 description: 了解如何预览和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
+source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 81%
+source-wordcount: '186'
+ht-degree: 26%
 
 ---
 
-# 关于电子邮件预览和测试 {#about-preview-proofs}
+# 关于电子邮件预览和测试 {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -20,18 +20,20 @@ ht-degree: 81%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="预览电子邮件内容"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="发送测试电子邮件"
 
-在发送电子邮件前，请务必检查和测试其内容以确保准确性，并且内容或个性化设置未出错。
+定义电子邮件内容后，您可以使用测试用户档案在发送消息之前对其进行预览和测试。
 
-为此，Adobe Campaign 允许您：
+这是确保准确的关键步骤，但内容和个性化设置中也不存在任何错误。
 
-* [预览电子邮件内容和个性化内容](preview-content.md)，
-* [检查电子邮件渲染](#rendering) 在常用桌面、移动和基于Web客户端中，
-* 向特定收件人[发送测试电子邮件](proofs.md)以进行测试和验证。
+要执行此操作， [!DNL Adobe Campaign] 允许您：
 
-可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮（可在从电子邮件设计器创建电子邮件内容时进行访问）执行这些操作：
+* [预览电子邮件内容和个性化](preview-content.md)
+* [检查电子邮件渲染](email-rendering.md) 在常用的桌面、移动和基于Web的客户端中
+* [发送测试电子邮件](proofs.md) 发送给特定收件人，以进行测试和验证
 
-![](assets/simulate.png)
+这些操作可以从 **[!UICONTROL 模拟内容]** 按钮，可从访问 [编辑内容](../content/edit-content.md) 屏幕或从 [电子邮件设计工具](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->此外，可以在单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮后从投放摘要中使用内容模拟。
+>内容模拟也可从以下位置获得： [投放摘要](../monitor/prepare-send.md) 单击 **[!UICONTROL 查看并发送]** 按钮。

@@ -4,66 +4,80 @@ title: 发送测试电子邮件
 description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 41%
 
 ---
 
-# 发送测试电子邮件 {#send-proofs}
+# 发送测试电子邮件 {#send-test-emails}
 
-发送测试电子邮件是一个用于验证电子邮件营销活动和识别潜在问题的重要步骤。通过发送测试电子邮件，可以检查各种元素，例如链接、选择退出链接、图像和镜像页面，并检测任何错误。
+**[!UICONTROL Adobe Campaign]** 用于在将消息发送到主受众之前对其进行测试。
+
+发送测试电子邮件是一个用于验证电子邮件营销活动和识别潜在问题的重要步骤。
+
+测试的收件人可以检查各种元素，如链接、选择退出链接、图像和镜像页面，并检测渲染、内容、个性化设置和电子邮件配置中的任何错误。
+
+## 选择测试收件人 {#test-recipients}
 
 可以将测试电子邮件发送给两类收件人：
 
-* **测试配置文件**：将测试电子邮件发送到种子地址，这些地址是数据库中的额外和虚构的收件人。可以在 Adobe Campaign 控制台中创建它们，并将其放置到&#x200B;**[!UICONTROL 资源]**/**[!UICONTROL 活动管理]**/**[!UICONTROL 种子地址]**&#x200B;文件夹中。
+* **测试用户档案**  — 向种子地址发送测试电子邮件，这些地址是数据库中的其他虚构收件人。 它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-* **从主要目标替代**：在模拟现有配置文件时向特定的电子邮件地址发送测试电子邮件。这使您能够像收件人那样体验电子邮件，从而准确表示配置文件收到的邮件。
+* **从主要目标替换**  — 模拟现有用户档案时将测试电子邮件发送到特定电子邮件地址。 这使您能够像收件人那样体验电子邮件，从而准确表示配置文件将收到的邮件。
 
-## 选择测试收件人 {#recipients}
+要选择电子邮件测试的收件人，请执行以下步骤。
 
-1. 访问电子邮件内容模拟屏幕，然后单击&#x200B;**[!UICONTROL 测试]**&#x200B;按钮。
+1. 访问电子邮件 [编辑内容](../content/edit-content.md) 屏幕或 [电子邮件设计工具](../content/get-started-email-designer.md)，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
-   ![](assets/test-button.png)
+1. 单击 **[!UICONTROL 测试]** 按钮。
+
+   ![](assets/simulate-test-button.png)
 
 1. 使用&#x200B;**[!UICONTROL 模式]**&#x200B;下拉列表来选择接收测试电子邮件的收件人的类型：
 
-   * **测试配置文件**：将测试电子邮件发送到种子地址，这些地址是数据库中的额外和虚构的收件人，
+   * **测试用户档案** 定位虚构的收件人
 
-   * **从主要目标替代**：在模拟现有配置文件时向特定的电子邮件地址发送测试电子邮件。这使您能够像收件人那样体验电子邮件，从而准确表示配置文件将收到的邮件。
+   * **从主要目标替换** 在显示现有用户档案中的数据时将测试发送到特定电子邮件地址。
 
-   ![](assets/test-mode.png)
+   ![](assets/simulate-profile-mode.png)
 
    >[!NOTE]
    >
-   >默认情况下，**[!UICONTROL 测试配置文件]**&#x200B;模式处于选定状态。如果您已选择配置文件来在内容模拟屏幕中预览电子邮件，则会将这些配置文件预选定为测试收件人。您可以清除选定内容和/或添加其他收件人。
+   >默认情况下， **[!UICONTROL 使用测试用户档案]** 模式处于选中状态。 如果您已选择配置文件来在内容模拟屏幕中预览电子邮件，则会将这些配置文件预选定为测试收件人。您可以清除选定内容和/或添加其他收件人。
 
-1. 要将测试电子邮件发送到替代配置文件，请选择&#x200B;**[!UICONTROL 从目标替换]**&#x200B;模式，然后执行以下步骤：
+1. 要将测试电子邮件发送到替换用户档案，请选择 **[!UICONTROL 从目标替换]** 模式，然后按照以下步骤操作：
 
    1. 单击&#x200B;**[!UICONTROL 添加地址]**&#x200B;按钮，并指定接收测试电子邮件的电子邮件地址。
 
-      您可以输入任意电子邮件地址。这可让您向任意用户发送测试电子邮件，即使他们不是 Adobe Campaign V8 用户。
+      您可以输入任意电子邮件地址。这允许您向任何用户发送测试电子邮件，即使他们不是的用户 [!DNL Adobe Campaign].
 
-   1. 从目标中选择配置文件以用于发送测试电子邮件。您还可以让 Adobe Campaign 从目标中选择一个随机配置文件。
+   1. 从目标中选择要用作替换的配置文件。 您还可以让 [!DNL Adobe Campaign] 从目标中选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在测试电子邮件中。
 
    1. 确认收件人并重复该操作以添加所需数量的地址。
 
-      ![](assets/substitution.png)
+      ![](assets/simulate-profile-substitute.png)
 
-1. 选择测试收件人后，可以发送测试电子邮件。[了解如何发送测试电子邮件](#send)
+1. 选择测试收件人后，您可以 [发送测试电子邮件](#send-test).
 
    >[!NOTE]
    >
-   >如果要将最终电子邮件发送给测试电子邮件的收件人，请启用&#x200B;**[!UICONTROL 在主要目标中包括测试群体]**&#x200B;选项。
+   >要同时向测试电子邮件的收件人发送最终电子邮件，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
-## 发送测试电子邮件 {#send}
+## 发送测试电子邮件 {#send-test}
 
-要将测试电子邮件发送给选定收件人，请单击&#x200B;**[!UICONTROL 发送测试邮件]**，然后确认发送。
+要将测试电子邮件发送给选定的收件人，请执行以下步骤。
 
-![](assets/send-proof.png)
+1. 单击 **[!UICONTROL 发送测试电子邮件]**.
 
-发送所需数量的测试电子邮件，直到您最终确定投放内容。完成此操作后，您可以将电子邮件发送到主要目标。[了解如何准备和发送电子邮件](../monitor/prepare-send.md)
+1. 确认发送。
+
+   ![](assets/simulate-send-test.png)
+
+1. 发送所需数量的测试电子邮件，直到您最终确定投放内容。
+
+完成此操作后，您可以 [准备并发送电子邮件](../monitor/prepare-send.md) 到主目标。
 
 ## 访问已发送的测试电子邮件 {#access-proofs}
 
@@ -71,8 +85,8 @@ ht-degree: 100%
 
 这些日志可让您访问为所选投放发送的所有测试电子邮件，并可视化与其发送相关的特定统计数据。[了解如何监控投放日志](../monitor/delivery-logs.md)
 
-![](assets/proof-log.png)
+![](assets/simulate-test-log.png)
 
-您还可以从投放列表中访问已发送的测试电子邮件，就像任何投放一样。
+您还可以从访问已发送测试电子邮件 [投放列表](../msg/gs-messages.md)，与任何投放一样。
 
-![](assets/delivery-list.png)
+![](assets/simulate-deliveries-list.png)
