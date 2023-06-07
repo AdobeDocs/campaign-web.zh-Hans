@@ -114,7 +114,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定义受众"
->abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。“从文件中选择”不启用对照组，反之亦然。"
+>abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。对于“从文件选择”不启用对照组，反之亦然。"
 
 在此用例中，您将电子邮件发送到现有受众。有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
 
@@ -128,7 +128,7 @@ ht-degree: 86%
    >
    >列表中包含的受众来自您的 Campaign v8 实例或 Adobe Experience Platform（如果已在您的实例上配置目标/源集成）。
    >
-   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans){target="_blank"}。
+   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
@@ -136,14 +136,14 @@ ht-degree: 86%
 
    ![](assets/audience-selected.png)
 
-## 计划发送 {#schedule}
+## 安排发送 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="计划发送"
+>title="安排发送"
 >abstract="定义发送的日期和确切时间。通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。"
 
-要计划电子邮件的发送，请打开您的电子邮件投放并浏览到&#x200B;**计划**&#x200B;部分。使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;开关以激活它，并设置所需的发送日期和时间。发送投放后，实际发送将在您定义的联系日期开始。
+要安排发送电子邮件，请打开您的电子邮件投放并浏览到&#x200B;**安排**&#x200B;部分。使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;开关以激活它，并设置所需的发送日期和时间。发送投放后，实际发送将在您定义的联系日期开始。
 
 默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在计划的日期和时间发送电子邮件之前确认发送。如果您需要在计划的日期和时间自动发送电子邮件，则可以禁用此选项。
 

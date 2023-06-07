@@ -1,6 +1,6 @@
 ---
 title: 创建条件内容
-description: 了解如何在 Adobe Campaign Web UI 中定义个性化内容的条件
+description: 了解如何在 Adobe Campaign Web UI 中定义条件以使内容个性化
 feature: Personalization
 topic: Personalization
 role: Data Engineer

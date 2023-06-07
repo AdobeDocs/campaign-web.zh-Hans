@@ -36,7 +36,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左侧导航菜单
 
-浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。所有列表屏幕都是只读的，但电子邮件投放列表除外。单击任意列表项以进行编辑/无法在 Alpha 中进行查看。在将来版本中，所有列表都是可编辑的。左侧导航菜单中显示的项目取决于您的用户权限。
+浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。除了电子邮件投放列表之外的所有列表屏幕均为只读。单击任意列表项以进行编辑/无法在 Alpha 中进行查看。在将来版本中，所有列表都是可编辑的。左侧导航菜单中显示的项目取决于您的用户权限。
 
 ![](assets/home.png)
 
@@ -64,15 +64,15 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="资源管理器"
->abstract="**资源管理器**&#x200B;菜单显示与客户端控制台相同的文件夹层次结构。浏览所有 Campaign v8 组件、文件夹和架构。所有列表屏幕都是只读的，但电子邮件投放列表除外。"
+>abstract="**资源管理器**&#x200B;菜单显示的文件夹层次结构与客户端控制台中的文件夹层次结构相同。浏览所有 Campaign v8 组件、文件夹和架构。除了电子邮件投放列表之外的所有列表屏幕均为只读。"
 
-**资源管理器**&#x200B;菜单显示与客户端控制台相同的文件夹层次结构。浏览所有 Campaign v8 组件、文件夹和架构。
+**资源管理器**&#x200B;菜单显示的文件夹层次结构与客户端控制台中的文件夹层次结构相同。浏览所有 Campaign v8 组件、文件夹和架构。
 
 资源管理器中显示的项目取决于您的用户权限。
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
-有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}.
+有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="营销活动"
->abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮可添加新的营销活动。选择一个营销活动可查看其内容、投放和详细信息。浏览到“模板”选项卡可查看和创建模板。"
+>abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮以添加新的营销活动。选择营销活动以查看其内容、投放情况和详细信息。浏览到“模板”选项卡以查看和创建模板。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="浏览您的投放列表。您可以查看它们的状态、联系和修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击“创建投放”按钮可添加新投放。选择一个投放可查看其内容、受众和详细信息。"
+>abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。可按状态、联系日期或渠道筛选该列表。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
 
-在“营销活动管理”部分中，您可以访问营销活动、投放和工作流。
+在“营销活动管理”部分中，可访问市场营销活动、投放情况和工作流。
 
-* **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，对于每个营销活动，您可以查看开始/结束/创建/最后修改日期、当前状态以及创建它的 Campaign 操作员的姓名。您可以按状态、开始/结束日期和文件夹筛选列表，或者创建高级筛选器来定义您自己的筛选条件。在[此章节](../campaigns/gs-campaigns.md)中详细了解营销活动。
+* **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，可查看每个营销活动的开始/结束/创建/上次修改日期、当前状态以及创建它的 Campaign 操作员的姓名。可按状态、开始/结束日期和文件夹筛选该列表，也可创建高级筛选器以定义您自己的筛选条件。可[在此部分中](../campaigns/gs-campaigns.md)详细了解营销活动。
 
-* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。在[此章节](../msg/gs-messages.md)中详细了解投放。
+* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。可按状态、联系日期或渠道筛选该列表。单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。可[在此部分中](../msg/gs-messages.md)详细了解投放。
 
-   使用&#x200B;**更多操作**&#x200B;按钮来删除或复制投放。
+   使用&#x200B;**更多操作**&#x200B;按钮删除或重复投放。
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **工作流** - 在此屏幕中，您可以访问工作流和工作流模板的完整列表。您可以检查它们的状态、上一次/下一次执行日期，并创建新的工作流或新的工作流模板。您可以使用与其他对象相同的条件筛选该列表。此外，您还可以筛选属于或不属于营销活动的工作流。在[此章节](../workflows/gs-workflows.md)中详细了解工作流。
+* **工作流** - 可在此屏幕中访问工作流和工作流模板的完整列表。可检查其状态、上次/下次执行日期，并可创建新的工作流或新的工作流模板。可用与筛选其他对象相同的条件筛选该列表。此外，还可筛选属于或不属于营销活动的工作流。可[在此部分中](../workflows/gs-workflows.md)详细了解工作流。
 
 
 ### 客户管理
@@ -111,21 +111,21 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件人"
->abstract="访问您的收件人数据库。您可以查看有用的信息，例如他们的电子邮件地址、名字和姓氏。此列表是只读的。"
+>abstract="访问您的收件人数据库。您可以查看有用的信息，例如他们的电子邮件地址、名字和姓氏。此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="这是您的受众列表。您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表是只读的。"
+>abstract="这是您的受众列表。您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="订阅列表"
->abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表是只读的。"
+>abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表为只读。"
 
-* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。此列表是只读的。
-* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表是只读的。
-* **订阅列表** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。此列表是只读的。
+* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。此列表为只读。
+* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表为只读。
+* **订阅列表** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。此列表为只读。
 
 ### 决策管理
 
@@ -239,17 +239,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="规则生成器高级属性"
->abstract="使用高级属性来定义您的规则。"
+>abstract="使用高级属性定义您的规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="已发送量度"
+>title="已发送数指标"
 >abstract="投放的电子邮件数量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="错误量度"
->abstract="具有错误状态的电子邮件数量。"
+>title="错误数指标"
+>abstract="处于出错状态的电子邮件数量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -259,7 +259,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="预览模式"
->abstract="通过将测试群体包含到主要目标来预览和测试消息。"
+>abstract="通过将测试群体包括在主目标中而预览和测试消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -275,27 +275,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="报告发送"
->abstract="请参考营销活动报告的发送指标。"
+>abstract="请查阅营销活动报告的发送标志。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="报告跟踪"
->abstract="请参考营销活动报告的跟踪指标。"
+>abstract="请查阅营销活动报告的跟踪标志。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="报告概述"
->abstract="投放的关键量度。"
+>abstract="您的投放的关键指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="报告目标统计数据"
->abstract="此部分根据受众显示特定量度。"
+>abstract="此部分根据受众显示特定指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="投放的汇总报告"
->abstract="选择至少两个投放来显示汇总数据报告。"
+>abstract="选择至少两个投放以供显示汇总数据报告。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -319,30 +319,30 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
->title="所需的权限"
+>title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
->title="所需的权限"
+>title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="属性选取器高级字段"
->abstract="使用高级字段配置列。"
+>abstract="为列配置高级字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="规则生成器高级字段"
->abstract="使用高级字段配置列。"
+>abstract="为列配置高级字段。"
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="新的隔离量度"
->abstract="新的隔离量度。"
+>title="新的隔离指标"
+>abstract="新的隔离指标。"
 
 
 >[!CONTEXTUALHELP]

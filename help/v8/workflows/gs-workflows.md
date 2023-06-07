@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 70%
 
 ## 让我们深入探究
 
-现在，您已了解什么是工作流，以及可以在Adobe Campaign中使用它们，接下来该深入了解这些文档部分以开始使用该功能。
+既然您已了解工作流是什么以及在 Adobe Campaign 中可使用工作流做什么，现在应该仔细阅读这些文档章节以开始使用该功能。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -56,7 +56,7 @@ ht-degree: 70%
 <a href="create-workflow.md">
 <img alt="商机" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>创建并运行第一个工作流</strong>
+<div><a href="create-workflow.md"><strong>创建并运行您的第一个工作流</strong>
 </div>
 <p>
 </td>

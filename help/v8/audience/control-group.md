@@ -28,7 +28,7 @@ ht-degree: 45%
 
 >[!CAUTION]
 >
->[从外部文件](file-audience.md)加载目标群体时，不能使用对照组。
+>[从外部文件](file-audience.md)加载目标人群时，无法使用对照组。
 
 要将控制组添加到投放，请激活 **[!UICONTROL 启用对照组]** 切换，从 **Audience** 投放创建屏幕的部分。
 

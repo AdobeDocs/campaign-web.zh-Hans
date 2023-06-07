@@ -53,7 +53,7 @@ ht-degree: 79%
 
    ![](assets/perso-insert-block.png)
 
-1. 插入后，内容块将添加到电子邮件内容中，在投放准备步骤中生成个性化内容时，它会自动适应收件人配置文件。
+1. 一旦插入该内容块，即将它添加到电子邮件内容。在投放准备步骤中生成个性化时，将自动使该内容块适应收件人配置文件。
 
    ![](assets/perso-content-block-in-email.png)
 

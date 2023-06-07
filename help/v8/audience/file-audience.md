@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: 从文件中锁定收件人
-description: 了解如何使用外部文件中的收件人来生成您的电子邮件受众
+title: 以文件中的收件人为目标
+description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
@@ -16,7 +16,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
 >title="文件选择"
->abstract="选择要上传的本地文件。支持的格式为 TXT 和 CSV。使您的文件格式与下面链接的示例文件相一致。"
+>abstract="选择要上传的本地文件。支持的格式为 TXT 和 CSV。将您的文件格式与下方链接的示例文件保持一致。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
@@ -34,7 +34,7 @@ ht-degree: 64%
 >
 >* 此功能仅适用于 **独立电子邮件投放**. 它不能用在工作流中，也不能用于短信或推送投放。
 >
->* 从外部文件加载目标群体时，不能使用[对照组](control-group.md)。
+>* 从外部文件加载目标人群时无法使用[对照组](control-group.md)。
 
 
 
@@ -46,9 +46,9 @@ ht-degree: 64%
    ![](assets/select-from-file.png)
 
 1. 选择要上传的本地文件。格式必须与 [示例文件](#sample-file).
-1. 预览和检查数据在屏幕的中央部分中映射的方式。
-1. 从&#x200B;**地址字段**&#x200B;下拉列表中选择包含电子邮件地址的列。如果输入文件中有此类信息，您也可以选择阻止列表列。
-1. 调整列设置，以及如何从可用选项中格式化数据。
+1. 在屏幕的中央部分预览和检查如何映射数据。
+1. 从&#x200B;**地址字段**&#x200B;下拉列表中选择包含电子邮件地址的列。如果在输入的文件中有阻止列表列，则还可选择此类信息。
+1. 从可用的选项调整列设置和如何格式化数据。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
 创建和个性化消息内容时，您可以从的输入文件中选择字段 [个性化编辑器](../personalization/gs-personalization.md).

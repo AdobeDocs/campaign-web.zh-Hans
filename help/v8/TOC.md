@@ -86,7 +86,7 @@ ht-degree: 75%
    + [开始使用工作流](workflows/gs-workflows.md)
    + [访问和管理工作流](workflows/access-monitor.md)
    + 创建并运行您的第一个工作流 {#create-workflow}
-      + [工作流创建的主要原则](workflows/gs-workflow-creation.md)
+      + [创建工作流的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
       + [编排活动](workflows/orchestrate-activities.md)
       + [配置工作流设置](workflows/workflow-settings.md)
