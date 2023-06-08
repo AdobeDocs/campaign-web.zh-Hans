@@ -4,10 +4,10 @@ title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 45%
+source-wordcount: '752'
+ht-degree: 46%
 
 ---
 
@@ -86,11 +86,12 @@ ht-degree: 45%
 * 在投放日志中，“日志”选项卡显示排除步骤。
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* 此 **排除日志** 选项卡显示每个用户档案和相关排除项 **原因**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * 此 **排除原因** 选项卡显示每个分类规则的已排除配置文件的数量。
 

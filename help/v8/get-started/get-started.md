@@ -4,10 +4,10 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '439'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-Campaign 最初只能通过富[客户端控制台](#ac-client)使用，它现已提供一个新的 Web 用户界面，具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
+最初仅通过富用户提供 [客户端控制台](#ac-client)，Campaign现在提供了一个新的Web用户界面(UI)，具有增强的可用性、可访问性和新设计，可显着改善您的用户体验。 此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 ![](assets/home.png)
 
