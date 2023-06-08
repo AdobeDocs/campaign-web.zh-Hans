@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
+source-git-commit: a5d492cc43b73e365579c3f825d85671eb0b6da5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -30,13 +30,13 @@ ht-degree: 22%
 
    以下语法可在您的内容中插入收件人的城市：&lt;%= recipient.location.city %>。
 
-   ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **条件内容**：例如，配置条件内容以根据收件人的配置文件添加内容。 满足特定条件时可插入文本块和/或图像。当条件不为true时，您可以定义内容的替代版本。
 
 * **内置内容块**：Campaign提供了一组个性化块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候语消息或指向电子邮件镜像页面的链接。 内容块可通过个性化编辑器中的专用条目使用。
 
-   ![](assets/perso-content-blocks.png)
+   ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 访问表达式编辑器 {#access}
 
@@ -48,15 +48,15 @@ Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选�
 
 *从“发件人名称”字段访问表达式编辑器*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *从电子邮件文本组件访问表达式编辑器*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *从电子邮件中的链接访问表达式编辑器*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## 让我们深入探究
