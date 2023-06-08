@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 ![](assets/perso-access.png)
 
-此时将显示表达式编辑器。 个性化字段被组织为三个菜单，位于屏幕左侧。 通过这些菜单，可以访问Adobe Campaign数据库中可用的所有字段。
+此时将显示表达式编辑器。 个性化字段被组织到位于屏幕左侧的多个菜单中。 通过这些菜单，可以访问Adobe Campaign数据库中可用的所有字段。
 
 ![](assets/perso-insert-field.png)
 
