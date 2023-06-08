@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 33%
+source-wordcount: '471'
+ht-degree: 22%
 
 ---
 
@@ -24,37 +24,37 @@ ht-degree: 33%
 
 您可以通过插入以下内容来动态显示消息内容：
 
-* **个性化字段**
-
-   个性化字段用于邮件的第一级个性化。您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、邮件或投放相关的任何字段。可将这些个性化属性插入邮件的主题行或正文中。
-
-   ![](assets/perso-subject-line.png)
+* **个性化字段**：个性化字段用于消息的第一级个性化。 您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、邮件或投放相关的任何字段。可将这些个性化属性插入邮件的主题行或正文中。
 
    以下语法可在您的内容中插入收件人的城市：&lt;%= recipient.location.city %>。
 
-* **条件内容**
+   ![](assets/perso-subject-line.png)
 
-   例如，配置条件内容以根据收件人的配置文件添加内容。 满足特定条件时可插入文本块和/或图像。当条件不为true时，您可以定义内容的替代版本。
+* **条件内容**：例如，配置条件内容以根据收件人的配置文件添加内容。 满足特定条件时可插入文本块和/或图像。当条件不为true时，您可以定义内容的替代版本。
 
-* **内置内容块**
-
-   Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候语消息或指向电子邮件镜像页面的链接。 内容块可通过个性化编辑器中的专用条目使用。
+* **内置内容块**：Campaign提供了一组个性化块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候语消息或指向电子邮件镜像页面的链接。 内容块可通过个性化编辑器中的专用条目使用。
 
    ![](assets/perso-content-blocks.png)
 
 ## 可在何处添加动态内容？
 
-Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。
+Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。 表达式编辑器适用于所有渠道，在每个字段内使用 **[!UICONTROL 打开个性化对话框]** 图标，例如主题行字段，或电子邮件链接和文本/按钮内容组件。
 
-表达式编辑器适用于所有渠道，在每个字段内提供“打开个性化”对话框图标，如主题行字段，或电子邮件链接和文本/按钮内容组件。
+>[!NOTE]
+>
+>除了表达式编辑器之外，在设计电子邮件时，您还可以利用专用的条件内容生成器。 [了解如何在电子邮件中构建条件内容](conditions.md)
+
+*从“发件人名称”字段访问表达式编辑器*
 
 ![](assets/expression-editor-access.png)
 
+*从电子邮件文本组件访问表达式编辑器*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*从电子邮件中的链接访问表达式编辑器*
 
-此外，在设计电子邮件时，还可以访问专用的条件内容生成器。 [了解如何在电子邮件中构建条件内容](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## 让我们深入探究
 
