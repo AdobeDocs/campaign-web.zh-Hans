@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 22%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 22%
 为了充分利用每个营销活动，Adobe Campaign为您提供了一种方法，可交付与客户级别对话的自定义动态内容。 根据用户档案数据，使用个性化功能为不同的组和个人创建自定义体验：您可以利用有关消息的数据和信息，根据每个特定收件人调整消息。 这可以是他们的名字、兴趣、居住地、购买的东西等等。
 
 使用 Campaign 创建动态内容并发送个性化消息。可以结合个性化功能来改进您的消息并创建自定义用户体验。
+
+## 如何使您的内容成为动态内容？
 
 您可以通过插入以下内容来动态显示消息内容：
 
@@ -36,7 +38,7 @@ ht-degree: 22%
 
    ![](assets/perso-content-blocks.png)
 
-## 可在何处添加动态内容？
+## 访问表达式编辑器 {#access}
 
 Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。 表达式编辑器适用于所有渠道，在每个字段内使用 **[!UICONTROL 打开个性化对话框]** 图标，例如主题行字段，或电子邮件链接和文本/按钮内容组件。
 
