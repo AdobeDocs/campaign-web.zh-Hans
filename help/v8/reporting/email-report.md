@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '346'
 ht-degree: 95%
 
 ---
@@ -16,41 +16,44 @@ ht-degree: 95%
 
 * **投放摘要**：此报告提供有关投放的所有主要信息。目标人群、排除原因、投放统计数据。
 
-   ![](assets/reporting3.png)
+  +++根据您的要求配置以下设置。测试
++++
+
+  ![](assets/reporting3.png)
 
 * **投放吞吐量**：此报告包含有关给定时段内的投放吞吐量的信息。用于衡量邮件传送速度的标准是每小时发送的邮件数和邮件大小（以位/秒为单位）。在下面的示例中，第一个图表用蓝色显示成功投放，用橙色显示错误投放的数量。
 
-   ![](assets/reporting3bis.png)
+  ![](assets/reporting3bis.png)
 
 * **广播统计数据**：此报告按互联网域显示所有已处理和发送的邮件、硬退回邮件和软退回邮件、打开的邮件、点击的邮件和退订邮件的细分。
 
-   ![](assets/reporting4.png)
+  ![](assets/reporting4.png)
 
 * **不可投放和退回邮件**：此报告按互联网域显示不可投放和退回邮件的细分。
 
-   ![](assets/reporting5.png)
+  ![](assets/reporting5.png)
 
 ## 跟踪
 
 * **跟踪指标**：此报告结合了用于跟踪收件人在收到投放后的行为的关键指标。它提供了对投放和接收统计数据、打开率和点进率、生成的点击流、Web 跟踪以及与社交网络共享的活动的访问权限。
 
-   ![](assets/reporting6.png)
+  ![](assets/reporting6.png)
 
 * **网址和点击流**：此报告显示投放后访问的页面的列表。
 
-   ![](assets/reporting7.png)
+  ![](assets/reporting7.png)
 
 * **用户活动**：此报告以图表形式显示每半小时、每小时或每天的打开次数和点击次数的细分。
 
-   ![](assets/reporting8.png)
+  ![](assets/reporting8.png)
 
 * **跟踪统计数据**：此报告提供有关打开次数和点击次数的统计数据。
 
-   ![](assets/reporting9.png)
+  ![](assets/reporting9.png)
 
 * **打开的细分**：此报告按操作系统、设备和浏览器显示相关时段内的打开细分。为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。
 
-   ![](assets/reporting10.png)
+  ![](assets/reporting10.png)
 
 ## 热门点击
 
