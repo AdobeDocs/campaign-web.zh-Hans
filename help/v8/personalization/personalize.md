@@ -7,28 +7,41 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 79%
+source-wordcount: '430'
+ht-degree: 36%
 
 ---
 
 
 # 个性化您的内容{#add-personalization}
 
-## 个性化邮件的主题行 {#personalize-subject-line}
+可以使用表达式编辑器将个性化添加到任何投放中。
 
-要在邮件的&#x200B;**[!UICONTROL 主题行]**&#x200B;字段中添加个性化内容，请执行以下步骤：
+个性化标记始终使用以下语法： `<%=table.field%>`例如，要插入存储在收件人表中的收件人名称，个性化标记使用&lt;%= recipient.lastName %>语法。
 
-1. 打开投放并单击 **[!UICONTROL 编辑内容]**.
-1. 单击 **[!UICONTROL 打开个性化对话框]** 图标右侧的 **[!UICONTROL 主题行]** 电子邮件字段，或 **[!UICONTROL 标题]** 推送/短信投放的字段。
+准备投放后，Adobe Campaign会自动解释这些标记，并将其替换为给定收件人的字段值。 然后，在模拟内容时，可以查看物理替换。
 
-   ![](assets/perso-subject.png){width="600"}
+要将个性化标记添加到投放中，请单击可从文本类型编辑字段（如主题行或短信正文）访问的打开个性化对话框图标。
 
-1. 输入主题行或标题，然后选择要添加的个性化属性。
+![](assets/perso-access.png)
 
-1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以进行确认。个性化属性即添加到内容中。
+此时将显示表达式编辑器。 个性化字段被组织为三个菜单，位于屏幕左侧。 通过这些菜单，可以访问Adobe Campaign数据库中可用的所有字段。
+
+| 菜单 | 说明 |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件人]** 菜单列出了收件人表中定义的所有字段，例如收件人的姓名、年龄或地址。 |
+| ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的所有字段，即跨所有渠道发送到收件人或设备的所有消息，如与给定收件人发生的最后一个事件的日期 |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的所有字段，例如投放渠道、标签等。 |
+
+>[!NOTE]
+>
+>默认情况下，该列表显示选定表中的所有字段（收件人、/消息/投放）。 如果要包含链接到选定表的表中的字段，请启用 **[!UICONTROL 显示高级属性]** 选项的位置。
+
+要添加个性化字段，请将光标放在内容中的所需位置，然后单击+按钮以插入该字段。
+
+![](assets/perso-insert-field.png)
 
 ## 个性化您的电子邮件内容 {#personalize-emails}
 
@@ -56,23 +69,6 @@ ht-degree: 79%
 1. 一旦插入该内容块，即将它添加到电子邮件内容。在投放准备步骤中生成个性化时，将自动使该内容块适应收件人配置文件。
 
    ![](assets/perso-content-block-in-email.png)
-
-## 个性化电子邮件中的链接 {#personalize-links}
-
-要个性化&#x200B;**链接**，请执行以下操作：
-
-1. 选择文本块或图像。
-1. 在上下文工具栏中，选择&#x200B;**插入链接**。
-
-   ![](assets/perso-link.png)
-
-1. 输入链接标签并使用&#x200B;**插入链接**&#x200B;按钮来个性化链接。
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. 使用个性化编辑器来定义和个性化链接，并进行确认。
-
-   ![](assets/perso-link-edit.png)
 
 
 ## 个性化您的优惠 {#personalize-offers}

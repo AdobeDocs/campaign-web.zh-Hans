@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 36%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 36%
 
 * **条件内容**
 
-   例如，配置条件内容以根据收件人的配置文件添加动态个性化内容。满足特定条件时可插入文本块和/或图像。当条件不为true时，您可以定义内容的替代版本。
+   例如，配置条件内容以根据收件人的配置文件添加内容。 满足特定条件时可插入文本块和/或图像。当条件不为true时，您可以定义内容的替代版本。
 
 * **内置内容块**
 
@@ -46,11 +46,13 @@ ht-degree: 36%
 
 Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。
 
-表达式编辑器适用于所有渠道，在每个字段中使用“打开个性化”对话框图标可用，例如主题行字段，或电子邮件中的文本和按钮内容组件。
+表达式编辑器适用于所有渠道，在每个字段内提供“打开个性化”对话框图标，如主题行字段，或电子邮件链接和文本/按钮内容组件。
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 此外，在设计电子邮件时，还可以访问专用的条件内容生成器。 [了解如何在电子邮件中构建条件内容](conditions.md)
 
