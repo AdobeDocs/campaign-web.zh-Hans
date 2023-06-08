@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 6%
 
 | 菜单 | 说明 |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 订阅者应用程序]** 菜单列出与应用程序的订阅者相关的所有字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件人]** 菜单列出了收件人表中定义的所有字段，例如收件人的姓名、年龄或地址。 |
 | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的所有字段，即跨所有渠道发送到收件人或设备的所有消息，如与给定收件人发生的最后一个事件的日期 |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的所有字段，例如投放渠道、标签等。 |
