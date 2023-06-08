@@ -3,14 +3,30 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# 发送短信投放 {#send-sms}
+# 预览和发送短信投放 {#send-sms}
+
+## 预览短信投放{#preview-push}
+
+定义消息内容后，您可以利用测试用户档案进行预览和测试。 如果您已包含个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。 这样，您就可以确保消息按预期显示，并正确显示任何个性化信息。
+
+1. 在投放内容页面中，您可以使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
+
+1. 单击&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
+
+1. 选择测试配置文件后，单击&#x200B;**[!UICONTROL 选择]**。
+
+1. 在右侧窗格中，您将看到电子邮件的预览，其中来自所选配置文件的数据取代个性化的元素。
+
+现在可审查短信消息并将其发送到受众。
+
+## 发送短信投放 {#preview-send-push}
 
 1. 个性化短信内容后，单击 **[!UICONTROL 查看并发送]** 来自您的 **[!UICONTROL 投放]** 页面。
 

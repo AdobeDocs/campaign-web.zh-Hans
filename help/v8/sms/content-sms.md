@@ -4,10 +4,10 @@ title: 设计短信投放
 description: 了解如何设计短信投放
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。
 
+1. 访问 **[!UICONTROL 模拟内容]** 菜单来预览您的个性化内容。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。
-
-1. 可使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;预览您的个性化内容。
-
-1. 单击&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
-
-1. 选择测试配置文件后，单击&#x200B;**[!UICONTROL 选择]**。
-
-1. 在右侧窗格中，您将看到电子邮件的预览，其中来自所选配置文件的数据取代个性化的元素。
 
 现在可审查短信消息并将其发送到受众。
