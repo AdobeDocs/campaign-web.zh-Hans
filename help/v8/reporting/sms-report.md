@@ -3,7 +3,7 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -18,8 +18,6 @@ ht-degree: 6%
 >abstract="探索您的短信投放的报告指标。"
 
 ## 投放摘要 {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与短信消息的详细信息。
 
