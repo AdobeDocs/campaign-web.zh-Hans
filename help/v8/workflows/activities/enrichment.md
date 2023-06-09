@@ -3,10 +3,10 @@ audience: end-user
 title: 使用扩充工作流活动
 description: 了解如何使用扩充工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 28%
 
 * **同一个工作表**，此工作表与工作流中的目标工作表相同：
 
-   *定位一组客户，并将“出生日期”字段添加到当前工作表*
+  *定位一组客户，并将“出生日期”字段添加到当前工作表*
 
 * **另一个工作表**：
 
-   *定位一组客户，并添加“采购”表中的“金额”和“产品类型”字段*。
+  *定位一组客户，并添加“采购”表中的“金额”和“产品类型”字段*。
 
 将扩充数据添加到工作流后，便可在之后添加的活动中使用它 **扩充** 根据客户的行为、偏好和需求将客户划分为不同的群组的活动，或者创建更可能引起目标受众共鸣的个性化营销消息和促销活动。
 
 例如，可以将与客户购买相关的信息添加到工作流工作表中，并使用此数据来个性化包含客户最近一次购买或在这些购买中花费的金额的电子邮件。
 
-## 常规配置
+## 常规配置 {#general}
 
 按照以下步骤配置 **扩充** 活动：
 
@@ -44,9 +44,9 @@ ht-degree: 28%
 
 ![](../assets/workflow-enrichment1.png)
 
-您可以选择两种类型的数据：目标维中的单个属性或集合链接。
+您可以选择两种类型的扩充数据：a [单一扩充属性](#single-attribute) 从目标维度中，或 [收藏集链接](#collection-link).
 
-## 单个属性
+## 单个扩充属性 {#single-attribute}
 
 这里，我们只是添加一个扩充属性，例如，出生日期。 执行以下步骤：
 
@@ -56,16 +56,14 @@ ht-degree: 28%
 
 ![](../assets/workflow-enrichment2.png)
 
-## 收藏集链接
+## 收藏集链接 {#collection-link}
 
 在这个更复杂的用例中，我们将选择一个收藏集链接，该链接是表之间具有1-N基数的链接。 让我们检索三个小于100美元的最新购买数据。 为此，您需要定义：
 
-* 属性： **总金额** 字段
+* 扩充属性： **总金额** 字段
 * 要检索的行数：3
 * 过滤器：过滤掉大于100$的项
 * a sorting： descendant sorting on **订单日期** 字段。
-
-执行以下步骤：
 
 ### 添加属性
 
@@ -92,7 +90,7 @@ ht-degree: 28%
 
 ### 定义过滤器
 
-在本例中，我们定义了属性的最大值。 我们筛选掉大于100$的项目。
+在本例中，我们定义了扩充属性的最大值。 我们筛选掉大于100$的项目。
 
 1. 单击 **编辑筛选器**.
 1. 添加以下两个过滤器： **总金额** 存在和 **总金额** 小于100。 第一个筛选器筛选NULL值，因为它们显示为最大值。
@@ -113,6 +111,11 @@ ht-degree: 28%
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
