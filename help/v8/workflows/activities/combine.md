@@ -3,10 +3,10 @@ audience: end-user
 title: 使用组合工作流活动
 description: 了解如何使用合并工作流活动
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 14%
+source-wordcount: '690'
+ht-degree: 12%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## 常规配置 {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="交叉合并选项"
+>abstract="利用交集，可仅在活动中保留不同集客群体的共有元素。 在“设置为联接”部分中，选中所有您想要联接的以前的活动。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="排除项合并选项"
+>abstract="利用排除项，可根据特定条件从一个群体中排除某些元素。 在“设置为联接”部分中，选中所有您想要联接的以前的活动。"
+
 按照以下常用步骤开始配置 **合并** 活动：
 
 1. 添加多个活动，例如 **构建受众** 活动，以至少形成两个不同的执行分支。
@@ -34,6 +44,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 在 **要联接的集** 部分，检查您之前希望加入的所有活动。
 
 ## 并集 {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="交集 协调选项"
+>abstract="选择协调类型以定义如何处理重复项。"
 
 对于 **并集**，您需要选择 **协调类型** 要定义如何处理重复项，请执行以下操作：
 
@@ -48,6 +63,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 您可以检查 **生成完成** 选项。 补码将包含所有集客活动结果减去交集的并集。 然后，将向该活动添加其他叫客过渡。
 
 ## 排除 {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="排除规则"
+>abstract="如有必要，您可以处理入站表。 事实上，要从其他维度中排除某个目标，该目标必须返回到与主要目标相同的定向维度。 要实现此目的，请单击“排除规则”部分中的添加规则，并指定维度更改条件。 通过属性或连接执行数据协调。"
 
 对于 **排除项**，您需要执行以下额外步骤：
 
