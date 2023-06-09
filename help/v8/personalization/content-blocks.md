@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 60%
@@ -24,13 +24,13 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 1. 找到要添加内容块的字段，然后单击 **[!UICONTROL 打开个性化对话框]** 图标以打开表达式编辑器。
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. 在表达式编辑器中，浏览到 **[!UICONTROL 内容块]** 左侧菜单。
 
 1. 要添加内容块，请将光标放在内容中的所需位置，然后单击“+”按钮以插入该内容块。
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 内置内容块为：
 

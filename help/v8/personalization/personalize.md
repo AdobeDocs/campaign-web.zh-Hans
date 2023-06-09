@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 6%
 
 1. 使用打开表达式编辑器 **[!UICONTROL 打开个性化对话框]** 可从文本类型编辑字段（如主题行或短信正文）访问的图标。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png)
+   ![](assets/perso-access.png){width="800" align="center"}
 
 1. 表达式编辑器将打开。 Adobe Campaign数据库中可用的个性化字段在屏幕左侧被整理到多个菜单中：
 
-![](assets/perso-insert-field.png)
+   ![](assets/perso-insert-field.png){width="800" align="center"}
 
-| 菜单 | 说明 |
-|-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 订阅者应用程序]** 菜单列出与应用程序的订户相关的字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件人]** 菜单列出在收件人表中定义的字段，例如收件人的姓名、年龄或地址。 |
-| ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的字段，包括跨所有渠道发送到收件人或设备的所有消息，例如与给定收件人的上一个事件的日期 |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的字段，例如投放渠道或标签。 |
+   | 菜单 | 说明 |
+   |-----|------------|
+   | ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 订阅者应用程序]** 菜单列出与应用程序的订户相关的字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件人]** 菜单列出在收件人表中定义的字段，例如收件人的姓名、年龄或地址。 |
+   | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的字段，包括跨所有渠道发送到收件人或设备的所有消息，例如与给定收件人的上一个事件的日期 |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的字段，例如投放渠道或标签。 |
 
->[!NOTE]
->
->默认情况下，每个菜单均列出选定表中的所有字段（收件人、/消息/投放）。 如果要包含链接到选定表的表中的字段，请启用 **[!UICONTROL 显示高级属性]** 选项的位置。
+   >[!NOTE]
+   >
+   >默认情况下，每个菜单均列出选定表中的所有字段（收件人、/消息/投放）。 如果要包含链接到选定表的表中的字段，请启用 **[!UICONTROL 显示高级属性]** 选项的位置。
 
 1. 要添加个性化字段，请将光标定位在内容中的所需位置，然后单击 `+` 按钮以插入它。
 
 1. 内容准备就绪后，您可以保存内容并通过模拟内容来测试个性化内容的渲染。 以下示例显示了使用收件人名字的短信消息的个性化设置。
 
-   *在消息内容中添加个性化标记*
+   ![](assets/perso-preview1.png){width="800" align="center"}
 
-   ![](assets/perso-preview1.png)
-
-   *模拟给定测试用户档案的个性化渲染*
-
-   ![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png){width="800" align="center"}
