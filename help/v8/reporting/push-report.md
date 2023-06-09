@@ -3,9 +3,9 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '269'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与推送消息的详细信息。
 
-  +++了解有关量度的更多信息。
+  +++了解有关推送投放报告量度的更多信息。
 
    * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
 
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 * **目标人群** 图表和表格显示与受众相关的数据：
 
-  +++了解有关量度的更多信息。
+  +++了解有关推送投放报告量度的更多信息。
 
    * **[!UICONTROL 交付]**：投放分析期间处理的消息总数。
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 * **总体统计信息** 显示已发送推送通知的数据，包括：
 
-  +++了解有关量度的更多信息。
+  +++了解有关推送投放报告量度的更多信息。
 
    * **[!UICONTROL 成功]**：成功处理的消息数。
 

@@ -4,10 +4,10 @@ title: 开始使用推送通知
 description: 了解如何使用 Adobe Campaign Web 创建和发送推送通知
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 15%
+source-wordcount: '203'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 15%
 * 营销活动：创建营销活动后，即可创建推送通知投放。 有关设置营销策划的更多信息，请参阅此页面。
 
 * 独立投放：通过单个推送通知投放直接即时吸引客户，而无需工作流或营销活动。
+
+![](../assets/do-not-localize/book.png) 请参阅此以了解如何配置推送通知渠道 [页面](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

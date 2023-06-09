@@ -4,9 +4,9 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 100%
 
 1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;主页上单击&#x200B;**[!UICONTROL 创建投放]**。
 
-1. 在&#x200B;**[!UICONTROL 渠道]**&#x200B;部分下，选择“短信”作为渠道并选择一个模板。详细了解模板
+1. 在&#x200B;**[!UICONTROL 渠道]**&#x200B;部分下，选择“短信”作为渠道并选择一个模板。[详细了解模板](../msg/delivery-template.md)
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
+
+   ![](assets/sms_create_1.png)
 
 1. 输入投放的&#x200B;**[!UICONTROL 标签]**&#x200B;并访问&#x200B;**[!UICONTROL 其他选项]**&#x200B;下拉列表。
 
@@ -44,11 +46,11 @@ ht-degree: 100%
    * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。
 +++
 
-1. 从&#x200B;**[!UICONTROL 自定义选项]**&#x200B;下拉列表中，可访问您具有特定自定义字段的扩展架构。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-audiences.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。了解详情。
+   ![](assets/sms_create_2.png)
 
-1. 开启&#x200B;**[!UICONTROL 启用对照组]**&#x200B;选项以设置对照组以衡量投放的作用，并使您可比较收到消息的人群的行为与未收到消息的联系人的行为。了解详情
+1. 开启&#x200B;**[!UICONTROL 启用对照组]**&#x200B;选项以设置对照组以衡量投放的作用，并使您可比较收到消息的人群的行为与未收到消息的联系人的行为。[了解详情](../audience/control-group.md)
 
 1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以开始设计短信消息的内容。
 

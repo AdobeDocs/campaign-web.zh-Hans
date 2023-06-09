@@ -4,10 +4,10 @@ title: 开始使用短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '159'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 91%
 * 营销活动：将短信投放纳入专门的营销活动，并设置目标受众和投放计划等参数。
 
 * 独立投放：创建单独的短信投放，无需工作流或营销活动，即可快速而直接地与您的客户通信。
+
+![](../assets/do-not-localize/book.png) 请参阅以了解如何配置短信渠道 [页面](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
