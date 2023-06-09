@@ -4,55 +4,60 @@ title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+source-git-commit: 905ff46cac03d0db276c3eb487a4d66815c6ed0b
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 69%
 
 ---
 
-# 使用电子邮件设计器内容组件 {#content-components}
+# 使用电子邮件设计器内容 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="关于内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
+>title="关于内容"
+>abstract="内容组件是空的内容占位符，可用于创建电子邮件的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="关于内容组件"
+>title="关于内容"
 >abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="关于内容组件"
+>title="关于内容"
 >abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="关于内容组件"
+>title="关于内容"
 >abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
+
+创建电子邮件内容时， **[!UICONTROL 内容]** 组件允许您使用原始空组件进一步个性化电子邮件，这些组件一经放入电子邮件中即可使用。
+
+您可以添加任意数量的 **[!UICONTROL 目录]** 您需要在内部 **[!UICONTROL 结构]**，定义电子邮件的布局。
 
 ## 添加内容组件 {#add-content-components}
 
 要将内容组件添加到您的电子邮件中，并根据您的需要调整这些内容组件，请执行以下步骤。
 
-1. 在电子邮件设计器中，使用现有内容或将&#x200B;**[!UICONTROL 结构]**&#x200B;拖放到空白内容中以定义电子邮件版面。[了解如何操作](create-email-content.md)
+1. 在Email Designer中使用 [现有内容](existing-content.md) 或拖放 **[!UICONTROL 结构]** 空内容，以定义电子邮件的布局。 [了解如何操作](create-email-content.md)
 
-1. 将所选&#x200B;**[!UICONTROL 内容]**&#x200B;拖放到相关的结构组件中。
+1. 拖放 **[!UICONTROL 内容]** 在相关结构中进行选择。
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
+   >可以将多个元件添加到单个结构中，并添加到结构的每一列中。
 
-1. 使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡，调整每个组件的样式属性。例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
+1. 使用上下文调整每个组件的选项 **[!UICONTROL 设置]** 选项卡。 例如，您可以选择仅在桌面设备或移动设备上显示，或者同时在这两种设备上显示。 您还可以从此选项卡管理链接选项。 [了解有关管理链接的更多信息](message-tracking.md)
+
+1. 使用调整每个组件的样式属性 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-在从头开始创建电子邮件内容时，**[!UICONTROL 内容]**组件允许您使用原始空白组件进一步个性化电子邮件，这些组件一经放入电子邮件中即可使用。
-可将所需数量的**[!UICONTROL 内容]**&#x200B;组件添加到&#x200B;**[!UICONTROL 结构]**&#x200B;组件中，这样即可定义电子邮件版面。
+1. 从的高级菜单中 **[!UICONTROL 内容]** 在右侧窗格中，您可以根据需要轻松删除或复制任何内容组件。
 
 ## 容器 {#container}
 
@@ -86,19 +91,19 @@ ht-degree: 100%
 
    ![](assets/email_designer_15.png)
 
-1. 可通过从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡更改&#x200B;**[!UICONTROL 边框]**、**[!UICONTROL 大小]**、**[!UICONTROL 外边距]**&#x200B;等样式属性而进一步使您的按钮个性化。
+1. 您可以通过从以下位置更改样式属性（例如&#x200B;**[!UICONTROL 边框]**、**[!UICONTROL 大小]**、**[!UICONTROL 边距]**&#x200B;等）来进一步个性化您的按钮：从 **[!UICONTROL 样式]** 选项卡。
 
 ## 文本 {#text}
 
-使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式（边框、大小、内边距等等）。
+使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
-1. 从&#x200B;**[!UICONTROL 内容]**&#x200B;菜单中，将&#x200B;**[!UICONTROL 文本]**&#x200B;拖放到&#x200B;**[!UICONTROL 结构]**&#x200B;组件中。
+1. 从 **[!UICONTROL 目录]** 菜单，拖放 **[!UICONTROL 文本]** 转换为 **[!UICONTROL 结构]** 组件。
 
    ![](assets/email_designer_11.png)
 
 1. 单击新添加的组件以个性化文本，并访问&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
-1. 使用工具栏中的以下可用选项更改文本：
+1. 使用上下文工具栏中的以下选项更改您的文本：
 
    ![](assets/email_designer_27.png)
 
@@ -114,7 +119,7 @@ ht-degree: 100%
    * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据中的内容。
    * **[!UICONTROL 启用条件内容]**：添加条件内容以使组件内容适应目标配置文件。
 
-1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整文本颜色、字体系列、边框、内边距、外边距等其他样式属性。
+1. 从以下位置调整其他样式属性，例如文本颜色、字体系列、边框、内边距、边距等：从 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +127,7 @@ ht-degree: 100%
 
 使用&#x200B;**[!UICONTROL 分隔条]**&#x200B;组件可插入分隔线来整理电子邮件的版面和内容。
 
-可从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整线条颜色、样式和高度等样式属性。
+您可以从以下位置调整样式属性，例如线条的颜色、样式和高度 **[!UICONTROL 样式]** 选项卡。
 
 ![](assets/email_designer_16.png)
 
@@ -140,7 +145,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->要简单地使外部内容与电子邮件设计器兼容，Adobe 建议从头开始创建邮件并将现有电子邮件中的内容复制到组件中。
+>为了仅使外部内容符合Email Designer，Adobe建议 [从头开始创建消息](create-email-content.md) 并将现有电子邮件中的内容复制到组件中。
 
 ## 图像 {#image}
 
@@ -152,14 +157,16 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从您的资源中选择图像文件。
 
-1. 单击新添加的组件，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡设置图像属性：
+1. 单击新添加的组件，然后使用设置图像属性 **[!UICONTROL 设置]** 选项卡：
 
    * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
    * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
 
    ![](assets/email_designer_10.png)
 
-1. 调整其他样式属性（例如边距、边框等）或者添加链接以将受众重定向到其他内容。
+1. 您可以添加链接以将受众重定向到其他内容。 [了解详情](message-tracking.md)
+
+1. 调整其他样式属性（例如边距、边框等）使用 **[!UICONTROL 样式]** 选项卡。
 
 ## 社交 {#social}
 
@@ -179,6 +186,6 @@ ht-degree: 100%
 
    ![](assets/email_designer_21.png)
 
-1. 如果需要，您还可以在&#x200B;**[!UICONTROL 图像]**&#x200B;字段中更改每个社交媒体的图标。
+1. 如果需要，您还可以在 **[!UICONTROL 来源]** 字段。
 
-1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式、外边距、边框等其他样式属性。
+1. 从以下位置调整其他样式属性（例如样式、边距、边框等）：从 **[!UICONTROL 样式]** 选项卡。

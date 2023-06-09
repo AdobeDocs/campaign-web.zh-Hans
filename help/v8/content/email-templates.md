@@ -4,7 +4,7 @@ product: campaign
 title: 使用电子邮件模板
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 29%
@@ -13,7 +13,7 @@ ht-degree: 29%
 
 # 使用电子邮件模板 {#email-content-templates}
 
-时间 [创建电子邮件](#create-email)，使用 **[!UICONTROL 选择设计模板]** 部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
+时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
 
 ![](assets/email_designer-templates.png)
 

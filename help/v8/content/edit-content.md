@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 44%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 44%
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
 * 定义消息的基本元素，如发件人地址和主题行
 * 执行其他操作，如添加附件或设置优惠
-* 访问 [电子邮件设计工具](get-started-email-designer.md) 以开始构建电子邮件的适当内容
+* 访问 [电子邮件设计工具](get-started-email-designer.md#start-authoring) 以开始构建电子邮件的适当内容
 
 要配置或编辑电子邮件的内容，请执行以下步骤。
 
 1. 单击 **[!UICONTROL 编辑内容]** 按钮来自 [电子邮件投放仪表板](../email/create-email.md) 屏幕。
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. 此时会打开电子邮件内容编辑屏幕。 如果您正在配置新电子邮件，则 **[!UICONTROL 发件人姓名]** 和 **[!UICONTROL 发件人电子邮件]** 已填充字段。
+1. 此时会打开电子邮件内容编辑屏幕。
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >如果您正在配置新电子邮件，则 **[!UICONTROL 发件人姓名]** 和 **[!UICONTROL 发件人电子邮件]** 已填充字段。
 
 1. 此 **[!UICONTROL 发件人姓名]** 字段在电子邮件模板中定义。 如果要修改它，请使用收件人易于识别的名称（如您的品牌名称）来提高投放的打开率。
 
    >[!NOTE]
    >
-   >    为进一步改善收件人的体验，您可以添加一个人的姓名，例如“Emma from Megastore”。
+   >要进一步改善收件人的体验，您可以添加人员的姓名，例如“Eve from Luma”。
 
 1. 此 **[!UICONTROL 发件人电子邮件]** 地址字段也在电子邮件模板中定义。 确保地址域与您委派给Adobe的子域相同。
 
    >[!NOTE]
    >
-   >    您可以更改“@”之前的部分，但不能更改域地址。
+   >您可以更改“@”之前的部分，但不能更改域地址。
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ ht-degree: 44%
 
    * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >您还可以将鼠标悬停在电子邮件预览上并选择 **[!UICONTROL 打开电子邮件设计器]**.
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)
 

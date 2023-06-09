@@ -3,16 +3,22 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何使用Campaign Web UI中的电子邮件设计器开始构建内容
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Email Designer 入门 {#get-started-email-designer}
 
-您可以在中导入现有内容 [!DNL Journey Optimizer] 或利用内容设计功能：
+在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
+
+Email Designer允许您通过直观的拖放界面创建引人入胜的单独定制电子邮件。 无论您是从头开始、导入现有内容还是利用现有模板，都可为每封电子邮件设计和优化所有内容（无论促销还是事务性）。
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * 使用 [!DNL Campaign] 电子邮件设计功能，可轻松构建响应式电子邮件。 [了解详情](create-email-content.md)
 
@@ -38,5 +44,5 @@ ht-degree: 5%
 
 * **选择现有内容** 来自内置或自定义模板列表。 了解如何使用电子邮件模板 [本节](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

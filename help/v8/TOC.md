@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -31,16 +31,16 @@ ht-degree: 75%
          + [配置电子邮件内容](content/edit-content.md)
          + 开始塑造电子邮件 {#start-design}
             + [Email Designer 入门](content/get-started-email-designer.md)
-            + [从头开始 ](content/create-email-content.md)
+            + [从头开始](content/create-email-content.md)
             + [导入电子邮件内容](content/existing-content.md)
             + [为自己的内容编写代码](content/code-content.md)
             + [使用电子邮件内容模板](content/email-templates.md)
          + 设计内容 {#design-content}
             + [使用内容组件](content/content-components.md)
-            + [生成文本版本](content/text-version-email.md)
+            + [添加链接和跟踪邮件](content/message-tracking.md)
             + [添加指向镜像页面的链接](content/mirror-page.md)
             + [添加邮件引文](content/preheader.md)
-            + [添加链接和跟踪消息](content/message-tracking.md)
+            + [生成文本版本](content/text-version-email.md)
          + 设置内容的样式 {#style}
             + [开始使用电子邮件样式](content/get-started-email-style.md)
             + [编辑背景设置](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
-      + [设计短信投放 ](sms/content-sms.md)
-      + [发送短信投放 ](sms/send-sms.md)
+      + [设计短信投放](sms/content-sms.md)
+      + [发送短信投放](sms/send-sms.md)
    + 使您的内容成为动态内容 {#dynamic-content}
       + [动态内容入门](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
