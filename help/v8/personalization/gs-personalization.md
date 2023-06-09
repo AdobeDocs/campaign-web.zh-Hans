@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 21%
@@ -40,7 +40,7 @@ ht-degree: 21%
 
 Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。 表达式编辑器适用于所有渠道，在每个字段内使用 **[!UICONTROL 打开个性化对话框]** 图标，例如主题行字段，或电子邮件链接和文本/按钮内容组件。
 
-以下是如何根据要使其成为动态的内容访问表达式编辑器的一些示例
+以下是如何根据要使其成为动态的内容访问表达式编辑器的几个示例：
 
 * *从“发件人名称”字段访问表达式编辑器*
 
