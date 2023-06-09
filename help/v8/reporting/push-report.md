@@ -3,9 +3,9 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '260'
 ht-degree: 7%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 7%
 
 ## 推送摘要 {#push-summary}
 
-![](assets/reporting_push.png)
+* **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与推送消息的详细信息。
 
-* **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与推送消息的详细信息。 这些KPI包括：
+  +++了解有关量度的更多信息。
 
    * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
 
@@ -31,13 +31,25 @@ ht-degree: 7%
 
    * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
 
++++
+
+  ![](assets/reporting_push_3.png)
+
 * **目标人群** 图表和表格显示与受众相关的数据：
+
+  +++了解有关量度的更多信息。
 
    * **[!UICONTROL 交付]**：投放分析期间处理的消息总数。
 
    * **[!UICONTROL 排除项]**：已从分析中排除的用户档案数。
 
++++
+
+  ![](assets/reporting_push_4.png)
+
 * **总体统计信息** 显示已发送推送通知的数据，包括：
+
+  +++了解有关量度的更多信息。
 
    * **[!UICONTROL 成功]**：成功处理的消息数。
 
@@ -45,4 +57,16 @@ ht-degree: 7%
 
    * **[!UICONTROL 新建隔离]**：已排除并添加到隔离的用户档案数。
 
++++
+
+  ![](assets/reporting_push_5.png)
+
 * **[!UICONTROL 排除项]** 图表和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
+
+  ![](assets/reporting_push_6.png)
+
+## 投放吞吐量 {#delivery-throughput}
+
+此报表提供有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
+
+![](assets/reporting_push_2.png)

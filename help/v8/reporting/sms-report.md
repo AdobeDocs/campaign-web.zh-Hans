@@ -3,9 +3,9 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '254'
 ht-degree: 7%
 
 ---
@@ -46,3 +46,10 @@ ht-degree: 7%
    * **[!UICONTROL 新建隔离]**：已排除并添加到隔离的用户档案数。
 
 * **[!UICONTROL 排除项]** 图表和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
+
+## 投放吞吐量 {#delivery-throughput}
+
+此报表提供有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
+
+![](assets/reporting_sms_2.png)
+
