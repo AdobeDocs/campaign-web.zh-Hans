@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 默认情况下，只有最常见的属性会显示在属性列表和过滤器配置屏幕中。
 
-使用 **显示高级属性** 在列表下方切换以查看当前列表的所有可用属性。
-
+使用 **显示高级属性** 切换以查看当前列表的所有可用属性。
 
 ## 上下文帮助 {#contextual-help}
 
