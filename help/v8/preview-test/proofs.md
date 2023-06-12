@@ -4,10 +4,10 @@ title: 发送测试电子邮件
 description: 了解如何定义和发送测试电子邮件
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 可以将测试电子邮件发送给两类收件人：
 
-* **测试用户档案**  — 向种子地址发送测试电子邮件，这些地址是数据库中的其他虚构收件人。 它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **测试用户档案**  — 向种子地址发送测试电子邮件，这些地址是数据库中的其他虚构收件人。 它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **从主要目标替换**  — 模拟现有用户档案时将测试电子邮件发送到特定电子邮件地址。 这使您能够像收件人那样体验电子邮件，从而准确表示配置文件将收到的邮件。
 
