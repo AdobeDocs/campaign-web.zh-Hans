@@ -4,10 +4,10 @@ title: 预览电子邮件内容
 description: 了解如何使用 Campaign Web UI 预览电子邮件内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >可在中创建测试用户档案 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >可在中创建测试用户档案 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * **[!UICONTROL 配置文件]**&#x200B;选项卡列出了存储到 控制台的&#x200B;**[!UICONTROL 配置文件和目标]**&#x200B;文件夹中的所有收件人。[!DNL Campaign][了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
