@@ -4,10 +4,10 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 71%
+source-wordcount: '508'
+ht-degree: 64%
 
 ---
 
@@ -36,20 +36,20 @@ Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于�
 
 ## 连接到 Campaign
 
+要连接到Adobe Campaign Web，请执行以下步骤：
 
-1. 连接到 [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}。
+1. 浏览到 [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. 使用您的 Adobe 凭据登录。
 1. 在&#x200B;**快速访问**&#x200B;部分中，单击 **Campaign**。
+
    ![](assets/connect.png)
 
 1. 在下一页中，单击 Campaign 实例的&#x200B;**启动**按钮。
-您现已连接到 Campaign。在[此页面](user-interface.md)中了解如何开始使用用户界面。
 
-<!--
--> experience cloud home: "Campaign" -> home campaign v8
--> or Campaign v8 web if direct URL
--->
 
+   您现已连接到 Campaign。在[此页面](user-interface.md)中了解如何开始使用用户界面。
+
+如果您已连接到其他Adobe Experience Cloud解决方案，则还可以从屏幕右上角的解决方案切换器浏览到Campaign环境。
 
 ## 关于 Campaign 客户端控制台{#ac-client}
 
