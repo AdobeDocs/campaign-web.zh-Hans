@@ -3,9 +3,9 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 24%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 24%
 
 发送投放后，您可以从投放页面跟踪KPI（关键绩效指标）数据，并从“日志”菜单跟踪数据。
 
-您现在可以使用内置报告开始衡量消息的影响。
+您现在可以使用内置报告开始衡量消息的影响。 [了解详情](../reporting/sms-report.md)
 
 
 
