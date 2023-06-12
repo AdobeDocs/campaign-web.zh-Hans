@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 98%
+source-wordcount: '1617'
+ht-degree: 83%
 
 ---
 
@@ -16,72 +16,46 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="探索界面"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
 
 新的 Campaign v8 Web 界面提供了直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
 
-<!--
-Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
--->
 
 >[!NOTE]
 >
 >此文档经常更新以反映产品用户界面中的最新更改。但是，某些屏幕快照可能与用户界面略有不同。
 
 
-<!--
-* console + web interface (overview, why use each of them)
-* web UI made up of read-only lists that can be configured, show how to add columns
--->
-
-## 左侧导航菜单
+## 左侧导航菜单 {#user-interface-left-nav}
 
 浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。除了电子邮件投放列表之外的所有列表屏幕均为只读。单击任意列表项以进行编辑/无法在 Alpha 中进行查看。在将来版本中，所有列表都是可编辑的。左侧导航菜单中显示的项目取决于您的用户权限。
 
 ![](assets/home.png)
 
-### 主页
+### 主页 {#user-interface-home}
 
-此屏幕包含用于快速访问主要 Campaign v8 Web 功能的关键链接和资源。**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的创建和修改日期及状态。
+此屏幕包含用于快速访问主要 Campaign v8 Web 功能的关键链接和资源。
 
-<!--
-* Banner
-* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
-* Recent items
-* Learning cards
--->
+**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示其渠道、状态、所有者、创建和修改日期。
 
-从主页的下方部分访问 Campaign v8 Web 关键帮助页面。
+访问Campaign v8 Web密钥帮助页面，网址为 **学习** 部分。
 
-<!--
-show global KPIs, recent items + left menu to access features)
-CONTROL PANEL not alpha
-Global report not alpha
--->
-
-### 资源管理器
+### 资源管理器 {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="资源管理器"
->abstract="**资源管理器**&#x200B;菜单显示的文件夹层次结构与客户端控制台中的文件夹层次结构相同。浏览所有 Campaign v8 组件、文件夹和架构。除了电子邮件投放列表之外的所有列表屏幕均为只读。"
+>abstract="此 **资源管理器** 菜单会显示与客户端控制台中文件夹层次结构相同的所有Campaign组件和对象。 浏览所有Campaign v8组件、文件夹和架构，并创建投放、工作流和营销活动。 所有其他列表均为只读。"
 
-**资源管理器**&#x200B;菜单显示的文件夹层次结构与客户端控制台中的文件夹层次结构相同。浏览所有 Campaign v8 组件、文件夹和架构。
+此 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的所有Campaign资源和对象。 浏览所有Campaign v8组件、文件夹和架构，并创建投放、工作流和营销活动。 所有其他列表均为只读。
 
 资源管理器中显示的项目取决于您的用户权限。
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
-有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
-<!--
-Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+有关Campaign资源管理器、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
-
-Navtree view depends on permissions (same as console).
--->
-
-### Campaign 管理
+### Campaign 管理 {#user-interface-campaign-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -93,7 +67,7 @@ Navtree view depends on permissions (same as console).
 >title="投放"
 >abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。可按状态、联系日期或渠道筛选该列表。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
 
-在“营销活动管理”部分中，可访问市场营销活动、投放情况和工作流。
+在CAMPAIGN MANAGEMENT部分中，您可以访问营销活动、投放和工作流。
 
 * **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，可查看每个营销活动的开始/结束/创建/上次修改日期、当前状态以及创建它的 Campaign 操作员的姓名。可按状态、开始/结束日期和文件夹筛选该列表，也可创建高级筛选器以定义您自己的筛选条件。可[在此部分中](../campaigns/gs-campaigns.md)详细了解营销活动。
 
@@ -106,7 +80,7 @@ Navtree view depends on permissions (same as console).
 * **工作流** - 可在此屏幕中访问工作流和工作流模板的完整列表。可检查其状态、上次/下次执行日期，并可创建新的工作流或新的工作流模板。可用与筛选其他对象相同的条件筛选该列表。此外，还可筛选属于或不属于营销活动的工作流。可[在此部分中](../workflows/gs-workflows.md)详细了解工作流。
 
 
-### 客户管理
+### 客户管理 {#user-interface-customer-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -123,9 +97,12 @@ Navtree view depends on permissions (same as console).
 >title="订阅列表"
 >abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表为只读。"
 
-* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。此列表为只读。
-* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表为只读。
-* **订阅列表** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。此列表为只读。
+
+在客户管理部分，您可以查看收件人、受众和订阅。 这些列表是只读的。
+
+* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。了解有关收件人的更多信息，请参阅 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
+* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。要了解有关受众和列表的详细信息，请参阅 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **订阅**  — 浏览您的订阅列表。 默认情况下，您可以查看它们的类型、模式和标签。了解如何在中管理订阅和退订 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 
 ### 决策管理
 
@@ -136,9 +113,11 @@ Navtree view depends on permissions (same as console).
 
 * **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
 
+了解如何在中创建管理优惠 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 ## 顶部栏
 
-利用界面的顶部栏，您可以：
+使用界面的顶栏可以：
 
 * 作为 Alpha 测试人员共享您的反馈
 * 在组织和实例之间切换
