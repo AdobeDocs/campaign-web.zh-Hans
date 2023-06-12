@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
+source-git-commit: bdc06a14ffcb83c0f6822e8626ae42be68ee905e
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -34,7 +34,7 @@ ht-degree: 75%
             + [从头开始](content/create-email-content.md)
             + [导入电子邮件内容](content/existing-content.md)
             + [为自己的内容编写代码](content/code-content.md)
-            + [使用电子邮件内容模板](content/email-templates.md)
+            + [使用电子邮件内容模板](content/email-sample-templates.md)
          + 设计内容 {#design-content}
             + [使用内容组件](content/content-components.md)
             + [添加链接和跟踪邮件](content/message-tracking.md)
