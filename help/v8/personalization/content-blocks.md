@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 60%
+source-wordcount: '445'
+ht-degree: 59%
 
 ---
 
@@ -55,4 +55,5 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 >[!NOTE]
 >
->您可以从Adobe Campaign V8控制台中定义新块，以便优化投放个性化。 [在控制台文档中了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=zh-Hans)
+>您可以从Adobe Campaign v8控制台中定义新块，以便优化投放个性化。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+
