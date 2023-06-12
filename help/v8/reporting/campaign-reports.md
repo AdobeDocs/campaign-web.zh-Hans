@@ -3,10 +3,10 @@ audience: end-user
 title: 营销活动报表
 description: 了解如何访问和使用活动报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 5%
+source-wordcount: '1520'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 5%
 ### 投放摘要 {#delivery-summary-email}
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与电子邮件投放的详细信息。
+
+  ![](assets/campaign_report_email_1.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -32,9 +34,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
-* **[!UICONTROL 初始目标受众统计数据]**
+  ![](assets/campaign_report_email_2.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -46,9 +48,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。
 
-* **[!UICONTROL 执行统计数据]**
+  ![](assets/campaign_report_email_3.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -62,9 +64,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL 反应统计信息]** 表包含投放的收件人活动的可用数据。
 
-* **[!UICONTROL 反应统计数据]**
+  ![](assets/campaign_report_email_4.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -77,11 +79,9 @@ ht-degree: 5%
    * **[!UICONTROL 镜像页面]**：单击镜像页面链接的收件人数量。
 
    * **[!UICONTROL 转发]**：点击后转发电子邮件的收件人数量。
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL 生成的点击流]**
+* **[!UICONTROL 生成的点击流]** 表格显示与收件人与投放的交互方式相关的数据。
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 5%
 
 ### 不可投放 {#non-deliverables-email}
 
-* **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 按浏览器划分错误]**
+* **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
+
+  ![](assets/campaign_report_email_6.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -109,11 +111,11 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### 跟踪指标 {#tracking-indicators-email}
 
-* **[!UICONTROL 投放统计信息]**
+* **[!UICONTROL 投放统计数据]** 提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。
+
+  ![](assets/campaign_report_email_7.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -130,9 +132,9 @@ ht-degree: 5%
    * **[!UICONTROL 转发数量估计]**：目标收件人转发的电子邮件数量的估计。
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据。
 
-* **[!UICONTROL 打开和点进率]**
+  ![](assets/campaign_report_email_8.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -147,11 +149,11 @@ ht-degree: 5%
    * **[!UICONTROL 原始反应性]**：与至少打开一次投放的收件人人数相比，至少点击一次投放的收件人人数的百分比。
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL 和点击流 {#url-email}
 
-* **[!UICONTROL URL 和点击流]**
+* **[!UICONTROL URL和点击流]** 提供关键绩效指标(KPI)，用于提供有关投放期间点击次数最多的URL的详细信息。
+
+  ![](assets/campaign_report_email_9.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -163,9 +165,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL 前10个访问次数最多的链接]** 图和表包含每个链接的收件人行为的可用数据。
 
-* **[!UICONTROL 访问量排名前 10 的链接]**
+  ![](assets/campaign_report_email_10.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -175,23 +177,23 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL 一段时间内点击量的细分]**，点击次数
+* **[!UICONTROL 一段时间内点击量的细分]** 图形包含每个链接的收件人行为的可用数据。
 
   ![](assets/campaign_report_email_11.png)
 
 ### 用户活动 {#user-activities-email}
 
-* **[!UICONTROL 用户活动]**
+* **[!UICONTROL 用户活动]** 以图表的形式显示打开次数和点击次数的细分。
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++了解有关电子邮件促销活动报告指标的更多信息。
 
    * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
    * **[!UICONTROL 打开次数]**：此域中至少打开过一次邮件的不同定向收件人的数量。
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## 短信渠道 {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 初始目标受众统计数据]**
+* **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
   +++了解有关短信营销活动报告量度的更多信息。
 
@@ -223,7 +225,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 执行统计数据]**
+* **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功：
 
   +++了解有关短信营销活动报告量度的更多信息。
 
@@ -237,7 +239,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 生成的点击流]**
+* **[!UICONTROL 生成的点击流]** 表格显示与收件人与投放的交互方式相关的数据：
 
   +++了解有关短信营销活动报告量度的更多信息。
 
@@ -267,7 +269,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 初始目标受众统计数据]**
+* **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
   +++了解有关推送营销活动报告量度的更多信息。
 
@@ -279,7 +281,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 执行统计数据]**
+* **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功：
 
   +++了解有关推送营销活动报告量度的更多信息。
 
@@ -293,7 +295,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 生成的点击流]**
+* **[!UICONTROL 生成的点击流]** 表格显示与收件人与投放的交互方式相关的数据：
 
   +++了解有关推送营销活动报告量度的更多信息。
 
