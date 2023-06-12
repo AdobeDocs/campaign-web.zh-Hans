@@ -4,10 +4,10 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于�
 >
 >Campaign v8 Web 当前为 Alpha 版本。仅可供少量 Alpha 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。
 
-## 关于 Campaign 客户端控制台{#ac-client}
-
-Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
-
-在[此章节](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}中了解如何下载和安装客户端控制台。
-
-有关如何使用Campaign v8的更多信息，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}.
-
-Campaign 数据存储在应用程序服务器中。可从客户端控制台和 Web UI 获得此数据。例如，如果您使用客户端控制台创建投放模板，则它在 Web UI 中也可用。如果您在 Web UI 中创建电子邮件投放，则也可从客户端控制台访问此投放。
-
-
-某些对象只能在客户端控制台中创建和管理。 它们可以在Campaign Web UI中可见和使用，但无法从此环境创建或修改。 所有Campaign对象和组件均可从浏览器视图中获取，可从左侧导航中获取。
-
 ## 连接到 Campaign
 
 
@@ -63,3 +50,13 @@ Campaign 数据存储在应用程序服务器中。可从客户端控制台和 W
 -> or Campaign v8 web if direct URL
 -->
 
+
+## 关于 Campaign 客户端控制台{#ac-client}
+
+Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
+
+Campaign 数据存储在应用程序服务器中。可从客户端控制台和 Web UI 获得此数据。例如，如果您使用客户端控制台创建投放模板，则它在 Web UI 中也可用。如果您在 Web UI 中创建电子邮件投放，则也可从客户端控制台访问此投放。
+
+某些对象只能在客户端控制台中创建和管理。 它们可以在Campaign Web UI中可见和使用，但无法从此环境创建或修改。 所有Campaign对象和组件均可从浏览器视图中获取，可从左侧导航中获取。
+
+有关如何使用Campaign v8的更多信息，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}.

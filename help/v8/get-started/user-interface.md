@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 98%
@@ -72,7 +72,7 @@ Global report not alpha
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
-有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+有关Campaign资源管理器的更多信息，请参阅此 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -164,7 +164,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 您可以单击任意列标题来对列表中的项目进行排序。将显示一个箭头（向上或向下），指示列表已按该列排序。对于数字或日期列，向上箭头表示列表按升序排序，向下箭头表示列表按降序排序。对于字符串或字母数字列，值将按字母顺序列出。
 
-## 上下文帮助和操作入门指南
+## 上下文帮助和操作入门指南 {#contextual-help}
 
 界面中提供了上下文帮助。在可用时，单击 **?** 图标以显示帮助信息和相关文档链接。
 
@@ -218,12 +218,6 @@ Campaign v8 Web 目前提供以下语言版本：
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

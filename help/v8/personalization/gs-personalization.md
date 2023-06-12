@@ -8,23 +8,25 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
+source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 12%
+source-wordcount: '592'
+ht-degree: 10%
 
 ---
 
 
 # 动态内容入门
 
-向客户提供相关内容是确保您吸引各种客户并发挥其兴趣以便阅读营销内容的关键。
+作为营销人员，定位对您的产品真正感兴趣的客户并通过提供有效且相关的内容与他们互动至关重要。 鉴于您遇到的收件人的范围不同，创建多个营销内容以吸引不同的人可能会非常耗时且浪费。 这就是动态内容发挥作用的地方。
 
-为了充分利用每个营销活动，Adobe Campaign为您提供了一种方法，通过利用您收集到的关于客户的信息，向不同群体和个人提供与客户级别对话的自定义动态内容，从而为他们创建自定义体验。
+通过Adobe Campaign web dynamic content功能，您可以根据所收集的有关收件人的信息自定义内容。 通过使用动态内容，您可以确保营销工作更相关，从而避免营销不需要或不必要的产品或服务。 此方法使您的内容更具吸引力，并增加其被阅读的可能性。 此外，您还可以个性化内容，使收件人感觉他们是在从人员而不是机器接收信息。
 
-* **个性化您的消息** 利用用户档案数据，例如他们的名字、兴趣、居住地、购买的内容等，发送给每个特定收件人。
+## 如何使您的内容成为动态内容？
 
-  您可以从与收件人、消息或投放相关的个性化编辑器中选择数据库中可用的任何字段。 可将这些个性化属性插入邮件的主题行或正文中。以下语法可在您的内容中插入收件人的城市：&lt;%= recipient.location.city %>。
+通过在Campaign Web表达式编辑器中插入JavaScript结构，可以使消息内容成为动态内容。 在发送消息时，Adobe Campaign会解释这些表达式，以便为每个收件人提供正确内容：
+
+* **个性化您的消息** 利用用户档案数据，例如他们的名字、兴趣、居住地、购买的内容等，发送给每个特定收件人。 您可以从与收件人、消息或投放相关的个性化编辑器中选择数据库中可用的任何字段。 可将这些个性化属性插入邮件的主题行或正文中。以下语法可在您的内容中插入收件人的城市：&lt;%= recipient.location.city %>。
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
