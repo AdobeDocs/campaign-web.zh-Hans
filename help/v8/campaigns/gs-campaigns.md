@@ -4,9 +4,9 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 12%
 
 ---
@@ -37,7 +37,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 * 此 **浏览** 选项卡列出了所有现有营销活动。 您可以单击营销策划以打开其功能板，或通过单击 **创建营销活动** 按钮。 查看此 [部分](create-campaigns.md#create-campaigns)
 
-* 此 **模板** 选项卡列出了所有可用的活动模板。 营销活动模板已预配置，以便可以重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。 [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
+* 此 **模板** 选项卡列出了所有可用的活动模板。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。 [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
 
 您可以通过单击 **为自定义布局配置列** 图标图标。 这允许您向列表添加其他信息。 此外，还提供搜索栏和过滤器，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)
 
@@ -56,7 +56,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 此 **配置Campaign设置** 图标允许您修改在创建营销活动时定义的营销活动属性。 查看此 [部分](create-campaigns.md#create-campaigns)
 
-## 监控和跟踪时间{#campaign-monitoring}
+## 监控和跟踪日志{#campaign-monitoring}
 
 营销活动监测是分析营销活动的关键步骤。 可从以下位置访问它们： **日志** 按钮。
 

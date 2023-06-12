@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 33%
@@ -27,7 +27,7 @@ ht-degree: 33%
 要创建新营销活动，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]** 按钮。
-1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，以便可以重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。
+1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。
    [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
 1. 如果需要，您可以更改 **其他选项**. 请参阅此[章节](#campaign-options)。
 1. 定义 **计划** 您的营销活动。 营销活动在到达开始日期时开始。 开始日期和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](gs-campaigns.md#access-campaigns)。
