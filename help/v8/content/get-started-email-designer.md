@@ -3,7 +3,7 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何使用Campaign Web UI中的电子邮件设计器开始构建内容
 badge: label="Alpha" type="Positive"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 9%
@@ -42,7 +42,7 @@ The Email Designer allows you to create email content and email content template
 
 * **导入现有HTML内容** 文件或.zip文件夹中的文件。 了解如何在中导入电子邮件内容 [本节](existing-content.md).
 
-* **选择现有内容** 来自内置或自定义模板列表。 了解如何使用电子邮件模板 [本节](email-templates.md).
+* **选择现有内容** 来自内置或自定义模板列表。 了解如何使用电子邮件模板 [本节](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
