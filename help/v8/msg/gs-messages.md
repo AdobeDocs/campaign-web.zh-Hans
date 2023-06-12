@@ -4,25 +4,52 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 98%
+source-wordcount: '1072'
+ht-degree: 83%
 
 ---
 
 # 消息入门{#gs-messages}
 
+借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。
 
-借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。这些消息通过投放设计和发送，并且可以针对每个收件人进行个性化。这些投放可以是独立的，也可以包含在市场营销活动的上下文中。
+这些消息通过投放设计和发送，并且可以针对每个收件人进行个性化。这些投放可以是独立的，也可以包含在市场营销活动的上下文中。
 
-Adobe Campaign v8 附带以下投放渠道：
+Adobe Campaign v8附带以下投放渠道：电子邮件、短信和移动应用程序。
 
-* **电子邮件渠道**：电子邮件投放可让您向目标群体发送个性化电子邮件。在[此页面](../email/create-email.md)中了解如何创建和发送电子邮件。
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="电子邮件" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="推送" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>创建推送通知</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="短信" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>创建短信消息</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **短信渠道**：移动渠道中的投放可让您向目标群体发送个性化短信。在[此页面](../sms/create-sms.md)中了解如何创建和发送短信。
-
-* **移动应用程序渠道**：移动应用程序投放可让您向 iOS 和 Android 系统发送通知。在[此页面](../push/gs-push.md)了解如何创建和发送推送通知。
 
 ## 创建投放 {#create-delivery}
 
@@ -83,7 +110,7 @@ Adobe Campaign v8 附带以下投放渠道：
 
 ## 添加个性化内容{#personalization}
 
-由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[了解关于个性化功能的更多信息](../personalization/personalize.md)。
+由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[了解关于个性化功能的更多信息](../personalization/gs-personalization.md)。
 
 使用 Campaign 创建动态内容并发送个性化消息。可以结合个性化功能来改进您的消息并创建自定义用户体验。
 
@@ -91,19 +118,19 @@ Adobe Campaign v8 附带以下投放渠道：
 
 * 插入动态&#x200B;**个性化字段**
 
-   个性化字段用于邮件的第一级个性化。您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、邮件或投放相关的任何字段。可将这些个性化属性插入邮件的主题行或正文中。[了解详情](../personalization/personalize.md)
+  个性化字段用于邮件的第一级个性化。您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、邮件或投放相关的任何字段。可将这些个性化属性插入邮件的主题行或正文中。[了解详情](../personalization/personalize.md)
 
 * 插入预定义的&#x200B;**内容块**
 
-   Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。可以从个性化编辑器的专用条目中获得内容块。[了解详情](../personalization/personalize.md#ootb-content-blocks)
+  Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。可以从个性化编辑器的专用条目中获得内容块。[了解详情](../personalization/personalize.md#ootb-content-blocks)
 
 * 创建&#x200B;**条件内容**
 
-   例如，配置条件内容以根据收件人的配置文件添加动态个性化内容。满足特定条件时可插入文本块和/或图像。[了解详情](../personalization/conditions.md)
+  例如，配置条件内容以根据收件人的配置文件添加动态个性化内容。满足特定条件时可插入文本块和/或图像。[了解详情](../personalization/conditions.md)
 
 * 添加&#x200B;**个性化优惠**
 
-   根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。
+  根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。
 
 
 ## 预览和测试投放
@@ -111,9 +138,13 @@ Adobe Campaign v8 附带以下投放渠道：
 定义消息内容后，您可以预览内容以控制消息的渲染，并使用测试配置文件检查个性化设置。[了解详情](../preview-test/preview-test.md)
 
 
-## 投放和跟踪日志{#gs-tracking-logs}
+## 监控和跟踪日志{#gs-tracking-logs}
 
-在发送后监测投放是确保营销活动有效并接触到客户的重要步骤。您可以在发送投放后进行监测，并了解如何管理投放失败和隔离。
+在发送后监测投放是确保营销活动有效并接触到客户的重要步骤。
+
+您可以在发送投放后进行监测，并了解如何管理投放失败和隔离。
+
+在中了解有关监控和跟踪功能的更多信息 [本节](../reporting/gs-reports.md).
 
 ## 复制投放 {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Adobe Campaign v8 附带以下投放渠道：
 1. 选择&#x200B;**[!UICONTROL 复制]**。
 1. 确认复制：新的投放仪表板在中央屏幕中打开。
 
-
 要从仪表板复制投放，请执行以下步骤：
 
 1. 打开投放并单击屏幕顶部的 **[!UICONTROL ...更多]**&#x200B;按钮。
 1. 选择&#x200B;**[!UICONTROL 复制]**。
 1. 确认复制：新投放将替换中央屏幕中的当前投放。
 
+## 删除投放 {#delivery-delete}
 
+将从投放列表中删除投放 — 从左边栏中的主投放条目中删除，或从营销活动的投放列表中删除。
 
+要从投放列表中删除投放，请执行以下步骤：
+
+1. 单击右侧位于要复制的投放名称旁边的三点按钮。
+1. 选择 **[!UICONTROL Delete]**。
+1. 确认删除。
+
+![从投放列表中删除投放](assets/delete-delivery-from-list.png)
+
+这些列表中提供了所有投放，但在工作流中创建的投放无法从中删除。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
+
+要从工作流中删除投放，请执行以下步骤：
+
+1. 选择投放活动。
+1. 单击  **[!UICONTROL 删除]** 图标。
+1. 确认删除。 如果投放具有子节点，您也可以选择删除或保留它们。
+
+![删除工作流中的投放](assets/delete-delivery-from-wf.png)

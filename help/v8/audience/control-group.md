@@ -4,10 +4,10 @@ title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 46%
+source-wordcount: '759'
+ht-degree: 40%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 46%
 
 * 在投放仪表板中，在发送之前，检查 **要排除** KPI
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * 在投放日志中，“日志”选项卡显示排除步骤。
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ ht-degree: 46%
 
 * 此 **排除原因** 选项卡显示每个分类规则的已排除配置文件的数量。
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 有关投放日志的更多信息，请参阅此[章节](../monitor/delivery-logs.md)。
 
@@ -104,19 +104,19 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="您可以通过选择现有受众或定义查询来从目标中排除特定群体。"
+>abstract="您可以通过选择现有受众或定义查询，从投放受众中排除特定群体。"
 
-定义对照组的另一种方法是通过使用现有受众或定义查询来从目标中排除特定群体。
+定义控制组的另一种方法是选择现有受众中的特定群体，或通过定义查询来选择特定群体。
 
 从&#x200B;**对照组**&#x200B;定义屏幕的&#x200B;**额外群体**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
 
 ![](assets/control-group3.png)
 
-* 要使用现有受众，请单击&#x200B;**选择受众**。请参阅此[章节](add-audience.md)。
+* 要使用现有受众，请单击&#x200B;**选择受众**。在[此章节](add-audience.md)中了解更多信息。
 
-* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。请参阅此[章节](segment-builder.md)。
+* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。在[此章节](segment-builder.md)中了解更多信息。
 
-将从目标中排除包含在受众中或与查询结果匹配的配置文件。
+受众中包含的或与查询结果匹配的配置文件包括 **已排除** 来自投放目标：他们不会收到任何消息。
 
 ## 比较结果{#control-group-results}
 
