@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ ht-degree: 83%
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 配置列表屏幕 {#list-screens}
+## 浏览和筛选列表 {#list-screens}
 
-左侧导航菜单中的多个链接（例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**）显示对象列表。这些列表屏幕都是只读的，但电子邮件投放列表除外。
+左侧导航菜单中的大多数链接都会显示对象列表，例如 **投放** 或 **营销活动**. 其中一些列表屏幕为只读。 您可以自定义列表显示并筛选这些列表，如下所述。
 
-要更快地找到项目，您可以使用搜索栏或按上下文条件筛选列表。
+要删除过滤器，请单击 **全部清除** 按钮。
 
-![](assets/filter.png){width="70%" align="left"}
+### 自定义列表屏幕 {#custom-lists}
 
-列表将以列的形式显示。可以更改列配置来显示其他信息。为此，请单击列表右上角的图标。您可以添加或删除列，并更改它们的显示顺序。
+列表将以列的形式显示。可以更改列配置来显示其他信息。要执行此操作，请单击 **为自定义布局配置列** 图标图标。
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+在 **配置列** 屏幕、添加或删除列，以及更改列的显示顺序。
+
+例如，对于这些设置：
 
 ![](assets/columns.png){width="70%" align="left"}
 
-您可以单击任意列标题来对列表中的项目进行排序。将显示一个箭头（向上或向下），指示列表已按该列排序。对于数字或日期列，向上箭头表示列表按升序排序，向下箭头表示列表按降序排序。对于字符串或字母数字列，值将按字母顺序列出。
+该列表显示以下列：
 
-## 上下文帮助和操作入门指南 {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-界面中提供了上下文帮助。在可用时，单击 **?** 图标以显示帮助信息和相关文档链接。
+使用 **显示高级属性** 切换以查看当前列表的所有属性。 [了解详情](#adv-attributes)
+
+### 排序数据 {#sort-lists}
+
+您还可以通过单击任意列标题对列表中的项目进行排序。 将显示一个箭头（向上或向下），指示列表已按该列排序。
+
+对于数值列或日期列， **向上** 箭头指示列表按升序排序，而 **向下** 箭头表示降序。 对于字符串或字母数字列，值将按字母顺序列出。
+
+### 内置过滤器 {#list-built-in-filters}
+
+要更快地查找项目，可以使用搜索栏，或根据上下文条件筛选列表。
+
+![](assets/filter.png){width="70%" align="left"}
+
+例如，您可以根据投放的状态、渠道、联系日期或文件夹筛选投放。 您还可以隐藏测试。
+
+### 自定义筛选条件{#list-custom-filters}
+
+要根据数据创建自定义筛选条件，请浏览到筛选条件的底部，然后单击 **添加规则** 按钮。
+
+拖放属性以在 **高级过滤器** 屏幕。
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+使用 **显示高级属性** 切换以查看当前列表的所有属性。 [了解详情](#adv-attributes)
+
+### 使用高级属性 {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="显示高级属性"
+>abstract="默认情况下，属性列表中只显示最常见的属性。 使用此切换开关可使用高级属性构建过滤器。"
+
+默认情况下，只有最常见的属性会显示在属性列表和过滤器配置屏幕中。
+
+使用 **显示高级属性** 在列表下方切换以查看当前列表的所有可用属性。
+
+
+## 上下文帮助 {#contextual-help}
+
+界面中提供了上下文帮助。如果可用，请单击 `?` 图标来显示帮助信息和相关文档链接。
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-还提供了操作入门指南，帮助您开始使用 Campaign v8 Web。单击右下角的图标，选择一个可用的分步方案，然后按照说明进行操作。
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## 支持的浏览器 {#browsers}
 
@@ -187,17 +233,8 @@ Campaign v8 Web 目前提供以下语言版本：
 要更改您的语言，请执行以下操作：
 
 1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. 然后单击电子邮件地址下方显示的语言。
-
-   ![](assets/preferences2.png)
-
+1. 然后，单击电子邮件地址下方显示的语言链接。
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="规则生成器高级字段"
+>abstract="为列配置高级字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="属性选取器高级字段"
->abstract="为列配置高级字段。"
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="规则生成器高级字段"
->abstract="为列配置高级字段。"
+
 
 
 
