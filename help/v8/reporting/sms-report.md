@@ -3,9 +3,9 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '303'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 6%
 >id="acw_sms_report_overview"
 >title="短信报告摘要"
 >abstract="探索您的短信投放的报告指标。"
+
+此 **短信投放报告** 提供短信渠道的全面概述，提供广泛的见解和特定数据。 它提供有关每次投放的绩效、效率和结果的全面信息。
 
 ## 投放摘要 {#delivery-summary}
 

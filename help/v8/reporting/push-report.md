@@ -3,10 +3,10 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 7%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 7%
 >id="acw_push_report_overview"
 >title="推送报告摘要"
 >abstract="探索您的推送投放的报告指标。"
+
+此 **推送投放报告** 提供了推送渠道的全面概述，提供了广泛的见解和特定数据。 它提供了有关每次投放的表现、效果和结果的全面信息。
 
 ## 推送摘要 {#push-summary}
 
