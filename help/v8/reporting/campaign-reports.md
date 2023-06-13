@@ -3,10 +3,10 @@ audience: end-user
 title: 营销活动报表
 description: 了解如何访问和使用活动报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 1%
+source-wordcount: '1753'
+ht-degree: 2%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 1%
 
 * **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
 
+  此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅 [隔离管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
+
   ![](assets/campaign_report_email_6.png)
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
@@ -183,6 +185,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
+   * **[!UICONTROL 平台平均值]** ：此平均速率显示在每个速率（反应性、非重复点击和累计点击）下，针对过去6个月内发送的投放进行计算。 只考虑具有相同类型和相同渠道的投放。 排除验证。
 +++
 
 * **[!UICONTROL 前10个访问次数最多的链接]** 图和表包含每个链接的收件人行为的可用数据。
