@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 73%
+source-wordcount: '350'
+ht-degree: 72%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 73%
       + [开始使用推送通知](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
       + [设计推送投放](push/content-push.md)
-      + [发送推送通知投放](push/send-push.md)
+      + [预览和发送推送通知投放](push/send-push.md)
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
       + [设计短信投放](sms/content-sms.md)
-      + [发送短信投放](sms/send-sms.md)
+      + [预览和发送短信投放](sms/send-sms.md)
    + 使您的内容成为动态内容 {#dynamic-content}
       + [动态内容入门](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
