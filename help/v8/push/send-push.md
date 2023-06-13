@@ -3,10 +3,10 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 23%
+source-wordcount: '354'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,16 @@ ht-degree: 23%
 
 1. 在右侧窗格中，您将看到电子邮件的预览，其中来自所选配置文件的数据取代个性化的元素。
 
-现在可审查短信消息并将其发送到受众。
+您现在可以检查推送通知并将其发送给受众。
+
+## 测试您的推送通知投放 {#test-send-sms}
+
+使用 **Adobe Campaign**，您能够在将推送通知发送给主受众之前对其进行测试。 此步骤对于验证投放和识别任何问题都非常重要。
+测试收件人可以查看链接、图像和个性化设置等元素，确保最佳性能并检测任何错误。 此过程可帮助您在联系主受众之前优化推送通知。
+
+![](../assets/do-not-localize/book.png) 请参阅此以了解如何发送测试推送通知 [页面](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## 发送推送通知投放 {#preview-send-push}
 

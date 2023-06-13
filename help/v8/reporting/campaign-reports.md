@@ -3,10 +3,10 @@ audience: end-user
 title: 营销活动报表
 description: 了解如何访问和使用活动报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 2%
+source-wordcount: '1682'
+ht-degree: 1%
 
 ---
 
@@ -115,11 +115,19 @@ ht-degree: 2%
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
-   * **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
+   * **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
 
-   * **[!UICONTROL 贡献]**：
+   * **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
 
-   * **[!UICONTROL 细分]**:
+   * **[!UICONTROL 邮箱已满]**：在尝试投放5次后生成的错误类型，旨在指示收件人的收件箱包含太多消息。
+
+   * **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
+
+   * **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝某个地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
+
+   * **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上发生事件、域暂时不可访问等
+
+   * **[!UICONTROL 未连接]**：错误类型，表示收件人的移动电话在发送时关闭或与网络断开。
 
 +++
 
@@ -213,6 +221,8 @@ ht-degree: 2%
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与短信投放的详细信息。
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++了解有关短信营销活动报告量度的更多信息。
 
    * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
@@ -227,6 +237,8 @@ ht-degree: 2%
 
 * **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++了解有关短信营销活动报告量度的更多信息。
 
    * **[!UICONTROL 初始受众]**：目标收件人的总数。
@@ -238,6 +250,8 @@ ht-degree: 2%
 +++
 
 * **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功：
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++了解有关短信营销活动报告量度的更多信息。
 
@@ -252,6 +266,8 @@ ht-degree: 2%
 +++
 
 * **[!UICONTROL 生成的点击流]** 表格显示与收件人与投放的交互方式相关的数据：
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++了解有关短信营销活动报告量度的更多信息。
 

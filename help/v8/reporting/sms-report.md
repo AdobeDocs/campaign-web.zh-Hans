@@ -3,7 +3,7 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -60,6 +60,8 @@ ht-degree: 6%
 +++
 
 * **[!UICONTROL 排除项]** 图表和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
+
+  ![](assets/reporting_sms_6.png)
 
 ## 投放吞吐量 {#delivery-throughput}
 

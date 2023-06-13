@@ -3,7 +3,7 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -46,8 +46,6 @@ ht-degree: 7%
    * **[!UICONTROL 排除项]**：已从分析中排除的用户档案数。
 
 +++
-
-
 
 * **总体统计信息** 显示已发送推送通知的数据，包括：
 

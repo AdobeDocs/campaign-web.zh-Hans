@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 10%
+source-wordcount: '1256'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 * **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 * **[!UICONTROL 投放统计数据]** 表详细说明了您的交付是否成功。
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -46,6 +46,24 @@ ht-degree: 10%
 * **[!UICONTROL 排除的原因]** 图形和表格显示分析期间拒绝的消息按规则细分。
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++了解有关电子邮件投放报告指标的更多信息。
+
+   * **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
+
+   * **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
+
+   * **[!UICONTROL 邮箱已满]**：在尝试投放5次后生成的错误类型，旨在指示收件人的收件箱包含太多消息。
+
+   * **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
+
+   * **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝某个地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
+
+   * **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上发生事件、域暂时不可访问等
+
+   * **[!UICONTROL 未连接]**：错误类型，表示收件人的移动电话在发送时关闭或与网络断开。
+
++++
 
 ## 投放吞吐量 {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ ht-degree: 10%
 
 * **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
 
+  ![](assets/campaign_report_email_6.png)
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
+   * **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
 
-   * **[!UICONTROL 贡献]**：
+   * **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
 
-   * **[!UICONTROL 细分]**:
+   * **[!UICONTROL 邮箱已满]**：在尝试投放5次后生成的错误类型，旨在指示收件人的收件箱包含太多消息。
+
+   * **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
+
+   * **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝某个地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
+
+   * **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上发生事件、域暂时不可访问等
+
+   * **[!UICONTROL 未连接]**：错误类型，表示收件人的移动电话在发送时关闭或与网络断开。
 
 +++
 
