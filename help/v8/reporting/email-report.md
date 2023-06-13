@@ -3,20 +3,22 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 8%
+source-wordcount: '1407'
+ht-degree: 7%
 
 ---
 
 # 电子邮件投放报告 {#email-report}
 
+此 **电子邮件投放报告** 提供特定于电子邮件渠道的综合见解和数据。 它提供有关各个投放的绩效、效果和结果的详细信息，为您提供全面的概述。
+
 ## 投放摘要 {#delivery-summary-email}
 
 * **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -96,6 +98,8 @@ ht-degree: 8%
 
 * **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
 
+  此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅 [隔离管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+
   ![](assets/campaign_report_email_6.png)
 
   +++了解有关电子邮件投放报告指标的更多信息。
@@ -168,6 +172,8 @@ ht-degree: 8%
 
    * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
+   * **[!UICONTROL 平台平均值]** ：此平均速率显示在每个速率（反应性、非重复点击和累计点击）下，针对过去6个月内发送的投放进行计算。 只考虑具有相同类型和相同渠道的投放。 排除验证。
+
 +++
 
 * **[!UICONTROL 前10个访问次数最多的链接]** 图和表包含每个链接的收件人行为的可用数据。
@@ -188,7 +194,7 @@ ht-degree: 8%
 
 ## 用户活动 {#user-activities-email}
 
-* **[!UICONTROL 用户活动]** 以图表的形式显示打开次数和点击次数的细分。
+* **[!UICONTROL 用户活动]** 以图表的形式显示打开次数和点击次数的细分。 可选择定向数据的时段：前一天、一小时或30分钟。
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ ht-degree: 8%
 
 ## 跟踪统计数据 {#tracking-statistics}
 
-* **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。
+* **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。 您可以选择定向数据的特定时间范围。
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -216,11 +222,11 @@ ht-degree: 8%
 
 ## 打开的细分 {#breakdown-opens}
 
-此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。
+此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。您可以灵活地从 **[!UICONTROL 修复和移动]** 以专门为目标 **[!UICONTROL 仅限移动设备]** 更精确的定位。
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## 热门点击
+## 热门点击 {#hotclicks}
 
 此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块退订链接、镜像页面链接和优惠链接将计入总累计点击次数，但不会显示在报告中。
 
