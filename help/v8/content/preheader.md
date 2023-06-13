@@ -4,10 +4,10 @@ title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 61%
+source-wordcount: '209'
+ht-degree: 46%
 
 ---
 
@@ -28,20 +28,22 @@ ht-degree: 61%
 
 要定义电子邮件标头，请执行以下步骤。
 
-1. 在Email Designer中，至少添加 **[!UICONTROL 结构]** 组件以开始设计电子邮件。
+1. 从 [电子邮件设计工具](create-email-content.md)，至少添加 **[!UICONTROL 结构]** 组件以开始设计电子邮件。
 
 1. 单击左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;图标并选择&#x200B;**[!UICONTROL 正文]**。
 
    ![](assets/preheader_body.png)
 
-1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，添加您的邮件引文。可以通过单击&#x200B;**[!UICONTROL 添加个性化内容]**&#x200B;图标来进一步个性化邮件引文。
+1. 从 **[!UICONTROL 设置]** 选项卡，为预告输入一些文本。
+
+1. 要进一步对其进行个性化，请单击 **[!UICONTROL 添加个性化]** 左侧图标 **[!UICONTROL 预告标题]** 字段。
 
    ![](assets/preheader_body_settings.png)
 
-1. 从 **[!UICONTROL 编辑个性化]** 窗口，您可以添加 **[!UICONTROL 内容块]**， **[!UICONTROL 动态内容]** 或 **[!UICONTROL 个性化字段]**.
+1. 从 **[!UICONTROL 编辑个性化]** 窗口，您可以添加 [个性化字段](../personalization/personalize.md)， [内容块](../personalization/content-blocks.md) 和 [条件内容](../personalization/conditions.md) 使用左侧的专用条目。
 
-1. 单击&#x200B;**[!UICONTROL 验证]**&#x200B;以检查您的个性化语法。
+   ![](assets/preheader_body_personalization.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 确认]**。
 
 现已为您的电子邮件配置邮件引文。

@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: 使用电子邮件模板
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 8%
@@ -20,7 +20,7 @@ Campaign提供了一组内置模板，您可以从中选择这些模板。
 
 要开始使用其中一个示例模板构建内容，请执行以下步骤。
 
-1. 打开 [电子邮件设计工具](create-email-content.md).
+1. 打开 [电子邮件设计工具](get-started-email-designer.md).
 
 1. 在 **[!UICONTROL 创建电子邮件]** 屏幕，列表 **[!UICONTROL 示例模板]**  显示。
 
