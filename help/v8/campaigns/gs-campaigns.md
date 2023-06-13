@@ -4,10 +4,10 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 6%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -57,27 +57,10 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 营销活动仪表板{#campaign-dashboard}
 
-在 **浏览** 选项卡，单击营销活动以显示其功能板。 提供了两个选项卡：
+在 **浏览** 选项卡上，单击某个营销活动以显示其功能板。 提供了两个选项卡：
 
 * 此 **工作流** 选项卡列出了链接到营销策划的所有工作流。 利用此选项卡，还可在营销策划内创建新工作流。 查看此 [部分](create-campaigns.md#create-campaigns)
-* 此 **投放** 选项卡列出了链接到营销活动的所有投放。 利用此选项卡，还可在营销策划中创建新投放。 查看此 [部分](create-campaigns.md#create-campaigns)
+* 此 **投放** 选项卡列出了链接到营销活动的所有投放。 您还可以在营销策划内创建新投放。 查看此 [部分](create-campaigns.md#create-campaigns)
 
 此 **配置Campaign设置** 图标允许您修改在创建营销活动时定义的营销活动属性。 查看此 [部分](create-campaigns.md#create-campaigns)
-
-## 监控和跟踪日志{#campaign-monitoring}
-
-营销活动监测是分析营销活动的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
-
-您还可以通过单击 **报告** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
-
-## 复制和删除
-
-您可以复制或删除营销策划：
-
-* 从营销活动列表中，单击省略号按钮，然后选择 **复制** 或 **删除**.
-* 在营销策划本身中，单击 **更多** 按钮，然后选择 **复制** 或 **删除**.
-
->[!NOTE]
->
->此 **投放** 选项卡会显示链接到营销活动的所有投放，但无法从此处删除在工作流中创建的投放。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
 

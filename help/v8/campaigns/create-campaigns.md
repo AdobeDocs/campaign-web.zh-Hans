@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 26%
+source-wordcount: '356'
+ht-degree: 17%
 
 ---
 
@@ -45,6 +45,25 @@ ht-degree: 26%
 
    * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md)
    * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
+1. 使用 **日志** 和 **报告** 用于分析营销活动的按钮。
+
+## 监控和跟踪日志{#campaign-monitoring}
+
+营销活动监测是分析营销活动的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
+
+您还可以通过单击 **报告** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
+
+## 复制和删除营销活动
+
+您可以复制或删除营销策划：
+
+* 从营销活动列表中，单击省略号按钮，然后选择 **复制** 或 **删除**.
+* 在营销策划本身中，单击 **更多** 按钮，然后选择 **复制** 或 **删除**.
+
+>[!NOTE]
+>
+>此 **投放** 选项卡显示链接到营销活动的所有投放，但在工作流中创建的投放无法从中删除。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
