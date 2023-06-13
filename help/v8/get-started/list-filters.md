@@ -2,11 +2,11 @@
 audience: end-user
 title: 浏览、搜索和筛选列表
 description: 了解如何浏览和筛选列表Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -65,6 +65,17 @@ ht-degree: 13%
 >id="acw_attributepicker_advancedfields"
 >title="显示高级属性"
 >abstract="默认情况下，属性列表中只显示最常见的属性。 使用此切换开关可使用高级属性构建过滤器。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="规则生成器高级字段"
+>abstract="为列配置高级字段。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="规则生成器高级属性"
+>abstract="使用高级属性定义您的规则。"
+
 
 默认情况下，只有最常见的属性会显示在属性列表和过滤器配置屏幕中。 设置为的属性 `advanced` 数据架构中的属性会在配置屏幕中隐藏。
 
