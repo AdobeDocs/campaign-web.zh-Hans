@@ -3,7 +3,7 @@ audience: end-user
 title: 浏览、搜索和筛选列表
 description: 了解如何浏览和筛选列表Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 列表将以列的形式显示。可以更改列配置来显示其他信息。要执行此操作，请单击 **为自定义布局配置列** 图标图标。
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 在 **配置列** 屏幕、添加或删除列，以及更改列的显示顺序。
 
