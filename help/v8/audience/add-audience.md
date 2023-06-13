@@ -4,10 +4,10 @@ title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](segment-builder.md)。
 
-   此屏幕将显示在 Adobe Campaign 控制台中定义的或 Adobe Experience Platform 中的所有现有受众。
+   此屏幕显示当前文件夹在Adobe Campaign客户端控制台中定义的所有现有受众。
 
    ![](assets/create-audience2.png)
 
