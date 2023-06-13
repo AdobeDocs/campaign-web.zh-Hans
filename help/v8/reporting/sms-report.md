@@ -3,7 +3,7 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,6 +21,8 @@ ht-degree: 6%
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与短信消息的详细信息。
 
+  ![](assets/reporting_sms_3.png)
+
   +++了解有关短信投放报告量度的更多信息。
 
    * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
@@ -32,9 +34,9 @@ ht-degree: 6%
    * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **目标人群** 图表和表格显示与受众相关的数据。
+
+  ![](assets/reporting_sms_4.png)
 
   +++了解有关短信投放报告量度的更多信息。
 
@@ -43,9 +45,10 @@ ht-degree: 6%
    * **[!UICONTROL 排除项]**：已从分析中排除的用户档案数。
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **总体统计信息** 为已发送的短信消息呈现数据，包括：
+
+  ![](assets/reporting_sms_5.png)
 
   +++了解有关短信投放报告量度的更多信息。
 
@@ -55,8 +58,6 @@ ht-degree: 6%
 
    * **[!UICONTROL 新建隔离]**：已排除并添加到隔离的用户档案数。
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL 排除项]** 图表和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
 

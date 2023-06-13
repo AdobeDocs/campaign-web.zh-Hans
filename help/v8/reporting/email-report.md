@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 10%
@@ -16,6 +16,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 初始目标受众统计数据]** 表格显示与收件人相关的数据：
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
    * **[!UICONTROL 初始受众]**：目标收件人的总数。
@@ -26,6 +28,8 @@ ht-degree: 10%
 +++
 
 * **[!UICONTROL 投放统计数据]** 表详细说明了您的交付是否成功。
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -41,6 +45,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 排除的原因]** 图形和表格显示分析期间拒绝的消息按规则细分。
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## 投放吞吐量 {#delivery-throughtput}
 
 此报表提供有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
@@ -48,6 +54,8 @@ ht-degree: 10%
 ## 广播统计数据 {#broadcast-statistics}
 
 * **[!UICONTROL 广播统计数据]** 表包含每个域可能遇到的错误的可用数据。
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -84,6 +92,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 投放统计数据]** 提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
    * **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
@@ -100,6 +110,8 @@ ht-degree: 10%
 +++
 
 * **[!UICONTROL 打开和点进率]** 表格显示与收件人相关的数据。
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -118,6 +130,8 @@ ht-degree: 10%
 
 * **[!UICONTROL URL和点击流]** 提供关键绩效指标(KPI)，用于提供有关投放期间点击次数最多的URL的详细信息。
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
    * **[!UICONTROL 反应性]**：已单击投放的目标收件人数量与已打开投放的目标收件人估计数量的比率。
@@ -130,6 +144,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 前10个访问次数最多的链接]** 图和表包含每个链接的收件人行为的可用数据。
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
    * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
@@ -140,9 +156,13 @@ ht-degree: 10%
 
 * **[!UICONTROL 一段时间内点击量的细分]** 图形包含每个链接的收件人行为的可用数据。
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## 用户活动 {#user-activities-email}
 
 * **[!UICONTROL 用户活动]** 以图表的形式显示打开次数和点击次数的细分。
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -156,6 +176,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++了解有关电子邮件投放报告指标的更多信息。
 
    * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
@@ -167,6 +189,8 @@ ht-degree: 10%
 ## 打开的细分 {#breakdown-opens}
 
 此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## 热门点击
 

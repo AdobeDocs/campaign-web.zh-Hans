@@ -3,7 +3,7 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -21,6 +21,8 @@ ht-degree: 7%
 
 * **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于提供有关访客如何参与推送消息的详细信息。
 
+  ![](assets/reporting_push_3.png)
+
   +++了解有关推送投放报告量度的更多信息。
 
    * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
@@ -33,9 +35,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **目标人群** 图表和表格显示与受众相关的数据：
+
+  ![](assets/reporting_push_4.png)
 
   +++了解有关推送投放报告量度的更多信息。
 
@@ -45,9 +47,11 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **总体统计信息** 显示已发送推送通知的数据，包括：
+
+  ![](assets/reporting_push_5.png)
 
   +++了解有关推送投放报告量度的更多信息。
 
@@ -58,8 +62,6 @@ ht-degree: 7%
    * **[!UICONTROL 新建隔离]**：已排除并添加到隔离的用户档案数。
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL 排除项]** 图表和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
 
