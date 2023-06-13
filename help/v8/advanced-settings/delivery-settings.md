@@ -4,10 +4,10 @@ title: 电子邮件投放设置
 description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 强制生成镜像页面]**：使用此模式可生成镜像页面，即使在投放时未插入镜像页面的链接也是如此。
 * **[!UICONTROL 不生成镜像页面]**：使用此模式可避免生成镜像页面，即使投放中存在链接也是如此。
-* **[!UICONTROL 生成仅使用消息标识符可访问的镜像页面]**：当电子邮件内容中不存在镜像页面链接时，使用此选项可在投放日志窗口中从客户端控制台访问镜像页面的内容。
+* **[!UICONTROL 生成仅可使用消息标识符访问的镜像页面]**：当电子邮件内容中不存在镜像页面链接时，使用此选项可允许从客户端控制台在投放日志窗口中访问镜像页面的内容。
 
 
 ### 跟踪 {#tracking}
