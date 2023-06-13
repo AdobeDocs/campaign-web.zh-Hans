@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用工作流活动
 description: 了解如何工作流活动
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 8%
+source-wordcount: '305'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign Web允许您跨多个渠道（如电子邮件、短信或推送�
 以下活动特定于组织和执行工作流。 他们的主要任务是协调其他活动：
 
 * 此 [And — 连接](and-join.md) 利用活动，可同步工作流的多个执行分支。
-* 此 [结束](end.md) 活动允许您以图形方式标记工作流的结尾。 此活动对功能没有影响，因此是可选的。
+* 此 **结束** 活动允许您以图形方式标记工作流的结尾。 此活动对功能没有影响，因此是可选的。
 * 此 [分支](fork.md) 利用活动，可创建叫客过渡以同时开始多个活动。
 * 此 [等待](wait.md) 活动可暂停执行部分工作流。
 
