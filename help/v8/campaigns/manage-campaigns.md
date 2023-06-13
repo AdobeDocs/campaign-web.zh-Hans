@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 在营销活动列表中，有两个选项卡可用：
 
-![营销活动列表](assets/campaign-list.png)
-
 * 此 **浏览** 选项卡列出了所有现有营销活动。 您可以单击营销策划以打开其功能板，或通过单击 **创建营销活动** 按钮。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
 * 此 **模板** 选项卡列出了所有可用的活动模板。 营销活动模板已预配置，以便在创建新营销活动时可重复使用。 它们是从客户端控制台创建的。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)
+
+![营销活动列表](assets/campaign-list.png)
 
 列表中的每个营销策划都显示有关其当前状态、创建日期、上次修改时间等的信息。
 
@@ -43,9 +43,9 @@ ht-degree: 6%
 
 提供了两个选项卡：
 
-* 此 **工作流** 选项卡列出了链接到营销策划的所有工作流。 利用此选项卡，还可在营销策划内创建新工作流。 查看此 [部分](create-campaigns.md#create-campaigns)
+* 此 **工作流** 选项卡列出了链接到营销策划的所有工作流。 利用此选项卡，还可在营销策划内创建新工作流。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* 此 **投放** 选项卡列出了链接到营销活动的所有投放。 您还可以在营销策划内创建新投放。 查看此 [部分](create-campaigns.md#create-campaigns)
+* 此 **投放** 选项卡列出了链接到营销活动的所有投放。 您还可以在营销策划内创建新投放。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
 ## 复制和删除营销活动
 
