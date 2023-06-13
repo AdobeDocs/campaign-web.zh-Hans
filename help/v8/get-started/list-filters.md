@@ -3,9 +3,9 @@ audience: end-user
 title: 浏览、搜索和筛选列表
 description: 了解如何浏览和筛选列表Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 13%
 
 ---
@@ -68,4 +68,4 @@ ht-degree: 13%
 
 默认情况下，只有最常见的属性会显示在属性列表和过滤器配置屏幕中。 设置为的属性 `advanced` 数据架构中的属性会在配置屏幕中隐藏。
 
-使用 **显示高级属性** 切换以查看当前列表的所有可用属性。
+激活 **显示高级属性** 切换以查看当前列表的所有可用属性：属性列表会立即更新。
