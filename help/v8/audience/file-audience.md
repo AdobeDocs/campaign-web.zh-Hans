@@ -2,11 +2,11 @@
 audience: end-user
 title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---

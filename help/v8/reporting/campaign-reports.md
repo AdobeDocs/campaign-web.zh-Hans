@@ -2,10 +2,10 @@
 audience: end-user
 title: 营销活动报表
 description: 了解如何访问和使用活动报告
-badge: label="Alpha" type="Positive"
-source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1751'
 ht-degree: 2%
 
 ---

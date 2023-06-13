@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="Alpha" type="Positive"
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 3%
 
 完成工作流后，添加 **[!UICONTROL 结束]** 活动。 此活动允许您以可视方式标记工作流的结尾，而不会对功能产生影响。
 
-成功设计工作流图后，您可以执行工作流并跟踪其各种任务的进度。 [了解如何启动工作流并监视其执行](start-monitor-workflows.md)
+成功设计工作流图后，您可以执行工作流并跟踪其各种任务的进度。 [了解如何启动工作流并监控其执行情况](start-monitor-workflows.md)

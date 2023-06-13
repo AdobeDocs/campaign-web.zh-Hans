@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用组合工作流活动
 description: 了解如何使用合并工作流活动
-badge: label="Alpha" type="Positive"
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 12%
+source-wordcount: '688'
+ht-degree: 11%
 
 ---
 

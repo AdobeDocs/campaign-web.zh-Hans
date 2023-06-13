@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用推送通知工作流活动
 description: 了解如何使用推送通知工作流活动
-badge: label="Alpha" type="Positive"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. 选择您的活动。 从投放菜单中，选择要用于此投放的模板。 了解有关模板的更多信息
+1. 选择您的活动。 从投放菜单中，选择要用于此投放的模板。 详细了解模板
 
 1. 单击创建投放以配置推送通知投放。 有关推送通知(Android)投放的更多信息，请参阅此页面。
 
@@ -57,7 +57,7 @@ ht-degree: 6%
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. 选择您的活动。 从投放菜单中，选择要用于此投放的模板。 了解有关模板的更多信息
+1. 选择您的活动。 从投放菜单中，选择要用于此投放的模板。 详细了解模板
 
 1. 单击创建投放以配置推送通知投放。 有关推送通知(iOS)投放的更多信息，请参阅此页面。
 

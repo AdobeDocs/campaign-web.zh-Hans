@@ -3,11 +3,11 @@ audience: end-user
 title: 为自己的电子邮件内容编写代码
 description: 了解如何为自己的电子邮件内容编写代码
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 98%
 
 ---
 

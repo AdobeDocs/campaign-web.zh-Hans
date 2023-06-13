@@ -3,11 +3,11 @@ audience: end-user
 title: 创建文本版本的电子邮件
 description: 了解如何创建文本版本的电子邮件
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,3 @@ ht-degree: 100%
 >* 在&#x200B;**[!UICONTROL 纯文本]**&#x200B;视图中所做的更改不会反映在 HTML 视图中。
 >
 >* 如果您在更新纯文本内容后重新启用&#x200B;**[!UICONTROL 与 HTML 同步]**&#x200B;选项，您的更改将丢失，并替换为从 HTML 版本生成的文本内容。
-

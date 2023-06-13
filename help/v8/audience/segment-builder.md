@@ -3,11 +3,11 @@ audience: end-user
 title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 97%
+source-wordcount: '547'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 97%
 
 * **属性**：此选项卡可让您访问架构中的所有可用字段。字段列表取决于电子邮件模板中定义的定位架构。
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **受众**：此选项卡可让您使用在 Campaign Classic 控制台中定义的或 Adobe Experience Platform 中的某个现有受众进行筛选。
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >要利用 Adobe Experience Platform 受众，您需要配置与 Destinations 的集成。请参阅 [Destinations 文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}。
+  >[!NOTE]
+  >
+  >要利用 Adobe Experience Platform 受众，您需要配置与 Destinations 的集成。请参阅 [Destinations 文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}。
 
 您可以使用搜索栏快速查找元素。
 

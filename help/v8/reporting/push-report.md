@@ -2,11 +2,11 @@
 audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
-badge: label="Alpha" type="Positive"
-source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 6%
+source-wordcount: '298'
+ht-degree: 5%
 
 ---
 

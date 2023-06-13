@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 77%
+source-wordcount: '228'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 * **活动**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
 
-   在工作流图中，一个给定活动可产生多个任务，尤其是存在循环或重复发生的行动时。
+  在工作流图中，一个给定活动可产生多个任务，尤其是存在循环或重复发生的行动时。
 
 * **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
 

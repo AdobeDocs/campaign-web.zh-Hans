@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用扩充工作流活动
 description: 了解如何使用扩充工作流活动
-badge: label="Alpha" type="Positive"
-source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 27%
+source-wordcount: '626'
+ht-degree: 26%
 
 ---
 

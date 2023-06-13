@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放设置
 description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" type="Positive"
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1471'
 ht-degree: 95%
 
 ---
