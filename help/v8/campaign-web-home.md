@@ -4,7 +4,7 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -55,11 +55,11 @@ Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可�
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="验证" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>思路重新调整的工作流画布界面</strong></a>
+<a href="workflows/gs-workflows.md"><strong>思路重新调整的工作流画布界面</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可�
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="受众" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>使您的内容成为动态内容</strong></a>
+<a href="personalization/gs-personalization.md"><strong>使您的内容成为动态内容</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="验证" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>发送跨渠道投放</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>发送跨渠道投放</strong></a>
 </div>
 <p>
 </td>
