@@ -3,7 +3,7 @@ audience: end-user
 title: 浏览、搜索和筛选列表
 description: 了解如何浏览和筛选列表Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -27,11 +27,11 @@ ht-degree: 13%
 
 例如，对于这些设置：
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 该列表显示以下列：
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 使用 **显示高级属性** 切换以查看当前列表的所有属性。 [了解详情](#adv-attributes)
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 
 要更快地查找项目，可以使用搜索栏，或根据上下文条件筛选列表。
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 例如，您可以根据投放的状态、渠道、联系日期或文件夹筛选投放。 您还可以隐藏测试。
 
@@ -55,7 +55,7 @@ ht-degree: 13%
 
 拖放属性以在 **高级过滤器** 屏幕。
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 使用 **显示高级属性** 切换以查看当前列表的所有属性。 [了解详情](#adv-attributes)
 
