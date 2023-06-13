@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # 动态内容入门
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="个性化"
+>abstract="表达式编辑器允许您选择、排列、自定义和验证所有数据，从而为内容创建自定义体验。 您可以利用用户档案数据为每个收件人个性化消息，并创建条件内容以根据每个收件人调整消息并仅显示相关内容。 此外，个性化块可用于向投放中添加预定义的个性化内容。"
 
 作为营销人员，定位对您的产品真正感兴趣的客户并通过提供有效且相关的内容与他们互动至关重要。 鉴于您遇到的收件人的范围不同，创建多个营销内容以吸引不同的人可能会非常耗时且浪费。 这就是动态内容发挥作用的地方。
 
