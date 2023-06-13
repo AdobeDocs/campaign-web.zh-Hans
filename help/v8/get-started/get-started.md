@@ -4,7 +4,7 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 64%
@@ -51,7 +51,7 @@ Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于�
 
 如果您已连接到其他Adobe Experience Cloud解决方案，则还可以从屏幕右上角的解决方案切换器浏览到Campaign环境。
 
-## 关于 Campaign 客户端控制台{#ac-client}
+## 关于 Campaign 客户端控制台 {#ac-client}
 
 Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
 

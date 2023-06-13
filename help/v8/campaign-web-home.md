@@ -4,7 +4,7 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
+source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可访问性和新设计，可显着改善您的用户体验。 此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 
->Campaign v8 Web 当前为 Alpha 版本。仅可供少量 Alpha 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/release-notes.md)
+>Campaign v8 Web 当前为 Alpha 版本。仅可供少量 Alpha 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
 
 ## Campaign Web新增功能
 
