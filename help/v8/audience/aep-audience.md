@@ -4,10 +4,10 @@ title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 50%
+source-wordcount: '291'
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 >要在Campaign中使用Adobe Experience Platform受众，您需要配置与Adobe源和目标的集成。 请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
-您还可以：
+要选择投放的受众，您还可以：
 
 * 构建新受众。 [了解详情](segment-builder.md)
 * 从外部文件加载受众。 [了解详情](file-audience.md)
 * 使用现有的Campaign受众。 [了解详情](add-audience.md)。
 
-要为消息选择Adobe Experience Platform受众，请执行以下步骤：
+要选择用于投放的Adobe Experience Platform受众，请执行以下步骤：
 
 1. 从投放创建助手的&#x200B;**受众**&#x200B;部分，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
 
@@ -54,5 +54,4 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
 1. 单击&#x200B;**保存**。
 
-您还可以设置对照组来衡量营销活动的影响。对照组不会接收邮件。这使您能够将收到邮件的群体的行为与未收到邮件的联系人的行为进行比较。请参阅[章节](control-group.md)。
 
