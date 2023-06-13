@@ -4,15 +4,15 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
 
-# 创建您的第一个营销活动 {#create-campaigns}
+# 创建您的第一个营销活动 {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 21%
 >title="营销活动属性"
 >abstract="定义营销活动设置和元数据。"
 
-营销活动可以包括工作流和独立投放。 物业、日程、工作、交付以及制定公平日程
+要创建新营销活动，您需要定义其属性、计划并包含工作流和投放。
 
-## 创建营销活动
+## 创建营销活动{#campaign-create}
 
 要创建新营销活动，请执行以下步骤：
 
@@ -40,25 +40,27 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 查看此 [部分](gs-campaigns.md#campaign-dashboard)
+   >您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
 
 1. 单击&#x200B;**创建**。
 1. 将工作流和投放添加到营销活动：
 
-   * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md)
+   * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md).
    * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
 
 1. 使用 **日志** 和 **报告** 用于分析营销活动性能的按钮。
 
 ## 监控和跟踪您的活动{#campaign-monitoring}
 
-营销活动监测是分析营销活动的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
+营销活动监测是分析营销活动效果的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
 
 您还可以通过单击 **报告** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
 
-+++WORKF ++屏幕
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 
