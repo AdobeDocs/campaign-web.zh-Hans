@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '229'
+ht-degree: 26%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 33%
 >title="营销活动属性"
 >abstract="定义营销活动设置和元数据。"
 
+营销活动可以包括工作流和独立投放。
+
 要创建新营销活动，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]** 按钮。
 1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。
    [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
-1. 如果需要，您可以更改 **其他选项**. 请参阅此[章节](#campaign-options)。
+1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、代理人、描述和性质。
 1. 定义 **计划** 您的营销活动。 营销活动在到达开始日期时开始。 开始日期和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](gs-campaigns.md#access-campaigns)。
 
    ![定义营销活动属性](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >您还可以从营销活动标签旁边的&#x200B;**配置营销活动设置**&#x200B;图标访问营销活动属性。查看此 [部分](gs-campaigns.md#campaign-dashboard)
+   >您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 查看此 [部分](gs-campaigns.md#campaign-dashboard)
 
 1. 单击&#x200B;**创建**。
-1. 向活动添加工作流或独立投放。
+1. 向营销活动添加工作流和投放。
+
    * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md)
    * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
-
-## 其他选项 {#campaign-options}
-
-创建新营销活动时，将显示营销活动属性。
-
-下 **其他选项**，您可以配置以下设置：
-
-* 内部名称:
-* 文件夹：选择存储营销活动的文件夹
-* 任务负责人:
-* 说明:
-* 性质：指定营销活动的性质以进行分类
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
