@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# 动态内容入门
+# 动态内容入门 {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 通过Adobe Campaign web dynamic content功能，您可以根据所收集的有关收件人的信息自定义内容。 通过使用动态内容，您可以确保营销工作更相关，从而避免营销不需要或不必要的产品或服务。 此方法使您的内容更具吸引力，并增加其被阅读的可能性。 此外，您还可以个性化内容，使收件人感觉他们是在从人员而不是机器接收信息。
 
-## 如何使您的内容成为动态内容？
+## 如何使您的内容生动活泼？ {#make-content-dyn}
 
 通过在Campaign Web表达式编辑器中插入JavaScript结构，可以使消息内容成为动态内容。 在发送消息时，Adobe Campaign会解释这些表达式，以便为每个收件人提供正确内容：
 
@@ -65,7 +65,7 @@ Adobe Campaign V8 Web提供了一个表达式编辑器，您可以在其中选�
 >
 >除了表达式编辑器之外，在设计电子邮件时，您还可以利用专用的条件内容生成器。 [了解如何在电子邮件中构建条件内容](conditions.md)
 
-## 让我们深入探究
+## 让我们深入探究 {#dive-deeper}
 
 现在，您已了解如何使内容生动活泼，接下来该深入了解这些文档部分以开始使用该功能。
 
