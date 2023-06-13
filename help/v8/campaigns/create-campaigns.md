@@ -2,17 +2,17 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 17%
+source-wordcount: '290'
+ht-degree: 21%
 
 ---
 
 
-# 创建跨渠道营销活动 {#create-campaigns}
+# 创建您的第一个营销活动 {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 17%
 >title="营销活动属性"
 >abstract="定义营销活动设置和元数据。"
 
-营销活动可以包括工作流和独立投放。
+营销活动可以包括工作流和独立投放。 物业、日程、工作、交付以及制定公平日程
+
+## 创建营销活动
 
 要创建新营销活动，请执行以下步骤：
 
@@ -32,7 +34,7 @@ ht-degree: 17%
 1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。
    [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
 1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
-1. 定义 **计划** 您的营销活动。 营销活动在到达开始日期时开始。 开始日期和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](gs-campaigns.md#access-campaigns)。
+1. 定义 **计划** 您的营销活动。 营销活动在到达开始日期时开始。 开始日期和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
 
    ![定义营销活动属性](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ ht-degree: 17%
 
 1. 使用 **日志** 和 **报告** 用于分析营销活动性能的按钮。
 
-## 监控和跟踪日志{#campaign-monitoring}
+## 监控和跟踪您的活动{#campaign-monitoring}
 
 营销活动监测是分析营销活动的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
 
 您还可以通过单击 **报告** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
 
-## 复制和删除营销活动
-
-您可以复制或删除营销策划：
-
-* 从营销活动列表中，单击省略号按钮，然后选择 **复制** 或 **删除**.
-* 在营销策划本身中，单击 **更多** 按钮，然后选择 **复制** 或 **删除**.
-
->[!NOTE]
->
->此 **投放** 选项卡显示链接到营销活动的所有投放。 但是，不能从工作流中删除在该工作流中创建的投放。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
-
++++WORKF ++屏幕
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
