@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
+source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 74%
+source-wordcount: '346'
+ht-degree: 73%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 74%
 + 开始使用 Adobe Campaign {#start}
    + [开始使用](get-started/get-started.md)
    + [探索界面](get-started/user-interface.md)
+   + [浏览、搜索和筛选列表](get-started/list-filters.md)
 + 消息和投放 {#msg}
    + [消息入门](msg/gs-messages.md)
    + [使用投放模板](msg/delivery-template.md)
