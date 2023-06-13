@@ -4,9 +4,9 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '465'
 ht-degree: 7%
 
 ---
@@ -41,11 +41,15 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 访问和管理您的活动{#access-campaigns}
 
-要创建新营销活动或管理现有营销活动，请单击 **[!UICONTROL 营销活动]** 菜单。 提供了两个选项卡：
+要创建新营销活动或管理现有营销活动，请单击 **[!UICONTROL 营销活动]** 菜单。
 
-* 此 **浏览** 选项卡列出了所有现有营销活动。 您可以单击营销策划以打开其功能板，或通过单击 **创建营销活动** 按钮。 查看此 [部分](create-campaigns.md#create-campaigns)
+![营销活动列表](assets/campaign-list.png)
 
-* 此 **模板** 选项卡列出了所有可用的活动模板。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。 [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
+提供了两个选项卡：
+
+* 此 **浏览** 选项卡列出了所有现有营销活动。 您可以单击营销策划以打开其功能板，或通过单击 **创建营销活动** 按钮。 请参阅此[章节](create-campaigns.md#create-campaigns)。
+
+* 此 **模板** 选项卡列出了所有可用的活动模板。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)
 
 列表中的每个营销策划都显示有关其当前状态、创建日期、上次修改时间等的信息。
 
@@ -53,14 +57,18 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 例如，您可以根据营销活动计划进行筛选。 打开过滤器面板并使用 **开始 — 结束日期** 部分：
 
-![营销活动列表](assets/campaign-filter-on-dates.png)
+![营销活动过滤器](assets/campaign-filter-on-dates.png)
 
 ## 营销活动仪表板{#campaign-dashboard}
 
-在 **浏览** 选项卡上，单击某个营销活动以显示其功能板。 提供了两个选项卡：
+在 **浏览** 选项卡上，单击某个营销活动以显示其功能板。
+
+![Campaign信息板](assets/campaign-dashboard.png)
+
+营销活动的状态和计划显示在屏幕顶部。 您可以使用 **配置Campaign设置** 图标，以修改创建营销活动时定义的营销活动属性。 有三个按钮可供您查看日志、报告、复制或删除营销策划。 查看此 [部分](create-campaigns.md#create-campaigns)
+
+提供了两个选项卡：
 
 * 此 **工作流** 选项卡列出了链接到营销策划的所有工作流。 利用此选项卡，还可在营销策划内创建新工作流。 查看此 [部分](create-campaigns.md#create-campaigns)
 * 此 **投放** 选项卡列出了链接到营销活动的所有投放。 您还可以在营销策划内创建新投放。 查看此 [部分](create-campaigns.md#create-campaigns)
-
-此 **配置Campaign设置** 图标允许您修改在创建营销活动时定义的营销活动属性。 查看此 [部分](create-campaigns.md#create-campaigns)
 

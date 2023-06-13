@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 17%
@@ -45,6 +45,7 @@ ht-degree: 17%
 
    * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md)
    * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
+
 1. 使用 **日志** 和 **报告** 用于分析营销活动的按钮。
 
 ## 监控和跟踪日志{#campaign-monitoring}
@@ -62,7 +63,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->此 **投放** 选项卡显示链接到营销活动的所有投放，但在工作流中创建的投放无法从中删除。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
+>此 **投放** 选项卡显示链接到营销活动的所有投放。 但是，不能从工作流中删除在该工作流中创建的投放。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
 
 
 <!--
