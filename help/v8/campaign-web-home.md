@@ -4,10 +4,10 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可�
 
 根据您收集的有关收件人的信息自定义内容。 利用动态内容使您的内容更具吸引力，并增加其被读取的可能性。 利用用户档案数据（如名字、兴趣、居住地、购买内容等），个性化您发送给每个特定收件人的消息。 创建条件内容以根据每个收件人调整投放，并根据您拥有的关于给定客户的信息仅显示与其相关的内容。
 
-**发送跨渠道投放**
+**创建跨渠道活动**
 
 使用 Adobe Campaign 创建跨渠道营销活动。借助其营销活动编排功能，您可以管理和集中客户数据、设计客户通信和营销活动，以及跨不同渠道创建个性化体验。 在此版本中，电子邮件、推送和短信渠道可用。 使用详细报告（包括打开次数、点击次数、转发次数等）衡量投放的有效性。
 
@@ -64,11 +64,11 @@ Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可�
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="不常见" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>向Email Designer</strong></a>
+<a href="content/get-started-email-designer.md"><strong>向Email Designer</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Campaign现在提供新的Web用户界面(UI)，具有增强的可用性、可�
 <img alt="验证" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>发送跨渠道投放</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>创建跨渠道活动</strong></a>
 </div>
 <p>
 </td>
