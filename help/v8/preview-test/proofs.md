@@ -4,7 +4,7 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
   它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[从主要目标替换](#substitution-profiles)**  — 发送 **测试电子邮件和短信** 到特定电子邮件地址或电话号码。
+* [从主要目标替换](#substitution-profiles)  — 发送 **测试电子邮件和短信** 到特定电子邮件地址或电话号码。
 
   这样，您就可以像收件人一样体验消息，从而准确呈现用户档案将收到的内容。
 
-* **[订阅者](#subscribers)**  — 发送 **测试推送通知** 添加到数据库的虚构订阅者。
+* [订阅者](#subscribers)  — 发送 **测试推送通知** 添加到数据库的虚构订阅者。
 
   就像测试用户档案一样，它们也可以在 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
