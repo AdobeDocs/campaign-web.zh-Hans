@@ -4,10 +4,10 @@ title: 发送优惠
 description: 发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign v8 Web 可让您使用&#x200B;**[!UICONTROL 交互]**&#x200B;模�
 
    ![](assets/create-content-offers.png)
 
-1. 要细化引擎的优惠选择，请选择已在其中对优惠排序的特定&#x200B;**[!UICONTROL 优惠类别]**。
+1. 要细化引擎的优惠选择，请选择已在其中对优惠排序的特定&#x200B;**[!UICONTROL 优惠类别]**。选择文件夹时，会自动包含所有子文件夹，并且无法将其删除。 请注意，UI不会反映此行为。
 
    如果未指定类别，除非已选中&#x200B;**[!UICONTROL 优惠主题]**，否则优惠引擎将考虑环境中包含的所有优惠。
 
