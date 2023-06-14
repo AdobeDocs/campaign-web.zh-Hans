@@ -4,10 +4,10 @@ title: 发送优惠
 description: 发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '552'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,7 @@ Adobe Campaign v8 Web 可让您使用&#x200B;**[!UICONTROL 交互]**&#x200B;模�
 
    如果未指定类别，除非已选中&#x200B;**[!UICONTROL 优惠主题]**，否则优惠引擎将考虑环境中包含的所有优惠。
 
-   >[!NOTE]
-   >
-   >主题是在类别上游定义的关键字。它们充当筛选器，可让您通过在一组类别中选择优惠来细化要显示的优惠数量。
+1. （可选）输入主题以筛选类别。 主题是在类别上游定义的关键字。它们充当筛选器，可让您通过在一组类别中选择优惠来细化要显示的优惠数量。
 
 1. 使用&#x200B;**[!UICONTROL 建议]**&#x200B;字段可指定要插入电子邮件中的优惠数量。
 
