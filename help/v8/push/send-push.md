@@ -3,43 +3,47 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 13%
+source-wordcount: '371'
+ht-degree: 0%
 
 ---
 
-# 预览和发送推送通知投放 {#send-push}
+# 预览和发送推送通知投放 {#send-push-delivery}
 
 ## 预览推送通知投放 {#preview-push}
 
-定义消息内容后，您可以利用测试用户档案预览和测试消息。 如果您已包含个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。 这样，您就可以确保正确呈现消息，并正确合并个性化元素。
+定义消息内容后，您可以利用测试订阅者来预览和测试消息。 如果您已包含个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。 这样，您就可以确保正确呈现消息，并正确合并个性化元素。
 
-1. 在投放内容页面中，您可以使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
+预览短信投放的主要步骤如下。 有关如何预览投放的更多详细信息，请参阅 [本节](../preview-test/preview-content.md).
+
+1. 在投放内容页面中，使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
 
    ![](assets/push_send_1.png)
 
-1. 单击&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
+1. 单击 **[!UICONTROL 添加订阅者]** 选择一个或多个用户档案，以在推送通知内容中预览其数据。
 
-1. 选择测试配置文件后，单击&#x200B;**[!UICONTROL 选择]**。
 
-   ![](assets/push_send_5.png)
+   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png)-->
 
-1. 在右侧窗格中，您将看到电子邮件的预览，其中来自所选配置文件的数据取代个性化的元素。
+1. 在右侧窗格中，您将找到推送通知的预览，其中个性化元素会动态替换为所选配置文件中的数据。
+
+   ![](assets/push_send_7.png)
 
 您现在可以检查推送通知并将其发送给受众。
 
-## 测试您的推送通知投放 {#test-send-sms}
+## 测试您的推送通知投放 {#test-push}
 
 使用 **Adobe Campaign**，您能够在将推送通知发送给主受众之前对其进行测试。 此步骤对于验证投放和识别任何问题都非常重要。
 测试收件人可以查看链接、图像和个性化设置等元素，确保最佳性能并检测任何错误。 此过程可帮助您在联系主受众之前优化推送通知。
 
-![](../assets/do-not-localize/book.png) 请参阅此以了解如何发送测试推送通知 [页面](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) 了解如何在中发送测试推送通知 [本节](../preview-test/proofs.md#subscribers).
 
 ![](assets/push_send_6.png)
 
-## 发送推送通知投放 {#preview-send-push}
+## 发送推送通知投放 {#send-push}
 
 1. 个性化推送通知内容后，单击 **[!UICONTROL 查看并发送]** 来自您的 **[!UICONTROL 投放]** 页面。
 
@@ -57,6 +61,6 @@ ht-degree: 13%
 
    ![](assets/push_send_4.png)
 
-发送投放后，您可以从投放页面跟踪KPI（关键绩效指标）数据，并从“日志”菜单跟踪数据。
+发送投放后，您可以从投放页面跟踪KPI（关键绩效指标）数据，并从 **[!UICONTROL 日志]** 菜单。
 
 您现在可以使用内置报告开始衡量消息的影响。 [了解详情](../reporting/push-report.md)

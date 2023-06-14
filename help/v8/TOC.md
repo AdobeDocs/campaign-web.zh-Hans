@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 71%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 71%
             + [定义链接的样式](content/styling-links.md)
             + [添加内联样式属性](content/inline-styling.md)
          + [发送优惠](content/offers.md)
-      + 预览和测试电子邮件 {#preview-test}
-         + [关于预览和测试](preview-test/preview-test.md)
-         + [预览电子邮件内容](preview-test/preview-content.md)
-         + [呈现您的电子邮件](preview-test/email-rendering.md)
-         + [发送测试电子邮件](preview-test/proofs.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [监控投放日志](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 71%
       + [添加个性化内容](personalization/personalize.md)
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
+   + 预览和测试您的投放 {#preview-test}
+      + [关于预览和测试](preview-test/preview-test.md)
+      + [预览消息内容](preview-test/preview-content.md)
+      + [发送测试投放](preview-test/proofs.md)
+      + [呈现您的电子邮件](preview-test/email-rendering.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
