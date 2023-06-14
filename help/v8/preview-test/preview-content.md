@@ -4,9 +4,9 @@ title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 10%
 
 1. 要选择将用于预览个性化内容的配置文件，请使用：
 
-   * **[!UICONTROL 添加测试配置文件]** 用于预览电子邮件和短信消息
+   * **[!UICONTROL 添加测试配置文件]** 用于预览电子邮件和短信投放
 
-   * **[!UICONTROL 添加订阅者]** 用于预览推送投放
+   * **[!UICONTROL 添加订阅者]** 用于预览推送通知
 
 1. 您可以组合测试用户档案和用户档案，以预览电子邮件或短信消息。
 
