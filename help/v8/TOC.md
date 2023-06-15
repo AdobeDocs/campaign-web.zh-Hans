@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 34bed4f276fd0eeb54ad23ddd02e833a0547f707
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 68%
       + [And — 连接](workflows/activities/and-join.md)
       + [构建受众](workflows/activities/build-audience.md)
       + [结合](workflows/activities/combine.md)
-      + [电子邮件、短信、推送](workflows/activities/email.md)
+      + [电子邮件、短信、推送](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
       + [分叉](workflows/activities/fork.md)
       + [等待](workflows/activities/wait.md)

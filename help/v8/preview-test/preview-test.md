@@ -4,10 +4,10 @@ title: 关于电子邮件预览和测试
 description: 了解如何预览和测试电子邮件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 18%
 >id="acw_deliveries_simulate"
 >title="预览和测试消息"
 >abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="预览投放内容"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="发送测试消息"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="预览投放内容"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="发送测试消息"
 
 定义投放内容后，您可以使用测试用户档案在发送消息之前进行预览和测试。
 
