@@ -3,10 +3,10 @@ audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 12%
 
 ---
 
@@ -34,9 +34,7 @@ ht-degree: 0%
 
    您可以从渠道活动配置左窗格中选择其他模板。 如果之前选择的受众与渠道不兼容，则您无法选择模板。 要解决此问题，请更新 **构建受众** 活动以选择具有正确目标映射的受众。 在中了解有关目标映射的更多信息 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
-1. 单击 **创建投放**. 您的投放现在可在投放列表中找到。
-
-1. 按照创建独立投放的方式定义消息设置和内容。 您还可以计划和模拟内容。 [了解详情](../../msg/gs-messages.md)
+1. 单击 **创建投放**. 按照创建独立投放的方式定义消息设置和内容。 您还可以计划和模拟内容。 [了解详情](../../msg/gs-messages.md)。
 
 1. 导航回工作流，并保存更改。
 
