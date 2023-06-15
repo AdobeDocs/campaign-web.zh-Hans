@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 7%
+source-wordcount: '416'
+ht-degree: 8%
 
 ---
 
@@ -56,4 +56,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此 **投放** 选项卡显示链接到营销活动的所有投放。 但是，不能从工作流中删除在该工作流中创建的投放。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
+>此 **投放** 选项卡显示链接到营销活动的所有投放。 但是，不能从工作流中删除在该工作流中创建的投放。 要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。 [了解详情](../msg/gs-messages.md#delivery-delete)。
