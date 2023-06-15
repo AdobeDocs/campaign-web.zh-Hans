@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-email.png)
 
-1. 使用 **[!UICONTROL 模式]** 用于选择接收测试电子邮件或短信投放的收件人类型的下拉列表：
+1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **测试用户档案** 定位将接收测试电子邮件或短信投放的虚拟收件人。
 
-   * **测试用户档案** 定位虚构的收件人
-
-   如果您已经将配置文件选择为 [预览消息](preview-content.md) 在内容模拟屏幕中，这些用户档案被预选为测试收件人。 您可以使用清除选择和/或添加其他收件人 **[!UICONTROL 添加测试配置文件]** 按钮。
-
-   * **从主要目标替换** 在显示现有用户档案中的数据时向特定的电子邮件地址或电话号码发送测试。 [了解详情](#substitution-profiles)
+1. 如果您已经将配置文件选择为 [预览消息](preview-content.md) 在内容模拟屏幕中，这些用户档案被预选为测试收件人。 您可以使用清除选择和/或添加其他收件人 **[!UICONTROL 添加测试配置文件]** 按钮。
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ ht-degree: 1%
 
 ### 替换配置文件 {#substitution-profiles}
 
-要在显示来自Campaign数据库现有用户档案的数据时向特定电子邮件地址或电话号码发送测试电子邮件或短信，请使用替换用户档案。
+在显示来自的现有用户档案的数据时，将测试电子邮件或短信发送到特定的电子邮件地址或电话号码 [!DNL Campaign] 数据库，使用替换配置文件。
 
-为此，第一步与选择时相同 [测试用户档案](#test-profiles)，但请选择 **[!UICONTROL 从目标替换]** 模式并按照以下步骤操作。
+1. 在发送测试之前，请确保为投放定义受众。 [了解详情](../audience/about-audiences.md)
+
+1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
+
+1. 单击 **[!UICONTROL 测试]** 按钮。
+
+   >[!NOTE]
+   >
+   >如果您已经将配置文件选择为 [预览投放](preview-content.md)，它们会列在左窗格中。
+
+   ![](assets/simulate-test-button-email.png)
+
+1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **从主要目标替换** 在显示现有用户档案中的数据时向特定的电子邮件地址或电话号码发送测试。
 
 1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定要接收测试投放的电子邮件地址或电话号码。
 
