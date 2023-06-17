@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-email.png)
 
-1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **测试用户档案** 定位将接收测试电子邮件或短信投放的虚拟收件人。
-
-1. 如果您已经将配置文件选择为 [预览消息](preview-content.md) 在内容模拟屏幕中，这些用户档案被预选为测试收件人。 您可以使用清除选择和/或添加其他收件人 **[!UICONTROL 添加测试配置文件]** 按钮。
+1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **[!UICONTROL 测试用户档案]** 定位将接收测试电子邮件或短信投放的虚拟收件人。
 
    ![](assets/simulate-profile-mode.png)
+
+1. 如果您已经将配置文件选择为 [预览消息](preview-content.md) 在内容模拟屏幕中，这些用户档案被预选为测试收件人。 您可以使用清除选择和/或添加其他收件人 **[!UICONTROL 添加测试配置文件]** 按钮。
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL 测试]** 按钮。
 
-   >[!NOTE]
-   >
-   >如果您已经将配置文件选择为 [预览投放](preview-content.md)，它们会列在左窗格中。
-
    ![](assets/simulate-test-button-email.png)
 
-1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **从主要目标替换** 在显示现有用户档案中的数据时向特定的电子邮件地址或电话号码发送测试。
+1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **[!UICONTROL 从主要目标替换]** 在显示现有用户档案中的数据时向特定的电子邮件地址或电话号码发送测试。
+
+   >[!CAUTION]
+   >
+   >如果您尚未选择 [受众](../audience/about-audiences.md) 对于您的投放， **[!UICONTROL 从主要目标替换]** 选项将灰显，您将无法选择替代配置文件。
 
 1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定要接收测试投放的电子邮件地址或电话号码。
 
-   您可以输入任何电子邮件地址或电话号码。 这允许您向任何收件人发送测试投放，即使他们不是的用户 [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >您可以输入任何电子邮件地址或电话号码。 这允许您向任何收件人发送测试投放，即使他们不是的用户 [!DNL Adobe Campaign].
 
 1. 从数据库中选择要用作替换的配置文件。 您还可以让 [!DNL Adobe Campaign] 选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在测试投放中。
 
@@ -105,7 +109,9 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-push.png)
 
-1. 如果您已选择订阅者 [预览投放](preview-content.md) 在内容模拟屏幕中，预先选择这些用户档案作为测试订阅者。 您可以使用专用按钮清除选择和/或添加其他订阅者。
+1. 如果您已选择订阅者 [预览投放](preview-content.md) 在内容模拟屏幕中，预先选择这些用户档案作为测试订阅者。
+
+   您可以使用专用按钮清除选择和/或添加其他订阅者。
 
    ![](assets/simulate-test-subscribers.png)
 
