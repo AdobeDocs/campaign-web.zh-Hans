@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '423'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # 访问和管理您的活动{#manage-campaigns}
 
-要创建新营销活动或管理现有营销活动，请单击 **[!UICONTROL 营销活动]** 菜单。
+要创建新营销策划或管理现有营销策划，请单击 **[!UICONTROL 营销活动]** 菜单。
 
 ## 营销活动列表{#access-campaigns}
 
@@ -25,9 +25,9 @@ ht-degree: 8%
 
 ![营销活动列表](assets/campaign-list.png)
 
-列表中的每个营销策划都显示有关其当前状态、创建日期、上次修改时间等的信息。
+默认情况下，列表中的每个营销活动都会显示有关其当前状态、创建日期、上次修改时间等的信息。
 
-您可以通过单击 **为自定义布局配置列** 图标图标。 这允许您向列表添加其他信息。 此外，还提供搜索栏和过滤器，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)
+您可以通过单击 **为自定义布局配置列** 图标图标。 这允许您向列表添加其他信息。 此外，还提供搜索栏和过滤器，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)。
 
 例如，您可以根据营销活动计划进行筛选。 打开过滤器面板并使用 **开始 — 结束日期** 部分：
 
@@ -45,7 +45,7 @@ ht-degree: 8%
 
 * 此 **工作流** 选项卡列出了链接到营销策划的所有工作流。 利用此选项卡，还可在营销策划内创建新工作流。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* 此 **投放** 选项卡列出了链接到营销活动的所有投放。 您还可以在营销策划内创建新投放。 请参阅此[章节](create-campaigns.md#create-campaigns)。
+* 此 **投放** 选项卡列出了链接到当前营销活动的所有投放。 您还可以在营销策划内创建新投放。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
 ## 复制和删除营销活动
 

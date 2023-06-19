@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    + [设置对照组](audience/control-group.md)
 + 跨渠道营销活动 {#campaigns}
    + [开始使用营销活动](campaigns/gs-campaigns.md)
-   + [管理您的活动](campaigns/manage-campaigns.md)
+   + [访问和管理营销活动](campaigns/manage-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
 + 工作流{#wf}
    + [开始使用工作流](workflows/gs-workflows.md)

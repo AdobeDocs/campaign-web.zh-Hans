@@ -4,10 +4,10 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Campaign允许您使用内置的营销活动管理功能，轻松编排有
 
 通过添加特定于营销活动的多个工作流和投放，您可以跨各种渠道创建个性化体验，确保每个接触点与预期受众产生共鸣。
 
-营销活动提供专用的报告量度，可全面了解整个营销活动的绩效，使您能够评估其有效性、识别趋势并做出数据驱动型决策以优化未来的工作。
+营销活动提供专用的报告量度，可全面了解整个营销活动的绩效，使您能够评估其有效性、识别趋势并做出数据驱动型决策以优化未来的工作。 了解如何在中访问和了解营销活动报告 [本节](../reporting/campaign-reports.md).
 
 ![营销活动流程](assets/campaign-flow.png)
 
-请参阅以下章节：
+请在以下部分中了解如何创建和管理营销活动：
 
 * [访问和管理您的活动](manage-campaigns.md)
 * [创建您的第一个营销活动](create-campaigns.md)
