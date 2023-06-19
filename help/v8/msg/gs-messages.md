@@ -4,14 +4,20 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 82%
+source-wordcount: '1119'
+ht-degree: 83%
 
 ---
 
 # 消息入门{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="投放"
+>abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。可按状态、联系日期或渠道筛选该列表。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
+
 
 借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。
 
@@ -52,6 +58,7 @@ Adobe Campaign v8附带以下投放渠道：电子邮件、短信和移动应用
 
 
 ## 创建投放 {#create-delivery}
+
 
 您可以从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单创建独立投放，也可以从&#x200B;**[!UICONTROL 营销活动]**&#x200B;左侧菜单在市场营销活动的上下文中创建投放。
 
