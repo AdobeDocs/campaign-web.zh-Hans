@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 78%
+source-wordcount: '1318'
+ht-degree: 77%
 
 ---
 
@@ -62,10 +62,7 @@ ht-degree: 78%
 >title="营销活动"
 >abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮以添加新的营销活动。选择营销活动以查看其内容、投放情况和详细信息。浏览到“模板”选项卡以查看和创建模板。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="投放"
->abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。可按状态、联系日期或渠道筛选该列表。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
+
 
 在CAMPAIGN MANAGEMENT部分中，您可以访问营销活动、投放和工作流。
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="错误数指标"
 >abstract="处于出错状态的电子邮件数量。"
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="测试群体"
->abstract="选择测试群体模式。"
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="预览模式"
->abstract="通过将测试群体包括在主目标中而预览和测试消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"

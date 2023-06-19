@@ -4,14 +4,19 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # 发送测试投放 {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="预览模式"
+>abstract="通过将测试群体包括在主目标中而预览和测试消息。"
 
 **[!UICONTROL Adobe Campaign]** 用于在将消息发送到主受众之前对其进行测试。
 
@@ -20,6 +25,15 @@ ht-degree: 1%
 测试的收件人可以检查各种元素，例如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
 ## 选择测试收件人 {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="测试群体"
+>abstract="选择测试群体模式。"
+
+
 
 根据您使用的渠道，可以将测试消息发送给三种类型的收件人：
 
@@ -38,6 +52,7 @@ ht-degree: 1%
 要选择测试投放的收件人，请根据要使用的用户档案类型执行以下步骤。
 
 ### 测试用户档案 {#test-profiles}
+
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
