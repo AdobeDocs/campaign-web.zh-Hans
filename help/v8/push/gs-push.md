@@ -6,29 +6,29 @@ badge: label="Alpha"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '201'
+ht-degree: 93%
 
 ---
 
 # 开始使用推送通知 {#push}
 
-推送通知对于联系您的移动应用程序用户至关重要，即使他们未主动使用您的应用程序。 它们有多种用途，如提供更新、推动特定操作和通知交易。 请注意，用户必须选择加入才能接收这些通知。
+推送通知对于联系移动应用程序用户至关重要，即使他们并未主动使用您的应用程序也是如此。它们具有多种用途，例如提供更新、推动特定操作以及告知交易。请注意，用户必须选择启用以接收这些通知。
 
-要创建推送通知，您有三个选项：
+要创建推送通知，您可以使用以下三个选项：
 
-* 工作流：将推送渠道活动添加到工作流并配置基本设置后，您可以从右侧窗格菜单中制作推送通知的内容。 有关如何配置工作流的详细说明，请参阅此页面。
+* 工作流：将推送渠道活动添加到工作流并配置基本设置后，可以从右侧窗格菜单中草拟推送通知的内容。有关如何配置工作流的详细说明，请参阅此页面。
 
-* 营销活动：创建营销活动后，即可创建推送通知投放。 有关设置营销策划的更多信息，请参阅此页面。
+* 营销活动：创建营销活动后，可以创建推送通知投放。有关如何设置营销活动的更多信息，请参阅此页面。
 
-* 独立投放：通过单个推送通知投放直接即时吸引客户，而无需工作流或营销活动。
+* 独立投放：利用个人推送通知投放直接、即时地与客户互动，无需工作流或营销活动。
 
 ![](../assets/do-not-localize/book.png) 了解如何在中配置推送通知渠道 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="商机" src="assets/do-not-localize/push_create.jpeg">
+<img alt="潜在客户" src="assets/do-not-localize/push_create.jpeg">
 </a>
 <div><a href="create-push.md"><strong>创建推送投放</strong>
 </div>

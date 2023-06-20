@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 68%
 # Adobe Campaign v8 Web 文档 {#v8}
 
 + [Campaign v8 Web 文档](campaign-web-home.md)
-+ [新增功能？](rn/whats-new.md)
++ [新增功能](rn/whats-new.md)
 + [文档更新](rn/documentation-updates.md)
 + 开始使用 Adobe Campaign {#start}
    + [开始使用](get-started/get-started.md)
    + [探索界面](get-started/user-interface.md)
    + [浏览、搜索和筛选列表](get-started/list-filters.md)
 + 消息和投放 {#msg}
-   + [消息入门](msg/gs-messages.md)
+   + [开始使用消息](msg/gs-messages.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + 定义电子邮件内容 {#content}
          + [配置电子邮件内容](content/edit-content.md)
-         + 开始塑造电子邮件 {#start-design}
-            + [Email Designer 入门](content/get-started-email-designer.md)
+         + 开始计划您的电子邮件 {#start-design}
+            + [开始使用电子邮件设计器](content/get-started-email-designer.md)
             + [从头开始](content/create-email-content.md)
             + [导入电子邮件内容](content/existing-content.md)
             + [为自己的内容编写代码](content/code-content.md)
@@ -55,14 +55,14 @@ ht-degree: 68%
       + [开始使用推送通知](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
       + [设计推送投放](push/content-push.md)
-      + [预览和发送推送通知投放](push/send-push.md)
+      + [预览并发送推送通知投放](push/send-push.md)
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
       + [设计短信投放](sms/content-sms.md)
-      + [预览和发送短信投放](sms/send-sms.md)
-   + 使您的内容成为动态内容 {#dynamic-content}
-      + [动态内容入门](personalization/gs-personalization.md)
+      + [预览并发送短信投放](sms/send-sms.md)
+   + 将内容设置为动态内容 {#dynamic-content}
+      + [开始使用动态内容](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
@@ -71,7 +71,7 @@ ht-degree: 68%
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
       + [发送测试投放](preview-test/proofs.md)
-      + [呈现您的电子邮件](preview-test/email-rendering.md)
+      + [渲染电子邮件](preview-test/email-rendering.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
    + [选择现有受众](audience/add-audience.md)
@@ -89,23 +89,23 @@ ht-degree: 68%
    + 创建并运行您的第一个工作流 {#create-workflow}
       + [创建工作流的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
-      + [编排活动](workflows/orchestrate-activities.md)
+      + [安排活动](workflows/orchestrate-activities.md)
       + [配置工作流设置](workflows/workflow-settings.md)
       + [启动和监控工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
       + [关于工作流活动](workflows/activities/about-activities.md)
-      + [And — 连接](workflows/activities/and-join.md)
-      + [构建受众](workflows/activities/build-audience.md)
+      + [And-join](workflows/activities/and-join.md)
+      + [生成受众](workflows/activities/build-audience.md)
       + [结合](workflows/activities/combine.md)
       + [电子邮件、短信、推送](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
       + [分叉](workflows/activities/fork.md)
       + [等待](workflows/activities/wait.md)
-+ 报告{#reports}
-   + [报告入门](reporting/gs-reports.md)
++ 报告 {#reports}
+   + [开始使用报告](reporting/gs-reports.md)
    + 投放报告 {#delivery-report}
       + [访问投放报告](reporting/delivery-reports.md)
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
-   + [营销活动报表](reporting/campaign-reports.md)
+   + [营销活动报告](reporting/campaign-reports.md)

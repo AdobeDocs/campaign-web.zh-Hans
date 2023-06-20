@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: 报告入门
-description: 了解如何在Campaign Web中访问和管理报告
+title: 开始使用报告
+description: 了解如何在 Campaign Web 中访问和管理报告
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 6%
+ht-degree: 98%
 
 ---
 
-# 报告入门 {#get-started-reports}
+# 开始使用报告 {#get-started-reports}
 
-我们全面的报表工具套件提供了有关营销工作有效性的宝贵见解，从而使您能够优化营销活动以发挥最大影响。 从投放率到打开率和点进率，我们的报表包提供了您做出数据驱动型决策所需的一切，这些决策可产生成效&#x200B;。
+我们全面的报告工具包提供了有关营销工作效力的有价值的见解，使您能够优化营销活动以实现最佳效果。从投放率到打开率和点进率，我们的报告包可提供您制定加快获得成果的数据驱动型决策所需的一切。
 
-Adobe Campaign提供两种不同的报表：
+Adobe Campaign 提供两种不同的报告：
 
-* **投放报告**：此 **投放报告** 提供特定于每个渠道的综合见解和数据。 它提供有关各个投放的绩效、效果和结果的详细信息，为您提供全面的概述。
+* **投放报告**：**投放报告**&#x200B;提供特定于每个渠道的综合见解和数据。它提供有关个人投放的绩效、效力和结果的详细信息，使您能够全面了解情况。
 
-* **营销活动报告**：此 **营销活动报告** 提供营销活动的全面概述，其中包含与包含的不同投放相关的所有信息。 此报表对每个投放的性能、成功率、受众参与度和其他基本指标进行了彻底的分析，让您能够评估营销活动的整体效率和影响。
+* **营销活动报告**：**营销活动报告**&#x200B;提供营销活动的全面概述，其中纳入了有关包含的不同投放的所有相关信息。此报告对每个投放的绩效、成功率、受众参与度和其他重要量度进行了全面分析，使您能够评估营销活动的总体效力和效果。
 
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="email-report.md">
-<img alt="商机" src="assets/do-not-localize/email_report.jpeg">
+<img alt="潜在客户" src="assets/do-not-localize/email_report.jpeg">
 </a>
 <div><a href="email-report.md"><strong>电子邮件投放报告</strong>
 </div>
@@ -36,7 +36,7 @@ Adobe Campaign提供两种不同的报表：
 <img alt="不常见" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> 推送投放报告<strong></strong></a>
+<a href="push-report.md"><strong>推送投放报告<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +44,7 @@ Adobe Campaign提供两种不同的报表：
 <img alt="验证" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> 短信投放报告</strong></a>
+<a href="sms-report.md"><strong>短信投放报告</strong></a>
 </div>
 <p>
 </td>

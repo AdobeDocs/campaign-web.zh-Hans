@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="思路重新调整的工作流画布界面"
->abstract="我们全面的图形画布使您能够轻松设计分段、活动执行等流程。 使用此高级工具触手可及，您可以简化工作流并提升营销策划。"
+>abstract="我们全面的图形画布使您能够轻松设计分段、营销活动执行等流程。利用这款触手可及的高级工具，您可以简化工作流并提升营销活动。"
 
 ## 什么是工作流？
 
@@ -34,8 +34,8 @@ ht-degree: 81%
 
 以下是有关如何将工作流与 Adobe Campaign 结合使用的一些示例：
 
-* 为非活动客户启动跟进活动，
-* 向所有服务的新订阅者发送欢迎电子邮件，
+* 启动面向不活跃客户的后续营销活动，
+* 向服务的所有新订阅者发送欢迎电子邮件，
 * 根据客户的忠诚度计划状态或兴趣点个性化跨渠道投放。
 
 ## 让我们深入探究
@@ -54,7 +54,7 @@ ht-degree: 81%
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="商机" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="潜在客户" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong>创建并运行您的第一个工作流</strong>
 </div>

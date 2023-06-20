@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="探索界面"
->abstract="新的Campaign v8 Web界面提供了集成、直观且一致的用户体验。"
+>abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 新的 Campaign v8 Web 界面提供了直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
 
@@ -36,24 +36,24 @@ ht-degree: 77%
 
 此屏幕包含用于快速访问主要 Campaign v8 Web 功能的关键链接和资源。
 
-**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示其渠道、状态、所有者、创建和修改日期。
+**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。
 
-访问Campaign v8 Web密钥帮助页面，网址为 **学习** 部分。
+从主页的&#x200B;**学习**&#x200B;部分访问 Campaign v8 Web 关键帮助页面。
 
 ### 资源管理器 {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="资源管理器"
->abstract="此 **资源管理器** 菜单会显示与客户端控制台中文件夹层次结构相同的所有Campaign组件和对象。 浏览所有Campaign v8组件、文件夹和架构，并创建投放、工作流和营销活动。 所有其他列表均为只读。"
+>abstract="**资源管理器**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。所有其他列表为只读状态。"
 
-此 **资源管理器** 菜单显示与客户端控制台中文件夹层次结构相同的所有Campaign资源和对象。 浏览所有Campaign v8组件、文件夹和架构，并创建投放、工作流和营销活动。 所有其他列表均为只读。
+**资源管理器**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。所有其他列表为只读状态。
 
 资源管理器中显示的项目取决于您的用户权限。
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
-有关Campaign资源管理器、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+有关 Campaign 资源管理器、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 
 ### Campaign 管理 {#user-interface-campaign-management}
 
@@ -64,7 +64,7 @@ ht-degree: 77%
 
 
 
-在CAMPAIGN MANAGEMENT部分中，您可以访问营销活动、投放和工作流。
+在“营销活动管理”部分中，可访问市场营销活动、投放情况和工作流。
 
 * **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，可查看每个营销活动的开始/结束/创建/上次修改日期、当前状态以及创建它的 Campaign 操作员的姓名。可按状态、开始/结束日期和文件夹筛选该列表，也可创建高级筛选器以定义您自己的筛选条件。可[在此部分中](../campaigns/gs-campaigns.md)详细了解营销活动。
 
@@ -95,11 +95,11 @@ ht-degree: 77%
 >abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表为只读。"
 
 
-在客户管理部分，您可以查看收件人、受众和订阅。 这些列表是只读的。
+在“客户管理”部分中，您可以查看收件人、受众和订阅。这些列表为只读状态。
 
-* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。了解有关收件人的更多信息，请参阅 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。要了解有关受众和列表的详细信息，请参阅 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **订阅**  — 浏览您的订阅列表。 默认情况下，您可以查看它们的类型、模式和标签。了解如何在中管理订阅和退订 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}以详细了解收件人。
+* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}以详细了解受众和列表。
+* **订阅** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}，了解如何管理订阅和退订。
 
 ### 决策管理
 
@@ -110,11 +110,11 @@ ht-degree: 77%
 
 * **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
 
-了解如何在中创建管理优惠 [Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}，了解如何创建管理选件。
 
 ## 顶部栏
 
-使用界面的顶栏可以：
+利用界面的顶部栏，可以：
 
 * 作为 Alpha 测试人员共享您的反馈
 * 在组织和实例之间切换
@@ -128,7 +128,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## 上下文帮助 {#contextual-help}
 
-界面中提供了上下文帮助。如果可用，请单击 `?` 图标来显示帮助信息和相关文档链接。
+界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -170,7 +170,7 @@ Campaign v8 Web 目前提供以下语言版本：
 要更改您的语言，请执行以下操作：
 
 1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
-1. 然后，单击电子邮件地址下方显示的语言链接。
+1. 然后单击电子邮件地址下方显示的语言链接。
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
 
@@ -269,29 +269,29 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="已送达"
->abstract="已投放KPI"
+>abstract="已送达 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
->title="打开"
->abstract="打开KPI"
+>title="打开次数"
+>abstract="打开次数 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="单击次数"
->abstract="点击次数KPI"
+>abstract="单击次数 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="取消订阅"
->abstract="退订KPI"
+>title="退订次数"
+>abstract="退订次数 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="垃圾邮件"
->abstract="垃圾邮件KPI"
+>abstract="垃圾邮件 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
->title="错误"
->abstract="错误KPI"
+>title="错误数"
+>abstract="错误数 KPI"

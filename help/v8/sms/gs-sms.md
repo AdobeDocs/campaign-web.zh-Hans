@@ -6,8 +6,8 @@ badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 86%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 0%
 
 短信渠道提供了三种创建短信投放的方法：
 
-* **[!UICONTROL 工作流]**：添加短信活动，定义基本设置，并在更大的自动化序列中撰写短信内容。
+* **[!UICONTROL 工作流]**：添加短信活动，定义基本设置，并在更大的自动化序列中编写您的短信内容。
 
-* **[!UICONTROL 营销活动]**：将短信投放并入专用营销活动，设置目标受众和投放计划等参数。
+* **[!UICONTROL 营销活动]**：将短信投放纳入专门的营销活动，并设置目标受众和投放计划等参数。
 
-* **独立投放**：创建单个短信投放，以便与客户快速而直接地通信，而无需工作流或营销活动。
+* **独立投放**：创建单独的短信投放，无需工作流或营销活动，即可快速而直接地与您的客户通信。
 
 ![](../assets/do-not-localize/book.png) 了解如何在中配置短信渠道 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="商机" src="assets/do-not-localize/create_sms.png">
+<img alt="潜在客户" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>创建短信投放</strong>
 </div>
