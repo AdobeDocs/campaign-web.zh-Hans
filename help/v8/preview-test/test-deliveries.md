@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '932'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 根据您使用的渠道，可以将测试消息发送给三种类型的收件人：
 
-* [测试用户档案](#test-profiles)  — 发送 **测试电子邮件和短信** 种子地址，即数据库中的其他虚构收件人。
+* [测试用户档案](#test-profiles)  — 发送 **测试电子邮件和短信** 种子地址，这些地址是数据库中的其他收件人。
 
   它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
