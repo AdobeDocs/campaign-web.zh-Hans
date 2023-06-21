@@ -3,14 +3,14 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# 预览和发送短信投放 {#send-sms-delivery}
+# 预览并发送短信投放 {#send-sms-delivery}
 
 ## 预览短信投放{#preview-sms}
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 发送测试短信是确保投放质量和效果的重要步骤。 测试收件人可以检查各种元素，例如链接、选择退出链接和图像，并识别渲染、内容、个性化设置和短信配置中的任何错误。 此过程可帮助您在联系主要受众之前彻底评估和优化短信。
 
-![](../assets/do-not-localize/book.png) 了解如何在中发送测试短信 [本节](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) 了解如何在中发送测试短信 [本节](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

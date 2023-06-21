@@ -4,10 +4,10 @@ title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 9%
 
 ---
 
@@ -55,8 +55,8 @@ ht-degree: 0%
 1. 对于电子邮件投放，您可以调整 **[!UICONTROL 缩放级别]** 并使用右上角的专用图标在桌面或移动设备上预览内容。
 
 1. 从 **[!UICONTROL 模拟]** 屏幕您还可以：
-   * 将测试投放发送给特定收件人进行验证 —  [了解详情](proofs.md)
-   * 访问已发送测试投放的日志 —  [了解详情](proofs.md#access-proofs)
+   * 将测试投放发送给特定收件人进行验证 —  [了解详情](test-deliveries.md)
+   * 访问已发送测试投放的日志 —  [了解详情](test-deliveries.md#access-proofs)
    * 仅对于电子邮件，检查常用电子邮件客户端中的消息内容渲染 —  [了解详情](email-rendering.md)
 
 

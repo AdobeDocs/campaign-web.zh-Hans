@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 21%
@@ -150,7 +150,6 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
    > * [推送通知渠道](../push/gs-push.md)
    > * [短信渠道](../sms/create-sms.md)
 
-
 1. 单击 **[!UICONTROL 审核]** 按钮以保存并查看您的模板。 您仍然可以编辑其所有设置、删除和复制它。
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
@@ -171,7 +170,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 1. 在不同的用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    您还可以调整缩放级别并选择桌面视图或移动设备视图。
 

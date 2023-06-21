@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 93%
@@ -70,7 +70,7 @@ ht-degree: 93%
    + 预览和测试您的投放 {#preview-test}
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
-      + [发送测试投放](preview-test/proofs.md)
+      + [发送测试投放](preview-test/test-deliveries.md)
       + [渲染电子邮件](preview-test/email-rendering.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
