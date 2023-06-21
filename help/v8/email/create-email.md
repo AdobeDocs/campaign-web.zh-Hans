@@ -6,8 +6,8 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1329'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="电子邮件入门"
->abstract="从模板开始，或使用Adobe Campaign的新电子邮件设计工具创建电子邮件，而无需编写一行代码。 了解如何使用Email Designer创建内容、预览和测试内容，以及在端到端用例中向现有受众发送电子邮件。"
+>abstract="从模板开始，或使用 Adobe Campaign 的新电子邮件设计器来创建电子邮件，而无需编写任何代码。了解如何使用电子邮件设计器在端到端用例中创建您的内容、预览和测试内容，以及向现有受众发送电子邮件。"
 
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
