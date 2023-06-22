@@ -3,7 +3,7 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -49,7 +49,7 @@ ht-degree: 2%
 
    ![](assets/push_send_2.png)
 
-1. 单击**[!UICONTROL 准备]**并监控提供的进度和统计数据。
+1. 单击 **[!UICONTROL 准备]** 和监控提供的进度和统计数据。
 
    如果发生任何错误，请参阅日志菜单以了解有关失败的详细信息。
 

@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 在显示来自的现有用户档案的数据时，将测试电子邮件或短信发送到特定的电子邮件地址或电话号码 [!DNL Campaign] 数据库，使用替换配置文件。
 
-1. 在发送测试之前，请确保为投放定义受众。 [了解详情](../audience/about-audiences.md)
+1. 在发送测试之前，请确保定义要交付的目标受众。 [了解详情](../audience/about-audiences.md)
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
@@ -104,7 +104,7 @@ ht-degree: 4%
    >
    >您可以输入任何电子邮件地址或电话号码。 这允许您向任何收件人发送测试投放，即使他们不是的用户 [!DNL Adobe Campaign].
 
-1. 从数据库中选择要用作替换的配置文件。 您还可以让 [!DNL Adobe Campaign] 选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在测试投放中。
+1. 从为投放定义的目标中选择要用作替代的用户档案。 您还可以让 [!DNL Adobe Campaign] 从目标中选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在测试投放中。
 
 1. 确认收件人并重复操作，根据需要添加任意数量的电子邮件地址或电话号码。
 

@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -18,7 +18,6 @@ ht-degree: 89%
 >id="acw_homepage_card2"
 >title="电子邮件入门"
 >abstract="从模板开始，或使用 Adobe Campaign 的新电子邮件设计器来创建电子邮件，而无需编写任何代码。了解如何使用电子邮件设计器在端到端用例中创建您的内容、预览和测试内容，以及向现有受众发送电子邮件。"
-
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -93,12 +92,6 @@ ht-degree: 89%
 
    ![](assets/select-template.png)
 
-   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. 选择模板后，该模板将显示在 [电子邮件设计工具](../content/create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
 
    例如，要向电子邮件标题添加个性化内容，请选择组件块并单击&#x200B;**[!UICONTROL 添加个性化内容]**。
@@ -169,9 +162,8 @@ ht-degree: 89%
 
    ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. 要发送电子邮件的测试版本，请单击&#x200B;**[!UICONTROL 测试]**&#x200B;按钮，然后选择要使用的模式。
 

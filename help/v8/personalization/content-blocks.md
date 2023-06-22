@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 58%
+source-wordcount: '437'
+ht-degree: 59%
 
 ---
 
@@ -34,10 +34,8 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 内置内容块为：
 
-* **[!UICONTROL Purl个性化审批]**
 * **[!UICONTROL 默认选择退出横幅]**
 * **[!UICONTROL 由 Adobe Campaign 启用]**：插入“由 Adobe Campaign 启用”徽标。
-* **[!UICONTROL facebook预输入]**
 * **[!UICONTROL 专有名词的格式化函数]**：生成 **[!UICONTROL toSmartCase]** Javascript 函数，它将每个单词的首字母更改为大写形式。
 * **[!UICONTROL 问候]**：插入带收件人全名的问候语，后跟一个逗号。示例：“Hello John Doe,”。
 * **[!UICONTROL 插入徽标]**：插入在实例设置中定义的徽标。
