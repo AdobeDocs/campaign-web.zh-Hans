@@ -3,10 +3,10 @@ audience: end-user
 title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="规则生成器高级字段"
->abstract="为列配置高级字段。"
+>abstract="使用高级字段配置高级过滤器。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
