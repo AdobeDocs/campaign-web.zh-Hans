@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Campaign Web 创建和发送推送通知
 badge: label="Alpha"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * 独立投放：利用个人推送通知投放直接、即时地与客户互动，无需工作流或营销活动。
 
-![](../assets/do-not-localize/book.png) 了解如何在中配置推送通知渠道 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) 请在 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}中了解如何配置推送通知通道。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
