@@ -5,9 +5,9 @@ title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强�
 
 根据您收集到的收件人相关信息来定制您的内容。利用动态内容可使您的内容更具吸引力，并使受众更愿意去阅读内容。通过利用配置文件数据（例如，收件人的名字、兴趣、居住地、购买的产品等），针对每个特定的收件人个性化您的邮件。创建条件内容，使您的投放适合每个收件人，并根据您获得的给定客户的相关信息仅向其显示相关内容。
 
-**创建跨渠道活动**
+**创建跨渠道营销活动**
 
 使用 Adobe Campaign 创建跨渠道营销活动。通过其市场营销活动编排功能，可管理和集中客户数据、设计客户通信和活动以及打造各种渠道的个性化体验。在此版本中，提供了电子邮件、推送和短信渠道。使用包括打开次数、点击次数、转发次数等在内的详细报告来衡量投放的效力。
 
@@ -85,7 +85,7 @@ Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强�
 <img alt="验证" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>创建跨渠道活动</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>创建跨渠道营销活动</strong></a>
 </div>
 <p>
 </td>
