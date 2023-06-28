@@ -5,9 +5,9 @@ description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 ![从投放列表中删除投放](assets/delete-delivery-from-list.png)
 
-所有投放都在这些列表中可用，但无法从中删除在工作流中创建的投放。要删除在工作流上下文中创建的投放，您必须从工作流中删除投放活动。
+所有投放都在这些列表中可用，但无法从中删除在工作流中创建的投放。要删除在工作流的上下文中创建的投放，必须从该工作流中删除投放活动。
 
 要从工作流中删除投放，请执行以下步骤：
 
