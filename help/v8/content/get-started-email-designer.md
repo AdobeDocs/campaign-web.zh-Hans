@@ -4,9 +4,9 @@ title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web UI 中的电子邮件设计器开始生成内容
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
