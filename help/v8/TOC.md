@@ -6,9 +6,9 @@ description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 + 开始使用 Adobe Campaign {#start}
    + [开始使用](get-started/get-started.md)
    + [探索界面](get-started/user-interface.md)
-   + [浏览、搜索和筛选列表](get-started/list-filters.md)
+   + [浏览、搜索和过滤列表](get-started/list-filters.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
    + [使用投放模板](msg/delivery-template.md)
@@ -67,7 +67,7 @@ ht-degree: 93%
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
    + [发送优惠](content/offers.md)
-   + 预览和测试您的投放 {#preview-test}
+   + 预览和测试投放{#preview-test}
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
       + [发送测试投放](preview-test/test-deliveries.md)
