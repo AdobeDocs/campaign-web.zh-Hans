@@ -4,14 +4,14 @@ title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# 浏览、搜索和筛选列表 {#list-screens}
+# 浏览、搜索和过滤列表 {#list-screens}
 
 左侧导航菜单中的大多数链接显示对象列表，例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**&#x200B;的列表。其中一些列表屏幕为只读状态。您可以自定义列表显示，并过滤这些列表，如下详述。
 
@@ -69,7 +69,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="规则生成器高级字段"
->abstract="使用高级字段配置高级过滤器。"
+>abstract="为高级过滤器配置高级字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ ht-degree: 91%
 
 默认情况下，属性列表和过滤器配置屏幕中仅显示最常见属性。配置屏幕中将隐藏设置为数据架构中的 `advanced` 属性的属性。
 
-激活 **显示高级属性** 切换以查看当前列表的所有可用属性：属性列表会立即更新。
+激活&#x200B;**显示高级属性**&#x200B;开关可查看当前列表的所有可用属性：将立即更新属性列表。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
