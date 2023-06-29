@@ -4,7 +4,7 @@ title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
