@@ -3,7 +3,7 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 定义消息内容后，您可以利用测试订阅者来预览和测试消息。 如果您已包含个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。 这样，您就可以确保正确呈现消息，并正确合并个性化元素。
 
-预览短信投放的主要步骤如下。 有关如何预览投放的更多详细信息，请参阅 [本节](../preview-test/preview-content.md).
+预览推送通知的主要步骤如下。 有关如何预览投放的更多详细信息，请参阅 [本节](../preview-test/preview-content.md).
 
 1. 在投放内容页面中，使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
 
