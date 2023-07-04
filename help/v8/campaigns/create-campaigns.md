@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 22%
+source-wordcount: '299'
+ht-degree: 25%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 22%
 要创建新营销活动，您需要定义其属性、计划并包含工作流和投放。
 
 ## 创建营销活动{#campaign-create}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="营销活动计划"
+>abstract="在营销活动创建期间定义营销活动计划。"
 
 要创建新营销活动，请执行以下步骤：
 
@@ -59,7 +64,7 @@ ht-degree: 22%
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 

@@ -3,15 +3,20 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 
 
 # 访问和管理营销活动{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="营销活动计划"
+>abstract="设置或修改您的营销活动计划。"
 
 要创建新的营销活动或管理现有的营销活动，请单击左侧导航上的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单。
 
