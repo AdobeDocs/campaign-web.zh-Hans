@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
-workflow-type: ht
-source-wordcount: '1318'
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+workflow-type: tm+mt
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="错误数"
 >abstract="错误数 KPI"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="有效期"
+>abstract="此选项定义在 URL 上激活跟踪的持续时间。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="投放持续时间"
+>abstract="投放持续时间字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="资源有效期限"
+>abstract="“有效期限”字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="审批方式"
+>abstract="投放的每个步骤都需经过审批，以确保对各个流程进行全面的监测和控制。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="最大重试次数"
+>abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="收件人的重要性"
+>abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="投放权重"
+>abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="类型"
+>abstract="使用类型，您可以控制、筛选和监测投放发送情况。"
