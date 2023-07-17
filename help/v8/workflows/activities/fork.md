@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 使用分支工作流活动
-description: 了解如何使用分支工作流活动
+title: 使用“分叉工作流”活动
+description: 了解如何使用“分叉工作流”活动
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="分支活动"
+>title="分叉活动"
 >abstract="利用分叉活动，可创建叫客过渡以同时开始多个活动。"
 
 ## 配置
 
-按照以下步骤配置 **分支** 活动：
+请按照以下步骤操作，配置&#x200B;**分叉**&#x200B;活动：
 
-1. 添加 **分支** 活动添加到工作流。
-1. 单击 **添加过渡** 以添加新的叫客过渡。 默认情况下，定义了两个过渡。
-1. 为每个过渡添加标签。
+1. 向您的工作流添加一个&#x200B;**分叉**&#x200B;活动。
+1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
+1. 请为每个过渡添加标签。
 
 ## 示例
 
-下面的示例，我们使用两个 **分支** 活动：
+在下面的示例中，我们使用两个&#x200B;**分叉**&#x200B;活动：
 
-* 两个查询前一个，以同时执行它们。
-* 在交叉点后一个，向目标群体同时发送电子邮件和短信。
+* 在两个查询之前使用一个分叉活动，同时执行这两个查询。
+* 在交集之后使用一个分叉活动，同时向目标群体发送一封电子邮件和一条短信。
 
 ![](../assets/workflow-fork-example.png)
 
