@@ -3,14 +3,19 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '400'
 ht-degree: 10%
 
 ---
 
 # 预览并发送短信投放 {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="新的隔离指标"
+>abstract="在投放失败（用户未知，域无效）后被隔离的地址总数，与要投放的消息数量相关。"
 
 ## 预览短信投放{#preview-sms}
 
