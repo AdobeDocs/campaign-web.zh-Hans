@@ -4,8 +4,8 @@ title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '688'
+workflow-type: tm+mt
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
