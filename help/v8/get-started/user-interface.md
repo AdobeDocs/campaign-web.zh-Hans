@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1536'
 ht-degree: 99%
 
 ---
@@ -183,15 +183,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 -->
 
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_sent"
->title="已发送数指标"
->abstract="投放的电子邮件数量。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_errors"
->title="错误数指标"
->abstract="处于出错状态的电子邮件数量。"
 
 
 

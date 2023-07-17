@@ -4,10 +4,10 @@ title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 48%
+source-wordcount: '871'
+ht-degree: 46%
 
 ---
 
@@ -128,6 +128,16 @@ ht-degree: 48%
 ![](assets/email-send-pause-or-stop.png)
 
 ## 检查KPI {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="已发送数指标"
+>abstract="投放分析期间处理的消息总数。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="错误数指标"
+>abstract="投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。"
 
 发送完成后，您可以检查显示的KPI：
 
