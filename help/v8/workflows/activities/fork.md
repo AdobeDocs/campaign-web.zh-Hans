@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“分叉工作流”活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 示例
 
-在下面的示例中，我们使用两个&#x200B;**分叉**&#x200B;活动：
+在以下示例中，我们使用 **分支** 活动：
 
 * 在两个查询之前使用一个分叉活动，同时执行这两个查询。
 * 在交集之后使用一个分叉活动，同时向目标群体发送一封电子邮件和一条短信。
