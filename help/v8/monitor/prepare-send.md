@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 46%
 
 在准备期间，计算目标人群并为目标中包含的每个配置文件生成邮件内容。在准备工作完成后，可以立即发送邮件，也可以在计划的日期和时间发送。
 
-投放准备期间使用的验证规则在中进行了描述 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+有关投放准备期间使用的验证规则，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 下面列出了准备发送的主要步骤。
 
-1. 在投放仪表板中，单击 **[!UICONTROL 查看并发送]**.
+1. 在投放仪表板中，单击 **[!UICONTROL 审阅并发送]**.
 
    ![](assets/email-review-and-send.png)
 
@@ -64,7 +64,7 @@ ht-degree: 46%
 
    ![](assets/email-prepare-error.png)
 
-1. 如果在准备后对投放进行了任何更改，则必须重新开始准备以将这些更改考虑在内。
+1. 如果在准备之后对投放进行了任何更改，则必须重新开始准备以将这些更改考虑在内。
 
 在准备工作完成且未出现错误后，便可发送邮件。
 
@@ -87,13 +87,13 @@ ht-degree: 46%
 
 一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
 
-如果消息已计划，则将在定义的日期和时间发送该消息。 [了解详情](#schedule-the-send)
+如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解详情](#schedule-the-send)
 
 ### 立即发送 {#send-immediately}
 
 要立即发送电子邮件，请执行以下步骤。
 
-1. 在投放仪表板中，单击 **[!UICONTROL 发送]** 按钮进行修改。
+1. 在投放仪表板中，单击 **[!UICONTROL 发送]** 按钮进行标记。
 
    ![](assets/email-send.png)
 
@@ -103,11 +103,11 @@ ht-degree: 46%
 
 ### 计划发送 {#schedule-the-send}
 
-如果您已安排在以后的日期和时间发送电子邮件，请按照以下步骤操作。
+如果您计划稍后发送电子邮件，请按照以下步骤操作。
 
-1. 在您点击 **[!UICONTROL 查看并发送]** 按钮，确保为电子邮件定义了计划。 [了解详情](../email/create-email.md#schedule)
+1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解详情](../email/create-email.md#schedule)
 
-1. 在投放仪表板中，单击 **[!UICONTROL “按计划发送”按钮]** 按钮进行修改。
+1. 在投放仪表板中，单击 **[!UICONTROL 按计划发送按钮]** 按钮进行标记。
 
    ![](assets/email-send-as-scheduled.png)
 
@@ -119,11 +119,11 @@ ht-degree: 46%
 
 ## 暂停或停止发送 {#pause-stop-sending}
 
-无论您的投放是否已计划，都可以在发送过程中随时执行两个操作：
+无论是否计划了您的投放，都可以在发送过程中随时执行两个操作：
 
 * 单击 **[!UICONTROL 暂停发送]** 中断消息的发送。 您可以随时恢复发送。
 
-* 单击 **[!UICONTROL 停止发送]** 立即中断发送。 一旦停止，准备和发送操作将无法恢复。
+* 单击 **[!UICONTROL 停止发送]** 立即中断发送。 一旦停止，准备工作和发送均无法恢复。
 
 ![](assets/email-send-pause-or-stop.png)
 
@@ -132,12 +132,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送数指标"
->abstract="投放分析期间处理的消息总数。"
+>abstract="投放分析期间处理的消息的总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误数指标"
->abstract="投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。"
+>abstract="投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。"
 
 发送完成后，您可以检查显示的KPI：
 
@@ -151,7 +151,7 @@ ht-degree: 46%
 
 * **[!UICONTROL 点击次数]**：在电子邮件中至少点击一次的收件人数量。 显示的百分比是不同点击次数与已投放消息数的对比。
 
-* **[!UICONTROL 错误]**：具有错误状态的电子邮件数量。 显示的百分比是基于已发送邮件的总数计算所得。
+* **[!UICONTROL 错误]**：包含错误状态的电子邮件数量。 显示的百分比是基于已发送邮件的总数计算所得。
 
 >[!NOTE]
 >

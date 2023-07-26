@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 24%
 要创建新营销活动，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]** 按钮。
-1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复使用它们来创建新营销活动。 它们是从客户端控制台创建的。
+1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复用于创建新营销活动。 它们是从客户端控制台创建的。
    [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
 1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
-1. 定义 **计划** 您的营销活动。 营销活动在到达开始日期时开始。 开始日期和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
+1. 定义 **计划** 您的营销活动中的。 当达到开始日期时，营销活动即会开始。 开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
 
    ![定义营销活动属性](assets/campaign-properties.png)
 
@@ -50,16 +50,16 @@ ht-degree: 24%
 1. 单击&#x200B;**创建**。
 1. 将工作流和投放添加到营销活动：
 
-   * 从 **工作流** 选项卡，单击 **创建工作流**. 创建活动时，会自动添加默认工作流。 了解更多关于如何操作的信息 [创建工作流](../workflows/create-workflow.md).
+   * 从 **工作流** 选项卡，单击 **创建工作流**. 创建营销策划时，会自动添加默认工作流。 了解关于如何操作的更多信息 [创建工作流](../workflows/create-workflow.md).
    * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
 
-1. 使用 **日志** 和 **报告** 用于分析营销活动性能的按钮。
+1. 使用 **日志** 和 **报表** 用于分析营销活动性能的按钮。
 
 ## 监控和跟踪您的活动{#campaign-monitoring}
 
 营销活动监测是分析营销活动效果的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
 
-您还可以通过单击 **报告** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
+您还可以通过单击 **报表** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
 
 
 

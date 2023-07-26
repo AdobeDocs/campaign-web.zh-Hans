@@ -6,8 +6,8 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 60%
+source-wordcount: '583'
+ht-degree: 74%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="添加结构"
->abstract="结构定义电子邮件的布局。 拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的电子邮件内容。"
+>abstract="结构定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="添加结构"
->abstract="结构定义登陆页面的布局。 拖放 **结构** 组件放入画布中以开始设计登陆页面。"
+>abstract="结构定义登陆页面的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的登陆页面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="添加结构"
->abstract="结构定义片段的布局。 拖放 **结构** 组件放入画布中以开始设计片段内容。"
+>abstract="结构定义片段的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的片段内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="添加结构"
->abstract="结构定义模板的布局。 拖放 **结构** 组件到画布中以开始设计模板内容。"
+>abstract="结构定义模板的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的模板内容。"
 
 
 >[!CONTEXTUALHELP]
@@ -62,7 +62,7 @@ ht-degree: 60%
 
    ![](assets/email_designer-from-scratch.png)
 
-1. 通过拖放开始设计电子邮件内容 **[!UICONTROL 结构]** 以定义电子邮件的布局。
+1. 通过拖放开始设计电子邮件内容 **[!UICONTROL 结构]** 放入画布以定义电子邮件的布局。
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ ht-degree: 60%
    >
    >每个列的大小不能小于结构组件的总宽度的 10%。不能删除非空列。
 
-1. 从 **[!UICONTROL 组件]** 区域，根据需要将任意数量的元素拖放到一个或多个结构中。 [详细了解内容组件](content-components.md)
+1. 从 **[!UICONTROL 组件]** 部分，根据需要将任意数量的元素拖放到一个或多个结构中。 [详细了解内容组件](content-components.md)
 
 1. 可使用进一步自定义每个组件 **[!UICONTROL 设置]** 或 **[!UICONTROL 样式]** 选项卡位于右侧。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 

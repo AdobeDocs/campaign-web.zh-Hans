@@ -6,8 +6,8 @@ badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 64%
+source-wordcount: '325'
+ht-degree: 66%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 64%
 1. 从可用的选项调整列设置和如何格式化数据。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
-创建和个性化消息内容时，您可以从的输入文件中选择字段 [个性化编辑器](../personalization/gs-personalization.md).
+创建和个性化消息内容时，您可以从输入文件 [个性化编辑器](../personalization/gs-personalization.md).
 
 ![](assets/select-external-perso.png)
 

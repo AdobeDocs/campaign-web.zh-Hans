@@ -6,8 +6,8 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 69%
+source-wordcount: '1105'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="关于内容"
->abstract="内容组件是空的内容占位符，可用于创建电子邮件的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
@@ -33,7 +33,7 @@ ht-degree: 69%
 >title="关于内容"
 >abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
-创建电子邮件内容时， **[!UICONTROL 内容]** 组件允许您使用原始空组件进一步个性化电子邮件，这些组件一经放入电子邮件中即可使用。
+创建电子邮件内容时， **[!UICONTROL 内容]** 组件允许您使用原始空组件进一步个性化电子邮件，在放入电子邮件中后，您即可使用这些组件。
 
 您可以添加任意数量的 **[!UICONTROL 目录]** 您需要在内部 **[!UICONTROL 结构]**，定义电子邮件的布局。
 
@@ -43,15 +43,15 @@ ht-degree: 69%
 
 1. 在Email Designer中使用 [现有内容](existing-content.md) 或拖放 **[!UICONTROL 结构]** 空内容，以定义电子邮件的布局。 [了解如何操作](create-email-content.md)
 
-1. 拖放 **[!UICONTROL 内容]** 在相关结构中进行选择。
+1. 拖放 **[!UICONTROL 内容]** 您选择的相关结构中的任意位置。
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >可以将多个元件添加到单个结构中，并添加到结构的每一列中。
+   >可以将多个组件添加到单个结构以及结构的每一列中。
 
-1. 使用上下文调整每个组件的选项 **[!UICONTROL 设置]** 选项卡。 例如，您可以选择仅在桌面设备或移动设备上显示，或者同时在这两种设备上显示。 您还可以从此选项卡管理链接选项。 [了解有关管理链接的更多信息](message-tracking.md)
+1. 使用上下文调整每个组件的选项 **[!UICONTROL 设置]** 选项卡。 例如，您可以选择仅在桌面设备或移动设备上显示，或者同时在这两种设备上显示。 您还可以通过此选项卡管理链接选项。 [了解有关管理链接的更多信息](message-tracking.md)
 
 1. 使用调整每个组件的样式属性 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
@@ -103,7 +103,7 @@ ht-degree: 69%
 
 1. 单击新添加的组件以个性化文本，并访问&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
-1. 使用上下文工具栏中的以下选项更改您的文本：
+1. 使用上下文工具栏中的以下选项更改文本：
 
    ![](assets/email_designer_27.png)
 
@@ -186,6 +186,6 @@ ht-degree: 69%
 
    ![](assets/email_designer_21.png)
 
-1. 如果需要，您还可以在 **[!UICONTROL 来源]** 字段。
+1. 如果需要，您还可以更改每个社交媒体的图标 **[!UICONTROL 来源]** 字段。
 
 1. 从以下位置调整其他样式属性（例如样式、边距、边框等）：从 **[!UICONTROL 样式]** 选项卡。

@@ -9,13 +9,13 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
 # 使用投放模板 {#work-with-delivery-templates}
 
-为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容。 此功能使您能够标准化创意外观，从而更快地执行和启动营销活动。
+为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
 
 模板可以包括：
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用投放模板"
->abstract="使用投放模板可轻松创建和保存现有投放以供将来使用。"
+>abstract="使用投放模板可轻松创建并保存现有投放以供将来使用。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="复制现有模板"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="将投放转换为模板"
 
@@ -40,7 +40,7 @@ ht-degree: 21%
 
 ![](assets/templates-tab.png)
 
-所有模板都是 [已创建](#create-a-delivery-template) 显示当前环境中的。
+所有模板都是 [已创建](#create-a-delivery-template) 上显示的内容。
 
 您可以在渠道和文件夹上筛选内容模板。 您还可以通过使用投放属性构建规则来设置高级过滤器。 [了解有关规则生成器的更多信息](../audience/segment-builder.md)
 
@@ -97,11 +97,11 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
+新模板将添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
 ### 将投放转换为模板 {#convert-an-existing-delivery}
 
-任何投放都可以转换为模板，以便将来执行重复的投放操作。
+任何投放都可以转换为模板，以便将来重复投放操作。
 
 要将投放另存为模板，请执行以下步骤：
 
@@ -118,7 +118,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
+新模板将添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
 ### 创建新的模板 {#create-a-new-template}
 
@@ -134,11 +134,11 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
    ![](assets/templates-create-button.png)
 
 1. 选择要用于模板的渠道。
-1. 默认情况下，该渠道的内置投放模板用于帮助您构建自己的模板。 使用所选渠道右侧的专用按钮，根据需要选择其他模板。
+1. 默认情况下，会使用该渠道的内置投放模板来帮助您构建自己的模板。 如果需要，请使用所选渠道右侧的专用按钮选择其他模板。
 
    ![](assets/templates-channel-browse.png)
 
-1. 单击 **[!UICONTROL 创建模板]** 再次按钮。
+1. 单击 **[!UICONTROL 创建模板]** 再次按按钮。
 
 1. 定义模板属性， [受众](../audience/add-audience.md) 和内容，具体取决于所选的渠道。
 
@@ -154,11 +154,11 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
-新模板即添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
+新模板将添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
 ## 测试投放模板 {#test-template}
 
-您可以测试任何投放模板的渲染，无论是从头开始创建，还是从现有内容创建。 为此，请执行以下步骤。
+您可以测试任何投放模板的渲染，无论是从头开始还是从现有内容创建。 为此，请执行以下步骤。
 
 1. 浏览至 **模板** 穿过 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 投放]** 菜单，然后选择任意模板。 [了解详情](#access-manage-templates)
 
@@ -166,13 +166,13 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
    ![](assets/templates-simulate-button.png)
 
-1. 选择一个或多个测试用户档案以检查电子邮件渲染。 您还可以从数据库中选择真实的用户档案。
+1. 选择一个或多个测试用户档案以检查您的电子邮件渲染。 您还可以从数据库中选择真实的用户档案。
 
-1. 在不同的用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。
+1. 在不同用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。
 
    <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
-   您还可以调整缩放级别并选择桌面视图或移动设备视图。
+   您还可以调整缩放级别，并选择桌面视图或移动设备视图。
 
    ![](assets/templates-stimulate.png)
 

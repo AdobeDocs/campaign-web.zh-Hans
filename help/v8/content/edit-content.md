@@ -6,8 +6,8 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 42%
+source-wordcount: '505'
+ht-degree: 50%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="电子邮件参数"
->abstract="发件人名称和发件人电子邮件值在电子邮件模板中定义。 可以使用表达式编辑器个性化主题行。"
+>abstract="在电子邮件模板中定义“发件人姓名”和“发件人电子邮件”值。可以使用表达式编辑器对主题行进行个性化设置。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="电子邮件附件"
->abstract="选择一个或多个要插入到消息中的文件。"
+>abstract="选择要在邮件中插入的一个或多个文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -35,7 +35,7 @@ ht-degree: 42%
 
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
 * 定义消息的基本元素，如发件人地址和主题行
-* 执行其他操作，如添加附件或设置优惠
+* 执行其他操作，例如添加附件或设置优惠
 * 访问 [电子邮件设计工具](get-started-email-designer.md#start-authoring) 以开始构建电子邮件的适当内容
 
 要配置或编辑电子邮件的内容，请执行以下步骤。
@@ -44,7 +44,7 @@ ht-degree: 42%
 
    ![](assets/email-edit-content-button.png)
 
-1. 此时会打开电子邮件内容编辑屏幕。
+1. 此时将打开电子邮件内容编辑屏幕。
 
    ![](assets/email-edit-content-dashboard.png)
 
@@ -52,7 +52,7 @@ ht-degree: 42%
    >
    >如果您正在配置新电子邮件，则 **[!UICONTROL 发件人姓名]** 和 **[!UICONTROL 发件人电子邮件]** 已填充字段。
 
-1. 此 **[!UICONTROL 发件人姓名]** 字段在电子邮件模板中定义。 如果要修改它，请使用收件人易于识别的名称（如您的品牌名称）来提高投放的打开率。
+1. 此 **[!UICONTROL 发件人姓名]** 字段在电子邮件模板中定义。 如果要对其进行修改，请使用易于收件人识别的名称（如您的品牌名称）来增加投放的打开率。
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ ht-degree: 42%
 
    之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送优惠](offers.md)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，以使用来结构和设计电子邮件内容 [电子邮件设计工具](#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，使用来结构和设计电子邮件的内容 [电子邮件设计工具](#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
    * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)

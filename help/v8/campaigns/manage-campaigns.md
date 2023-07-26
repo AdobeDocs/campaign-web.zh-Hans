@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
 >title="营销活动计划"
->abstract="设置或修改您的营销活动计划。"
+>abstract="设置或修改营销活动计划。"
 
 要创建新的营销活动或管理现有的营销活动，请单击左侧导航上的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单。
 
