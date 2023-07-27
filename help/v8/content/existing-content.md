@@ -4,14 +4,20 @@ title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 72%
+source-wordcount: '171'
+ht-degree: 56%
 
 ---
 
 # 导入电子邮件内容 {#existing-content}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_import_content"
+>title="使用现有电子邮件内容"
+>abstract="Email Designer允许您导入现有HTML内容。 此内容可以是包含合并样式表的HTML文件，也可以是包含HTML文件、样式表(.css)和图像的.zip文件夹。"
 
 Email Designer允许您导入现有HTML内容。 相关的内容可以是：
 
