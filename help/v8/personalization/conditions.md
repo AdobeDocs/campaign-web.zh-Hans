@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '953'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 9%
 >id="acw_homepage_card3"
 >title="创建条件内容"
 >abstract="创建条件内容以根据收件人的配置文件定义动态个性化，并在满足某些条件时自动替换文本块和图像。此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。"
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="添加条件内容"
+>abstract="配置条件内容字段以根据收件人的配置文件数据创建高级动态个性化。 当满足特定条件时，在消息内容中替换文本块、链接、主题行和/或图像。"
 
 条件内容是一项强大的功能，允许您根据收件人的配置文件创建动态个性化，在满足某些条件时自动替换文本块和图像。 此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。
 
