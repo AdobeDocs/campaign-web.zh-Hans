@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 97%
+source-wordcount: '1582'
+ht-degree: 94%
 
 ---
 
@@ -174,6 +174,11 @@ Campaign v8 Web 目前提供以下语言版本：
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
 
+## 了解详情 {#learn-more}
+
+了解如何浏览、搜索和筛选您的Campaign环境中可用的列表 [本页内容](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ Campaign v8 Web 目前提供以下语言版本：
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="错误数"
 >abstract="错误数 KPI"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="保存受众"
 >abstract="使用此活动可保存工作流受众。"
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流为只读"
+>abstract="您没有权限编辑此工作流。 如果需要，请与管理员联系以授予您访问权限。"
 
 <!-- delivery template settings-->
 
