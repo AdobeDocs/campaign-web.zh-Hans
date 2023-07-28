@@ -3,9 +3,9 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="Alpha"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1346'
 ht-degree: 5%
 
 ---
@@ -106,6 +106,11 @@ ht-degree: 5%
 >title="适用于iOS的应用程序变量"
 >abstract="使用应用程序变量定义通知行为。 这些变量是完全可自定义的，并包含在发送到移动设备的消息有效负载中。"
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="iOS的类别ID"
+>abstract="指定与通知关联的类别ID的名称。 这将启用操作按钮的显示，允许用户直接从通知执行各种任务，而无需打开应用程序。"
 
 
 >[!BEGINTABS]
