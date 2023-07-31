@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -106,9 +106,9 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="选件"
->abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。 也会提供优惠模板。这些列表为只读状态。"
+>abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期过滤列表。也会提供优惠模板。这些列表为只读状态。"
 
-* **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。 也会提供优惠模板。这些列表为只读状态。
+* **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期过滤列表。也会提供优惠模板。这些列表为只读状态。
 
 请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}，了解如何创建管理选件。
 

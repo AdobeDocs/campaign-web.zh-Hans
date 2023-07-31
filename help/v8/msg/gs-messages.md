@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。您可以按状态、联系日期或渠道筛选列表。 单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
+>abstract="浏览您的投放列表。可查看其状态、联系人、修改日期和关键 KPI。您可以按状态、联系日期或渠道过滤列表。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、受众和详细信息。"
 
 
 借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。
