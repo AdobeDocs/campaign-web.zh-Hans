@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 93%
+source-wordcount: '1667'
+ht-degree: 91%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="此投放为只读"
 >abstract="您没有权限编辑此投放。 如果需要，请与管理员联系以授予您访问权限。"
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服务为只读"
+>abstract="您没有权限编辑此服务。 如果需要，请与管理员联系以授予您访问权限。"
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="此工作流为只读"
 >abstract="您没有权限编辑此工作流。 如果需要，请与管理员联系以授予您访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="此工作流为只读"
+>abstract="由于画布不受支持或不兼容，您无法编辑此工作流。"
 
 <!-- delivery template settings-->
 
