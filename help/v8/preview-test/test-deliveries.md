@@ -4,10 +4,10 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 4%
 >id="acw_deliveries_simulate_test_upload"
 >title="上传配置文件"
 >abstract="如果您希望使用与主目标所用集不同的集测试投放，则可以上传另一个包含其他配置文件的文件。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="模板文件"
+>abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15MB。 使用第一行作为列标题。"
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
