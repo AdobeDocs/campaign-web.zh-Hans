@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 96%
+source-wordcount: '1628'
+ht-degree: 93%
 
 ---
 
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="错误数"
 >abstract="错误数 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="此营销活动为只读"
+>abstract="您没有权限编辑此营销活动。 如果需要，请与管理员联系以授予您访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="此投放为只读"
+>abstract="您没有权限编辑此投放。 如果需要，请与管理员联系以授予您访问权限。"
 
 <!-- Workflows-->
 
