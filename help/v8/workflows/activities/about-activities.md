@@ -5,9 +5,9 @@ description: 了解如何使用工作流活动
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 * [生成受众](build-audience.md)活动允许您定义目标人群。您可以选择现有受众或使用规则生成器来定义您自己的查询。
 * [合并](combine.md)活动允许对集客群体进行分段。您可以使用并集、交集或差集。
 * [扩充](enrichment.md)活动允许您定义要在工作流中处理的其他数据。通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。
-* 此 [Split](split.md) 利用活动，可将传入的群体划分为多个子集。
+* [拆分](split.md)活动允许您将传入群体划分为几个子集。
 
 ## 渠道活动 {#channel}
 
