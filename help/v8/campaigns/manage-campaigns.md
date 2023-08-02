@@ -4,7 +4,7 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Alpha"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
