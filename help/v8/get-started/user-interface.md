@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 91%
 
 * **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，可查看每个营销活动的开始/结束/创建/上次修改日期、当前状态以及创建它的 Campaign 操作员的姓名。可按状态、开始/结束日期和文件夹筛选该列表，也可创建高级筛选器以定义您自己的筛选条件。可[在此部分中](../campaigns/gs-campaigns.md)详细了解营销活动。
 
-* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。 单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。可[在此部分中](../msg/gs-messages.md)详细了解投放。
+* **投放** - 浏览您的投放列表。默认情况下，您可以查看它们的状态、最后修改日期以及关键 KPI。您可以按状态、联系日期或渠道筛选列表。单击电子邮件投放以打开其仪表板来获取投放详细信息的概述。其他渠道上的投放是只读的。可[在此部分中](../msg/gs-messages.md)详细了解投放。
 
   使用&#x200B;**更多操作**&#x200B;按钮删除或重复投放。
 
@@ -106,9 +106,9 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="选件"
->abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期过滤列表。也会提供优惠模板。这些列表为只读状态。"
+>abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。"
 
-* **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期过滤列表。也会提供优惠模板。这些列表为只读状态。
+* **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
 
 请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}，了解如何创建管理选件。
 
@@ -281,17 +281,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="此营销活动为只读"
->abstract="您没有权限编辑此营销活动。 如果需要，请与管理员联系以授予您访问权限。"
+>abstract="您没有权限编辑此营销活动。 如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="此投放为只读"
->abstract="您没有权限编辑此投放。 如果需要，请与管理员联系以授予您访问权限。"
+>abstract="您没有权限编辑此投放。 如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服务为只读"
->abstract="您没有权限编辑此服务。 如果需要，请与管理员联系以授予您访问权限。"
+>abstract="您没有权限编辑此服务。 如果需要，请联系您的管理员以向您授予访问权限。"
 
 <!-- Workflows-->
 
@@ -313,12 +313,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="此工作流为只读"
->abstract="您没有权限编辑此工作流。 如果需要，请与管理员联系以授予您访问权限。"
+>title="此工作流是只读的"
+>abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="此工作流为只读"
+>title="此工作流是只读的"
 >abstract="由于画布不受支持或不兼容，您无法编辑此工作流。"
 
 <!-- delivery template settings-->
@@ -331,7 +331,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="投放持续时间"
->abstract="投放持续时间字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
+>abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
