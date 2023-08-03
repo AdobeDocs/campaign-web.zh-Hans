@@ -313,12 +313,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="此工作流是只读的"
+>title="此工作流为只读"
 >abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="此工作流是只读的"
+>title="此工作流为只读"
 >abstract="由于画布不受支持或不兼容，您无法编辑此工作流。"
 
 <!-- delivery template settings-->

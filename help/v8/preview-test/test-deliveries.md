@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -51,13 +51,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="验证的目标"
->abstract="如果您希望在发送到主目标之前测试您的投放，则可以上传第二个文件作为“验证的目标”。"
+>title="校样的目标"
+>abstract="如果要在发送到主要目标之前测试投放，可再上传一个文件作为“校样的目标”。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="上传配置文件"
->abstract="如果您希望使用与主目标所用集不同的集测试投放，则可以上传另一个包含其他配置文件的文件。"
+>abstract="如果要用与您用于主要目标的集合不同的集合测试投放，可再上传一个文件，其中包含其他配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
