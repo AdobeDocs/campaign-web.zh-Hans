@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="模板文件"
->abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15MB。 使用第一行作为列标题。"
+>abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15 MB。使用第一行作为列标题。"
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 

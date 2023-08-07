@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -280,18 +280,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
->title="此营销活动为只读"
->abstract="您没有权限编辑此营销活动。 如果需要，请联系您的管理员以向您授予访问权限。"
+>title="此活动为只读"
+>abstract="您无权编辑此活动。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
->title="此投放为只读"
->abstract="您没有权限编辑此投放。 如果需要，请联系您的管理员以向您授予访问权限。"
+>title="此交付为只读"
+>abstract="您无权编辑此交付。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服务为只读"
->abstract="您没有权限编辑此服务。 如果需要，请联系您的管理员以向您授予访问权限。"
+>abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
 
 <!-- Workflows-->
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="此工作流为只读"
->abstract="由于画布不受支持或不兼容，您无法编辑此工作流。"
+>abstract="由于画布不受支持或不兼容，您无法编辑此工作流程。"
 
 <!-- delivery template settings-->
 
