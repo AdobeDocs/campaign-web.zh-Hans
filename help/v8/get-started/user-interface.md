@@ -261,7 +261,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="单击次数"
->abstract="单击次数 KPI"
+>abstract="点击次数 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
