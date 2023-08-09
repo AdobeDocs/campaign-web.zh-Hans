@@ -72,7 +72,7 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="已送达"
+>title="已投放"
 >abstract="成功送达的邮件数。该指示器每 5 分钟更新一次。显示的百分比是基于已发送邮件的总数计算所得。"
 
 >[!CONTEXTUALHELP]
@@ -82,7 +82,7 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
->title="单击次数"
+>title="点击次数"
 >abstract="在电子邮件中至少单击一次的收件人的数目。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
 
 一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
