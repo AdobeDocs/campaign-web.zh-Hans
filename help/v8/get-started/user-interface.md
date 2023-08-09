@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
->title="已送达"
+>title="已投放"
 >abstract="已投放 KPI"
 
 >[!CONTEXTUALHELP]
