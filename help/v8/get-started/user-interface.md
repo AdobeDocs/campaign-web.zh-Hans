@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 72%
 
 ---
@@ -38,10 +38,12 @@ ht-degree: 72%
 
 **最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。
 
+此 **关键绩效指标** 允许您通过常见KPI检查平台有效性。
+
 从主页的&#x200B;**学习**&#x200B;部分访问 Campaign v8 Web 关键帮助页面。
 
 
-#### 关键绩效指标 {#user-interface-key-indicators}
+### 关键绩效指标 {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ ht-degree: 72%
 >id="acw_keyindicators_errors"
 >title="错误数"
 >abstract="投放和自动退回处理期间累计的错误总数。 关联速率是指与要投放的消息数量之比。"
+
+此 **错误** 指示器为每个渠道显示以下KPI：
 
 * 与要投放的消息总数相比的错误数百分比。
 
