@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '2263'
+ht-degree: 72%
 
 ---
 
@@ -39,6 +39,98 @@ ht-degree: 98%
 **最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。
 
 从主页的&#x200B;**学习**&#x200B;部分访问 Campaign v8 Web 关键帮助页面。
+
+
+#### 关键绩效指标 {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="垃圾邮件"
+>abstract="垃圾邮件 KPI"
+
+浏览到主页以检查平台的关键绩效指标。 这些指示器显示已投放、已打开、已点击、取消订阅和错误率的消息数量和百分比。
+
+默认情况下，会计算过去7天内发送的投放的量度。 您可以从信息卡右上方的下拉列表中更改时间段。 发送到测试用户档案的消息将被排除。
+
+您可以选择要显示的渠道。 默认情况下，这些指标反映电子邮件渠道的量度。
+
+![](assets/kpi.png)
+
+#### 消息已投放 {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="已投放"
+>abstract="此量度显示所选渠道中成功处理的所有消息的总和，以及相对于已发送消息总数而言成功投放的消息百分比。"
+
+
+此 **已投放** 指示器为每个渠道显示以下KPI：
+
+* 成功投放的消息数与要发送的消息总数相比的百分比。
+
+* 成功处理的所有消息的总和。
+
+在Adobe Campaign中，将消息标记为“已投放”的规则为：
+
+“种子地址”字段等于“否”且状态等于“服务提供商已考虑”（对于短信）、“已发送”（对于电子邮件）或“在移动设备上接收”（对于推送通知）的消息计数。
+
+
+#### 打开总数 {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="打开次数"
+>abstract="此量度显示所选渠道中所有已打开消息的总和，以及已打开消息占成功投放消息总数的百分比。"
+
+此 **打开次数** 指示器为每个渠道显示以下KPI：
+
+* 打开的消息数与成功投放的消息总数相比的百分比。
+
+* 每个渠道打开的所有消息的总和。
+
+当收件人下载电子邮件中的图像时，Adobe Campaign会检测邮件打开情况。 HTML和多部分/替代电子邮件包括0像素图像，用于检测已打开的邮件。 由于文本格式的消息不包含任何图像，因此无法检测这些消息是否已打开。 由于与图像显示相关的容差，根据消息打开度计算的值始终为估计值。
+
+#### 点击率 {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="点击次数"
+>abstract="此量度显示所选渠道的消息中所有URL点击量的总和，以及相对于成功投放的消息总数的点击率百分比。"
+
+此 **点击次数** 指示器为每个渠道显示以下KPI：
+
+* 与成功投放的消息总数相比的点击数百分比。
+
+* 在投放中至少单击一次的不同人员的数量。 退订链接和指向镜像页面的链接被排除。
+
+此量度基于整合的跟踪表(`nms:trackingStats`)。 显示报告时，出于性能原因，使用此汇总表代替收件人跟踪日志表(`nms:trackingLogRcp`)，并且不会实时计算。 该表将在检索跟踪日志后几分钟生成。
+
+
+#### 退订率 {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="退订次数"
+>abstract="此量度显示所选渠道的服务所有取消订阅的总和，以及取消订阅相对于成功投放的消息总数的百分比。"
+
+此 **取消订阅** 指示器为每个渠道显示以下KPI：
+
+* 退订数量占成功投放消息总数的百分比。
+
+* 退订链接的所有点击次数总和，即URL类别等于“选择退出”时。
+
+
+#### 错误率 {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="错误数"
+>abstract="投放和自动退回处理期间累计的错误总数。 关联速率是指与要投放的消息数量之比。"
+
+* 与要投放的消息总数相比的错误数百分比。
+
+* 投放和自动回弹处理期间累计的错误总数。
+
 
 ### 资源管理器 {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="已投放"
->abstract="已投放 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="打开次数"
->abstract="打开次数 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="点击次数"
->abstract="点击次数 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="退订次数"
->abstract="退订次数 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="垃圾邮件"
->abstract="垃圾邮件 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="错误数"
->abstract="错误数 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
