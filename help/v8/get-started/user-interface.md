@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 72%
+source-wordcount: '2549'
+ht-degree: 64%
 
 ---
 
@@ -65,10 +65,11 @@ ht-degree: 72%
 >title="已投放"
 >abstract="此量度显示所选渠道中成功处理的所有消息的总和，以及相对于已发送消息总数而言成功投放的消息百分比。"
 
+投放的消息数反映了您的可投放性比率。 永远不能百分之百，原因如下：某些地址或电话号码可能错误，电子邮件提供商的垃圾邮件阻止程序可能会拒绝您的邮件，或者可能发生可投放性问题。
 
 此 **已投放** 指示器为每个渠道显示以下KPI：
 
-* 成功投放的消息数与要发送的消息总数相比的百分比。
+* 成功投放的消息数占已发送消息总数的百分比。
 
 * 成功处理的所有消息的总和。
 
@@ -84,6 +85,8 @@ ht-degree: 72%
 >title="打开次数"
 >abstract="此量度显示所选渠道中所有已打开消息的总和，以及已打开消息占成功投放消息总数的百分比。"
 
+总打开次数通过跟踪消息打开的总次数来计算，而不管这些打开是由多少个单独的收件人生成的。 此指示器仅适用于电子邮件。
+
 此 **打开次数** 指示器为每个渠道显示以下KPI：
 
 * 打开的消息数与成功投放的消息总数相比的百分比。
@@ -92,18 +95,22 @@ ht-degree: 72%
 
 当收件人下载电子邮件中的图像时，Adobe Campaign会检测邮件打开情况。 HTML和多部分/替代电子邮件包括0像素图像，用于检测已打开的邮件。 由于文本格式的消息不包含任何图像，因此无法检测这些消息是否已打开。 由于与图像显示相关的容差，根据消息打开度计算的值始终为估计值。
 
-#### 点击率 {#ui-click-kpi}
+
+
+#### 点进率 {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="点击次数"
 >abstract="此量度显示所选渠道的消息中所有URL点击量的总和，以及相对于成功投放的消息总数的点击率百分比。"
 
+您可以在消息内容中添加URL，这会将收件人重定向到特定页面。 点进率用于衡量点击邮件中链接的收件人的数量和百分比。
+
 此 **点击次数** 指示器为每个渠道显示以下KPI：
 
 * 与成功投放的消息总数相比的点击数百分比。
 
-* 在投放中至少单击一次的不同人员的数量。 退订链接和指向镜像页面的链接被排除。
+* 在投放中至少单击一次的不同人员的数量。 退订链接和指向电子邮件镜像页面的链接被排除。
 
 此量度基于整合的跟踪表(`nms:trackingStats`)。 显示报告时，出于性能原因，使用此汇总表代替收件人跟踪日志表(`nms:trackingLogRcp`)，并且不会实时计算。 该表将在检索跟踪日志后几分钟生成。
 
@@ -114,6 +121,8 @@ ht-degree: 72%
 >id="acw_keyindicators_unsubscriptions"
 >title="退订次数"
 >abstract="此量度显示所选渠道的服务所有取消订阅的总和，以及取消订阅相对于成功投放的消息总数的百分比。"
+
+收件人必须能够通过电子邮件内容中的专用退订链接或通过对短信回复STOP，选择退出电子邮件和短信。
 
 此 **取消订阅** 指示器为每个渠道显示以下KPI：
 
@@ -128,6 +137,10 @@ ht-degree: 72%
 >id="acw_keyindicators_errors"
 >title="错误数"
 >abstract="投放和自动退回处理期间累计的错误总数。 关联速率是指与要投放的消息数量之比。"
+
+由您的Adobe Campaign平台发送的某些消息可能无法到达其目的地。 当用户地址或电话有拼写错误、收件人更改了电子邮件地址或其邮箱已满时，可能会发生这种情况。 如果消息无法发送到配置文件，则远程服务器会自动向Adobe Campaign发送错误消息。 此错误用于确定是应隔离电子邮件地址、电话号码还是设备。
+
+因此，您应始终检查和更新数据库，并确保所有用户档案都是活动的真实用户档案。 投放错误可以是临时或永久的（软退回或硬退回），具体取决于消息未投放的原因。
 
 此 **错误** 指示器为每个渠道显示以下KPI：
 
@@ -432,6 +445,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="出口"
->abstract="您只能导出所选页面。"
+>title="导出"
+>abstract="您只能导出选定的页面。"
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="活动中的投放列表"
+>abstract="活动中的投放列表"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="活动中的工作流列表"
+>abstract="活动中的工作流列表"
