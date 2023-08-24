@@ -446,7 +446,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="导出"
->abstract="您只能导出选定的页面。"
+>abstract="只能导出所选页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
