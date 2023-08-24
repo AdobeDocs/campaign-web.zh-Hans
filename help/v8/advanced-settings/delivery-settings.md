@@ -4,10 +4,10 @@ title: 电子邮件投放设置
 description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1392'
+ht-degree: 88%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 0%
 
 
 ### 压力参数 {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="投放权重"
->abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 在此部分中，压力参数可让您定义&#x200B;**阈值**。这是可在给定时段内发送到一项配置文件的消息最大数量。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除配置文件，从而避免过度通信。
 
 阈值可以是常量，也可以是变量。这意味着在指定的时间段内，阈值可能因配置文件而异，甚至对于同一配置文件也可能有所不同。
@@ -67,9 +67,9 @@ ht-degree: 0%
 ### 容量设置 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="收件人的重要性"
->abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
+>id="acw_email_settings_capacity_settings"
+>title="容量设置"
+>abstract="选择Adobe Campaign v8控制台中定义的容量规则。 此规则与电子邮件渠道关联。"
 
 在此部分中，您可以选择在 Adobe Campaign v8 控制台中定义的容量规则。此规则与电子邮件渠道关联。
 
@@ -82,9 +82,14 @@ ht-degree: 0%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。
 
-在中了解有关目标映射的更多信息 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+请参阅 [ Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}以详细了解目标映射。
 
 ## 投放 {#delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="投放设置"
+>abstract="投放参数是应用于投放的技术设置。"
 
 投放参数是应用于投放的技术设置。
 
@@ -92,27 +97,24 @@ ht-degree: 0%
 
 * **测试 SMTP 投放**：此选项用于测试通过 SMTP 进行发送。处理投放直至连接到 SMTP 服务器，但不发送：对于投放的每个收件人，Campaign 连接到 SMTP 提供商服务器，执行 SMTP RCPT TO 命令，并在执行 SMTP DATA 命令之前关闭连接。
 
-* **电子邮件密件抄送**：利用此选项，只需将密件抄送电子邮件地址添加到邮件目标，即可通过密件抄送将电子邮件存储在外部系统上。在中了解有关电子邮件密送的更多信息 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **电子邮件密件抄送**：利用此选项，只需将密件抄送电子邮件地址添加到邮件目标，即可通过密件抄送将电子邮件存储在外部系统上。要了解有关电子邮件密件抄送的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
 ### 重试 {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="最大重试次数"
->abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-在中了解有关重试管理的更多信息 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+在中了解有关重试管理的更多信息 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 审批 {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="审批方式"
->abstract="投放的每个步骤都需经过审批，以确保对各个流程进行全面的监测和控制。"
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
 
@@ -128,15 +130,16 @@ ht-degree: 0%
 ## 有效性 {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="投放持续时间"
->abstract="投放持续时间字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
+>id="acw_email_settings_validity"
+>title="设置有效性"
+>abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着Adobe Campaign从开始日期开始发送消息，然后，对于仅返回错误的消息，执行常规、可配置的重试，直到达到有效性限制。有效性限制字段用于已上传的资源，如镜像页面或图像。 这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="资源有效期限"
->abstract="“有效期限”字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 **投放持续时间**&#x200B;字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。
 
@@ -147,7 +150,7 @@ ht-degree: 0%
 ![](assets/delivery-settings-2.png)
 
 
-了解中有关投放有效期的更多信息 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+在中了解有关投放有效期的更多信息 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### 镜像页面管理 {#mirror}
 
@@ -158,15 +161,17 @@ ht-degree: 0%
 
 * **[!UICONTROL 强制生成镜像页面]**：使用此模式可生成镜像页面，即使在投放时未插入镜像页面的链接也是如此。
 * **[!UICONTROL 不生成镜像页面]**：使用此模式可避免生成镜像页面，即使投放中存在链接也是如此。
-* **[!UICONTROL 生成仅可使用消息标识符访问的镜像页面]**：当电子邮件内容中不存在镜像页面链接时，使用此选项可允许从客户端控制台在投放日志窗口中访问镜像页面的内容。
+* **[!UICONTROL 生成仅可使用消息标识符访问的镜像页面]**：当电子邮件内容中不存在镜像页面链接时，使用此选项可启用从客户端控制台在投放日志窗口中访问镜像页面内容的功能。
 
 
 ### 跟踪 {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="有效期"
->abstract="此选项定义在 URL 上激活跟踪的持续时间。"
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 在相关部分中定义跟踪参数。可能的选项为：
 
