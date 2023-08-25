@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
+source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2567'
 ht-degree: 64%
 
 ---
@@ -457,3 +457,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="活动中的工作流列表"
 >abstract="活动中的工作流列表"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="投放设置受众"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="投放设置审批"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="投放设置测试设置"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="投放设置网站分析"
+>abstract="待确认"
