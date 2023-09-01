@@ -3,11 +3,11 @@ audience: end-user
 title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -56,6 +56,6 @@ Campaign 客户端控制台是系统上安装的基于浏览器的应用程序�
 
 Campaign 数据存储在应用程序服务器中。可从客户端控制台和 Web UI 获得此数据。例如，如果您使用客户端控制台创建投放模板，则它在 Web UI 中也可用。如果您在 Web UI 中创建电子邮件投放，则也可从客户端控制台访问此投放。
 
-一些对象只能在客户端控制台中进行创建和管理。它们在 Campaign Web UI 中可见并可使用，但不能从该环境中创建和修改。可以从资源管理器视图（可从左侧导航中访问）中使用所有 Campaign 对象和组件。
+一些对象只能在客户端控制台中进行创建和管理。它们在 Campaign Web UI 中可见并可使用，但不能从该环境中创建和修改。可以从探索工具视图（可从左侧导航中访问）中使用所有 Campaign 对象和组件。
 
-有关如何使用 Campaign v8 的更多信息，请参阅 [Campaign v8（控制台）](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}。
+有关如何使用Campaign v8的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}.

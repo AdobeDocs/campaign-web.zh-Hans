@@ -3,11 +3,11 @@ audience: end-user
 title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 46%
+source-wordcount: '208'
+ht-degree: 47%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 46%
 >title="添加邮件引文"
 >abstract="邮件引文是一段简短的摘要文本，当您从电子邮件客户端查看电子邮件时，将在主题行之后显示这段内容。在许多情况下，它提供电子邮件的简短摘要，并且一般只有一句话的长度。"
 
-预览版是查看来自任何主要电子邮件客户端的电子邮件时主题行后面的简短文本。
+邮件引文是一种简短文本，在查看来自任何主要电子邮件客户端的电子邮件时位于主题行之后。
 
-在许多情况下，它提供内容的简短摘要，通常为一个句子。
+在许多情况下，它提供内容的简短摘要，通常为一个句子长。
 
 >[!NOTE]
 >
@@ -28,15 +28,15 @@ ht-degree: 46%
 
 要定义电子邮件标头，请执行以下步骤。
 
-1. 从 [电子邮件设计工具](create-email-content.md)，至少添加 **[!UICONTROL 结构]** 组件以开始设计电子邮件。
+1. 从 [电子邮件设计工具](create-email-content.md)，至少添加一个 **[!UICONTROL 结构]** 组件以开始设计电子邮件。
 
 1. 单击左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;图标并选择&#x200B;**[!UICONTROL 正文]**。
 
    ![](assets/preheader_body.png)
 
-1. 从 **[!UICONTROL 设置]** 选项卡，为预告输入一些文本。
+1. 从 **[!UICONTROL 设置]** 选项卡，为您的预告输入一些文本。
 
-1. 要进一步对其进行个性化，请单击 **[!UICONTROL 添加个性化]** 左侧图标 **[!UICONTROL 预告标题]** 字段。
+1. 要进一步对其进行个性化，请单击 **[!UICONTROL 添加个性化]** 左侧图标 **[!UICONTROL 预编译标头]** 字段。
 
    ![](assets/preheader_body_settings.png)
 

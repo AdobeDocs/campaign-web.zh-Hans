@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用推送通知工作流活动
 description: 了解如何使用推送通知工作流活动
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: '323'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 1. 默认情况下，启动投放工作流会触发消息准备阶段，而不会立即发送消息。
 
-   单击推送通知(Android)渠道活动的高级菜单中的审核和发送，以确认发送。
+   单击推送通知(Android)渠道活动高级菜单中的审核并发送以确认发送。
 
 1. 在推送通知投放仪表板中，单击发送。
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 1. 创建和配置新工作流后，添加构建受众活动以选择现有受众，或使用规则生成器定义您自己的查询。
 
-1. 在工作流中添加推送通知(iOS)渠道活动。
+1. 将推送通知(iOS)渠道活动添加到您的工作流中。
 
 <!--
 1. Select the Type of delivery:

@@ -3,11 +3,11 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 43%
+source-wordcount: '780'
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="提取方式"
->abstract="要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
+>abstract="控制组是从投放中排除的一组用户档案。 要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
 
 
 ### 构建对照组 {#build-extract-target}
@@ -104,7 +104,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="您可以通过选择现有受众或定义查询来从投放受众中排除特定群体。"
+>abstract="控制组是从投放中排除的一组用户档案。 您可以通过选择现有受众或定义查询来从投放受众中排除特定群体。"
 
 定义控制组的另一种方法是选择现有受众中的特定群体，或通过定义查询。
 

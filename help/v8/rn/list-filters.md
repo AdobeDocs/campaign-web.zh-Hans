@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: ht
-source-wordcount: '507'
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 作为 Campaign 用户，您仍可以访问客户端控制台来生成和管理 Campaign 资源和组件。数据和设置将从一个环境同步到另一个环境。在[此章节](../get-started/get-started.md#about-campaign-client-consoleac-client)中了解更多信息。
 
-此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从资源管理器的左侧导航中）。在[此章节](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解资源管理器视图。
+此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从探索工具的左侧导航中）。在[此章节](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
 
 
 ## 术语更新 {#terminology-updates}

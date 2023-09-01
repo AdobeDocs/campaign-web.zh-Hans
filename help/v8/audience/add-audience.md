@@ -3,11 +3,11 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '294'
+ht-degree: 57%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="选择现有受众"
->abstract="在 Adobe Campaign v8 控制台中定义受众。如果您有可用的 Adobe Experience Platform 集成，也应能够看到 Platform 定义的受众。"
+>abstract="浏览列表以选择现有受众。 使用“显示过滤器”图标筛选列表，或选择特定文件夹。"
 
 此章节说明如何在定义电子邮件投放的目标人群时选择现有受众。
 
 您还可以：
 
 * 构建新受众。 [了解详情](segment-builder.md)
-* 从外部文件加载受众。 [了解详情](file-audience.md)
+* 从外部文件加载受众（仅适用于电子邮件）。 [了解详情](file-audience.md)
 * 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)。
 
 
@@ -36,21 +36,16 @@ ht-degree: 89%
 
 1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](segment-builder.md)。
 
-   此屏幕显示当前文件夹在Adobe Campaign客户端控制台中定义的所有现有受众。
+   此屏幕显示当前文件夹的所有现有受众。
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >要利用 Adobe Experience Platform 受众，您需要配置与 Destinations 的集成。请参阅 [Destinations 文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}。
+   受众创建自 **受众** 左侧菜单。 还可以在客户端控制台中创建它们。
+
+   要使用Adobe Experience Platform受众，您需要配置与目标集成。 请参阅 [Adobe Experience Platform目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
 
 1. 选择一个受众，然后单击&#x200B;**选择**。
-
-1. 如果要细化受众，请单击&#x200B;**编辑规则**。
-
-   ![](assets/create-audience3.png)
-
-1. 利用规则生成器，可以使用附加筛选器或通过组合不同的受众来扩充您的受众。请参阅此[章节](segment-builder.md)。
+1. 使用 **显示筛选器** 图标以显示筛选选项。 单击 **添加规则** 要访问规则生成器：使用规则生成器，您可以为受众列表创建高级过滤器。 请参阅以了解如何使用规则生成器 [部分](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

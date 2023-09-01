@@ -2,11 +2,11 @@
 audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
-badge: label="Alpha"
-source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 65%
+source-wordcount: '329'
+ht-degree: 68%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 65%
    * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。
 +++
 
-1. 从 **[!UICONTROL Audience]** 菜单，选择要用于此投放的应用程序。
+1. 从 **[!UICONTROL 受众]** 菜单，选择要用于此投放的应用程序。
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-audiences.md)
 

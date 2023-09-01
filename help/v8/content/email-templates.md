@@ -3,17 +3,17 @@ audience: end-user
 product: campaign
 title: 使用电子邮件模板
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 28%
 
 ---
 
 # 使用电子邮件模板 {#email-content-templates}
 
-时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
+时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 的部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
 
 ![](assets/email_designer-templates.png)
 
@@ -23,7 +23,7 @@ ht-degree: 28%
 
 * **已保存模板**. 您还可以使用从现有内容另存为模板的自定义模板。
 
-在以下部分了解如何使用模板以及如何将电子邮件内容另存为模板。
+请在以下部分中了解如何使用模板以及如何将电子邮件内容另存为模板。
 
 ## 使用模板 {#use-templates}
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 1. 在&#x200B;**[!UICONTROL 创建您的电子邮件]**&#x200B;屏幕上，**[!UICONTROL 示例模板]**&#x200B;选项卡默认为选中状态。
 
-1. 要使用现有的自定义模板，请浏览到 **[!UICONTROL 已保存模板]** 选项卡。
+1. 要使用现有的自定义模板，请浏览至 **[!UICONTROL 已保存模板]** 选项卡。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
@@ -43,11 +43,11 @@ ht-degree: 28%
 
 1. 从列表中选择模板以显示其内容。
 
-1. 使用向右和向左箭头在模板之间导航（根据您的选择选择是示例还是已保存）。
+1. 使用向右箭头和向左箭头在模板之间导航（根据您的选择选择是示例还是已保存）。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 单击 **[!UICONTROL 使用此模板]** 屏幕右上角。
+1. 单击 **[!UICONTROL 使用此模板]** 在屏幕的右上角。
 
 1. 使用电子邮件设计器根据需要编辑您的内容。[了解详情](create-email-content.md)
 
@@ -57,9 +57,9 @@ ht-degree: 28%
 
 要将电子邮件内容另存为模板，请执行以下步骤：
 
-1. 在email designer中，单击屏幕右上方的省略号。
+1. 在电子邮件设计器中，单击屏幕右上方的省略号。
 
-1. 选择 **[!UICONTROL 另存为内容模板]** 下拉菜单中。
+1. 选择 **[!UICONTROL 另存为内容模板]** 从下拉菜单中。
 
    ![](assets/email_designer-save-template.png)
 

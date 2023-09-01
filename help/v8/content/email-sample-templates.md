@@ -2,17 +2,17 @@
 audience: end-user
 product: campaign
 title: 使用电子邮件模板
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 8%
+source-wordcount: '119'
+ht-degree: 9%
 
 ---
 
 # 使用电子邮件模板 {#email-saved-content-templates}
 
-时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
+时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 的部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
 
 ![](assets/email_designer-sample-templates.png)
 
@@ -30,6 +30,6 @@ Campaign提供了一组内置模板，您可以从中选择这些模板。
 
    ![](assets/email_designer-sample-templates-navigate.png)
 
-1. 单击 **[!UICONTROL 使用此模板]** 屏幕右上角。
+1. 单击 **[!UICONTROL 使用此模板]** 在屏幕的右上角。
 
 1. 使用Email Designer根据需要编辑内容。 [了解详情](create-email-content.md)

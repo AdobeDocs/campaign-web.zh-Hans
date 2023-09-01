@@ -3,10 +3,10 @@ audience: end-user
 title: 发送优惠
 description: 发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 44%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # 发送优惠 {#offers-content}
 
-Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 通过投放发送优惠的步骤如下：
 
@@ -39,7 +39,7 @@ Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行�
 
 1. 配置应向收件人推荐的优惠。
 
-   首先，选择与优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。了解如何在中创建优惠空间 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   首先，选择与优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。了解如何在中创建优惠空间 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

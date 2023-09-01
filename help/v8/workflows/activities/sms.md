@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用短信工作流活动
 description: 了解如何使用短信工作流活动
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 1. 创建和配置新工作流后，添加构建受众活动以选择现有受众，或使用规则生成器定义您自己的查询。
 
-1. 在工作流中添加短信渠道活动。
+1. 将短信渠道活动添加到您的工作流中。
 
    ![](../assets/activity-sms-1.png)
 <!--

@@ -2,12 +2,12 @@
 audience: end-user
 title: 添加指向镜像页面的链接
 description: 了解如何添加和管理指向镜像页面的链接
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 99%
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 

@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha"
-source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 59%
@@ -16,7 +16,7 @@ ht-degree: 59%
 
 # 内置内容块 {#ootb-content-blocks}
 
-Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是动态的、个性化的，并且具有特定的呈现方式，您可以将其插入到投放中。 例如，您可以添加徽标、问候语消息或指向镜像页面的链接。
+Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动态的、个性化的，并且具有特定的呈现方式，您可以将其插入到投放中。 例如，您可以添加徽标、问候语消息或指向镜像页面的链接。
 
 要将内容块添加到投放，请执行以下步骤：
 
@@ -28,7 +28,7 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 1. 在表达式编辑器中，浏览到 **[!UICONTROL 内容块]** 左侧菜单。
 
-1. 要添加内容块，请将光标放在内容中的所需位置，然后单击“+”按钮以插入该内容块。
+1. 要添加内容块，请将光标放在内容中所需的位置，然后单击“+”按钮以插入该内容块。
 
    ![](assets/content-blocks.png){width="800" align="center"}
 
@@ -53,5 +53,5 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 >[!NOTE]
 >
->您可以从Adobe Campaign v8控制台中定义新块，以便优化投放个性化。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>您可以从Adobe Campaign v8控制台中定义新块，以便优化投放个性化。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
 

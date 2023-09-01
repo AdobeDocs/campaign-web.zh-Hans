@@ -3,11 +3,11 @@ audience: end-user
 title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 96%
+source-wordcount: '549'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 
   >[!NOTE]
   >
-  >要利用 Adobe Experience Platform 受众，您需要配置与 Destinations 的集成。请参阅 [Destinations 文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}。
+  >要利用 Adobe Experience Platform 受众，您需要配置与 Destinations 的集成。请参阅 [Adobe Experience Platform目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
 
 您可以使用搜索栏快速查找元素。
 

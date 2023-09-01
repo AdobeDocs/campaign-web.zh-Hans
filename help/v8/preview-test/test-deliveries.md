@@ -3,10 +3,10 @@ audience: end-user
 title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1032'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 13%
 
 * [测试用户档案](#test-profiles)  — 发送 **测试电子邮件和短信** 种子地址，即数据库中的其他收件人。
 
-  它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * [从主要目标替换](#substitution-profiles)  — 发送 **测试电子邮件和短信** 到特定电子邮件地址或电话号码。
 
@@ -43,7 +43,7 @@ ht-degree: 13%
 
 * [订阅者](#subscribers)  — 发送 **测试推送通知** 添加到数据库的虚拟订阅者。
 
-  与测试用户档案一样，也可以在以下位置创建测试用户档案： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  与测试用户档案一样，也可以在以下位置创建测试用户档案： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 要选择测试投放的收件人，请根据要使用的用户档案类型执行以下步骤。
 

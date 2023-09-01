@@ -3,18 +3,18 @@ audience: end-user
 title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 9%
+source-wordcount: '343'
+ht-degree: 10%
 
 ---
 
 
 # 预览投放内容 {#preview-content}
 
-使用 [!DNL Campaign] 内容模拟功能，用于在发送消息之前预览消息内容。 这允许您控制个性化并检查向收件人显示的方式。
+使用 [!DNL Campaign] 内容模拟功能，可在发送消息之前预览消息内容。 这允许您控制个性化并检查向收件人显示的方式。
 
 要预览投放内容，请执行以下步骤。
 
@@ -38,9 +38,9 @@ ht-degree: 9%
 
      >[!NOTE]
      >
-     >可在中创建测试用户档案 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >可在中创建测试用户档案 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * **[!UICONTROL 配置文件]**&#x200B;选项卡列出了存储到 控制台的&#x200B;**[!UICONTROL 配置文件和目标]**&#x200B;文件夹中的所有收件人。[!DNL Campaign]了解详情，请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * **[!UICONTROL 配置文件]**&#x200B;选项卡列出了存储到 控制台的&#x200B;**[!UICONTROL 配置文件和目标]**&#x200B;文件夹中的所有收件人。[!DNL Campaign]了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 
@@ -57,7 +57,7 @@ ht-degree: 9%
 1. 从 **[!UICONTROL 模拟]** 屏幕您还可以：
    * 将测试投放发送给特定收件人进行验证 —  [了解详情](test-deliveries.md)
    * 访问已发送测试投放的日志 —  [了解详情](test-deliveries.md#access-proofs)
-   * 仅对于电子邮件，检查常用电子邮件客户端中的消息内容渲染 —  [了解详情](email-rendering.md)
+   * 仅对于电子邮件，检查常用电子邮件客户端中的消息内容呈现 —  [了解详情](email-rendering.md)
 
 
 

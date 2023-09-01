@@ -3,11 +3,11 @@ audience: end-user
 title: 测试电子邮件渲染
 description: 了解如何在 Campaign Web UI 中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '226'
+ht-degree: 8%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 在发送电子邮件之前，请确保以最佳方式在各种Web客户端和设备上向收件人显示您的消息。
 
-为此，您可以利用 **Litmus** 帐户至 [!DNL Adobe Campaign] 即时预览不同上下文中的电子邮件呈现，并检查主要桌面和应用程序（Web邮件、消息服务、移动设备等）中的兼容性。
+为此，您可以利用 **利特默斯** 帐户至 [!DNL Adobe Campaign] 即时预览不同上下文中的电子邮件呈现，并检查主要桌面和应用程序（Web邮件、消息服务、移动设备等）中的兼容性。
 
 >[!CAUTION]
 >
->在Campaign中使用电子邮件渲染会向第三方系统发送测试电子邮件。 将您的Litmus帐户与 [!DNL Campaign]，您确认对于您可能会发送到该第三方的任何数据，Adobe概不负责。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试邮件中的个性化数据。 要访问或删除此类数据，您需要直接与Litmus联系。
+>在Campaign中使用电子邮件渲染会向第三方系统发送测试电子邮件。 将您的Litmus帐户与 [!DNL Campaign]，则您确认该Adobe对您可能发送给该第三方的任何数据概不负责。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。 要访问或删除此类数据，您需要直接联系Litmus。
 
 要访问电子邮件渲染功能，您需要：
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 1. 在 [编辑内容](../content/edit-content.md) 屏幕或 [电子邮件设计工具](../content/get-started-email-designer.md)，单击 **[!UICONTROL 模拟内容]** 按钮。
 
-1. 选择 **[!UICONTROL 渲染电子邮件]** 按钮。
+1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
 
    ![](assets/simulate-rendering-button.png)
 

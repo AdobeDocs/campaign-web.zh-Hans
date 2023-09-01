@@ -3,8 +3,8 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha"
-source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -121,7 +121,7 @@ ht-degree: 89%
    >
    >列表中包含的受众来自您的 Campaign v8 实例或 Adobe Experience Platform（如果已在您的实例上配置目标/源集成）。
    >
-   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。了解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。了解如何在中使用Campaign和Adobe Experience Platform [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 

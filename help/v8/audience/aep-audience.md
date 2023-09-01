@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 39%
@@ -15,11 +15,11 @@ ht-degree: 39%
 
 Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Adobe Experience Platform之间的无缝集成。
 
-创建Adobe Experience Platform受众并在客户端控制台中可用后，您可以像对Campaign受众进行个性化和发送消息一样使用该受众。
+创建Adobe Experience Platform受众并在客户端控制台中可用后，您便可以像对Campaign受众使用一样使用该受众来个性化和发送消息。
 
 >[!NOTE]
 >
->要在Campaign中使用Adobe Experience Platform受众，您需要配置与Adobe源和目标的集成。 请参阅 [Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+>要在Campaign中使用Adobe Experience Platform受众，您需要配置与Adobe源和目标的集成。 请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
 要选择投放的受众，您还可以：
@@ -36,11 +36,11 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
 1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](segment-builder.md)。
 
-   此屏幕显示当前文件夹在Adobe Campaign客户端控制台中定义的所有现有受众。 要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分。
+   此屏幕显示当前文件夹在Adobe Campaign客户端控制台中定义的所有现有受众。 要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分删除。
 
    ![](assets/select-audience-folder.png)
 
-   您还可以定义根据受众的来源进行筛选的规则，如下所示：
+   您还可以定义规则以根据受众的来源进行过滤，如下所示：
 
    ![](assets/filter-on-aep-audience.png)
 
