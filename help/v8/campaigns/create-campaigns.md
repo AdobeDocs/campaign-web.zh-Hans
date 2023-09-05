@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 27%
+source-wordcount: '478'
+ht-degree: 12%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="营销活动创建属性"
->abstract="定义营销活动的属性和元数据。"
+>abstract="在此屏幕中，定义促销活动设置：选择模板，然后为促销活动输入标签。 浏览到其他设置以更改默认内部名称、文件夹、添加描述并选择被分派人。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="营销活动属性"
->abstract="定义营销活动设置和元数据。"
+>abstract="在此屏幕中，您可以检查和更新营销活动设置：其标签、内部名称、文件夹和描述。 您还可以查看它被分配给哪个用户。"
 
 要创建新营销活动，您需要定义其属性、计划并包含工作流和投放。
 
 ## 创建营销活动{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="营销活动计划"
->abstract="在营销活动创建期间定义营销活动计划。"
 
 要创建新营销活动，请执行以下步骤：
 
@@ -39,14 +34,7 @@ ht-degree: 27%
 1. 选择 **模板** 为营销活动使用和提供标签。 营销活动模板已预配置，可重复用于创建新营销活动。 它们是从客户端控制台创建的。
    [阅读更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hans)。
 1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
-1. 定义 **计划** 您的营销活动中的。 达到开始日期时，营销活动即会开始。 开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
-
-   ![定义营销活动属性](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
-
+1. 定义 **计划** 您的营销活动中的。 了解如何在中设置活动计划 [本节](#campaign-schedule)
 1. 单击&#x200B;**创建**。
 1. 将工作流和投放添加到营销活动：
 
@@ -61,6 +49,29 @@ ht-degree: 27%
 
 您还可以通过单击 **报表** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
 
+
+## 定义活动计划 {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="营销活动计划"
+>abstract="选择营销活动计划。 您可以创建营销活动，并在到达开始日期时开始。 默认情况下，促销活动开始日期是创建日期，持续5天。 开始和结束日期显示在营销活动列表中，并可用作过滤器。"
+
+
+达到开始日期时，营销活动即会开始。 只要未到达开始日期，营销活动就会具有 **[!UICONTROL 草稿]** 状态。 然后，当到达开始日期时，它会变为 **[!UICONTROL 进行中]**. 达到结束日期后，营销活动将设置为 **[!UICONTROL 已完成]**.
+
+开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
+
+![定义营销活动属性](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
+
+
+
+到达日期后，将实际发送在工作流上下文中在该营销活动中创建的已准备好发送的投放。 为此，必须已启动工作流。
 
 
 <!--

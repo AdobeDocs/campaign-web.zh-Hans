@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 99%
+source-wordcount: '1724'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 
 **最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。
 
-利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。
+利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。要了解有关这些KPI的更多信息，请参阅 [此页面](../reporting/kpis.md).
 
 从主页的&#x200B;**学习**&#x200B;部分访问 Campaign v8 Web 关键帮助页面。
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有效期"
->abstract="此选项定义在 URL 上激活跟踪的持续时间。"
+>abstract="有效期设置消息URL上激活跟踪的持续时间。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="投放权重"
 >abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="类型"
->abstract="使用类型，您可以控制、筛选和监测投放发送情况。"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -380,7 +375,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="投放设置网站分析"
+>title="投放设置 Web 分析"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
