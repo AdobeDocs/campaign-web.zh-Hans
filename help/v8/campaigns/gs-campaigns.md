@@ -4,9 +4,9 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 开始使用营销活动 {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="设计和发送跨渠道营销活动"
->abstract="Adobe Campaign 的各种功能可帮助您管理集中化的客户数据、设计客户通信和营销活动以及打造各种渠道的个性化体验：电子邮件、推送和短信。"
 
 Adobe Campaign 可让您使用内置的营销活动管理功能轻松编排定向营销方案。利用定义计划的功能，您可以规划营销活动的持续时间和时间，与战略目标保持一致并最大限度地提高受众参与度。
 

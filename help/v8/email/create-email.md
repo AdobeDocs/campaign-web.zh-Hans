@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 89%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="电子邮件入门"
->abstract="从模板开始，或使用 Adobe Campaign 的新电子邮件设计器来创建电子邮件，而无需编写任何代码。了解如何使用电子邮件设计器在端到端用例中创建您的内容、预览和测试内容，以及向现有受众发送电子邮件。"
+>title="针对电子邮件内容的Gen AI"
+>abstract="我们的Gen AI技术利用高级算法生成高度引人入胜的个性化内容。 利用Gen AI的智能内容生成功能，提高开放率、点进率和转化率。 在电子邮件内容方面使用Gen AI，在竞争中保持领先地位并提升您的电子邮件营销游戏。"
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 

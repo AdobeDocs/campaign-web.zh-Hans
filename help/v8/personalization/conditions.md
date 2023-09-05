@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 15%
+source-wordcount: '909'
+ht-degree: 10%
 
 ---
 
 # 构建条件内容{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="创建条件内容"
->abstract="创建条件内容以根据收件人的配置文件定义动态个性化，并在满足某些条件时自动替换文本块和图像。此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
