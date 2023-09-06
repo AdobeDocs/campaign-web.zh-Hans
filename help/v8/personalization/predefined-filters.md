@@ -6,18 +6,36 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: 96f383e31953ef56e5a78a701bb34fcc30a65670
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
-# 创建和使用预定义过滤器 {#predefined-filters}
+# 使用预定义过滤器 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="预定义过滤器管理"
->abstract="正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。"
+>abstract="Campaign Web现在为您提供用户友好的界面，以便轻松地管理和自定义预定义过滤器来满足您的特定需求。 创建一次并保存以供将来使用。"
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-dashboard"
+>title="预定义过滤器"
+>abstract="Campaign Web现在为您提供用户友好的界面，以便轻松地管理和自定义预定义过滤器来满足您的特定需求。 创建一次并保存以供将来使用。"
+
+## 创建预定义过滤器 {#create-predefined-filter}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-creation"
+>title="创建预定义过滤器"
+>abstract="输入预定义过滤器的标签，然后选择它要应用的表。 打开其他选项以添加描述，并将此筛选器设置为收藏。然后使用“创建规则”按钮定义筛选条件。 "
+
+## 使用预定义过滤器 {#use-predefined-filter}
+
+
+
+## 管理预定义过滤器 {#manage-predefined-filter}
 
