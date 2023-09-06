@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 50%
+source-wordcount: '962'
+ht-degree: 56%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 50%
 
 我们很高兴地介绍Adobe Campaign Web UI的BETA版。 我们的最新版本中填充了各种直观功能，这些功能旨在简化跨渠道个性化促销活动的创建，取得卓越的成效，并为您提供跨所有渠道的竞争优势。
 
-## 测试版{#beta-release}
+## Beta 版{#beta-release}
 
-此新Campaign Web界面当前仅适用于 **Beta测试人员** 具有以下功能：
+这个新的 Campaign Web 界面目前仅适用于 **Beta 从业人员**，并具有以下功能：
 
 **现代、直观且统一的体验**
 
@@ -79,7 +79,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * 预定义过滤器管理
 
-  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。
+  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。 [了解详情](../personalization/predefined-filters.md)
 
 
 * 目标受众
@@ -104,7 +104,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从探索工具的左侧导航中）。在[此章节](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
 
-在Campaign Web测试版中，用户界面可反映用户的权限。 要了解有关权限的更多信息，请参阅 [此页面](../get-started/permissions.md)
+随着 Campaign Web Beta 版的发布，用户界面反映了用户的权限。请参阅[此页面](../get-started/permissions.md)以详细了解权限
 
 ## 术语更新 {#terminology-updates}
 
@@ -120,7 +120,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 以下限制适用于此 Alpha 版本：
 
-* 可编辑对象包括：投放、营销策划、工作流、受众、订阅服务、预定义过滤器和模板。 其他对象是只读的。使用筛选器来浏览所有对象。
+* 可编辑的对象为：投放、营销活动、工作流、受众、订阅服务、预定义过滤器和模板。其他对象是只读的。使用筛选器来浏览所有对象。
 * 无法保存受众用于将来使用。
 * 管理用户界面不可用。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
