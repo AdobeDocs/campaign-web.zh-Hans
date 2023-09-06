@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="预定义过滤器"
 >abstract="Campaign Web现在为您提供用户友好的界面，以便轻松地管理和自定义预定义过滤器来满足您的特定需求。 创建一次并保存以供将来使用。"
 
-预定义过滤器是自定义过滤器，可供将来使用。 在规则生成器的筛选操作中，可以将这些功能用作快捷方式。
+预定义过滤器是自定义过滤器，可供将来使用。 在规则生成器的筛选操作中，可以将这些功能用作快捷方式。 您可以使用现有的内置过滤器来访问数据的特定子集，或创建自己的预定义过滤器。
 
 
 ## 创建预定义过滤器 {#create-predefined-filter}
@@ -65,3 +65,5 @@ ht-degree: 0%
 
 ## 管理预定义过滤器 {#manage-predefined-filter}
 
+
+## 内置预定义过滤器 {#ootb-predefined-filter}
