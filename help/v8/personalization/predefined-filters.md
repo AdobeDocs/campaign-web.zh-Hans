@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 96f383e31953ef56e5a78a701bb34fcc30a65670
+source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="创建预定义过滤器"
->abstract="输入预定义过滤器的标签，然后选择它要应用的表。 打开其他选项以添加描述，并将此筛选器设置为收藏。然后使用“创建规则”按钮定义筛选条件。 "
+>abstract="输入预定义过滤器的标签，然后选择它要应用的表。 打开其他选项以添加描述，并将此过滤器设置为收藏。 然后使用“创建规则”按钮定义筛选条件。 "
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 
