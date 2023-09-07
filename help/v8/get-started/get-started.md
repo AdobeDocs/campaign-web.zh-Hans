@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -58,4 +58,4 @@ Campaign 数据存储在应用程序服务器中。可从客户端控制台和 W
 
 一些对象只能在客户端控制台中进行创建和管理。它们在 Campaign Web UI 中可见并可使用，但不能从该环境中创建和修改。可以从探索工具视图（可从左侧导航中访问）中使用所有 Campaign 对象和组件。
 
-有关如何使用Campaign v8的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}.
+有关如何使用 Campaign v8 的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}。

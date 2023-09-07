@@ -104,7 +104,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从探索工具的左侧导航中）。在[此章节](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
 
-随着 Campaign Web Beta 版的发布，用户界面反映了用户的权限。请参阅[此页面](../get-started/permissions.md)以详细了解权限
+随着 Campaign Web Beta 版的发布，用户界面反映了用户的权限。可在[此页面](../get-started/permissions.md)中详细了解权限
 
 ## 术语更新 {#terminology-updates}
 
