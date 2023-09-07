@@ -5,9 +5,9 @@ description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="投放是在特定渠道上发送给受众的营销通信：电子邮件、短信或推送通知。 在投放列表中，您可以编辑现有投放，并检查其状态、联系和修改日期、KPI。 单击“创建投放”按钮以添加新投放。选择投放以查看其内容、计划、受众和详细信息。"
+>abstract="投放是在电子邮件、短信或推送通知这些特定的通道上发给受众的营销通信。在您的投放列表中，您可编辑现有投放并检查其状态、联系人和修改日期、KPI。单击“创建投放”按钮以添加新投放。选择投放以查看其内容、计划、受众和详细信息。"
 
 
 借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。

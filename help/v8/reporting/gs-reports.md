@@ -4,7 +4,7 @@ title: 开始使用报告
 description: 了解如何在 Campaign Web 中访问和管理报告
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
