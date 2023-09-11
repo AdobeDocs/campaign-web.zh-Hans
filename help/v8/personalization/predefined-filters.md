@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 16%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 16%
 
 您可以使用现有的内置过滤器访问数据的特定子集，或创建自己的预定义过滤器并保存它们。
 
+![](assets/predefined-filters-menu.png)
+
 
 ## 创建预定义过滤器 {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ ht-degree: 16%
 >title="创建预定义过滤器"
 >abstract="输入预定义过滤器的标签，然后选择它应用于的表。打开其他选项以添加描述，并将此过滤器设置为收藏。然后使用“创建规则”按钮来定义过滤条件。"
 
-使用规则生成器创建过滤器时，您可以保存它以供将来使用。 保存为自定义过滤器后，可供将来使用。 您还可以从左侧导航栏的专用菜单创建和编辑预定义过滤器。
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="创建预定义过滤器规则"
+>abstract="要定义自定义筛选器的筛选条件，请单击“创建规则”按钮。"
+
 
 要在规则生成器中保存自定义筛选器，请执行以下步骤：
 
@@ -83,7 +88,6 @@ ht-degree: 16%
 
 您还可以使用中提供的筛选器快捷键 **收藏过滤器** 部分。
 
-
 例如，要从预定义过滤器构建受众，请执行以下步骤：
 
 1. 浏览 **受众** 条目。
@@ -120,6 +124,8 @@ ht-degree: 16%
 * 编辑现有筛选器，并更改其规则和属性
 * 复制预定义过滤器
 * 删除预定义过滤器
+
+您可以在构建规则时将预定义过滤器添加为收藏，以便快速访问。 中介绍了此功能 [本节](#create-predefined-filter).
 
 ## 内置预定义过滤器 {#ootb-predefined-filter}
 
