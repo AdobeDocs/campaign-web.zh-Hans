@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 12%
+ht-degree: 40%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="营销活动创建属性"
->abstract="在此屏幕中，定义促销活动设置：选择模板，然后为促销活动输入标签。 浏览到其他设置以更改默认内部名称、文件夹、添加描述并选择被分派人。"
+>abstract="在此屏幕中，定义营销活动设置：选择模板，然后输入营销活动的标签。浏览找到其他设置以更改默认内部名称和文件夹，添加描述并选择被分派人。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="营销活动属性"
->abstract="在此屏幕中，您可以检查和更新营销活动设置：其标签、内部名称、文件夹和描述。 您还可以查看它被分配给哪个用户。"
+>abstract="在此屏幕中，您可以检查和更新营销活动设置：其标签、内部名称、文件夹和描述。您还可以查看将营销活动分配给的用户。"
 
 要创建新营销活动，您需要定义其属性、计划并包含工作流和投放。
 
@@ -56,20 +56,18 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="营销活动计划"
->abstract="选择营销活动计划。 您可以创建营销活动，并在到达开始日期时开始。 默认情况下，促销活动开始日期是创建日期，持续5天。 开始和结束日期显示在营销活动列表中，并可用作过滤器。"
+>abstract="选择营销活动计划。您可以创建营销活动，在到达开始日期时，此营销活动将开始。默认情况下，营销活动开始日期为创建日期，持续 5 天。开始日期和结束日期显示在营销活动列表中，并可用作筛选条件。"
 
 
 达到开始日期时，营销活动即会开始。 只要未到达开始日期，营销活动就会具有 **[!UICONTROL 草稿]** 状态。 然后，当到达开始日期时，它会变为 **[!UICONTROL 进行中]**. 达到结束日期后，营销活动将设置为 **[!UICONTROL 已完成]**.
 
-开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
+开始日期和结束日期显示在营销活动列表中，并可用作筛选条件。请参阅此[章节](manage-campaigns.md#access-campaigns)。
 
 ![定义营销活动属性](assets/campaign-properties.png)
 
 >[!NOTE]
 >
 >您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
-
-
 
 到达日期后，将实际发送在工作流上下文中在该营销活动中创建的已准备好发送的投放。 为此，必须已启动工作流。
 

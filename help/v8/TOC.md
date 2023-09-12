@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 98%
+source-wordcount: '370'
+ht-degree: 97%
 
 ---
 
@@ -78,6 +78,7 @@ ht-degree: 98%
       + [渲染电子邮件](preview-test/email-rendering.md)
 + 受众和收件人 {#audiences}
    + [开始使用受众](audience/about-audiences.md)
+   + [与收件人合作](audience/about-recipients.md)
    + [选择现有受众](audience/add-audience.md)
    + [使用规则生成器定义受众](audience/segment-builder.md)
    + [从文件加载电子邮件受众](audience/file-audience.md)
