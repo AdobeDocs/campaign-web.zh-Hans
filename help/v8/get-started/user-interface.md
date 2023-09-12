@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 98%
+source-wordcount: '1701'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 ## 左侧导航菜单 {#user-interface-left-nav}
 
-浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。除了电子邮件投放列表之外的所有列表屏幕均为只读。单击任意列表项以进行编辑/无法在 Alpha 中进行查看。在将来版本中，所有列表都是可编辑的。左侧导航菜单中显示的项目取决于您的用户权限。
+浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。某些列表屏幕为只读。 左侧导航菜单和列表中显示的项目取决于您的用户权限。 要了解有关权限的更多信息，请参阅 [本节](permissions.md).
 
 ![](assets/home.png)
 
@@ -47,11 +47,11 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。所有其他列表为只读状态。"
+>abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有Campaign v8组件、文件夹和架构，检查相关权限，并从此菜单创建文件夹和子文件夹。"
 
-**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。所有其他列表为只读状态。
+**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。
 
-探索工具中显示的项目取决于您的用户权限。
+中显示的项目 **资源管理器** 取决于您的用户权限。  如果您具有适当的权限，您还可以添加文件夹和子文件夹。 要了解有关权限的更多信息，请参阅 [本节](permissions.md).
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
@@ -81,10 +81,6 @@ ht-degree: 98%
 
 ### 客户管理 {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="收件人"
->abstract="访问您的收件人数据库。您可以查看有用的信息，例如他们的电子邮件地址、名字和姓氏。此列表为只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -99,8 +95,8 @@ ht-degree: 98%
 
 在“客户管理”部分中，您可以查看收件人、受众和订阅。这些列表为只读状态。
 
-* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}以详细了解收件人。
-* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}以详细了解受众和列表。
+* **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。了解有关收件人的更多信息，请参阅 [本节](../audience/about-recipients.md).
+* **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。要了解有关受众和列表的更多信息，请参阅 [本节](../audience/about-audiences.md).
 * **订阅** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}，了解如何管理订阅和退订。
 
 ### 决策管理
@@ -392,9 +388,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign 中的工作流模板"
 >abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="需要权限"
->abstract="在创建此对象之前，您的管理员必须向您授予权限。"
-
