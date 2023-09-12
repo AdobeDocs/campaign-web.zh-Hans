@@ -4,9 +4,9 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 50%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 50%
 1. 对文件格式执行的检查
 1. 单击发送
 
-+ 预览和测试部分的链接
+将链接添加到预览和测试部分
 
 **问题：**
 * 没有可用的文件替换？
