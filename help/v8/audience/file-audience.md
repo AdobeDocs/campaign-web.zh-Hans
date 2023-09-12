@@ -4,10 +4,10 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 66%
+source-wordcount: '344'
+ht-degree: 62%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="示例文件"
->abstract="支持的文件格式：txt、csv。使用第一行作为列标题。"
+>title="从文件加载受众"
+>abstract="支持的文件格式为TXT和CSV。 使用第一行作为列标题。将文件格式与以下链接中提供的示例文件对齐。"
 
 支持的格式为 TXT 和 CSV。第一行是列标题。
 
