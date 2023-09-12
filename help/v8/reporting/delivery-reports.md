@@ -4,10 +4,10 @@ title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 64%
+source-wordcount: '121'
+ht-degree: 47%
 
 ---
 
@@ -27,4 +27,8 @@ Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这�
 
    ![](assets/reporting.png)
 
+1. 如果您的投放是循环投放，则可以通过单击来选择要报告的特定投放 **[!UICONTROL 选择投放]**.
 
+   您还可以通过选择 **[!UICONTROL 联系日期]**.
+
+   ![](assets/delivery-recurring.png)
