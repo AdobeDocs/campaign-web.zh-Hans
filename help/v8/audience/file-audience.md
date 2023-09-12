@@ -4,10 +4,10 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 62%
+source-wordcount: '442'
+ht-degree: 50%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 62%
 >
 >* 从外部文件加载目标人群时无法使用[对照组](control-group.md)。
 
+## 上传文件 {#upload}
 
 要直接从电子邮件界面定位本地文件中的用户档案，请执行以下步骤：
 
@@ -54,6 +55,22 @@ ht-degree: 62%
 
 ![](assets/select-external-perso.png)
 
+## 预览和测试电子邮件 {#test}
+
+通过Campaign Web，您可以预览和发送使用从文件上传的受众的测试电子邮件。 为此，请执行以下步骤：
+
+1. 模拟内容
+1. 打开预览。 单击选择配置文件：从要使用的文件中选择配置文件
+1. 若要发送测试电子邮件，请单击“测试”
+1. 测试模式：定义验证目标
+1. 从第二个文件上传测试电子邮件的目标（或使用相同的文件）。 文件格式与上载的文件格式相同
+1. 对文件格式执行的检查
+1. 单击发送
+
++ 预览和测试部分的链接
+
+**问题：**
+* 没有可用的文件替换？
 
 ## 示例文件 {#sample-file}
 
