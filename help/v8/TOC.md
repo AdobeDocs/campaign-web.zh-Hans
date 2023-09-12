@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 98%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 98%
    + [浏览、搜索和过滤列表](get-started/list-filters.md)
    + [访问和权限](get-started/permissions.md)
    + [不支持的功能](get-started/unsupported.md)
+   + [使用AI](get-started/using-ai.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
    + [使用投放模板](msg/delivery-template.md)
