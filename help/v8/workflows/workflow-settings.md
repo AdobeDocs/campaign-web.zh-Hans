@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 31%
 
 ---
 
@@ -34,8 +34,13 @@ ht-degree: 33%
 * **[!UICONTROL 名称]**：工作流的内部名称。
 * **[!UICONTROL 文件夹]**：保存工作流的文件夹。
 * **[!UICONTROL 链接的活动]**：如果工作流是在营销策划中创建的，则会显示此字段。 它允许您打开关联的营销策划。
-* **[!UICONTROL 时区]**：定义默认用在工作流所有活动中的特定时区。 默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
-* **[!UICONTROL 主管]**：当工作流出错时，只要属于工作流监督组的操作员的电子邮件地址列在其用户档案中，该操作员就会收到电子邮件通知。
+* **[!UICONTROL 时区]**：定义默认用在工作流所有活动中的特定时区。 默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。其他可能的值包括：
+   * **服务器时区** 使用Adobe Campaign应用程序服务器的时区
+   * **操作员时区** 在客户端控制台中，使用执行工作流的Adobe Campaign操作员的时区，如操作员的配置文件中所定义
+   * **数据库的时区** 使用数据库服务器的时区
+   * 特定时区
+
+* **[!UICONTROL 主管]**：当工作流失败时，属于此字段中所选操作员组的操作员将收到电子邮件通知。
 * **[!UICONTROL 描述]**：使用此字段提供工作流的描述。
 
 ## 分段设置
