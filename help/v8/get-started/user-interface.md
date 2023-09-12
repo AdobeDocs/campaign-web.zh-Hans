@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -269,7 +269,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此受众为只读"
->abstract="您没有权限编辑此受众。 如果需要，请联系您的管理员以向您授予访问权限。"
+>abstract="您无权编辑此受众。如果需要，请联系您的管理员以向您授予访问权限。"
 
 <!-- Workflows-->
 
@@ -304,7 +304,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有效期"
->abstract="有效期设置消息URL上激活跟踪的持续时间。"
+>abstract="有效期可设定在消息 URL 上激活跟踪的持续时间。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -392,3 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign 中的工作流模板"
 >abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="需要权限"
+>abstract="在创建此对象之前，您的管理员必须向您授予权限。"
+
