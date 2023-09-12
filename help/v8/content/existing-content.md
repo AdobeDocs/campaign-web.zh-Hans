@@ -4,10 +4,10 @@ title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 85%
+source-wordcount: '239'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,19 @@ ht-degree: 85%
 
 1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
 
-1. 上传 HTML 内容后，可以利用电子邮件设计器功能来编辑和预览电子邮件。[了解详情](create-email-content.md)
+1. 上传HTML内容后，您的内容将位于 **[!UICONTROL 兼容模式]**.
+
+   在此模式下，您只能对文本进行个性化，向内容添加链接或包含资源。
 
    ![](assets/html-imported.png)
+
+1. 为了能够利用Email Designer内容组件，请访问 **[!UICONTROL HTML转换器]** 选项卡，然后单击 **[!UICONTROL 转换]**.
+
+   ![](assets/html-imported-2.png)
+
+   >[!NOTE]
+   >
+   > 使用 `<table>` 将标签作为HTML文件中的第一层可能会导致样式丢失，包括顶层标签中的背景和宽度设置。
+
+1. 现在，您可以根据需要使用Email Designer功能个性化导入的文件 [了解详情](content-components.md).
+
