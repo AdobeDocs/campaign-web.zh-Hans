@@ -4,10 +4,10 @@ title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 39%
+source-wordcount: '290'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,7 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
 >[!NOTE]
 >
->要在Campaign中使用Adobe Experience Platform受众，您需要配置与Adobe源和目标的集成。 请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
+>要在Campaign中使用Adobe Experience Platform受众，您需要配置与Adobe源和目标的集成。 请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 要选择投放的受众，您还可以：
 
