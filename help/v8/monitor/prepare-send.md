@@ -4,7 +4,7 @@ title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 50%
@@ -35,7 +35,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >如果您计划了投放并禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../email/create-email.md#schedule)
+   >如果您计划了投放并禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-messages.md#gs-schedule)
 
 1. 这将显示准备进度。根据目标人群的规模，此操作可能需要花费一些时间。
 
@@ -87,7 +87,7 @@ ht-degree: 50%
 
 一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
 
-如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解详情](#schedule-the-send)
+如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解详情](../msg/gs-messages.md#gs-schedule)
 
 ### 立即发送 {#send-immediately}
 
@@ -105,7 +105,7 @@ ht-degree: 50%
 
 如果您计划稍后发送电子邮件，请按照以下步骤操作。
 
-1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解详情](../email/create-email.md#schedule)
+1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解详情](../msg/gs-messages.md#gs-schedule)
 
 1. 在投放仪表板中，单击 **[!UICONTROL 按计划发送按钮]** 按钮进行标记。
 
@@ -115,7 +115,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >如果您禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../email/create-email.md#schedule)
+   >如果您禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-messages.md#gs-schedule)
 
 ## 暂停或停止发送 {#pause-stop-sending}
 

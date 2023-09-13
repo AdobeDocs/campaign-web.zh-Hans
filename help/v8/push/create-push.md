@@ -3,10 +3,10 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 68%
+source-wordcount: '337'
+ht-degree: 67%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 68%
 
    在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../content/offers.md).
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。开始投放后，将在您为收件人定义的确切日期和时间自动发送消息。
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。开始投放后，将在您为收件人定义的确切日期和时间自动发送消息。在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule)
 
    ![](assets/push_create_3.png)
 

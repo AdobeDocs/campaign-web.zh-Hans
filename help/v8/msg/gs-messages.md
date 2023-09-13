@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-audiences.md)中详细了解受众。
 1. 定义消息内容。
-1. （可选）定义投放计划。如果未定义计划，则在单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后立即发送消息。
+1. （可选）定义投放 [计划](#gs-schedule). 如果未定义计划，则在单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后立即发送消息。
 1. 单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮可检查您的设置。
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮可测试您的投放和个性化设置。在[此章节](../preview-test/preview-test.md)中详细了解消息模拟。
 1. 单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮可计算目标群体并生成消息。准备步骤可能需要几分钟时间。准备完成后，消息随时即可发送。如果出现错误，请浏览到&#x200B;**日志**&#x200B;检查警报和警告。
@@ -144,8 +144,24 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 定义消息内容后，您可以预览内容以控制消息的渲染，并使用测试配置文件检查个性化设置。[了解详情](../preview-test/preview-test.md)
 
+## 计划投放发送 {#gs-schedule}
 
-## 监控和跟踪日志{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="安排发送"
+>abstract="定义发送消息的日期和时间。 通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。"
+
+您可以设置发送消息的日期和确切时间。 通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。
+
+要计划投放的发送，请打开您的投放并浏览到 **计划** 部分。 使用 **[!UICONTROL 启用计划]** 切换以激活它，并设置所需的发送日期和时间。 发送投放后，实际发送将在您定义的联系日期开始。
+
+![](assets/schedule.png)
+
+默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在计划日期和时间发送投放之前确认发送。 如果您需要在计划的日期和时间自动发送投放，则可以禁用此选项。
+
+了解在中发送计划投放的步骤 [本节](../monitor/prepare-send.md#schedule-the-send).
+
+## 监控和跟踪日志 {#gs-tracking-logs}
 
 在发送后监控投放是确保营销活动有效并接触到客户的重要步骤。
 

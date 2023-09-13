@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 85%
+source-wordcount: '1224'
+ht-degree: 87%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="针对电子邮件内容的Gen AI"
->abstract="我们的Gen AI技术利用高级算法生成高度引人入胜的个性化内容。 利用Gen AI的智能内容生成功能，提高开放率、点进率和转化率。 在电子邮件内容方面使用Gen AI，在竞争中保持领先地位并提升您的电子邮件营销游戏。"
+>title="适用于电子邮件内容的生成式 AI"
+>abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。利用生成式 AI 生成电子邮件内容，保持竞争优势并提升电子邮件营销水平。"
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -131,16 +131,11 @@ ht-degree: 85%
 
 ## 安排发送 {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="安排发送"
->abstract="定义发送的日期和确切时间。通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。"
-
-要安排发送电子邮件，请打开您的电子邮件投放并浏览到&#x200B;**安排**&#x200B;部分。使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;开关以激活它，并设置所需的发送日期和时间。发送投放后，实际发送将在您定义的联系日期开始。
-
-默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在计划的日期和时间发送电子邮件之前确认发送。如果您需要在计划的日期和时间自动发送电子邮件，则可以禁用此选项。
+要安排发送电子邮件，请打开您的电子邮件投放并浏览到&#x200B;**安排**&#x200B;部分。
 
 ![](assets/schedule.png)
+
+了解如何在中计划投放 [本节](../msg/gs-messages.md#gs-schedule)
 
 ## 预览和测试电子邮件 {#preview-test}
 
