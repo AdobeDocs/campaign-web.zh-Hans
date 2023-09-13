@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 56%
+source-wordcount: '903'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 56%
 # 新增功能 {#new}
 
 
-我们很高兴地介绍Adobe Campaign Web UI的BETA版。 我们的最新版本中填充了各种直观功能，这些功能旨在简化跨渠道个性化促销活动的创建，取得卓越的成效，并为您提供跨所有渠道的竞争优势。
+我们很高兴地介绍Adobe Campaign Web UI的BETA版。 我们的最新版本包含直观的功能，旨在简化个性化跨渠道营销活动的创建，加快获得卓越的成果，并使您获得跨所有渠道的竞争优势。
 
 ## Beta 版{#beta-release}
 
@@ -52,39 +52,37 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 ## 最近更新
 
-
 **测试版摘要**
 
-* 为受众和个性化启用数据组合（联合）。
-* 利用AI技术增强电子邮件内容的生成。
-* 无缝地同步资源和完整的HTML模板。
-* 高效地组织和管理您的文件夹和资源。
-* 创建引人入胜且高效的登陆页面。
-* 更多工作流活动：访问其他活动，如更改维度、重复数据删除和定期投放，以增强活动工作流。
+* 为受众和个性化启用数据组合（联合）
+* 利用AI技术增强电子邮件内容的生成
+* 无缝地同步资源和完整的HTML模板
+* 高效地组织和管理您的文件夹和资源
+* 访问其他活动，如更改维度、重复数据删除和定期投放，以增强活动工作流
 
 **关键的新功能**
 
 * 更多营销活动工作流活动
 
-  使用我们扩展的工作流活动集强化您的营销活动。 发掘自动化和优化的新可能性，使您能够创建更动态、更个性化的客户历程。
+  使用我们扩展的工作流活动集强化您的营销活动。 发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。
 
-  从高级分段到条件触发器，我们额外的工作流活动使您能够发送有针对性的消息并提高促销活动效果。
+  从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
 
 * 针对电子邮件内容的Gen AI
 
-  告别手动内容创建，向高效的、数据驱动的营销活动拜拜Gen AI的强大功能所赐。  我们的Gen AI技术利用高级算法生成高度引人入胜的个性化内容。 利用Gen AI的智能内容生成功能，提高开放率、点进率和转化率。
+  告别手动内容创建，向高效的、数据驱动的营销活动拜拜Gen AI的强大功能所赐。  我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。
 
-  在电子邮件内容方面使用Gen AI，在竞争中保持领先地位并提升您的电子邮件营销游戏。
+  利用生成式 AI 生成电子邮件内容，保持竞争优势并提升电子邮件营销水平。
 
 
 * 预定义过滤器管理
 
-  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。 [了解详情](../personalization/predefined-filters.md)
+  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。[了解详情](../personalization/predefined-filters.md)
 
 
 * 目标受众
 
-  构建投放目标从未像现在这样简单！ 现在，通过我们最新的规则生成器，您可以从数据库为收件人定义筛选条件或任何其他定向维度。 此外，您可以利用AEP (Adobe Experience Platform)受众来进一步优化目标受众，并最大化营销活动的影响。
+  确立投放目标从未如此简单！利用我们最新的规则生成器，您现在可以为收件人或数据库中的任何其他定位维度定义筛选条件。此外，您可以利用AEP (Adobe Experience Platform)受众来进一步优化目标受众，并最大化营销活动的影响。
 
 * 包含短信和推送的优惠
 
@@ -92,11 +90,14 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
   通过在我们的高级Web平台上通过短信和推送通知来利用集成优惠的强大功能，提升您的营销工作。
 
-* Adobe Experience Manager (AEM)集成
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  通过我们扩展到Web UI的AEM集成，您可以轻松管理资源和同步完整的HTML模板，使您能够轻松创建引人入胜的数字体验。
-
-  借助此集成，提升并简化Web UI上的内容管理功能以提高工作效率。
 
 ## 过渡到 Campaign Web UI
 

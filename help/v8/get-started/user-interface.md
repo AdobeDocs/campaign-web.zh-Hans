@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 93%
+source-wordcount: '1760'
+ht-degree: 90%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 93%
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
 有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
+
+
+### 情景帮助 {#user-interface-help}
+
+直接从产品用户界面提出问题并查找指导。 全新AI支持的知识助手，嵌入在上下文帮助弹出窗口中，可帮助您学习和培养有关新Campaign功能的专业知识。 它基于最新的产品文档，可帮助您在构建用例时查找帮助并即时获得逐步指导。
+
 
 ### Campaign 管理 {#user-interface-campaign-management}
 
