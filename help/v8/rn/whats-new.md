@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 76%
+source-wordcount: '895'
+ht-degree: 77%
 
 ---
 
@@ -77,18 +77,18 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * 预定义过滤器管理
 
-  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。[了解详情](../personalization/predefined-filters.md)
+  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。[了解详情](predefined-filters.md)
 
 
 * 目标受众
 
   确立投放目标从未如此简单！利用我们最新的规则生成器，您现在可以为收件人或数据库中的任何其他定位维度定义筛选条件。此外，您可以利用AEP (Adobe Experience Platform)受众来进一步优化目标受众，并最大化营销活动的影响。
 
-* 包含短信和推送的优惠
+* 包含短信的优惠
 
-  除了电子邮件之外，新的Web UI现在还允许您将优惠与短信和推送通知集成。 通过移动设备上联系受众，提供促销和及时通知。
+  除了电子邮件之外，您现在还可通过新的Web UI将选件与短信集成。 通过受众的移动设备与其联系，提供促销活动并及时发送通知。
 
-  通过在我们的高级Web平台上通过短信和推送通知来利用集成优惠的强大功能，提升您的营销工作。
+  通过在我们的高级Web平台上利用短信提供的集成优惠的强大功能，提升您的营销工作。
 
 <!--
 * Adobe Experience Manager (AEM) Integration

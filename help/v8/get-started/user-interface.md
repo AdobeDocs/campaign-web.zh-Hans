@@ -3,11 +3,11 @@ audience: end-user
 title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 90%
+source-wordcount: '1758'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >title="探索界面"
 >abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
-新的 Campaign v8 Web 界面提供了直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
+新的 Campaign v8 Web 界面提供了直观的现代用户体验，可简化营销活动的设计和投放。此新界面已与Adobe Experience Cloud应用程序和解决方案集成。
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ ht-degree: 90%
 
 * **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
 
-请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}，了解如何创建管理选件。
+了解如何在的电子邮件和短信中创建和发送优惠 [本节](../content/offers.md).
 
 ## 顶部栏
 
 利用界面的顶部栏，可以：
 
-* 作为 Alpha 测试人员共享您的反馈
+* 以Beta测试人员身份分享您的反馈
 * 在组织和实例之间切换
 * 在 Adobe Experience Cloud 应用程序之间切换
 * 访问帮助页面、联系支持人员和共享反馈。您可以从搜索字段中搜索帮助文章和视频。
