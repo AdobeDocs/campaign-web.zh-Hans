@@ -4,7 +4,7 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * 预定义过滤器管理
 
-  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。[了解详情](predefined-filters.md)
+  正在引入预定义过滤器管理。 Campaign Web UI现在为您提供用户友好的界面，可轻松管理和自定义预定义过滤器以满足您的特定需求。 创建一次并保存以供将来使用。[了解详情](../get-started/predefined-filters.md)
 
 
 * 目标受众
