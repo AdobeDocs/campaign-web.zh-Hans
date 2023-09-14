@@ -3,7 +3,7 @@ audience: end-user
 title: 监控和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Adobe Experience Platform：]** 这些受众已创建到Adobe Experience Platform中，并通过与Adobe源和目标的集成发布到Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**：这些受众是使用Campaign Web工作流创建的。 [了解如何创建受众](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**：这些受众是使用Campaign Web工作流创建的。 [了解如何创建受众](create-audience.md)
 
 *其他来源是什么？ 它们是自定义的吗？ 我们在哪里定义它们？*
 
