@@ -4,10 +4,10 @@ title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 47%
+source-wordcount: '925'
+ht-degree: 45%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 47%
 
 ## 准备发送 {#prepare}
 
-当您定义了 [内容](../content/edit-content.md)， [受众](../audience/add-audience.md) 和计划，您已准备好准备电子邮件投放。
+当您定义了 [内容](../content/edit-content.md)， [受众](../audience/add-audience.md)、和 [计划](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已准备好准备电子邮件投放。
 
-在准备期间，计算目标人群并为目标中包含的每个配置文件生成邮件内容。在准备工作完成后，可以立即发送邮件，也可以在计划的日期和时间发送。
+在投放准备期间，将计算目标群体并为目标中包含的每个用户档案生成消息内容。 在准备工作完成后，可以立即发送邮件，也可以在计划的日期和时间发送。
 
 有关投放准备期间使用的验证规则，请参见 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
