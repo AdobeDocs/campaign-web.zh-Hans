@@ -4,10 +4,10 @@ title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 28%
+source-wordcount: '201'
+ht-degree: 24%
 
 ---
 
@@ -39,3 +39,5 @@ ht-degree: 28%
 >[!NOTE]
 >
 >内容模拟也可在以下位置获得： [投放摘要](../monitor/prepare-send.md) 单击 **[!UICONTROL 审阅并发送]** 按钮。
+>
+>如果您定位的是从文件上传的受众，请参阅 [本节](../audience/file-audience.md#preview--test-your-email-test) 以了解如何预览和测试您的投放。
