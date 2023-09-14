@@ -3,10 +3,10 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 7%
+source-wordcount: '279'
+ht-degree: 9%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 7%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="删除重复项补充"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="删除重复项设置"
+>abstract="待定"
 
 此 **删除重复项** 活动是 **定位** 活动。 利用此活动，可删除集客活动结果中的重复项。 此 **删除重复项** 活动通常用在定向活动之后、允许使用定向数据的活动之前。
 

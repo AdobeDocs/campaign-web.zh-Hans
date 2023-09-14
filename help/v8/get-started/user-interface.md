@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 88%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="选择至少两个投放以供显示汇总数据报告。"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="删除重复项设置"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="删除重复项补充"
->abstract="待定"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="此交付为只读"
 >abstract="您无权编辑此交付。如果需要，请联系您的管理员以向您授予访问权限。"
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="此服务为只读"
->abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="此受众为只读"
->abstract="您无权编辑此受众。如果需要，请联系您的管理员以向您授予访问权限。"
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="工作流列表"
 >abstract="对于您的营销活动可用的工作流的列表。使用“创建工作流”按钮在您的营销活动中添加工作流。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="出站过渡以保存受众"
->abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="保存受众"
->abstract="使用此活动可保存工作流受众。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

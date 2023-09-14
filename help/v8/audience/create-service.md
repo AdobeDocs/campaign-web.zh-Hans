@@ -3,15 +3,20 @@ audience: end-user
 title: 创建服务
 description: 了解如何在Adobe Campaign Web中创建服务
 badge: label="Beta"
-source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 12%
 
 ---
 
 
 # 创建服务 {#create-services}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服务为只读"
+>abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
 
 使用Adobe Campaign创建和监控信息服务（如新闻稿），并检查这些服务的订阅/退订。
 
