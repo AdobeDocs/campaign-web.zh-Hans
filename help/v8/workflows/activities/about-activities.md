@@ -4,7 +4,7 @@ title: 使用工作流活动
 description: 了解如何使用工作流活动
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Adobe Campaign Web 允许您跨多个渠道（例如电子邮件、短信或推�
 * 推送
 * 短信
 
-请参阅此[章节](enrichment.md)。
+请参阅此[章节](channels.md)。
 
 ## 流量控制活动 {#flow-control}
 

@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 89%
+source-wordcount: '1289'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,10 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 1. 检查结果，然后单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮开始发送消息。
 1. 发送消息后，浏览到&#x200B;**报告**&#x200B;部分以访问关键量度。在[此章节](../reporting/delivery-reports.md)中详细了解投放报告。
 
->[!TAB 在活动工作流中创建投放]
+>[!TAB 在工作流中创建投放]
 
-要在营销活动中创建投放，请执行以下步骤：
+要在工作流中创建投放，请执行以下步骤：
 
-1. 创建一个营销活动或打开一个现有的营销活动。详细了解[市场营销活动](../campaigns/gs-campaigns.md)。
 1. 创建一个工作流或打开一个现有的工作流。
 1. 添加并配置一个&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动，然后单击 `+` 按钮。
 
@@ -100,7 +99,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
    **[!UICONTROL 生成受众]**&#x200B;活动详见[此章节](../workflows/activities/build-audience.md)。
 
-1. 选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。在此[章节](../workflows/activities/about-activities.md#channel)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
+1. 选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。在此[章节](../workflows/activities/channels.md)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
 1. 启动工作流，并检查日志。
 
 您还可以在不创建工作流的情况下在营销活动中添加投放。为此，请浏览到营销活动的&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
