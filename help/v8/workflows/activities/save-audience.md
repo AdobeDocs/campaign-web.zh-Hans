@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 64%
+source-wordcount: '323'
+ht-degree: 9%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 64%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+此 **保存受众** 活动是 **定位** 活动。 利用此活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+此活动主要用于通过将同一工作流中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，例如 **构建受众** 或 **合并** 活动。
 
-Replace audience with new data
+## 配置
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+按照以下步骤配置 **保存受众** 活动：
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. 添加 **保存受众** 活动添加到工作流。
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. 在 **模式** 在下拉列表中，选择要执行的操作：
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **创建或更新现有受众**：定义 **受众标签**. 如果受众已存在，则将更新受众，否则将创建新受众。
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **更新现有受众**：选择 **受众** 您希望在现有受众列表中更新。
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. 选择 **更新模式** ，这些规则将应用于现有受众：
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **使用新数据替换受众内容**：替换所有受众内容。 旧数据会丢失。只保留来自保存受众活动之集客过渡的数据。此选项会清除已更新受众的受众类型和定向维度。
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **使用新数据完成受众**：保留旧受众内容，并将来自保存受众活动之集客过渡的数据添加到旧内容中。
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. 查看 **生成补码** 选项。 然后，将向该活动添加其他过渡。
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+随后，受众的详细视图中会提供所保存受众的内容，可通过访问 **受众** 菜单。 此视图中可用的列，对应于工作流集客过渡的列 **保存受众** 活动。
 
 
+## 示例
 
--->
+
