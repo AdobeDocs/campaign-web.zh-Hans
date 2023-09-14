@@ -4,10 +4,10 @@ title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 50%
+source-wordcount: '924'
+ht-degree: 47%
 
 ---
 
@@ -70,20 +70,6 @@ ht-degree: 50%
 
 ## 发送邮件 {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="已投放"
->abstract="成功送达的邮件数。该指示器每 5 分钟更新一次。显示的百分比是基于已发送邮件的总数计算所得。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="打开"
->abstract="打开的邮件数。该指示器每 5 分钟更新一次。显示的百分比是不同打开次数与已送达邮件数的比率。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="点击次数"
->abstract="在电子邮件中至少单击一次的收件人的数目。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
 
 一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
 
@@ -130,14 +116,38 @@ ht-degree: 50%
 ## 检查KPI {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="已投放"
+>abstract="成功送达的邮件数。该指示器每 5 分钟更新一次。显示的百分比是基于已发送邮件的总数计算所得。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="了解KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="打开"
+>abstract="打开的邮件数。该指示器每 5 分钟更新一次。显示的百分比是不同打开次数与已送达邮件数的比率。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="了解KPI"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="点击次数"
+>abstract="在电子邮件中至少单击一次的收件人的数目。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="了解KPI"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送数指标"
 >abstract="投放分析期间处理的消息的总数。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="了解KPI"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误数指标"
 >abstract="投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="了解KPI"
+
 
 发送完成后，您可以检查显示的KPI：
 
@@ -156,5 +166,7 @@ ht-degree: 50%
 >[!NOTE]
 >
 >在投放开始后，所有指标每 5 分钟更新一次。投放准备指标是实时的。
+
+在中了解有关KPI的更多信息 [此页面](../reporting/kpis.md).
 
 您也可以查看日志。[了解详情](delivery-logs.md)
