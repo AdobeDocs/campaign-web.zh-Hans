@@ -3,9 +3,9 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 9%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 9%
 
 # 保存受众 {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="保存受众活动"
->abstract="利用保存受众活动，您可以……"
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 此 **保存受众** 活动是 **定位** 活动。 利用此活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 

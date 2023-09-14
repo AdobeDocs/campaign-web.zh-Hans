@@ -3,9 +3,9 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 15%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 15%
 
 # 调度程序 {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="调度程序活动"
->abstract="调度程序活动允许您……"
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。
 
