@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: '333'
+ht-degree: 9%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 11%
 >title="保存受众活动"
 >abstract="利用保存受众活动，您可以……"
 
-模式受众标签Adobe Campaign将针对现有受众匹配此标签。 如果找到匹配项，则将更新该受众，否则将创建新受众。
-更新方法
-
-将受众替换为新数据
-
-具有新数据文件夹列表(/Profiles and Targets/Lists/)的完整受众
-
-生成出站过渡
-
-
 此 **保存受众** 活动是 **定位** 活动。 利用此活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 
 此活动主要用于通过将同一工作流中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，例如 **构建受众** 或 **合并** 活动。
@@ -38,7 +28,7 @@ ht-degree: 11%
 
 1. 添加 **保存受众** 活动添加到工作流。
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. 在 **模式** 在下拉列表中，选择要执行的操作：
 
