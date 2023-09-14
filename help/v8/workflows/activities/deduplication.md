@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 1. 添加 **删除重复项** 活动添加到工作流。
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. 在 **用于标识重复项的字段** 部分，单击 **添加属性** 按钮来指定允许识别重复项的相同值的字段：电子邮件地址、名字、姓氏等。 利用字段的顺序，可指定要先处理的字段。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. 添加 **更改维度** 活动添加到工作流。
 
-       &lt;!—！[](../assets/workflow-change-dimension.png)—>
+       ！[](../assets/workflow-change-dimension.png)
    
 1. 通过更改维度字段选择新的定向维度。
 

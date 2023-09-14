@@ -3,7 +3,7 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 15%
@@ -30,7 +30,7 @@ ht-degree: 15%
 
 1. 添加 **计划程序** 活动添加到工作流。
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. 配置 **执行频率**：
 
@@ -58,7 +58,7 @@ ht-degree: 15%
 
 在以下示例中，活动被配置为在2023年10月1日至2024年1月1日这一周的每天早上9点和12点启动工作流多次。
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
