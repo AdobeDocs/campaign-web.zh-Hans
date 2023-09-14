@@ -3,9 +3,9 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -13,30 +13,30 @@ ht-degree: 1%
 
 # 创建受众 {#create-audiences}
 
-通过Campaign Web，您可以创建工作流以将现有受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
+通过Campaign Web，您可以创建工作流并将现有受众合并到可视画布中。 通过合并各种工作流活动（如拆分或排除），可生成新的优化受众。
 
-完成后，生成的受众将与现有受众一起保存在Campaign Web中，并可在独立投放或营销活动中利用它来定位个人。
+创建工作流后，生成的受众将自动与现有受众一起存储在Campaign Web中。 然后，可以在营销策划或独立投放中定位这些受众。
 
 ## 创建您的第一个受众 {#create}
 
 要创建受众，请执行以下步骤：
 
-1. 导航至 **[!UICONTROL 受众]** 菜单并单击 **[!UICONTROL 创建受众]** 按钮进行标记。
+1. 导航至 **[!UICONTROL 受众]** 菜单，然后单击 **[!UICONTROL 创建受众]** 按钮进行标记。
 1. 为受众提供标签。
-1. 展开其他选项部分可为受众配置高级参数。
+1. 展开 **[!UICONTROL 其他选项]** 部分来配置高级受众参数。
 
-   >[!NOTE]
-   >
-   >默认情况下，受众会创建到Profiles and Targets / Lists explorer菜单中。 您可以在 **[!UICONTROL 文件夹]** 字段。
+   默认情况下，受众将创建到 **[!UICONTROL 配置文件和目标]** / **[!UICONTROL 列表]** 资源管理器菜单。 您可以使用更改默认存储位置 **[!UICONTROL 文件夹]** 字段。
+
+   ![](assets/audiences-settings.png)
 
 1. 配置受众设置后，单击 **[!UICONTROL 创建受众]** 按钮。
 
-1. 此时将显示一个工作流画布，其中包含两个默认活动：
+1. 此时会显示一个工作流画布，其中包含两个默认活动：
 
-   * **[!UICONTROL 构建受众]**：工作流的起点。 此活动允许您选择一个或多个受众作为工作流的基础，
-   * **[!UICONTROL 保存受众]**：工作流的最后一步。 此活动用于将工作流结果保存到新受众中。
+   * **[!UICONTROL 构建受众]**：这是工作流的起点，允许您创建受众，并将其用作工作流的基础。
+   * **[!UICONTROL 保存受众]**：这是工作流中的最后一步，使您能够将结果另存为新受众。
 
-1. 根据需要添加任意数量的活动，以配置工作流。 有关如何配置各种活动的更多信息，请参阅 [工作流文档](../workflows/activities/about-activities.md).
+1. 根据需要添加任意数量的活动，自定义您的工作流。 有关如何配置工作流活动的更多信息，请参阅 [工作流文档](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
@@ -46,4 +46,4 @@ ht-degree: 1%
 
 1. 工作流准备就绪后，单击 **[!UICONTROL 开始]** 执行它。
 
-1. 工作流将保存到 **[!UICONTROL 工作流]** 列表以及生成的受众放入 **[!UICONTROL 受众]** 列表。 [了解如何监测和管理受众](access-audiences.md)
+1. 工作流将保存在中 **[!UICONTROL 工作流]** 列表，而生成的受众可在中访问 **[!UICONTROL 受众]** 列表。 [了解如何监测和管理受众](access-audiences.md)

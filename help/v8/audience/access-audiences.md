@@ -3,9 +3,9 @@ audience: end-user
 title: 监控和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 受众可以源自多个源。 此 **[!UICONTROL Origin]** 列指示创建给定受众的位置：
 
-* **[!UICONTROL Adobe Experience Platform：]** 这些受众已创建到Adobe Experience Platform中，并通过与Adobe源和目标的集成发布到Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform：]** 这些受众是在Adobe Experience Platform中创建的，并使用Adobe源和目标集成集成集成到了Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**：这些受众是使用Campaign Web工作流创建的。 [了解如何创建受众](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**：这些受众是使用Campaign Web受众工作流创建的。 [了解如何创建受众](create-audience.md)
 
 *其他来源是什么？ 它们是自定义的吗？ 我们在哪里定义它们？*
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 要获取有关受众的更多信息，请从列表中将其打开。 此时将显示受众属性以及受众中包含的用户档案数。 您可以随时使用刷新受众计数 **[!UICONTROL 计算]** 按钮。
 
-利用“数据”选项卡，可将属于受众的用户档案可视化。 您可以通过添加更多列来个性化此视图。 您还可以利用高级过滤器来优化显示的数据。
+此 **[!UICONTROL 数据]** 选项卡允许您可视化属于受众的用户档案。 您可以通过添加更多列或利用高级筛选器来优化显示的数据来自定义此视图。
 
 ![](assets/audiences-details.png)
 
