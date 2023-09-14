@@ -3,10 +3,10 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 16%
+source-wordcount: '421'
+ht-degree: 15%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 16%
 1. 通过单击 **[!UICONTROL 发送]** 以继续进行最终的发送过程。
 
    ![](assets/sms_send_5.png)
+
+   如果短信投放已计划，请单击 **[!UICONTROL 按计划发送]** 按钮。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. 通过单击 **[!UICONTROL 发送]** 按钮。
 
