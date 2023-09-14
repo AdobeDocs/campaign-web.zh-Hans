@@ -4,10 +4,10 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 50%
+source-wordcount: '548'
+ht-degree: 40%
 
 ---
 
@@ -55,23 +55,6 @@ ht-degree: 50%
 
 ![](assets/select-external-perso.png)
 
-## 预览和测试电子邮件 {#test}
-
-通过Campaign Web，您可以预览和发送使用从文件上传的受众的测试电子邮件。 为此，请执行以下步骤：
-
-1. 模拟内容
-1. 打开预览。 单击选择配置文件：从要使用的文件中选择配置文件
-1. 若要发送测试电子邮件，请单击“测试”
-1. 测试模式：定义验证目标
-1. 从第二个文件上传测试电子邮件的目标（或使用相同的文件）。 文件格式与上载的文件格式相同
-1. 对文件格式执行的检查
-1. 单击发送
-
-将链接添加到预览和测试部分
-
-**问题：**
-* 没有可用的文件替换？
-
 ## 示例文件 {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## 预览和测试电子邮件 {#test}
+
+通过Campaign Web，您可以预览和发送使用从文件上传的受众的测试电子邮件。 为此，请执行以下步骤：
+
+1. 单击 **[!UICONTROL “模拟内容”按钮]** 在投放内容编辑屏幕中，单击 **[!UICONTROL 添加测试配置文件]** 按钮。
+
+1. 将显示上传的文件中包含的用户档案。 选择要用于预览内容的配置文件，然后单击 **[!UICONTROL 选择]**.
+
+1. 投放内容的预览显示在屏幕的右侧窗格中。 个性化元素被替换为在左窗格中选择的配置文件中的数据。 [了解有关投放内容预览的更多信息](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. 要发送测试电子邮件，请单击 **[!UICONTROL 测试]** 按钮。
+
+1. 单击 **[!UICONTROL 上传校对配置文件]** 按钮并选择包含验证收件人的.txt或.csv文件。
+
+   >[!CAUTION]
+   >
+   >确保文件格式与用于上传受众的文件格式匹配。 任何格式错误都会显示警报。
+
+1. 添加验证收件人并准备好发送验证时，单击 **[!UICONTROL 发送测试电子邮件]** 按钮并确认发送。
+
+   ![](assets/file-upload-test.png)
+
+1. 您可以随时使用查看测试电子邮件日志按钮监控测试电子邮件的发送。 [了解有关测试电子邮件监视的更多信息](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
