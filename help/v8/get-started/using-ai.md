@@ -4,9 +4,9 @@ description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
+source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '399'
 ht-degree: 2%
 
 ---
@@ -33,5 +33,15 @@ ht-degree: 2%
 
 人工智能和机器学习模型会随着时间的推移而改进，以更好地处理特定用例。 Campaign AI支持的知识助理将在未来几个月继续得到改善。 我们强烈建议您使用??无论您何时阅读答案，都可??用按钮，以标记对我们的工程师的任何不当回应。
 
+## 推荐  {#recommendations-ai}
 
+在上下文帮助中提问时，会考虑当前产品上下文。
+
+为了充分发挥助理的作用，在提问时，我们建议您：
+
+* 尽可能精确和具体，避免模棱两可。 答案将更准确、更有用。
+* 为帮助知识助理找到正确的信息，请尽量添加有关您试图学习的内容的详细信息。
+* 重新措辞并优化您的问题以获得更好的答案。 如果答案不准确或不实用，请尝试不同的方法并添加上下文以获取更好的结果。
+* 使用适当的用语和措辞，语调中立。
+* 请对答案进行评级并提供反馈，以便我们的工程师能够从您的经验中学习并改进结果。
 
