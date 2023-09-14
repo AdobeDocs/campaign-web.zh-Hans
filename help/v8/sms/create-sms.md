@@ -4,7 +4,7 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 72%
@@ -28,7 +28,7 @@ ht-degree: 72%
 >title="短信模板选择"
 >abstract="选择预定义模板以开始您的短信投放。"
 
-您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤详细介绍了独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤详细介绍了独立（一次性）短信投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 要创建新的独立短信投放，请执行以下步骤：
