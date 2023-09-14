@@ -3,10 +3,10 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 67%
+source-wordcount: '406'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 67%
 >title="推送投放属性"
 >abstract="管理推送投放属性。"
 
-1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;主页上单击&#x200B;**[!UICONTROL 创建投放]**。
+您可以创建独立的推送通知投放，也可以在活动工作流的上下文中创建推送通知。 以下步骤详细介绍了独立（一次性）推送投放的过程。 如果您在营销活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. 在 **[!UICONTROL 渠道]** 部分，选择推送通知作为渠道，并根据所选的操作系统(Android或iOS)选择模板。 [详细了解模板](../msg/delivery-template.md)
+
+要创建新的独立推送投放，请执行以下步骤：
+
+1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击  **[!UICONTROL 创建投放]** 按钮。
+
+1. 在 **[!UICONTROL 渠道]** 部分，选择 **推送通知** 作为渠道，并根据选择的设备操作系统(Android或iOS)选择模板。 [详细了解模板](../msg/delivery-template.md)
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 

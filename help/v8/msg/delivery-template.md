@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 26%
+source-wordcount: '941'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 * 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)
 * 其他投放属性，例如资源有效性、重试参数或隔离设置。
 
-## 访问和管理模板 {#access-manage-templates}
+## 访问和管理投放模板 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ ht-degree: 26%
 >
 >编辑或删除模板时，使用此模板创建的投放不会受到影响。
 
-## 创建模板 {#create-a-delivery-template}
+## 创建投放模板 {#create-a-delivery-template}
 
 要创建投放模板，您可以：
 * 复制现有模板 —  [了解详情](#copy-an-existing-template)
 * 将现有投放转换为模板 —  [了解详情](#convert-an-existing-delivery)
 * 从头开始创建投放模板 —  [了解详情](#create-a-new-template)
 
-### 复制现有模板 {#copy-an-existing-template}
+### 复制现有投放模板 {#copy-an-existing-template}
 
 Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、短信。创建投放模板的最简单方法是复制和自定义内置模板。
 
@@ -120,7 +120,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 新模板将添加到 [**模板** 列表](#access-manage-templates). 您现在可以在创建新投放时选择它。
 
-### 创建新的模板 {#create-a-new-template}
+### 创建新投放模板 {#create-a-new-template}
 
 >[!NOTE]
 >

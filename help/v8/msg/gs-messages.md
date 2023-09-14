@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 借助 Adobe Campaign，您可以发送跨渠道营销活动内容，包括电子邮件、短信和推送通知，并使用各种专门的报告衡量其有效性。
 
-这些消息通过投放设计和发送，并且可以针对每个收件人进行个性化。这些投放可以是独立的，也可以包含在市场营销活动的上下文中。
+这些消息通过投放设计和发送，并且可以针对每个收件人进行个性化。这些投放可以是独立的，也可以包含在营销活动上下文中的工作流中。
 
 Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应用程序。
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 ## 创建投放 {#create-delivery}
 
-
 您可以从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单创建独立投放，也可以从&#x200B;**[!UICONTROL 营销活动]**&#x200B;左侧菜单在市场营销活动的上下文中创建投放。
 
 浏览以下选项卡以了解如何创建投放：
@@ -89,7 +88,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 1. 检查结果，然后单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮开始发送消息。
 1. 发送消息后，浏览到&#x200B;**报告**&#x200B;部分以访问关键量度。在[此章节](../reporting/delivery-reports.md)中详细了解投放报告。
 
->[!TAB 在营销活动中创建投放]
+>[!TAB 在活动工作流中创建投放]
 
 要在营销活动中创建投放，请执行以下步骤：
 
