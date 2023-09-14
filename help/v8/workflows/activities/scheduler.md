@@ -3,10 +3,10 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -55,6 +55,13 @@ ht-degree: 15%
    * **永久（永不过期）**：根据指定的频率执行工作流，对时间范围或迭代次数没有任何限制。
 
    * **有效期**：根据指定的频率执行工作流，直到达到特定日期为止。 您需要指定开始日期和结束日期。
+
+>[!NOTE]
+>
+>如果要立即启动工作流，可以单击 **执行挂起任务** 在调度程序的顶部操作栏中。 此按钮仅在启动工作流时可用。
+
+注意事项:
+
 
 ## 示例
 
