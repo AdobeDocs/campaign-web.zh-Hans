@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: 使用“分叉工作流”活动
-description: 了解如何使用“分叉工作流”活动
+title: 使用更改维度工作流活动
+description: 了解如何使用更改维度工作流活动
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# 分叉 {#fork}
+# 更改维度 {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="分叉活动"
->abstract="利用分叉活动，可创建叫客过渡以同时开始多个活动。"
+>id="acw_orchestration_dimension_complement"
+>title="更改维度活动"
+>abstract="通过更改维度活动，您可以……"
+
+此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建受众时更改定向维度。 此活动根据数据模板和输入维度移动轴。 例如，您可以从“合同”维度切换到“客户”维度。
+
+您还可以使用此活动定义新目标的附加列，并定义重复数据删除标准。
 
 ## 配置
 
-请按照以下步骤操作，配置&#x200B;**分叉**&#x200B;活动：
+按照以下步骤配置 **更改维度** 活动：
 
-1. 向您的工作流添加一个&#x200B;**分叉**&#x200B;活动。
-1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
-1. 请为每个过渡添加标签。
+1. 添加 **更改维度** 活动添加到工作流。
 
-## 示例
+       &lt;!—！[](../assets/workflow-change-dimension.png)—>
+   
+1. 通过更改维度字段选择新的定向维度。
 
-在下面的示例中，我们使用两个&#x200B;**分叉**&#x200B;活动：
-
-* 在两个查询之前使用一个分叉活动，同时执行这两个查询。
-* 在交集之后使用一个分叉活动，同时向目标群体发送一封电子邮件和一条短信。
-
-![](../assets/workflow-fork-example.png)
-
+别无他法??
