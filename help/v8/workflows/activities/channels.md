@@ -3,10 +3,10 @@ audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 >* [创建独立推送投放](../../push/create-push.md)
 >
 
-## 在活动工作流中创建投放{#create-a-delivery-in-a-workflow}
+## 在工作流中创建投放{#create-a-delivery-in-a-workflow}
 
-要在活动工作流的上下文中创建电子邮件、短信或推送投放，请执行以下步骤：
+要在工作流上下文中创建电子邮件、短信或推送投放，请执行以下步骤：
 
 1. 确保您已添加&#x200B;**生成受众**&#x200B;活动。受众是投放的主要目标：接收邮件的收件人。在营销活动工作流的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**生成受众**&#x200B;活动中定义的。请参阅[此章节](build-audience.md)。
 
@@ -56,7 +56,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
 1. 在投放仪表板中，单击&#x200B;**发送**。
 
-## 示例{#cross-channel-workflow-sample}
+## 示例 {#cross-channel-workflow-sample}
 
 这是一个跨渠道工作流示例，具有一个分段和两次投放。该工作流针对所有居住在巴黎且对咖啡机感兴趣的客户。在这些人群中，会向普通客户发送一封电子邮件，而向 VIP 客户发送一条短信。
 

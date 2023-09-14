@@ -3,7 +3,7 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%
@@ -27,7 +27,7 @@ ht-degree: 53%
 >title="推送投放属性"
 >abstract="管理推送投放属性。"
 
-您可以创建独立的推送通知投放，也可以在活动工作流的上下文中创建推送通知。 以下步骤详细介绍了独立（一次性）推送投放的过程。 如果您在营销活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以创建独立的推送通知投放，也可以在活动工作流的上下文中创建推送通知。 以下步骤详细介绍了独立（一次性）推送投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 要创建新的独立推送投放，请执行以下步骤：

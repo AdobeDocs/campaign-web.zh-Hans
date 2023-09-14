@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 84%
@@ -37,7 +37,7 @@ ht-degree: 84%
 >title="电子邮件属性"
 >abstract="这些属性是常见的投放参数，可帮助您对投放的内容进行命名和分类。如果您的投放基于 Adobe Campaign v8 控制台中定义的扩展架构，则可以使用某些特定的&#x200B;**自定义选项**。"
 
-您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 如果您在营销活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 要创建新的独立电子邮件投放，请执行以下步骤：
 
