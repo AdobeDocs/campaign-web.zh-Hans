@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 访问受众
-description: 了解如何在Adobe Campaign Web中访问受众
+title: 监控和管理受众
+description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# 访问受众 {#create-audiences}
+# 监控和管理受众 {#create-audiences}
 
 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
 

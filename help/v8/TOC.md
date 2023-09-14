@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 96%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 96%
    + [开始使用受众](audience/about-audiences.md)
    + [与收件人合作](audience/about-recipients.md)
    + [创建受众](audience/create-audience.md)
+   + [监控和管理受众](audience/access-audiences.md)
    + 目标受众 {#target-audiences}
       + [选择现有受众](audience/add-audience.md)
       + [使用规则生成器定义受众](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 96%
       + [关于工作流活动](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
       + [生成受众](workflows/activities/build-audience.md)
-      + [结合](workflows/activities/combine.md)
+      + [更改维度](workflows/activities/change-dimension.md)
+      + [合并](workflows/activities/combine.md)
+      + [重复数据删除](workflows/activities/deduplication.md)
       + [电子邮件、短信、推送](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
       + [分叉](workflows/activities/fork.md)
+      + [保存受众](workflows/activities/save-audience.md)
+      + [调度程序](workflows/activities/scheduler.md)
       + [拆分](workflows/activities/split.md)
       + [等待](workflows/activities/wait.md)
 + 报告 {#reports}

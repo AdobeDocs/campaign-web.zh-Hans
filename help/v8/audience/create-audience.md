@@ -3,9 +3,9 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ ht-degree: 1%
 
 1. 工作流准备就绪后，单击 **[!UICONTROL 开始]** 执行它。
 
-1. 工作流将保存到 **[!UICONTROL 工作流]** 列表以及生成的受众放入 **[!UICONTROL 受众]** 列表。 [了解如何访问受众](access-audiences.md)
+1. 工作流将保存到 **[!UICONTROL 工作流]** 列表以及生成的受众放入 **[!UICONTROL 受众]** 列表。 [了解如何监测和管理受众](access-audiences.md)
