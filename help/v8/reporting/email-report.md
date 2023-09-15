@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -122,6 +122,8 @@ ht-degree: 9%
 
 ## 跟踪指标 {#tracking-indicators-email}
 
+
+
 * **[!UICONTROL 投放统计信息]** 提供关键绩效指标(KPI) ，用于提供关于已发送电子邮件可用数据的详细信息。
 
   ![](assets/reporting_email_5.png){align="center"}
@@ -207,6 +209,7 @@ ht-degree: 9%
 +++
 
 ## 跟踪统计数据 {#tracking-statistics}
+
 
 * **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。 您可以选择为定向数据选择特定的时间范围。
 

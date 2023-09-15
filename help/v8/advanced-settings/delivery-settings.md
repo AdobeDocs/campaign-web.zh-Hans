@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: 电子邮件投放设置
-description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
+title: 投放设置
+description: 详细了解Campaign Web中的投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 80%
+source-wordcount: '2094'
+ht-degree: 77%
 
 ---
 
 
-# 电子邮件投放设置 {#email-del-settings}
+# 投放设置 {#email-del-settings}
 
-这些设置是电子邮件模板中定义的&#x200B;**技术投放参数**。可以从编辑电子邮件投放时提供的&#x200B;**配置投放设置**&#x200B;图标访问这些设置。
+电子邮件投放设置包括 **技术投放参数** 在电子邮件模板中定义的电子邮件收件人。 每次投放都会使其过载。
+
+这些设置可从 **配置投放设置** 图标在编辑电子邮件投放或电子邮件投放模板时可用。
+
 
 ## 电子邮件投放设置 {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> 对这些设置的描述仅供参考。其中一些描述取决于您的配置和权限。不得在此版本的产品中修改它们。
+>对这些设置的描述仅供参考。其中一些描述取决于您的配置和权限。不得在此版本的产品中修改它们。
 
 ## 类型 设置 {#typology}
 
@@ -56,6 +59,11 @@ ht-degree: 80%
 >abstract="利用投放权重，您可以确定疲劳管理框架内的优先级最高的投放。具有最高权重的消息优先。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="投放权重"
+>abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
+
 在本节中，压力参数允许您定义 **阈值** 以设置疲劳管理规则。 这是可在给定时段内发送到一项配置文件的消息最大数量。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除配置文件，从而避免过度通信。
 
 阈值可以是常量，也可以是变量。这意味着在指定的时间段内，阈值可能因配置文件而异，甚至对于同一配置文件也可能有所不同。
@@ -83,6 +91,13 @@ ht-degree: 80%
 >id="acw_email_settings_capacity_settings"
 >title="投放的容量设置"
 >abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的入站消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 Console 中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="收件人的重要性"
+>abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
+
 
 在此部分中，您可以选择在 Adobe Campaign v8 控制台中定义的容量规则。此规则与电子邮件渠道关联。
 
@@ -136,7 +151,12 @@ ht-degree: 80%
 
 ### 重试 {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="最大重试次数"
+>abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
+
+由于软错误或忽略错误而临时取消发送的邮件将会自动重试。 默认情况下，安排在投放的第一天进行五次重试，最小间隔为一小时分布在一天中的24小时内。
 
 在中了解有关重试管理的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
@@ -145,7 +165,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="投放的审批模式"
->abstract="选择审批模式。 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。 "
+>abstract="选择审批模式。 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="投放的审批模式"
+>abstract="基于此模板选择投放的审批模式。 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
 
 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
 
@@ -165,6 +191,18 @@ ht-degree: 80%
 >title="设置有效性"
 >abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后定期执行可配置的重试（仅针对返回错误的消息），直到达到有效期限。有效期限字段用于上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="资源有效期限"
+>abstract="“有效期限”字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="投放持续时间"
+>abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ ht-degree: 80%
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="有效期"
+>abstract="有效期可设定在消息 URL 上激活跟踪的持续时间。"
+
 
 在相关部分中定义跟踪参数。可能的选项为：
 

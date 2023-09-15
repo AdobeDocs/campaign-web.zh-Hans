@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: 创建服务
+title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中创建服务
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 12%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
 
 
-# 创建服务 {#create-services}
+# 使用订阅服务 {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服务为只读"
 >abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
 
-使用Adobe Campaign创建和监控信息服务（如新闻稿），并检查这些服务的订阅/退订。
+使用Adobe Campaign创建和监控服务（如新闻稿），并检查这些服务的订阅/退订。 订阅仅适用于电子邮件和短信投放。
 
-可以并行定义多种服务，例如：特定产品类别、网站主题或区域的专业通讯、各种类型警报消息的订阅和实时通知。
+可以并行定义多种服务，例如：特定产品类别、网站主题或区域的新闻稿、各种类型警报消息的订阅以及实时通知。
 
 要了解有关管理订阅和退订的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## 访问订阅服务 {#access-services}
 
-1. 转到 **[!UICONTROL 访问管理]** > **[!UICONTROL 订阅服务]** 菜单。
+要访问您的平台可用的订阅服务，请浏览 **[!UICONTROL 订阅服务]** 菜单的位置。
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. 此时将显示迄今为止创建的所有服务的列表。 您可以搜索服务和筛选渠道、文件夹，或者使用高级筛选器。
+此时将显示所有现有订阅服务的列表。 您可以搜索服务和筛选渠道、文件夹，或者使用高级筛选器。
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## 创建您的第一个服务 {#create-service}
+## 创建您的第一个订阅服务 {#create-service}
+
+要创建订阅服务，请执行以下步骤：
 
 1. 选择 **[!UICONTROL 创建订阅服务]** 按钮。
 

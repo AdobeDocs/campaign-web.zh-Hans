@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览
 * 列表现在称为&#x200B;**受众**
 
-## 限制{#limitations-alpha}
+## 限制{#limitations-beta}
 
-以下限制适用于此 Alpha 版本：
+以下限制适用于此测试版：
 
 * 可编辑的对象只有投放、营销活动、工作流、受众和模板。其他对象是只读的。使用筛选器来浏览所有对象。
 * 无法保存受众用于将来使用。

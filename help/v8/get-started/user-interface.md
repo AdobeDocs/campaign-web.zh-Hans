@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 87%
+source-wordcount: '1468'
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有Campaign v8组件、文件夹和架构，检查相关权限，并从此菜单创建文件夹和子文件夹。"
+>abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有 Campaign v8 组件、文件夹和架构，检查关联的权限，并从此菜单创建文件夹和子文件夹。"
 
 **探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。
 
@@ -261,40 +261,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="有效期"
->abstract="有效期可设定在消息 URL 上激活跟踪的持续时间。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="投放持续时间"
->abstract="“投放持续时间”字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="资源有效期限"
->abstract="“有效期限”字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="审批方式"
->abstract="投放的每个步骤都需经过审批，以确保对各个流程进行全面的监测和控制。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="最大重试次数"
->abstract="如果消息因临时错误而失败，则会执行重试，直到投放持续时间结束。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="收件人的重要性"
->abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="投放权重"
->abstract="利用投放权重，您可以确定压力管理框架内的优先级最高的投放。具有最高权重的消息优先。"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -304,12 +270,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="全球报告发送"
->abstract="待确认"
+>abstract="跟踪报表量度在此屏幕中可见"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="全球报告跟踪"
->abstract="待确认"
+>abstract="跟踪报表量度在此屏幕中可见"
+
 
 
 >[!CONTEXTUALHELP]
@@ -320,13 +287,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Campaign 中的投放模板"
->abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Campaign 中的工作流模板"
->abstract="待确认"
