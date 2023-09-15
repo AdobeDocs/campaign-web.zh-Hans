@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 66%
@@ -66,7 +66,7 @@ ht-degree: 66%
 
    ![](assets/email-properties.png)
 
-5. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
+1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
 
 ## 定义受众 {#define-audience}
 
