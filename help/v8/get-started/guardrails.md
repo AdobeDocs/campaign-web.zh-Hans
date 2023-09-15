@@ -2,9 +2,9 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 4%
 
 ## 工作流 {#wf-guardrails-limitations}
 
-可以在控制台和Web UI中访问同一工作流。 但是，请注意，某些限制适用。
-
 **活动版本**
 
-* 在Web UI中访问控制台工作流时，只能修改兼容的活动。
+* Web UI中尚不支持的工作流活动是只读的。 您仍然可以执行工作流、发送消息、检查日志等。
+
+| 控制台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **画布版本**
 
@@ -41,17 +43,6 @@ ht-degree: 4%
 | 控制台 | Web UI |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>控制台</th>
-<th>Web UI</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **协调与扩充**
 
