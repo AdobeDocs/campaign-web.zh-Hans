@@ -3,15 +3,38 @@ audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '786'
+ht-degree: 59%
 
 ---
 
 
 # 电子邮件、短信、推送活动 {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="电子邮件活动"
+>abstract="跨电子邮件、短信和推送渠道自动执行营销活动。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="电子邮件活动"
+>abstract="跨电子邮件、短信和推送渠道自动执行营销活动。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="电子邮件活动"
+>abstract="跨电子邮件、短信和推送渠道自动执行营销活动。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="电子邮件活动"
+>abstract="跨电子邮件、短信和推送渠道自动执行营销活动。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。 "
 
 Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和执行营销活动。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
 

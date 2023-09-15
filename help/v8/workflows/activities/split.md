@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '654'
 ht-degree: 98%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 98%
 >abstract="要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="拆分活动排序"
+>abstract="在为子集设置群体限制时，您可以根据特定的配置文件属性按升序或降序顺序对所选配置文件进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个配置文件。"
+
+
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
 1. 向您的工作流添加一个&#x200B;**拆分**&#x200B;活动。
@@ -58,11 +64,13 @@ ht-degree: 98%
 
    1. 要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。
 
+      ![](../assets/workflow-split-subset.png)
+
+
       >[!NOTE]
       >
       >在为子集设置群体限制时，您可以根据特定的配置文件属性按升序或降序顺序对所选配置文件进行排名。为此，请打开&#x200B;**[!UICONTROL 启用排序]**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个配置文件。
 
-   ![](../assets/workflow-split-subset.png)
 
 1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**[!UICONTROL 生成补码]**&#x200B;选项。
 

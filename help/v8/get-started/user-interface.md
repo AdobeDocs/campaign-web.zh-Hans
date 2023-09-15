@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 82%
 
 ---
@@ -88,11 +88,6 @@ ht-degree: 82%
 >id="acw_audiences_list"
 >title="受众"
 >abstract="这是您的受众列表。您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表为只读。"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="订阅列表"
->abstract="浏览您的订阅列表。您可以查看它们的类型、模式和标签。此列表为只读。"
 
 
 在“客户管理”部分中，您可以查看收件人、受众和订阅。这些列表为只读状态。

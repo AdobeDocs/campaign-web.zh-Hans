@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“分叉工作流”活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -14,11 +14,17 @@ ht-degree: 100%
 # 分叉 {#fork}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_fork"
+>title="分叉活动"
+>abstract="此 **分支** 活动是 **流量控制** 活动。 利用该功能，可创建叫客过渡以同时启动多个活动。"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="分叉活动"
 >abstract="利用分叉活动，可创建叫客过渡以同时开始多个活动。"
 
-利用分叉活动，可创建叫客过渡以同时开始多个活动。
+此 **分支** 活动是 **流量控制** 活动。 利用该功能，可创建叫客过渡以同时启动多个活动。
 
 ## 配置
 
