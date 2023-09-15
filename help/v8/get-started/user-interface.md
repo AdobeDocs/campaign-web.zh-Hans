@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 85%
 
 ---
@@ -60,7 +60,14 @@ ht-degree: 85%
 
 ### 情景帮助 {#user-interface-help}
 
-此 **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
+界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
+
+![](assets/context-help.png){width="40%" align="left"}
+
+在新的Beta版本中， **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
+
+![](assets/ask-a-question.png)
+
 
 借助Campaign Gen AI的功能，此助手可改变您的体验，使信息检索和问题解决变得轻而易举。 无论您是在复杂任务中寻求指导，还是浏览大量文档，我们配备了Gen AI的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
 
@@ -133,16 +140,6 @@ ht-degree: 85%
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
-
-## 上下文帮助 {#contextual-help}
-
-界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
-
-![](assets/context-help.png){width="40%" align="left"}
-
-<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
-
-![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## 支持的浏览器 {#browsers}
 
