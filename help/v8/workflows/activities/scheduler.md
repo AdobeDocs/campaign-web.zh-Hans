@@ -3,9 +3,9 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '499'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 11%
 
 ## 配置
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="计划程序有效性"
+>abstract="您可以为计划程序定义有效期。 它可以是永久性的，也可以在特定日期之前有效。"
 
 按照以下步骤配置 **计划程序** 活动：
 
