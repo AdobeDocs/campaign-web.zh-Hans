@@ -2,10 +2,10 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
+source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 4%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
@@ -16,60 +16,54 @@ ht-degree: 4%
 
 ## 工作流 {#wf-guardrails-limitations}
 
-**活动**
+### 活动
 
-* Web UI中尚不支持的工作流活动是只读的。 您仍然可以执行工作流、发送消息、检查日志等。 在Web UI和客户端控制台中可用的工作流活动均可编辑。
-
-| 控制台 | Web UI |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**画布**
-
-* 在Web UI中创建新工作流时，画布仅支持一个入口点。 但是，如果您在控制台中创建了一个具有多个入口点的工作流，
-
-但是，即使已在具有多个入口点的客户端控制台画布中创建工作流，它也可以在Web UI中编辑。 您仍然可以打开和编辑
-
-
-
-要尝试此方案，请从具有多个入口点的客户端控制台中创建工作流，然后从Web UI中打开该工作流以查看结果。
-
-
-
-当然，您可以编辑活动，然后像往常一样启动和运行工作流。
-
-
-
-**活动定位**
-
-* 仅当添加或删除了活动时（并非始终如此），才会重新计算节点的位置（因此将修改活动的初始位置）。
-
-**未公开选项**
-
-* 不兼容的选项不会显示在Web UI中。
-
-**循环**
-
-* 在Web UI中，循环尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法从Web UI访问它。 将显示一条错误消息。
+Web UI中尚不支持的工作流活动是只读的，并且显示为不兼容的活动。 您仍然可以执行工作流、发送消息、检查日志等。 在Web UI和客户端控制台中可用的工作流活动均可编辑。
 
 | 控制台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**协调与扩充**
+不会显示Web UI中尚不支持的工作流活动设置。 但是，在执行工作流时，这些设置适用。
 
-在Campaign客户端控制台中， **扩充** 活动可以执行协调和扩充。 在Campaign Web UI中，协调功能尚不可用。 如果您在控制台活动中设置了协调，则在Web UI中，它将显示为不兼容的活动。
+| 控制台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-* 如果 **扩充** 控制台中的活动仅执行扩充，即 **扩充** 活动会显示在Web中。
-* 如果 **扩充** 控制台中的活动仅执行协调，会显示不兼容的活动。
+在控制台中， **扩充** 活动可以执行协调和扩充。 在Web UI中，协调功能尚不可用。 如果您在控制台中定义了 **扩充** 活动，则在Web UI中显示为不兼容的只读活动。
+
+| 控制台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### 画布
+
+在Web UI中创建新工作流时，画布仅支持一个入口点。 但是，如果您在控制台中创建了一个具有多个入口点的工作流，则可以在Web UI中打开并编辑它。
+
+| 控制台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+在Web UI中，循环尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法从Web UI访问它。 将显示一条错误消息。
+
+| 控制台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
+
+每次添加或删除活动时，都会刷新节点的定位。 如果在控制台中创建工作流，使用Web UI修改它，然后在控制台中重新打开它，您可能会注意到一些细微的定位不完善。 这对工作流的
+
+| 初始工作流 | 位置更改 |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## 预定义过滤器 {#filters-guardrails-limitations}
 
-在该版本的产品中，当选择投放的受众或在工作流中构建受众时，用户界面中无法使用某些预定义过滤器。
+在选择投放的受众或在工作流中构建受众时，某些预定义过滤器在该版本产品的用户界面中不可用。
 
 此时会显示特定的错误消息。 即使无法在规则生成器中查看查询的图形表示形式，也无法编辑筛选器，您仍可以使用它，并查看筛选条件和结果。 您还可以访问SQL查询以检查确切的设置。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+
 
 请注意，如果在Web界面中构建过滤器，并在控制台中使用不支持的属性对其进行修改，则在Web界面中无法再使用该图形表示。 无论如何，您仍可以使用过滤器。
 
