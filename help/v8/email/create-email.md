@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 84%
+source-wordcount: '1350'
+ht-degree: 66%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 84%
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
-根据预定义的设计模板，电子邮件还具有基于客户配置文件属性的个性化内容。
+基于预定义的 [设计模板](../content/email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
 
-![](assets/delivery-list.png)
-
-## 创建电子邮件 投放 {#create-email}
+## 创建电子邮件投放 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -34,14 +32,16 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="电子邮件属性"
->abstract="这些属性是常见的投放参数，可帮助您对投放的内容进行命名和分类。如果您的投放基于 Adobe Campaign v8 控制台中定义的扩展架构，则可以使用某些特定的&#x200B;**自定义选项**。"
+>title="定义电子邮件属性"
+>abstract="这些属性是常见的投放参数，可帮助您对投放的内容进行命名和分类。其他设置是可选的。 如果您的投放基于 Adobe Campaign v8 控制台中定义的扩展架构，则可以使用某些特定的&#x200B;**自定义选项**。"
 
 您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-要创建新的独立电子邮件投放，请执行以下步骤：
+要创建新的独立电子邮件投放，请执行以下步骤。
 
 1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击  **[!UICONTROL 创建投放]** 按钮。
+
+   ![](assets/delivery-list.png)
 
 1. 选择 **[!UICONTROL 电子邮件]** 作为渠道，并从列表中选择电子邮件投放模板。
 
@@ -54,10 +54,10 @@ ht-degree: 84%
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 1. 输入投放的标签并根据需要配置其他选项：
 
-   * **[!UICONTROL 内部名称]**：为投放分配一个唯一标识符，
-   * **[!UICONTROL 文件夹]**：将投放存储在特定文件夹中，
-   * **[!UICONTROL 投放代码]**：使用此字段可根据您自己的命名惯例来整理投放，
-   * **[!UICONTROL 描述]**：指定投放的描述，
+   * **[!UICONTROL 内部名称]**：为投放分配唯一标识符。
+   * **[!UICONTROL 文件夹]**：将投放存储在特定文件夹中。
+   * **[!UICONTROL 投放代码]**：使用此字段可根据您自己的命名惯例组织投放。
+   * **[!UICONTROL 描述]**：指定投放描述。
    * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ ht-degree: 84%
 
    ![](assets/email-properties.png)
 
-   此外，可以单击投放名称旁边的按钮来访问高级设置，例如类型规则和目标映射。虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
+5. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
+
+## 定义受众 {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="为您的投放选择受众"
+>abstract="为您的营销信息选择最佳受众。您可以选择现有受众(已在Campaign v8实例中或从Adobe Experience Platform中定义)，使用规则生成器创建新受众，或上传包含受众的文件。 未为以下对象启用控制组： **从文件选择** 选择或反之。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="目标受众"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="设置对照组"
+
+在此用例中，您将电子邮件发送到现有受众。
+
+有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
+
+1. 要选择电子邮件的受众，请单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，并从列表中选择一个现有受众。
+
+   在此示例中，我们希望使用定位属于银牌和金牌忠诚度积分等级的客户的现有受众。
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/源集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 了解如何在中使用Campaign和Adobe Experience Platform [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. 选择受众后，可以通过应用其他规则来进一步细化目标。
+
+   ![](assets/audience-selected.png)
+
+1. 您还可以设置一个对照组来分析比较电子邮件收件人的行为与非定向人员的行为。[了解如何使用对照组](../audience/control-group.md)
 
 ## 定义电子邮件的内容 {#create-content}
 
-要开始创建电子邮件内容，请执行以下步骤。
+要开始创建电子邮件内容，请执行以下步骤。 在此使用案例中，您使用预定义的电子邮件 [投放模板](../msg/delivery-template.md) 设计电子邮件。<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-在此使用案例中，您使用预定义的电子邮件 [投放模板](../msg/delivery-template.md) 设计电子邮件。
 
 1. 在电子邮件投放仪表板中，单击 **[!UICONTROL 编辑内容]** 按钮。
 
@@ -104,40 +131,21 @@ ht-degree: 84%
 
    ![](assets/save-content.png)
 
-## 定义受众 {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="定义受众"
->abstract="为您的营销信息选择最佳受众。您可以选择已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的现有受众，也可以使用规则构建器创建新受众。对于“从文件选择”不启用对照组，反之亦然。"
-
-在此用例中，您将电子邮件发送到现有受众。有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
-
-1. 要选择电子邮件的受众，请单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，并从列表中选择一个现有受众。
-
-   在此示例中，我们希望使用定位属于银牌和金牌忠诚度积分等级的客户的现有受众。
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >列表中包含的受众来自您的 Campaign v8 实例或 Adobe Experience Platform（如果已在您的实例上配置目标/源集成）。
-   >
-   >目标/源集成可让您将 Experience Platform 区段发送到 Adobe Campaign，并将 Campaign 投放和跟踪日志发送到 Adobe Experience Platform。了解如何在中使用Campaign和Adobe Experience Platform [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. 选择受众后，可以通过应用其他规则来进一步细化目标。
-
-   您还可以设置一个对照组来分析比较电子邮件收件人的行为与非定向人员的行为。[了解如何使用对照组](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## 安排发送 {#schedule}
 
-要安排发送电子邮件，请打开您的电子邮件投放并浏览到&#x200B;**安排**&#x200B;部分。
+要计划电子邮件的发送，请执行以下步骤。
 
-![](assets/schedule.png)
+有关如何计划投放发送的其他说明，请参见 [本节](../msg/gs-messages.md#gs-schedule).
 
-了解如何在中计划投放 [本节](../msg/gs-messages.md#gs-schedule)
+1. 浏览至 **[!UICONTROL 计划]** 部分。
+
+1. 使用 **[!UICONTROL 启用计划]** 切换以激活它。
+
+1. 设置所需的发送日期和时间。
+
+   ![](assets/schedule.png)
+
+发送投放后，实际发送将在您定义的联系日期开始。
 
 ## 预览和测试电子邮件 {#preview-test}
 

@@ -4,10 +4,10 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1302'
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 ## 创建投放 {#create-delivery}
 
-您可以从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单创建独立投放，也可以从&#x200B;**[!UICONTROL 营销活动]**&#x200B;左侧菜单在市场营销活动的上下文中创建投放。
+您可以从以下位置创建独立投放 **[!UICONTROL 投放]** 左侧菜单，或在工作流上下文中创建投放，无论是否包含在营销活动中。
 
 浏览以下选项卡以了解如何创建投放：
 
@@ -92,7 +92,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 要在工作流中创建投放，请执行以下步骤：
 
-1. 创建一个工作流或打开一个现有的工作流。
+1. 创建一个工作流或打开一个现有的工作流。了解有关工作流的更多信息，请参阅 [此页面](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. 添加并配置一个&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动，然后单击 `+` 按钮。
 
    ![](assets/add-delivery-in-wf.png)
@@ -113,7 +113,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 >[!ENDTABS]
 
 
-## 添加个性化内容{#personalization}
+## 添加个性化内容 {#personalization}
 
 由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[了解关于个性化功能的更多信息](../personalization/gs-personalization.md)。
 
@@ -135,8 +135,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 * 添加&#x200B;**个性化优惠**
 
-  根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。
-
+  根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。[了解详情](../content/offers.md)
 
 ## 预览和测试投放
 
@@ -146,12 +145,12 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="安排发送"
->abstract="定义发送消息的日期和时间。 通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。"
+>title="设置联系日期和时间"
+>abstract="定义发送投放的日期和确切时间。 通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。"
 
 您可以设置发送消息的日期和确切时间。 通过为您的营销信息选择最合适的时间，您可以最大限度地提高打开率。
 
-要计划投放的发送，请打开您的投放并浏览到 **计划** 部分。 使用 **[!UICONTROL 启用计划]** 切换以激活它，并设置所需的发送日期和时间。 发送投放后，实际发送将在您定义的联系日期开始。
+要计划投放的发送，请打开您的投放并浏览到 **[!UICONTROL 计划]** 部分。 使用 **[!UICONTROL 启用计划]** 切换以激活它，并设置所需的发送日期和时间。 发送投放后，实际发送将在您定义的联系日期开始。
 
 ![](assets/schedule.png)
 

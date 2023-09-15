@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: 使用电子邮件模板
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign提供了一组内置模板，您可以从中选择这些模板。
+Campaign提供了一组内置电子邮件内容模板，您可以从中选择这些模板。
 
 要开始使用其中一个示例模板构建内容，请执行以下步骤。
 

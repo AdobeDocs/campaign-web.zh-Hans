@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 50%
+source-wordcount: '570'
+ht-degree: 40%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="创建电子邮件内容"
->abstract="通过此部分，您可以为电子邮件创建内容，并使用电子邮件设计器为其赋予精美外观。"
+>title="定义电子邮件的内容"
+>abstract="此 **编辑内容** 屏幕允许您定义消息的基本元素，如发件人地址和主题行，执行其他操作，如添加附件或优惠，以及访问Email Designer为您的消息提供完美的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ ht-degree: 50%
    >
    >您可以更改“@”之前的部分，但不能更改域地址。
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. 展开 **[!UICONTROL 回复字段]** 部分。 默认情况下使用发件人的地址进行回复。 但是，Adobe建议使用现有的真实地址，例如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入主题，或打开表达式编辑器以使用各种属性和内容块或选件添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
 

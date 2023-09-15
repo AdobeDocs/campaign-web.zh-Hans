@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 25%
+source-wordcount: '962'
+ht-degree: 24%
 
 ---
 
 # 使用投放模板 {#work-with-delivery-templates}
 
-为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
+为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
 
 模板可以包括：
 
@@ -26,6 +26,10 @@ ht-degree: 25%
 * [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)
 * 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)
 * 其他投放属性，例如资源有效性、重试参数或隔离设置。
+
+>[!NOTE]
+>
+>投放模板与不同 [电子邮件内容模板](../content/email-templates.md)，仅允许您重复使用消息的内容。
 
 ## 访问和管理投放模板 {#access-manage-templates}
 
@@ -170,7 +174,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 1. 在不同用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    您还可以调整缩放级别，并选择桌面视图或移动设备视图。
 
