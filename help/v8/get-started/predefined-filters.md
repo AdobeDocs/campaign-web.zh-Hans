@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 17%
+source-wordcount: '786'
+ht-degree: 16%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 17%
 您可以使用现有的内置过滤器访问数据的特定子集，或创建自己的预定义过滤器并保存它们。
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>在该版本的产品中，当构建规则、选择投放受众或在工作流中构建受众时，用户界面中无法使用某些预定义过滤器。 你仍然可以使用它们。 [了解详情](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## 创建预定义过滤器 {#create-predefined-filter}
@@ -55,7 +59,7 @@ ht-degree: 17%
 
 1. 选择 **创建新筛选器**，并输入该过滤器的名称和描述。
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    如果需要，可将过滤器另存为收藏夹。 在[此章节](#fav-filter)中了解更多信息。
 
@@ -89,7 +93,7 @@ ht-degree: 17%
 
 将过滤器另存为收藏后，该过滤器将适用于 **收藏过滤器** 过滤器创建列表的部分，如下所示：
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## 使用预定义过滤器 {#use-predefined-filter}
@@ -139,6 +143,8 @@ ht-degree: 17%
 
 您可以在构建规则时将预定义过滤器添加为收藏，以便快速访问。 在[此章节](#fav-filter)中了解更多信息。
 
-## 内置预定义过滤器 {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign附带一组预定义过滤器，这些过滤器从客户端控制台构建。 这些过滤器可用于定义受众和规则。 不得更改它们。
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

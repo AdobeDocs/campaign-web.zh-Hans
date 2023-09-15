@@ -2,9 +2,9 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,29 @@ ht-degree: 4%
 
 ## 工作流 {#wf-guardrails-limitations}
 
-**活动版本**
+**活动**
 
-* Web UI中尚不支持的工作流活动是只读的。 您仍然可以执行工作流、发送消息、检查日志等。
+* Web UI中尚不支持的工作流活动是只读的。 您仍然可以执行工作流、发送消息、检查日志等。 在Web UI和客户端控制台中可用的工作流活动均可编辑。
 
 | 控制台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**画布版本**
+**画布**
 
-* 如果控制台工作流具有多个启动节点/分支或浮动活动，则需要添加启动活动和分支，以将启动节点连接到主节点。 您还需要删除浮动活动。
+* 在Web UI中创建新工作流时，画布仅支持一个入口点。 但是，如果您在控制台中创建了一个具有多个入口点的工作流，
+
+但是，即使已在具有多个入口点的客户端控制台画布中创建工作流，它也可以在Web UI中编辑。 您仍然可以打开和编辑
+
+
+
+要尝试此方案，请从具有多个入口点的客户端控制台中创建工作流，然后从Web UI中打开该工作流以查看结果。
+
+
+
+当然，您可以编辑活动，然后像往常一样启动和运行工作流。
+
+
 
 **活动定位**
 
@@ -38,11 +50,11 @@ ht-degree: 4%
 
 **循环**
 
-* 在Web UI中，循环尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法在Web UI中访问该工作流。 将显示一条错误消息。
+* 在Web UI中，循环尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法从Web UI访问它。 将显示一条错误消息。
 
 | 控制台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **协调与扩充**
 
@@ -53,12 +65,11 @@ ht-degree: 4%
 
 ## 预定义过滤器 {#filters-guardrails-limitations}
 
-在选择投放的受众或在工作流中构建受众时，某些预定义过滤器在该版本产品的用户界面中不可用。
+在该版本的产品中，当选择投放的受众或在工作流中构建受众时，用户界面中无法使用某些预定义过滤器。
 
 此时会显示特定的错误消息。 即使无法在规则生成器中查看查询的图形表示形式，也无法编辑筛选器，您仍可以使用它，并查看筛选条件和结果。 您还可以访问SQL查询以检查确切的设置。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 请注意，如果在Web界面中构建过滤器，并在控制台中使用不支持的属性对其进行修改，则在Web界面中无法再使用该图形表示。 无论如何，您仍可以使用过滤器。
 
