@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 72%
+source-wordcount: '991'
+ht-degree: 69%
 
 ---
 
@@ -102,6 +102,12 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
   直接从产品用户界面提出问题并查找指导。 全新AI支持的知识助手，嵌入在上下文帮助弹出窗口中，可帮助您学习和培养有关新Campaign功能的专业知识。 它基于最新的产品文档，可帮助您在构建用例时查找帮助并即时获得逐步指导。
 
   在[此章节](../get-started/using-ai.md)中了解更多信息。
+
+* **用于电子邮件设计的HTML转换器**
+
+  您现在可以在Campaign的电子邮件编辑器中导入和转换任何HTML内容。 内容块是自动标识的，并且可在Email Designer中使用：利用其强大的设计功能对其进行更新和个性化！
+
+  在[此章节](../content/existing-content.md)中了解更多信息。
 
 
 ## 过渡到 Campaign Web UI
