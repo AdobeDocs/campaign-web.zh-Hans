@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助手生成图像
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 在您精心编制电子邮件并使其个性化后，可以使用内容助手增强您的内容。 此功能简化了个性化和内容改进的过程。
 
-在下面的示例中，如何利用内容助手来优化和改进您的内容，确保获得对用户更友好的体验。 执行以下步骤：
+在下面的示例中，了解如何利用Content Assistant优化和改进您的内容，确保获得对用户更友好的体验。 执行以下步骤：
 
 1. 创建和配置电子邮件投放后，单击 **[!UICONTROL 编辑内容]**.
 
