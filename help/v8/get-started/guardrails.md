@@ -2,10 +2,10 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ Web UI中尚不支持的工作流活动是只读的，并且显示为不兼容�
 
 在选择投放的受众或在工作流中构建受众时，某些预定义过滤器在该版本产品的用户界面中不可用。
 
-此时会显示特定的错误消息。 即使无法在规则生成器中查看查询的图形表示形式，也无法编辑筛选器，您仍可以使用它，并查看筛选条件和结果。 您还可以访问SQL查询以检查确切的设置。
+此时会显示特定的错误消息。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+即使您无法在规则生成器中查看查询的图形表示形式，也无法编辑过滤器，您仍可以使用它，并在 **属性** 部分。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+您还可以访问SQL查询以检查确切的设置。 要执行此操作，请单击 **代码视图** 按钮。
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+单击 **计算** 按钮以检查有多少项符合筛选条件。 使用 **查看结果** 按钮以显示这些项目。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 请注意，如果在Web界面中构建过滤器，并在控制台中使用不支持的属性对其进行修改，则在Web界面中无法再使用该图形表示。 无论如何，您仍可以使用过滤器。
 

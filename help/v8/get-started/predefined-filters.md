@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >在该版本的产品中，当构建规则、选择投放受众或在工作流中构建受众时，用户界面中无法使用某些预定义过滤器。 你仍然可以使用它们。 [了解详情](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
@@ -45,8 +45,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
->title="创建预定义过滤器规则"
->abstract="要定义自定义筛选器的筛选条件，请单击“创建规则”按钮。"
+>title="创建预定义的过滤规则"
+>abstract="要定义自定义过滤器的过滤条件，请单击“创建规则”按钮。"
 
 ### 从规则生成器创建过滤器 {#create-from-rule-builder}
 
