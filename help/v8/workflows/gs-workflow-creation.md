@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 通过 Campaign v8 Web，可使工作流成为视觉画布的组成部分，以设计跨渠道流程，如分段、执行营销活动和处理文件。
 
-可以从以下位置将工作流创建为独立工作流： **工作流** 菜单，或直接在营销策划中创建，在这种情况下，工作流将链接到营销策划，并与所有其他营销策划的工作流一起执行。
 
 ## 工作流中有什么？ {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ ht-degree: 62%
 * **工作表**：工作表包含了过渡所携带的所有信息。每个工作流均使用多个工作表。这些表中传送的数据可在工作流的整个生命周期中使用。
 
 ## 创建工作流程的关键步骤 {#gs-workflow-steps}
+
+
+营销活动提供了两种创建工作流的方法：
+
+1. 可以从以下位置将工作流创建为独立工作流： **工作流** 菜单。
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. 可以从以下位置直接在营销策划中创建工作流： **工作流** 的选项卡。 如果包含在营销策划中，则工作流会与所有其他营销策划的工作流一起执行，并且报告量度都会在营销策划级别分组。
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 创建工作流程的关键步骤如下：
 
