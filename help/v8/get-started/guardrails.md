@@ -2,10 +2,10 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -47,10 +47,16 @@ ht-degree: 5%
 
 ## 预定义过滤器 {#filters-guardrails-limitations}
 
-选择投放的受众或在工作流中构建受众时，某些预定义过滤器不可用。 此时会显示特定的错误消息。 您仍可以使用查询并查看：筛选条件和结果，但无法在规则生成器中查看确切的查询，也无法编辑筛选条件。
+在选择投放的受众或在工作流中构建受众时，某些预定义过滤器在该版本产品的用户界面中不可用。
+
+此时会显示特定的错误消息。 即使无法在规则生成器中查看查询的图形表示形式，也无法编辑筛选器，您仍可以使用它，并查看筛选条件和结果。 您还可以访问SQL查询以检查确切的设置。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+请注意，如果在Web界面中构建过滤器，并在控制台中使用不支持的属性对其进行修改，则在Web界面中无法再使用该图形表示。 无论如何，您仍可以使用过滤器。
+
+下面列出了不支持的属性。
 
 ### 不支持的数据类型 {#unsupported-data-type}
 
