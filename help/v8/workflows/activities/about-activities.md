@@ -4,9 +4,9 @@ title: 使用工作流活动
 description: 了解如何使用工作流活动
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,12 @@ Adobe Campaign Web 允许您跨多个渠道（例如电子邮件、短信或推�
 请参阅此[章节](channels.md)。
 
 ## 流量控制活动 {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="结束活动"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。此活动没有功能影响，因此是可选的。"
 
 以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
 

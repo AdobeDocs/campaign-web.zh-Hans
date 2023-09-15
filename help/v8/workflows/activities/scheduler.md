@@ -3,22 +3,22 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 12%
+source-wordcount: '476'
+ht-degree: 11%
 
 ---
 
 
 # 调度程序 {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="调度程序活动"
+>abstract="此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。"
+
 
 此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。
 
@@ -29,6 +29,7 @@ ht-degree: 12%
 * 如果要在工作流中发送定期投放，则需要使用 **计划程序** 并设置执行频率。 循环投放活动不允许您定义计划。
 
 ## 配置
+
 
 按照以下步骤配置 **计划程序** 活动：
 

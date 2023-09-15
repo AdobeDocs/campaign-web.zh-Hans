@@ -3,15 +3,21 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
 
 # 生成受众 {#build-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="生成受众"
+>abstract="**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。"
+
 
 **生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在营销活动工作流的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**生成受众**&#x200B;活动中定义的。
 
@@ -29,7 +35,13 @@ ht-degree: 100%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 配置
+## 配置构建受众活动
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="选择定向维度"
+>abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。"
+
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 

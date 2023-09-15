@@ -3,19 +3,36 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
 
 # 拆分 {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="拆分活动"
+>abstract="**拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。"
+
+
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。
 
 ## 配置 {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="拆分活动筛选器"
+>abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="拆分活动限制"
+>abstract="要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。"
+
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 

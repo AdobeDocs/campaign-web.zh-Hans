@@ -3,15 +3,21 @@ audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # 合并 {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="合并活动"
+>abstract="此 **合并** 活动是 **定位** 活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体，排除部分群体，或仅保留多个目标的共有数据。"
+
 
 此 **合并** 活动是 **定位** 活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="差集合并选项"
 >abstract="差集可根据特定条件从一个群体中排除某些元素。在“要加入的集合”部分中，选中您之前希望加入的所有活动。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="选择分段类型"
+>abstract="选择如何组合受众：并集、交叉点或排除项。"
+
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
 1. 添加多项活动（例如&#x200B;**生成受众**&#x200B;活动），来构成至少两个不同的执行分支。
@@ -49,6 +60,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="交集协调选项"
 >abstract="选择协调类型以定义如何处理重复项。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="协调选项"
+>abstract="选择 **对帐类型** 以定义如何处理重复项。"
 
 在 **合并** 活动，您可以配置 **并集**. 为此，您需要选择 **对帐类型** 要定义如何处理重复项，请执行以下操作：
 
@@ -68,6 +84,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_exclusion_options"
 >title="差集规则"
 >abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="选择要合并的集"
+>abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主集**。这是排除了元素的集合。其他集合用于匹配从主集中排除之前的元素。"
+
 
 在 **合并** 活动，您可以配置 **排除项**. 为此，您需要执行以下额外步骤：
 
