@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 88%
+source-wordcount: '1661'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 88%
 
 ### 情景帮助 {#user-interface-help}
 
-直接从产品用户界面提出问题并查找指导。 全新AI支持的知识助手，嵌入在上下文帮助弹出窗口中，可帮助您学习和培养有关新Campaign功能的专业知识。 它基于最新的产品文档，可帮助您在构建用例时查找帮助并即时获得逐步指导。
+此 **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
+
+借助Campaign Gen AI的功能，此助手可改变您的体验，使信息检索和问题解决变得轻而易举。 无论您是在复杂任务中寻求指导，还是浏览大量文档，我们配备了Gen AI的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
+
+在[此章节](using-ai.md)中了解更多信息。
 
 
 ### Campaign 管理 {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="工作流列表"
->abstract="对于您的营销活动可用的工作流的列表。使用“创建工作流”按钮在您的营销活动中添加工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="全球报告跟踪"
 >abstract="待确认"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Campaign 中的投放列表"
->abstract="Campaign 中的投放列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="投放设置受众"
->abstract="待确认"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="投放设置审批"
->abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="投放设置测试设置"
->abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="投放设置 Web 分析"
->abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

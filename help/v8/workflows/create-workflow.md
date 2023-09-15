@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 7%
 >id="acw_workflow_creation_properties"
 >title="工作流属性"
 >abstract="在此屏幕中，选择要用于创建工作流的模板并指定标签。展开“其他OPTIONS”部分以配置更多设置，如工作流内部名称、文件夹、时区和主管组。 强烈建议选择一个主管组，以便在发生错误时提醒操作员。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="营销活动中的工作流列表"
+>abstract="此 **投放** 选项卡列出了链接到当前营销策划的所有工作流。 单击工作流的名称以对其进行编辑。 使用“创建工作流”按钮可为此营销策划添加新工作流。"
+
 
 您可以在营销策划中创建独立的工作流或工作流。 第一步是选择模板并定义其常规属性。 然后，您可以根据需要配置其他设置。
 
@@ -63,8 +70,8 @@ ht-degree: 7%
 
 1. 在弹出窗口中，确认创建模板。
 1. 在工作流模板画布中，根据需要检查、添加和配置活动。
-1. 浏览到设置以更改工作流模板的名称，然后输入说明。
-1. 选择模板的文件夹和执行文件夹。 文件夹是保存工作流模板的位置。 执行文件夹是保存基于此模板创建的工作流的文件夹。
+1. 浏览到设置，从 **设置** 按钮，以更改工作流模板的名称，并输入说明。
+1. 选择 **文件夹** 和 **执行文件夹** 模板的。 文件夹是保存工作流模板的位置。 执行文件夹是保存基于此模板创建的工作流的文件夹。
 
    ![](assets/wf-settings-template.png)
 

@@ -4,10 +4,10 @@ title: 电子邮件投放设置
 description: 了解有关 Campaign Web UI 中的电子邮件投放设置的更多信息
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 73%
+source-wordcount: '1829'
+ht-degree: 80%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 73%
 >
 > 对这些设置的描述仅供参考。其中一些描述取决于您的配置和权限。不得在此版本的产品中修改它们。
 
-## 类型 {#typology}
+## 类型 设置 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="类型规则允许营销人员在所有投放中标准化业务实践。 分类是分类规则的集合，可让您控制、筛选投放投放并为其设置优先级。 在准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="类型"
->abstract="类型规则允许营销人员在所有投放中标准化业务实践。 分类是分类规则的集合，可让您控制、筛选投放投放并为其设置优先级。 在准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。"
+>title="类型 投放设置"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。"
 
 
-类型是一组 **类型规则**，在准备阶段执行的。 类型规则允许营销人员在所有投放中标准化业务实践。 分类是分类规则的集合，可让您控制、筛选投放投放并为其设置优先级。 在投放准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。  利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
+类型是一组 **类型规则**，在准备阶段执行的。 利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在投放准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。  利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
 
 类型规则在类型中分组在一起，以便一次性轻松地将多个筛选规则应用于投放。
 
@@ -52,8 +52,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="压力参数"
->abstract="利用投放权重，您可以在疲劳管理框架内确定最优先的投放。 具有最高权重的消息优先。"
+>title="投放的压力参数"
+>abstract="利用投放权重，您可以确定疲劳管理框架内的优先级最高的投放。具有最高权重的消息优先。"
 
 
 在本节中，压力参数允许您定义 **阈值** 以设置疲劳管理规则。 这是可在给定时段内发送到一项配置文件的消息最大数量。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除配置文件，从而避免过度通信。
@@ -81,8 +81,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="容量设置"
->abstract="在投放消息之前，请使用容量规则以确保您的组织可以处理投放、投放可能生成的入站消息以及要联系订阅者的呼叫次数。 容量规则是在Adobe Campaign v8控制台中定义的。 在此屏幕中，选择与电子邮件渠道关联的规则。"
+>title="投放的容量设置"
+>abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的入站消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 Console 中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
 
 在此部分中，您可以选择在 Adobe Campaign v8 控制台中定义的容量规则。此规则与电子邮件渠道关联。
 
@@ -91,7 +91,14 @@ ht-degree: 73%
 详细了解一致性和容量规则以及如何在中配置它们 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## 受众 {#audience}
+## 受众设置 {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="投放的受众设置"
+>abstract="选择 **目标映射** 在那些可用的URL中。 在 Adobe Campaign v8 控制台中定义目标映射。您还可以设置投放的排除参数。 "
+
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。
 
@@ -101,8 +108,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="投放设置"
->abstract="投放参数是应用于投放的技术设置。您可以为投放激活密件抄送，并更改投放和例程模式。 这些选项仅供专家用户使用。"
+>title="投放的投放设置"
+>abstract="投放参数是应用于投放的技术设置。您可以为投放激活密件抄送，并更改投放和例行模式。这些选项仅供专家用户使用。"
 
 投放参数是应用于投放的技术设置。
 
@@ -112,6 +119,19 @@ ht-degree: 73%
 
 * **电子邮件密件抄送**：利用此选项，只需将密件抄送电子邮件地址添加到邮件目标，即可通过密件抄送将电子邮件存储在外部系统上。要了解有关电子邮件密件抄送的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### 网络分析 {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="投放的网站分析设置"
+>abstract="选择网站分析帐户。 此帐户是在Campaign客户端控制台中配置的。 您还可以定义与您使用的分析工具共享的标记。"
+
+在此部分中，您可以选择网站分析帐户。 此帐户是在Campaign客户端控制台中配置的。
+
+您还可以定义与您使用的分析工具共享的标记。
+
+在中了解有关Web Analytics和Campaign的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 重试 {#retries}
@@ -122,12 +142,10 @@ ht-degree: 73%
 
 ## 审批 {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="投放的审批模式"
+>abstract="选择审批模式。 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。 "
 
 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
 
@@ -193,6 +211,11 @@ ht-degree: 73%
 **过期 URL 的替换 URL**：使用此选项可输入后备网页的 URL，它将在跟踪过期后显示。
 
 ## 测试设置 {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="投放的测试设置"
+>abstract="选择排除参数并自定义测试电子邮件的标签。"
 
 您可以在此部分中设置排除参数。可用的选项为：
 

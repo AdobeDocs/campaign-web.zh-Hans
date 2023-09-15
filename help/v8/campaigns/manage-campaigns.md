@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 要创建新的营销活动或管理现有的营销活动，请单击左侧导航上的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单。
 
-## 营销活动列表{#access-campaigns}
+## 活动列表 {#access-campaigns}
+
 
 在营销活动列表中，有两个选项卡可用：
 
@@ -39,6 +40,12 @@ ht-degree: 100%
 ![营销活动过滤器](assets/campaign-filter-on-dates.png)
 
 ## 营销活动仪表板{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="营销活动中的投放列表"
+>abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。单击投放名称可对其进行编辑。 使用“创建投放”按钮可为此活动添加新投放。"
 
 在营销活动列表的&#x200B;**浏览**&#x200B;选项卡中，单击营销活动以显示其详细信息。
 
