@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 ## 配置
 
-按照以下步骤配置 **计划程序** 活动：
+按照以下步骤配置 **删除重复项** 活动：
 
 1. 添加 **删除重复项** 活动添加到工作流。
 
