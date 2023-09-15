@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 83%
+source-wordcount: '1509'
+ht-degree: 82%
 
 ---
 
@@ -170,6 +170,9 @@ Campaign v8 Web 目前提供以下语言版本：
 1. 然后单击电子邮件地址下方显示的语言链接。
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
+## 深色主题 {#dark-theme}
+
+您可以从配置文件图标切换到深色主题。 使用 **深色主题** 切换以启用/禁用它。
 
 ## 了解详情 {#learn-more}
 
