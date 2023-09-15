@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助手生成图像
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 使用内容助手生成图像 {#generative-image}
 
-在您精心编制电子邮件并使其个性化后，可以使用内容助手增强您的内容。 此功能简化了个性化和内容改进的过程。
+在您精心制作电子邮件并使其个性化后，可以使用由创作AI提供支持的内容助手来增强内容。 此功能简化了个性化和内容改进的过程。
 
 在下面的示例中，了解如何利用Content Assistant优化和改进您的内容，确保获得对用户更友好的体验。 执行以下步骤：
 

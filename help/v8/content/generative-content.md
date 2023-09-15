@@ -3,9 +3,9 @@ audience: end-user
 title: 带有内容助理的文本
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 3%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 使用内容助手生成文本 {#generative-content}
 
-创建并个性化电子邮件后，使用内容助手将您的内容提升到新的级别。
+创建并个性化电子邮件后，使用创作AI支持的内容助手将您的内容提升到新的水平。
 
 内容助手可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
