@@ -2,9 +2,9 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,18 @@ ht-degree: 4%
 
 **循环**
 
-* 包含循环的工作流不会显示在Web UI中。 将显示一条错误消息。
+* 在Web UI中，循环尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法在Web UI中访问该工作流。 将显示一条错误消息。
+
+<table>
+<tr>
+<th>控制台</th>
+<th>Web UI</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **协调与扩充**
 
