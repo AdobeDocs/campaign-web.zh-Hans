@@ -4,10 +4,10 @@ title: 开始使用受众
 description: 了解如何在 Campaign Web UI 中使用受众
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ control groups like acc: exract, random, based on attribute
 
 要定义受众群体，您可以：
 
+* 创建和合并受众。 [了解详情](create-audience.md)
 * 选择现有受众，并在客户端控制台中将其创建为列表。[了解详情](add-audience.md)
 * 选择 Adobe Experience Platform 受众。[了解详情](aep-audience.md)
 * 通过定义和组合过滤条件，使用规则生成器生成新受众。[了解详情](segment-builder.md)

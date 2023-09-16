@@ -3,9 +3,9 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
@@ -13,11 +13,16 @@ ht-degree: 2%
 
 # 创建受众 {#create-audiences}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_list"
+>title="受众"
+>abstract="在此屏幕中，您可以创建受众并将受众组合到可视画布中。 添加各种工作流活动，例如 **Split** 或 **排除** 以生成新的和优化的受众。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="受众设置"
->abstract="输入受众的名称和附加选项。"
+>abstract="输入受众的名称和其他选项，然后单击 **创建受众** 按钮。"
 
 通过Campaign Web，您可以创建工作流并将现有受众合并到可视画布中。 通过合并各种工作流活动，例如 **Split** 或 **排除**，即可生成新的和优化的受众。
 
