@@ -3,10 +3,10 @@ audience: end-user
 title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="显示高级属性"
->abstract="默认情况下，属性列表中仅显示最常见属性。使用此开关来生成具有高级属性的过滤器。"
+>abstract="默认情况下，属性列表中仅显示最常见属性。使用此切换可以查看高级属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
