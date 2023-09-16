@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
+source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 78%
@@ -56,8 +56,6 @@ ht-degree: 78%
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
 有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
-
-
 
 ### Campaign 管理 {#user-interface-campaign-management}
 
