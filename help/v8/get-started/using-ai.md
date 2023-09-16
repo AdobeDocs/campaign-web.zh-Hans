@@ -2,7 +2,7 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
+source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 1%
@@ -16,6 +16,9 @@ ht-degree: 1%
 此 **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
 
 借助Campaign Gen AI的功能，此助手可改变您的体验，使信息检索和问题解决变得轻而易举。 无论您是在复杂任务中寻求指导，还是浏览大量文档，我们配备了Gen AI的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
+
+![](assets/ask-a-question.png)
+
 
 ## 同意 {#consent-ai}
 
