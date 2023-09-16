@@ -3,10 +3,10 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="删除重复项补充"
->abstract="待定"
+>title="生成补码"
+>abstract="您可以使用已作为重复项排除的剩余群体生成额外的叫客过渡。 为此，请打开 **生成补码** option"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="删除重复项设置"
->abstract="待定"
+>abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只保留一个记录。 您还应根据表达式或属性选择重复数据删除模式。 默认情况下，将随机选择要排除在重复项之外的记录。"
 
 此 **删除重复项** 活动是 **定位** 活动。 利用此活动，可删除集客活动结果中的重复项。 此 **删除重复项** 活动通常用在定向活动之后、允许使用定向数据的活动之前。
 
