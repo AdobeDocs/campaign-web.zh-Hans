@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 82%
+source-wordcount: '1321'
+ht-degree: 78%
 
 ---
 
@@ -61,13 +61,6 @@ ht-degree: 82%
 
 ### Campaign 管理 {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="营销活动"
->abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮以添加新的营销活动。选择营销活动以查看其内容、投放情况和详细信息。浏览到“模板”选项卡以查看和创建模板。"
-
-
-
 在“营销活动管理”部分中，可访问市场营销活动、投放情况和工作流。
 
 * **营销活动** - 这是您的营销活动和营销活动模板的列表。默认情况下，可查看每个营销活动的开始/结束/创建/上次修改日期、当前状态以及创建它的 Campaign 操作员的姓名。可按状态、开始/结束日期和文件夹筛选该列表，也可创建高级筛选器以定义您自己的筛选条件。可[在此部分中](../campaigns/gs-campaigns.md)详细了解营销活动。
@@ -83,13 +76,6 @@ ht-degree: 82%
 
 ### 客户管理 {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="受众"
->abstract="这是您的受众列表。您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。此列表为只读。"
-
-
 在“客户管理”部分中，您可以查看收件人、受众和订阅。这些列表为只读状态。
 
 * **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。了解有关收件人的更多信息，请参阅 [本节](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ ht-degree: 82%
 >id="acw_offers_list"
 >title="选件"
 >abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="在投放中添加优惠"
 
 * **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### 情景帮助 {#user-interface-help}
+## 情景帮助 {#user-interface-help}
 
 界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 在新的Beta版本中， **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
-
-![](assets/ask-a-question.png)
-
 
 借助Campaign Gen AI的功能，此助手可改变您的体验，使信息检索和问题解决变得轻而易举。 无论您是在复杂任务中寻求指导，还是浏览大量文档，我们配备了Gen AI的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="此活动为只读"
->abstract="您无权编辑此活动。如果需要，请联系您的管理员以向您授予访问权限。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="此交付为只读"
->abstract="您无权编辑此交付。如果需要，请联系您的管理员以向您授予访问权限。"
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="此工作流为只读"
->abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="此工作流为只读"
->abstract="由于画布不受支持或不兼容，您无法编辑此工作流程。"
 
 <!-- delivery template settings-->
 
