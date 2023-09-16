@@ -3,20 +3,15 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中创建服务
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 8%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
 
 # 使用订阅服务 {#create-services}
-
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="此服务为只读"
->abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

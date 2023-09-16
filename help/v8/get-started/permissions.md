@@ -3,23 +3,54 @@ audience: end-user
 title: Campaign Web 中的权限管理
 description: 详细了解 Campaign Web v8 中的权限
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 50%
 
 ---
 
 
 # 访问和权限 {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="需要权限"
->abstract="在创建此对象之前，您的管理员必须向您授予权限。"
+>abstract="您的管理员必须先授予您权限，然后您才能创建该对象。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="此受众为只读"
+>abstract="您无权编辑此受众。如果需要，请联系您的管理员以向您授予访问权限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服务为只读"
+>abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="此活动为只读"
+>abstract="您无权编辑此活动。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="此交付为只读"
+>abstract="您无权编辑此交付。如果需要，请联系您的管理员以向您授予访问权限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流为只读"
+>abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="此工作流为只读"
+>abstract="由于画布不受支持或不兼容，您无法编辑此工作流程。"
 
 访问控制可限制从主列表（如投放、收件人或工作流）对于对象和数据的访问。这些限制在资源管理器导航树中也适用。此外，需要相关权限才能从用户界面中创建、删除、复制和编辑对象。
 
@@ -30,7 +61,6 @@ ht-degree: 33%
 ## 查看权限 {#view-permissions}
 
 从 **资源管理器**，您可以浏览每个文件夹的权限。 这些权限在客户端控制台中设置，用于组织和控制对Campaign数据的访问。
-
 
 要查看文件夹的权限，请执行以下步骤：
 
