@@ -4,10 +4,10 @@ title: 设计短信投放
 description: 了解如何设计短信投放
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 94%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 94%
 >id="acw_sms_preview_option_app_target"
 >title="应用程序订阅者"
 >abstract="通过将应用程序订阅者添加到主目标而预览和测试消息。"
+
+
+要设计短信投放的内容，请执行以下步骤：
 
 1. 从投放页面中单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以设计短信内容。
 
