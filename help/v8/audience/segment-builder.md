@@ -4,20 +4,19 @@ title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # 使用规则生成器定义受众 {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Target受众"
->abstract="构建投放目标从未像现在这样简单！ 现在，通过我们最新的规则生成器，您可以从数据库为收件人定义筛选条件或任何其他定向维度。 利用Adobe Experience Platform受众进一步优化目标受众，并最大化营销活动的影响。"
+>title="目标受众"
+>abstract="确立投放目标从未如此简单！利用我们最新的规则生成器，您现在可以为收件人或数据库中的任何其他定位维度定义筛选条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
 此章节介绍如何在设计新电子邮件时创建受众。创建的受众只能在当前电子邮件中使用。
 
