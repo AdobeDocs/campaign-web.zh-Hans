@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 40%
+source-wordcount: '593'
+ht-degree: 35%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="电子邮件参数"
->abstract="在电子邮件模板中定义“发件人姓名”和“发件人电子邮件”值。可以使用表达式编辑器对主题行进行个性化设置。"
+>title="设置电子邮件基本属性"
+>abstract="此 **基本详细信息** 部分允许您更新发件人地址和回复地址，并使用表达式编辑器定义主题行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="电子邮件附件"
+>title="将文件附加到电子邮件"
 >abstract="选择要在邮件中插入的一个或多个文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="跟踪选项"
+>title="编辑跟踪"
 >abstract="默认情况下，为投放启用跟踪。您可以从此处禁用该选项。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="添加链接和跟踪邮件"
 
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
 * 定义消息的基本元素，如发件人地址和主题行
