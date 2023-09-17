@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 65%
+source-wordcount: '1354'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 65%
 
    ![](assets/email-properties.png)
 
-1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。
+1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。[了解详情](../advanced-settings/delivery-settings.md)
 
 ## 定义受众 {#define-audience}
 
@@ -157,7 +157,7 @@ ht-degree: 65%
 
 1. 要查看您的电子邮件，请单击&#x200B;**[!UICONTROL 查看并发送]**。这将显示您的电子邮件预览，以及所有已配置的属性、受众和计划。可以通过单击修改按钮来编辑这些元素中的任一元素。
 
-1. 要预览电子邮件并发送测试版本，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
+1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。
 
    ![](assets/review-email.png)
 

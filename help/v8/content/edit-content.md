@@ -4,9 +4,9 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 40%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 40%
    >
    >您可以更改“@”之前的部分，但不能更改域地址。
 
-1. 展开 **[!UICONTROL 回复字段]** 部分。 默认情况下使用发件人的地址进行回复。 但是，Adobe建议使用现有的真实地址，例如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
+1. 展开 **[!UICONTROL 回复字段]** 部分。 默认情况下，答复使用发件人姓名和地址。 但是，Adobe建议使用现有的真实地址，例如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
 
    ![](assets/email-edit-content-reply-to.png)
 

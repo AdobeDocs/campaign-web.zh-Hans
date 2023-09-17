@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 24%
+source-wordcount: '1014'
+ht-degree: 23%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 24%
 
 模板可以包括：
 
-* [类型](../advanced-settings/delivery-settings.md#typology)
-* 发件人地址
-* An [受众](../audience/about-audiences.md)，包括 [对照组](../audience/control-group.md)
-* 自定义 [内容](../content/edit-content.md)
-* [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)
-* 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)
+* [分类](../advanced-settings/delivery-settings.md#typology),
+* 发件人地址，
+* An [受众](../audience/about-audiences.md)，包括 [对照组](../audience/control-group.md)，
+* 自定义 [内容](../content/edit-content.md)，
+* [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)，
+* 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)，
 * 其他投放属性，例如资源有效性、重试参数或隔离设置。
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
    > * [电子邮件渠道](../email/create-email.md)
    > * [推送通知渠道](../push/gs-push.md)
    > * [短信渠道](../sms/create-sms.md)
+
+1. 此外，对于电子邮件模板，可通过访问高级设置，例如类型规则和目标映射 **[!UICONTROL 设置]** 按钮。 [了解详情](../advanced-settings/delivery-settings.md)
 
 1. 单击 **[!UICONTROL 审核]** 按钮以保存并查看您的模板。 您仍然可以编辑其所有设置、删除和复制它。
 
