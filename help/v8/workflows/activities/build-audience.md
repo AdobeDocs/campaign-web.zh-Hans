@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '388'
+ht-degree: 78%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="生成受众"
->abstract="**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。"
+>abstract="此 **构建受众** 利用活动，可定义将进入工作流的受众。 在工作流上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中定义 **构建受众** 活动。"
 
 
-**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在营销活动工作流的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**生成受众**&#x200B;活动中定义的。
+**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中定义 **构建受众** 活动。
 
 要定义受众群体，您可以：
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->在此上下文中，您无法从文件加载受众。为此，需要创建独立投放。[了解详情](../../audience/about-audiences.md)
+>在此上下文中，您无法从文件加载受众。为此，您需要创建一个独立的电子邮件投放。 [了解详情](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

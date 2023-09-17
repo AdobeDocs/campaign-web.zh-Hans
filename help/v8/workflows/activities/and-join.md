@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“AND-连接工作流”活动
 description: 了解如何使用“AND-连接工作流”活动
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 94%
+source-wordcount: '254'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND — 加入活动"
->abstract="**AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。利用此活动，可同步工作流的多个执行分支。"
-
-
+>abstract="利用 **And-连接**&#x200B;活动，可同步工作流的多个执行分支。一旦所有上述活动完成，就会触发该事件。 这样，您可以确保在继续执行工作流之前已完成某些活动。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。利用此活动，可同步工作流的多个执行分支。
 
