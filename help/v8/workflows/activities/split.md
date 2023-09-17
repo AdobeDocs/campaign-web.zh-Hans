@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="拆分活动"
->abstract="**拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。"
+>abstract="此 **Split** 利用活动，可根据不同的选择标准（如筛选规则或群体大小），将传入群体划分为多个子集。"
 
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“等待工作流”活动
 description: 了解如何使用“等待工作流”活动
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="等待"
->abstract="**等待**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它可为两个执行的活动之间添加一段等待的时间。"
+>title="等待活动"
+>abstract="此 **等待** 活动用于延迟从活动到另一个活动的过渡。"
 
 
 **等待**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它可为两个执行的活动之间添加一段等待的时间。例如，在执行电子邮件投放活动后，等待几天，再分析这期间产生的打开次数和点击次数，然后再执行所有后续操作（提醒电子邮件、创建受众等）。

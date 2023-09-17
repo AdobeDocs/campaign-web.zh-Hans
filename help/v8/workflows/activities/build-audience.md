@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="生成受众"
+>title="构建受众活动"
 >abstract="此 **构建受众** 利用活动，可定义将进入工作流的受众。 在工作流上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中定义 **构建受众** 活动。"
 
 
