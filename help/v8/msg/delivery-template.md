@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 使用投放模板
-description: 了解如何在 Campaign 中创建和使用投放模板
+description: 了解如何在 Campaign 中创建和使用投放模板 Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 23%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 23%
 >id="acw_delivery_template_for_campaign"
 >title="投放模板"
 >abstract="使用投放模板标准化创意外观，以便更快地执行和启动活动"
-
 
 为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
 
