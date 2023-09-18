@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 78%
+source-wordcount: '1331'
+ht-degree: 74%
 
 ---
 
@@ -85,10 +85,12 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="选件"
->abstract="浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="在投放中添加优惠"
+>abstract="浏览使用在控制台中创建的选件和选件模板的列表。 **互动** 模块。 这些列表为只读状态。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="将优惠添加到投放"
 
-* **优惠** - 浏览您的交互优惠列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。这些列表为只读状态。
+在客户管理部分，您可以查看优惠和优惠模板。 这些列表为只读状态。
+
+* **选件**  — 浏览在控制台中创建的选件和选件模板的列表，使用 **互动** 模块。 默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。也会提供优惠模板。
 
 了解如何在的电子邮件和短信中创建和发送优惠 [本节](../content/offers.md).
 
