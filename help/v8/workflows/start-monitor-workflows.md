@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -29,16 +29,27 @@ ht-degree: 7%
 >
 >您可以通过以下方式禁用可视流 **[!UICONTROL 隐藏进度]** 按钮来显示画布的顶部操作栏。
 
+## 工作流过渡 {#transitions}
+
+在工作流中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。
+
+可以为每个过渡显示此数据。 要实现此目的，请选择过渡以在屏幕右侧打开其属性。
+
+* 单击 **[!UICONTROL 预览架构]** 显示工作表的模式。
+* 单击 **[!UICONTROL 预览结果]** 对在所选过渡中传输的数据进行可视化。
+
+![](assets/transition.png)
+
 ## 监测活动执行 {#activities}
 
 通过每个活动框右上角的视觉指示器，可检查其执行情况：
 
 | 视觉指示器 | 说明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | 当前正在执行活动。 |
-| ![](assets/activity-status-orange.png) | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
-| ![](assets/activity-status-red.png) | 活动遇到错误。 要解决此问题，请打开工作流日志以获取更多信息。 |
-| ![](assets/activity-status-green.png) | 已成功执行活动。 |
+| ![](assets/activity-status-pending.png){width="70%"} | 当前正在执行活动。 |
+| ![](assets/activity-status-orange.png){width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
+| ![](assets/activity-status-red.png){width="70%"} | 活动遇到错误。 要解决此问题，请打开工作流日志以获取更多信息。 |
+| ![](assets/activity-status-green.png){width="70%"} | 已成功执行活动。 |
 
 ## 监测日志和任务 {#logs-tasks}
 
