@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '427'
 ht-degree: 5%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 5%
 
 # 重复数据删除 {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="重复数据删除属性"
+>abstract="这允许您指定允许识别重复项的相同值的字段：电子邮件地址、名字、姓氏等。 利用字段的顺序，可指定要先处理的字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
