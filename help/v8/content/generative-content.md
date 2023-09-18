@@ -3,10 +3,10 @@ audience: end-user
 title: 带有内容助理的文本
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 3%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 3%
 
 1. 通过描述要生成的内容来优化内容。
 
-   启用 **[!UICONTROL 使用当前内容进行增强]** 内容助手选项，用于根据投放、投放名称和所选受众为新内容进行个性化设置。
+   启用 **[!UICONTROL 使用当前上下文增强]** 内容助手选项，用于根据投放、投放名称和所选受众为新内容进行个性化设置。
 
    ![](assets/text-genai-3.png)
 
-1. 选择 **[!UICONTROL 上传文件]** 如果要添加营销摘要，以便为内容助手提供更多上下文。
+1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请使用内容助手。
 
-   您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。
+   您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。 请注意，上传的内容仅供当前用户重复使用。
 
 1. 选择 **[!UICONTROL 沟通策略]** 最符合你的需要。 这将影响生成的文本的色调和样式。
 

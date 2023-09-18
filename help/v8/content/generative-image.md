@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助手生成图像
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 2%
 
    ![](assets/image-genai-2.png)
 
-1. 选择 **[!UICONTROL 上传文件]** 如果要添加营销摘要，以便为内容助手提供更多上下文。
+1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请使用内容助手。
 
-   您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。
+   您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。 请注意，上传的内容仅供当前用户重复使用。
 
 1. 选择 **[!UICONTROL 宽高比]** 您的资产的。 这会确定资源的宽度和高度。
 
