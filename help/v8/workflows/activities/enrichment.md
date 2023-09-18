@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 0%
 >title="扩充活动"
 >abstract="在将扩充数据添加到工作流中后，可以在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="扩充数据"
+>abstract="选择要用于扩充工作流程的数据。 您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接，该链接在表之间具有1-N基数。"
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。它通常用于分段活动之后的工作流中。
 
