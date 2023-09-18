@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="扩充数据"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="报告发送"
->abstract="请查阅营销活动报告的发送标志。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="报告跟踪"
->abstract="请查阅营销活动报告的跟踪标志。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="报告概述"
->abstract="您的投放的关键指标。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="报告目标统计数据"
->abstract="此部分根据受众显示特定指标。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="投放的汇总报告"
->abstract="选择至少两个投放以供显示汇总数据报告。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="全球报告跟踪"
 >abstract="跟踪报表量度在此屏幕中可见"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

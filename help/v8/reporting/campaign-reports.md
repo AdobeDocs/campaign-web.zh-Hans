@@ -3,14 +3,34 @@ audience: end-user
 title: 营销活动报告
 description: 了解如何访问和使用营销活动报告
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1853'
 ht-degree: 2%
 
 ---
 
 # 营销活动报告 {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="报告发送"
+>abstract="报表中的“发送”选项卡可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="报告跟踪"
+>abstract="报表中的“发送”选项卡提供了宝贵的数据，包括每个链接的收件人行为、打开和点击的细分，以及有关投放期间最常点击的URL的详细信息。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="投放概述"
+>abstract="投放概述提供关键绩效指标(KPI)，用于提供有关访客如何参与电子邮件投放的详细信息。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="初始目标受众统计数据"
+>abstract="初始目标受众统计信息表显示与收件人相关的数据"
 
 营销活动报告分为多个不同的小组件，其中详细说明了营销活动的成功和错误。
 
