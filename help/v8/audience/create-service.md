@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中创建和管理服务
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,9 @@ ht-degree: 2%
 
 ## 访问订阅服务 {#access-services}
 
-1. 要访问您的平台可用的订阅服务，请浏览 **[!UICONTROL 订阅服务]** 菜单的位置。
+要访问适用于您的平台的订阅服务，请执行以下步骤。
+
+1. 浏览至 **[!UICONTROL 订阅服务]** 菜单的位置。
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ ht-degree: 2%
 >title="选择确认消息"
 >abstract="当用户订阅或取消订阅服务时，您可以发送确认消息。 选择要用于该消息的模板。"
 
-要创建订阅服务，请执行以下步骤：
+要创建订阅服务，请执行以下步骤。
 
 1. 选择 **[!UICONTROL 创建订阅服务]** 按钮。
 
@@ -66,7 +68,7 @@ ht-degree: 2%
 
    ![](assets/service-create-properties.png)
 
-1. 默认情况下，订阅无限制。 您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。 在下面的示例中，20天后，任何人都无法再订阅此服务。
+1. 默认情况下，订阅无限制。 您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。 在下面的示例中，20天后，没有任何用户能够再订阅此服务。
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ ht-degree: 2%
 
 1. 单击 **[!UICONTROL 保存并审阅]**. 新服务将添加到 **[!UICONTROL 订阅服务]** 列表。
 
-### 创建确认消息 {#create-confirmation-message}
+## 创建确认消息 {#create-confirmation-message}
 
 要向订阅或取消订阅您的服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 为此，请执行以下步骤。
 
 1. 为订阅确认创建投放模板。 [了解如何操作](../msg/delivery-template.md)
 
-1. 请勿为此投放选择受众。 相反，访问 **[!UICONTROL 投放设置]**，转到 [受众](../advanced-settings/delivery-settings.md#audience) 选项卡，然后选择 **[!UICONTROL 订阅]** 目标映射。
+1. 请勿为此投放选择受众。 相反，访问 **[!UICONTROL 投放设置]**，转到 [受众](../advanced-settings/delivery-settings.md#audience) 选项卡，然后选择 **[!UICONTROL 订阅]** 列表中的目标映射。
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -102,7 +104,7 @@ ht-degree: 2%
 
 现在，您可以在以下情况下选择这些消息 [创建订阅服务](#create-service). 订阅或取消订阅该服务的用户将收到所选的确认消息。
 
-## 将订阅者添加到您的服务
+## 将订阅者添加到您的服务 {#add-subscribers}
 
 创建服务后，即可手动添加订阅者。 请按照以下步骤操作。
 
@@ -116,11 +118,27 @@ ht-degree: 2%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 选定的收件人将收到订阅 [确认消息](#create-confirmation-message) 您选择的时机 [创建服务](#create-service). 单击 **[!UICONTROL 发送]**.
+1. 单击 **[!UICONTROL 发送]**. 选定的收件人将收到订阅 [确认消息](#create-confirmation-message) 您选择的时机 [创建服务](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 添加的用户档案将显示在 **[!UICONTROL 订阅者]** 列表。 他们现在已订阅您的服务。
+
+## 从服务中删除订阅者 {#remove-subscribers}
+
+将订阅者添加到服务后，即可将其删除。 请按照以下步骤操作。
+
+1. 从中选择现有服务 **[!UICONTROL 订阅服务]** 列表。
+
+1. 单击所需收件人名称旁边的三个圆点图标，然后选择 **[!UICONTROL 删除]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. 确认删除并单击 **[!UICONTROL 发送]**. 选定的收件人将收到退订 [确认消息](#create-confirmation-message) 您选择的时机 [创建服务](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+收件人将从 **[!UICONTROL 订阅者]** 列表且不再订阅您的服务。
 
 ## 订阅服务日志和报告 {#logs-and-reports}
 
@@ -142,7 +160,7 @@ ht-degree: 2%
 
      ![](assets/service-reports.png)
 
-   * 此 **[!UICONTROL 订阅的总体演变]** 图表按期间显示细分，包括订阅、取消订阅、数量演变和忠诚度百分比。
+   * 此 **[!UICONTROL 订阅的总体演变]** 图表按期间显示细分，包括订阅、取消订阅、数量演变和忠诚度百分比。<!--what is Registered?-->
 
    * 使用 **[!UICONTROL 重新加载]** 按钮以检索跟踪工作流执行和计划的最后一个值。
 
