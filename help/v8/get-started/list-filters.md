@@ -3,10 +3,10 @@ audience: end-user
 title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ ht-degree: 98%
 
 ## 自定义过滤器{#list-custom-filters}
 
-要基于数据创建自定义过滤器，请浏览至过滤器底部并单击&#x200B;**添加规则**&#x200B;按钮。
+要针对数据创建自定义过滤器，请浏览到过滤器底部，然后单击 **添加规则** 按钮以访问规则生成器。
 
 拖放属性可在&#x200B;**高级过滤器**&#x200B;屏幕中生成筛选条件。
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 使用&#x200B;**显示高级属性**&#x200B;开关以查看当前列表的所有属性。[了解详情](#adv-attributes)
+
+自定义筛选器的规则生成器的工作原理与创建受众所用的规则生成器类似。 有关如何使用该功能的详细信息，请参阅 [受众文档](../audience/segment-builder.md).
 
 ## 使用高级属性 {#adv-attributes}
 
