@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 35%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 35%
 * 执行其他操作，例如添加附件或设置优惠
 * 访问 [电子邮件设计工具](get-started-email-designer.md#start-authoring) 以开始构建电子邮件的适当内容
 
+>[!NOTE]
+>
+>可使用个性化字段填写此屏幕的所有可编辑文本字段。 [了解如何个性化内容](../personalization/personalize.md)
+
 要配置或编辑电子邮件的内容，请执行以下步骤。
 
 1. 单击 **[!UICONTROL 编辑内容]** 按钮来自 [电子邮件投放仪表板](../email/create-email.md) 屏幕。
@@ -69,7 +73,7 @@ ht-degree: 35%
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入主题，或打开表达式编辑器以使用各种属性和内容块或选件添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
+1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入主题，或打开表达式编辑器以添加 [个性化](../personalization/personalize.md) 使用各种属性和内容块或选件。
 
 1. 如果要将文件附加到电子邮件，请单击&#x200B;**[!UICONTROL 添加附件]**&#x200B;按钮，然后选择一个或多个文件。
 
