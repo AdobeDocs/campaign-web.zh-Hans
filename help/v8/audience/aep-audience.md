@@ -4,7 +4,7 @@ title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 37%
@@ -52,5 +52,3 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 1. 利用规则生成器，可以使用附加筛选器或通过组合不同的受众来扩充您的受众。请参阅此[章节](segment-builder.md)。
 
 1. 单击&#x200B;**保存**。
-
-
