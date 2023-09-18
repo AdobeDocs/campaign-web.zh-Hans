@@ -4,7 +4,7 @@ product: campaign
 title: 使用电子邮件模板
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 25%
@@ -28,7 +28,6 @@ ht-degree: 25%
 >[!NOTE]
 >
 >电子邮件内容模板与不同 [投放模板](../msg/delivery-template.md). 它们允许您仅重用电子邮件内容，而投放模板则允许您重用投放内容，以及所有投放设置和属性，如类型、发件人地址、受众等。
-
 
 ## 使用模板 {#use-templates}
 

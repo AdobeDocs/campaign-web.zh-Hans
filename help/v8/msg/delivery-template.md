@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1020'
 ht-degree: 23%
 
 ---
@@ -32,9 +32,15 @@ ht-degree: 23%
 * 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)，
 * 其他投放属性，例如资源有效性、重试参数或隔离设置。
 
+<!--
 >[!NOTE]
 >
->投放模板与不同 [电子邮件内容模板](../content/email-templates.md)，仅允许您重复使用消息的内容。
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>投放模板与不同 [内容模板](../content/email-sample-templates.md)，您可以使用提供的现成示例电子邮件模板之一开始构建内容。
+
 
 ## 访问和管理投放模板 {#access-manage-templates}
 
