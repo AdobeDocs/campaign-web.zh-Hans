@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 这些设置是在创建工作流时选择的模板中预先配置的，但可以根据需要为此特定工作流进行编辑。
 
-要执行此操作，请单击 **[!UICONTROL 工作流设置]** 图标，该图标位于画布左上角的工作流标签旁边。
+要执行此操作，请单击 **[!UICONTROL 设置]** 按钮时，该按钮将在工作流画布上方的操作栏中可用。
 
 ![](assets/workflow-settings.png)
 
