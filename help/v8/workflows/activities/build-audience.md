@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 62%
 
 ---
 
@@ -62,8 +62,16 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 单击&#x200B;**继续**。
 1. 选择您的受众，就像设计新电子邮件时使用受众一样。请参阅此[章节](../../audience/add-audience.md)。
 
+>[!IMPORTANT]
+>
+>如果要合并多个 **[!UICONTROL 构建受众]** 包含Experience Platform受众的工作流中的活动，您需要添加 **[!UICONTROL 更改维度]** 活动之后，确保所有受众都属于“收件人”定向维度。 此页面底部提供了工作流示例。
+
 ## 示例
 
 此工作流程示例包含两个&#x200B;**生成受众**&#x200B;活动。第一个示例针对扑克玩家受众，然后是电子邮件投放。第二个示例针对 VIP 客户受众，然后是短信投放。
 
 ![](../assets/workflow-audience-example.png)
+
+这是显示Adobe Experience Platform受众与Adobe Campaign受众合并位置的另一个示例。 要允许组合这些受众，请执行以下操作 **[iUICONTROL更改维度]** 在Adobe Experience Platform受众之后添加了具有“收件人”定向维度的活动。
+
+![](../assets/workflow-audience-aep.png)
