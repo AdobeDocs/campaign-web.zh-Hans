@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -21,7 +21,7 @@ ht-degree: 64%
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
-基于预定义的 [设计模板](../content/email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
+基于预定义的 [设计模板](../content/email-sample-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
 
 ## 创建电子邮件投放 {#create-email}
 
