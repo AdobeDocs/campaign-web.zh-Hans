@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
+source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 9%
+source-wordcount: '319'
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
    * **使用新数据完成受众**：保留旧受众内容，并将来自保存受众活动之集客过渡的数据添加到旧内容中。
 
-1. 查看 **生成补码** 选项。 然后，将向该活动添加其他过渡。
+1. 查看 **生成叫客过渡** 选项，如果您希望在 **保存受众** 活动。
 
 随后，受众的详细视图中会提供所保存受众的内容，可通过访问 **受众** 菜单。 此视图中可用的列，对应于工作流集客过渡的列 **保存受众** 活动。
 
