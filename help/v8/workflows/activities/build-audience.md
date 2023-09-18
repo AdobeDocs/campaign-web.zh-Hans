@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!IMPORTANT]
 >
->如果要合并多个 **[!UICONTROL 构建受众]** 包含Experience Platform受众的工作流中的活动，您需要添加 **[!UICONTROL 更改维度]** 活动之后，确保所有受众都属于“收件人”定向维度。 此页面底部提供了工作流示例。
+>如果您要使用 **[!UICONTROL 构建受众]** 针对Experience Platform受众的活动，您需要添加 **[!UICONTROL 更改维度]** 活动之后，用于确保受众的定向维度设置为“收件人”。 此页面底部提供了工作流示例。
 
 ## 示例
 
