@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 12%
@@ -23,7 +23,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="营销活动中的工作流列表"
->abstract="此 **投放** 选项卡列出了链接到当前营销策划的所有工作流。 单击工作流的名称以对其进行编辑。 使用“创建工作流”按钮可为此营销策划添加新工作流。"
+>abstract="此 **工作流** 选项卡列出了链接到当前营销策划的所有工作流。 单击工作流的名称以对其进行编辑。 使用 **创建工作流** 按钮以为此营销活动添加新工作流。"
 
 
 您可以在营销策划中创建独立的工作流或工作流。 第一步是选择模板并定义其常规属性。 然后，您可以根据需要配置其他设置。
