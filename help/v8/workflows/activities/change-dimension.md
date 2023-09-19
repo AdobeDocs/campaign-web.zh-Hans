@@ -3,9 +3,9 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 1%
 >title="更改维度活动"
 >abstract="利用此活动，可在构建受众时更改定向维度。 它根据数据模板和输入维度移动轴。 例如，您可以从“合同”维度切换到“客户”维度。"
 
-此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建工作流时更改定向维度。
-此活动根据数据模板和输入维度移动轴。
+此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。 [了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 
 例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以便向定向收件人发送推送通知。
 
@@ -47,4 +46,3 @@ ht-degree: 1%
 然后使用 **[!UICONTROL 更改维度]** 活动以将工作流定向维度切换到“收件人”。 这样，我们便能够定位匹配查询的收件人。
 
 ![](../assets/workflow-change-dimension-example.png)
-

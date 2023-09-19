@@ -2,17 +2,17 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 25%
+source-wordcount: '883'
+ht-degree: 18%
 
 ---
 
 
 # 与收件人和受众合作 {#about-recipients}
 
-## 收件人 {#recipients}
+## 什么是收件人？ {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ ht-degree: 25%
 
 此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](create-service.md)
 
-## 受众 {#audiences}
+## 什么是受众？ {#audiences}
 
 受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。[了解什么是投放模板](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ ht-degree: 25%
 >[!NOTE]
 >
 >在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在活动工作流中定义投放的受众 [在此部分中](../workflows/activities/build-audience.md)
+
+## 定位维度 {#targeting-dimensions}
+
+定向维度是操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
+
+工作流的定向维度由第一个维度定义 **[!UICONTROL 构建受众]** 并用于所有后续活动，直到工作流结束。 例如，如果对数据库中的收件人执行查询，则叫客过渡将包含“收件人”类型的数据，并且将传输给下一个活动。
+
+请注意，您可以使用在工作流中切换定向维度 **[!UICONTROL 更改维度]** 活动。 [了解详情](../workflows/activities/change-dimension.md)
+
+默认情况下，电子邮件和短信投放模板将定位到 **[!UICONTROL 收件人]**. 因此，其目标维度使用 **nms：recipient** 表格。 对于推送通知，默认目标维度为 **订阅者应用程序nms：appSubscriptionRcp**，链接到收件人表。
+
+您还可以为下面列出的投放使用其他内置目标映射：
+
+| 名称 | 使用至 | 架构 |
+|---|---|---|
+| 收件人 | 投放到收件人（内置收件人表） | nms：recipient |
+| 访客 | 向通过反向链接（病毒式营销）收集用户档案的访客投放，例如。 | mns：visitor |
+| 订阅 | 发送给订阅了新闻稿等信息服务的收件人 | nms：subscription |
+| 访客订阅 | 向订阅了信息服务的访客投放 | nms：visitorSub |
+| 运算符 | 交付给Adobe Campaign操作员 | nms：operator |
+| 外部文件 | 通过包含投放所需所有信息的文件投放 | 无链接架构，未输入目标 |
+| 订阅者申请 | 投放到订阅了应用程序的收件人 | nms：appSubscriptionRcp |
+
+此外，您可以根据需要创建新的目标映射。 此操作从客户端控制台执行。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
