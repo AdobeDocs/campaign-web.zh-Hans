@@ -2,7 +2,7 @@
 title: Campaign Web UI中的护栏和限制
 description: Campaign Web UI中的护栏和限制
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Web UI中尚不支持的工作流活动是只读的，并且显示为不兼容�
 
 即使您无法在规则生成器中查看查询的图形表示形式，也无法编辑过滤器，您仍可以使用它，并在 **属性** 部分。
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 您还可以访问SQL查询以检查确切的设置。 要执行此操作，请单击 **代码视图** 按钮。
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-单击 **计算** 按钮以检查有多少项符合筛选条件。 使用 **查看结果** 按钮以显示这些项目。
+单击 **计算** 按钮以检查有多少项符合筛选条件。
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+使用 **查看结果** 按钮以显示这些项目。
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
