@@ -3,7 +3,7 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
+source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -72,6 +72,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ![](../assets/workflow-audience-example.png)
 
-这是另一个工作流示例，其中Adobe Experience Platform受众与Adobe Campaign受众相结合。 要允许组合这些受众，请执行以下操作 **[!UICONTROL 更改维度]** 在Adobe Experience Platform受众之后添加了具有“收件人”定向维度的活动。 [了解如何配置更改维度活动](change-dimension.md)
+这是将Adobe Experience Platform受众与Adobe Campaign受众结合在一起的另一个工作流示例。 要允许组合这些受众，请执行以下操作 **[!UICONTROL 更改维度]** 在Adobe Experience Platform受众之后添加了具有“收件人”定向维度的活动。 [了解如何配置更改维度活动](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
