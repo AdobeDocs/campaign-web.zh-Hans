@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 中的权限管理
 description: 详细了解 Campaign Web v8 中的权限
 badge: label="Beta"
-source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 50%
+source-wordcount: '605'
+ht-degree: 47%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="需要权限"
->abstract="您的管理员必须先授予您权限，然后您才能创建该对象。"
+>abstract="您的管理员必须先授予您权限，然后您才能创建此对象。"
 
 
 >[!CONTEXTUALHELP]
@@ -52,9 +52,9 @@ ht-degree: 50%
 >title="此工作流为只读"
 >abstract="由于画布不受支持或不兼容，您无法编辑此工作流程。"
 
-访问控制可限制从主列表（如投放、收件人或工作流）对于对象和数据的访问。这些限制在资源管理器导航树中也适用。此外，需要相关权限才能从用户界面中创建、删除、复制和编辑对象。
+访问控制可限制从主列表（如投放、收件人或工作流）对于对象和数据的访问。这些限制也适用于 **资源管理器** 导航树。 此外，需要相关权限才能从用户界面中创建、删除、复制和编辑对象。
 
-在客户端控制台中管理访问控制。Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。仅 Campaign 管理员能够定义和修改用户权限。可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}中详细了解用户权限。
+访问控制是在Campaign客户端控制台中进行管理的。 Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。仅 Campaign 管理员能够定义和修改用户权限。可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}中详细了解用户权限。
 
 在浏览Campaign Web用户界面时，您可以访问数据、对象和功能，具体取决于您的权限。 例如，如果您无权访问某个文件夹，则您看不到它。您的权限还影响对象和数据管理。没有特定文件夹的写入权限，即无法在该文件夹中创建某个投放，即使您可在用户界面中看到它也是如此。
 

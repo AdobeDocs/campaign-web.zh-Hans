@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -51,7 +51,7 @@ ht-degree: 73%
 
 **探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。
 
-中显示的项目 **资源管理器** 取决于您的用户权限。  如果您具有适当的权限，您还可以添加文件夹和子文件夹。 要了解有关权限的更多信息，请参阅 [本节](permissions.md).
+中显示的项目 **资源管理器** 取决于您的用户权限。 如果您拥有适当的权限，您还可以添加文件夹和子文件夹。 要了解有关权限的更多信息，请参阅 [本节](permissions.md).
 
 与任何列表屏幕中一样，您可以配置列来个性化显示以查看所需的所有信息。请参阅此[章节](#list-screens)。
 
