@@ -4,7 +4,7 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 72%
@@ -51,7 +51,7 @@ ht-degree: 72%
    * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。
 +++
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-recipients.md)。
 
    ![](assets/sms_create_2.png)
 

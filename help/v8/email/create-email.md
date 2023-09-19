@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -79,7 +79,7 @@ ht-degree: 64%
 
 在此用例中，您将电子邮件发送到现有受众。
 
-有关如何使用受众的其他说明，请参阅[此章节](../audience/about-audiences.md)。
+有关如何使用受众的其他说明，请参阅[此章节](../audience/about-recipients.md)。
 
 1. 要选择电子邮件的受众，请单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，并从列表中选择一个现有受众。
 

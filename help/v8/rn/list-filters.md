@@ -4,7 +4,7 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -42,7 +42,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../content/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知。
-* 使用规则生成器定义目标受众 - [了解详情](../audience/about-audiences.md)
+* 使用规则生成器定义目标受众 - [了解详情](../audience/about-recipients.md)
 * 预览、测试和发送电子邮件 - [了解详情](../monitor/prepare-send.md)
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 

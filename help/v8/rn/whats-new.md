@@ -4,7 +4,7 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 66%
@@ -44,7 +44,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../content/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知 —  [了解详情](../workflows/activities/channels.md)
-* 使用规则生成器定义目标受众 - [了解详情](../audience/about-audiences.md)
+* 使用规则生成器定义目标受众 - [了解详情](../audience/about-recipients.md)
 * 预览、测试和发送消息 —  [了解详情](../monitor/prepare-send.md)
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 * 种子地址现在用作&#x200B;**测试配置文件**：将测试电子邮件发送到种子地址，这些地址是数据库中额外的收件人。[了解详情](../preview-test/test-deliveries.md)。
 * 投放分析现在是&#x200B;**投放准备**。当您需要启动消息准备时，单击 **准备** 按钮。 [了解详情](../monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../preview-test/preview-test.md)
-* 列表现在称为&#x200B;**受众**。[了解详情](../audience/about-audiences.md)。
+* 列表现在称为&#x200B;**受众**。[了解详情](../audience/about-recipients.md)。
 
 ## 限制{#limitations-beta}
 

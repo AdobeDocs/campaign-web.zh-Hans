@@ -3,7 +3,7 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%
@@ -52,7 +52,7 @@ ht-degree: 53%
 
 1. 从 **[!UICONTROL 受众]** 菜单，选择要用于此投放的应用程序。
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-audiences.md)
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-recipients.md)
 
    请注意，默认情况下，您的推送通知将发送给应用程序的所有订阅者。
 

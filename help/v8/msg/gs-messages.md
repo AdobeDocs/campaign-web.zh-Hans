@@ -4,7 +4,7 @@ title: 在 Campaign v8 Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 85%
@@ -79,7 +79,7 @@ Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和移动应�
    * [推送通知渠道](../push/gs-push.md)
    * [短信渠道](../sms/create-sms.md)
 
-1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-audiences.md)中详细了解受众。
+1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-recipients.md)中详细了解受众。
 1. 定义消息内容。
 1. （可选）定义投放 [计划](#gs-schedule). 如果未定义计划，则在单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后立即发送消息。
 1. 单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮可检查您的设置。

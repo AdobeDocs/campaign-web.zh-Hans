@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 23%
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 * [分类](../advanced-settings/delivery-settings.md#typology),
 * 发件人地址，
-* An [受众](../audience/about-audiences.md)，包括 [对照组](../audience/control-group.md)，
+* An [受众](../audience/about-recipients.md)，包括 [对照组](../audience/control-group.md)，
 * 自定义 [内容](../content/edit-content.md)，
 * [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)，
 * 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)，
@@ -48,8 +48,8 @@ ht-degree: 23%
 >id="acw_delivery_templates"
 >title="使用投放模板"
 >abstract="使用投放模板可轻松创建并保存现有投放以供将来使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="复制现有模板"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="将投放转换为模板"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hans#copy-an-existing-template" text="复制现有模板"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hans#convert-an-existing-delivery" text="将投放转换为模板"
 
 要访问内容模板列表，请选择 **[!UICONTROL Campaign Management]** > **[!UICONTROL 投放]** 从左侧菜单中，浏览到 **模板** 选项卡。
 

@@ -4,7 +4,7 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -86,7 +86,7 @@ ht-degree: 13%
 
 要在显示来自的某个现有配置文件的数据时向特定的电子邮件地址或电话号码发送测试电子邮件或短信，请执行以下操作 [!DNL Campaign] 数据库，使用替换配置文件。
 
-1. 在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/about-audiences.md)
+1. 在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/about-recipients.md)
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
@@ -98,7 +98,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >如果您尚未选择 [受众](../audience/about-audiences.md) 对于您的投放， **[!UICONTROL 从主要目标替换]** 选项将灰显，您将无法选择替换配置文件。
+   >如果您尚未选择 [受众](../audience/about-recipients.md) 对于您的投放， **[!UICONTROL 从主要目标替换]** 选项将灰显，您将无法选择替换配置文件。
 
 1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定要接收测试投放的电子邮件地址或电话号码。
 
