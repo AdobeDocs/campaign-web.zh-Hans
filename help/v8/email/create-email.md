@@ -4,9 +4,9 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 64%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 64%
 >title="为您的投放选择受众"
 >abstract="为您的营销信息选择最佳受众。您可以选择现有受众(已在Campaign v8实例中或从Adobe Experience Platform中定义)，使用规则生成器创建新受众，或上传包含受众的文件。 未为以下对象启用控制组： **从文件选择** 选择或反之。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="选择主要受众"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="设置对照组"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
 在此用例中，您将电子邮件发送到现有受众。
 
