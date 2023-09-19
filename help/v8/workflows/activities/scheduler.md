@@ -3,10 +3,10 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '519'
+ht-degree: 10%
 
 ---
 
@@ -74,7 +74,6 @@ ht-degree: 0%
 >如果要立即启动工作流，可以单击 **执行挂起任务** 在调度程序的顶部操作栏中。 此按钮仅在启动工作流时可用。
 
 注意事项:
-
 
 ## 示例
 

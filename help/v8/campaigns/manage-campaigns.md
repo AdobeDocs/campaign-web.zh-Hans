@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -69,3 +69,22 @@ ht-degree: 90%
 >[!NOTE]
 >
 >**投放**&#x200B;选项卡显示所有链接到该营销活动的投放。但是，无法从那里删除在工作流中创建的投放。要删除在工作流的上下文中创建的投放，必须从该工作流中删除投放活动。[了解详情](../msg/gs-messages.md#delivery-delete)。
+
+## 使用活动模板{#manage-campaign-templates}
+
+活动模板包含预配置的设置，可重复用于创建新工作流。 提供了一组内置模板来帮助您入门。 您可以创建和配置活动模板，然后从这些模板创建活动。
+
+活动模板可以存储以下信息：
+
+* 营销活动的 **属性** 和 **计划** 设置
+* 工作流模板
+* 投放模板
+
+要创建营销活动模板，请执行以下步骤：
+
+1. 单击 **[!UICONTROL 营销活动]** 菜单，浏览到 **模板** 选项卡，然后单击 **[!UICONTROL 创建模板]** 按钮。
+1. 选择 **模板** 为营销活动使用和提供标签。 这样，您就可以基于已创建的模板创建新模板。
+1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
+1. 定义 **计划** 您的营销活动中的。 了解如何在中设置活动计划 [本节](create-campaigns.md#campaign-schedule)
+1. 单击&#x200B;**创建**。
+1. 将工作流和投放模板添加到您的营销活动。
