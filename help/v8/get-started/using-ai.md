@@ -2,16 +2,16 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # 使用AI支持的知识助手 {#using-ai}
 
-利用产品上下文帮助框中提供的AI支持的知识助手，根据产品文档和当前产品上下文快速获取AI生成的答案。
+通过产品上下文帮助框中提供的AI支持的知识助手，根据产品文档和当前产品上下文快速获取AI生成的答案。
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 推荐  {#recommendations-ai}
 
-在上下文帮助中提问时，会考虑当前产品上下文。
+在AI支持的知识助手中提问时，会考虑当前产品上下文，即您所在的Campaign屏幕。
 
-为了充分发挥助理的作用，在提问时，我们建议您：
+为了充分利用AI支持的知识助手，在询问问题时，我们建议您：
 
 * 尽可能精确和具体，避免模棱两可。 答案将更准确、更有用。
-* 为帮助知识助理找到正确的信息，请尽量添加有关您试图学习的内容的详细信息。
+* 为帮助AI支持的知识助手查找正确信息，请添加尽可能多的有关您尝试学习的内容的详细信息。
 * 重新措辞并优化您的问题以获得更好的答案。 如果答案不准确或不实用，请尝试不同的方法并添加上下文以获取更好的结果。
 * 使用适当的用语和措辞，语调中立。
 * 请对答案进行评级并提供反馈，以便我们的工程师能够从您的经验中学习并改进结果。
