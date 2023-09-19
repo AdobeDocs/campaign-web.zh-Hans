@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 70%
@@ -22,12 +22,11 @@ ht-degree: 70%
 
 ## 活动列表 {#access-campaigns}
 
-
 在营销活动列表中，有两个选项卡可用：
 
 * **浏览**&#x200B;选项卡将列出所有现有的营销活动。您可以单击一个营销活动以打开其仪表板，也可以通过单击&#x200B;**创建营销活动**&#x200B;按钮来创建新的营销活动。请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。您可以查看现有模板或创建新模板。 [阅读更多](manage-campaign-templates.md)。
+* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。您可以查看现有模板或创建新模板。 [阅读更多](#manage-campaign-templates)。
 
 ![营销活动列表](assets/campaign-list.png)
 
@@ -40,7 +39,6 @@ ht-degree: 70%
 ![营销活动过滤器](assets/campaign-filter-on-dates.png)
 
 ## 营销活动仪表板{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
