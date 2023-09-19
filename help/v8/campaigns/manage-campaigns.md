@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 70%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 70%
 
 ## 使用活动模板{#manage-campaign-templates}
 
-活动模板包含预配置的设置，可重复用于创建新工作流。 提供了一组内置模板来帮助您入门。 您可以创建和配置活动模板，然后从这些模板创建活动。
+营销活动模板包含预配置的设置，可重复用于创建新营销活动。 提供了一组内置模板来帮助您入门。 您可以创建和配置活动模板，然后从这些模板创建活动。
 
 活动模板可以存储以下信息：
 
@@ -81,7 +81,8 @@ ht-degree: 70%
 要创建营销活动模板，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 营销活动]** 菜单，浏览到 **模板** 选项卡，然后单击 **[!UICONTROL 创建模板]** 按钮。
-1. 选择 **模板** 为营销活动使用和提供标签。 这样，您就可以基于已创建的模板创建新模板。
+1. 选择 **模板** 以使用。 这样，您就可以基于之前创建的模板创建新模板。
+1. 为模板提供标签。
 1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
 1. 定义 **计划** 您的营销活动中的。 了解如何在中设置活动计划 [本节](create-campaigns.md#campaign-schedule)
 1. 单击&#x200B;**创建**。
