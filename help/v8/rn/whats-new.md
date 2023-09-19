@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 69%
+source-wordcount: '1006'
+ht-degree: 67%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../content/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知 —  [了解详情](../workflows/activities/channels.md)
 * 使用规则生成器定义目标受众 - [了解详情](../audience/about-audiences.md)
-* 预览、测试和发送电子邮件 - [了解详情](../monitor/prepare-send.md)
+* 预览、测试和发送消息 —  [了解详情](../monitor/prepare-send.md)
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * **针对电子邮件内容的Gen AI**
 
-  告别手动内容创建，向高效的、数据驱动的营销活动拜拜Gen AI的强大功能所赐。  我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。
-
-  利用生成式 AI 生成电子邮件内容，保持竞争优势并提升电子邮件营销水平。
+  告别手动内容创建，向高效的、数据驱动的营销活动拜拜Gen AI的强大功能所赐。  我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。利用生成式 AI 生成电子邮件内容，保持竞争优势并提升电子邮件营销水平。此功能将从10月初开始提供。
 
   在[此章节](../content/generative-gs.md)中了解更多信息。
 
@@ -99,7 +97,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * **具有Gen AI的知识助手**
 
-  直接从产品用户界面提出问题并查找指导。 全新AI支持的知识助手，嵌入在上下文帮助弹出窗口中，可帮助您学习和培养有关新Campaign功能的专业知识。 它基于最新的产品文档，可帮助您在构建用例时查找帮助并即时获得逐步指导。
+  直接从产品用户界面提出问题并查找指导。 全新AI支持的知识助手，嵌入在上下文帮助弹出窗口中，可帮助您学习和培养有关新Campaign功能的专业知识。 它基于最新的产品文档，可帮助您在构建用例时查找帮助并即时获得逐步指导。 此功能将从10月初开始提供。
 
   在[此章节](../get-started/using-ai.md)中了解更多信息。
 
