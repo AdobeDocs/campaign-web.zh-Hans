@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 例如，可以将与客户购买相关的信息添加到工作流工作表中，并使用此数据来个性化包含客户最近一次购买或在这些购买中花费的金额的电子邮件。
 
-## 常规配置 {#general}
+## 配置扩充活动 {#enrichment-configuration}
 
 请按照以下步骤操作，配置&#x200B;**扩充**&#x200B;活动：
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 * 筛选条件：筛选掉大于 100 美元的项目
 * 排序：**订购日期**&#x200B;字段的降序排序。
 
-### 添加属性
+### 添加属性 {#add-attribute}
 
 您可以在此处选择用作扩充数据的收藏集链接。
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment3.png)
 
-### 定义收藏集设置
+### 定义收藏集设置{#collection-settings}
 
 然后，定义数据的收集方式以及要检索的记录数。
 
@@ -99,7 +99,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment5.png)
 
-### 定义筛选条件
+### 定义筛选条件{#collection-filters}
 
 我们在此处定义扩充属性的最大值。筛选掉大于 100 美元的项目。
 
@@ -109,7 +109,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment6.png)
 
-### 定义排序
+### 定义排序{#collection-sorting}
 
 我们现在需要应用排序来检索这三个&#x200B;**最新**&#x200B;的购买。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 10%
+source-wordcount: '385'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 10%
 
 此活动主要用于通过将同一工作流中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，例如 **构建受众** 或 **合并** 活动。
 
-## 配置
+## 配置保存受众活动{#save-audience-configuration}
 
 按照以下步骤配置 **保存受众** 活动：
 
-1. 添加 **保存受众** 活动添加到工作流。
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. 添加 **保存受众** 活动添加到工作流。
 
 1. 在 **模式** 在下拉列表中，选择要执行的操作：
 
@@ -49,6 +49,8 @@ ht-degree: 10%
 随后，受众的详细视图中会提供所保存受众的内容，可通过访问 **受众** 菜单。 此视图中可用的列，对应于工作流集客过渡的列 **保存受众** 活动。
 
 
-## 示例
+## 示例{#save-audience-example}
+
+下方的示例展示了如何通过定位进行简单的受众更新。 将添加调度程序以每月运行一次工作流。 查询恢复订阅了可用的不同应用程序服务的所有用户档案。 此 **保存受众** 活动可更新受众，其方法为删除自上次工作流执行以来取消订阅服务的用户档案并添加新订阅的用户档案。
 
 

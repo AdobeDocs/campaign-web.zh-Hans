@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。
 
-## 配置 {#general}
+## 配置拆分活动 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 现已配置该活动。在工作流执行时，群体将按照各个子集添加到活动的顺序划分为这些子集。
 
-## 示例
+## 示例{#split-example}
 
 在下面的示例中，**[!UICONTROL 拆分]**&#x200B;活动用于根据要使用的通信渠道将受众划分为不同的子集：
 

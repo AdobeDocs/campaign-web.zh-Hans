@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 4%
 
 ---
@@ -65,8 +65,8 @@ ht-degree: 4%
 
 1. 查看 **生成补码** 选项。 补充包含所有重复项。 然后，将向该活动添加其他过渡。
 
-## 示例{#example}
+## 示例{#deduplication-example}
 
-在以下示例中，我们使用重复数据删除活动，在发送投放之前从目标中排除重复项。 标识的重复项会添加到专用的重复项受众中，如有必要，可以重复使用。 我们使用 **电子邮件** 用于标识重复项的字段。 我们选择保留1个条目，然后选择 **Random** 删除重复项方法。
+在以下示例中，我们使用重复数据删除活动，在发送投放之前从目标中排除重复项。 标识的重复项将添加到专用受众，可在必要时重复使用。 我们使用 **电子邮件** 用于标识重复项的字段。 我们选择保留1个条目，然后选择 **Random** 删除重复项方法。
 
 ![](../assets/workflow-deduplication-example.png)
