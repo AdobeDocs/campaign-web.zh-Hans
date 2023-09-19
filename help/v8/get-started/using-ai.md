@@ -2,9 +2,9 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 推荐  {#recommendations-ai}
 
-在AI支持的知识助手中提问时，会考虑当前产品上下文，即您所在的Campaign屏幕。
+在AI支持的知识助手中提问时，会考虑当前产品上下文，即您所在的Campaign屏幕和当前帮助框的内容。
 
 为了充分利用AI支持的知识助手，在询问问题时，我们建议您：
 
