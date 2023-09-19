@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 初始受众]**：定向收件人总数。
 
-   * **[!UICONTROL 投放]**：投放分析后要投放的消息总数。
+   * **[!UICONTROL 投放]**：投放准备后要投放的消息总数。
 
    * **[!UICONTROL 排除项]**：从发送的目标中排除的消息总数。
 +++
@@ -35,7 +35,7 @@ ht-degree: 9%
 
   +++了解有关电子邮件促销活动报告指标的更多信息。
 
-   * **[!UICONTROL 消息已发送]**：投放分析后要投放的消息总数。
+   * **[!UICONTROL 消息已发送]**：投放准备后要投放的消息总数。
 
    * **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
 

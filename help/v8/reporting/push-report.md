@@ -3,7 +3,7 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 
   +++了解有关推送投放报告量度的更多信息。
 
-   * **[!UICONTROL 发送总数]**：投放分析期间处理的消息总数。
+   * **[!UICONTROL 发送总数]**：投放准备期间处理的消息总数。
 
    * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 
   +++了解有关推送投放报告量度的更多信息。
 
-   * **[!UICONTROL 投放]**：投放分析期间处理的消息总数。
+   * **[!UICONTROL 投放]**：投放准备期间处理的消息总数。
 
    * **[!UICONTROL 排除项]**：已从分析中排除的用户档案数。
 
