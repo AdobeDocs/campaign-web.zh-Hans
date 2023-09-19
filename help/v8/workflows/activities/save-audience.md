@@ -3,7 +3,7 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%

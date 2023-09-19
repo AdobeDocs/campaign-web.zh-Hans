@@ -3,7 +3,7 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%

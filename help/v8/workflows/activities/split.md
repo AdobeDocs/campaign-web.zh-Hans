@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 94%
    >
    > 在配置子集之前，请确保已按正确的顺序添加它们，因为其位置无法更改。
 
-1. 添加子集后，活动将显示与子集一样多的输出转换。强烈建议更改每个子集的标签，以便在工作流画布中轻松标识它们。
+1. 添加子集后，活动将显示与子集一样多的输出转换。我们强烈建议更改每个子集的标签以便在工作流画布中轻松识别它们。
 
 1. 配置每个子集筛选传入群体的方式。为此，请执行以下步骤：
 
