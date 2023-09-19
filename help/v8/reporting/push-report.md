@@ -3,10 +3,10 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="推送报告摘要"
->abstract="探索您的推送投放的报告指标。"
+>abstract="此 **推送投放概述** 提供了推送投放的全面概述，其中包含大量洞察和特定数据。 它提供有关投放的性能、效果和结果的全面信息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="报告发送"
->abstract="报表中的“发送”选项卡可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
+>abstract="他 **正在发送** 使用报表中的制表符，可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
 
 此 **推送投放报告** 提供了推送渠道的全面概述，提供了大量见解和特定数据。 它提供了有关每次投放的表现、效果和结果的全面信息。
 
