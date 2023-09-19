@@ -3,9 +3,9 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 10%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 10%
 
 此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。
 
-## 最佳实践
+## 最佳实践{#scheduler-best-practices}
 
 * 请勿将工作流计划为每15分钟运行一次以上，因为它可能会影响整体系统性能，并在数据库中创建块。
 * 如果要在工作流中发送一次性投放，可以添加调度程序活动并将其设置为运行 **一次**. 您还可以定义 **计划** 在投放设置中。
 * 如果要在工作流中发送定期投放，则需要使用 **计划程序** 并设置执行频率。 循环投放活动不允许您定义计划。
 
-## 配置
+## 配置{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ ht-degree: 10%
 
 按照以下步骤配置 **计划程序** 活动：
 
-1. 添加 **计划程序** 活动添加到工作流。
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. 添加 **计划程序** 活动添加到工作流。
 
 1. 配置 **执行频率**：
 
@@ -73,9 +73,7 @@ ht-degree: 10%
 >
 >如果要立即启动工作流，可以单击 **执行挂起任务** 在调度程序的顶部操作栏中。 此按钮仅在启动工作流时可用。
 
-注意事项:
-
-## 示例
+## 示例{#scheduler-example}
 
 在下方的示例中，将活动配置为工作流在2023年10月1日至2024年1月1日这一周的每天早上9点和12点运行多次。
 
