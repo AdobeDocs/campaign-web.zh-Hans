@@ -1,23 +1,25 @@
 ---
-title: 与收件人合作
+title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 4%
+source-wordcount: '582'
+ht-degree: 25%
 
 ---
 
 
-# 与收件人合作 {#about-recipients}
+# 与收件人和受众合作 {#about-recipients}
+
+## 收件人 {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件人"
->abstract="收件人是用户档案，用于接收Adobe Campaign发送的消息。 在Adobe Campaign中，收件人是发送投放内容（电子邮件、短信）所定位的默认用户档案。 从该列表中，您可以根据您的权限查看收件人的配置文件。 使用筛选选项浏览此列表。 您可以编辑和更新收件人的少量属性集。"
+>abstract="收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe Campaign 中，收件人是发送投放（电子邮件、手机短信）所针对的默认配置文件。从此列表中可根据您的权限查看收件人的配置文件。使用过滤选项浏览此列表。可编辑和更新收件人的一小部分属性。"
 
-收件人是用户档案，用于接收Adobe Campaign发送的消息。 在 Adobe　Campaign 中，收件人是发送投放内容（电子邮件、SMS 等）所定位的默认用户档案。通过数据库中存储的收件人数据，您可以创建将接收任何给定投放的受众，并在投放内容中添加个性化数据。 其他类型的用户档案存储在数据库中。 它们专为不同的用途而设计：例如，种子用户档案用于在将投放内容发送给最终受众之前对其进行测试。
+收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe　Campaign 中，收件人是发送投放内容（电子邮件、SMS 等）所定位的默认用户档案。通过数据库中存储的收件人数据，您可以创建将接收任何给定投放的受众，并在投放内容中添加个性化数据。 其他类型的用户档案存储在数据库中。 它们专为不同的用途而设计：例如，种子用户档案用于在将投放内容发送给最终受众之前对其进行测试。
 
 只能从Campaign客户端控制台添加收件人。 但是，它们在Campaign Web中可见，位于 **收件人** 左侧导航栏的条目。
 
@@ -43,3 +45,22 @@ ht-degree: 4%
 >
 >根据您的权限，您可能无法访问存储在数据库中的完整收件人列表。 要了解有关权限的更多信息，请参阅 [本节](../get-started/permissions.md).
 
+此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](create-service.md)
+
+## 受众 {#audiences}
+
+受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。[了解什么是投放模板](../msg/delivery-template.md).
+
+要定义受众群体，您可以：
+
+* [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
+* [选择现有受众](add-audience.md) 在客户端控制台中作为列表创建，
+* [选择Adobe Experience Platform受众](aep-audience.md)，
+* [构建新受众](segment-builder.md) 通过定义和组合筛选条件来使用规则生成器，
+* [使用外部文件中的受众](file-audience.md).此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
+
+定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)
+
+>[!NOTE]
+>
+>在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在活动工作流中定义投放的受众 [在此部分中](../workflows/activities/build-audience.md)
