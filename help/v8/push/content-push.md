@@ -3,7 +3,7 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 37%
@@ -51,7 +51,7 @@ ht-degree: 37%
 
 * 此 **[!UICONTROL 通知消息]**，由FCM SDK自动处理。 FCM会代表客户端应用程序在用户设备上自动显示消息。 通知消息包含预定义的一组参数和选项，但仍可以使用自定义应用程序变量进一步个性化。
 
-  要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 正文]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。
+  要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 消息]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。
 
   要进一步个性化推送通知，您可以选择要添加到推送通知的图像，即要在用户档案设备上显示的通知图标及其颜色。
 
@@ -59,7 +59,7 @@ ht-degree: 37%
 
 >[!TAB iOS]
 
-要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 正文]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。
+要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 消息]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。
 
 您可以添加 **[!UICONTROL 子标题]**，iOS通知有效负载的subtitle参数的值。 请参阅此部分。
 
