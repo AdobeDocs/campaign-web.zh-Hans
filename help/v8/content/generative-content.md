@@ -3,9 +3,9 @@ audience: end-user
 title: 带有内容助理的文本
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 2%
 创建并个性化电子邮件后，使用创作AI支持的内容助手将您的内容提升到新的水平。
 
 内容助手可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
+
+
+>[!AVAILABILITY]
+>
+>此功能将在10月初提供。
 
 1. 创建和配置电子邮件投放后，单击 **[!UICONTROL 编辑内容]**.
 

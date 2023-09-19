@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助手生成电子邮件
 description: 内容助理入门
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 2%
 内容助手通过自动生成完整的电子邮件内容、节省您的时间并确保一致的质量，增强了您通信的影响。
 
 使用创作AI，您可以轻松制作引人入胜的电子邮件，引起受众的共鸣，从而使沟通更加高效和高效。
+
+
+>[!AVAILABILITY]
+>
+>此功能将在10月初提供。
+
 
 1. 创建和配置电子邮件投放后，单击 **[!UICONTROL 创建内容]**.
 
