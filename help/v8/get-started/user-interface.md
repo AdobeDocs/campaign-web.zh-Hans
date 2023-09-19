@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -47,7 +47,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览所有 Campaign v8 组件、文件夹和架构，检查关联的权限，并从此菜单创建文件夹和子文件夹。"
+>abstract="**探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 组件和对象。浏览您的所有 Campaign v8 组件、文件夹和架构，检查关联的权限，然后从此菜单创建文件夹和子文件夹。"
 
 **探索工具**&#x200B;菜单使用与客户端控制台中的文件夹层次结构相同的文件夹层次结构显示所有 Campaign 资源和对象。浏览所有 Campaign v8 组件、文件夹和模式，并创建投放、工作流和营销活动。
 
@@ -80,7 +80,7 @@ ht-degree: 73%
 * **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。要了解有关受众和列表的更多信息，请参阅 [本节](../audience/about-audiences.md).
 * **订阅** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}，了解如何管理订阅和退订。
 
-### 决策管理
+### 决策管理 {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ ht-degree: 73%
 
 了解如何在的电子邮件和短信中创建和发送优惠 [本节](../content/offers.md).
 
-## 顶部栏
+## 顶部栏 {#top-bar}
 
 利用界面的顶部栏，可以：
 

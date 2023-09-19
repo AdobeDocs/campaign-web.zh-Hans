@@ -3,7 +3,7 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中创建和管理服务
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 2%
