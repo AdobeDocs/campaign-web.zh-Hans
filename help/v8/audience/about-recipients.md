@@ -2,7 +2,7 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 18%
@@ -45,7 +45,7 @@ ht-degree: 18%
 >
 >根据您的权限，您可能无法访问存储在数据库中的完整收件人列表。 要了解有关权限的更多信息，请参阅 [本节](../get-started/permissions.md).
 
-此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](create-service.md)
+此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](manage-services.md)
 
 ## 什么是受众？ {#audiences}
 
