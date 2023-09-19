@@ -3,7 +3,7 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 badge: label="Beta"
-source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
+source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -46,4 +46,7 @@ ht-degree: 1%
 
 然后使用 **[!UICONTROL 更改维度]** 活动以将工作流定向维度切换到“收件人”。 这样，我们便能够定位匹配查询的收件人。
 
+<!--
 ![](assets/workflow-change-dimension-example.png)
+-->
+
