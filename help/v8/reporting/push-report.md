@@ -3,10 +3,10 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '345'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 6%
 >id="acw_push_report_overview"
 >title="推送报告摘要"
 >abstract="探索您的推送投放的报告指标。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="报告发送"
+>abstract="报表中的“发送”选项卡可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
 
 此 **推送投放报告** 提供了推送渠道的全面概述，提供了大量见解和特定数据。 它提供了有关每次投放的表现、效果和结果的全面信息。
 
@@ -68,6 +73,11 @@ ht-degree: 6%
   ![](assets/reporting_push_6.png)
 
 ## 投放吞吐量 {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="投放吞吐量报表"
+>abstract="投放吞吐量报表显示有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
 

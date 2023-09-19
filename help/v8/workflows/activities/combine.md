@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 81%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。
 * **差集**&#x200B;可根据特定条件从一个群体中排除某些元素。
 
-## 常规配置 {#general}
+## 配置组合活动 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
+![](../assets/workflow-combine.png)
+
 1. 添加多项活动（例如&#x200B;**生成受众**&#x200B;活动），来构成至少两个不同的执行分支。
 1. 向先前的任何分支添加一个&#x200B;**合并**&#x200B;活动。
 1. 选择分段类型：[并集](#union)、[交集](#intersection)或[差集](#exclusion)。
 1. 单击&#x200B;**继续**。
 1. 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前希望加入的所有活动。
 
-## 并集 {#union}
+## 并集 {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **仅键值**：这是默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。仅当集客群体具有同样的性质时，才能使用此选项。
 * **选择的一组列**：选择此选项可定义要应用数据协调的列的列表。必须先选择主集（包含源数据的集），然后选择用于连接的列。
 
-## 交集 {#intersection}
+## 交集 {#combine-intersection}
 
 在 **合并** 活动，您可以配置 **交叉**. 为此，您需要执行以下额外步骤：
 
 1. 选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。请参阅[并集](#union)部分。
 1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。补集将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
 
-## 差集 {#exclusion}
+## 差集 {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标维度。为此，请单击&#x200B;**差集规则**&#x200B;部分中的&#x200B;**添加规则**，并指定维度更改条件。数据协调是通过属性或联接来执行的。
 1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。请参阅[交集](#intersection)部分。
 
-## 示例
+## 示例{#combine-examples}
 
 在以下示例中，我们使用 **合并** 活动并添加 **合并** 检索这两个查询的所有资料：18至27岁的人和34至40岁的人。
 

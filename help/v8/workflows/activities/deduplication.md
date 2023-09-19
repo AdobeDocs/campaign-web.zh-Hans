@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 5%
 
 此 **删除重复项** 活动是 **定位** 活动。 利用此活动，可删除集客活动结果中的重复项。 此 **删除重复项** 活动通常用在定向活动之后、允许使用定向数据的活动之前。
 
-## 配置
+## 配置重复数据删除活动{#deduplication-configuration}
 
 按照以下步骤配置 **删除重复项** 活动：
 
-1. 添加 **删除重复项** 活动添加到工作流。
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. 添加 **删除重复项** 活动添加到工作流。
 
 1. 在 **用于标识重复项的字段** 部分，单击 **添加属性** 按钮来指定允许识别重复项的相同值的字段：电子邮件地址、名字、姓氏等。 利用字段的顺序，可指定要先处理的字段。
 
@@ -65,5 +65,5 @@ ht-degree: 5%
 
 1. 查看 **生成补码** 选项。 补充包含所有重复项。 然后，将向该活动添加其他过渡。
 
-## 示例
+## 示例{#example}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 营销活动报告
 description: 了解如何访问和使用营销活动报告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="报告跟踪"
->abstract="报表中的“发送”选项卡提供了宝贵的数据，包括每个链接的收件人行为、打开和点击的细分，以及有关投放期间最常点击的URL的详细信息。"
+>abstract="报表中的“跟踪”选项卡提供了宝贵的数据，包括每个链接的收件人行为、打开和点击的细分，以及有关投放期间最常点击的URL的详细信息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"

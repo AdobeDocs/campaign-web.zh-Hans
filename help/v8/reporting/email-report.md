@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 9%
+source-wordcount: '1787'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,27 @@ ht-degree: 9%
 
 ## 投放摘要 {#delivery-summary-email}
 
-* **[!UICONTROL 初始目标受众统计信息]** 表格显示与收件人相关的数据：
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="报告发送"
+>abstract="报表中的“发送”菜单可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="初始目标群体小组件"
+>abstract="初始目标受众群体图显示与您的收件人相关的数据，以及您的交付成功与否。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="投放统计构件"
+>abstract="投放统计图表详细说明了投放的成功以及发生的错误。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="投放统计构件"
+>abstract="排除原因图表和表格显示了准备期间被拒绝的消息按规则细分。"
+
+* **[!UICONTROL 初始目标受众群体]** 图形显示与收件人相关的数据：
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ ht-degree: 9%
    * **[!UICONTROL 排除项]**：从发送的目标中排除的消息总数。
 +++
 
-* **[!UICONTROL 投放统计信息]** 表详细说明了您的交付是否成功。
+* **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ ht-degree: 9%
 
 ## 投放吞吐量 {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="投放吞吐量构件"
+>abstract="投放吞吐量报表显示有关指定时间范围内整个平台的投放吞吐量的详细信息。"
+
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
 
 ## 广播统计数据 {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="广播统计小组件"
+>abstract="广播统计信息表包含每个域可能遇到的错误的可用数据。"
 
 * **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。
 
@@ -95,6 +125,16 @@ ht-degree: 9%
 +++
 
 ## 无法投放项和退回 {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="按类型构件划分的错误"
+>abstract="“每种类型的错误划分”表和图表包含遇到的每种错误类型的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="按域小组件划分错误"
+>abstract="“每种类型的错误划分”表和图表包含根据每个域遇到的每种错误类型的可用数据。"
 
 * **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
 
@@ -122,7 +162,20 @@ ht-degree: 9%
 
 ## 跟踪指标 {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="报告跟踪"
+>abstract="报表中的“跟踪”选项卡提供了宝贵的数据，包括每个链接的收件人行为、打开和点击的细分，以及有关投放期间最常点击的URL的详细信息。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" 投放统计构件"
+>abstract="投放统计小组件提供关键性能指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="打开和点进率构件"
+>abstract="“打开和点进率”表显示与收件人参与投放相关的数据。"
 
 * **[!UICONTROL 投放统计信息]** 提供关键绩效指标(KPI) ，用于提供关于已发送电子邮件可用数据的详细信息。
 
@@ -162,6 +215,11 @@ ht-degree: 9%
 
 ## URL 和点击流 {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URL和点击流小组件"
+>abstract="URL和点击流提供关键绩效指标(KPI)，用于提供关于投放期间点击次数最多的URL的详细信息。"
+
 * **[!UICONTROL URL和点击流]** 提供关键绩效指标(KPI)，以详细了解投放期间点击次数最多的URL。
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ ht-degree: 9%
 
 ## 用户活动 {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="用户活动构件"
+>abstract="用户活动图以图表的形式显示打开数和点击数的划分情况。 您可以选择定向数据的时段：前一天、一小时或30分钟。"
+
 * **[!UICONTROL 用户活动]** 以图表的形式显示打开数和点击数的划分情况。 您可以选择定向数据的时段：前一天、一小时或30分钟。
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ ht-degree: 9%
 
 ## 跟踪统计数据 {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="跟踪统计构件"
+>abstract="跟踪统计信息图提供有关打开数和点击数的统计信息。 您可以选择为定向数据选择特定的时间范围。"
 
 * **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。 您可以选择为定向数据选择特定的时间范围。
 
@@ -225,11 +292,26 @@ ht-degree: 9%
 
 ## 打开的细分 {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="按设备构件细分"
+>abstract="按设备细分"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="按操作系统构件细分"
+>abstract="按操作系统细分"
+
 此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。您可以灵活地从 **[!UICONTROL 修复和移动]** 以专门为目标 **[!UICONTROL 仅限手机]** 以便更精确地定位。
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## 热门点击 {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="热门点击次数报表"
+>abstract="热点击量报表显示消息内容以及每个链接上的点击百分比。"
 
 此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块退订链接、镜像页面链接和优惠链接将计入总累计点击次数，但不会显示在报告中。
 
