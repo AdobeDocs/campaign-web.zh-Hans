@@ -3,9 +3,9 @@ audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 59%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## 设置投放 {#create-a-delivery-in-a-workflow}
+## 配置渠道活动 {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    您可以从渠道活动配置左侧窗格中选择另一个模板。如果之前选择的受众与渠道不兼容，则您无法选择模板。要解决此问题，请更新&#x200B;**生成受众**&#x200B;活动，以选择具有正确目标映射的受众。要了解有关目标映射的更多信息，请参阅 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. 单击&#x200B;**创建投放**。定义消息设置和内容的方式与创建独立投放的方式相同。您还可以安排和模拟内容。[了解详情](../../msg/gs-messages.md)。
@@ -95,6 +94,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 这是一个跨渠道工作流示例，具有一个分段和两次投放。该工作流针对所有居住在巴黎且对咖啡机感兴趣的客户。在这些人群中，会向普通客户发送一封电子邮件，而向 VIP 客户发送一条短信。
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-您还可以创建循环工作流，以根据订阅者的时区，在每月第一天晚上8点向其发送个性化推送通知。
+您还可以创建一个循环工作流，以便在每个月的第一天晚上8点向所有居住在巴黎的客户发送个性化短信。
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

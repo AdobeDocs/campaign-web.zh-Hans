@@ -3,7 +3,7 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 配置构建受众活动
+## 配置构建受众活动{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
+
+![](../assets/workflow-audience.png)
 
 1. 添加一个&#x200B;**生成受众**&#x200B;活动。
 1. 定义一个标签。
@@ -66,7 +68,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >
 >如果您要使用 **[!UICONTROL 构建受众]** 针对Experience Platform受众的活动，您需要添加 **[!UICONTROL 更改维度]** 活动之后，用于确保受众的定向维度设置为“收件人”。 此页面底部提供了工作流示例。
 
-## 示例
+## 示例{#build-audience-examples}
 
 此工作流程示例包含两个&#x200B;**生成受众**&#x200B;活动。第一个示例针对扑克玩家受众，然后是电子邮件投放。第二个示例针对 VIP 客户受众，然后是短信投放。
 
