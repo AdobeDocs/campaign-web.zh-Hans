@@ -2,10 +2,10 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 18%
+source-wordcount: '919'
+ht-degree: 17%
 
 ---
 
@@ -71,11 +71,11 @@ ht-degree: 18%
 
 工作流的定向维度由第一个维度定义 **[!UICONTROL 构建受众]** 并用于所有后续活动，直到工作流结束。 例如，如果对数据库中的收件人执行查询，则叫客过渡将包含“收件人”类型的数据，并且将传输给下一个活动。
 
-请注意，您可以使用在工作流中切换定向维度 **[!UICONTROL 更改维度]** 活动。 [了解详情](../workflows/activities/change-dimension.md)
+请注意，您可以使用在工作流中切换定向维度 **[!UICONTROL 更改维度]** 活动。 [了解详情](../workflows/activities/change-dimension.md)。例如，这可让您查询特定表（如购买或订阅）上的数据库，然后将定向维度更改为收件人，以将投放发送到相应的收件人。
 
 默认情况下，电子邮件和短信投放模板将定位到 **[!UICONTROL 收件人]**. 因此，其目标维度使用 **nms：recipient** 表格。 对于推送通知，默认目标维度为 **订阅者应用程序nms：appSubscriptionRcp**，链接到收件人表。
 
-您还可以为下面列出的投放使用其他内置目标映射：
+您还可以在下面列出的工作流和投放中使用其他内置目标映射：
 
 | 名称 | 使用至 | 架构 |
 |---|---|---|
