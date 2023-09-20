@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 81%
+source-wordcount: '886'
+ht-degree: 78%
 
 ---
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在 **合并** 活动，您可以配置 **并集**. 为此，您需要选择 **对帐类型** 要定义如何处理重复项，请执行以下操作：
 
 * **仅键值**：这是默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。仅当集客群体具有同样的性质时，才能使用此选项。
-* **选择的一组列**：选择此选项可定义要应用数据协调的列的列表。必须先选择主集（包含源数据的集），然后选择用于连接的列。
+* **列选择**：选择此选项可定义要应用数据协调之列的列表。 必须先选择主集（包含源数据的集），然后选择用于连接的列。
 
 ## 交集 {#combine-intersection}
 

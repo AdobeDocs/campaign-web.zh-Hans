@@ -3,10 +3,10 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '585'
+ht-degree: 18%
 
 ---
 
@@ -48,14 +48,11 @@ ht-degree: 5%
 
 1. 选择唯一数量 **要保留的重复项**. 此字段的默认值为 1。使用 0 值，可保留所有重复项。
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   例如，如果记录 A 和 B 被视为记录 Y 的重复项，而记录 C 被视为记录 Z 的重复项：
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * 如果字段的值为 1：只保留 Y 和 Z 记录。
+   * 如果字段的值为 0：保留所有记录。
+   * 如果字段的值为 2：保留 C 和 Z 记录，并保留 A、B 和 Y 中的两个记录，具体情况取决于此后选择的重复数据删除方法。
 
 1. 选择 **去重方法** 要使用：
 
