@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: 发送优惠
-description: 发送优惠
+title: 在消息中添加优惠
+description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 34%
+source-wordcount: '782'
+ht-degree: 33%
 
 ---
 
 
-# 发送优惠 {#offers-content}
+# 在消息中添加优惠 {#offers-content}
 
 Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

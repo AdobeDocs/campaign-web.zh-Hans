@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 现在，您可以在以下情况下选择这些消息 [创建订阅服务](#create-service). 订阅或取消订阅该服务的用户将收到所选的确认消息。
 
-## 订阅服务日志和报告 {#logs-and-reports}
+## 监控您的订阅服务 {#logs-and-reports}
 
 要衡量订阅服务对短信和电子邮件渠道的有效性，您可以访问给定服务的日志和报告。
 

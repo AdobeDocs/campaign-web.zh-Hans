@@ -3,9 +3,9 @@ audience: end-user
 title: 管理服务的订阅者
 description: 了解如何在Adobe Campaign Web中管理服务并将其交付给订阅者
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # 管理服务的订阅者 {#manage-subscribers}
 
-一旦您 [已创建服务](manage-services.md#create-service)，即可添加订阅者、取消订阅收件人并投放该服务的订阅者。
+一旦您 [已创建服务](manage-services.md#create-service)，您可以添加订阅者、取消订阅收件人，并向该服务的订阅者发送消息。
+
+此页面中详细介绍了订阅者管理。 要了解如何向订阅者发送消息，请参阅 [本节](../content/send-to-subscribers.md).
 
 ## 将订阅者添加到您的服务 {#add-subscribers}
 
@@ -62,25 +64,3 @@ ht-degree: 0%
 ![](assets/service-create-validity-period.png)
 
 指定的持续时间过期后，所有订阅者将自动取消订阅该服务。
-
-## 交付给服务的订阅者
-
-一旦您 [已创建订阅服务](manage-services.md#create-service)，您可以在投放中定位其订阅者。 请按照以下步骤操作。
-
-1. [创建受众](../audience/create-audience.md) 包括您创建的服务的订阅者：
-
-   * 在 **[!UICONTROL 构建受众]** 活动，显示高级属性，然后选择 **[!UICONTROL 收件人]** > **[!UICONTROL 订阅]** > **[!UICONTROL 服务]**.
-
-   * 在此示例中，选择订阅了服务的用户，该服务具有 **Luma新闻稿** 标签。
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [创建投放](../msg/gs-messages.md#create-delivery) 并选择您在上面创建的受众。
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. 根据需要编辑消息内容并发送投放。
-
-   ![](assets/service-delivery-ready.png)
-
-您的投放仅发送给该服务的订阅者。
