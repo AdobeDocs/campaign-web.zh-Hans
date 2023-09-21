@@ -2,15 +2,17 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 17%
+source-wordcount: '1022'
+ht-degree: 16%
 
 ---
 
 
 # 与收件人和受众合作 {#about-recipients}
+
+在Adobe Campaign中，投放的目标群体是受众。 一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 也可以通过更改维度来使用其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
 
 ## 什么是收件人？ {#recipients}
 
