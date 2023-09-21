@@ -2,7 +2,7 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 * 使用适当的用语和措辞，语调中立。
 * 请对答案进行评级并提供反馈，以便我们的工程师能够从您的经验中学习并改进结果。
 
+<img src="assets/AI_CH.gif"/>
