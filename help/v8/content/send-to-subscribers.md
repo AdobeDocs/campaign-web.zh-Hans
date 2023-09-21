@@ -3,10 +3,10 @@ audience: end-user
 title: 向服务的订阅者发送消息
 description: 了解如何向服务的订阅者发送消息
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 您可以在Adobe Campaign中创建订阅服务，并向订阅者发送消息。 了解如何在中创建订阅服务 [此页面](../audience//manage-services.md#create-service).
 
-要向订阅者发送消息，请创建特定受众以识别订阅者，然后创建投放，如下所述。 要执行此操作，请执行以下步骤：
+要向订阅者发送消息，请创建特定受众以识别订阅者，然后创建投放，如下所述。
 
 1. 创建受众. 要了解有关受众的更多信息，请参阅 [此页面](../audience/create-audience.md).
 
@@ -27,7 +27,11 @@ ht-degree: 4%
 
 1. 保存受众。
 1. 创建投放. 有关创建投放的详细步骤，请参见 [此页面](../msg/gs-messages.md#create-delivery).
-1. 选择您在上面创建的受众。
+1. 浏览到您的投放设置，将默认目标映射更改为 **订阅(nms：subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. 在投放的主目标部分中，选择您在上面创建的受众。
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
