@@ -2,9 +2,9 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 17%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 17%
 
 ## 定位维度 {#targeting-dimensions}
 
-定向维度是操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
+目标维度，也就是。 目标映射，是操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
 
 工作流的定向维度由第一个维度定义 **[!UICONTROL 构建受众]** 并用于所有后续活动，直到工作流结束。 例如，如果对数据库中的收件人执行查询，则叫客过渡将包含“收件人”类型的数据，并且将传输给下一个活动。
 
