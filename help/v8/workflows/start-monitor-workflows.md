@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 6%
 您可以使用可视流量实时跟踪目标用户档案的进度。 这允许您快速识别每个活动的状态以及它们之间转换的用户档案数。
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->您可以通过以下方式禁用可视流 **[!UICONTROL 隐藏进度]** 按钮来显示画布的顶部操作栏。
 
 ## 工作流过渡 {#transitions}
 

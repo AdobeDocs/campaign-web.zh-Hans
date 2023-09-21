@@ -3,9 +3,9 @@ audience: end-user
 title: 创建和管理受众
 description: 了解如何在Adobe Campaign Web中创建和管理受众
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="在此屏幕中，您可以创建受众并将受众组合到可视画布中。 添加各种工作流活动，例如 **Split** 或 **排除** 以生成新的和优化的受众。"
+>abstract="在此屏幕中，您可以访问投放中可定位的所有受众的列表。 单击 **创建** 使用各种工作流活动(如 **Split** 或 **排除**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

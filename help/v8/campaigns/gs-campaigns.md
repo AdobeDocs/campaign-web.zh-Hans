@@ -4,10 +4,10 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="营销活动"
->abstract="这是您的营销活动列表。其中可显示有用的信息，例如它们的开始/结束/最后修改日期，以及它们的状态。您可以按状态或开始/结束日期筛选列表。单击“创建营销活动”按钮以添加新的营销活动。选择营销活动以查看其内容、投放情况和详细信息。浏览到“模板”选项卡以查看和创建模板。"
+>abstract="浏览营销活动列表。 选择营销活动以查看其内容、投放情况和详细信息。您可以按状态、开始/结束日期或使用自定义规则进行过滤。 您还可以查看已完成的活动的报表。 单击 **创建营销活动** 按钮以添加新营销活动。 浏览至 **模板** 选项卡以查看和创建模板。"
 
 
 Adobe Campaign 可让您使用内置的营销活动管理功能轻松编排定向营销方案。利用定义计划的功能，您可以规划营销活动的持续时间和时间，与战略目标保持一致并最大限度地提高受众参与度。

@@ -4,10 +4,10 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 40%
+source-wordcount: '580'
+ht-degree: 39%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 40%
 >title="格式化参数"
 >abstract="检查文件的格式化参数。"
 
-您可以从外部文件上传联系人。用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。
+您无法从界面将用户档案直接上传到Campaign，但可以定位存储在外部文件中的用户档案。 用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。
 
 >[!CAUTION]
 >
 >* 此功能仅适用于 **独立电子邮件投放**. 它不能用在工作流中，也不能用于短信或推送投放。
 >
 >* 从外部文件加载目标人群时无法使用[对照组](control-group.md)。
+>
+>* 用户档案不会添加到数据库中，只会加载并可用于此特定的独立电子邮件投放。
 
-## 上传文件 {#upload}
+## 选择并配置您的文件 {#upload}
 
 要直接从电子邮件界面定位本地文件中的用户档案，请执行以下步骤：
 
@@ -45,7 +47,7 @@ ht-degree: 40%
 
    ![](assets/select-from-file.png)
 
-1. 选择要上传的本地文件。格式必须与 [示例文件](#sample-file).
+1. 选择要使用的本地文件。 格式必须与 [示例文件](#sample-file).
 1. 在屏幕的中央部分预览和检查如何映射数据。
 1. 从&#x200B;**地址字段**&#x200B;下拉列表中选择包含电子邮件地址的列。如果在输入的文件中有阻止列表列，则还可选择此类信息。
 1. 从可用的选项调整列设置和如何格式化数据。
@@ -60,7 +62,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="从文件加载受众"
->abstract="支持的文件格式为TXT和CSV。 使用第一行作为列标题。将文件格式与以下链接中提供的示例文件对齐。"
+>abstract="支持的文件格式为 TXT 和 CSV。使用第一行作为列标题。使您的文件格式与在下方链接中提供的示例文件一致。"
 
 支持的格式为 TXT 和 CSV。第一行是列标题。
 
