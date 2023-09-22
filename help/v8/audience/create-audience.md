@@ -3,9 +3,9 @@ audience: end-user
 title: 创建和管理受众
 description: 了解如何在Adobe Campaign Web中创建和管理受众
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,11 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 1. 此 **[!UICONTROL 保存受众]** 每个路径末尾的活动会在数据库中创建两个新受众，其中包括每个路径中计算的群体。
 
 ## 监控和管理受众 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="受众错误"
+>abstract="受众数据不可用。 请等待工作流执行结束。"
 
 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
 
