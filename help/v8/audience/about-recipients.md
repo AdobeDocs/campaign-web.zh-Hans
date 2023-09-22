@@ -2,7 +2,7 @@
 title: 与收件人和受众合作
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 16%
@@ -12,14 +12,14 @@ ht-degree: 16%
 
 # 与收件人和受众合作 {#about-recipients}
 
-在Adobe Campaign中，投放的目标群体是受众。 一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 也可以通过更改维度来使用其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
+在Adobe Campaign中，投放的目标群体是受众。 受众是指一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 您也可以通过更改维度来处理其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
 
 ## 什么是收件人？ {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件人"
->abstract="收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe Campaign 中，收件人是发送投放（电子邮件、手机短信）所针对的默认配置文件。从此列表中可根据您的权限查看收件人的配置文件。使用过滤选项浏览此列表。可编辑和更新收件人的一小部分属性。"
+>abstract="收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe Campaign 中，收件人是发送投放（电子邮件、短信）所针对的默认配置文件。从此列表中可根据您的权限查看收件人的配置文件。使用过滤选项浏览此列表。可编辑和更新收件人的一小部分属性。"
 
 收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe　Campaign 中，收件人是发送投放内容（电子邮件、SMS 等）所定位的默认用户档案。通过数据库中存储的收件人数据，您可以创建将接收任何给定投放的受众，并在投放内容中添加个性化数据。 其他类型的用户档案存储在数据库中。 它们专为不同的用途而设计：例如，种子用户档案用于在将投放内容发送给最终受众之前对其进行测试。
 
@@ -58,8 +58,7 @@ ht-degree: 16%
 要定义受众群体，您可以：
 
 * [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
-* [选择现有受众](add-audience.md) 在客户端控制台中作为列表创建，
-* [选择Adobe Experience Platform受众](aep-audience.md)，
+* [选择现有受众](add-audience.md) 在客户端控制台中创建为列表或来自Adobe Experience Platform，
 * [构建新受众](segment-builder.md) 通过定义和组合筛选条件来使用规则生成器，
 * [使用外部文件中的受众](file-audience.md).此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
 
@@ -75,7 +74,7 @@ ht-degree: 16%
 
 工作流的定向维度由第一个维度定义 **[!UICONTROL 构建受众]** 并用于所有后续活动，直到工作流结束。 例如，如果对数据库中的收件人执行查询，则叫客过渡将包含“收件人”类型的数据，并且将传输给下一个活动。
 
-请注意，您可以使用在工作流中切换定向维度 **[!UICONTROL 更改维度]** 活动。 [了解详情](../workflows/activities/change-dimension.md)。例如，这可让您查询特定表（如购买或订阅）上的数据库，然后将定向维度更改为收件人，以将投放发送到相应的收件人。
+请注意，您可以使用在工作流中切换定向维度 [更改维度活动](../workflows/activities/change-dimension.md). 例如，这可让您查询特定表（如购买或订阅）上的数据库，然后将定向维度更改为收件人，以将投放发送到相应的收件人。
 
 默认情况下，电子邮件和短信投放模板将定位到 **[!UICONTROL 收件人]**. 因此，其目标维度使用 **nms：recipient** 表格。 对于推送通知，默认目标维度为 **订阅者应用程序nms：appSubscriptionRcp**，链接到收件人表。
 

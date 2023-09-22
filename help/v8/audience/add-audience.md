@@ -4,10 +4,10 @@ title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 57%
+source-wordcount: '308'
+ht-degree: 34%
 
 ---
 
@@ -19,40 +19,33 @@ ht-degree: 57%
 >title="选择现有受众"
 >abstract="浏览列表以选择现有受众。使用“显示过滤器”图标筛选列表，或选择特定文件夹。"
 
-此章节说明如何在定义电子邮件投放的目标人群时选择现有受众。
+本节介绍在定义投放的目标群体时，如何选择现有受众。 定义投放的主要目标时，您还可以：
 
-您还可以：
+* [构建一次性受众](one-time-audience.md) 使用规则生成器。
+* [从外部文件加载受众](file-audience.md) （仅适用于电子邮件）。
 
-* 构建新受众。 [了解详情](segment-builder.md)
-* 从外部文件加载受众（仅适用于电子邮件）。 [了解详情](file-audience.md)
-* 使用 Adobe Experience Platform 受众。[了解详情](aep-audience.md)。
-
+可在投放中定位的受众可从 **受众** 左侧菜单。 它们源自多个源，例如客户端控制台、Campaign Web受众工作流或Adobe Experience Platform。 [了解如何监测和管理受众](manage-audience.md)
 
 要为邮件选择现有受众，请执行以下步骤：
 
-1. 从投放创建助手的&#x200B;**受众**&#x200B;部分，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
+1. 从 **受众** 投放创建助理的部分，单击 **[!UICONTROL 选择受众]** 按钮，然后选择
 
    ![](assets/create-audience.png)
 
-1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](segment-builder.md)。
-
-   此屏幕显示当前文件夹的所有现有受众。
+1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。此屏幕显示当前文件夹的所有现有受众。
 
    ![](assets/create-audience2.png)
 
-   受众创建自 **受众** 左侧菜单。 还可以在客户端控制台中创建它们。
+   要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分删除。
 
-   要使用Adobe Experience Platform受众，您需要配置与目标集成。 请参阅 [Adobe Experience Platform目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
+   ![](assets/select-audience-folder.png)
 
-   >[!IMPORTANT]
-   >
-   >在该版本的产品中，当构建规则、选择投放受众或在工作流中构建受众时，用户界面中无法使用某些预定义过滤器。 你仍然可以使用它们。 [了解详情](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-1. 选择一个受众，然后单击&#x200B;**选择**。
-1. 使用 **显示筛选器** 图标以显示筛选选项。 单击 **添加规则** 要访问规则生成器：使用规则生成器，您可以为受众列表创建高级过滤器。 请参阅以了解如何使用规则生成器 [部分](segment-builder.md).
+1. 利用过滤器部分，可访问过滤选项以优化受众列表。 为此，请单击 **添加规则** 以访问规则生成器，从中可为受众列表创建高级过滤器。 [了解如何使用规则生成器](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. 单击&#x200B;**保存**。
+1. 单击 **确认** 以将受众添加为投放主要目标。 完成后，您仍然可以使用规则生成器来优化受众，方法是单击 **编辑规则** 按钮。
 
-您还可以设置对照组来衡量营销活动的影响。对照组不会接收邮件。这使您能够将收到邮件的群体的行为与未收到邮件的联系人的行为进行比较。在[此章节](control-group.md)中了解更多信息。
+   ![](assets/refine-audience.png)
+
+   您还可以设置对照组来衡量营销活动的影响。对照组不会接收邮件。这使您能够将收到邮件的群体的行为与未收到邮件的联系人的行为进行比较。[了解详情](control-group.md)
