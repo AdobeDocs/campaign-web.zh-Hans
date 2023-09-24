@@ -2,10 +2,10 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 此 **具有Gen AI的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
 
-借助Campaign Gen AI的功能，此助手可改变您的体验，使信息检索和问题解决变得轻而易举。 无论您是在复杂任务中寻求指导，还是浏览大量文档，我们配备了Gen AI的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
+可以利用 Campaign 生成式 AI 的功能，该助手将改变您的体验，让您轻松检索信息和解决问题。无论您是在复杂任务中寻求指导，还是浏览大量文档，AI支持的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 答案 {#answers-ai}
 
-答案可能不准确或具有误导性。 因此，Adobe知识助理可能会输出不正确的信息。 确保查看每个帮助框中链接的产品文档。
+答案可能不准确或具有误导性。 因此，Adobe Campaign AI支持的知识助手可能会输出不正确的信息。 确保查看每个帮助框中链接的产品文档。
 
 人工智能和机器学习模型会随着时间的推移而改进，以更好地处理特定用例。 Campaign AI支持的知识助理将在未来几个月继续得到改善。 我们强烈建议您使用??无论您何时阅读答案，都可??用按钮，以标记对我们的工程师的任何不当回应。
 
