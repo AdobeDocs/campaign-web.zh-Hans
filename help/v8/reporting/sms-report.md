@@ -3,9 +3,9 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 2%
 >abstract="此 **排除项** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。"
 
 
-* **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。
+此 **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 

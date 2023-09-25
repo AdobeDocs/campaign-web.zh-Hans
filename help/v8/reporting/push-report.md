@@ -3,9 +3,9 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,8 @@ ht-degree: 2%
 >title="推送整体统计信息"
 >abstract="此 **排除项** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。"
 
-此 **[!UICONTROL 排除项]** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。
+此 **[!UICONTROL 排除项]** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+
 
 ![](assets/reporting_push_6.png)
 
