@@ -2,14 +2,20 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 5%
 
 ---
 
 # 使用AI支持的知识助手 {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="AI支持的知识助手"
+>abstract="借助AI支持的知识助手，根据产品文档和当前产品上下文获得AI生成的快速答案。 它位于产品上下文帮助框中，彻底改变了文档搜索和操作方法问题，它可以在大量文档存储库中轻松筛选，即时查明您需要的精确信息。"
+
 
 通过产品上下文帮助框中提供的AI支持的知识助手，根据产品文档和当前产品上下文快速获取AI生成的答案。
 
