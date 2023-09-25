@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 75%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="构建受众活动"
->abstract="此 **构建受众** 利用活动，可定义将进入工作流的受众。 在工作流上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中定义 **构建受众** 活动。"
+>abstract="**构建受众**&#x200B;活动允许您定义将会进入工作流的受众。在工作流的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**构建受众**&#x200B;活动中定义的。"
 
 
-**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流上下文中发送消息时，未在渠道活动中定义消息受众，但在渠道活动中定义 **构建受众** 活动。
+**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**构建受众**&#x200B;活动中定义的。
 
 要定义受众群体，您可以：
 
@@ -39,7 +39,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="选择定向维度"
+>title="选择定位维度"
 >abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。"
 
 
@@ -54,7 +54,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 要创建您自己的查询，请额外执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。请参阅 [v8 文档](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}。
+1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。在中了解有关定位维度的更多信息 [本节](../../audience/about-recipients.md#targeting-dimensions).
 1. 单击&#x200B;**继续**。
 1. 使用规则生成器定义您的查询，就像设计新电子邮件时创建受众的方式一样。请参阅此[章节](../../audience/segment-builder.md)。
 
