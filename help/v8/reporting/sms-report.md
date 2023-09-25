@@ -3,14 +3,14 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: e88fd3a2b2139b26adc8811258a3230d79693be6
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
 
-# 短信投放报告 {#report}
+# 短信投放报告 {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ ht-degree: 2%
 
 ## 投放摘要 {#delivery-summary}
 
-* **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，以详细了解成功率和错误率以及访客如何参与短信消息。
+### 投放概述 {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供有关成功率和错误率以及访客如何参与短信消息的详细信息。
 
-  +++了解有关短信投放报告量度的更多信息。
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL 发送总数]**：投放准备期间处理的消息百分比和总数。
++++了解有关短信投放报告量度的更多信息。
 
-   * **[!UICONTROL 成功]**：相对于已发送消息总数的成功发送的消息百分比和数量。
+* **[!UICONTROL 发送总数]**：投放准备期间处理的消息百分比和总数。
 
-   * **[!UICONTROL 点进率]**：与短信投放中包含的链接进行交互的用户百分比和数量。
+* **[!UICONTROL 成功]**：相对于已发送消息总数的成功发送的消息百分比和数量。
 
-   * **[!UICONTROL 错误]**：投放期间发生并阻止将投放发送到用户档案的错误百分比和总数。
-+++
+* **[!UICONTROL 点进率]**：与短信投放中包含的链接进行交互的用户百分比和数量。
 
-* **目标人群** 图形和表格可显示与受众相关的数据。
+* **[!UICONTROL 错误]**：投放期间发生并阻止将投放发送到用户档案的错误百分比和总数。
 
-  ![](assets/reporting_sms_4.png)
-
-  +++了解有关短信投放报告量度的更多信息。
-
-   * **[!UICONTROL 投放]**：投放准备期间处理的消息总数和百分比。
-
-   * **[!UICONTROL 排除项]**：已从分析中排除的用户档案的数量和百分比。
 +++
 
 
-* **总体统计信息** 呈现已发送短信消息的数据，包括：
+### 目标群体 {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++了解有关短信投放报告量度的更多信息。
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="SMS目标群体"
+>abstract="此 **目标人群** 图形和表格会显示与短信受众相关的数据：要投放的消息和排除项。"
 
-   * **[!UICONTROL 成功]**：成功处理的消息数量和百分比率。
+此 **目标人群** 图形和表格可显示与受众相关的数据。 指标详见下文。
 
-   * **[!UICONTROL 错误]**：投放期间发生的总错误数和百分比，阻止将消息发送到某些用户档案。
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL 新隔离]**：已排除并添加到隔离的用户档案的数量和百分比。
++++了解有关短信投放报告量度的更多信息。
+
+* **[!UICONTROL 投放]**：投放准备期间处理的消息总数和百分比。
+
+* **[!UICONTROL 排除项]**：已从分析中排除的用户档案的数量和百分比。
 +++
+
+
+### 总体统计信息 {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="推送整体统计信息"
+>abstract="此 **总体统计信息** 报告显示已发送短信的数据：成功、错误和隔离。"
+
+此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
+
+![](assets/reporting_sms_5.png)
+
++++了解有关短信投放报告量度的更多信息。
+
+* **[!UICONTROL 成功]**：成功处理的消息数量和百分比率。
+
+* **[!UICONTROL 错误]**：投放期间发生的总错误数和百分比，阻止将消息发送到某些用户档案。
+
+* **[!UICONTROL 新隔离]**：已排除并添加到隔离的用户档案的数量和百分比。
++++
+
+### 排除项 {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="SMS总体统计数据"
+>abstract="此 **排除项** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。"
+
 
 * **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## 投放吞吐量 {#delivery-throughput}
 
