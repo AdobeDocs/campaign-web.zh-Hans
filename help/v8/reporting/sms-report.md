@@ -3,7 +3,7 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Beta"
-source-git-commit: e88fd3a2b2139b26adc8811258a3230d79693be6
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_sms_overall_stats"
+>id="acw_delivery_reporting_sms_exclusions"
 >title="SMS总体统计数据"
 >abstract="此 **排除项** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。"
 
