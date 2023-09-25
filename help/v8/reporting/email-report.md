@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
+source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 7%
+source-wordcount: '2205'
+ht-degree: 8%
 
 ---
 
@@ -21,69 +21,84 @@ ht-degree: 7%
 >title="报告发送"
 >abstract="他 **正在发送** 使用报表中的制表符，可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
 
+### 初始目标群体 {#email-delivery-targeted-population}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="初始目标群体小组件"
->abstract="此 **初始目标受众群体** 图形可显示与收件人相关的数据以及投放的成功情况。"
+>title="初始目标群体"
+>abstract="此 **初始目标人群** 图形根据投放准备的结果显示与收件人和消息相关的数据。"
+
+此 **[!UICONTROL 初始目标人群]** 图形显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
+
+![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+
+将鼠标悬停在图形的一部分上以显示确切数字。
+
+![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+
+
++++了解有关电子邮件投放报告指标的更多信息。
+
+* **[!UICONTROL 初始受众]**：定向收件人总数。
+
+* **[!UICONTROL 投放]**：投放准备后要投放的消息总数。
+
+* **[!UICONTROL 排除项]**：从目标群体中排除的收件人总数。
++++
+
+### 投放统计信息 {#email-delivery-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
->title="投放统计构件"
->abstract="此 **投放统计信息** 图表会详细描述投放的成功和发生的错误。"
+>title="投放统计信息"
+>abstract="此 **投放统计信息** 图表详细说明了交付的成功以及发生的错误。"
+
+
+此 **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。 指标详见下文。
+
+![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+
++++了解有关电子邮件促销活动报告指标的更多信息。
+
+* **[!UICONTROL 消息已发送]**：投放准备后要投放的消息总数。
+
+* **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
+
+* **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
+
+* **[!UICONTROL 新隔离]**：在失败的投放（用户未知、域无效）后隔离的地址总数，与要投放的消息数相关。
+
++++
+
+### 排除的原因  {#email-delivery-exclusions}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="投放统计构件"
->abstract="排除原因图表和表格显示了准备期间被拒绝的消息按规则细分。"
+>title="投放统计信息"
+>abstract="此 **排除的原因** 图形和表格显示了投放准备期间拒绝的消息按规则细分。"
 
-* **[!UICONTROL 初始目标受众群体]** 图形显示与收件人相关的数据：
 
-  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
+此 **[!UICONTROL 排除的原因]** 图形和表格显示了投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-  +++了解有关电子邮件投放报告指标的更多信息。
+![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
-   * **[!UICONTROL 初始受众]**：定向收件人总数。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 投放]**：投放准备后要投放的消息总数。
+* **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
 
-   * **[!UICONTROL 排除项]**：从发送的目标中排除的消息总数。
-+++
+* **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
 
-* **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。
+* **[!UICONTROL 邮箱已满]**：在尝试投放五次后生成的错误类型，旨在指示收件人的收件箱中包含的消息过多。
 
-  ![](assets/reporting_email_2.png){align="left"}
+* **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
 
-  +++了解有关电子邮件促销活动报告指标的更多信息。
+* **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
 
-   * **[!UICONTROL 消息已发送]**：投放准备后要投放的消息总数。
+* **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上的事件、域名暂时不可访问等
 
-   * **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
-
-   * **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
-
-   * **[!UICONTROL 新隔离]**：在失败的投放（用户未知、域无效）后隔离的地址总数，与要投放的消息数相关。
-
-+++
-
-* **[!UICONTROL 排除的原因]** 图形和表格显示分析期间拒绝的消息按规则细分。
-
-  ![](assets/reporting_email_3.png){align="center"}
-
-  +++了解有关电子邮件投放报告指标的更多信息。
-
-   * **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
-
-   * **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
-
-   * **[!UICONTROL 邮箱已满]**：在尝试投放五次后生成的错误类型，旨在指示收件人的收件箱中包含的消息过多。
-
-   * **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
-
-   * **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
-
-   * **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上的事件、域名暂时不可访问等
-
-   * **[!UICONTROL 未连接]**：错误类型，指示收件人的手机在发送时关闭或与网络断开连接。
+* **[!UICONTROL 未连接]**：错误类型，指示收件人的手机在发送时关闭或与网络断开连接。
 
 +++
 
@@ -96,69 +111,89 @@ ht-degree: 7%
 
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
 
+![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+
+
 ## 广播统计数据 {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="广播统计小组件"
->abstract="此 **广播统计信息** 该表包含每个域可能遇到的错误的可用数据。"
+>abstract="此 **广播统计信息** 报告包含每个域可能遇到的错误的可用数据。"
 
-* **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。
+此 **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。 指标详见下文。
 
-  ![](assets/reporting_email_4.png){align="center"}
+![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
-  +++了解有关电子邮件投放报告指标的更多信息。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 已处理的电子邮件]**：投放服务器处理的消息总数。
+* **[!UICONTROL 已处理的电子邮件]**：投放服务器处理的消息总数。
 
-   * **[!UICONTROL 已投放]**：成功处理的消息数与已处理的消息总数相比的百分比。
+* **[!UICONTROL 已投放]**：成功处理的消息数与已处理的消息总数相比的百分比。
 
-   * **[!UICONTROL 硬退回]**：与处理的邮件总数相比的“硬”退回、永久错误（例如电子邮件地址错误）数量的百分比。
+* **[!UICONTROL 硬退回]**：与处理的邮件总数相比的“硬”退回、永久错误（例如电子邮件地址错误）数量的百分比。
 
-   * **[!UICONTROL 软退回]**：与处理的邮件总数相比的“软”退回、临时错误（如收件箱已满）数量的百分比
+* **[!UICONTROL 软退回]**：与处理的邮件总数相比的“软”退回、临时错误（如收件箱已满）数量的百分比
 
-   * **[!UICONTROL 打开次数]**：与成功处理的邮件数相比，至少打开过一次邮件的目标收件人人数的百分比。
+* **[!UICONTROL 打开次数]**：与成功处理的邮件数相比，至少打开过一次邮件的目标收件人人数的百分比。
 
-   * **[!UICONTROL 点击次数]**：与成功处理的消息数相比至少单击过一次投放的人员数的百分比。
+* **[!UICONTROL 点击次数]**：与成功处理的消息数相比至少单击过一次投放的人员数的百分比。
 
-   * **[!UICONTROL 取消订阅]**：与成功处理的消息数相比，取消订阅链接的点击数百分比。
+* **[!UICONTROL 取消订阅]**：与成功处理的消息数相比，取消订阅链接的点击数百分比。
 +++
 
-## 无法投放项和退回 {#non-deliverables-email}
+## 投放失败 {#non-deliverables-email}
+
+### 按类型细分错误 {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title="按类型构件划分的错误"
->abstract="此 **每种类型的错误细分** 表和图形包含遇到的每种错误类型的可用数据。"
+>title="按类型细分错误"
+>abstract="此 **每种类型的错误细分** 表和图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等等。"
+
+此 **[!UICONTROL 每种类型的错误细分]** 表和图形包含用于错误类型的可用数据。 指标详见下文。
+
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+
+![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+
++++了解有关电子邮件投放报告指标的更多信息。
+
+* **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
+
+* **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
+
+* **[!UICONTROL 邮箱已满]**：在尝试投放五次后生成的错误类型，旨在指示收件人的收件箱中包含的消息过多。
+
+* **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
+
+* **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
+
+* **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上的事件、域名暂时不可访问等
+
+* **[!UICONTROL 未连接]**：错误类型，指示收件人的手机在发送时关闭或与网络断开连接。
+
++++
+
+
+### 按域细分错误 {#email-delivery-breakdown-domain}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="按域小组件划分错误"
->abstract="此 **每个域的错误细分** 表和图形包含根据每个域遇到的每种错误类型的可用数据。"
+>title="按域细分错误"
+>abstract="此 **每个域的错误细分** 表格和图形会根据每个域显示遇到的每种错误类型的可用数据。"
 
-* **[!UICONTROL 每种类型的错误细分]** 和 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。
 
-  此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+此 **[!UICONTROL 每个域的错误细分]** 表格和图形可显示每个域可能遇到的错误的可用数据。
 
-  ![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-  +++了解有关电子邮件投放报告指标的更多信息。
+单击每个域名称旁边的图标以查看详细信息。
 
-   * **[!UICONTROL 用户未知]**：投放期间生成的错误类型，指示电子邮件地址无效。
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-   * **[!UICONTROL 无效域]**：发送投放时生成的错误类型，指示电子邮件地址的域错误或不存在。
-
-   * **[!UICONTROL 邮箱已满]**：在尝试投放五次后生成的错误类型，旨在指示收件人的收件箱中包含的消息过多。
-
-   * **[!UICONTROL 帐户已禁用]**：发送投放时生成的错误类型，指示地址不再存在。
-
-   * **[!UICONTROL 已拒绝]**：当IAP（互联网访问提供商）拒绝地址时生成的错误类型，例如，应用安全规则（反垃圾邮件软件）之后。
-
-   * **[!UICONTROL 不可到达]**：消息分发字符串中发生的错误类型：SMTP中继上的事件、域名暂时不可访问等
-
-   * **[!UICONTROL 未连接]**：错误类型，指示收件人的手机在发送时关闭或与网络断开连接。
-
-+++
+可用的量度与相同 [按类型划分错误](#email-delivery-breakdown-type) 如上所述。
 
 ## 跟踪指标 {#tracking-indicators-email}
 
@@ -168,49 +203,55 @@ ht-degree: 7%
 >abstract="此 **跟踪** 报表中的选项卡提供了宝贵的数据，包括每个链接的收件人行为、打开和点击的细分，以及有关投放期间最常点击的URL的详细信息。"
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_delivery_statistics_indicators"
->title=" 投放统计构件"
->abstract="此 **投放统计信息** 构件提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。"
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="打开和点进率构件"
 >abstract="此 **打开和点进率** 表格显示与收件人参与投放相关的数据。"
 
-* **[!UICONTROL 投放统计信息]** 提供关键绩效指标(KPI) ，用于提供关于已发送电子邮件可用数据的详细信息。
+### 投放统计信息  {#email-tracking-delivery-stats}
 
-  ![](assets/reporting_email_5.png){align="center"}
 
-  +++了解有关电子邮件投放报告指标的更多信息。
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" 投放统计信息"
+>abstract="此 **投放统计信息** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息：成功、打开、点击等。"
 
-   * **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
 
-   * **[!UICONTROL 不同打开]**：至少打开过一次消息的目标收件人总数。
+此 **[!UICONTROL 投放统计信息]** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
 
-   * **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+![](assets/reporting_email_5.png){align="center"}
 
-   * **[!UICONTROL 选择退出链接的点击量]**：取消订阅链接的点击次数。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 单击镜像链接]**：单击指向镜像页面的链接的次数。
+* **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
 
-   * **[!UICONTROL 转发数量估计]**：估计目标收件人转发的电子邮件数量。
+* **[!UICONTROL 不同打开]**：至少打开过一次消息的目标收件人总数。
+
+* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+
+* **[!UICONTROL 选择退出链接的点击量]**：取消订阅链接的点击次数。
+
+* **[!UICONTROL 单击镜像链接]**：单击指向镜像页面的链接的次数。
+
+* **[!UICONTROL 转发数量估计]**：估计目标收件人转发的电子邮件数量。
 +++
 
-* **[!UICONTROL 打开和点进率]** 表格会显示与收件人相关的数据。
+### 打开和点进率 {#email-tracking-click-through}
 
-  ![](assets/reporting_email_6.png){align="center"}
+此 **[!UICONTROL 打开和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
-  +++了解有关电子邮件投放报告指标的更多信息。
+![](assets/reporting_email_6.png){align="center"}
 
-   * **[!UICONTROL 已发送]**：发送的消息总数。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 投诉]**：此域被收件人报告为不受欢迎的消息数。
+* **[!UICONTROL 已发送]**：发送的消息总数。
 
-   * **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 投诉]**：此域被收件人报告为不受欢迎的消息数。
 
-   * **[!UICONTROL 点击次数]**：在同一个投放中至少点击一次的不同目标收件人的数量。
+* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
 
-   * **[!UICONTROL 原始反应度]**：与至少打开一次投放的收件人数量相比，已至少点击一次投放的收件人数量的百分比。
+* **[!UICONTROL 点击次数]**：在同一个投放中至少点击一次的不同目标收件人的数量。
+
+* **[!UICONTROL 原始反应度]**：与至少打开一次投放的收件人数量相比，已至少点击一次投放的收件人数量的百分比。
 +++
 
 ## URL 和点击流 {#url-email}
@@ -218,9 +259,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL和点击流小组件"
->abstract="此 **URL和点击流** 提供关键绩效指标(KPI)，以详细了解投放期间点击次数最多的URL。"
+>abstract="此 **URL和点击流** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。"
 
-* **[!UICONTROL URL和点击流]** 提供关键绩效指标(KPI)，以详细了解投放期间点击次数最多的URL。
+* 此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。
 
   ![](assets/reporting_email_7.png){align="center"}
 
@@ -259,15 +300,15 @@ ht-degree: 7%
 >title="用户活动构件"
 >abstract="此 **用户活动** 图形以图表的形式显示打开数和点击数的划分情况。 您可以选择定向数据的时段：前一天、一小时或30分钟。"
 
-* **[!UICONTROL 用户活动]** 以图表的形式显示打开数和点击数的划分情况。 您可以选择定向数据的时段：前一天、一小时或30分钟。
+此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 您可以选择定向数据的时段：前一天、一小时或30分钟。
 
-  ![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){align="center"}
 
-  +++了解有关电子邮件投放报告指标的更多信息。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
+* **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
-   * **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
 
 +++
 
@@ -278,41 +319,61 @@ ht-degree: 7%
 >title="跟踪统计构件"
 >abstract="此 **跟踪统计数据** 图形提供有关打开数和点击数的统计数据。 您可以选择为定向数据选择特定的时间范围。"
 
-* **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。 您可以选择为定向数据选择特定的时间范围。
+此 **[!UICONTROL 跟踪统计数据]** 图形提供有关打开数和点击数的统计数据。 您可以选择为定向数据选择特定的时间范围。
 
-  ![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){align="center"}
 
-  +++了解有关电子邮件投放报告指标的更多信息。
++++了解有关电子邮件投放报告指标的更多信息。
 
-   * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
+* **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
-   * **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
 
 +++
 
 ## 打开的细分 {#breakdown-opens}
 
+
+### 按设备划分打开次数 {#breakdown-opens-devices}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="按设备细分"
->abstract="此 **按设备细分** 显示相关期间按设备类型划分的打开次数。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个图表显示仅与移动设备上的打开有关的统计数据。"
+>abstract="此 **按设备细分** 报表按设备显示了在相应时间段内打开的细目。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每种设备类型的确切数量和百分比。"
+
+此 **按设备细分** 报表按设备显示的时段打开数细分：个人计算机、Android设备、Apple设备或其他。
+
+为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每种设备类型的确切数量和百分比。
+
+![](assets/reporting_email_13.png){align="center"}
+
+
+### 按操作系统划分打开 {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
->abstract="此 **按操作系统细分** 显示相关期间按操作系统划分的打开次数。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个图表显示仅与移动设备上的打开有关的统计数据。"
+>abstract="此 **按操作系统细分** 报表按操作系统显示相关期间打开的细目。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个显示每个OS的确切数量和百分比。"
+
+此 **按操作系统细分** 报表显示期间按操作系统打开的细目：Windows系统、Android系统、iOS系统或其他。
+
+为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个操作系统的确切数量和百分比。
+
+![](assets/reporting_email_13.1.png){align="center"}
+
+### 按浏览器划分打开的内容 {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="此 **按浏览器细分** 显示相关期间按浏览器打开的细目。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个图表显示仅与移动设备上的打开有关的统计数据。"
+>abstract="此 **按浏览器细分** 显示期间按浏览器打开的细目。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个显示每个浏览器的确切数量和百分比。"
 
+此 **按浏览器细分** 报表显示通过浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 
-此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。
+为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个浏览器的确切数量和百分比。
 
-您可以灵活地从 **[!UICONTROL 修复和移动]** 以专门为目标 **[!UICONTROL 仅限手机]** 以便更精确地定位。
+![](assets/reporting_email_13.2.png){align="center"}
 
-![](assets/reporting_email_13.png){align="center"}
 
 ## 热门点击 {#hotclicks}
 
