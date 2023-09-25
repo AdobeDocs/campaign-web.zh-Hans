@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1932'
 ht-degree: 7%
 
 ---
@@ -301,6 +301,12 @@ ht-degree: 7%
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
 >abstract="此 **按操作系统细分** 显示相关期间按操作系统划分的打开次数。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个图表显示仅与移动设备上的打开有关的统计数据。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="按浏览器细分"
+>abstract="此 **按浏览器细分** 显示相关期间按浏览器打开的细目。 第一个图表显示有关计算机和移动设备上打开的统计数据。 第二个图表显示仅与移动设备上的打开有关的统计数据。"
+
 
 此报表显示相关期间按操作系统、设备和浏览器划分的打开次数。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示仅与移动设备上的打开有关的统计数据。
 
