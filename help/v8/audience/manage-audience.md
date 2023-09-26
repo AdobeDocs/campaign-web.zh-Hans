@@ -3,7 +3,7 @@ audience: end-user
 title: 监控和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 * **[!UICONTROL Adobe Campaign]**：这些受众是在Adobe Campaign V8控制台中创建的。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform：]** 这些受众是在Adobe Experience Platform中创建的，并使用Adobe源和目标集成集成集成到了Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform：]** 这些受众是在Adobe Experience Platform中创建的，并使用Adobe源和目标集成集成集成到了Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 >[!NOTE]
 >
