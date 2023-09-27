@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助理的文本
 description: 内容助手入门
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 2%
 
 内容助手可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->此功能将在10月初提供。
+>在开始使用此功能之前，请阅读相关内容 [护栏和限制](generative-gs.md#guardrails-and-limitations).
 
-要使用“Content Assistant（内容助手）”生成电子邮件内容，请执行以下步骤。 您还可以使用内容助手创建完整的HTML内容，如中所述 [此页面](generative-email.md).
+要使用内容助手生成和改进电子邮件内容，请执行以下步骤。 您还可以使用内容助手创建完整的HTML内容，如中所述 [此页面](generative-email.md).
 
 1. 创建和配置电子邮件投放后，单击 **[!UICONTROL 编辑内容]**.
 
@@ -42,7 +41,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-3.png)
 
-1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请转至“内容助手”。
+1. 选择 **[!UICONTROL 上传文件]** ，以添加任何品牌资产，这些品牌资产包含可以为内容助手提供其他上下文的内容。
 
    您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。 请注意，上传的内容仅供当前用户重复使用。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 内容助手入门
 description: 内容助手入门
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 14%
+source-wordcount: '349'
+ht-degree: 13%
 
 ---
 
@@ -22,9 +22,8 @@ ht-degree: 14%
 
 此功能通过自动生成完整的电子邮件内容来节省时间并确保一致的质量。 通过使用Generative AI，您可以轻松创建引人注目的电子邮件，从而提高沟通的有效性和效率。
 
->[!AVAILABILITY]
->
->此功能将在10月初提供。
+您可以在电子邮件中将Campaign内容助手发送至： [生成图像](generative-image.md)， [生成文本内容](generative-content.md)， [生成完整的HTML内容](generative-email.md).
+
 
 ## 护栏和限制 {#generative-guardrails}
 

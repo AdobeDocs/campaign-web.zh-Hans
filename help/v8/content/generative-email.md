@@ -3,9 +3,9 @@ audience: end-user
 title: 使用内容助手生成电子邮件
 description: 内容助手入门
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 2%
 
 内容助手通过自动生成完整的电子邮件内容、节省您的时间并确保一致的质量，增强了您通信的影响。 使用创作AI，您可以轻松制作引人入胜的电子邮件，引起受众的共鸣，从而使沟通更加高效和高效。
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->此功能将在10月初提供。
+>在开始使用此功能之前，请阅读相关内容 [护栏和限制](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## 使用AI生成HTML内容 {#generative-email-generate}
 
 要使用内容助手生成电子邮件内容，请执行以下步骤。 您还可以使用内容助手来改进现有内容，如中所述 [此页面](generative-content.md).
 
