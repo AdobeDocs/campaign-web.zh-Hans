@@ -4,7 +4,7 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 11%
@@ -43,8 +43,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="校样的目标"
->abstract="如果要在发送到主要目标之前测试投放，可再上传一个文件作为“校样的目标”。"
+>title="验证目标"
+>abstract="如果要在发送到主要目标之前测试投放，可再上传一个文件作为“验证目标”。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
@@ -58,7 +58,6 @@ ht-degree: 11%
 
 
 测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 将客户端控制台移入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 将测试消息发送到种子地址的步骤详述如下。
-
 
 1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
 
