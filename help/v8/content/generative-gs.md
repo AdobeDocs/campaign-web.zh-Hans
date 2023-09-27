@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 内容助手入门
-description: 内容助理入门
+description: 内容助手入门
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 14%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="创建电子邮件内容"
->abstract="完成投放的定制和个性化后，您可以使用内容助手来增强内容。 此功能通过允许您通过描述要生成的内容来微调内容，从而简化个性化和内容改进的过程。"
+>title="内容助手"
+>abstract="在精心设计并个性化您的投放后，您可使用内容助手增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
 
 内容助手由创作AI提供支持，是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
 
@@ -26,6 +26,22 @@ ht-degree: 3%
 >
 >此功能将在10月初提供。
 
+## 护栏和限制 {#generative-guardrails}
+
+以下列出了使用内容助手生成电子邮件的一般准则：
+
+* 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
+* 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以是：PDF文件、Microsoft Word文档、JPEG、PNG或ZIP文件（具有支持的文件格式）。
+* 上传的品牌资产的建议大小小于10MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
+* 使用创作的Adobe Campaign [电子邮件模板](../content/email-sample-templates.md)，或首选 [内置电子邮件模板](../content/email-sample-templates.md) 以创建您的电子邮件内容。 建议使用最多包含8至10张图像的电子邮件模板。
+
+
+以下限制适用于Campaign内容助手：
+
+* 支持的语言仅是英语
+* 仅适用于电子邮件渠道
+* GenAI内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型
+* 您可以上传多个品牌资产，但只能为特定世代利用一个
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
