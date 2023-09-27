@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 11%
 
 ---
@@ -22,24 +22,37 @@ ht-degree: 11%
 
 要检测消息内容或个性化设置中可能出现的错误，请先将测试消息发送到测试用户档案，然后再将其发送给目标受众。 每次进行更改时都应发送测试消息，以验证最新内容。 发送测试投放（以前称为“验证”）是验证营销活动和识别潜在问题的重要步骤。 测试消息的收件人可以检查各种元素，例如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
-## 选择测试收件人 {#test-recipients}
+## 模拟测试收件人的内容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="测试群体"
 >abstract="选择测试群体模式。"
 
-根据您使用的渠道，可以将测试消息发送到三种类型的收件人：
+在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/about-recipients.md)
 
-* [测试用户档案](#test-profiles)  — 发送 **测试电子邮件和短信** 种子地址，即数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* [从主要目标替换](#substitution-profiles)  — 发送 **测试电子邮件和短信** 到特定电子邮件地址或电话号码。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+要开始测试消息内容，请执行以下操作：
 
-* [订阅者](#subscribers)  — 发送 **测试推送通知** 添加到数据库的虚拟订阅者。 与测试用户档案一样，也可以在以下位置创建测试用户档案： [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+1. 编辑电子邮件或短信投放的内容。
+1. 单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 单击 **[!UICONTROL 测试]** 按钮以发送测试消息。
 
-要选择测试投放的收件人，请根据要使用的用户档案类型执行以下步骤。
+   ![](assets/simulate-test-button-email.png)
 
-### 测试用户档案 {#test-profiles}
+1. 选择测试收件人。
+
+   根据消息渠道，可以将测试消息发送给以下类型的收件人：
+
+   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 这些收件人创建于 [!DNL Campaign] 客户端控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   * 对于短信和电子邮件，您还可以使用 [从主目标替换](#substitution-profiles) 模式，将测试消息发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+
+   * 对于推送消息，您可以使用 [订阅者](#subscribers)，这些是添加到数据库中的虚拟订阅者。 它们创建于 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   下面提供了每种模式的详细配置。
+
+## 使用测试配置文件 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ ht-degree: 11%
 >abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15 MB。使用第一行作为列标题。"
 
 
-测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 将客户端控制台移入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 将测试消息发送到种子地址的步骤详述如下。
+测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 客户端控制台。 将测试消息发送到种子地址的步骤详述如下。
 
-1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
-
-1. 单击 **[!UICONTROL 测试]** 按钮。
+1. 编辑投放内容，然后单击 **[!UICONTROL 模拟内容]** 按钮。 然后单击 **[!UICONTROL 测试]** 按钮。
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ ht-degree: 11%
 
 1. 选择测试用户档案后，您可以 [发送测试投放](#send-test).
 
-### 替换配置文件 {#substitution-profiles}
+## 替换用户档案数据 {#substitution-profiles}
 
-要在显示来自的某个现有配置文件的数据时向特定的电子邮件地址或电话号码发送测试电子邮件或短信，请执行以下操作 [!DNL Adobe Campaign] 数据库，使用替换配置文件，如下所述：
+使用配置文件替换将测试消息发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件数据 [!DNL Adobe Campaign] 数据库。 要执行此操作，请执行以下步骤：
 
-1. 在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/about-recipients.md)
 
-1. 浏览到电子邮件或短信投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
-
-1. 单击 **[!UICONTROL 测试]** 按钮。
+1. 编辑投放内容，然后单击 **[!UICONTROL 模拟内容]** 按钮。 然后单击 **[!UICONTROL 测试]** 按钮。
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ ht-degree: 11%
 
 1. 选择替代配置文件后，您可以 [发送测试投放](#send-test).
 
-### 订阅者 {#subscribers}
+## 将测试发送给订阅者 {#subscribers}
 
 使用推送通知时，测试投放只能发送给应用程序订阅者。 要选择它们，请执行以下步骤。
 
-1. 浏览到投放的编辑内容屏幕，然后单击 **[!UICONTROL 模拟内容]** 按钮。
-
-1. 单击 **[!UICONTROL 测试]** 按钮。
+1. 编辑投放内容，然后单击 **[!UICONTROL 模拟内容]** 按钮。 然后单击 **[!UICONTROL 测试]** 按钮。
 
    ![](assets/simulate-test-button-push.png)
 
