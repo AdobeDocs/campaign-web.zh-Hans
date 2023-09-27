@@ -1,26 +1,30 @@
 ---
 audience: end-user
 title: 使用内容助手生成电子邮件
-description: 内容助理入门
+description: 内容助手入门
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# 使用内容助理生成电子邮件 {#generative-email}
+# 使用内容助手生成电子邮件 {#generative-email}
 
-内容助手通过自动生成完整的电子邮件内容、节省您的时间并确保一致的质量，增强了您通信的影响。
-
-使用创作AI，您可以轻松制作引人入胜的电子邮件，引起受众的共鸣，从而使沟通更加高效和高效。
+内容助手通过自动生成完整的电子邮件内容、节省您的时间并确保一致的质量，增强了您通信的影响。 使用创作AI，您可以轻松制作引人入胜的电子邮件，引起受众的共鸣，从而使沟通更加高效和高效。
 
 
 >[!AVAILABILITY]
 >
 >此功能将在10月初提供。
 
+
+
+
+## 使用AI生成HTML内容 {#generative-email-generate}
+
+要使用内容助手生成电子邮件内容，请执行以下步骤。 您还可以使用内容助手来改进现有内容，如中所述 [此页面](generative-content.md).
 
 1. 创建和配置电子邮件投放后，单击 **[!UICONTROL 创建内容]**.
 
@@ -46,7 +50,7 @@ ht-degree: 2%
 
    ![](assets/email-genai-2.png)
 
-1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请使用内容助手。
+1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请转至“内容助手”。
 
    您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。 请注意，上传的内容仅供当前用户重复使用。
 
@@ -75,4 +79,5 @@ ht-degree: 2%
    ![](assets/email-genai-6.png)
 
 1. 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
+
 

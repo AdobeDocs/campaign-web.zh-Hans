@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
    + [访问和权限](get-started/permissions.md)
    + [护栏和限制](get-started/guardrails.md)
    + [不支持的功能](get-started/unsupported.md)
-   + [查找帮助和指导](get-started/using-ai.md)
+   + [寻求帮助和指导](get-started/using-ai.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
    + [使用投放模板](msg/delivery-template.md)
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [发送测试投放](preview-test/test-deliveries.md)
       + [渲染电子邮件](preview-test/email-rendering.md)
 + 受众和收件人 {#audiences}
-   + [与收件人和受众合作](audience/about-recipients.md)
+   + [使用收件人和受众](audience/about-recipients.md)
    + [创建受众](audience/create-audience.md)
    + 选择投放收件人 {#target-audiences}
       + [选择现有受众](audience/add-audience.md)

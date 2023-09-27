@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: 使用内容助手生成图像
-description: 内容助理入门
+description: 内容助手入门
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -37,7 +37,7 @@ ht-degree: 2%
 
    ![](assets/image-genai-2.png)
 
-1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请使用内容助手。
+1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请转至“内容助手”。
 
    您还可以单击 **[!UICONTROL 上传的内容]** 以查找以前更新的文件。 请注意，上传的内容仅供当前用户重复使用。
 
