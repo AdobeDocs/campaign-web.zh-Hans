@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 9%
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
 >abstract="此 **随时间细分的点击量** 该图显示了每个链接的收件人行为的可用数据。"
 

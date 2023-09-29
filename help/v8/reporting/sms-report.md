@@ -3,28 +3,28 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
 # 短信投放报告 {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="短信投放概述"
->abstract="此 **短信投放概述** 提供短信投放的全面概述，其中提供了大量见解和特定数据。 它提供有关交付的绩效、效果和结果的全面信息。"
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="报告发送"
->abstract="此 **正在发送** 使用报表中的制表符，可深入分析访客与投放的交互情况以及他们可能遇到的任何潜在错误。"
+>abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
-此 **短信投放概述** 提供短信投放的全面概述，其中提供了大量见解和特定数据。 它提供有关交付的绩效、效果和结果的全面信息。
+**短信投放概述**&#x200B;全面概述了短信投放，并提供了大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。
 
 ## 投放摘要 {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="短信投放概述"
+>abstract="**短信投放概述**&#x200B;全面概述了短信投放，并提供了大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
 
 ### 投放概述 {#sms-delivery-overview}
 
@@ -50,8 +50,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
->title="SMS目标群体"
->abstract="此 **目标人群** 图形和表格会显示与短信受众相关的数据：要投放的消息和排除项。"
+>title="短信目标群体"
+>abstract="**目标群体**&#x200B;图表显示与短信受众相关的数据：要投放的消息和排除项。"
 
 此 **目标人群** 图形和表格可显示与受众相关的数据。 指标详见下文。
 
@@ -70,8 +70,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="推送整体统计信息"
->abstract="此 **总体统计信息** 报告显示已发送短信的数据：成功、错误和隔离。"
+>title="推送整体统计数据"
+>abstract="**整体统计数据**&#x200B;报告显示已发送短信的数据：成功、错误和隔离。"
 
 此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
 
@@ -91,8 +91,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS总体统计数据"
->abstract="此 **排除项** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。"
+>title="短信整体统计数据"
+>abstract="**排除项**&#x200B;图表显示阻止已从目标配置文件中排除的用户配置文件接收消息的各种原因。"
 
 
 此 **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -104,7 +104,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="投放吞吐量菜单"
->abstract="投放吞吐量报表显示有关指定时间范围内整个平台的投放吞吐量的详细信息。"
+>abstract="投放吞吐量报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
 

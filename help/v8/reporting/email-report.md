@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 22%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="投放吞吐量构件"
+>title="投放吞吐量"
 >abstract="**投放吞吐量**&#x200B;报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
@@ -118,7 +118,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="广播统计数据构件"
+>title="广播统计数据"
 >abstract="此 **广播统计信息** 报告包含每个域可能遇到的错误的可用数据。"
 
 **[!UICONTROL 广播统计数据]**&#x200B;表包含每个域可能遇到的错误的可用数据。指标详见下文。
@@ -235,7 +235,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="打开和点进率构件"
+>title="打开和点进率"
 >abstract="**打开和点进率**&#x200B;表显示与投放中的参与收件人相关的数据。"
 
 
@@ -306,7 +306,7 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
 >abstract="此 **随时间细分的点击量** 该图显示了每个链接的收件人行为的可用数据。"
 
