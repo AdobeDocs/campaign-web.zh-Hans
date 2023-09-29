@@ -3,9 +3,9 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -13,12 +13,14 @@ ht-degree: 9%
 
 # 电子邮件渠道的营销活动报表 {#campaign-reports-email-channel}
 
+每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于电子邮件渠道，报告和量度详述如下。 了解如何在中访问您的营销活动报告 [此页面](campaign-reports.md).
+
 ## 投放摘要 {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="投放概述"
->abstract="投放概述提供关键绩效指标 (KPI)，后者给出有关访客如何与电子邮件投放互动的详细信息。"
+>abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于提供关于访客如何参与电子邮件投放的详细信息。"
 
 ### 投放概述 {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ ht-degree: 9%
 +++
 
 ### 反应统计数据 {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ ht-degree: 9%
 
 ### 投放统计信息 {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="投放统计信息"
+>abstract="此 **投放统计信息** 图表详细说明了交付的成功以及发生的错误。"
+
 此 **[!UICONTROL 投放统计信息]** 量度提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="打开和点进率构件"
+>title="打开和点进率"
 >abstract="**打开和点进率**&#x200B;表显示与投放中的参与收件人相关的数据。"
 
 
@@ -253,8 +260,6 @@ ht-degree: 9%
 
 ### 访问量排名前 10 的链接 {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
@@ -286,13 +291,19 @@ ht-degree: 9%
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## 用户活动 {#user-activities-email}
 
-此  **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 指标详见下文。
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="用户活动"
+>abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。"
 
-![](assets/campaign_report_email_12.png)
+此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 此报告的量度详述如下。
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
+![](assets/campaign_report_email_10.png){align="center"}
+
++++了解有关电子邮件投放报告指标的更多信息。
 
 * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 

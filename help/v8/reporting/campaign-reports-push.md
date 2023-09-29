@@ -3,17 +3,24 @@ audience: end-user
 title: 推送渠道的营销活动报表
 description: 了解推送渠道的活动报表
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '479'
+ht-degree: 4%
 
 ---
 
 
 # 推送渠道的营销活动报表 {#campaign-reports-push-channel}
 
+每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于推送渠道，下文将详细介绍相关报表和量度。 了解如何在中访问您的营销活动报告 [此页面](campaign-reports.md).
+
 ## 投放摘要 {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="投放概述"
+>abstract="此 **投放概述** 报告提供关键绩效指标(KPI)，这些指标提供关于访客如何参与推送通知投放的详细信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供关于访客如何参与推送通知投放的详细信息。 指标详见下文。
 
@@ -31,6 +38,12 @@ ht-degree: 3%
 
 ### 初始目标受众统计数据 {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="初始目标受众统计数据"
+>abstract="此 **初始目标受众统计信息** 表格显示与收件人相关的数据"
+
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
 +++了解有关推送营销活动报告量度的更多信息。
@@ -44,6 +57,11 @@ ht-degree: 3%
 +++
 
 ### 执行统计数据 {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="执行统计数据"
+>abstract="此 **执行统计信息** 表详细说明了投放的成功情况：要投放的消息、成功、错误和新隔离。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
@@ -60,6 +78,11 @@ ht-degree: 3%
 +++
 
 ### 生成的点击流 {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="生成的点击流"
+>abstract="此 **生成的点击流** 该表显示了相对于收件人与投放交互方式的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 
