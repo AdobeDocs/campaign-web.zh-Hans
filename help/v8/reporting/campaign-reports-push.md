@@ -3,7 +3,7 @@ audience: end-user
 title: 推送渠道的营销活动报表
 description: 了解推送渠道的活动报表
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 4%
@@ -23,6 +23,9 @@ ht-degree: 4%
 >abstract="此 **投放概述** 报告提供关键绩效指标(KPI)，这些指标提供关于访客如何参与推送通知投放的详细信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供关于访客如何参与推送通知投放的详细信息。 指标详见下文。
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++了解有关推送营销活动报告量度的更多信息。
 
@@ -46,6 +49,9 @@ ht-degree: 4%
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++了解有关推送营销活动报告量度的更多信息。
 
 * **[!UICONTROL 初始受众]**：定向收件人总数。
@@ -64,6 +70,9 @@ ht-degree: 4%
 >abstract="此 **执行统计信息** 表详细说明了投放的成功情况：要投放的消息、成功、错误和新隔离。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++了解有关推送营销活动报告量度的更多信息。
 
@@ -85,6 +94,8 @@ ht-degree: 4%
 >abstract="此 **生成的点击流** 该表显示了相对于收件人与投放交互方式的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++了解有关推送营销活动报告量度的更多信息。
 
