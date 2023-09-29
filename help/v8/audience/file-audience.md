@@ -4,10 +4,10 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 39%
+source-wordcount: '596'
+ht-degree: 38%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 39%
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
 >abstract="检查文件的格式化参数。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="预览文件"
+>abstract="检查文件的预览。 此屏幕最多只显示30条记录。"
+
+
 
 您无法从界面将用户档案直接上传到Campaign，但可以定位存储在外部文件中的用户档案。 用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。
 
