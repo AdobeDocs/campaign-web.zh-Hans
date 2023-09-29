@@ -3,10 +3,10 @@ audience: end-user
 title: 内容助手入门
 description: 内容助手入门
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 13%
+source-wordcount: '402'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 13%
 >id="acw_generation_settings"
 >title="内容助手"
 >abstract="在精心设计并个性化您的投放后，您可使用内容助手增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="定义用于内容生成的上下文"
+>abstract="要将所选内容用作内容生成的输入，请激活 **使用当前内容进行增强** 切换。 您还可以上传品牌资产，以将其用作源。 如果不使用选定内容，则必须上传和选择品牌资产。"
 
 内容助手由创作AI提供支持，是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
 
