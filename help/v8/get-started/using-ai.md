@@ -2,9 +2,9 @@
 title: 在Campaign Web中使用AI支持的知识助手
 description: 在Campaign Web中使用AI支持的知识助手
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ Adobe Campaign AI支持的知识助手可提供帮助，但您应该验证事实
 
 ## 推荐  {#recommendations-ai}
 
-在AI支持的知识助手中提问时，会考虑当前产品上下文，即您所在的Campaign屏幕和当前帮助框的内容。
+在AI支持的知识助手中提问时，会考虑当前产品上下文（即您所在的屏幕）以及当前帮助框的内容。
 
-为了充分利用AI支持的知识助手，在询问问题时，我们建议您：
+因此，最佳实践是提出与用户界面上下文相关的问题。 例如，如果您需要了解如何在工作流中发送推送投放，请浏览至 **工作流** 左侧菜单项，并在该特定上下文中使用上下文帮助框。 要了解有关报告量度的更多信息，请浏览到活动或投放报告，然后从那里开始。
+
+
+此外，为了充分利用AI支持的知识助手，在询问问题时，我们建议您：
 
 * 尽可能精确和具体，避免模棱两可。 答案将更准确、更有用。
 * 为帮助AI支持的知识助手查找正确信息，请添加尽可能多的有关您尝试学习的内容的详细信息。
