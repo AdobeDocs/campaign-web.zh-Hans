@@ -3,10 +3,10 @@ audience: end-user
 title: 营销活动报告
 description: 了解如何访问和使用营销活动报告
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 19%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
@@ -28,10 +28,13 @@ ht-degree: 19%
 
 ![](assets/campaign_report_email_13.png)
 
+或者，您可以使用三个点 **更多操作** 按钮，如下所示：
 
-营销活动报告分为多个不同的小组件，其中详细说明了营销活动的成功和错误。
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-此时将显示营销活动报告页面，其中包含以下选项卡：
+营销活动报告分为多个构件，每个构件详细描述营销活动的成功和错误。
+
+以下页面提供了每个渠道的报表和相关量度的完整列表：
 
 * [电子邮件渠道](campaign-reports-email.md)
 * [短信渠道](campaign-reports-sms.md)

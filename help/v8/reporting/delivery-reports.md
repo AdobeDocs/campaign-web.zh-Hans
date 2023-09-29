@@ -4,10 +4,10 @@ title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 57%
+source-wordcount: '195'
+ht-degree: 43%
 
 ---
 
@@ -34,12 +34,22 @@ Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这�
 
    ![](assets/reporting2.png)
 
+   或者，您可以使用三个点 **更多操作** 按钮，如下所示：
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. 在左侧菜单中，从列表中选择一个报告。
 
    ![](assets/reporting.png)
 
-1. 如果您的投放是循环投放，则可以通过单击来选择要报告的特定投放 **[!UICONTROL 选择投放]**.
+1. 如果您的投放是定期投放，请通过单击 **[!UICONTROL 选择投放]**.
 
    您还可以通过选择 **[!UICONTROL 联系日期]**.
 
    ![](assets/delivery-recurring.png)
+
+以下页面提供了每个渠道的报表和相关量度的完整列表：
+
+* [电子邮件投放报告](email-report.md)
+* [短信投放报告](sms-report.md)
+* [推送投放报告](push-report.md)
