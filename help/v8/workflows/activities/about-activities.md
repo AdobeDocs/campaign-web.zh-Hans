@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign Web 允许您跨多个渠道（例如电子邮件、短信或推�
 
 以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
 
-* 此 [计划程序](scheduler.md) 活动允许您安排何时启动工作流。
+* 通过[调度程序](scheduler.md)活动，可安排何时开始工作流。
 * 利用 [And-连接](and-join.md)活动，可同步工作流的多个执行分支。
 * 您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。此活动没有功能影响，因此是可选的。
 * 利用[分叉](fork.md)活动，可创建叫客过渡以同时开始多个活动。

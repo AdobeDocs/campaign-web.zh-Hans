@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="创建和管理您的服务"
->abstract="使用Adobe Campaign创建和监控服务（如新闻稿），并检查这些服务的订阅或退订。 订阅仅适用于电子邮件和短信投放。"
+>abstract="使用 Adobe Campaign 创建和监测您的服务（如新闻稿）以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
 
 使用Adobe Campaign Web管理和创建服务（如新闻稿），并检查这些服务的订阅或退订。
 
@@ -48,13 +48,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="定义您的服务属性"
->abstract="输入订阅服务的标签，并定义其他选项，如服务的有效期。"
+>title="定义服务属性"
+>abstract="输入订阅服务的标签并定义其他选项，如服务的有效期。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
 >title="选择确认消息"
->abstract="当用户订阅或取消订阅服务时，您可以发送确认消息。 选择要用于该消息的模板。"
+>abstract="当用户订阅服务或从服务取消订阅时，您可发送确认消息。选择用于该消息的模板。"
 
 要创建订阅服务，请执行以下步骤。
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/service-create-validity-period.png)
 
-1. 当用户订阅或取消订阅服务时，您可以发送确认消息。 根据您的用例选择用于该消息的模板。 这些模板必须配置 **[!UICONTROL 订阅]** 目标映射。 [了解详情](#create-confirmation-message)
+1. 当用户订阅服务或从服务取消订阅时，您可发送确认消息。根据您的用例选择用于该消息的模板。 这些模板必须配置 **[!UICONTROL 订阅]** 目标映射。 [了解详情](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png)
 

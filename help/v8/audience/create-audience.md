@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="在此屏幕中，您可以访问投放中可定位的所有受众的列表。 单击 **创建** 使用各种工作流活动(如 **Split** 或 **排除**."
+>abstract="从该屏幕中，您可以访问可在投放中定位的所有受众的列表。单击&#x200B;**创建**&#x200B;以使用各种工作流活动（例如&#x200B;**拆分**&#x200B;或&#x200B;**排除**）在视觉画布中创建新受众。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

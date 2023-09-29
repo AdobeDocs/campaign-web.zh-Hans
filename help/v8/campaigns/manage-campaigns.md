@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 70%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
->title="营销活动中的投放列表"
->abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。单击投放名称可对其进行编辑。 使用“创建投放”按钮可为此活动添加新投放。"
+>title="营销活动中的投放的列表"
+>abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。单击投放的名称以编辑该投放。使用“创建投放”按钮为此营销活动添加新的投放。"
 
 在营销活动列表的&#x200B;**浏览**&#x200B;选项卡中，单击营销活动以显示其详细信息。
 

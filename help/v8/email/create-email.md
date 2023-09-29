@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。利用生成式 AI 生成电子邮件内容，保持竞争优势并提升电子邮件营销水平。"
+>abstract="我们的生成式 AI 技术利用先进的算法生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -33,7 +33,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="定义电子邮件属性"
->abstract="这些属性是常见的投放参数，可帮助您对投放的内容进行命名和分类。其他设置是可选的。 如果您的投放基于 Adobe Campaign v8 控制台中定义的扩展架构，则可以使用某些特定的&#x200B;**自定义选项**。"
+>abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
 
 您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -72,8 +72,8 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="为您的投放选择受众"
->abstract="为您的营销信息选择最佳受众。您可以选择现有受众(已在Campaign v8实例中或从Adobe Experience Platform中定义)，使用规则生成器创建新受众，或上传包含受众的文件。 未为以下对象启用控制组： **从文件选择** 选择或反之。"
+>title="为投放选择受众"
+>abstract="选择最适合营销消息的最佳受众。可选择现有受众（已在 Campaign v8 实例中或从 Adobe Experience Platform 定义）、使用规则生成器创建新受众或上传包含您的受众的文件。没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="选择主要受众"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 

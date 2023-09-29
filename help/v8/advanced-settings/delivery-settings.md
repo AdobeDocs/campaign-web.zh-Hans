@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="类型 投放设置"
+>title="投放的类型设置"
 >abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。"
 
 
@@ -55,7 +55,7 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="投放压力参数"
+>title="投放的压力参数"
 >abstract="利用投放权重，您可以确定疲劳管理框架内的优先级最高的投放。具有最高权重的消息优先。"
 
 
@@ -89,7 +89,7 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="投放容量设置"
+>title="投放的容量设置"
 >abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 Console 中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
 
 
@@ -110,8 +110,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="投放受众设置"
->abstract="在可用的映射中选择一个&#x200B;**目标映射。**&#x200B;在 Adobe Campaign v8 控制台中定义目标映射。您还为投放设置排除参数。 "
+>title="投放的受众设置"
+>abstract="在可用的映射中选择一个&#x200B;**目标映射**。在 Adobe Campaign v8 控制台中定义目标映射。您还设置投放的排除参数。 "
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。定向维度或目标映射是指操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
 
@@ -139,9 +139,9 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="投放的网站分析设置"
->abstract="选择一个网站分析帐户。此帐户是在 Campaign 客户端控制台中配置的。您还可以定义与您正在使用的分析工具共享的标签。"
+>abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标签。"
 
-在此部分中，您可以选择网站分析帐户。 此帐户是在 Campaign 客户端控制台中配置的。
+在此部分中，您可以选择网站分析帐户。 在 Campaign 客户端控制台中配置此帐户。
 
 您还可以定义与您正在使用的分析工具共享的标签。
 
@@ -164,13 +164,13 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="投放的审批模式"
->abstract="选择审批方式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
+>abstract="选择审批模式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="投放的审批模式"
->abstract="根据该模板选择投放的审批模式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
+>abstract="根据此模板选择投放的审批模式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
 
 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 10%
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="调度程序活动"
->abstract="此 **计划程序** 活动允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。"
+>abstract="通过&#x200B;**调度程序**&#x200B;活动，可安排何时开始工作流。应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。"
 
 
-此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 此活动应视为排程开始的时间。 它只能用作工作流的第一个活动。
+此 **计划程序** 活动是 **流量控制** 活动。 它允许您安排何时启动工作流。 应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。
 
 ## 最佳实践{#scheduler-best-practices}
 
@@ -32,14 +32,14 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="计划程序有效性"
->abstract="您可以为计划程序定义有效期。 它可以是永久性的（默认），也可以在特定日期之前有效。"
+>title="调度程序有效期"
+>abstract="可定义调度程序的有效期。它可为永久（默认），也可一直有效至特定日期。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="计划程序选项"
->abstract="定义调度程序的频率。 它可以在特定的时间执行，一天、周或月执行一次或多次。"
+>title="调度程序选项"
+>abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
 
 按照以下步骤配置 **计划程序** 活动：
 

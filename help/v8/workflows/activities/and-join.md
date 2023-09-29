@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="AND — 加入活动"
->abstract="利用 **And-连接**&#x200B;活动，可同步工作流的多个执行分支。一旦所有上述活动完成，就会触发该事件。 这样，您可以确保在继续执行工作流之前已完成某些活动。"
+>title="AND-join 活动"
+>abstract="利用 **And-连接**&#x200B;活动，可同步工作流的多个执行分支。在所有前面的活动完成后，将触发此活动。这使您能够在继续执行工作流之前确保某些活动已完成。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。利用此活动，可同步工作流的多个执行分支。
 
@@ -27,8 +27,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="配置AND — 连接活动"
->abstract="选择要加入的活动。 在&#x200B;**主集**&#x200B;下拉列表中，选择您要保留的集客过渡群体。"
+>title="配置 AND-join 活动"
+>abstract="选择您要参加的活动。在&#x200B;**主集**&#x200B;下拉列表中，选择您要保留的集客过渡群体。"
 
 请按照以下步骤操作，配置 **AND-连接**&#x200B;活动：
 

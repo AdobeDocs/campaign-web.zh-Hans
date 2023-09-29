@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -26,12 +26,12 @@ Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行�
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="定义优惠参数"
->abstract="通过定义优惠空间（可选类别和主题）来配置应向收件人建议的优惠，并指定要插入到投放中的优惠数量。"
+>abstract="通过定义优惠空间（还可包括类别和主题）并指定要插入到投放中的优惠的数量，从而配置应为收件人建议哪些优惠。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="设置选件高级设置"
->abstract="您可以启用排除没有足够合格选件的收件人，并选择在某个建议不存在时如何处理消息。"
+>title="设置优惠高级设置"
+>abstract="可实现排除其没有足够多合格优惠的收件人，并选择在其中一项提议不存在时处理消息的方式。"
 
 利用Adobe Campaign，可向给定联系人建议一个或多个特定优惠。 交互模块，用于在交互期间通过向给定联系人建议单个或多个特定优惠来实时响应他们。 这些优惠可以是简单的通信消息、针对一个或多个产品或服务的特别优惠。
 

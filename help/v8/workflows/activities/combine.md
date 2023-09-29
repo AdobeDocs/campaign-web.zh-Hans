@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="合并活动"
->abstract="此 **合并** 利用活动，可对集客群体执行分段。 因此，您可以合并多个群体，排除部分群体，或仅保留多个目标的共有数据。"
+>abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 
 此 **合并** 活动是 **定位** 活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
@@ -44,7 +44,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择如何组合受众：并集、交叉点或排除项。"
+>abstract="选择如何合并受众：并集、交集或排除。"
 
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
@@ -65,8 +65,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
->title="协调选项"
->abstract="选择 **对帐类型** 以定义如何处理重复项。"
+>title="“协调”选项"
+>abstract="选择&#x200B;**协调**&#x200B;类型以定义如何处理重复项。"
 
 在 **合并** 活动，您可以配置 **并集**. 为此，您需要选择 **对帐类型** 要定义如何处理重复项，请执行以下操作：
 
@@ -89,7 +89,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="选择要合并的集"
+>title="选择要合并的集合"
 >abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主集**。这是排除了元素的集合。其他集合用于匹配从主集中排除之前的元素。"
 
 >[!CONTEXTUALHELP]

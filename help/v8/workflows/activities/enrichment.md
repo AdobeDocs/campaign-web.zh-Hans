@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="扩充活动"
->abstract="此 **扩充** 利用活动，可使用数据库中的其他信息增强目标数据。 它通常用于分段活动之后的工作流中。"
+>abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用于分段活动之后的工作流中。"
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择要用于扩充工作流程的数据。 您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接，该链接在表之间具有1-N基数。"
+>abstract="选择用于扩充您的工作流的数据。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。它通常用于分段活动之后的工作流中。
 

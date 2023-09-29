@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 66%
+ht-degree: 97%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="创建分支活动过渡"
->abstract="默认情况下，创建两个过渡，其中一个 **分支** 活动。 单击 **添加过渡** 按钮，以定义附加出站过渡，并输入其标签。"
+>title="“分叉”活动过渡"
+>abstract="默认情况下，使用&#x200B;**分叉**&#x200B;活动创建两个过渡。单击&#x200B;**添加过渡**&#x200B;按钮以定义附加出站过渡，并输入其标签。"
 
-此 **分支** 活动是 **流量控制** 活动。 利用该功能，可创建叫客过渡以同时启动多个活动。
+**分叉**&#x200B;活动是一种&#x200B;**流量控制**&#x200B;活动。可使用它创建叫客过渡以同时开始多个活动。
 
 ## 配置分支活动{#fork-configuration}
 

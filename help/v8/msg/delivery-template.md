@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="投放模板"
->abstract="使用投放模板标准化创意外观，以便更快地执行和启动活动"
+>abstract="使用投放模板使创意外观标准化，以使执行和开展营销活动更快速"
 
 为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
 

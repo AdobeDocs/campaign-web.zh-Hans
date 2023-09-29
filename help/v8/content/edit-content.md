@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 34%
+ht-degree: 50%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定义电子邮件的内容"
->abstract="此 **编辑内容** 屏幕允许您定义消息的基本元素，如发件人地址和主题行，执行其他操作，如添加附件或优惠，以及访问Email Designer为您的消息提供完美的外观。"
+>abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或优惠）和访问电子邮件设计器以美化邮件的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="设置电子邮件属性"
->abstract="此 **基本详细信息** 部分允许您更新发件人地址和回复地址，并使用表达式编辑器定义主题行。"
+>abstract="通过&#x200B;**基本详细信息**&#x200B;部分，可更新发件人的地址和回复地址以及使用表达式编辑器定义主题行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="将文件附加到电子邮件"
->abstract="选择要在邮件中插入的一个或多个文件。为了避免出现性能问题，建议每封电子邮件不要附加多个附件。"
+>abstract="选择要插入邮件的一个或多个文件。为了避免出现性能问题，建议每封电子邮件不要附加多个附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="编辑跟踪"
->abstract="默认情况下，会为投放启用跟踪，这意味着会跟踪消息内容中包含的所有链接。 您可以从此处禁用该选项。"
+>abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。您可以从此处禁用该选项。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="添加链接和跟踪邮件"
 
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：

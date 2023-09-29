@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
->title="拆分活动"
->abstract="此 **Split** 利用活动，可根据不同的选择标准（如筛选规则或群体大小），将传入群体划分为多个子集。"
+>title="“拆分”活动"
+>abstract="**拆分**&#x200B;活动允许根据不同的选择标准（如筛选规则或群体大小）将传入群体分为多个子集。"
 
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。
@@ -25,18 +25,18 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="拆分活动筛选器"
+>title="“拆分”活动过滤器"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
->title="拆分活动限制"
+>title="“拆分”活动限制"
 >abstract="要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
->title="拆分活动排序"
+>title="“拆分”活动排序"
 >abstract="在为子集设置群体限制时，您可以根据特定的配置文件属性按升序或降序顺序对所选配置文件进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个配置文件。"
 
 

@@ -17,8 +17,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="预览和测试消息"
 >abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="预览消息内容"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="发送测试投放"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=zh-Hans" text="预览消息内容"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hans" text="发送测试投放"
 
 定义投放内容后，您可以使用测试用户档案在发送消息之前对其进行预览和测试。
 

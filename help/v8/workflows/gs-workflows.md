@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="更多活动工作流活动"
->abstract="发掘自动化和优化的新可能性，使您能够创建更动态、更个性化的客户历程。 从高级分段到条件触发器，我们额外的工作流活动使您能够发送有针对性的消息并提高促销活动效果。"
+>title="更多营销活动工作流活动"
+>abstract="发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。"
 
 ## 什么是工作流？
 

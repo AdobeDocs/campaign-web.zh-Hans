@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="提取方式"
->abstract="控制组是从投放中排除的一组用户档案。 要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
+>abstract="对照组是从投放中排除的一组配置文件。要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
 
 
 ### 构建对照组 {#build-extract-target}
@@ -104,7 +104,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="控制组是从投放中排除的一组用户档案。 您可以通过选择现有受众或定义查询来从投放受众中排除特定群体。"
+>abstract="对照组是从投放中排除的一组配置文件。可通过选择现有受众或定义查询而从投放受众排除特定群体。"
 
 定义控制组的另一种方法是选择现有受众中的特定群体，或通过定义查询。
 
@@ -112,9 +112,9 @@ ht-degree: 41%
 
 ![](assets/control-group3.png)
 
-* 要使用现有受众，请单击&#x200B;**选择受众**。在[此章节](add-audience.md)中了解更多信息。
+* 要使用现有受众，请单击&#x200B;**选择受众**。可在[此部分](add-audience.md)中了解详情。
 
-* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。在[此章节](segment-builder.md)中了解更多信息。
+* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。可在[此部分](segment-builder.md)中了解详情。
 
 受众中包含的或与查询结果匹配的用户档案包括 **已排除** 来自投放目标：他们不会收到任何消息。
 

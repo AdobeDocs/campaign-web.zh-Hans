@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 48%
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="重新加载"
->abstract="单击 **重新加载** 按钮以检索最后的量度并刷新数据。"
+>abstract="单击&#x200B;**重新加载**&#x200B;按钮以检索过去的量度并刷新数据。"
 
 Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这些报告可让您在内置仪表板中衡量和可视化邮件的影响和效果。
 

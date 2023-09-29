@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 1%
+ht-degree: 30%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="生成补码"
->abstract="您可以使用已作为重复项排除的剩余群体生成额外的叫客过渡。 为此，请打开 **生成补码** option"
+>title="生成补集"
+>abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**生成补集**&#x200B;选项"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="更改维度活动"
->abstract="利用此活动，可在构建受众时更改定向维度。 它根据数据模板和输入维度移动轴。 例如，您可以从“合同”维度切换到“客户”维度。"
+>title="“更改维度”活动"
+>abstract="通过此活动，可在构建受众时更改定位维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
-此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。 [了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
+此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 
 例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以便向定向收件人发送推送通知。
 

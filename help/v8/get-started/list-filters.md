@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 86%
 
 ## 自定义过滤器{#list-custom-filters}
 
-要针对数据创建自定义过滤器，请浏览到过滤器底部，然后单击 **添加规则** 按钮以访问规则生成器。
+要在数据上创建自定义过滤器，请浏览到过滤器的底部，然后单击&#x200B;**添加规则**&#x200B;按钮以访问规则生成器。
 
 拖放属性可在&#x200B;**高级过滤器**&#x200B;屏幕中生成筛选条件。
 
@@ -59,14 +59,14 @@ ht-degree: 86%
 
 使用&#x200B;**显示高级属性**&#x200B;开关以查看当前列表的所有属性。[了解详情](#adv-attributes)
 
-自定义筛选器的规则生成器的工作原理与创建受众所用的规则生成器类似。 有关如何使用该功能的详细信息，请参阅 [受众文档](../audience/segment-builder.md).
+规则生成器对于自定义过滤器的工作原理类似于用于创建受众的规则生成器。可在[受众文档](../audience/segment-builder.md)中找到关于如何使用它的详细信息。
 
 ## 使用高级属性 {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="显示高级属性"
->abstract="默认情况下，属性列表中仅显示最常见属性。使用此切换可以查看高级属性。"
+>abstract="默认情况下，属性列表中仅显示最常见属性。使用此切换按钮可以查看高级属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"

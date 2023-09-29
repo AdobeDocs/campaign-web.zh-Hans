@@ -1,16 +1,16 @@
 ---
-title: 与收件人和受众合作
+title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 
-# 与收件人和受众合作 {#about-recipients}
+# 使用收件人和受众 {#about-recipients}
 
 在Adobe Campaign中，投放的目标群体是受众。 受众是指一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 您也可以通过更改维度来处理其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
 
@@ -45,11 +45,11 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->根据您的权限，您可能无法访问存储在数据库中的完整收件人列表。 要了解有关权限的更多信息，请参阅 [本节](../get-started/permissions.md).
+>根据您的权限，您可能无法访问存储在数据库中的完整收件人列表。 可在[此部分](../get-started/permissions.md)中详细了解权限。
 
 此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](manage-services.md)
 
-您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 在[此章节](../workflows/gs-workflows.md)中了解更多信息。
+您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 可在[此部分](../workflows/gs-workflows.md)中了解详情。
 
 ## 什么是受众？ {#audiences}
 
