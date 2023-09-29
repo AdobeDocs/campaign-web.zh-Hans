@@ -3,9 +3,9 @@ audience: end-user
 title: 推送渠道的营销活动报表
 description: 了解推送渠道的活动报表
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '507'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 错误]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-* **[!UICONTROL 不同点击次数]**：在投放中至少点击一次的不同收件人的总数。
+* **[!UICONTROL 总点击次数]**：在投放中至少点击一次的不同收件人的总数。
 
 +++
 
@@ -82,7 +82,9 @@ ht-degree: 4%
 
 * **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
 
-* **[!UICONTROL 新隔离]**：在失败的投放（用户未知、域无效）后隔离的地址总数，与要投放的消息数相关。
+* **[!UICONTROL 新隔离]**：投放失败后隔离的地址总数（注册无效、消息拒绝、有效负载错误等） 与要投放的消息数相关。
+
+  推送通知错误类型列在 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -99,9 +101,9 @@ ht-degree: 4%
 
 +++了解有关推送营销活动报告量度的更多信息。
 
-* **[!UICONTROL 不同点击次数]**：在投放中至少点击一次的不同收件人的总数。
+* **[!UICONTROL 独特点击]**：在投放中至少点击一次的不同收件人的总数。
 
-* **[!UICONTROL 点击次数]**：投放中链接的点击总数。
+* **[!UICONTROL 总点击次数]**：投放中链接的点击总数。
 
 * **[!UICONTROL 反应性]**：已点击投放的目标收件人数量与已打开投放的目标收件人的估计数量之间的比率。
 
