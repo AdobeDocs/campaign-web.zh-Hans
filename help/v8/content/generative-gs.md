@@ -3,10 +3,10 @@ audience: end-user
 title: 内容助手入门
 description: 内容助手入门
 badge: label="Alpha"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 12%
+source-wordcount: '423'
+ht-degree: 11%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 12%
 
 此功能通过自动生成完整的电子邮件内容来节省时间并确保一致的质量。 通过使用Generative AI，您可以轻松创建引人注目的电子邮件，从而提高沟通的有效性和效率。
 
-<!--
-You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
+
+您可以在电子邮件中将Campaign内容助手发送至： [生成图像](generative-image.md)， [生成文本内容](generative-content.md)， [生成完整的HTML内容](generative-email.md).
 
 >[!NOTE]
 >
@@ -53,33 +53,32 @@ You can the Campaign Content Assistant in your emails to: [generate images](gene
 * 您可以上传多个品牌资产，但只能为特定世代利用一个
 
 
-<!--
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="文本生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
+<a href="generative-content.md"><strong>使用内容助手生成文本</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="图像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
+<div><a href="generative-image.md"><strong>使用内容助手生成图像</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="电子邮件生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
+<a href="generative-email.md"><strong>使用内容助手生成电子邮件</strong></a>
 </div>
 <p></td>
 </tr></table>
--->
 
