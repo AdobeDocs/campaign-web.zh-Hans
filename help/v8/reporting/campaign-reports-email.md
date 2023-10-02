@@ -218,7 +218,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="打开和点进率"
->abstract="**打开和点进率**&#x200B;表显示与投放中的参与收件人相关的数据。"
+>abstract="**打开和点进率**&#x200B;表显示与接收者参与投放相关的数据。"
 
 
 

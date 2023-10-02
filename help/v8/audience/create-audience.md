@@ -16,7 +16,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="从该屏幕中，您可以访问可在投放中定位的所有受众的列表。单击&#x200B;**创建**&#x200B;以使用各种工作流活动（例如&#x200B;**拆分**&#x200B;或&#x200B;**排除**）在视觉画布中创建新受众。"
+>abstract="可从此屏幕访问可在投放中定位的所有受众的列表。单击&#x200B;**创建**&#x200B;以使用&#x200B;**拆分**&#x200B;或&#x200B;**排除**&#x200B;等各种工作流活动将新受众创建到视觉画布中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

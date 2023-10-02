@@ -17,14 +17,14 @@ ht-degree: 37%
 >title="报告发送"
 >abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
-**短信投放概述**&#x200B;全面概述了短信投放，并提供了大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。
+**短信投放概述**&#x200B;全面概述短信投放，其中提供大量见解和具体数据。它提供有关投放的效果、有效性和结果的全面信息。
 
 ## 投放摘要 {#delivery-summary}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="短信投放概述"
->abstract="**短信投放概述**&#x200B;全面概述了短信投放，并提供了大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
+>abstract="**短信投放概述**&#x200B;全面概述短信投放，其中提供大量见解和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
 
 ### 投放概述 {#sms-delivery-overview}
 
@@ -71,7 +71,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
 >title="推送整体统计数据"
->abstract="**整体统计数据**&#x200B;报告显示已发送短信的数据：成功、错误和隔离。"
+>abstract="**整体统计数据**&#x200B;报告显示已发送的短信的数据：成功次数、错误次数和隔离次数。"
 
 此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
 
@@ -92,7 +92,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="短信整体统计数据"
->abstract="**排除项**&#x200B;图表显示阻止已从目标配置文件中排除的用户配置文件接收消息的各种原因。"
+>abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
 
 
 此 **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.

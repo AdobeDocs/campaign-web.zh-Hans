@@ -15,8 +15,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="受众错误"
->abstract="受众数据不可用。请等待工作流执行结束。"
+>title="受众出错"
+>abstract="无受众数据可用。请等待工作流执行结束。"
 
 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
 

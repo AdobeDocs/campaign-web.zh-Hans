@@ -121,7 +121,7 @@ ht-degree: 22%
 >title="广播统计数据"
 >abstract="此 **广播统计信息** 报告包含每个域可能遇到的错误的可用数据。"
 
-**[!UICONTROL 广播统计数据]**&#x200B;表包含每个域可能遇到的错误的可用数据。指标详见下文。
+**[!UICONTROL 广播统计]**&#x200B;表包含每个域可能遇到的错误的可用数据。指标详见下文。
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -200,7 +200,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="报告跟踪"
->abstract="报告中的&#x200B;**跟踪**&#x200B;选项卡提供宝贵的数据（包括每个链接的收件人行为、打开和点击的细分）以及有关投放过程中最常点击的 URL 的详细信息。"
+>abstract="报告中的&#x200B;**跟踪**&#x200B;选项卡提供宝贵的数据（包括每个链接的接收者行为、打开和点击的细分）以及有关投放过程中最常点击的 URL 的详细信息。"
 
 
 ### 投放统计信息  {#email-tracking-delivery-stats}
@@ -236,7 +236,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="打开和点进率"
->abstract="**打开和点进率**&#x200B;表显示与投放中的参与收件人相关的数据。"
+>abstract="**打开和点进率**&#x200B;表显示与接收者参与投放相关的数据。"
 
 
 
@@ -320,9 +320,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="用户活动构件"
->abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。您可以选择时段来定位数据：最后一天、最后一小时或最后 30 分钟。"
+>abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。"
 
-此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 您可以选择时段来定位数据：最后一天、最后一小时或最后 30 分钟。
+此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。
 
 ![](assets/reporting_email_10.png){align="center"}
 
@@ -339,9 +339,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="跟踪统计数据构件"
->abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计数据。您可以选择特定时间范围来定位数据。"
+>abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。"
 
-**[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计数据。您可以选择特定时间范围来定位数据。
+**[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。
 
 ![](assets/reporting_email_11.png){align="center"}
 
@@ -374,7 +374,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
->abstract="此 **按操作系统细分** 报表按操作系统显示相关期间打开的细目。 第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每个OS的确切数量和百分比。"
+>abstract="此 **按操作系统细分** 报表按操作系统显示相关期间打开的细目。 第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个显示每个OS的确切数量和百分比。"
 
 此 **按操作系统细分** 报表显示期间按操作系统打开的细目：Windows系统、Android系统、iOS系统或其他。
 
@@ -387,7 +387,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="此 **按浏览器细分** 显示期间按浏览器打开的细目。 第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每个浏览器的确切数量和百分比。"
+>abstract="此 **按浏览器细分** 显示期间按浏览器打开的细目。 第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个显示每个浏览器的确切数量和百分比。"
 
 此 **按浏览器细分** 报表显示通过浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 
@@ -401,8 +401,8 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="热门点击次数报表"
->abstract="**热门点击**&#x200B;报告显示电子邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接将计入总累计点击次数，但不会显示在报告中。"
+>abstract="**热门点击**&#x200B;报告显示电子邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接计入总累计点击次数，但不显示在报告中。"
 
-此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接将计入总累计点击次数，但不会显示在报告中。
+此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接计入总累计点击次数，但不显示在报告中。
 
 ![](assets/reporting11.png)
