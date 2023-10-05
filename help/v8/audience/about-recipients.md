@@ -2,13 +2,13 @@
 title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
-
 
 # 使用收件人和受众 {#about-recipients}
 
@@ -47,13 +47,13 @@ ht-degree: 17%
 >
 >根据您的权限，您可能无法访问存储在数据库中的完整收件人列表。 可在[此部分](../get-started/permissions.md)中详细了解权限。
 
-此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 [了解如何使用订阅服务](manage-services.md)
+此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 了解如何使用中的订阅服务 [此页面](manage-services.md)
 
 您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 可在[此部分](../workflows/gs-workflows.md)中了解详情。
 
 ## 什么是受众？ {#audiences}
 
-受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。[了解什么是投放模板](../msg/delivery-template.md).
+受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。要了解有关投放模板的更多信息，请参阅 [此页面](../msg/delivery-template.md).
 
 要定义受众群体，您可以：
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在活动工作流中定义投放的受众 [在此部分中](../workflows/activities/build-audience.md)
+>在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在的营销活动工作流中定义投放的受众 [本节](../workflows/activities/build-audience.md)
 
 ## 定位维度 {#targeting-dimensions}
 
