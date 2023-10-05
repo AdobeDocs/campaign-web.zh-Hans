@@ -4,15 +4,20 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '478'
 ht-degree: 100%
 
 ---
 
 # 开始使用 Campaign Web {#get-started}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="开始使用"
+>abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
