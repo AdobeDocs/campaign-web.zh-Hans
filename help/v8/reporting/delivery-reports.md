@@ -4,10 +4,10 @@ title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 43%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="重新加载"
->abstract="单击&#x200B;**重新加载**&#x200B;按钮以检索过去的量度并刷新数据。"
+>title="导出"
+>abstract="单击 **导出** 按钮将这些指标导出为PDF或CSV格式，以便您共享或打印它们。 "
 
 Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这些报告可让您在内置仪表板中衡量和可视化邮件的影响和效果。
 
