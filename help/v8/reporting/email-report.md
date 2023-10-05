@@ -3,10 +3,11 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 22%
+ht-degree: 38%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="初始目标群体"
->abstract="此 **初始目标人群** 图形根据投放准备的结果显示与收件人和消息相关的数据。"
+>abstract="**初始目标群体**&#x200B;图表按投放准备结果显示与收件人和消息相关的数据。"
 
 此 **[!UICONTROL 初始目标人群]** 图形显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
 
@@ -52,7 +53,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="投放统计信息"
->abstract="此 **投放统计信息** 图表详细说明了交付的成功以及发生的错误。"
+>abstract="**投放统计信息**&#x200B;图表详述投放是否成功和发生的错误。"
 
 
 此 **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。 指标详见下文。
@@ -77,10 +78,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="投放统计信息"
->abstract="此 **排除的原因** 图形和表格显示了投放准备期间拒绝的消息按规则细分。"
+>abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
 
-此 **[!UICONTROL 排除的原因]** 图形和表格显示了投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 排除的原因]**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -119,7 +120,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="广播统计数据"
->abstract="此 **广播统计信息** 报告包含每个域可能遇到的错误的可用数据。"
+>abstract="**广播统计数据**&#x200B;报告包含每个域可能遇到的错误的可用数据。"
 
 **[!UICONTROL 广播统计]**&#x200B;表包含每个域可能遇到的错误的可用数据。指标详见下文。
 
@@ -149,7 +150,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="按类型细分错误"
->abstract="此 **每种类型的错误细分** 表和图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等等。"
+>abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
 此 **[!UICONTROL 每种类型的错误细分]** 表和图形包含用于错误类型的可用数据。 指标详见下文。
 
@@ -182,7 +183,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="按域细分错误"
->abstract="此 **每个域的错误细分** 表格和图形会根据每个域显示遇到的每种错误类型的可用数据。"
+>abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形可显示每个域可能遇到的错误的可用数据。
@@ -209,7 +210,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 投放统计信息"
->abstract="此 **投放统计信息** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息：成功、打开、点击等。"
+>abstract="**投放统计信息**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关可用于已发送电子邮件的数据的详细信息：成功、打开次数、点击次数等。"
 
 
 此 **[!UICONTROL 投放统计信息]** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
@@ -262,10 +263,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL 和点击流"
->abstract="此 **URL和点击流** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。"
+>abstract="**URL 和点击流**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。"
 
 
-此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。
+**[!UICONTROL URL 和点击流]**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -287,7 +288,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="此 **前10个访问次数最多的链接** rgraph和表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图形和表包含每个链接的收件人行为的可用数据。"
 
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。
@@ -308,7 +309,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
->abstract="此 **随时间细分的点击量** 该图显示了每个链接的收件人行为的可用数据。"
+>abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的收件人行为的可用数据。"
 
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
@@ -360,11 +361,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="按设备细分"
->abstract="此 **按设备细分** 报表按设备显示了在相应时间段内打开的细目。 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每种设备类型的确切数量和百分比。"
+>abstract="**按设备细分**&#x200B;报告显示相关时段的按设备类型细分的打开次数。为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示每种设备类型的确切数量和百分比。"
 
 此 **按设备细分** 报表按设备显示的时段打开数细分：个人计算机、Android设备、Apple设备或其他。
 
-为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个显示每种设备类型的确切数量和百分比。
+为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示每种设备类型的确切数量和百分比。
 
 ![](assets/reporting_email_13.png){align="center"}
 
@@ -374,7 +375,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
->abstract="此 **按操作系统细分** 报表按操作系统显示相关期间打开的细目。 第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个显示每个OS的确切数量和百分比。"
+>abstract="**按操作系统细分**&#x200B;报告显示相关时段的按操作系统细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种操作系统的确切数量和百分比。"
 
 此 **按操作系统细分** 报表显示期间按操作系统打开的细目：Windows系统、Android系统、iOS系统或其他。
 
@@ -387,11 +388,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="此 **按浏览器细分** 显示期间按浏览器打开的细目。 第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个显示每个浏览器的确切数量和百分比。"
+>abstract="**按浏览器细分**&#x200B;显示时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种浏览器的确切数量和百分比。"
 
 此 **按浏览器细分** 报表显示通过浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 
-为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个浏览器的确切数量和百分比。
+为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个图表显示每种浏览器的确切数量和百分比。
 
 ![](assets/reporting_email_13.2.png){align="center"}
 
@@ -400,7 +401,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
->title="热门点击次数报表"
+>title="热门点击报告"
 >abstract="**热门点击**&#x200B;报告显示电子邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接计入总累计点击次数，但不显示在报告中。"
 
 此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接计入总累计点击次数，但不显示在报告中。

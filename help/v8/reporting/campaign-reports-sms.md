@@ -3,13 +3,13 @@ audience: end-user
 title: 短信渠道的营销活动报告
 description: 了解短信渠道的营销活动报告
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 4%
+ht-degree: 25%
 
 ---
-
 
 # 短信渠道的营销活动报告 {#campaign-reports-sms-channel}
 
@@ -20,10 +20,10 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_deliveries_overview"
 >title="投放概述"
->abstract="此 **投放概述** 报告提供关键绩效指标(KPI)，提供关于访客如何参与短信投放的详细信息。"
+>abstract="**投放概述**&#x200B;报告提供关键绩效指标 (KPI)，后者给出有关访客如何与短信投放互动的详细信息。"
 
 
-此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与短信投放的详细信息。 指标详见下文。
+**[!UICONTROL 投放概述]**&#x200B;报告提供关键绩效指标 (KPI)，后者给出有关访客如何与短信投放互动的详细信息。指标详见下文。
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -45,9 +45,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="初始目标受众统计数据"
->abstract="此 **初始目标受众统计信息** 表格显示与收件人相关的数据"
+>abstract="**初始目标受众统计数据**&#x200B;表显示与您的收件人相关的数据"
 
-此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示与您的收件人相关的数据. 指标详见下文。
 
 
 ![](assets/campaign_report_sms_2.png)
@@ -69,7 +69,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="执行统计数据"
->abstract="此 **执行统计信息** 表详细说明了投放的成功情况：要投放的消息、成功、错误和新隔离。"
+>abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息、成功、错误和新隔离。"
 
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
@@ -97,7 +97,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
 >title="生成的点击流"
->abstract="此 **生成的点击流** 该表显示了相对于收件人与投放交互方式的可用数据。"
+>abstract="**生成的点击流**&#x200B;表显示有关收件人与投放互动的方式的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 

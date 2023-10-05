@@ -3,13 +3,13 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 9%
+ht-degree: 24%
 
 ---
-
 
 # 电子邮件渠道的营销活动报表 {#campaign-reports-email-channel}
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="投放概述"
->abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于提供关于访客如何参与电子邮件投放的详细信息。"
+>abstract="**投放概述**&#x200B;提供关键绩效指标 (KPI)，后者给出有关访客如何与电子邮件投放互动的详细信息。"
 
 ### 投放概述 {#delivery-summary-email-ovv}
 
@@ -50,7 +50,7 @@ ht-degree: 9%
 >abstract="初始目标受众统计数据表显示与您的收件人相关的数据"
 
 
-此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示与您的收件人相关的数据. 指标详见下文。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="执行统计数据"
->abstract="此 **执行统计信息** 表详细说明了投放的成功情况：要投放的消息、成功、错误和新隔离。"
+>abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息、成功、错误和新隔离。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="反应统计数据"
->abstract="此 **反应统计信息** 该表显示了您的投放的收件人活动的可用数据：打开次数、订阅数、退订数、单击以镜像页面链接。"
+>abstract="**反应统计数据**&#x200B;表显示投放的收件人活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
 
 
 此 **[!UICONTROL 反应统计信息]** 表包含投放的收件人活动的可用数据。 指标详见下文。
@@ -121,7 +121,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="生成的点击流"
->abstract="此 **生成的点击流** 该表显示了相对于收件人与投放交互方式的可用数据。"
+>abstract="**生成的点击流**&#x200B;表显示有关收件人与投放互动的方式的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 
@@ -145,7 +145,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
 >title="按类型细分错误"
->abstract="此 **每种类型的错误细分** 表和图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等等。"
+>abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
 此 **[!UICONTROL 每种类型的错误细分]** 表格和图形包含每种域类型可能遇到的错误的可用数据。 指标详见下文。
 
@@ -177,7 +177,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="按域细分错误"
->abstract="此 **每个域的错误细分** 表格和图形会根据每个域显示遇到的每种错误类型的可用数据。"
+>abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
 
 此 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。 指标与以下内容通用 **[!UICONTROL 每种类型的错误细分]** 表格和图形详见上文。
@@ -191,7 +191,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="投放统计信息"
->abstract="此 **投放统计信息** 图表详细说明了交付的成功以及发生的错误。"
+>abstract="**投放统计信息**&#x200B;图表详述投放是否成功和发生的错误。"
 
 此 **[!UICONTROL 投放统计信息]** 量度提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
 
@@ -244,9 +244,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL 和点击流"
->abstract="此 **URL和点击流** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。"
+>abstract="**URL 和点击流**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。"
 
-此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。 指标详见下文。
+**[!UICONTROL URL 和点击流]**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。指标详见下文。
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="此 **前10个访问次数最多的链接** rgraph和表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图形和表包含每个链接的收件人行为的可用数据。"
 
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
@@ -287,7 +287,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
->abstract="此 **随时间细分的点击量** 该图显示了每个链接的收件人行为的可用数据。"
+>abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的收件人行为的可用数据。"
 
 
 该 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
