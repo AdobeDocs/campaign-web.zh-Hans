@@ -4,19 +4,14 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1253'
 ht-degree: 92%
 
 ---
 
 # 探索界面 {#user-interface}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
->title="探索界面"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 新的 Campaign v8 Web 界面提供一种现代而直观的用户体验以简化营销活动的设计和投放。此新界面与 Adobe Experience Cloud 应用程序和解决方案集成。
 
