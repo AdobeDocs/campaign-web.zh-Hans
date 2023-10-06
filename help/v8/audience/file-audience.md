@@ -32,7 +32,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="预览文件"
->abstract="检查文件预览。此屏幕最多只显示 30 条记录。"
+>abstract="检查文件的预览。此屏幕最多只能显示 30 条记录。"
 
 
 

@@ -27,7 +27,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="初始目标群体"
->abstract="**初始目标群体**&#x200B;图表按投放准备结果显示与收件人和消息相关的数据。"
+>abstract="**初始目标群体**&#x200B;图表按投放准备的结果显示与接收者和消息相关的数据。"
 
 此 **[!UICONTROL 初始目标人群]** 图形显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
 
@@ -210,7 +210,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 投放统计信息"
->abstract="**投放统计信息**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关可用于已发送电子邮件的数据的详细信息：成功、打开次数、点击次数等。"
+>abstract="**投放统计信息**&#x200B;报告提供关键绩效指标 (KPI)，这些指标详述对发送电子邮件可用的数据：是否成功、打开次数、点击次数等。"
 
 
 此 **[!UICONTROL 投放统计信息]** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
@@ -237,7 +237,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="打开和点进率"
->abstract="**打开和点进率**&#x200B;表显示与接收者参与投放相关的数据。"
+>abstract="**打开和点进率**&#x200B;表显示有关接收者与投放互动的数据。"
 
 
 
@@ -263,10 +263,10 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL 和点击流"
->abstract="**URL 和点击流**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。"
+>abstract="**URL 和点击流**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。"
 
 
-**[!UICONTROL URL 和点击流]**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。
+**[!UICONTROL URL 和点击流]**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -288,7 +288,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="**访问量排名前 10 的链接**&#x200B;图形和表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的接收者行为的可用数据。"
 
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。
@@ -309,7 +309,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
->abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的收件人行为的可用数据。"
+>abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
 
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
@@ -388,7 +388,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="**按浏览器细分**&#x200B;显示时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种浏览器的确切数量和百分比。"
+>abstract="**按浏览器细分**&#x200B;显示相关时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种浏览器的确切数量和百分比。"
 
 此 **按浏览器细分** 报表显示通过浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 

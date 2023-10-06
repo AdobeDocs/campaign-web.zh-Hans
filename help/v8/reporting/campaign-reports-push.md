@@ -20,9 +20,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="投放概述"
->abstract="**投放概述**&#x200B;报告提供关键绩效指标 (KPI)，后者给出有关访客如何与推送通知投放互动的详细信息。"
+>abstract="**投放概述**&#x200B;报告提供详述访客如何与推送通知投放互动的关键绩效指标 (KPI)。"
 
-**[!UICONTROL 投放概述]**&#x200B;报告提供关键绩效指标 (KPI)，后者给出有关访客如何与推送通知投放互动的详细信息。指标详见下文。
+**[!UICONTROL 投放概述]**&#x200B;报告提供详述访客如何与推送通知投放互动的关键绩效指标 (KPI)。指标详见下文。
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -45,9 +45,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="初始目标受众统计数据"
->abstract="**初始目标受众统计数据**&#x200B;表显示与您的收件人相关的数据"
+>abstract="**初始目标受众统计数据**&#x200B;表显示有关您的接收者的数据"
 
-**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示与您的收件人相关的数据. 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的接收者的数据. 指标详见下文。
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -67,7 +67,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="执行统计数据"
->abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息、成功、错误和新隔离。"
+>abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
@@ -93,7 +93,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="生成的点击流"
->abstract="**生成的点击流**&#x200B;表显示有关收件人与投放互动的方式的可用数据。"
+>abstract="**生成的点击流**&#x200B;表显示有关接收者与投放如何互动的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 

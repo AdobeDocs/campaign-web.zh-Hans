@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="投放概述"
->abstract="**投放概述**&#x200B;提供关键绩效指标 (KPI)，后者给出有关访客如何与电子邮件投放互动的详细信息。"
+>abstract="**投放概述**&#x200B;提供详述访客如何与电子邮件投放互动的关键绩效指标 (KPI)。"
 
 ### 投放概述 {#delivery-summary-email-ovv}
 
@@ -47,10 +47,10 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="初始目标受众统计数据"
->abstract="初始目标受众统计数据表显示与您的收件人相关的数据"
+>abstract="初始目标受众统计数据表显示有关您的接收者的数据"
 
 
-**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示与您的收件人相关的数据. 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的接收者的数据. 指标详见下文。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,7 +70,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="执行统计数据"
->abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息、成功、错误和新隔离。"
+>abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
@@ -96,7 +96,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="反应统计数据"
->abstract="**反应统计数据**&#x200B;表显示投放的收件人活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
+>abstract="**反应统计数据**&#x200B;表显示投放的接收者活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
 
 
 此 **[!UICONTROL 反应统计信息]** 表包含投放的收件人活动的可用数据。 指标详见下文。
@@ -121,7 +121,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="生成的点击流"
->abstract="**生成的点击流**&#x200B;表显示有关收件人与投放互动的方式的可用数据。"
+>abstract="**生成的点击流**&#x200B;表显示有关接收者与投放如何互动的可用数据。"
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 
@@ -218,7 +218,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="打开和点进率"
->abstract="**打开和点进率**&#x200B;表显示与接收者参与投放相关的数据。"
+>abstract="**打开和点进率**&#x200B;表显示有关接收者与投放互动的数据。"
 
 
 
@@ -244,9 +244,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL 和点击流"
->abstract="**URL 和点击流**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。"
+>abstract="**URL 和点击流**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。"
 
-**[!UICONTROL URL 和点击流]**&#x200B;报告提供关键绩效指标 (KPI)，其中包含有关投放期间点击次数最多的 URL 的详细信息。指标详见下文。
+**[!UICONTROL URL 和点击流]**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。指标详见下文。
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="**访问量排名前 10 的链接**&#x200B;图形和表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的接收者行为的可用数据。"
 
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
@@ -287,7 +287,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
->abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的收件人行为的可用数据。"
+>abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
 
 
 该 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
