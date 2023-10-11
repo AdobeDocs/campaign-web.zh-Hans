@@ -4,9 +4,9 @@ title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1175'
 ht-degree: 67%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 67%
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从您的资源中选择图像文件。您还可以选择 **[!UICONTROL 导入您的媒体]**.
 
-   要详细了解如何在Assets Essentials中上传和添加资源，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+   要详细了解如何在Adobe Experience Manager中上传和添加资源，请参阅 [Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![](assets/email_designer_28.png)
 
@@ -166,7 +166,6 @@ ht-degree: 67%
    找到要查找的资源后，单击 **[!UICONTROL 选择]**.
 
    ![](assets/email_designer_29.png)
-
 
 1. 单击新添加的组件，然后使用设置图像属性 **[!UICONTROL 设置]** 选项卡：
 

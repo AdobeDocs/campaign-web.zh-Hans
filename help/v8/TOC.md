@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 85%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -46,8 +46,9 @@ ht-degree: 85%
             + [添加指向镜像页面的链接](content/mirror-page.md)
             + [添加邮件引文](content/preheader.md)
             + [生成文本版本](content/text-version-email.md)
+            + [as a Cloud Service使用Adobe Experience Manager Assets管理资源](content/aem-assets.md)
          + 内容助手 {#content-assistant}
-            + [内容助手入门](content/generative-gs.md)
+            + [开始使用内容助手](content/generative-gs.md)
             + [使用内容助手生成文本](content/generative-content.md)
             + [使用内容助手生成图像](content/generative-image.md)
             + [使用内容助手生成电子邮件](content/generative-email.md)
@@ -76,8 +77,8 @@ ht-degree: 85%
       + [添加个性化内容](personalization/personalize.md)
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
-   + [将优惠添加到消息](content/offers.md)
-   + [向订阅者发送消息](content/send-to-subscribers.md)
+   + [将优惠添加到您的消息中](content/offers.md)
+   + [向您的订阅者发送消息](content/send-to-subscribers.md)
    + 预览和测试投放{#preview-test}
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
@@ -86,13 +87,13 @@ ht-degree: 85%
 + 受众和收件人 {#audiences}
    + [使用收件人和受众](audience/about-recipients.md)
    + [创建受众](audience/create-audience.md)
-   + 选择投放收件人 {#target-audiences}
+   + 选择您的投放收件人 {#target-audiences}
       + [选择现有受众](audience/add-audience.md)
-      + [构建一次性受众](audience/one-time-audience.md)
+      + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载受众](audience/file-audience.md)
       + [设置对照组](audience/control-group.md)
    + [使用规则生成器](audience/segment-builder.md)
-   + [监控和管理受众](audience/manage-audience.md)
+   + [检测和管理受众](audience/manage-audience.md)
    + 使用订阅服务 {#work-with-services}
       + [管理服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)
@@ -132,7 +133,7 @@ ht-degree: 85%
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
    + 营销活动报告 {#campaign-report}
-      + [访问活动报表](reporting/campaign-reports.md)
+      + [访问营销活动报告](reporting/campaign-reports.md)
       + [通过电子邮件发送营销活动报告](reporting/campaign-reports-email.md)
-      + [推送营销活动报表](reporting/campaign-reports-push.md)
-      + [短信营销活动报告](reporting/campaign-reports-sms.md)
+      + [推送营销活动报告](reporting/campaign-reports-push.md)
+      + [通过短信发送营销活动报告](reporting/campaign-reports-sms.md)
