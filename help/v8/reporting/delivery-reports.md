@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 35%
+ht-degree: 50%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="导出"
->abstract="单击 **导出** 按钮将这些指标导出为PDF或CSV格式，以便您共享或打印它们。 "
+>abstract="单击“**导出**”按钮，将这些量度导出为 PDF 或 CSV 格式以便共享或打印。 "
 
 Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这些报告可让您在内置仪表板中衡量和可视化邮件的影响和效果。
 
