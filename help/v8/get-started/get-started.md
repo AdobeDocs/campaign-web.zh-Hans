@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# 开始使用 Campaign Web {#get-started}
+# Campaign Web 快速入门 {#get-started}
 
 
 >[!CONTEXTUALHELP]

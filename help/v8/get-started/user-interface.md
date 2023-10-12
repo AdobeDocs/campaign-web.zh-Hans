@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 ## 左侧导航菜单 {#user-interface-left-nav}
 
-浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[章节](#list-screens)。某些列表屏幕为只读。左侧导航菜单和列表中显示的项目取决于您的用户权限。可在[此部分](permissions.md)中详细了解权限。
+浏览左侧链接以访问 Campaign v8 Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[部分](#list-screens)。某些列表屏幕为只读。左侧导航菜单和列表中显示的项目取决于您的用户权限。可在[此部分](permissions.md)中详细了解权限。
 
 ![](assets/home.png)
 
@@ -48,7 +48,7 @@ ht-degree: 92%
 
 **资源管理器**&#x200B;中显示的项目取决于您的用户权限。如果您具有适当的权限，也可以添加文件夹和子文件夹。可在[此部分](permissions.md)中详细了解权限。
 
-您可以配置列以自定义显示方式，以查看您需要的所有信息。 请参阅此[章节](#list-screens)。您还可以添加文件夹和子文件夹，如中所述 [本节](permissions.md#folders).
+可配置列以自定义显示，以便查看所需的所有信息。请参阅此[部分](#list-screens)。还可添加文件夹和子文件夹，如[此部分](permissions.md#folders)中所详述。
 
 有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 
@@ -110,9 +110,9 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-在新的Beta版本中， **AI支持的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
+通过新的 Beta 版本，嵌入在上下文帮助中的 **AI 支持的知识助手**&#x200B;彻底改变了文档搜索和解答操作方法疑问的方式，它可轻松地筛选大型文档存储库并立即找出所需的准确信息。
 
-通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂任务中寻求指导，还是浏览大量文档，AI支持的知识助手都是您的终极伙伴，可在每次交互中提供无与伦比的效率和准确性。
+通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的 AI 支持的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
 可在[此部分](using-ai.md)中了解详情。
 

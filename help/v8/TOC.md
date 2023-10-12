@@ -48,10 +48,10 @@ ht-degree: 97%
             + [生成文本版本](content/text-version-email.md)
             + [as a Cloud Service使用Adobe Experience Manager Assets管理资源](content/aem-assets.md)
          + 内容助手 {#content-assistant}
-            + [开始使用内容助手](content/generative-gs.md)
-            + [使用内容助手生成文本](content/generative-content.md)
-            + [使用内容助手生成图像](content/generative-image.md)
-            + [使用内容助手生成电子邮件](content/generative-email.md)
+            + [内容助手快速入门](content/generative-gs.md)
+            + [用内容助手生成文本](content/generative-content.md)
+            + [用内容助手生成图像](content/generative-image.md)
+            + [用内容助手生成电子邮件](content/generative-email.md)
          + 设置内容的样式 {#style}
             + [开始使用电子邮件样式](content/get-started-email-style.md)
             + [编辑背景设置](content/backgrounds.md)
@@ -77,8 +77,8 @@ ht-degree: 97%
       + [添加个性化内容](personalization/personalize.md)
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
-   + [将优惠添加到您的消息中](content/offers.md)
-   + [向您的订阅者发送消息](content/send-to-subscribers.md)
+   + [将优惠添加到您的消息](content/offers.md)
+   + [将消息发送到您的订阅者](content/send-to-subscribers.md)
    + 预览和测试投放{#preview-test}
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
@@ -93,7 +93,7 @@ ht-degree: 97%
       + [从文件加载受众](audience/file-audience.md)
       + [设置对照组](audience/control-group.md)
    + [使用规则生成器](audience/segment-builder.md)
-   + [检测和管理受众](audience/manage-audience.md)
+   + [监控和管理受众](audience/manage-audience.md)
    + 使用订阅服务 {#work-with-services}
       + [管理服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)

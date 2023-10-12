@@ -98,7 +98,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 * **采用生成式 AI 的知识助手**
 
-  直接从产品用户界面提出问题并寻求指导。新的 **AI 驱动型知识助手**&#x200B;嵌入在上下文帮助弹出框中，帮助您学习和增加有关新 Campaign 功能的专业知识。根据最新的产品文档，它在您构建用例时帮助您立即找到帮助并获得分步指导。
+  直接从产品用户界面提出问题并寻求指导。新的 **AI 驱动型知识助手**&#x200B;嵌入在上下文帮助弹出框中，帮助您学习和增加有关新 Campaign 功能的专业知识。根据最新的产品文档，它在您生成用例时帮助您立即找到帮助并获得分步指导。
 
   可在[此部分](../get-started/using-ai.md)中了解详情。
 
@@ -113,7 +113,7 @@ Campaign 的新 Web UI 提供了新的用户体验，并与所有 Adobe Experien
 
 作为 Campaign 用户，您仍可以访问客户端控制台来生成和管理 Campaign 资源和组件。数据和设置将从一个环境同步到另一个环境。可在[此部分](../get-started/get-started.md#about-campaign-client-consoleac-client)中了解详情。
 
-此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从探索工具的左侧导航中）。在[此章节](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
+此外，可以在 Campaign Web UI 中查看您在客户端控制台中可用的所有数据和设置（从探索工具的左侧导航中）。在[此部分](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
 
 随着 Campaign Web Beta 版的发布，用户界面反映了用户的权限。可在[此页面](../get-started/permissions.md)中详细了解权限
 
