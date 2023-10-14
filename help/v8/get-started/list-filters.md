@@ -3,13 +3,13 @@ audience: end-user
 title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 69%
 
 ---
-
 
 # 浏览、搜索和过滤列表 {#list-screens}
 
@@ -66,22 +66,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="显示高级属性"
->abstract="默认情况下，属性列表中仅显示最常见属性。使用此切换按钮可以查看高级属性。"
+>abstract="默认情况下，属性列表中仅显示最常见的属性。 激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="规则生成器高级字段"
->abstract="为高级过滤器配置高级字段。"
+>abstract="默认情况下，属性列表中仅显示最常见的属性。 激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="规则生成器高级属性"
->abstract="使用高级属性定义您的规则。"
+>abstract="默认情况下，属性列表中仅显示最常见的属性。 激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。"
 
 
 默认情况下，属性列表和过滤器配置屏幕中仅显示最常见属性。配置屏幕中将隐藏设置为数据架构中的 `advanced` 属性的属性。
 
-激活&#x200B;**显示高级属性**&#x200B;开关可查看当前列表的所有可用属性：将立即更新属性列表。
+激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。 属性列表会立即更新。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
