@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,6 @@ ht-degree: 100%
 
 可在[此部分](../content/offers.md)中了解如何在电子邮件和短信中创建和发送优惠。
 
-## 顶部栏 {#top-bar}
-
-利用界面的顶部栏，可以：
-
-* 作为 Beta 测试人员分享您的反馈
-* 在组织和实例之间切换
-* 在 Adobe Experience Cloud 应用程序之间切换
-* 访问帮助页面、联系支持人员和共享反馈。您可以从搜索字段中搜索帮助文章和视频。
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## 上下文帮助 {#user-interface-help}
@@ -120,37 +107,10 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 Campaign v8 Web 旨在以最佳状态在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中运行。您可能无法在较旧版本或其他浏览器上使用某些功能。
 
-## 语言偏好设置 {#language-pref}
-
-Campaign v8 Web 目前提供以下语言版本：
-
-* 英语（美国）- EN-US
-* 法语 - FR
-* 德语 - DE
-* 意大利语 - IT
-* 西班牙语 - ES
-* 葡萄牙语（巴西）- PTBR
-* 日语 - JP
-* 朝鲜语 - KR
-* 简体中文 - CHS
-* 繁体中文 - CHT
-
-
-在您的用户配置文件中指定的首选语言决定您的 Campaign Web 默认语言。它与 Campaign 服务器和客户端控制台的语言无关。
-
-要更改您的语言，请执行以下操作：
-
-1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
-1. 然后单击电子邮件地址下方显示的语言链接。
-1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
-
-## 深色主题 {#dark-theme}
-
-您可以从配置文件图标切换到深色主题。使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
-
 ## 了解详情 {#learn-more}
 
 参阅[此页面](list-filters.md)，了解如何浏览、搜索和筛选 Campaign 环境中可用的列表。
+
 
 
 <!--
