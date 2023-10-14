@@ -2,10 +2,10 @@
 title: 连接到Adobe Campaign Web界面
 description: 了解如何连接到Adobe Campaign v8 Web用户界面
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 48%
+source-wordcount: '474'
+ht-degree: 31%
 
 ---
 
@@ -38,28 +38,27 @@ Experience Cloud是Adobe的集成式数字营销应用程序、产品和服务�
 
 要访问Campaign环境，请选择 **营销活动** 从Adobe Experience Cloud主页。
 
-如果您有权访问多个环境，包括Campaign控制面板，请单击 **Launch** 按钮进行标记。
-
-![](assets/launch-campaign.png)
-
 您还可以使用解决方案切换器在您的Adobe Experience Cloud解决方案和应用程序之间浏览。
 
 ![](assets/solution-switcher.png)
+
+如果您有权访问多个环境，包括Campaign控制面板，请单击 **Launch** 按钮以查找正确的实例。
+
+![](assets/launch-campaign.png)
 
 ## Adobe Experience Cloud顶部导航 {#top-bar}
 
 利用界面的顶部栏，可以：
 
-* 作为 Beta 测试人员分享您的反馈
-* 在组织和实例之间切换
-* 在 Adobe Experience Cloud 应用程序之间切换
-* 访问帮助页面、联系支持人员和共享反馈。您可以从搜索字段中搜索帮助文章和视频。
+* 以测试版用户共享您的反馈
+* 在组织之间切换
+* 在Adobe Experience Cloud解决方案和应用程序之间切换
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## 支持的浏览器 {#browsers}
 
-Campaign v8 Web 旨在以最佳状态在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中运行。您可能无法在较旧版本或其他浏览器上使用某些功能。
+Campaign v8 Web可在最新版本的Google Chrome、Safari和Microsoft Edge中以最佳方式工作。 在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
 
 ## 语言偏好设置 {#language-pref}
 
@@ -83,7 +82,7 @@ Campaign v8 Web 目前提供以下语言版本：
 
 1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
 1. 然后单击电子邮件地址下方显示的语言链接。
-1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
+1. 选择您的首选语言并单击&#x200B;**保存**。如果您正在使用的组件未本地化为您的第一语言，那么您可以选择第二种语言。
 
 ## 深色主题 {#dark-theme}
 
