@@ -3,10 +3,11 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 37%
+source-wordcount: '513'
+ht-degree: 33%
 
 ---
 
@@ -70,7 +71,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="推送整体统计数据"
+>title="短信整体统计数据"
 >abstract="**整体统计数据**&#x200B;报告显示已发送的短信的数据：成功次数、错误次数和隔离次数。"
 
 此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
@@ -91,7 +92,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="短信整体统计数据"
+>title="短信排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
 
 
@@ -103,10 +104,9 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="投放吞吐量菜单"
->abstract="投放吞吐量报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
+>title="SMS投放吞吐量"
+>abstract="此 **投放吞吐量** 报表显示指定时间范围内投放吞吐量的详细信息。  用于测量消息投放速度的主要指标是每小时发送的消息数。"
 
-此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
+此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
 
 ![](assets/reporting_sms_2.png)
-
