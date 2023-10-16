@@ -4,7 +4,7 @@ title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 38%
@@ -77,7 +77,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="投放统计信息"
+>title="排除的投放原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
 
@@ -320,7 +320,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="用户活动构件"
+>title="用户活动"
 >abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。"
 
 此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。
@@ -339,7 +339,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="跟踪统计数据构件"
+>title="跟踪统计数据"
 >abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。"
 
 **[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。
