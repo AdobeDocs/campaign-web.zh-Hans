@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 内容助手入门
+title: 内容助手快速入门
 description: 内容助手入门
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 23%
+ht-degree: 34%
 
 ---
 
-# 内容助手入门 {#generative-gs}
+# 内容助手快速入门 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,14 +33,14 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->此功能在其Alpha版本中提供，如有更改，恕不另行通知。 它将在10月初激活。
+>仅在 Alpha 版本中有此功能可用，如有更改，恕不另行通知。它将在10月初激活。
 
 ## 护栏和限制 {#generative-guardrails}
 
 以下列出了使用内容助手生成电子邮件的一般准则：
 
 * 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
-* 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以是：PDF文件、Microsoft Word文档、JPEG、PNG或ZIP文件（具有支持的文件格式）。
+* 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的建议大小小于10MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
 * 使用Adobe Campaign创作的电子邮件模板，或者首选 [内置电子邮件模板](../content/email-sample-templates.md) 以创建您的电子邮件内容。 建议使用最多包含8至10张图像的电子邮件模板。
 
@@ -60,7 +60,7 @@ ht-degree: 23%
 <img alt="文本生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>使用内容助手生成文本</strong></a>
+<a href="generative-content.md"><strong>用内容助手生成文本</strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +68,7 @@ ht-degree: 23%
 <a href="generative-image.md">
 <img alt="图像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>使用内容助手生成图像</strong>
+<div><a href="generative-image.md"><strong>用内容助手生成图像</strong>
 </div>
 <p>
 </td>
@@ -77,7 +77,7 @@ ht-degree: 23%
 <img alt="电子邮件生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>使用内容助手生成电子邮件</strong></a>
+<a href="generative-email.md"><strong>用内容助手生成电子邮件</strong></a>
 </div>
 <p></td>
 </tr></table>
