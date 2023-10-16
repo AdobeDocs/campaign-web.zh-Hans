@@ -3,9 +3,10 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 45%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="推送投放报告摘要"
+>title="推送投放概述"
 >abstract="**推送投放概述**&#x200B;全面概述推送投放，其中提供大量见解和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与推送消息的详细信息。
@@ -90,7 +91,7 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="推送整体统计数据"
+>title="推送排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
 
 **[!UICONTROL 排除项]**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
