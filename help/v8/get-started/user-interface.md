@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -154,3 +154,65 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+<!-- FOR GA -->
+<!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_list"
+>title="收件人创建"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="收件人详细信息"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="收件人联系信息"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title="收件人地址"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="收件人帐户"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="收件人自定义字段"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_cardoverview"
+>title="收件人信息卡概述"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_touchpoints"
+>title="收件人接触点"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="收件人订阅列表"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="收件人订阅选择"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="符合条件的收件人优惠列表"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="收件人优惠预览"
+>abstract="待确认"
