@@ -2,7 +2,8 @@
 title: 关键绩效指标
 description: 了解如何了解关键绩效指标
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 98%
@@ -113,4 +114,3 @@ Adobe Campaign 平台发送的某些消息无法送达目标。如果用户地�
 * 错误数与要投放的消息总数的百分比。
 
 * 投放和自动退回处理期间累积的错误总数。
-
