@@ -3,10 +3,10 @@ title: Campaign Web UI 中的护栏和限制
 description: Campaign Web UI 中的护栏和限制
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Web UI 中尚不支持的工作流活动为只读活动，并显示为不兼容�
 
 ## 预定义过滤器 {#filters-guardrails-limitations}
 
-在产品的该版本中，当选择投放的受众或在工作流中生成受众时，在用户界面中找不到某些预定义过滤器。
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="此筛选器为只读"
+>abstract="该版本产品的用户界面中没有某些预定义过滤器。 这些筛选器标记为只读。 即使无法在规则生成器中查看查询的图形表示形式，也无法编辑过滤器，您仍可使用它，并在屏幕的&#x200B;**属性**&#x200B;部分中查看过滤条件。"
+
+在产品的该版本中，当选择投放的受众或在工作流中生成受众时，在用户界面中找不到某些预定义过滤器。这些筛选器标记为只读。
 
 并显示一条具体的错误消息。
 
