@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 92%
 
 ---
 
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -209,10 +219,212 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="符合条件的收件人优惠列表"
+>title="收件人合格优惠列表"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="收件人优惠预览"
 >abstract="待确认"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="订阅投放模板"
+>abstract="待确认"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="登陆页面"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="登陆页面属性"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="登陆页面"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="登陆页面计划"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="登陆页面主页面"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="登陆页面订阅"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="登陆页面行动动员"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="登陆页面模拟"
+>abstract="待确认"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="活动不可编辑"
+>abstract="待确认"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="片段"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="片段保存"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="片段创建"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="片段属性"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="片段类型"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="片段列表"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="片段详细信息"
+>abstract="待确认"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="内容模板"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="内容模板属性"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="内容模板设计"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="内容模板选择"
+>abstract="待确认"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="加载文件活动"
+>abstract="待确认"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="协调活动"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="协调定位"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="协调规则"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="协调定向维度"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="协调选择字段"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="协调选择属性"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="协调创建条件"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="对帐生成补码"
+>abstract="待确认"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="条件内容保存过滤器"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="条件内容选择过滤器"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="主题行上的条件内容"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="条件内容主题行条件"
+>abstract="待确认"
+
