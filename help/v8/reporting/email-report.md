@@ -77,7 +77,7 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="投放排除原因"
+>title="投放排除项的原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
 
