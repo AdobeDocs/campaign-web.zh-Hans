@@ -7,7 +7,7 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 33%
+ht-degree: 44%
 
 ---
 
@@ -104,9 +104,9 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="SMS投放吞吐量"
->abstract="此 **投放吞吐量** 报表显示指定时间范围内投放吞吐量的详细信息。  用于测量消息投放速度的主要指标是每小时发送的消息数。"
+>title="短信投放吞吐量"
+>abstract="**投放吞吐量**&#x200B;报告提供有关指定时间范围内的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。"
 
-此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
+此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
 ![](assets/reporting_sms_2.png)

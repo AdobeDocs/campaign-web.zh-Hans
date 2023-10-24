@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="排除的投放原因"
+>title="投放排除原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
 
@@ -110,7 +110,7 @@ ht-degree: 38%
 >title="投放吞吐量"
 >abstract="**投放吞吐量**&#x200B;报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
-此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于测量消息投放速度的主要指标是每小时发送的消息数。
+此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
