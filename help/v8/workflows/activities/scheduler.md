@@ -3,13 +3,13 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 30%
 
 ---
-
 
 # 调度程序 {#scheduler}
 
@@ -78,6 +78,3 @@ ht-degree: 30%
 在下方的示例中，将活动配置为工作流在2023年10月1日至2024年1月1日这一周的每天早上9点和12点运行多次。
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

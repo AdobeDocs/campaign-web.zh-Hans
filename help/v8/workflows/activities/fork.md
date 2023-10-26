@@ -3,13 +3,13 @@ audience: end-user
 title: 使用“分叉工作流”活动
 description: 了解如何使用“分叉工作流”活动
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 97%
 
 ---
-
 
 # 分叉 {#fork}
 
@@ -44,4 +44,3 @@ ht-degree: 97%
 * 在交集之后使用一个分叉活动，同时向目标群体发送一封电子邮件和一条短信。
 
 ![](../assets/workflow-fork-example.png)
-

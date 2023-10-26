@@ -3,13 +3,13 @@ audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 85%
 
 ---
-
 
 # 合并 {#combine}
 
@@ -118,5 +118,3 @@ The **Combine** activity can be placed after any other activity, but not at the 
 下面的&#x200B;**差集**&#x200B;示例展示了两个查询，这两个查询配置为筛选出年龄在 18 岁到 27 岁之间且具有 Adobe 电子邮件域的人员的个人资料。随后，具有 Adobe 电子邮件域的个人资料将从第一个集合中排除。
 
 ![](../assets/workflow-exclusion-example.png)
-
-

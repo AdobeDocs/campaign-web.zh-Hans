@@ -3,13 +3,13 @@ audience: end-user
 title: Campaign Web 中的权限管理
 description: 详细了解 Campaign Web v8 中的权限
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # 访问和权限 {#access-and-permissions}
 
@@ -101,4 +101,3 @@ ht-degree: 100%
    该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。还可从任何文件夹创建组件，然后从属性的&#x200B;**其他选项**&#x200B;部分将该组件保存在该新文件夹中，如下为投放所示：
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

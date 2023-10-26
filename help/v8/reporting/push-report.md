@@ -7,7 +7,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 45%
+ht-degree: 50%
 
 ---
 
@@ -106,6 +106,6 @@ ht-degree: 45%
 >title="投放吞吐量报告"
 >abstract="投放吞吐量报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
-**投放吞吐量**&#x200B;报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。用于测量消息投放速度的主要指标是每小时发送的消息数。
+**投放吞吐量**&#x200B;报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
 ![](assets/reporting_push_2.png)

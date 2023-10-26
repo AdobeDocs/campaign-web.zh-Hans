@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 11%
 
 ## 替换用户档案数据 {#substitution-profiles}
 
-使用配置文件替换将测试消息发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件数据 [!DNL Adobe Campaign] 数据库。 要执行此操作，请执行以下步骤：
+使用配置文件替换将测试消息发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件数据 [!DNL Adobe Campaign] 数据库。 要执行此操作，请按照以下步骤进行：
 
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 71%
 
   >[!IMPORTANT]
   >
-  >在该版本的产品中，用户界面中没有某些预定义过滤器。 你仍然可以使用它们。 [了解详情](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >在该版本的产品中，用户界面中没有某些预定义过滤器。 但仍可使用这些它们。[了解详情](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **属性**：显示已创建受众的描述。
 
