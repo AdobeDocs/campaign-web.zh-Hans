@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1343'
+ht-degree: 97%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="收件人创建"
->abstract="待确认"
+>abstract="收件人创建"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="收件人详细信息"
->abstract="待确认"
+>abstract="收件人详细信息"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="收件人联系信息"
->abstract="待确认"
+>abstract="收件人联系信息"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="收件人地址"
->abstract="待确认"
+>abstract="收件人地址"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="收件人帐户"
->abstract="待确认"
+>abstract="收件人帐户"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="收件人自定义字段"
->abstract="待确认"
+>abstract="收件人自定义字段"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件人信息卡概述"
->abstract="待确认"
+>abstract="收件人信息卡概述"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="收件人接触点"
->abstract="待确认"
+>abstract="收件人接触点"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="收件人订阅列表"
->abstract="待确认"
+>abstract="收件人订阅列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="收件人订阅选择"
->abstract="待确认"
+>abstract="收件人订阅选择"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="收件人合格优惠列表"
->abstract="待确认"
+>abstract="收件人合格优惠列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="收件人优惠预览"
->abstract="待确认"
+>abstract="收件人优惠预览"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="订阅投放模板"
->abstract="待确认"
+>abstract="订阅投放模板"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="登陆页面"
->abstract="待确认"
+>abstract="登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="登陆页面属性"
->abstract="待确认"
+>abstract="登陆页面属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="登陆页面页"
->abstract="待确认"
+>abstract="登陆页面页"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="登陆页面计划"
->abstract="待确认"
+>abstract="登陆页面计划"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="登陆页面主页"
->abstract="待确认"
+>abstract="登陆页面主页"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="登陆页面订阅"
->abstract="待确认"
+>abstract="登陆页面订阅"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="登陆页面行动号召"
->abstract="待确认"
+>abstract="登陆页面行动号召"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="登陆页面模拟"
->abstract="待确认"
+>abstract="登陆页面模拟"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="活动不可编辑"
->abstract="待确认"
+>abstract="活动不可编辑"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="片段"
->abstract="待确认"
+>abstract="片段"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="片段保存"
->abstract="待确认"
+>abstract="片段保存"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="片段创建"
->abstract="待确认"
+>abstract="片段创建"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="片段属性"
->abstract="待确认"
+>abstract="片段属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="片段类型"
->abstract="待确认"
+>abstract="片段类型"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段列表"
->abstract="待确认"
+>abstract="片段列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="片段详情"
->abstract="待确认"
+>abstract="片段详情"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="内容模板"
->abstract="待确认"
+>abstract="内容模板"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="内容模板属性"
->abstract="待确认"
+>abstract="内容模板属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="内容模板设计"
->abstract="待确认"
+>abstract="内容模板设计"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="内容模板选择"
->abstract="待确认"
+>abstract="内容模板选择"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="加载文件活动"
->abstract="待确认"
+>abstract="加载文件活动"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="协调活动"
->abstract="待确认"
+>abstract="协调活动"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="协调定位"
->abstract="待确认"
+>abstract="协调定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="待确认"
+>abstract="协调规则"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="协调定位维度"
->abstract="待确认"
+>abstract="协调定位维度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="协调选择字段"
->abstract="待确认"
+>abstract="协调选择字段"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="协调选择属性"
->abstract="待确认"
+>abstract="协调选择属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="协调创建条件"
->abstract="待确认"
+>abstract="协调创建条件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="协调生成补集"
->abstract="待确认"
+>abstract="协调生成补集"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="条件内容保存过滤器"
->abstract="待确认"
+>abstract="条件内容保存过滤器"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="条件内容选择过滤器"
->abstract="待确认"
+>abstract="条件内容选择过滤器"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="条件主题行上的内容"
->abstract="待确认"
+>abstract="条件主题行上的内容"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="条件内容主题行条件"
->abstract="待确认"
+>abstract="条件内容主题行条件"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="受众属性"
->abstract="待确认"
+>abstract="受众属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众人数"
->abstract="待确认"
+>abstract="受众人数"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="模拟测试用户档案"
->abstract="待确认"
+>abstract="模拟测试用户档案"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="模拟测试用户档案选择"
->abstract="待确认"
+>abstract="模拟测试用户档案选择"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="模拟测试用户档案发送"
->abstract="待确认"
+>abstract="模拟测试用户档案发送"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="模拟电子邮件日志"
->abstract="待确认"
+>abstract="模拟电子邮件日志"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="订阅总数"
->abstract="待确认"
+>abstract="订阅总数"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="期间订阅量"
->abstract="待确认"
+>abstract="期间订阅量"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="订阅的总体演变"
->abstract="待确认"
+>abstract="订阅的总体演变"
