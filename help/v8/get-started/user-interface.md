@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -252,7 +252,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="登陆页面"
+>title="登陆页面页"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -262,7 +262,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="登陆页面主页面"
+>title="登陆页面主页"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -272,7 +272,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="登陆页面行动动员"
+>title="登陆页面行动号召"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -323,7 +323,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
->title="片段详细信息"
+>title="片段详情"
 >abstract="待确认"
 
 
@@ -381,7 +381,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="协调定向维度"
+>title="协调定位维度"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -401,7 +401,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="对帐生成补码"
+>title="协调生成补集"
 >abstract="待确认"
 
 
@@ -420,7 +420,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
->title="主题行上的条件内容"
+>title="条件主题行上的内容"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
