@@ -4,26 +4,26 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign v8 Web 文档 {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png)
+<!--![](assets/do-not-localize/banner-documentationv8.png)-->
 
 Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 
->Campaign v8 Web当前为测试版。 仅限一小部分测试版客户访问。 请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
+>Campaign v8 Web 当前为 Beta 版本。仅限少量 Beta 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
 
 ## Campaign Web 新功能
 
 **探索 Campaign v8 Web 新用户界面**
 
-新的 Campaign v8 Web 界面提供了直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
+新的 Campaign v8 Web 界面提供一种现代而直观的用户体验以简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
 
 **思路重新调整的工作流画布界面**
 
