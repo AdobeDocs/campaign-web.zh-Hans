@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 97%
+source-wordcount: '1376'
+ht-degree: 96%
 
 ---
 
@@ -31,9 +31,15 @@ ht-degree: 97%
 
 此屏幕包含用于快速访问主要 Campaign v8 Web 功能的关键链接和资源。
 
-**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。
+>[!CONTEXTUALHELP]
+>id="acw_homepage_recent"
+>title="最近"
+>abstract="**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。"
+
+**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击 **显示更多** 用于加载更多投放的链接。
 
 利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。可在[此页面](../reporting/kpis.md)中详细了解这些 KPI。
+
 
 从主页的&#x200B;**学习**&#x200B;部分访问 Campaign v8 Web 关键帮助页面。
 
