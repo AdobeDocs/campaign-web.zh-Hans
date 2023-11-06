@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 39%
 您还可以通过单击 **报表** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
 
 
-## 定义活动计划 {#campaign-schedule}
+## 定义营销活动计划 {#campaign-schedule}
 
 
 >[!CONTEXTUALHELP]

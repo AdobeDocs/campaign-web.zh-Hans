@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 39%
 
 +++
 
-### 排除的原因  {#email-delivery-exclusions}
+### 排除原因  {#email-delivery-exclusions}
 
 
 >[!CONTEXTUALHELP]
@@ -356,7 +356,7 @@ ht-degree: 39%
 
 ## 打开的细分 {#breakdown-opens}
 
-### 按设备划分打开次数 {#breakdown-opens-devices}
+### 按设备类型细分的打开次数 {#breakdown-opens-devices}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
@@ -370,7 +370,7 @@ ht-degree: 39%
 ![](assets/reporting_email_13.png){align="center"}
 
 
-### 按操作系统划分打开 {#breakdown-opens-os}
+### 按操作系统类型细分的打开次数 {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
@@ -383,7 +383,7 @@ ht-degree: 39%
 
 ![](assets/reporting_email_13.1.png){align="center"}
 
-### 按浏览器划分打开的内容 {#breakdown-opens-browser}
+### 按浏览器类型细分的打开次数 {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"

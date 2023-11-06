@@ -22,7 +22,7 @@ ht-degree: 12%
 
 要检测消息内容或个性化设置中可能出现的错误，请先将测试消息发送到测试用户档案，然后再将其发送给目标受众。 每次进行更改时都应发送测试消息，以验证最新内容。 发送测试投放（以前称为“验证”）是验证营销活动和识别潜在问题的重要步骤。 测试消息的收件人可以检查各种元素，例如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
-## 模拟测试收件人的内容 {#simulate-content-test-deliveries}
+## 模拟面向测试收件人的内容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

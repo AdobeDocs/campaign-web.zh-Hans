@@ -7,7 +7,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，可让您根据不同的选择标准（例如筛选规则或群体大小）将传入群体划分为多个子集。
 
-## 配置拆分活动 {#split-configuration}
+## 配置“拆分”活动 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

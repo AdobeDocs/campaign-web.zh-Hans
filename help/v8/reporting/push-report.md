@@ -64,7 +64,7 @@ ht-degree: 50%
 
 +++
 
-### 总体统计信息 {#push-delivery-overall}
+### 整体统计数据 {#push-delivery-overall}
 
 
 >[!CONTEXTUALHELP]

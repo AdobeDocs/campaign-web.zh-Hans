@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="预览文件"
->abstract="检查文件的预览。此屏幕仅显示最多30条记录。"
+>abstract="检查文件的预览。此屏幕最多只能显示 30 条记录。"
 
 
 

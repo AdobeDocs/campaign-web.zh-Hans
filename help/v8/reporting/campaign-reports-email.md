@@ -212,7 +212,7 @@ ht-degree: 24%
 * **[!UICONTROL 转发数量估计]**：估计目标收件人转发的电子邮件数量。
 +++
 
-### 打开率和点进率 {#delivery-summary-open-rate}
+### 打开和点进率 {#delivery-summary-open-rate}
 
 
 >[!CONTEXTUALHELP]

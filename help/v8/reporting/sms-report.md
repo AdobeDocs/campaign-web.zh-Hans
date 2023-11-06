@@ -66,7 +66,7 @@ ht-degree: 44%
 +++
 
 
-### 总体统计信息 {#sms-delivery-overall}
+### 整体统计数据 {#sms-delivery-overall}
 
 
 >[!CONTEXTUALHELP]

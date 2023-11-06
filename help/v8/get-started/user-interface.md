@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -450,18 +450,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
->title="模拟测试用户档案"
->abstract="模拟测试用户档案"
+>title="模拟测试配置文件"
+>abstract="模拟测试配置文件"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="模拟测试用户档案选择"
->abstract="模拟测试用户档案选择"
+>title="模拟测试配置文件选择"
+>abstract="模拟测试配置文件选择"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="模拟测试用户档案发送"
->abstract="模拟测试用户档案发送"
+>title="模拟测试配置文件发送"
+>abstract="模拟测试配置文件发送"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
@@ -481,5 +481,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
->title="订阅的总体演变"
->abstract="订阅的总体演变"
+>title="订阅整体演变"
+>abstract="订阅整体演变"

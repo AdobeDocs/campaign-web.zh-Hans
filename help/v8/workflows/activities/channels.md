@@ -7,7 +7,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## 配置渠道活动 {#create-a-delivery-in-a-workflow}
+## 配置“渠道”活动 {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
