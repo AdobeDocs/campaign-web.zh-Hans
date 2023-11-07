@@ -3,10 +3,10 @@ title: 关键绩效指标
 description: 了解如何了解关键绩效指标
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 92%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 97%
 >id="acw_keyindicators_unsubscriptions"
 >title="退订次数"
 >abstract="对于所选渠道，此指标显示服务中所有退订的总数，以及退订次数与已成功投放消息总数的百分比。"
+
+>[!NOTE]
+>
+> 订阅和退订KPI因服务类型而异。 例如，电子邮件订阅和退订涵盖所有与电子邮件相关的服务，无论这些服务是由手动操作还是Web表单提供。 务必要将此方法与投放级别的取消订阅量度区分开来，后者跟踪取消订阅链接点击量，而不是实际的取消订阅用户。
 
 收件人必须能够通过电子邮件内容中的专用退订链接或通过短信回复 STOP 来选择退订电子邮件和短信。
 
