@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 99%
+source-wordcount: '1396'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
->title="最近"
+>title="最近项目"
 >abstract="**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。"
 
 **最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击 **显示更多** 用于加载更多投放的链接。
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="协调生成补集"
 >abstract="协调生成补集"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="拆分生成补码"
+>abstract="拆分生成补码"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="合并生成补码"
+>abstract="合并生成补码"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="拆分活动的区段"
+>abstract="拆分活动的区段"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="订阅整体演变"
 >abstract="订阅整体演变"
+
+
