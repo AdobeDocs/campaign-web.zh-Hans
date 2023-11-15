@@ -1,12 +1,12 @@
 ---
 title: 在Campaign Web中使用AI支持的上下文帮助
-description: 在Campaign Web帮助弹出框中提出问题
+description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 47%
 
 >[!CAUTION]
 >
->仅在 Alpha 版本中有此功能可用，如有更改，恕不另行通知。
+>仅在 Alpha 版本中提供此功能，如有更改，恕不另行通知。
 >
->此功能仅在 **英语**. 此版本不支持其他语言。
+>此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。
 
 
 此 **Gen AI的上下文帮助** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。

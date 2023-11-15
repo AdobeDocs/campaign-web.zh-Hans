@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 >title="最近访问"
 >abstract="**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。"
 
-**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击 **显示更多** 用于加载更多投放的链接。
+**最近**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击&#x200B;**显示更多**&#x200B;链接，加载更多投放。
 
 利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。可在[此页面](../reporting/kpis.md)中详细了解这些 KPI。
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 可配置列以自定义显示，以便查看所需的所有信息。请参阅此[部分](#list-screens)。还可添加文件夹和子文件夹，如[此部分](permissions.md#folders)中所详述。
 
-有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
+有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}。
 
 ### Campaign 管理 {#user-interface-campaign-management}
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 
 * **收件人** - 访问您的收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。可在[此部分](../audience/about-recipients.md)中详细了解收件人。
 * **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。可在[此部分](../audience/about-recipients.md)中详细了解受众和列表。
-* **订阅** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}，了解如何管理订阅和退订。
+* **订阅** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hans){target="_blank"}，了解如何管理订阅和退订。
 
 ### 决策管理 {#decision-management}
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 >id="acw_offers_list"
 >title="优惠"
 >abstract="浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的优惠和优惠模板的列表。这些列表为只读。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="将优惠添加到投放"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-Hans" text="将优惠添加到投放"
 
 在“决策管理”部分中，您可以查看优惠和优惠模板。这些列表为只读。
 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
 通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的 AI 支持的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
-可在[此部分](using-ai.md)中了解详情。
+可在[此小节](using-ai.md)中了解详情。
 
 
 
@@ -253,7 +253,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="登陆页面属性"
+>title="登陆页面 属性"
 >abstract="登陆页面属性"
 
 >[!CONTEXTUALHELP]
@@ -409,13 +409,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="拆分生成补集"
->abstract="拆分生成补集"
+>title="拆分生成补码"
+>abstract="拆分生成补码"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="合并生成补集"
->abstract="合并生成补集"
+>title="合并生成补码"
+>abstract="合并生成补码"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
