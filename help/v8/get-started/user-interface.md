@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -409,13 +409,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="拆分生成补码"
->abstract="拆分生成补码"
+>title="拆分生成补集"
+>abstract="拆分生成补集"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="合并生成补码"
->abstract="合并生成补码"
+>title="合并生成补集"
+>abstract="合并生成补集"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
