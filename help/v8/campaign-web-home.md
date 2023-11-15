@@ -5,8 +5,8 @@ title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
 source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: tm+mt
-source-wordcount: '481'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

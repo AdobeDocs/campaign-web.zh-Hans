@@ -1,66 +1,67 @@
 ---
-title: 连接到Adobe Campaign Web界面
-description: 了解如何连接到Adobe Campaign v8 Web用户界面
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+title: 连接到 Adobe Campaign Web 界面
+description: 了解如何连接到 Adobe Campaign v8 Web 用户界面
+badge: label="Beta 版"
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# 连接到Adobe Campaign {#connect-to-campaign}
+# 连接到 Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud是Adobe的集成式数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。 请参阅此页面以了解如何连接到Adobe Experience Cloud以及访问Adobe Campaign v8 Web界面。
+Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集成系列。通过其直观的界面，您可以快速访问云应用程序、产品功能和服务。请参阅此页面以了解如何连接到 Adobe Experience Cloud 并访问 Adobe Campaign v8 Web 界面。
 
-## 登录到Adobe Experience Cloud {#sign-in-to-exc}
+## 登录到 Adobe Experience Cloud {#sign-in-to-exc}
 
-通常，Experience Cloud管理员会授予对应用程序和服务的访问权限。 按照邀请您加入Experience Cloud的电子邮件中的步骤操作。
+通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 
-要登录到Adobe Experience Cloud，基本步骤如下：
+要登录到 Adobe Experience Cloud，请遵循以下基本步骤：
 
 1. 浏览到 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
 
-1. 使用您的Adobe ID或Enterprise ID登录。 在中Adobe了解有关身份类型的更多信息 [本文](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+1. 使用您的 Adobe ID 或 Enterprise ID 登录。请参阅[此文章](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"}以了解有关 Adobe 身份类型的更多信息。
 
-   登录到Experience Cloud后，您可以快速访问所有解决方案和应用程序。
+   登录到 Experience Cloud 后，您可以快速访问所有解决方案和应用程序。
 
    ![](assets/exc-home.png)
 
-1. 验证您是否处于正确的组织中。
+1. 验证您是否属于正确的组织。
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   在中详细了解Adobe Experience Cloud中的组织 [本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target="_blank"}.
+   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
 
 
-## 对Adobe Campaign的访问权限 {#access-to-campaign}
+## 访问 Adobe Campaign {#access-to-campaign}
 
-要访问Campaign环境，请选择 **营销活动** 从 **快速访问** Adobe Experience Cloud部分。
+要访问您的 Campaign 环境，请从 Adobe Experience Cloud 主页的&#x200B;**快速访问**&#x200B;部分选择 **Campaign**。
 
 如果您已连接到另一个 Adobe Experience Cloud 解决方案，还可以从屏幕右上角的解决方案切换器浏览到您的 Campaign 环境。
 
 ![](assets/solution-switcher.png)
 
-如果您有权访问多个环境，包括Campaign控制面板，请单击 **Launch** 按钮以查找正确的实例。
+如果您有权访问多个环境（包括 Campaign 控制面板），请点击正确实例的&#x200B;**启动**&#x200B;按钮。
 
 ![](assets/launch-campaign.png)
 
 您现已连接到 Campaign。在[此页面](user-interface.md)中了解如何开始使用用户界面。
 
-## Adobe Experience Cloud顶部导航 {#top-bar}
+## Adobe Experience Cloud 顶部导航 {#top-bar}
 
-利用界面的顶部栏，可以：
+利用界面顶部的导航栏，您可以：
 
-* 以测试版用户共享您的反馈
+* 作为 Beta 版用户分享您的反馈
 * 在组织之间切换
-* 在Adobe Experience Cloud解决方案和应用程序之间切换
+* 在 Adobe Experience Cloud 解决方案和应用程序之间切换
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## 支持的浏览器 {#browsers}
 
-Campaign v8 Web可在最新版本的Google Chrome、Safari和Microsoft Edge中以最佳方式工作。 在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
+Campaign v8 Web 所采用的设计使其能够在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以出色状态运行。您可能无法在较旧版本或其他浏览器上使用某些功能。
 
 ## 语言偏好设置 {#language-pref}
 
@@ -84,13 +85,12 @@ Campaign v8 Web 目前提供以下语言版本：
 
 1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
 1. 然后单击电子邮件地址下方显示的语言链接。
-1. 选择您的首选语言并单击&#x200B;**保存**。如果您正在使用的组件未本地化为您的第一语言，那么您可以选择第二种语言。
+1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
 ## 深色主题 {#dark-theme}
 
 您可以从配置文件图标切换到深色主题。使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
 
-有关用户配置文件设置和帐户首选项的详情，请参阅 [本节](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+有关用户配置文件设置和帐户偏好设置的详情，请参阅[此小节](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#preferences){target="_blank"}。
 
-在中了解有关Experience Cloud中央界面组件的更多信息 [本文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
+请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。

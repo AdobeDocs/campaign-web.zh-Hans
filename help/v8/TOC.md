@@ -6,9 +6,9 @@ description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
 source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
             + [添加指向镜像页面的链接](content/mirror-page.md)
             + [添加邮件引文](content/preheader.md)
             + [生成文本版本](content/text-version-email.md)
-            + [as a Cloud Service使用Adobe Experience Manager Assets管理资源](content/aem-assets.md)
+            + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](content/aem-assets.md)
          + 内容助手 {#content-assistant}
             + [内容助手快速入门](content/generative-gs.md)
             + [用内容助手生成文本](content/generative-content.md)
