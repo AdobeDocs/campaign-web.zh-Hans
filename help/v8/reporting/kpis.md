@@ -3,10 +3,10 @@ title: 关键绩效指标
 description: 了解如何了解关键绩效指标
 badge: label="Beta 版"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 83%
+source-wordcount: '1196'
+ht-degree: 73%
 
 ---
 
@@ -141,3 +141,23 @@ Adobe Campaign 平台发送的某些消息无法送达目标。如果用户地�
 * 错误数与要投放的消息总数的百分比。
 
 * 投放和自动退回处理期间累积的错误总数。
+
+## 消息已发送 {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="已发送"
+>abstract="此量度针对直邮渠道显示发送的所有消息的总和，以及发送给提供商的消息所占的百分比，以显示在投放准备阶段期间准备的消息总数。"
+
+在准备阶段，会生成直邮提取文件，但不更新有关收件人的信息（即投放日志）。  当Campaign用户确认投放发送时，投放状态从“待定投放”移至“已发送”。 然后将投放设置为“已完成”。
+
+与准备的邮件总数相比，绝不能是100%的已发送邮件，因为某些地址可能丢失或不完整。
+
+此 **已发送** 指示器显示直邮渠道的以下KPI：
+
+* 发送的消息数占准备的消息总数的百分比。
+
+* 发送的所有消息的总和。
+
