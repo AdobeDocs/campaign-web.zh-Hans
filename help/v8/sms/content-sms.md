@@ -2,11 +2,11 @@
 audience: end-user
 title: 设计短信投放
 description: 了解如何设计短信投放
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 88%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 88%
 >title="短信内容"
 >abstract="创建短信投放的内容，并用个性化字段、内容块和动态内容使其个性化。"
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="应用程序订阅者"
->abstract="通过将应用程序订阅者添加到主目标而预览和测试消息。"
 
 
 要设计短信投放的内容，请执行以下步骤：

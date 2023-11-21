@@ -3,11 +3,11 @@ audience: end-user
 title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+badge: label="Beta 版"
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 12%
+source-wordcount: '1190'
+ht-degree: 11%
 
 ---
 
@@ -69,6 +69,10 @@ ht-degree: 12%
 >title="模板文件"
 >abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15 MB。使用第一行作为列标题。"
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="在主受众中包含测试用户档案"
+>abstract="启用此选项还可以将最终消息发送给测试投放的收件人。"
 
 测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 客户端控制台。 将测试消息发送到种子地址的步骤详述如下。
 
@@ -90,7 +94,9 @@ ht-degree: 12%
 
 ## 替换用户档案数据 {#substitution-profiles}
 
-使用配置文件替换将测试消息发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件数据 [!DNL Adobe Campaign] 数据库。 要执行此操作，请按照以下步骤进行：
+使用配置文件替换将测试消息发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件数据 [!DNL Adobe Campaign] 数据库。 仅当已定义投放的受众时，才能选择此模式。
+
+要替换主目标中的用户档案数据，请执行以下步骤：
 
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
@@ -119,9 +125,9 @@ ht-degree: 12%
 
 1. 选择替代配置文件后，您可以 [发送测试投放](#send-test).
 
-## 将测试发送给订阅者 {#subscribers}
+## 将测试发送给应用程序订阅者 {#subscribers}
 
-使用推送通知时，测试投放只能发送给应用程序订阅者。 要选择它们，请执行以下步骤。
+在设计推送通知时，测试投放只能发送给应用程序订阅者。 要选择它们，请执行以下步骤。
 
 1. 在推送投放的内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 
