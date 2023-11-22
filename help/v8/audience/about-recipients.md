@@ -1,12 +1,12 @@
 ---
 title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="收件人"
->abstract="收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe Campaign 中，收件人是发送投放（电子邮件、短信）所针对的默认配置文件。从此列表中可根据您的权限查看收件人的配置文件。使用过滤选项浏览此列表。可编辑和更新收件人的一小部分属性。"
+>title="用户档案"
+>abstract="用户档案是接收由Adobe Campaign发送的消息的目标个人。 在 Adobe Campaign 中，收件人是发送投放（电子邮件、短信）所针对的默认配置文件。从此列表中可根据您的权限查看收件人的配置文件。使用过滤选项浏览此列表。可编辑和更新收件人的一小部分属性。"
 
 收件人是一个配置文件，旨在接收 Adobe Campaign 发送的消息。在 Adobe　Campaign 中，收件人是发送投放内容（电子邮件、SMS 等）所定位的默认用户档案。通过数据库中存储的收件人数据，您可以创建将接收任何给定投放的受众，并在投放内容中添加个性化数据。 其他类型的用户档案存储在数据库中。 它们专为不同的用途而设计：例如，种子用户档案用于在将投放内容发送给最终受众之前对其进行测试。
 
@@ -49,7 +49,7 @@ ht-degree: 17%
 
 此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 了解如何使用中的订阅服务 [此页面](manage-services.md)
 
-您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 可在[此部分](../workflows/gs-workflows.md)中了解详情。
+您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 可在[此小节](../workflows/gs-workflows.md)中了解详情。
 
 ## 什么是受众？ {#audiences}
 
