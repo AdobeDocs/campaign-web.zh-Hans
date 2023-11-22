@@ -3,11 +3,11 @@ audience: end-user
 title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+badge: label="Beta 版"
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 83%
+source-wordcount: '2159'
+ht-degree: 80%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。分类和分类规则是在Campaign客户端控制台中创建的。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="投放的类型设置"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。分类和分类规则是在Campaign客户端控制台中创建的。"
 
 
 类型是一组 **类型规则**，在准备阶段执行的。 利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在投放准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。  利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
@@ -48,7 +48,9 @@ ht-degree: 83%
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>分类和分类规则是在Campaign客户端控制台中创建的。 在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}.
 
 ### 压力参数 {#pressure-parameters}
 
@@ -83,7 +85,9 @@ ht-degree: 83%
 * **暂定目标的估算和审批**
 * **目标评估**
 
-**Campaign 优化**&#x200B;附加组件附带了疲劳管理。在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}.
+>[!NOTE]
+>
+>疲劳管理可在Campaign客户端控制台中配置。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}.
 
 ### 容量设置 {#capacity-settings}
 
@@ -103,7 +107,9 @@ ht-degree: 83%
 
 **收件人的重要性**&#x200B;字段是一个公式，用于确定在超出容量类型规则时保留的收件人。
 
-详细了解一致性和容量规则以及如何在中配置它们 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>类型规则是在Campaign客户端控制台中配置的。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## 受众设置 {#audience}
@@ -139,13 +145,15 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="投放的网站分析设置"
->abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标签。"
+>abstract="选择一个网站分析帐户。此帐户是在Campaign客户端控制台中配置的。 您还可以定义与您正在使用的分析工具共享的标签。"
 
 在此部分中，您可以选择网站分析帐户。 在 Campaign 客户端控制台中配置此帐户。
 
 您还可以定义与您正在使用的分析工具共享的标签。
 
-在中了解有关Web Analytics和Campaign的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>Web Analytics功能是在Campaign客户端控制台中配置的。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 重试 {#retries}
