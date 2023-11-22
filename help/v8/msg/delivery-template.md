@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 25%
+source-wordcount: '1047'
+ht-degree: 21%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 25%
 
 模板可以包括：
 
+* 此 **文件夹** 和 **执行文件夹** 模板的。 文件夹是保存投放模板的位置。 执行文件夹是保存基于此模板创建的投放的文件夹。
 * [分类](../advanced-settings/delivery-settings.md#typology),
 * 发件人地址，
 * An [受众](../audience/about-recipients.md)，包括 [对照组](../audience/control-group.md)，
@@ -47,9 +48,8 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用投放模板"
->abstract="使用投放模板可轻松创建并保存现有投放以供将来使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hans#copy-an-existing-template" text="复制现有模板"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hans#convert-an-existing-delivery" text="将投放转换为模板"
+>abstract="使用投放模板创建和保存投放设置，以供将来在营销活动中使用。 您可以从头开始创建投放模板，复制现有模板，或将投放转换为模板。"
+
 
 要访问内容模板列表，请选择 **[!UICONTROL Campaign Management]** > **[!UICONTROL 投放]** 从左侧菜单中，浏览到 **模板** 选项卡。
 
@@ -120,7 +120,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 要将投放另存为模板，请执行以下步骤：
 
-1. 转到 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 投放]** 菜单。
+1. 浏览至 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 投放]** 菜单。
 1. 从 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 更多操作]** 按钮，然后选择 **[!UICONTROL 复制为模板]**.
 
    ![](assets/templates-convert-delivery.png)
