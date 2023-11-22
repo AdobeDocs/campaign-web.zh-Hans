@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 97%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 97%
 >title="“拆分”活动排序"
 >abstract="在为子集设置群体限制时，您可以根据特定的配置文件属性按升序或降序顺序对所选配置文件进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个配置文件。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="拆分生成补码"
+>abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**生成补码**&#x200B;选项。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
