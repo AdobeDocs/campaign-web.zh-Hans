@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 97%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="直邮的内容属性"
 >abstract="直邮的内容属性"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="加载文件活动"
+>abstract="加载文件活动"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="示例文件"
+>abstract="示例文件"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="文件的名称"
+>abstract="文件的名称"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="目标数据库"
+>abstract="目标数据库"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="拒绝加载文件活动的管理"
+>abstract="拒绝加载文件活动的管理"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="拒绝管理出站过渡"
+>abstract="拒绝管理出站过渡"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="拒绝管理针对拒绝的出站过渡"
+>abstract="拒绝管理针对拒绝的出站过渡"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="加载文件活动的格式"
+>abstract="加载文件活动的格式"
+
