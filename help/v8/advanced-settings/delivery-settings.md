@@ -7,7 +7,7 @@ badge: label="Beta 版"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
 source-wordcount: '2159'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。分类和分类规则是在Campaign客户端控制台中创建的。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。在 Campaign 客户端控制台中创建类型和类型规则。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="投放的类型设置"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。分类和分类规则是在Campaign客户端控制台中创建的。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的配置文件。在 Campaign 客户端控制台中创建类型和类型规则。"
 
 
 类型是一组 **类型规则**，在准备阶段执行的。 利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在投放准备阶段，会从投放受众中排除与分类规则中标准匹配的用户档案。  利用分类，可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
@@ -50,7 +50,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->分类和分类规则是在Campaign客户端控制台中创建的。 在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}.
+>在 Campaign 客户端控制台中创建类型和类型规则。在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}.
 
 ### 压力参数 {#pressure-parameters}
 
@@ -145,7 +145,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="投放的网站分析设置"
->abstract="选择一个网站分析帐户。此帐户是在Campaign客户端控制台中配置的。 您还可以定义与您正在使用的分析工具共享的标签。"
+>abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标签。"
 
 在此部分中，您可以选择网站分析帐户。 在 Campaign 客户端控制台中配置此帐户。
 

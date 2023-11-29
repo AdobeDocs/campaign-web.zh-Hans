@@ -7,7 +7,7 @@ badge: label="Beta 版"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="在主受众中包含测试用户档案"
->abstract="启用此选项还可以将最终消息发送给测试投放的收件人。"
+>title="将测试配置文件包含在主要受众中"
+>abstract="启用此选项还可将最终消息发送给测试投放的收件人。"
 
 测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 客户端控制台。 将测试消息发送到种子地址的步骤详述如下。
 

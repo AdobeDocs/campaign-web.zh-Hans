@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用投放模板"
->abstract="使用投放模板创建和保存投放设置，以供将来在营销活动中使用。 您可以从头开始创建投放模板，复制现有模板，或将投放转换为模板。"
+>abstract="使用投放模板创建并保存投放设置，以便将来在营销活动中使用。您可以从头开始创建投放模板、复制现有模板或将投放转换为模板。"
 
 
 要访问内容模板列表，请选择 **[!UICONTROL Campaign Management]** > **[!UICONTROL 投放]** 从左侧菜单中，浏览到 **模板** 选项卡。

@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="订阅"
->abstract="此量度显示所选渠道的所有服务订阅的总和，以及订阅相对于成功投放的消息总数的百分比。"
+>abstract="对于所选渠道，此量度显示服务的所有订阅的总数，以及订阅数与已成功投放消息总数的百分比。"
 
 
 收件人可以选择加入电子邮件和短信通信。
@@ -142,14 +142,14 @@ Adobe Campaign 平台发送的某些消息无法送达目标。如果用户地�
 
 * 投放和自动退回处理期间累积的错误总数。
 
-## 消息已发送 {#ui-sent-kpi}
+## 已发送消息数 {#ui-sent-kpi}
 
 <!--DRAFT - This section requires a validation-->
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="已发送"
->abstract="此量度针对直邮渠道显示发送的所有消息的总和，以及发送给提供商的消息所占的百分比，以显示在投放准备阶段期间准备的消息总数。"
+>abstract="对于直邮渠道，此量度显示已发送的所有消息的总和，以及发送给提供商的消息与投放准备阶段准备的消息总数的百分比。"
 
 在准备阶段，会生成直邮提取文件，但不更新有关收件人的信息（即投放日志）。  当Campaign用户确认投放发送时，投放状态从“待定投放”移至“已发送”。 然后将投放设置为“已完成”。
 
