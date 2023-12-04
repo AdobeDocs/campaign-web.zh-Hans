@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 使用投放模板
-description: 了解如何在 Campaign 中创建和使用投放模板 Web
+description: 了解如何在Campaign Web中创建和使用投放模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 24%
+source-wordcount: '1045'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 模板可以包括：
 
 * 此 **文件夹** 和 **执行文件夹** 模板的。 文件夹是保存投放模板的位置。 执行文件夹是保存基于此模板创建的投放的文件夹。
-* [分类](../advanced-settings/delivery-settings.md#typology),
+* [类型](../advanced-settings/delivery-settings.md#typology)，
 * 发件人地址，
 * An [受众](../audience/about-recipients.md)，包括 [对照组](../audience/control-group.md)，
 * 自定义 [内容](../content/edit-content.md)，
@@ -85,7 +85,7 @@ ht-degree: 24%
 
 ### 复制现有投放模板 {#copy-an-existing-template}
 
-Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、短信。创建投放模板的最简单方法是复制和自定义内置模板。
+Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短信。 创建投放模板的最简单方法是复制和自定义内置模板。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 要复制投放模板，请执行以下步骤：
 
-1. 浏览到&#x200B;**模板**&#x200B;选项卡，从&#x200B;**投放**&#x200B;左侧菜单中，[了解详情](#access-manage-templates)
+1. 浏览至 **模板** 选项卡，从 **投放** 左侧菜单。 [了解详情](#access-manage-templates)
 1. 单击 **[!UICONTROL 更多操作]** 按钮，然后选择  **[!UICONTROL 复制]**.
 
    您还可以从列表中选择模板，然后从模板版本屏幕中选择此选项。
@@ -143,8 +143,8 @@ Campaign 为每个渠道提供了一组内置模板：电子邮件、推送、�
 
 要从头开始配置投放模板，请执行以下步骤：
 
-1. 浏览到&#x200B;**模板**&#x200B;选项卡，从&#x200B;**投放**&#x200B;左侧菜单中，[了解详情](#access-manage-templates)
-1. 单击&#x200B;**[!UICONTROL 创建模板]**&#x200B;按钮。
+1. 浏览至 **模板** 选项卡，从 **投放** 左侧菜单。 [了解详情](#access-manage-templates)
+1. 单击 **[!UICONTROL 创建模板]** 按钮。
 
    ![](assets/templates-create-button.png)
 

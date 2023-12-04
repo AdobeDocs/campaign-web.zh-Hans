@@ -3,11 +3,11 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+badge: label="Beta 版"
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 71%
+source-wordcount: '1328'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术利用先进的算法生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
+>abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -35,7 +35,7 @@ ht-degree: 71%
 >title="定义电子邮件属性"
 >abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
 
-您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在中详细了解Adobe Campaign中的投放创建步骤 [此页面](../msg/gs-deliveries.md).
 
 要创建新的独立电子邮件投放，请执行以下步骤。
 
@@ -66,7 +66,7 @@ ht-degree: 71%
 
    ![](assets/email-properties.png)
 
-1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 虽然已在选定模板中预配置这些设置，但可以根据需要为此特定电子邮件编辑它们。[了解详情](../advanced-settings/delivery-settings.md)
+1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 这些设置已在所选模板中预先配置，但可根据需要对此特定电子邮件进行编辑。 [了解详情](../advanced-settings/delivery-settings.md)
 
 ## 定义受众 {#define-audience}
 
@@ -77,7 +77,7 @@ ht-degree: 71%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="选择主要受众"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
-在此用例中，您将电子邮件发送到现有受众。
+在此使用案例中，您将向现有受众发送电子邮件。
 
 有关如何使用受众的其他说明，请参阅[此章节](../audience/about-recipients.md)。
 

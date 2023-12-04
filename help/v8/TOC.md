@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 98%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [寻求帮助和指导](get-started/using-ai.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
+   + [处理投放](msg/gs-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
@@ -133,7 +134,7 @@ ht-degree: 100%
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
-   + 营销活动报告 {#campaign-report}
+   + 营销活动报表 {#campaign-report}
       + [访问营销活动报告](reporting/campaign-reports.md)
       + [通过电子邮件发送营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
