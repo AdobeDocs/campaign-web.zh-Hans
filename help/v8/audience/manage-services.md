@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 18%
+source-wordcount: '760'
+ht-degree: 17%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 在 Campaign v8 控制台中定义目标映射。了解更多 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 目标映射在Campaign v8控制台中定义。 了解更多 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. 编辑投放模板的内容，保存并关闭它。
 
