@@ -2,12 +2,12 @@
 audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 37%
+source-wordcount: '1317'
+ht-degree: 35%
 
 ---
 
@@ -81,36 +81,36 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="iOS 的重要警告模式"
+>title="严重警报模式"
 >abstract="启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这样确保用户在任何情况下均可收到重要警告的通知。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="iOS 的标记数字"
+>title="徽章编号"
 >abstract="使用此选项设置要直接显示在应用程序图标上的未读新信息数。这样用户即可迅速了解待处理通知的数量。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="iOS 的可变内容"
+>title="可变内容"
 >abstract="使用此选项使移动应用程序可下载与通知关联的媒体内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="iOS 的相关性分数"
+>title="相关性分数"
 >abstract="设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="iOS 的应用程序变量"
+>title="应用程序变量"
 >abstract="使用应用程序变量定义通知行为。可完全自定义这些变量，并将其纳入发送到移动设备的消息负载。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="iOS 的类别 ID"
+>title="类别 ID"
 >abstract="指定与通知关联的类别 ID 的名称。这样可显示操作按钮，使用户不必打开应用程序，即可直接从通知中执行各种任务。"
 
 
@@ -123,8 +123,8 @@ ht-degree: 37%
 | 参数 | 说明 |
 |---------|---------|
 | **[!UICONTROL 声音]** | 设置设备收到通知时播放的声音。 |
-| **[!UICONTROL 通知次数]** | 设置直接在应用程序图标上显示的新未读信息数。 这样用户即可迅速了解待处理通知的数量。 |
-| **[!UICONTROL 渠道 ID]** | 设置通知的渠道ID。 在收到任何具有此渠道ID的通知之前，应用程序必须创建具有此渠道ID的渠道。 |
+| **[!UICONTROL 通知计数]** | 设置直接在应用程序图标上显示的新未读信息数。 这样用户即可迅速了解待处理通知的数量。 |
+| **[!UICONTROL 渠道ID]** | 设置通知的渠道ID。 在收到任何具有此渠道ID的通知之前，应用程序必须创建具有此渠道ID的渠道。 |
 | **[!UICONTROL 点击操作]** | 定义与用户单击您的通知关联的操作。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。 |
 | **[!UICONTROL 标记]** | 设置用于替换通知抽屉中现有通知的标识符。 这有助于防止累积多个通知，并确保只显示最新的相关通知。 |
 | **[!UICONTROL 优先级]** | 设置通知的优先级，可以是默认、最小、低或高。 优先级决定了通知的重要性和紧迫性，会影响通知的显示方式以及它是否可以绕过某些系统设置。 有关详细信息，请参见 [FCM文档](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
@@ -140,14 +140,14 @@ ht-degree: 37%
 |---------|---------|
 | **[!UICONTROL 严重警报模式]** | 启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这可确保用户注意到重要警报。 |
 | **[!UICONTROL 清洁徽章]** | 启用此选项以刷新应用程序图标上显示的标记值。 它确保徽章准确地反映新的未读信息的数量。 |
-| **[!UICONTROL 通知次数]** | 设置一个将直接显示在应用程序图标上的数字，指示新的未读信息数量。 为用户提供了快速的可视化参考。 |
-| **[!UICONTROL 容量]** | 声音的音量从0到100。 |
+| **[!UICONTROL 通知计数]** | 设置一个将直接显示在应用程序图标上的数字，指示新的未读信息数量。 为用户提供了快速的可视化参考。 |
+| **[!UICONTROL 音量]** | 声音的音量从0到100。 |
 | **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载与通知关联的媒体内容。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
-| **[!UICONTROL 相关性分数]** | 设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。 |
+| **[!UICONTROL 相关性得分]** | 设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。 |
 | **[!UICONTROL 中断级别]** | <ul> <li>**[!UICONTROL 活动]**：默认情况下，系统会立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 被动]**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 时效性]**：系统立即显示通知，打开屏幕，可以播放声音并突破聚焦模式。 此级别不需要Apple的特殊权限。</li> <li>**[!UICONTROL 关键]**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</ul> |
 | **[!UICONTROL Thread-id]** | 用于将相关通知分组在一起的标识符。 具有相同线程ID的通知在通知列表中被组织为单个对话或线程。 |
 | **[!UICONTROL 类别]** | 指定与通知关联的类别 ID 的名称。这样可显示操作按钮，使用户不必打开应用程序，即可直接从通知中执行各种任务。 |
-| **[!UICONTROL 目标内容 ID]** | 用于在打开通知时定位要转发的应用程序窗口的标识符。 |
+| **[!UICONTROL 目标内容ID]** | 用于在打开通知时定位要转发的应用程序窗口的标识符。 |
 | **[!UICONTROL 启动图像]** | 指定用户选择从通知中启动应用程序时要显示的启动图像文件的名称。 将显示选定的图像，而不是应用程序常规启动屏幕。 |
 | **[!UICONTROL 应用程序变量]** | 允许您定义通知行为。 可完全自定义这些变量，并将其纳入发送到移动设备的消息负载。 |
 
