@@ -2,12 +2,12 @@
 audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 24%
+source-wordcount: '1572'
+ht-degree: 21%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 24%
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
-* **[!UICONTROL 发送总数]**：投放准备期间处理的消息总数。
+* **[!UICONTROL 要投放的消息]**：投放准备期间处理的消息总数。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-* **[!UICONTROL 不同打开]**：至少打开过一次消息的目标收件人总数。
+* **[!UICONTROL 打开次数总计]**：至少打开过一次消息的目标收件人总数。
 
-* **[!UICONTROL 不同点击次数]**：在投放中至少点击一次的不同收件人的总数。
+* **[!UICONTROL 总点击次数]**：在投放中至少点击一次的不同收件人的总数。
 
 +++
 
@@ -49,8 +49,7 @@ ht-degree: 24%
 >title="初始目标受众统计数据"
 >abstract="初始目标受众统计数据表显示有关您的接收者的数据"
 
-
-**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的接收者的数据. 指标详见下文。
+此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -65,7 +64,6 @@ ht-degree: 24%
 +++
 
 ### 执行统计数据 {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -88,7 +86,6 @@ ht-degree: 24%
 
   电子邮件错误类型列在 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-
 +++
 
 ### 反应统计数据 {#delivery-summary-email-reaction-stats}
@@ -98,16 +95,15 @@ ht-degree: 24%
 >title="反应统计数据"
 >abstract="**反应统计数据**&#x200B;表显示投放的接收者活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
 
-
 此 **[!UICONTROL 反应统计信息]** 表包含投放的收件人活动的可用数据。 指标详见下文。
 
 ![](assets/campaign_report_email_4.png)
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
-* **[!UICONTROL 不同打开]**：至少打开过一次消息的目标收件人总数。
+* **[!UICONTROL 独特打开次数]**：至少打开过一次消息的目标收件人总数。
 
-* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 打开次数总计]**：此域中至少打开过一次消息的不同目标收件人的数量。
 
 * **[!UICONTROL 取消订阅]**：在相关时段内点击取消订阅的收件人数量。
 
@@ -129,9 +125,9 @@ ht-degree: 24%
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
-* **[!UICONTROL 不同点击次数]**：在投放中至少点击一次的不同收件人的总数。
+* **[!UICONTROL 独特点击]**：在投放中至少点击一次的独特收件人总数。
 
-* **[!UICONTROL 点击次数]**：投放中链接的点击总数。
+* **[!UICONTROL 总点击次数]**：投放中链接的点击总数。
 
 * **[!UICONTROL 反应性]**：已点击投放的目标收件人数量与已打开投放的目标收件人的估计数量之间的比率。
 
@@ -140,7 +136,6 @@ ht-degree: 24%
 ## 投放失败 {#non-deliverables-email}
 
 ### 按类型细分错误 {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ ht-degree: 24%
 
 +++
 
-
 ### 按域细分错误 {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ ht-degree: 24%
 >title="按域细分错误"
 >abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
-
 此 **[!UICONTROL 每个域的错误细分]** 表和图形包含每个域可能遇到的错误的可用数据。 指标与以下内容通用 **[!UICONTROL 每种类型的错误细分]** 表格和图形详见上文。
-
 
 ## 跟踪指标 {#tracking-indicators-email}
 
 ### 投放统计信息 {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ ht-degree: 24%
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
-* **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
+* **[!UICONTROL 要投放的消息]**：成功处理的消息数与要投放的消息数相关。
 
-* **[!UICONTROL 不同打开]**：至少打开过一次消息的目标收件人总数。
+* **[!UICONTROL 独特打开次数]**：至少打开过一次消息的目标收件人总数。
 
-* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 打开次数总计]**：此域中至少打开过一次消息的不同目标收件人的数量。
 
 * **[!UICONTROL 选择退出链接的点击量]**：取消订阅链接的点击次数。
 
@@ -214,29 +205,27 @@ ht-degree: 24%
 
 ### 打开和点进率 {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="打开和点进率"
 >abstract="**打开和点进率**&#x200B;表显示有关接收者与投放互动的数据。"
 
-
-
 此 **[!UICONTROL 打开率和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
 ![](assets/campaign_report_email_8.png)
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++ 了解有关电子邮件促销活动报告指标的更多信息。
 
 * **[!UICONTROL 已发送]**：发送的消息总数。
 
-* **[!UICONTROL 投诉]**：此域被收件人报告为不受欢迎的消息数。
+* **[!UICONTROL 投诉]**：此域中已被收件人报告为不受欢迎的消息的数量和百分比。
 
-* **[!UICONTROL 打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量。
+* **[!UICONTROL 独特打开次数]**：此域中至少打开过一次消息的不同目标收件人的数量和百分比。
 
-* **[!UICONTROL 点击次数]**：在同一个投放中至少点击一次的不同目标收件人的数量。
+* **[!UICONTROL 独特点击]**：至少在同一个投放中点击过一次的不同目标收件人的数量和百分比。
 
 * **[!UICONTROL 原始反应度]**：与至少打开一次投放的收件人数量相比，已至少点击一次投放的收件人数量的百分比。
+
 +++
 
 ## URL 和点击流 {#url-email}
@@ -246,19 +235,20 @@ ht-degree: 24%
 >title="URL 和点击流"
 >abstract="**URL 和点击流**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。"
 
-**[!UICONTROL URL 和点击流]**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。指标详见下文。
+此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，以详细描述投放期间点击次数最多的URL。 指标详见下文。
 
 ![](assets/campaign_report_email_9.png)
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++ 了解有关电子邮件促销活动报告指标的更多信息。
 
 * **[!UICONTROL 反应性]**：已点击投放的目标收件人数量与已打开投放的目标收件人的估计数量之间的比率。
 
-* **[!UICONTROL 不同点击次数]**：在投放中至少点击一次的不同收件人的总数。
+* **[!UICONTROL 独特点击]**：在投放中至少点击一次的不同收件人的总数。
 
-* **[!UICONTROL 点击次数]**：投放中链接的点击总数。
+* **[!UICONTROL 总点击次数]**：投放中链接的点击总数。
 
 * **[!UICONTROL 平台平均值]** ：在每个比率（反应性、非重复点击和累计点击）下显示的平均比率，用于计算过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
+
 +++
 
 ### 访问量排名前 10 的链接 {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ ht-degree: 24%
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
 >abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的接收者行为的可用数据。"
-
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
@@ -283,17 +272,14 @@ ht-degree: 24%
 
 ### 随时间推移的点击次数细分 {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="随时间推移的点击次数细分"
 >abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
 
-
-该 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
+此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## 用户活动 {#user-activities-email}
 
