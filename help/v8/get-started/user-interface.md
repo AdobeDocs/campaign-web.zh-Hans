@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -543,8 +543,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
->title="文件的名称"
->abstract="文件的名称"
+>title="文件名称"
+>abstract="文件名称"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
@@ -553,8 +553,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="拒绝加载文件活动的管理"
->abstract="拒绝加载文件活动的管理"
+>title="加载文件活动的拒绝管理"
+>abstract="加载文件活动的拒绝管理"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -563,13 +563,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="拒绝管理针对拒绝的出站过渡"
->abstract="拒绝管理针对拒绝的出站过渡"
+>title="针对拒绝的拒绝管理出站过渡"
+>abstract="针对拒绝的拒绝管理出站过渡"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="加载文件活动的格式"
->abstract="加载文件活动的格式"
+>title="加载文件活动的格式设置"
+>abstract="加载文件活动的格式设置"
 
 
 
