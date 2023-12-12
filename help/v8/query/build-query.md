@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 1%
 * **受众**：使用现有受众筛选查询。
 * **预定义过滤器**：使用现有的预定义过滤器过滤查询。
 
-### 构建自定义条件
+### 配置自定义条件
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="自定义条件"
+>abstract="自定义条件"
 
 要使用自定义条件筛选查询，请执行以下步骤：
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 选择受众
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="选择受众"
+>abstract="选择受众"
+
 要使用现有受众筛选查询，请执行以下步骤：
 
 1. 单击所需节点上的+按钮，然后选择 **[!UICONTROL 选择受众]**.
@@ -108,6 +118,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 使用预定义过滤器
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="预定义过滤器"
+>abstract="预定义过滤器"
+
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
 1. 单击所需节点上的+按钮，然后选择 **[!UICONTROL 预定义过滤器]**.
@@ -119,6 +134,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
    ![](assets/query-predefined-filter.png)
 
 ## 将筛选组件与运算符相结合
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="组"
+>abstract="组"
 
 将筛选组件添加到查询时，会在查询画布上自动创建新过渡，并且新筛选组件将通过AND运算符链接到第一个组件。 这意味着来自这两个筛选组件的结果将合并到查询结果中。
 
@@ -137,6 +157,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 * EXCEPT（排除）：从叫客过渡的所有过滤组件中排除结果。
 
 ## 检查并验证查询
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="规则属性"
+>abstract="规则属性"
 
 在画布中构建查询后，可以使用右侧的规则属性窗格检查查询。 可用的操作如下：
 
