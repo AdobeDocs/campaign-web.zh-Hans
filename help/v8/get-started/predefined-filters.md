@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ ht-degree: 100%
 
 现在可在&#x200B;**预定义过滤器**&#x200B;列表中找到您的自定义过滤器，并且所有 Campaign 用户均可访问您的自定义过滤器。
 
-
 ### 从过滤器列表创建过滤器 {#create-filter-from-list}
-
 
 可从左侧菜单中的&#x200B;**预定义过滤器**&#x200B;条目创建过滤器。要执行此操作，请按照以下步骤进行：
 
@@ -86,7 +84,6 @@ ht-degree: 100%
 
 1. 保存您的更改。该过滤器即被添加到预定义过滤器列表。
 
-
 ## 将过滤器保存为收藏项目 {#fav-filter}
 
 创建预定义过滤器时，如果要在收藏夹中看到此预定义过滤器，可启用&#x200B;**保存为收藏项目**。
@@ -95,7 +92,6 @@ ht-degree: 100%
 将过滤器保存为收藏项目后，所有用户均可在过滤器创建列表的&#x200B;**收藏过滤器**&#x200B;部分中找到该过滤器，如下所示：
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 

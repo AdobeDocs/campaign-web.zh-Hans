@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 98%
+source-wordcount: '464'
+ht-degree: 95%
 
 ---
 
@@ -126,6 +126,10 @@ ht-degree: 98%
       + [调度程序](workflows/activities/scheduler.md)
       + [拆分](workflows/activities/split.md)
       + [等待](workflows/activities/wait.md)
+   + 查询数据库 {#query-database}
+      + [使用查询建模器](query/query-modeler-overview.md)
+      + [构建您的第一个查询](query/build-query.md)
+      + [查询样例](query/query-samples.md)
 + 报告 {#reports}
    + [开始使用报告](reporting/gs-reports.md)
    + [关键绩效指标](reporting/kpis.md)
