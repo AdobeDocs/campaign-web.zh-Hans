@@ -2,19 +2,14 @@
 audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # 使用查询建模器 {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="目标受众"
->abstract="确立投放目标从未如此简单！使用我们最新的查询建模器，您现在能够从数据库中为收件人或任何其他定向维度定义筛选条件。 利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
 ## 查询建模器概述 {#overview}
 
