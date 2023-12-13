@@ -2,32 +2,34 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
 
 # 构建您的第一个查询 {#build-query}
 
-要开始构建查询，请从您选择的位置访问查询建模器，具体取决于您要执行的操作。 此时将打开查询建模器，并显示一个空白画布。 单击+按钮以添加查询的第一个节点。
-
-![](assets/query-add-component.png)
+要开始构建查询，请从您选择的位置访问查询建模器，具体取决于您要执行的操作。 此时将打开查询建模器，并显示一个空白画布。 单击 **+** 按钮以配置查询的第一个节点。
 
 可添加两种类型的元素：
 
-* 过滤组件（自定义条件、选择受众、预定义过滤器）允许您构建自己的规则，选择受众或预定义过滤器以细化查询。
+* **筛选组件** （自定义条件、选择受众、预定义过滤器）允许您构建自己的规则，选择受众或预定义过滤器以细化查询。 [了解如何使用筛选组件](#filtering)
 
-  示例 *订阅“体育”新闻稿的收件人*. *居住在纽约的收件人*， *居住在旧金山的收件人*
+  例如：
 
-* 组运算符(AND、OR、EXCEPT)允许您根据自己的需求，将图中的过滤组件组合在一起。
+  *订阅“体育”新闻稿的收件人*. *居住在纽约的收件人*， *居住在旧金山的收件人*
 
-  示例： *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
+* **组操作员** (AND、OR、EXCEPT)允许您根据自己的需要，将图中的过滤组件组合在一起。 [了解如何使用操作员](#filtering)
 
-有关如何添加和组合筛选组件和组运算符的详细步骤，请参见下文。
+  例如：
 
-## 添加筛选组件
+  *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
+
+![](assets/query-add-component.png)
+
+## 添加筛选组件 {#filtering}
 
 通过筛选组件，您可以使用以下内容优化查询：
 
@@ -44,10 +46,9 @@ ht-degree: 3%
 
 要使用自定义条件筛选查询，请执行以下步骤：
 
-1. 单击所需节点上的+按钮，然后选择 **[!UICONTROL 自定义完成情况]**.
-1. 自定义条件属性窗格将在右侧打开。 在属性字段中，从数据库中选择用于创建条件的属性。
+1. 单击 **+** 按钮，然后选择 **[!UICONTROL 自定义完成情况]**. 自定义条件属性窗格将在右侧打开。
 
-   可用属性表示Campaign数据库中的所有字段，包括链接到收件人表的表中的字段。
+1. 在 **属性** 字段，从数据库中选择要用于创建条件的属性。 属性列表包含Campaign数据库中的所有属性，包括链接到表的属性。
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ ht-degree: 3%
    >
    >使用编辑表达式按钮，您可以利用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。
 
-1. 从下拉列表中选择要应用的运算符。
+1. 从下拉列表中选择要应用的运算符。 可以使用各种运算符。请注意，下拉列表中可用的运算符取决于所选属性的数据类型。
 
    +++可用运算符列表
-
-   >[!NOTE]
-   >
-   >下拉列表中的可用运算符取决于所选属性的数据类型。
 
    | 操作员 | 用途 | 示例 |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ ht-degree: 3%
 
 +++
 
-1. 在值字段中，选择所需的值。
+1. 在 **值** 字段，定义预期值。 您还可以利用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 要执行此操作，请单击 **编辑表达式** 按钮。
 
-   您还可以利用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击“编辑表达式”按钮。
-
-   *示例：查询返回21岁或以上的所有用户档案*
+   *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### 选择受众
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 要使用现有受众筛选查询，请执行以下步骤：
 
-1. 单击所需节点上的+按钮，然后选择 **[!UICONTROL 选择受众]**.
+1. 单击 **+** 按钮，然后选择 **[!UICONTROL 选择受众]**.
 
-1. 选择受众属性窗格将在右侧打开。 选择要用于筛选查询的受众。
+1. 此 **选择受众** “属性”窗格将在右侧打开。 选择要用于筛选查询的受众。
 
-   *示例：查询返回属于“节日观看者”受众的所有用户档案*
+   *查询示例返回属于“节日观看者”受众的所有用户档案：*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
-1. 单击所需节点上的+按钮，然后选择 **[!UICONTROL 预定义过滤器]**.
+1. 单击 **+** 按钮，然后选择 **[!UICONTROL 预定义过滤器]**.
 
-1. 选择受众属性窗格将在右侧打开。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
+1. 此 **预定义过滤器** “属性”窗格将在右侧打开。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
 
-   *示例：查询返回与“不活跃客户”预定义过滤器对应的所有用户档案。*
+   *返回与“不活跃客户”预定义过滤器对应的所有用户档案的查询示例：*
 
    ![](assets/query-predefined-filter.png)
 
-## 将筛选组件与运算符相结合
+## 将筛选组件与运算符相结合 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="组"
 >abstract="组"
 
-将筛选组件添加到查询时，会在查询画布上自动创建新过渡，并且新筛选组件将通过AND运算符链接到第一个组件。 这意味着来自这两个筛选组件的结果将合并到查询结果中。
+每次将新的筛选组件添加到查询时，它都会通过AND运算符自动链接到另一个组件。 这意味着来自这两个筛选组件的结果将合并到查询结果中。
 
-在此示例中，新的受众类型筛选组件添加到画布。 它会自动添加到新过渡中，并使用AND运算符链接到预定义过滤器类型条件。 在这种情况下，查询结果将包含受“Madridians”预定义过滤器定位的且属于“Discount hunter”受众的收件人。
+在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件链接到带有AND运算符的预定义过滤器类型条件，这意味着查询结果包括被“Madridians”预定义过滤器定位且属于“Discount hunters”受众的收件人。
 
 ![](assets/query-operator.png)
 
-要更改用于将筛选条件链接在一起的运算符，请单击该运算符，然后在中选择所需的运算符。您可以通过单击该运算符并从右侧打开的“组”窗格中选择所需的运算符来更改该运算符。
-
-![](assets/query-operator-change.png)
+要更改用于将筛选条件链接在一起的运算符，请单击该运算符，然后在右侧打开的“组”窗格中选择所需的运算符。
 
 可用的运算符包括：
 
-* AND（交集）：将来自叫客过渡中所有筛选组件的结果组合在一起。
-* OR （并集）：包含叫客过渡中至少一个筛选组件的结果。
-* EXCEPT（排除）：从叫客过渡的所有过滤组件中排除结果。
+* **AND（交集）**：组合叫客过渡中所有筛选组件的结果。
+* **OR（并集）**：包括叫客过渡中至少一个筛选组件的结果。
+* **排除（排除）**：从叫客过渡中的所有筛选组件中排除结果。
+
+![](assets/query-operator-change.png)
 
 ## 检查并验证查询
 
@@ -163,11 +151,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 >title="规则属性"
 >abstract="规则属性"
 
-在画布中构建查询后，可以使用右侧的规则属性窗格检查查询。 可用的操作如下：
+在画布中构建查询后，您可以使用 **规则属性** 窗格位于右侧。 可用的操作包括：
 
 * **查看结果：** 显示查询生成的数据。
 * **代码视图**：显示SQL中查询的基于代码的版本。
-* **计算**：更新并显示查询所定向的记录数。
+* **计算**：更新和显示您的查询所定向的记录数。
 * **选择或保存筛选器**：选择要在画布中使用的现有预定义过滤器，或将查询另存为预定义过滤器以供将来重用。 [了解如何使用预定义过滤器](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
