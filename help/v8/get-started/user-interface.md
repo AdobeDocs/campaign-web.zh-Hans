@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: e239f86570014a56519f0e221cd04113ed4618d6
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 98%
+source-wordcount: '1545'
+ht-degree: 95%
 
 ---
 
@@ -378,7 +378,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="内容模板选择"
 >abstract="内容模板选择"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_edition"
+>title="内容模板编辑"
+>abstract="内容模板编辑"
 
 
 
@@ -570,3 +573,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="加载文件活动的格式设置"
 >abstract="加载文件活动的格式设置"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="查询建模器"
+>abstract="从数据库为收件人或其他任何定向维度定义筛选条件。 利用Adobe Experience Platform受众进一步优化目标受众，并最大化营销活动的影响。"
