@@ -4,10 +4,10 @@ title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="Beta 版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 31%
+source-wordcount: '1605'
+ht-degree: 27%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="推送 iOS 消息"
->abstract="定义推送 iOS 消息的标题和内容。使用个性化对话框使内容个性化并添加条件。"
+>abstract="为iOS设备定义推送通知的内容。 要撰写消息，请单击 **标题** 和 **消息** 字段。 使用表达式编辑器个性化数据并添加动态内容。 有关更多自定义配置，请浏览至 **高级设置** 部分。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="推送 iOS 消息"
+>abstract="为Android设备定义推送通知的内容。 要撰写消息，请单击 **标题** 和 **消息** 字段。 使用表达式编辑器个性化数据并添加动态内容。 要进一步个性化推送通知，您可以选择要添加到推送通知的图像、要在用户档案设备上显示的通知图标及其颜色。 有关更多自定义配置，请浏览至 **高级设置** 部分。"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="徽章编号"
+>title="通知次数"
 >abstract="使用此选项设置要直接显示在应用程序图标上的未读新信息数。这样用户即可迅速了解待处理通知的数量。"
 
 
@@ -139,7 +147,7 @@ ht-degree: 31%
 
 | 参数 | 说明 |
 |---------|---------|
-| **[!UICONTROL 严重警报模式]** | 启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这可确保用户注意到重要警报。 |
+| **[!UICONTROL 严重警报模式]** | 启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这可确保用户注意到重要警报。 选中后，可以使用音量级别栏调整通知的音量。 条形图上方的0到100之间的数字反映了您的设置。 |
 | **[!UICONTROL 清洁徽章]** | 启用此选项以刷新应用程序图标上显示的标记值。 它确保徽章准确地反映新的未读信息的数量。 |
 | **[!UICONTROL 通知计数]** | 设置一个将直接显示在应用程序图标上的数字，指示新的未读信息数量。 为用户提供了快速的可视化参考。 |
 | **[!UICONTROL 音量]** | 声音的音量从0到100。 |
