@@ -4,9 +4,9 @@ title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta 版"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '653'
 ht-degree: 15%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 15%
 
 1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击  **[!UICONTROL 创建投放]** 按钮。
 
-1. 在 **[!UICONTROL 渠道]** 部分，选择 **推送通知** 作为渠道，并根据选择的设备操作系统选择模板：Android或iOS。 [了解有关模板的更多信息](../msg/delivery-template.md)
+1. 在 **[!UICONTROL 渠道]** 部分，选择 **推送通知** 作为渠道，并根据选择的设备操作系统(Android或iOS)选择模板。 [了解有关模板的更多信息](../msg/delivery-template.md)
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
@@ -45,7 +45,7 @@ ht-degree: 15%
 
 1. 输入 **[!UICONTROL 标签]** 用于投放。 默认情况下，使用所选模板的标签设置标签。 它应进行更新。
 
-1. 浏览 **[!UICONTROL 其他选项]** 下拉菜单以根据需要自定义选项。
+1. 浏览 **[!UICONTROL 其他选项]** 下拉菜单以根据需要自定义选项。 如果您的投放基于扩展模式，请指定 **自定义选项** 字段可用。
 
    +++根据您的要求配置以下设置。
    * **[!UICONTROL 内部名称]**：为投放分配一个唯一标识符。

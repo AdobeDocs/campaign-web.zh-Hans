@@ -4,10 +4,10 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 72%
+source-wordcount: '479'
+ht-degree: 33%
 
 ---
 
@@ -21,12 +21,15 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
->abstract="选择最适合您的短信消息的受众。"
+>abstract="您可以创建新受众，或通过单击 **选择受众** 按钮。 如果需要，请添加控制组以衡量投放的影响。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
->abstract="选择预定义模板以开始您的短信投放。"
+>abstract="选择预定义的模板以开始短信投放。 利用投放模板，可轻松地在营销活动和投放中重复使用自定义内容和设置。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用投放模板"
+
 
 您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤详细介绍了独立（一次性）短信投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -35,13 +38,13 @@ ht-degree: 72%
 
 1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击  **[!UICONTROL 创建投放]** 按钮。
 
-1. 在&#x200B;**[!UICONTROL 渠道]**&#x200B;部分下，选择“短信”作为渠道并选择一个模板。[详细了解模板](../msg/delivery-template.md)
+1. 在 **[!UICONTROL 渠道]** 部分，选择短信作为渠道，然后选择模板。 [了解有关模板的更多信息](../msg/delivery-template.md)
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
    ![](assets/sms_create_1.png)
 
-1. 输入投放的&#x200B;**[!UICONTROL 标签]**&#x200B;并访问&#x200B;**[!UICONTROL 其他选项]**&#x200B;下拉列表。
+1. 输入 **[!UICONTROL 标签]** ，并访问 **[!UICONTROL 其他选项]** 下拉菜单。 如果您的投放基于扩展模式，请指定 **自定义选项** 字段可用。
 
    +++根据您的要求配置以下设置。
    * **[!UICONTROL 内部名称]**：为投放分配一个唯一标识符。
@@ -51,19 +54,23 @@ ht-degree: 72%
    * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。
 +++
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解详情](../audience/about-recipients.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解有关受众的更多信息](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 
-1. 开启&#x200B;**[!UICONTROL 启用对照组]**&#x200B;选项以设置对照组以衡量投放的作用，并使您可比较收到消息的人群的行为与未收到消息的联系人的行为。[了解详情](../audience/control-group.md)
+   了解如何在中选择现有受众 [此页面](../audience/add-audience.md)
 
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以开始设计短信消息的内容。[了解详情](content-sms.md)
+   了解如何在中创建新受众 [此页面](../audience/one-time-audience.md)
+
+1. 打开 **[!UICONTROL 启用对照组]** 用于设置控制组以测量投放影响的选项。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解详情](../audience/control-group.md)
+
+1. 单击 **[!UICONTROL 编辑内容]** 开始设计短信消息的内容。 [了解详情](content-sms.md)
 
    ![](assets/sms_create_4.png)
 
    在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../content/offers.md).
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。开始投放后，将在您为收件人定义的确切日期和时间自动发送消息。在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule).
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule).
 
 1. 单击 **[!UICONTROL 配置投放设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 

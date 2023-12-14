@@ -4,10 +4,10 @@ title: 设计短信投放
 description: 了解如何设计短信投放
 badge: label="Beta 版"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 61%
+source-wordcount: '244'
+ht-degree: 46%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 61%
 >title="短信内容"
 >abstract="创建短信投放的内容，并使用个性化字段、内容块和动态内容对其进行个性化。 要开始撰写消息，请单击 **编辑内容** 按钮。"
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="短信消息内容"
+>abstract="定义短信的内容。 要撰写消息，请单击 **消息** 字段并输入消息内容。 使用表达式编辑器添加个性化数据和动态内容。 您还可以自定义发件人名称。 默认情况下，将为所有短信投放启用跟踪，以便您能够测量收件人点击链接的时间。"
 
 
 要设计短信投放的内容，请执行以下步骤：
