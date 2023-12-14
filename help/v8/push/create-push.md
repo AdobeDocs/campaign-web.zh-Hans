@@ -4,10 +4,10 @@ title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta 版"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 16%
+source-wordcount: '638'
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 按如下所述配置您的投放设置：
 
-1. 输入 **[!UICONTROL 标签]** 用于投放
+1. 输入 **[!UICONTROL 标签]** 用于投放。 默认情况下，使用所选模板的标签设置标签。 它应进行更新。
 
 1. 浏览 **[!UICONTROL 其他选项]** 下拉菜单以根据需要自定义选项。
 
