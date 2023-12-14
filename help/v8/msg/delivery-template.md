@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 18%
+source-wordcount: '1068'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="投放模板"
->abstract="使用投放模板使创意外观标准化，以使执行和开展营销活动更快速"
+>abstract="为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。"
 
 为了加快并改进设计过程，您可以创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。
 
@@ -79,6 +79,7 @@ ht-degree: 18%
 ## 创建投放模板 {#create-a-delivery-template}
 
 要创建投放模板，您可以：
+
 * 复制现有模板 —  [了解详情](#copy-an-existing-template)
 * 将现有投放转换为模板 —  [了解详情](#convert-an-existing-delivery)
 * 从头开始创建投放模板 —  [了解详情](#create-a-new-template)

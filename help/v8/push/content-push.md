@@ -4,10 +4,10 @@ title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="Beta 版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 35%
+source-wordcount: '1484'
+ht-degree: 31%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="推送 Android 内容"
->abstract="定义推送 Android 内容。"
+>abstract="为Android设备定义推送通知的内容。 要撰写消息，请单击 **标题** 和 **消息** 字段。 使用表达式编辑器个性化数据并添加动态内容。 要进一步个性化推送通知，您可以选择要添加到推送通知的图像、要在用户档案设备上显示的通知图标及其颜色。 有关更多自定义配置，请浏览至 **高级设置** 部分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="推送 iOS 内容"
->abstract="定义推送 iOS 内容。"
+>abstract="为iOS设备定义推送通知的内容。 要撰写消息，请单击 **标题** 和 **消息** 字段。 使用表达式编辑器个性化数据并添加动态内容。 有关更多自定义配置，请浏览至 **高级设置** 部分。"
 
 ## 定义通知的内容 {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 35%
 >title="iOS 的静默通知"
 >abstract="通过静默推送模式，可将“静默”通知发送到移动应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
 
-
+创建推送投放后，即可定义其内容。 参数和设置取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统编写消息。
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ ht-degree: 35%
 >title="类别 ID"
 >abstract="指定与通知关联的类别 ID 的名称。这样可显示操作按钮，使用户不必打开应用程序，即可直接从通知中执行各种任务。"
 
+高级选项取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统定义消息的选项。
 
 >[!BEGINTABS]
 
