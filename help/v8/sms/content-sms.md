@@ -4,10 +4,10 @@ title: 设计短信投放
 description: 了解如何设计短信投放
 badge: label="Beta 版"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '185'
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="短信内容"
->abstract="创建短信投放的内容，并用个性化字段、内容块和动态内容使其个性化。"
+>abstract="创建短信投放的内容，并使用个性化字段、内容块和动态内容对其进行个性化。 要开始撰写消息，请单击 **编辑内容** 按钮。"
 
 
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
    ![](assets/sms_content_1.png)
 
-1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中键入文本消息，或单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;选项以定义内容和添加动态内容。[了解详情](../personalization/gs-personalization.md)
+1. 在 **[!UICONTROL 消息]** 字段，或单击 **[!UICONTROL 打开个性化对话框]** 用于定义内容和添加动态内容的选项。 [了解详情](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 
