@@ -2,19 +2,31 @@
 audience: end-user
 title: 查询样例
 description: 了解如何使用规则生成器
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '16'
-ht-degree: 25%
+source-wordcount: '177'
+ht-degree: 2%
 
 ---
 
 # 查询样例 {#query-samples}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=en
+## 对收件人的查询 {#querying-recipient-table}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html?lang=en
+* 恢复电子邮件域为“orange.co.uk”且不在伦敦居住的收件人的姓名和电子邮件。
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* 过去7天内未联系收件人。
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* 在之前的投放过程中，电子邮件域被定向了30多次。
+
+## 关于投放的查询 {#number-of-clicks-for-a-specific-delivery}
+
+* 特定投放的点击次数。
+
+* 过去7天内未打开电子邮件的收件人。
+
+* 过去2周内打开过投放的用户档案：
+
+* 上一次投放后跟进。
+
+  发送“夏季体育优惠”投放。 投放四天后，将发送其他两个投放。 其中一个是“水上运动优惠”，另一个是第一个“夏季运动优惠”的后续服务。 “水上运动选件”投放会发送给在第一次投放中单击“水上运动”链接的收件人。 这些点击显示收件人对该主题感兴趣。 有必要引导他们接受类似的提议。 但是，未点击“夏季体育优惠”的收件人将再次收到相同的内容。

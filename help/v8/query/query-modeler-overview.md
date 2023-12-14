@@ -2,14 +2,20 @@
 audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
-source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 使用查询建模器 {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="查询建模器"
+>abstract="从数据库为收件人或其他任何定向维度定义筛选条件。 利用Adobe Experience Platform受众进一步优化目标受众，并最大化营销活动的影响。"
 
 Adobe Campaign Web具有查询建模器，可简化筛选数据库以根据各种条件选择特定目标的过程。 这包括使用高级表达式和运算符。
 
