@@ -89,7 +89,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="严重警报模式"
+>title="重要警报模式"
 >abstract="启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这样确保用户在任何情况下均可收到重要警告的通知。"
 
 

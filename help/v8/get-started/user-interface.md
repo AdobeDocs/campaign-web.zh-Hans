@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -254,8 +254,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="测试用户档案附加数据"
->abstract="测试用户档案附加数据"
+>title="测试配置文件附加数据"
+>abstract="测试配置文件附加数据"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
