@@ -4,20 +4,23 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta 版"
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 69%
+source-wordcount: '1314'
+ht-degree: 66%
 
 ---
 
 
 # 发送您的第一封电子邮件 {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
+>id="acw_homepage_card3"
+>title="电子邮件入门"
+>abstract="您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 了解如何创建投放、选择受众和设计电子邮件内容。"
+
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 

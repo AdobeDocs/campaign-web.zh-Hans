@@ -3,11 +3,11 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+badge: label="Beta 版"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 50%
+source-wordcount: '624'
+ht-degree: 47%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 50%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="添加链接和跟踪邮件"
 
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
+
 * 定义消息的基本元素，如发件人地址和主题行
 * 执行其他操作，例如添加附件或设置优惠
 * 访问 [电子邮件设计工具](get-started-email-designer.md#start-authoring) 以开始构建电子邮件的适当内容
@@ -83,11 +84,11 @@ ht-degree: 50%
 
    <!--limitation on size + number of files?-->
 
-1. 如果要使用电子邮件发送优惠，请使用&#x200B;**[!UICONTROL 设置优惠]**&#x200B;按钮。
+1. 如果要通过电子邮件发送优惠，请使用 **[!UICONTROL 设置优惠]** 按钮。
 
    之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送优惠](offers.md)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，使用来结构和设计电子邮件的内容 [电子邮件设计工具](#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，使用来结构和设计电子邮件的内容 [电子邮件设计工具](get-started-email-designer.md#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
    * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)

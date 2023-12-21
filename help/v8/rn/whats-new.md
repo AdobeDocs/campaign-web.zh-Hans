@@ -4,8 +4,8 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
-workflow-type: ht
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -15,9 +15,10 @@ ht-degree: 100%
 # 新增功能 {#new}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="新增功能"
+>id="acw_homepage_card2"
+>title="发行说明"
 >abstract="我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动、促成优异的成果并使您在所有渠道上都具有竞争优势。"
+
 
 我们很高兴推出 Adobe Campaign Web UI 的 Beta 版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动、促成优异的成果并使您在所有渠道上都具有竞争优势。
 

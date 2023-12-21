@@ -3,10 +3,10 @@ title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta 版"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 18%
+source-wordcount: '1049'
+ht-degree: 17%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 18%
 在Adobe Campaign中，投放的目标群体是受众。 受众是指一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 您也可以通过更改维度来处理其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
 
 ## 什么是收件人？ {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="收件人"
+>abstract="创建新收件人，并通过功能强大的报告和工具监控这些收件人。 访问收件人的配置文件，使用筛选选项浏览收件人列表，编辑和更新其属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -60,7 +66,7 @@ ht-degree: 18%
 * [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
 * [选择现有受众](add-audience.md) 在客户端控制台中创建为列表或来自Adobe Experience Platform，
 * [构建新受众](segment-builder.md) 通过定义和组合筛选条件来使用规则生成器，
-* [使用外部文件中的受众](file-audience.md).此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
+* [使用外部文件中的受众](file-audience.md). 此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
 
 定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)
 

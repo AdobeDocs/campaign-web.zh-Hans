@@ -4,14 +4,20 @@ title: 内容助手快速入门
 description: 内容助手入门
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 34%
 
 ---
 
 # 内容助手快速入门 {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="适用于电子邮件内容的生成式 AI"
+>abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,7 +39,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->仅在 Alpha 版本中有此功能可用，如有更改，恕不另行通知。它将在10月初激活。
+>此功能在其Alpha版本中提供，如有更改，恕不另行通知。 它将在10月初激活。
 
 ## 护栏和限制 {#generative-guardrails}
 
@@ -60,7 +66,7 @@ ht-degree: 34%
 <img alt="文本生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>用内容助手生成文本</strong></a>
+<a href="generative-content.md"><strong>使用内容助手生成文本</strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +74,7 @@ ht-degree: 34%
 <a href="generative-image.md">
 <img alt="图像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>用内容助手生成图像</strong>
+<div><a href="generative-image.md"><strong>使用内容助手生成图像</strong>
 </div>
 <p>
 </td>
@@ -77,7 +83,7 @@ ht-degree: 34%
 <img alt="电子邮件生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>用内容助手生成电子邮件</strong></a>
+<a href="generative-email.md"><strong>使用内容助手生成电子邮件</strong></a>
 </div>
 <p></td>
 </tr></table>

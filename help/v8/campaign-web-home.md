@@ -3,21 +3,25 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta"
-source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+badge: label="LA"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
 # Adobe Campaign v8 Web 文档 {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="帮助和文档"
+>abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这种新的现代化UI简化了营销活动的设计和交付，并与其他Adobe解决方案一起实现了一致性。"
 
 Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 
->Campaign v8 Web 当前为 Beta 版本。仅限少量 Beta 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
+>[!AVAILABILITY]
+> Campaign v8 Web当前为Limited Availability (LA)版本。 仅限一小部分LA客户访问。 请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
 
 ## Campaign Web 新功能
 
