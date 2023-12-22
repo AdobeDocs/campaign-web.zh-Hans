@@ -3,9 +3,9 @@ title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta 版"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1060'
 ht-degree: 17%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="收件人"
->abstract="创建新收件人，并通过功能强大的报告和工具监控这些收件人。 访问收件人的配置文件，使用筛选选项浏览收件人列表，编辑和更新其属性。"
+>title="360查看您的收件人"
+>abstract="创建新收件人，并通过功能强大的报告和工具监控这些收件人。 访问收件人的属性、交互和日志。 使用筛选选项浏览收件人列表，编辑和更新其用户档案。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 

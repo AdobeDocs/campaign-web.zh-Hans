@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -383,8 +383,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
->title="内容模板编辑"
->abstract="内容模板编辑"
+>title="内容模板版本"
+>abstract="内容模板版本"
 
 
 

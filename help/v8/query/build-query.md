@@ -5,7 +5,7 @@ description: 了解如何在Adobe Campaign Web查询建模器中构建您的第�
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
    ![](assets/query-predefined-filter.png)
 
-## 将筛选组件与运算符相结合 {#operators}
+## 将过滤组件与运算符结合起来 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 ![](assets/query-operator-change.png)
 
-## 检查并验证查询
+## 检查并验证您的查询
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"

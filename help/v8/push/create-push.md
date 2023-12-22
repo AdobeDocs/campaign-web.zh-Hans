@@ -7,7 +7,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 15%
+ht-degree: 37%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="推送通知模板"
->abstract="选择推送通知模板以开始您的推送投放。 利用投放模板，可轻松地在营销活动和投放中重复使用自定义内容和设置。"
+>abstract="选择推送通知模板以开始推送投放。投放模板允许您在营销活动和投放中轻松重复使用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用投放模板"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="推送投放属性"
->abstract="定义推送投放属性。 输入推送的标签并使用 **其他选项** 以配置内部名称、投放文件夹和代码。 您还可以输入自定义描述。"
+>abstract="定义您的推送投放属性。输入推送的标签并使用&#x200B;**其他选项**&#x200B;配置内部名称、投放文件夹和代码。您还可以输入自定义描述。"
 
 您可以创建独立的推送通知投放，也可以在活动工作流的上下文中创建推送通知。 以下步骤详细介绍了独立（一次性）推送投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -56,18 +56,18 @@ ht-degree: 15%
 +++
 
 
-## 选择您的推送投放受众 {#create-audience-push}
+## 选择您的投放受众 {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="定义推送通知受众"
->abstract="要定义消息的受众，您必须首先选择与推送投放关联的应用程序。 默认情况下，您的推送通知将发送给应用程序的所有订阅者。 您可以通过单击 **选择受众** 按钮。 如果需要，请添加控制组以衡量投放的影响。"
+>abstract="要定义消息的受众，您必须首先选择与推送投放关联的应用程序。默认情况下，您的推送通知将会发送给应用程序的所有订阅者。您可以通过点击&#x200B;**选择受众**&#x200B;按钮来细化特定受众。如果需要，可以添加一个对照组来衡量投放产生的影响。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
 
 您必须先选择应用程序，然后优化推送通知受众，如下所述：
 
-1. 从 **[!UICONTROL 受众]** 部分，选择要用于此投放的应用程序。 默认情况下，您的推送通知将发送给应用程序的所有订阅者。 您可以通过单击 **[!UICONTROL 选择受众]** 按钮。
+1. 从 **[!UICONTROL 受众]** 部分，选择要用于此投放的应用程序。 默认情况下，您的推送通知将会发送给应用程序的所有订阅者。您可以通过单击 **[!UICONTROL 选择受众]** 按钮。
 
    ![](assets/push_create_2.png)
 

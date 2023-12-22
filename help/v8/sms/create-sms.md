@@ -7,7 +7,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 33%
+ht-degree: 45%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
->abstract="您可以创建新受众，或通过单击 **选择受众** 按钮。 如果需要，请添加控制组以衡量投放的影响。"
+>abstract="您可以创建新受众或通过点击&#x200B;**选择受众**&#x200B;按钮来选择现有受众。如果需要，可以添加一个对照组来衡量投放产生的影响。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
->abstract="选择预定义的模板以开始短信投放。 利用投放模板，可轻松地在营销活动和投放中重复使用自定义内容和设置。"
+>abstract="选择预定义模板以开始您的短信投放。投放模板允许您在营销活动和投放中轻松重复使用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用投放模板"
 
 
