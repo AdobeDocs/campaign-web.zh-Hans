@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web UI 中的电子邮件设计器开始生成内容
 badge: label="Beta"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 90%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 90%
 >id="acw_homepage_rn3"
 >title="新的电子邮件设计工具"
 >abstract="Campaign Email Designer使您能够通过直观的拖放界面创建引人入胜的单独定制电子邮件。 无论您是从头开始、导入现有内容还是利用现有模板，请设计并优化每封电子邮件的所有内容！"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 
