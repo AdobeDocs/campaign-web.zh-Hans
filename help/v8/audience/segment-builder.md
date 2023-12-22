@@ -4,19 +4,15 @@ title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta 版"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 63%
+source-wordcount: '559'
+ht-degree: 60%
 
 ---
 
 # 使用规则生成器 {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="目标受众"
->abstract="确立投放目标从未如此简单！利用我们最新的规则生成器，您现在可以为收件人或数据库中的任何其他定位维度定义筛选条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
 规则生成器允许您通过过滤数据库中包含的数据来定义投放所定向的群体。 您可以使用它在工作流中构建受众。 **[!UICONTROL 构建受众]** 活动，或在创建投放以创建一次性受众时直接创建。
 
