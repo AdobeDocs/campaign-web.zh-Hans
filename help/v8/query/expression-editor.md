@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 62%
+source-wordcount: '1917'
+ht-degree: 60%
 
 ---
 
@@ -313,8 +313,8 @@ ht-degree: 62%
   </tr>
   <tr> 
    <td> <strong>YearAgo</strong><br /> </td> 
-   <td> 返回两个指定日期之间的年数之差<br /> </td> 
-   <td> YearAgo(&lt;end date=""&gt;， &lt;start date=""&gt;)<br /> </td>  
+   <td> 返回给定日期与当前日期之间的年数之差<br /> </td> 
+   <td> YearAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ ht-degree: 62%
    <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 如果条件为true，则返回值1。 如果不存在，则返回值2。<br /> </td> 
@@ -467,6 +472,11 @@ ht-degree: 62%
    <td> 如果值1 =值2，则返回值3。 如果不返回，则返回值4。<br /> </td> 
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 返回值 1（只能用作 case 函数的参数）<br /> </td> 
@@ -497,6 +507,11 @@ ht-degree: 62%
    <td> 如果字符串1为空，则返回值2，否则返回值3<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果参数为 NULL，则返回空字符串<br /> </td> 
@@ -562,6 +577,11 @@ ht-degree: 62%
    <td> Charindex(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 返回字符串的大小（以字节为单位）<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 返回字符串的 n（从 1 到 n）行<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
@@ -587,11 +607,6 @@ ht-degree: 62%
    <td> JuxtWords3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> 返回左侧的已完成字符串<br /> </td> 
-   <td> LPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 返回字符串的前 n 个字符<br /> </td> 
    <td> Left(&lt;string&gt;， &lt;number&gt;)<br /></td> 
@@ -601,10 +616,20 @@ ht-degree: 62%
    <td> 返回字符串的长度<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 以小写形式返回字符串<br /> </td> 
    <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 返回左侧的已完成字符串<br /> </td> 
+   <td> LPad (&lt;string&gt;， &lt;number&gt;， &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ ht-degree: 62%
    <td> MemoContains(&lt;memo&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> 返回右侧的已完成字符串<br /> </td> 
-   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+   <td> <strong>节点值</strong><br /> </td> 
+   <td> 从其XPath和字段数据提取XML字段的值<br /> </td> 
+   <td> 节点值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ ht-degree: 62%
    <td> Right(&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 返回右侧的已完成字符串<br /> </td> 
+   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 删除字符串右侧的空格<br /> </td> 
    <td> Rtrim(&lt;字符串&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> 字符串的SHA256键的十六进制表示形式。<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> 字符串的SHA512键的十六进制表示形式。<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ ht-degree: 62%
    <td> 如果其他两个参数相等，则返回作为参数传递的链接的外键（文本）<br /> </td> 
    <td> VirtualLinkStr(&lt;字符串&gt;, &lt;数字&gt;, &lt;数字&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 返回字符串大小<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ ht-degree: 62%
    <td> <strong>名称</strong><br /> </td> 
    <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>超过(_O)__</strong><br /> </td> 
+   <td> 执行作为第1参数输入的SQL函数调用，通过作为第2参数输入的字段“分区”或“排序依据”<br /> </td> 
+   <td> 超过(_O)&lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
