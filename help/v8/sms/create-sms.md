@@ -21,13 +21,13 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
->abstract="您可以创建新受众或通过点击&#x200B;**选择受众**&#x200B;按钮来选择现有受众。如果需要，可以添加一个对照组来衡量投放产生的影响。"
+>abstract="可创建新受众或通过单击&#x200B;**选择受众**&#x200B;按钮而选择现有受众。如果需要，可添加对照组以衡量投放的影响力。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
->abstract="选择预定义模板以开始您的短信投放。投放模板允许您在营销活动和投放中轻松重复使用自定义内容和设置。"
+>abstract="选择预定义模板以开始投放您的短信。通过投放模板，可轻松地在营销活动和投放中重用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用投放模板"
 
 

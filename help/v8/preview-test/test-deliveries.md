@@ -11,7 +11,7 @@ ht-degree: 13%
 
 ---
 
-# 发送验证 {#send-test-deliveries}
+# 发送校样 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"

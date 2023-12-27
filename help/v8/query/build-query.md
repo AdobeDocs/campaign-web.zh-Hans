@@ -147,7 +147,7 @@ ht-degree: 4%
 
    ![](assets/query-predefined-filter.png)
 
-## 将过滤组件与运算符结合起来 {#operators}
+## 将过滤组件与运算符相结合 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
