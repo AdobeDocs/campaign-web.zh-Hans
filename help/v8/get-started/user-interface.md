@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 100%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="片段详情"
 >abstract="片段详情"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="内容模板"
->abstract="内容模板"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="内容模板属性"
->abstract="内容模板属性"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="内容模板设计"
->abstract="内容模板设计"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="内容模板选择"
->abstract="内容模板选择"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="内容模板版本"
->abstract="内容模板版本"
-
-
 
 
 >[!CONTEXTUALHELP]

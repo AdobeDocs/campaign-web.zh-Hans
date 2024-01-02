@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web UI 中的电子邮件设计器开始生成内容
 badge: label="Beta"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
->title="新的电子邮件设计工具"
->abstract="Campaign Email Designer使您能够通过直观的拖放界面创建引人入胜的单独定制电子邮件。 无论您是从头开始、导入现有内容还是利用现有模板，请设计并优化每封电子邮件的所有内容！"
+>title="新的电子邮件设计器"
+>abstract="利用营销活动电子邮件设计器，可以通过直观的拖放界面创建引人入胜、单独定制的电子邮件。无论您是从头开始，导入现有内容还是利用现有模板，都可以设计并优化每封电子邮件的所有内容！"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 
@@ -50,6 +50,6 @@ The Email Designer allows you to create email content and email content template
 
 * 从文件或 .zip 文件夹中&#x200B;**导入现有 HTML 内容**。请参阅[此章节](existing-content.md)以了解如何导入电子邮件内容。
 
-* 从内置或自定义模板的列表中&#x200B;**选择现有内容**。请参阅此[章节](email-sample-templates.md)以了解如何使用电子邮件模板。
+* 从内置或自定义模板的列表中&#x200B;**选择现有内容**。请参阅此[章节](create-email-templates.md)以了解如何使用电子邮件模板。
 
   ![](assets/email_designer_create_options.png)

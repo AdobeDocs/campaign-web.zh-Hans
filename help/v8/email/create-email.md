@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta 版"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1314'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="电子邮件入门"
->abstract="您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 了解如何创建投放、选择受众和设计电子邮件内容。"
+>abstract="您可以创建独立的电子邮件投放，或在营销活动工作流程中创建电子邮件。了解如何创建投放、选择受众以及设计电子邮件内容。"
 
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
-基于预定义的 [设计模板](../content/email-sample-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
+基于预定义的 [设计模板](../content/create-email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
 
 ## 创建电子邮件投放 {#create-email}
 
@@ -38,7 +38,7 @@ ht-degree: 66%
 >title="定义电子邮件属性"
 >abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
 
-您可以创建独立的电子邮件投放，也可以在活动工作流的上下文中创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在中详细了解Adobe Campaign中的投放创建步骤 [此页面](../msg/gs-deliveries.md).
+您可以创建独立的电子邮件投放，或在营销活动工作流程中创建电子邮件。以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在中详细了解Adobe Campaign中的投放创建步骤 [此页面](../msg/gs-deliveries.md).
 
 要创建新的独立电子邮件投放，请执行以下步骤。
 
@@ -120,7 +120,7 @@ ht-degree: 66%
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
-   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](../content/email-sample-templates.md).
+   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 

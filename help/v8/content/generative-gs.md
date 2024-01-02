@@ -4,7 +4,7 @@ title: 内容助手快速入门
 description: 内容助手入门
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 34%
@@ -50,7 +50,7 @@ ht-degree: 34%
 * 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
 * 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的建议大小小于10MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
-* 使用Adobe Campaign创作的电子邮件模板，或者首选 [内置电子邮件模板](../content/email-sample-templates.md) 以创建您的电子邮件内容。 建议使用最多包含8至10张图像的电子邮件模板。
+* 使用Adobe Campaign创作的电子邮件模板，或者首选 [内置电子邮件模板](../content/create-email-templates.md) 以创建您的电子邮件内容。 建议使用最多包含8至10张图像的电子邮件模板。
 
 
 以下限制适用于Campaign内容助手：
