@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 66%
+source-wordcount: '1337'
+ht-degree: 65%
 
 ---
 
@@ -84,7 +84,9 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 
   通过我们&#x200B;**多种多样的工作流活动**&#x200B;促进您的市场营销活动。发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
 
-  可在[此部分](../workflows/gs-workflows.md)中了解详情。
+  最新LA版本的新活动包括： **调解**， **加载受众**、和 **保存受众**.
+
+  可在[此小节](../workflows/gs-workflows.md)中了解详情。
 
 
 * **使用查询建模器定位受众**
