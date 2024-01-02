@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1388'
 ht-degree: 100%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="协调活动"
->abstract="使用&#x200B;**协调**&#x200B;活动将未识别的数据链接到现有资源。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="协调定位"
->abstract="协调定位"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="协调规则"
->abstract="协调规则"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="协调定位维度"
->abstract="协调定位维度"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="协调选择字段"
->abstract="协调选择字段"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="协调选择属性"
->abstract="协调选择属性"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="协调创建条件"
->abstract="协调创建条件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="协调生成补集"
->abstract="协调生成补集"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="协调将保留未协调的数据选项"
->abstract="协调将保留未协调的数据选项"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="加载文件活动"
->abstract="加载文件活动"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="示例文件"
->abstract="示例文件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="文件名称"
->abstract="文件名称"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="目标数据库"
->abstract="目标数据库"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="加载文件活动的拒绝管理"
->abstract="加载文件活动的拒绝管理"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="拒绝管理出站过渡"
->abstract="拒绝管理出站过渡"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="针对拒绝的拒绝管理出站过渡"
->abstract="针对拒绝的拒绝管理出站过渡"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="加载文件活动的格式设置"
->abstract="加载文件活动的格式设置"

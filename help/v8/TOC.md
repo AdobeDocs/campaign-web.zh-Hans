@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [寻求帮助和指导](get-started/using-ai.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
-   + [处理投放](msg/gs-deliveries.md)
+   + [使用投放](msg/gs-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
@@ -122,6 +122,8 @@ ht-degree: 96%
       + [电子邮件、短信、推送](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
       + [分叉](workflows/activities/fork.md)
+      + [加载文件](workflows/activities/load-file.md)
+      + [协调](workflows/activities/reconciliation.md)
       + [保存受众](workflows/activities/save-audience.md)
       + [调度程序](workflows/activities/scheduler.md)
       + [拆分](workflows/activities/split.md)

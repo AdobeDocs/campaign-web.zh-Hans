@@ -2,12 +2,12 @@
 audience: end-user
 title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 40%
+source-wordcount: '612'
+ht-degree: 35%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列定义"
->abstract="检查要从本地文件插入的列的格式。"
+>abstract="检查外部文件中列的格式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
->abstract="检查文件的格式化参数。"
+>abstract="检查外部文件的格式参数。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="预览文件"
->abstract="检查文件的预览。此屏幕最多只能显示 30 条记录。"
+>abstract="检查外部文件列的预览。 此屏幕最多只能显示 30 条记录。"
 
 
-
-您无法从界面将用户档案直接上传到Campaign，但可以定位存储在外部文件中的用户档案。 用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。
+您可以定位存储在外部文件中的用户档案。 用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。本文介绍了在创建独立的电子邮件投放时如何加载外部用户档案。 要从工作流中的文件加载数据，请参阅 [此页面](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* 此功能仅适用于 **独立电子邮件投放**. 它不能用在工作流中，也不能用于短信或推送投放。
+>* 此功能仅适用于 **电子邮件投放**. 它不能与短信或推送投放一起使用。
 >
 >* 从外部文件加载目标人群时无法使用[对照组](control-group.md)。
 >
