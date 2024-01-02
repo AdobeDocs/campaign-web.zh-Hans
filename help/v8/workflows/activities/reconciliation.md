@@ -3,9 +3,9 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 badge: label="有限发布版"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '840'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="协调活动"
->abstract="此 **调解** 活动是 **定位** 活动，用于将未识别的数据链接到现有Campaign数据。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与外部表中的数据之间的链接。"
+>abstract="此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与外部表中的数据之间的链接。"
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 
 
-此 **调解** 活动是 **定位** 活动，用于将未识别的数据链接到现有资源。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
+此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
 
 
 ## 最佳实践 {#reconciliation-best-practices}

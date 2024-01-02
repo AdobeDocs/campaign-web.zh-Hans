@@ -4,7 +4,7 @@ title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="Beta 版"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 3c77120c5936f647514969644f59833e97d56232
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 70%
