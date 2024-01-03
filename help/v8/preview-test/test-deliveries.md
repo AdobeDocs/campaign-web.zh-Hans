@@ -3,10 +3,10 @@ audience: end-user
 title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta 版"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
+badge: label="LA"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1171'
 ht-degree: 13%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 13%
 
    根据消息渠道，校样可以发送给以下类型的收件人：
 
-   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 这些收件人创建于 [!DNL Campaign] 客户端控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 [了解详情](../audience/test-profiles.md)
 
    * 对于短信和电子邮件，您还可以使用 [从主目标替换](#substitution-profiles) 模式，用于将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
@@ -73,7 +73,9 @@ ht-degree: 13%
 >title="将测试配置文件包含在主要受众中"
 >abstract="启用此选项还可将最终消息发送给测试投放的收件人。"
 
-测试用户档案是种子地址，是数据库中的其他收件人。 它们可以在以下位置创建： [!DNL Adobe Campaign] 客户端控制台。 将验证发送到种子地址的步骤详述如下。
+测试用户档案是种子地址，是数据库中的其他收件人。 它们可以从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
+
+向种子地址发送校样的步骤详述如下。
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 
@@ -81,13 +83,23 @@ ht-degree: 13%
 
    ![](assets/simulate-profile-mode.png)
 
-1. 如果您已经选择用户档案到 [预览消息](preview-content.md) 在内容模拟屏幕中，会预选这些用户档案作为测试收件人。 您可以清除所做的选择和/或使用 **[!UICONTROL 添加测试配置文件]** 按钮。
-
    >[!NOTE]
    >
-   >测试用户档案创建于 [!DNL Campaign] 将客户端控制台移入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解如何在中创建和管理种子地址 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+   >测试用户档案是从 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 了解如何在中创建和管理它们 [本节](../audience/test-profiles.md#create-test-profiles).
+
+1. 如果您已经选择用户档案到 [预览消息](preview-content.md) 在内容模拟屏幕中，会预选这些用户档案作为测试收件人。 您可以清除所做的选择和/或使用 **[!UICONTROL 添加测试配置文件]** 按钮。
+
+1. 在浏览测试配置文件列表时，您可以使用过滤器来优化搜索。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 [了解有关高级过滤器的更多信息](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. 要将最终消息发送给测试投放的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
+
+   ![](assets/simulate-include-test.png)
 
 1. 选择测试用户档案后，您可以 [发送测试投放](#send-test).
 
