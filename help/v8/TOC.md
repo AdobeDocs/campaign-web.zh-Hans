@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 89%
+source-wordcount: '508'
+ht-degree: 86%
 
 ---
 
@@ -143,17 +143,17 @@ ht-degree: 89%
    + [开始使用报告](reporting/gs-reports.md)
    + [关键绩效指标](reporting/kpis.md)
    + 投放报告 {#delivery-report}
-      + [访问投放报告](reporting/delivery-reports.md)
+      + [投放报告入门](reporting/delivery-reports.md)
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
    + 营销活动报表 {#campaign-report}
-      + [访问营销活动报告](reporting/campaign-reports.md)
+      + [营销活动报告入门](reporting/campaign-reports.md)
       + [通过电子邮件发送营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)
    + 全局报告 {#global-report}
-      + [访问全局报告](reporting/global-reports.md)
+      + [全局报告入门](reporting/global-reports.md)
       + [通过电邮发送全局报告](reporting/global-report-email.md)
       + [推送全局报告](reporting/global-report-push.md)
       + [短信全局报告](reporting/global-report-sms.md)

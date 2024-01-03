@@ -2,12 +2,12 @@
 audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 50%
+source-wordcount: '478'
+ht-degree: 38%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 50%
 >title="推送整体统计数据"
 >abstract="**整体统计数据**&#x200B;报告显示已发送的推送通知的数据：成功次数、错误次数和隔离次数。"
 
-**整体统计数据**&#x200B;报告显示已发送的推送通知的数据：成功次数、错误次数和隔离次数。指标详见下文。
+此 **总体统计信息** 报表呈现已发送推送通知的数据：成功、错误和隔离。 指标详见下文。
 
 ![](assets/reporting_push_5.png)
 
@@ -94,7 +94,7 @@ ht-degree: 50%
 >title="推送排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
 
-**[!UICONTROL 排除项]**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+此 **[!UICONTROL 排除项]** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
@@ -106,6 +106,6 @@ ht-degree: 50%
 >title="投放吞吐量报告"
 >abstract="投放吞吐量报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。"
 
-**投放吞吐量**&#x200B;报告提供有关指定时间范围内整个平台的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。
+此 **投放吞吐量** 报告提供指定时间范围内整个平台的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
 ![](assets/reporting_push_2.png)

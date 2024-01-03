@@ -2,11 +2,11 @@
 audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1573'
 ht-degree: 21%
 
 ---

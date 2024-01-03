@@ -2,12 +2,12 @@
 audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 40%
+source-wordcount: '2245'
+ht-degree: 38%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 40%
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
 
-**[!UICONTROL 排除的原因]**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+此 **[!UICONTROL 排除的原因]** 图形和表格显示了投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -122,7 +122,7 @@ ht-degree: 40%
 >title="广播统计数据"
 >abstract="**广播统计数据**&#x200B;报告包含每个域可能遇到的错误的可用数据。"
 
-**[!UICONTROL 广播统计]**&#x200B;表包含每个域可能遇到的错误的可用数据。指标详见下文。
+此 **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。 指标详见下文。
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 

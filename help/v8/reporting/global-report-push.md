@@ -2,11 +2,11 @@
 audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
-badge: label="有限可用性"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+badge: label="有限发布版"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

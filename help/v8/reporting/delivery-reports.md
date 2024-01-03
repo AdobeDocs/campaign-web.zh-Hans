@@ -3,21 +3,20 @@ audience: end-user
 title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="有限发布版"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 50%
+source-wordcount: '207'
+ht-degree: 48%
 
 ---
 
-# 访问投放报告 {#reports}
+# 投放报告入门 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="投放的汇总报告"
 >abstract="选择至少两个投放以供显示汇总数据报告。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
