@@ -4,10 +4,10 @@ title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="可用性有限"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 86%
+source-wordcount: '303'
+ht-degree: 89%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 86%
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-使用&#x200B;**显示高级属性**&#x200B;开关以查看当前列表的所有属性。[了解详情](#adv-attributes)
-
 ## 对数据排序 {#sort-lists}
 
 您也可以单击任意列标题来对列表中的项目进行排序。将显示一个箭头（向上或向下），指示列表已按该列排序。
@@ -59,27 +57,29 @@ ht-degree: 86%
 
 自定义过滤器是使用Campaign查询建模器设计的。 有关如何使用该功能的详细信息，请参阅 [本节](../query/query-modeler-overview.md).
 
-## 使用高级属性 {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="显示高级属性"
->abstract="默认情况下，属性列表中仅显示最常见属性。激活&#x200B;**显示高级属性**&#x200B;切换开关可看到对于规则生成器左侧调色板中当前列表可用的所有属性，如节点、分组、1 对 1 链接、1 对多链接。"
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="规则生成器高级字段"
->abstract="默认情况下，属性列表中仅显示最常见属性。激活&#x200B;**显示高级属性**&#x200B;切换开关可看到对于规则生成器左侧调色板中当前列表可用的所有属性，如节点、分组、1 对 1 链接、1 对多链接。"
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="规则生成器高级属性"
->abstract="默认情况下，属性列表中仅显示最常见属性。激活&#x200B;**显示高级属性**&#x200B;切换开关可看到对于规则生成器左侧调色板中当前列表可用的所有属性，如节点、分组、1 对 1 链接、1 对多链接。"
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-默认情况下，属性列表和过滤器配置屏幕中仅显示最常见属性。配置屏幕中将隐藏设置为数据架构中的 `advanced` 属性的属性。
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。 属性列表会立即更新。
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
