@@ -8,11 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="LA"
-source-git-commit: 8690bd24b5f31bc850734939ae9b7c2d830c1e5c
+badge: label="有限发布版"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 14%
+source-wordcount: '251'
+ht-degree: 11%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 14%
 
 1. 单击 **[!UICONTROL 使用此模板]** 在屏幕的右上角。
 
-1. 使用电子邮件设计器根据需要编辑您的内容。[了解详情](create-email-content.md)
+1. 使用Email Designer根据需要编辑内容。 [了解详情](create-email-content.md)
 
