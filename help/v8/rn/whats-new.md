@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -84,14 +84,14 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 
   通过我们&#x200B;**多种多样的工作流活动**&#x200B;促进您的市场营销活动。发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
 
-  最新LA版本的新活动包括： **调解**， **加载受众**、和 **保存受众**.
+  最新LA版本的新活动包括： **调解**， **加载文件**、和 **保存受众**.
 
   可在[此小节](../workflows/gs-workflows.md)中了解详情。
 
 
 * **使用查询建模器定位受众**
 
-  Adobe Campaign Web功能 **功能强大且直观的查询建模器** 这简化了过滤数据库以根据各种标准选择特定目标的过程。 这包括使用高级表达式和运算符。 在每个需要定义规则以筛选数据的上下文中，都可以使用查询建模器。
+  Adobe Campaign Web功能 **功能强大且直观的查询建模器** 这简化了过滤数据库以根据各种标准选择特定目标的过程。 这包括高级表达式和运算符的使用。查询建模器适用于您需要通过定义规则来过滤数据的每个上下文。
 
   可在[此小节](../query/query-modeler-overview.md)中了解详情。
 
