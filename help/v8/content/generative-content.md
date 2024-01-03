@@ -3,17 +3,17 @@ audience: end-user
 title: 使用内容助理的文本
 description: 内容助手入门
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
-# 使用内容助手生成文本 {#generative-content}
-
-
+# 用内容助手生成文本 {#generative-content}
 
 创建并个性化电子邮件后，使用创作AI支持的内容助手将您的内容提升到新的水平。
 
@@ -70,4 +70,3 @@ ht-degree: 2%
    ![](assets/text-genai-7.png)
 
 1. 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
-

@@ -4,7 +4,9 @@ title: 内容助手快速入门
 description: 内容助手入门
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 34%
@@ -18,8 +20,6 @@ ht-degree: 34%
 >title="适用于电子邮件内容的生成式 AI"
 >abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
