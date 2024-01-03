@@ -2,25 +2,19 @@
 title: 使用收件人和受众
 description: 了解如何使用收件人Campaign Web
 badge: label="Beta 版"
-exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 17%
+source-wordcount: '449'
+ht-degree: 34%
 
 ---
 
 # 使用收件人和受众 {#about-recipients}
 
-在Adobe Campaign中，投放的目标群体是受众。 受众是指一组具有相似行为和/或特征的人员。 可以生成、选择或加载此人员集合 [如下所述](#audiences). 在大多数情况下，受众由用户档案构成，这些用户档案存储为 [收件人](#recipients) 在Adobe Campaign中。 您也可以通过更改维度来处理其他目标映射，具体如下所述 [在此部分中](#targeting-dimensions).
-
-## 什么是收件人？ {#recipients}
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="360查看您的收件人"
->abstract="创建新收件人，并通过功能强大的报告和工具监控这些收件人。 访问收件人的属性、交互和日志。 使用筛选选项浏览收件人列表，编辑和更新其用户档案。"
+>title="全面查看收件人"
+>abstract="创建新的收件人，并通过强大的报告和工具对其进行监控。获取有关收件人属性、交互和日志方面的信息。使用过滤选项浏览收件人列表、编辑和更新其配置文件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 
@@ -58,44 +52,3 @@ ht-degree: 17%
 此外，您还可以管理收件人对服务（如新闻稿）的订阅和退订。 了解如何使用中的订阅服务 [此页面](manage-services.md)
 
 您可以构建工作流以删除重复、扩充、组合用户档案和构建受众。 可在[此小节](../workflows/gs-workflows.md)中了解详情。
-
-## 什么是受众？ {#audiences}
-
-受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。要了解有关投放模板的更多信息，请参阅 [此页面](../msg/delivery-template.md).
-
-要定义受众群体，您可以：
-
-* [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
-* [选择现有受众](add-audience.md) 在客户端控制台中创建为列表或来自Adobe Experience Platform，
-* [构建新受众](segment-builder.md) 通过定义和组合筛选条件来使用规则生成器，
-* [使用外部文件中的受众](file-audience.md). 此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
-
-定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)
-
->[!NOTE]
->
->在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在的营销活动工作流中定义投放的受众 [本节](../workflows/activities/build-audience.md)
-
-## 定位维度 {#targeting-dimensions}
-
-目标维度，也就是。 目标映射，是操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
-
-工作流的定向维度由第一个维度定义 **[!UICONTROL 构建受众]** 并用于所有后续活动，直到工作流结束。 例如，如果对数据库中的收件人执行查询，则叫客过渡将包含“收件人”类型的数据，并且将传输给下一个活动。
-
-请注意，您可以使用在工作流中切换定向维度 [更改维度活动](../workflows/activities/change-dimension.md). 例如，这可让您查询特定表（如购买或订阅）上的数据库，然后将定向维度更改为收件人，以将投放发送到相应的收件人。
-
-默认情况下，电子邮件和短信投放模板将定位到 **[!UICONTROL 收件人]**. 因此，其目标维度使用 **nms：recipient** 表格。 对于推送通知，默认目标维度为 **订阅者应用程序nms：appSubscriptionRcp**，链接到收件人表。
-
-您还可以在下面列出的工作流和投放中使用其他内置目标映射：
-
-| 名称 | 使用至 | 架构 |
-|---|---|---|
-| 收件人 | 投放到收件人（内置收件人表） | nms：recipient |
-| 访客 | 向通过反向链接（病毒式营销）收集用户档案的访客投放，例如。 | mns：visitor |
-| 订阅 | 发送给订阅了新闻稿等信息服务的收件人 | nms：subscription |
-| 访客订阅 | 向订阅了信息服务的访客投放 | nms：visitorSub |
-| 运算符 | 交付给Adobe Campaign操作员 | nms：operator |
-| 外部文件 | 通过包含投放所需所有信息的文件投放 | 无链接架构，未输入目标 |
-| 订阅者申请 | 投放到订阅了应用程序的收件人 | nms：appSubscriptionRcp |
-
-此外，您可以根据需要创建新的目标映射。 此操作从客户端控制台执行。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
