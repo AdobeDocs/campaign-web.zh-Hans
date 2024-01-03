@@ -2,12 +2,12 @@
 audience: end-user
 title: 浏览、搜索和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
-badge: label="Beta"
+badge: label="可用性有限"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 98%
+source-wordcount: '538'
+ht-degree: 86%
 
 ---
 
@@ -53,13 +53,11 @@ ht-degree: 98%
 
 要在数据上创建自定义过滤器，请浏览到过滤器的底部，然后单击&#x200B;**添加规则**&#x200B;按钮以访问规则生成器。
 
-拖放属性可在&#x200B;**高级过滤器**&#x200B;屏幕中生成筛选条件。
+在中定义和组合您的过滤条件 **高级过滤器** 屏幕。
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-使用&#x200B;**显示高级属性**&#x200B;开关以查看当前列表的所有属性。[了解详情](#adv-attributes)
-
-规则生成器对于自定义过滤器的工作原理类似于用于创建受众的规则生成器。可在[受众文档](../audience/segment-builder.md)中找到关于如何使用它的详细信息。
+自定义过滤器是使用Campaign查询建模器设计的。 有关如何使用该功能的详细信息，请参阅 [本节](../query/query-modeler-overview.md).
 
 ## 使用高级属性 {#adv-attributes}
 
@@ -81,7 +79,7 @@ ht-degree: 98%
 
 默认情况下，属性列表和过滤器配置屏幕中仅显示最常见属性。配置屏幕中将隐藏设置为数据架构中的 `advanced` 属性的属性。
 
-激活&#x200B;**显示高级属性**&#x200B;切换开关可看到对于规则生成器左侧调色板中当前列表可用的所有属性，如节点、分组、1 对 1 链接、1 对多链接。属性列表会立即更新。
+激活 **显示高级属性** 切换可在规则生成器的左侧面板中查看当前列表的所有可用属性，例如节点、分组、1-1链接、1-N链接。 属性列表会立即更新。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

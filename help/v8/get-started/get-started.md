@@ -3,11 +3,11 @@ audience: end-user
 title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+badge: label="有限发布版"
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign 最初只能通过富[客户端控制台](#ac-client)使用，它现已
 
 >[!NOTE]
 >
->Campaign v8 Web 当前为 Beta 版本。仅限少量 Beta 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。
+>Campaign v8 Web当前为Limited Availability (LA)版本。 仅限一小部分LA客户访问。 请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。
 
 在[此页面](connect-to-campaign.md)中了解如何连接到 Adobe Campaign Web 界面。
 
