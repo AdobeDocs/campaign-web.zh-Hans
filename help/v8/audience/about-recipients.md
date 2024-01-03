@@ -2,9 +2,9 @@
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 8%
 
 ---
@@ -50,7 +50,7 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="地址"
 >abstract="此部分提供有关用户档案的邮政地址和地址质量的见解。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
 
 >[!CONTEXTUALHELP]
