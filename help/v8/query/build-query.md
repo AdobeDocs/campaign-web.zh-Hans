@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+badge: label="有限发布版"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1464'
 ht-degree: 4%
 
 ---

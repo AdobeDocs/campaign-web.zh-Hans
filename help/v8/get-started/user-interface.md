@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="收件人创建"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="收件人详细信息"
->abstract="收件人详细信息"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="收件人联系信息"
->abstract="收件人联系信息"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="收件人地址"
->abstract="收件人地址"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="收件人帐户"
->abstract="收件人帐户"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="收件人自定义字段"
->abstract="收件人自定义字段"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="收件人不再联系"
->abstract="收件人不再联系"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="收件人其他"
->abstract="收件人其他"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件人信息卡概述"
 >abstract="收件人信息卡概述"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="收件人接触点"
 >abstract="收件人接触点"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="收件人订阅列表"
->abstract="收件人订阅列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"

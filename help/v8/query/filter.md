@@ -2,9 +2,10 @@
 audience: end-user
 title: 筛选器列表
 description: 了解如何使用内置和自定义筛选器来筛选Adobe Campaign Web列表。
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="有限发布版"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
