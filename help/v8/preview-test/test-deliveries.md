@@ -4,23 +4,23 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="有限发布版"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1187'
 ht-degree: 13%
 
 ---
 
-# 发送校样 {#send-test-deliveries}
+# 发送测试投放 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="预览模式"
 >abstract="通过将测试群体包括在主目标中而预览和测试消息。"
 
-定义消息内容后，您可以通过向测试用户档案发送校样来预览和测试该内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以通过向测试用户档案发送测试投放来预览和测试该内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-要检测消息内容或个性化设置中可能出现的错误，请先向测试用户档案发送校样，然后再将其发送给目标受众。 每次进行更改时都应发送校样，以验证最新内容。 发送测试投放（以前称为“验证”）是验证营销活动和识别潜在问题的重要步骤。 校样收件人可以检查各种元素，如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
+要检测消息内容或个性化设置中可能出现的错误，请先将测试投放发送到测试用户档案，然后再将其发送给目标受众。 每次进行更改时都应发送测试投放，以验证最新内容。 发送测试投放（也称为“验证”）是验证营销活动和识别潜在问题的重要步骤。 测试投放收件人可以检查各种元素，如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
 ## 模拟面向测试收件人的内容 {#simulate-content-test-deliveries}
 
@@ -29,23 +29,23 @@ ht-degree: 13%
 >title="测试群体"
 >abstract="选择测试群体模式。"
 
-在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/about-recipients.md)
+在发送测试之前，请确保为投放定义目标受众。 [了解详情](../audience/add-audience.md)
 
 要开始测试消息内容，请执行以下操作：
 
 1. 编辑投放的内容。
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
-1. 单击 **[!UICONTROL 测试]** 按钮以发送校样。
+1. 单击 **[!UICONTROL 测试]** 按钮以发送测试投放。
 
    ![](assets/simulate-test-button-email.png)
 
 1. 选择测试收件人。
 
-   根据消息渠道，校样可以发送给以下类型的收件人：
+   根据消息渠道，可以将测试投放发送到以下类型的收件人：
 
    * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 [了解详情](../audience/test-profiles.md)
 
-   * 对于短信和电子邮件，您还可以使用 [从主目标替换](#substitution-profiles) 模式，用于将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+   * 对于短信和电子邮件，您还可以使用 [从主目标替换](#substitution-profiles) 模式，用于将测试投放发送到电子邮件测试地址或电话号码，并使用现有用户档案的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
    * 对于推送消息，您可以使用 [订阅者](#subscribers)，这些是添加到数据库中的虚拟订阅者。 它们创建于 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -75,7 +75,7 @@ ht-degree: 13%
 
 测试用户档案是种子地址，是数据库中的其他收件人。 它们可以从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
-向种子地址发送校样的步骤详述如下。
+将测试投放发送到种子地址的步骤详述如下。
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 
@@ -93,9 +93,7 @@ ht-degree: 13%
 
    ![](assets/simulate-test-profile-filter.png)
 
-   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 [了解有关高级过滤器的更多信息](../get-started/list-filters.md#adv-attributes)
-
-   ![](assets/simulate-test-profile-filter-ex.png)
+   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
 
 1. 要将最终消息发送给测试投放的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
@@ -105,7 +103,7 @@ ht-degree: 13%
 
 ## 替换用户档案数据 {#substitution-profiles}
 
-使用配置文件替换将验证发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件的数据 [!DNL Adobe Campaign] 数据库。 仅当已定义投放的受众时，才能选择此模式。
+使用用户档案替换将测试投放发送到特定的电子邮件地址或电话号码，同时显示来自的现有用户档案的数据 [!DNL Adobe Campaign] 数据库。 仅当已定义投放的受众时，才能选择此模式。
 
 要替换主目标中的用户档案数据，请执行以下步骤：
 
@@ -172,7 +170,7 @@ ht-degree: 13%
 * [发送推送通知](../push/send-push.md#send-push)
 * [发送短信投放](../sms/send-sms.md#send-sms)
 
-## 访问已发送的测试投放 {#access-proofs}
+## 访问已发送的测试投放 {#access-test-deliveries}
 
 发送测试投放后，您可以从 **[!UICONTROL 查看测试日志]** 按钮。
 

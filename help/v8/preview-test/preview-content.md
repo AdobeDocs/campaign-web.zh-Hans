@@ -3,11 +3,11 @@ audience: end-user
 title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="有限发布版"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 10%
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 10%
 
 要预览投放内容，请执行以下步骤。
 
-1. 浏览到投放的编辑内容屏幕。
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. 浏览到投放的编辑内容屏幕或 [电子邮件设计工具](../content/get-started-email-designer.md).
 
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 
@@ -34,15 +32,19 @@ ht-degree: 10%
 
 1. 您可以组合测试用户档案和用户档案，以预览电子邮件或短信消息。
 
-   * **[!UICONTROL 测试配置文件]**&#x200B;选项卡将列出所有种子地址，这些地址是数据库中的额外和虚构的收件人。
+   * 此 **[!UICONTROL 测试用户档案]** 选项卡列出了所有种子地址，这些地址是数据库中的其他虚构收件人。
+
+     ![](assets/simulate-select-profiles.png)
 
      >[!NOTE]
      >
-     >可在中创建测试用户档案 [!DNL Campaign] 控制台进入 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 文件夹。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >测试用户档案可从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
-   * **[!UICONTROL 配置文件]**&#x200B;选项卡列出了存储到 控制台的&#x200B;**[!UICONTROL 配置文件和目标]**&#x200B;文件夹中的所有收件人。[!DNL Campaign]了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * 此 **[!UICONTROL 配置文件]** 选项卡列出了存储在中的所有收件人 **[!UICONTROL 配置文件和目标]** 中的文件夹 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >您还可以从Campaign Web UI中的相应选项卡查看和管理用户档案。 [了解详情](../audience/about-recipients.md)
 
 1. 单击 **[!UICONTROL 选择]** 以确认您的选择。
 
@@ -56,7 +58,7 @@ ht-degree: 10%
 
 1. 从 **[!UICONTROL 模拟]** 屏幕您还可以：
    * 将测试投放发送给特定收件人进行验证 —  [了解详情](test-deliveries.md)
-   * 访问已发送测试投放的日志 —  [了解详情](test-deliveries.md#access-proofs)
+   * 访问已发送测试投放的日志 —  [了解详情](test-deliveries.md#access-test-deliveries)
    * 仅对于电子邮件，检查常用电子邮件客户端中的消息内容呈现 —  [了解详情](email-rendering.md)
 
 

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -193,7 +193,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 >[!NOTE]
 >
->您不能在投放模板中使用电子邮件渲染或发送校样。
+>您不能在投放模板中使用电子邮件渲染或发送测试。
 
 * [了解有关预览电子邮件内容的更多信息](../preview-test/preview-content.md)
 

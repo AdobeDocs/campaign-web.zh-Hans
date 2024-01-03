@@ -4,7 +4,7 @@ title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 badge: label="Beta 版"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 35%
@@ -109,4 +109,4 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
    ![](assets/file-upload-test.png)
 
-1. 您可以随时使用查看测试电子邮件日志按钮监控测试电子邮件的发送。 [了解有关测试电子邮件监视的更多信息](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. 您可以使用监控测试电子邮件的发送 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 [了解有关测试电子邮件监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)
