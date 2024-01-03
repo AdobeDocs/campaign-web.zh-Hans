@@ -1,9 +1,10 @@
 ---
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
-source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
+badge: label="有限发布版"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '380'
 ht-degree: 10%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 10%
 
 Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当为投放创建受众并将个性化数据添加到内容的关键组件。 各种类型的用户档案都存储在数据库中，例如测试用户档案，这些用户档案用于在将投放发送给最终受众之前对其进行测试。 [了解如何使用测试用户档案](test-profiles.md)
 
-用户档案可从以下位置访问： **配置文件** 条目进行导航。 您还可以从以下位置访问它们： **资源管理器** 视图，可在其中浏览、创建文件夹和子文件夹，并检查关联的权限。
+只能从Campaign客户端控制台添加用户档案。 但是，在Adobe Campaign Web中，可以从以下位置访问它们： **配置文件** 条目进行导航。 您还可以从以下位置访问它们： **资源管理器** 视图，可在其中浏览、创建文件夹和子文件夹，并检查关联的权限。
 
 您可以使用以下位置提供的搜索字段或过滤器来筛选用户档案列表： **显示筛选器** 按钮。
 
