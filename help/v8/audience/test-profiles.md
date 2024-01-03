@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,19 @@ ht-degree: 3%
 
 ## 访问和管理测试用户档案 {#access-test-profiles}
 
-要访问内容模板列表，请选择 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 从左侧菜单中，选择 **[!UICONTROL 测试用户档案]** 选项卡。
+要访问测试配置文件列表，请选择 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 从左侧菜单中，单击 **[!UICONTROL 测试用户档案]** 选项卡。
+
+![](assets/test-profile-list.png)
 
 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 要编辑测试用户档案，请在列表中单击所需的项目。
 
 要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
+
+![](assets/test-profile-list-delete.png)
 
 ## 创建测试用户档案 {#create-test-profile}
 
@@ -48,11 +54,7 @@ ht-degree: 3%
 
 要创建测试用户档案，请执行以下步骤。
 
-1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**.
-
-1. 选择 **[!UICONTROL 测试用户档案]** 选项卡。
-
-   ![](assets/test-profile-list.png)
+1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 并选择 **[!UICONTROL 测试用户档案]** 选项卡。
 
 1. 单击 **[!UICONTROL 创建测试用户档案]** 按钮。
 
@@ -62,7 +64,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >地址的标签会自动填入您定义的名字和姓氏。
+   >此 **[!UICONTROL 标签]** 字段会自动填写您所定义的名字和姓氏。
 
 1. 默认情况下，测试用户档案存储在 **[!UICONTROL 种子地址]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解详情](#seed-addresses-folders)
 
