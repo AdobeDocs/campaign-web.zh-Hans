@@ -2,10 +2,10 @@
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -38,12 +38,52 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
 ## 访问和编辑用户档案的属性 {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="基本详细信息"
+>abstract="此部分提供有关用户档案的基本详细信息的见解。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="联系人信息"
+>abstract="此部分提供有关用户档案的联系信息的洞察。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="此部分提供有关用户档案的邮政地址和地址质量的见解。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="帐户详细信息"
+>abstract="此部分提供有关配置文件帐户详细信息的洞察。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="收件人不再联系"
+>abstract="此部分提供有关用户档案的联系人首选项的分析。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="自定义字段"
+>abstract="自定义字段是根据您的需求定制的特定属性，这些属性已针对您的实例进行了配置。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="其他"
+>abstract="本节提供了其他内置属性。 要修改任何信息，请直接在相应字段内进行更改，然后单击 **保存** 按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="收件人订阅列表"
+>abstract="此选项卡列出了配置文件订阅的所有服务。"
+
 要访问配置文件的详细信息，请在配置文件列表中单击其名称。
 
 ![](assets/profiles-details.png)
 
 在此屏幕中，您可以访问有关用户档案的详细信息：
 
-* 此 **[!UICONTROL 详细信息]** 选项卡允许您浏览配置文件的属性。 要编辑属性，请在所需字段中进行更改，然后单击 **[!UICONTROL 保存]** 按钮。
+* 此 **[!UICONTROL 详细信息]** 选项卡允许您浏览配置文件的内置属性和自定义属性。 要编辑属性，请在所需字段中进行更改，然后单击 **[!UICONTROL 保存]** 按钮。
 * 此 **[!UICONTROL 订阅]** 选项卡提供有关用户档案订阅的服务的信息。 [了解如何使用订阅服务](manage-services.md)
 * 此 **[!UICONTROL 日志]** 通过屏幕右上角的按钮，您可以通过发送、排除和跟踪日志查看用户档案交互的历史记录以及呈现给用户档案的建议。

@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+badge: label="有限发布版"
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 14%
+source-wordcount: '323'
+ht-degree: 43%
 
 ---
 
@@ -14,19 +15,19 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="新建查询建模器"
->abstract="Adobe Campaign Web具有查询建模器，可简化筛选数据库以根据各种条件选择特定目标的过程。 这包括使用高级表达式和运算符。 在每个需要定义规则以筛选数据的上下文中，都可以使用查询建模器。"
+>title="新的查询建模器"
+>abstract="Adobe Campaign Web 具有一个查询建模器，可简化筛选数据库的过程，以根据各种条件选择特定目标。这包括高级表达式和运算符的使用。查询建模器适用于您需要通过定义规则来过滤数据的每个上下文。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="查询建模器"
 >abstract="为收件人或数据库中的任何其他定位维度定义过滤条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
-Adobe Campaign Web具有查询建模器，可简化筛选数据库以根据各种条件选择特定目标的过程。 这包括使用高级表达式和运算符。
+Adobe Campaign Web 具有一个查询建模器，可简化筛选数据库的过程，以根据各种条件选择特定目标。这包括使用高级表达式和运算符。
 
 ## 访问查询建模器
 
-在每个需要定义规则以筛选数据的上下文中，都可以使用查询建模器。
+查询建模器适用于您需要通过定义规则来过滤数据的每个上下文。
 
 | 使用情况 | 示例 |
 |  ---  |  ---  |
