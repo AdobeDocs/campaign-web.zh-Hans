@@ -3,7 +3,7 @@ title: 用户档案和受众入门
 description: 了解如何在Campaign Web中使用用户档案和受众
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="有限发布版"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ ht-degree: 17%
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>监控和管理用户档案</strong></a>
+<a href="about-recipients.md"><strong>监控和管理用户档案</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="潜在客户" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>创建受众</strong>
+<div><a href="create-audience.md"><strong>创建受众</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ ht-degree: 17%
 <img alt="不常见" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>管理服务</strong></a>
+<a href="manage-services.md"><strong>管理服务</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ ht-degree: 17%
 <img alt="不常见" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>选择投放收件人</strong></a>
+<a href="add-audience.md"><strong>选择投放收件人</strong></a>
 </div>
 <p></td>
 </tr></table>
