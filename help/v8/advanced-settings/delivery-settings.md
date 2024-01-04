@@ -4,9 +4,9 @@ title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta 版"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2110'
 ht-degree: 81%
 
 ---
@@ -119,10 +119,9 @@ ht-degree: 81%
 >title="投放的受众设置"
 >abstract="在可用的映射中选择一个&#x200B;**目标映射**。在 Adobe Campaign v8 控制台中定义目标映射。您还设置投放的排除参数。 "
 
-在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。定向维度或目标映射是指操作所处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
+在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
 
-
-要了解有关目标映射的更多信息，请参阅 [本节](../audience/about-recipients.md#targeting-dimensions).
+要了解有关目标映射的更多信息，请参阅 [本节](../audience/targeting-dimensions.md).
 
 ## 投放 {#delivery}
 
