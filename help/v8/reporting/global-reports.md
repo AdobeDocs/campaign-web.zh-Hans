@@ -3,7 +3,7 @@ audience: end-user
 title: 全局报告入门
 description: 了解全局报告
 badge: label="有限可用性"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 以下页面提供了每个渠道的报表和相关量度的完整列表：
 
 * [通过电子邮件发送全局报告](global-report-email.md)
-* [短信全局报告](global-report-email-sms.md)
+* [短信全局报告](global-report-sms.md)
 * [推送全局报告](global-report-push.md)
 
 ## 管理您的报表仪表板 {#manage-reports}
