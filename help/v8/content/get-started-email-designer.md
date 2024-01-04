@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="新的电子邮件设计器"
->abstract="利用营销活动电子邮件设计器，可以通过直观的拖放界面创建引人入胜、单独定制的电子邮件。无论您是从头开始，导入现有内容还是利用现有模板，都可以设计并优化每封电子邮件的所有内容！"
+>abstract="利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 

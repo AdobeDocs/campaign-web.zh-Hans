@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta 版"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 82%
+source-wordcount: '2113'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 >
 >对这些设置的描述仅供参考。其中一些描述取决于您的配置和权限。不得在此版本的产品中修改它们。
 
-## 类型 设置 {#typology}
+## 类型设置 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
@@ -50,7 +50,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->在 Campaign 客户端控制台中创建类型和类型规则。在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}.
+>分类和分类规则是在Campaign客户端控制台中创建的。 在中详细了解压力规则以及如何配置疲劳管理 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}.
 
 ### 压力参数 {#pressure-parameters}
 
@@ -139,17 +139,17 @@ ht-degree: 82%
 
 * **电子邮件密件抄送**：利用此选项，只需将密件抄送电子邮件地址添加到邮件目标，即可通过密件抄送将电子邮件存储在外部系统上。要了解有关电子邮件密件抄送的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-### 网络分析 {#web-analytics}
+### Web 分析 {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="投放的网站分析设置"
->abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标签。"
+>abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标记。"
 
-在此部分中，您可以选择网站分析帐户。 在 Campaign 客户端控制台中配置此帐户。
+在此部分中，您可以选择网站分析帐户。 此帐户是在Campaign客户端控制台中配置的。
 
-您还可以定义与您正在使用的分析工具共享的标签。
+您还可以定义与您正在使用的分析工具共享的标记。
 
 >[!NOTE]
 >
@@ -172,13 +172,13 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="投放的审批模式"
->abstract="选择审批模式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
+>abstract="选择审批模式。如果在准备投放期间产生了警告，则可配置投放以定义是否仍应执行它。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="投放的审批模式"
->abstract="根据此模板选择投放的审批模式。如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。"
+>abstract="根据此模板选择投放的审批模式。如果在准备投放期间产生了警告，则可配置投放以定义是否仍应执行它。"
 
 如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
 

@@ -7,7 +7,7 @@ badge: label="有限发布版"
 source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="帮助和文档"
->abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这种新的现代化UI简化了营销活动的设计和交付，并与其他Adobe解决方案一起实现了一致性。"
+>abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
 
 Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 
