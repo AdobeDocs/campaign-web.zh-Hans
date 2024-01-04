@@ -3,8 +3,8 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+badge: label="Beta 版"
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -40,7 +40,7 @@ ht-degree: 34%
 
    ![](assets/select-audience-folder.png)
 
-1. 利用过滤器部分，可访问过滤选项以优化受众列表。 为此，请单击 **添加规则** 以访问规则生成器，从中可为受众列表创建高级过滤器。 [了解如何使用规则生成器](segment-builder.md)
+1. 利用过滤器部分，可访问过滤选项以优化受众列表。 为此，请单击 **添加规则** 以访问规则生成器，从中可为受众列表创建高级过滤器。 [了解如何使用规则生成器](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
