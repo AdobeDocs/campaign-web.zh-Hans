@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta 版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -110,7 +110,7 @@ ht-degree: 70%
 
    ![](assets/email-edit-content.png)
 
-   这会将您带到专用界面，您可以在其中配置电子邮件内容并访问Email Designer。 [了解详情](../email/edit-content.md)
+   这会将您带到专用界面，您可以在其中配置电子邮件内容并访问Email Designer。 [了解详情](edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ ht-degree: 70%
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
-   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](../email/create-email-templates.md).
+   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. 选择模板后，该模板将显示在 [电子邮件设计工具](../email/create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
+1. 选择模板后，该模板将显示在 [电子邮件设计工具](create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
 
    例如，要向电子邮件标题添加个性化内容，请选择组件块并单击&#x200B;**[!UICONTROL 添加个性化内容]**。
 
