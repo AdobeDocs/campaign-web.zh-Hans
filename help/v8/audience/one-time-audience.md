@@ -2,11 +2,12 @@
 audience: end-user
 title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
-badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+badge: label="Beta 版"
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 30%
 
    ![](assets/segment-builder0.png)
 
-1. 选择&#x200B;**创建您自己的**。这将显示规则生成器。利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用规则生成器](segment-builder.md)
+1. 选择&#x200B;**创建您自己的**。此时将显示规则生成器。 利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用规则生成器](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

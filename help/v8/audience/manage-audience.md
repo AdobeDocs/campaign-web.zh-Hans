@@ -4,7 +4,7 @@ title: 监控和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta 版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 * [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
 * [选择现有受众](add-audience.md) 在客户端控制台中创建为列表或来自Adobe Experience Platform，
-* [构建新受众](segment-builder.md) 通过定义和组合筛选条件来使用规则生成器，
+* [构建新受众](../query/query-modeler-overview.md) 通过定义和组合筛选条件来使用规则生成器，
 * [使用外部文件中的受众](file-audience.md). 此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
 
 定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)

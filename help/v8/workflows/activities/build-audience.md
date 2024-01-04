@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 76%
@@ -40,7 +40,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="选择定位维度"
->abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。"
+>abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下从收件人中选择目标。"
 
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 选择&#x200B;**创建您自己的（查询）**。
 1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。在中了解有关定位维度的更多信息 [本节](../../audience/about-recipients.md#targeting-dimensions).
 1. 单击&#x200B;**继续**。
-1. 使用规则生成器定义您的查询，就像设计新电子邮件时创建受众的方式一样。请参阅此[章节](../../audience/segment-builder.md)。
+1. 使用规则生成器定义您的查询，就像设计新电子邮件时创建受众的方式一样。请参阅此[章节](../../audience/../query/query-modeler-overview.md)。
 
 要选择现有受众，请执行以下步骤：
 

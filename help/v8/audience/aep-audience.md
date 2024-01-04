@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 37%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
 要选择投放的受众，您还可以：
 
-* 构建新受众。 [了解详情](segment-builder.md)
+* 构建新受众。 [了解详情](../query/query-modeler-overview.md)
 * 从外部文件加载受众。 [了解详情](file-audience.md)
 * 使用现有的Campaign受众。 [了解详情](add-audience.md)。
 
@@ -33,7 +33,7 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
    ![](assets/create-audience.png)
 
-1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](segment-builder.md)。
+1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。要创建要在此电子邮件中使用的新受众，请选择&#x200B;**创建您自己的**。请参阅此[章节](../query/query-modeler-overview.md)。
 
    此屏幕显示当前文件夹在Adobe Campaign客户端控制台中定义的所有现有受众。 要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分删除。
 
@@ -49,6 +49,6 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
 
    ![](assets/refine-audience.png)
 
-1. 利用规则生成器，可以使用附加筛选器或通过组合不同的受众来扩充您的受众。请参阅此[章节](segment-builder.md)。
+1. 利用规则生成器，可以使用附加筛选器或通过组合不同的受众来扩充您的受众。请参阅此[章节](../query/query-modeler-overview.md)。
 
 1. 单击&#x200B;**保存**。
