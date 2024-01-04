@@ -4,7 +4,7 @@ title: 投放报告
 description: 了解如何访问和使用投放报告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="有限发布版"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -45,7 +45,7 @@ Adobe Campaign 提供了多种类型的报告，可供每次投放使用。这�
 
    或者，您可以使用三个点 **更多操作** 按钮，然后选择 **[!UICONTROL 查看报告]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. 在左侧菜单中，从列表中选择一个报告。
 
