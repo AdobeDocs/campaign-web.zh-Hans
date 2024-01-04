@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -106,15 +106,13 @@ ht-degree: 7%
 
    ![](assets/content-template-create.png)
 
-1. 填写模板详细信息。
+1. 填写模板详细信息。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用节点中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. [了解如何创建文件夹](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >当前仅 **电子邮件** 渠道和 **HTML** 类型受支持。
-
-1. 选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用节点中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. [了解如何创建文件夹](../get-started/permissions.md#folders)
 
 1. 单击 **[!UICONTROL 创建]** 并从不同的选项中选择所需的模板设计方式：
 
