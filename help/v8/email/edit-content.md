@@ -4,10 +4,10 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta 版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 46%
 >id="acw_deliveries_email_options"
 >title="编辑跟踪"
 >abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。您可以从此处禁用该选项。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="添加链接和跟踪邮件"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="添加链接和跟踪邮件"
 
 电子邮件 **[!UICONTROL 编辑内容]** 屏幕允许您：
 
