@@ -5,12 +5,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d3afb758e11faf9c39fb14f0b30f1b9edc913ec3
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 10%
+source-wordcount: '550'
+ht-degree: 14%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 10%
 >title="添加条件内容"
 >abstract="配置条件内容字段以根据收件人的配置文件数据创建高级动态个性化内容。当满足特定条件时，将替换消息内容中的文本块、链接、主题行和/或图像。"
 
+## 条件内容入门 {#gs}
+
 条件内容是一项强大的功能，允许您根据收件人的配置文件创建动态个性化，在满足某些条件时自动替换文本块和图像。 此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。
 
-通过配置条件内容字段，您可以根据收件人的用户档案创建高级动态个性化。 当满足特定条件时，将替换消息内容中的文本块、链接、主题行和/或图像。例如，您可以根据Adobe Campaign数据库中“性别”字段的值显示“先生”或“夫人”，或根据收件人的首选语言包含其他链接。
-
-## 如何构建条件内容
+通过配置条件内容字段，您可以根据收件人的用户档案创建高级动态个性化。 当满足特定条件时，在消息内容中替换文本块、链接、主题行和/或图像。 例如，您可以根据Adobe Campaign数据库中“性别”字段的值显示“先生”或“夫人”，或根据收件人的首选语言包含其他链接。
 
 要创建条件内容，您需要在 **表达式编辑器** 使用特定的辅助函数。 此方法适用于所有投放渠道，以及可访问表达式编辑器的任何字段，例如主题行或电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
 
-除了表达式编辑器之外，您还可以利用专用的 **条件内容生成器** 在设计允许您仅使用用户档案属性构建条件的电子邮件时。 [了解如何在电子邮件中创建条件内容](#condition-condition-builder)
+<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
 
 ## 在表达式编辑器中创建条件 {#condition-perso-editor}
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 1. 要开始构建条件，请单击 **如果** 函数。 以下行将添加到中央屏幕中：`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * 替换 `<FIELD>` 替换为个性化字段，例如收件人的语言： `recipient.language`.
-   * 替换 `<VALUE>` 包含要满足的值。 例如，`'French'`。
+   * 替换 `<VALUE>` 包含要满足的值。 例如， `'French'`.
    * 替换 `Ìnsert content here` ，其中包含您要向符合指定条件的配置文件显示的内容。
 
      ![](assets/condition-sample1.png){width="800" align="center"}
@@ -79,35 +79,38 @@ ht-degree: 10%
 
 1. 条件就绪后，您可以保存内容并通过模拟内容来检查其渲染情况。
 
-## 在电子邮件中创建条件内容 {#condition-condition-builder}
+<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
 
-可通过两种方式创建电子邮件中的条件内容：
-* 在表达式编辑器中，通过构建包含辅助函数的条件，
-* 在设计电子邮件时可访问的专用条件内容生成器中。
+## Create conditional content in emails {#condition-condition-builder}
 
-提供了有关如何使用表达式编辑器创建条件的详细信息 [此处](#condition-perso-editor). 以下部分提供了有关如何使用Email Designer的条件内容功能创建条件的分步说明。 在本例中，我们希望根据收件人的语言创建包含多个变体的电子邮件。 执行以下步骤：
+Conditional content in emails can be created in two ways:
+* In the expression editor by building a condition with helper functions,
+* In a dedicated conditional content builder that is accessible when designing an email.
 
-1. 创建或打开电子邮件投放，编辑其内容，然后单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以打开电子邮件设计工作区。
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
-1. 选择内容组件并单击 **[!UICONTROL 启用条件内容]** 图标。
+1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-1. 此 **[!UICONTROL 条件内容]** 窗格在屏幕左侧打开。 在此窗格中，您可以使用条件创建所选内容组件的多个变体。
+    ![](assets/condition-email-enable.png){width="800" align="center"}
 
-1. 配置您的第一个变体。 将鼠标悬停在 **[!UICONTROL 变体 — 1]** 在 **[!UICONTROL 条件内容]** 窗格并单击 **[!UICONTROL 添加条件]** 图标。
+1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
-1. 此时会显示规则生成器。 使用用户档案属性为消息的第一个变体创建条件，然后单击 **[!UICONTROL 确认]**. 在本例中，我们将创建一项规则，以语言为“法语”的收件人为目标。
+1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-   ![](assets/condition-email-rule.png){width="800" align="center"}
+1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-1. 该规则现在已关联到变体。 为了提高可读性，我们建议通过单击省略号菜单来重命名变体。
+    ![](assets/condition-email-rule.png){width="800" align="center"}
 
-1. 配置在发送消息时如果满足规则应如何显示组件。 在本例中，我们希望以法文显示文本（如果它是收件人的首选语言）。
+1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-1. 根据内容组件的需要，添加任意数量的变体。 您可以随时在变体之间切换，以检查内容组件将如何根据其条件规则显示。
+    ![](assets/condition-email-variant1.png){width="800" align="center"}
 
-   >[!NOTE]
-   >如果在发送消息时未满足变体定义的所有规则，则内容组件将显示中定义的内容。 **[!UICONTROL 默认变量]** 从 **[!UICONTROL 条件内容]** 窗格。
+1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
+
+    >[!NOTE]
+    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+-->
