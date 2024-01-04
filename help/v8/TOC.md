@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 86%
 
 ---
@@ -89,6 +89,7 @@ ht-degree: 86%
       + [渲染电子邮件](preview-test/email-rendering.md)
 + 用户档案和受众{#audiences}
    + [用户档案和受众入门](audience/gs-audiences-recipients.md)
+   + [定位维度](audience/targeting-dimensions.md)
    + 使用用户档案 {#work-with-profiles}
       + [监控和管理用户档案](audience/about-recipients.md)
       + [创建和管理测试用户档案](audience/test-profiles.md)
