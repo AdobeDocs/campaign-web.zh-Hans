@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -28,14 +28,14 @@ ht-degree: 25%
 * [类型](../advanced-settings/delivery-settings.md#typology)，
 * 发件人地址，
 * An [受众](../audience/about-recipients.md)，包括 [对照组](../audience/control-group.md)，
-* 自定义 [内容](../content/edit-content.md)，
+* 自定义 [内容](../email/edit-content.md)，
 * [个性化字段](../personalization/personalize.md) 和 [条件内容](../personalization/conditions.md)，
-* 链接到 [镜像页面](../content/mirror-page.md) 和退订 [链接](../content/message-tracking.md)，
+* 链接到 [镜像页面](../email/mirror-page.md) 和退订 [链接](../email/message-tracking.md)，
 * 其他投放属性，例如资源有效性、重试参数或隔离设置。
 
 >[!NOTE]
 >
->投放模板与不同 [内容模板](../content/create-email-templates.md)，可让您仅重复使用电子邮件的内容，并使用提供的现成可用示例电子邮件模板之一开始构建内容。
+>投放模板与不同 [内容模板](../email/create-email-templates.md)，可让您仅重复使用电子邮件的内容，并使用提供的现成可用示例电子邮件模板之一开始构建内容。
 
 
 ## 访问和管理投放模板 {#access-manage-templates}

@@ -4,7 +4,7 @@ title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 45%
@@ -68,7 +68,7 @@ ht-degree: 45%
 
    ![](assets/sms_create_4.png)
 
-   在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../content/offers.md).
+   在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
 1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule).
 

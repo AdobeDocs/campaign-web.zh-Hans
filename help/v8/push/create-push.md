@@ -4,7 +4,7 @@ title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="Beta 版"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 37%
@@ -85,7 +85,7 @@ ht-degree: 37%
 
 ![](assets/push_create_5.png)
 
-在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../content/offers.md).
+在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
 ## 计划投放发送 {#schedule-push}
 

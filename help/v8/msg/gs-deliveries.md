@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 98%
@@ -98,7 +98,7 @@ ht-degree: 98%
 
 * 添加&#x200B;**个性化优惠**
 
-  根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。[了解详情](../content/offers.md)
+  根据收件人位置、当前天气或上次采购订单，在您的消息内容中插入个性化优惠。[了解详情](../msg/offers.md)
 
 ## 预览和测试投放
 

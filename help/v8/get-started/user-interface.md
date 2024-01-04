@@ -4,7 +4,7 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 100%
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 * **优惠** - 浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的优惠和优惠模板的列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。还有优惠模板可用。
 
-可在[此部分](../content/offers.md)中了解如何在电子邮件和短信中创建和发送优惠。
+可在[此部分](../msg/offers.md)中了解如何在电子邮件和短信中创建和发送优惠。
 
 
 

@@ -5,14 +5,14 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Beta 版"
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 59%
+source-wordcount: '428'
+ht-degree: 60%
 
 ---
-
 
 # 内置内容块 {#ootb-content-blocks}
 
@@ -39,7 +39,7 @@ Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动�
 * **[!UICONTROL 专有名词的格式化函数]**：生成 **[!UICONTROL toSmartCase]** Javascript 函数，它将每个单词的首字母更改为大写形式。
 * **[!UICONTROL 问候]**：插入带收件人全名的问候语，后跟一个逗号。示例：“Hello John Doe,”。
 * **[!UICONTROL 插入徽标]**：插入在实例设置中定义的徽标。
-* **[!UICONTROL 指向镜像页面的链接]**：插入指向[镜像页面](../content/mirror-page.md)的链接。默认格式为：“如果您无法正确查看此邮件，请单击此处”。
+* **[!UICONTROL 指向镜像页面的链接]**：插入指向[镜像页面](../email/mirror-page.md)的链接。默认格式为：“如果您无法正确查看此邮件，请单击此处”。
 * **[!UICONTROL 镜像页面 URL]**：插入镜像页面 URL，以便投放设计人员能够检查链接。
 * **[!UICONTROL 通知样式]**
 * **[!UICONTROL 单一模式下的优惠接受 URL]**：插入一个 URL，以便将优惠设置为&#x200B;**[!UICONTROL 已接受]**。（如果启用了交互模块，则此块可用）
@@ -54,4 +54,3 @@ Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动�
 >[!NOTE]
 >
 >您可以从Adobe Campaign v8控制台中定义新块，以便优化投放个性化。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
-

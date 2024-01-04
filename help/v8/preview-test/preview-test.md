@@ -4,7 +4,7 @@ title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="有限发布版"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 19%
@@ -30,7 +30,7 @@ ht-degree: 19%
 * [发送测试投放](test-deliveries.md) （证明）到特定收件人或订阅者进行测试和验证
 * [检查电子邮件渲染](email-rendering.md) 在常用桌面、移动和基于Web的客户端中
 
-这些操作可以使用 **[!UICONTROL 模拟内容]** 按钮进行访问，该按钮可从投放的编辑内容屏幕访问，或从 [电子邮件设计工具](../content/get-started-email-designer.md).
+这些操作可以使用 **[!UICONTROL 模拟内容]** 按钮进行访问，该按钮可从投放的编辑内容屏幕访问，或从 [电子邮件设计工具](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

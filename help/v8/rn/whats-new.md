@@ -4,7 +4,7 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 67%
@@ -69,7 +69,7 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 利用新的 Campaign Web UI，可以：
 
 * 创建、设计、个性化、计划并发送电子邮件、短信和推送通知 —  [了解详情](../msg/gs-messages.md)
-* 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../content/edit-content.md)
+* 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../email/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知 - [了解详情](../workflows/activities/channels.md)
 * 使用规则生成器定义目标受众 - [了解详情](../audience/about-recipients.md)
 * 预览、测试和发送消息 - [了解详情](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 
   告别手动内容创建，借助生成式 AI 的力量开始高效、由数据驱动的营销活动。我们的生成式 AI 技术利用先进的算法&#x200B;**生成极具吸引力的个性化内容**。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。
 
-  可在[此小节](../content/generative-gs.md)中了解详情。
+  可在[此小节](../email/generative-gs.md)中了解详情。
 
 
 * **AI支持的上下文帮助**
@@ -132,14 +132,14 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 
   您现在可以在 Campaign 的电子邮件编辑器中&#x200B;**导入并转换任何 HTML 内容**。自动识别内容块，并可在电子邮件设计器中找到内容块：借助它强大的设计功能更新它和使它个性化！
 
-  可在[此部分](../content/existing-content.md)中了解详情。
+  可在[此部分](../email/existing-content.md)中了解详情。
 
 
 * **包含优惠的短信**
 
   通过新的 Web UI，现在除了电子邮件，还可&#x200B;**将优惠与短信集成**。在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成优惠的威力，改善您的市场营销效果。
 
-  可在[此部分](../content/offers.md)中了解详情。
+  可在[此部分](../msg/offers.md)中了解详情。
 
 ## 过渡到 Campaign Web UI
 

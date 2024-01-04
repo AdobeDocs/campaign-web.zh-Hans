@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign 概述
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 86%
@@ -35,32 +35,32 @@ ht-degree: 86%
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + 定义电子邮件内容 {#content}
-         + [配置电子邮件内容](content/edit-content.md)
-         + [使用内容模板](content/create-email-templates.md)
+         + [配置电子邮件内容](email/edit-content.md)
+         + [使用内容模板](email/create-email-templates.md)
          + 开始计划您的电子邮件 {#start-design}
-            + [开始使用电子邮件设计器](content/get-started-email-designer.md)
-            + [从头开始](content/create-email-content.md)
-            + [导入电子邮件内容](content/existing-content.md)
-            + [为自己的内容编写代码](content/code-content.md)
-            + [使用电子邮件内容模板](content/use-email-templates.md)
+            + [开始使用电子邮件设计器](email/get-started-email-designer.md)
+            + [从头开始](email/create-email-content.md)
+            + [导入电子邮件内容](email/existing-content.md)
+            + [为自己的内容编写代码](email/code-content.md)
+            + [使用电子邮件内容模板](email/use-email-templates.md)
          + 设计内容 {#design-content}
-            + [使用内容组件](content/content-components.md)
-            + [添加链接和跟踪邮件](content/message-tracking.md)
-            + [添加指向镜像页面的链接](content/mirror-page.md)
-            + [添加邮件引文](content/preheader.md)
-            + [生成文本版本](content/text-version-email.md)
-            + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](content/aem-assets.md)
+            + [使用内容组件](email/content-components.md)
+            + [添加链接和跟踪邮件](email/message-tracking.md)
+            + [添加指向镜像页面的链接](email/mirror-page.md)
+            + [添加邮件引文](email/preheader.md)
+            + [生成文本版本](email/text-version-email.md)
+            + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](email/aem-assets.md)
          + 内容助手 {#content-assistant}
-            + [内容助手快速入门](content/generative-gs.md)
-            + [用内容助手生成文本](content/generative-content.md)
-            + [用内容助手生成图像](content/generative-image.md)
-            + [用内容助手生成电子邮件](content/generative-email.md)
+            + [内容助手快速入门](email/generative-gs.md)
+            + [用内容助手生成文本](email/generative-content.md)
+            + [用内容助手生成图像](email/generative-image.md)
+            + [用内容助手生成电子邮件](email/generative-email.md)
          + 设置内容的样式 {#style}
-            + [开始使用电子邮件样式](content/get-started-email-style.md)
-            + [编辑背景设置](content/backgrounds.md)
-            + [调整垂直对齐方式和内边距](content/alignment-and-padding.md)
-            + [定义链接的样式](content/styling-links.md)
-            + [添加内联样式属性](content/inline-styling.md)
+            + [开始使用电子邮件样式](email/get-started-email-style.md)
+            + [编辑背景设置](email/backgrounds.md)
+            + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
+            + [定义链接的样式](email/styling-links.md)
+            + [添加内联样式属性](email/inline-styling.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [监控投放日志](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 86%
       + [添加个性化内容](personalization/personalize.md)
       + [添加条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
-   + [将优惠添加到您的消息](content/offers.md)
-   + [将消息发送到您的订阅者](content/send-to-subscribers.md)
+   + [将优惠添加到您的消息](msg/offers.md)
+   + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + 预览和测试投放{#preview-test}
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)

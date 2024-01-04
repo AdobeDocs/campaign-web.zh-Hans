@@ -4,7 +4,7 @@ title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限发布版"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 要预览投放内容，请执行以下步骤。
 
-1. 浏览到投放的编辑内容屏幕或 [电子邮件设计工具](../content/get-started-email-designer.md).
+1. 浏览到投放的编辑内容屏幕或 [电子邮件设计工具](../email/get-started-email-designer.md).
 
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 

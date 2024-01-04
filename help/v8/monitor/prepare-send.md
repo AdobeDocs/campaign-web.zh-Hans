@@ -3,11 +3,11 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+badge: label="Beta 版"
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 50%
+source-wordcount: '891'
+ht-degree: 40%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 50%
 
 ## 准备发送 {#prepare}
 
-当您定义了 [内容](../content/edit-content.md)， [受众](../audience/add-audience.md)、和 [计划](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已准备好准备电子邮件投放。
+当您定义了 [内容](../email/edit-content.md)， [受众](../audience/add-audience.md)、和 [计划](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已准备好准备电子邮件投放。
 
-在投放准备期间，将计算目标群体并为目标中包含的每个用户档案生成消息内容。 在准备工作完成后，可以立即发送邮件，也可以在计划的日期和时间发送。
+在投放准备期间，将计算目标群体并为目标中包含的每个用户档案生成消息内容。 完成准备工作后，即可立即或在安排的日期和时间发送消息。
 
 有关投放准备期间使用的验证规则，请参见 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
@@ -39,7 +39,7 @@ ht-degree: 50%
 
 1. 这将显示准备进度。根据目标人群的规模，此操作可能需要花费一些时间。
 
-   您可以随时使用&#x200B;**[!UICONTROL 停止准备]**&#x200B;按钮来停止准备过程。
+   您可以随时使用停止准备 **[!UICONTROL 停止准备]** 按钮。
 
    ![](assets/email-stop-preparation.png)
 
@@ -52,9 +52,9 @@ ht-degree: 50%
 
    以下是显示的不同 KPI：
 
-   * **[!UICONTROL 定位]**：目标收件人的数量。
-   * **[!UICONTROL 投放]**：将发送的邮件数.
-   * **[!UICONTROL 排除]**[：由类型规则排除的邮件数](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL 已定位]**：定向的收件人数量。
+   * **[!UICONTROL 投放]**：将发送的消息数。
+   * **[!UICONTROL 排除]**：由排除的消息数 [类型规则](../advanced-settings/delivery-settings.md#typology).
 
 1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解详情](delivery-logs.md)
 
@@ -66,7 +66,7 @@ ht-degree: 50%
 
 1. 如果在准备之后对投放进行了任何更改，则必须重新开始准备以将这些更改考虑在内。
 
-在准备工作完成且未出现错误后，便可发送邮件。
+完成准备工作且无错误后，即可发送消息。
 
 ## 发送邮件 {#send}
 
@@ -85,7 +85,7 @@ ht-degree: 50%
 
 1. 确认此操作以立即将消息发送到主目标。
 
-1. 这将显示发送进度。
+1. 显示发送进度。
 
 ### 计划发送 {#schedule-the-send}
 

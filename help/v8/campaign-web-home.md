@@ -4,7 +4,7 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 96%
@@ -68,11 +68,11 @@ Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强�
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="不常见" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>了解电子邮件设计器</strong></a>
+<a href="email/get-started-email-designer.md"><strong>了解电子邮件设计器</strong></a>
 </div>
 <p></td>
 <td>

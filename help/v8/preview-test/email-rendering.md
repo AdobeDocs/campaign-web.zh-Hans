@@ -4,7 +4,7 @@ title: 测试电子邮件渲染
 description: 了解如何在 Campaign Web UI 中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="有限发布版"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 然后，执行以下步骤。
 
-1. 在 [编辑内容](../content/edit-content.md) 屏幕或 [电子邮件设计工具](../content/get-started-email-designer.md)，单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 在 [编辑内容](../email/edit-content.md) 屏幕或 [电子邮件设计工具](../email/get-started-email-designer.md)，单击 **[!UICONTROL 模拟内容]** 按钮。
 
 1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
 

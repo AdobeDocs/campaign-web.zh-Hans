@@ -4,7 +4,7 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta 版"
-source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
-基于预定义的 [设计模板](../content/create-email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
+基于预定义的 [设计模板](../email/create-email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
 
 ## 创建电子邮件投放 {#create-email}
 
@@ -104,13 +104,13 @@ ht-degree: 70%
 
 要开始创建电子邮件内容，请执行以下步骤。 在此使用案例中，您使用预定义的电子邮件 [投放模板](../msg/delivery-template.md) 设计电子邮件。<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. 在电子邮件投放仪表板中，单击 **[!UICONTROL 编辑内容]** 按钮。
 
    ![](assets/email-edit-content.png)
 
-   这会将您带到专用界面，您可以在其中配置电子邮件内容并访问Email Designer。 [了解详情](../content/edit-content.md)
+   这会将您带到专用界面，您可以在其中配置电子邮件内容并访问Email Designer。 [了解详情](../email/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ ht-degree: 70%
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
-   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](../content/create-email-templates.md).
+   选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](../email/create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. 选择模板后，该模板将显示在 [电子邮件设计工具](../content/create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
+1. 选择模板后，该模板将显示在 [电子邮件设计工具](../email/create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
 
    例如，要向电子邮件标题添加个性化内容，请选择组件块并单击&#x200B;**[!UICONTROL 添加个性化内容]**。
 
