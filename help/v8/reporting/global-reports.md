@@ -3,9 +3,9 @@ audience: end-user
 title: 全局报告入门
 description: 了解全局报告
 badge: label="有限可用性"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 0%
 
 # 全局报告入门 {#global-report-gs}
 
-全局报告提供所有渠道的流量和参与情况的全面概述，并提供各种小部件，为营销活动和投放效果提供独特的见解。
+此 **全局报告** 作为一个有效的工具，提供您的Campaign实例中每个渠道的流量和参与度指标的汇总整体摘要。 这些报表包含各种构件，每个构件从不同的角度审视您的活动或投放效果。
+
+以下页面提供了每个渠道的报表和相关量度的完整列表：
+
+* [通过电子邮件发送全局报告](global-report-email.md)
+* [短信全局报告](global-report-email-sms.md)
+* [推送全局报告](global-report-push.md)
 
 ## 管理您的报表仪表板 {#manage-reports}
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
    ![](assets/global_report_manage_2.png)
 
-1. 单击 **[!UICONTROL 添加规则]** 以开始构建查询，从而更好地筛选报表数据。
+1. 单击 **[!UICONTROL 添加规则]** 以开始构建查询，从而更好地筛选报表数据。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
 1. 从 **[!UICONTROL URL和点击流]**，您还可以选择 **[!UICONTROL 热门访问链接]** 或 **[!UICONTROL 时间段]**.
 
