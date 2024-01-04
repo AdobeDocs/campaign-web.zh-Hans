@@ -3,11 +3,11 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+badge: label="Beta 版"
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 45%
+source-wordcount: '785'
+ht-degree: 41%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 45%
 
 ### 构建对照组 {#build-extract-target}
 
-要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。如果您希望添加额外群体，请选择 **无提取** 选项并选择额外群体 [详细内容见此处](#extra-population).
+要定义控制组，您可以选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。 如果您希望添加额外群体，请选择 **无提取** 选项并选择额外群体 [详细内容见此处](#extra-population).
 
 首先，定义从目标提取用户档案的方式：随机或基于排序。
 
@@ -112,9 +112,9 @@ ht-degree: 45%
 
 ![](assets/control-group3.png)
 
-* 要使用现有受众，请单击&#x200B;**选择受众**。可在[此部分](add-audience.md)中了解详情。
+* 要使用现有受众，请单击&#x200B;**选择受众**。可在[此小节](add-audience.md)中了解详情。
 
-* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。可在[此部分](segment-builder.md)中了解详情。
+* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。可在[此小节](../query/query-modeler-overview.md)中了解详情。
 
 受众中包含的或与查询结果匹配的用户档案包括 **已排除** 来自投放目标：他们不会收到任何消息。
 
