@@ -3,10 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中调整垂直对齐方式和内边距
 description: 了解如何调整垂直对齐方式和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Beta 版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限发布版"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---

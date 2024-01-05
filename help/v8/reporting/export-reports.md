@@ -3,10 +3,10 @@ audience: end-user
 title: 导出报告
 description: 了解如何导出报告
 badge: label="有限可用性"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="导出"
+>title="导出报告"
 >abstract="单击“**导出**”按钮，将这些量度导出为 PDF 或 CSV 格式以便共享或打印。"
 
 您可以轻松地将其他报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。

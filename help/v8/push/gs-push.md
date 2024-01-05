@@ -4,10 +4,10 @@ title: 开始使用推送通知
 description: 了解如何使用 Adobe Campaign Web 创建和发送推送通知
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 67%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 要创建推送通知，您可以使用以下三个选项：
 
-* 工作流：将推送渠道活动添加到工作流并配置基本设置后，可以从右侧窗格菜单中草拟推送通知的内容。有关如何配置工作流的详细说明，请参阅此页面。
+* **工作流**：将推送渠道活动添加到工作流并配置基本设置后，您可以从右侧窗格菜单制作推送通知的内容。 有关如何配置工作流的详细说明，请参阅此页面。
 
-* 营销活动：创建营销活动后，可以创建推送通知投放。有关如何设置营销活动的更多信息，请参阅此页面。
+* **营销活动**：创建活动后，即可创建推送通知投放。 有关如何设置营销活动的更多信息，请参阅此页面。
 
-* 独立投放：利用个人推送通知投放直接、即时地与客户互动，无需工作流或营销活动。
+* **独立投放**：通过单个推送通知投放直接即时吸引客户，而无需工作流或营销活动。
 
 ![](../assets/do-not-localize/book.png) 可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}中了解如何配置推送通知通道。
 

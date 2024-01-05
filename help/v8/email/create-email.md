@@ -3,10 +3,10 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta 版"
-source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
+badge: label="有限发布版"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1315'
 ht-degree: 70%
 
 ---
@@ -14,13 +14,10 @@ ht-degree: 70%
 
 # 发送您的第一封电子邮件 {#first-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="开始使用电子邮件"
 >abstract="可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。了解如何创建投放、选择受众和设计电子邮件内容。"
-
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 

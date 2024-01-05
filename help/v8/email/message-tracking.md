@@ -3,10 +3,10 @@ audience: end-user
 title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Beta 版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限发布版"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 100%
 
 ---

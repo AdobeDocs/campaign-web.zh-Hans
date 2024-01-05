@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Beta 版"
-source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
+badge: label="有限发布版"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1169'
 ht-degree: 67%
 
 ---

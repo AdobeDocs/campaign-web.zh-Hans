@@ -2,11 +2,11 @@
 audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1534'
 ht-degree: 38%
 
 ---

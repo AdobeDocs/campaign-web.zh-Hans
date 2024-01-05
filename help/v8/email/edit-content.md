@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Beta 版"
-source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
+badge: label="有限发布版"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 47%
 
 ---

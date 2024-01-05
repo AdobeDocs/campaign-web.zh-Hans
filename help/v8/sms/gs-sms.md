@@ -2,12 +2,12 @@
 audience: end-user
 title: 开始使用短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 92%
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 * **独立投放**：创建单独的短信投放，无需工作流或营销活动，即可快速而直接地与您的客户通信。
 
-![](../assets/do-not-localize/book.png) 了解如何在中配置短信渠道 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) 请在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}中了解如何配置短信通道。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
