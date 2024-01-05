@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 3%
@@ -88,8 +88,6 @@ ht-degree: 3%
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
 自定义条件允许您查询链接到规则当前使用的表的表。 这包括具有1-1基数链接的表，或集合表（1-N链接）。
@@ -120,7 +118,7 @@ ht-degree: 3%
 
 1. 选择 **购买** 表格并进行确认。
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. 将添加叫客过渡，从而允许您创建子条件。
 
@@ -136,7 +134,7 @@ ht-degree: 3%
 
 +++
 
-#### 使用聚合数据 {#aggregate}**
+#### 使用聚合数据 {#aggregate}
 
 自定义条件允许您执行聚合操作。 要实现此目的，需要直接从集合表中选择属性：
 
