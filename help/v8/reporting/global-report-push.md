@@ -3,7 +3,7 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 badge: label="有限发布版"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 4%
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 此报表提供有关指定时间范围内的投放吞吐量的全面详细信息。
 
