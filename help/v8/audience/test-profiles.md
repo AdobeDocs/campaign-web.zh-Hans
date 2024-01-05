@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ ht-degree: 3%
 
 ![](assets/test-profile-list.png)
 
-您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+* 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-要编辑测试用户档案，请在列表中单击所需的项目。
+* 您可以复制任何测试配置文件并根据需要进行编辑。
 
-要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
+* 要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* 要编辑测试用户档案，请在列表中单击所需的项目。
+
+您还可以通过以下方式访问测试用户档案 **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 节点。
+
+从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+从 **[!UICONTROL 资源管理器]** 视图您还可以筛选、删除、编辑和 [创建](#create-test-profile) 测试用户档案。
 
 ## 创建测试用户档案 {#create-test-profile}
 
@@ -66,7 +76,7 @@ ht-degree: 3%
    >
    >此 **[!UICONTROL 标签]** 字段会自动填写您所定义的名字和姓氏。
 
-1. 默认情况下，测试用户档案存储在 **[!UICONTROL 种子地址]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解详情](#seed-addresses-folders)
+1. 默认情况下，测试用户档案存储在 **[!UICONTROL 种子地址]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. 如果您选择 **[!UICONTROL 不再联系（通过任何渠道）]** 复选框，则配置文件处于阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
+1. 如果您选择 **[!UICONTROL 不再联系（通过任何渠道）]** 复选框，测试配置文件处于列入阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
 
 1. 在 **[!UICONTROL 其他数据]** 选项卡，输入用于在Data Management工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的更多信息](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## 管理种子地址文件夹 {#seed-addresses-folders}
-
-种子地址存储在Adobe Campaign层次结构的专用节点中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]**.
-
-要组织测试用户档案，您可以从更多操作下拉列表中创建子文件夹。 [了解如何创建文件夹](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-您还可以从任何 **[!UICONTROL 种子地址]** 文件夹或子文件夹。 填写所有详细信息，操作方式与在 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](#create-test-profile)
-
-要编辑测试用户档案，请在 **[!UICONTROL 测试用户档案]** 选项卡中，或从存储它的文件夹中。
 
 

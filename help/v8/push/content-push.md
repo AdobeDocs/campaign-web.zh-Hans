@@ -4,7 +4,7 @@ title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="有限发布版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 38%
@@ -151,7 +151,7 @@ ht-degree: 38%
 | **[!UICONTROL 清洁徽章]** | 启用此选项以刷新应用程序图标上显示的标记值。 它确保徽章准确地反映新的未读信息的数量。 |
 | **[!UICONTROL 通知计数]** | 设置一个将直接显示在应用程序图标上的数字，指示新的未读信息数量。 为用户提供了快速的可视化参考。 |
 | **[!UICONTROL 音量]** | 声音的音量从0到100。 |
-| **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载与通知关联的媒体内容。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/email/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
+| **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载与通知关联的媒体内容。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
 | **[!UICONTROL 相关性得分]** | 设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。 |
 | **[!UICONTROL 中断级别]** | <ul> <li>**[!UICONTROL 活动]**：默认情况下，系统会立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 被动]**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 时效性]**：系统立即显示通知，打开屏幕，可以播放声音并突破聚焦模式。 此级别不需要Apple的特殊权限。</li> <li>**[!UICONTROL 关键]**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</ul> |
 | **[!UICONTROL Thread-id]** | 用于将相关通知分组在一起的标识符。 具有相同线程ID的通知在通知列表中被组织为单个对话或线程。 |
