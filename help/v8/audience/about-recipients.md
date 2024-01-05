@@ -2,14 +2,14 @@
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 6%
 
 ---
 
-# 监控和管理用户档案 {#profiles}
+# 监控和编辑配置文件 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
 1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**.
 
-1. 单击以下位置中的所需项目： **[!UICONTROL 配置文件]** 列表。
-
-1. 您可以访问有关用户档案的详细信息。
+1. 单击以下位置中的所需项目： **[!UICONTROL 配置文件]** 列表。 此时将显示有关用户档案的详细信息。
 
    ![](assets/profile-details.png)
 
