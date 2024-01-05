@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 4%
+source-wordcount: '1634'
+ht-degree: 3%
 
 ---
 
@@ -170,6 +170,28 @@ ht-degree: 4%
 * **排除（排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
 
 ![](assets/query-operator-change.png)
+
+### 复制粘贴筛选组件 {#copy}
+
+查询建模器允许您复制一个或多个筛选组件并将它们粘贴到过渡的末尾。 可以在当前查询画布中或实例中的任何画布中执行此操作。
+
+>[!NOTE]
+>
+>只要您在实例中工作，复制的选定内容就会保留。 如果您注销并重新登录，则您的选择将不再可用于粘贴。
+
+要复制并粘贴筛选组件，请执行以下步骤：
+
+1. 在查询画布中单击要复制的筛选组件，以选择该组件。 要选择多个组件，请使用位于画布右上角的工具栏中提供的多选工具。
+
+1. 单击 **[!UICONTROL 复制]** 按钮时，该按钮位于组件的“属性”窗格中，或者位于屏幕底部的蓝带中（如果已选择多个组件）。
+
+   | 复制单个组件 | 复制多个组件 |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择 **粘贴n项**.
+
+![](assets/copy-paste.png)
 
 ## 检查并验证您的查询
 

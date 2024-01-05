@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 59%
@@ -26,9 +26,9 @@ ht-degree: 59%
 * 可用列表 **字段(2)** 该维度可用于表达式中，并与查询的定向维度相对应。
 * **辅助函数(3)**，按类别排序。
 
-![](assets/expression-editor.png)
-
 通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
+
+![](assets/expression-editor.png)
 
 ## 辅助功能
 
