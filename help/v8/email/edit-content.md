@@ -4,7 +4,7 @@ title: 编辑电子邮件内容
 description: 了解如何在 Campaign Web UI 中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta 版"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 47%
@@ -86,7 +86,7 @@ ht-degree: 47%
 
 1. 如果要通过电子邮件发送优惠，请使用 **[!UICONTROL 设置优惠]** 按钮。
 
-   之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送优惠](offers.md)
+   之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送优惠](../msg/offers.md)
 
 1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮，使用来结构和设计电子邮件的内容 [电子邮件设计工具](get-started-email-designer.md#start-authoring). 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
