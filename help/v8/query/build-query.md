@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1860'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
   *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## 添加筛选组件 {#filtering}
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 1. 在 **属性** 字段，从数据库中选择要用于创建条件的属性。 属性列表包含Campaign数据库中的所有属性，包括链接表中的属性。
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ ht-degree: 3%
 
    *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
 自定义条件允许您查询链接到规则当前使用的表的表。 这包括具有1-1基数链接的表，或集合表（1-N链接）。
 
-对于 **1-1链接**，直接从目标表中选择属性。
+对于 **1-1链接**，导航到链接的表，选择所需的属性并定义预期值。
 
 +++查询示例
 
@@ -100,17 +100,15 @@ ht-degree: 3%
 
 1. 在 **品牌** 表并选择 **标签** 属性。
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. 定义属性的预期值。
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-对于 **1-N链接**，您可以定义子条件来优化查询。
-
-例如，您可以在用户档案购买中选择存在运算符，以定向存在购买的所有用户档案。 完成后，为叫客过渡添加自定义条件，并创建过滤器以满足您的需求。
+对于 **1-N链接**，您可以定义子条件来优化查询，如下面的示例所示。
 
 +++查询示例
 
@@ -118,19 +116,19 @@ ht-degree: 3%
 
 1. 选择 **购买** 表格并进行确认。
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. 将添加叫客过渡，从而允许您创建子条件。
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. 选择 **价格** 1000美元或以上的属性和目标购买
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. 根据您的需要添加子条件。 在此，我们添加了条件来定向购买BrewMaster产品的用户档案。
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ ht-degree: 3%
 
 1. 在所需的集合表中导航，并选择要对其执行聚合操作的属性。
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. 在属性窗格中，切换 **聚合数据** 选项并选择所需的聚合函数。
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### 选择受众
 
@@ -178,7 +176,7 @@ ht-degree: 3%
 
    *返回与“不活跃客户”预定义过滤器对应的所有用户档案的查询示例：*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### 复制粘贴组件 {#copy}
 
@@ -200,7 +198,7 @@ ht-degree: 3%
 
 1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择 **粘贴n项**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## 将过滤组件与运算符相结合 {#operators}
 
@@ -213,7 +211,7 @@ ht-degree: 3%
 
 在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件链接到带“ ”的预定义过滤器类型条件 **和** 运算符，这意味着查询结果包含受“Madridians”预定义过滤器定位的且属于“Discount hunter”受众的收件人。
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 要更改用于将筛选条件链接在一起的运算符，请单击它并在中选择所需的运算符 **组** 在右侧打开的窗格。
 
@@ -223,13 +221,13 @@ ht-degree: 3%
 * **OR（并集）**：包括与叫客过渡中的至少一个筛选组件匹配的结果。
 * **排除（排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 此外，通过单击 **+** 按钮进行转换。 这允许您在此特定位置添加运算符，以将多个组件分组在一起并细化查询。
 
 在下面的示例中，我们创建了一个中间组，以包含来自“要奖励的VIP”或“超级VIP”受众的结果。
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## 检查并验证您的查询
 

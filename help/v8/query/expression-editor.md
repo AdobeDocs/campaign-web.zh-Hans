@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 55%
@@ -34,13 +34,13 @@ ht-degree: 55%
 
 通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){width="70%" align="center"}
 
 表达式就绪后，单击 **[!UICONTROL 确认]** 按钮。 表达式将显示在所选字段中。 要对其进行编辑，请打开表达式编辑器并进行所需的更改。
 
 以下示例显示了为配置的表达式 **[!UICONTROL 值]** 字段。 要编辑它，您需要使用打开表达式编辑器 **[!UICONTROL 编辑表达式]** 按钮。
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){width="70%" align="center"}
 
 ## 辅助功能
 
