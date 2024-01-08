@@ -8,7 +8,7 @@ hide: true
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 85%
       + [创建您的第一封电子邮件](email/create-email.md)
       + 定义电子邮件内容 {#content}
          + [配置电子邮件内容](email/edit-content.md)
-         + [使用内容模板](email/create-email-templates.md)
+         + [使用电子邮件模板](email/create-email-templates.md)
          + 开始计划您的电子邮件 {#start-design}
             + [开始使用电子邮件设计器](email/get-started-email-designer.md)
             + [从头开始](email/create-email-content.md)
@@ -91,7 +91,7 @@ ht-degree: 85%
    + [用户档案和受众入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
    + 使用用户档案 {#work-with-profiles}
-      + [监控和管理用户档案](audience/about-recipients.md)
+      + [监测与管理配置文件](audience/about-recipients.md)
       + [创建和管理测试用户档案](audience/test-profiles.md)
    + 使用受众 {#audiences}
       + [创建受众](audience/create-audience.md)
@@ -144,12 +144,12 @@ ht-degree: 85%
    + [导出报告](reporting/export-reports.md)
    + [关键绩效指标](reporting/kpis.md)
    + 投放报告 {#delivery-report}
-      + [投放报告入门](reporting/delivery-reports.md)
+      + [开始使用投放报告](reporting/delivery-reports.md)
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
    + 营销活动报表 {#campaign-report}
-      + [营销活动报告入门](reporting/campaign-reports.md)
+      + [开始使用营销活动报告](reporting/campaign-reports.md)
       + [通过电子邮件发送营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)

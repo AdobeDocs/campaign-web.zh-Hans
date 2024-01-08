@@ -38,8 +38,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
->title="此交付为只读"
->abstract="您无权编辑此交付。如果需要，请联系您的管理员以向您授予访问权限。"
+>title="此投放为只读"
+>abstract="您无权编辑此投放。如果需要，请联系您的管理员以向您授予访问权限。"
 
 
 >[!CONTEXTUALHELP]
