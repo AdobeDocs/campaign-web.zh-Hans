@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 badge: label="有限发布版"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 32%
@@ -50,7 +50,7 @@ Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的�
 
 查询建模器提供了一个中央画布，您可以在其中构建查询，以及一个右窗格，提供有关查询的信息。
 
-![](assets/query-interface.png){width="70%" align="center"}
+![](assets/query-interface.png)
 
 ### 中央画布 {#canvas}
 
