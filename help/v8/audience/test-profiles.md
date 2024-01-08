@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '554'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->测试用户档案会自动从有关以下投放统计的报告中排除： **[!UICONTROL 点击次数]**， **[!UICONTROL 打开次数]**， **[!UICONTROL 取消订阅]**.
+>测试用户档案会自动从有关以下投放统计的报告中排除： **[!UICONTROL 点击次数]**， **[!UICONTROL 打开次数]**， **[!UICONTROL 取消订阅]**. [了解有关报告的更多信息]
 
 ## 访问和管理测试用户档案 {#access-test-profiles}
 
@@ -39,13 +39,13 @@ ht-degree: 2%
 
   ![](assets/test-profile-list-filters.png)
 
-* 您可以复制任何测试配置文件并根据需要进行编辑。
+* 您可以复制任何测试用户档案并根据需要对其进行更新。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
 
 * 要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
 
   ![](assets/test-profile-list-delete.png)
 
-* 要编辑测试用户档案，请在列表中单击所需的项目。
+* 要编辑测试用户档案，请在列表中单击所需的项目。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
 
 您还可以通过以下方式访问测试用户档案 **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 节点。
 
@@ -68,7 +68,9 @@ ht-degree: 2%
 
 1. 单击 **[!UICONTROL 创建测试用户档案]** 按钮。
 
-1. 填写测试用户档案的详细信息。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. 根据需要填写测试用户档案的详细信息。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 

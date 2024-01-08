@@ -2,9 +2,9 @@
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '899'
 ht-degree: 6%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 6%
 
 ## 开始使用用户档案 {#gs}
 
-Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当为投放创建受众并将个性化数据添加到内容的关键组件。
+Adobe Campaign Web中的用户档案是存储在数据库中的个人，它充当以下对象的关键组件： [创建受众](create-audience.md) 用于投放和 [添加个性化](../personalization/personalize.md) 数据到您的内容。
 
-其他类型的用户档案存储在数据库中，例如 **[!UICONTROL 测试用户档案]**，专门用于在投放内容发送给最终受众之前对其进行测试。 [了解如何使用测试用户档案](test-profiles.md)
+其他类型的用户档案存储在数据库中，例如 **[!UICONTROL 测试用户档案]**，专门用于在投放内容发送给最终受众之前对其进行测试。 [了解详情](test-profiles.md)
 
 只能从Adobe Campaign客户端控制台创建配置文件 —  [了解如何](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. 但是，它们可以在Adobe Campaign Web中的以下位置访问和编辑： **[!UICONTROL 客户管理]** > **配置文件** 条目进行导航。
 
 >[!NOTE]
 >
->根据您的权限，您可能无法访问存储在数据库中的用户档案的完整列表。 可在[此部分](../get-started/permissions.md)中详细了解权限。
+>根据您的权限，您可能无法访问存储在数据库中的用户档案的完整列表。 [了解有关权限的更多信息](../get-started/permissions.md).
 
 * 您可以筛选 **[!UICONTROL 配置文件]** 使用 **显示筛选器** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * 要删除配置文件，请从 **[!UICONTROL 更多操作]** 菜单。
 
@@ -94,13 +94,15 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
 要访问并编辑配置文件的详细信息，请执行以下步骤。
 
-1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**.
+1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 然后单击页面上的所需项目 **[!UICONTROL 配置文件]** 列表。
 
-1. 单击以下位置中的所需项目： **[!UICONTROL 配置文件]** 列表。 此时将显示有关用户档案的详细信息。
+   ![](assets/profiles-list-select.png)
+
+1. 此时将显示有关用户档案的详细信息。
+
+   此 **[!UICONTROL 详细信息]** 选项卡允许您浏览配置文件的内置属性和自定义属性。 要编辑属性，请在所需字段中进行更改，然后单击 **[!UICONTROL 保存]** 按钮。
 
    ![](assets/profile-details.png)
-
-1. 此 **[!UICONTROL 详细信息]** 选项卡允许您浏览配置文件的内置属性和自定义属性。 要编辑属性，请在所需字段中进行更改，然后单击 **[!UICONTROL 保存]** 按钮。
 
    1. 默认情况下，配置文件存储在 **[!UICONTROL 收件人]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
       ![](assets/profile-address.png)
 
-   1. 查看 **[!UICONTROL 不再联系]** 选项，并根据需要更新它们。 当选择这些选项中的任何一个选项时，配置文件将处于阻止列表状态。 例如，如果收件人点击了新闻稿中的退订链接，则此信息会添加到联系人数据中。 所选渠道上不再定向此类收件人。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. 查看 **[!UICONTROL 不再联系]** 选项，并根据需要更新它们。 当选择这些选项中的任何一个选项时，配置文件将处于阻止列表状态。 例如，如果收件人点击了新闻稿中的退订链接，此信息将添加到联系人数据。 所选渠道上不再定向此类收件人。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，充当�
 
       ![](assets/profile-custom-fields.png)
 
-1. 单击 **[!UICONTROL 订阅]** 选项卡访问有关用户档案订阅的服务的信息。 [了解如何使用订阅服务](manage-services.md)
+1. 单击 **[!UICONTROL 订阅]** 选项卡访问有关用户档案订阅的服务的信息。 [了解有关订阅服务的更多信息](manage-services.md)
 
-1. 单击 **[!UICONTROL 日志]** 按钮图标，用于通过发送、排除和跟踪日志查看用户档案交互的历史记录，以及显示给用户档案的选件。 [了解有关投放日志的更多信息](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. 单击 **[!UICONTROL 日志]** 按钮图标，用于通过发送、排除和跟踪日志查看用户档案交互的历史记录。 [了解有关投放日志的更多信息](../monitor/delivery-logs.md)
+
+   您还可以查看呈现给用户档案的优惠，位于 **[!UICONTROL 建议]** 选项卡。 [了解有关优惠的更多信息](../msg/offers.md)
 
    ![](assets/profile-logs.png)
