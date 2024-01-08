@@ -5,7 +5,7 @@ description: 了解如何开始使用跨渠道营销活动
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 

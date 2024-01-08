@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 57%
 
 * **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
 
-* **工作表**：工作表包含了过渡所携带的所有信息。每个工作流均使用多个工作表。这些表中传送的数据可在工作流的整个生命周期中使用。
+* **工作表**：工作表包含了过渡所携带的所有信息。每个工作流均使用多个工作表。在工作流的整个生命周期内均可使用在这些表中传递的数据。
 
-## 创建工作流程的关键步骤 {#gs-workflow-steps}
+## 创建工作流的关键步骤 {#gs-workflow-steps}
 
 
-营销活动提供了两种创建工作流的方法：
+营销活动提供了两种创建工作流的方式：
 
-1. 可以从以下位置将工作流创建为独立工作流： **工作流** 菜单。
+1. 可从&#x200B;**工作流**&#x200B;菜单创建工作流作为独立的工作流。
 
    ![](assets/create-a-standalone-wf.png)
 
-1. 可以从以下位置直接在营销策划中创建工作流： **工作流** 的选项卡。 如果包含在营销策划中，则工作流会与所有其他营销策划的工作流一起执行，并且报告量度都会在营销策划级别分组。
+1. 可直接在营销活动中从营销活动的&#x200B;**工作流**&#x200B;选项卡创建工作流。当工作流包括在营销活动中时，将它与所有其他营销活动的工作流一起执行，并且报告量度全都集中在营销活动级别。
 
    ![](assets/create-a-wf-from-a-campaign.png)
 
 
-创建工作流程的关键步骤如下：
+创建工作流的关键步骤如下所示：
 
 ![](assets/workflow-creation-process.png)
 
-以下部分将详细介绍这些步骤：
+以下部分详细介绍了这些步骤：
 
-1. [创建工作流并定义其属性](create-workflow.md)
-1. [协调和配置活动](orchestrate-activities.md)
+1. [创建您的工作流并定义其属性](create-workflow.md)
+1. [编排和配置活动](orchestrate-activities.md)
 1. [配置工作流高级设置](workflow-settings.md)
-1. [启动工作流并监视其执行](start-monitor-workflows.md)
+1. [启动工作流并监控其执行情况](start-monitor-workflows.md)
 
