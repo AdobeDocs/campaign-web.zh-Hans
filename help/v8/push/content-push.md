@@ -4,7 +4,7 @@ title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="有限发布版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 38%
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="推送 iOS 消息"
+>title="Android推送消息"
 >abstract="定义您用于 Android 设备的推送通知的内容。要编写消息，请单击&#x200B;**标题**&#x200B;和&#x200B;**消息**&#x200B;字段。使用表达式编辑器使数据个性化并添加动态内容。要进一步使推送通知个性化，可选择要添加到推送通知的图像、要在您的配置文件的设备上显示的通知图标及其颜色。有关更多自定义配置，请浏览到&#x200B;**高级设置**&#x200B;部分。"
 
 
