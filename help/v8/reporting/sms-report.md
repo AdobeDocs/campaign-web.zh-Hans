@@ -4,10 +4,10 @@ title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 badge: label="有限发布版"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 45%
+ht-degree: 42%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 45%
 
 ## 投放摘要 {#delivery-summary}
 
+### 投放概述 {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="短信投放概述"
 >abstract="**短信投放概述**&#x200B;全面概述短信投放，其中提供大量见解和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
-
-### 投放概述 {#sms-delivery-overview}
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供有关成功率和错误率以及访客如何参与短信消息的详细信息。
 
@@ -45,9 +45,7 @@ ht-degree: 45%
 
 +++
 
-
 ### 目标群体 {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ ht-degree: 45%
 
 
 ### 整体统计数据 {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ ht-degree: 45%
 
 ### 排除项 {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="短信排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
-
 
 此 **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="短信投放吞吐量"
->abstract="**投放吞吐量**&#x200B;报告提供有关指定时间范围内的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。"
+>abstract="此 **投放吞吐量** 报表显示指定时间范围内投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。"
 
 此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 

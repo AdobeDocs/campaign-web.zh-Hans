@@ -3,9 +3,9 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 badge: label="有限发布版"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '548'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,12 @@ ht-degree: 4%
 
 ## 投放摘要 {#delivery-summary-push}
 
-### 投放摘要 {#delivery-overview-push}
+### 投放概述 {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="推送投放概述"
+>abstract="推送 **投放概述** KPI可全面检查您的推送投放情况，提供详细的见解和特定数据。 它提供有关投放性能、效果和结果的全面详细信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 
@@ -38,6 +43,11 @@ ht-degree: 4%
 
 ### 目标受众 {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="推送目标群体"
+>abstract="此 **目标人群** 图形和表格显示了与推送消息受众相关的数据，提供了有关要投放的消息和排除项的信息。"
+
 此 **[!UICONTROL 目标受众]** 表格和图形可显示与每个已发送推送通知投放的收件人相关的数据。 指标详见下文。
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ ht-degree: 4%
 +++
 
 ### 投放统计信息 {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="推送投放统计数据"
+>abstract="此 **总体统计信息** 报告提供了有关已发送推送通知的信息，包括成功率、错误和隔离。"
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次推送通知投放的成功情况。 指标详见下文。
 
@@ -74,13 +89,23 @@ ht-degree: 4%
 
 ### 排除原因 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="排除的推送原因"
+>abstract="此 **排除的原因** 图表说明了阻止用户配置文件接收推送通知的各种原因。"
+
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。
 
 推送通知错误类型列在 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="投放吞吐量报告"
+>abstract="此 **投放吞吐量** 报表呈现有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-此报表提供有关指定时间范围内的投放吞吐量的全面详细信息。
+此 **[!UICONTROL 投放吞吐量]** 报表提供了有关推送通知投放系统有效性的全面见解，并提供了指定时间段内成功率和错误率的详细摘要。
 

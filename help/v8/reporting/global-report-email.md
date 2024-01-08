@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 badge: label="有限发布版"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 4%
+source-wordcount: '1594'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 4%
 ## 投放摘要 {#delivery-summary-email}
 
 ### 投放概述 {#delivery-overview-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_deliveries_overview_email"
+>title="投放概述"
+>abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于深入分析受众如何与您发送的电子邮件投放和营销活动进行交互。"
 
 此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些指标概述如下。
 
@@ -41,6 +46,11 @@ ht-degree: 4%
 
 ### 目标受众 {#delivery-summary-email-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_email"
+>title="初始目标受众统计数据"
+>abstract="此 **目标受众** 表格和图形可提供对收件人参与度的洞察，可帮助您评估活动和投放的有效性。"
+
 表和图表 **[!UICONTROL 目标受众]** 显示与收件人相关的数据，并提供以下详细量度。
 
 ![](assets/global_report_email_targeted_audience.png){align="center"}
@@ -55,7 +65,12 @@ ht-degree: 4%
 
 +++
 
-### 投放统计信息 {#delivery-summary-email-exec-stats}
+### 投放统计信息 {#delivery-summary-email-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_email_delivery_stats"
+>title="投放统计信息"
+>abstract="此 **投放统计信息** 图形和表概述了关键量度，包括成功的投放、错误和新隔离，并提供了用于评估投放性能的简短概述。"
 
 此 **[!UICONTROL 投放统计信息]** 该表提供了每个电子邮件投放成功的明细，详见下面列出的指标。
 
@@ -75,6 +90,11 @@ ht-degree: 4%
 
 ### 排除原因 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusion_email"
+>title="排除原因"
+>abstract="此 **排除的原因** 图表说明了投放准备期间消息拒绝的具体原因，提供了按规则的详细细分。"
+
 ![](assets/global_report_email_exclusions.png){align="center"}
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
@@ -83,13 +103,31 @@ ht-degree: 4%
 
 ## 投放吞吐量 {#delivery-throughput}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_email"
+>title="投放吞吐量"
+>abstract="此 **投放吞吐量** 提供对投放吞吐量的全面洞察，重点显示指定时间范围内的成功率和错误率。"
+
 ![](assets/global_report_email_delivery_throughput.png){align="center"}
 
-此报表提供有关指定时间范围内的投放吞吐量的全面详细信息。
+“投放吞吐量”报表提供了对投放流程效率的深入分析，其中详细概述了指定时间范围内的成功率和错误率。
+
++++了解关于投放吞吐量量度的更多信息。
+
+* **[!UICONTROL 成功]**：成功处理的消息数与要投放的消息数相关。
+
+* **[!UICONTROL 错误]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数量相关。
+
++++
 
 ## 投放失败 {#non-deliverables-email}
 
 ### 按类型细分错误 {#delivery-summary-email-breakdown-per-type}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_type_email"
+>title="按类型细分错误"
+>abstract="详细说明以下内容的表和图表： **每种类型的错误细分** 包含有关过程中遇到的各种错误类型的信息，包括用户未知、邮箱已满、无效域等。"
 
 ![](assets/global_report_email_breakdown_type.png){align="center"}
 
@@ -117,6 +155,11 @@ ht-degree: 4%
 
 ### 按域细分错误 {#delivery-summary-email-breakdown-per-domain}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_domain_email"
+>title="按域细分错误"
+>abstract="该表格和图形展示了 **每个域的错误细分** 显示与遇到的每个错误类型对应的数据，并按特定域进行分类。"
+
 ![](assets/global_report_email_breakdown_domain.png){align="center"}
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形展示了与每个域中潜在错误相关的数据。 指标与以下内容通用 **[!UICONTROL 每种类型的错误细分]** 表格和图形详见上文。
@@ -124,6 +167,11 @@ ht-degree: 4%
 ## 跟踪指标 {#tracking-indicators-email}
 
 ### 投放统计信息 {#delivery-summary-email-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_delivery_statistics_summary_email"
+>title="投放统计信息"
+>abstract="此 **投放统计信息** 关键绩效指标(KPI)全面概述了您的交付情况和营销活动绩效，并提供了有关成功交付、遇到的错误和用户参与情况的见解。"
 
 此 **[!UICONTROL 投放统计信息]** 量度提供关键绩效指标(KPI)，用于提供有关与每个电子邮件投放关联的数据的详细信息。 有关这些指标的更多详细信息如下。
 
@@ -148,6 +196,11 @@ ht-degree: 4%
 
 ### 打开和点进率 {#delivery-summary-open-rate}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_open_clickthrough_email"
+>title="打开和点进率"
+>abstract="表 **打开率和点进率** 显示收件人参与投放的情况，展示关于打开率和点进率的数据，从而快速获得有见地的概述。"
+
 此 **[!UICONTROL 打开率和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
 ![](assets/global_report_email_opens.png){align="center"}
@@ -169,6 +222,11 @@ ht-degree: 4%
 
 ### URL和点击流KPI {#url-email-kpis}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_clickstreams_email"
+>title="URL 和点击流"
+>abstract="此 **URL和点击流** 报告提供关键绩效指标(KPI)，可详细分析投放期间点击次数最多的URL。"
+
 此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，用于详细分析投放期间获得最多点击次数的URL。 指标详见下文。
 
 ![](assets/campaign_report_email_9.png){align="center"}
@@ -184,7 +242,12 @@ ht-degree: 4%
 * **[!UICONTROL 平台平均值]** ：在每个比率（反应性、非重复点击和累计点击）下显示的平均比率，用于计算过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
 +++
 
-### 访问量排名前 10 的链接 {#top10-campaign-report-email}
+### 访问量排名前 10 的链接 {#top10-global-report-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_top10_email"
+>title="访问量排名前 10 的链接"
+>abstract="此 **前10个访问次数最多的链接**  此图表和表格提供了有关收件人与每个链接的交互情况的全面数据。"
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
@@ -198,13 +261,23 @@ ht-degree: 4%
 
 +++
 
-### 随时间推移的点击次数细分 {#campaign-report-email-breakdown-clicks}
+### 随时间推移的点击次数细分 {#global-report-email-breakdown-clicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_click_breakdown_email"
+>title="随时间推移的点击次数细分"
+>abstract="此 **随时间细分的点击量** 图表可全面了解收件人如何在指定的时间范围内与链接互动。"
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 
 ![](assets/global_report_email_breakdown_clicks.png){align="center"}
 
 ## 用户活动 {#user-activities-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_user_activities_email"
+>title="用户活动"
+>abstract="的图形表示 **用户活动** 提供收件人交互的详细细分，以信息性图表格式展示打开数和点击数。"
 
 此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 此报告的量度详述如下。
 

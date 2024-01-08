@@ -4,10 +4,10 @@ title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 badge: label="有限发布版"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -74,12 +74,10 @@ ht-degree: 38%
 
 ### 排除原因  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="投放排除项的原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
-
 
 此 **[!UICONTROL 排除的原因]** 图形和表格显示了投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -288,7 +286,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的接收者行为的可用数据。"
+>abstract="此 **前10个访问次数最多的链接** 图形和表包含每个链接的收件人行为的可用数据。"
 
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。

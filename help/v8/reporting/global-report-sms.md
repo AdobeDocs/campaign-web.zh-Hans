@@ -3,9 +3,9 @@ audience: end-user
 title: 短信渠道全局报表
 description: 了解短信渠道的全局报告
 badge: label="有限发布版"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 4%
 ## 投放摘要 {#delivery-summary-sms}
 
 ### 投放概述 {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="短信投放概述"
+>abstract="此 **短信投放概述** KPI可全面总结短信投放情况，提供详细的见解和特定数据。 它提供有关交付的性能、效率和结果的全面信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供全面的关键绩效指标(KPI)，可深入分析访客与每个短信投放的交互模式。 以下列出了以下量度。
 
@@ -38,6 +43,11 @@ ht-degree: 4%
 
 ### 目标受众 {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="短信目标群体"
+>abstract="的图表和表 **目标人群** 显示与短信受众相关的数据，包括有关要投放的消息和排除的信息。"
+
 此 **[!UICONTROL 目标受众]** 表格和图形可显示每个已发送短信投放的与收件人相关的数据。 指标详见下文。
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ ht-degree: 4%
 +++
 
 ### 投放统计信息 {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="短信投放统计数据"
+>abstract="此 **投放统计信息** 报告提供了对所发送短信的全面分析，对各种量度（如成功率、错误发生次数和隔离的受众）进行了细分。 此详细演示允许彻底检查SMS投放过程的总体性能和结果。"
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次短信投放的成功情况。 指标详见下文。
 
@@ -74,6 +89,11 @@ ht-degree: 4%
 
 ### 排除原因 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="短信导致排除"
+>abstract="此 **排除的原因** 图表说明了阻止用户配置文件接收短信消息的各种原因。"
+
 此 **[!UICONTROL 排除的原因]** 图和表显示了阻止从定向用户档案中排除的用户用户档案接收短信投放的原因。
 
 错误类型列在 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ ht-degree: 4%
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="短信投放吞吐量"
+>abstract="此 **投放吞吐量** 报告提供了有关短信消息投放系统效率的广泛见解，详细概述了指定时间范围内的成功率和错误率。"
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-此报表提供有关指定时间范围内的投放吞吐量的全面详细信息。
+此 **[!UICONTROL 投放吞吐量]** 报告提供了有关短信消息投放系统效率的全面见解，并提供了指定时间段内成功率和错误率的详细摘要。
