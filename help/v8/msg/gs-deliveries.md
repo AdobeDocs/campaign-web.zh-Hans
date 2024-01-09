@@ -1,15 +1,16 @@
 ---
 product: campaign
-title: 处理投放
+title: 使用投放
 description: 了解如何在Campaign Web中创建您的第一个投放
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="有限发布版"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -36,14 +37,17 @@ ht-degree: 98%
 
    ![](assets/create-a-delivery.png)
 
-1. 选择投放的渠道。在以下各部分中了解有关投放渠道以及如何定义投放内容的更多信息：
+1. 选择投放渠道。
+1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-recipients.md)中详细了解受众。
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. 定义消息内容。 在以下各部分中了解有关投放渠道以及如何定义投放内容的更多信息：
 
    * [电子邮件渠道](../email/create-email.md)
    * [推送通知渠道](../push/gs-push.md)
    * [短信渠道](../sms/create-sms.md)
 
-1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-recipients.md)中详细了解受众。
-1. 定义消息内容。
 1. （可选）定义投放[计划](#gs-schedule)。如果未定义计划，则在单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后立即发送消息。
 1. 单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮可检查您的设置。
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮可测试您的投放和个性化设置。在[此章节](../preview-test/preview-test.md)中详细了解消息模拟。
@@ -56,13 +60,11 @@ ht-degree: 98%
 要在工作流中创建投放，请执行以下步骤：
 
 1. 创建工作流或打开现有工作流。可在[此页面](../workflows/gs-workflow-creation.md#gs-workflow-steps)中详细了解工作流
-1. 添加并配置一个&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动，然后单击 `+` 按钮。
+1. 添加和配置 **[!UICONTROL 构建受众]** 活动。 了解关于 **[!UICONTROL 构建受众]** 中的活动 [本节](../workflows/activities/build-audience.md).
+1. 单击 `+` 图标并选择投放活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]** 或 **[!UICONTROL 推送通知(iOS)]**. 在此[章节](../workflows/activities/channels.md)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
 
    ![](assets/add-delivery-in-wf.png)
 
-   **[!UICONTROL 生成受众]**&#x200B;活动详见[此章节](../workflows/activities/build-audience.md)。
-
-1. 选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。在此[章节](../workflows/activities/channels.md)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
 1. 启动工作流，并检查日志。
 
 您还可以在不创建工作流的情况下在营销活动中添加投放。为此，请浏览到营销活动的&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
