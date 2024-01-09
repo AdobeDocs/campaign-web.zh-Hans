@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 29%
+source-wordcount: '360'
+ht-degree: 28%
 
 ---
 
@@ -50,4 +50,6 @@ ht-degree: 29%
 
 此 **[!UICONTROL 模板]** 选项卡列出了所有可用的工作流模板。
 
-工作流模板包含预配置的活动和可重复用于创建新工作流的整体属性配置。 它们是从客户端控制台创建的。[了解如何使用模板](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+工作流模板包含预配置的活动和可重复用于创建新工作流的整体属性配置。
+
+您可以从现有工作流创建工作流模板，或从头开始创建工作流模板。 [了解如何创建工作流模板](create-workflow.md#work-with-workflow-templates-workflow-templates)
