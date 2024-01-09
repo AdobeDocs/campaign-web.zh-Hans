@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
+badge: label="有限发布版"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 6%
+source-wordcount: '570'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,7 @@ ht-degree: 6%
 
 ## 工作流过渡 {#transitions}
 
-在工作流中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。
-
-可以为每个过渡显示此数据。 要实现此目的，请选择过渡以在屏幕右侧打开其属性。
+在工作流中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。 可以为每个过渡显示此数据。 要实现此目的，请选择过渡以在屏幕右侧打开其属性。
 
 * 单击 **[!UICONTROL 预览架构]** 显示工作表的模式。
 * 单击 **[!UICONTROL 预览结果]** 对在所选过渡中传输的数据进行可视化。
@@ -57,7 +55,7 @@ ht-degree: 6%
 
 提供了两种类型的信息：
 
-* 此 **[!UICONTROL 日志]** 选项卡包含所有工作流活动的执行历史记录。 工作流日志按时间顺序对执行的操作和执行错误进行索引。
+* 此 **[!UICONTROL 日志]** 选项卡包含所有工作流活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
 * 此 **[!UICONTROL 任务]** 选项卡详细列出了活动的执行顺序。
 
 在这两个选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。

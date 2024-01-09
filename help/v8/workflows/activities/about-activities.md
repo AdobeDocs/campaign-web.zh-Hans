@@ -4,9 +4,9 @@ title: 使用工作流活动
 description: 了解如何使用工作流活动
 badge: label="有限发布版"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ ht-degree: 39%
 
 ## 渠道活动 {#channel}
 
-通过Adobe Campaign Web，您可以跨多个渠道自动执行营销活动。 您可以将渠道活动合并到画布中，以创建可以根据客户行为触发操作的跨渠道工作流。 以下各项 **渠道** 可用活动：电子邮件、短信、Android和iOS推送通知。
-
-请参阅此以了解如何在工作流上下文中设置投放 [部分](channels.md).
+通过Adobe Campaign Web，您可以跨多个渠道自动执行营销活动。 您可以将渠道活动合并到画布中，以创建可以根据客户行为触发操作的跨渠道工作流。 以下各项 **渠道** 可用活动：电子邮件、短信、Android和iOS推送通知。 [了解如何在工作流的上下文中设置投放](channels.md).
 
 ## 流量控制活动 {#flow-control}
 

@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用“AND-连接工作流”活动
 description: 了解如何使用“AND-连接工作流”活动
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join 活动"
->abstract="利用 **And-连接**&#x200B;活动，可同步工作流的多个执行分支。一旦完成所有之前的活动，即触发该活动。这使您能够在继续执行工作流之前确保某些活动已完成。"
+>abstract="利用 **And-join** 活动，可同步工作流的多个执行分支。一旦完成所有之前的活动，即触发该活动。这使您能够在继续执行工作流之前确保某些活动已完成。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。利用此活动，可同步工作流的多个执行分支。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="配置 AND-join 活动"
->abstract="选择您要参加的活动。在&#x200B;**主集**&#x200B;下拉列表中，选择您要保留的集客过渡群体。"
+>abstract="选择您要参加的活动。在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
 
 请按照以下步骤操作，配置 **AND-连接**&#x200B;活动：
 
@@ -43,4 +43,4 @@ ht-degree: 100%
 
 以下示例显示了两个工作流分支，其中包含电子邮件和短信投放。当两个集客过渡均启用时，将触发 AND-连接。只有在两次投放完成后才会发送推送通知。
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
