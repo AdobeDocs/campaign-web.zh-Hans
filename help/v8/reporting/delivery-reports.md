@@ -7,11 +7,11 @@ badge: label="有限发布版"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# 投放报告入门 {#reports}
+# 开始使用投放报告 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: 使用内容模板
+title: 使用电子邮件模板
 description: 了解如何创建模板以重复使用Adobe Campaign电子邮件中的内容
 feature: Templates
 topic: Content Management
@@ -11,16 +11,16 @@ badge: label="有限发布版"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
-# 使用内容模板 {#content-templates}
+# 使用电子邮件模板 {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="定义您自己的内容"
->abstract="从头开始创建独立的自定义模板，以使您的内容可在多个电子邮件中重复使用。"
+>abstract="从头开始创建独立的自定义模板，这样您的内容便可在多个电子邮件中重复使用。"
 
 为了加快并改进设计过程，您可以创建独立的模板，以轻松地在上下文中重复使用自定义内容 [!DNL Adobe Campaign].
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="编辑您的模板内容"
->abstract="单击 **编辑内容** 按钮以使用Email Designer更新您的内容。"
+>abstract="单击&#x200B;**编辑内容**&#x200B;按钮可使用电子邮件设计器更新您的内容。"
 
 要访问内容模板列表，请选择 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 从左侧菜单。
 
@@ -91,12 +91,12 @@ ht-degree: 7%
 >
 >* 同样，在电子邮件中使用模板时，您对电子邮件内容所做的任何编辑都不会影响以前使用的内容模板。
 
-### 从头开始创建模板 {#create-template-from-scratch}
+### 从头开始制定模板 {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定义模板属性"
->abstract="从头开始创建模板时，可根据需要轻松定义要检索的属性。"
+>abstract="从头开始创建模板时，定义其属性以便在需要时轻松检索。"
 
 要从头开始创建内容模板，请执行以下步骤。
 

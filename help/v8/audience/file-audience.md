@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
->abstract="检查外部文件的格式参数。"
+>abstract="检查外部文件的格式化参数。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="预览文件"
->abstract="检查外部文件列的预览。 此屏幕最多只能显示 30 条记录。"
+>abstract="检查对外部文件的列的预览。此屏幕最多只能显示 30 条记录。"
 
 
 您可以定位存储在外部文件中的用户档案。 用户档案不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../personalization/gs-personalization.md). 支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。本文介绍了在创建独立的电子邮件投放时如何加载外部用户档案。 要从工作流中的文件加载数据，请参阅 [此页面](../workflows/activities/load-file.md).

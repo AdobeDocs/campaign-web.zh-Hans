@@ -8,18 +8,18 @@ badge: label="有限发布版"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
-# 创建和管理测试用户档案 {#create-test-profiles}
+# 创建和管理测试配置文件 {#create-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="创建测试配置文件"
->abstract="测试用户档案作为种子地址创建。 它们是数据库中的附加收件人，用于定位不符合所定义的目标标准的虚拟用户档案。"
+>abstract="测试配置文件被创建为种子地址。他们是数据库中的附加收件人，用于定位与定义的目标标准不匹配的虚构配置文件。"
 
-测试用户档案作为种子地址创建。 它们是数据库中的附加收件人，用于定位不符合所定义的目标标准的虚拟用户档案。 它们允许您在发送投放之前通过发送校样来预览和测试个性化和呈现。
+测试配置文件被创建为种子地址。它们是数据库中的附加收件人，用于定位不符合所定义的目标标准的虚拟用户档案。 它们允许您在发送投放之前通过发送校样来预览和测试个性化和呈现。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="测试配置文件附加数据"
->abstract="输入个性化数据，该数据用于在Data Management工作流中创建的投放，并且您要将特定值分配给该数据。"
+>abstract="输入用于在数据管理工作流中创建的投放的个性化数据，以及要为其分配特定值的数据。"
 
 要创建测试用户档案，请执行以下步骤。
 

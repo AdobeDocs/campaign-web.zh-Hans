@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="通知次数"
->abstract="使用此选项可设置直接在应用程序图标上显示的未读通知数。 这样用户即可迅速了解待处理通知的数量。"
+>abstract="使用此选项设置要直接显示在应用程序图标上的未读通知数。这样用户即可迅速了解待处理通知的数量。"
 
 
 >[!CONTEXTUALHELP]
