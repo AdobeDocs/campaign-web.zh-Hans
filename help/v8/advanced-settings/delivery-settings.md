@@ -94,7 +94,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="投放的容量设置"
->abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 Console 中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
+>abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 控制台中定义。在此屏幕中，选择与电子邮件渠道关联的规则。在此屏幕中，选择与电子邮件渠道关联的规则。"
 
 
 >[!CONTEXTUALHELP]

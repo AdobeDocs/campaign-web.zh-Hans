@@ -6,7 +6,7 @@ badge: label="有限发布版"
 source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="加载文件活动"
->abstract="此 **加载文件** 活动是 **数据管理** 活动。 使用此活动处理存储在外部文件中的数据。"
+>abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 33%
 >abstract="加载文件活动的格式设置"
 
 
-此 **加载文件** 活动是 **数据管理** 活动。 使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
+ **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 
 
 >[!NOTE]

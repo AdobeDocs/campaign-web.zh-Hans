@@ -6,7 +6,7 @@ badge: label="有限发布版"
 source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 15%
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="协调活动"
->abstract="此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与外部表中的数据之间的链接。"
+>abstract="**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，使用它可以定义 Adobe Campaign 数据库中以及工作表中的数据之间的链接，例如从外部文件加载的数据。例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以将非标准数据导入到数据库。在本例中，**协调**&#x200B;活动允许您定义 Adobe Campaign 数据库中的数据与外部表中的数据之间的链接。"
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 
 
-此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。 例如， **调解** 活动可放置在 **加载受众** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
+**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，使用它可以定义 Adobe Campaign 数据库中以及工作表中的数据之间的链接，例如从外部文件加载的数据。例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以将非标准数据导入到数据库。在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
 
 
 ## 最佳实践 {#reconciliation-best-practices}
@@ -53,37 +53,37 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="定位维度"
->abstract="选择新的定向维度。 通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。 默认情况下，将选择当前定向维度。"
+>abstract="选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的定位维度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择要用于重复数据删除的协调字段。 您可以使用一个或多个协调条件。"
+>abstract="选择用于删除重复项的协调字段。您可以使用一个或多个协调标准。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
->abstract="为要协调的集客数据选择定向维度。"
+>abstract="选择要协调的入站数据的定位维度。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请取消激活 **保留未协调的数据** 选项。"
+>abstract="默认情况下，未调节的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="协调属性"
->abstract="选择要用于协调数据的属性，然后单击确认。"
+>abstract="选择用于协调数据的属性，然后单击“确认”。"
 
 按照以下步骤配置 **调解** 活动：
 
 1. 拖放 **调解** 活动添加到工作流中。 应在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后添加此活动。
 
-1. 选择新的定向维度。 通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。 在中了解有关定位维度的更多信息 [此页面](../../audience/about-recipients.md#targeting-dimensions).
+1. 选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。在中了解有关定位维度的更多信息 [此页面](../../audience/about-recipients.md#targeting-dimensions).
 
-1. 选择要用于重复数据删除的协调字段。 您可以使用一个或多个协调条件。
+1. 选择用于删除重复项的协调字段。您可以使用一个或多个协调标准。
 
    1. 要使用属性协调数据，请选择 **简单属性** 选项。 此 **来源** 字段列出了输入过渡中可用的要协调的字段。 此 **目标** 字段对应于所选定向维度的字段。 当源和目标相等时，将协调数据。 例如，选择 **电子邮件** 用于根据用户档案的电子邮件地址删除重复用户档案的字段。
 
@@ -95,7 +95,7 @@ ht-degree: 15%
 
 1. 您可以使用来筛选要协调的数据 **创建过滤器** 按钮。 这让您能够使用创建自定义条件 [查询建模器](../../query/query-modeler-overview.md).
 
-默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请取消激活 **保留未协调的数据** 选项。
+默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。
 
 ## 示例 {#reconciliation-example}
 
