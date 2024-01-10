@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '876'
 ht-degree: 70%
 
 ---
@@ -38,24 +38,20 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
 ## 配置“渠道”活动 {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="电子邮件活动"
 >abstract="电子邮件活动有助于在工作流程中发送电子邮件，允许一次性和重复发送消息。它可用于自动将电子邮件发送到在同一工作流程中计算的目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="短信活动"
 >abstract="短信活动有助于在工作流程中发送短信，允许一次性和重复发送消息。它可用于自动将短信发送到在同一工作流程中计算的目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="推送 iOS 活动"
 >abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复传送消息，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   您可以从渠道活动配置左侧窗格中选择另一个模板。如果之前选择的受众与渠道不兼容，则您无法选择模板。要解决此问题，请更新&#x200B;**生成受众**&#x200B;活动，以选择具有正确目标映射的受众。要了解有关目标映射的更多信息，请参阅 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   您可以从渠道活动配置左侧窗格中选择另一个模板。如果之前选择的受众与渠道不兼容，则您无法选择模板。要解决此问题，请更新&#x200B;**生成受众**&#x200B;活动，以选择具有正确目标映射的受众。要了解有关目标映射的更多信息，请参阅 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
-1. 单击&#x200B;**创建投放**。定义消息设置和内容的方式与创建独立投放的方式相同。您还可以安排和模拟内容。[了解详情](../../msg/gs-messages.md)。
+1. 单击&#x200B;**创建投放**。定义消息设置和内容的方式与创建独立投放的方式相同。您还可以安排和模拟内容。[了解详情](../../msg/gs-messages.md)
 
-1. 导航回工作流。 选择是否要继续工作流 **生成叫客过渡** 如果要在渠道活动后添加过渡。
+1. 导航回工作流。 如果要继续工作流， **生成叫客过渡** 在渠道活动后添加过渡。
 
 1. 单击&#x200B;**开始**&#x200B;启动您的工作流。
 

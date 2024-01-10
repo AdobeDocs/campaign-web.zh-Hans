@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '597'
 ht-degree: 54%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 54%
 >id="acw_orchestration_deduplication"
 >title="“内部重复数据删除”活动"
 >abstract="通过&#x200B;**内部重复数据删除**&#x200B;活动，可删除集客活动结果中的重复项。主要在定位活动之后且允许使用目标数据的活动之前使用它。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ ht-degree: 54%
 
 1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。通过字段的顺序，可指定要先处理的字段。
 
-1. 选择唯一数量 **要保留的重复项**. 此字段的默认值为 1。使用 0 值，可保留所有重复项。
+1. 在 **去重设置** 部分，选择唯一数量 **要保留的重复项**. 此字段的默认值为 1。使用 0 值，可保留所有重复项。
 
    例如，如果记录 A 和 B 被视为记录 Y 的重复项，而记录 C 被视为记录 Z 的重复项：
 

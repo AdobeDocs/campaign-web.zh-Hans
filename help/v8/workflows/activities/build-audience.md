@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 76%
+source-wordcount: '498'
+ht-degree: 61%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 76%
 >title="“构建受众”活动"
 >abstract="通过&#x200B;**构建受众**&#x200B;活动，可定义将进入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**构建受众**&#x200B;活动中定义消息受众。"
 
-
 **生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**构建受众**&#x200B;活动中定义消息受众。
 
 要定义受众群体，您可以：
 
 * 选择现有受众，并在客户端控制台中将其创建为列表。
 * 选择 Adobe Experience Platform 受众。
-* 通过定义和组合筛选条件，使用规则生成器生成新受众。
+* 通过定义和组合筛选条件，使用查询建模器生成器构建新受众。
 
 >[!NOTE]
 >
@@ -42,7 +41,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="选择定位维度"
 >abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下从收件人中选择目标。"
 
-
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 
 ![](../assets/workflow-audience.png)
@@ -50,23 +48,32 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 添加一个&#x200B;**生成受众**&#x200B;活动。
 1. 定义一个标签。
 1. 定义受众类型：**创建您自己的**&#x200B;或&#x200B;**读取受众**。
+1. 按照以下选项卡中详述的步骤配置受众。
 
-要创建您自己的查询，请额外执行以下步骤：
+>[!BEGINTABS]
+
+>[!TAB 创建您自己的（查询）]
+
+要创建自己的查询，请执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。在中了解有关定位维度的更多信息 [本节](../../audience/about-recipients.md#targeting-dimensions).
+1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 1. 单击&#x200B;**继续**。
-1. 使用规则生成器定义您的查询，就像设计新电子邮件时创建受众的方式一样。请参阅此[章节](../../audience/../query/query-modeler-overview.md)。
+1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB 读取受众]
 
 要选择现有受众，请执行以下步骤：
 
 1. 选择&#x200B;**读取受众**。
 1. 单击&#x200B;**继续**。
-1. 选择您的受众，就像设计新电子邮件时使用受众一样。请参阅此[章节](../../audience/add-audience.md)。
+1. 选择受众，与设计新投放时使用受众的方式相同。 请参阅此[章节](../../audience/add-audience.md)。
 
 >[!IMPORTANT]
 >
 >如果您要使用 **[!UICONTROL 构建受众]** 针对Experience Platform受众的活动，您需要添加 **[!UICONTROL 更改维度]** 活动之后，用于确保受众的定向维度设置为“收件人”。 此页面底部提供了工作流示例。
+
+>[!ENDTABS]
 
 ## 示例{#build-audience-examples}
 
