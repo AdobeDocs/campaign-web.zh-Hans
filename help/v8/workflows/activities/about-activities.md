@@ -4,10 +4,10 @@ title: 使用工作流活动
 description: 了解如何使用工作流活动
 badge: label="有限发布版"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 这些活动专门针对定位、操纵和丰富人口数据。利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
 
 * 使用 [保存受众](save-audience.md) 活动，用于更新现有受众，或从工作流上游计算的群体中创建新受众。
-* 使用 [构建受众](build-audience.md) 用于定义目标群体的活动。 您可以选择现有受众或使用规则生成器来定义您自己的查询。
+* 使用 [构建受众](build-audience.md) 用于定义目标群体的活动。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
 * 使用 [合并](combine.md) 对集客群体执行分段的活动。 您可以使用并集、交集或差集。
 * 使用 [Split](split.md) 将传入群体划分为多个子集的活动。
 * 使用 [调解](reconciliation.md) 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。

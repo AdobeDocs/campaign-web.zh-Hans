@@ -4,7 +4,7 @@ title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta 版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 22%
@@ -54,7 +54,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
    * **[!UICONTROL 保存受众]**：这是工作流的最后一步，让您能够将工作流结果另存为新受众。
 
-1. 打开 **[!UICONTROL 构建受众]** 活动并使用规则生成器，通过过滤数据库中包含的数据来定义要包含在受众中的群体。 [了解如何配置构建受众活动](../workflows/activities/build-audience.md)
+1. 打开 **[!UICONTROL 构建受众]** 活动并使用查询建模器，通过筛选数据库中包含的数据来定义要包含在受众中的群体。 [了解如何配置构建受众活动](../workflows/activities/build-audience.md)
 
 1. 如果想要对工作流中的定向群体执行其他操作，请根据需要添加尽可能多的活动，并将它们连接在一起。 有关如何配置工作流活动的更多信息，请参阅 [工作流文档](../workflows/activities/about-activities.md).
 

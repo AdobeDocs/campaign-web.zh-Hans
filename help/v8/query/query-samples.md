@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 查询样例
-description: 了解如何使用规则生成器。
+description: 了解如何使用查询建模器。
 hide: true
 hidefromtoc: true
 badge: label="有限发布版"
-source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%

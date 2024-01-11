@@ -7,7 +7,7 @@ role: User
 level: Beginner
 badge: label="Beta 版"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 25%
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 所有模板都是 [已创建](#create-a-delivery-template) 上显示的内容。
 
-您可以在渠道和文件夹上筛选内容模板。 您还可以通过使用投放属性构建规则来设置高级过滤器。 [了解有关规则生成器的更多信息](../audience/../query/query-modeler-overview.md)
+您可以在渠道和文件夹上筛选内容模板。 您还可以通过使用投放属性构建规则来设置高级过滤器。 [了解有关查询建模器的更多信息](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

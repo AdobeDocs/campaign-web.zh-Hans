@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Campaign Web具有强大的查询建模器，可简化筛选数据库以�
 * 创建、设计、个性化、计划并发送电子邮件、短信和推送通知 —  [了解详情](../msg/gs-messages.md)
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../email/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知 - [了解详情](../workflows/activities/channels.md)
-* 使用规则生成器定义目标受众 - [了解详情](../audience/about-recipients.md)
+* 使用查询建模器定义目标受众 —  [了解详情](../audience/about-recipients.md)
 * 预览、测试和发送消息 - [了解详情](../monitor/prepare-send.md)
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 

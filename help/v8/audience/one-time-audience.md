@@ -4,7 +4,7 @@ title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
 badge: label="Beta 版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 28%
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # 为投放构建一次性受众 {#sone-time}
 
-本节介绍如何在创建新投放时构建受众。 在这种情况下，可通过使用规则生成器查询数据库，定向投放受众中要包含的收件人。
+本节介绍如何在创建新投放时构建受众。 在本例中，使用查询建模器查询数据库来定位投放受众中要包含的收件人。
 
 生成的受众仅用于此投放一次。 它不会保存在受众列表中。
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 
    ![](assets/segment-builder0.png)
 
-1. 选择&#x200B;**创建您自己的**。此时将显示规则生成器。 利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用规则生成器](../query/query-modeler-overview.md)
+1. 选择&#x200B;**创建您自己的**。此时将显示查询建模器。 利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

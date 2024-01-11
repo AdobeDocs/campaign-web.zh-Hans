@@ -4,10 +4,10 @@ title: 设置对照组
 description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta 版"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 41%
 
 * 要使用现有受众，请单击&#x200B;**选择受众**。可在[此小节](add-audience.md)中了解详情。
 
-* 要定义新查询，请选择&#x200B;**创建您自己的**，并使用规则生成器定义排除标准。可在[此小节](../query/query-modeler-overview.md)中了解详情。
+* 要定义新查询，请选择 **创建您自己的** 并使用查询建模器定义排除条件。 可在[此小节](../query/query-modeler-overview.md)中了解详情。
 
 受众中包含的或与查询结果匹配的用户档案包括 **已排除** 来自投放目标：他们不会收到任何消息。
 

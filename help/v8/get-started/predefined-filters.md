@@ -3,10 +3,10 @@ title: 创建和使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web UI 中创建和管理预定义过滤器
 badge: label="有限发布版"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 
-在定义规则属性时有预定义过滤器可用。要访问预定义过滤器，请选择规则生成器的下拉列表中的&#x200B;**选择自定义过滤器**&#x200B;选项。
+在定义规则属性时有预定义过滤器可用。要访问预定义过滤器，请选择 **选择自定义筛选条件** 选项。
 
 随后即可访问对当前上下文可用的预定义过滤器的完整列表。
 
