@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 badge: label="有限发布版"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1920'
 ht-degree: 3%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 3%
 
 对于 **1-1链接**，导航到链接的表，选择所需的属性并定义预期值。
 
+您也可以直接选择表格链接 **值** 选取并确认。 在这种情况下，需要使用专用选取器来选择对所选表可用的值，如下面的示例所示。
+
 +++查询示例
 
 在本例中，查询的目标品牌标签为“正在运行”。
@@ -101,6 +103,10 @@ ht-degree: 3%
 1. 定义属性的预期值。
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+以下是一个直接选择表链接的查询示例。 必须从专用选取器中选择此表的可用值。
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
