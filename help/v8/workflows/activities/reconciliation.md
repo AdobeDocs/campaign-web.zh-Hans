@@ -3,10 +3,10 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 badge: label="有限发布版"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 49%
+source-wordcount: '836'
+ht-degree: 44%
 
 ---
 
@@ -17,12 +17,10 @@ ht-degree: 49%
 >title="协调活动"
 >abstract="**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，使用它可以定义 Adobe Campaign 数据库中以及工作表中的数据之间的链接，例如从外部文件加载的数据。例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以将非标准数据导入到数据库。在本例中，**协调**&#x200B;活动允许您定义 Adobe Campaign 数据库中的数据与外部表中的数据之间的链接。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="协调选择字段"
 >abstract="协调选择字段"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 49%
 >title="协调生成补集"
 >abstract="协调生成补集"
 
+此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 
-
-**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，使用它可以定义 Adobe Campaign 数据库中以及工作表中的数据之间的链接，例如从外部文件加载的数据。例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以将非标准数据导入到数据库。在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
-
+例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以将非标准数据导入到数据库。在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
 
 ## 最佳实践 {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ ht-degree: 49%
 
 >[!NOTE]
 >协调操作意味着链接维度的数据已在数据库中。  例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
->
 
 ## 配置协调活动 {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ ht-degree: 49%
 >title="保留未协调数据"
 >abstract="默认情况下，未调节的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="协调属性"
@@ -81,9 +75,9 @@ ht-degree: 49%
 
 1. 拖放 **调解** 活动添加到工作流中。 应在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后添加此活动。
 
-1. 选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。在中了解有关定位维度的更多信息 [此页面](../../audience/about-recipients.md#targeting-dimensions).
+1. 选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions).
 
-1. 选择用于删除重复项的协调字段。您可以使用一个或多个协调标准。
+1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 
    1. 要使用属性协调数据，请选择 **简单属性** 选项。 此 **来源** 字段列出了输入过渡中可用的要协调的字段。 此 **目标** 字段对应于所选定向维度的字段。 当源和目标相等时，将协调数据。 例如，选择 **电子邮件** 用于根据用户档案的电子邮件地址删除重复用户档案的字段。
 
