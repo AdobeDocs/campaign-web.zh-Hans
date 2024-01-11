@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用“等待工作流”活动
 description: 了解如何使用“等待工作流”活动
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. 指定集客过渡和叫客过渡之间等待的&#x200B;**持续时间**。
 
-1. 在&#x200B;**时间段**&#x200B;字段中选择时间单位：秒、分钟、小时。
+1. 选择时间单位 **期间** 字段：秒、分钟、小时、天。
 
 ## 示例{#wait-example}
 
