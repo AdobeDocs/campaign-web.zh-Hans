@@ -3,10 +3,10 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 badge: label="有限发布版"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 43%
+source-wordcount: '323'
+ht-degree: 35%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 43%
 >title="加载文件活动的格式设置"
 >abstract="加载文件活动的格式设置"
 
-
  **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 
 >[!NOTE]
@@ -72,10 +71,12 @@ ht-degree: 43%
 
    ![](../assets/load-file.png)
 
-1. 从可用的选项调整列设置和如何格式化数据。
+1. 使用 **列** 部分来调整每列的数据类型和宽度。
+
+1. 在 **格式化** 在列配置下的部分，指定外部文件的格式以确保正确导入数据。
 
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
 ## 示例{#load-example}
 
-外部文件加载的示例可在 **调解** 中的活动 [本节](reconciliation.md#example).
+外部文件加载示例，用于 **调解** 活动的可用位置 [本节](reconciliation.md#example).
