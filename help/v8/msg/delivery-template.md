@@ -5,11 +5,11 @@ description: 了解如何在Campaign Web中创建和使用投放模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1087'
 ht-degree: 25%
 
 ---
@@ -122,6 +122,8 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
    ![](assets/templates-convert-delivery.png)
 
+   您还可以从列表中选择模板，然后从模板版本屏幕中选择此选项。
+
 1. 确认复制。
 
 1. 新模板仪表板将在中心屏幕中打开。 根据需要编辑模板设置。
@@ -180,13 +182,11 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
    ![](assets/templates-simulate-button.png)
 
-1. 选择一个或多个测试用户档案以检查您的电子邮件渲染。 您还可以从数据库中选择真实的用户档案。
+1. 选择一个或多个测试用户档案以检查您的电子邮件渲染。 您还可以从数据库中选择真实的用户档案。 [了解有关测试用户档案的更多信息](../audience/test-profiles.md)
 
-1. 在不同用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。
+1. 在不同用户档案之间切换，以根据选定的用户档案获得消息的个性化呈现。 您还可以调整缩放级别，并选择桌面视图或移动设备视图。
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   您还可以调整缩放级别，并选择桌面视图或移动设备视图。
+[了解有关预览内容的更多信息](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 >
 >您不能在投放模板中使用电子邮件渲染或发送测试。
 
-* [了解有关预览电子邮件内容的更多信息](../preview-test/preview-content.md)
 
-* [了解有关预览短信内容的更多信息](../sms/content-sms.md)
-
-* [了解有关预览推送内容的更多信息](../push/gs-push.md)
