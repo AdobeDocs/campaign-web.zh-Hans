@@ -3,10 +3,10 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用 Campaign Web UI 准备并发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta 版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限发布版"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '892'
 ht-degree: 40%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 40%
 
 ## 暂停或停止发送 {#pause-stop-sending}
 
-无论是否计划了您的投放，都可以在发送过程中随时执行两个操作：
+是否计划您的投放<!--TBC-->，则可以在发送过程中随时执行两个操作：
 
 * 单击 **[!UICONTROL 暂停发送]** 中断消息的发送。 您可以随时恢复发送。
 
