@@ -3,11 +3,11 @@ audience: end-user
 title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="有限发布版"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 74%
+source-wordcount: '359'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 74%
 
 * 灰色图标表示信息性消息。
 * 黄色图标表示非关键处理错误。
-* 红色图标表示阻止发送投放的严重错误。必须修复严重错误才能发送投放。
+* 红色图标表示阻止发送投放的严重错误。 必须修复严重错误才能发送投放。
 
 ![](assets/logs.png)
 
