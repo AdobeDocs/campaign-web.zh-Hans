@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 19%
+source-wordcount: '748'
+ht-degree: 20%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 19%
 >title="营销活动中工作流的列表"
 >abstract="**工作流**&#x200B;选项卡列出链接到当前营销活动的所有工作流。单击工作流的名称以编辑该工作流。使用&#x200B;**创建工作流**&#x200B;按钮为此营销活动添加新工作流。"
 
-
 您可以在营销策划中创建独立的工作流或工作流。 第一步是选择模板并定义其常规属性。 然后，您可以根据需要配置其他设置。
 
 为此，请执行以下步骤：
 
-1. 创建 **独立工作流程**，浏览到 **工作流程** 菜单。
-
-   创建 **活动工作流**，浏览到 **营销活动** 菜单，然后打开要为其创建新工作流的营销策划。
+1. 创建 **独立工作流程**，浏览到 **工作流程** 菜单。 创建 **活动工作流**，浏览到 **营销活动** 菜单，然后打开要为其创建新工作流的营销策划。
 
 1. 单击 **[!UICONTROL 创建工作流]** 按钮来打开屏幕。
 
    ![](assets/workflow-create.png)
 
-1. 在工作流中 **属性** 对话框，选择用于创建工作流的模板（也可以使用默认的内置模板）。 要了解有关模板的更多信息，请参阅 [以下部分](#work-with-workflow-templates-workflow-templates).
+1. 在工作流中 **属性** 对话框，选择用于创建工作流的模板（也可以使用默认的内置模板）。 [了解有关工作流模板的更多信息](#workflow-templates).
 
 1. 输入工作流的标签。 此外，我们强烈建议您在 **[!UICONTROL 其他选项]** 部分。
 
@@ -48,7 +45,7 @@ ht-degree: 19%
 
 1. 单击 **[!UICONTROL 创建工作流]** 按钮以确认创建工作流。
 
-您的工作流现已创建并可在工作流列表中使用。 您现在可以访问其可视画布并开始添加、配置和编排其将执行的任务。 了解如何在中编排工作流活动 [此页面](orchestrate-activities.md).
+您的工作流现已创建并可在工作流列表中使用。 您现在可以访问其可视画布并开始添加、配置和编排其将执行的任务。 [了解如何编排工作流活动](orchestrate-activities.md).
 
 ## 使用工作流模板 {#workflow-templates}
 

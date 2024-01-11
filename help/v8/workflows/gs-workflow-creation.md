@@ -2,15 +2,14 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="有限发布版"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 99%
 
 ---
-
 
 # 创建工作流的主要原则 {#gs-workflow-creation}
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 工作流图表示应该发生什么。它描述要执行的各种任务及其如何链接在一起。
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 每个工作流包含：
 
@@ -57,4 +56,3 @@ ht-degree: 100%
 1. [编排和配置活动](orchestrate-activities.md)
 1. [配置工作流高级设置](workflow-settings.md)
 1. [启动工作流并监控其执行情况](start-monitor-workflows.md)
-
