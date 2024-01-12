@@ -3,7 +3,7 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign v8 Web 用户界面
 badge: label="有限发布版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 81%
@@ -91,7 +91,7 @@ Campaign v8 Web 目前提供以下语言版本：
 
 >[!CAUTION]
 >
->如果您计划使用AI支持的上下文帮助功能，则必须将首选语言设置为英语。 不支持其他语言。
+>如果您计划使用 [AI支持的上下文帮助](using-ai.md) 功能时，必须将首选语言设置为英语。 不支持其他语言。
 >
 
 
