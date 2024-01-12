@@ -3,14 +3,14 @@ title: 在Campaign Web中使用AI支持的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 52%
+source-wordcount: '465'
+ht-degree: 49%
 
 ---
 
-# 使用AI支持的上下文帮助 {#using-ai}
+# AI支持的上下文帮助 {#using-ai}
 
 通过产品上下文帮助框中提供的问答AI支持的上下文帮助，根据产品文档和当前产品上下文快速获取AI生成的答案。
 
@@ -18,7 +18,7 @@ ht-degree: 52%
 >
 >仅在 Alpha 版本中提供此功能，如有更改，恕不另行通知。
 >
->此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。
+>此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。 因此，请确保 [您首选的语言](connect-to-campaign.md#language-pref) 在使用此功能之前，请将其设置为“英语”。
 
 
 此 **Gen AI的上下文帮助** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。

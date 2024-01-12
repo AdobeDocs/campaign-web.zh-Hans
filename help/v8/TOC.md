@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 20f8d2b31a3d2ebb8b4fee7a169fedc17ad1c9db
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
    + [访问和权限](get-started/permissions.md)
    + [护栏和限制](get-started/guardrails.md)
    + [不支持的功能](get-started/unsupported.md)
-   + [寻求帮助和指导](get-started/using-ai.md)
+   + [AI支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放 {#msg}
    + [开始使用消息](msg/gs-messages.md)
    + [使用投放](msg/gs-deliveries.md)
