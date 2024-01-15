@@ -4,10 +4,10 @@ title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta 版"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 60%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 60%
 
 * **属性**：此选项卡可让您访问架构中的所有可用字段。字段列表取决于电子邮件模板中定义的定位架构。
 
-* **受众**：利用此选项卡，可使用在“Campaign Classic”控制台中或从Adobe Experience Platform中定义的某个现有受众进行过滤。 [了解如何监测和管理受众](manage-audience.md)
+* **受众**：利用此选项卡，可使用在“Campaign Classic”控制台中或从Adobe Experience Platform中定义的某个现有受众进行过滤。 了解如何在中监控和管理受众 [本节](manage-audience.md)
 
   >[!NOTE]
   >

@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 85%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
    + [开始使用](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
    + [探索界面](get-started/user-interface.md)
-   + [浏览、搜索和过滤列表](get-started/list-filters.md)
+   + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
    + [护栏和限制](get-started/guardrails.md)
@@ -70,7 +70,7 @@ ht-degree: 85%
       + [开始使用推送通知](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
       + [设计推送投放](push/content-push.md)
-      + [预览并发送推送通知投放](push/send-push.md)
+      + [预览和发送推送投放](push/send-push.md)
    + 短信 {#sms}
       + [开始使用短信投放](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 85%
    + 将内容设置为动态内容 {#dynamic-content}
       + [开始使用动态内容](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
-      + [添加条件内容](personalization/conditions.md)
+      + [构建条件内容](personalization/conditions.md)
       + [添加内置内容块](personalization/content-blocks.md)
    + [将优惠添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
@@ -87,23 +87,23 @@ ht-degree: 85%
       + [关于预览和测试](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
       + [发送测试投放](preview-test/test-deliveries.md)
-      + [渲染电子邮件](preview-test/email-rendering.md)
-+ 用户档案和受众{#audiences}
-   + [用户档案和受众入门](audience/gs-audiences-recipients.md)
+      + [测试电子邮件渲染](preview-test/email-rendering.md)
++ 用户档案和受众 {#audiences}
+   + [用户档案和受众快速入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
    + 使用用户档案 {#work-with-profiles}
-      + [监测与管理配置文件](audience/about-recipients.md)
-      + [创建和管理测试用户档案](audience/test-profiles.md)
+      + [监控和管理用户档案](audience/about-recipients.md)
+      + [创建和管理测试配置文件](audience/test-profiles.md)
    + 使用受众 {#audiences}
       + [创建受众](audience/create-audience.md)
       + [监控和管理受众](audience/manage-audience.md)
    + 选择您的投放收件人 {#target-audiences}
       + [选择现有受众](audience/add-audience.md)
       + [生成一次性受众](audience/one-time-audience.md)
-      + [从文件加载受众](audience/file-audience.md)
+      + [从文件加载电子邮件受众](audience/file-audience.md)
       + [设置对照组](audience/control-group.md)
    + 使用订阅服务 {#work-with-services}
-      + [管理服务](audience/manage-services.md)
+      + [创建和管理订阅服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)
 + 跨渠道营销活动 {#campaigns}
    + [开始使用营销活动](campaigns/gs-campaigns.md)
@@ -145,12 +145,12 @@ ht-degree: 85%
    + [导出报告](reporting/export-reports.md)
    + [关键绩效指标](reporting/kpis.md)
    + 投放报告 {#delivery-report}
-      + [投放报告入门](reporting/delivery-reports.md)
+      + [开始使用投放报告](reporting/delivery-reports.md)
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
    + 营销活动报表 {#campaign-report}
-      + [Campaign报告入门](reporting/campaign-reports.md)
+      + [开始使用营销活动报告](reporting/campaign-reports.md)
       + [通过电子邮件发送营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)
