@@ -4,14 +4,14 @@ title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 badge: label="有限发布版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1533'
 ht-degree: 39%
 
 ---
 
-# 设计推送消息投放 {#content-push}
+# 设计推送投放 {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

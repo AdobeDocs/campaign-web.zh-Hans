@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 badge: label="有限发布版"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 6%

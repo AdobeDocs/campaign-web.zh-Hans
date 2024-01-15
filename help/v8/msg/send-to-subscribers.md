@@ -4,14 +4,14 @@ title: 向服务的订阅者发送消息
 description: 了解如何向服务的订阅者发送消息
 badge: label="Beta 版"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 向服务的订阅者发送消息
+# 向服务的订阅者发送消息 {#send-to-subscribers}
 
 您可以在Adobe Campaign中创建订阅服务，并向订阅者发送消息。 了解如何在中创建订阅服务 [此页面](../audience//manage-services.md#create-service).
 

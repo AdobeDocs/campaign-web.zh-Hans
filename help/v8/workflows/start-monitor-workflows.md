@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 badge: label="有限发布版"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---

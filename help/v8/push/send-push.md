@@ -4,14 +4,14 @@ title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 badge: label="有限发布版"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
-# 预览并发送推送通知投放 {#send-push-delivery}
+# 预览和发送推送投放 {#send-push-delivery}
 
 ## 预览推送通知投放 {#preview-push}
 

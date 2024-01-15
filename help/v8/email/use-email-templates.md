@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: 使用电子邮件模板
-description: 了解如何在Adobe Campaign中使用电子邮件模板
+title: 使用电子邮件内容模板
+description: 了解如何在Adobe Campaign中使用电子邮件内容模板
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 11%
 
 ---
 
-# 使用电子邮件模板 {#use-email-templates}
+# 使用电子邮件内容模板 {#use-email-templates}
 
 时间 [创建电子邮件](../email/create-email.md)，使用 **[!UICONTROL 选择设计模板]** 的部分 **[!UICONTROL 创建电子邮件]** 界面，以开始从模板构建内容。
 

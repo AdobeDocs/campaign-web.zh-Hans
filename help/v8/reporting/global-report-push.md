@@ -3,7 +3,7 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 badge: label="有限发布版"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 4%

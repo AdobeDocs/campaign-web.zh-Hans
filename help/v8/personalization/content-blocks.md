@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta 版"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 60%
+source-wordcount: '429'
+ht-degree: 61%
 
 ---
 
-# 内置内容块 {#ootb-content-blocks}
+# 添加内置内容块 {#ootb-content-blocks}
 
 Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动态的、个性化的，并且具有特定的呈现方式，您可以将其插入到投放中。 例如，您可以添加徽标、问候语消息或指向镜像页面的链接。
 

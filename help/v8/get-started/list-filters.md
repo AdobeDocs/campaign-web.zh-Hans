@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 浏览、搜索和过滤列表
+title: 浏览和筛选列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 badge: label="可用性有限"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 78%
 
 ---
 
-# 浏览、搜索和过滤列表 {#list-screens}
+# 浏览和筛选列表 {#list-screens}
 
 左侧导航菜单中的大多数链接显示对象列表，例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**&#x200B;的列表。其中一些列表屏幕为只读状态。您可以自定义列表显示，并过滤这些列表，如下详述。
 

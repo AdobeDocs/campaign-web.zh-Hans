@@ -4,14 +4,14 @@ title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 badge: label="Beta 版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 17%
+source-wordcount: '761'
+ht-degree: 16%
 
 ---
 
-# 使用订阅服务 {#manage-services}
+# 创建和管理订阅服务 {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

@@ -4,14 +4,14 @@ title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
 badge: label="Beta 版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 28%
+source-wordcount: '227'
+ht-degree: 30%
 
 ---
 
-# 为投放构建一次性受众 {#sone-time}
+# 生成一次性受众 {#one-time}
 
 本节介绍如何在创建新投放时构建受众。 在本例中，使用查询建模器查询数据库来定位投放受众中要包含的收件人。
 

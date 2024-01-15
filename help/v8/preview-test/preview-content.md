@@ -4,15 +4,15 @@ title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 
-# 预览投放内容 {#preview-content}
+# 预览消息内容 {#preview-content}
 
 使用 [!DNL Campaign] 内容模拟功能，可在发送消息之前预览消息内容。 这允许您控制个性化并检查向收件人显示的方式。
 
