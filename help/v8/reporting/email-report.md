@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -286,10 +286,10 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="此 **前10个访问次数最多的链接** 图形和表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的收件人行为的可用数据。"
 
 
-此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。
+**[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图表包含每个链接的收件人行为的可用数据。
 
 ![](assets/reporting_email_8.png){align="center"}
 

@@ -47,7 +47,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="初始目标受众统计数据"
->abstract="初始目标受众统计信息表显示与收件人相关的数据。"
+>abstract="初始目标受众统计数据表显示有关您的接收者的数据。"
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
