@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 66%
+source-wordcount: '1368'
+ht-degree: 67%
 
 ---
 
@@ -15,9 +15,17 @@ ht-degree: 66%
 # 新增功能 {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="发行说明"
+>abstract="我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动、促成优异的成果并使您在所有渠道上都具有竞争优势。"
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="发行说明"
 >abstract="我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动、促成优异的成果并使您在所有渠道上都具有竞争优势。"
+
+<!--TO REMOVE ABOVE-->
 
 
 我们很高兴地介绍新版本的Adobe Campaign Web用户界面。 我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动、促成优异的成果并使您在所有渠道上都具有竞争优势。

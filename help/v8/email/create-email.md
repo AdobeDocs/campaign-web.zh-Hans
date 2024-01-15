@@ -4,20 +4,31 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用 Campaign Web UI 发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="有限发布版"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 67%
+source-wordcount: '1351'
+ht-degree: 71%
 
 ---
 
 
-# 发送您的第一封电子邮件 {#first-email}
+# 创建您的第一封电子邮件 {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card3"
+>title="开始使用电子邮件"
+>abstract="可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。了解如何创建投放、选择受众和设计电子邮件内容。"
+
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="开始使用电子邮件"
 >abstract="可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。了解如何创建投放、选择受众和设计电子邮件内容。"
+
+<!--TO REMOVE ABOVE-->
+
+
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
@@ -73,7 +84,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="为投放选择受众"
->abstract="选择最适合营销消息的最佳受众。您可以选择现有受众(已在Campaign v8实例中或从Adobe Experience Platform中定义)，使用查询建模器创建新受众，或上传包含受众的文件。 没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
+>abstract="选择最适合营销消息的最佳受众。可选择现有受众（已在 Campaign v8 实例中或从 Adobe Experience Platform 定义）、使用查询建模器创建新受众或上传包含您的受众的文件。没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="选择主要受众"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
 

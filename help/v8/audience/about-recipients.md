@@ -1,21 +1,31 @@
 ---
-title: 监测与管理配置文件
+title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 43%
+source-wordcount: '943'
+ht-degree: 44%
 
 ---
 
-# 监控和编辑配置文件 {#profiles}
+# 监控和管理用户档案 {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="全面查看配置文件"
+>abstract="创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="全面查看配置文件"
 >abstract="创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -50,7 +60,7 @@ Adobe Campaign Web中的用户档案是存储在数据库中的个人，它充�
 
 从 **[!UICONTROL 资源管理器]** 视图您还可以筛选、删除和 [编辑](#access) 配置文件。
 
-## 访问和编辑配置文件的属性 {#access}
+## 访问和编辑用户档案的属性 {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"

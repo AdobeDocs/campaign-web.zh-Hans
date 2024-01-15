@@ -4,19 +4,85 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
 # Adobe Campaign v8 Web 文档 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="帮助和文档"
+>abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="体验全新 Adobe Campaign 用户界面"
+>abstract="更加现代化、直观和充满活力。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="项目1"
+>abstract="新的电子邮件、SMS 和推送通知设计体验"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="项目2"
+>abstract="简化的工作流画布界面"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="项目3"
+>abstract="思路重新调整的受众、订阅和服务、AEM Assets 的用户体验"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="项目4"
+>abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="帮助和文档"
 >abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="体验全新 Adobe Campaign 用户界面"
+>abstract="更加现代化、直观和充满活力。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="项目1"
+>abstract="新的电子邮件、SMS 和推送通知设计体验"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="项目2"
+>abstract="简化的工作流画布界面"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="项目3"
+>abstract="思路重新调整的受众、订阅和服务、AEM Assets 的用户体验"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="项目4"
+>abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 

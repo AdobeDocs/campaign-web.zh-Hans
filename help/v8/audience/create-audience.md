@@ -4,10 +4,10 @@ title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta 版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '678'
+ht-degree: 29%
 
 ---
 
@@ -16,10 +16,21 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="受众组合"
 >abstract="在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage__rn1"
+>title="受众组合"
+>abstract="在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
+<!--TO REMOVE ABOVE-->
+
 
 
 >[!CONTEXTUALHELP]
@@ -68,7 +79,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 1. 工作流准备就绪后，单击 **[!UICONTROL 开始]** 执行它。
 
-工作流将保存在中 **[!UICONTROL 工作流]** 列表，而生成的受众可在中访问 **[!UICONTROL 受众]** 列表。 [了解如何监测和管理受众](manage-audience.md)
+工作流将保存在中 **[!UICONTROL 工作流]** 列表，而生成的受众可在中访问 **[!UICONTROL 受众]** 列表。 了解如何监控和管理受众 [本节](manage-audience.md)
 
 您现在可以使用此受众作为投放的主要目标。 [了解详情](add-audience.md)
 
