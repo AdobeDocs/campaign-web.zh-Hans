@@ -4,9 +4,9 @@ title: 开始使用 Campaign v8 Web
 description: 开始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
-source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
+source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="开始使用"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
 >title="开始使用"
 >abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
