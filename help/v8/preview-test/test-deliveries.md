@@ -4,9 +4,9 @@ title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="有限发布版"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 13%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 1. 如果您已经选择用户档案到 [预览消息](preview-content.md) 在内容模拟屏幕中，会预选这些用户档案作为测试收件人。 您可以清除所做的选择和/或使用 **[!UICONTROL 添加测试配置文件]** 按钮。
 
-1. 在浏览测试配置文件列表时，您可以使用过滤器来优化搜索。
+1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
 
    ![](assets/simulate-test-profile-filter.png)
 

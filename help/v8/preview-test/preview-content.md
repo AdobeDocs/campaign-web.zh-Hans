@@ -4,9 +4,9 @@ title: 预览投放内容
 description: 了解如何使用Campaign Web UI预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限发布版"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ ht-degree: 2%
      >[!NOTE]
      >
      >您还可以从Campaign Web UI中的相应选项卡查看和管理用户档案。 [了解详情](../audience/about-recipients.md)
+
+1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
 
 1. 单击 **[!UICONTROL 选择]** 以确认您的选择。
 
