@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
-badge: label="Beta"
+badge: label="Beta 版"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 86%
+source-wordcount: '912'
+ht-degree: 84%
 
 ---
 
@@ -60,7 +60,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="交集协调选项"
+>title="交叉协调选项"
 >abstract="选择协调类型以定义如何处理重复项。"
 
 >[!CONTEXTUALHELP]
@@ -78,7 +78,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在 **合并** 活动，您可以配置 **交叉**. 为此，您需要执行以下额外步骤：
 
 1. 选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。请参阅[并集](#union)部分。
-1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。补集将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
+1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。补充将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
 
 ## 差集 {#combine-exclusion}
 
@@ -97,7 +97,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="差集规则"
 >abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="合并生成补充"
+>abstract="切换生成补码选项，以处理附加过渡中的剩余群体。"
 
 在 **合并** 活动，您可以配置 **排除项**. 为此，您需要执行以下额外步骤：
 

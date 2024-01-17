@@ -3,10 +3,10 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 badge: label="有限发布版"
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 37%
 
 此 **调解** 活动是 **定位** 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 
-例如，可以将&#x200B;**协调**&#x200B;活动放置在&#x200B;**加载受众**&#x200B;活动之后，以便将非标准数据导入到数据库。在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
+例如， **调解** 活动可放置在 **加载文件** 活动将非标准数据导入数据库。 在本例中， **调解** 利用活动，可定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接。
 
 ## 最佳实践 {#reconciliation-best-practices}
 

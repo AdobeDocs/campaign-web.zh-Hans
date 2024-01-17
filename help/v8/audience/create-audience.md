@@ -4,7 +4,7 @@ title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 badge: label="Beta 版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 29%
@@ -12,8 +12,6 @@ ht-degree: 29%
 ---
 
 # 创建受众 {#create-audiences}
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -25,13 +23,11 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="受众组合"
+>title="受众构成"
 >abstract="在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 <!--TO REMOVE ABOVE-->
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

@@ -4,10 +4,10 @@ title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 badge: label="有限发布版"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 89%
+source-wordcount: '777'
+ht-degree: 83%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 89%
 ## 配置“拆分”活动 {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="拆分活动的区段"
+>abstract="根据需要添加任意数量的子集以划分传入群体。<br/></br>当 **Split** 在执行活动时，将按照将群体添加到活动的顺序跨不同的子集进行分段。 在启动工作流之前，请确保已使用箭头按钮按适合您的需要的顺序对子集排序。"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动过滤器"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
@@ -31,7 +36,6 @@ ht-degree: 89%
 >id="acw_orchestration_split_limit"
 >title="“拆分”活动限制"
 >abstract="要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

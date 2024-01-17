@@ -4,14 +4,24 @@ title: 监控和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta 版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 14%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 监控和管理受众 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="属性"
+>abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。 单击以下位置中的链接： **上一个工作流** 部分，用于打开用于创建受众的工作流。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="受众规模"
+>abstract="您可以在此处找到受众中的配置文件总数。 单击“计算”按钮以更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

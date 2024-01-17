@@ -2,10 +2,10 @@
 title: 监控和管理用户档案
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="用户档案"
->abstract="配置文件是单个对象，旨在接收 Adobe Campaign 发送的消息。从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
+>abstract="用户档案是接收Adobe Campaign发送消息的目标个人。 从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
 
 ## 开始使用用户档案 {#gs}
 

@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1452'
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+workflow-type: tm+mt
+source-wordcount: '1430'
 ht-degree: 100%
 
 ---
@@ -300,15 +300,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="片段详情"
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="合并生成补充"
->abstract="合并生成补充"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="拆分活动的区段"
->abstract="拆分活动的区段"
 
 
 
@@ -335,16 +326,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="受众属性"
->abstract="受众属性"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="受众人数"
->abstract="受众人数"
 
 
 >[!CONTEXTUALHELP]
