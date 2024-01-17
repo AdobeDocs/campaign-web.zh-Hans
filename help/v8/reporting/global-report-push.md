@@ -23,7 +23,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推送投放概述"
->abstract="推送&#x200B;**投放概述** KPI 对推送投放进行彻底检查，并提供详细的见解和具体数据。它提供了有关投放的绩效、有效性和结果的全面详细信息。"
+>abstract="推送&#x200B;**投放概述** KPI 彻底考察您的推送投放，并提供详细见解和具体数据。它提供有关投放的效果、有效性和成果的全面详细信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="推送目标群体"
->abstract="**目标群体**&#x200B;图表显示与推送消息受众相关的数据，并提供有关要投放的消息和排除项的信息。"
+>abstract="**目标群体**&#x200B;图和表展示与您的推送消息受众相关的数据，并展示有关要投放的消息和排除项的信息。"
 
 此 **[!UICONTROL 目标受众]** 表格和图形可显示与每个已发送推送通知投放的收件人相关的数据。 指标详见下文。
 
@@ -67,7 +67,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
 >title="推送投放统计信息"
->abstract="**总体统计信息**&#x200B;报告提供了有关已发送推送通知的信息，包括成功率、错误次数和隔离次数。"
+>abstract="**总体统计信息**&#x200B;报告提供有关发送的推送通知的信息，包括成功率、错误次数和隔离次数。"
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次推送通知投放的成功情况。 指标详见下文。
 
@@ -92,7 +92,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
 >title="推送排除原因"
->abstract="**排除原因**&#x200B;图表说明了阻止用户配置文件接收推送通知的多种原因。"
+>abstract="**排除原因**&#x200B;图和表说明阻止用户配置文件接收推送通知的各种原因。"
 
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。
 
@@ -103,7 +103,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="投放吞吐量报告"
->abstract="**投放吞吐量**&#x200B;报告提供了有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
+>abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
 
 ![](assets/global_report_push_delivery_throughput.png)
 

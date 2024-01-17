@@ -64,12 +64,12 @@ ht-degree: 45%
 +++
 
 
-### 整体统计数据 {#sms-delivery-overall}
+### 整体统计信息 {#sms-delivery-overall}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="短信整体统计数据"
->abstract="**整体统计数据**&#x200B;报告显示已发送的短信的数据：成功次数、错误次数和隔离次数。"
+>title="短信整体统计信息"
+>abstract="**整体统计信息**&#x200B;报告显示已发送的短信的数据：成功次数、错误次数和隔离次数。"
 
 此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
 
@@ -100,7 +100,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="短信投放吞吐量"
->abstract="**投放吞吐量**&#x200B;报告提供了有关指定时间范围内的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。"
+>abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。"
 
 此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 

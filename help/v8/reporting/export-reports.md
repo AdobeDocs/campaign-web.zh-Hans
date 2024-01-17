@@ -16,7 +16,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="导出您的报告"
->abstract="单击&#x200B;**导出**&#x200B;按钮，将这些量度导出为 PDF 或 CSV 格式以便共享或打印。"
+>abstract="单击&#x200B;**导出**&#x200B;按钮以将这些量度导出为 PDF 或 CSV 格式，这样即可共享或打印它们。"
 
 您可以轻松地将其他报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。
 

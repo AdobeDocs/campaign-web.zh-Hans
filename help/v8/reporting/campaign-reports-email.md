@@ -42,12 +42,12 @@ ht-degree: 21%
 
 +++
 
-### 初始目标受众统计数据 {#delivery-summary-email-initial-target}
+### 初始目标受众统计信息 {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="初始目标受众统计数据"
->abstract="初始目标受众统计数据表显示有关您的接收者的数据。"
+>title="初始目标受众统计信息"
+>abstract="初始目标受众统计信息表显示有关您的收件人的数据。"
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
@@ -63,12 +63,12 @@ ht-degree: 21%
 
 +++
 
-### 执行统计数据 {#delivery-summary-email-exec-stats}
+### 执行统计信息 {#delivery-summary-email-exec-stats}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
->title="执行统计数据"
->abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
+>title="执行统计信息"
+>abstract="**执行统计信息**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
@@ -88,12 +88,12 @@ ht-degree: 21%
 
 +++
 
-### 反应统计数据 {#delivery-summary-email-reaction-stats}
+### 反应统计信息 {#delivery-summary-email-reaction-stats}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
->title="反应统计数据"
->abstract="**反应统计数据**&#x200B;表显示投放的接收者活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
+>title="反应统计信息"
+>abstract="**反应统计信息**&#x200B;表显示投放的接收者活动的可用数据：打开次数、订阅数、退订数、镜像页面链接点击次数。"
 
 此 **[!UICONTROL 反应统计信息]** 表包含投放的收件人活动的可用数据。 指标详见下文。
 
@@ -270,12 +270,12 @@ ht-degree: 21%
 
 +++
 
-### 随时间推移的点击次数细分 {#campaign-report-email-breakdown-clicks}
+### 点击次数随时间变化的细分 {#campaign-report-email-breakdown-clicks}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
->title="随时间推移的点击次数细分"
->abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
+>title="点击次数随时间变化的细分"
+>abstract="**点击次数随时间变化的细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 

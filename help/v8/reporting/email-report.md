@@ -113,12 +113,12 @@ ht-degree: 39%
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
 
-## 广播统计数据 {#broadcast-statistics}
+## 广播统计信息 {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="广播统计数据"
->abstract="**广播统计数据**&#x200B;报告包含每个域可能遇到的错误的可用数据。"
+>title="广播统计信息"
+>abstract="**广播统计信息**&#x200B;报告包含每个域可能遇到的错误的可用数据。"
 
 此 **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。 指标详见下文。
 
@@ -286,10 +286,10 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="访问量排名前 10 的链接"
->abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的收件人行为的可用数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;图和表包含每个链接的收件人行为的可用数据。"
 
 
-**[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图表包含每个链接的收件人行为的可用数据。
+**[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图和表包含每个链接的收件人行为的可用数据。
 
 ![](assets/reporting_email_8.png){align="center"}
 
@@ -301,13 +301,13 @@ ht-degree: 39%
 
 +++
 
-### 随时间推移的点击次数细分 {#email-tracking-breakdown-over-time}
+### 点击次数随时间变化的细分 {#email-tracking-breakdown-over-time}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
->title="随时间推移的点击次数细分"
->abstract="**随时间推移的点击次数细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
+>title="点击次数随时间变化的细分"
+>abstract="**点击次数随时间变化的细分**&#x200B;图表显示每个链接的接收者行为的可用数据。"
 
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
@@ -333,14 +333,14 @@ ht-degree: 39%
 
 +++
 
-## 跟踪统计数据 {#tracking-statistics}
+## 跟踪统计信息 {#tracking-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="跟踪统计数据"
->abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。"
+>title="跟踪统计信息"
+>abstract="**跟踪统计信息**&#x200B;图提供有关打开次数和点击次数的统计信息。可选择特定的时间范围以定位数据。"
 
-**[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计数据。可选择特定的时间范围以定位数据。
+**[!UICONTROL 跟踪统计信息]**&#x200B;图提供有关打开次数和点击次数的统计信息。可选择特定的时间范围以定位数据。
 
 ![](assets/reporting_email_11.png){align="center"}
 
@@ -373,7 +373,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
->abstract="**按操作系统细分**&#x200B;报告显示相关时段的按操作系统细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种操作系统的确切数量和百分比。"
+>abstract="**按操作系统细分**&#x200B;报告显示相关时段的按操作系统细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。第二个图表显示每种操作系统的确切数量和百分比。"
 
 此 **按操作系统细分** 报表显示期间按操作系统打开的细目：Windows系统、Android系统、iOS系统或其他。
 
@@ -386,7 +386,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="**按浏览器细分**&#x200B;显示相关时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计数据。第二个图表显示每种浏览器的确切数量和百分比。"
+>abstract="**按浏览器细分**&#x200B;显示相关时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。第二个图表显示每种浏览器的确切数量和百分比。"
 
 此 **按浏览器细分** 报表显示通过浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 

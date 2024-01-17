@@ -23,7 +23,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="短信投放概述"
->abstract="**短信投放概述** KPI 提供了短信投放的全面摘要，其中提供了详细的见解和具体数据。它提供了有关投放的效果、有效性和结果的全面信息。"
+>abstract="**短信投放概述** KPI 提供您的短信投放的全面摘要，并提供详细见解和具体数据。它提供有关您的投放的效果、有效性和成果的全面信息。"
 
 此 **[!UICONTROL 投放概述]** 报告提供全面的关键绩效指标(KPI)，可深入分析访客与每个短信投放的交互模式。 以下列出了以下量度。
 
@@ -46,7 +46,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="短信目标群体"
->abstract="**目标群体**&#x200B;图表显示与您的短信受众相关的数据，包括有关要投放的消息和排除项的信息。"
+>abstract="**目标群体**&#x200B;图和表展示与您的短信受众相关的数据，包括有关要投放的消息和排除项的信息。"
 
 此 **[!UICONTROL 目标受众]** 表格和图形可显示每个已发送短信投放的与收件人相关的数据。 指标详见下文。
 
@@ -67,7 +67,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="短信投放统计信息"
->abstract="**投放统计信息**&#x200B;报告提供了对已发送短信的全面见解，其中包含各种指标的细分，例如成功率、错误发生率和被隔离的受众。可根据此详细演示，全面检查短信投放过程的整体绩效和结果。"
+>abstract="通过&#x200B;**投放统计信息**&#x200B;报告可全面了解发送的短信，其中细分各种指标，如成功率、错误发生率和被隔离的受众。通过此详细演示可全面地检查短信投放过程的整体效果和成果。"
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次短信投放的成功情况。 指标详见下文。
 
@@ -92,7 +92,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
 >title="短信排除原因"
->abstract="**排除原因**&#x200B;图表说明了阻止用户配置文件接收短信消息的多种原因。"
+>abstract="**排除原因**&#x200B;图和表说明阻止用户配置文件接收短信的各种原因。"
 
 此 **[!UICONTROL 排除的原因]** 图和表显示了阻止从定向用户档案中排除的用户用户档案接收短信投放的原因。
 
@@ -105,7 +105,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
 >title="短信投放吞吐量"
->abstract="**投放吞吐量**&#x200B;报告提供了有关短信消息投放系统效率的广泛见解，详细概述了指定时间范围内的成功率和错误率。"
+>abstract="通过&#x200B;**投放吞吐量**&#x200B;报告可广泛了解短信投放系统的效率，并详细概述指定时间范围内的成功率和错误率。"
 
 ![](assets/global_report_sms_delivery_throughput.png)
 

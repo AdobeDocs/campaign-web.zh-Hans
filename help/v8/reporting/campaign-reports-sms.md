@@ -40,12 +40,12 @@ ht-degree: 19%
 +++
 
 
-### 初始目标受众统计数据 {#delivery-summary-sms-initial-target}
+### 初始目标受众统计信息 {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
->title="初始目标受众统计数据"
->abstract="**初始目标受众统计数据**&#x200B;表显示有关您的接收者的数据"
+>title="初始目标受众统计信息"
+>abstract="**初始目标受众统计信息**&#x200B;表显示有关您的收件人的数据"
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
@@ -63,13 +63,13 @@ ht-degree: 19%
 +++
 
 
-### 执行统计数据 {#delivery-summary-sms-exec-stats}
+### 执行统计信息 {#delivery-summary-sms-exec-stats}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
->title="执行统计数据"
->abstract="**执行统计数据**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
+>title="执行统计信息"
+>abstract="**执行统计信息**&#x200B;表详述投放是否成功：要投放的消息数、成功数、错误数和新隔离数。"
 
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。

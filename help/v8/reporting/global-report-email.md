@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="投放概述"
->abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，以便深入了解您的受众如何与您发送的电子邮件投放和营销活动进行互动。"
+>abstract="**投放概述**&#x200B;展示便于深入了解您的受众如何与您发送的电子邮件投放和营销活动互动的关键绩效指标 (KPI)。"
 
 此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些指标概述如下。
 
@@ -48,8 +48,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
->title="初始目标受众统计数据"
->abstract="**目标受众**&#x200B;表和图表提供了有关收件人参与情况的见解，帮助您评估营销活动和投放的有效性。"
+>title="初始目标受众统计信息"
+>abstract="通过&#x200B;**目标受众**&#x200B;表和图可了解收件人参与情况，帮助您评估营销活动和投放的有效性。"
 
 表和图表 **[!UICONTROL 目标受众]** 显示与收件人相关的数据，并提供以下详细量度。
 
@@ -70,7 +70,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
 >title="投放统计信息"
->abstract="**投放统计信息**&#x200B;图表概述了关键指标，包括成功投放、错误和新隔离，提供了简明概述以评估投放绩效。"
+>abstract="**投放统计信息**&#x200B;图和表概述关键指标，包括成功投放次数、错误数和新隔离数，提供简明概述以评估投放效果。"
 
 此 **[!UICONTROL 投放统计信息]** 该表提供了每个电子邮件投放成功的明细，详见下面列出的指标。
 
@@ -93,7 +93,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
 >title="排除原因"
->abstract="**排除原因**&#x200B;图表说明了投放准备期间邮件被拒绝的具体原因，并按规则提供了详细细分。"
+>abstract="**排除原因**&#x200B;图和表说明在准备投放期间邮件被拒的具体原因，并提供详细的按规则细分。"
 
 ![](assets/global_report_email_exclusions.png){align="center"}
 
@@ -106,7 +106,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
 >title="投放吞吐量"
->abstract="此&#x200B;**投放吞吐量**&#x200B;提供了对投放吞吐量的全面洞察，突出显示了指定时间范围内的成功率和错误率。"
+>abstract="通过此&#x200B;**投放吞吐量**&#x200B;可全面了解投放吞吐量，其中强调指定时间范围内的成功率和错误率。"
 
 ![](assets/global_report_email_delivery_throughput.png){align="center"}
 
@@ -127,7 +127,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_type_email"
 >title="按类型细分错误"
->abstract="详述了&#x200B;**按类型细分错误**&#x200B;的表和图表包含有关此过程中遇到的各种错误类型的信息，包括用户未知、邮箱已满、域无效等。"
+>abstract="详述&#x200B;**按类型细分错误**&#x200B;的表和图包含有关在此过程中遇到的各种错误类型的信息，包括用户未知、邮箱已满、域无效等。"
 
 ![](assets/global_report_email_breakdown_type.png){align="center"}
 
@@ -158,7 +158,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_domain_email"
 >title="按域细分错误"
->abstract="说明&#x200B;**按域细分错误**&#x200B;的表和图表显示了与遇到的每种错误类型对应的数据，并按特定域对这些数据进行了分类。"
+>abstract="说明&#x200B;**按域细分错误**&#x200B;的表和图展示与每种遇到的错误类型对应的数据，并按特定域分类。"
 
 ![](assets/global_report_email_breakdown_domain.png){align="center"}
 
@@ -171,7 +171,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="投放统计信息"
->abstract="**投放统计信息**&#x200B;关键绩效指标 (KPI) 全面概述了您的投放和营销活动绩效，其中包含有关成功投放次数、遇到的错误数和用户参与的见解。"
+>abstract="**投放统计信息**&#x200B;关键绩效指标 (KPI) 全面概述您的投放和营销活动效果，其中可了解成功投放次数、遇到的错误数和用户参与情况。"
 
 此 **[!UICONTROL 投放统计信息]** 量度提供关键绩效指标(KPI)，用于提供有关与每个电子邮件投放关联的数据的详细信息。 有关这些指标的更多详细信息如下。
 
@@ -199,7 +199,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
 >title="打开和点进率"
->abstract="**打开和点进率**&#x200B;表显示了收件人参与您的投放的情况，展示了打开率和点进率数据，以便快速、深入地了解概况。"
+>abstract="**打开和点进率**&#x200B;的表揭示收件人与您的投放的互动情况，并展示打开率和点进率数据，从而快速深入地了解概况。"
 
 此 **[!UICONTROL 打开率和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
@@ -225,7 +225,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_clickstreams_email"
 >title="URL 和点击流"
->abstract="**URL 和点击流**&#x200B;报告提供了重要的关键绩效指标 (KPI)，以便详细了解投放期间点击次数最多的 URL。"
+>abstract="**URL 和点击流**&#x200B;报告提供便于详细了解在投放期间点击次数最多的 URL 的重要关键绩效指标 (KPI)。"
 
 此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，用于详细分析投放期间获得最多点击次数的URL。 指标详见下文。
 
@@ -247,7 +247,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="访问量排名前 10 的链接"
->abstract="**访问量排名前 10 的链接**&#x200B;图表显示了有关收件人与每个链接的互动情况的全面数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;的图和表展示有关收件人与每个链接的互动情况的全面数据。"
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
@@ -261,12 +261,12 @@ ht-degree: 25%
 
 +++
 
-### 随时间推移的点击次数细分 {#global-report-email-breakdown-clicks}
+### 点击次数随时间变化的细分 {#global-report-email-breakdown-clicks}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_click_breakdown_email"
->title="随时间推移的点击次数细分"
->abstract="**随时间推移的点击次数细分**&#x200B;图表提供了收件人在指定时间范围内与链接的互动情况的全面见解。"
+>title="点击次数随时间变化的细分"
+>abstract="通过&#x200B;**点击次数随时间变化的细分**&#x200B;图可全面了解收件人在指定时间范围内如何与链接互动。"
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 
@@ -277,7 +277,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_user_activities_email"
 >title="用户活动"
->abstract="**用户活动**&#x200B;的图形表示提供了收件人互动情况的详细细分，通过信息图表格式描绘了打开和点进情况。"
+>abstract="**用户活动**&#x200B;的图形表示形式详细地细分收件人互动情况，并通过信息图表格式描绘打开和点进。"
 
 此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 此报告的量度详述如下。
 

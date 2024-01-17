@@ -64,12 +64,12 @@ ht-degree: 38%
 
 +++
 
-### 整体统计数据 {#push-delivery-overall}
+### 整体统计信息 {#push-delivery-overall}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
->title="推送整体统计数据"
->abstract="**整体统计数据**&#x200B;报告显示已发送的推送通知的数据：成功次数、错误次数和隔离次数。"
+>title="推送整体统计信息"
+>abstract="**整体统计信息**&#x200B;报告显示已发送的推送通知的数据：成功次数、错误次数和隔离次数。"
 
 此 **总体统计信息** 报表呈现已发送推送通知的数据：成功、错误和隔离。 指标详见下文。
 
