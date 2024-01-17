@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 开始使用工作流
+title: 工作流入门
 description: 了解如何开始使用工作流
 badge: label="有限发布版"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# 开始使用工作流 {#workflows}
+# 工作流入门 {#workflows}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"

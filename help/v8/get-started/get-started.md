@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: 开始使用 Campaign v8 Web
-description: 开始使用 Campaign v8 Web
+title: Campaign v8 Web 入门
+description: Campaign v8 Web 入门
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
 source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
@@ -11,27 +11,27 @@ ht-degree: 100%
 
 ---
 
-# 开始使用 Campaign Web {#get-started}
+# Campaign Web 入门 {#get-started}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="开始使用"
+>title="入门"
 >abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
->title="开始使用"
+>title="入门"
 >abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="开始使用"
+>title="入门"
 >abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
-Campaign 最初只能通过富[客户端控制台](#ac-client)使用，它现已提供一个新的 Web 用户界面 (UI)，具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
+最初只能通过功能丰富的[客户端控制台](#ac-client)使用 Campaign，而它现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 ![](assets/home.png)
 
@@ -42,7 +42,7 @@ Campaign 最初只能通过富[客户端控制台](#ac-client)使用，它现已
 
 >[!NOTE]
 >
->Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。
+>Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 在[此页面](connect-to-campaign.md)中了解如何连接到 Adobe Campaign Web 界面。
 

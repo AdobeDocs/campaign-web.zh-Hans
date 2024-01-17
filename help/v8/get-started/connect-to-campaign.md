@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -51,13 +51,13 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 ## Adobe Experience Cloud 顶部导航 {#top-bar}
 
-浏览界面的顶部栏：
+浏览界面的顶部栏可：
 
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
-* 搜索相关帮助 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"} 的帮助
 * 检查您的产品通知
-* 编辑您的Adobe配置文件和管理设置，例如 [更新您喜爱的语言](#language-pref) 或 [切换到浅色/深色主题](#dark-theme)
+* 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -97,8 +97,8 @@ Campaign v8 Web 目前提供以下语言版本：
 
 ## 深色和浅色主题 {#dark-theme}
 
-Adobe Campaign提供浅色和深色主题。 默认情况下，将启用浅色主题中的用户界面。 要切换到深色主题，请单击您的配置文件图标，然后使用 **深色主题** 切换以启用/禁用它。
+Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的配置文件图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
 
-有关用户配置文件设置和帐户偏好设置的详情，请参阅[此小节](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#preferences){target="_blank"}。
+在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#preferences){target="_blank"}中详述用户配置文件设置和帐户首选项。
 
 请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。

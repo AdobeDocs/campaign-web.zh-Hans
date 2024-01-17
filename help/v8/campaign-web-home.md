@@ -7,7 +7,7 @@ badge: label="有限发布版"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="帮助和文档"
->abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
+>abstract="Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -54,7 +54,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="帮助和文档"
->abstract="Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
+>abstract="Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
@@ -84,10 +84,10 @@ ht-degree: 93%
 <!--TO REMOVE ABOVE-->
 
 
-Campaign 现已提供一个新的 Web 用户界面 (UI)，该界面具有增强的可用性、可访问性和新设计，大大改善了用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
+Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Campaign v8 Web当前为Limited Availability (LA)版本。 仅限一小部分LA客户访问。 请注意，产品界面、功能和使用流可能发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
+> Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
 
 ## Campaign Web 新功能
 

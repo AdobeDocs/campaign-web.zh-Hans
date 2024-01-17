@@ -2,12 +2,12 @@
 audience: end-user
 title: 浏览和筛选列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
-badge: label="可用性有限"
+badge: label="有限发布版"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 78%
 
 对于数字或日期列，**向上**&#x200B;箭头表示列表按升序排序，**向下**&#x200B;箭头表示列表按降序排序。对于字符串或字母数字列，值将按字母顺序列出。
 
-## 筛选器 {#list-built-in-filters}
+## 过滤器 {#list-built-in-filters}
 
-要更快地查找项目，您可以使用搜索栏或内置和自定义过滤器，根据上下文条件调整列表。
+要更快地找到项，可使用搜索栏或内置过滤器和自定义过滤器根据上下文条件调整列表。
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-有关如何使用过滤器以及创建您自己的自定义过滤器的详细信息，请参阅 [本节](../query/filter.md).
+可在[此部分](../query/filter.md)中找到有关如何使用过滤器和创建您自己的自定义过滤器的详细信息。
 
 <!--
 ## Use advanced attributes {#adv-attributes}
