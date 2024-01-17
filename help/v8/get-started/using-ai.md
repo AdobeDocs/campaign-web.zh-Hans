@@ -3,10 +3,10 @@ title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
+source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 94%
+source-wordcount: '463'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign 受 AI 助力的上下文帮助可提供协助，但您应核查事实。它可能会输出不正确的信息、不准确或有误导性的答案。请务必查看每个帮助框中链接的产品文档。
 
-人工智能和机器学习模型逐渐改进以更好地处理特定用例。Campaign 受 AI 助力的上下文帮助在接下来的几个月将继续改进。我们强烈建议您在阅读答案时随时使用 ?? ?? 按钮为我们的工程师标出任何不当回复。
+人工智能和机器学习模型逐渐改进以更好地处理特定用例。Campaign 受 AI 助力的上下文帮助在接下来的几个月将继续改进。我们强烈建议您使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 任何时候阅读答案时都会按下按钮，标出对我们的工程师的任何不当回应。
 
 ## 推荐  {#recommendations-ai}
 
