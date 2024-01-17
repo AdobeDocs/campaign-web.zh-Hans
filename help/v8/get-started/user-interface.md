@@ -5,7 +5,7 @@ description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -103,11 +103,11 @@ ht-degree: 100%
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-通过新的 Beta 版本，嵌入在上下文帮助中的 **AI 支持的知识助手**&#x200B;彻底改变了文档搜索和解答操作方法疑问的方式，它可轻松地筛选大型文档存储库并立即找出所需的准确信息。
+通过新的 Beta 版本，嵌入在上下文帮助中的&#x200B;**基于 AI 的知识助手**&#x200B;彻底改变了文档搜索和解答操作方法疑问的方式，它可轻松地筛选大型文档存储库并立即找出所需的准确信息。
 
-通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的 AI 支持的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
+通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的基于 AI 的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
-可在[此小节](using-ai.md)中了解详情。
+可在[此部分](using-ai.md)中了解详情。
 
 
 

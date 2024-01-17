@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 开始使用短信投放
+title: 短信投放入门
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 badge: label="有限发布版"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 
 ---
 
-# 开始使用短信投放 {#sms}
+# 短信投放入门 {#sms}
 
 短信投放提供一种将短信发送到客户的移动设备的实用而又高效的方式。通过此功能，可创建基于文本的消息、使其个性化和预览基于文本的消息以进行有效的通信。
 

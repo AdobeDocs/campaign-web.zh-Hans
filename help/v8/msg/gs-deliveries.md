@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: 使用投放
-description: 了解如何在Campaign Web中创建您的第一个投放
+description: 了解如何在 Campaign Web 中创建您的第一个投放
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 badge: label="有限发布版"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 95%
 
    ![](assets/create-a-delivery.png)
 
-1. 选择投放渠道。
+1. 选择投放的渠道。
 1. 为主要目标和控制组定义投放受众。在[此章节](../audience/about-recipients.md)中详细了解受众。
 
    ![](assets/select-audience.png){width="70%" align="left"}
 
-1. 定义消息内容。 在以下各部分中了解有关投放渠道以及如何定义投放内容的更多信息：
+1. 定义消息内容。在以下各部分中了解有关投放渠道以及如何定义投放内容的更多信息：
 
    * [电子邮件渠道](../email/create-email.md)
    * [推送通知渠道](../push/gs-push.md)
@@ -60,8 +60,8 @@ ht-degree: 95%
 要在工作流中创建投放，请执行以下步骤：
 
 1. 创建工作流或打开现有工作流。可在[此页面](../workflows/gs-workflow-creation.md#gs-workflow-steps)中详细了解工作流
-1. 添加和配置 **[!UICONTROL 构建受众]** 活动。 了解关于 **[!UICONTROL 构建受众]** 中的活动 [本节](../workflows/activities/build-audience.md).
-1. 单击 `+` 图标并选择投放活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]** 或 **[!UICONTROL 推送通知(iOS)]**. 在此[章节](../workflows/activities/channels.md)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
+1. 添加并配置&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动。可在[此部分](../workflows/activities/build-audience.md)中详细了解&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动。
+1. 单击 `+` 图标并选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。在此[章节](../workflows/activities/channels.md)中详细了解工作流中的投放渠道活动，以及如何定义投放内容。
 
    ![](assets/add-delivery-in-wf.png)
 
@@ -80,7 +80,7 @@ ht-degree: 95%
 
 ## 添加个性化内容 {#personalization}
 
-由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[了解有关个性化功能的更多信息](../personalization/gs-personalization.md).
+由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[详细了解个性化功能](../personalization/gs-personalization.md)。
 
 使用 Campaign 创建动态内容并发送个性化消息。可以结合个性化功能来改进您的消息并创建自定义用户体验。
 
