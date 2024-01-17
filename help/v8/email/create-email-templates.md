@@ -1,21 +1,21 @@
 ---
 audience: end-user
 product: campaign
-title: 使用电子邮件模板
+title: 使用内容模板
 description: 了解如何创建模板以重复使用Adobe Campaign电子邮件中的内容
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 15%
 
 ---
 
-# 使用电子邮件模板 {#content-templates}
+# 使用内容模板 {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
@@ -106,7 +106,7 @@ ht-degree: 16%
 
    ![](assets/content-template-create.png)
 
-1. 填写模板详细信息。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用节点中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. [了解如何创建文件夹](../get-started/permissions.md#folders)
+1. 填写模板详细信息。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用文件夹中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. [了解如何创建文件夹](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ ht-degree: 16%
 
    ![](assets/content-template-save-back.png)
 
-现在，在中构建任何电子邮件时可使用此模板 [!DNL Adobe Campaign]. [了解如何操作](use-email-templates.md)
+模板将保存到Adobe Campaign层次结构的默认文件夹中(**[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**)。 [了解有关文件夹的更多信息](../get-started/permissions.md#folders)
+
+它也显示在 **[!UICONTROL 内容模板]** 列表。 [了解详情](#access-manage-templates)
+
+您现在可以使用此模板来构建新内容：此模板位于 **[!UICONTROL 已保存模板]** 选项卡。 [了解如何操作](use-email-templates.md)
 
 ### 将电子邮件内容另存为模板 {#save-as-template}
 
@@ -154,11 +158,13 @@ ht-degree: 16%
 
    ![](assets/email_designer-template-name.png)
 
+模板将保存到Adobe Campaign层次结构的默认文件夹中(**[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**)。 [了解有关文件夹的更多信息](../get-started/permissions.md#folders)
+
+它也显示在 **[!UICONTROL 内容模板]** 列表。 它会变成一个独立的内容模板，可以像该列表中的任何其他项目一样访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
+
 您现在可以使用此模板来构建新内容：此模板位于 **[!UICONTROL 已保存模板]** 选项卡。 [了解如何操作](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-模板将保存到 **[!UICONTROL 内容模板]** 列表，可从访问 [!DNL Adobe Campaign] 专用菜单。 它会变成一个独立的内容模板，可以像该列表中的任何其他项目一样访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
 
 >[!NOTE]
 >
