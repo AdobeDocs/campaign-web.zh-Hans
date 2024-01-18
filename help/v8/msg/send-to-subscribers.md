@@ -2,12 +2,12 @@
 audience: end-user
 title: 向服务的订阅者发送消息
 description: 了解如何向服务的订阅者发送消息
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 1%
 
 ---
 

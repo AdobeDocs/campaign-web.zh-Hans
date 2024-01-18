@@ -2,12 +2,12 @@
 audience: end-user
 title: 管理订阅者
 description: 了解如何在Adobe Campaign Web中管理服务并将其交付给订阅者
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 从中选择现有服务 **[!UICONTROL 订阅服务]** 列表。
 
-1. 选择 **[!UICONTROL 订阅者]** 选项卡，然后单击 **[!UICONTROL 添加用户档案]**.
+1. 转到 **[!UICONTROL 订阅者]** 选项卡，然后单击 **[!UICONTROL 添加订阅者]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 单击 **[!UICONTROL 发送]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 选定的收件人将收到订阅 [确认消息](manage-services.md#create-confirmation-message) 您选择的时机 [创建服务](manage-services.md#create-service).
+1. 单击 **[!UICONTROL 发送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 以使所选收件人接收订阅 [确认消息](manage-services.md#create-confirmation-message) 您定义的时机 [创建服务](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-添加的用户档案将显示在 **[!UICONTROL 订阅者]** 列表。 他们现在已订阅您的服务。
+   >[!NOTE]
+   >
+   >如果您选择 **[!UICONTROL 取消]**，所选用户档案不会收到确认消息，但会订阅这些用户档案。
+
+添加的用户档案将显示在 **[!UICONTROL 订阅者]** 选项卡。 他们现在已订阅您的服务。
 
 ## 从服务中删除订阅者 {#remove-subscribers}
 
@@ -49,11 +53,13 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-delete.png)
 
-1. 确认删除并单击 **[!UICONTROL 发送]**. 所选收件人将收到退订 [确认消息](manage-services.md#create-confirmation-message) 您选择的时机 [创建服务](manage-services.md#create-service).
+1. 确认删除。
+
+1. 单击 **[!UICONTROL 发送]** 以使选定的收件人收到退订 [确认消息](manage-services.md#create-confirmation-message) 您定义的时机 [创建服务](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-收件人将从 **[!UICONTROL 订阅者]** 列表且不再订阅您的服务。
+收件人将从 **[!UICONTROL 订阅者]** 选项卡，且不再订阅您的服务。
 
 ### 自动取消订阅收件人 {#automatic-unsubscription}
 

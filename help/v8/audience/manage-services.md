@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 16%
+source-wordcount: '883'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="创建和管理您的服务"
+>title="创建和管理服务"
 >abstract="使用 Adobe Campaign 创建和监测您的服务（如新闻稿）以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
 
 使用Adobe Campaign Web管理和创建服务（如新闻稿），并检查这些服务的订阅或退订。
@@ -36,13 +36,13 @@ ht-degree: 16%
 
    ![](assets/service-list.png)
 
-1. 此时将显示所有现有订阅服务的列表。 您可以搜索服务和筛选渠道、文件夹，或者使用高级筛选器。
+1. 此时将显示所有现有订阅服务的列表。 您可以搜索服务，并在渠道、文件夹上使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
    ![](assets/service-filters.png)
 
 1. 要编辑现有服务，请单击其名称。
 
-1. 您可以使用此服务名称旁边的三个圆点图标来删除或复制任何服务。<!--so all subscribers are unsuibscribed - need to mention?-->
+1. 您可以使用服务名称旁边的三个圆点图标来删除或复制任何服务。<!--so all subscribers are unsubscribed - need to mention?-->
 
 ## 创建您的第一个订阅服务 {#create-service}
 
@@ -64,9 +64,11 @@ ht-degree: 16%
 
 1. 选择渠道： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 短信]**.
 
-1. 在服务属性中，输入标签并根据需要定义其他选项。
+1. 在服务属性中，输入标签并定义 **[!UICONTROL 其他选项]** 如所愿。
 
    ![](assets/service-create-properties.png)
+
+1. 默认情况下，服务存储在 **[!UICONTROL 服务和订阅]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
 1. 默认情况下，订阅无限制。 您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。
 
@@ -82,19 +84,25 @@ ht-degree: 16%
 
 1. 单击 **[!UICONTROL 保存并审阅]**. 新服务将添加到 **[!UICONTROL 订阅服务]** 列表。
 
+您现在可以：
+
+* 将订阅者添加到此服务，并取消订阅收件人。 [了解详情](../msg/send-to-subscribers.md)
+
+* 向此服务的订阅者发送消息。 [了解如何操作](../msg/send-to-subscribers.md)
+
 ## 创建确认消息 {#create-confirmation-message}
 
 要向订阅或取消订阅服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 为此，请执行以下步骤。
 
-1. 为订阅确认创建投放模板。 [了解如何操作](../msg/delivery-template.md)
+1. 为订阅确认创建投放模板。 [了解如何创建模板](../msg/delivery-template.md)
 
-1. 请勿为此投放选择受众。 相反，访问 **[!UICONTROL 投放设置]**，转到 [受众](../advanced-settings/delivery-settings.md#audience) 选项卡，然后选择 **[!UICONTROL 订阅]** 列表中的目标映射。
+1. 请勿为此投放选择受众。 相反，请访问投放 **[!UICONTROL 设置]**，转到 [受众](../advanced-settings/delivery-settings.md#audience) 选项卡，然后选择 **[!UICONTROL 订阅]** 列表中的目标映射。
 
    ![](assets/service-confirmation-template-mapping.png)
 
    >[!NOTE]
    >
-   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 目标映射在Campaign v8控制台中定义。 了解更多 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 目标映射在Campaign v8控制台中定义。 在中了解详情 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. 编辑投放模板的内容，保存并关闭它。
 
@@ -110,13 +118,30 @@ ht-degree: 16%
 
 ## 监控您的订阅服务 {#logs-and-reports}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="订阅者总数"
+>abstract="单击 **计算** 获取此服务的订阅者总数。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="期间的订阅数"
+>abstract="使用下拉列表更改时间范围，并查看所选时段内的订阅和退订数量。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="订阅整体演变"
+>abstract="此图表按期间显示细分，包括订阅、取消订阅、数量演变和忠诚度百分比。"
+
 要衡量订阅服务对短信和电子邮件渠道的有效性，您可以访问给定服务的日志和报告。
 
-1. 从中选择现有服务 **[!UICONTROL 订阅服务]** 列表。 单击 **[!UICONTROL 计算]** 获取订阅者总数。
+1. 从中选择现有服务 **[!UICONTROL 订阅服务]** 列表。 单击 **[!UICONTROL 计算]** 将获取订阅者的总数。
 
-   ![](assets/service-logs-reports-buttons.png)
+   ![](assets/service-logs-subscribers-count.png)
 
-1. 从服务仪表板中，选择 **[!UICONTROL 日志]** 查看此服务的订阅者列表。 您可以检查订阅者的总数、每个收件人的姓名和地址以及他们订阅或取消订阅的时间。 您还可以对其进行过滤。
+1. 从服务仪表板中，选择 **[!UICONTROL 日志]** 查看此服务的订阅者列表。
+
+   您可以检查订阅者总数、每个收件人的姓名和地址以及他们订阅或取消订阅的时间。 您还可以对其进行过滤。
 
    ![](assets/service-logs.png)
 
