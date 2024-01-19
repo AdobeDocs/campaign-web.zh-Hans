@@ -4,10 +4,10 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 93%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="项目3"
->abstract="思路重新调整的受众、订阅和服务、AEM Assets 的用户体验"
+>abstract="重新设计了UX，适用于受众、订阅、AEM Assets、登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="项目4"
->abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
+>abstract="新一代查询建模器和电子邮件设计器"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 96%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="帮助和文档"

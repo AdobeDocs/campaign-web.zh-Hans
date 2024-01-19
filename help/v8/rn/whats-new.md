@@ -4,9 +4,9 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 99%
 
 ---
@@ -116,13 +116,13 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **适用于电子邮件内容的生成式 AI**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  告别手动内容创建，借助生成式 AI 的力量开始高效、由数据驱动的营销活动。我们的生成式 AI 技术利用先进的算法&#x200B;**生成极具吸引力的个性化内容**。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。通过适用于电子邮件内容的生成式 AI，保持竞争优势并提升电子邮件营销水平。
-
-  可在[此部分](../email/generative-gs.md)中了解详情。
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **受 AI 助力的上下文帮助**
 
