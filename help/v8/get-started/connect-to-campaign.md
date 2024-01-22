@@ -3,10 +3,10 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign v8 Web 用户界面
 badge: label="有限发布版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 96%
+source-wordcount: '563'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,14 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 浏览界面的顶部栏可：
 
+* 分享有关Campaign Web UI的反馈
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
 * 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"} 的帮助
 * 检查您的产品通知
 * 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## 支持的浏览器 {#browsers}
 
