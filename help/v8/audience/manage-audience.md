@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 监控和管理受众
+title: 监测和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 badge: label="Beta 版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# 监控和管理受众 {#monitor}
+# 监测和管理受众 {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"

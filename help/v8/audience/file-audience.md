@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
->abstract="指定外部文件的格式，以确保正确导入数据。"
+>abstract="指定外部文件的格式以确保正确导入数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"

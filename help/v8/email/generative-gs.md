@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用Gen AI的智能内容生成功能，提高开放率、点进率和转化率。"
+>abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用Gen AI的智能内容生成功能，提高开放率、点进率和转化率。"
+>abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
 
 <!--TO REMOVE ABOVE-->

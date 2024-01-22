@@ -7,7 +7,7 @@ badge: label="有限发布版"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的配置文件将排除在投放受众之外。分类和分类规则是在Campaign客户端控制台中创建的。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的配置文件将排除在投放受众之外。在 Campaign 客户端控制台中创建类型和类型规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="投放的类型设置"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的配置文件将排除在投放受众之外。分类和分类规则是在Campaign客户端控制台中创建的。"
+>abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的配置文件将排除在投放受众之外。在 Campaign 客户端控制台中创建类型和类型规则。"
 
 
 类型是一组 **类型规则** 以便在准备阶段执行，以便一次性轻松地将多个筛选规则应用于投放。 借助这些工具，营销人员可以标准化所有投放的业务实践，因为他们可以控制、筛选投放投放并安排其发送优先级。
@@ -91,7 +91,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="投放的容量设置"
->abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则是在Adobe Campaign v8控制台中定义的。 在此屏幕中，选择与电子邮件渠道关联的规则。"
+>abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 控制台中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -160,7 +160,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="投放的网站分析设置"
->abstract="选择一个网站分析帐户。此帐户是在Campaign客户端控制台中配置的。 您还可以定义与您正在使用的分析工具共享的标记。"
+>abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标记。"
 
 在此部分中，您可以选择网站分析帐户。 此帐户是在Campaign客户端控制台中配置的。
 
@@ -210,12 +210,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="设置有效性"
->abstract="**投放持续时间**&#x200B;字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。<br>此 **资源有效期限** 字段用于已上传的资源，如镜像页面或图像。 一旦达到限制，资源将不再可用。"
+>abstract="**投放持续时间**&#x200B;字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。<br>此&#x200B;**资源有效期限**&#x200B;字段用于已上传的资源，例如镜像页面或图像。一旦达到期限，资源将不再可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="资源有效期限"
->abstract="此 **资源有效期限** 字段用于已上传的资源，如镜像页面或图像。 这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
+>abstract="此&#x200B;**资源有效期限**&#x200B;字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -274,11 +274,11 @@ ht-degree: 55%
 
 **[!UICONTROL 过期URL的替换URL]**：使用此选项可输入回退网页的URL：跟踪过期后即会显示。
 
-## 验证设置 {#test-setttings}
+## 校样设置 {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="定义投放的验证设置"
+>title="定义投放的校样设置"
 >abstract="选择排除参数并自定义校样的标签。"
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
