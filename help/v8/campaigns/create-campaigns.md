@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建营销活动
 description: 了解如何使用 Adobe Campaign Web 构建跨渠道营销活动
-badge: label="Beta"
+badge: label="有限发布版"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 40%
+source-wordcount: '444'
+ht-degree: 36%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 40%
 >title="营销活动属性"
 >abstract="在此屏幕中，您可以检查和更新营销活动设置：其标签、内部名称、文件夹和描述。您还可以查看将营销活动分配给的用户。"
 
-要创建新营销活动，您需要定义其属性、计划并包含工作流和投放。
+要创建新营销活动，您需要定义其设置、计划并包含工作流和投放。
 
-## 创建营销活动{#campaign-create}
+## 创建营销活动 {#campaign-create}
 
 要创建新营销活动，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]** 按钮。
+
+   ![创建新营销活动](assets/create-campaign-button.png)
+
 1. 选择 **模板** 为营销活动使用和提供标签。 [阅读更多](manage-campaigns.md#manage-campaign-templates)。
 1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
 1. 定义 **计划** 您的营销活动中的。 了解如何在中设置活动计划 [本节](#campaign-schedule)
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
+
+   ![创建营销活动属性](assets/create-a-campaign-properties.png)
+
 1. 将工作流和投放添加到营销活动：
 
    * 从 **工作流** 选项卡，单击 **创建工作流**. 创建营销策划时，会自动添加默认工作流。 了解关于如何操作的更多信息 [创建工作流](../workflows/create-workflow.md).
-   * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
 
-1. 使用 **日志** 和 **报表** 用于分析营销活动性能的按钮。
+   * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
 
 ## 监控和跟踪您的活动{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ ht-degree: 40%
 
 ## 定义营销活动计划 {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="营销活动计划"
@@ -60,9 +64,7 @@ ht-degree: 40%
 
 达到开始日期时，营销活动即会开始。 只要未到达开始日期，营销活动就会具有 **[!UICONTROL 草稿]** 状态。 然后，当到达开始日期时，它会变为 **[!UICONTROL 进行中]**. 达到结束日期后，营销活动将设置为 **[!UICONTROL 已完成]**.
 
-开始日期和结束日期显示在营销活动列表中，并可用作筛选条件。请参阅此[章节](manage-campaigns.md#access-campaigns)。
-
-![定义营销活动属性](assets/campaign-properties.png)
+开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
 
 >[!NOTE]
 >

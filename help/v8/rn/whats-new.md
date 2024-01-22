@@ -4,10 +4,10 @@ title: Campaign Web v8 新增功能
 description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 * 定义要在您的消息或工作流中定位的受众，并轻松地创建适合您需求的新受众
 * 在工作流活动中应用规则（如拆分和协调）以符合您的特定要求
 * 创建在各种过滤操作（无论您是使用数据列表还是生成投放的受众）期间充当快捷方式的预定义过滤器
-* 添加规则以过滤在报告中显示的数据。
+* 添加规则以筛选报表中显示的数据
 * 创建自定义规则以过滤在列表中显示的数据，如收件人、投放列表等
 
 可在[此部分](../query/query-modeler-overview.md)中了解详情。

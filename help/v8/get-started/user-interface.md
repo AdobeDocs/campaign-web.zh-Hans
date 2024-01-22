@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 81%
 
 通过Campaign主页，可快速轻松地浏览关键资源、指标和组件。
 
-主页的上半部分提供了有关产品中提供的最新更新和新功能的详细信息，以及指向发行说明和相关文档的链接。
+主页的上半部分提供了有关产品中提供的最新更新和新功能的详细信息，以及指向发行说明和详细文档的链接。 使用向左箭头滚动功能卡。
 
 ![](assets/home.png)
 
