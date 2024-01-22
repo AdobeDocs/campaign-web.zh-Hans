@@ -4,10 +4,10 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
+source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '692'
+ht-degree: 63%
 
 ---
 
@@ -83,109 +83,100 @@ ht-degree: 97%
 
 <!--TO REMOVE ABOVE-->
 
-
-Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。[了解详情](get-started/get-started.md)
+我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本中填充了各种直观功能，这些功能旨在简化跨渠道个性化促销活动的创建，取得卓越的成效，并为您提供跨所有渠道的竞争优势。 此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 >[!AVAILABILITY]
-> Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。[了解详情](rn/whats-new.md)
+> Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
-## Campaign Web 新功能
+## 新增功能
 
-**探索 Campaign v8 Web 新用户界面**
+大致了解Adobe Campaign v8 Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看 [此页面](rn/whats-new.md).
 
-新的 Campaign v8 Web 界面提供一种现代而直观的用户体验以简化营销活动的设计和投放。此新界面与 Adobe Experience Platform 集成。
+>[!BEGINTABS]
 
-**思路重新调整的工作流画布界面**
+>[!TAB 跨渠道工作流]
 
-我们全面的图形环境可让您设计复杂流程，从而帮助您轻松管理营销活动。利用工作流，您可以协调所有流程和任务，加快营销活动的各个方面的速度并扩大其规模（从创建细分和准备邮件到投放）。此外，您可以通过一个易于使用的界面来使渠道同步，以进行营销活动编排。
+发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
 
-**了解电子邮件设计器**
+[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
-从模板开始，或使用 Adobe Campaign 的新电子邮件设计器来创建电子邮件，而无需编写任何代码。了解如何使用电子邮件设计器在端到端用例中创建您的内容、预览和测试内容，以及向现有受众发送电子邮件。
+>[!TAB 受众构成]
 
-**将内容设置为动态内容**
+在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。
 
-根据您收集到的收件人相关信息来定制您的内容。利用动态内容可使您的内容更具吸引力，并使受众更愿意去阅读内容。通过利用配置文件数据（例如，收件人的名字、兴趣、居住地、购买的产品等），针对每个特定的收件人个性化您的邮件。创建条件内容，使您的投放适合每个收件人，并根据您获得的给定客户的相关信息仅向其显示相关内容。
+[![图像](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
-**创建跨渠道营销活动**
+>[!TAB 电子邮件设计工具]
 
-使用 Adobe Campaign 创建跨渠道营销活动。通过其市场营销活动编排功能，可管理和集中客户数据、设计客户通信和活动以及打造各种渠道的个性化体验。在此版本中，提供了电子邮件、推送和短信渠道。使用包括打开次数、点击次数、转发次数等在内的详细报告来衡量投放的效力。
+利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！
 
-## 让我们深入探究
+[![图像](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
-既然您已了解可以在 Adobe Campaign Web 中做什么，现在应该仔细阅读这些文档章节以开始使用它。
+>[!TAB 配置文件360]
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="get-started/user-interface.md">
-<img alt="新 UI" src="assets/do-not-localize/menu-ui.jpeg">
-</a>
-<div><a href="get-started/user-interface.md"><strong>探索新用户界面</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="workflows/gs-workflows.md">
-<img alt="验证" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="workflows/gs-workflows.md"><strong>思路重新调整的工作流画布界面</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="email/get-started-email-designer.md">
-<img alt="不常见" src="assets/do-not-localize/menu-design.jpg">
-</a>
-<div>
-<a href="email/get-started-email-designer.md"><strong>了解电子邮件设计器</strong></a>
-</div>
-<p></td>
-<td>
-<a href="personalization/gs-personalization.md">
-<img alt="受众" src="assets/do-not-localize/menu-dynamic.jpg">
-</a>
-<div>
-<a href="personalization/gs-personalization.md"><strong>将内容设置为动态内容</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="campaigns/gs-campaigns.md">
-<img alt="验证" src="assets/do-not-localize/menu-campaign.jpeg">
-</a>
-<div>
-<a href="campaigns/gs-campaigns.md"><strong>创建跨渠道营销活动</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。
 
-<!--
+[![图像](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
+
+>[!ENDTABS]
+
+## 从基础知识开始
+
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
-</a></td><td>Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
-</a></td><td>Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
-</a></td><td>Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
-</a></td><td>Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
-</a></td><td>Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.</td></tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <div><strong>了解新的用户界面</strong><br/>探索Campaign v8 Web与Adobe Experience Platform集成的新界面和导航体验。</div>
+    </td>
+    <td>
+    <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <div><strong>重新设计的工作流画布</strong><br/>了解如何创建工作流以编排所有流程和任务，并提高营销活动各个方面的速度和规模。</div><br/>
+    </td>
+    <td>
+    <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
+    <div><strong>了解Email Designer</strong><br/>了解如何从模板开始，或使用Adobe Campaign的新电子邮件设计工具创建电子邮件，而无需编写一行代码。
+    </div></td>
+    <td>
+    <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的有关收件人的信息自定义您的内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
--->
 
+## 浏览文档
 
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
+      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到Campaign</a> - <a href="get-started/using-ai.md">AI支持的上下文帮助</a> - <a href="get-started/permissions.md">访问和权限</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-message.svg" width="35px">
+    <br/>
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> -  <a href="push/gs-push.md">推送通知</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile.svg" width="35px">
+    <br/>
+      <strong>用户档案和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试用户档案</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
+    </td>
+  </tr>
+</table>
 
+## 其他资源
 
-
-
-
-
-
+* [Adobe Campaign产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign V8文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans){target="_blank"}
