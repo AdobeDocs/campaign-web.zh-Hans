@@ -4,10 +4,10 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 93%
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
->title="项目1"
->abstract="新的电子邮件、SMS 和推送通知设计体验"
+>title="项 1"
+>abstract="新的电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
->title="项目2"
+>title="项 2"
 >abstract="简化的工作流画布界面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
->title="项目3"
+>title="项 3"
 >abstract="重新设计了UX，适用于受众、订阅、AEM Assets、登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
->title="项目4"
+>title="项 4"
 >abstract="新一代查询建模器和电子邮件设计器"
 
 <!--
@@ -50,7 +50,7 @@ ht-degree: 93%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-L
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="帮助和文档"
@@ -63,22 +63,22 @@ L
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
->title="项目1"
->abstract="新的电子邮件、SMS 和推送通知设计体验"
+>title="项 1"
+>abstract="新的电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
->title="项目2"
+>title="项 2"
 >abstract="简化的工作流画布界面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
->title="项目3"
+>title="项 3"
 >abstract="思路重新调整的受众、订阅和服务、AEM Assets 的用户体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
->title="项目4"
+>title="项 4"
 >abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
 
 <!--TO REMOVE ABOVE-->
