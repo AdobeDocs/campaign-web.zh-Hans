@@ -4,28 +4,33 @@ title: 向服务的订阅者发送消息
 description: 了解如何向服务的订阅者发送消息
 badge: label="有限发布版"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 
 # 向服务的订阅者发送消息 {#send-to-subscribers}
 
-您可以在Adobe Campaign中创建订阅服务，并向订阅者发送消息。 了解如何在中创建订阅服务 [此页面](../audience//manage-services.md#create-service).
+您可以在Adobe Campaign中创建订阅服务，并向订阅者发送消息。 了解如何在上创建订阅服务 [此页面](../audience//manage-services.md#create-service).
 
 要向订阅者发送消息，请创建特定受众以识别订阅者，然后创建投放，如下所述。
 
-1. 创建受众。 要了解有关受众的更多信息，请参阅 [此页面](../audience/create-audience.md).
+1. 创建受众。 系统会自动创建新工作流。 [了解有关受众的更多信息](../audience/create-audience.md)
 
-1. 在 **[!UICONTROL 构建受众]** 活动，显示高级属性，然后选择 **[!UICONTROL 收件人]** > **[!UICONTROL 订阅]** > **[!UICONTROL 服务]**.
+1. 为了提高可读性，请在工作流设置中更改工作流的名称 **标签** 字段。 [了解如何配置工作流设置](../workflows/workflow-settings.md)
 
-   在此示例中，选择订阅了服务的用户，该服务具有 **Luma新闻稿** 标签。
+1. 打开 **[!UICONTROL 构建受众]** 活动，然后选择 **[!UICONTROL 创建受众]**. [了解如何配置构建受众活动](../workflows/activities/build-audience.md)
+
+   ![](assets/service-create-audience.png)
+
+1. 在受众创建流程中，选择以下自定义条件： **[!UICONTROL 订阅]** 存在，例如 **[!UICONTROL 服务]** 等于您定义的服务。 在此示例中，选择您的 **Luma瑜伽新闻稿**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. 保存受众。
+1. 选择 **[!UICONTROL 确认]** 并单击 **[!UICONTROL 开始]** 以执行工作流。
+
 1. 创建投放。 有关创建投放的详细步骤，请参见 [此页面](../msg/gs-messages.md#create-delivery).
 1. 浏览到您的投放设置，将默认目标映射更改为 **订阅(nms：subscriptions)**.
 
