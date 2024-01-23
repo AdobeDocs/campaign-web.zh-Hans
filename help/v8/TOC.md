@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 文档
 description: Campaign v8 Web 文档
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 91%
+source-wordcount: '537'
+ht-degree: 94%
 
 ---
 
@@ -92,15 +92,16 @@ ht-degree: 91%
    + [用户档案和受众快速入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
    + 使用配置文件 {#work-with-profiles}
-      + [监控和管理用户档案](audience/about-recipients.md)
+      + [监测和管理配置文件](audience/about-recipients.md)
       + [创建和管理测试配置文件](audience/test-profiles.md)
    + 使用受众 {#audiences}
       + [创建受众](audience/create-audience.md)
-      + [监控和管理受众](audience/manage-audience.md)
+      + [监测和管理受众](audience/manage-audience.md)
    + 选择您的投放收件人 {#target-audiences}
       + [选择现有受众](audience/add-audience.md)
       + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载电子邮件受众](audience/file-audience.md)
+      + [使用 Adobe Experience Platform 受众](audience/aep-audience.md)
       + [设置对照组](audience/control-group.md)
    + 使用订阅服务 {#work-with-services}
       + [创建和管理订阅服务](audience/manage-services.md)

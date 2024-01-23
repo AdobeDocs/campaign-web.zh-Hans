@@ -3,11 +3,11 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta 版"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="有限发布版"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 34%
+source-wordcount: '317'
+ht-degree: 31%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 34%
 
 要为邮件选择现有受众，请执行以下步骤：
 
-1. 从 **受众** 投放创建助理的部分，单击 **[!UICONTROL 选择受众]** 按钮，然后选择
+1. 从 **受众** 投放创建助理的部分，单击 **[!UICONTROL 选择受众]** 按钮，然后选择 **[!UICONTROL 选择受众]** 以使用现有受众。
 
    ![](assets/create-audience.png)
 
-1. 选择&#x200B;**[!UICONTROL 选择受众]**&#x200B;以使用现有受众。此屏幕显示当前文件夹的所有现有受众。
+1. 此屏幕显示当前文件夹的所有现有受众。
 
    ![](assets/create-audience2.png)
 
-   要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分删除。
+   要从Adobe Experience Platform中选择受众，请浏览至 `AEP Audiences folder` 从屏幕的过滤器部分删除。 [了解如何使用Adobe Experience Platform受众](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 

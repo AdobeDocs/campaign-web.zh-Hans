@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Experience Platform 受众
 description: 了解如何从 Adobe Experience Platform 使用受众
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 32%
+source-wordcount: '327'
+ht-degree: 28%
 
 ---
 
@@ -40,6 +40,8 @@ Adobe Campaign托管Cloud Service目标和源连接器允许Adobe Campaign与Ado
    ![](assets/select-audience-folder.png)
 
    您还可以定义规则以根据受众的来源进行过滤，如下所示：
+
+   利用过滤器部分，可访问过滤选项以优化受众列表。 为此，请单击 **添加规则** 以访问查询建模器，从而您可以为受众列表创建高级过滤器。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 
