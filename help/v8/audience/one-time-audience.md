@@ -2,11 +2,11 @@
 audience: end-user
 title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 1. 选择&#x200B;**创建您自己的**。此时将显示查询建模器。 利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. 查询准备就绪后，单击 **确认** 使用受众作为投放的主要目标。
 

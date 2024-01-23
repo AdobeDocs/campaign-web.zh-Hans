@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_orchestration_combine"
 >title="合并活动"
 >abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
-
 
 此 **合并** 活动是 **定位** 活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
 
