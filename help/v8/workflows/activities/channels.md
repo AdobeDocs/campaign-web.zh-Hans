@@ -4,10 +4,10 @@ title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="有限发布版"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 58%
+source-wordcount: '898'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 >* [创建独立的短信投放](../../sms/create-sms.md)
 >* [创建独立推送投放](../../push/create-push.md)
 
-## 构建工作流 {#build-your-workflow}
+## 先决条件 {#channel-activity-prereq}
 
 开始使用相关活动构建工作流：
 
