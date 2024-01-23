@@ -91,7 +91,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="投放的容量设置"
->abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。容量规则在 Adobe Campaign v8 控制台中定义。在此屏幕中，选择与电子邮件渠道关联的规则。"
+>abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。在 Adobe Campaign v8 控制台中定义容量规则。在此屏幕中，选择与电子邮件渠道关联的规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -209,13 +209,13 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
->title="设置有效性"
->abstract="**投放持续时间**&#x200B;字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。<br>此&#x200B;**资源有效期限**&#x200B;字段用于已上传的资源，例如镜像页面或图像。一旦达到期限，资源将不再可用。"
+>title="设置有效期"
+>abstract="**投放持续时间**&#x200B;字段可让您输入全球投放重试次数的限制。这意味着，Adobe Campaign 从开始日期开始发送消息，然后对于仅返回错误的消息，将执行定期、可配置的重试，直至达到有效期限。<br>**资源有效期限**&#x200B;字段用于已上传的资源，如镜像页面或图像。一旦达到期限，资源将不再可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="资源有效期限"
->abstract="此&#x200B;**资源有效期限**&#x200B;字段用于已上传的资源，例如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
+>abstract="**资源有效期限**&#x200B;字段用于已上传的资源，如镜像页面或图像。这些资源在有限的时间内有效：一旦达到限制，资源将不再可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"

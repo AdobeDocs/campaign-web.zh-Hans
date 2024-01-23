@@ -26,7 +26,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化参数"
->abstract="指定外部文件的格式以确保正确导入数据。"
+>abstract="指定如何编排外部文件的格式以确保正确地导入数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"

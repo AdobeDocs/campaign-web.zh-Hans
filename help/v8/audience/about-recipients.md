@@ -1,5 +1,5 @@
 ---
-title: 监测与管理配置文件
+title: 监测和管理配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
@@ -10,7 +10,7 @@ ht-degree: 44%
 
 ---
 
-# 监测与管理配置文件 {#profiles}
+# 监测和管理配置文件 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"

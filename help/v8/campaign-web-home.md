@@ -20,27 +20,27 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
->title="体验全新 Adobe Campaign 用户界面"
->abstract="更加现代化、直观和充满活力。"
+>title="体验新 Adobe Campaign 用户界面"
+>abstract="更加现代、直观和动感。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
->title="项 1"
->abstract="新的电子邮件、短信和推送通知设计体验"
+>title="第 1 项"
+>abstract="新增了电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
->title="项 2"
->abstract="简化的工作流画布界面"
+>title="第 2 项"
+>abstract="简化了工作流画布界面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
->title="项 3"
+>title="第 3 项"
 >abstract="重新设计了UX，适用于受众、订阅、AEM Assets、登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
->title="项 4"
+>title="第 4 项"
 >abstract="新一代查询建模器和电子邮件设计器"
 
 <!--
@@ -58,27 +58,27 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
->title="体验全新 Adobe Campaign 用户界面"
->abstract="更加现代化、直观和充满活力。"
+>title="体验新 Adobe Campaign 用户界面"
+>abstract="更加现代、直观和动感。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
->title="项 1"
->abstract="新的电子邮件、短信和推送通知设计体验"
+>title="第 1 项"
+>abstract="新增了电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
->title="项 2"
->abstract="简化的工作流画布界面"
+>title="第 2 项"
+>abstract="简化了工作流画布界面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
->title="项 3"
->abstract="思路重新调整的受众、订阅和服务、AEM Assets 的用户体验"
+>title="第 3 项"
+>abstract="重新设想了受众、订阅和服务、AEM Assets 的用户体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
->title="项 4"
+>title="第 4 项"
 >abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
 
 <!--TO REMOVE ABOVE-->
