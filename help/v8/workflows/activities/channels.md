@@ -4,9 +4,9 @@ title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
 badge: label="有限发布版"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 58%
 
 ---
@@ -28,15 +28,18 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
 ## 构建工作流 {#build-your-workflow}
 
-在插入渠道活动之前，开始使用相关活动构建工作流：
+开始使用相关活动构建工作流：
 
-* 在插入投放活动之前，必须定义受众。 受众是投放的主要目标：接收消息的用户档案。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，而是在专用活动中定义，例如：
+* 在插入渠道活动之前，必须定义受众。 受众是投放的主要目标：接收消息的用户档案。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，而是在专用活动中定义，例如：
 
    * A **构建受众** 活动。 [了解详情](build-audience.md)。
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **加载文件** 活动后跟 **调解** 活动。 [了解详情](load-file.md)。
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * 要发送定期投放，请使用启动您的工作流 **计划程序** 活动。 您也可以使用 **计划程序** 用于一次性投放的活动，以设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
