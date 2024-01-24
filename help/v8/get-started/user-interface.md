@@ -4,9 +4,9 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: 59929983859687081859e007b4e3b48a6279edee
+source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1654'
 ht-degree: 80%
 
 ---
@@ -405,4 +405,7 @@ Deprecated IDs - to remove in GA: -->
 >title="此模板仅就绪"
 >abstract="待确认"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="在同一张表中生成所有子集"
+>abstract="待确认"
