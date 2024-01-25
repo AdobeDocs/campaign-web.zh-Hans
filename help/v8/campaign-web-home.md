@@ -7,7 +7,7 @@ badge: label="有限发布版"
 source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 63%
+ht-degree: 66%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="第 3 项"
->abstract="重新设计了UX，适用于受众、订阅、AEM Assets、登陆页面"
+>abstract="重新设想了受众、订阅、AEM Assets 和登陆页面的用户体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"

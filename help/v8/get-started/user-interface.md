@@ -22,7 +22,7 @@ ht-degree: 78%
 >
 >此文档经常更新以反映产品用户界面中的最新更改。但是，某些屏幕快照可能与用户界面略有不同。
 
-## Campaign主页 {#user-interface-home}
+## 营销活动主页 {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"

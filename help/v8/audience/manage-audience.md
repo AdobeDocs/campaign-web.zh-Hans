@@ -7,7 +7,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 15%
+ht-degree: 26%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="属性"
->abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。 单击以下位置中的链接： **上一个工作流** 部分，用于打开用于创建受众的工作流。"
+>abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。单击&#x200B;**上一个工作流**&#x200B;部分中的链接可打开已用于创建受众的工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="您可以在此处找到受众中的配置文件总数。 单击“计算”按钮以更新并重新计算受众结果。"
+>abstract="可以在此处找到受众的配置文件总数。单击“计算”按钮可更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

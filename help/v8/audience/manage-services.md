@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 15%
+ht-degree: 23%
 
 ---
 
@@ -116,22 +116,22 @@ ht-degree: 15%
 
 现在，您可以在以下情况下选择这些消息 [创建订阅服务](#create-service). 订阅或取消订阅该服务的用户将收到所选的确认消息。
 
-## 监控您的订阅服务 {#logs-and-reports}
+## 监测订阅服务 {#logs-and-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="订阅者总数"
->abstract="单击 **计算** 获取此服务的订阅者总数。"
+>abstract="单击&#x200B;**计算**&#x200B;获取此服务的订阅者总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="期间的订阅数"
->abstract="使用下拉列表更改时间范围，并查看所选时段内的订阅和退订数量。"
+>title="相关时段的订阅数"
+>abstract="使用下拉列表更改时间范围并查看所选时段内的订阅数和取消订阅数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="订阅整体演变"
->abstract="此图表按期间显示细分，包括订阅、取消订阅、数量演变和忠诚度百分比。"
+>abstract="此图显示按时段划分的细分情况，包括订阅数、取消订阅数、数量演变和忠诚度百分比。"
 
 要衡量订阅服务对短信和电子邮件渠道的有效性，您可以访问给定服务的日志和报告。
 

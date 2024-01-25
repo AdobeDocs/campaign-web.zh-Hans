@@ -7,7 +7,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="根据需要添加任意数量的子集以划分传入群体。<br/></br>当 **Split** 在执行活动时，将按照将群体添加到活动的顺序跨不同的子集进行分段。 在启动工作流之前，请确保已使用箭头按钮按适合您的需要的顺序对子集排序。"
+>abstract="添加所需数量的子集以对传入群体进行分段。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，群体将按照各种子集添加到活动的顺序跨这些子集进行分段。在开始工作流之前，请确保您已使用箭头按钮按照符合您需求的顺序订购子集。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

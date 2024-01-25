@@ -5,7 +5,7 @@ badge: label="有限发布版"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 29%
+ht-degree: 33%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="用户档案"
->abstract="用户档案是接收Adobe Campaign发送消息的目标个人。 从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
+>abstract="配置文件是单个对象，旨在接收 Adobe Campaign 发送的消息。从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
 
 ## 什么是配置文件？ {#what}
 

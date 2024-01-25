@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -99,7 +99,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="合并生成补充"
->abstract="切换生成补码选项，以处理附加过渡中的剩余群体。"
+>abstract="启用“生成补集”选项以在额外过渡中处理剩余群体。"
 
 在 **合并** 活动，您可以配置 **排除项**. 为此，您需要执行以下额外步骤：
 
