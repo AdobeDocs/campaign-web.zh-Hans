@@ -4,10 +4,10 @@ title: 探索界面
 description: Campaign v8 Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 80%
+source-wordcount: '1703'
+ht-degree: 78%
 
 ---
 
@@ -153,6 +153,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建区段。"
+
+
+<!-- Waves-->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_definition"
+>title="批次定义"
+>abstract="定义批次以将投放拆分为多个批次，而不是同时发送大量消息。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_size"
+>title="波次的大小"
+>abstract="波浪的大小为必填项。 在大小字段中输入数值（消息数）或百分比(0-100%)。"
+
+
 
 <!-- Workflows-->
 
