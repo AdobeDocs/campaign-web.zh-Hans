@@ -4,10 +4,10 @@ title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 badge: label="有限发布版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 23%
+source-wordcount: '951'
+ht-degree: 21%
 
 ---
 
@@ -91,6 +91,17 @@ ht-degree: 23%
 * 向此服务的订阅者发送消息。 [了解如何操作](../msg/send-to-subscribers.md)
 
 ## 创建确认消息 {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="选择订阅投放模板"
+>abstract="要向订阅您的服务的用户发送确认消息，您必须根据以下内容选择特定的投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="选择退订投放模板"
+>abstract="要向取消订阅服务的用户发送确认消息，您必须根据 **[!UICONTROL 订阅]** 目标映射，无已定义目标。"
 
 要向订阅或取消订阅服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 为此，请执行以下步骤。
 
