@@ -3,10 +3,10 @@ title: 配置文件和受众入门
 description: 了解如何在 Campaign Web 中使用配置文件和受众
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="有限发布版"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 **受众**&#x200B;是行为和/或特征相似的配置文件的集合。可生成、选择或加载这组人员。创建受众后，可将其作为您的投放的目标群体。
 
-此外，可使用 Adobe Campaign Web 管理和创建&#x200B;**服务**（如新闻稿）以及检查这些服务的订阅或取消订阅情况。完成后，即可添加订阅者、取消订阅配置文件以及将消息发送到您服务的订阅者。
+此外，Adobe Campaign Web还可用于管理和创建 **服务** ，并检查这些服务的订阅或退订。 完成后，即可添加订阅者、取消订阅配置文件以及将消息发送到您服务的订阅者。
 
 既然您已了解可以在 Adobe Campaign Web 中做什么，现在应该仔细阅读这些文档章节以开始使用它。
 

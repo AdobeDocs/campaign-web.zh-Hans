@@ -1,16 +1,16 @@
 ---
 title: 创建条件内容
-description: 了解如何在 Adobe Campaign Web UI 中定义条件以使内容个性化
+description: 了解如何定义条件以在Adobe Campaign Web中个性化您的内容
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="有限发布版"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 14%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 

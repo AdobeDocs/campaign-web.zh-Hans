@@ -8,13 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
-workflow-type: ht
+exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
-
 
 # 开始使用动态内容 {#gs-dynamic-content}
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 作为一名营销人员，定位那些真正对您的产品感兴趣的客户，并提供有效的相关内容来吸引他们是至关重要的。鉴于您会遇到各种不同的收件人，创建多种营销内容来吸引不同的受众可能会既耗时又浪费。这种时候就是动态内容发挥作用的地方。
 
-Adobe Campaign Web 动态内容功能可让您根据收集到的收件人相关信息来定制内容。通过使用动态内容，您可以确保营销工作更具相关性，避免推广不需要或不必要的产品或服务。这种方法可使您的内容更具吸引力，并使受众更愿意去阅读内容。此外，它使您能够个性化您的内容，让收件人觉得他们收到的信息是由人而不是机器发送的。
+Adobe Campaign Web动态内容功能允许您根据所收集的有关收件人的信息来自定义内容。 通过使用动态内容，您可以确保营销工作更具相关性，避免推广不需要或不必要的产品或服务。这种方法可使您的内容更具吸引力，并使受众更愿意去阅读内容。此外，它使您能够个性化您的内容，让收件人觉得他们收到的信息是由人而不是机器发送的。
 
 ## 如何将内容设置为动态内容？ {#make-content-dyn}
 
