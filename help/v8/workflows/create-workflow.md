@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
 badge: label="有限发布版"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '792'
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,11 @@ ht-degree: 20%
 >id="acw_workflow_template_for_campaign"
 >title="工作流模板"
 >abstract="工作流模板包含可为创建新工作流重用的预先配置的设置和活动。"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_creation_properties"
+>title="工作流属性"
+>abstract="工作流模板包含预配置的设置和活动，可重复用于创建新工作流。 在此屏幕中，输入工作流模板的标签并配置其设置，如内部名称、文件夹和执行文件夹、时区和主管组。"
 
 工作流模板包含预配置的设置和活动，可重复用于创建新工作流。 创建工作流时，您可以从工作流属性中选择工作流的模板。 默认情况下，会提供一个空模板。
 
