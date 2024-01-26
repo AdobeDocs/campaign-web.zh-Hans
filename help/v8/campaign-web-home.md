@@ -4,10 +4,10 @@ description: Campaign Web v8 帮助中心
 title: Adobe Campaign Web v8 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="第 1 项"
->abstract="新增了电子邮件、短信和推送通知设计体验"
+>abstract="新的电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,7 +36,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="第 3 项"
->abstract="重新设想了受众、订阅、AEM Assets 和登陆页面的用户体验"
+>abstract="重新设计了面向受众、订阅、AEM Assets、登陆页面的UX"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
