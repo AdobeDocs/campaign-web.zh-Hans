@@ -4,9 +4,9 @@ title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta 版"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 59%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 规则生成器允许您通过过滤数据库中包含的数据来定义投放所定向的群体。 您可以使用它在工作流中构建受众。 **[!UICONTROL 构建受众]** 活动，或在创建投放以创建一次性受众时直接创建。
 
-* [了解如何创建受众](create-audience.md)
+* [了解如何创建和保存受众](create-audience.md)
 * [了解如何为投放创建一次性受众](one-time-audience.md)
 
 ## 面板
