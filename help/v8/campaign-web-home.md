@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;主页;热门主题
-description: Campaign Web v8 帮助中心
-title: Adobe Campaign Web v8 产品文档
+description: Campaign Web帮助中心
+title: Adobe Campaign Web产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 62%
+source-wordcount: '688'
+ht-degree: 59%
 
 ---
 
-# Adobe Campaign v8 Web 文档 {#campaign-documentation}
+# Adobe Campaign Web文档 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 62%
 我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本中填充了各种直观功能，这些功能旨在简化跨渠道个性化促销活动的创建，取得卓越的成效，并为您提供跨所有渠道的竞争优势。 此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 >[!AVAILABILITY]
-> Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
+> Adobe Campaign Web当前为Limited Availability (LA)版本。 仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 ## 新增功能
 
-大致了解Adobe Campaign v8 Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看 [此页面](rn/whats-new.md).
+大致了解Adobe Campaign Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看 [此页面](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ ht-degree: 62%
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>了解新的用户界面</strong><br/>探索Campaign v8 Web与Adobe Experience Platform集成的新界面和导航体验。</div>
+    <div><strong>了解新的用户界面</strong><br/>探索Adobe Campaign Web与Adobe Experience Platform集成的新界面和导航体验。</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

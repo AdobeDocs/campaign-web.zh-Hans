@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Campaign v8 Web 入门
-description: Campaign v8 Web 入门
+title: Adobe Campaign Web入门
+description: Adobe Campaign Web入门
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 80%
+ht-degree: 68%
 
 ---
 
-# 开始使用 Campaign v8 Web {#get-started}
+# Adobe Campaign Web入门 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="入门"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的Adobe Campaign Web界面提供了集成、直观且一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="入门"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的Adobe Campaign Web界面提供了集成、直观且一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="入门"
->abstract="新的 Campaign v8 Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的Adobe Campaign Web界面提供了集成、直观且一致的用户体验。"
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 
@@ -50,7 +50,7 @@ Adobe Campaign v8是新一代营销活动工具，专为各种营销渠道（如
 
 >[!NOTE]
 >
->Campaign v8 Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
+>Adobe Campaign Web当前为Limited Availability (LA)版本。 仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 在[此页面](connect-to-campaign.md)中了解如何连接到 Adobe Campaign Web 界面。
 

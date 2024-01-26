@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign Web动态内容功能允许您根据所收集的有关收件人�
 
 ## 访问表达式编辑器 {#access}
 
-Adobe Campaign V8 Web 提供了一个表达式编辑器，可让您选择、排列、自定义和验证所有数据，为自己的内容创建定制体验。在每个带有&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段（例如主题行字段）或电子邮件链接和文本/按钮内容组件中，表达式编辑器可用于所有渠道。
+Adobe Campaign Web提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，从而为您的内容创建自定义体验。 在每个带有&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段（例如主题行字段）或电子邮件链接和文本/按钮内容组件中，表达式编辑器可用于所有渠道。
 
 以下是有关如何根据要设为动态内容的内容来访问表达式编辑器的一些示例：
 

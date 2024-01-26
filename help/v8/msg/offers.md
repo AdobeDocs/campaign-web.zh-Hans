@@ -4,9 +4,9 @@ title: 在消息中添加优惠
 description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="有限发布版"
-source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 37%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # 将优惠添加到您的消息 {#offers-content}
 
-Adobe Campaign v8 Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 通过投放发送优惠的步骤如下：
 

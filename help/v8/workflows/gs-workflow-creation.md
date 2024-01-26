@@ -4,17 +4,17 @@ title: 创建工作流的主要原则
 description: 了解使用Adobe Campaign Web的工作流的主要原则
 badge: label="有限发布版"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 96%
+ht-degree: 87%
 
 ---
 
 
 # 创建工作流的主要原则 {#gs-workflow-creation}
 
-通过 Campaign v8 Web，可使工作流成为视觉画布的组成部分，以设计跨渠道流程，如分段、执行营销活动和处理文件。
+借助Adobe Campaign Web，您可以将工作流构建到可视画布中，以设计跨渠道流程，例如分段、活动执行、文件处理。
 
 
 ## 工作流中有什么？ {#gs-workflow-inside}

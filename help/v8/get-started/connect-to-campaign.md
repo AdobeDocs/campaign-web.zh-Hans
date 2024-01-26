@@ -1,18 +1,18 @@
 ---
 title: 连接到 Adobe Campaign Web 界面
-description: 了解如何连接到 Adobe Campaign v8 Web 用户界面
+description: 了解如何连接到Adobe Campaign Web用户界面
 badge: label="有限发布版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
 # 连接到 Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集成系列。通过其直观的界面，您可以快速访问云应用程序、产品功能和服务。请参阅此页面以了解如何连接到 Adobe Experience Cloud 并访问 Adobe Campaign v8 Web 界面。
+Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集成系列。通过其直观的界面，您可以快速访问云应用程序、产品功能和服务。请参阅此页面以了解如何连接到Adobe Experience Cloud以及访问Adobe Campaign Web界面。
 
 ## 登录到 Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 ## 支持的浏览器 {#browsers}
 
-Campaign v8 Web 所采用的设计使其能够在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以出色状态运行。您可能无法在较旧版本或其他浏览器上使用某些功能。
+Adobe Campaign Web设计为可在最新版本的Google Chrome、Safari和Microsoft Edge中以最佳方式工作。 您可能无法在较旧版本或其他浏览器上使用某些功能。
 
 ## 语言偏好设置 {#language-pref}
 
-Campaign v8 Web 目前提供以下语言版本：
+Adobe Campaign Web当前提供以下语言版本：
 
 * 英语（美国）- EN-US
 * 法语 - FR

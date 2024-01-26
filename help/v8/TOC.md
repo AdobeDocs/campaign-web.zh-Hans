@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-user-guide-description: Campaign v8 Web 的产品文档。
-title: Adobe Campaign v8 Web 文档
-description: Campaign v8 Web 文档
-breadcrumb-title: Campaign v8 Web
+user-guide-title: Adobe Campaign Web
+user-guide-description: Adobe Campaign Web产品文档。
+title: Adobe Campaign Web文档
+description: Campaign Web文档
+breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 87%
 
 ---
 
 
-# Adobe Campaign v8 Web 文档 {#v8}
+# Adobe Campaign Web文档 {#v8}
 
-+ [Campaign v8 Web 文档](campaign-web-home.md)
++ [Adobe Campaign Web文档](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
