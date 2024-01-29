@@ -25,7 +25,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以对传入群体进行分段。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，群体将按照各种子集添加到活动的顺序跨这些子集进行分段。在开始工作流之前，请确保您已使用箭头按钮按照符合您需求的顺序订购子集。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始工作流之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

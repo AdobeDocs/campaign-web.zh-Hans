@@ -29,7 +29,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="用户档案"
->abstract="配置文件是单个对象，旨在接收 Adobe Campaign 发送的消息。从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
+>abstract="配置文件是接收 Adobe Campaign 发送的消息所针对的个体。从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
 
 ## 什么是配置文件？ {#what}
 

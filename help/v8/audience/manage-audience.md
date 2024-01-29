@@ -16,12 +16,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="属性"
->abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。单击&#x200B;**上一个工作流**&#x200B;部分中的链接可打开已用于创建受众的工作流。"
+>abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。单击&#x200B;**上一个工作流**&#x200B;部分中的链接以打开已用于创建该受众的工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="可以在此处找到受众的配置文件总数。单击“计算”按钮可更新并重新计算受众结果。"
+>abstract="您可以在此处找到受众内配置文件的总数。单击“计算”按钮以更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

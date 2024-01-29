@@ -132,17 +132,17 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="订阅者总数"
->abstract="单击&#x200B;**计算**&#x200B;获取此服务的订阅者总数。"
+>abstract="单击&#x200B;**计算**&#x200B;以获取此服务的订阅者的总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="相关时段的订阅数"
->abstract="使用下拉列表更改时间范围并查看所选时段内的订阅数和取消订阅数。"
+>title="时段的订阅数"
+>abstract="使用下拉列表更改时间范围并查看所选时段的订阅数和取消订阅数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="订阅整体演变"
->abstract="此图显示按时段划分的细分情况，包括订阅数、取消订阅数、数量演变和忠诚度百分比。"
+>abstract="此图显示各时段的细分，包括订阅数、取消订阅数、数量演变和忠诚度百分比。"
 
 要衡量订阅服务对短信和电子邮件渠道的有效性，您可以访问给定服务的日志和报告。
 

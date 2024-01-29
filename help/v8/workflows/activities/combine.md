@@ -99,7 +99,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="合并生成补充"
->abstract="启用“生成补集”选项以在额外过渡中处理剩余群体。"
+>abstract="开启“生成补集”选项以在额外的过渡中处理剩余群体。"
 
 在 **合并** 活动，您可以配置 **排除项**. 为此，您需要执行以下额外步骤：
 
