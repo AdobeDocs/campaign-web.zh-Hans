@@ -6,10 +6,10 @@ title: Adobe Campaign Web文档
 description: Campaign Web文档
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '558'
+ht-degree: 84%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 87%
       + [预览消息内容](preview-test/preview-content.md)
       + [发送测试投放](preview-test/test-deliveries.md)
       + [测试电子邮件渲染](preview-test/email-rendering.md)
++ 登陆页面 {#landing-pages}
+   + [登陆页面入门](landing-pages/get-started-lp.md)
+   + [创建和发布登陆页面](landing-pages/create-lp.md)
+   + [设计登陆页面内容](landing-pages/lp-content.md)
+   + [使用登陆页面模板](landing-pages/lp-templates.md)
 + 用户档案和受众 {#audiences}
    + [用户档案和受众快速入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
