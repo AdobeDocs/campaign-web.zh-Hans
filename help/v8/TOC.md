@@ -6,9 +6,9 @@ title: Adobe Campaign Web文档
 description: Campaign Web文档
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 87%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 87%
             + [添加内联样式属性](email/inline-styling.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
-         + [监控投放日志](monitor/delivery-logs.md)
          + [电子邮件投放设置](advanced-settings/delivery-settings.md)
+         + [使用多批次发送](advanced-settings/send-using-waves.md)
+         + [监测投放日志](monitor/delivery-logs.md)
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)

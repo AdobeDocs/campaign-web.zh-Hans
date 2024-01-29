@@ -4,10 +4,10 @@ title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限发布版"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 59%
+source-wordcount: '2316'
+ht-degree: 58%
 
 ---
 
@@ -136,6 +136,8 @@ ht-degree: 59%
 * **[!UICONTROL 测试SMTP投放]**：此选项用于测试通过SMTP进行的发送。 处理投放直至连接到 SMTP 服务器，但不发送：对于投放的每个收件人，Campaign 连接到 SMTP 提供商服务器，执行 SMTP RCPT TO 命令，并在执行 SMTP DATA 命令之前关闭连接。
 
 * **[!UICONTROL 电子邮件密送]**：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+* **[!UICONTROL 使用多个批次发送]**：您可以逐步增加使用批次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
 您还可以更改所发送电子邮件的格式：
 
