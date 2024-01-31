@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 96%
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 
-在定义规则属性时有预定义过滤器可用。要访问预定义过滤器，请选择 **选择自定义筛选条件** 选项。
+在定义规则属性时有预定义过滤器可用。要访问预定义过滤器，请选择查询建模器下拉列表中的&#x200B;**选择自定义过滤器**&#x200B;选项。
 
 随后即可访问对当前上下文可用的预定义过滤器的完整列表。
 

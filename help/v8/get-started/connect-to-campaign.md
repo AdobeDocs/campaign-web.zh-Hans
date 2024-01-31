@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,10 +53,10 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 浏览界面的顶部栏可：
 
-* 分享有关Campaign Web UI的反馈
+* 分享有关 Campaign Web UI 的反馈
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
-* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"} 的帮助
+* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans){target="_blank"} 的帮助
 * 检查您的产品通知
 * 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
@@ -92,7 +92,7 @@ Adobe Campaign Web当前提供以下语言版本：
 
 >[!CAUTION]
 >
->如果您计划使用 [AI支持的上下文帮助](using-ai.md) 功能时，必须将首选语言设置为英语。 不支持其他语言。
+>如果您计划使用[由 AI 支持的上下文帮助](using-ai.md)功能，必须将首选语言设置为英语。不支持其他语言。
 >
 
 

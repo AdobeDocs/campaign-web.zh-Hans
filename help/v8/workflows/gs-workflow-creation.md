@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 创建工作流的主要原则
-description: 了解使用Adobe Campaign Web的工作流的主要原则
+description: 了解使用 Adobe Campaign Web 工作流的关键原则
 badge: label="有限发布版"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 工作流图表示应该发生什么。它描述要执行的各种任务及其如何链接在一起。
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 每个工作流包含：
 

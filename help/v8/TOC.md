@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 84%
    + [访问和权限](get-started/permissions.md)
    + [护栏和限制](get-started/guardrails.md)
    + [不支持的功能](get-started/unsupported.md)
-   + [AI支持的上下文帮助](get-started/using-ai.md)
-+ 消息和投放 {#msg}
+   + [由 AI 支持的上下文帮助](get-started/using-ai.md)
++ 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
    + [使用投放](msg/gs-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
       + [设计推送投放](push/content-push.md)
-      + [预览和发送推送投放](push/send-push.md)
+      + [预览并发送推送投放](push/send-push.md)
    + 短信 {#sms}
       + [短信投放入门](sms/gs-sms.md)
       + [创建短信投放](sms/create-sms.md)
@@ -95,7 +95,7 @@ ht-degree: 84%
    + [设计登陆页面内容](landing-pages/lp-content.md)
    + [使用登陆页面模板](landing-pages/lp-templates.md)
 + 用户档案和受众 {#audiences}
-   + [用户档案和受众快速入门](audience/gs-audiences-recipients.md)
+   + [用户档案和受众入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
    + 使用配置文件 {#work-with-profiles}
       + [开始使用用户档案](audience/about-recipients.md)
@@ -114,18 +114,18 @@ ht-degree: 84%
       + [创建和管理订阅服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)
 + 跨渠道营销活动 {#campaigns}
-   + [营销活动入门](campaigns/gs-campaigns.md)
+   + [开始使用营销活动](campaigns/gs-campaigns.md)
    + [访问和管理营销活动](campaigns/manage-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
 + 工作流{#wf}
    + [工作流入门](workflows/gs-workflows.md)
    + [访问和管理工作流](workflows/access-monitor.md)
-   + 创建并运行您的第一个工作流 {#create-workflow}
+   + 创建并运行您的第一个工作流{#create-workflow}
       + [创建工作流的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
       + [安排活动](workflows/orchestrate-activities.md)
       + [配置工作流设置](workflows/workflow-settings.md)
-      + [启动和监控工作流](workflows/start-monitor-workflows.md)
+      + [启动和监测工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
       + [关于工作流活动](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
@@ -153,12 +153,12 @@ ht-degree: 84%
    + [导出您的报告](reporting/export-reports.md)
    + [关键绩效指标](reporting/kpis.md)
    + 投放报告 {#delivery-report}
-      + [开始使用投放报告](reporting/delivery-reports.md)
+      + [投放报告入门](reporting/delivery-reports.md)
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
    + 营销活动报告 {#campaign-report}
-      + [开始使用营销活动报告](reporting/campaign-reports.md)
+      + [营销活动报告入门](reporting/campaign-reports.md)
       + [电子邮件营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)

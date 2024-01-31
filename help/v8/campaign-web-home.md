@@ -7,7 +7,7 @@ badge: label="有限发布版"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -83,36 +83,36 @@ ht-degree: 59%
 
 <!--TO REMOVE ABOVE-->
 
-我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本中填充了各种直观功能，这些功能旨在简化跨渠道个性化促销活动的创建，取得卓越的成效，并为您提供跨所有渠道的竞争优势。 此新的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
+我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 >[!AVAILABILITY]
 > Adobe Campaign Web当前为Limited Availability (LA)版本。 仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 ## 新增功能
 
-大致了解Adobe Campaign Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看 [此页面](rn/whats-new.md).
+大致了解Adobe Campaign Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看[此页面](rn/whats-new.md)。
 
 >[!BEGINTABS]
 
->[!TAB 跨渠道工作流]
+>[!TAB 跨渠道工作流程]
 
 发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
 >[!TAB 受众构成]
 
 在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
->[!TAB 电子邮件设计工具]
+>[!TAB 电子邮件设计器]
 
 利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
->[!TAB 配置文件360]
+>[!TAB 用户档案 360]
 
 创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。
 
@@ -138,7 +138,7 @@ ht-degree: 59%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的有关收件人的信息自定义您的内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
+    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的收件人信息来自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -156,27 +156,27 @@ ht-degree: 59%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到Campaign</a> - <a href="get-started/using-ai.md">AI支持的上下文帮助</a> - <a href="get-started/permissions.md">访问和权限</a>
+      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到 Campaign</a> - <a href="get-started/using-ai.md">由 AI 支持的上下文帮助</a> - <a href="get-started/permissions.md">访问和权限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
+    <br/>
+      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> -  <a href="push/gs-push.md">推送通知</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
+    <br/>
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送通知</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>用户档案和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试用户档案</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
+      <strong>用户档案和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试用户档案</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
     </td>
   </tr>
 </table>
 
 ## 其他资源
 
-* [Adobe Campaign产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans){target="_blank"}
+* [Adobe Campaign 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign V8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans){target="_blank"}
