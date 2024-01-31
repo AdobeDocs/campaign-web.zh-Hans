@@ -5,19 +5,19 @@ description: 了解如何使用 Campaign Web UI 中的电子邮件设计器开�
 badge: label="有限发布版"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
 ht-degree: 100%
 
 ---
 
-# 开始使用电子邮件设计器 {#get-started-email-designer}
+# 电子邮件设计器入门 {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="新的电子邮件设计器"
 >abstract="利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 
 <!--TO REMOVE BELOW-->
@@ -25,7 +25,7 @@ ht-degree: 100%
 >id="acw_homepage_rn3"
 >title="新的电子邮件设计器"
 >abstract="利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 <!--TO REMOVE ABOVE-->
 

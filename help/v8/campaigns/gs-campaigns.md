@@ -5,9 +5,9 @@ description: 了解如何开始使用跨渠道营销活动
 badge: label="有限发布版"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Adobe Campaign 可让您使用内置的营销活动管理功能轻松编排定�
 
 ![营销活动流](assets/campaign-flow.png)
 
-请在以下部分中了解如何创建、管理和监控您的营销活动：
+在以下部分中了解如何创建、管理和监测营销活动：
 
 * [访问和管理营销活动](manage-campaigns.md)
 * [创建您的第一个营销活动](create-campaigns.md)
-* [浏览您的营销活动报告](../reporting/campaign-reports.md).
+* [浏览您的营销活动报告](../reporting/campaign-reports.md)。
 
 

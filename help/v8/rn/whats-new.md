@@ -5,9 +5,9 @@ description: 发现 Campaign Web v8 附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 * 定义要在您的消息或工作流中定位的受众，并轻松地创建适合您需求的新受众
 * 在工作流活动中应用规则（如拆分和协调）以符合您的特定要求
 * 创建在各种过滤操作（无论您是使用数据列表还是生成投放的受众）期间充当快捷方式的预定义过滤器
-* 添加规则以筛选报表中显示的数据
+* 添加规则以筛选报告中显示的数据
 * 创建自定义规则以过滤在列表中显示的数据，如收件人、投放列表等
 
 可在[此部分](../query/query-modeler-overview.md)中了解详情。
@@ -72,14 +72,14 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 **内置跨渠道营销活动管理功能**
 
-通过 Adobe Campaign 可发送包括电子邮件、短信和推送通知在内的跨渠道营销活动，并可使用各种专门的报告衡量其有效性。通过添加多个特定于营销活动的工作流和投放，可在各个渠道上创建个性化体验，从而确保每个接触点都与目标受众产生共鸣。
+通过 Adobe Campaign 可发送包括电子邮件、短信和推送通知在内的跨渠道营销活动，并可使用各种专门的报告衡量其有效性。通过添加特定于营销活动的多个工作流和投放，您可以跨各种渠道创建个性化体验，确保每个接触点都能使目标受众产生共鸣。
 
 使用新的 Campaign Web UI 可：
 
 * 创建、设计、个性化、安排和发送电子邮件、短信和推送通知 - [了解详情](../msg/gs-messages.md)
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../email/edit-content.md)
 * 发送跨渠道营销活动，包括短信和推送通知 - [了解详情](../workflows/activities/channels.md)
-* 使用查询建模器定义目标受众 —  [了解详情](../audience/about-recipients.md)
+* 使用查询建模器定义目标受众 - [了解详情](../audience/about-recipients.md)
 * 预览、测试和发送消息 - [了解详情](../monitor/prepare-send.md)
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 
