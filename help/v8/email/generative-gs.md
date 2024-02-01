@@ -6,27 +6,23 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 37%
+source-wordcount: '462'
+ht-degree: 32%
 
 ---
 
 # 内容助手快速入门 {#generative-gs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="适用于电子邮件内容的生成式 AI"
->abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="适用于电子邮件内容的生成式 AI"
 >abstract="我们的生成式 AI 技术采用高级算法来生成极具吸引力的个性化内容。利用生成式 AI 的智能内容生成功能提高打开率、点进率和转化率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 <!--TO REMOVE ABOVE-->
 
