@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 15%
+source-wordcount: '946'
+ht-degree: 8%
 
 ---
 
@@ -19,10 +20,10 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="定义您自己的内容"
->abstract="从头开始创建独立的自定义模板，这样您的内容便可在多个电子邮件中重复使用。"
+>title="内容模板"
+>abstract="为了加快并改进设计过程，您可以创建独立的电子邮件模板，以轻松地在Adobe Campaign中重复使用自定义内容。 这些内容模板可以从头开始设计，基于内置或自定义模板，从现有内容创建，或在内容模板编辑器中导入。"
 
-为了加快并改进设计过程，您可以创建独立的模板，以轻松地在上下文中重复使用自定义内容 [!DNL Adobe Campaign].
+为了加快并改进设计过程，您可以创建独立的模板，以轻松地在上下文中重复使用自定义内容 [!DNL Adobe Campaign]. 这些内容模板可以从头开始设计，基于内置或自定义模板，从现有内容创建，或在内容模板编辑器中导入。
 
 此功能使面向内容的用户能够使用独立的模板，以便营销用户可以重复使用并在其自己的电子邮件促销活动中调整模板。
 
@@ -30,40 +31,23 @@ ht-degree: 15%
 >
 >当前仅限 **电子邮件** 支持内容模板。
 
-## 访问和管理模板 {#access-manage-templates}
+## 访问内容模板 {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="编辑您的模板内容"
 >abstract="单击&#x200B;**编辑内容**&#x200B;按钮可使用电子邮件设计器更新您的内容。"
 
-要访问内容模板列表，请选择 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 从左侧菜单。
+要访问内容模板列表，请浏览至 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 菜单。
 
 ![](assets/content-template-list.png)
 
-创建的所有模板 — 来自使用 [另存为模板](#save-as-template) 选项，来自 **[!UICONTROL 内容模板]** 菜单 — 显示。
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+此仪表板将所有可用的内容模板显示为列表。 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-要编辑模板内容，请在列表中单击所需的项目。 您可以：
+从该列表中，您可以编辑、复制或删除现有内容模板。 使用上半部分的按钮可创建内容模板。
 
-* 编辑其属性。
-
-* 单击 **[!UICONTROL 编辑内容]** 按钮以使用更新您的内容 [电子邮件设计工具](get-started-email-designer.md).
-
-![](assets/content-template-edition.png)
-
-要删除模板，请从 **[!UICONTROL 更多操作]** 菜单。
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->删除模板时，使用此模板创建的投放不会受到影响。
 
 ## 创建内容模板 {#create-content-templates}
 
@@ -77,13 +61,9 @@ ht-degree: 15%
 >title="内容模板选择"
 >abstract="内容模板选择"
 
-创建内容模板的方法有两种：
+内容模板可以通过以下方式创建 [将现有电子邮件另存为模板](#save-as-template)，或从电子邮件模板列表中，通过 **创建内容模板** 按钮， [如下所述](#create-template-from-scratch).
 
-* 使用左边栏从头开始创建内容模板 **[!UICONTROL 内容模板]** 菜单。 [了解如何操作](#create-template-from-scratch)
-
-* 设计电子邮件时，将电子邮件内容另存为模板。 [了解如何操作](#save-as-template)
-
-保存后，无论是从头开始还是从以前的电子邮件创建的，您现在都可以在构建任何模板时使用此模板 [电子邮件](../email/create-email.md) 范围 [!DNL Adobe Campaign]. [了解如何操作](use-email-templates.md)
+保存后，您现在可以在构建任何 [电子邮件](../email/create-email.md) 范围 [!DNL Adobe Campaign]. [了解如何操作](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -91,32 +71,28 @@ ht-degree: 15%
 >
 >* 同样，在电子邮件中使用模板时，您对电子邮件内容所做的任何编辑都不会影响以前使用的内容模板。
 
-### 从头开始制定模板 {#create-template-from-scratch}
+### 创建新内容模板 {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定义模板属性"
->abstract="从头开始创建模板时，定义其属性以便在需要时轻松检索。"
+>abstract="根据需要轻松定义要检索的电子邮件内容模板属性。"
 
-要从头开始创建内容模板，请执行以下步骤。
+要从内容模板仪表板中创建新内容模板，请执行以下步骤：
 
-1. 通过以下方式访问内容模板列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 左侧菜单。
+1. 从浏览内容模板列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 左边栏。
 
 1. 选择 **[!UICONTROL 创建模板]**.
 
    ![](assets/content-template-create.png)
 
-1. 填写模板详细信息。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用文件夹中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. [了解如何创建文件夹](../get-started/permissions.md#folders)
+1. 输入模板标签和属性。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用文件夹中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. 了解有关文件夹的详细信息 [此页面](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >当前仅 **电子邮件** 渠道和 **HTML** 类型受支持。
-
 1. 单击 **[!UICONTROL 创建]** 并从不同的选项中选择所需的模板设计方式：
 
-   * [从头开始设计电子邮件](create-email-content.md) 通过Email Designer的界面。
+   * [从头开始设计内容](create-email-content.md) 通过Email Designer的界面。
 
    * [编码或复制粘贴原始HTML](code-content.md) 直接导入Email Designer。
 
@@ -126,7 +102,7 @@ ht-degree: 15%
 
    ![](assets/email_designer-templates.png)
 
-1. 此 [电子邮件设计工具](get-started-email-designer.md) 显示。 根据所选选项，根据需要编辑内容，就像对任何电子邮件执行编辑操作一样。
+1. 此时将显示Email Designer。 根据所选选项，根据需要编辑内容，就像对任何电子邮件执行编辑操作一样。 了解如何在中使用电子邮件设计器 [本节](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -136,9 +112,7 @@ ht-degree: 15%
 
    ![](assets/content-template-save-back.png)
 
-模板将保存到Adobe Campaign层次结构的默认文件夹中(**[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**)。 [了解有关文件夹的更多信息](../get-started/permissions.md#folders)
-
-它也显示在 **[!UICONTROL 内容模板]** 列表。 [了解详情](#access-manage-templates)
+该模板位于 **[!UICONTROL 内容模板]** 列表。 [了解详情](#access-templates)
 
 您现在可以使用此模板来构建新内容：此模板位于 **[!UICONTROL 已保存模板]** 选项卡。 [了解如何操作](use-email-templates.md)
 
@@ -158,13 +132,12 @@ ht-degree: 15%
 
    ![](assets/email_designer-template-name.png)
 
-模板将保存到Adobe Campaign层次结构的默认文件夹中(**[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**)。 [了解有关文件夹的更多信息](../get-started/permissions.md#folders)
-
-它也显示在 **[!UICONTROL 内容模板]** 列表。 它会变成一个独立的内容模板，可以像该列表中的任何其他项目一样访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
+模板将保存并显示在 **[!UICONTROL 内容模板]** 列表。 它会变成一个独立的内容模板，可以像该列表中的任何其他项目一样访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
 
 您现在可以使用此模板来构建新内容：此模板位于 **[!UICONTROL 已保存模板]** 选项卡。 [了解如何操作](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -187,4 +160,43 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
+## 修改内容模板 {#modify-delete}
+
+要更新现有内容模板，请执行以下步骤：
+
+1. 从内容模板列表中，单击要修改的模板的标签以对其进行编辑。
+
+1. 单击 **[!UICONTROL 编辑内容]** 按钮以使用更新您的内容 [电子邮件设计工具](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>使用此内容模板时，对内容模板所做的更改不会传播到电子邮件。
+
+## 删除内容模板 {#content-delete}
+
+您可以通过两种方式删除内容模板：
+
+* 从内容模板列表中，单击省略号按钮，然后选择 **删除**
+
+  ![从功能板中删除内容模板](assets/content-template-list-delete.png)
+
+* 从内容模板本身，单击 **更多** 按钮，然后选择 **删除**
+
+
+>[!NOTE]
+>
+>删除内容模板不会影响使用此模板创建的投放。
+
+
+## 复制内容模板 {#content-duplicate}
+
+复制内容模板的方法有两种：
+
+* 从内容模板列表中，单击省略号按钮，然后选择 **复制**
+
+* 从内容模板本身，单击 **更多** 按钮，然后选择 **复制**
+
+在这两种情况下，确认复制以创建新内容模板。 新内容模板的标签为 **副本`<label of the initial campaign`**. 浏览到模板设置以更新此标签。
 

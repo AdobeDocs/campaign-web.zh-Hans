@@ -3,9 +3,9 @@ audience: end-user
 title: 登陆页面入门
 description: 了解Campaign Web中的登陆页面
 badge: label="有限发布版"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
->abstract="探索全新的登陆页面体验。 即时创建、设计和共享登陆页面，将您的用户定向到在线网页，您可以在在线网页上快速、无缝地管理用户档案数据采集和选择加入/选择退出流程。"
+>abstract="探索全新的登陆页面体验。 即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 
