@@ -14,7 +14,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="创建和管理登陆页面"
->abstract="Adobe Campaign 允许您创建和设计登陆页面，以将用户定向到在线表单，在该表单中，用户可以选择启用或选择禁用接收通信，或订阅特定服务（如新闻稿）。"
+>abstract="通过 Adobe Campaign 可创建和设计登陆页面以告知用户如何进入在线表单，用户从中可选择启用或选择禁用接收通讯，还可订阅新闻稿等特定服务。"
 
 要将您的客户引导至要在他们单击特定链接时显示的已定义网页，请在中创建登陆页面 [!DNL Adobe Campaign]，设计其内容，对其进行测试和发布。
 
@@ -43,7 +43,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="定义登陆页面属性"
->abstract="填写属性字段（例如标签）并根据需要修改架构。此外，您可以编辑内部名称、更改用于存储登陆页面的文件夹并提供描述。"
+>abstract="填写标签等属性字段并根据需要修改架构。此外，还可编辑内部名称、更改从中存储登陆页面的文件夹和提供描述。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
@@ -52,19 +52,19 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="计划您的登陆页面"
->abstract="您可以定义登陆页面的开始日期和结束日期。在页面过期时，会显示&#x200B;**过期**&#x200B;页面。"
+>title="安排您的登陆页面"
+>abstract="可定义登陆页面的开始日期和结束日期。在页面到期时，将显示&#x200B;**到期**&#x200B;页面。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="定义主页面设置"
->abstract="用户单击您的登陆页面链接（例如在电子邮件或网站中）时，主页面会立即显示给用户。"
+>abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="设置您的订阅登陆页面"
->abstract="订阅页面可让您的客户订阅服务。"
+>abstract="通过订阅页面，您的客户可订阅服务。"
 
 <!--The main steps to create landing pages are as follows:
 
@@ -102,7 +102,7 @@ ht-degree: 27%
 
    ![](assets/lp-storage-schedule.png)
 
-1. 您可以定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。 在页面过期时，会显示&#x200B;**[!UICONTROL 过期]**&#x200B;页面。
+1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。 在页面到期时，将显示&#x200B;**[!UICONTROL 到期]**&#x200B;页面。
 
 1. 单击 **[!UICONTROL 审阅并发布]**.
 
@@ -113,7 +113,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="模拟您的登陆页面"
->abstract="您可以在 Campaign Web 用户界面中查看登陆页面的预览，或在新的 Web 浏览器标签页中打开它。"
+>abstract="可在 Campaign Web 用户界面中查看登陆页面的预览，或在新的 Web 浏览器标签页中打开它。"
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: 开始使用 Adobe Campaign Web
-description: 开始使用 Adobe Campaign Web
+title: Adobe Campaign Web 快速入门
+description: Adobe Campaign Web 快速入门
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
@@ -11,22 +11,22 @@ ht-degree: 98%
 
 ---
 
-# 开始使用 Adobe Campaign Web {#get-started}
+# Adobe Campaign Web 快速入门 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="入门"
->abstract="新的 Adobe Campaign Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="入门"
->abstract="新的 Adobe Campaign Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="入门"
->abstract="新的 Adobe Campaign Web 界面提供了集成、直观和一致的用户体验。"
+>abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
 

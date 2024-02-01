@@ -11,17 +11,17 @@ ht-degree: 9%
 ---
 
 
-# 使用批次发送 {#send-using-waves}
+# 按波次发送 {#send-using-waves}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="批次定义"
->abstract="定义批次以将投放分成多个批次，而不是同时发送大量消息。"
+>title="波次定义"
+>abstract="定义波次以将投放分为多个批次，而非同时发送大量消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="批次大小"
->abstract="批次大小是必填的。在大小字段中输入数值（消息数）或百分比 (0-100%)。"
+>title="波次的大小"
+>abstract="波次的大小为必填。在大小字段中输入数值（消息数）或百分比 (0-100%)。"
 
 要平衡负荷，您可以将投放分为多个批。 配置批次数量及其相对于整个投放的比例。
 

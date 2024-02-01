@@ -26,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="第 1 项"
->abstract="新增了电子邮件、短信和推送通知设计体验"
+>abstract="新的电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -64,7 +64,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
 >title="第 1 项"
->abstract="新增了电子邮件、短信和推送通知设计体验"
+>abstract="新的电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
