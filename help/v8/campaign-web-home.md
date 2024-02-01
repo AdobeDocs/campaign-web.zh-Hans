@@ -7,11 +7,11 @@ badge: label="有限发布版"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
-# Adobe Campaign Web文档 {#campaign-documentation}
+# Adobe Campaign Web 文档 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -26,7 +26,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="第 1 项"
->abstract="新的电子邮件、短信和推送通知设计体验"
+>abstract="新增了电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,7 +36,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="第 3 项"
->abstract="重新设计了面向受众、订阅、AEM Assets、登陆页面的UX"
+>abstract="重构了受众、订阅、AEM Assets 和登陆页面的用户体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"

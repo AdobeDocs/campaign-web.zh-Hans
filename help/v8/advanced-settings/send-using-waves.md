@@ -6,7 +6,7 @@ badge: label="有限发布版"
 source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="批次定义"
->abstract="定义批次以将投放拆分为多个批次，而不是同时发送大量消息。"
+>abstract="定义批次以将投放分成多个批次，而不是同时发送大量消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="波次的大小"
->abstract="波浪的大小为必填项。 在大小字段中输入数值（消息数）或百分比(0-100%)。"
+>title="批次大小"
+>abstract="批次大小是必填的。在大小字段中输入数值（消息数）或百分比 (0-100%)。"
 
 要平衡负荷，您可以将投放分为多个批。 配置批次数量及其相对于整个投放的比例。
 

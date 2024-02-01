@@ -1,15 +1,15 @@
 ---
-title: 浏览用户档案的详细信息
+title: 浏览配置文件的详细信息
 description: 了解如何浏览用户档案的详细信息。
 badge: label="有限发布版"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
-# 浏览用户档案的详细信息 {#profile-view}
+# 浏览配置文件的详细信息 {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"

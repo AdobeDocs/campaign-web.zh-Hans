@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
@@ -95,13 +95,13 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="选择订阅投放模板"
->abstract="要向订阅您的服务的用户发送确认消息，您必须根据以下内容选择特定的投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。"
+>abstract="要向订阅您服务的用户发送确认消息，您必须根据&#x200B;**[!UICONTROL 订阅]**&#x200B;目标映射选择特定的投放模板，而不使用定义的目标。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
->title="选择退订投放模板"
->abstract="要向取消订阅服务的用户发送确认消息，您必须根据 **[!UICONTROL 订阅]** 目标映射，无已定义目标。"
+>title="选择取消订阅投放模板"
+>abstract="要向取消订阅您服务的用户发送确认消息，您必须根据&#x200B;**[!UICONTROL 订阅]**&#x200B;目标映射选择特定的投放模板，而不使用定义的目标。"
 
 要向订阅或取消订阅服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 为此，请执行以下步骤。
 
