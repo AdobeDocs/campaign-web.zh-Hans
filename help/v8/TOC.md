@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web
-user-guide-description: Adobe Campaign Web产品文档。
-title: Adobe Campaign Web文档
+user-guide-title: Adobe Campaign Web用户界面
+user-guide-description: Adobe Campaign Web用户界面的产品文档。
+title: Adobe Campaign Web 文档
 description: Campaign Web文档
-breadcrumb-title: Campaign Web
+breadcrumb-title: Campaign Web用户界面
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '566'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # Adobe Campaign Web文档 {#v8}
 
-+ [Adobe Campaign Web文档](campaign-web-home.md)
++ [Adobe Campaign Web用户界面文档](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
@@ -99,7 +99,7 @@ ht-degree: 89%
    + [定位维度](audience/targeting-dimensions.md)
    + 使用配置文件 {#work-with-profiles}
       + [开始使用用户档案](audience/about-recipients.md)
-      + [浏览用户档案的详细信息](audience/profile-view.md)
+      + [浏览配置文件的详细信息](audience/profile-view.md)
       + [创建用户档案](audience/create-profile.md)
       + [使用测试用户档案](audience/test-profiles.md)
    + 使用受众 {#audiences}
