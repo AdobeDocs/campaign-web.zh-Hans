@@ -4,10 +4,10 @@ title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限发布版"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 58%
+source-wordcount: '2326'
+ht-degree: 57%
 
 ---
 
@@ -125,9 +125,11 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="投放的投放设置"
->abstract="投放参数是应用于投放的技术设置。您可以为投放激活密件抄送，并更改投放和例行模式。这些选项仅供专家用户使用。"
+>abstract="投放参数是应用于投放的技术设置。您可以更改投放和例行模式、激活电子邮件密件抄送、使用批次发送，以及选择已发送电子邮件的格式。 这些选项仅供专家用户使用。"
 
 **[!UICONTROL 投放]** 参数是适用于投放的技术设置。
+
+![](assets/delivery-settings-delivery.png)
 
 集成的电子邮件 **[!UICONTROL 路由]** 默认提供外部帐户。 其中包含允许应用程序发送电子邮件的技术参数。
 

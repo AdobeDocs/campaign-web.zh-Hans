@@ -3,7 +3,7 @@ audience: end-user
 title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 badge: label="有限发布版"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 9%
@@ -34,7 +34,11 @@ ht-degree: 9%
 
 1. 要配置批次，您可以：
 
-   * **[!UICONTROL 计划多个相同大小的批次]**. 例如，如果您输入 **[!UICONTROL 30%]** 在相应的字段中，每个波次将代表投放中所包含报文的30%，但最后一条代表10%的报文。
+   * **[!UICONTROL 计划多个相同大小的批次]**.
+
+     例如，如果您输入 **[!UICONTROL 30%]** 在相应的字段中，每个波次将代表投放中所包含报文的30%，但最后一条代表10%的报文。
+
+     ![](assets/waves-same-size.png)
 
      在 **[!UICONTROL 间隔]** 部分，指定两个连续批次开始之间的延迟。 例如，如果您输入 **[!UICONTROL 2d]**，第一波立即开始，第二波在两天内开始，第三波在四天内开始，以此类推。
 
@@ -44,7 +48,9 @@ ht-degree: 9%
 
      在下面的示例中，第一波表示投放中包含的消息总数的25%，将立即启动。 接下来的两个批次将完成投放，并设置为以六小时间隔开始。
 
-     特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 促销活动类型及其规则配置于 **[!UICONTROL 类型]** 选项卡进行发送。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 促销活动类型及其规则配置于 **[!UICONTROL 类型]** 选项卡进行发送。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ ht-degree: 9%
 
   要执行此操作，请使用 **[!UICONTROL 根据日程表计划批次]** 选项。 例如，将第一个波次设置为10%，将第二个波次设置为15%，以此类推。
 
+  ![](assets/waves-ramp-up.png)
+
 * **涉及呼叫中心的营销活动**
 
   在管理电话忠诚度促销活动时，贵组织处理致电订阅者的能力有限。
@@ -73,3 +81,5 @@ ht-degree: 9%
   使用批次，您可以将每天的消息数量限制为20，这是呼叫中心的每日处理能力。
 
   要执行此操作，请选择 **[!UICONTROL 计划多个相同大小的批次]** 选项。 输入 **[!UICONTROL 20]** 因为波浪的大小和 **[!UICONTROL 1d]** 在 **[!UICONTROL 期间]** 字段。
+
+  ![](assets/waves-call-center.png)
