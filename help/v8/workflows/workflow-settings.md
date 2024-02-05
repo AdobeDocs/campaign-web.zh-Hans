@@ -4,7 +4,7 @@ title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 badge: label="有限发布版"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
    * **数据库的时区** 使用数据库服务器的时区
    * 特定时区
 * 当工作流失败时，操作员将属于在 **[!UICONTROL 主管]** 字段会通过电子邮件接收通知。
-* *您也可以输入 **[!UICONTROL 描述]** 的工作流。
+* 您也可以输入 **[!UICONTROL 描述]** 的工作流。
 
 当工作流为 [与活动关联](create-workflow.md)，它显示在中 **[!UICONTROL 链接的活动]** 字段。 您可以从该字段打开关联的营销策划。
 
