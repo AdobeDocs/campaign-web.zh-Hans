@@ -4,10 +4,10 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 70%
+source-wordcount: '1367'
+ht-degree: 68%
 
 ---
 
@@ -144,11 +144,9 @@ ht-degree: 70%
 
 ## 安排发送 {#schedule}
 
-要计划电子邮件的发送，请执行以下步骤。
+在工作流上下文中发送投放时，您必须使用 **计划程序** 活动。 了解详情，请参阅 [此页面](../workflows/activities/scheduler.md). 以下步骤仅适用于独立投放。
 
-有关如何计划投放发送的其他说明，请参见 [本节](../msg/gs-messages.md#gs-schedule).
-
-1. 浏览至 **[!UICONTROL 计划]** 部分。
+1. 浏览至 **[!UICONTROL 计划]** 投放属性的部分。
 
 1. 使用 **[!UICONTROL 启用计划]** 切换以激活它。
 
@@ -156,7 +154,9 @@ ht-degree: 70%
 
    ![](assets/schedule.png)
 
-发送投放后，实际发送将在您定义的联系日期开始。
+发送投放后，实际发送从您定义的联系日期开始。
+
+在中了解有关投放计划的更多信息 [本节](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## 预览和测试电子邮件 {#preview-test}
 

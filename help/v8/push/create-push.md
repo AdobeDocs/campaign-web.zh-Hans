@@ -4,10 +4,10 @@ title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 badge: label="有限发布版"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 37%
+source-wordcount: '706'
+ht-degree: 32%
 
 ---
 
@@ -89,10 +89,21 @@ ht-degree: 37%
 
 ## 计划投放发送 {#schedule-push}
 
-要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule)
+在工作流上下文中发送投放时，您必须使用 **计划程序** 活动。 了解详情，请参阅 [此页面](../workflows/activities/scheduler.md). 以下步骤仅适用于独立投放。
+
+要将独立推送投放计划为特定日期和时间，请执行以下步骤：
+
+1. 浏览至 **[!UICONTROL 计划]** 投放属性的部分。
+
+1. 使用 **[!UICONTROL 启用计划]** 切换以激活它。
+
+1. 设置所需的发送日期和时间。
+
+启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。
 
 ![](assets/push_create_3.png)
 
+在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule)
 
 ## “交付”高级设置 {#adv-push}
 
