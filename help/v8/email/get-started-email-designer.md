@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 编辑电子邮件内容
-description: 了解如何使用 Campaign Web UI 中的电子邮件设计器开始生成内容
+description: 了解如何使用Campaign Web用户界面中的电子邮件设计工具开始构建内容
 badge: label="有限发布版"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 

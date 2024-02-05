@@ -4,9 +4,9 @@ title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 badge: label="有限发布版"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 43%
 
 ---
@@ -125,4 +125,4 @@ ht-degree: 43%
 
 ## 兼容性 {#reconciliation-compat}
 
-此 **调解** 客户端控制台中不存在活动。 全部 **扩充功能** 在启用了协调选项的客户端控制台中创建的活动显示为 **调解** Campaign Web UI中的活动。
+此 **调解** 客户端控制台中不存在活动。 全部 **扩充功能** 在启用了协调选项的客户端控制台中创建的活动显示为 **调解** Campaign Web用户界面中的活动。

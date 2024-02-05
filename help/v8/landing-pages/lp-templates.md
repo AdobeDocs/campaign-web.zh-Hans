@@ -3,7 +3,7 @@ audience: end-user
 title: 使用登陆页面内容模板
 description: 了解如何将登陆页面内容另存为设计模板并在Campaign Web中重复使用
 badge: label="有限发布版"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
@@ -56,4 +56,4 @@ ht-degree: 14%
 
 1. 使用登陆页设计器根据需要编辑您的内容。
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

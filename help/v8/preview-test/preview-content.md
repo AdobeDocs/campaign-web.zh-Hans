@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 预览投放内容
-description: 了解如何使用Campaign Web UI预览投放内容
+description: 了解如何使用Campaign Web用户界面预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限发布版"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,18 @@ ht-degree: 2%
 
    * **[!UICONTROL 添加订阅者]** 用于预览推送通知
 
-1. 您可以组合测试用户档案和用户档案，以预览电子邮件或短信消息。
+1. 您可以组合用户档案和测试用户档案，以预览电子邮件或短信消息。
 
    * 此 **[!UICONTROL 测试用户档案]** 选项卡列出了所有种子地址，这些地址是数据库中的其他虚构收件人。
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >测试用户档案可从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
+     测试用户档案可从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
-   * 此 **[!UICONTROL 配置文件]** 选项卡列出了存储在中的所有收件人 **[!UICONTROL 配置文件和目标]** 中的文件夹 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >您还可以从Campaign Web UI中的相应选项卡查看和管理用户档案。 [了解详情](../audience/about-recipients.md)
+   * 此 **[!UICONTROL 配置文件]** 选项卡列出了存储在中的所有收件人 **[!UICONTROL 配置文件和目标]** 中的文件夹 [!DNL Campaign] 客户端控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+
+     您可以从查看、创建和管理用户档案 **[!UICONTROL 配置文件]** 选项卡。 [了解详情](../audience/about-recipients.md)
+
 
 1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
 

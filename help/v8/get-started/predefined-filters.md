@@ -3,10 +3,10 @@ title: 使用预定义过滤器
 description: 了解如何在Adobe Campaign Web中创建和管理预定义过滤器
 badge: label="有限发布版"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="预定义过滤器管理"
->abstract="Campaign Web 现在提供一个方便用户使用的界面，以供轻松地管理和自定义预定义过滤器以满足您的特定需求。创建一次并保存以供将来使用。"
+>abstract="Campaign Web用户界面提供了用户友好的界面，可轻松管理和自定义预定义过滤器，以满足您的特定需求。 创建一次并保存以供将来使用。"
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="预定义过滤器"
->abstract="Campaign Web 现在提供一个方便用户使用的界面，以供轻松地管理和自定义预定义过滤器以满足您的特定需求。创建一次并保存以供将来使用。"
+>abstract="Campaign Web用户界面为您提供用户友好的界面，可轻松管理和自定义预定义过滤器，以满足您的特定需求。 创建一次并保存以供将来使用。"
 
 预定义过滤器是创建并保存以供将来使用的自定义过滤器。在使用查询建模器进行任何过滤操作时，例如在过滤数据列表或创建投放受众时，可将预定义过滤器用作快捷方式。
 

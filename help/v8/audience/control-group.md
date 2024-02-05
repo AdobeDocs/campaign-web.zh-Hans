@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 设置对照组
-description: 了解如何在 Campaign Web UI 中为您的消息设置对照组
+description: 了解如何在Campaign Web用户界面中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="有限发布版"
-source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 39%
+source-wordcount: '787'
+ht-degree: 37%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 39%
 
 ## 启用对照组{#add-a-control-group}
 
-要添加控制组，请在定义投放受众时启用选项。 可以从主目标随机提取和/或从特定群体中选择该控制组。因此，有两种主要方法可定义控制组：
+要添加控制组，请在定义投放受众时启用选项。 可以从主目标随机提取和/或从特定群体中选择该对照组。因此，有两种主要方法可定义对照组：
 
 * 从主目标提取大量配置文件。
 * 从列表中排除某些用户档案，或根据查询中定义的条件排除某些用户档案。

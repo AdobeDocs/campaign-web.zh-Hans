@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 测试电子邮件渲染
-description: 了解如何在 Campaign Web UI 中测试电子邮件渲染
+description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 3%
 
 ---
 

@@ -1,56 +1,56 @@
 ---
-title: Campaign Web UI 中的护栏和限制
-description: Campaign Web UI 中的护栏和限制
-badge: label="Beta"
+title: Campaign Web用户界面的护栏和限制
+description: Campaign Web用户界面的护栏和限制
+badge: label="Beta 版"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # 护栏和限制 {#guardrails-limitations}
 
-在 Campaign Web UI 中使用在 Campaign 客户端控制台中创建或修改的组件时，适用以下列出的护栏和限制。
+在Campaign Web用户界面中使用在Campaign客户端控制台中创建或修改的组件时，以下列出的护栏和限制适用。
 
 ## 工作流 {#wf-guardrails-limitations}
 
 ### 活动
 
-Web UI 中尚不支持的工作流活动为只读活动，并显示为不兼容的活动。仍可执行工作流、发送消息、检查日志等。可编辑在 Web UI 和客户端控制台中都能找到的工作流活动。
+Campaign Web用户界面中尚不支持的工作流活动是只读的，并且显示为不兼容的活动。 仍可执行工作流、发送消息、检查日志等。在Campaign Web用户界面和Campaign客户端控制台中可用的工作流活动均可编辑。
 
-| 控制台 | Web UI |
+| 控制台 | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-不显示 Web UI 中尚不支持的工作流活动设置。但是，在执行工作流时适用这些设置。
+不会显示Web用户界面中尚不受支持的工作流活动设置。 但是，在执行工作流时适用这些设置。
 
-| 控制台 | Web UI |
+| 控制台 | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-在控制台中，**扩充**&#x200B;活动可执行协调和扩充。在 Web UI 中尚无协调功能可用。如果已在控制台中定义&#x200B;**扩充**&#x200B;活动中的协调设置，则该活动将在 Web UI 中显示为不兼容的只读活动。
+在控制台中，**扩充**&#x200B;活动可执行协调和扩充。在Campaign Web用户界面中，协调功能尚不可用。 如果您在客户端控制台中定义了 **扩充** 活动，在Campaign Web用户界面中显示为不兼容的只读活动。
 
-| 控制台 | Web UI |
+| 控制台 | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### 画布
 
-在 Web UI 中创建新工作流时，画布仅支持一个入口点。但是，如果在控制台中创建具有多个入口点的工作流，则可在 Web UI 中打开并编辑该工作流。
+在Campaign Web用户界面中创建新工作流时，画布仅支持一个入口点。 但是，如果您在控制台中创建了一个具有多个入口点的工作流，则可以在Campaign Web用户界面中打开并编辑该工作流。
 
-| 控制台 | Web UI |
+| 控制台 | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-在 Web UI 中尚无循环可用。如果使用控制台创建了包括循环的工作流，则无法从 Web UI 访问该工作流。并显示一条错误消息。
+循环在Campaign Web用户界面中尚不可用。 如果您使用控制台创建了包含循环的工作流，则无法从Campaign Web用户界面访问该工作流。 并显示一条错误消息。
 
-| 控制台 | Web UI |
+| 控制台 | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-每次添加或删除活动时都会刷新节点的定位。如果在控制台中创建工作流，使用 Web UI 修改它，然后在控制台中重新打开它，则可能会发现一些细微的定位瑕疵。这种情况不影响工作流的过程和任务。
+每次添加或删除活动时都会刷新节点的定位。如果在控制台中创建工作流，并使用Campaign Web用户界面修改它，然后在控制台中重新打开它，您可能会注意到一些细微的定位缺陷。 这种情况不影响工作流的过程和任务。
 
 | 初始工作流 | 定位更改 |
 | --- | --- |

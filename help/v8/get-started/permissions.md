@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign Web 中的权限管理
-description: 详细了解 Campaign Web v8 中的权限
+title: Campaign Web用户界面中的权限管理
+description: 详细了解Campaign Web用户界面中的权限
 badge: label="有限发布版"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 

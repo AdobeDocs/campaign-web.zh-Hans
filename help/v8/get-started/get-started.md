@@ -4,10 +4,10 @@ title: Adobe Campaign Web 快速入门
 description: Adobe Campaign Web 快速入门
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 98%
+source-wordcount: '577'
+ht-degree: 74%
 
 ---
 
@@ -43,9 +43,9 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 
 ![](assets/home.png)
 
-此新的 UI 首先满足了&#x200B;**业务从业者**&#x200B;的需求 – 所有典型的管理任务在第一个版本中都不可用，将在后续版本中解决此问题。请注意，并非客户端控制台中可用的所有功能或选项现在都能在新 UI 中使用。新的用例、选项和功能将在未来版本中提供。
+这个新的Web用户界面首先满足 **商业从业者**  — 所有典型的管理任务在此第一版中均不可用，但将在后续版本中解决。 请注意，并非客户端控制台中可用的所有功能或选项现在都能在新 UI 中使用。新的用例、选项和功能将在未来版本中提供。
 
-作为管理员或专家用户，如果您需要访问 Web UI 中不可用的 Campaign v8 功能，可以连接到[客户端控制台](#ac-client)。
+作为管理员或专家用户，如果您需要访问Campaign Web用户界面中不提供的Campaign v8功能，则可以连接到 [客户端控制台](#ac-client).
 
 
 >[!NOTE]
@@ -58,8 +58,8 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 
 Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
 
-Campaign 数据存储在应用程序服务器中。可从客户端控制台和 Web UI 获得此数据。例如，如果您使用客户端控制台创建投放模板，则它在 Web UI 中也可用。如果您在 Web UI 中创建电子邮件投放，则也可从客户端控制台访问此投放。
+Campaign 数据存储在应用程序服务器中。数据可从客户端控制台和Campaign Web用户界面中获取。 例如，如果您使用客户端控制台创建投放模板，则Campaign Web用户界面中也会提供该模板。 如果您在Campaign Web用户界面中创建电子邮件投放，则也可以从客户端控制台访问此投放。
 
-一些对象只能在客户端控制台中进行创建和管理。它们在 Campaign Web UI 中可见并可使用，但不能从该环境中创建和修改。可以从探索工具视图（可从左侧导航中访问）中使用所有 Campaign 对象和组件。
+一些对象只能在客户端控制台中进行创建和管理。它们可以在Campaign Web用户界面中可见和使用，但无法在此环境中创建或修改。 可以从探索工具视图（可从左侧导航中访问）中使用所有 Campaign 对象和组件。
 
 有关如何将 Campaign v8 与其客户端控制台一起使用的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}。

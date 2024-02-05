@@ -4,10 +4,10 @@ title: 探索界面
 description: Adobe Campaign Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 96%
+source-wordcount: '1597'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 96%
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-目前，**由 AI 支持的知识助手**&#x200B;在新 Campaign Web UI 中作为 Beta 版发布，嵌入在上下文帮助中，彻底改变了文档搜索和解答操作方法疑问的方式，它可轻松地筛选大型文档存储库并立即找出所需的准确信息。
+目前作为测试版在新的Campaign Web用户界面中发布， **AI支持的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
 
 通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的基于 AI 的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
