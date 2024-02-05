@@ -4,9 +4,9 @@ title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 badge: label="有限发布版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '940'
 ht-degree: 29%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 29%
 
 1. 默认情况下，服务存储在 **[!UICONTROL 服务和订阅]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
-1. 默认情况下，订阅无限制。 您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。
+1. 默认情况下，订阅无限制。
 
-   在下面的示例中，20天后：
-   * 收件人将无法再订阅此服务。
-   * 此服务的所有订阅者将在20天后自动取消订阅。 [了解详情](#automatic-unsubscription)
+   您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。 有效期结束后：
+   * 没有收件人可以再订阅此服务
+   * 此服务的所有订阅者都会自动取消订阅
 
    ![](assets/service-create-validity-period.png)
 
