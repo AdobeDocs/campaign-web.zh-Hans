@@ -4,9 +4,9 @@ title: 探索界面
 description: Adobe Campaign Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1601'
 ht-degree: 93%
 
 ---
@@ -352,4 +352,9 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="在同一个表中生成所有子集"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="默认登陆页面"
 >abstract="待确认"

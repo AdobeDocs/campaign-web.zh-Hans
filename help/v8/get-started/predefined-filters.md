@@ -3,9 +3,9 @@ title: 使用预定义过滤器
 description: 了解如何在Adobe Campaign Web中创建和管理预定义过滤器
 badge: label="有限发布版"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 可使用现有的内置过滤器访问数据的特定子集，也可创建自己的预定义过滤器并保存它们。
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
