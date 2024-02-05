@@ -2,10 +2,10 @@
 title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 badge: label="有限发布版"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 27%
+source-wordcount: '1003'
+ht-degree: 23%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="创建和管理登陆页面"
->abstract="通过 Adobe Campaign 可创建和设计登陆页面以告知用户如何进入在线表单，用户从中可选择启用或选择禁用接收通讯，还可订阅新闻稿等特定服务。"
+>abstract="Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
 
-要将您的客户引导至要在他们单击特定链接时显示的已定义网页，请在中创建登陆页面 [!DNL Adobe Campaign]，设计其内容，对其进行测试和发布。
+Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。
 
 ## 访问登陆页面 {#access-landing-pages}
 
