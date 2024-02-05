@@ -4,7 +4,7 @@ title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 badge: label="有限发布版"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 24%
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 要执行此操作，请单击 **[!UICONTROL 设置]** 按钮时，该按钮将在工作流画布上方的操作栏中可用。
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## 工作流属性 {#properties}
 
@@ -29,10 +29,15 @@ ht-degree: 24%
 >title="工作流属性"
 >abstract="此部分提供了通用工作流属性，在创建工作流时也可以访问这些属性。您可以选择要用于创建工作流的模板并指定标签。展开“其他选项”部分以配置特定设置，例如工作流存储文件夹或时区。"
 
-此 **[!UICONTROL 属性]** 部分提供了在创建工作流时也可以访问的常规设置。 这些属性包括：
+此 **[!UICONTROL 属性]** 部分提供了在创建工作流时也可以访问的常规设置。
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+这些属性包括：
 
 * 此 **[!UICONTROL 标签]** 显示在列表中的工作流的ID。
-* 内部 **[!UICONTROL 名称]** 工作流的。
+* 此 **[!UICONTROL 内部名称]** 工作流的。
 * 此 **[!UICONTROL 文件夹]** 保存工作流的位置。
 * 默认 **[!UICONTROL 时区]** 以在工作流的所有活动中使用。 默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
 可能的值包括：
