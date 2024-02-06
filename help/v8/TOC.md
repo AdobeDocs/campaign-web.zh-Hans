@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文档
 description: Campaign Web文档
 breadcrumb-title: Campaign Web用户界面
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
    + [护栏和限制](get-started/guardrails.md)
-   + [不支持的功能](get-started/unsupported.md)
+   + [不支持的功能](get-started/capability-matrix.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
