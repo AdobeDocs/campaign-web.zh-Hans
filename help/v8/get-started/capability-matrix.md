@@ -5,9 +5,9 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 * 营销资源管理(MRM)、目标、模拟和成本控制。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * 任务管理。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## 通信渠道{ #channels-capabilities}
+## 通信渠道 {#channels-capabilities}
 
 借助Campaign Web用户界面，您可以创建、设计和发送电子邮件、短信和推送通知，并使用各种专用报告衡量其影响，如所详述 [在此部分中](../msg/gs-messages.md). 但是，以下渠道在此版本中不可用。
 
