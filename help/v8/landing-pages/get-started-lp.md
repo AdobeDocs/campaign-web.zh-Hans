@@ -3,10 +3,10 @@ audience: end-user
 title: 登陆页面入门
 description: 了解Campaign Web中的登陆页面
 badge: label="有限发布版"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 15%
+source-wordcount: '223'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 15%
 >abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
+Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动的上下文中，登陆页面是一个独立的网页，访客在该网页上单击电子邮件、短信、推送投放或网站中的链接后，会被定向到该页面。
 
-登陆页面是指用户从电子邮件、网站、广告或任何其他数字位置点进后定向到的独立网页。
+[!DNL Adobe Campaign] 允许您创建和设计登陆页面，以将用户定向到在线表单，在该表单中，用户可以选择加入/退出接收您的通信，或订阅特定服务（如新闻稿）。 Adobe Campaign随附四个模板，用于管理客户获取、订阅、取消订阅和阻止列表用例。
 
-[!DNL Adobe Campaign] 允许您创建和设计登陆页面，以将用户定向到在线表单，在该表单中，用户可以选择加入或选择退出接收您的通信，或订阅特定服务（如新闻稿）。
+下面列出了主要功能：
 
 * 利用 [!DNL Adobe Campaign] 轻松构建的内容设计功能 **响应式登陆页面**.
 * 设置 **选择启用和选择禁用流程** 快速、无缝。
