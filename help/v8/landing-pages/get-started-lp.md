@@ -3,9 +3,9 @@ audience: end-user
 title: 登陆页面入门
 description: 了解Campaign Web中的登陆页面
 badge: label="有限发布版"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
->abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
+>abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 
@@ -27,7 +27,7 @@ ht-degree: 15%
 * 设置 **选择启用和选择禁用流程** 快速、无缝。
 * 创建订阅服务以使用户能够 **订购服务**. [了解详情](../audience/manage-services.md)
 * 向收件人提供 **取消订阅的功能** 接收您的通信。
-* 发送 **确认电子邮件** 选择加入或选择退出时。
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

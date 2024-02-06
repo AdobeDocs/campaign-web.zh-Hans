@@ -2,9 +2,9 @@
 title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 badge: label="有限发布版"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 23%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="创建和管理登陆页面"
->abstract="Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
+>abstract="Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
 
-Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。
+Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -30,9 +30,9 @@ Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->在Campaign Web中，无法显示从客户端控制台创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>在Campaign Web中，您无法显示或编辑从客户端控制台创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向
 
    ![](assets/lp-pages.png)
 
-1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下处于选中状态。 如果您希望通过登陆页更新存储在数据库中的用户档案，则可以使用预加载框。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。 您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。
+1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 如果您希望通过登陆页更新存储在数据库中的用户档案，则可以使用预加载框。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。 您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。
 
    ![](assets/lp-storage-schedule.png)
 
