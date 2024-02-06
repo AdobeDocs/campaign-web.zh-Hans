@@ -6,7 +6,7 @@ badge: label="有限发布版"
 source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
->abstract="探索全新的登陆页面体验。 即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
+>abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理、获取、订阅/退订和阻止列表用例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 
