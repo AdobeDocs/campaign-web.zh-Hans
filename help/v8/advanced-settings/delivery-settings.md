@@ -2,12 +2,13 @@
 audience: end-user
 title: 投放设置
 description: 详细了解Campaign Web中的投放设置
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限发布版"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 57%
+source-wordcount: '2425'
+ht-degree: 53%
 
 ---
 
@@ -133,15 +134,23 @@ ht-degree: 57%
 
 集成的电子邮件 **[!UICONTROL 路由]** 默认提供外部帐户。 其中包含允许应用程序发送电子邮件的技术参数。
 
-您可以定义以下内容 **[!UICONTROL 正在发送]** 设置：
+您可以定义 **[!UICONTROL 正在发送]** 以下设置。
 
-* **[!UICONTROL 测试SMTP投放]**：此选项用于测试通过SMTP进行的发送。 处理投放直至连接到 SMTP 服务器，但不发送：对于投放的每个收件人，Campaign 连接到 SMTP 提供商服务器，执行 SMTP RCPT TO 命令，并在执行 SMTP DATA 命令之前关闭连接。
+* **[!UICONTROL 投放优先级]**：使用此选项可通过设置投放的优先级来更改其发送顺序：正常、高或低。
+
+* **[!UICONTROL 消息批次数量]**：使用此选项可定义在同一个XML投放包中分组的消息数。 如果参数设置为0，则消息将自动分组。 程序包大小由计算定义 `<delivery size>/1024`，则每个包最少8条消息，最多256条消息。
+
+  >[!IMPORTANT]
+  >
+  >通过复制现有投放创建投放时，此参数会重置。
+
+* **[!UICONTROL 测试SMTP投放]**：此选项用于测试通过SMTP进行的发送。 处理投放直至连接到SMTP服务器，但不发送：对于投放的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
 * **[!UICONTROL 电子邮件密送]**：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL 使用多个批次发送]**：您可以逐步增加使用批次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
+在 **[!UICONTROL 波次定义]** 部分，选择 **[!UICONTROL 使用多个批次发送]** 用于逐步增加使用批次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
-您还可以更改所发送电子邮件的格式：
+您也可以更改 **[!UICONTROL 邮件格式]** ，如下所述。
 
 * **[!UICONTROL 使用收件人偏好设置]** （默认模式）
 

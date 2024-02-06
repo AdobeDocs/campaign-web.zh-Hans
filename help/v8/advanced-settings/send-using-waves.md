@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
+feature: Email
 badge: label="有限发布版"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 4%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 4%
 >title="定义每个波次的大小"
 >abstract="必须输入要添加的所有批次的大小。 输入数值（每个波次的消息数量）或百分比(0-100%)。"
 
-要平衡负荷，您可以将投放分为多个批。 配置批次的数量及其相对于整个投放的比例以及两个批次之间的间隔。
+要平衡负载，可以将电子邮件投放分为多个批次。 配置批次的数量及其相对于整个投放的比例以及两个批次之间的间隔。
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ ht-degree: 4%
 
    >[!CAUTION]
    >
-   >确保最后批次不超过投放截止日期，投放截止日期在中定义 **[!UICONTROL 有效期]** 选项卡。 否则，某些消息可能不会发送。 [了解详情](delivery-settings.md#validity)
+   >确保最后一波不超过()中定义的投放截止日期。 [有效期](delivery-settings.md#validity) 选项卡，否则可能无法发送某些消息。 特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >在配置最后批次时，还必须留出足够的时间进行重试。 [了解详情](delivery-settings.md#retries)
 
-1. 要监控您的发送，请转到 [投放日志](../monitor/delivery-logs.md).
-
-   您可以看到已在已处理批次中发送的投放(**[!UICONTROL 已发送]** 状态)和要在剩余批次中发送的投放(**[!UICONTROL 待处理]** 状态)。
-
-特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 促销活动类型及其规则配置于 **[!UICONTROL 类型]** 选项卡进行发送。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. 要监控您的发送，请转到 [投放日志](../monitor/delivery-logs.md). 您可以看到已在已处理批次中发送的投放(**[!UICONTROL 已发送]** 状态)和要在剩余批次中发送的投放(**[!UICONTROL 待处理]** 状态)。
 
 ## 安排多个相同大小的批次 {#waves-same-size}
 
@@ -64,7 +61,7 @@ ht-degree: 4%
 
 * 指定要将投放拆分为的所有批次的大小。 您可以输入百分比或数值。 只有最后一波报文的大小可以不同，因为它必须包含剩余的消息数量。
 
-  例如，如果您输入 **[!UICONTROL 30%]** 在相应的字段中，前三个批次代表投放中包含的所有消息的30%，第四个批次代表剩余的10%。
+  例如，如果您输入 **[!UICONTROL 30%]** 在 **[!UICONTROL 批次大小]** 字段中，前三个批次代表投放中包含的所有消息的30%，第四个批次代表剩余的10%。
 
 * 在 **[!UICONTROL 间隔]** 部分，指定两个连续批次开始之间的延迟。 例如，如果您输入 **[!UICONTROL 2天]**，第一波立即开始，第二波在两天内开始，第三波在四天内开始，以此类推。
 
@@ -80,7 +77,7 @@ ht-degree: 4%
 
 如果选择此选项，则需要定义要发送的每个波次的开始日期/时间以及每个波次的大小。
 
-* 在 **[!UICONTROL 开始]** 列，指定两个连续批次开始之间的延迟。
+* 在 **[!UICONTROL 开始]** 字段，指定两个连续批次开始之间的延迟。
 
 * 在 **[!UICONTROL 大小]** 列中，输入固定数字或百分比。
 
