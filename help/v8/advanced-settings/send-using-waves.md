@@ -4,9 +4,9 @@ title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 feature: Email
 badge: label="有限发布版"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '790'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,11 @@ ht-degree: 4%
 
 * 在 **[!UICONTROL 大小]** 列中，输入固定数字或百分比。
 
-根据需要添加任意数量的批次。
+添加任意所需数量的批次。 您可以根据需要重新排序。
+
+>[!NOTE]
+>
+>如果使用百分比，则所有批次的总计不应超过100%。
 
 在下面的示例中，第一波表示投放中包含的消息总数的25%，并立即开始。 接下来的两个批次将完成投放，并设置为以六小时间隔开始。
 
