@@ -3,7 +3,8 @@ audience: end-user
 title: 短信渠道全局报表
 description: 了解短信渠道的全局报告
 badge: label="有限发布版"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 31%
@@ -87,12 +88,12 @@ ht-degree: 31%
 
 +++
 
-### 排除原因 {#causes-exclusion}
+### 排除的原因 {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
->title="短信排除原因"
->abstract="**排除原因**&#x200B;图和表说明阻止用户配置文件接收短信的各种原因。"
+>title="短信排除的原因"
+>abstract="**排除的原因**&#x200B;图和表说明阻止用户配置文件接收短信的各种原因。"
 
 此 **[!UICONTROL 排除的原因]** 图和表显示了阻止从定向用户档案中排除的用户用户档案接收短信投放的原因。
 

@@ -3,7 +3,8 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 badge: label="有限发布版"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 26%
@@ -87,12 +88,12 @@ ht-degree: 26%
 
 +++
 
-### 排除原因 {#causes-exclusion}
+### 排除的原因 {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
->title="推送排除原因"
->abstract="**排除原因**&#x200B;图和表说明阻止用户配置文件接收推送通知的各种原因。"
+>title="推送排除的原因"
+>abstract="**排除的原因**&#x200B;图和表说明阻止用户配置文件接收推送通知的各种原因。"
 
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。
 
@@ -108,4 +109,3 @@ ht-degree: 26%
 ![](assets/global_report_push_delivery_throughput.png)
 
 此 **[!UICONTROL 投放吞吐量]** 报表提供了有关推送通知投放系统有效性的全面见解，并提供了指定时间段内成功率和错误率的详细摘要。
-

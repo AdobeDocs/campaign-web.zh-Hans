@@ -72,7 +72,7 @@ ht-degree: 39%
 
 +++
 
-### 排除原因  {#email-delivery-exclusions}
+### 排除的原因  {#email-delivery-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"

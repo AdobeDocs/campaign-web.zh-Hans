@@ -3,7 +3,8 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 badge: label="有限发布版"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 25%
@@ -88,12 +89,12 @@ ht-degree: 25%
 
 +++
 
-### 排除原因 {#causes-exclusion}
+### 排除的原因 {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
->title="排除原因"
->abstract="**排除原因**&#x200B;图和表说明在准备投放期间邮件被拒的具体原因，并提供详细的按规则细分。"
+>title="排除的原因"
+>abstract="**排除的原因**&#x200B;图和表说明在准备投放期间邮件被拒的具体原因，并提供详细的按规则细分。"
 
 ![](assets/global_report_email_exclusions.png){align="center"}
 
