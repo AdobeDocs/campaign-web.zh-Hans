@@ -2,8 +2,9 @@
 audience: end-user
 title: 使用登陆页面内容模板
 description: 了解如何将登陆页面内容另存为设计模板并在Campaign Web中重复使用
+feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
