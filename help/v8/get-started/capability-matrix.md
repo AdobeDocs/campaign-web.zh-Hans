@@ -5,7 +5,7 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 3%
@@ -114,7 +114,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 工作流 {#wf-capabilities}
 
-新的Campaign Web用户界面重新设计了工作流画布界面，可用于设计和管理您的流程。 关键工作流活动已在新设计中提供，其中一些活动将在未来版本中提供。 详细了解工作流功能，包括护栏和限制 [在此部分中](../workflows/gs-workflows.md)
+新的Campaign Web用户界面重新设计了工作流画布界面，可用于设计和管理您的流程。 关键工作流活动已在新设计中提供，其中一些活动将在未来版本中提供。 详细了解工作流功能，包括护栏和限制 [在此部分中](../get-started/guardrails.md).
 
 请注意，以下功能仅在Campaign客户端控制台中可用：
 
