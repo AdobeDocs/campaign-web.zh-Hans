@@ -5,16 +5,16 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 4%
 
 ---
 
 # Campaign Web用户界面/客户端控制台功能矩阵 {#capabilities-matrix}
 
-以下功能只能从Campaign客户端控制台访问。 部分内容将在更高版本的Campaign Web用户界面中提供。
+Campaign Web用户界面中提供了重要的Campaign功能。 但是，某些设置和功能只能从Campaign客户端控制台访问、创建或管理。 部分内容将在更高版本的Campaign Web用户界面中提供。
 
 <!--
 **Homepage**
@@ -59,7 +59,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 用户档案、测试用户档案和受众 {#profiles-audiences-capabilities}
 
-您可以在Campaign客户端控制台和Campaign Web用户界面中创建、管理和更新用户档案和测试用户档案。 在一个UI中执行的所有更改在另一个UI中可见。 但是，新的Campaign Web用户界面中可能缺少某些特定的收件人设置和高级参数。  请注意，在新的Web用户界面中，“recipient”一词已更改为“profile”。
+您可以在Campaign客户端控制台和Campaign Web用户界面中创建、管理和更新用户档案和测试用户档案。 在一个UI中执行的所有更改在另一个UI中可见。 但是，新的Campaign Web用户界面中可能缺少某些特定的收件人设置和高级参数。 请注意，在新的Web用户界面中，“recipient”一词已更改为“profile”。
 
 受众构成是Campaign Web用户界面随附的一项新功能。 因此，在Campaign客户端控制台中，您无法编辑、更新或修改 [使用查询建模器创建的受众](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 请注意，以下功能在此版本的产品中不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解有关这些功能（具有的功能）的更多信息 `*` Campaign客户端控制台也不支持)。
 
-* 电子邮件AMP。  [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * 公共资源中的内容 — 要确认的SCOPË
 * 自定义个性化块创建。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 自定义表单中的内容（内容管理模块）。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* 电子邮件AMP。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * 来自 URL 的内容`*`
 * 将 HTML 内容另存为模板`*`
 * 电子邮件片段`*`
@@ -125,7 +125,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 Adobe Campaign Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 选件设计、资格规则和选件管理仅在Campaign客户端控制台中可用。 [了解详情](../msg/offers.md)
 
-了解如何在中管理优惠目录  [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+了解如何在中管理优惠目录 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 ## 与Adobe Experience Cloud解决方案集成 {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Campaign Web用户界面未显示以下功能。 它们仅在客户端控制台�
 
 Campaign Web用户界面不会显示内容、投放、工作流、营销活动和目标的审批管理。 它们仅在客户端控制台中可用。
 
-了解如何在中管理工作流中管理批准  [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+了解如何在中管理工作流中管理批准 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 了解如何在中管理营销活动中的投放、内容和目标批准 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
 
-## 权限  {#permissions-capabilities}
+## 权限 {#permissions-capabilities}
 
 Campaign用户只能通过AdobeIdentity Management System (IMS)使用Adobe ID访问Campaign Web用户界面。
 
