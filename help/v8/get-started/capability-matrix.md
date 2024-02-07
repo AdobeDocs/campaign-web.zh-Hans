@@ -5,16 +5,18 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 4%
+source-wordcount: '1503'
+ht-degree: 3%
 
 ---
 
 # Campaign Web用户界面/客户端控制台功能矩阵 {#capabilities-matrix}
 
-Campaign Web用户界面中提供了重要的Campaign功能。 但是，某些设置和功能只能从Campaign客户端控制台访问、创建或管理。 部分内容将在更高版本的Campaign Web用户界面中提供。
+Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要供营销人员规划、启动和衡量其营销活动时使用。 列出了所有功能 [本页内容](../rn/whats-new.md).
+
+在Campaign客户端控制台中，根据业务和数据需求以及与其他系统的连接来定制Campaign平台。 因此，某些设置和功能只能从Campaign客户端控制台访问、创建或管理。 部分内容将在更高版本的Campaign Web用户界面中提供。
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 您可以在Campaign客户端控制台和Campaign Web用户界面中创建、管理和更新用户档案和测试用户档案。 在一个UI中执行的所有更改在另一个UI中可见。 但是，新的Campaign Web用户界面中可能缺少某些特定的收件人设置和高级参数。 请注意，在新的Web用户界面中，“recipient”一词已更改为“profile”。
 
-受众构成是Campaign Web用户界面随附的一项新功能。 因此，在Campaign客户端控制台中，您无法编辑、更新或修改 [使用查询建模器创建的受众](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 在Campaign客户端控制台或Adobe Experience Platform中创建的所有受众都可以在Campaign Web用户界面中使用。
 
@@ -82,18 +84,18 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 通过Adobe Campaign Web用户界面提供的新Email Designer，您可以通过直观的拖放界面轻松创建引人入胜的单独定制电子邮件。 无论您是从头开始、导入现有内容还是利用现有模板，都可以设计和优化每封电子邮件的所有内容。 [了解详情](../email/edit-content.md)
 
-通过这个新的用户界面，您还可以在电子邮件内容中使用Adobe Experience Manager 6.5中的资产，管理来自Adobe Experience Manager的电子邮件模板同步，以及与Adobe Experience Manager as a Cloud Service集成。
+通过这个新的用户界面，您可以从Adobe Experience Manager管理电子邮件模板同步，并与Adobe Experience Manager as a Cloud Service集成。
 
-请注意，以下功能在此版本的产品中不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解有关这些功能（具有的功能）的更多信息 `*` Campaign客户端控制台也不支持)。
+请注意，以下功能在此版本的产品中不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些功能的更多信息。
 
 * 公共资源中的内容 — 要确认的SCOPË
 * 自定义个性化块创建。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 自定义表单中的内容（内容管理模块）。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * 电子邮件AMP。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* 来自 URL 的内容`*`
-* 将 HTML 内容另存为模板`*`
-* 电子邮件片段`*`
-* 多变量/多语言用例`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## 类型和类型规则 {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Adobe Campaign Web允许您使用在控制台中创建的投放选件进行发�
 * 描述性分析。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 * 营销活动分析/多维数据集报表。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target="_blank"}
 * 计划以PDF和CSV或链接形式共享报表。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}
-* 将报表导出/下载为CSV或PDF文件。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}
 
 ## 数据建模和数据摄取 {#data-capabilities}
 
 Campaign Web用户界面未显示以下功能。 它们仅在客户端控制台中可用。
 
-浏览提供的链接以浏览 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"} 了解更多信息。
+浏览中提供的链接 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"} 了解更多信息。
 
 * 外部帐户。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * 架构创建和扩展。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Campaign Web用户界面不会显示内容、投放、工作流、营销活动�
 
 ## 权限 {#permissions-capabilities}
 
-Campaign用户只能通过AdobeIdentity Management System (IMS)使用Adobe ID访问Campaign Web用户界面。
+Campaign用户只能通过AdobeIdentity Management System (IMS)使用Adobe ID访问Campaign Web用户界面。 授予用户的权限也适用于Campaign Web用户界面。
 
 权限是在Adobe Admin Console和Adobe Campaign客户端控制台中定义的，具体说明了 [在此部分中](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). 无法从Adobe Campaign Web用户界面对权限执行任何操作。
 
 
+## 监控 {#monitoring-capabilities}
+
+Campaign平台监控功能仅在客户端控制台和Campaign控制面板中可用。 它们不会显示在Campaign Web用户界面中。
+
+浏览提供的链接到 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"} 了解更多信息。
+
+* [工作流监测](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [工作流热图](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
