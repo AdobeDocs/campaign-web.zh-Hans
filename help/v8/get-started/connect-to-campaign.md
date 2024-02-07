@@ -3,10 +3,10 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到Adobe Campaign Web用户界面
 badge: label="有限发布版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 88%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 ## 登录到 Adobe Experience Cloud {#sign-in-to-exc}
 
-通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
+您只能使用单点登录(SSO)连接到Campaign。 通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 
 要登录到 Adobe Experience Cloud，请遵循以下基本步骤：
 

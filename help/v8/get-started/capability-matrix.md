@@ -5,9 +5,9 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
@@ -174,7 +174,7 @@ Campaign Web用户界面不会显示内容、投放、工作流、营销活动�
 
 ## 权限  {#permissions-capabilities}
 
-Campaign用户只能通过Adobe ID(基于Adobe的Identity Management System (IMS))访问Campaign Web用户界面。
+Campaign用户只能通过AdobeIdentity Management System (IMS)使用Adobe ID访问Campaign Web用户界面。
 
 权限是在Adobe Admin Console和Adobe Campaign客户端控制台中定义的，具体说明了 [在此部分中](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). 无法从Adobe Campaign Web用户界面对权限执行任何操作。
 
