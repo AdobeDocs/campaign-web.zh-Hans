@@ -4,10 +4,10 @@ title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 badge: label="有限发布版"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 71%
+source-wordcount: '379'
+ht-degree: 69%
 
 ---
 
@@ -35,11 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## 配置“构建受众”活动{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="选择定位维度"
->abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下从收件人中选择目标。"
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 
