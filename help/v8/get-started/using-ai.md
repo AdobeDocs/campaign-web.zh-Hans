@@ -1,12 +1,12 @@
 ---
 title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
-badge: label="Alpha"
+badge: label="Beta 版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 通过可在产品上下文帮助框中找到的常见问题受 AI 助力的上下文帮助，根据产品文档和您当前的产品上下文快速获得 AI 生成的答案。
 
->[!CAUTION]
->
->仅在 Alpha 版本中提供此功能，如有更改，恕不另行通知。
->
->此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。因此，在使用此功能之前，请确保将[您的首选语言](connect-to-campaign.md#language-pref)设置为英语。
-
-
 嵌入在上下文帮助中的&#x200B;**采用生成式 AI 的上下文帮助**&#x200B;彻底改变了文档搜索和解答操作方法疑问的方式，它可轻松地筛选大型文档存储库并立即找出所需的准确信息。
 
 通过 Campaign 生成式 AI 的各项功能，此组件可改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导还是翻阅大量文档，受 AI 助力的上下文帮助都是您的绝佳搭档，每次互动的效率和准确性都无与伦比。
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>AI支持的上下文帮助有测试版提供，如有更改，恕不另行通知。
+>
+>此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。因此，在使用此功能之前，请确保将[您的首选语言](connect-to-campaign.md#language-pref)设置为英语。
+>
+>Campaign Email Designer中目前不提供AI支持的上下文帮助。
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Adobe Campaign 受 AI 助力的上下文帮助可提供协助，但您应核查事实。它可能会输出不正确的信息、不准确或有误导性的答案。请务必查看每个帮助框中链接的产品文档。
 
 人工智能和机器学习模型逐渐改进以更好地处理特定用例。Campaign 受 AI 助力的上下文帮助在接下来的几个月将继续改进。我们强烈建议您在阅读答案时使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 按钮，向我们的工程师标记任何不恰当的回复。
+
 
 ## 推荐做法  {#recommendations-ai}
 

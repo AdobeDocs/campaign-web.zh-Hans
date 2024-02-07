@@ -4,7 +4,7 @@ title: 探索界面
 description: Adobe Campaign Web用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ ht-degree: 92%
 通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的基于 AI 的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
 可在[此部分](using-ai.md)中了解详情。
-
 
 
 ## 了解详情 {#learn-more}
