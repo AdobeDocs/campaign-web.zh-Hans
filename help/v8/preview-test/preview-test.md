@@ -4,10 +4,10 @@ title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="有限发布版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 19%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="预览和测试消息"
->abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
+>title="预览和测试内容"
+>abstract="定义内容后，您可以使用测试用户档案对其进行预览和测试。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=zh-Hans" text="预览消息内容"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hans" text="发送测试投放"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="测试登陆页面"
 
 定义投放内容后，您可以使用测试用户档案在发送消息之前对其进行预览和测试。
 
@@ -29,6 +30,7 @@ ht-degree: 19%
 * [预览消息内容和个性化](preview-content.md)
 * [发送测试投放](test-deliveries.md) （证明）到特定收件人或订阅者进行测试和验证
 * [检查电子邮件渲染](email-rendering.md) 在常用桌面、移动和基于Web的客户端中
+* [预览和测试登陆页面](../landing-pages/create-lp.md#test-landing-page)
 
 这些操作可以使用 **[!UICONTROL 模拟内容]** 按钮进行访问，该按钮可从投放的编辑内容屏幕访问，或从 [电子邮件设计工具](../email/get-started-email-designer.md).
 

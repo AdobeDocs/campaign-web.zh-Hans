@@ -3,10 +3,10 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 22%
+source-wordcount: '1185'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 22%
 >title="创建和管理登陆页面"
 >abstract="Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
 
-Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动的上下文中，登陆页面是一个独立的网页，访客在该网页上单击电子邮件、短信、推送投放或网站中的链接后，会被定向到该网页。 Adobe Campaign提供了四个要管理的模板 **acquisition**， **订阅**， **取消订阅**、和 **阻止列表** 用例。
+Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布后，您可以在投放中插入指向表单的链接。 收件人单击该链接后，会被定向到相应的登陆页面。
+
+[!DNL Adobe Campaign] 随附四个模板，用于管理以下用例： **acquisition**， **订阅**， **退订**、和 **阻止列表**.
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -33,11 +35,11 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
 >[!CAUTION]
 >
->在Campaign Web中，您无法显示或编辑从客户端控制台创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>在Campaign Web用户界面中，无法显示或编辑从客户端控制台（Web窗体）创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-您可以复制或删除登陆页面。 单击登陆页面旁边的三个圆点，以选择所需的操作。
+您可以复制或删除登陆页面。 单击登陆页面旁边的省略号以选择所需的操作。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -48,14 +50,13 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="定义页面的内容"
->abstract="编辑属于此登陆页面的每个页面的内容。"
+>title="定义每个页面的内容"
+>abstract="调整属于此登陆页面一部分的每个页面的内容，如表单本身、提交表单时显示的确认页面或发生错误时用户定向到的页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="安排您的登陆页面"
->abstract="可定义登陆页面的开始日期和结束日期。在页面到期时，将显示&#x200B;**到期**&#x200B;页面。"
-
+>abstract="可定义登陆页面的开始日期和结束日期。当页面到达有效期结束时，表单不再可用。 此 **过期** 此时将改为显示页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -76,16 +77,18 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
    ![](assets/lp-create-button.png)
 
 1. 选择模板：
-   * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，用于捕获和更新用户档案数据。
-   * **[!UICONTROL 订阅]**：使用此模板提供服务订阅。
-   * **[!UICONTROL 退订]**：此模板可从发送给订阅者的电子邮件链接到服务，以便他们退订此服务。
+   * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
+   * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](manage-services.md).
+   * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](manage-services.md).
    * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。 了解有关阻止列表管理的更多信息
 
    ![](assets/lp-templates.png)
 
 1. 单击 **[!UICONTROL 创建]**.
 
-1. 填写属性字段，如标签。 默认情况下，登陆页面存储在 **[!UICONTROL Web应用程序]** 文件夹。 您可以通过浏览到中所需的位置来更改它 **[!UICONTROL 其他选项]**. [了解如何使用文件夹](../get-started/permissions.md#folders)
+1. 填写 **[!UICONTROL 属性]** 字段，例如标签。
+
+   默认情况下，登陆页面存储在 **[!UICONTROL Web应用程序]** 文件夹。 您可以通过浏览到中所需的位置来更改它 **[!UICONTROL 其他选项]**. [了解如何使用文件夹](../get-started/permissions.md#folders)
 
    ![](assets/lp-properties.png)
 
@@ -99,15 +102,31 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
    ![](assets/lp-pages.png)
 
-1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 如果您希望通过登陆页更新存储在数据库中的用户档案，则可以使用预加载框。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。 您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。
+1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
 
-   ![](assets/lp-storage-schedule.png)
+   您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。 要执行此操作，请取消选择 **[!UICONTROL 更新预加载的记录]** 选项并选中下的所需字段 **[!UICONTROL 对帐选项]**.
 
-1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。 在页面到期时，将显示&#x200B;**[!UICONTROL 到期]**&#x200B;页面。
+   ![](assets/lp-storage.png)
+
+1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。
+
+   ![](assets/lp-schedule.png)
+
+   * 登陆页面会在指定的开始日期/时间自动发布。
+
+     >[!NOTE]
+     >
+     >如果未定义开始日期，则登陆页面在发布后立即处于活动状态。
+
+   * 当页面到达结束日期时，登陆页面会自动取消发布，并且表单不再可用。 此 **[!UICONTROL 过期]** 此时将改为显示页面。
+
+     >[!NOTE]
+     >
+     >出于安全原因和平台性能的考虑，Adobe建议您设置结束日期。
 
 1. 单击 **[!UICONTROL 审阅并发布]**.
 
-配置和设计所有页面后，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
+定义所有设置和 [设计](lp-content.md) 您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
 
 ## 测试登陆页面 {#test-landing-page}
 
@@ -125,9 +144,9 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
 >[!CAUTION]
 >
->您必须具有可用的测试用户档案，才能预览消息并发送校样。 了解如何 [创建测试用户档案](../audience/test-profiles.md).
+>您必须具有可用的测试用户档案，才能预览消息并发送校样。 [了解有关测试用户档案的更多信息](../audience/test-profiles.md)
 
-1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问选择的测试用户档案。
+1. 单击之后 **[!UICONTROL 审阅并发布]**，选择 **[!UICONTROL 模拟内容]** 登录页面仪表板中用于访问测试用户档案选择的按钮。
 
    ![](assets/lp-simulate-content.png)
 
@@ -141,6 +160,8 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
 1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试配置文件数据替换。
 
+   如果您选择了 **[!UICONTROL 使用表单中引用的数据预填充]** 选项，则表单字段会自动预填相应的测试配置文件数据。<!--TBC-->
+
    ![](assets/lp-preview.png)
 
 1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
@@ -149,12 +170,14 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 在营销活动�
 
 ## 发布登陆页面 {#publish-landing-page}
 
-准备登陆页面后，即可发布该页面，以供在消息中使用。
+准备就绪后，发布登陆页面，以使其可在使用相应按钮的投放中使用。
 
-发布登陆页面后，该页面将添加到登陆页面列表，其中包含 **[!UICONTROL 已发布]** 状态。 现在已上线并可供使用。
+发布后：
+
+* 登陆页面将添加到登陆页面列表中， **[!UICONTROL 已发布]** 状态。 它现已上线，并准备好在您的内容中引用。
+
+* 您可以复制并粘贴 **[!UICONTROL 登陆页面URL]** 页面顶部显示的URL库文件会发送到Web浏览器。
 
 ![](assets/lp-published.png)
 
-发布后，您可以复制并粘贴 **[!UICONTROL 登陆页面URL]** 页面顶部显示的URL库文件会发送到Web浏览器。
-
-您可以通过日志和特定报告监控登陆页面影响。
+您可以通过日志监控登陆页面影响<!--and specific reports-->. 单击 **[!UICONTROL 日志]** 按钮。
