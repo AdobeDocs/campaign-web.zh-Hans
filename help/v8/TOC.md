@@ -6,7 +6,7 @@ title: Adobe Campaign Web 文档
 description: Campaign Web文档
 breadcrumb-title: Campaign Web用户界面
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 90%
@@ -26,7 +26,6 @@ ht-degree: 90%
    + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
-   + [护栏和限制](get-started/guardrails.md)
    + [不支持的功能](get-started/capability-matrix.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
@@ -119,6 +118,7 @@ ht-degree: 90%
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
 + 工作流{#wf}
    + [工作流入门](workflows/gs-workflows.md)
+   + [护栏和限制](get-started/guardrails.md)
    + [访问和管理工作流](workflows/access-monitor.md)
    + 创建并运行您的第一个工作流{#create-workflow}
       + [创建工作流的主要原则](workflows/gs-workflow-creation.md)
