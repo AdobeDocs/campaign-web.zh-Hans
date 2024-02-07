@@ -3,14 +3,24 @@ title: 定位维度
 description: 了解有关在Adobe Campaign Web中定位维度的更多信息
 badge: label="有限发布版"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 5%
+source-wordcount: '457'
+ht-degree: 17%
 
 ---
 
 # 定位维度 {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="选择定位维度"
+>abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下从收件人中选择目标。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="定位维度"
+>abstract="选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的定位维度。"
 
 目标维度，也就是。 目标映射，是操作所处理的数据类型。 它可让您定义目标群体：用户档案、合同受益人、操作员、订阅者等。
 
