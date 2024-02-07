@@ -5,9 +5,9 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 3%
 
 ---
@@ -184,8 +184,13 @@ Campaign用户只能通过AdobeIdentity Management System (IMS)使用Adobe ID访
 
 Campaign平台监控功能仅在客户端控制台和Campaign控制面板中可用。 它们不会显示在Campaign Web用户界面中。
 
-浏览提供的链接到 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"} 了解更多信息。
+浏览提供的指向Campaign v8（客户端控制台）文档和控制面板文档的链接以了解更多信息。
 
 * [工作流监测](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [工作流热图](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans){target="_blank"}
+* [可投放性监控](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
