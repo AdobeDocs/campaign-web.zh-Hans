@@ -5,9 +5,9 @@ description: Campaign Web用户界面中支持的功能列表
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1495'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要供营销人员规划、启动和衡量其营销活动时使用。 列出了所有功能 [本页内容](../rn/whats-new.md).
 
-在Campaign客户端控制台中，根据业务和数据需求以及与其他系统的连接来定制Campaign平台。 因此，某些设置和功能只能从Campaign客户端控制台访问、创建或管理。 部分内容将在更高版本的Campaign Web用户界面中提供。
+在Campaign客户端控制台中，根据业务和数据需求以及与其他系统的连接来定制Campaign平台。 因此，某些设置和功能只能从Campaign客户端控制台访问、创建或管理。 在稍后的Campaign Web用户界面更新中将提供一些扩展。
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 
 ## Campaign 管理 {#campaign-mgt-capabilities}
 
-借助Campaign Web用户界面，您可以创建详细的跨渠道营销活动 [在此部分中](../campaigns/gs-campaigns.md). 在当前版本中，以下功能仅在Campaign客户端控制台中可用。 无法在Campaign Web用户界面中访问它们，但可以从以下位置查看它们： [资源管理器菜单](user-interface.md#user-interface-explorer).
+借助Campaign Web用户界面，您可以创建详细的跨渠道营销活动 [在此部分中](../campaigns/gs-campaigns.md). 以下功能仅在Campaign客户端控制台中可用。 无法在Campaign Web用户界面中访问它们，但可以从以下位置查看它们： [资源管理器菜单](user-interface.md#user-interface-explorer).
 
 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解如何使用这些功能。
 
@@ -39,7 +39,7 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 
 ## 通信渠道 {#channels-capabilities}
 
-借助Campaign Web用户界面，您可以创建、设计和发送电子邮件、短信和推送通知，并使用各种专用报告衡量其影响，如所详述 [在此部分中](../msg/gs-messages.md). 但是，以下渠道在此版本中不可用。
+借助Campaign Web用户界面，您可以创建、设计和发送电子邮件、短信和推送通知，并使用各种专用报告衡量其影响，如所详述 [在此部分中](../msg/gs-messages.md). 但是，以下渠道当前不可用。
 
 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些渠道的更多信息。
 
@@ -71,7 +71,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 事务性消息传递 {#mc-capabilities}
 
-在此版本的新Campaign Web用户界面中，消息中心产品包附带的事务性消息传送功能不可用。
+消息中心产品包附带的事务性消息传送功能当前在新的Campaign Web用户界面中不可用。
 
 浏览 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 并了解关于实时消息传送功能的更多信息，例如：
 
@@ -86,9 +86,8 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 通过这个新的用户界面，您可以从Adobe Experience Manager管理电子邮件模板同步，并与Adobe Experience Manager as a Cloud Service集成。
 
-请注意，以下功能在此版本的产品中不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些功能的更多信息。
+请注意，Campaign Web用户界面暂时不提供以下功能。 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些功能的更多信息。
 
-* 公共资源中的内容 — 要确认的SCOPË
 * 自定义个性化块创建。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 自定义表单中的内容（内容管理模块）。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * 电子邮件AMP。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 工作流 {#wf-capabilities}
 
-新的Campaign Web用户界面重新设计了工作流画布界面，可用于设计和管理您的流程。 关键工作流活动已在新设计中提供，其中一些活动将在未来版本中提供。 详细了解工作流功能，包括护栏和限制 [在此部分中](../get-started/guardrails.md).
+新的Campaign Web用户界面重新设计了工作流画布界面，可用于设计和管理您的流程。 关键工作流活动已在新设计中提供，其中一些活动将在未来更新中提供。 详细了解工作流功能，包括护栏和限制 [在此部分中](../get-started/guardrails.md).
 
 请注意，以下功能仅在Campaign客户端控制台中可用：
 
@@ -133,7 +132,7 @@ Adobe Campaign Web允许您使用在控制台中创建的投放选件进行发�
 
 新的Campaign现代UI简化了营销活动的设计和交付，并与其他Adobe解决方案(包括Adobe Experience Platform和Adobe Experience Manager)保持一致。
 
-以下集成可从Adobe Campaign客户端控制台获得，但在此版本的Campaign Web用户界面中尚不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解有关这些集成的更多信息：
+以下集成可从Adobe Campaign客户端控制台获得，但在Campaign Web用户界面中尚不可用。 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解有关这些集成的更多信息：
 
 * Adobe Analytics数据使用和KPI共享。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * 与Adobe Experience Cloud (Adobe Audience Manager)共享受众。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
