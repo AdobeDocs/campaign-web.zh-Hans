@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ ht-degree: 0%
 
 ## 退订 {#lp-unsubscription}
 
+您可以让客户使用登陆页面取消订阅服务。
+
 1. 确保您已经为取消订阅服务的用户创建了确认模板，以便能够在创建服务时轻松选择它。 [了解详情](../audience/manage-services.md#create-confirmation-message)
 
 1. 在您的 [订阅服务](../audience/manage-services.md)，选择您创建的模板，作为用户取消订阅时将收到的确认电子邮件。
@@ -167,11 +169,11 @@ ht-degree: 0%
 
 1. 审阅和 [发布](create-lp.md#publish-landing-page) 您的登陆页面。
 
-1. 创建 [电子邮件](../email/create-email.md) 和 [添加链接](../email/message-tracking.md#insert-links) 以将流量引向注册登陆页面。
+1. 创建 [电子邮件](../email/create-email.md) 和 [添加链接](../email/message-tracking.md#insert-links) 登陆页面。
 
-收到电子邮件后，如果您的收件人单击登陆页面的链接并提交表单，则他们将被定向到退订确认页面，并且将从订阅列表中被删除。
+收到电子邮件后，如果您的收件人单击登陆页面的链接并提交表单，则他们将被定向到退订确认页面，并且将从相应的订阅服务中移除。
 
-## 设置选择退出登陆页面 {#lp-denylist}
+## 阻止列表 {#lp-denylist}
 
 向收件人提供取消从品牌接收通信的功能是一项法律要求。 因此，您必须始终包含 **取消订阅链接** 发往收件人的每封电子邮件中。 单击此链接后，收件人将被定向到一个包含确认选择退出的按钮的登陆页面。
 
