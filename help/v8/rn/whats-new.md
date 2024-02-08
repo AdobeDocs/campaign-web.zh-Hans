@@ -4,10 +4,10 @@ title: Campaign Web用户界面的新增功能
 description: 了解Campaign Web用户界面中的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 以下限制适用于此版本：
 
-* 可编辑的对象为：收件人、投放、营销活动、工作流、受众、订阅服务、预定义过滤器和模板。其他对象为只读。使用过滤器并创建规则以浏览所有这些对象。
+* 可编辑对象包括：收件人、投放、营销活动、工作流、受众、订阅服务、预定义过滤器、模板和登陆页面。 其他对象为只读。使用过滤器并创建规则以浏览所有这些对象。
 * Campaign Web用户界面中没有管理和高级配置功能。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
