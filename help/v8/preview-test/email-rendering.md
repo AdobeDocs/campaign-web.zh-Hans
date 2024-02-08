@@ -4,9 +4,9 @@ title: 测试电子邮件渲染
 description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 要访问电子邮件渲染功能，您需要：
 
 * 拥有Litmus帐户
-* 选择测试配置文件 — 了解如何 [本节](preview-content.md)
+* 选择配置文件和/或测试配置文件 — 了解如何在 [本节](preview-content.md)
 
 然后，执行以下步骤。
 

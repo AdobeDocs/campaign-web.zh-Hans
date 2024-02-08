@@ -1,15 +1,15 @@
 ---
-title: 开始使用用户档案
+title: 开始使用配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
 badge: label="有限发布版"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 33%
+source-wordcount: '527'
+ht-degree: 26%
 
 ---
 
-# 开始使用用户档案 {#profiles}
+# 开始使用配置文件 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
@@ -33,17 +33,15 @@ ht-degree: 33%
 
 ## 什么是配置文件？ {#what}
 
-Adobe Campaign Web中的用户档案是存储在数据库中的个人，它充当以下对象的关键组件： [创建受众](create-audience.md) 用于投放和 [添加个性化](../personalization/personalize.md) 数据到您的内容。
+A **个人资料**&#x200B;在客户端控制台中又称为“收件人”，表示存储在Campaign数据库中的个人，充当以下对象的关键组件 [创建受众](create-audience.md) 用于投放和 [添加个性化](../personalization/personalize.md) 数据到您的内容。 Adobe Campaign允许您通过Campaign Web用户界面无缝管理用户档案，从创建新条目到访问所有用户档案属性和服务订阅的全面视图。
 
-Adobe Campaign允许您直接从界面创建和监控配置文件。 从那里，您可以创建用户档案、访问用户档案的详细视图并编辑它们。
+此外， **[!UICONTROL 测试用户档案]**，在客户端控制台中标识为“种子配置文件”，可让您定位与给定投放的定位标准不匹配的其他收件人。 这些用户档案包含虚构的联系信息或由发件人控制的联系信息。 可以将校样收件人添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。 [了解如何使用测试用户档案](test-profiles.md)
 
-其他类型的用户档案存储在数据库中，例如 **[!UICONTROL 测试用户档案]**，专门用于在投放内容发送给最终受众之前对其进行测试。 [了解如何使用测试用户档案](test-profiles.md)
+用户档案和测试用户档案均可用于在投放到达目标受众之前对其进行测试。 这样，您就可以预览消息内容和个性化，发送验证以进行测试和验证，评估各种平台和设备中的电子邮件渲染情况，并测试您的登陆页面。 [了解如何预览和测试投放](../preview-test/preview-test.md)
 
 ## 访问配置文件列表 {#access}
 
-配置文件在Adobe Campaign Web中可通过以下网址访问和编辑： **[!UICONTROL 客户管理]** > **配置文件** 条目进行导航。
-
-您还可以通过以下方式访问它们 **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 配置文件和目标]** > **[!UICONTROL 收件人]** 节点。 从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
+配置文件在Adobe Campaign Web中可通过以下网址访问和编辑： **[!UICONTROL 客户管理]** > **配置文件** 条目进行导航。 您还可以在以下位置访问它们： **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 配置文件和目标]** > **[!UICONTROL 收件人]** 节点。 从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >
