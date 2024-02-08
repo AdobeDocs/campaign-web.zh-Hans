@@ -3,9 +3,9 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1237'
 ht-degree: 16%
 
 ---
@@ -176,7 +176,11 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 * 登陆页面将添加到登陆页面列表中， **[!UICONTROL 已发布]** 状态。 它现已上线，并准备好在您的内容中引用。
 
-* 您可以复制并粘贴 **[!UICONTROL 登陆页面URL]** 页面顶部显示的URL库文件会发送到Web浏览器。
+* 您可以复制并粘贴 **[!UICONTROL 登陆页面URL]** ，该页面顶部显示的内容将置于Web浏览器中，以预览您的登陆页面。
+
+>[!CAUTION]
+>
+>要完全测试或利用您的登陆页面，您不能将此链接直接复制粘贴到Web浏览器或投放中。 请改用 [模拟内容](#test-landing-page) 函数进行测试，并遵循中所述的步骤 [本节](lp-use-cases.md) 以正确使用登陆页面。
 
 ![](assets/lp-published.png)
 

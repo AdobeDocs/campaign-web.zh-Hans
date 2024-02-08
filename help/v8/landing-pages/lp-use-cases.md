@@ -9,52 +9,132 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5349c94e36e24c5612453e771cc17f15c57c926d
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 1%
+source-wordcount: '1109'
+ht-degree: 0%
 
 ---
 
-# 登陆页面用例 {#lp-use-cases}
+# 如何使用登陆页面 {#lp-use-cases}
 
-以下是如何使用的一些示例 [!DNL Journey Optimizer] 登陆页面，让您的客户选择启用/禁用接收您的部分或全部通信。
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_url"
+>title="复制URL时请务必谨慎"
+>abstract="要完全测试或利用您的登陆页面，您不能将此链接直接复制粘贴到Web浏览器或投放中。 请改用 **模拟内容** 函数进行测试，并按照文档中描述的步骤正确使用登陆页面。"
 
-## 订阅服务 {#subscription-to-a-service}
+要正确使用登陆页面，您应使用专用选项在投放中将其引用为链接。
 
-最常见的用例之一是邀请您的客户 [订购服务](subscription-list.md) （例如新闻稿或活动）。 主要步骤如下图所示：
+>[!CAUTION]
+>
+>要充分利用登陆页面，您不能将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。
 
-![](assets/lp_subscription-uc.png)
+在 [!DNL Adobe Campaign Web] 下面，您可以使用四个现成的模板实施不同的用例。 但是，主要步骤保持不变，详见下文。
 
-例如，假设您在下月组织了一个事件，并且想要启动一个事件注册营销活动<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含登陆页面的链接，以便收件人注册参加此事件。 注册的用户将被添加到您为此目的创建的订阅列表中。
+1. [创建登陆页面](create-lp.md#create-landing-page) 并根据用例选择您选择的模板：
 
-### 设置登陆页面 {#set-up-lp}
+   * [客户获取](#lp-acquisition)
+   * [订阅](#lp-subscription)
+   * [退订](#lp-unsubscription)
+   * [阻止列表](#lp-denylist)
 
-1. 创建事件注册的订阅列表，该列表将存储已注册的用户。 了解如何创建订阅列表 [此处](subscription-list.md#define-subscription-list).
+1. 定义登陆页面的属性和设置。
 
-   ![](assets/lp_subscription-uc-list.png)
+   ![](assets/lp-uc-properties.png)
 
-1. [创建登陆页面](create-lp.md) 以使您的收件人能够注册您的事件。
+1. 根据您的情况，选择 **[!UICONTROL 客户获取]**， **[!UICONTROL 订阅]**， **[!UICONTROL 退订]** 或 **[!UICONTROL 阻止列表]** 页面。
 
-   ![](assets/lp_create-lp-details.png)
+1. 将显示页面内容。 选择与登陆页面表单对应的部分。
 
-1. 配置注册 [主登陆页面](create-lp.md#configure-primary-page).
+   ![](assets/lp-uc-form.png)
 
-1. 设计 [登陆页面内容](design-lp.md)，选择您创建的订阅列表，以使用选中注册复选框的用户档案对其进行更新。
+1. 根据需要，对登陆页面标签和字段进行其他任意数量的更新。 根据需要编辑其余内容，保存更改并关闭。
 
-   ![](assets/lp_subscription-uc-lp-list.png)
+1. 对于每种用例，请遵循以下详述步骤。
 
-1. 创建一个“感谢”页面，在收件人提交注册表单后，该页面将显示给收件人。 了解如何配置登陆子页面 [此处](create-lp.md#configure-subpages).
+1. 编辑 **[!UICONTROL 确认]** 页面，以及 **[!UICONTROL 错误]** 和 **[!UICONTROL 过期]** 页数。 收件人提交注册表后，该屏幕即会显示。
 
-   ![](assets/lp_subscription-uc-thanks.png)
+   ![](assets/lp-uc-confirmation-page.png)
 
-1. [Publish](create-lp.md#publish) 登陆页面。
+1. 测试和 [发布](create-lp.md#publish-landing-page) 您的登陆页面。
 
-1. 在 [历程](../building-journeys/journey.md)，添加 **电子邮件** 活动，将流量引导至注册登陆页面。
+1. 创建 [电子邮件](../email/create-email.md) 以将流量引导至登陆页面的投放。
 
-   ![](assets/lp_subscription-uc-journey.png)
+1. [插入链接](../email/message-tracking.md#insert-links) 放入您的消息内容。 选择 **[!UICONTROL 登陆页面]** 作为 **[!UICONTROL 链接类型]** 并选择 [登陆页面](create-lp.md#configure-primary-page) 你创造的。
 
-1. [设计电子邮件](../email/get-started-email-design.md) 以宣布您的活动已开放注册。
+   ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#create-landing-page).
+
+收到电子邮件后，如果您的收件人单击登陆页面的链接并提交登陆页面表单，则他们将定向到确认页面，并应用登陆页面中定义的任何其他操作（例如，用户将订阅您的服务，或者不会收到您发送的任何其他通信）。
+
+以下是如何使用的一些示例 [!DNL Adobe Campaign] 登陆页面，让您的客户选择启用/禁用接收您的部分或全部通信。
+
+## 用户档案获取 {#lp-acquisition}
+
+1. [创建登陆页面](create-lp.md#create-landing-page). 选择 **[!UICONTROL 客户获取]** 模板。
+
+1. 定义登陆页面的属性和设置。
+
+   ![](assets/lp-uc-properties.png)
+
+1. 选择 **[!UICONTROL 客户获取]** 页面以编辑其内容。
+
+1. 将显示页面内容。 选择与登陆页面表单对应的部分。
+
+## 订阅服务 {#lp-subscription}
+
+最常见的用例之一是邀请您的客户 [订购服务](../audience/manage-services.md) （例如新闻稿或活动）。 请按照以下步骤操作。
+
+<!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
+
+1. 首先，为订阅事件的用户创建确认模板，以便在创建服务时可以轻松选择它。 [了解详情](../audience/manage-services.md#create-confirmation-message)
+
+   ![](assets/lp-uc-confirmation-email.png)
+
+1. 创建订阅服务，该服务会将已注册的用户存储到您的事件中。 [了解如何创建服务](../audience/manage-services.md)
+
+1. 选择您创建的模板，作为用户订阅时将收到的确认电子邮件。
+
+   ![](assets/lp-uc-subscription-service.png)
+
+1. [创建登陆页面](create-lp.md#create-landing-page) 以使您的收件人能够注册您的事件。 选择 **[!UICONTROL 订阅]** 模板。
+
+   <!--![](assets/lp-uc-subscription-template.png)-->
+
+1. 定义登陆页面的属性和设置。
+
+   <!--![](assets/lp-uc-properties.png)-->
+
+1. 选择 **[!UICONTROL 订阅]** 页面以编辑其内容。
+
+   ![](assets/lp-uc-subscription-page-edit.png)
+
+1. 将显示页面内容。 选择与登陆页面表单对应的部分，然后展开 **[!UICONTROL 复选框1]** 部分。
+
+   在 **[!UICONTROL 订阅和服务]** 字段中，选择为事件创建的服务。 离开 **[!UICONTROL 如果选中，则订阅]** 选项已启用。
+
+   ![](assets/lp-uc-subscription-checkbox-1.png)
+
+1. 例如，您可以添加其他复选框以提供对您的新闻稿的订阅。
+
+<!--
+
+1. You can also update the profiles who register for your event for the email channel. Expand the **[!UICONTROL Call to action]** section and select Additional updates.
+
+    ![](assets/lp-uc-subscription-call-to-action.png)-->
+
+1. 根据需要，对登陆页面标签和字段进行其他任意数量的更新。 根据需要编辑其余内容，保存更改并关闭。
+
+1. 编辑 **[!UICONTROL 确认]** 页面，以及 **[!UICONTROL 错误]** 和 **[!UICONTROL 过期]** 页数。 收件人提交注册表后，该屏幕即会显示。
+
+   ![](assets/lp-uc-confirmation-page.png)
+
+1. 测试和 [发布](create-lp.md#publish-landing-page) 您的登陆页面。
+
+1. 创建 **电子邮件** 投放，以将流量引向注册登陆页面。 设计电子邮件以宣布您的活动现已开放注册。
 
 1. [插入链接](../email/message-tracking.md#insert-links) 放入您的消息内容。 选择 **[!UICONTROL 登陆页面]** 作为 **[!UICONTROL 链接类型]** 并选择 [登陆页面](create-lp.md#configure-primary-page) 您为注册而创建的。
 
@@ -62,39 +142,21 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#create-landing-page).
 
-   收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“感谢”页面，并将他们添加到订阅列表。
+收到电子邮件后，如果您的收件人单击登陆页面的链接并提交登陆页面表单，则他们将被定向到确认页面，并将被添加到订阅列表。
 
-### 发送确认电子邮件 {#send-confirmation-email}
+## 退订 {#lp-unsubscription}
 
-此外，您还可以向注册了事件的收件人发送确认电子邮件。 为此，请执行以下步骤。
+1. [创建登陆页面](create-lp.md#create-landing-page). 选择 **[!UICONTROL 退订]** 模板。
 
-1. 创建另一个 [历程](../building-journeys/journey.md). 您可以直接从登陆页面中单击 **[!UICONTROL 创建历程]** 按钮。 [了解详情](create-lp.md#configure-primary-page)
+1. 定义登陆页面的属性和设置。
 
-   ![](assets/lp_subscription-uc-create-journey.png)
+1. 选择 **[!UICONTROL 退订]** 页面以编辑其内容。
 
-1. 展开 **[!UICONTROL 活动]** 类别并放置 **[!UICONTROL 受众资格]** 活动移入画布。 [了解详情](../building-journeys/audience-qualification-events.md)
+1. 将显示页面内容。 选择与登陆页面表单对应的部分。
 
-1. 单击 **[!UICONTROL 受众]** 字段并选择您创建的订阅列表。
-
-   ![](assets/lp_subscription-uc-confirm-journey.png)
-
-1. 添加您选择的确认电子邮件，并通过历程发送它。
-
-   ![](assets/lp_subscription-uc-confirm-email.png)
-
-所有注册您的活动的用户都将收到确认电子邮件。
-
-<!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
-
-## 选择退出 {#opt-out}
-
-要使收件人能够取消订阅您的通信，您可以在电子邮件中包含指向选择退出登陆页面的链接。
-
-了解有关管理收件人同意的更多信息，以及这在中为什么很重要 [本节](../privacy/opt-out.md).
-
-### 选择退出管理 {#opt-out-management}
+## 设置选择退出登陆页面 {#lp-denylist}
 
 向收件人提供取消从品牌接收通信的功能是一项法律要求。 进一步了解 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
@@ -103,136 +165,31 @@ ht-degree: 1%
 * 单击此链接后，收件人将被定向到一个包含确认选择退出的按钮的登陆页面。
 * 单击选择退出按钮后，用户档案数据将使用此信息更新。
 
-### 配置选择退出 {#configure-opt-out}
+您可以设置 **[!UICONTROL 阻止列表]** 使用户能够选择退出所有投放的登陆页面。
 
-要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
+要使用户能够选择退出所有投放，您必须创建和发布 **[!UICONTROL 阻止列表]** 登陆页面。
 
-1. 创建登陆页面。 [了解详情](create-lp.md)
+一旦用户单击登陆页面链接， **[!UICONTROL 不再联系（通过任何渠道）]** 配置文件中的选项将被自动选中。
 
-1. 定义主页面。 [了解详情](create-lp.md#configure-primary-page)
+![](assets/blocklisting_allchannels.png)
 
-1. [设计](design-lp.md) 主页面内容：使用特定于登陆页面 **[!UICONTROL 表单]** 组件，定义 **[!UICONTROL 选择退出]** 复选框，然后选择以更新 **[!UICONTROL 渠道（电子邮件）]**：选中登陆页面上的选择退出框的配置文件将退出您的所有通信。
+定义 **[!UICONTROL 选择退出]** 复选框，然后选择以更新 **[!UICONTROL 渠道（电子邮件）]**：选中登陆页面上的选择退出框的配置文件将退出您的所有通信。
 
-   ![](assets/lp_opt-out-primary-lp.png)
+收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
+![](assets/lp_opt-out-submit-form.png)
 
-1. 添加确认 [子页面](create-lp.md#configure-subpages) 将显示给提交表单的用户。
+如果收件人选中该框并提交表单：
 
-   ![](assets/lp_opt-out-subpage.png)
+* 选择退出的收件人将被重定向至确认消息屏幕。
 
-   >[!NOTE]
-   >
-   >确保您在主页面的 **[!UICONTROL 行动号召]** 的部分 **[!UICONTROL 表单]** 组件。 [了解详情](design-lp.md)
+* 配置文件数据已更新，除非再次订阅，否则将不会收到您品牌的通信。
 
-1. 配置和定义页面的内容后， [发布](create-lp.md#publish) 登陆页面。
-
-1. [创建电子邮件](../email/get-started-email-design.md) 在旅程中。
-
-1. 选择内容中的文本并 [插入链接](../email/message-tracking.md#insert-links) 使用上下文工具栏。 您还可以在按钮上使用链接。
-
-1. 选择 **[!UICONTROL 登陆页面]** 从 **[!UICONTROL 链接类型]** 下拉列表，然后选择 [登陆页面](create-lp.md#configure-primary-page) 您创建用于选择退出的库。
-
-   ![](assets/lp_opt-out-landing-page.png)
-
-   >[!NOTE]
-   >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
-
-1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
-
-1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
-
-   ![](assets/lp_opt-out-submit-form.png)
-
-   如果收件人选中该框并提交表单：
-
-   * 选择退出的收件人将被重定向至确认消息屏幕。
-
-   * 配置文件数据已更新，除非再次订阅，否则将不会收到您品牌的通信。
-
-要检查相应用户档案的选择是否已更新，请转到Experience Platform，并通过选择身份命名空间和相应的身份值访问用户档案。 在中了解详情 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
-
-![](assets/lp_opt-out-profile-choice.png)
-
-在 **[!UICONTROL 属性]** 选项卡中，您可以看到的值 **[!UICONTROL 选择]** 已更改为 **[!UICONTROL 否]**.
-
-选择退出信息将存储在 **同意服务数据集**. [了解有关数据集的更多信息](../data/get-started-datasets.md)
-
->[!NOTE]
->
->如果默认为合并方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
->
->即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
+要检查相应用户档案的选择是否已更新，请转到“用户档案”并选择用户档案。
 
 
-<!--
-
-### Other ways to opt out
-
-You can also enable your recipients to unsubscribe whithout using landing pages.
-
-* **One-click opt-out**
-
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
-
-* **Unsubscribe link in header**
-
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
-
-////////
 
 
-## Leverage landing page submission event {#leverage-lp-event}
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
-
-    ![](assets/lp_subscription-uc-configurations.png)
-
-1. The list of events displays. Select **[!UICONTROL Create Event]**.
-
-    ![](assets/lp_subscription-uc-create-event.png)
-
-1. The event configuration pane opens on the right side of the screen. Configure a rule-based unitary event. [Learn more](../event/about-creating.md)
-
-1. Define the schema: select **[!UICONTROL AJO Email Tracking Experience Event Schema v.1]** (available by default in [!DNL Journey Optimizer]).
-
-    ![](assets/lp_subscription-uc-event-schema.png)
-
-1. In the **[!UICONTROL Fields]** section, select the following elements:
-
-    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Interaction Type]**
-    
-    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Landing Page Details]** > **[!UICONTROL Landing Page ID]**
-
-    ![](assets/lp_subscription-uc-event-fields.png)
-
-1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
-
-    ![](assets/lp_subscription-uc-event-id-condition.png)
-
-    >[!NOTE]
-    >
-    >To find the landing page ID, you can insert the landing page as a link into an email and select the source code from the contextual toolbar to display the landing page information.
-    >
-    >![](assets/lp_subscription-uc-lp-id.png)
-
-1. Save your changes.
-
-1. Create a [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
-
-    ![](assets/lp_subscription-uc-event-create-journey.png)
-
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
-
-    ![](assets/lp_subscription-uc-journey-event.png)
-
-1. Unfold the **[!UICONTROL Actions]** category and drop an email action into the canvas.
-
-    ![](assets/lp_subscription-uc-journey-email.png)
-
-///How do you use the information from the event to send an email to the users? -->

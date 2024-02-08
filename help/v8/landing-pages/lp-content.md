@@ -3,9 +3,9 @@ title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '750'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 13%
 
 编辑登陆页面中任何页面的内容时，该内容均已预填充。
 
-主页面是在用户单击指向登陆页面的链接后立即向用户显示的页面，例如通过电子邮件或网站。 主页面已预填充了 [特定于登陆页面的表单组件](#use-form-component) 使用户能够选择并提交他们的选择。 您还可以定义 [登陆页面特定的样式](#lp-form-styles).
+第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充 [特定于登陆页面的表单组件](#use-form-component) ，以使用户能够选择并提交他们的选择。 您还可以定义 [登陆页面特定的样式](#lp-form-styles).
 
 要进一步设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+的内容 **[!UICONTROL 确认]**， **[!UICONTROL 错误]** 和 **[!UICONTROL 过期]** 页面也会预先填充。 根据需要编辑它们。
 
 ## 使用表单组件 {#use-form-component}
 
