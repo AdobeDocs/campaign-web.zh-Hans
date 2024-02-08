@@ -3,7 +3,7 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 16%
@@ -78,8 +78,8 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 选择模板：
    * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
-   * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](manage-services.md).
-   * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](manage-services.md).
+   * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](../audience/manage-services.md).
+   * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](../audience/manage-services.md).
    * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。 了解有关阻止列表管理的更多信息
 
    ![](assets/lp-templates.png)
