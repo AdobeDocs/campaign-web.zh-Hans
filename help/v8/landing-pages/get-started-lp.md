@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 登陆页面入门
+title: 开始使用登陆页
 description: 了解Campaign Web中的登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 12%
 
 ---
 
-# 登陆页面入门 {#get-sarted-lp}
+# 开始使用登陆页 {#get-sarted-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
