@@ -4,10 +4,10 @@ title: Campaign Web用户界面的新增功能
 description: 了解Campaign Web用户界面中的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限发布版"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 作为现有 Campaign 用户，请注意，已对一些概念进行重命名以符合最新的术语标准。这些更改仅适用于Campaign Web用户界面，不会反映在客户端控制台中。 下面对它们进行了汇总。
 
-* 验证现在是&#x200B;**测试电子邮件**：要发送验证，请使用电子邮件投放 UI 中的&#x200B;**测试**&#x200B;按钮。校样的目标现在称为&#x200B;**测试配置文件**。[了解详情](../preview-test/test-deliveries.md)。
-* 种子地址现在用作&#x200B;**测试配置文件**：将测试电子邮件发送到种子地址，这些地址是数据库中额外的收件人。[了解详情](../preview-test/test-deliveries.md)。
+* 收件人现在是 **配置文件**. [了解详情](../audience/gs-audiences-recipients.md)。
+* 种子地址现在为 **测试用户档案**. [了解详情](../preview-test/test-deliveries.md)。
 * 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../preview-test/preview-test.md)
-* 列表现在称为&#x200B;**受众**。[了解详情](../audience/about-recipients.md)。
+* 列表现在称为&#x200B;**受众**。[了解详情](../audience/gs-audiences-recipients.md)。
 
 ## 限制{#limitations-beta}
 
 以下限制适用于此版本：
 
 * 可编辑的对象为：收件人、投放、营销活动、工作流、受众、订阅服务、预定义过滤器和模板。其他对象为只读。使用过滤器并创建规则以浏览所有这些对象。
-* 管理用户界面不可用。
+* Campaign Web用户界面中没有管理和高级配置功能。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
 * 顶栏中可用的 Adobe Experience Cloud 通知和统一帮助尚未集成。
 
-有关更多护栏和限制，请参阅[此页面](../get-started/guardrails.md)。
+详细了解Campaign Web用户界面和Campaign客户端控制台之间支持/不支持的功能以及互操作性， [本页内容](../get-started/capability-matrix.md).

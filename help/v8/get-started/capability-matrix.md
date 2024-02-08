@@ -2,17 +2,15 @@
 audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
 
-# Campaign Web用户界面/客户端控制台功能矩阵 {#capabilities-matrix}
+# Campaign Web和Campaign客户端控制台 {#capabilities-matrix}
 
 Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要供营销人员规划、启动和衡量其营销活动时使用。 列出了所有功能 [本页内容](../rn/whats-new.md).
 
@@ -61,7 +59,9 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 用户档案、测试用户档案和受众 {#profiles-audiences-capabilities}
 
-您可以在Campaign客户端控制台和Campaign Web用户界面中创建、管理和更新用户档案和测试用户档案。 在一个UI中执行的所有更改在另一个UI中可见。 但是，新的Campaign Web用户界面中可能缺少某些特定的收件人设置和高级参数。 请注意，在新的Web用户界面中，“recipient”一词已更改为“profile”。
+您可以在Campaign客户端控制台和Campaign Web用户界面中创建、管理和更新用户档案和测试用户档案。 在一个UI中执行的所有更改在另一个UI中可见。 但是，新的Campaign Web用户界面中可能缺少某些特定的收件人设置和高级参数。
+
+请注意，在新的Web用户界面中，“recipient”一词已更改为“profile”，而“Seed addresses”现在为“Test profiles”
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
