@@ -4,10 +4,10 @@ title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="有限发布版"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '197'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 9%
 >id="acw_deliveries_simulate"
 >title="预览和测试内容"
 >abstract="定义内容后，您可以使用测试用户档案对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=zh-Hans" text="预览消息内容"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hans" text="发送测试投放"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="测试登陆页面"
 
