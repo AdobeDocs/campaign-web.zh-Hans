@@ -4,10 +4,10 @@ title: 开始使用登陆页
 description: 了解Campaign Web中的登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 12%
+source-wordcount: '271'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 12%
 
 [!DNL Adobe Campaign] 允许您创建、设计和共享登陆页面。
 
-在营销活动的上下文中，登陆页面是一个独立的网页，访客在单击电子邮件、短信、推送投放或网站中的链接后，会被定向到该页面。
+在营销活动的上下文中，登陆页面是一个独立的网页，访客单击投放或网站中的链接后，会被定向到该页面。
 
-通过登陆页面，您可以将用户定向到在线表单，在该表单中，用户可以选择加入/退出接收您的通信，或订阅特定服务（如新闻稿）。
+通过登陆页面，您可以将用户定向到在线表单，他们可以在其中更新数据、选择加入/退出接收您的通信或订阅特定服务（如新闻稿）。
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ ht-degree: 12%
 
 登陆页面关键功能列示如下：
 
-* 利用 [!DNL Adobe Campaign] 轻松构建的内容设计功能 **响应式登陆页面**.
-* 设置 **选择启用和选择禁用流程** 快速、无缝。
-* 创建订阅服务以使用户能够 **订购服务**. [了解详情](../audience/manage-services.md)
-* 向收件人提供 **取消订阅的功能** 接收您的通信。
+* 使用现成的应用程序即时创建、设计和共享登陆页面 **预填充模板** 匹配不同的用例。 [了解详情](create-lp.md)
+* 利用 [!DNL Adobe Campaign] 轻松构建的内容设计功能 **响应式登陆页面**. [了解详情](lp-content.md)
+* 设置 **选择启用和选择禁用流程** 快速、无缝。 [了解详情](lp-use-cases.md)
+* 创建订阅服务以使用户能够 **订购服务**. [了解详情](lp-use-cases.md#lp-subscription)
+* 向收件人提供 **取消订阅的功能** 接收您的通信。 [了解详情](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">

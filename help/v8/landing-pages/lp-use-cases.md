@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ ht-degree: 0%
 要使用户能够选择退出所有投放，您必须创建和发布 **[!UICONTROL 阻止列表]** 登陆页面。
 
 一旦用户单击登陆页面链接， **[!UICONTROL 不再联系（通过任何渠道）]** 配置文件中的选项将被自动选中。
-
-![](assets/blocklisting_allchannels.png)
 
 定义 **[!UICONTROL 选择退出]** 复选框，然后选择以更新 **[!UICONTROL 渠道（电子邮件）]**：选中登陆页面上的选择退出框的配置文件将退出您的所有通信。
 
