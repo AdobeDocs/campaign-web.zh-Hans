@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1704'
 ht-degree: 3%
 
 ---
@@ -28,12 +28,12 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 
 使用提供的链接浏览Campaign v8（客户端控制台）文档，并了解如何使用这些功能。
 
-* 营销日历。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* 计划和计划。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* 供应商、预算和成本管理。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* 分布式营销（中央/地方营销）。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hans){target="_blank"}
-* 营销资源管理(MRM)、目标、模拟和成本控制。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* 任务管理。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **营销日历**. 营销活动日历显示全局时间线中的所有项目、计划、营销活动和投放。 此功能仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **方案和计划**. 每个活动都属于属于属于一个计划的项目。 在Campaign Web用户界面中，所有营销策划都与默认的内置计划和项目相关联。 您只能在客户端控制台中创建和管理计划和程序。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **供应商、预算和成本管理**. 您可以配置在市场活动中执行的任务中涉及的服务提供商（包括成本结构），并管理每个项目和市场活动中的预算。 此功能仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **分布式营销** （中央/地方营销）。 Adobe Campaign提供了一个分布式营销应用程序，用于在中央实体（总部、营销部门等）和本地实体（商店、区域代理等）之间 实施协作营销活动。此功能仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hans){target="_blank"}
+* **营销资源管理** (MRM)、目标、模拟和成本控制。 Adobe Campaign提供了一个营销资源管理(MRM)应用程序，通过它可全面管理和实时跟踪所涉及的任务、预算和营销资源，从而让您在协作模式下控制营销操作。 此功能仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **任务管理**. 作为MRM应用程序的一部分，可通过Campaign仪表板创建、分配、跟踪和监控Campaign任务。 此功能仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## 通信渠道 {#channels-capabilities}
 
