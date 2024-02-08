@@ -1,13 +1,13 @@
 ---
 keywords: Campaign Web;主页;热门主题
-description: Campaign Web帮助中心
-title: Adobe Campaign Web产品文档
+description: Campaign Web 帮助中心
+title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限发布版"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="第 1 项"
->abstract="新的电子邮件、短信和推送通知设计体验"
+>abstract="新增了电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -64,7 +64,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
 >title="第 1 项"
->abstract="新的电子邮件、短信和推送通知设计体验"
+>abstract="新增了电子邮件、短信和推送通知设计体验"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
@@ -86,11 +86,11 @@ ht-degree: 88%
 我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
 >[!AVAILABILITY]
-> Adobe Campaign Web当前为Limited Availability (LA)版本。 仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
+> Adobe Campaign Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 ## 新增功能
 
-大致了解Adobe Campaign Web产品和文档中的最新增强功能！ 有关主要功能和版本更新功能的完整列表，请查看[此页面](rn/whats-new.md)。
+概要了解 Adobe Campaign Web 产品和文档中的最新增强功能！有关主要功能和版本更新功能的完整列表，请查看[此页面](rn/whats-new.md)。
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ ht-degree: 88%
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>了解新的用户界面</strong><br/>探索Adobe Campaign Web与Adobe Experience Platform集成的新界面和导航体验。</div>
+    <div><strong>了解新的用户界面</strong><br/>探索 Adobe Campaign Web 与 Adobe Experience Platform 集成的新界面和导航体验。</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ ht-degree: 88%
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>了解Email Designer</strong><br/>了解如何从模板开始，或使用Adobe Campaign的新电子邮件设计工具创建电子邮件，而无需编写一行代码。
+    <div><strong>了解电子邮件设计器</strong><br/>了解如何从模板开始，或使用 Adobe Campaign 中新提供的电子邮件设计器来创建电子邮件，而无需编写任何代码。
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
