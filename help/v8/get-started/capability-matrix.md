@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1779'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些渠道的更多信息。
 
 * **直邮**. 直邮渠道允许您向客户、客户、供应商或其他人发送实际信件，如通知、发票、对帐单、营销优惠等。 此渠道仅在客户端控制台中可用。  [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* **LINE消息传送**. LINE是一款免费即时消息传递、语音和视频呼叫应用程序，可在所有移动设备和个人电脑上使用。 Adobe Campaign仅允许您从客户端控制台发送LINE消息。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **LINE消息传送**. LINE是一款免费即时消息传递、语音和视频呼叫应用程序，可在所有移动设备和个人电脑上使用。 Adobe Campaign仅允许您从客户端控制台发送LINE消息。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * 呼叫中心和自定义渠道。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * 通过X (Twitter)进行社交媒体营销。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
@@ -124,7 +124,7 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 ## 选件管理 {#offer-capabilities}
 
-Adobe Campaign Web允许您使用在控制台中创建的投放选件进行发送。 **[!UICONTROL 互动]** 模块。 选件设计、资格规则和选件管理仅在Campaign客户端控制台中可用。 [了解详情](../msg/offers.md)
+您可以在Adobe Campaign Web用户界面中创建的投放中发送选件。 这些选件必须在客户端控制台中使用 **[!UICONTROL 互动]** 模块。 选件设计、资格规则和选件管理仅在Campaign客户端控制台中可用。 [了解详情](../msg/offers.md)
 
 了解如何在中管理优惠目录 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
