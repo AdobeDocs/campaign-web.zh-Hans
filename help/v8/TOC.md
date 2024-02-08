@@ -3,24 +3,24 @@ audience: end-user
 user-guide-title: Adobe Campaign Web用户界面
 user-guide-description: Adobe Campaign Web用户界面的产品文档。
 title: Adobe Campaign Web 文档
-description: Campaign Web文档
+description: Campaign Web 文档
 breadcrumb-title: Campaign Web用户界面
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
 
-# Adobe Campaign Web文档 {#v8}
+# Adobe Campaign Web 文档 {#v8}
 
 + [Adobe Campaign Web用户界面文档](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
-   + [入门](get-started/get-started.md)
+   + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
    + [探索界面](get-started/user-interface.md)
    + [浏览和筛选列表](get-started/list-filters.md)
@@ -89,18 +89,18 @@ ht-degree: 89%
       + [发送测试投放](preview-test/test-deliveries.md)
       + [测试电子邮件渲染](preview-test/email-rendering.md)
 + 登陆页面 {#landing-pages}
-   + [登陆页面入门](landing-pages/get-started-lp.md)
-   + [创建和发布登陆页面](landing-pages/create-lp.md)
-   + [设计登陆页面内容](landing-pages/lp-content.md)
-   + [使用登陆页面模板](landing-pages/lp-templates.md)
+   + [开始使用登陆页](landing-pages/get-started-lp.md)
+   + [创建和发布登陆页](landing-pages/create-lp.md)
+   + [设计登陆页内容](landing-pages/lp-content.md)
+   + [使用登陆页模板](landing-pages/lp-templates.md)
 + 用户档案和受众 {#audiences}
    + [用户档案和受众入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
    + 使用配置文件 {#work-with-profiles}
-      + [开始使用用户档案](audience/about-recipients.md)
+      + [开始使用配置文件](audience/about-recipients.md)
       + [浏览配置文件的详细信息](audience/profile-view.md)
-      + [创建用户档案](audience/create-profile.md)
-      + [使用测试用户档案](audience/test-profiles.md)
+      + [创建配置文件](audience/create-profile.md)
+      + [使用测试配置文件](audience/test-profiles.md)
    + 使用受众 {#audiences}
       + [创建受众](audience/create-audience.md)
       + [监测和管理受众](audience/manage-audience.md)

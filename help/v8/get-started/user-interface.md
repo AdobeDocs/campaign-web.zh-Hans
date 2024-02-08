@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: 探索界面
-description: Adobe Campaign Web用户界面
+description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限发布版"
 source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
 # 探索界面 {#user-interface}
 
-新的Adobe Campaign Web界面提供了新颖、直观的用户体验，可简化营销活动的设计和交付。 此新界面与 Adobe Experience Cloud 应用程序和解决方案集成。
+新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Cloud 应用程序和解决方案集成。
 
 [在本文中](connect-to-campaign.md)，了解如何连接到 Adobe Campaign 并探索有关 Experience Cloud 导航的基础知识。
 
@@ -39,11 +39,11 @@ ht-degree: 92%
 
 **最近**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击&#x200B;**显示更多**&#x200B;链接，加载更多投放。
 
-此外，您还可以从以下位置访问Adobe Campaign Web密钥帮助页面： **学习** 部分。
+此外，还可从页面的&#x200B;**学习**&#x200B;部分访问 Adobe Campaign Web 的关键帮助页面。
 
 ## 左侧导航菜单 {#user-interface-left-nav}
 
-浏览左侧的链接以访问Adobe Campaign Web功能。 多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[部分](#list-screens)。某些列表屏幕为只读。左侧导航菜单和列表中显示的项目取决于您的用户权限。可在[此部分](permissions.md)中详细了解权限。
+浏览左侧链接以访问 Adobe Campaign Web 功能。多个链接显示了可排序和筛选的对象的列表。您还可以配置列以显示所需的所有信息。请参阅此[部分](#list-screens)。某些列表屏幕为只读。左侧导航菜单和列表中显示的项目取决于您的用户权限。可在[此部分](permissions.md)中详细了解权限。
 
 
 ### 探索工具 {#user-interface-explorer}

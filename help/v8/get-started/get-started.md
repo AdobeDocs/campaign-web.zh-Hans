@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: Adobe Campaign Web 快速入门
-description: Adobe Campaign Web 快速入门
+title: 开始使用 Adobe Campaign Web
+description: 开始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限发布版"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
-# Adobe Campaign Web 快速入门 {#get-started}
+# 开始使用 Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="入门"
+>title="快速入门"
 >abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
->title="入门"
+>title="快速入门"
 >abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="入门"
+>title="快速入门"
 >abstract="新的 Adobe Campaign Web 界面产生一种完整、直观和一致的用户体验。"
 
 Adobe Campaign 提供了一个跨渠道客户体验设计平台，以及用于进行可视化活动编排、实时互动管理和跨渠道执行的环境。
@@ -50,7 +50,7 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 
 >[!NOTE]
 >
->Adobe Campaign Web当前为Limited Availability (LA)版本。 仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
+>Adobe Campaign Web 目前为有限发布版 (LA)。仅限少量 LA 客户访问。请注意，产品界面、功能和使用流程可能会发生更改，恕不另行通知。
 
 在[此页面](connect-to-campaign.md)中了解如何连接到 Adobe Campaign Web 界面。
 
