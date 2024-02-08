@@ -3,10 +3,10 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 badge: label="有限发布版"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 16%
+source-wordcount: '1279'
+ht-degree: 15%
 
 ---
 
@@ -80,9 +80,13 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
    * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
    * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](../audience/manage-services.md).
    * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](../audience/manage-services.md).
-   * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。 了解有关阻止列表管理的更多信息
+   * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >了解如何在中实施与每个模板对应的不同用例 [本节](lp-use-cases.md).
 
 1. 单击 **[!UICONTROL 创建]**.
 
@@ -94,7 +98,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 在 **[!UICONTROL 数据预加载]** 部分，默认情况下会选中以下两个选项：
 
-   * 此 **[!UICONTROL 使用表单中引用的数据预填充]** 选项允许您自动预加载与表单中的输入和合并字段匹配的数据。
+   * 当 **[!UICONTROL 使用表单中引用的数据预填充]** 选项，如果登陆页面的访客与数据库中的某个配置文件匹配，则该配置文件的信息会自动预加载到表单中。 用户只需填写缺少的字段，并在需要时更新现有值。 这允许合并现有用户档案的数据，而不是创建重复项。
 
    * 此 **[!UICONTROL 如果没有ID，则跳过预加载]** 如果不希望更新用户档案，则必须选择选项。 在这种情况下，输入的每个用户档案都将在批准表单后添加到数据库中。 例如，当表单在网站上发布时，将使用此选项。
 
@@ -118,7 +122,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
      >
      >如果未定义开始日期，则登陆页面在发布后立即处于活动状态。
 
-   * 当页面到达结束日期时，登陆页面会自动取消发布，并且表单不再可用。 此 **[!UICONTROL 过期]** 此时将改为显示页面。
+   * 当页面到达结束日期时， <!--the landing page is automatically unpublished and -->该表单不再可用。 此 **[!UICONTROL 过期]** 此时将改为显示页面。
 
      >[!NOTE]
      >
