@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '2143'
 ht-degree: 3%
 
 ---
@@ -43,8 +43,8 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 
 * **直邮**. 直邮渠道允许您向客户、客户、供应商或其他人发送实际信件，如通知、发票、对帐单、营销优惠等。 此渠道仅在客户端控制台中可用。  [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE消息传送**. LINE是一款免费即时消息传递、语音和视频呼叫应用程序，可在所有移动设备和个人电脑上使用。 Adobe Campaign仅允许您从客户端控制台发送LINE消息。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* 呼叫中心和自定义渠道。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* 通过X (Twitter)进行社交媒体营销。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
+* **呼叫中心和自定义渠道**. 可以在您的Campaign环境中实施呼叫中心和其他自定义渠道。 这些渠道只能在客户端控制台中使用。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **社交媒体营销** X(Twitter)。 您通过张贴消息和发送私信来通过X(Twitter)与客户互动。 此功能与社交营销加载项一起提供，但只能从客户端控制台中使用 —  [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
 ## 登陆页面和Web应用程序 {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 因此，在Campaign客户端控制台中，您无法编辑、更新或修改在Web界面中创建的登陆页面，反之亦然。 以下类型的Web应用程序在Campaign Web用户界面中不可用。 但是，它们会在登陆页面列表中可见。 使用提供的链接浏览Campaign Classicv7文档并了解有关这些Web应用程序的更多信息：
 
-* Web应用程序。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* Web窗体。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hans){target="_blank"}
-* 在线调查。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **Web应用程序**. Adobe Campaign允许您创建和发布动态的交互式Web应用程序，其中预加载的数据来自数据库，内容根据所连接用户的权限进行调整。 此功能仅在客户端控制台中可用。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **Web窗体**. 在客户端控制台中设计的Web和登陆页面在Campaign Web用户界面中可见，但无法编辑或修改。 客户端控制台网页设计人员和带有Campaign Web用户界面的登陆页面设计人员之间的某些选项可能不同。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hans){target="_blank"}
+* **在线调查**. 您只能从客户端控制台创建在线调查和收集答案。 此功能在Campaign Web用户界面中不可用。  [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## 用户档案、测试用户档案和受众 {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 请注意，Campaign Web用户界面暂时不提供以下功能。 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些功能的更多信息。
 
-* 自定义个性化块创建。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* 自定义表单中的内容（内容管理模块）。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* 电子邮件AMP。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **自定义个性化块创建**. 除了默认的个性化块之外，您还可以从客户端控制台创建自定义块。 此功能在Campaign Web用户界面中不可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **自定义表单中的内容**. 使用内容管理模块，可创建和管理表单，以在在Campaign中创建内容时协助用户。 此功能仅在客户端控制台中可用。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **电子邮件AMP**. AMP for Email新格式允许您在邮件中包含AMP组件，并通过丰富的可操作内容改善电子邮件体验。 此功能仅在客户端控制台中可用。 [请参阅Campaign Classicv7文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Campaign Web用户界面未显示以下功能。 它们仅在客户端控制台�
 
 浏览中提供的链接 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"} 了解更多信息。
 
-* 外部帐户。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* 架构创建和扩展。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* 数据管理工作流活动：数据加载、提取（文件）、更新数据、编辑架构、导入/导出技术工作流。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Campaign配置和与外部系统的连接。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+* **外部帐户**. Adobe Campaign提供了一组预定义的外部帐户来与外部系统连接。 作为Campaign系统管理员，您只能从客户端控制台创建和管理外部帐户。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **架构创建和扩展**. 架构创建、修改和扩展都限制为高级用户。 这些功能只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **数据管理** 工作流活动。 数据管理通过提供更高效和灵活的工具，将一系列用于解决复杂定位问题的活动整合在一起。 这些活动包括：数据加载、提取（文件）、更新数据、编辑架构、导入/导出技术工作流。 它们仅在客户端控制台中可用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **联合数据访问**. Campaign配置以及与外部系统的连接仅限高级用户使用，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## 审批 {#approvals-capabilities}
 
