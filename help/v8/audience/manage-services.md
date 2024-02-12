@@ -2,11 +2,10 @@
 audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
-badge: label="有限发布版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '933'
 ht-degree: 29%
 
 ---
@@ -20,13 +19,11 @@ ht-degree: 29%
 
 使用Adobe Campaign Web管理和创建服务（如新闻稿），并检查这些服务的订阅或退订。
 
+可以并行定义多种服务，例如：特定产品类别、网站主题或区域的新闻稿、各种类型警报消息的订阅以及实时通知。
+
 >[!NOTE]
 >
 >订阅仅适用于电子邮件和短信投放。
-
-可以并行定义多种服务，例如：特定产品类别、网站主题或区域的新闻稿、各种类型警报消息的订阅以及实时通知。
-
-要了解有关管理订阅和退订的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## 访问订阅服务 {#access-services}
 
@@ -34,11 +31,11 @@ ht-degree: 29%
 
 1. 浏览至 **[!UICONTROL 订阅服务]** 菜单的位置。
 
-   ![](assets/service-list.png)
+   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
 1. 此时将显示所有现有订阅服务的列表。 您可以搜索服务，并在渠道、文件夹上使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png)
+   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
 1. 要编辑现有服务，请单击其名称。
 
@@ -60,13 +57,13 @@ ht-degree: 29%
 
 1. 选择 **[!UICONTROL 创建订阅服务]** 按钮。
 
-   ![](assets/service-create-button.png)
+   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 选择渠道： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 短信]**.
 
 1. 在服务属性中，输入标签并定义 **[!UICONTROL 其他选项]** 如所愿。
 
-   ![](assets/service-create-properties.png)
+   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
 
 1. 默认情况下，服务存储在 **[!UICONTROL 服务和订阅]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
@@ -76,11 +73,11 @@ ht-degree: 29%
    * 没有收件人可以再订阅此服务
    * 此服务的所有订阅者都会自动取消订阅
 
-   ![](assets/service-create-validity-period.png)
+   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 1. 当用户订阅服务或从服务取消订阅时，您可发送确认消息。根据您的用例选择用于该消息的模板。 这些模板必须配置 **[!UICONTROL 订阅]** 目标映射。 [了解详情](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png)
+   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 保存并审阅]**. 新服务将添加到 **[!UICONTROL 订阅服务]** 列表。
 
@@ -103,21 +100,21 @@ ht-degree: 29%
 >title="选择取消订阅投放模板"
 >abstract="要将确认消息发给取消订阅您的服务的用户，您必须根据&#x200B;**[!UICONTROL 订阅]**&#x200B;目标映射选择一个未定义目标的特定投放模板。"
 
-要向订阅或取消订阅服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 为此，请执行以下步骤。
+要向订阅或取消订阅服务的用户发送确认消息，您必须使用创建投放模板 **[!UICONTROL 订阅]** 目标映射，无已定义目标。 要实现此目的，请执行以下步骤：
 
 1. 为订阅确认创建投放模板。 [了解如何创建模板](../msg/delivery-template.md)
 
 1. 请勿为此投放选择受众。 相反，请访问投放 **[!UICONTROL 设置]**，转到 [受众](../advanced-settings/delivery-settings.md#audience) 选项卡，然后选择 **[!UICONTROL 订阅]** 列表中的目标映射。
 
-   ![](assets/service-confirmation-template-mapping.png)
+   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 目标映射在Campaign v8控制台中定义。 在中了解详情 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >如果您不选择  **[!UICONTROL 订阅]** 目标映射，您的订阅者将不会收到确认消息。 要了解有关目标映射的更多信息，请参阅 [本节](../audience/targeting-dimensions.md) .
 
 1. 编辑投放模板的内容，保存并关闭它。
 
-   ![](assets/service-confirmation-template.png)
+   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -148,13 +145,13 @@ ht-degree: 29%
 
 1. 从中选择现有服务 **[!UICONTROL 订阅服务]** 列表。 单击 **[!UICONTROL 计算]** 将获取订阅者的总数。
 
-   ![](assets/service-logs-subscribers-count.png)
+   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
 
 1. 从服务仪表板中，选择 **[!UICONTROL 日志]** 查看此服务的订阅者列表。
 
    您可以检查订阅者总数、每个收件人的姓名和地址以及他们订阅或取消订阅的时间。 您还可以对其进行过滤。
 
-   ![](assets/service-logs.png)
+   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
 
 1. 从服务仪表板中，选择 **[!UICONTROL 报表]**. 检查以下指示器：
 
@@ -162,7 +159,7 @@ ht-degree: 29%
 
    * 您可以查看选定时段内的订阅和退订数量。 使用下拉列表更改时间范围。
 
-     ![](assets/service-reports.png)
+     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
 
    * 此 **[!UICONTROL 订阅的总体演变]** 图表按期间显示细分，包括订阅、取消订阅、数量演变和忠诚度百分比。<!--what is Registered?-->
 
