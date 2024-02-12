@@ -3,7 +3,7 @@ title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Beta 版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ ht-degree: 82%
 
 >[!AVAILABILITY]
 >
->AI支持的上下文帮助有测试版提供，如有更改，恕不另行通知。
+>* AI支持的上下文帮助有测试版提供，如有更改，恕不另行通知。
 >
->此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。因此，在使用此功能之前，请确保将[您的首选语言](connect-to-campaign.md#language-pref)设置为英语。
+>* 此功能仅以&#x200B;**英语**&#x200B;提供。此版本不支持其他语言。因此，在使用此功能之前，请确保将[您的首选语言](connect-to-campaign.md#language-pref)设置为英语。
 >
->Campaign Email Designer中目前不提供AI支持的上下文帮助。
+>* Campaign Email Designer中目前不提供AI支持的上下文帮助。
 
 
 <!--
