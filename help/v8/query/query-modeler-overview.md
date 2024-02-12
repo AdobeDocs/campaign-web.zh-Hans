@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
-badge: label="有限发布版"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 39%
+source-wordcount: '551'
+ht-degree: 30%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 39%
 >title="查询建模器"
 >abstract="为收件人或数据库中的任何其他定位维度定义过滤条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
-Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的过程以根据各种条件选择特定目标。这包括使用高级表达式和运算符。
+Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据各种标准筛选数据库的过程。 它确保与在客户端控制台中创建的查询完全兼容，从而促进到Web用户界面的无缝过渡。
+
+此外，查询建模器可以高效地管理非常复杂和长的查询，提供增强的灵活性和精确度。 此外，它支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 
 ## 访问查询建模器
 
@@ -40,17 +42,17 @@ Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的�
 
 | 使用情况 | 示例 |
 |  ---  |  ---  |
-| **定义受众**：指定要在消息或工作流中定位的群体，并根据您的需求轻松创建新受众。 | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **自定义工作流活动**：在工作流活动（如拆分和协调）中应用规则以满足您的特定要求。 | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **预定义过滤器**：创建预定义过滤器，这些过滤器在各种过滤操作期间用作快捷键，无论您是使用数据列表还是构成投放的受众。 | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **过滤报表数据**：添加规则以筛选报表中显示的数据。 | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **自定义列表**：创建自定义规则以过滤在列表（如收件人、投放列表等）中显示的数据。 | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **定义受众**：指定要在消息或工作流中定位的群体，并根据您的需求轻松创建新受众。 | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自定义工作流活动**：在工作流活动（如拆分和协调）中应用规则以满足您的特定要求。 | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **预定义过滤器**：创建预定义过滤器，这些过滤器在各种过滤操作期间用作快捷键，无论您是使用数据列表还是构成投放的受众。 | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **过滤报表数据**：添加规则以筛选报表中显示的数据。 | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自定义列表**：创建自定义规则以过滤在列表（如收件人、投放列表等）中显示的数据。 | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -59,7 +61,7 @@ Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的�
 
 查询建模器提供了一个中央画布，您可以在其中构建查询，以及一个右窗格，提供有关查询的信息。
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### 中央画布 {#canvas}
 
