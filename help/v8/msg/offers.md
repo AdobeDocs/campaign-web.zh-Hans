@@ -3,10 +3,9 @@ audience: end-user
 title: 在消息中添加优惠
 description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="有限发布版"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 35%
 
 ---
@@ -40,13 +39,13 @@ ht-degree: 35%
 
 1. 单击 **[!UICONTROL 设置优惠]** 按钮。
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. 配置应向收件人推荐的优惠。
 
    首先选择 **[!UICONTROL 优惠空间]** 与您的选件环境相匹配的。 了解如何在中创建优惠空间 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. 要细化引擎的优惠选择，请选择已在其中对优惠排序的特定&#x200B;**[!UICONTROL 优惠类别]**。
 
@@ -90,7 +89,7 @@ ht-degree: 35%
 
 1. 将鼠标光标放在要插入选件的位置，然后使用个性化图标打开表达式编辑器。
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. 选择 **[!UICONTROL 建议]** 菜单。 可用建议会显示在列表中。
 
@@ -100,7 +99,7 @@ ht-degree: 35%
 
 1. 使用可用的个性化字段、渲染函数或优惠属性定义每个建议。
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

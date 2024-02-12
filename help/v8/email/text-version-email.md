@@ -3,11 +3,10 @@ audience: end-user
 title: 创建文本版本的电子邮件
 description: 了解如何创建文本版本的电子邮件
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -21,15 +20,15 @@ ht-degree: 100%
 
 1. 从电子邮件中，选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;选项卡。
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. 使用&#x200B;**[!UICONTROL 与 HTML 同步]**&#x200B;开关以禁用同步。
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. 单击复选标记以确认您的选择。
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. 之后，您可以根据需要编辑纯文本版本。
 

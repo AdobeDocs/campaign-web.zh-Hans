@@ -3,11 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 45%
+source-wordcount: '630'
+ht-degree: 44%
 
 ---
 
@@ -48,11 +47,11 @@ ht-degree: 45%
 
 1. 单击 **[!UICONTROL 编辑内容]** 按钮来自 [电子邮件投放仪表板](../email/create-email.md) 屏幕。
 
-   ![](assets/email-edit-content-button.png)
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. 此时将打开电子邮件内容编辑屏幕。
 
-   ![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -72,7 +71,7 @@ ht-degree: 45%
 
 1. 展开 **[!UICONTROL 回复字段]** 部分。 默认情况下，答复使用发件人姓名和地址。 但是，Adobe建议使用现有的真实地址，例如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
 
-   ![](assets/email-edit-content-reply-to.png)
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入主题，或打开表达式编辑器以添加 [个性化](../personalization/personalize.md) 使用各种属性和内容块或选件。
 

@@ -3,11 +3,10 @@ audience: end-user
 title: 开始使用电子邮件样式
 description: 探索可用于调整电子邮件内容样式的各种不同方式
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 可以将更改应用于电子邮件正文、结构组件或内容组件。
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 访问以下链接来探索如何调整电子邮件中的某些样式设置。
 

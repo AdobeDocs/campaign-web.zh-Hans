@@ -6,10 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="有限发布版"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -33,18 +32,18 @@ ht-degree: 2%
 
 1. 使用打开表达式编辑器 **[!UICONTROL 打开个性化对话框]** 可从文本类型编辑字段（如主题行或短信正文）访问的图标。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 表达式编辑器将打开。 Adobe Campaign数据库中可用的个性化字段在屏幕左侧被整理到多个菜单中：
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    | 菜单 | 说明 |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 订阅者应用程序]** 菜单列出与应用程序的订户相关的字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件人]** 菜单列出在收件人表中定义的字段，如收件人的姓名、年龄或地址。 时间 [从外部文件上传联系人](../audience/file-audience.md) 对于独立电子邮件投放，此菜单列出输入文件中可用的所有字段。 |
-   | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的字段，包括跨所有渠道发送到收件人或设备的所有消息，例如与给定收件人的最后一个事件的日期 |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的字段，例如投放渠道或标签。 |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 订阅者应用程序]** 菜单列出与应用程序的订户相关的字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 收件人]** 菜单列出在收件人表中定义的字段，如收件人的姓名、年龄或地址。 时间 [从外部文件上传联系人](../audience/file-audience.md) 对于独立电子邮件投放，此菜单列出输入文件中可用的所有字段。 |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 消息]** 菜单列出与投放日志相关的字段，包括跨所有渠道发送到收件人或设备的所有消息，例如与给定收件人的最后一个事件的日期 |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 投放]** 菜单列出与执行投放所需的参数相关的字段，例如投放渠道或标签。 |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ ht-degree: 2%
 
 1. 内容准备就绪后，您可以保存它并通过模拟内容来测试个性化呈现。 以下示例显示了使用收件人名字的短信消息的个性化设置。
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}

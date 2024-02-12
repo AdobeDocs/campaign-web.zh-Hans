@@ -2,12 +2,11 @@
 audience: end-user
 title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
-badge: label="有限发布版"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 41%
+source-wordcount: '626'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 41%
 1. 打开现有的电子邮件投放，或 [创建新的电子邮件投放](../email/create-email.md).
 1. 在电子邮件投放创建窗口中，从&#x200B;**受众**&#x200B;部分，单击&#x200B;**选择受众**&#x200B;按钮并选择&#x200B;**从文件选择**&#x200B;选项。
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. 选择要使用的本地文件。 格式必须与 [示例文件](#sample-file).
 1. 在屏幕的中央部分预览和检查如何映射数据。
@@ -60,7 +59,7 @@ ht-degree: 41%
 
 创建和个性化消息内容时，您可以从输入文件 [个性化编辑器](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## 示例文件 {#sample-file}
 
@@ -93,7 +92,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 1. 投放内容的预览显示在屏幕的右侧窗格中。 个性化元素被替换为在左窗格中选择的配置文件中的数据。 [了解有关投放内容预览的更多信息](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. 要发送测试电子邮件，请单击 **[!UICONTROL 测试]** 按钮。
 
@@ -105,6 +104,6 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 1. 添加验证收件人并准备好发送验证时，单击 **[!UICONTROL 发送测试电子邮件]** 按钮并确认发送。
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. 您可以使用监控测试电子邮件的发送 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 [了解有关测试电子邮件监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)

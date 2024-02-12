@@ -3,11 +3,10 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="有限发布版"
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 68%
+source-wordcount: '1403'
+ht-degree: 66%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 68%
    >
    >模板是已保存以供将来使用的预配置的投放设置。[了解详情](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png)
+   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 1. 输入投放的标签并根据需要配置其他选项：
@@ -75,7 +74,7 @@ ht-degree: 68%
    >
    >如果您已使用特定的自定义字段扩展架构，则可在&#x200B;**[!UICONTROL 自定义选项]**&#x200B;部分中访问它们。
 
-   ![](assets/email-properties.png)
+   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
 
 1. 此外，高级设置（如类型规则和目标映射）也可以通过 **[!UICONTROL 设置]** 按钮。 这些设置已在所选模板中预先配置，但可根据需要对此特定电子邮件进行编辑。 [了解详情](../advanced-settings/delivery-settings.md)
 
@@ -96,7 +95,7 @@ ht-degree: 68%
 
    在此示例中，我们希望使用定位属于银牌和金牌忠诚度积分等级的客户的现有受众。
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -104,7 +103,7 @@ ht-degree: 68%
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
-   ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
 
 1. 您还可以设置一个对照组来分析比较电子邮件收件人的行为与非定向人员的行为。[了解如何使用对照组](../audience/control-group.md)
 
@@ -116,31 +115,31 @@ ht-degree: 68%
 
 1. 在电子邮件投放仪表板中，单击 **[!UICONTROL 编辑内容]** 按钮。
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
 
    这会将您带到专用界面，您可以在其中配置电子邮件内容并访问Email Designer。 [了解详情](edit-content.md)
 
-   ![](assets/edit-content.png)
+   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
 
 1. 输入电子邮件的主题行，并使用表达式编辑器对其进行个性化设置。[了解如何个性化您的内容](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
    选择要用于创建电子邮件内容的方法。在此示例中，使用 [预定义内容模板](create-email-templates.md).
 
-   ![](assets/select-template.png)
+   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
 
 1. 选择模板后，该模板将显示在 [电子邮件设计工具](create-email-content.md)，您可以在此处进行任何必要的编辑并添加个性化。
 
    例如，要向电子邮件标题添加个性化内容，请选择组件块并单击&#x200B;**[!UICONTROL 添加个性化内容]**。
 
-   ![](assets/add-perso.png)
+   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
 
 1. 在对内容感到满意后，请保存并关闭您的设计。单击&#x200B;**[!UICONTROL 保存]**&#x200B;返回电子邮件创建屏幕。
 
-   ![](assets/save-content.png)
+   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
 
 ## 安排发送 {#schedule}
 
@@ -152,7 +151,7 @@ ht-degree: 68%
 
 1. 设置所需的发送日期和时间。
 
-   ![](assets/schedule.png)
+   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 发送投放后，实际发送从您定义的联系日期开始。
 
@@ -170,13 +169,13 @@ ht-degree: 68%
 
 1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。
 
-   ![](assets/review-email.png)
+   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
 1. 在左侧，选择要用于预览电子邮件的配置文件。
 
    右侧窗格显示基于所选配置文件的电子邮件预览。如果已添加多个配置文件，则可以在它们之间进行切换来预览相应的电子邮件。
 
-   ![](assets/preview.png)
+   ![](assets/preview.png){zoomable=&quot;yes&quot;}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -185,19 +184,19 @@ ht-degree: 68%
 
    在此示例中，使用&#x200B;**[!UICONTROL 从主要目标替代]**&#x200B;模式，它将测试版本发送到特定的电子邮件地址，同时模拟电子邮件所针对的一些配置文件。
 
-   ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 添加地址]**&#x200B;并指定接收测试版本的电子邮件地址。
 
    对于每个电子邮件地址，选择要模拟的配置文件。您还可以让 Adobe Campaign 从目标中选择一个随机配置文件。
 
-   ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 发送测试电子邮件]**&#x200B;并确认发送。
 
    使用选定的配置文件与 **[Proof x]** 前缀将测试版本发送到指定的电子邮件地址。
 
-   ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
    可以随时单击模拟内容屏幕中的&#x200B;**[!UICONTROL 查看测试电子邮件日志]**&#x200B;按钮，来查看发送状态和访问已发送的测试电子邮件。
 
@@ -207,19 +206,19 @@ ht-degree: 68%
 
 1. 要启动电子邮件准备，请单击&#x200B;**[!UICONTROL 准备]**。[了解如何准备电子邮件](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
 
 1. 准备好发送电子邮件后，单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮（如果您已计划发送，则单击&#x200B;**[!UICONTROL 按计划发送]**）并确认发送。
 
 1. 在发送过程中，您可以直接在该屏幕中实时跟踪发送进度和查看统计数据。
 
-   ![](assets/sending-email.png)
+   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
 
    <!--
-    ![](assets/sent-email.png)-->
+    ![](assets/sent-email.png){zoomable="yes"}-->
 
    还可以单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮来访问有关发送的详细信息。[了解如何监控投放日志](../monitor/delivery-logs.md)
 
 1. 发送电子邮件后，可以通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮来访问专用报告以进行深入分析。
 
-![](assets/reports.png)
+![](assets/reports.png){zoomable=&quot;yes&quot;}

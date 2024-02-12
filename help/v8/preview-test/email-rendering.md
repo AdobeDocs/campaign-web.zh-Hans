@@ -3,11 +3,10 @@ audience: end-user
 title: 测试电子邮件渲染
 description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="有限发布版"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -33,21 +32,21 @@ ht-degree: 3%
 
 1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **连接您的Litmus帐户** 在右上角。
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. 输入您的凭据并登录。
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **运行测试** 按钮以生成电子邮件预览。
 
 1. 在常用的桌面、移动和基于Web的客户端中查看您的电子邮件内容。
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

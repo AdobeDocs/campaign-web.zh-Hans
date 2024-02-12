@@ -3,11 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="有限发布版"
-source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 47%
+source-wordcount: '213'
+ht-degree: 46%
 
 ---
 
@@ -32,17 +31,17 @@ ht-degree: 47%
 
 1. 单击左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;图标并选择&#x200B;**[!UICONTROL 正文]**。
 
-   ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
 
 1. 从 **[!UICONTROL 设置]** 选项卡，为您的预告输入一些文本。
 
 1. 要进一步对其进行个性化，请单击 **[!UICONTROL 添加个性化]** 左侧图标 **[!UICONTROL 预编译标头]** 字段。
 
-   ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
 
 1. 从 **[!UICONTROL 编辑个性化]** 窗口，您可以添加 [个性化字段](../personalization/personalize.md)， [内容块](../personalization/content-blocks.md) 和 [条件内容](../personalization/conditions.md) 使用左侧的专用条目。
 
-   ![](assets/preheader_body_personalization.png)
+   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 确认]**。
 

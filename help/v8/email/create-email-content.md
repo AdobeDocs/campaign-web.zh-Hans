@@ -3,11 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 71%
+source-wordcount: '595'
+ht-degree: 69%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 71%
 
 1. 从 [电子邮件设计工具](get-started-email-designer.md#start-authoring) 主页上，选择 **[!UICONTROL 从头开始设计]** 选项。
 
-   ![](assets/email_designer-from-scratch.png)
+   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
 
 1. 通过拖放开始设计电子邮件内容 **[!UICONTROL 结构]** 放入画布以定义电子邮件的布局。
 
@@ -70,7 +69,7 @@ ht-degree: 71%
 
 1. 添加任意数量 **[!UICONTROL 结构]** 并根据需要在右侧的专用窗格中编辑其设置。
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
 
 1. 您可以选择 **[!UICONTROL n：n列]** 用于定义所选列数（介于3和10之间）的组件。 还可以通过移动每个列底部的箭头来定义该列的宽度。
 
@@ -82,7 +81,7 @@ ht-degree: 71%
 
 1. 可使用进一步自定义每个组件 **[!UICONTROL 设置]** 或 **[!UICONTROL 样式]** 选项卡位于右侧。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png)
+   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
 
 1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 [详细了解内容个性化](../personalization/personalize.md)
 
@@ -92,7 +91,7 @@ ht-degree: 71%
 
 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
 
-   ![](assets/email_designer-links.png)
+   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
 
 1. 如果需要，可以通过单击高级菜单中的&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;来进一步个性化电子邮件。例如，这允许您编辑电子邮件源代码以添加跟踪或自定义 HTML 标记。[详细了解代码编辑器](code-content.md)
 
@@ -102,7 +101,7 @@ ht-degree: 71%
 
 1. 在内容准备就绪后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以检查电子邮件渲染。可以选择桌面或移动视图。[详细了解预览电子邮件](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png)
+   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
 
 1. 在电子邮件就绪后，单击&#x200B;**[!UICONTROL 保存]**。
 

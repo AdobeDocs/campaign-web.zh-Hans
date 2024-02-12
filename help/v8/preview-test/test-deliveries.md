@@ -3,10 +3,9 @@ audience: end-user
 title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="有限发布版"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1209'
 ht-degree: 13%
 
 ---
@@ -37,7 +36,7 @@ ht-degree: 13%
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 1. 单击 **[!UICONTROL 测试]** 按钮以发送测试投放。
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. 选择测试收件人。
 
@@ -81,7 +80,7 @@ ht-degree: 13%
 
 1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **[!UICONTROL 测试用户档案]** 定位将接收测试电子邮件或短信投放的虚构收件人。
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ ht-degree: 13%
 
 1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
 
 1. 要将最终消息发送给测试投放的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. 选择测试用户档案后，您可以 [发送测试投放](#send-test).
 
@@ -118,7 +117,7 @@ ht-degree: 13%
 
 1. 单击 **[!UICONTROL 添加地址]** 按钮，并指定要接收测试投放的电子邮件地址或电话号码。
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ ht-degree: 13%
 
 1. 确认收件人并重复该操作，根据需要添加任意数量的电子邮件地址或电话号码。
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. 要将最终消息发送给测试投放的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
@@ -140,13 +139,13 @@ ht-degree: 13%
 
 1. 在推送投放的内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. 如果您已选择订阅者 [预览投放](preview-content.md) 在内容模拟屏幕中，预先选择这些用户档案作为测试订阅者。
 
    您可以使用专用按钮清除选择和/或添加其他订阅者。
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 要同时向测试订阅者发送最终推送通知，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
@@ -160,7 +159,7 @@ ht-degree: 13%
 
 1. 确认发送。
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. 发送所需数量的测试，直到最终确定投放内容为止。
 
@@ -176,8 +175,8 @@ ht-degree: 13%
 
 利用这些日志，可访问为选定投放发送的所有测试，并可视化与其发送相关的特定统计信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 您还可以从访问已发送的测试 [投放列表](../msg/gs-messages.md)，与任何投放一样。
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

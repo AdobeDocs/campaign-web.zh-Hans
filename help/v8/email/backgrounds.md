@@ -3,11 +3,10 @@ audience: end-user
 title: 个性化电子邮件背景
 description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -28,15 +27,15 @@ ht-degree: 100%
 
 * 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。请务必在可从左侧窗格访问的导航树中选择正文设置。
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * 通过选择&#x200B;**[!UICONTROL 视口背景颜色]**&#x200B;来为所有结构组件设置同一背景颜色。此选项可让您从背景颜色中选择其他设置。
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * 为每个结构组件设置不同的背景颜色。在左侧窗格的导航树中选择一个结构，以仅将特定的背景颜色应用于该结构。
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ ht-degree: 100%
 
 * 设置结构组件的内容的&#x200B;**[!UICONTROL 背景图像]**。
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ ht-degree: 100%
 
 * 在列级别设置背景颜色。
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

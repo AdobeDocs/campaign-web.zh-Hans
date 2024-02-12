@@ -3,10 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="有限发布版"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 95%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 95%
 
 主页的上半部分详细介绍了产品中所提供的最新更新和新功能，以及发行说明和详细文档的链接。使用向左箭头滚动功能卡。
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。可在[此页面](../reporting/kpis.md)中详细了解这些 KPI。
 
@@ -71,7 +70,7 @@ ht-degree: 95%
 
   使用&#x200B;**更多操作**&#x200B;按钮删除或重复投放。
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **工作流** - 可在此屏幕中访问工作流和工作流模板的完整列表。可检查其状态、上次/下次执行日期，并可创建新的工作流或新的工作流模板。可用与筛选其他对象相同的条件筛选该列表。此外，还可筛选属于或不属于营销活动的工作流。可[在此部分中](../workflows/gs-workflows.md)详细了解工作流。
 
@@ -119,7 +118,7 @@ ht-degree: 95%
 
 界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 目前作为测试版在新的Campaign Web用户界面中发布， **AI支持的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
 

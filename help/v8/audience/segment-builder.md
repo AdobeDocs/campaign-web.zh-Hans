@@ -3,11 +3,10 @@ audience: end-user
 title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta 版"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 59%
+source-wordcount: '582'
+ht-degree: 57%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 59%
 
 左侧的面板包含可筛选以创建受众的所有元素。您可以使用搜索栏快速查找元素。 必须将调色板中包含的拼贴移动到中心画布中，才能进行配置并加以考虑。
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 面板分为两个选项卡：
 
@@ -38,13 +37,13 @@ ht-degree: 59%
 
 画布是指位于中央的区域，您可以在其中根据从面板添加的元素来配置和组合规则。要添加新规则，请从面板中拖动一个磁贴并将其放到画布上。之后，将根据要添加的数据类型为您提供特定于上下文的选项。
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## “规则属性”窗格
 
 在右边， **规则属性** 窗格允许您执行下面列出的操作。
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **查看结果**：显示按受众定位的收件人的列表。
 * **代码视图**：在 SQL 中显示基于代码的受众版本。
@@ -64,26 +63,26 @@ ht-degree: 59%
 
 1. 在面板的&#x200B;**属性**&#x200B;选项卡中，搜索&#x200B;**出生日期**&#x200B;字段。拖动磁贴并将其放到画布上。
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. 在画布中，选择 **After** 运算符并输入所需日期。
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. 在面板中，搜索&#x200B;**城市**&#x200B;字段，并将其添加到画布中第一条规则的下方。
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. 在文本字段中，输入第一个城市名称，然后按 Enter。
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. 对第二个城市名称重复此操作。
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**查看结果**&#x200B;以显示与查询匹配的收件人的列表和数量。还可以添加列以可视化和检查数据。在我们的示例中，添加&#x200B;**城市**&#x200B;列，应看到亚特兰大和西雅图。
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**确认**。

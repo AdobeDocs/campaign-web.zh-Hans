@@ -3,10 +3,9 @@ audience: end-user
 title: Campaign Web用户界面的新增功能
 description: 了解Campaign Web用户界面中的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="有限发布版"
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1290'
 ht-degree: 74%
 
 ---

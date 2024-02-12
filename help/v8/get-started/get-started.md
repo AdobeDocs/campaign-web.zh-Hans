@@ -3,11 +3,10 @@ audience: end-user
 title: 开始使用 Adobe Campaign Web
 description: 开始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +40,7 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 
 最初只能通过功能丰富的[客户端控制台](#ac-client)使用 Campaign，而它现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 这个新的Web用户界面首先满足 **商业从业者**  — 所有典型的管理任务在此第一版中均不可用，但将在后续版本中解决。 请注意，并非客户端控制台中可用的所有功能或选项现在都能在新 UI 中使用。新的用例、选项和功能将在未来版本中提供。
 

@@ -2,10 +2,9 @@
 title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
-badge: label="有限发布版"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1301'
 ht-degree: 15%
 
 ---
@@ -25,11 +24,11 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 要访问登陆页面列表，请选择 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 登陆页面]** 从左侧菜单。
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 登陆页面]** 库存显示所有已创建的物料。 您可以使用以下代码筛选它们 **显示筛选器** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,11 +69,11 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
 
 1. 从 **[!UICONTROL 登陆页面]** 库存，单击 **[!UICONTROL 创建登陆页面]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 选择模板：
    * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
@@ -82,7 +81,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
    * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](../audience/manage-services.md).
    * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -94,7 +93,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    默认情况下，登陆页面存储在 **[!UICONTROL Web应用程序]** 文件夹。 您可以通过浏览到中所需的位置来更改它 **[!UICONTROL 其他选项]**. [了解如何使用文件夹](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. 在 **[!UICONTROL 数据预加载]** 部分，默认情况下会选中以下两个选项：
 
@@ -104,17 +103,17 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 在 **[!UICONTROL 页面]** 部分，单击 **[!UICONTROL 编辑内容]** 按钮来指定您要为此登陆页面设计的每个页面。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
 
    您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。 要执行此操作，请取消选择 **[!UICONTROL 更新预加载的记录]** 选项并选中下的所需字段 **[!UICONTROL 对帐选项]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * 登陆页面会在指定的开始日期/时间自动发布。
 
@@ -152,7 +151,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 单击之后 **[!UICONTROL 审阅并发布]**，选择 **[!UICONTROL 模拟内容]** 登录页面仪表板中用于访问测试用户档案选择的按钮。
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. 从 **[!UICONTROL 模拟]** 屏幕中，选择一个或多个测试用户档案。
 
@@ -160,13 +159,13 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 选择 **[!UICONTROL 打开预览]** 以测试您的登陆页面。
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试配置文件数据替换。
 
    如果您选择了 **[!UICONTROL 使用表单中引用的数据预填充]** 选项，则表单字段会自动预填相应的测试配置文件数据。<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
 
@@ -186,6 +185,6 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >
 >要完全测试或利用您的登陆页面，您不能将此链接直接复制粘贴到Web浏览器或投放中。 请改用 [模拟内容](#test-landing-page) 函数进行测试，并遵循中所述的步骤 [本节](lp-use-cases.md) 以正确使用登陆页面。
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 您可以通过日志监控登陆页面影响<!--and specific reports-->. 单击 **[!UICONTROL 日志]** 按钮。

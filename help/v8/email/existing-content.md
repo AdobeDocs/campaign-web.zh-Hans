@@ -3,11 +3,10 @@ audience: end-user
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 48%
+source-wordcount: '244'
+ht-degree: 47%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 48%
 
 1. 在 [电子邮件设计工具](get-started-email-designer.md) 主页，选择 **[!UICONTROL 导入HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
 
@@ -39,11 +38,11 @@ ht-degree: 48%
 
    在此模式下，您只能对文本进行个性化，向内容添加链接或包含资源。
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. 为了能够利用Email Designer内容组件，请访问 **[!UICONTROL HTML转换器]** 选项卡，然后单击 **[!UICONTROL 转换]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

@@ -1,8 +1,7 @@
 ---
 title: 开始使用配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
-badge: label="有限发布版"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 26%
@@ -49,7 +48,7 @@ A **个人资料**&#x200B;在客户端控制台中又称为“收件人”，表
 
 您可以筛选 **[!UICONTROL 配置文件]** 使用 **显示筛选器** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 要访问配置文件的详细信息，请在列表中单击其名称。 这将打开配置文件的详细视图，允许您浏览其属性以及他订阅的服务。 [了解如何浏览用户档案的详细信息](create-profile.md)
 

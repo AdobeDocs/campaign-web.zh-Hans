@@ -3,11 +3,10 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在Campaign Web用户界面中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 37%
+source-wordcount: '797'
+ht-degree: 36%
 
 ---
 
@@ -67,7 +66,7 @@ ht-degree: 37%
 1. 添加 **创建日期** 字段。 更改为 **降序** 排序选项。
 1. 在中将100定义为阈值 **大小限制** 部分。
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 随后，这100名最年轻的收件人被排除在主要目标之外。
 
@@ -75,27 +74,27 @@ ht-degree: 37%
 
 您可以查看日志以检查和识别排除的配置文件。让我们以随机排除五个配置文件为例。
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 在投放准备之后，您可以查看排除项的应用方式：
 
 * 在投放仪表板中，在发送之前，检查 **排除** KPI。
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * 在投放日志中， Logs选项卡显示排除步骤。
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * 此 **排除原因** 选项卡显示每个分类规则的已排除配置文件的数量。
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 有关投放日志的更多信息，请参阅此[章节](../monitor/delivery-logs.md)。
 
@@ -110,7 +109,7 @@ ht-degree: 37%
 
 从&#x200B;**对照组**&#x200B;定义屏幕的&#x200B;**额外群体**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * 要使用现有受众，请单击&#x200B;**选择受众**。可在[此部分](add-audience.md)中了解详情。
 

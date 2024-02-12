@@ -3,11 +3,10 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用Campaign Web用户界面准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="有限发布版"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 38%
+source-wordcount: '911'
+ht-degree: 37%
 
 ---
 
@@ -26,12 +25,12 @@ ht-degree: 38%
 
 1. 在投放仪表板中，单击 **[!UICONTROL 审阅并发送]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. 单击 **[!UICONTROL 准备]** 按钮进行确认。
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ ht-degree: 38%
 
    您可以随时使用停止准备 **[!UICONTROL 停止准备]** 按钮。
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >在准备阶段，不发送任何邮件。因此，您可以开始或停止准备而不影响任何内容。
 
 1. 在准备完成后，检查 KPI。如果要发送的邮件数不符合您的期望，请修改您的受众并重新开始准备。
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    以下是显示的不同 KPI：
 
@@ -58,11 +57,11 @@ ht-degree: 38%
 
 1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解详情](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. 如果准备阶段检测到阻止发送投放的严重错误，则准备状态在投放仪表板中显示为失败。
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. 如果在准备之后对投放进行了任何更改，则必须重新开始准备以将这些更改考虑在内。
 
@@ -81,7 +80,7 @@ ht-degree: 38%
 
 1. 在投放仪表板中，单击 **[!UICONTROL 发送]** 按钮进行标记。
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. 确认此操作以立即将消息发送到主目标。
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 
 1. 在投放仪表板中，单击 **[!UICONTROL 按计划发送按钮]** 按钮进行标记。
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 确认发送]**. 投放将在计划日期发送到主目标。
 
@@ -111,7 +110,7 @@ ht-degree: 38%
 
 * 单击 **[!UICONTROL 停止发送]** 立即中断发送。 一旦停止，准备工作和发送均无法恢复。
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## 检查 KPI {#check-kpis}
 
@@ -151,7 +150,7 @@ ht-degree: 38%
 
 发送完成后，您可以检查显示的KPI：
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL 已发送]**：投放的消息数。 显示的百分比基于要投放的消息总数。
 

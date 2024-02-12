@@ -4,10 +4,9 @@ title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="有限发布版"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 53%
 
 ---
@@ -44,7 +43,7 @@ ht-degree: 53%
 
 分类功能可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ ht-degree: 53%
 
 **[!UICONTROL 投放]** 参数是适用于投放的技术设置。
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 集成的电子邮件 **[!UICONTROL 路由]** 默认提供外部帐户。 其中包含允许应用程序发送电子邮件的技术参数。
 
@@ -250,7 +249,7 @@ ht-degree: 53%
 
 **[!UICONTROL 资源有效期限]** 用于已上传的资源，主要用于镜像页面和图像。 本页上的资源仅在限制时间内有效（以节省磁盘空间）。在此限制之后，这些资源将不再可用。
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

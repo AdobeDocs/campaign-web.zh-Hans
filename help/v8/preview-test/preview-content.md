@@ -3,10 +3,9 @@ audience: end-user
 title: 预览投放内容
 description: 了解如何使用Campaign Web用户界面预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="有限发布版"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 要选择将用于预览个性化内容的配置文件，请使用：
 
@@ -36,11 +35,11 @@ ht-degree: 1%
 
    * 此 **[!UICONTROL 配置文件]** 选项卡列出了数据库中存储的所有用户档案。 [了解如何使用用户档案](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 [了解如何使用查询建模器添加规则](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ ht-degree: 1%
 
    投放内容的预览显示在的右侧窗格中 **[!UICONTROL 模拟]** 屏幕。 个性化元素被替换为在左窗格中选择的配置文件中的数据。
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. 如果您添加了多个用户档案，则可以在列表中的这些用户档案之间切换以预览相应的投放内容。 您还可以添加更多测试用户档案，并使用左窗格上的相应按钮清除您的选择。
 

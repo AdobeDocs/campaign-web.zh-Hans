@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 1. 定义登陆页面的属性和设置。
 
-   ![](assets/lp-uc-properties.png)
+   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
 
 1. 根据您的情况，选择 **[!UICONTROL 客户获取]**， **[!UICONTROL 订阅]**， **[!UICONTROL 退订]** 或 **[!UICONTROL 阻止列表]** 页面。
 
 1. 将显示页面内容。 选择与登陆页面表单对应的部分。
 
-   ![](assets/lp-uc-form.png)
+   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
 
 1. 根据所选模板编辑内容：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 编辑 **[!UICONTROL 确认]** 页面，以及 **[!UICONTROL 错误]** 和 **[!UICONTROL 过期]** 页数。 此 **[!UICONTROL 确认]** 页面将在收件人提交表单后显示给他们。
 
-   ![](assets/lp-uc-confirmation-page.png)
+   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
 
 1. [测试](create-lp.md#test-landing-page) 和 [发布](create-lp.md#publish-landing-page) 您的登陆页面。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. [插入链接](../email/message-tracking.md#insert-links) 放入您的消息内容。 选择 **[!UICONTROL 登陆页面]** 作为 **[!UICONTROL 链接类型]** 并选择您创建的登陆页面。
 
-   ![](assets/lp-uc-email-link.png)
+   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 此外，您可以添加复选框来邀请客户订阅您的新闻稿服务。 [了解如何创建服务](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png)
+   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
 
 1. 根据需要调整内容并保存更改。
 
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 收到电子邮件后，如果您的收件人单击登陆页面的链接并提交表单，则其用户档案将会添加到Campaign数据库中，或更新时会包含他们提供的信息。
 
-![](assets/lp-uc-profile-updated.png)
+![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
 
 如果他们选择接收您的新闻稿，他们将订阅相应的服务。
 
-![](assets/lp-uc-newsletter-subscriber.png)
+![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## 订阅服务 {#lp-subscription}
 
@@ -113,13 +113,13 @@ ht-degree: 0%
 
 1. 首先，为订阅事件的用户创建确认模板，以便在创建服务时可以轻松选择它。 [了解详情](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png)
+   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
 
 1. 创建订阅服务，该服务会将已注册的用户存储到您的事件中。 [了解如何创建服务](../audience/manage-services.md)
 
 1. 选择您创建的模板，作为用户订阅时将收到的确认电子邮件。
 
-   ![](assets/lp-uc-subscription-service.png)
+   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
 
 1. [创建登陆页面](create-lp.md#create-landing-page) 以使您的收件人能够注册您的事件。 选择 **[!UICONTROL 订阅]** 模板。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 订阅和服务]** 字段中，选择为事件创建的服务。 离开 **[!UICONTROL 如果选中，则订阅]** 选项已启用。
 
-   ![](assets/lp-uc-subscription-checkbox-1.png)
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -159,11 +159,11 @@ ht-degree: 0%
 
 1. 您可以添加 **[!UICONTROL 复选框]** 部分，选择服务并选择 **[!UICONTROL 如果选中，则取消订阅]** 选项。
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 
 1. 您也可以展开 **[!UICONTROL 行动号召]** 部分，然后选择 **[!UICONTROL 其他更新]** 选项。 选择服务并检查 **[!UICONTROL 选择禁用]** 选项。
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png)
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. 根据需要调整内容并保存更改。
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 1. 从相应的下拉列表中，选择 **[!UICONTROL 渠道（电子邮件）]** 启用收件人仅选择退出电子邮件通信。 您还可以选择 **[!UICONTROL 按所有渠道]** 让他们不参与所有渠道的所有通信。
 
-   ![](assets/lp-uc-denylist.png)
+   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
 
 1. 根据需要调整内容并保存更改。
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 例如，如果您选择更新 **[!UICONTROL 渠道（电子邮件）]** 选项， **[!UICONTROL 不再通过电子邮件联系]** 选项将被选中。
 
-![](assets/lp-uc-denylist-profile.png)
+![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 除非再次订阅，否则此配置文件将不会收到来自您品牌的电子邮件通信。
 

@@ -2,10 +2,9 @@
 audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
-badge: label="有限发布版"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 4%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 4%
 
 此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些指标概述如下。
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -39,7 +38,7 @@ ht-degree: 4%
 
 表和图表 **[!UICONTROL 目标受众]** 显示与收件人相关的数据，并提供以下详细量度。
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -55,7 +54,7 @@ ht-degree: 4%
 
 此 **[!UICONTROL 投放统计信息]** 该表提供了每次直邮投放成功的明细，详见下面列出的指标。
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -69,9 +68,9 @@ ht-degree: 4%
 
 +++
 
-### 排除原因 {#causes-exclusion}
+### 排除的原因 {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 

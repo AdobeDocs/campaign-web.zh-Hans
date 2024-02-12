@@ -3,11 +3,10 @@ audience: end-user
 title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="有限发布版"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 1. 选择一个元素，并单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. 添加&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 链接]**。
 
@@ -38,7 +37,7 @@ ht-degree: 100%
    * 可以编辑链接并更改其&#x200B;**[!UICONTROL 目标]**。
    * 可以通过选中相应的选项来选择是否为链接加下划线。
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ ht-degree: 100%
 
 1. 要编辑链接，请单击相应的铅笔图标。
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. 如果需要，可以修改&#x200B;**[!UICONTROL 跟踪类型]**：
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    对于每个跟踪的 URL，可以将跟踪模式设置为下列值之一：
 
@@ -71,6 +70,6 @@ ht-degree: 100%
 
 1. 将&#x200B;**[!UICONTROL 类别]**&#x200B;添加到链接以对跟踪的链接进行分组，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. 发送您的投放后，访问您的投放报告。在&#x200B;**[!UICONTROL 跟踪]**&#x200B;菜单下方，**[!UICONTROL URL 和点击流]**&#x200B;报告显示了投放中访问次数最多的 URL。[了解详情](../reporting/gs-reports.md)

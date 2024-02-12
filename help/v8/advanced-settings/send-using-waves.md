@@ -3,10 +3,9 @@ audience: end-user
 title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 feature: Email
-badge: label="有限发布版"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '796'
 ht-degree: 4%
 
 ---
@@ -57,7 +56,7 @@ ht-degree: 4%
 
 如果选择此选项，则所有波浪都具有相同的大小（最后一个波浪除外），并且每个波浪之间的延迟始终相同。
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * 指定要将投放拆分为的所有批次的大小。 您可以输入百分比或数值。 只有最后一波报文的大小可以不同，因为它必须包含剩余的消息数量。
 
@@ -71,7 +70,7 @@ ht-degree: 4%
 
 要执行此操作，请选择 **[!UICONTROL 计划多个相同大小的批次]** 选项。 输入 **[!UICONTROL 20]** 随着波浪的大小和 **[!UICONTROL 1天]** 在 **[!UICONTROL 间隔]** 字段。
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## 根据日历安排批次 {#waves-calendar}
 
@@ -89,7 +88,7 @@ ht-degree: 4%
 
 在下面的示例中，第一波表示投放中包含的消息总数的25%，并立即开始。 接下来的两个批次将完成投放，并设置为以六小时间隔开始。
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 根据日历使用多个批次的一个常见用例是在启动过程中。
 
@@ -99,7 +98,7 @@ ht-degree: 4%
 
 要执行此操作，请使用 **[!UICONTROL 根据日程表计划批次]** 选项。 例如，将第一个波次设置为10%，将第二个波次设置为15%，将第三个波次设置为20%，以此类推。
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

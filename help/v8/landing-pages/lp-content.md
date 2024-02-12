@@ -2,10 +2,9 @@
 title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
-badge: label="有限发布版"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '875'
 ht-degree: 11%
 
 ---
@@ -47,7 +46,7 @@ ht-degree: 11%
 
 1. 选择它。 此 **[!UICONTROL 表单内容]** 选项卡显示在右侧面板中，允许您编辑表单的不同字段。
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ ht-degree: 11%
 
 1. 展开第一个文本字段（如果有），或者使用 **[!UICONTROL 添加]** 按钮。 从 **[!UICONTROL 文本字段1]** 部分，可以编辑字段类型、要更新的数据库字段、标签以及在用户输入值之前显示在字段中的文本。
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. 查看 **[!UICONTROL 将表单字段设为必填]** 选项（如果需要）。 在这种情况下，仅当用户填写此字段后才能提交登陆页面。
 
@@ -65,7 +64,7 @@ ht-degree: 11%
 
 1. 展开该复选框（如果有），或者使用 **[!UICONTROL 添加]** 按钮。 选择该复选框应更新数据库中的服务或字段。
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
    如果您选择 **[!UICONTROL 订阅和服务]**，从列表中选择服务，然后在以下两个选项之间进行选择：
 
@@ -82,7 +81,7 @@ ht-degree: 11%
 
 1. 添加或更新所有字段后，单击 **[!UICONTROL 行动号召]** 以展开相应的部分。 它允许您在中定义按钮的行为 **[!UICONTROL 表单]** 组件。
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. 定义单击按钮时将发生的操作：
 
@@ -96,7 +95,7 @@ ht-degree: 11%
    * 所有渠道 — 在提交表单时，用户将选择加入或退出（取决于所选模板），以进入或退出所有渠道上来自您品牌的所有通信
    * 数据库中的字段 — 从属性列表中选择一个字段，并定义在提交表单时该字段应设置为True还是False。
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
 1. 保存您的内容以返回至 [登陆页面属性](create-lp.md#create-landing-page).
 
@@ -106,17 +105,17 @@ ht-degree: 11%
 
 1. 此 **[!UICONTROL 文本字段]** 默认情况下，部分处于扩展状态。 它允许您编辑文本字段的外观，如标签字体、标签位置、字段背景颜色或字段边框。
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. 展开 **[!UICONTROL 复选框]** 部分定义复选框和相应文本的外观。 例如，您可以调整字体系列和大小，或复选框边框颜色。
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. 展开并编辑与您可能添加的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分 到你的表格里。
 
 1. 展开 **[!UICONTROL 行动号召]** 部分，以修改组件窗体中按钮的外观。 例如，您可以更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    您可以使用来预览某些设置，例如悬停时的按钮标签颜色 **[!UICONTROL 模拟内容]** 按钮。 [了解详情](create-lp.md#test-landing-page)
 
