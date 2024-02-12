@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 3%
+source-wordcount: '2151'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,6 @@ Adobe Campaign允许您创建、设计和共享登陆页面。 登陆页面体�
 
 * 在电子邮件、短信和推送上实时创作并执行信息
 * 消息扩充和个性化
-* 触发器（Adobe Analytics 购物车放弃）
 * 报告和监控交易型消息
 
 ## 内容设计 {#content-capabilities}
