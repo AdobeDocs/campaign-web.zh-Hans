@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web用户界面/客户端控制台功能矩阵
 description: Campaign Web用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Campaign Web用户界面中提供了重要的Campaign功能。 此界面主要�
 
 ## 通信渠道 {#channels-capabilities}
 
-借助Campaign Web用户界面，您可以创建、设计和发送电子邮件、短信和推送通知，并使用各种专用报告衡量其影响，如所详述 [在此部分中](../msg/gs-messages.md). 但是，以下渠道当前不可用。
+借助Campaign Web用户界面，您可以创建、设计和发送 **电子邮件**， **短信** 和 **推送通知**，并使用各种专门的报告衡量其影响，如详细的 [在此部分中](../msg/gs-messages.md). 但是，以下渠道当前正在 **非** 可用：应用程序内、直邮、LINE、呼叫中心/自定义渠道、带有X(Twitter)的社交营销。
 
 使用提供的链接浏览Campaign v8（客户端控制台）文档并了解有关这些渠道的更多信息。
 
