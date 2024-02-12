@@ -2,9 +2,9 @@
 title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '872'
 ht-degree: 11%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 11%
 >title="使用内容组件"
 >abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
 
-编辑登陆页面中任何页面的内容时，该内容均已预填充。
+您可以编辑登陆页面中任何页面的内容。
 
-第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充 [特定于登陆页面的表单组件](#use-form-component) （对于所选模板）<!-- to enable users to select and submit their choices-->. 您还可以定义 [登陆页面的样式](#lp-form-styles).
 
-要进一步设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
+第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充 [特定于登陆页面的表单组件](#use-form-component) （对于所选模板）<!-- to enable users to select and submit their choices-->.
 
 的内容 **[!UICONTROL 确认]**， **[!UICONTROL 错误]** 和 **[!UICONTROL 过期]** 页面也会预先填充。 根据需要编辑它们。
+
+您还可以定义 [登陆页面的样式](#lp-form-styles).
+
+要进一步设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
 ## 使用表单组件 {#use-form-component}
 
@@ -36,7 +39,7 @@ ht-degree: 11%
 >title="单击按钮时会出现的情况"
 >abstract="定义在用户提交登陆页面表单时将会出现的情况。"
 
-要定义特定内容，以允许用户从登陆页面选择并提交所做的选择，请使用 **[!UICONTROL 表单]** 组件。 为此，请执行以下步骤。
+要定义特定内容，以允许用户从登陆页面选择并提交所做的选择，请编辑 **[!UICONTROL 表单]** 组件。 为此，请执行以下步骤。
 
 1. 登陆页面特定 **[!UICONTROL 表单]** 组件已显示在所选模板的画布中。
 

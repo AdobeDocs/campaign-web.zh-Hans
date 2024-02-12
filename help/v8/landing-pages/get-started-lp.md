@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用登陆页
 description: 了解Campaign Web中的登陆页面
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 13%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->在Campaign Web用户界面中创建的登陆页面与从客户端控制台创建的Web表单不同。 您不能在Campaign Web用户界面中显示或编辑Web窗体。
+>在Campaign Web用户界面中创建的登陆页面与从客户端控制台创建的Web表单不同。 您不能在Campaign Web用户界面中显示或编辑在客户端控制台中创建的Web窗体。
 >
->要了解有关Web窗体的更多信息，请参阅 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>要了解有关Web窗体的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 登陆页面关键功能列示如下：
 

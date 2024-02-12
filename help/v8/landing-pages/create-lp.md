@@ -2,10 +2,10 @@
 title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 14%
 
 ---
 
@@ -71,6 +71,8 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+要创建登陆页面，请执行以下步骤：
+
 1. 从 **[!UICONTROL 登陆页面]** 库存，单击 **[!UICONTROL 创建登陆页面]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
    * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
    * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](../audience/manage-services.md).
    * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](../audience/manage-services.md).
-   * **[!UICONTROL 阻止列表]**：当某个用户档案不再希望Campaign与其联系时，应使用此模板。
+   * **[!UICONTROL 阻止列表]**：当用户档案单击投放中的选择退出链接时，并且不想再被联系时，应使用此模板。
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >了解如何在中实施与每个模板对应的不同用例 [本节](lp-use-cases.md).
+   >了解如何在中实施与每个模板对应的不同用例 [此页面](lp-use-cases.md).
 
 1. 单击 **[!UICONTROL 创建]**.
 
@@ -101,7 +103,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    * 此 **[!UICONTROL 如果没有ID，则跳过预加载]** 如果不希望更新用户档案，则必须选择选项。 在这种情况下，输入的每个用户档案都将在批准表单后添加到数据库中。 例如，当表单在网站上发布时，将使用此选项。
 
-1. 在 **[!UICONTROL 页面]** 部分，单击 **[!UICONTROL 编辑内容]** 按钮来指定您要为此登陆页面设计的每个页面。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
+1. 登陆页面可以具有后续页面。 要添加页面，请浏览 **[!UICONTROL 页面]** 部分，然后单击 **[!UICONTROL 编辑内容]** 按钮来指定您要为此登陆页面设计的每个页面。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 1. 单击 **[!UICONTROL 审阅并发布]**.
 
-定义所有设置和 [设计](lp-content.md) 您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
+定义所有设置和 [设计](lp-content.md) 您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面，如下所述。
 
 ## 测试登陆页面 {#test-landing-page}
 
@@ -148,6 +150,8 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >[!CAUTION]
 >
 >您必须具有可用的测试用户档案，才能预览消息并发送校样。 [了解有关测试用户档案的更多信息](../audience/test-profiles.md)
+
+要测试登陆页面，请执行以下步骤：
 
 1. 单击之后 **[!UICONTROL 审阅并发布]**，选择 **[!UICONTROL 模拟内容]** 登录页面仪表板中用于访问测试用户档案选择的按钮。
 
@@ -173,7 +177,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 ## 发布登陆页面 {#publish-landing-page}
 
-准备就绪后，发布登陆页面，以使其可在使用相应按钮的投放中使用。
+准备就绪并验证登陆页面后，将其发布，以便使用相应的按钮将其用于投放。
 
 发布后：
 
