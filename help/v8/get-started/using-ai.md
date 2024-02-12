@@ -3,10 +3,10 @@ title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Beta 版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 通过 Campaign 生成式 AI 的各项功能，此组件可改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导还是翻阅大量文档，受 AI 助力的上下文帮助都是您的绝佳搭档，每次互动的效率和准确性都无与伦比。
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## 建议的问题 {#questions-ai}
+
+从输入字段中，Adobe Campaign AI支持的上下文帮助可提出三个建议问题。 这些问题由人工智能生成，与帮助框和当前产品上下文相关。 选择一个问题以获取答案。
+
 ## 答案 {#answers-ai}
 
 Adobe Campaign 受 AI 助力的上下文帮助可提供协助，但您应核查事实。它可能会输出不正确的信息、不准确或有误导性的答案。请务必查看每个帮助框中链接的产品文档。
 
-人工智能和机器学习模型逐渐改进以更好地处理特定用例。Campaign 受 AI 助力的上下文帮助在接下来的几个月将继续改进。我们强烈建议您在阅读答案时使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 按钮，向我们的工程师标记任何不恰当的回复。
+您可以使用以下工具将答案复制到剪贴板 **复制** 图标（位于“帮助”弹出框底部）。
 
+## 反馈 {#feedback-ai}
+
+人工智能和机器学习模型逐渐改进以更好地处理特定用例。Campaign 受 AI 助力的上下文帮助在接下来的几个月将继续改进。我们强烈建议您在阅读答案时使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 按钮，向我们的工程师标记任何不恰当的回复。
 
 ## 推荐做法  {#recommendations-ai}
 
 在受 AI 助力的上下文帮助中提问时，将考虑当前的产品上下文（即您所在的屏幕）以及当前帮助框的内容。
 
 因此，最佳实践是提出与用户界面上下文相关的问题。例如，如果需要了解如何在工作流中发送推送投放，请浏览到&#x200B;**工作流**&#x200B;左侧菜单条目，然后使用该特定上下文中的某个上下文帮助框。要详细了解报告量度，请浏览到营销活动或投放报告，然后从那里开始操作。
-
 
 此外，为了充分利用受 AI 助力的上下文帮助，我们建议您在提问时：
 
