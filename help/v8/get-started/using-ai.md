@@ -3,10 +3,10 @@ title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
 badge: label="Beta 版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 从输入字段中，Adobe Campaign AI支持的上下文帮助可提出三个建议问题。 这些问题由人工智能生成，与帮助框和当前产品上下文相关。 选择一个问题以获取答案。
 
+![上下文帮助建议的问题](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## 答案 {#answers-ai}
 
 Adobe Campaign 受 AI 助力的上下文帮助可提供协助，但您应核查事实。它可能会输出不正确的信息、不准确或有误导性的答案。请务必查看每个帮助框中链接的产品文档。
 
 您可以使用以下工具将答案复制到剪贴板 **复制** 图标（位于“帮助”弹出框底部）。
+
+![上下文帮助复制答案](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## 反馈 {#feedback-ai}
 
