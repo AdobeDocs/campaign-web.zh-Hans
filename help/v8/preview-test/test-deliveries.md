@@ -3,9 +3,9 @@ audience: end-user
 title: 发送测试投放
 description: 了解如何定义和发送测试投放
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1178'
 ht-degree: 13%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 13%
 
    根据消息渠道，可以将测试投放发送到以下类型的收件人：
 
-   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 [了解详情](../audience/test-profiles.md)
-
-   * 对于短信和电子邮件，您还可以使用 [从主目标替换](#substitution-profiles) 模式，用于将测试投放发送到电子邮件测试地址或电话号码，并使用现有用户档案的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 您也可以使用 [从主目标替换](#substitution-profiles) 模式，用于将测试投放发送到电子邮件测试地址或电话号码，并使用现有用户档案的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
    * 对于推送消息，您可以使用 [订阅者](#subscribers)，这些是添加到数据库中的虚拟订阅者。 它们创建于 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -72,9 +70,9 @@ ht-degree: 13%
 >title="将测试配置文件包含在主要受众中"
 >abstract="启用此选项还可将最终消息发送给测试投放的收件人。"
 
-测试用户档案是种子地址，是数据库中的其他收件人。 它们可以从以下位置创建： **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
+测试用户档案是数据库中的其他收件人。 它们是从 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
-将测试投放发送到种子地址的步骤详述如下。
+将测试投放发送到测试用户档案的步骤详述如下。
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 
@@ -82,17 +80,11 @@ ht-degree: 13%
 
    ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
-   >[!NOTE]
-   >
-   >测试用户档案是从 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 了解如何在中创建和管理它们 [本节](../audience/test-profiles.md#create-test-profiles).
-
 1. 如果您已经选择用户档案到 [预览消息](preview-content.md) 在内容模拟屏幕中，会预选这些用户档案作为测试收件人。 您可以清除所做的选择和/或使用 **[!UICONTROL 添加测试配置文件]** 按钮。
 
-1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
+1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。 例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
 
 1. 要将最终消息发送给测试投放的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
 
@@ -105,7 +97,6 @@ ht-degree: 13%
 使用用户档案替换将测试投放发送到特定的电子邮件地址或电话号码，同时显示来自的现有用户档案的数据 [!DNL Adobe Campaign] 数据库。 仅当已定义投放的受众时，才能选择此模式。
 
 要替换主目标中的用户档案数据，请执行以下步骤：
-
 
 1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 测试]** 按钮。
 

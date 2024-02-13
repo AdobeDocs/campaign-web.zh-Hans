@@ -3,9 +3,9 @@ audience: end-user
 title: 预览投放内容
 description: 了解如何使用Campaign Web用户界面预览投放内容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,7 @@ ht-degree: 1%
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. 要选择将用于预览个性化内容的配置文件，请使用：
-
-   * **[!UICONTROL 添加测试配置文件]** 用于预览电子邮件和短信投放
-
-   * **[!UICONTROL 添加订阅者]** 用于预览推送通知
+1. 选择用于预览内容的配置文件。 要执行此操作，请单击 **[!UICONTROL 添加测试配置文件]** 按钮（适用于电子邮件和短信）或 **[!UICONTROL 添加订阅者]** 按钮（用于推送通知）。
 
 1. 您可以组合用户档案和测试用户档案，以预览电子邮件或短信消息。
 
@@ -37,11 +33,9 @@ ht-degree: 1%
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。
+1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。 例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 [了解如何使用查询建模器添加规则](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 [了解如何使用查询建模器添加规则](../query/query-modeler-overview.md).
 
 1. 单击 **[!UICONTROL 选择]** 以确认您的选择。
 

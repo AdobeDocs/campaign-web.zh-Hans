@@ -3,9 +3,9 @@ audience: end-user
 title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 6%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hans" text="发送测试投放"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="测试登陆页面"
 
-定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。
+定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。 这是确保准确且无内容错误和个性化设置错误的关键步骤。
 
-这是确保准确的关键步骤，而且内容和个性化设置中也不存在任何错误。
-
-要执行此操作， [!DNL Adobe Campaign] 允许您：
+[!DNL Adobe Campaign Web user interface] 允许您：
 
 * [预览消息内容和个性化](preview-content.md)
 * [发送测试投放](test-deliveries.md) （证明）到特定收件人或订阅者进行测试和验证
