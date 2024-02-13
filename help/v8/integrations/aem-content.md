@@ -3,9 +3,9 @@ audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理资源
 description: 了解如何使用Adobe Experience Manager as a Cloud service管理内容
 badge: label="有限发布版"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Adobe Campaign Web界面与Adobe Experience Manager的集成有助于直接在Ad
 
 1. 导航到 [!DNL Adobe Experience Manager] 创作实例，然后单击页面左上角的Adobe体验。 选择 **[!UICONTROL 站点]** 菜单。
 
-1. 访问 **[!UICONTROL 营销活动>品牌名称>主区域>电子邮件]**.
+1. 访问 **[!UICONTROL 营销活动>品牌名称>主区域>页面名称]**.
 
 1. 单击 **[!UICONTROL 创建]** 并选择 **[!UICONTROL 页面]** 下拉菜单中。
 
