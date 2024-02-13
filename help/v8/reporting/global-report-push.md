@@ -2,12 +2,11 @@
 audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
-badge: label="有限发布版"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 26%
+source-wordcount: '554'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -51,7 +50,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 目标受众]** 表格和图形可显示与每个已发送推送通知投放的收件人相关的数据。 指标详见下文。
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -72,7 +71,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次推送通知投放的成功情况。 指标详见下文。
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -106,6 +105,6 @@ ht-degree: 26%
 >title="投放吞吐量报告"
 >abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 投放吞吐量]** 报表提供了有关推送通知投放系统有效性的全面见解，并提供了指定时间段内成功率和错误率的详细摘要。

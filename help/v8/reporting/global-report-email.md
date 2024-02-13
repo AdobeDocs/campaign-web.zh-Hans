@@ -2,12 +2,11 @@
 audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
-badge: label="有限发布版"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 25%
+source-wordcount: '1618'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些指标概述如下。
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -54,7 +53,7 @@ ht-degree: 25%
 
 表和图表 **[!UICONTROL 目标受众]** 显示与收件人相关的数据，并提供以下详细量度。
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -75,7 +74,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 投放统计信息]** 该表提供了每个电子邮件投放成功的明细，详见下面列出的指标。
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -96,7 +95,7 @@ ht-degree: 25%
 >title="排除的原因"
 >abstract="**排除的原因**&#x200B;图和表说明在准备投放期间邮件被拒的具体原因，并提供详细的按规则细分。"
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
@@ -109,7 +108,7 @@ ht-degree: 25%
 >title="投放吞吐量"
 >abstract="通过此&#x200B;**投放吞吐量**&#x200B;可全面了解投放吞吐量，其中强调指定时间范围内的成功率和错误率。"
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 “投放吞吐量”报表提供了对投放流程效率的深入分析，其中详细概述了指定时间范围内的成功率和错误率。
 
@@ -130,7 +129,7 @@ ht-degree: 25%
 >title="按类型细分错误"
 >abstract="详述&#x200B;**按类型细分错误**&#x200B;的表和图包含有关在此过程中遇到的各种错误类型的信息，包括用户未知、邮箱已满、域无效等。"
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
 此 **[!UICONTROL 每种类型的错误细分]** 表和图表显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
@@ -161,7 +160,7 @@ ht-degree: 25%
 >title="按域细分错误"
 >abstract="说明&#x200B;**按域细分错误**&#x200B;的表和图展示与每种遇到的错误类型对应的数据，并按特定域分类。"
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形展示了与每个域中潜在错误相关的数据。 指标与以下内容通用 **[!UICONTROL 每种类型的错误细分]** 表格和图形详见上文。
 
@@ -176,7 +175,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 投放统计信息]** 量度提供关键绩效指标(KPI)，用于提供有关与每个电子邮件投放关联的数据的详细信息。 有关这些指标的更多详细信息如下。
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -204,7 +203,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 打开率和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关打开率和点进率指标的更多信息。
 
@@ -230,7 +229,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL URL和点击流]** 报告提供关键绩效指标(KPI)，用于详细分析投放期间获得最多点击次数的URL。 指标详见下文。
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关URL和点击流量度的更多信息。
 
@@ -252,7 +251,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 前10个访问次数最多的链接]** 图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关10个最常访问的链接量度的更多信息。
 
@@ -271,7 +270,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## 用户活动 {#user-activities-email}
 
@@ -282,7 +281,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 此报告的量度详述如下。
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关用户活动量度的更多信息。
 

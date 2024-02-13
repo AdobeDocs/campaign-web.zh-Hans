@@ -2,12 +2,11 @@
 audience: end-user
 title: 创建工作流的主要原则
 description: 了解使用 Adobe Campaign Web 工作流的关键原则
-badge: label="有限发布版"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 工作流图表示应该发生什么。它描述要执行的各种任务及其如何链接在一起。
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
 
 每个工作流包含：
 
@@ -40,16 +39,16 @@ ht-degree: 100%
 
 1. 可从&#x200B;**工作流**&#x200B;菜单创建工作流作为独立的工作流。
 
-   ![](assets/create-a-standalone-wf.png)
+   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
 
 1. 可直接在营销活动中从营销活动的&#x200B;**工作流**&#x200B;选项卡创建工作流。当工作流包括在营销活动中时，将它与所有其他营销活动的工作流一起执行，并且报告量度全都集中在营销活动级别。
 
-   ![](assets/create-a-wf-from-a-campaign.png)
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
 
 
 创建工作流的关键步骤如下所示：
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
 
 以下部分详细介绍了这些步骤：
 

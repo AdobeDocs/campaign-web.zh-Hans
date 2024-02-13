@@ -2,11 +2,10 @@
 audience: end-user
 title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
-badge: label="有限发布版"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '959'
 ht-degree: 23%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 23%
 
 要执行此操作，请单击 **[!UICONTROL 设置]** 按钮时，该按钮将在工作流画布上方的操作栏中可用。
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## 工作流属性 {#properties}
 
@@ -31,7 +30,7 @@ ht-degree: 23%
 
 此 **[!UICONTROL 属性]** 部分提供了在创建工作流时也可以访问的常规设置。
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 这些属性包括：

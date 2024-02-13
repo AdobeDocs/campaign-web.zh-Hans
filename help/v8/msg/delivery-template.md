@@ -5,12 +5,11 @@ description: 了解如何在Campaign Web中创建和使用投放模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="有限发布版"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 25%
+source-wordcount: '1109'
+ht-degree: 24%
 
 ---
 
@@ -49,24 +48,24 @@ ht-degree: 25%
 
 要访问内容模板列表，请选择 **[!UICONTROL Campaign Management]** > **[!UICONTROL 投放]** 从左侧菜单中，浏览到 **模板** 选项卡。
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 所有模板都是 [已创建](#create-a-delivery-template) 上显示的内容。
 
 您可以在渠道和文件夹上筛选内容模板。 您还可以通过使用投放属性构建规则来设置高级过滤器。 [了解有关查询建模器的更多信息](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 要编辑模板，请在列表中单击所需的项目。 从那里：
 
 * 您可以修改其内容、属性、受众以及附加到该受众的任何选件。
 * 您还可以测试模板。 [了解详情](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 要删除或 [重复](#copy-an-existing-template) 在模板中，选择相应的操作 **[!UICONTROL 更多操作]** 菜单，从 **[!UICONTROL 模板]** 列表或从模板版本屏幕中。
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 1. 确认复制。
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. 新模板仪表板将在中心屏幕中打开。 根据需要编辑模板设置。
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 审核]** 按钮以保存并查看您的模板。 您仍然可以编辑其所有设置、删除和复制它。
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. 根据需要测试模板渲染。 [了解详情](#test-template)
 
@@ -120,7 +119,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 1. 浏览至 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 投放]** 菜单。
 1. 从 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 更多操作]** 按钮，然后选择 **[!UICONTROL 复制为模板]**.
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    您还可以从列表中选择模板，然后从模板版本屏幕中选择此选项。
 
@@ -145,12 +144,12 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 1. 浏览至 **模板** 选项卡，从 **投放** 左侧菜单。 [了解详情](#access-manage-templates)
 1. 单击 **[!UICONTROL 创建模板]** 按钮。
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 选择要用于模板的渠道。
 1. 默认情况下，会使用该渠道的内置投放模板来帮助您构建自己的模板。 如果需要，请使用所选渠道右侧的专用按钮选择其他模板。
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 创建模板]** 再次按按钮。
 
@@ -180,7 +179,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 选择一个或多个测试用户档案以检查您的电子邮件渲染。 您还可以从数据库中选择真实的用户档案。 [了解有关测试用户档案的更多信息](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ Campaign为每个渠道提供了一组内置模板：电子邮件、推送、短
 
 [了解有关预览内容的更多信息](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. 关闭窗口以返回模板版本屏幕。
 

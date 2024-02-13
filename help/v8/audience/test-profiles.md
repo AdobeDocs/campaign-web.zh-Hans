@@ -4,15 +4,15 @@ description: 了解如何在Adobe Campaign中创建和管理测试配置文件
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="有限发布版"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 14%
+source-wordcount: '568'
+ht-degree: 13%
 
 ---
 
-# 创建和管理测试配置文件 {#create-test-profiles}
+# 创建和管理测试用户档案 {#create-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
@@ -33,17 +33,17 @@ ht-degree: 14%
 
 要访问测试配置文件列表，请选择 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 从左侧菜单中，单击 **[!UICONTROL 测试用户档案]** 选项卡。
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
 
 * 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
 
 * 您可以复制任何测试用户档案并根据需要对其进行更新。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
 
 * 要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
 
 * 要编辑测试用户档案，请在列表中单击所需的项目。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
 
 从 **[!UICONTROL 资源管理器]** 视图您还可以筛选、删除、编辑和 [创建](#create-test-profile) 测试用户档案。
 
@@ -68,11 +68,11 @@ ht-degree: 14%
 
 1. 单击 **[!UICONTROL 创建测试用户档案]** 按钮。
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
 
 1. 根据需要填写测试用户档案的详细信息。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ ht-degree: 14%
 
 1. 默认情况下，测试用户档案存储在 **[!UICONTROL 种子地址]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -88,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 在 **[!UICONTROL 联系信息]** 部分，输入电子邮件地址和其他相关数据。 电子邮件地址显示在测试用户档案标签后面的括号之间。
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
 
 1. 如果您选择 **[!UICONTROL 不再联系（通过任何渠道）]** 复选框，测试配置文件处于列入阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
 
 1. 在 **[!UICONTROL 其他数据]** 选项卡，输入用于在Data Management工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的更多信息](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
 
    请确保已定义其他目标数据，并在中以“@”开头的别名 **[!UICONTROL 扩充]** 工作流活动。 否则，您无法将其与投放活动中的种子地址正确一起使用。 [了解有关扩充活动的更多信息](../workflows/activities/enrichment.md)
 
@@ -103,6 +103,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 您刚刚创建的测试用户档案现已准备就绪，可用于发送测试。 [了解详情](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

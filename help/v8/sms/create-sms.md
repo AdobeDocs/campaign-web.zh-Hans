@@ -2,12 +2,11 @@
 audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
-badge: label="有限发布版"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 45%
+source-wordcount: '506'
+ht-degree: 44%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 45%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. 输入 **[!UICONTROL 标签]** ，并访问 **[!UICONTROL 其他选项]** 下拉菜单。 如果您的投放基于扩展模式，请指定 **自定义选项** 字段可用。
 
@@ -56,7 +55,7 @@ ht-degree: 45%
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解有关受众的更多信息](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    了解如何在中选择现有受众 [此页面](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ ht-degree: 45%
 
 1. 单击 **[!UICONTROL 编辑内容]** 开始设计短信消息的内容。 [了解详情](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
@@ -78,4 +77,4 @@ ht-degree: 45%
 
 1. 单击 **[!UICONTROL 设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

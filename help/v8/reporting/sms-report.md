@@ -2,12 +2,11 @@
 audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
-badge: label="有限发布版"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 45%
+source-wordcount: '514'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 45%
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供有关成功率和错误率以及访客如何参与短信消息的详细信息。
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -54,7 +53,7 @@ ht-degree: 45%
 
 此 **目标人群** 图形和表格可显示与受众相关的数据。 指标详见下文。
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -73,7 +72,7 @@ ht-degree: 45%
 
 此 **总体统计信息** 报表呈现已发送短信消息的数据。 指标详见下文。
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -93,7 +92,7 @@ ht-degree: 45%
 
 此 **[!UICONTROL 排除项]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -104,4 +103,4 @@ ht-degree: 45%
 
 此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

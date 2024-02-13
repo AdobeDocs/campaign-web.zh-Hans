@@ -2,12 +2,11 @@
 audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
-badge: label="有限发布版"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 14%
+source-wordcount: '430'
+ht-degree: 13%
 
 ---
 
@@ -26,18 +25,18 @@ ht-degree: 14%
 
 1. 在投放内容页面中，使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. 在右侧窗格中，您将找到短信投放预览，其中个性化元素会动态替换为所选用户档案中的数据。
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 现在可审查短信消息并将其发送到受众。
 
@@ -49,13 +48,13 @@ ht-degree: 14%
 
 ![](../assets/do-not-localize/book.png) 了解如何在中发送测试短信 [本节](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## 发送短信投放 {#send-sms}
 
 1. 个性化短信内容后，单击 **[!UICONTROL 审阅并发送]** 来自您的 **[!UICONTROL 投放]** 页面。
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 准备]** 并监测所提供的进度和统计数据。
 
@@ -63,7 +62,7 @@ ht-degree: 14%
 
 1. 通过单击 **[!UICONTROL 发送]** 以继续进行最终的发送过程。
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    如果短信投放已计划，请单击 **[!UICONTROL 按计划发送]** 按钮。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#schedule-the-delivery-sending).
 

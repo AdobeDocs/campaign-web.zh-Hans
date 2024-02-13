@@ -2,12 +2,11 @@
 audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
-badge: label="有限发布版"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 32%
+source-wordcount: '714'
+ht-degree: 31%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 32%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## 配置投放设置 {#configure-push-settings}
 
@@ -69,7 +68,7 @@ ht-degree: 32%
 
 1. 从 **[!UICONTROL 受众]** 部分，选择要用于此投放的应用程序。 默认情况下，将您的推送通知发送到应用程序的所有订阅者。您可以通过单击 **[!UICONTROL 选择受众]** 按钮。
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. 选择现有受众，或创建自己的受众，以优化推送投放的目标群体。 对于推送通知，默认为 [目标维度](../audience/about-recipients.md#targeting-dimensions) 是 **订阅者应用程序** (nms：appSubscriptionRcp)，链接到收件人表。
 
@@ -83,7 +82,7 @@ ht-degree: 32%
 
 要定义通知的内容，请单击 **[!UICONTROL 编辑内容]**. [了解详情](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
@@ -101,7 +100,7 @@ ht-degree: 32%
 
 启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule)
 
@@ -109,4 +108,4 @@ ht-degree: 32%
 
 单击 **[!UICONTROL 配置投放设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

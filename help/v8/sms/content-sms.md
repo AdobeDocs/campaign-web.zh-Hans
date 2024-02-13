@@ -2,12 +2,11 @@
 audience: end-user
 title: 设计短信投放
 description: 了解如何设计短信投放
-badge: label="有限发布版"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 79%
+source-wordcount: '260'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +30,11 @@ ht-degree: 79%
 
    此外，通过单击&#x200B;**[!UICONTROL 打开个性化对话框]**，可在消息中加入个性化字段、内容块和动态内容。
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. 在 **[!UICONTROL 消息]** 字段，或单击 **[!UICONTROL 打开个性化对话框]** 用于定义内容和添加动态内容的选项。 [了解详情](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。
 

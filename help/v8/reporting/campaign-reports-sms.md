@@ -2,12 +2,11 @@
 audience: end-user
 title: 短信渠道的营销活动报告
 description: 了解短信渠道的营销活动报告
-badge: label="有限发布版"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与短信投放的详细信息。 指标详见下文。
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信营销活动报告指标的更多信息。
 
@@ -50,7 +49,7 @@ ht-degree: 19%
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信营销活动报告指标的更多信息。
 
@@ -75,7 +74,7 @@ ht-degree: 19%
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信营销活动报告指标的更多信息。
 
@@ -101,7 +100,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++了解有关短信营销活动报告指标的更多信息。
 

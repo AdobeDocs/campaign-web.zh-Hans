@@ -1,16 +1,15 @@
 ---
-title: 创建用户档案
+title: 创建配置文件
 description: 了解如何在Campaign Web中创建用户档案。
-badge: label="有限发布版"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
-# 创建用户档案 {#profiles}
+# 创建配置文件 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
@@ -53,7 +52,7 @@ ht-degree: 48%
 
 1. 可用于配置文件显示的属性列表，按下表详述的不同部分组织。
 
-   ![](assets/create-profile.png)
+   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
 
    | “属性”部分 | 说明 |
    |  ---  |  ---  |

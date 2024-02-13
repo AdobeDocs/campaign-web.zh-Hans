@@ -2,16 +2,15 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="有限发布版"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '583'
 ht-degree: 4%
 
 ---
 
-# 启动和监控工作流 {#start-monitor}
+# 启动和监测工作流 {#start-monitor}
 
 创建工作流并设计要在画布中执行的任务后，即可启动工作流并监控其执行情况。
 
@@ -23,7 +22,7 @@ ht-degree: 4%
 
 您可以使用可视流量实时跟踪目标用户档案的进度。 这允许您快速识别每个活动的状态以及它们之间转换的用户档案数。
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
 
 ## 工作流过渡 {#transitions}
 
@@ -32,7 +31,7 @@ ht-degree: 4%
 * 单击 **[!UICONTROL 预览架构]** 显示工作表的模式。
 * 单击 **[!UICONTROL 预览结果]** 对在所选过渡中传输的数据进行可视化。
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable=&quot;yes&quot;}
 
 ## 监测活动执行 {#activities}
 
@@ -40,10 +39,10 @@ ht-degree: 4%
 
 | 视觉指示器 | 说明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | 当前正在执行活动。 |
-| ![](assets/activity-status-orange.png){width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
-| ![](assets/activity-status-red.png){width="70%"} | 活动遇到错误。 要解决此问题，请打开工作流日志以获取更多信息。 |
-| ![](assets/activity-status-green.png){width="70%"} | 已成功执行活动。 |
+| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | 当前正在执行活动。 |
+| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
+| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | 活动遇到错误。 要解决此问题，请打开工作流日志以获取更多信息。 |
+| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | 已成功执行活动。 |
 
 ## 监测日志和任务 {#logs-tasks}
 
@@ -51,7 +50,7 @@ ht-degree: 4%
 
 此 **[!UICONTROL 日志和任务]** 菜单提供工作流执行的历史记录，记录所有用户操作和遇到的错误。 此历史记录将在工作流中指定的持续时间内保存 [执行选项](workflow-settings.md). 在此持续时间内，将保存所有消息，即使重新启动工作流后也是如此。 如果不想保存先前执行的消息，请单击 **[!UICONTROL 清除历史记录]** 按钮。
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
 
 提供了两种类型的信息：
 

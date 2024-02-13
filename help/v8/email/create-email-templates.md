@@ -7,11 +7,10 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="有限发布版"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '964'
 ht-degree: 8%
 
 ---
@@ -40,11 +39,11 @@ ht-degree: 8%
 
 要访问内容模板列表，请浏览至 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 菜单。
 
-![](assets/content-template-list.png)
+![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
 
 此仪表板将所有可用的内容模板显示为列表。 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png)
+![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
 
 从该列表中，您可以编辑、复制或删除现有内容模板。 使用上半部分的按钮可创建内容模板。
 
@@ -84,11 +83,11 @@ ht-degree: 8%
 
 1. 选择 **[!UICONTROL 创建模板]**.
 
-   ![](assets/content-template-create.png)
+   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
 
 1. 输入模板标签和属性。 您可以选择要存储模板的文件夹。 默认情况下，内容模板存储在Adobe Campaign层次结构的专用文件夹中： **[!UICONTROL 资源管理器]** > **[!UICONTROL 资源]** > **[!UICONTROL 模板]** > **[!UICONTROL 内容模板]**. 了解有关文件夹的详细信息 [此页面](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png)
+   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 创建]** 并从不同的选项中选择所需的模板设计方式：
 
@@ -100,7 +99,7 @@ ht-degree: 8%
 
    * 使用内置或自定义模板列表中的现有内容。 有关在电子邮件中使用内容模板的步骤，请参阅 [本节](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png)
+   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 1. 此时将显示Email Designer。 根据所选选项，根据需要编辑内容，就像对任何电子邮件执行编辑操作一样。 了解如何在中使用电子邮件设计器 [本节](get-started-email-designer.md).
 
@@ -110,7 +109,7 @@ ht-degree: 8%
 
    如果需要，单击模板名称旁边的箭头以返回 **[!UICONTROL 详细信息]** 屏幕并编辑您的模板。
 
-   ![](assets/content-template-save-back.png)
+   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
 
 该模板位于 **[!UICONTROL 内容模板]** 列表。 [了解详情](#access-templates)
 
@@ -126,17 +125,17 @@ ht-degree: 8%
 
 1. 选择 **[!UICONTROL 另存为内容模板]** 从下拉菜单中。
 
-   ![](assets/email_designer-save-template.png)
+   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
 
 1. 输入此模板的名称，然后保存。
 
-   ![](assets/email_designer-template-name.png)
+   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
 
 模板将保存并显示在 **[!UICONTROL 内容模板]** 列表。 它会变成一个独立的内容模板，可以像该列表中的任何其他项目一样访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
 
 您现在可以使用此模板来构建新内容：此模板位于 **[!UICONTROL 已保存模板]** 选项卡。 [了解如何操作](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png)
+![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
 
 
 >[!NOTE]
@@ -168,7 +167,7 @@ You can test the rendering of any email content template, whether created from s
 
 1. 单击 **[!UICONTROL 编辑内容]** 按钮以使用更新您的内容 [电子邮件设计工具](get-started-email-designer.md).
 
-![](assets/content-template-edition.png)
+![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

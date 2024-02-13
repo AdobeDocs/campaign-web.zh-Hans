@@ -2,14 +2,13 @@
 audience: end-user
 title: 导出您的报告
 description: 了解如何导出报告
-badge: label="有限发布版"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
-
 
 # 导出您的报告 {#export-reports}
 
@@ -22,9 +21,8 @@ ht-degree: 29%
 
 1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL 导出为PDF文件]** 或 **[!UICONTROL 导出为CSV文件]**.
 
-   ![](assets/global_report_export.png)
+   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
 
 1. 找到要保存文件的文件夹，根据需要重命名它，然后单击 **[!UICONTROL 保存]**.
 
 您的报表现在可以在PDF或CSV文件中查看或共享。
-

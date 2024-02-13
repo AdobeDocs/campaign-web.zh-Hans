@@ -2,12 +2,11 @@
 audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
-badge: label="有限发布版"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 40%
+source-wordcount: '1541'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +55,7 @@ ht-degree: 40%
   要定义内容、个性化数据并添加动态内容，请单击 **[!UICONTROL 消息]** 字段并使用表达式编辑器。 您可以访问此编辑器以自定义消息。
 在 **[!UICONTROL 应用程序变量]** 菜单，则会自动添加应用程序变量。 这些变量允许您定义通知行为。 例如，您可以配置在用户激活通知时显示的特定应用程序屏幕。
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * 此 **[!UICONTROL 通知消息]**，由FCM SDK自动处理。 FCM会代表客户端应用程序在用户设备上自动显示消息。 通知消息包含预定义的一组参数和选项，但仍可以使用自定义应用程序变量进一步个性化。
 
@@ -64,7 +63,7 @@ ht-degree: 40%
 
   要进一步个性化推送通知，您可以选择要添加到推送通知的图像，即要在用户档案设备上显示的通知图标及其颜色。
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ ht-degree: 40%
 
 通过静默推送模式，可将“静默”通知发送到移动应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ ht-degree: 40%
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | 参数 | 说明 |
 |---------|---------|
@@ -143,7 +142,7 @@ ht-degree: 40%
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | 参数 | 说明 |
 |---------|---------|

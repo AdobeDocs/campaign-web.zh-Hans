@@ -2,16 +2,15 @@
 audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
-badge: label="有限发布版"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
-# 预览和发送推送投放 {#send-push-delivery}
+# 预览并发送推送投放 {#send-push-delivery}
 
 ## 预览推送通知投放 {#preview-push}
 
@@ -21,17 +20,17 @@ ht-degree: 1%
 
 1. 在投放内容页面中，使用 **[!UICONTROL 模拟内容]** 以预览您的个性化内容。
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 添加订阅者]** 选择一个或多个用户档案，以在推送通知内容中预览其数据。
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. 在右侧窗格中，您将找到推送通知的预览，其中个性化元素会动态替换为所选用户档案中的数据。
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 您现在可以查看推送通知并将其发送给受众。
 
@@ -42,19 +41,19 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/book.png) 了解如何在中发送测试推送通知 [本节](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## 发送推送通知投放 {#send-push}
 
 1. 个性化推送通知内容后，单击 **[!UICONTROL 审阅并发送]** 来自您的 **[!UICONTROL 投放]** 页面。
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 准备]** 并监测所提供的进度和统计数据。
 
    如果发生任何错误，请参阅日志菜单以了解有关失败的详细信息。
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. 通过单击 **[!UICONTROL 发送]** 以继续进行最终的发送过程。
 
@@ -62,7 +61,7 @@ ht-degree: 1%
 
    如果已计划推送传送，请单击 **[!UICONTROL 按计划发送]** 按钮。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 发送投放后，您可以从投放页面跟踪KPI（关键绩效指标）数据，并从 **[!UICONTROL 日志]** 菜单。
 

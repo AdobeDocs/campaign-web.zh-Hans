@@ -2,11 +2,10 @@
 audience: end-user
 title: 监测和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
-badge: label="有限发布版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 26%
 
 ---
@@ -45,7 +44,7 @@ ht-degree: 26%
 
 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 受众可以源自多个源。 此 **[!UICONTROL Origin]** 列指示创建给定受众的位置：
 
@@ -63,6 +62,6 @@ ht-degree: 26%
 
 此 **[!UICONTROL 数据]** 选项卡允许您可视化属于受众的用户档案。 您可以通过添加更多列或利用高级筛选器来优化显示的数据来自定义此视图。
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 要复制或删除受众，请单击 **[!UICONTROL 更多操作]** 按钮在受众名称或受众详细信息屏幕中的受众列表中可用。

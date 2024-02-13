@@ -1,9 +1,8 @@
 ---
 title: 定位维度
 description: 了解有关在Adobe Campaign Web中定位维度的更多信息
-badge: label="有限发布版"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 11%
@@ -27,7 +26,7 @@ ht-degree: 11%
 
 选择定向维度时(在工作流设置中，或在活动(例如 **构建受众**， **调解** 或 **更改维度**)，则默认情况下将在列表中显示一系列常用架构。 要显示所有可用的架构，请打开 **[!UICONTROL 显示所有架构]** 按钮。 将为每个用户保存选项选择。
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## 定位维度 {#list}
 

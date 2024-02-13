@@ -2,12 +2,11 @@
 audience: end-user
 title: 推送渠道的营销活动报表
 description: 了解推送渠道的活动报表
-badge: label="有限发布版"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 19%
+source-wordcount: '506'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，这些指标提供关于访客如何参与推送通知投放的详细信息。 指标详见下文。
 
-![](assets/campaign-reporting-push-summary.png)
+![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
 +++了解有关推送营销活动报告量度的更多信息。
@@ -49,7 +48,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 指标详见下文。
 
-![](assets/campaign-reporting-push-target.png)
+![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
 +++了解有关推送营销活动报告量度的更多信息。
@@ -71,7 +70,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 执行统计信息]** 表详细说明了您的交付是否成功。 指标详见下文。
 
-![](assets/campaign-reporting-push-exec.png)
+![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
 
 +++了解有关推送营销活动报告量度的更多信息。
@@ -97,7 +96,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 生成的点击流]** 该表显示了与收件人与投放的交互方式相关的数据。 指标详见下文。
 
-![](assets/campaign-reporting-push-clicks.png)
+![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
 +++了解有关推送营销活动报告量度的更多信息。
 

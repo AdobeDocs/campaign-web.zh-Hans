@@ -2,11 +2,10 @@
 audience: end-user
 title: 工作流入门
 description: 了解如何开始使用工作流
-badge: label="有限发布版"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn2"
 >title="跨渠道工作流程"
 >abstract="发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 
 <!--TO REMOVE BELOW-->
@@ -25,7 +24,7 @@ ht-degree: 100%
 >id="acw_homepage_rn2"
 >title="跨渠道工作流程"
 >abstract="发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 <!--TO REMOVE ABOVE-->
 

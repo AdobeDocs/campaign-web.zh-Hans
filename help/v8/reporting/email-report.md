@@ -2,12 +2,11 @@
 audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
-badge: label="有限发布版"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 39%
+source-wordcount: '2283'
+ht-degree: 38%
 
 ---
 
@@ -31,11 +30,11 @@ ht-degree: 39%
 
 此 **[!UICONTROL 初始目标人群]** 图形显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
 
-![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 将鼠标悬停在图形的一部分上以显示确切数字。
 
-![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 
 +++了解有关电子邮件投放报告指标的更多信息。
@@ -58,7 +57,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。 指标详见下文。
 
-![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -81,7 +80,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 排除的原因]** 图形和表格显示了投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -110,7 +109,7 @@ ht-degree: 39%
 
 此报表可呈现有关指定时间范围内整个平台的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
-![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 
 ## 广播统计信息 {#broadcast-statistics}
@@ -122,7 +121,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 广播统计信息]** 该表包含每个域可能遇到的错误的可用数据。 指标详见下文。
 
-![](assets/reporting_email_4.png){align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -154,7 +153,7 @@ ht-degree: 39%
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -186,11 +185,11 @@ ht-degree: 39%
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形可显示每个域可能遇到的错误的可用数据。
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 单击每个域名称旁边的图标以查看详细信息。
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 可用的量度与相同 [按类型划分错误](#email-delivery-breakdown-type) 如上所述。
 
@@ -213,7 +212,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 投放统计信息]** 报告提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
 
-![](assets/reporting_email_5.png){align="center"}
+![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -241,7 +240,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 打开和点进率]** 表格会显示与收件人相关的数据。 指标详见下文。
 
-![](assets/reporting_email_6.png){align="center"}
+![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -266,7 +265,7 @@ ht-degree: 39%
 
 **[!UICONTROL URL 和点击流]**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。
 
-![](assets/reporting_email_7.png){align="center"}
+![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -291,7 +290,7 @@ ht-degree: 39%
 
 **[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图和表包含每个链接的收件人行为的可用数据。
 
-![](assets/reporting_email_8.png){align="center"}
+![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -312,7 +311,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 随时间细分的点击量]** 图形包含每个链接的收件人行为的可用数据。
 
-![](assets/reporting_email_9.png){align="center"}
+![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## 用户活动 {#user-activities-email}
 
@@ -323,7 +322,7 @@ ht-degree: 39%
 
 此 **[!UICONTROL 用户活动]** 报告以图表的形式显示打开数和点击数的划分情况。 可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。
 
-![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -342,7 +341,7 @@ ht-degree: 39%
 
 **[!UICONTROL 跟踪统计信息]**&#x200B;图提供有关打开次数和点击次数的统计信息。可选择特定的时间范围以定位数据。
 
-![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -365,7 +364,7 @@ ht-degree: 39%
 
 为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示每种设备类型的确切数量和百分比。
 
-![](assets/reporting_email_13.png){align="center"}
+![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
 
 
 ### 按操作系统类型细分的打开次数 {#breakdown-opens-os}
@@ -379,7 +378,7 @@ ht-degree: 39%
 
 为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个操作系统的确切数量和百分比。
 
-![](assets/reporting_email_13.1.png){align="center"}
+![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ### 按浏览器类型细分的打开次数 {#breakdown-opens-browser}
 
@@ -392,7 +391,7 @@ ht-degree: 39%
 
 为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个图表显示每种浏览器的确切数量和百分比。
 
-![](assets/reporting_email_13.2.png){align="center"}
+![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
 
 
 ## 热门点击 {#hotclicks}
@@ -404,4 +403,4 @@ ht-degree: 39%
 
 此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和优惠链接计入总累计点击次数，但不显示在报告中。
 
-![](assets/reporting11.png)
+![](assets/reporting11.png){zoomable=&quot;yes&quot;}

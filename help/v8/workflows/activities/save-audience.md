@@ -2,11 +2,10 @@
 audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
-badge: label="有限发布版"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '424'
 ht-degree: 13%
 
 ---

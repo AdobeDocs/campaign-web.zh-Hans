@@ -2,11 +2,10 @@
 audience: end-user
 title: 向服务的订阅者发送消息
 description: 了解如何向服务的订阅者发送消息
-badge: label="有限发布版"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -23,25 +22,25 @@ ht-degree: 0%
 
 1. 打开 **[!UICONTROL 构建受众]** 活动，然后选择 **[!UICONTROL 创建受众]**. [了解如何配置构建受众活动](../workflows/activities/build-audience.md)
 
-   ![](assets/service-create-audience.png)
+   ![](assets/service-create-audience.png){zoomable=&quot;yes&quot;}
 
 1. 在受众创建流程中，选择以下自定义条件： **[!UICONTROL 订阅]** 存在，例如 **[!UICONTROL 服务]** 等于您定义的服务。 在此示例中，选择您的 **Luma瑜伽新闻稿**.
 
-   ![](assets/service-audience-subscribers.png)
+   ![](assets/service-audience-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 选择 **[!UICONTROL 确认]** 并单击 **[!UICONTROL 开始]** 以执行工作流。
 
 1. 创建投放。 有关创建投放的详细步骤，请参见 [此页面](../msg/gs-messages.md#create-delivery).
 1. 浏览到您的投放设置，将默认目标映射更改为 **订阅(nms：subscriptions)**.
 
-   ![](assets/service-delivery-change-mapping.png)
+   ![](assets/service-delivery-change-mapping.png){zoomable=&quot;yes&quot;}
 
 1. 在投放的主目标部分中，选择您在上面创建的受众。
 
-   ![](assets/service-delivery-targeting-subscribers.png)
+   ![](assets/service-delivery-targeting-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 创建消息内容、测试并发送投放，如中所述 [本节](../preview-test/preview-test.md).
 
-   ![](assets/service-delivery-ready.png)
+   ![](assets/service-delivery-ready.png){zoomable=&quot;yes&quot;}
 
 您的投放仅发送给该服务的订阅者。

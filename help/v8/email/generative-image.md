@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '390'
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 1. 从右侧菜单中，选择 **[!UICONTROL 体验生成]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 添加提示以更好地优化结果。
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. 选择 **[!UICONTROL 上传文件]** 如果要添加任何品牌资产，并且资产中包含可以提供其他上下文的内容，请转至“内容助手”。
 
@@ -51,20 +51,20 @@ ht-degree: 5%
 
 1. 自定义 **[!UICONTROL 颜色和色调]**， **[!UICONTROL 内容类型]**， **[!UICONTROL 照明]** 和 **[!UICONTROL 合成]** 设置以匹配所需的资源特征。
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 对提示配置感到满意后，单击 **[!UICONTROL 生成]**.
 
 1. 浏览 **[!UICONTROL 变量建议]** 以查找所需的资产。 单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 单击 **[!UICONTROL 选择]** 找到相应的内容后。
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮来控制渲染，并使用测试用户档案检查个性化设置。  [了解详情](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)

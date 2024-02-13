@@ -2,12 +2,11 @@
 audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
-badge: label="有限发布版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 22%
+source-wordcount: '902'
+ht-degree: 21%
 
 ---
 
@@ -55,7 +54,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
    * “新受众” **[!UICONTROL 保存受众]** 活动表示工作流中的最后一步，使您能够将结果另存为新受众。
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
    >
    >渠道活动不可用于受众工作流。
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. 配置 **[!UICONTROL 保存受众]** 活动，指定您希望如何保存工作流上游计算的群体。 [了解如何配置保存受众活动](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 下方的示例显示了一个受众工作流，该工作流配置为定向居住在纽约的女客户，并根据他们最近购买过的物品（瑜伽或跑步装备）创建两个新受众。
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. 此 **[!UICONTROL 构建受众]** 活动针对居住在纽约的所有女性用户档案。
 1. 此 **[!UICONTROL 扩充]** 活动通过“购买”表中的信息丰富了受众，以确定客户购买的产品类型。
@@ -104,4 +103,4 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 如果您不希望替换现有的受众结果，请配置 **保存受众** 活动以符合您的要求。 例如，您可以更改 **受众标签** 用于将新结果存储到新受众中的字段，或将新结果添加到现有受众内容而不擦除以前的数据。 [了解如何配置保存受众活动](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

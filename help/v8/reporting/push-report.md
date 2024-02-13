@@ -2,12 +2,11 @@
 audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
-badge: label="有限发布版"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 38%
 
 此 **[!UICONTROL 投放概述]** 报告提供关键绩效指标(KPI)，提供关于访客如何参与推送消息的详细信息。
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++了解有关推送投放报告量度的更多信息。
 
@@ -54,7 +53,7 @@ ht-degree: 38%
 
 此 **目标人群** 图表和表格显示与受众相关的数据：要投放的消息和排除项。 指标详见下文。
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++了解有关推送投放报告量度的更多信息。
 
@@ -73,7 +72,7 @@ ht-degree: 38%
 
 此 **总体统计信息** 报表呈现已发送推送通知的数据：成功、错误和隔离。 指标详见下文。
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++了解有关推送投放报告量度的更多信息。
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 此 **[!UICONTROL 排除项]** 图形和表格可显示阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -106,4 +105,4 @@ ht-degree: 38%
 
 此 **投放吞吐量** 报告提供指定时间范围内整个平台的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

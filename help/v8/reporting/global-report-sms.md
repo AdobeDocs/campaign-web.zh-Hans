@@ -2,12 +2,11 @@
 audience: end-user
 title: 短信渠道全局报表
 description: 了解短信渠道的全局报告
-badge: label="有限发布版"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 31%
+source-wordcount: '593'
+ht-degree: 30%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 投放概述]** 报告提供全面的关键绩效指标(KPI)，可深入分析访客与每个短信投放的交互模式。 以下列出了以下量度。
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -51,7 +50,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 目标受众]** 表格和图形可显示每个已发送短信投放的与收件人相关的数据。 指标详见下文。
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -72,7 +71,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 投放统计信息]** 表详细列出了每次短信投放的成功情况。 指标详见下文。
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -99,7 +98,7 @@ ht-degree: 31%
 
 错误类型列在 [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
@@ -108,6 +107,6 @@ ht-degree: 31%
 >title="短信投放吞吐量"
 >abstract="通过&#x200B;**投放吞吐量**&#x200B;报告可广泛了解短信投放系统的效率，并详细概述指定时间范围内的成功率和错误率。"
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 投放吞吐量]** 报告提供了有关短信消息投放系统效率的全面见解，并提供了指定时间段内成功率和错误率的详细摘要。

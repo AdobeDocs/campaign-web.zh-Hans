@@ -2,12 +2,11 @@
 audience: end-user
 title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
-badge: label="有限发布版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 30%
+source-wordcount: '230'
+ht-degree: 29%
 
 ---
 
@@ -26,11 +25,11 @@ ht-degree: 30%
 
 1. 从投放创建助手的&#x200B;**受众**&#x200B;部分，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
 1. 选择&#x200B;**创建您自己的**。此时将显示查询建模器。 利用该功能，可通过过滤数据库中包含的数据来定义投放所定向的群体。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
 1. 查询准备就绪后，单击 **确认** 使用受众作为投放的主要目标。
 

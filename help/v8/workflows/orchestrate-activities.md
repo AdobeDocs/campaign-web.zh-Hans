@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="有限发布版"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +20,11 @@ ht-degree: 5%
 
 此时会显示可添加到图中的活动列表。 可用的活动取决于您在工作流图中的位置。 例如，添加第一个活动时，您可以通过定位受众、拆分工作流路径或设置 **等待** 活动，用于延迟工作流的执行。 另一方面，在 **构建受众** 活动，您可以通过定位活动来优化目标，通过渠道活动向受众发送投放，或通过流量控制活动来组织工作流过程。
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 将活动添加到图后，将显示右侧窗格，允许您使用特定设置配置新添加的活动。 有关如何配置每个活动的详细信息，请参阅 [本节](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 重复此过程，根据您希望工作流执行的任务，添加所需数量的活动。 请注意，您还可以在两个活动之间插入新活动。 要执行此操作，请单击 **+** 按钮上，选择所需的活动并在右侧窗格中对其进行配置。
 
@@ -45,13 +44,13 @@ ht-degree: 5%
 * 访问活动的 **日志和任务**.
 * **暂停/恢复** 活动。 执行工作流时，它会在暂停的活动中暂停。 相应的任务以及在同一路径中跟随该任务的所有任务都不会执行。
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## 示例 {#example}
 
 下面是一个工作流示例，旨在通过电子邮件向所有对咖啡机感兴趣的客户(VIP客户除外)发送电子邮件。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 为了实现这一目标，新增了以下活动：
 

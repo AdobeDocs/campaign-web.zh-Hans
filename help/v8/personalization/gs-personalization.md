@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '659'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ Adobe Campaign Web 动态内容功能可让您根据收集到的收件人相关�
 
 * 通过利用配置文件数据（例如，收件人的名字、兴趣、居住地、购买的产品等），针对每个特定的收件人&#x200B;**个性化您的邮件**。从个性化编辑器，您可以选择数据库中的与收件人、邮件或投放相关的任何可用字段。可将这些个性化属性插入邮件的主题行或正文中。以下语法可在您的内容中插入收件人的城市：&lt;%= recipient.location.city %>。
 
-  ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **创建条件内容**，使您的投放适合每个收件人，并根据您获得的给定客户的相关信息，仅向其显示相关内容。这允许您根据条件显示特定的文本块和/或图像。例如，根据收件人的特定服务订阅来调整电子邮件横幅。
 
-  ![](assets/condition-sample.png){width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **使用个性化块**&#x200B;来节省时间，并在您的邮件中使用易重用的个性化内容。Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向电子邮件的镜像页面的链接。可以从个性化编辑器中的专用条目中获得内容块。
 
-  ![](assets/content-blocks.png){width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 ## 访问表达式编辑器 {#access}
 
@@ -51,15 +51,15 @@ Adobe Campaign Web 提供了一个表达式编辑器，可让您选择、排列�
 
 * *从发件人名称字段访问表达式编辑器*
 
-  ![](assets/expression-editor-access.png){width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *从电子邮件文本组件访问表达式编辑器*
 
-  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *通过电子邮件中的链接访问表达式编辑器*
 
-  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 >[!NOTE]
 >
