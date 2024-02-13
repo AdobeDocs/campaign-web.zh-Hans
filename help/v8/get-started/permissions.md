@@ -2,12 +2,11 @@
 audience: end-user
 title: Campaign Web用户界面中的权限管理
 description: 详细了解Campaign Web用户界面中的权限
-badge: label="有限发布版"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ ht-degree: 97%
 1. 从&#x200B;**资源管理器**&#x200B;左侧导航菜单中，选择一个文件夹。
 1. 单击右上角的三个点，然后选择&#x200B;**文件夹权限**。
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. 在屏幕中查看详细信息，如下所示：
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    组或操作员可具有对存储在所选文件夹中的数据的读取、写入和/或删除权限。
 
@@ -96,8 +95,8 @@ ht-degree: 97%
 1. 单击右上角的三个点，然后选择&#x200B;**新建子文件夹**。
 1. 输入文件夹的名称并保存。
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。还可从任何文件夹创建组件，然后从属性的&#x200B;**其他选项**&#x200B;部分将该组件保存在该新文件夹中，如下为投放所示：
+   该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。您还可以从任意文件夹创建一个组件，并将其保存在新文件夹中。 **其他选项** 部分，如下面的投放所示：
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
