@@ -4,7 +4,7 @@ title: 短信投放入门
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
