@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
-badge: label="有限发布版"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 28%
 
 此 **[!UICONTROL 工作流]** 菜单可让您访问工作流的完整列表。 此列表包含两者 **独立工作流** 已从此屏幕创建，并且 **活动工作流**，这些规则已在营销策划中创建。
 
-![](assets/workflow-list.png)
+![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
 
 列表中的每个工作流都会显示其当前工作流程的信息 [状态](#status)、上次执行或修改的时间，以及下一个计划执行日期和时间。
 
