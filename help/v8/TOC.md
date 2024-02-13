@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web用户界面
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 94%
+source-wordcount: '585'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 94%
             + [添加指向镜像页面的链接](email/mirror-page.md)
             + [添加邮件引文](email/preheader.md)
             + [生成文本版本](email/text-version-email.md)
-            + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](email/aem-assets.md)
          + 内容助手 {#content-assistant}
             + [内容助手快速入门](email/generative-gs.md)
             + [用内容助手生成文本](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 94%
       + [电子邮件全局报告](reporting/global-report-email.md)
       + [推送全局报告](reporting/global-report-push.md)
       + [短信全局报告](reporting/global-report-sms.md)
++ 集成 {#integrations}
+   + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
+   + [使用Adobe Experience Manager as a Cloud Service管理模板](integrations/aem-content.md)
+
