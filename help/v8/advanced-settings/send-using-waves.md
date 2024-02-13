@@ -6,7 +6,7 @@ feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="将投放拆分为多个批次"
->abstract="定义批次可将投放分为多个批次，而不是同时发送大量消息。 您可以配置多个相同大小的批次，或者为要发送的不同批次设置日历。"
+>title="将投放分为多个批次"
+>abstract="定义波次，将投放分为多个批次，而非同时发送大量消息。您可以配置多个相同大小的波次，或者为要发送的不同波次设置日程表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
 >title="定义每个波次的大小"
->abstract="必须输入要添加的所有批次的大小。 输入数值（每个波次的消息数量）或百分比(0-100%)。"
+>abstract="您必须输入要添加的所有波次的大小。输入数值（每个波次的消息数）或百分比 (0-100%)。"
 
 要平衡负载，可以将电子邮件投放分为多个批次。 配置批次的数量及其相对于整个投放的比例以及两个批次之间的间隔。
 

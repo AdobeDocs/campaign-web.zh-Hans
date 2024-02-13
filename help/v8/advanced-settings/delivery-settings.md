@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="投放的投放设置"
->abstract="投放参数是应用于投放的技术设置。您可以更改投放和例行模式、激活电子邮件密件抄送、使用批次发送，以及选择已发送电子邮件的格式。 这些选项仅供专家用户使用。"
+>abstract="投放参数是应用于投放的技术设置。您可以更改投放和常规模式、激活电子邮件密件抄送、使用波次发送，还可以选择发送电子邮件的格式。这些选项仅供专家用户使用。"
 
 **[!UICONTROL 投放]** 参数是适用于投放的技术设置。
 
