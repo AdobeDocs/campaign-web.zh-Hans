@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web用户界面的新增功能
 description: 了解Campaign Web用户界面中的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 ## 过渡到Campaign Web用户界面
 
-作为 Campaign 用户，您仍可以访问客户端控制台来生成和管理 Campaign 资源和组件。数据和设置将从一个环境同步到另一个环境。可在[此部分](../get-started/get-started.md#about-campaign-client-consoleac-client)中了解详情。
+作为 Campaign 用户，您仍可以访问客户端控制台来生成和管理 Campaign 资源和组件。数据和设置将从一个环境同步到另一个环境。可在[此部分](../get-started/get-started.md#ac-client)中了解详情。
 
-此外，在Campaign Web用户界面中，从Explorer左侧导航中，可以看到客户端控制台中已可用的所有数据和设置。 在[此部分](../get-started/user-interface.md#explorer-user-interface-explorer)中详细了解探索工具视图。
+此外，在Campaign Web用户界面中，从Explorer左侧导航中，可以看到客户端控制台中已可用的所有数据和设置。 在[此部分](../get-started/user-interface.md#user-interface-explorer)中详细了解探索工具视图。
 
-通过Campaign Web用户界面，用户界面可反映用户的权限。 可在[此页面](../get-started/permissions.md)中详细了解权限
+通过Campaign Web用户界面，用户界面可反映用户的权限。 要了解有关权限的更多信息，请参阅 [此页面](../get-started/permissions.md).
+
+Campaign Web用户界面和Campaign客户端控制台之间受支持和不受支持的功能以及互操作性 [本页内容](../get-started/capability-matrix.md).
 
 ## 术语更新 {#terminology-updates}
 
@@ -156,4 +158,6 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
 * 顶栏中可用的 Adobe Experience Cloud 通知和统一帮助尚未集成。
 
-详细了解Campaign Web用户界面和Campaign客户端控制台之间支持/不支持的功能以及互操作性， [本页内容](../get-started/capability-matrix.md).
+在Campaign Web用户界面中使用在Campaign客户端控制台中创建或修改的工作流时，适用特定护栏和限制。 它们会列出 [在此部分中](../get-started/guardrails.md).
+
+详细了解Campaign Web用户界面和Campaign客户端控制台之间支持/不支持的功能以及互操作性 [本页内容](../get-started/capability-matrix.md).

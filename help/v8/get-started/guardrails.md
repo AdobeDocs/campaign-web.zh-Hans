@@ -1,15 +1,15 @@
 ---
-title: Campaign Web用户界面的护栏和限制
-description: Campaign Web用户界面的护栏和限制
+title: Campaign Web用户界面工作流的护栏和限制
+description: 在Campaign Web用户界面中使用工作流时的护栏和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# 护栏和限制 {#guardrails-limitations}
+# 工作流的护栏和限制 {#guardrails-limitations}
 
 在Campaign Web用户界面中使用在Campaign客户端控制台中创建或修改的工作流时，以下列出的护栏和限制适用。
 
