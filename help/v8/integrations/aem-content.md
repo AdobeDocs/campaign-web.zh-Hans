@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理资源
 description: 了解如何使用Adobe Experience Manager as a Cloud service管理内容
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Experience Manager模板在Adobe Campaign Web中作为内容模板可用后，�
 
    ![](assets/aem_8.png)
 
-1. 如果直接在Adobe Experience Manager中更改了您的模板，则只需选择 **[!UICONTROL 刷新AEM内容]** 以获得模板的最新版本。
+1. 请注意，内容不会自动同步。 如果直接在Adobe Experience Manager中更改了您的模板，则只需选择 **[!UICONTROL 刷新AEM内容]** 以获得模板的最新版本。
 
 1. 要删除Experience Manager与Campaign之间的链接或进一步个性化电子邮件设计器中的Experience Manager模板，请单击 **[!UICONTROL 取消AEM内容链接]**.
 
