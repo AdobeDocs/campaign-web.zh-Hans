@@ -4,9 +4,9 @@ title: 投放设置
 description: 详细了解Campaign Web中的投放设置
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 54%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 54%
 
 * **[!UICONTROL 测试SMTP投放]**：此选项用于测试通过SMTP进行的发送。 处理投放直至连接到SMTP服务器，但不发送：对于投放的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密送]**：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **[!UICONTROL 电子邮件密送]**：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 在 **[!UICONTROL 波次定义]** 部分，选择 **[!UICONTROL 使用多个批次发送]** 用于逐步增加使用批次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -192,8 +192,6 @@ ht-degree: 54%
 <!--Currently not visible in UI > ??-->
 
 由于软错误或忽略错误而临时取消发送的邮件将会自动重试。 默认情况下，安排在投放的第一天进行五次重试，最小间隔为一小时分布在一天中的24小时内。
-
-在中了解有关重试管理的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 审批 {#approval}
 
