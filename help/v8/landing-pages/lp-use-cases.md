@@ -1,16 +1,15 @@
 ---
-solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
-product: journey optimizer
+solution: Campaign, Campaign v8 Web User Interface
 title: 登陆页面用例
-description: 了解Journey Optimizer中登陆页面的最常见用例
+description: 在Campaign Web用户界面中探索登陆页面的最常见用例
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
+source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
