@@ -1,10 +1,10 @@
 ---
 title: 开始使用配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 23%
+source-wordcount: '549'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,8 @@ A **个人资料**&#x200B;在客户端控制台中又称为“收件人”，表
 
 用户档案和测试用户档案均可用于在投放到达目标受众之前对其进行测试。 这样，您就可以预览消息内容和个性化，发送验证以进行测试和验证，评估各种平台和设备中的电子邮件渲染情况，并测试您的登陆页面。 [了解如何预览和测试投放](../preview-test/preview-test.md)
 
+➡️ [在视频中发现此功能](#video)
+
 ## 访问配置文件列表 {#access}
 
 配置文件在Adobe Campaign Web中可通过以下网址访问和编辑： **[!UICONTROL 客户管理]** > **配置文件** 条目进行导航。 您还可以在以下位置访问它们： **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 配置文件和目标]** > **[!UICONTROL 收件人]** 节点。 从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ A **个人资料**&#x200B;在客户端控制台中又称为“收件人”，表
 要访问配置文件的详细信息，请在列表中单击其名称。 这将打开配置文件的详细视图，允许您浏览其属性以及他订阅的服务。 [了解如何浏览用户档案的详细信息](create-profile.md)
 
 要删除配置文件，请从 **[!UICONTROL 更多操作]** 菜单。
+
+## 操作方法视频 {#video}
+
+了解如何使用Campaign Web用户界面访问、管理和浏览用户档案。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
