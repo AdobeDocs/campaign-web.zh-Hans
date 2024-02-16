@@ -3,14 +3,14 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 92%
 
 ---
 
-# Adobe Campaign Web用户界面文档 {#campaign-documentation}
+# Adobe Campaign Web 用户界面文档 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -90,6 +90,12 @@ ht-degree: 99%
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager as a Cloud service集成]
+
+Adobe Campaign Web界面与Adobe Experience Manager as a Cloud Service之间的集成简化了电子邮件内容管理。 您现在可以直接在Adobe Experience Manager中创建和编辑电子邮件内容，然后将完成的模板无缝导入Adobe Campaign以进行投放。
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB 跨渠道工作流程]
 
 发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
@@ -107,12 +113,6 @@ ht-degree: 99%
 利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB 用户档案 360]
-
-创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。
-
-[![图像](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
