@@ -4,7 +4,7 @@ description: 了解如何在Campaign Web中监控和管理用户档案。
 source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="用户档案"
->abstract="用户档案是旨在接收Adobe Campaign发送消息的记录。 从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
+>abstract="配置文件是接收 Adobe Campaign 发送的消息所针对的记录。从此列表中可根据您的权限查看配置文件详情。使用过滤选项浏览此列表。您可以编辑和更新配置文件的一小部分属性。"
 
 ## 什么是配置文件？ {#what}
 

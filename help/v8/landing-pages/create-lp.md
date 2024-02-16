@@ -5,7 +5,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="创建和管理登陆页面"
->abstract="Adobe Campaign允许您创建、设计和共享登陆页面，以将用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
+>abstract="借助 Adobe Campaign，您可以创建、设计和共享登陆页面，从而将用户引导至在线网页，您可以在其中根据内置模板管理客户获取、订阅/取消订阅和阻止列表用例。"
 
 Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布后，您可以在投放中插入指向表单的链接。 收件人单击该链接后，会被定向到相应的登陆页面。
 
@@ -50,12 +50,12 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="定义每个页面的内容"
->abstract="调整属于此登陆页面一部分的每个页面的内容，如表单本身、提交表单时显示的确认页面或发生错误时用户定向到的页面。"
+>abstract="调整作为此登陆页面的一部分的每个页面的内容，例如表单本身、提交表单时显示的确认页面或发生错误时将用户定向到的页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="安排您的登陆页面"
->abstract="可定义登陆页面的开始日期和结束日期。当页面到达有效期结束时，表单不再可用。 此 **过期** 此时将改为显示页面。"
+>abstract="可定义登陆页面的开始日期和结束日期。当页面的有效期结束时，该表单将不再可用。而将显示&#x200B;**过期**&#x200B;页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -123,7 +123,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
      >
      >如果未定义开始日期，则登陆页面在发布后立即处于活动状态。
 
-   * 当页面到达结束日期时， <!--the landing page is automatically unpublished and -->该表单不再可用。 此 **[!UICONTROL 过期]** 此时将改为显示页面。
+   * 当页面到达结束日期时， <!--the landing page is automatically unpublished and -->该表单不再可用。 而将显示&#x200B;**[!UICONTROL 过期]**&#x200B;页面。
 
      >[!NOTE]
      >
@@ -187,7 +187,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 >[!CAUTION]
 >
->要完全测试或利用您的登陆页面，您不能将此链接直接复制粘贴到Web浏览器或投放中。 请改用 [模拟内容](#test-landing-page) 函数进行测试，并遵循中所述的步骤 [本节](lp-use-cases.md) 以正确使用登陆页面。
+>要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。请改用 [模拟内容](#test-landing-page) 函数进行测试，并遵循中所述的步骤 [本节](lp-use-cases.md) 以正确使用登陆页面。
 
 ![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 

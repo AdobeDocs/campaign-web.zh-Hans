@@ -6,7 +6,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
->abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将您的用户定向到在线网页，在这里，您可以根据内置模板管理客户获取、订阅/退订和阻止列表用例。"
+>abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将用户引导至在线网页，您可以在其中根据内置模板管理客户获取、订阅/取消订阅和阻止列表用例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
 
 [!DNL Adobe Campaign] 允许您创建、设计和共享登陆页面。

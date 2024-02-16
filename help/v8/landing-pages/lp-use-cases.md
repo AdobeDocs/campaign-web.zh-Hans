@@ -10,7 +10,7 @@ keywords: 登录、登陆页面、用例
 source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
 source-wordcount: '1309'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
->title="复制URL时请务必谨慎"
->abstract="要完全测试或利用您的登陆页面，您不能将此链接直接复制粘贴到Web浏览器或投放中。 请改用 **模拟内容** 函数进行测试，并按照文档中描述的步骤正确使用登陆页面。"
+>title="谨慎复制 URL"
+>abstract="要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。相反，请使用&#x200B;**模拟内容**&#x200B;功能对其进行测试，并执行文档中描述的步骤来正确使用登陆页面。"
 
 要正确使用登陆页面，您应使用专用选项在投放中将其引用为链接。
 

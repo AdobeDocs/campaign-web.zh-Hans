@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="预览和测试内容"
->abstract="定义内容后，您可以使用用户档案和测试用户档案来预览和测试内容。"
+>abstract="定义内容后，即可使用配置文件和测试配置文件对其进行预览和测试。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hans" text="发送测试投放"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="测试登陆页面"
 
