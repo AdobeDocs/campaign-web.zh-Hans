@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web用户界面
-user-guide-description: Adobe Campaign Web用户界面的产品文档。
+user-guide-title: Adobe Campaign Web 用户界面
+user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
-breadcrumb-title: Campaign Web用户界面
+breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
