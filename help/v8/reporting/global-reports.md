@@ -3,16 +3,18 @@ audience: end-user
 title: 全局报告入门
 description: 了解全局报告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 24%
+source-wordcount: '244'
+ht-degree: 21%
 
 ---
 
 # 全局报告入门 {#global-report-gs}
 
 **全局报告**&#x200B;作为一种有效的工具，提供您的营销活动实例中每个渠道的流量和参与情况量度的综合性总体概述。这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。
+
+关键绩效指标(KPI)每小时更新一次，确保获得最新的见解。 默认情况下，会对数据进行过滤，以涵盖过去30天的数据，从当前和相关的角度审视您的活动和投放效果。
 
 以下页面提供了每个渠道的报表和相关量度的完整列表：
 
