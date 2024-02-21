@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '960'
 ht-degree: 29%
 
 ---
@@ -128,8 +128,13 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="订阅者总数"
+>title="订阅者计数"
 >abstract="单击&#x200B;**计算**&#x200B;以获取此服务的订阅者的总数。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="订阅者总数"
+>abstract="关键绩效指标(KPI)提供订阅者基础的综合视图，显示订阅了此服务的个人总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
