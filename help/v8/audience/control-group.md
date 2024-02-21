@@ -3,9 +3,9 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在Campaign Web用户界面中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 36%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 36%
 # 设置对照组 {#control-group}
 
 控制组是从投放中排除的子群体。 您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。 此选项可帮助您衡量活动的影响。
+
+➡️ [在视频中发现此功能](create-audience.md#video)
 
 ## 启用对照组{#add-a-control-group}
 
@@ -122,5 +124,3 @@ ht-degree: 36%
 发送投放后，您可以提取发送日志，以比较未接收通信的用户档案和有效目标之间的行为。 您还可以使用投放日志构建新目标。
 
 要查看从目标中删除了哪些配置文件，请检查 **投放日志**. 了解详情 [在此部分中](#check-control-group).
-
-
