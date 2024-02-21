@@ -6,16 +6,19 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 32%
+source-wordcount: '483'
+ht-degree: 31%
 
 ---
 
 # 内容助手快速入门 {#generative-gs}
 
-
+>[!CONTEXTUALHELP]
+>id="acw_emagica_generate"
+>title="“生成”按钮"
+>abstract="“生成”按钮允许您根据原始提示创建文本、电子邮件或图像的多个变体。"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

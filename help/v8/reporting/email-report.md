@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 38%
+source-wordcount: '2329'
+ht-degree: 36%
 
 ---
 
@@ -30,12 +30,11 @@ ht-degree: 38%
 
 此 **[!UICONTROL 初始目标人群]** 图形显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 将鼠标悬停在图形的一部分上以显示确切数字。
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 
@@ -48,16 +47,14 @@ ht-degree: 38%
 
 ### 投放统计信息 {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="投放统计信息"
 >abstract="**投放统计信息**&#x200B;图表详述投放是否成功和发生的错误。"
 
-
 此 **[!UICONTROL 投放统计信息]** 图表详细说明了您的交付是否成功。 指标详见下文。
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -147,7 +144,12 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="按类型细分错误"
->abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
+>abstract="此 **每种类型的错误细分** 图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等等。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="按类型细分错误"
+>abstract="此 **每种类型的错误细分** 该表提供了每种错误类型出现的全面细分。"
 
 此 **[!UICONTROL 每种类型的错误细分]** 表和图形包含用于错误类型的可用数据。 指标详见下文。
 
@@ -173,15 +175,17 @@ ht-degree: 38%
 
 +++
 
-
 ### 按域细分错误 {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="按域细分错误"
->abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
+>abstract="此 **每个域的错误细分** 图形根据每个域显示遇到的每种错误类型的可用数据。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="按域细分错误"
+>abstract="此 **每个域的错误细分** 表提供了每个错误发生的全面细分，具体取决于使用的域。"
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形可显示每个域可能遇到的错误的可用数据。
 
