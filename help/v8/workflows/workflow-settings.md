@@ -3,21 +3,26 @@ audience: end-user
 title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 26%
+source-wordcount: '1025'
+ht-degree: 28%
 
 ---
 
 
 # 配置工作流设置 {#workflow-settings}
 
-在画布中编排工作流活动时，您可以访问与工作流相关的高级设置。 例如，您可以为工作流设置特定时区，管理工作流在出错时的行为方式，或管理应清除工作流历史记录的延迟。
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="工作流属性"
+>abstract="在此屏幕中，选择要用于创建工作流的模板并指定标签。展开 **其他选项** 部分，以配置更多设置，如工作流内部名称、文件夹、时区和主管组。 强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
+
+在画布中创建工作流或编排工作流活动时，您可以访问与工作流相关的高级设置。 例如，您可以为工作流设置特定时区，管理工作流在出错时的行为方式，或管理应清除工作流历史记录的延迟。
 
 这些设置是在创建工作流时选择的模板中预先配置的，但可以根据需要为此特定工作流进行编辑。
 
-要执行此操作，请单击 **[!UICONTROL 设置]** 按钮时，该按钮将在工作流画布上方的操作栏中可用。
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ ht-degree: 26%
 >title="工作流属性"
 >abstract="此部分提供了通用工作流属性，在创建工作流时也可以访问这些属性。您可以选择要用于创建工作流的模板并指定标签。展开“其他选项”部分以配置特定设置，例如工作流存储文件夹或时区。"
 
-此 **[!UICONTROL 属性]** 部分提供了在创建工作流时也可以访问的常规设置。
+此 **[!UICONTROL 属性]** 部分提供了在创建工作流时可以配置的常规设置。 要访问现有工作流的属性，请单击 **[!UICONTROL 设置]** 按钮时，该按钮将在工作流画布上方的操作栏中可用。
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
