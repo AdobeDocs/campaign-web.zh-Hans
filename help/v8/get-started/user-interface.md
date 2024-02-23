@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 97%
+source-wordcount: '1687'
+ht-degree: 94%
 
 ---
 
@@ -371,3 +371,49 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="订阅服务出站过渡"
 >abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="加载文件命令"
+>abstract="允许使用任意命令进行预处理是一个安全问题，请禁用安全选项XtkSecurity_Disable_Preproc以强制使用预定义的命令列表。"
+
+
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="更新数据"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="更新数据"
+>abstract="待确认"
+
