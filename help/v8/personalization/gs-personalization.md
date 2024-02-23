@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign Web 提供了一个表达式编辑器，可让您选择、排列�
 </td>
 <td>
 <a href="content-blocks.md">
-<img alt="不常见" src="assets/do-not-localize/dynamic-content-blocks.jpg">
+<img alt="不频繁" src="assets/do-not-localize/dynamic-content-blocks.jpg">
 </a>
 <div>
 <a href="content-blocks.md"><strong>添加内置内容块</strong></a>

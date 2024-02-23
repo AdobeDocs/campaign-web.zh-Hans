@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Campaign Web用户界面中的权限管理
-description: 详细了解Campaign Web用户界面中的权限
+title: Campaign Web 用户界面中的权限管理
+description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 
 访问控制可限制从主列表访问对象和数据（如投放、收件人或工作流）。这些限制在&#x200B;**资源管理器**&#x200B;导航树中也适用。此外，您需要权限才能从用户界面创建、删除、重复和编辑对象。
 
-在 Campaign 客户端控制台中管理访问控制。Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。仅 Campaign 管理员能够定义和修改用户权限。可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}中详细了解用户权限。
+在 Campaign 客户端控制台中管理访问控制。Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。仅 Campaign 管理员能够定义和修改用户权限。可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=zh-Hans){target="_blank"}中详细了解用户权限。
 
 在浏览 Campaign Web 用户界面时，可以根据您的权限访问数据、对象和功能。例如，如果您无权访问某个文件夹，则您看不到它。您的权限还影响对象和数据管理。没有特定文件夹的写入权限，即无法在该文件夹中创建某个投放，即使您可在用户界面中看到它也是如此。
 
@@ -78,7 +78,7 @@ ht-degree: 91%
 
    如果启用了&#x200B;**系统文件夹**&#x200B;选项，则允许所有操作员访问，无论其权限如何。
 
-可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}中详细了解文件夹权限。
+可在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html?lang=zh-Hans){target="_blank"}中详细了解文件夹权限。
 
 
 ## 使用文件夹 {#folders}
@@ -97,6 +97,6 @@ ht-degree: 91%
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。您还可以从任意文件夹创建一个组件，并将其保存在新文件夹中。 **其他选项** 部分，如下面的投放所示：
+   该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。还可从任何文件夹创建组件，然后从属性的&#x200B;**其他选项**&#x200B;部分将该组件保存在该新文件夹中，如下为投放所示：
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

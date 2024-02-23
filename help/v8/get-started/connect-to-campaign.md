@@ -3,9 +3,9 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 ## 登录到 Adobe Experience Cloud {#sign-in-to-exc}
 
-您只能使用单点登录(SSO)连接到Campaign。 通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
+仅可使用单点登录 (SSO) 连接到 Campaign。通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 
 要登录到 Adobe Experience Cloud，请遵循以下基本步骤：
 
@@ -52,7 +52,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 浏览界面的顶部栏可：
 
-* 分享有关Campaign Web用户界面的反馈
+* 分享有关 Campaign Web 用户界面的反馈
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
 * 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans){target="_blank"} 的帮助
