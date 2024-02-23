@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Campaign Web用户界面的新增功能
-description: 了解Campaign Web用户界面中的新增功能
+title: Campaign Web 用户界面新增功能
+description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 62%
+ht-degree: 85%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 62%
 >title="发行说明"
 >abstract="我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。"
 
-我们很高兴能推出新版本的 **Adobe Campaign Web用户界面**. 我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。Campaign Web用户界面(UI)通过Adobe Experience Platform提供连接的画布以实现统一体验。
+我们隆重推出 **Adobe Campaign Web 用户界面**&#x200B;的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。Campaign Web 用户界面 (UI) 通过 Adobe Experience Platform 提供关联的画布，可实现统一的体验。
 
 
 >[!AVAILABILITY]
 >
->此版本对以下开始的所有用户都可用： [Campaign v8.6发布](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). 在中详细了解Adobe Campaign版本 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>此版本对以下开始的所有用户都可用： [Campaign v8.6发布](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans). 请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}以详细了解 Adobe Campaign 版本。
 
 
 ## 关键功能 {#key-features}
 
-这个新的Campaign Web用户界面附带了以下功能：
+这一新版 Campaign Web 用户界面提供以下功能：
 
 **现代、简便易用且统一的体验**
 
-Campaign的新Web用户界面提供了全新的用户体验，可与所有Adobe Experience Cloud解决方案和应用程序连接。 它提供：
+Campaign 的新 Web 用户界面提供了新的用户体验，并与所有 Adobe Experience Cloud 解决方案和应用程序保持一致。它提供：
 
 * 通过单个共享的用户会话即可访问新 Campaign 界面和您的其他 Adobe 解决方案
 * 新的导航体验，可从左边栏访问所有菜单和文件夹
@@ -44,14 +44,14 @@ Campaign的新Web用户界面提供了全新的用户体验，可与所有Adobe 
 
 **新的强大功能和无缝流程**
 
-Adobe Campaign Web用户界面提供了一个全面的图形环境，使您能够设计复杂的流程，从而帮助您轻松管理营销活动。 它拥有以下特性：
+Adobe Campaign Web 用户界面提供了一个全面的图形环境以供设计复杂流程，从而帮助您轻松管理营销活动。它拥有以下特性：
 
 * 工作流画布界面经过重新设计，用于设计和管理您的流程
 * 动态内容，用于向您的受众提供高度针对性和个性化的体验
 * 与 Adobe Experience Platform 受众的原生集成
 * 工作流、投放、营销活动和内容的模板管理
 
-在中了解关于新Web用户界面的更多信息 [此页面](../get-started/user-interface.md).
+在[此页面](../get-started/user-interface.md)中详细了解新的 Web 用户界面。
 
 **新的简化且直观的查询建模器**
 
@@ -70,7 +70,7 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 通过 Adobe Campaign 可发送包括电子邮件、短信和推送通知在内的跨渠道营销活动，并可使用各种专门的报告衡量其有效性。通过添加特定于营销活动的多个工作流和投放，您可以跨各种渠道创建个性化体验，确保每个接触点都能使目标受众产生共鸣。
 
-使用新的Campaign Web用户界面可以：
+借助新的 Campaign Web 用户界面，您可以：
 
 * 创建、设计、个性化、安排和发送电子邮件、短信和推送通知 - [了解详情](../msg/gs-messages.md)
 * 使用电子邮件设计器设计个性化的电子邮件内容 - [了解详情](../email/edit-content.md)
@@ -92,7 +92,7 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 **轻松创建和管理配置文件**
 
-您可以使用新的Campaign Web用户界面 **创建和更新收件人** 直接从收件人菜单访问数据库。 简化的用户档案编辑表单允许您输入收件人的联系信息和属性，并更新现有收件人，而无需使用到客户端控制台。 可在[此部分](../audience/about-recipients.md)中了解详情。
+可使用新的 Campaign Web 用户界面直接从“收件人”菜单在数据库中&#x200B;**创建和更新收件人**。简化的用户档案编辑表单允许您输入收件人的联系信息和属性，并更新现有收件人，而无需使用到客户端控制台。 可在[此部分](../audience/about-recipients.md)中了解详情。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -115,7 +115,7 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 **预定义过滤器**
 
-介绍预定义过滤器管理。Campaign Web用户界面为您提供用户友好的界面，让您轻松地 **管理和自定义预定义过滤器** 以满足您的特定需求。 创建一次并保存以供将来使用。 可在[此部分](../get-started/predefined-filters.md)中了解详情。
+介绍预定义过滤器管理。Campaign Web 用户界面对用户十分友好，可让您轻松&#x200B;**管理和自定义预定义过滤器**，从而满足您的特定需求。创建一次并保存以供将来使用。 可在[此部分](../get-started/predefined-filters.md)中了解详情。
 
 **用于电子邮件设计的 HTML 转换器**
 
@@ -124,26 +124,26 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 **包含优惠的短信**
 
-新的Campaign Web用户界面使您能够 **将优惠与短信集成** 电子邮件之外。 在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成优惠的威力，改善您的市场营销效果。
+通过新的 Campaign Web 用户界面，除了电子邮件，还可&#x200B;**将优惠与短信集成**。在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成优惠的威力，改善您的市场营销效果。
 
 可在[此部分](../msg/offers.md)中了解详情。
 
-## 过渡到Campaign Web用户界面
+## 过渡到 Campaign Web 用户界面
 
 作为 Campaign 用户，您仍可以访问客户端控制台来生成和管理 Campaign 资源和组件。数据和设置将从一个环境同步到另一个环境。可在[此部分](../get-started/get-started.md#ac-client)中了解详情。
 
-此外，在Campaign Web用户界面中，从Explorer左侧导航中，可以看到客户端控制台中已可用的所有数据和设置。 在[此部分](../get-started/user-interface.md#user-interface-explorer)中详细了解探索工具视图。
+此外，可在 Campaign Web 用户界面（从探索工具的左侧导航中）中查看客户端控制台中可用的所有数据和设置。在[此部分](../get-started/user-interface.md#user-interface-explorer)中详细了解探索工具视图。
 
-通过Campaign Web用户界面，用户界面可反映用户的权限。 要了解有关权限的更多信息，请参阅 [此页面](../get-started/permissions.md).
+使用 Campaign Web 用户界面时，用户界面将反映用户的权限。要了解有关权限的更多信息，请参阅 [此页面](../get-started/permissions.md).
 
 Campaign Web用户界面和Campaign客户端控制台之间受支持和不受支持的功能以及互操作性 [本页内容](../get-started/capability-matrix.md).
 
 ## 术语更新 {#terminology-updates}
 
-作为现有 Campaign 用户，请注意，已对一些概念进行重命名以符合最新的术语标准。这些更改仅适用于Campaign Web用户界面，不会反映在客户端控制台中。 下面对它们进行了汇总。
+作为现有 Campaign 用户，请注意，已对一些概念进行重命名以符合最新的术语标准。这些更改仅适用于 Campaign Web 用户界面，并且不会反映在客户端控制台中。下面对它们进行了汇总。
 
-* 收件人现在是 **配置文件**. [了解详情](../audience/gs-audiences-recipients.md)。
-* 种子地址现在为 **测试用户档案**. [了解详情](../preview-test/test-deliveries.md)。
+* 收件人现在改为&#x200B;**用户档案**。[了解详情](../audience/gs-audiences-recipients.md)。
+* 种子地址现在改为&#x200B;**测试用户档案**。[了解详情](../preview-test/test-deliveries.md)。
 * 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。[了解详情](../audience/gs-audiences-recipients.md)。
@@ -152,8 +152,8 @@ Campaign Web用户界面和Campaign客户端控制台之间受支持和不受支
 
 以下限制适用于此版本：
 
-* 可编辑对象包括：收件人、投放、营销活动、工作流、受众、订阅服务、预定义过滤器、模板和登陆页面。 其他对象为只读。使用过滤器并创建规则以浏览所有这些对象。
-* Campaign Web用户界面中没有管理和高级配置功能。
+* 可编辑的对象为：收件人、投放、营销活动、工作流、受众、订阅服务、预定义过滤器、模板和登陆页面。其他对象为只读。使用过滤器并创建规则以浏览所有这些对象。
+* Campaign Web 用户界面中不提供管理和高级配置功能。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
 * 顶栏中可用的 Adobe Experience Cloud 通知和统一帮助尚未集成。

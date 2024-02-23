@@ -8,14 +8,14 @@ breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign Web 文档 {#v8}
 
-+ [Adobe Campaign Web用户界面文档](campaign-web-home.md)
++ [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
@@ -25,7 +25,7 @@ ht-degree: 95%
    + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
-   + [Campaign Web和Campaign客户端控制台](get-started/capability-matrix.md)
+   + [Campaign Web 和 Campaign 客户端控制台](get-started/capability-matrix.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
@@ -87,7 +87,7 @@ ht-degree: 95%
       + [发送测试投放](preview-test/test-deliveries.md)
       + [测试电子邮件渲染](preview-test/email-rendering.md)
 + 登陆页面 {#landing-pages}
-   + [开始使用登陆页](landing-pages/get-started-lp.md)
+   + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
    + [设计登陆页内容](landing-pages/lp-content.md)
    + [使用登陆页模板](landing-pages/lp-templates.md)
@@ -168,5 +168,5 @@ ht-degree: 95%
       + [短信全局报告](reporting/global-report-sms.md)
 + 集成 {#integrations}
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
-   + [使用Adobe Experience Manager as a Cloud Service管理模板](integrations/aem-content.md)
+   + [使用 Adobe Experience Manager Assets as a Cloud Service 管理模版](integrations/aem-content.md)
 

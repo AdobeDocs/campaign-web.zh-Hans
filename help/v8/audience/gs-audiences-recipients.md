@@ -5,13 +5,13 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
 # 用户档案和受众入门 {#about-profiles}
 
-在Adobe Campaign Web中， **个人资料** 是存储在数据库中的记录，充当为投放创建受众并将个性化数据添加到内容的关键组件。 数据库中存储着&#x200B;**测试配置文件**（这些配置文件旨在将您的投放发送到最终受众之前测试投放）等各种类型的配置文件存储。
+在 Adobe Campaign Web 中，**用户档案**&#x200B;是存储在数据库中的记录，充当关键组件以创建投放受众和将个性化数据添加到内容。数据库中存储着&#x200B;**测试配置文件**（这些配置文件旨在将您的投放发送到最终受众之前测试投放）等各种类型的配置文件存储。
 
 **受众**&#x200B;是行为和/或特征相似的配置文件的集合。可以生成、选择或加载此人员集合。 创建受众后，可将其作为您的投放的目标群体。
 
@@ -39,7 +39,7 @@ ht-degree: 79%
 </td>
 <td>
 <a href="manage-services.md">
-<img alt="不常见" src="../assets/do-not-localize/profiles-audiences-service.png">
+<img alt="不频繁" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
 <a href="manage-services.md"><strong>管理服务</strong></a>
@@ -47,7 +47,7 @@ ht-degree: 79%
 <p></td>
 <td>
 <a href="add-audience.md">
-<img alt="不常见" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+<img alt="不频繁" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
 <a href="add-audience.md"><strong>选择您的投放收件人</strong></a>

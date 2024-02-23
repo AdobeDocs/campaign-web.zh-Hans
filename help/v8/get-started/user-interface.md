@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}。
 
-### Campaign 管理 {#user-interface-campaign-management}
+### 营销活动管理 {#user-interface-campaign-management}
 
 在“营销活动管理”部分中，可访问市场营销活动、投放情况和工作流。
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-目前作为测试版在新的Campaign Web用户界面中发布， **AI支持的知识助手** 嵌入在上下文帮助中的内容彻底改变了文档搜索和操作方法问题，您可以轻松地在庞大的文档存储库中筛选，即时查明您所需的精确信息。
+目前，**AI 支持的知识助手**&#x200B;在新 Campaign Web 用户界面中作为 Beta 版发布，嵌入在上下文帮助中，彻底改变了文档搜索和解答操作方法疑问的方式，可轻松地筛选大型文档存储库并立即找出所需的准确信息。
 
 通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的基于 AI 的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="更改数据源"
->abstract="**更改数据源**&#x200B;活动允许您为工作流的工作表选择不同的数据源。"
+>abstract="使用&#x200B;**更改数据源**&#x200B;活动，可为工作流的工作表选择不同的数据源。"
 
 
 <!--
