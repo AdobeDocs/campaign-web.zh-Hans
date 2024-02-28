@@ -2,10 +2,10 @@
 title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 24%
+source-wordcount: '1376'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布后，您可以在投放中插入指向表单的链接。 收件人单击该链接后，会被定向到相应的登陆页面。
 
-[!DNL Adobe Campaign] 随附四个模板，用于管理以下用例： **acquisition**， **订阅**， **退订**、和 **阻止列表**.
+[!DNL Adobe Campaign] 随附四个模板，用于管理以下用例： **acquisition**， **订阅**， **退订**、和 **阻止列表**. [了解详情](lp-use-cases.md)
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -34,7 +34,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 >[!CAUTION]
 >
->在Campaign Web用户界面中，无法显示或编辑从客户端控制台（Web窗体）创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>在Campaign Web用户界面中，无法显示或编辑从客户端控制台（Web窗体）创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -50,7 +50,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="定义每个页面的内容"
->abstract="调整作为此登陆页面的一部分的每个页面的内容，例如表单本身、提交表单时显示的确认页面或发生错误时将用户定向到的页面。"
+>abstract="调整作为该登陆页面一部分的每个页面的内容，例如表单本身、提交表单时显示的确认页面或发生错误时将用户定向到的页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
@@ -58,14 +58,14 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >abstract="可定义登陆页面的开始日期和结束日期。当页面的有效期结束时，该表单将不再可用。而将显示&#x200B;**过期**&#x200B;页面。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="定义主页面设置"
->abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
+>id="acw_landingpages_preload"
+>title="定义预加载选项"
+>abstract="当 **使用表单中引用的数据预填充** 选项，如果登陆页面的访客与数据库中的某个配置文件匹配，则该配置文件的信息会自动预加载到表单中。 使用 **如果没有ID，则跳过预加载** 选中此选项后，输入的每个用户档案都将在批准表单后添加到数据库中。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="设置您的订阅登陆页面"
->abstract="通过订阅页面，您的客户可订阅服务。"
+>id="acw_landingpages_storage"
+>title="定义存储选项"
+>abstract="通过预加载部分，可指示如何在数据库中查找要更新的记录。"
 
 <!--The main steps to create landing pages are as follows:
 

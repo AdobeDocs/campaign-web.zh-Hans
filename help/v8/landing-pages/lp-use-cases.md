@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 5%
+source-wordcount: '1381'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 5%
 >title="谨慎复制 URL"
 >abstract="要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。相反，请使用&#x200B;**模拟内容**&#x200B;功能对其进行测试，并执行文档中描述的步骤来正确使用登陆页面。"
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="谨慎复制 URL"
+>abstract="在创建登陆页时，可通过四个现成的模板实施不同的用例：向Campaign数据库添加或更新用户档案、为客户订阅服务、取消客户订阅服务或选择用户退出。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="创建登陆页面"
+
 要正确使用登陆页面，您应使用专用选项在投放中将其引用为链接。
 
 >[!CAUTION]
 >
->要充分利用登陆页面，您不能将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。
+>要充分利用登陆页面，您不能将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。 在本节中了解如何正确执行此操作。
 
 在 [!DNL Adobe Campaign Web] 下面，您可以使用四个现成的模板实施不同的用例。 但是，主要步骤保持不变，详见下文。
 
@@ -105,6 +111,11 @@ ht-degree: 5%
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## 订阅服务 {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="设置您的订阅登陆页面"
+>abstract="通过订阅页面，您的客户可订阅服务。"
 
 最常见的用例之一是邀请您的客户 [订购服务](../audience/manage-services.md) （例如新闻稿或活动）。 请按照以下步骤操作。
 
