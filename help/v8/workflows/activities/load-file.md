@@ -3,10 +3,10 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 33%
+source-wordcount: '376'
+ht-degree: 36%
 
 ---
 
@@ -54,14 +54,23 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="用于加载文件活动的目标文件"
->abstract="用于加载文件活动的目标文件"
+>title="“加载文件”活动的目标文件"
+>abstract="“加载文件”活动的目标文件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="加载文件活动的值重新映射"
->abstract="加载文件活动的值重新映射"
+>title="“加载文件”活动的值重新映射"
+>abstract="“加载文件”活动的值重新映射"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="加载文件命令"
+>abstract="允许使用任意命令进行预处理是一个安全问题，请禁用安全选项XtkSecurity_Disable_Preproc以强制使用预定义的命令列表。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="导入后删除文件"
+>abstract="待确认"
 
  **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 

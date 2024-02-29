@@ -3,7 +3,7 @@ audience: end-user
 title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 28%
@@ -13,7 +13,6 @@ ht-degree: 28%
 
 # 配置工作流设置 {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="工作流属性"
@@ -22,7 +21,6 @@ ht-degree: 28%
 在画布中创建工作流或编排工作流活动时，您可以访问与工作流相关的高级设置。 例如，您可以为工作流设置特定时区，管理工作流在出错时的行为方式，或管理应清除工作流历史记录的延迟。
 
 这些设置是在创建工作流时选择的模板中预先配置的，但可以根据需要为此特定工作流进行编辑。
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 

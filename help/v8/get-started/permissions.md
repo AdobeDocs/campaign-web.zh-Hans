@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面中的权限管理
 description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="需要权限"
 >abstract="您的管理员必须先授予您权限，然后您才能创建此对象。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此受众为只读"
->abstract="您无权编辑此受众。如果需要，请联系您的管理员以准许您访问。"
-
+>abstract="您无权编辑此受众。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服务为只读"
 >abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="收件人只读配置文件"
+>abstract="您没有权限编辑此配置文件。 如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

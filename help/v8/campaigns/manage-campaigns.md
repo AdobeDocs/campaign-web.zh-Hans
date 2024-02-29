@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 39%
+source-wordcount: '719'
+ht-degree: 40%
 
 ---
 
@@ -45,6 +45,11 @@ ht-degree: 39%
 >id="acw_campaign_delivery_list"
 >title="营销活动中的投放的列表"
 >abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。单击投放的名称以编辑该投放。使用“创建投放”按钮为此营销活动添加新的投放。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Campaign 中的工作流列表"
+>abstract="Campaign 中的工作流列表"
 
 在 **浏览** 选项卡上，单击促销活动名称以显示其详细信息。
 

@@ -3,8 +3,8 @@ audience: end-user
 title: 创建工作流的主要原则
 description: 了解使用 Adobe Campaign Web 工作流的关键原则
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -14,7 +14,6 @@ ht-degree: 100%
 # 创建工作流的主要原则 {#gs-workflow-creation}
 
 通过 Adobe Campaign Web，可使工作流成为视觉画布的组成部分，以设计跨渠道流程，如分段、执行营销活动和处理文件。
-
 
 ## 工作流中有什么？ {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ ht-degree: 100%
 1. 可直接在营销活动中从营销活动的&#x200B;**工作流**&#x200B;选项卡创建工作流。当工作流包括在营销活动中时，将它与所有其他营销活动的工作流一起执行，并且报告量度全都集中在营销活动级别。
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 创建工作流的关键步骤如下所示：
 

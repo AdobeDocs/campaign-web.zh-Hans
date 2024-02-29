@@ -3,7 +3,7 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ ht-degree: 35%
 * 使用 [删除重复项](deduplication.md) 活动，用于删除集客活动结果中的重复项。
 * 使用 [更改维度](change-dimension.md) 活动，以在构建工作流时更改定向维度。
 * 使用 [加载文件](load-file.md) 活动以使用存储在外部文件中的用户档案和数据。
-
 
 ## 渠道活动 {#channel}
 

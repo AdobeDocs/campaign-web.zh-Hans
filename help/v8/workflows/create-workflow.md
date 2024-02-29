@@ -3,17 +3,15 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
 
 # 创建工作流 {#create-first-workflow}
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"

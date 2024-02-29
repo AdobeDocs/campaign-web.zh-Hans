@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 97%
+source-wordcount: '1637'
+ht-degree: 99%
 
 ---
 
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="全球报告跟踪"
 >abstract="跟踪报告量度在此屏幕中可见"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="Campaign 中的工作流列表"
->abstract="Campaign 中的工作流列表"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="收件人优惠预览"
 >abstract="收件人优惠预览"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="收件人只读配置文件"
->abstract="收件人只读配置文件"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="活动不可编辑"
->abstract="活动不可编辑"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="模拟测试配置文件"
 >abstract="模拟测试配置文件"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="模拟测试配置文件选择"
 >abstract="模拟测试配置文件选择"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="模拟测试配置文件发送"
 >abstract="模拟测试配置文件发送"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="模拟电子邮件日志"
 >abstract="模拟电子邮件日志"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="在同一个表中生成所有子集"
 >abstract="待确认"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="默认登陆页面"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="订阅服务出站过渡"
 >abstract="待确认"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="加载文件命令"
->abstract="允许使用任意命令进行预处理是一个安全问题，请禁用安全选项XtkSecurity_Disable_Preproc以强制使用预定义的命令列表。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="导入后删除文件"
->abstract="待确认"
-
-
 
 
 <!--Update file-->
