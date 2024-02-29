@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 3%
+source-wordcount: '2030'
+ht-degree: 4%
 
 ---
 
@@ -236,7 +236,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="规则属性"
->abstract="规则属性"
+>abstract="在画布中构建查询后，您可以使用 **规则属性** 窗格位于右侧。<br/>利用此窗格，可显示结果数据、检索查询的SQL代码版本以及检查目标记录数。<br/>使用 **选择或保存筛选器** 按钮以将查询另存为预定义过滤器，或将画布内容替换为现有过滤器。"
 
 在画布中构建查询后，您可以使用 **规则属性** 窗格位于右侧。 可用的操作包括：
 
