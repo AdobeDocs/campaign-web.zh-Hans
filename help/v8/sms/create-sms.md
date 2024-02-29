@@ -21,13 +21,13 @@ ht-degree: 44%
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
 >abstract="可创建新受众或通过单击&#x200B;**选择受众**&#x200B;按钮而选择现有受众。如果需要，可添加对照组以衡量投放的影响力。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="设置对照组"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hans" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
 >abstract="选择预定义模板以开始投放您的短信。通过投放模板，可轻松地在营销活动和投放中重用自定义内容和设置。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用投放模板"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hans" text="使用投放模板"
 
 
 您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤详细介绍了独立（一次性）短信投放的过程。 如果您在活动工作流的上下文中工作，有关创建步骤的详细信息，请参阅 [本节](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
