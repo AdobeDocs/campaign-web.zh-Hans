@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="订阅者总数"
->abstract="关键绩效指标(KPI)提供订阅者基础的综合视图，显示订阅了此服务的个人总数。"
+>abstract="关键绩效指标 (KPI) 提供了订阅者群体的全面视图，显示了订阅此服务的个人总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"

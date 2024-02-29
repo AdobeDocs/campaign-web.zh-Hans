@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -144,12 +144,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="按类型细分错误"
->abstract="此 **每种类型的错误细分** 图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等等。"
+>abstract="**按类型细分错误**&#x200B;图形包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="按类型细分错误"
->abstract="此 **每种类型的错误细分** 该表提供了每种错误类型出现的全面细分。"
+>abstract="**每种类型的错误细分**&#x200B;表提供了每种错误类型发生次数的全面细分。"
 
 此 **[!UICONTROL 每种类型的错误细分]** 表和图形包含用于错误类型的可用数据。 指标详见下文。
 
@@ -180,12 +180,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="按域细分错误"
->abstract="此 **每个域的错误细分** 图形根据每个域显示遇到的每种错误类型的可用数据。"
+>abstract="**按域细分错误**&#x200B;图形显示了遇到的每种错误类型的可用数据（按域细分）。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="按域细分错误"
->abstract="此 **每个域的错误细分** 表提供了每个错误发生的全面细分，具体取决于使用的域。"
+>abstract="**每个域的错误细分**&#x200B;表根据所使用的域提供了每个错误发生次数的全面细分。"
 
 此 **[!UICONTROL 每个域的错误细分]** 表格和图形可显示每个域可能遇到的错误的可用数据。
 
