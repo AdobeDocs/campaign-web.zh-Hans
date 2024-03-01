@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="加载文件命令"
->abstract="允许使用任意命令进行预处理是一个安全问题，请禁用安全选项XtkSecurity_Disable_Preproc以强制使用预定义的命令列表。"
+>abstract="允许使用任意命令进行预处理会带来安全问题，禁用安全选项 XtkSecurity_Disable_Preproc 可强制使用一系列预定义的命令。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
