@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+workflow-type: tm+mt
+source-wordcount: '2179'
+ht-degree: 95%
 
 ---
 
@@ -152,14 +152,27 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 
 ## 数据建模和数据摄取 {#data-capabilities}
 
-Campaign Web 用户界面不会显示以下功能。这些功能仅在客户端控制台中可用。
+Campaign Web 用户界面不会显示以下功能。它们仅在客户端控制台中可用：
 
-浏览 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}中提供的链接，了解更多信息。
+### 外部帐户 {#external}
 
-* **外部帐户**。Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为 Campaign 系统管理员，您只能从客户端控制台创建和管理外部帐户。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=zh-Hans){target="_blank"}
-* **架构创建和扩展**。架构创建、修改和扩展都仅面向高级用户。这些功能只能从客户端控制台中使用。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=zh-Hans){target="_blank"}
-* **数据管理**&#x200B;工作流活动。数据管理结合了一系列活动，通过提供更高效、更灵活的工具来解决复杂的定位问题。这些活动包括：数据加载、提取（文件）、更新数据、编辑架构、导入/导出技术工作流。这些仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hans#data-management){target="_blank"}
-* **联合数据访问**。Campaign 配置以及与外部系统的连接仅限高级用户使用，并且只能从客户端控制台中使用。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"}
+Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为 Campaign 系统管理员，您只能从客户端控制台创建和管理外部帐户。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=zh-Hans){target="_blank"}
+
+### 架构创建和扩展 {#schema}
+
+架构创建、修改和扩展都仅面向高级用户。这些功能只能从客户端控制台中使用。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=zh-Hans){target="_blank"}
+
+### 工作流数据管理功能 {#data}
+
+数据管理通过提供更高效和灵活的工具(如数据加载、提取（文件）、更新数据、编辑架构或导入/导出技术工作流)来结合一系列活动，以解决复杂的定位问题。 [在客户端控制台中探索工作流数据管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hans#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>虽然其中的某些活动仅在客户端控制台中可用，但某些活动在Campaign Web用户界面中可用，例如 **扩充**， **加载文件** 或 **更改维度** 活动。 [在Campaign Web用户界面中了解关于定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
+
+### 联合数据访问配置 {#fda}
+
+Campaign 配置以及与外部系统的连接仅限高级用户使用，并且只能从客户端控制台中使用。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"}
 
 ## 审批 {#approvals-capabilities}
 
