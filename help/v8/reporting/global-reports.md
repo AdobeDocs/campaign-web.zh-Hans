@@ -3,14 +3,19 @@ audience: end-user
 title: 全局报告入门
 description: 了解全局报告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 21%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
 # 全局报告入门 {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="全局报告"
+>abstract="全局报告提供了一种强大而高效的方法来分析您的营销活动效果。 这些报表提供了营销活动中每个渠道的关键流量和参与度指标的综合视图。"
 
 **全局报告**&#x200B;作为一种有效的工具，提供您的营销活动实例中每个渠道的流量和参与情况量度的综合性总体概述。这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。
 
