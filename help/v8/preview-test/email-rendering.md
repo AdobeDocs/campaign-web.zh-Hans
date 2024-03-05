@@ -3,10 +3,10 @@ audience: end-user
 title: 测试电子邮件渲染
 description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->在Campaign中使用电子邮件渲染会向第三方系统发送测试电子邮件。 将您的Litmus帐户与 [!DNL Campaign]，则您确认该Adobe对您可能发送给该第三方的任何数据概不负责。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。 要访问或删除此类数据，您需要直接联系Litmus。
+>在Campaign中使用电子邮件渲染会向第三方系统发送验证。 将您的Litmus帐户与 [!DNL Campaign]，则您确认该Adobe对您可能发送给该第三方的任何数据概不负责。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些验证中的个性化数据。 要访问或删除此类数据，您需要直接联系Litmus。
 
 要访问电子邮件渲染功能，您需要：
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 13%
+source-wordcount: '428'
+ht-degree: 16%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 13%
 
 替换为 **Adobe Campaign**，则能够在将消息发送到主受众之前对其进行测试，这是验证电子邮件营销活动和识别潜在问题的重要步骤。
 
-发送测试短信是确保投放质量和效果的重要步骤。 测试收件人可以检查各种元素，如链接、选择退出链接和图像，并识别渲染、内容、个性化设置和短信配置中的任何错误。 此过程可帮助您在联系主受众之前彻底评估和优化短信。
+发送校样是确保投放质量和效果的重要步骤。 验证收件人可以检查各种元素，如链接、选择退出链接和图像，并识别渲染、内容、个性化设置和短信配置中的任何错误。 此过程可帮助您在联系主受众之前彻底评估和优化短信。
 
-![](../assets/do-not-localize/book.png) 了解如何在中发送测试短信 [本节](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) 了解如何在中发送验证 [本节](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

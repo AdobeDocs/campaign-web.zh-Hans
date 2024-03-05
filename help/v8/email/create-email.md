@@ -3,10 +3,10 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 66%
+source-wordcount: '1393'
+ht-degree: 58%
 
 ---
 
@@ -157,17 +157,17 @@ ht-degree: 66%
 
 在中了解有关投放计划的更多信息 [本节](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## 预览和测试电子邮件 {#preview-test}
+## 预览电子邮件并发送校样 {#preview-test}
 
 在发送电子邮件之前，您可以预览和测试电子邮件以确保符合您的期望。
 
-在此用例中，您可以预览电子邮件并将测试版本发送到特定的电子邮件地址，同时模拟一些定向配置文件。
+在此使用案例中，您可以在模拟某些定向的用户档案时，预览电子邮件并向特定电子邮件地址发送校样。
 
-有关如何预览和测试电子邮件的其他信息，请参阅[此章节](../preview-test/preview-test.md)。
+有关如何预览电子邮件和发送校样的其他信息，请参阅 [本节](../preview-test/preview-test.md).
 
 1. 要查看您的电子邮件，请单击&#x200B;**[!UICONTROL 查看并发送]**。这将显示您的电子邮件预览，以及所有已配置的属性、受众和计划。可以通过单击修改按钮来编辑这些元素中的任一元素。
 
-1. 要预览电子邮件并发送测试版本，请单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 要预览电子邮件并发送校样，请单击 **[!UICONTROL 模拟内容]** 按钮。
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ ht-degree: 66%
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. 要发送电子邮件的测试版本，请单击&#x200B;**[!UICONTROL 测试]**&#x200B;按钮，然后选择要使用的模式。
+1. 要发送校样，请单击 **[!UICONTROL 发送校样]** 按钮，然后选择要使用的模式。
 
-   在此示例中，使用&#x200B;**[!UICONTROL 从主要目标替代]**&#x200B;模式，它将测试版本发送到特定的电子邮件地址，同时模拟电子邮件所针对的一些配置文件。
+   在此示例中，使用 **[!UICONTROL 从主要目标替换]** 模式，向特定的电子邮件地址发送验证，同时模拟电子邮件所定向的某些用户档案。
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. 单击&#x200B;**[!UICONTROL 添加地址]**&#x200B;并指定接收测试版本的电子邮件地址。
+1. 单击 **[!UICONTROL 添加地址]** 并指定接收校样的电子邮件地址。
 
    对于每个电子邮件地址，选择要模拟的配置文件。您还可以让 Adobe Campaign 从目标中选择一个随机配置文件。
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. 单击&#x200B;**[!UICONTROL 发送测试电子邮件]**&#x200B;并确认发送。
+1. 单击 **[!UICONTROL 发送验证]** 并确认发送。
 
-   使用选定的配置文件与 **[Proof x]** 前缀将测试版本发送到指定的电子邮件地址。
+   使用选定的配置文件将验证发送到指定的电子邮件地址，并具有 **[校对x]** 前缀。
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   可以随时单击模拟内容屏幕中的&#x200B;**[!UICONTROL 查看测试电子邮件日志]**&#x200B;按钮，来查看发送状态和访问已发送的测试电子邮件。
+   您可以检查发送的状态，并随时通过单击 **[!UICONTROL 查看验证]** “模拟内容”屏幕中的按钮。
 
 ## 发送和监控电子邮件 {#prepare-send}
 

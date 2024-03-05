@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 13%
+source-wordcount: '567'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-有关将测试消息发送到种子地址的详细步骤，请参见 [本节](../preview-test/test-deliveries.md#test-profiles).
+有关向种子地址发送校样的详细步骤，请参见 [本节](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -100,6 +100,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 单击 **[!UICONTROL 保存]** 按钮。
 
-您刚刚创建的测试用户档案现已准备就绪，可用于发送测试。 [了解详情](../preview-test/test-deliveries.md#test-profiles)
+您刚刚创建的测试用户档案现已准备就绪，可用于发送校样。 [了解详情](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

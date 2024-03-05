@@ -3,10 +3,10 @@ audience: end-user
 title: 添加指向镜像页面的链接
 description: 了解如何添加和管理指向镜像页面的链接
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign 生成的镜像页面包含所有个性化数据。
 
 >[!NOTE]
 >
->在发送用来测试配置文件的测试电子邮件中，指向镜像页面的链接未激活。它仅在最终邮件中激活。
+>在发送到测试用户档案的验证中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
 
 默认情况下，镜像页面的保留期为 60 天。在此延迟之后，镜像页面将不再可用。
 

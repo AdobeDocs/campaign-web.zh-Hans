@@ -3,10 +3,10 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 2%
+source-wordcount: '390'
+ht-degree: 5%
 
 ---
 
@@ -36,10 +36,8 @@ ht-degree: 2%
 
 ## 测试您的推送通知投放 {#test-push}
 
-使用 **Adobe Campaign**，您能够在将推送通知发送到主受众之前对其进行测试。 此步骤对于验证您的投放和识别任何问题都非常重要。
-测试收件人可以查看链接、图像和个性化设置等元素，确保最佳性能并检测任何错误。 此过程可帮助您在联系主受众之前优化推送通知。
-
-![](../assets/do-not-localize/book.png) 了解如何在中发送测试推送通知 [本节](../preview-test/test-deliveries.md#subscribers).
+使用 **Adobe Campaign**，则能够在将验证发送到主受众之前发送它们。 此步骤对于验证您的投放和识别任何问题都非常重要。
+测试收件人可以查看链接、图像和个性化设置等元素，确保最佳性能并检测任何错误。 此过程可帮助您在联系主受众之前优化推送通知。 [了解如何发送校样](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

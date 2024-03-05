@@ -3,10 +3,10 @@ audience: end-user
 title: 以文件中的收件人为目标
 description: 了解如何使用外部文件中的收件人生成电子邮件受众
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## 预览和测试电子邮件 {#test}
 
-通过Campaign Web，您可以预览和发送使用从文件上传的受众的测试电子邮件。 为此，请执行以下步骤：
+使用Campaign Web，您可以预览和发送使用从文件上传的受众的验证。 为此，请执行以下步骤：
 
 1. 单击 **[!UICONTROL “模拟内容”按钮]** 在投放内容编辑屏幕中，单击 **[!UICONTROL 添加测试配置文件]** 按钮。
 
@@ -94,7 +94,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. 要发送测试电子邮件，请单击 **[!UICONTROL 测试]** 按钮。
+1. 要发送校样，请单击 **[!UICONTROL 发送验证]** 按钮。
 
 1. 单击 **[!UICONTROL 上传校对配置文件]** 按钮并选择包含验证收件人的.txt或.csv文件。
 
@@ -102,8 +102,8 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
    >
    >确保文件格式与用于上传受众的文件格式匹配。 任何格式错误都会显示警报。
 
-1. 添加验证收件人并准备好发送验证时，单击 **[!UICONTROL 发送测试电子邮件]** 按钮并确认发送。
+1. 添加验证收件人并准备好发送验证时，单击 **[!UICONTROL 发送验证]** 按钮并确认发送。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. 您可以使用监控测试电子邮件的发送 **[!UICONTROL 查看测试电子邮件日志]** 按钮。 [了解有关测试电子邮件监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 您可以使用监控证明的发送 **[!UICONTROL 查看验证]** 按钮。 [了解有关验证监控的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)
