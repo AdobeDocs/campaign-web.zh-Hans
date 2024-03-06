@@ -3,7 +3,7 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 31%
@@ -51,7 +51,7 @@ ht-degree: 31%
    * **[!UICONTROL 文件夹]**：将投放存储在特定文件夹中。
    * **[!UICONTROL 投放代码]**：使用您自己的命名惯例整理投放。
    * **[!UICONTROL 描述]**：提供投放的描述。
-   * **[!UICONTROL 性质]**：指定电子邮件的性质以进行分类。
+   * **[!UICONTROL 自然]**：指定投放的性质以进行分类。
 +++
 
 
