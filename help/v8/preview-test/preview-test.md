@@ -3,9 +3,9 @@ audience: end-user
 title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 18%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 18%
 [!DNL Adobe Campaign Web user interface] 允许您：
 
 * [预览消息内容和个性化](preview-content.md)
-* [发送校样](test-deliveries.md) （证明）到特定收件人或订阅者进行测试和验证
+* [发送校样](test-deliveries.md) 发送给特定收件人或订阅者，以进行测试和验证
 * [检查电子邮件渲染](email-rendering.md) 在常用桌面、移动和基于Web的客户端中
 * [预览和测试登陆页面](../landing-pages/create-lp.md#test-landing-page)
 
