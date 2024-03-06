@@ -3,10 +3,10 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 39%
+source-wordcount: '1545'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 39%
 >id="acw_deliveries_push_ios_content"
 >title="推送 iOS 内容"
 >abstract="定义您用于 iOS 设备的推送通知的内容。要开始编写消息，请单击&#x200B;**编辑内容**&#x200B;按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="“稍后提醒”按钮"
+>abstract="待定"
+
 
 ## 定义通知的内容 {#push-message}
 
