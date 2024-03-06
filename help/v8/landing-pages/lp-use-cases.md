@@ -10,7 +10,7 @@ keywords: 登录、登陆页面、用例
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
->abstract="在创建登陆页时，可通过四个现成的模板实施不同的用例：向Campaign数据库添加或更新用户档案、为客户订阅服务、取消客户订阅服务或选择用户退出。"
+>abstract="在创建登陆页面时，可使用四个现成的模板实现不同的用例：在 Campaign 数据库中添加或更新配置文件、为客户订阅服务、为客户取消订阅服务或选择用户退出。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="创建登陆页面"
 
 要正确使用登陆页面，您应使用专用选项在投放中将其引用为链接。

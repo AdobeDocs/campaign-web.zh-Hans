@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
 >title="收件人只读配置文件"
->abstract="您没有权限编辑此配置文件。 如果需要，请联系您的管理员以向您授予访问权限。"
+>abstract="您无权编辑此配置文件。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
