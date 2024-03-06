@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 90%
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 90%
 >title="拆分生成补充"
 >abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**生成补充**&#x200B;选项。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="在同一个表中生成所有子集"
+>abstract="打开此选项可将所有子集分组到一个输出转换中。"
+
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
 1. 向您的工作流添加一个&#x200B;**拆分**&#x200B;活动。
@@ -76,7 +81,6 @@ ht-degree: 90%
       >[!NOTE]
       >
       >在为子集设置群体限制时，您可以根据特定的配置文件属性按升序或降序顺序对所选配置文件进行排名。为此，请打开&#x200B;**[!UICONTROL 启用排序]**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个配置文件。
-
 
 1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**[!UICONTROL 生成补充]**&#x200B;选项。
 
