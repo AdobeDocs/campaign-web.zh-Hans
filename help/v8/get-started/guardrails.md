@@ -19,7 +19,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
->title="活动不可编辑"
+>title="无法编辑活动"
 >abstract="如果&#x200B;**查询**&#x200B;或&#x200B;**扩充**&#x200B;活动是在控制台中使用附加数据配置的，则会在 Campaign Web 中考虑扩充数据并将其传递到出站过渡中，但无法对其进行编辑。"
 
 Campaign Web 用户界面中尚不支持的工作流活动为只读活动，并显示为不兼容的活动。仍可执行工作流、发送消息、检查日志等。可编辑在 Campaign Web 用户界面和客户端控制台中都能找到的工作流活动。

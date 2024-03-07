@@ -7,7 +7,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 11%
@@ -24,7 +25,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
->abstract="在创建登陆页面时，可使用四个现成的模板实现不同的用例：在 Campaign 数据库中添加或更新配置文件、为客户订阅服务、为客户取消订阅服务或选择用户退出。"
+>abstract="在创建登陆页面时，通过四个现成的模板可实现不同的用例：将配置文件添加到 Campaign 数据库或更新配置文件、为客户订阅服务、为客户取消订阅服务或帮助用户退出。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="创建登陆页面"
 
 要正确使用登陆页面，您应使用专用选项在投放中将其引用为链接。
@@ -214,14 +215,3 @@ ht-degree: 11%
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 除非再次订阅，否则此配置文件将不会收到来自您品牌的电子邮件通信。
-
-
-
-
-
-
-
-
-
-
-
