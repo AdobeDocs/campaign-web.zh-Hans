@@ -1,24 +1,20 @@
 ---
 audience: end-user
-title: 投放设置
-description: 详细了解Campaign Web中的投放设置
-feature: Email
+title: 配置投放设置
+description: 了解如何在Campaign Web中配置投放设置
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
 
-# 电子邮件投放设置 {#email-del-settings}
+# 配置投放设置 {#del-settings}
 
-电子邮件投放设置包括 **技术投放参数** 在电子邮件模板中定义的电子邮件收件人。 每次投放都会使其过载。
-
-这些设置可从 **设置** 编辑电子邮件投放或电子邮件投放模板时可用的按钮。
-
-## 电子邮件投放设置 {#email-delivery-settings}
+投放设置包括 **技术投放参数** 在投放模板中定义的。 每次投放都会使其过载。 这些设置可从 **设置** 按钮在编辑投放或投放模板时可用。
 
 >[!CAUTION]
 >
@@ -36,12 +32,11 @@ ht-degree: 54%
 >title="投放的类型设置"
 >abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的配置文件将排除在投放受众之外。在 Campaign 客户端控制台中创建类型和类型规则。"
 
-
-类型是一组 **类型规则** 以便在准备阶段执行，以便一次性轻松地将多个筛选规则应用于投放。 借助这些工具，营销人员可以标准化所有投放的业务实践，因为他们可以控制、筛选投放投放并安排其发送优先级。
+类型是一组 **类型规则** 以便在准备阶段执行，以便一次性轻松地将多个筛选规则应用于投放。 借助这些工具，营销人员可以标准化所有投放的业务实践，因为可以通过它们来控制、筛选投放并安排其发送优先级。
 
 将分类与消息或消息模板关联时，将执行包含在分类中的分类规则，以在消息准备期间检查投放的有效性。 然后，会从投放受众中排除与分类规则中标准匹配的用户档案。
 
-分类功能可确保电子邮件始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如未订阅者、竞争对手或不忠诚客户）的筛选规则。
+分类允许您确保投放始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。
 
 ![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
@@ -55,7 +50,6 @@ ht-degree: 54%
 >id="acw_email_settings_pressure_parameters"
 >title="投放的压力参数"
 >abstract="利用投放权重，您可以确定疲劳管理框架内的优先级最高的投放。具有最高权重的消息优先。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -91,15 +85,14 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="投放的容量设置"
->abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。在 Adobe Campaign v8 控制台中定义容量规则。在此屏幕中，选择与电子邮件渠道关联的规则。"
+>abstract="在传递消息之前，请使用容量规则来确保您的组织可以处理投放、投放可能生成的集客消息，以及为联系订阅者所要进行的呼叫次数等。在 Adobe Campaign v8 控制台中定义容量规则。在此屏幕中，选择与渠道关联的规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="收件人的重要性"
 >abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
 
-
-在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则与电子邮件渠道关联。
+在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则已关联到该渠道。
 
 此 **[!UICONTROL 收件人的重要性]** 字段是一个公式，用于确定在超出容量类型规则时保留哪些收件人。
 
@@ -112,11 +105,9 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="投放的受众设置"
->abstract="在可用的映射中选择一个&#x200B;**目标映射**。在 Adobe Campaign v8 控制台中定义目标映射。您还设置投放的排除参数。 "
+>abstract="在可用的映射中选择一个&#x200B;**目标映射**。在 Adobe Campaign v8 控制台中定义目标映射。您还设置投放的排除参数。"
 
-在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。
-
-要了解有关目标映射的更多信息，请参阅 [本节](../audience/targeting-dimensions.md).
+在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的更多信息](../audience/targeting-dimensions.md).
 
 在 **[!UICONTROL 排除项]** 字段中，您可以选择排除不再希望被联系或隔离的收件人。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -131,7 +122,7 @@ ht-degree: 54%
 
 ![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-集成的电子邮件 **[!UICONTROL 路由]** 默认提供外部帐户。 其中包含允许应用程序发送电子邮件的技术参数。
+集成的 **[!UICONTROL 路由]** 默认提供外部帐户。 它包含允许应用程序发送投放的技术参数。
 
 您可以定义 **[!UICONTROL 正在发送]** 以下设置。
 
@@ -143,29 +134,23 @@ ht-degree: 54%
   >
   >通过复制现有投放创建投放时，此参数会重置。
 
-* **[!UICONTROL 测试SMTP投放]**：此选项用于测试通过SMTP进行的发送。 处理投放直至连接到SMTP服务器，但不发送：对于投放的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
+* **[!UICONTROL 测试SMTP投放]** （电子邮件渠道）：此选项用于测试通过SMTP进行的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密送]**：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL 电子邮件密送]** （电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到消息目标即可。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 在 **[!UICONTROL 波次定义]** 部分，选择 **[!UICONTROL 使用多个批次发送]** 用于逐步增加使用批次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
-您也可以更改 **[!UICONTROL 邮件格式]** ，如下所述。
+对于电子邮件，您还可以更改 **[!UICONTROL 邮件格式]** 发送消息的数量，如下所述。
 
-* **[!UICONTROL 使用收件人偏好设置]** （默认模式）
+* **[!UICONTROL 使用收件人偏好设置]** （默认模式）：根据收件人用户档案中存储的数据定义电子邮件格式。 如果收件人希望以特定格式接收电子邮件，则此格式为已发送的格式。 如果未填写该字段，则会发送包含多个替代部分的电子邮件（见下文）。
 
-  根据收件人用户档案中存储的数据定义消息格式。 如果收件人希望以特定格式接收消息，则会将该格式用于发送的邮件。如果未填写该字段，则会发送multipart-alternative消息（请参阅下文）。
-
-* **[!UICONTROL 让收件人邮件客户端选择最合适的格式]**
-
-  该消息包含两种格式：文本和HTML。 接收时显示的格式取决于收件人邮件软件的配置(multipart-alternative)。
+* **[!UICONTROL 让收件人邮件客户端选择最合适的格式]**：电子邮件包含两种格式：文本和HTML。 接收时显示的格式取决于收件人邮件软件的配置(multipart-alternative)。
 
   >[!IMPORTANT]
   >
-  >此选项包括文档的两个版本。 因此，它会影响投放率，因为邮件大小更大。
+  >此选项包括文档的两个版本。 因此，它会影响投放率，因为电子邮件较大。
 
-* **[!UICONTROL 以文本格式发送所有消息]**
-
-  消息以文本格式发送。 不会发送HTML格式，但仅当收件人单击消息时，才会将其用于镜像页面。
+* **[!UICONTROL 以文本格式发送所有消息]**：电子邮件以文本格式发送。 不会发送HTML格式，但仅当收件人单击电子邮件时，才会将其用于镜像页面。
 
 ## Web 分析 {#web-analytics}
 
@@ -193,7 +178,7 @@ ht-degree: 54%
 
 由于软错误或忽略错误而临时取消发送的邮件将会自动重试。 默认情况下，安排在投放的第一天进行五次重试，最小间隔为一小时分布在一天中的24小时内。
 
-## 审批 {#approval}
+## 审批（电子邮件渠道） {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -205,14 +190,12 @@ ht-degree: 54%
 >title="投放的审批模式"
 >abstract="根据此模板选择投放的审批模式。如果在准备投放期间产生了警告，则可配置投放以定义是否仍应执行它。"
 
-如果在投放准备期间生成警告，您可以配置投放以定义它是否仍应执行。默认情况下，用户必须在分析阶段结束时确认消息的发送：这是&#x200B;**手动**&#x200B;验证。
+如果在电子邮件投放准备期间生成警告，您可以配置投放以定义是否应仍执行该投放。 默认情况下，用户必须在分析阶段结束时确认发送电子邮件：这是 **手动** 验证。
 
 您可以在相应的字段中选择其他审批方式。可用的模式为：
 
-* ****[!UICONTROL 手动]****：在分析阶段结束时，用户必须确认投放以开始发送。
-
+* **[!UICONTROL 手动]**：在分析阶段结束时，用户必须确认投放以开始发送。
 * **[!UICONTROL 半自动]**：如果分析阶段未生成警告消息，则自动开始发送。
-
 * **[!UICONTROL 自动]**：发送在分析阶段结束时自动开始，不管分析结果如何。
 
 ## 有效性 {#validity}
@@ -253,16 +236,15 @@ ht-degree: 54%
 
 在中了解有关投放有效期的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### 镜像页面管理 {#mirror}
+### 镜像页面管理（电子邮件渠道） {#mirror}
 
-镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件的内容相同。默认情况下，如果将链接插入到电子邮件内容中，则会生成镜像页面。
+镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件的内容相同。默认情况下，如果将链接插入到电子邮件的内容中，则会生成镜像页面。
 
 除默认模式外，还提供了以下选项：
 
-* **[!UICONTROL 强制生成镜像页面]**：使用此模式可生成镜像页面，即使投放中未插入指向镜像页面的链接也是如此。
-* **[!UICONTROL 不生成镜像页面]**：使用此模式可避免生成镜像页面，即使投放中存在链接也是如此。
+* **[!UICONTROL 强制生成镜像页面]**：使用此模式可生成镜像页面，即使电子邮件中未插入指向镜像页面的链接也是如此。
+* **[!UICONTROL 不生成镜像页面]**：使用此模式可避免生成镜像页面，即使电子邮件中存在链接也是如此。
 * **[!UICONTROL 生成仅可使用消息标识符访问的镜像页面]**：如果电子邮件内容中不存在镜像页面链接，请使用此选项启用从客户端控制台在投放日志窗口中访问镜像页面内容的功能。
-
 
 ### 跟踪 {#tracking}
 
@@ -280,9 +262,8 @@ ht-degree: 54%
 
 **[!UICONTROL 跟踪]** 参数在相关部分中定义。 可能的选项为：
 
-**[!UICONTROL 跟踪有效期限制]**：使用此选项可更改在URL上激活跟踪的持续时间。
-
-**[!UICONTROL 过期URL的替换URL]**：使用此选项可输入回退网页的URL：跟踪过期后即会显示。
+* **[!UICONTROL 跟踪有效期限制]**：使用此选项可更改在URL上激活跟踪的持续时间。
+* **[!UICONTROL 过期URL的替换URL]**：使用此选项可输入回退网页的URL：跟踪过期后即会显示。
 
 ## 校样设置 {#test-setttings}
 
@@ -295,14 +276,11 @@ ht-degree: 54%
 
 您可以在此部分中设置排除参数。可用的选项为：
 
-* ****[!UICONTROL 保持双面]**** 可让您授权向满足多个定位标准的收件人进行多次投放。
-
+* **[!UICONTROL 保持双面]** 可让您授权向满足多个定位标准的收件人进行多次投放。
 * **[!UICONTROL 保留已列入阻止列表的地址]**&#x200B;可让您从目标中保留不再是投放目标的任何配置文件，例如在退订（选择退出）之后。
-
 * **[!UICONTROL 保留隔离地址]**&#x200B;可让您从目标中保留任何具有不响应地址的配置文件。
 
 您还可以自定义校样的标签：
 
 * 使用 **[!UICONTROL 保留投放代码以作验证]** 将为其相关的投放定义的投放代码与相同的投放代码关联到证明。
-
 * 默认情况下，验证的主题的前缀为“PROOF #”，其中#是验证的编号。 您可以在&#x200B;**[!UICONTROL 标签前缀]**&#x200B;字段中更改此前缀。
