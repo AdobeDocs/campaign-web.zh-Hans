@@ -3,7 +3,7 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 87%
@@ -90,7 +90,7 @@ ht-degree: 87%
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud service集成]
+>[!TAB Adobe Experience Manager as a Cloud Service集成]
 
 Adobe Campaign Web界面与Adobe Experience Manager as a Cloud Service之间的集成简化了电子邮件内容管理。 您现在可以直接在Adobe Experience Manager中创建和编辑电子邮件内容，然后将完成的模板无缝导入Adobe Campaign以进行投放。
 

@@ -1,23 +1,24 @@
 ---
 audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理资源
-description: 了解如何使用Adobe Experience Manager as a Cloud service管理内容
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+description: 了解如何使用Adobe Experience Manager as a Cloud Service管理内容
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
-# 使用管理模板 [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# 使用管理模板 [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## [!DNL Adobe Experience Manager as a Cloud service] 入门{#create-aem}
+## [!DNL Adobe Experience Manager as a Cloud Service] 入门{#create-aem}
 
 Adobe Campaign Web界面与Adobe Experience Manager的集成有助于直接在Adobe Experience Manager平台中简化电子邮件投放内容和表单的管理。
 
-![](assets/do-not-localize/book.png)[详细了解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## 在中创建模板 [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## 在中创建模板 [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. 导航到 [!DNL Adobe Experience Manager] 创作实例，然后单击页面左上角的Adobe体验。 选择 **[!UICONTROL 站点]** 菜单。
 
@@ -47,7 +48,7 @@ Adobe Campaign Web界面与Adobe Experience Manager的集成有助于直接在Ad
 
 您的新闻稿现已准备就绪，并已在Adobe Campaign中同步。
 
-## 导入Adobe Experience Manager as a Cloud service模板{#aem-templates-perso}
+## 导入Adobe Experience Manager as a Cloud Service模板{#aem-templates-perso}
 
 Experience Manager模板在Adobe Campaign Web中作为内容模板可用后，即可识别并合并电子邮件的必要内容，包括个性化。
 
