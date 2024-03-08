@@ -3,10 +3,10 @@ audience: end-user
 title: 发送校样
 description: 了解如何定义和发送验证
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 要检测消息内容或个性化设置中可能出现的错误，请先向测试用户档案发送校样，然后再将其发送给目标受众。 每次进行更改时都应发送校样，以验证最新内容。 发送校样是验证营销活动和识别潜在问题的重要步骤。 校样收件人可以检查各种元素，如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
-## 模拟面向测试收件人的内容 {#simulate-content-test-deliveries}
+## 使用测试用户档案模拟内容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

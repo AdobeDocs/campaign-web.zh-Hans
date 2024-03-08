@@ -2,10 +2,10 @@
 title: 定位维度
 description: 了解有关在Adobe Campaign Web中定位维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 11%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="选择定位维度"
->abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下从收件人中选择目标。"
+>abstract="定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和短信，会从收件人内置表中选择目标。 对于推送通知，默认目标维度是订阅者应用程序。"
 
 目标维度，也就是。 目标映射，是操作所处理的数据类型。 它可让您定义目标群体：用户档案、合同受益人、操作员、订阅者等。
 
@@ -36,12 +36,12 @@ ht-degree: 11%
 
 | 名称 | 使用至 | 架构 |
 |---|---|---|
-| 收件人 | 投放到收件人（内置收件人表） | nms：recipient |
+| 收件人 | 投放到用户档案/收件人（内置收件人表） | nms：recipient |
 | 访客 | 向通过反向链接（病毒式营销）收集用户档案的访客投放，例如。 | mns：visitor |
-| 订阅 | 发送给订阅了新闻稿等信息服务的收件人 | nms：subscription |
+| 订阅 | 发送给订阅了新闻稿等信息服务的用户档案 | nms：subscription |
 | 访客订阅 | 向订阅了信息服务的访客投放 | nms：visitorSub |
 | 运算符 | 交付给Adobe Campaign操作员 | nms：operator |
 | 外部文件 | 通过包含投放所需所有信息的文件投放 | 无链接架构，未输入目标 |
-| 订阅者申请 | 投放到订阅了应用程序的收件人 | nms：appSubscriptionRcp |
+| 订阅者申请 | 交付给订阅了应用程序的用户档案 | nms：appSubscriptionRcp |
 
-此外，您可以根据需要创建新的目标映射。 此操作从客户端控制台执行。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+此外，您可以根据需要创建新的目标映射。 此操作仅从客户端控制台执行。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

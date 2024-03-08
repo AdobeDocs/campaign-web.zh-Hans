@@ -4,10 +4,10 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 50%
+source-wordcount: '2420'
+ht-degree: 49%
 
 ---
 
@@ -70,7 +70,9 @@ ht-degree: 50%
 
 使用&#x200B;**[!UICONTROL 投放权重]**&#x200B;字段可定义投放优先级。每个投放都有一个代表其优先级的权重。默认情况下，投放权重设置为 5。压力规则可让您定义它们应用于的投放权重。可以通过公式设置或计算权重以满足收件人的需求。例如，您可以根据收件人兴趣来定义投放权重。
 
-使用&#x200B;**[!UICONTROL 投放模式]**&#x200B;字段选择目标评估模式。提供了三种模式：
+使用 **[!UICONTROL 投放模式]** 字段以选择目标评估模式。
+
+提供了三种模式：
 
 * **[!UICONTROL 目标估计和消息个性化]**
 * **[!UICONTROL 暂定目标的估算和审批]**
@@ -78,7 +80,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->疲劳管理是在Campaign客户端控制台中配置的。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}.
+>可在Campaign客户端控制台中配置疲劳管理和压力规则。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}.
 
 ### 容量设置 {#capacity-settings}
 
@@ -90,11 +92,11 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="收件人的重要性"
->abstract="收件人的重要性是一个公式，用于确定在超出容量类型规则时保留的收件人。"
+>abstract="收件人重要性是一个公式，用于确定在超出容量类型规则时保留哪些用户档案。"
 
 在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则已关联到该渠道。
 
-此 **[!UICONTROL 收件人的重要性]** 字段是一个公式，用于确定在超出容量类型规则时保留哪些收件人。
+此 **[!UICONTROL 收件人的重要性]** 字段是一个公式，用于确定在超过容量分类规则时保留哪些用户档案。
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ ht-degree: 50%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的更多信息](../audience/targeting-dimensions.md).
 
-在 **[!UICONTROL 排除项]** 字段中，您可以选择排除不再希望被联系或隔离的收件人。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+在 **[!UICONTROL 排除项]** 字段，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -276,7 +278,7 @@ ht-degree: 50%
 
 您可以在此部分中设置排除参数。可用的选项为：
 
-* **[!UICONTROL 保持双面]** 可让您授权向满足多个定位标准的收件人进行多次投放。
+* **[!UICONTROL 保持双面]** 可让您授权向满足多个定位标准的用户档案进行多次投放。
 * **[!UICONTROL 保留已列入阻止列表的地址]**&#x200B;可让您从目标中保留不再是投放目标的任何配置文件，例如在退订（选择退出）之后。
 * **[!UICONTROL 保留隔离地址]**&#x200B;可让您从目标中保留任何具有不响应地址的配置文件。
 

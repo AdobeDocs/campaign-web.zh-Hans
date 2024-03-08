@@ -3,10 +3,10 @@ audience: end-user
 title: 管理订阅者
 description: 了解如何在Adobe Campaign Web中管理服务并将其交付给订阅者
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 从服务中删除订阅者 {#remove-subscribers}
 
-### 手动取消订阅收件人 {#manual-unsubscription}
+### 手动取消订阅用户档案 {#manual-unsubscription}
 
 一旦您 [已添加订阅者](#add-subscribers) 手动取消订阅每一项服务。 请按照以下步骤操作。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 自动取消订阅收件人 {#automatic-unsubscription}
 
-订阅服务的持续时间有限。 有效期到期后，收件人会自动取消订阅。
+订阅服务的持续时间有限。 当有效期过期时，用户档案会自动取消订阅。
 
 此期限指定于 [创建服务](manage-services.md#create-service). 从 **[!UICONTROL 其他选项]**，禁用 **[!UICONTROL 有效期无限制]** 选项并定义服务的有效期。
 

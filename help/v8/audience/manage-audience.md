@@ -3,10 +3,10 @@ audience: end-user
 title: 监测和管理受众
 description: 了解如何在Adobe Campaign Web中监控和管理受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ## 什么是受众？ {#what}
 
-受众是投放的主要目标：接收邮件的收件人。受众类型取决于投放模板中定义的目标映射。要了解有关投放模板的更多信息，请参阅 [此页面](../msg/delivery-template.md).
+受众是投放的主要目标：接收消息的用户档案。 受众类型取决于投放模板中定义的目标映射。要了解有关投放模板的更多信息，请参阅 [此页面](../msg/delivery-template.md).
 
 要定义受众群体，您可以：
 

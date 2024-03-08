@@ -3,7 +3,7 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 34%
@@ -70,7 +70,7 @@ ht-degree: 34%
 1. 默认情况下，订阅无限制。
 
    您可以禁用 **[!UICONTROL 有效期无限制]** 用于定义服务的有效期的选项。 有效期结束后：
-   * 没有收件人可以再订阅此服务
+   * 任何用户档案都不能再订阅此服务
    * 此服务的所有订阅者都会自动取消订阅
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ ht-degree: 34%
 
 您现在可以：
 
-* 将订阅者添加到此服务，并取消订阅收件人。 [了解详情](../msg/send-to-subscribers.md)
+* 将订阅者添加到此服务，并取消订阅用户档案。 [了解详情](../msg/send-to-subscribers.md)
 
 * 向此服务的订阅者发送消息。 [了解如何操作](../msg/send-to-subscribers.md)
 

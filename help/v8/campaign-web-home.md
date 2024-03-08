@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Campaign Web界面与Adobe Experience Manager as a Cloud Service之间的�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的收件人信息来自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
+    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的有关用户档案的信息自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">

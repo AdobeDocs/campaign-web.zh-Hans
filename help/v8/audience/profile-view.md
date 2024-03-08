@@ -1,10 +1,11 @@
 ---
 title: 浏览配置文件的详细信息
 description: 了解如何浏览用户档案的详细信息。
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 12%
 
 ---
 
@@ -12,7 +13,7 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="收件人订阅列表"
+>title="订阅列表"
 >abstract="此选项卡列出了配置文件订阅的所有服务。"
 
 要访问配置文件的详细信息，请浏览 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 然后单击要访问的配置文件。

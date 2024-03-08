@@ -3,10 +3,10 @@ audience: end-user
 title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 57%
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **查看结果**：显示按受众定位的收件人的列表。
+* **查看结果：** 显示受众定向的用户档案列表。
 * **代码视图**：在 SQL 中显示基于代码的受众版本。
 * **显示高级属性**：如果您要在左侧面板中查看完整属性列表，请选中此选项：节点、分组、1-1 链接、1-N 链接。
 * **计算**：更新并显示查询所定向的用户档案数。

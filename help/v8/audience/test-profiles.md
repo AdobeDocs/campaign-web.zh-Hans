@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="创建测试配置文件"
->abstract="测试配置文件被创建为种子地址。他们是数据库中的附加收件人，用于定位与定义的目标标准不匹配的虚构配置文件。"
+>abstract="测试用户档案是额外的收件人，用于在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试用户档案，并向测试用户档案发送校样，以控制和验证消息内容和设置。"
 
-测试配置文件被创建为种子地址。它们是数据库中的附加收件人，用于定位不符合所定义的目标标准的虚拟用户档案。 它们允许您在发送投放之前通过发送校样来预览和测试个性化和呈现。
+测试用户档案用于发送校样，并验证消息内容和设置。 这些用户档案是额外的收件人，允许您在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试用户档案，并向测试用户档案发送校样，以控制和验证消息内容和设置。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-有关向种子地址发送校样的详细步骤，请参见 [本节](../preview-test/test-deliveries.md#test-profiles).
+有关将验证发送到测试用户档案的详细步骤，请参见 [本节](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->测试用户档案会自动从有关以下投放统计的报告中排除： **[!UICONTROL 点击次数]**， **[!UICONTROL 打开次数]**， **[!UICONTROL 取消订阅]**. [了解有关报告的更多信息]
+>* 测试用户档案在客户端控制台中创建为种子地址。
+>
+>* 测试用户档案会自动从有关以下投放统计的报告中排除： **[!UICONTROL 点击次数]**， **[!UICONTROL 打开次数]**， **[!UICONTROL 取消订阅]**.
 
 ## 访问和管理测试用户档案 {#access-test-profiles}
 
@@ -62,7 +64,7 @@ ht-degree: 16%
 >title="测试配置文件附加数据"
 >abstract="输入用于在数据管理工作流中创建的投放的个性化数据，以及要为其分配特定值的数据。"
 
-要创建测试用户档案，请执行以下步骤。
+要创建测试用户档案，请执行以下步骤：
 
 1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 并选择 **[!UICONTROL 测试用户档案]** 选项卡。
 

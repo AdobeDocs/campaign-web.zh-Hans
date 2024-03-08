@@ -3,10 +3,10 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在Campaign Web用户界面中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 36%
 
 ### 对照组样本{#control-group-sample}
 
-例如，要创建包含100个新最年轻的收件人的控制组，请执行以下步骤：
+例如，要创建具有100个最新用户档案的控制组，请执行以下步骤：
 
 1. 选择 **年龄** 字段作为排序条件。 离开 **升序** 排序选项。
 1. 添加 **创建日期** 字段。 更改为 **降序** 排序选项。
@@ -70,7 +70,7 @@ ht-degree: 36%
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-随后，这100名最年轻的收件人被排除在主要目标之外。
+然后，这100个新的最新用户档案将从主目标中排除。
 
 ### 检查您的对照组 {#check-control-group}
 

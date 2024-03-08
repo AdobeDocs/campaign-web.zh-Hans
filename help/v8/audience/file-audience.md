@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 以文件中的收件人为目标
-description: 了解如何使用外部文件中的收件人生成电子邮件受众
+title: 从文件加载电子邮件受众
+description: 了解如何从外部文件加载用户档案以构建电子邮件受众
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '622'
+ht-degree: 40%
 
 ---
 
@@ -102,7 +102,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
    >
    >确保文件格式与用于上传受众的文件格式匹配。 任何格式错误都会显示警报。
 
-1. 添加验证收件人并准备好发送验证时，单击 **[!UICONTROL 发送验证]** 按钮并确认发送。
+1. 添加验证配置文件并准备好发送验证时，单击 **[!UICONTROL 发送验证]** 按钮并确认发送。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

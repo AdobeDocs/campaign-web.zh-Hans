@@ -3,16 +3,16 @@ audience: end-user
 title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
 # 生成一次性受众 {#one-time}
 
-本节介绍如何在创建新投放时构建受众。 在本例中，使用查询建模器查询数据库来定位投放受众中要包含的收件人。
+本节介绍如何在创建新投放时构建受众。 在这种情况下，可通过查询建模器查询数据库，定向投放受众中要包含的用户档案。
 
 生成的受众仅用于此投放一次。 它不会保存在受众列表中。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 54%
@@ -62,6 +62,6 @@ ht-degree: 54%
 
 ## 示例{#deduplication-example}
 
-在以下示例中，使用重复数据删除活动，在发送投放之前从目标中排除重复项。 识别的重复收件人将添加到专用受众，必要时可以重复使用。 选择 **电子邮件** 用于标识重复项的地址。 保留1个条目并选择 **Random** 删除重复项方法。
+在以下示例中，使用重复数据删除活动，在发送投放之前从目标中排除重复项。 识别的重复用户档案将添加到专用受众，如有必要，可以重复使用。 选择 **电子邮件** 用于标识重复项的地址。 保留1个条目并选择 **Random** 删除重复项方法。
 
 ![](../assets/workflow-deduplication-example.png)

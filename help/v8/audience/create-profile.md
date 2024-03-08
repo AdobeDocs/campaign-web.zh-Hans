@@ -2,10 +2,10 @@
 title: 创建配置文件
 description: 了解如何在Campaign Web中创建用户档案。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 47%
+source-wordcount: '568'
+ht-degree: 48%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="收件人不再联系"
+>title="不再联系"
 >abstract="本节深入介绍配置文件的联系偏好设置。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
