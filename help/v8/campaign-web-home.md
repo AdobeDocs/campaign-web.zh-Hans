@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="第 4 项"
 >abstract="新一代查询建模器和电子邮件设计器"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="帮助和文档"
->abstract="Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="体验新 Adobe Campaign 用户界面"
->abstract="更加现代、直观和动感。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="第 1 项"
->abstract="新的电子邮件、短信和推送通知设计体验"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="第 2 项"
->abstract="简化了工作流画布界面"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="第 3 项"
->abstract="重新设想了受众、订阅和服务、AEM Assets 的用户体验"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="第 4 项"
->abstract="电子邮件生成式 AI：基于提示的电子邮件生成"
-
-<!--TO REMOVE ABOVE-->
 
 我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 

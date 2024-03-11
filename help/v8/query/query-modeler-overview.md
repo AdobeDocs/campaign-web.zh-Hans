@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 30%
+source-wordcount: '500'
+ht-degree: 25%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 30%
 >id="acw_homepage_learning_card5"
 >title="新的查询建模器"
 >abstract="Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的过程以根据各种条件选择特定目标。其中包括使用高级表达式和运算符。在每个需要定义规则以过滤数据的环境下都有查询建模器可用。"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="新的查询建模器"
->abstract="Adobe Campaign Web 具有一个查询建模器，它可简化过滤数据库的过程以根据各种条件选择特定目标。其中包括使用高级表达式和运算符。在每个需要定义规则以过滤数据的环境下都有查询建模器可用。"
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

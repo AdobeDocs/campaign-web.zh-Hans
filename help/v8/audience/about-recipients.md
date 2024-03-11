@@ -2,10 +2,10 @@
 title: 开始使用配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 26%
+source-wordcount: '497'
+ht-degree: 20%
 
 ---
 
@@ -16,15 +16,6 @@ ht-degree: 26%
 >title="全面查看配置文件"
 >abstract="创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
->title="全面查看配置文件"
->abstract="创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

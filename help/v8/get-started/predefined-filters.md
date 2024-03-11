@@ -2,9 +2,9 @@
 title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '816'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card4"
 >title="预定义过滤器管理"
 >abstract="Campaign Web 用户界面对用户十分友好，可让您轻松管理和自定义预定义过滤器，从而满足您的特定需求。创建一次并保存以供将来使用。"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="预定义过滤器管理"
->abstract="Campaign Web 现在提供一个方便用户使用的界面，以供轻松地管理和自定义预定义过滤器以满足您的特定需求。创建一次并保存以供将来使用。"
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]
