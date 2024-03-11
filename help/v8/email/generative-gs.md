@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
+source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate"
+>id="acw_emagica_generate_test"
 >title="Adobe 生成式 AI 术语"
 >abstract="对此功能的访问取决于您对Adobe Experience Cloud创作AI用户指南的同意。 您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文关联，该上下文可以包括您的品牌推广材料、网站内容、数据、此类数据的架构、模板或其他受信任的文档"
 
