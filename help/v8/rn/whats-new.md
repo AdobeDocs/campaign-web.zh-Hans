@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->此版本对以下开始的所有用户都可用： [Campaign v8.6发布](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans). 请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}以详细了解 Adobe Campaign 版本。
+>此版本适用于所有 [Campaign v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hans){target="_blank"}以详细了解 Adobe Campaign 版本。
 
 
 ## 关键功能 {#key-features}
@@ -81,18 +81,18 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 
 
-**全新和重新设计的活动工作流活动**
+**重新设计的全新营销活动工作流活动**
 
-通过我们&#x200B;**多种多样的工作流活动**&#x200B;促进您的市场营销活动。发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们额外的工作流活动使您能够发送有针对性的消息并提高促销活动效果。 可在[此部分](../workflows/gs-workflows.md)中了解详情。
+通过我们&#x200B;**多种多样的工作流活动**&#x200B;促进您的市场营销活动。发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。可在[此部分](../workflows/gs-workflows.md)中了解详情。
 
 
 **使用查询建模器定位受众**
 
-Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器**，它可简化过滤数据库以根据各种条件选择特定目标的过程。其中包括使用高级表达式和运算符。在每个需要定义规则以筛选数据的上下文中，都可以使用查询建模器。 可在[此部分](../query/query-modeler-overview.md)中了解详情。
+Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器**，它可简化过滤数据库以根据各种条件选择特定目标的过程。其中包括使用高级表达式和运算符。在每个需要定义规则以过滤数据的环境下都有查询建模器可用。可在[此部分](../query/query-modeler-overview.md)中了解详情。
 
 **轻松创建和管理配置文件**
 
-可使用新的 Campaign Web 用户界面直接从“收件人”菜单在数据库中&#x200B;**创建和更新收件人**。简化的用户档案编辑表单允许您输入收件人的联系信息和属性，并更新现有收件人，而无需使用到客户端控制台。 可在[此部分](../audience/about-recipients.md)中了解详情。
+可使用新的 Campaign Web 用户界面直接从“收件人”菜单在数据库中&#x200B;**创建和更新收件人**。通过一个经过简化的配置文件编辑表单，无需使用客户端控制台，即可输入收件人的联系信息和属性以及更新现有收件人。可在[此部分](../audience/about-recipients.md)中了解详情。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -111,15 +111,15 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 **受 AI 助力的上下文帮助**
 
-直接从产品用户界面提问并寻求指导。新的&#x200B;**受 AI 助力的上下文帮助**&#x200B;可帮助您学习和提升有关新 Campaign 功能的专业知识。根据最新的产品文档，在您构建用例时，它帮助您立即寻求帮助并获得分步指导。此功能目前在Beta版中面向有限的用户提供。 可在[此部分](../get-started/using-ai.md)中了解详情。
+直接从产品用户界面提问并寻求指导。新的&#x200B;**受 AI 助力的上下文帮助**&#x200B;可帮助您学习和提升有关新 Campaign 功能的专业知识。根据最新的产品文档，在您构建用例时，它帮助您立即寻求帮助并获得分步指导。此功能当前处于 Beta 阶段，仅对少数用户开放。可在[此部分](../get-started/using-ai.md)中了解详情。
 
 **预定义过滤器**
 
-介绍预定义过滤器管理。Campaign Web 用户界面对用户十分友好，可让您轻松&#x200B;**管理和自定义预定义过滤器**，从而满足您的特定需求。创建一次并保存以供将来使用。 可在[此部分](../get-started/predefined-filters.md)中了解详情。
+介绍预定义过滤器管理。Campaign Web 用户界面对用户十分友好，可让您轻松&#x200B;**管理和自定义预定义过滤器**，从而满足您的特定需求。创建一次并保存，以供将来使用。可在[此部分](../get-started/predefined-filters.md)中了解详情。
 
 **用于电子邮件设计的 HTML 转换器**
 
-您现在可以在 Campaign 的电子邮件编辑器中&#x200B;**导入并转换任何 HTML 内容**。内容块是自动标识的，并且可在Email Designer中使用：利用其强大的设计功能对其进行更新和个性化！ 可在[此部分](../email/existing-content.md)中了解详情。
+您现在可以在 Campaign 的电子邮件编辑器中&#x200B;**导入并转换任何 HTML 内容**。自动识别内容块，并可在电子邮件设计器中找到内容块：借助它强大的设计功能更新它和使它个性化！可在[此部分](../email/existing-content.md)中了解详情。
 
 
 **包含优惠的短信**
@@ -134,9 +134,9 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
 此外，可在 Campaign Web 用户界面（从探索工具的左侧导航中）中查看客户端控制台中可用的所有数据和设置。在[此部分](../get-started/user-interface.md#user-interface-explorer)中详细了解探索工具视图。
 
-使用 Campaign Web 用户界面时，用户界面将反映用户的权限。要了解有关权限的更多信息，请参阅 [此页面](../get-started/permissions.md).
+使用 Campaign Web 用户界面时，用户界面将反映用户的权限。可在[此页面](../get-started/permissions.md)中详细了解权限。
 
-Campaign Web用户界面和Campaign客户端控制台之间受支持和不受支持的功能以及互操作性 [本页内容](../get-started/capability-matrix.md).
+要了解 Campaign Web 用户界面和 Campaign 客户端控制台支持/不支持的功能以及两者之间的互操作性，请参阅[此页面](../get-started/capability-matrix.md)。
 
 ## 术语更新 {#terminology-updates}
 
@@ -158,6 +158,6 @@ Campaign Web用户界面和Campaign客户端控制台之间受支持和不受支
 * 投放仪表板 KPI 每 5 分钟更新一次。- 但投放准备是实时的。
 * 顶栏中可用的 Adobe Experience Cloud 通知和统一帮助尚未集成。
 
-在Campaign Web用户界面中使用在Campaign客户端控制台中创建或修改的工作流时，适用特定护栏和限制。 它们会列出 [在此部分中](../get-started/guardrails.md).
+在 Campaign Web 用户界面中使用在 Campaign 客户端控制台中创建或修改的工作流时，将适用特定的护栏和限制。详见[此部分](../get-started/guardrails.md)。
 
-详细了解Campaign Web用户界面和Campaign客户端控制台之间支持/不支持的功能以及互操作性 [本页内容](../get-started/capability-matrix.md).
+要详细了解 Campaign Web 用户界面和 Campaign 客户端控制台支持/不支持的功能以及两者之间的互操作性，请参阅[此页面](../get-started/capability-matrix.md)。
