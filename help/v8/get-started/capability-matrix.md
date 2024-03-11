@@ -4,9 +4,9 @@ title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 
 ## 数据建模和数据摄取 {#data-capabilities}
 
-Campaign Web 用户界面不会显示以下功能。它们仅在客户端控制台中可用：
+Campaign Web 用户界面不会显示以下功能。这些仅在客户端控制台中可用：
 
 ### 外部帐户 {#external}
 
@@ -164,11 +164,11 @@ Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接�
 
 ### 工作流数据管理功能 {#data}
 
-数据管理通过提供更高效和灵活的工具(如数据加载、提取（文件）、更新数据、编辑架构或导入/导出技术工作流)来结合一系列活动，以解决复杂的定位问题。 [在客户端控制台中探索工作流数据管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hans#data-management){target="_blank"}
+数据管理通过提供更高效灵活的工具（如数据加载、提取文件、更新数据、编辑架构或导入/导出技术工作流），来结合一系列活动，以解决复杂的定位问题。 [了解客户端控制台中的工作流数据管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hans#data-management){target="_blank"}
 
 >[!NOTE]
 >
->虽然其中的某些活动仅在客户端控制台中可用，但某些活动在Campaign Web用户界面中可用，例如 **扩充**， **加载文件** 或 **更改维度** 活动。 [在Campaign Web用户界面中了解关于定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
+>虽然其中的某些活动仅在客户端控制台中可用，但在 Campaign Web 用户界面中也可进行部分活动，例如 **扩充**、**加载文件**&#x200B;或&#x200B;**更改维度**&#x200B;活动。[了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
 
 ### 联合数据访问配置 {#fda}
 

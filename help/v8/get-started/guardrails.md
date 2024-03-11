@@ -1,11 +1,11 @@
 ---
-title: Campaign Web用户界面工作流的护栏和限制
-description: 在Campaign Web用户界面中使用工作流时的护栏和限制
+title: Campaign Web 用户界面工作流中的护栏和限制
+description: 在 Campaign Web 用户界面中使用工作流时的护栏和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
->title="无法编辑活动"
+>title="活动不可编辑"
 >abstract="如果&#x200B;**查询**&#x200B;或&#x200B;**扩充**&#x200B;活动是在控制台中使用附加数据配置的，则会在 Campaign Web 中考虑扩充数据并将其传递到出站过渡中，但无法对其进行编辑。"
 
 Campaign Web 用户界面中尚不支持的工作流活动为只读活动，并显示为不兼容的活动。仍可执行工作流、发送消息、检查日志等。可编辑在 Campaign Web 用户界面和客户端控制台中都能找到的工作流活动。
