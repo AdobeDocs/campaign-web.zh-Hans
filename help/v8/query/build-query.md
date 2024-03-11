@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2053'
 ht-degree: 8%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="自定义条件"
->abstract="自定义条件"
+>abstract="自定义条件正在筛选组件，利用这些组件，可使用数据库和高级表达式中的属性构建自己的条件，从而筛选查询。"
 
 要使用自定义条件筛选查询，请执行以下步骤：
 
