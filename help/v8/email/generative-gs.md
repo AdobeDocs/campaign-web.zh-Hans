@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
+source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 22%
@@ -14,14 +14,6 @@ ht-degree: 22%
 ---
 
 # 内容助手快速入门 {#generative-gs}
-
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate_test_test"
->title="Adobe 生成式 AI 术语"
->abstract="对此功能的访问取决于您对Adobe Experience Cloud创作AI用户指南的同意。 您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文绑定，该上下文可以包括您的品牌推广材料、网站内容、数据、此类数据的架构、模板或其他受信任文档，并且不得包含任何个人信息（个人信息包括可以链接回特定个人的任何内容）。 您应该检查此功能的任何输出是否准确，并确保它适合您的用例"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe生成AI用户指南"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,6 +25,14 @@ ht-degree: 22%
 >id="acw_generation_context"
 >title="定义内容生成的上下文"
 >abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generate_emagica"
+>title="Adobe 生成式 AI 术语"
+>abstract="对此功能的访问取决于您对Adobe Experience Cloud创作AI用户指南的同意。 您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文绑定，该上下文可以包括您的品牌推广材料、网站内容、数据、此类数据的架构、模板或其他受信任文档，并且不得包含任何个人信息（个人信息包括可以链接回特定个人的任何内容）。 您应该检查此功能的任何输出是否准确，并确保它适合您的用例"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe生成AI用户指南"
+
 
 内容助手由创作AI提供支持，是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
 
