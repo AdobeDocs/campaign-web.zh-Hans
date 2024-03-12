@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="在同一个表中生成所有子集"
->abstract="打开此选项可将所有子集分组到一个输出转换中。"
+>abstract="切换该选项可将所有子集组合到单个输出过渡中。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 

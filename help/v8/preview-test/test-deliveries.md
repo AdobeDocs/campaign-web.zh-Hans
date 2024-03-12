@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="将测试配置文件包含在主要受众中"
->abstract="启用此选项还可向验证收件人发送最终消息。"
+>abstract="启用此选项还可将最终消息发送给验证收件人。"
 
 测试用户档案是数据库中的其他收件人。 它们是从 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
