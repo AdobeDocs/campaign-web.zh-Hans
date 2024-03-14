@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 22%
+ht-degree: 41%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Adobe 生成式 AI 术语"
->abstract="对此功能的访问取决于您对Adobe Experience Cloud创作AI用户指南的同意。 您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文绑定，该上下文可以包括您的品牌推广材料、网站内容、数据、此类数据的架构、模板或其他受信任文档，并且不得包含任何个人信息（个人信息包括可以链接回特定个人的任何内容）。 您应该检查此功能的任何输出是否准确，并确保它适合您的用例"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe生成AI用户指南"
+>title="Adobe 生成式 AI 条款"
+>abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
+>additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 
 内容助手由创作AI提供支持，是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
