@@ -3,10 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 69%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 69%
 >abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义模板的版面。"
 
 使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过使用简单的拖放操作来添加和移动结构元素，可以在几秒钟内设计出电子邮件正文。
+
+➡️ [在视频中发现此功能](#video)
 
 要开始构建电子邮件内容，请执行以下步骤。
 
@@ -105,3 +107,8 @@ ht-degree: 69%
 
 1. 在电子邮件就绪后，单击&#x200B;**[!UICONTROL 保存]**。
 
+## 操作说明视频 {#video}
+
+了解如何在电子邮件设计器中导航。了解如何从头开始构建和设计电子邮件，如何个性化和测试电子邮件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

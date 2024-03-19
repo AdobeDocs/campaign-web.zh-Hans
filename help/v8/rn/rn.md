@@ -5,8 +5,8 @@ description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 98%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,10 @@ ht-degree: 98%
 
 我们隆重推出 **Adobe Campaign Web 用户界面**&#x200B;的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。Campaign Web 用户界面 (UI) 通过 Adobe Experience Platform 提供关联的画布，可实现统一的体验。
 
-中列出了更改、新功能和改进 [每月发行说明](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>此版本适用于所有 [Campaign v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hans){target="_blank"}以详细了解 Adobe Campaign 版本。
 
 
 ## 关键功能 {#key-features}

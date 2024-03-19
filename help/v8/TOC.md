@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Adobe Campaign Web 文档 {#v8}
 
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
-+ [新增功能](rn/whats-new.md)
-+ [文档更新](rn/documentation-updates.md)
++ 发行说明 {#release-notes}
+   + [新增功能](rn/whats-new.md)
+   + [最新版本](rn/release-notes.md)
+   + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [创建短信投放](sms/create-sms.md)
       + [设计短信投放](sms/content-sms.md)
       + [预览并发送短信投放](sms/send-sms.md)
+   + 直邮{#direct-mail}
+      + [直邮投放入门](direct-mail/gs-direct-mail.md)
+      + [创建直邮投放](direct-mail/create-direct-mail.md)
+      + [设计提取文件](direct-mail/content-direct-mail.md)
+      + [预览和发送直邮投放](direct-mail/send-direct-mail.md)
    + 将内容设置为动态内容 {#dynamic-content}
       + [动态内容入门](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [关于工作流活动](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
       + [生成受众](workflows/activities/build-audience.md)
+      + [更改数据源](workflows/activities/change-data-source.md)
       + [更改维度](workflows/activities/change-dimension.md)
       + [合并](workflows/activities/combine.md)
       + [重复数据删除](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
+      + [直邮投放报告](reporting/direct-mail.md)
    + 营销活动报告 {#campaign-report}
       + [营销活动报告入门](reporting/campaign-reports.md)
       + [电子邮件营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)
+      + [直邮营销活动报告](reporting/campaign-reports-direct-mail.md)
    + 全局报告 {#global-report}
       + [全局报告入门](reporting/global-reports.md)
       + [电子邮件全局报告](reporting/global-report-email.md)
       + [推送全局报告](reporting/global-report-push.md)
       + [短信全局报告](reporting/global-report-sms.md)
+      + [直邮全局报告](reporting/global-report-direct.md)
 + 集成 {#integrations}
    + [与其他Adobe解决方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)

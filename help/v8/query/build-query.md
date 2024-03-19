@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2088'
 ht-degree: 9%
 
 ---
@@ -16,15 +16,17 @@ ht-degree: 9%
 
 可添加两种类型的元素：
 
-* **筛选组件** （自定义条件、选择受众、预定义过滤器）允许您构建自己的规则，选择受众或预定义过滤器以细化查询。 [了解如何使用筛选组件](#filtering)
+* **筛选组件** （自定义条件、选择受众、预定义过滤器）允许您构建自己的规则，选择受众或预定义过滤器以细化查询。 它们会添加到查询的开头和点状过渡中。 [了解如何使用筛选组件](#filtering)
 
-  *订阅“体育”新闻稿的收件人*. *居住在纽约的收件人*， *居住在旧金山的收件人*
+  示例： *订阅“体育”新闻稿的收件人*. *居住在纽约的收件人*， *居住在旧金山的收件人*
 
-* **组操作员** (AND、OR、EXCEPT)允许您根据自己的需要，将图中的过滤组件组合在一起。 [了解如何使用操作员](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
+* **组操作员** (AND、OR、EXCEPT)允许您将图中的过滤组件组合在一起。 它们会添加到现有过渡中，然后是筛选组件。 [了解如何使用操作员](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  示例： *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## 添加筛选组件 {#filtering}
 
@@ -51,7 +53,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >使用编辑表达式按钮，您可以利用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](expression-editor.md)
+   >此 **编辑表达式** 按钮允许您利用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](expression-editor.md)
 
 1. 从下拉列表中选择要应用的运算符。 可以使用各种运算符。 请注意，下拉列表中可用的运算符取决于属性的数据类型。
 
@@ -83,6 +85,10 @@ ht-degree: 9%
    *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   对于日期类型属性，可以使用预定义的值 **[!UICONTROL 预设]** 选项。
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
@@ -211,7 +217,7 @@ ht-degree: 9%
 
 每次将新的筛选组件添加到查询时，它都会通过 **和** 运算符。 这意味着来自两个过滤组件的结果将组合在一起。
 
-在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件链接到带“ ”的预定义过滤器类型条件 **和** 运算符，这意味着查询结果包含受“Madridians”预定义过滤器定位的且属于“Discount hunter”受众的收件人。
+在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件通过以下方式链接到预定义过滤器条件： **和** 运算符，这意味着查询结果包含受“Madridians”预定义过滤器定向的且属于“Discount hunter”受众的收件人。
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 全局报告入门
 description: 了解全局报告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 32%
 * [通过电子邮件发送全局报告](global-report-email.md)
 * [短信全局报告](global-report-sms.md)
 * [推送全局报告](global-report-push.md)
+* [直邮全局报告](global-report-direct.md)
 
 ## 管理您的报表仪表板 {#manage-reports}
 

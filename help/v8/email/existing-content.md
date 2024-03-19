@@ -3,10 +3,10 @@ audience: end-user
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 47%
+source-wordcount: '278'
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 47%
   >
   >具体的 .zip 文件结构没有任何限制。但是，引用必须是相对的，并且适合.zip文件夹的树结构。
 
-要导入包含 HTML 内容的文件，请执行以下步骤：
+➡️ [在视频中发现此功能](#video)
+
+要导入包含HTML内容的文件，请执行以下步骤。
 
 1. 在 [电子邮件设计工具](get-started-email-designer.md) 主页，选择 **[!UICONTROL 导入HTML]**.
 
@@ -50,3 +52,8 @@ ht-degree: 47%
 
 1. 现在，您可以根据需要使用Email Designer功能个性化导入的文件 [了解详情](content-components.md).
 
+## 操作说明视频 {#video}
+
+了解如何通过上传HTML创建电子邮件、如何使其与Email Designer兼容以及如何将其转换为模板。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

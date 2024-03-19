@@ -3,10 +3,10 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 43%
+source-wordcount: '860'
+ht-degree: 40%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于删除重复项的协调字段。您可以使用一个或多个协调标准。"
+>abstract="选择要用于重复数据删除的协调规则。 要使用属性，请选择 **简单属性** 选项并选择源字段和目标字段。 要使用查询建模器创建自己的协调条件，请选择 **高级协调条件** 选项。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ ht-degree: 43%
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. 要使用其他属性协调数据，请选择 **高级协调条件** 选项。 然后，您可以使用查询建模器创建自己的协调条件。 了解如何在中使用查询建模器 [本节](../../query/query-modeler-overview.md).
+   1. 要使用其他属性协调数据，请选择 **高级协调条件** 选项。 然后，您可以使用查询建模器创建自己的协调条件。 [了解如何使用查询建模器](../../query/query-modeler-overview.md).
 
-1. 您可以使用来筛选要协调的数据 **创建过滤器** 按钮。 这让您能够使用创建自定义条件 [查询建模器](../../query/query-modeler-overview.md).
+1. 您可以使用来筛选要协调的数据 **创建过滤器** 按钮。 这使您可以使用查询建模器创建自定义条件。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
 默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。
 

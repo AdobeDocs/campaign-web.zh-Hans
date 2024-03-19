@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 4%
 * **暂停/恢复** 活动。 执行工作流时，它会在暂停的活动中暂停。 相应的任务以及在同一路径中跟随该任务的所有任务都不会执行。
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+多个 **定位** 活动，例如 **合并** 或 **删除重复项**，即可处理剩余群体，并将其包含到其他叫客过渡中。 例如，如果您使用 **Split** 在活动中，补充包含与之前定义的任何子集都不匹配的群体。 要使用此功能，请激活 **生成补码** 选项。
+
+![](assets/workflow-split-complement.png)
 
 ## 示例 {#example}
 

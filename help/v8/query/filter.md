@@ -3,7 +3,7 @@ audience: end-user
 title: 过滤器列表
 description: 了解如何使用内置和自定义筛选器来筛选Adobe Campaign Web列表。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -31,6 +31,7 @@ Adobe Campaign Web在每个对象列表中提供过滤器，使您能够根据�
 自定义筛选条件允许您根据自己的特定条件优化列表。 它们使用Campaign查询建模器设计。 要创建自定义过滤器，请执行以下步骤：
 
 1. 打开筛选器窗格，然后单击 **添加规则** 位于窗格底部的按钮。
+
 1. 此时将打开查询建模器。 根据需要，定义并组合过滤器标准。 有关如何使用查询建模器的详细信息，请参阅 [本节](../query/query-modeler-overview.md).
 
    以下示例显示了一个自定义过滤器，该过滤器设计为在营销活动列表中显示由运行部门或瑜伽部门的操作员运行的短信营销活动。

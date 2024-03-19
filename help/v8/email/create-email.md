@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 57%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 57%
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
 基于预定义的 [设计模板](../email/create-email-templates.md)中，该电子邮件还根据客户配置文件属性提供了个性化内容。
+
+➡️ [在视频中发现此功能](#video)
 
 ## 创建电子邮件投放 {#create-email}
 
@@ -211,3 +213,9 @@ ht-degree: 57%
 1. 发送电子邮件后，可以通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮来访问专用报告以进行深入分析。
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## 操作说明视频 {#video}
+
+了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送验证。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

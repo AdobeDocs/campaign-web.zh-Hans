@@ -2,10 +2,10 @@
 title: 开始使用配置文件
 description: 了解如何在Campaign Web中监控和管理用户档案。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 20%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 20%
 >id="acw_homepage_welcome_rn4"
 >title="全面查看配置文件"
 >abstract="创建新的配置文件，并通过强大的报告和工具对其进行监测。访问配置文件的属性、交互和日志。使用过滤选项浏览配置文件列表、编辑和更新其配置文件。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
+
+<!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -48,7 +49,7 @@ A **个人资料**&#x200B;在客户端控制台中又称为“收件人”，表
 
 要删除配置文件，请从 **[!UICONTROL 更多操作]** 菜单。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何使用Campaign Web用户界面访问、管理和浏览用户档案。
 

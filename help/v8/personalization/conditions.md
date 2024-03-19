@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 6%
+source-wordcount: '947'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 条件内容入门 {#gs}
 
-条件内容是一项强大的功能，允许您根据收件人的配置文件创建动态个性化，在满足某些条件时自动替换文本块和图像。 此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。
+条件内容是一项强大的功能，它允许您根据收件人的配置文件数据创建动态个性化，并在满足某些条件时自动替换文本块和图像。 此功能可进一步提升您的营销活动，并为您的受众提供具有高度针对性的个性化体验。
 
 通过配置条件内容字段，您可以根据收件人的用户档案创建高级动态个性化。 当满足特定条件时，在消息内容中替换文本块、链接、主题行和/或图像。 例如，您可以根据Adobe Campaign数据库中“性别”字段的值显示“先生”或“夫人”，或根据收件人的首选语言包含其他链接。
 
@@ -100,13 +100,9 @@ ht-degree: 6%
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. 此时会显示规则生成器。 它提供 **个人资料**， **消息**、和 **投放** 可用于创建条件的属性。
+1. 此时将打开查询建模器。 它允许您通过筛选收件人的配置文件数据来构建条件。 [了解如何使用查询建模器](../query/query-modeler-overview.md).
 
-   此外， **条件** 菜单提供了预建条件，您可以将这些条件添加到画布以轻松构建变体。 要使用它们，请单击 **添加** 按钮替换以下元素之间的元素 `<` 和 `>`符号。 确保您为 `<value>` 对象在引号中。
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. 消息第一个变体的条件就绪后，单击 **[!UICONTROL 确认]**. 在本例中，我们将创建一项规则，以语言为“法语”的收件人为目标。
+   消息第一个变体的条件就绪后，单击 **[!UICONTROL 确认]**. 在本例中，我们将创建一项规则，以语言为“法语”的收件人为目标。
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

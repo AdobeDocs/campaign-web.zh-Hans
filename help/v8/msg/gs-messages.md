@@ -3,10 +3,10 @@ audience: end-user
 title: 在 Adobe Campaign Web 中开始使用消息和投放
 description: 了解如何使用 Campaign Web 处理投放和发送消息
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 设计消息后通过投放发送这些消息，并可为每个收件人个性化这些消息。在市场营销活动的语境下，这些投放可独立，也在工作流中包括这些投放。可在[此部分](gs-deliveries.md)中了解如何在 Adobe Campaign 中创建和管理投放。
 
-Adobe Campaign v8 附带以下投放渠道：电子邮件、短信和推送通知。尚不支持其他渠道，例如应用程序内消息传递、直邮或通过 X (Twitter) 进行的社交媒体营销。
+Adobe Campaign v8附带以下投放渠道：电子邮件、短信、推送通知和直邮。 尚不支持其他渠道，例如应用程序内消息传送或带有X(Twitter)的社交营销。
 
 浏览以下部分以了解如何创建和发送消息。
 

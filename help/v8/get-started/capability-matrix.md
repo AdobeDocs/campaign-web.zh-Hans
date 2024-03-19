@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。此界面主要
 
 ## 通信渠道 {#channels-capabilities}
 
-借助 Campaign Web 用户界面，可创建、设计和发送&#x200B;**电子邮件**、**短信**&#x200B;和&#x200B;**推送通知**，并使用各种专门设计的报告衡量其影响，如[本节](../msg/gs-messages.md)中所详述。但是，以下渠道目前&#x200B;**不**&#x200B;可用：应用程序内、直邮、LINE、呼叫中心/自定义渠道、通过 X (Twitter) 进行的社交媒体营销。
+借助Campaign Web用户界面，您可以创建、设计和发送 **电子邮件**， **短信**， **推送通知**， **直邮** 并使用各种专门报告衡量其影响，如详细文件 [在此部分中](../msg/gs-messages.md). 但是，以下渠道当前正在 **非** 可用：应用程序内、LINE、呼叫中心/自定义渠道、带有X的社交营销(Twitter)。
 
 使用提供的链接浏览 Campaign v8（客户端控制台）文档，并了解有关这些渠道的更多信息。
 
-* **直邮**。通过直邮渠道，可向顾客、客户、供应商或其他人发送实体信件，如通知、发票、对帐单、营销优惠等。此渠道仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=zh-Hans){target="_blank"}
 * **LINE 消息传递**。LINE 是一款免费即时消息、语音和视频通话应用程序，可在所有移动设备和 PC 上使用。Adobe Campaign 仅允许从客户端控制台发送 LINE 消息。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=zh-Hans){target="_blank"}
 * **呼叫中心和自定义渠道**。可以在 Campaign 环境中实施呼叫中心和其他自定义渠道。这些渠道仅可在客户端控制台中使用。[请参阅 Campaign Classic v7 文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=zh-Hans#other-channels){target="_blank"}
 * 通过 X (Twitter) 进行&#x200B;**社交媒体营销**。通过发布消息和发送私信来通过 X (Twitter) 与客户互动。社交媒体营销附加功能包含了此功能，仅可在客户端控制台中使用，[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=zh-Hans){target="_blank"}
@@ -168,7 +167,7 @@ Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接�
 
 >[!NOTE]
 >
->虽然其中的某些活动仅在客户端控制台中可用，但在 Campaign Web 用户界面中也可进行部分活动，例如 **扩充**、**加载文件**&#x200B;或&#x200B;**更改维度**&#x200B;活动。[了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
+>虽然其中的某些活动仅在客户端控制台中可用，但某些活动在Campaign Web用户界面中可用，例如 **扩充**， **加载文件**， **更改数据源** 或 **更改维度** 活动。 [了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
 
 ### 联合数据访问配置 {#fda}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 营销活动报告
 description: 了解如何访问和使用营销活动报告
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 21%
+source-wordcount: '281'
+ht-degree: 24%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 21%
 * [电子邮件营销活动渠道](campaign-reports-email.md)
 * [短信营销活动渠道](campaign-reports-sms.md)
 * [推送活动渠道](campaign-reports-push.md)
+* [直邮营销活动渠道](campaign-reports-direct-mail.md)
 
 ## 管理您的报表仪表板 {#manage-reports}
 
