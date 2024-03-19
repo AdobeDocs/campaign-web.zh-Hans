@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ ht-degree: 92%
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service集成]
+>[!TAB 直邮渠道]
 
-Adobe Campaign Web 界面与 Adobe Experience Manager as a Cloud Service 之间的集成简化了电子邮件内容管理。您现在可以直接在 Adobe Experience Manager 中创建和编辑电子邮件内容，然后将完成的模板无缝导入 Adobe Campaign 以进行投放。
+**直邮** 渠道现在可用于工作流和独立投放。 直邮是一种线下渠道，允许您创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![image](assets/do-not-localize/direct-mail.gif)
 
->[!TAB 跨渠道工作流程]
+[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。
+>[!TAB 电子邮件设计器中的查询建模器]
 
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+查询建模器现在可以在Email Designer中使用。 它允许您在创建条件内容时构建条件。
 
->[!TAB 受众构成]
+[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。
+>[!TAB 新的更改数据源工作流活动]
 
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+此 **更改数据源** 利用定位活动，可更改工作流工作表使用的数据源。 本练习允许您跨不同的数据库管理数据并改进性能，从而提供了更大的灵活性。
 
->[!TAB 电子邮件设计器]
+![image](assets/do-not-localize/change-data-source.gif)
 
-利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！
-
-[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
