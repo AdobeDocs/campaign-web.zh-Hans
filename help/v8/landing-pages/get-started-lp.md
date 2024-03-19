@@ -3,10 +3,11 @@ audience: end-user
 title: 登陆页面入门
 description: 了解 Campaign Web 中的登陆页面
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
 >abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将用户引导至在线网页，可在其中根据内置模板管理客户获取、订阅/取消订阅和阻止列表用例。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="请参阅发行说明"
 
 借助 [!DNL Adobe Campaign]，您可以创建、设计和共享登陆页面。
 

@@ -3,21 +3,14 @@ audience: end-user
 title: 工作流入门
 description: 了解如何开始使用工作流
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
-# 工作流入门 {#workflows}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="跨渠道工作流程"
->abstract="发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
-
+# 开始使用工作流 {#workflows}
 
 ## 什么是工作流？
 

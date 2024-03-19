@@ -3,20 +3,20 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 # 创建受众 {#create-audiences}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="受众组合"
 >abstract="在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -97,7 +97,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何构建和管理受众、如何为投放选择受众以及定义控制组。
 
