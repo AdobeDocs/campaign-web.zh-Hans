@@ -3,20 +3,15 @@ audience: end-user
 title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1265'
 ht-degree: 98%
 
 ---
 
 
 # 新增功能 {#new}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="发行说明"
->abstract="我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。"
 
 我们隆重推出 **Adobe Campaign Web 用户界面**&#x200B;的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。Campaign Web 用户界面 (UI) 通过 Adobe Experience Platform 提供关联的画布，可实现统一的体验。
 
