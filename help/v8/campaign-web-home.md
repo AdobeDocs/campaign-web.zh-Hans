@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 71%
 
 ---
 
@@ -51,6 +51,12 @@ ht-degree: 70%
 
 >[!BEGINTABS]
 
+>[!TAB 3月版已上线！]
+
+了解Adobe Campaign Web用户界面24.3版本随附的新增功能和改进。
+
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB 直邮渠道]
 
 **直邮** 渠道现在可用于工作流和独立投放。 直邮是一种线下渠道，允许您创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。
@@ -58,12 +64,6 @@ ht-degree: 70%
 ![image](assets/do-not-localize/direct-mail.gif)
 
 [![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB 电子邮件设计器中的查询建模器]
-
-查询建模器现在可以在Email Designer中使用。 它允许您在创建条件内容时构建条件。
-
-[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB 新的更改数据源工作流活动]
 
