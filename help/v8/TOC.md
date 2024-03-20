@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [短信全局报告](reporting/global-report-sms.md)
       + [直邮全局报告](reporting/global-report-direct.md)
 + 集成 {#integrations}
-   + [与其他Adobe解决方案搭配使用](integrations/integration.md)
+   + [与其他 Adobe 解决方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
-   + [使用Adobe Experience Manager as a Cloud Service管理模板](integrations/aem-content.md)
+   + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 

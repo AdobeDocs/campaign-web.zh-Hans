@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 71%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的有关用户档案的信息自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
+    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的用户档案来自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">
