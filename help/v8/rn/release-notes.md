@@ -1,10 +1,10 @@
 ---
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
-source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
+source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '341'
+ht-degree: 8%
 
 ---
 
@@ -14,9 +14,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="新增功能"
->abstract="Adobe Campaign Web用户界面版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。 发行说明每月更新几次。"
->
->"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
+>abstract="Adobe Campaign Web用户界面版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。 发行说明每月更新几次。 **3月版现已上线**，包括直邮渠道、新的更改数据源工作流活动和其他改进。"
 
 
 <!--Last update: **March 19, 2024**-->
