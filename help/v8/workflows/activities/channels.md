@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: 使用投放工作流活动
-description: 了解如何添加投放工作流活动（电子邮件、推送、短信）
+description: 了解如何添加投放工作流活动（电子邮件、推送、短信、直邮）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '971'
+ht-degree: 51%
 
 ---
 
-# 电子邮件、短信、推送活动 {#channel}
+# 电子邮件、短信、推送、直邮活动 {#channel}
 
-Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和执行营销活动。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
+通过Adobe Campaign Web，您可以跨电子邮件、短信、直邮和推送渠道自动执行营销活动。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
 
-例如，您可以创建一个欢迎电子邮件活动，其中包含跨不同渠道（例如电子邮件、短信或推送消息）的一系列消息。您还可以在客户完成购买后发送跟进电子邮件，或者通过短信向客户发送个性化的生日消息。
+例如，您可以创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信、推送和直邮。 您还可以在客户完成购买后发送跟进电子邮件，或者通过短信向客户发送个性化的生日消息。
 
 通过使用渠道活动，您可以创建全面、个性化的营销活动，通过多个接触点吸引客户并推动转化。
 
@@ -24,6 +24,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 >* [创建独立的电子邮件投放](../../email/create-email.md)
 >* [创建独立的短信投放](../../sms/create-sms.md)
 >* [创建独立推送投放](../../push/create-push.md)
+>* [创建独立的直邮投放](../../direct-mail/create-direct-mail.md)
 
 ## 先决条件 {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * 要发送定期投放，请使用启动您的工作流 **计划程序** 活动。 您也可以使用 **计划程序** 用于一次性投放的活动，以设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
-
 
 ## 配置“渠道”活动 {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Adobe Campaign Web 允许您跨电子邮件、短信或推送渠道自动化和�
 >title="推送 Android 活动"
 >abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复传送消息，自动将 Android 推送通知发送到同一工作流程中的预定义目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="直邮活动"
+>abstract="直邮活动有助于在工作流中发送直邮，允许发送一次性消息和定期消息。 它有助于自动生成直邮提供商所需的提取文件的流程。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
 要在工作流上下文中设置投放，请执行以下步骤：
 
-1. 添加渠道活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]** 或 **[!UICONTROL 推送通知(iOS)]**.
+1. 添加渠道活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 短信]**， **[!UICONTROL 推送通知(Android)]**， **[!UICONTROL 推送通知(iOS)]** 或 **[!UICONTROL 直邮]**.
 
 1. 选择 **投放类型**：单次或循环。
 
