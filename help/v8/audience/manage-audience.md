@@ -68,7 +68,7 @@ ht-degree: 23%
 
 要复制或删除受众，请单击 **[!UICONTROL 更多操作]** 按钮在受众名称或受众详细信息屏幕中的受众列表中可用。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何在Adobe Campaign Web用户界面中创建目标以使用Experience Platform受众。
 

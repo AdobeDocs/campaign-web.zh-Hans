@@ -3,13 +3,13 @@ audience: end-user
 title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
-
 
 # 按波次发送 {#send-using-waves}
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >确保最后一波不超过()中定义的投放截止日期。 [有效期](delivery-settings.md#validity) 选项卡，否则可能无法发送某些消息。 特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >确保最后一波不超过()中定义的投放截止日期。 [有效期](delivery-settings.md#validity) 选项卡，否则可能无法发送某些消息。 特定的类型控制规则， **[!UICONTROL 波动计划检查]**，确保最后一个波次的计划时间早于投放有效期限。 在中了解有关控制规则的更多信息 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hans).
    >
    >在配置最后批次时，还必须留出足够的时间进行重试。 [了解详情](delivery-settings.md#retries)
 
@@ -99,6 +99,3 @@ ht-degree: 13%
 要执行此操作，请使用 **[!UICONTROL 根据日程表计划批次]** 选项。 例如，将第一个波次设置为10%，将第二个波次设置为15%，将第三个波次设置为20%，以此类推。
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

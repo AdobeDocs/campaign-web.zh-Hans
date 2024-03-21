@@ -3,10 +3,11 @@ audience: end-user
 title: 使用登陆页面内容模板
 description: 了解如何将登陆页面内容另存为设计模板并在Campaign Web中重复使用
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 

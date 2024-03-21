@@ -6,14 +6,14 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
 
 # 将优惠添加到您的消息 {#offers-content}
 
-您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些优惠可从以下网站获取： **选件** 左侧菜单，用于访问选件列表。 所有这些选件均为只读，且必须已在Campaign客户端控制台中使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些优惠可从以下网站获取： **选件** 左侧菜单，用于访问选件列表。 所有这些选件均为只读，且必须已在Campaign客户端控制台中使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}.
 
 
 通过投放发送优惠的步骤如下：
