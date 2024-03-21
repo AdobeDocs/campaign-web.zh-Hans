@@ -3,7 +3,7 @@ audience: end-user
 title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信、直邮）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
+source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 51%
