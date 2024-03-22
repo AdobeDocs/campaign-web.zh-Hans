@@ -2,16 +2,21 @@
 audience: end-user
 title: 开始使用直邮投放
 description: 了解如何使用Adobe Campaign Web创建和发送直邮投放
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 16%
+source-wordcount: '261'
+ht-degree: 15%
 
 ---
 
 
 # 开始使用直邮投放 {#gs-direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="直邮"
+>abstract="直邮渠道现在可用于工作流和独立投放。 使用直邮离线渠道创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
 
 
 直邮是一种线下渠道，允许您生成文件以向客户批量投放个性化信件，如明信片、传单或目录。

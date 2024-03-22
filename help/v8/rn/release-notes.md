@@ -1,10 +1,10 @@
 ---
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 85%
+source-wordcount: '342'
+ht-degree: 99%
 
 ---
 
@@ -26,19 +26,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 >此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级的更多信息。
 
 ## 3月发行说明 {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="直邮"
->abstract="直邮渠道现在可用于工作流和独立投放。 使用直邮离线渠道创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="请参阅发行说明"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="更改数据源"
->abstract="使用新的更改数据源工作流定位活动更改工作流工作表使用的数据源。 这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="请参阅发行说明"
-
 
 **发布日期**：2024 年 3 月 19–20 日
 
