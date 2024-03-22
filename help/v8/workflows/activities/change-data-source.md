@@ -2,21 +2,15 @@
 audience: end-user
 title: 使用更改数据源工作流活动
 description: 了解如何使用更改数据源工作流活动
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '297'
 ht-degree: 9%
 
 ---
 
 # 更改数据源 {#change-data-source}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="在工作流中更改数据源"
->abstract="利用更改数据源定位活动，可更改工作流工作表使用的数据源。 本练习允许您跨不同的数据库管理数据并改进性能，从而提供了更大的灵活性。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
