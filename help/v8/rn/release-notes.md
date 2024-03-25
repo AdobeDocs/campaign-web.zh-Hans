@@ -1,7 +1,8 @@
 ---
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 99%
@@ -14,7 +15,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="新增功能"
->abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。发行说明每月更新几次。**3 月版本已上线**，包括直邮渠道、新的更改数据源工作流活动以及其他改进。"
+>abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。发行说明每月更新几次。**3 月版本已上线**，包括直邮渠道、全新更改数据源工作流活动以及其他改进。"
 
 
 <!--Last update: **March 19, 2024**-->
@@ -37,7 +38,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 ### 新的更改数据源工作流活动 {#24-3-change-data-source}
 
-新的&#x200B;**更改数据源**&#x200B;定位活动允许您更改工作流工作表使用的数据源。这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。[了解更多信息](../workflows/activities/change-data-source.md)
+**更改数据源**&#x200B;定位活动允许您更改工作流工作表使用的数据源。这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。[了解更多信息](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 

@@ -70,7 +70,7 @@ ht-degree: 94%
       + [创建短信投放](sms/create-sms.md)
       + [设计短信投放](sms/content-sms.md)
       + [预览并发送短信投放](sms/send-sms.md)
-   + 直邮{#direct-mail}
+   + 直邮 {#direct-mail}
       + [开始使用直邮投放](direct-mail/gs-direct-mail.md)
       + [创建直邮投放](direct-mail/create-direct-mail.md)
       + [设计提取文件](direct-mail/content-direct-mail.md)
