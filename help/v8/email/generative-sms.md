@@ -5,7 +5,7 @@ description: Campaign中的AI助手入门
 badge: label="Beta 版"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -75,7 +75,7 @@ ht-degree: 5%
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 [详细了解内容个性化](../personalization/personalize.md)
+1. 插入个性化字段，以根据用户档案数据自定义短信内容。 [详细了解内容个性化](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ ht-degree: 5%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
+1. 定义内容、受众和计划后，便可以准备短信投放。 [了解详情](../monitor/prepare-send.md)
