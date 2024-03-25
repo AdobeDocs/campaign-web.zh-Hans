@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动过滤器"
->abstract="要对子集应用过滤条件，请单击 **[!UICONTROL 创建过滤器]** 并使用查询建模器配置所需的筛选规则。 例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
+>abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
@@ -72,7 +72,7 @@ ht-degree: 81%
 
    1. 打开子集以显示其属性。
 
-   1. 要对子集应用过滤条件，请单击 **[!UICONTROL 创建过滤器]** 并使用查询建模器配置所需的筛选规则。 例如，包含来自其电子邮件地址存在于数据库中的传入群体的用户档案。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
+   1. 要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包含来自其电子邮件地址存在于数据库中的传入群体的用户档案。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
    1. 要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。
 

@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择要用于重复数据删除的协调规则。 要使用属性，请选择 **简单属性** 选项并选择源字段和目标字段。 要使用查询建模器创建自己的协调条件，请选择 **高级协调条件** 选项。"
+>abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]

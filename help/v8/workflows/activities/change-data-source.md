@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用更改数据源工作流活动
 description: 了解如何使用更改数据源工作流活动
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="更改数据源"
->abstract="此 **更改数据源** 活动允许您为工作流的工作表选择不同的数据源。"
+>abstract="使用&#x200B;**更改数据源**&#x200B;活动，可为工作流的工作表选择不同的数据源。"
 
 此 **更改数据源** 活动是 **定位** 活动。 此活动允许您更改工作流工作表使用的数据源。 这允许您跨不同的数据库管理数据并提高性能，从而提供了更大的灵活性。
 

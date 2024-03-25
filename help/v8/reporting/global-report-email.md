@@ -25,7 +25,7 @@ ht-degree: 26%
 >title="投放概述"
 >abstract="**投放概述**&#x200B;展示便于深入了解您的受众如何与您发送的电子邮件投放和营销活动互动的关键绩效指标 (KPI)。"
 
-此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些指标概述如下。
+此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次电子邮件投放的交互情况。 这些量度概述如下。
 
 ![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 

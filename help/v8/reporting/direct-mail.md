@@ -2,10 +2,11 @@
 audience: end-user
 title: 直邮报表
 description: 了解如何访问和使用直邮报表
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 11%
+ht-degree: 25%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些指标概述如下。"
+>abstract=" **投放概览**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
 
-此 **[!UICONTROL 投放概述]** 详细分析访客与每个直邮投放的交互方式，并展示关键绩效指标(KPI)。  这些指标概述如下。
+此 **[!UICONTROL 投放概述]** 详细分析访客与每个直邮投放的交互方式，并展示关键绩效指标(KPI)。  这些量度概述如下。
 
 ![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -64,7 +65,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="投放统计信息"
->abstract="此 **投放统计信息** 图表详细说明了直邮投放的成功以及发生的错误。"
+>abstract="**投放统计信息**&#x200B;图表详述直邮投放是否成功和发生的错误。"
 
 此 **[!UICONTROL 投放统计信息]** 图表提供了交付性能的全面概述，并提供了用于衡量成功和效力的详细量度。
 
@@ -86,8 +87,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
->title="投放排除项的原因"
->abstract="此 **排除的原因** 图表说明了在准备投放期间被拒绝的报文的分布，按每个规则进行分类。"
+>title="投放排除原因"
+>abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
 此 **[!UICONTROL 排除的原因]** 图表提供了在投放准备过程中消息被拒绝的原因的详细细目。 此划分按各种规则进行整理，可全面了解导致报文排除的因素。 有关排除规则的详情，请参见 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -116,7 +117,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="排除项"
->abstract="此 **[!UICONTROL 排除项]** 该表按规则显示投放准备过程中被拒绝的消息的详细细分。"
+>abstract=" **[!UICONTROL 排除项]**&#x200B;表格按规则显示在传送投放过程中遭到拒绝的邮件的细分。"
 
 此 **[!UICONTROL 排除项]** 该表按特定规则分类，提供了在投放准备阶段被拒绝的消息的深入细分。 通过这种全面的细分，可清楚地了解将这些消息排除在投放过程之外的原因。
 

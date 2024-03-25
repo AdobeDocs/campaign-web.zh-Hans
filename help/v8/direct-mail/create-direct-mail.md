@@ -2,13 +2,13 @@
 audience: end-user
 title: 创建直邮投放
 description: 了解如何使用Adobe Campaign Web创建直邮投放
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 21%
 
 ---
-
 
 # 创建直邮投放 {#create-direct-mail}
 
@@ -64,4 +64,3 @@ ht-degree: 21%
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. 直邮投放就绪后，单击 **[!UICONTROL 审阅并发送]** 按钮以验证和发送投放并生成提取文件。 [了解如何预览和发送直邮投放](send-direct-mail.md)
-

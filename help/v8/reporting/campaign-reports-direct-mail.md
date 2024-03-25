@@ -2,10 +2,11 @@
 audience: end-user
 title: 直邮渠道的营销活动报表
 description: 了解直邮渠道的营销活动报表
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些指标概述如下。"
+>abstract=" **投放概览**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
 
-此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些指标概述如下。
+此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些量度概述如下。
 
 ![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -43,7 +44,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="初始目标受众统计信息"
->abstract="收件人数据和消息信息显示在 **初始目标受众统计信息** 表，反映投放准备分析。"
+>abstract="收件人数据和消息信息会显示在&#x200B;**初始目标受众统计**&#x200B;表中，其反映了投放准备分析。"
 
 此 **[!UICONTROL 初始目标受众统计信息]** 表格会显示与收件人相关的数据。 量度在投放准备期间计算并显示：初始受众、要发送的消息数、排除的收件人数。
 
@@ -64,7 +65,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="投放统计信息"
->abstract="此 **执行统计信息** 该表详细列出了直邮投放的成功以及发生的错误。"
+>abstract="**执行统计信息**&#x200B;表格详述直邮投放是否成功和发生的错误。"
 
 ![](assets/direct-mail-campaign-exec.png)
 

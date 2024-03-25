@@ -2,10 +2,11 @@
 audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 5%
+ht-degree: 33%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract="此 **投放概述** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些指标概述如下。"
+>abstract=" **投放概览**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
 
-此 **[!UICONTROL 投放概述]** 提供关键绩效指标(KPI)，用于深入分析访客与每次直邮投放的交互情况。 这些指标概述如下。
+ **[!UICONTROL 投放概览]**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -44,12 +45,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="目标受众"
->abstract="收件人数据和消息信息显示在 **目标受众** 图形，反映投放准备分析。"
+>abstract="收件人数据和消息信息会在&#x200B;**目标受众**&#x200B;图表中显示，其反映了投放准备分析。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="目标受众"
->abstract="此 **目标受众** 该表根据投放准备过程的结果，提供了收件人及相应消息的详细细目。"
+>abstract="**目标受众**&#x200B;表格根据投放准备过程的结果提供了收件人和相应消息的细分。"
 
 表和图表 **[!UICONTROL 目标受众]** 显示与收件人相关的数据，并提供以下详细量度。
 
@@ -70,12 +71,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="投放统计信息"
->abstract="此 **投放统计信息** 图形可让您深入了解直邮投放的有效性，包括成功的投放和遇到的任何错误。"
+>abstract=" **投放统计信息**&#x200B;图表有助于您深入了解直邮投放的有效性，其中包括成功的投放和遇到的任何错误。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="投放统计信息"
->abstract="此 **投放统计信息** 该表详细列出了直邮投放的成功以及发生的错误。"
+>abstract="**投放统计信息**&#x200B;表格详述直邮投放是否成功和发生的错误。"
 
 此 **[!UICONTROL 投放统计信息]** 图表提供了每次直邮投放成功的划分以及下面列出的详细量度。
 
@@ -96,12 +97,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="排除项"
->abstract="此 **排除的原因** 该表按规则显示投放准备过程中被拒绝的消息的详细细分。"
+>abstract=" **排除原因**&#x200B;表格按规则显示在传送投放过程中遭到拒绝的邮件的细分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="投放排除项的原因"
->abstract="此 **排除的原因** 图表说明了在准备投放期间被拒绝的报文的分布，按每个规则进行分类。"
+>title="投放排除原因"
+>abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -124,4 +125,3 @@ ht-degree: 5%
 * **[!UICONTROL 目标大小受限]**：已到达收件人的最大投放大小。
 
 +++
-
