@@ -4,9 +4,9 @@ title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。此界面主要
 
 ## 通信渠道 {#channels-capabilities}
 
-借助Campaign Web用户界面，您可以创建、设计和发送 **电子邮件**， **短信**， **推送通知**， **直邮** 并使用各种专门报告衡量其影响，如详细文件 [在此部分中](../msg/gs-messages.md). 但是，以下渠道当前正在 **非** 可用：应用程序内、LINE、呼叫中心/自定义渠道、带有X的社交营销(Twitter)。
+借助 Campaign Web 用户界面，可创建、设计和发送&#x200B;**电子邮件**、**短信**、**推送通知**&#x200B;和&#x200B;**直邮**，并使用各种专门设计的报告衡量其影响，如[本节](../msg/gs-messages.md)中所详述。但是，以下渠道目前&#x200B;**不**&#x200B;可用：应用程序内、LINE、呼叫中心/自定义渠道、通过 X (Twitter) 进行的社交媒体营销。
 
 使用提供的链接浏览 Campaign v8（客户端控制台）文档，并了解有关这些渠道的更多信息。
 
@@ -167,7 +167,7 @@ Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接�
 
 >[!NOTE]
 >
->虽然其中的某些活动仅在客户端控制台中可用，但某些活动在Campaign Web用户界面中可用，例如 **扩充**， **加载文件**， **更改数据源** 或 **更改维度** 活动。 [了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
+>虽然其中的某些活动仅在客户端控制台中可用，但在 Campaign Web 用户界面中也可进行部分活动，例如&#x200B;**扩充**、**加载文件**、**更改数据源**&#x200B;或&#x200B;**更改维度**&#x200B;活动。[了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
 
 ### 联合数据访问配置 {#fda}
 

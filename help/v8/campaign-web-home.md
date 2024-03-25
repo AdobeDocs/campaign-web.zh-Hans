@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -51,25 +51,25 @@ ht-degree: 78%
 
 >[!BEGINTABS]
 
->[!TAB 3月版已上线！]
+>[!TAB 3 月版本已上线！]
 
-了解Adobe Campaign Web用户界面24.3版本随附的新增功能和改进。
+了解 Adobe Campaign Web 用户界面 24.3 版本的新功能和改进。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 直邮渠道]
 
-**直邮** 渠道现在可用于工作流和独立投放。 直邮是一种线下渠道，允许您创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。
+**直邮**&#x200B;渠道现在既可在工作流中使用，也可独立投放。直邮是一种离线渠道，允许您创建和生成提取文件、进行个性化设置，并与直邮提供商共享，向客户发送邮件。
 
-![image](assets/do-not-localize/direct-mail.gif)
+![图像](assets/do-not-localize/direct-mail.gif)
 
-[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
->[!TAB 新的更改数据源工作流活动]
+>[!TAB 新增更改数据源工作流活动]
 
-此 **更改数据源** 利用定位活动，可更改工作流工作表使用的数据源。 本练习允许您跨不同的数据库管理数据并改进性能，从而提供了更大的灵活性。
+**更改数据源**&#x200B;定位活动允许您更改工作流工作表使用的数据源。这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。
 
-![image](assets/do-not-localize/change-data-source.gif)
+![图像](assets/do-not-localize/change-data-source.gif)
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
