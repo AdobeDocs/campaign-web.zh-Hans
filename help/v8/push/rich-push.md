@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: 设计富推送通知投放
-description: 了解如何使用Adobe Campaign Web设计富推送通知投放
+description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1394'
 ht-degree: 4%
 
 ---
 
-# 设计Android富推送投放 {#content-push}
+# 设计Android富推送投放 {#rich-push}
 
 使用Firebase Cloud Messaging，您可以选择两种类型的消息：
 
@@ -23,9 +23,7 @@ ht-degree: 4%
 
 ## 定义通知的内容 {#push-message}
 
-创建推送投放后，即可定义其内容。 浏览以下选项卡，了解如何为每个模板撰写消息。
-
-提供了三个模板：
+创建推送投放后，即可定义其内容。 提供了三个模板：
 
 * **默认模板** 允许您发送带有简单图标和随附图像的通知。
 
