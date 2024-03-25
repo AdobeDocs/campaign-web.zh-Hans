@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 94%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [添加指向镜像页面的链接](email/mirror-page.md)
             + [添加邮件引文](email/preheader.md)
             + [生成文本版本](email/text-version-email.md)
-         + 内容助手 {#content-assistant}
-            + [内容助手快速入门](email/generative-gs.md)
-            + [用内容助手生成文本](email/generative-content.md)
-            + [用内容助手生成图像](email/generative-image.md)
-            + [用内容助手生成电子邮件](email/generative-email.md)
          + 设置内容的样式 {#style}
             + [电子邮件样式入门](email/get-started-email-style.md)
             + [编辑背景设置](email/backgrounds.md)
@@ -76,10 +71,15 @@ ht-degree: 94%
       + [设计短信投放](sms/content-sms.md)
       + [预览并发送短信投放](sms/send-sms.md)
    + 直邮{#direct-mail}
-      + [直邮投放入门](direct-mail/gs-direct-mail.md)
+      + [开始使用直邮投放](direct-mail/gs-direct-mail.md)
       + [创建直邮投放](direct-mail/create-direct-mail.md)
       + [设计提取文件](direct-mail/content-direct-mail.md)
-      + [预览和发送直邮投放](direct-mail/send-direct-mail.md)
+      + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
+   + AI助手 {#ai-assistant}
+      + [AI助手入门](email/generative-gs.md)
+      + [使用AI助手生成电子邮件](email/generative-content.md)
+      + [使用AI助手生成短信](email/generative-sms.md)
+      + [使用AI助手生成推送通知](email/generative-push.md)
    + 将内容设置为动态内容 {#dynamic-content}
       + [动态内容入门](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
@@ -176,7 +176,7 @@ ht-degree: 94%
       + [电子邮件全局报告](reporting/global-report-email.md)
       + [推送全局报告](reporting/global-report-push.md)
       + [短信全局报告](reporting/global-report-sms.md)
-      + [直邮全局报告](reporting/global-report-direct.md)
+      + [直邮全球报告](reporting/global-report-direct.md)
 + 集成 {#integrations}
    + [与其他 Adobe 解决方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
