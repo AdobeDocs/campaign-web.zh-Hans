@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1600'
+ht-degree: 99%
 
 ---
 
@@ -376,3 +376,44 @@ Deprecated IDs - to remove in GA: -->
 >title="更新数据"
 >abstract="待确认"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="外部信号"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="外部信号参数"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="结束触发器"
+>abstract="待确认"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript代码"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Javascript代码片段"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Javascript执行"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Javascript过渡"
+>abstract="待确认"
