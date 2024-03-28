@@ -415,5 +415,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript 转换"
+>title="JavaScript 过渡"
 >abstract="待确认"

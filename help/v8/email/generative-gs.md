@@ -29,7 +29,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 助手"
->abstract="在精心设计并个性化您的投放后，您可使用 AI 助手来增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
+>abstract="在精心设计并个性化设置投放后，您可使用 AI 助手来增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
 
 
 >[!CONTEXTUALHELP]
