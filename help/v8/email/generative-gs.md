@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: AI助手入门
+title: 开始使用 AI 助手
 description: AI助手入门
 badge: label="Beta 版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
-# AI助手入门 {#generative-gs}
+# 开始使用 AI 助手 {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -28,13 +28,13 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI助手"
->abstract="完成投放的定制和个性化后，您可以使用AI助手增强内容。 此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
+>title="AI 助手"
+>abstract="在精心设计并个性化您的投放后，您可使用 AI 助手来增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="在Campaign中使用AI助手定义上下文"
+>title="在 Campaign 中使用 AI 助手定义上下文"
 >abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
 
 

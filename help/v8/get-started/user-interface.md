@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
 source-wordcount: '1600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -400,20 +400,20 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript代码"
+>title="JavaScript 代码"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript代码片段"
+>title="JavaScript 代码段"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript执行"
+>title="JavaScript 执行"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript过渡"
+>title="JavaScript 转换"
 >abstract="待确认"

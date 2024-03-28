@@ -6,7 +6,7 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="直邮"
->abstract="直邮渠道现在可用于工作流和独立投放。 使用直邮离线渠道创建、个性化和生成提取文件，并与直邮提供商共享以向客户发送邮件。"
+>abstract="直邮渠道现在可用于工作流和独立投放。使用直邮离线渠道创建、个性化和生成提取文件，并与直邮提供商共享，向客户发送邮件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
 
 

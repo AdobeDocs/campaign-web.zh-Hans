@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="直邮活动"
->abstract="直邮活动有助于在工作流中发送直邮，允许发送一次性消息和定期消息。 它有助于自动生成直邮提供商所需的提取文件的流程。 您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="直邮活动有助于在工作流程中直接发送邮件，允许一次性和重复发送消息。它用于自动生成直邮提供商所需的提取文件的过程。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 要在工作流上下文中设置投放，请执行以下步骤：
 
