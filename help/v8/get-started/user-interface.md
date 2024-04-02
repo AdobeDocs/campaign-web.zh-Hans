@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
+source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 100%
+source-wordcount: '1619'
+ht-degree: 99%
 
 ---
 
@@ -416,4 +416,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 过渡"
+>abstract="待确认"
+
+
+<!--ExtractFile-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile"
+>title="提取文件"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="要提取的文件"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="目标格式"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="后处理"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="叫客过渡"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="进程错误"
 >abstract="待确认"
