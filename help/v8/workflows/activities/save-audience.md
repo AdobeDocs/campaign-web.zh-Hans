@@ -3,9 +3,9 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 13%
 >id="acw_orchestration_save_audience"
 >title="保存受众"
 >abstract="使用此活动更新现有受众或从工作流中的上游计算得出的群体创建新受众。创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="生成出站过渡"
+>abstract="如果要在 **保存受众** 活动。"
 
 此 **保存受众** 活动是 **定位** 活动。 利用此活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 
