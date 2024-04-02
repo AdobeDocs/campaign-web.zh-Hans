@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="创建测试用户档案"
->abstract="测试用户档案是额外的收件人，用于在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试用户档案，并向测试用户档案发送校样，以控制和验证消息内容和设置。"
+>abstract="测试配置文件是额外的收件人，以便您在发送消息之前预览和测试个性化和渲染。您可以在预览消息内容时选择测试配置文件，并将验证发送到测试配置文件，以控制和验证您的消息内容和设置。"
 
-测试用户档案用于发送校样，并验证消息内容和设置。 这些用户档案是额外的收件人，允许您在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试用户档案，并向测试用户档案发送校样，以控制和验证消息内容和设置。
+测试用户档案用于发送校样，并验证消息内容和设置。 这些用户档案是额外的收件人，允许您在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试配置文件，并将验证发送到测试配置文件，以控制和验证您的消息内容和设置。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 

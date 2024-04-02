@@ -33,7 +33,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="不再联系"
+>title="不再是联系人"
 >abstract="本节深入介绍配置文件的联系偏好设置。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
