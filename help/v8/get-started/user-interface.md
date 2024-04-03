@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 82%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="此模板处于“仅就绪”状态"
->abstract="待确认"
-
+>abstract="您没有权限编辑此模板。 如果需要，请联系您的管理员以向您授予访问权限。"
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="默认登陆页面"
->abstract="待确认"
+>abstract="选择与此订阅服务关联的默认登陆页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="订阅服务"
->abstract="待确认"
+>title="订阅服务活动"
+>abstract="使用 Adobe Campaign 创建和监测您的服务（如新闻稿）以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="订阅服务参数"
->abstract="待确认"
+>abstract="选择并确认订阅服务的设置。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="订阅服务出站过渡"
->abstract="待确认"
+>abstract="切换 **生成叫客过渡** 用于在活动后添加过渡的选项。"
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="更新数据"
->abstract="待确认"
+>abstract="此 **更新数据** 活动对数据库中的字段执行批量更新。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="更新数据"
->abstract="待确认"
+>title="选择如何更新数据"
+>abstract="此 **操作类型** 字段用于选择要对数据库中的数据执行的流程。 选择第一个选项以添加数据或更新（如果已添加）。 您还可以仅添加数据、更新数据或删除数据。 选择 **更新并合并收藏集** 以选择要将重复项链接到的主记录，并安全地删除这些重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="更新数据"
->abstract="待确认"
+>title="记录标识"
+>abstract="指定如何标识数据库中的记录：如果数据与现有的定向维度相关，请选择 **使用定向维度** 选项并选择要更新的定向维度和字段。 否则，请指定一个或多个自定义链接以标识数据库中的数据，或直接使用协调键值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="更新数据"
->abstract="待确认"
+>title="选择要更新的字段"
+>abstract="选择要更新和协调设置的字段。 您可以使用 **自动映射** 用于自动标识要更新的字段的选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="更新数据"
->abstract="待确认"
+>title="更新数据的高级选项"
+>abstract="此 **高级选项** 部分允许您指定其他设置来管理数据和重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="更新数据"
->abstract="待确认"
+>title="生成出站过渡"
+>abstract="切换 **生成叫客过渡** 用于添加叫客过渡的选项，该过渡将在执行结束时 **更新数据** 活动。 更新通常标记定向工作流的结尾，因此默认情况下不激活选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="更新数据"
->abstract="待确认"
+>title="为拒绝生成叫客过渡。"
+>abstract="切换 **为拒绝生成叫客过渡** 用于添加叫客过渡的选项，该过渡包含在更新后未正确处理的记录（例如，如果存在重复项）。 更新通常标记定向工作流的结尾，因此默认情况下不激活选项。"
 
 
 
@@ -448,5 +447,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="进程错误"
+>title="流程错误"
 >abstract="待确认"
