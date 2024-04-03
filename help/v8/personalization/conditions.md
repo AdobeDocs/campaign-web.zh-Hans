@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '946'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 8%
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. 在个性化编辑器中，浏览到 **[!UICONTROL 辅助函数]** 菜单的位置。
+1. 在个性化编辑器中，浏览到 **[!UICONTROL 条件]** 菜单的位置。
 
 1. 要开始构建条件，请单击 **如果** 函数。 以下行将添加到中央屏幕中：`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
