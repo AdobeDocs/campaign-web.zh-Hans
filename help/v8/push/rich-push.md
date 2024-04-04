@@ -8,16 +8,16 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 设计Android富推送投放 {#rich-push}
+# 设计一个 Android 丰富的推送投放 {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="稍后提醒按钮"
->abstract="此 **稍后提醒** 按钮提供了计划提醒的选项。 时间戳字段需要一个表示纪元的值（以秒为单位）。"
+>abstract="**稍后提醒**&#x200B;按钮提供了计划提醒的选项。时间戳字段需要一个表示 epoch 的值（以秒为单位）。"
 
 使用Firebase Cloud Messaging，您可以选择两种类型的消息：
 
