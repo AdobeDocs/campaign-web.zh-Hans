@@ -3,7 +3,7 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: ff9abf39f5df8052a114168993df5dd472ea2a19
+source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 69%
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="受众"
->abstract="待确认"
+>abstract="受众"
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 
