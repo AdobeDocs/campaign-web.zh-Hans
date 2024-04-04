@@ -2,13 +2,13 @@
 audience: end-user
 title: 选择投放收件人
 description: 了解如何选择投放的收件人
-source-git-commit: e0a5a5d8d24df05e3bdb98ecb57eb89d26c8bf3d
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # 选择投放收件人 {#add-audience}
 
@@ -19,3 +19,4 @@ ht-degree: 0%
 * [从外部文件加载受众](file-audience.md). 此选项仅适用于独立电子邮件投放。
 
 定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)
+

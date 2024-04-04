@@ -3,7 +3,7 @@ audience: end-user
 title: 从文件加载电子邮件受众
 description: 了解如何从外部文件加载用户档案以构建电子邮件受众
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 29%

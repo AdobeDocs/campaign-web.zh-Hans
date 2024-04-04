@@ -3,7 +3,7 @@ audience: end-user
 title: 为投放构建一次性受众
 description: 了解如何为投放构建一次性受众。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 29%
