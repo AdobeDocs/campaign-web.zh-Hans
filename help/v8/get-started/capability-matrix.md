@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 * 创建过滤规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hans){target="_blank"}
 * 管理类型规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hans){target="_blank"}
 * 营销活动模拟。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hans){target="_blank"}
-* 用于创作类型规则的 Javascript 编码。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans#use-cases-on-pressure-rules){target="_blank"}
+* 用于分类规则创作的JavaScript编码。 [了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans#use-cases-on-pressure-rules){target="_blank"}
 
 ## 工作流 {#wf-capabilities}
 

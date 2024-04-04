@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 58%
+ht-degree: 54%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动�
 
 * **[!UICONTROL 默认选择退出横幅]**
 * **[!UICONTROL 由 Adobe Campaign 启用]**：插入“由 Adobe Campaign 启用”徽标。
-* **[!UICONTROL 专有名词的格式化函数]**：生成 **[!UICONTROL toSmartCase]** Javascript 函数，它将每个单词的首字母更改为大写形式。
+* **[!UICONTROL 专有名词的格式功能]**：生成 **[!UICONTROL toSmartCase]** JavaScript函数，用于将每个单词的第一个字母更改为大写。
 * **[!UICONTROL 问候]**：插入带收件人全名的问候语，后跟一个逗号。示例：“Hello John Doe,”。
 * **[!UICONTROL 插入徽标]**：插入在实例设置中定义的徽标。
 * **[!UICONTROL 指向镜像页面的链接]**：插入指向[镜像页面](../email/mirror-page.md)的链接。默认格式为：“如果您无法正确查看此邮件，请单击此处”。

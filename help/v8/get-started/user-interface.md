@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 82%
+source-wordcount: '2108'
+ht-degree: 76%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部信号"
->abstract="待确认"
+>abstract="此 **外部信号** 活动允许您通过API或其他工作流在工作流中触发一组任务的执行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="外部信号参数"
 >abstract="待确认"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="待确认"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 代码"
->abstract="待确认"
+>abstract="此 **JavaScript代码** 活动在工作流上下文中执行JavaScript代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript 代码段"
->abstract="待确认"
+>title="JavaScript 代码片段"
+>abstract="配置要执行的代码。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅Campaign v8（控制台）文档以了解详情"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="JavaScript 执行"
->abstract="待确认"
+>title="JavaScript执行"
+>abstract="默认情况下，执行阶段不能超过1小时。 在此延迟后，进程将中止，并出现一条错误消息，且活动执行失败。 切换 **在以下时间后停止执行：** 用于定义自定义延迟的选项。 要忽略此限制，请将值设置为0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript 过渡"
->abstract="待确认"
+>title="流程错误"
+>abstract="切换 **进程错误** 用于添加包含错误的叫客过渡的选项。"
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="提取文件"
->abstract="待确认"
+>abstract="提取文件活动"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="要提取的文件"
->abstract="待确认"
+>abstract="选择要提取的文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="目标格式"
->abstract="待确认"
+>abstract="选择格式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="后处理"
->abstract="待确认"
+>abstract="定义后处理步骤"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="叫客过渡"
->abstract="待确认"
+>abstract="切换 **生成叫客过渡** 用于在当前活动后添加叫客过渡的选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="流程错误"
->abstract="待确认"
+>abstract="切换 **进程错误** 用于添加包含错误的叫客过渡的选项。"
