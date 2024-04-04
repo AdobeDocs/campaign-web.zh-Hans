@@ -3,9 +3,9 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="在此屏幕中，您可以访问工作流或独立投放中可定位的所有受众的列表。 单击 **创建** 使用各种工作流活动(例如 **Split** 或 **排除**.<br/><br/>此 **[!UICONTROL Origin]** 列指示受众的来源： **[!UICONTROL Adobe Campaign]** 受众已创建Adobe Campaign v8控制台或Web用户界面，而 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中创建受众，并使用Adobe源和目标集成将其集成到Campaign中。"
+>abstract="在此屏幕中，您可以访问工作流或独立投放中可定位的所有受众的列表。 单击 **创建** 在可视画布中创建新受众。<br/><br/>除了从头开始创建简单的受众之外，您还可以利用工作流活动来优化受众。 例如，您可以将多个受众合并为单个受众，使用外部属性丰富受众，或根据您选择的规则将受众划分为多个受众。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 10%
 Campaign Web允许您在可视工作流画布中创建新受众。 除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众，使用外部属性丰富受众，或根据您选择的规则将受众划分为多个受众。
 
 创建工作流后，生成的受众将自动与现有受众一起存储在Campaign数据库中。 然后，可以在工作流或独立投放中定位这些受众。
+
+此 **[!UICONTROL Origin]** 列指示受众的来源： **[!UICONTROL Adobe Campaign]** 受众已创建Adobe Campaign v8控制台或Web用户界面，而 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中创建受众，并使用Adobe源和目标集成将其集成到Campaign中。
 
 ➡️ [在视频中发现此功能](#video)
 
