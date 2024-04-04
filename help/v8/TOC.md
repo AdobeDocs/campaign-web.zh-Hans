@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 94%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 94%
       + [设计提取文件](direct-mail/content-direct-mail.md)
       + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
    + AI助手 {#ai-assistant}
-      + [AI助手入门](email/generative-gs.md)
+      + [开始使用 AI 助手](email/generative-gs.md)
       + [使用AI助手生成电子邮件](email/generative-content.md)
       + [使用AI助手生成短信](email/generative-sms.md)
       + [使用AI助手生成推送通知](email/generative-push.md)
@@ -109,9 +109,10 @@ ht-degree: 94%
       + [创建配置文件](audience/create-profile.md)
       + [使用测试配置文件](audience/test-profiles.md)
    + 使用受众 {#audiences}
+      + [开始使用受众](audience/manage-audience.md)
       + [创建受众](audience/create-audience.md)
-      + [监测和管理受众](audience/manage-audience.md)
    + 选择您的投放收件人 {#target-audiences}
+      + [受众选择入门](audience/delivery-recipients.md)
       + [选择现有受众](audience/add-audience.md)
       + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载电子邮件受众](audience/file-audience.md)
