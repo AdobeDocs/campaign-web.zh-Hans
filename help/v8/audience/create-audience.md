@@ -3,10 +3,10 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 17%
+source-wordcount: '898'
+ht-degree: 10%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="可从此屏幕访问可在投放中定位的所有受众的列表。单击&#x200B;**创建**&#x200B;以使用&#x200B;**拆分**&#x200B;或&#x200B;**排除**&#x200B;等各种工作流活动将新受众创建到视觉画布中。"
+>abstract="在此屏幕中，您可以访问工作流或独立投放中可定位的所有受众的列表。 单击 **创建** 使用各种工作流活动(例如 **Split** 或 **排除**.<br/><br/>此 **[!UICONTROL Origin]** 列指示受众的来源： **[!UICONTROL Adobe Campaign]** 受众已创建Adobe Campaign v8控制台或Web用户界面，而 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中创建受众，并使用Adobe源和目标集成将其集成到Campaign中。"
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="受众设置"
->abstract="输入受众姓名和其他选项，然后单击&#x200B;**创建受众**&#x200B;按钮。"
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign Web允许您在可视工作流画布中创建新受众。 除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众，使用外部属性丰富受众，或根据您选择的规则将受众划分为多个受众。
 

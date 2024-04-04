@@ -3,10 +3,10 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '333'
+ht-degree: 33%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 31%
 >abstract="浏览列表以选择现有受众。使用“显示过滤器”图标筛选列表，或选择特定文件夹。"
 
 本节介绍在定义投放的目标群体时，如何选择现有受众。 定义投放的主要目标时，您还可以：
-
 * [构建一次性受众](one-time-audience.md) 使用查询建模器。
 * [从外部文件加载受众](file-audience.md) （仅适用于电子邮件）。
 
-可在投放中定位的受众可从 **受众** 左侧菜单。 它们源自多个源，例如客户端控制台、Campaign Web受众工作流或Adobe Experience Platform。 [了解如何监测和管理受众](manage-audience.md)
+可在投放中定位的受众可从 **受众** 左侧菜单。 它们源自多个源，例如客户端控制台、Campaign Web受众工作流或Adobe Experience Platform。 [详细了解受众](manage-audience.md)。
 
 要为邮件选择现有受众，请执行以下步骤：
 
-1. 从 **受众** 投放创建助理的部分，单击 **[!UICONTROL 选择受众]** 按钮，然后选择 **[!UICONTROL 选择受众]** 以使用现有受众。
+1. 从 **受众** 投放创建助理的部分，单击 **[!UICONTROL 选择受众]** 按钮，然后选择 **[!UICONTROL 选择受众]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

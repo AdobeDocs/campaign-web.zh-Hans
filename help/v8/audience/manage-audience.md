@@ -1,64 +1,43 @@
 ---
 audience: end-user
-title: 监测和管理受众
-description: 了解如何在Adobe Campaign Web中监控和管理受众
+title: 开始使用受众
+description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
-# 监测和管理受众 {#monitor-manage}
-
-## 什么是受众？ {#what}
-
-受众是投放的主要目标：接收消息的用户档案。 受众类型取决于投放模板中定义的目标映射。要了解有关投放模板的更多信息，请参阅 [此页面](../msg/delivery-template.md).
-
-要定义受众群体，您可以：
-
-* [创建新受众](create-audience.md) 从 **[!UICONTROL 受众]** 菜单，
-* [选择现有受众](add-audience.md) 在客户端控制台中创建为列表或来自Adobe Experience Platform，
-* [构建新受众](../query/query-modeler-overview.md) 通过定义和组合筛选条件来使用查询建模器，
-* [使用外部文件中的受众](file-audience.md). 此选项仅适用于独立电子邮件投放，不能用于营销活动投放。
-
-定位受众时，您还可以定义 **对照组** 可避免向部分受众发送消息，并衡量活动的影响。 [了解如何设置对照组](control-group.md)
-
->[!NOTE]
->
->在营销活动工作流的上下文中发送消息时，会在特定中定义受众 **构建受众** 工作流活动。 在此上下文中，您无法从文件加载受众以进行电子邮件投放，并且受众仅在此专用活动中定义。了解如何在的营销活动工作流中定义投放的受众 [本节](../workflows/activities/build-audience.md)
-
-## 监测受众 {#monitor}
+# 开始使用受众 {#monitor-manage}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="属性"
->abstract="您可以在此处找到受众属性的摘要，例如其来源、存储文件夹或其状态。单击&#x200B;**上一个工作流**&#x200B;部分中的链接以打开已用于创建该受众的工作流。"
+>abstract="您可以在此处找到受众属性的摘要，例如其来源或存储文件夹。 单击&#x200B;**上一个工作流**&#x200B;部分中的链接以打开已用于创建该受众的工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="您可以在此处找到受众内配置文件的总数。单击“计算”按钮以更新并重新计算受众结果。"
+>abstract="您可以在此处找到受众内配置文件的总数。单击 **计算** 按钮以更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="受众出错"
 >abstract="无受众数据可用。请等待工作流执行结束。"
 
-可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
+受众是投放的主要目标：接收消息的用户档案。 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
 
 ![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 受众可以源自多个源。 此 **[!UICONTROL Origin]** 列指示创建给定受众的位置：
 
-* **[!UICONTROL Adobe Campaign]**：这些受众是在Adobe Campaign V8控制台中创建的。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**：这些受众创建于 [Adobe Campaign Web用户界面](create-audience.md) 或在 [Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform：]** 这些受众是在Adobe Experience Platform中创建的，并使用Adobe源和目标集成集成集成到了Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform：]** 这些受众已在Adobe Experience Platform中创建，并已使用Adobe源和目标集成集成集成到Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
   ➡️ [在视频中发现此功能](#video)
-
-* **[!UICONTROL Adobe Campaign WebUI]**：这些受众是使用Campaign Web受众工作流创建的。 [了解如何创建受众](create-audience.md)
 
 要获取有关受众的更多信息，请从列表中将其打开。 此时将显示受众属性以及受众中包含的用户档案数。 您可以随时使用刷新受众计数 **[!UICONTROL 计算]** 按钮。
 
