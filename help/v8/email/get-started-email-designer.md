@@ -4,9 +4,9 @@ title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web 用户界面中的电子邮件设计器开始构建内容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
