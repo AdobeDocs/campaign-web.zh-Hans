@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 86%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 86%
 >id="acw_orchestration_split_generatesubsets"
 >title="在同一个表中生成所有子集"
 >abstract="切换该选项可将所有子集组合到单个输出过渡中。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="跳过空过渡"
+>abstract="跳过空过渡。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 

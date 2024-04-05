@@ -3,9 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2129'
 ht-degree: 76%
 
 ---
@@ -452,3 +452,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="流程错误"
 >abstract="切换 **进程错误** 用于添加包含错误的叫客过渡的选项。"
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="初始化脚本"
+>abstract="初始化脚本"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="执行属性"
+>abstract="执行属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="执行错误"
+>abstract="执行错误"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="执行初始化脚本"
+>abstract="执行初始化脚本"
