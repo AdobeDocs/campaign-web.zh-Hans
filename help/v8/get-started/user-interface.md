@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 76%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
@@ -313,14 +313,14 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="此模板处于“仅就绪”状态"
->abstract="您没有权限编辑此模板。 如果需要，请联系您的管理员以向您授予访问权限。"
+>abstract="您无权编辑此模板。如果需要，请联系您的管理员以向您授予访问权限。"
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="默认登陆页面"
->abstract="选择与此订阅服务关联的默认登陆页面。"
+>abstract="选择与此订阅服务相关的默认登陆页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -335,7 +335,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="订阅服务出站过渡"
->abstract="切换 **生成叫客过渡** 用于在活动后添加过渡的选项。"
+>abstract="切换&#x200B;**生成出站过渡**&#x200B;选项，以在活动后添加过渡。"
 
 
 <!--Update file-->
@@ -343,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="更新数据"
->abstract="此 **更新数据** 活动对数据库中的字段执行批量更新。"
+>abstract="**更新数据**&#x200B;活动会对数据库中的字段执行批量更新。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="选择如何更新数据"
->abstract="此 **操作类型** 字段用于选择要对数据库中的数据执行的流程。 选择第一个选项以添加数据或更新（如果已添加）。 您还可以仅添加数据、更新数据或删除数据。 选择 **更新并合并收藏集** 以选择要将重复项链接到的主记录，并安全地删除这些重复项。"
+>abstract="**操作类型**&#x200B;字段允许您选择对数据库中的数据执行的处理。选择第一个选项来添加数据或更新（如果已经添加）。您还可以仅添加数据、仅更新数据或删除数据。选择&#x200B;**更新和合并收藏集**，以选择要链接重复项的主要记录，然后安全地删除这些重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="记录标识"
->abstract="指定如何标识数据库中的记录：如果数据与现有的定向维度相关，请选择 **使用定向维度** 选项并选择要更新的定向维度和字段。 否则，请指定一个或多个自定义链接以标识数据库中的数据，或直接使用协调键值。"
+>abstract="指定如何识别数据库中的记录：如果数据与现有定位维度相关，请选择&#x200B;**使用定位维度**&#x200B;选项，然后选择要更新的定位维度和字段。否则，请指定一个或多个自定义链接来识别数据库中的数据，或直接使用协调键。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="选择要更新的字段"
->abstract="选择要更新和协调设置的字段。 您可以使用 **自动映射** 用于自动标识要更新的字段的选项。"
+>abstract="选择要更新的字段和协调键设置。您可以使用&#x200B;**自动映射**&#x200B;选项来自动识别要更新的字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="更新数据的高级选项"
->abstract="此 **高级选项** 部分允许您指定其他设置来管理数据和重复项。"
+>abstract="使用&#x200B;**高级选项**&#x200B;部分可以通过指定其他设置来管理数据和重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="生成出站过渡"
->abstract="切换 **生成叫客过渡** 用于添加叫客过渡的选项，该过渡将在执行结束时 **更新数据** 活动。 更新通常标记定向工作流的结尾，因此默认情况下不激活选项。"
+>abstract="切换&#x200B;**生成出站过渡**&#x200B;选项以添加出站过渡，该过渡会在&#x200B;**更新数据**&#x200B;活动执行结束时激活。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="为拒绝生成叫客过渡。"
->abstract="切换 **为拒绝生成叫客过渡** 用于添加叫客过渡的选项，该过渡包含在更新后未正确处理的记录（例如，如果存在重复项）。 更新通常标记定向工作流的结尾，因此默认情况下不激活选项。"
+>title="为拒绝内容生成出站过渡。"
+>abstract="切换&#x200B;**为拒绝内容生成出站过渡**&#x200B;选项，以添加包含更新后未正确处理的记录的出站过渡（例如，如果有重复项）。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部信号"
->abstract="此 **外部信号** 活动允许您通过API或其他工作流在工作流中触发一组任务的执行。"
+>abstract="**外部信号**&#x200B;活动可让您从 API 或另一个工作流触发工作流中一组任务的执行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,25 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 代码"
->abstract="此 **JavaScript代码** 活动在工作流上下文中执行JavaScript代码。"
+>abstract="**JavaScript 代码**&#x200B;活动在工作流上下文中执行 JavaScript 代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 代码片段"
 >abstract="配置要执行的代码。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅Campaign v8（控制台）文档以了解详情"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅 Campaign v8（控制台）文档以了解详情。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="JavaScript执行"
->abstract="默认情况下，执行阶段不能超过1小时。 在此延迟后，进程将中止，并出现一条错误消息，且活动执行失败。 切换 **在以下时间后停止执行：** 用于定义自定义延迟的选项。 要忽略此限制，请将值设置为0。"
+>title="JavaScript 执行"
+>abstract="默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。切换&#x200B;**停止执行于**&#x200B;选项来定义自定义延迟。若要忽略此限制，请将该值设置为 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="流程错误"
->abstract="切换 **进程错误** 用于添加包含错误的叫客过渡的选项。"
+>abstract="切换&#x200B;**处理错误**&#x200B;选项，以添加包含错误的出站过渡。"
+
 
 
 <!--ExtractFile-->
@@ -440,18 +441,18 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
->title="后处理"
+>title="后期处理"
 >abstract="定义后处理步骤"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
->title="叫客过渡"
->abstract="切换 **生成叫客过渡** 用于在当前活动后添加叫客过渡的选项。"
+>title="出站过渡"
+>abstract="切换&#x200B;**生成出站过渡**&#x200B;选项，以在当前活动后添加出站过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="流程错误"
->abstract="切换 **进程错误** 用于添加包含错误的叫客过渡的选项。"
+>abstract="切换&#x200B;**处理错误**&#x200B;选项，以添加包含错误的出站过渡。"
 
 <!-- Workflow settings -->
 
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="执行初始化脚本"
 >abstract="执行初始化脚本"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="增量查询"
+>abstract="增量查询"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="增量查询历史记录"
+>abstract="增量查询历史记录"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="传输文件"
+>abstract="传输文件"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="传输文件选项"
+>abstract="传输文件选项"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="传输文件活动"
+>abstract="传输文件活动"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="传输文件远程服务器"
+>abstract="传输文件远程服务器"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="传输文件源"
+>abstract="传输文件源"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="传输后删除源文件"
+>abstract="传输后删除源文件"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="显示会话日志"
+>abstract="显示会话日志"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="列出所有文件"
+>abstract="列出所有文件"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="文件历史记录"
+>abstract="文件历史记录"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="处理缺少的文件"
+>abstract="处理缺少的文件"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="流程错误"
+>abstract="流程错误"
