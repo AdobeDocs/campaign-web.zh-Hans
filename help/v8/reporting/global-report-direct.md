@@ -3,9 +3,9 @@ audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 33%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="投放排除原因"
+>title="排除的原因"
 >abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
