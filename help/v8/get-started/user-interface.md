@@ -335,7 +335,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="订阅服务出站过渡"
->abstract="切换&#x200B;**生成出站过渡**&#x200B;选项，以在活动后添加过渡。"
+>abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项，可在活动后添加过渡。"
 
 
 <!--Update file-->
@@ -348,32 +348,32 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="选择如何更新数据"
->abstract="**操作类型**&#x200B;字段允许您选择对数据库中的数据执行的处理。选择第一个选项来添加数据或更新（如果已经添加）。您还可以仅添加数据、仅更新数据或删除数据。选择&#x200B;**更新和合并收藏集**，以选择要链接重复项的主要记录，然后安全地删除这些重复项。"
+>abstract="**操作类型**&#x200B;字段允许您选择对数据库中的数据执行的处理。选择第一个选项来添加数据或更新（如果已经添加）。您还可以仅添加数据、仅更新数据或删除数据。选择&#x200B;**“更新和合并收藏集”**，即可选择要链接重复项的主要记录，然后安全地删除这些重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="记录标识"
->abstract="指定如何识别数据库中的记录：如果数据与现有定位维度相关，请选择&#x200B;**使用定位维度**&#x200B;选项，然后选择要更新的定位维度和字段。否则，请指定一个或多个自定义链接来识别数据库中的数据，或直接使用协调键。"
+>abstract="指定如何识别数据库中的记录：如果数据与现有定位维度相关，请选择&#x200B;**“使用定位维度”**&#x200B;选项，然后选择要更新的定位维度和字段。否则，请指定一个或多个自定义链接来识别数据库中的数据，或直接使用协调键。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="选择要更新的字段"
->abstract="选择要更新的字段和协调键设置。您可以使用&#x200B;**自动映射**&#x200B;选项来自动识别要更新的字段。"
+>abstract="选择要更新的字段和协调键设置。您可以使用&#x200B;**“自动映射”**&#x200B;选项来自动识别要更新的字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="更新数据的高级选项"
->abstract="使用&#x200B;**高级选项**&#x200B;部分可以通过指定其他设置来管理数据和重复项。"
+>abstract="借助&#x200B;**“高级选项”**&#x200B;部分，可以通过指定其他设置来管理数据和重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="生成出站过渡"
->abstract="切换&#x200B;**生成出站过渡**&#x200B;选项以添加出站过渡，该过渡会在&#x200B;**更新数据**&#x200B;活动执行结束时激活。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
+>abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项即可添加出站过渡，该过渡会在&#x200B;**更新数据**&#x200B;活动执行结束时激活。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="为拒绝内容生成出站过渡。"
->abstract="切换&#x200B;**为拒绝内容生成出站过渡**&#x200B;选项，以添加包含更新后未正确处理的记录的出站过渡（例如，如果有重复项）。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
+>abstract="切换&#x200B;**“为拒绝内容生成出站过渡”**&#x200B;选项，可添加包含更新后未正确处理记录的出站过渡（例如，存在重复记录）。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部信号"
->abstract="**外部信号**&#x200B;活动可让您从 API 或另一个工作流触发工作流中一组任务的执行。"
+>abstract="借助&#x200B;**外部信号**&#x200B;活动，您可以从 API 或另一个工作流触发工作流中一组任务的执行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -407,18 +407,18 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 代码片段"
 >abstract="配置要执行的代码。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅 Campaign v8（控制台）文档以了解详情。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅 Campaign v8（控制台）文档了解详情。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 执行"
->abstract="默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。切换&#x200B;**停止执行于**&#x200B;选项来定义自定义延迟。若要忽略此限制，请将该值设置为 0。"
+>abstract="默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。切换&#x200B;**“停止执行于”**&#x200B;选项来定义自定义延迟。若要忽略此限制，请将该值设置为 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="流程错误"
->abstract="切换&#x200B;**处理错误**&#x200B;选项，以添加包含错误的出站过渡。"
+>abstract="切换&#x200B;**“处理错误”**&#x200B;选项，可添加包含错误的出站过渡。"
 
 
 
@@ -441,18 +441,18 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
->title="后期处理"
+>title="后处理"
 >abstract="定义后处理步骤"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="出站过渡"
->abstract="切换&#x200B;**生成出站过渡**&#x200B;选项，以在当前活动后添加出站过渡。"
+>abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项，可在当前活动后添加出站过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="流程错误"
->abstract="切换&#x200B;**处理错误**&#x200B;选项，以添加包含错误的出站过渡。"
+>abstract="切换&#x200B;**“处理错误”**&#x200B;选项，可添加包含错误的出站过渡。"
 
 <!-- Workflow settings -->
 
