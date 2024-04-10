@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 94%
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
-      + [设计Android富推送投放](push/rich-push.md)
+      + [设计一个 Android 丰富的推送投放](push/rich-push.md)
       + [设计推送投放](push/content-push.md)
       + [预览并发送推送投放](push/send-push.md)
    + 短信 {#sms}

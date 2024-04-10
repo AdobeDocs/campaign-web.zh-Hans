@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 **目录**
 
-* [AI助手入门](generative-gs.md)
+* [开始使用 AI 助手](generative-gs.md)
 * **[使用AI助手生成电子邮件](generative-content.md)**
 * [使用AI助手生成短信](generative-sms.md)
 * [使用AI助手生成推送通知](generative-push.md)

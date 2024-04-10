@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 42%
+ht-degree: 47%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="导入后删除文件"
->abstract="切换 **导入后删除文件** 在导入文件后从服务器中删除原始文件。"
+>abstract="切换&#x200B;**导入后删除文件**，以在导入文件后从服务器中删除原始文件。"
 
  **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段都可用于 [个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 

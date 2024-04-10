@@ -5,10 +5,11 @@ description: Campaign中的AI助手入门
 badge: label="Beta 版"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 5%
 
 **目录**
 
-* [AI助手入门](generative-gs.md)
+* [开始使用 AI 助手](generative-gs.md)
 * [使用AI助手生成电子邮件](generative-content.md)
 * **[使用AI助手生成短信](generative-sms.md)**
 * [使用AI助手生成推送通知](generative-push.md)
