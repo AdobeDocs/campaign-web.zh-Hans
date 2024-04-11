@@ -348,7 +348,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="选择如何更新数据"
->abstract="**操作类型**&#x200B;字段允许您选择对数据库中的数据执行的处理。选择第一个选项来添加数据或更新（如果已经添加）。您还可以仅添加数据、仅更新数据或删除数据。选择&#x200B;**“更新和合并收藏集”**，即可选择要链接重复项的主要记录，然后安全地删除这些重复项。"
+>abstract="通过&#x200B;**操作类型**&#x200B;字段，您可以选择对数据库中的数据执行的处理过程。选择第一个选项来添加数据或更新（如果已经添加）。您还可以仅添加数据、仅更新数据或删除数据。选择&#x200B;**“更新和合并收藏集”**，即可选择要链接重复项的主要记录，然后安全地删除这些重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
@@ -363,7 +363,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="更新数据的高级选项"
->abstract="借助&#x200B;**“高级选项”**&#x200B;部分，可以通过指定其他设置来管理数据和重复项。"
+>abstract="通过&#x200B;**“高级选项”**&#x200B;分区，您可以指定其他设置以管理数据和重复项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
