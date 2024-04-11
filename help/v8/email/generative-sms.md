@@ -6,23 +6,23 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 6%
+source-wordcount: '473'
+ht-degree: 10%
 
 ---
 
-# 使用AI助手生成短信 {#generative-sms}
+# 使用 AI 助手生成短信 {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
 * [开始使用 AI 助手](generative-gs.md)
-* [使用AI助手生成电子邮件](generative-content.md)
+* [使用 AI 助手生成电子邮件](generative-content.md)
 * **[使用AI助手生成短信](generative-sms.md)**
-* [使用AI助手生成推送通知](generative-push.md)
+* [使用 AI 助手生成推送通知](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -46,35 +46,42 @@ ht-degree: 6%
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. 启用 **[!UICONTROL 使用原始内容]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
+
+   >[!IMPORTANT]
+   >
+   > 您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
+
 1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
 
    如果您在制作提示时需要帮助，请访问 **[!UICONTROL 提示库]** 其中提供了多种旨在改进交付的即时想法。
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. 启用 **[!UICONTROL 使用当前上下文增强]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
-
-   >[!IMPORTANT]
-   >
-   > 您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
-
 1. 选择 **[!UICONTROL 上传品牌资产]** 添加任何品牌资产，其中包含可为AI助手提供其他上下文的内容。
 
-1. 选择 **[!UICONTROL 沟通策略]** 最符合你的需要。 这将影响生成的文本的色调和样式。
+1. 使用不同的选项定制提示：
 
-1. 选择 **[!UICONTROL 语言]** 和 **[!UICONTROL 色调]** 您希望生成的文本包含。 这将确保文本适合您的受众和用途。
+   * **[!UICONTROL 沟通策略]**：为生成的文本选择所需的通信方法。
+   * **[!UICONTROL 语言]**：选择变体内容的语言。
+   * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
+   * **[!UICONTROL 长]**：使用范围滑块选择内容的长度。
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. 使用滑块控件设置生成的文本的长度。
-
 1. 提示就绪后，单击 **[!UICONTROL 生成]**.
 
-1. 浏览生成的页面 **[!UICONTROL 变体]** 并单击 **[!UICONTROL 应用]** 找到相应的内容后。
+1. 浏览生成的页面 **[!UICONTROL 变体]** 并单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
 
-   单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
+1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 窗口访问其他自定义功能并微调变体到您的首选项：
+
+   * **简化语言**：AI助手帮助您编写每个人都能理解的清晰、简洁的消息。
+
+   * **重新短语**：AI Assistant会重述您的消息，以使内容可吸引不同受众。
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. 单击 **[!UICONTROL 选择]** 找到相应的内容后。
 
 1. 插入个性化字段，以根据用户档案数据自定义短信内容。 [详细了解内容个性化](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ ht-degree: 6%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 定义内容、受众和计划后，便可以准备短信投放。 [了解详情](../monitor/prepare-send.md)
+定义内容、受众和计划后，便可以准备短信投放。 [了解详情](../monitor/prepare-send.md)

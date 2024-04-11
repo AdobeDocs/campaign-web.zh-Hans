@@ -6,33 +6,42 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
-# 使用AI助手生成推送通知 {#generative-push}
+# 使用 AI 助手生成推送通知 {#generative-push}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
 * [开始使用 AI 助手](generative-gs.md)
-* [使用AI助手生成电子邮件](generative-content.md)
-* [使用AI助手生成短信](generative-sms.md)
+* [使用 AI 助手生成电子邮件](generative-content.md)
+* [使用 AI 助手生成短信](generative-sms.md)
 * **[使用AI助手生成推送通知](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-创建并个性化电子邮件后，使用由创作AI提供支持的Campaign中的AI助手将您的内容提升到新的水平。
 
 AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
+
+使用AI助手，可以将您的内容提升到新的高度。 例如，它可用于：
+
+* **总结**：将冗长的内容压缩为推送通知的简洁摘要。 直接切入正题，确保收件人能立即掌握关键信息。
+* **详细**：展开推送通知中的主题，提供其他详细信息和上下文以更好地理解。
+* **简化语言**：使用简洁明了的语言，使更广泛的受众能够访问您的推送通知。
+* **重新短语**：通过让AI助手以不同的方式重新命名您的消息，避免重复
+* **更改色调**：更改推送通知的情绪化基调。 无论您想听起来是信息性的、玩笑的还是紧急的，AI助手都可以相应地调整消息。
 
 >[!NOTE]
 >
 >在开始使用此功能之前，请阅读相关内容 [护栏和限制](generative-gs.md#guardrails-and-limitations).
+
+在以下示例中，我们将利用AI助手制作引人入胜的消息来打造更引人入胜的客户体验。
 
 1. 创建和配置推送通知投放后，单击 **[!UICONTROL 编辑内容]**.
 
@@ -87,3 +96,4 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 定义内容、受众和计划后，便可以准备推送投放。 [了解详情](../monitor/prepare-send.md)
+

@@ -6,9 +6,9 @@ badge: label="Beta 版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '599'
 ht-degree: 40%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 40%
 **目录**
 
 * **[AI助手入门](generative-gs.md)**
-* [使用AI助手生成电子邮件](generative-content.md)
-* [使用AI助手生成短信](generative-sms.md)
-* [使用AI助手生成推送通知](generative-push.md)
+* [使用 AI 助手生成电子邮件](generative-content.md)
+* [使用 AI 助手生成短信](generative-sms.md)
+* [使用 AI 助手生成推送通知](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ ht-degree: 40%
 >abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
-AI助手是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
+由Azure OpenAI和Azure AI Vision提供支持的AI助手是改进电子邮件内容的宝贵工具。 它简化了个性化和内容增强，优化了电子邮件投放以更好地与受众引起共鸣。
 
 此功能通过自动生成完整的电子邮件内容来节省时间并确保一致的质量。 通过使用Generative AI，您可以轻松创建引人注目的电子邮件，从而提高沟通的有效性和效率。
 
@@ -60,7 +60,8 @@ AI助手是改进电子邮件内容的宝贵工具。 它简化了个性化和�
 * 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的建议大小小于50MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
 * 最好使用Adobe Campaign创作的电子邮件模板 [内置电子邮件模板](../email/create-email-templates.md)，用于创建电子邮件内容的特定于品牌的模板或自定义模板。 建议使用最多包含8至10张图像的电子邮件模板。
-
+* 选择变体时，请确保使用向上缩略图、向下缩略图或标记图标报告任何有问题的输出。
+* 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 以下限制适用于Campaign中的AI助手：
 
@@ -68,8 +69,6 @@ AI助手是改进电子邮件内容的宝贵工具。 它简化了个性化和�
 * 仅适用于电子邮件、推送和短信渠道。
 * GenAI内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
 * 您可以上传多个品牌资产，但只能为特定世代利用一个。
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
