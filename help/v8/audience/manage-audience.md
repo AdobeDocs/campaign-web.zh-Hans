@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="您可以在此处找到受众内配置文件的总数。单击&#x200B;**计算**&#x200B;按钮以更新并重新计算受众结果。"
+>abstract="您可以在此处找到受众内配置文件的总数。单击&#x200B;**“计算”**&#x200B;按钮，可更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
