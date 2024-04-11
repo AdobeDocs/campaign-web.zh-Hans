@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 95%
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
-      + [设计一个 Android 丰富的推送投放](push/rich-push.md)
+      + [设计 Android 富推送投放](push/rich-push.md)
       + [设计推送投放](push/content-push.md)
       + [预览并发送推送投放](push/send-push.md)
    + 短信 {#sms}
@@ -76,11 +76,11 @@ ht-degree: 95%
       + [创建直邮投放](direct-mail/create-direct-mail.md)
       + [设计提取文件](direct-mail/content-direct-mail.md)
       + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
-   + AI助手 {#ai-assistant}
+   + AI 助手 {#ai-assistant}
       + [开始使用 AI 助手](email/generative-gs.md)
-      + [使用AI助手生成电子邮件](email/generative-content.md)
-      + [使用AI助手生成短信](email/generative-sms.md)
-      + [使用AI助手生成推送通知](email/generative-push.md)
+      + [使用 AI 助手生成电子邮件](email/generative-content.md)
+      + [使用 AI 助手生成短信](email/generative-sms.md)
+      + [使用 AI 助手生成推送通知](email/generative-push.md)
    + 将内容设置为动态内容 {#dynamic-content}
       + [动态内容入门](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
@@ -112,7 +112,7 @@ ht-degree: 95%
       + [开始使用受众](audience/manage-audience.md)
       + [创建受众](audience/create-audience.md)
    + 选择您的投放收件人 {#target-audiences}
-      + [受众选择入门](audience/delivery-recipients.md)
+      + [开始选择受众](audience/delivery-recipients.md)
       + [选择现有受众](audience/add-audience.md)
       + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载电子邮件受众](audience/file-audience.md)

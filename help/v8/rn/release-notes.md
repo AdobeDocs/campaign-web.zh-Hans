@@ -3,9 +3,9 @@ title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 >
 >此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级的更多信息。
 
-## 3月发行说明 {#24-3-release}
+## 3 月发行说明 {#24-3-release}
 
 **发布日期**：2024 年 3 月 19–20 日
 
