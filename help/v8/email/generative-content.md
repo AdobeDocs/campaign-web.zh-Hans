@@ -6,7 +6,7 @@ badge: label="Beta 版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 5%
@@ -81,9 +81,9 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 用于访问其他自定义功能的窗口：
 
-   * **重新短语**： AI助手可以通过不同的方式重新声明您的消息，以使您的撰写保持新鲜，并吸引各种受众。
+   * **[!UICONTROL 重新短语]**： AI助手可以通过不同的方式重新声明您的消息，以使您的撰写保持新鲜，并吸引各种受众。
 
-   * **使用简单语言**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
+   * **[!UICONTROL 使用简单语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
