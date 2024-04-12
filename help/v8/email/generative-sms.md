@@ -6,7 +6,7 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 10%
@@ -65,7 +65,7 @@ ht-degree: 10%
    * **[!UICONTROL 沟通策略]**：为生成的文本选择所需的通信方法。
    * **[!UICONTROL 语言]**：选择变体内容的语言。
    * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
-   * **[!UICONTROL 长]**：使用范围滑块选择内容的长度。
+   * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
