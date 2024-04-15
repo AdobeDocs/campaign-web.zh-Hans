@@ -3,9 +3,9 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 47%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 47%
 
 按照以下步骤配置 **加载文件** 活动：
 
-1. 拖放 **加载文件** 活动添加到工作流中。 单击 **从文件选择** 按钮。
+1. 添加 **加载文件** 活动添加到工作流中。 单击 **从文件选择** 按钮。
 
 1. 选择要使用的本地文件。 格式必须与此对齐 [示例文件](../../audience/file-audience.md#sample-file).
 

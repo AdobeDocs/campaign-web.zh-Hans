@@ -3,9 +3,9 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 44%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 44%
 
 按照以下步骤配置 **调解** 活动：
 
-1. 拖放 **调解** 活动添加到工作流中。 应在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后添加此活动。
+1. 添加 **调解** 活动添加到工作流中。 应在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后添加此活动。
 
 1. 选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions).
 
