@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
 source-wordcount: '2209'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -539,8 +539,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="处理缺少的文件"
->abstract="处理缺少的文件"
+>title="处理缺失的文件"
+>abstract="处理缺失的文件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
