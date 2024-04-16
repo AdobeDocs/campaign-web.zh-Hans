@@ -3,16 +3,16 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2015'
 ht-degree: 55%
 
 ---
 
 # 编辑表达式 {#expression}
 
-编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
+编辑表达式需要手动输入条件以形成规则。 利用此模式，可使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
 >[!IMPORTANT]
 >

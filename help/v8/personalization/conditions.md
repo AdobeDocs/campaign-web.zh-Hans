@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 通过配置条件内容字段，您可以根据收件人的用户档案创建高级动态个性化。 当满足特定条件时，在消息内容中替换文本块、链接、主题行和/或图像。 例如，您可以根据Adobe Campaign数据库中“性别”字段的值显示“先生”或“夫人”，或根据收件人的首选语言包含其他链接。
 
-要创建条件内容，您需要在 **表达式编辑器** 使用特定的辅助函数。 此方法适用于所有投放渠道，以及可访问表达式编辑器的任何字段，例如主题行或电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
+要创建条件内容，您需要在 **表达式编辑器** 使用特定的辅助函数。 此方法适用于所有投放渠道，以及可访问表达式编辑器的任何字段，例如主题行或电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md#access)
 
 除了表达式编辑器之外，您还可以利用专用的 **条件内容生成器** 在设计允许您为电子邮件正文的某个元素创建多个变体的电子邮件时。 [了解如何在电子邮件中创建条件内容](#condition-condition-builder)
 
