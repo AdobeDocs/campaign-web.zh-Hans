@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn4"
 >title="新的电子邮件设计器"
 >abstract="利用营销活动电子邮件设计器，可通过直观的拖放界面创建令人着迷、个别定制的电子邮件。无论是从头开始、导入现有内容还是利用现有模板，均可设计并细化每封电子邮件的所有内容！"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 

@@ -16,7 +16,7 @@ ht-degree: 27%
 >id="acw_homepage_welcome_rn2"
 >title="更改数据源"
 >abstract="使用新的更改数据源工作流定位活动来更改工作流工作表使用的数据源。这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

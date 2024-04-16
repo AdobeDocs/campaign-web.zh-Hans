@@ -16,7 +16,7 @@ ht-degree: 32%
 >id="acw_homepage_welcome_rn1"
 >title="直邮"
 >abstract="直邮渠道现在可用于工作流和独立投放。使用直邮离线渠道创建、个性化设置和生成提取文件，并与直邮提供商共享，向客户发送邮件。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 
 直邮是一种线下渠道，允许您生成文件以向客户批量投放个性化信件，如明信片、传单或目录。

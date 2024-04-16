@@ -17,7 +17,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn5"
 >title="登陆页面"
 >abstract="探索新的登陆页面体验。即时创建、设计和共享登陆页面，以将用户引导至在线网页，可在其中根据内置模板管理客户获取、订阅/取消订阅和阻止列表用例。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 借助 [!DNL Adobe Campaign]，您可以创建、设计和共享登陆页面。
 
