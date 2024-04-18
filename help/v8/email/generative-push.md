@@ -6,9 +6,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '485'
 ht-degree: 9%
 
 ---
@@ -29,14 +29,6 @@ ht-degree: 9%
 
 AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
-使用AI助手，可以将您的内容提升到新的高度。 例如，它可用于：
-
-* **总结**：将冗长的内容压缩为推送通知的简洁摘要。 直接切入正题，确保收件人能立即掌握关键信息。
-* **详细**：展开推送通知中的主题，提供其他详细信息和上下文以更好地理解。
-* **简化语言**：使用简洁明了的语言，使更广泛的受众能够访问您的推送通知。
-* **重新短语**：通过让AI助手以不同的方式重新命名您的消息，避免重复
-* **更改色调**：更改推送通知的情绪化基调。 无论您想听起来是信息性的、玩笑的还是紧急的，AI助手都可以相应地调整消息。
-
 >[!NOTE]
 >
 >在开始使用此功能之前，请阅读相关内容 [护栏和限制](generative-gs.md#guardrails-and-limitations).
@@ -55,13 +47,7 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
-
-   如果您在制作提示时需要帮助，请访问 **[!UICONTROL 提示库]** 其中提供了多种旨在改进交付的即时想法。
-
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. 启用 **[!UICONTROL 使用当前上下文增强]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
+1. 启用 **[!UICONTROL 使用原始内容]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
 
    >[!IMPORTANT]
    >
@@ -69,31 +55,41 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
+1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
+
+   如果您在制作提示时需要帮助，请访问 **[!UICONTROL 提示库]** 其中提供了多种旨在改进交付的即时想法。
+
+   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+
 1. 选择 **[!UICONTROL 上传品牌资产]** 添加任何品牌资产，其中包含可为AI助手提供其他上下文的内容。
 
 1. 选择要生成的字段： **[!UICONTROL 标题]**， **[!UICONTROL 子标题]** 或 **[!UICONTROL 消息]**.
 
-1. 选择 **[!UICONTROL 沟通策略]** 最符合你的需要。 这将影响生成的文本的色调和样式。
+1. 使用不同的选项定制提示：
 
-1. 选择 **[!UICONTROL 语言]** 和 **[!UICONTROL 色调]** 您希望生成的文本包含。 这将确保文本适合您的受众和用途。
+   * **[!UICONTROL 沟通策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 语言]**：选择您希望生成内容的语言。
+   * **[!UICONTROL 色调]**：电子邮件的基调应该会引起受众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
    ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 提示就绪后，单击 **[!UICONTROL 生成]**.
 
-1. 浏览生成的页面 **[!UICONTROL 变体]** 并单击 **[!UICONTROL 应用]** 找到相应的内容后。
+1. 浏览生成的页面 **[!UICONTROL 变体]** 并单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
 
-   单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
+1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 用于访问其他自定义功能的窗口：
+
+   * **[!UICONTROL 重新短语]**： AI助手可以通过不同的方式重新声明您的消息，以使您的撰写保持新鲜，并吸引各种受众。
+
+   * **[!UICONTROL 使用简单语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. 插入个性化字段以根据用户档案数据自定义推送内容。 [详细了解内容个性化](../personalization/personalize.md)
+1. 单击 **[!UICONTROL 选择]** 找到相应的内容后。
+
+1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击 **[!UICONTROL 模拟内容]** 按钮来控制渲染，并使用测试用户档案检查个性化设置。 [了解详情](../preview-test/preview-content.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮来控制渲染，并使用测试用户档案检查个性化设置。 [了解详情](../preview-test/preview-content.md)
-
-   ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
-
-1. 定义内容、受众和计划后，便可以准备推送投放。 [了解详情](../monitor/prepare-send.md)
+定义内容、受众和计划后，便可以准备推送投放。 [了解详情](../monitor/prepare-send.md)
 
