@@ -3,7 +3,7 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 69%
@@ -58,7 +58,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 选择&#x200B;**创建您自己的（查询）**。
 1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 1. 单击&#x200B;**继续**。
-1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../audience/../query/query-modeler-overview.md)
+1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
 >[!TAB 读取受众]
 
