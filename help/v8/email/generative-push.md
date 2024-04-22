@@ -6,9 +6,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 9%
 * **[使用AI助手生成推送通知](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
@@ -51,7 +50,7 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
 
    >[!IMPORTANT]
    >
-   > 您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
+   > 您的提示必须始终与当前内容绑定。
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 

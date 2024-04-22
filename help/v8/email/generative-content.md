@@ -6,9 +6,9 @@ badge: label="Beta 版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1351'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 启用 **[!UICONTROL 使用原始内容]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
 
-   您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
+   您的提示必须始终与当前内容绑定。
 
 1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
 
@@ -109,7 +109,7 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 启用 **[!UICONTROL 使用原始内容]** AI助手选项，用于根据投放、投放名称和所选受众来个性化新内容。
 
-   您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
+   您的提示必须始终与当前内容绑定。
 
 1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
 

@@ -6,9 +6,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '461'
 ht-degree: 10%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 10%
 
    >[!IMPORTANT]
    >
-   > 您的提示必须始终通过上传品牌资产或启用 **[!UICONTROL 增强当前内容]** 选项。
+   > 您的提示必须始终与当前内容绑定。
 
 1. 通过描述您要在 **[!UICONTROL 提示]** 字段。
 
