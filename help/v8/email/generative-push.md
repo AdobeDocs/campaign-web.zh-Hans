@@ -6,10 +6,10 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 9%
+source-wordcount: '490'
+ht-degree: 8%
 
 ---
 
@@ -78,9 +78,11 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
 
 1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 用于访问其他自定义功能的窗口：
 
+   * **[!UICONTROL 用作参考内容]**：所选变量将用作生成其他结果的参考内容。
+
    * **[!UICONTROL 重新短语]**： AI助手可以通过不同的方式重新声明您的消息，以使您的撰写保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用简单语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

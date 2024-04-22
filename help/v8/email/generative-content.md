@@ -6,9 +6,9 @@ badge: label="Beta 版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1368'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,11 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 用于访问其他自定义功能的窗口：
 
+   * **[!UICONTROL 用作参考内容]**：所选变量将用作生成其他结果的参考内容。
+
    * **[!UICONTROL 重新短语]**： AI助手可以通过不同的方式重新声明您的消息，以使您的撰写保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用简单语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 用于访问其他自定义功能的窗口：
 
-   * **用作参考内容**：所选变量将用作生成其他结果的参考内容。
+   * **[!UICONTROL 用作参考内容]**：所选变量将用作生成其他结果的参考内容。
 
-   * **详细**：AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
+   * **[!UICONTROL 详细]**：AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
 
-   * **总结**：过长的信息可能会使电子邮件收件人过载。 使用AI Assistant将要点整合为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+   * **[!UICONTROL 总结]**：过长的信息可能会使电子邮件收件人过载。 使用AI Assistant将要点整合为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
-   * **重新短语**：AI Assistant可以通过不同的方式重新表述您的消息，保持您写作的新鲜度并吸引各种受众。
+   * **[!UICONTROL 重新短语]**：AI Assistant可以通过不同的方式重新表述您的消息，保持您写作的新鲜度并吸引各种受众。
 
-   * **使用简单语言**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易用的功能。
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

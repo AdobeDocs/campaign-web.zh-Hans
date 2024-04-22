@@ -6,9 +6,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '479'
 ht-degree: 10%
 
 ---
@@ -75,9 +75,11 @@ ht-degree: 10%
 
 1. 导航至 **[!UICONTROL 优化]** 内的选项 **[!UICONTROL 预览]** 窗口访问其他自定义功能并微调变体到您的首选项：
 
-   * **简化语言**：AI助手帮助您编写每个人都能理解的清晰、简洁的消息。
+   * **[!UICONTROL 用作参考内容]**：所选变量将用作生成其他结果的参考内容。
 
-   * **重新短语**：AI Assistant会重述您的消息，以使内容可吸引不同受众。
+   * **[!UICONTROL 使用更简单的语言]**：AI助手帮助您编写每个人都能理解的清晰、简洁的消息。
+
+   * **[!UICONTROL 重新短语]**：AI Assistant会重述您的消息，以使内容可吸引不同受众。
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
