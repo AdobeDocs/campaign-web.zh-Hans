@@ -4,9 +4,9 @@ title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -494,33 +494,33 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="传输文件"
->abstract="传输文件"
+>title="转移文件"
+>abstract="转移文件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="传输文件选项"
->abstract="传输文件选项"
+>title="转移文件选项"
+>abstract="转移文件选项"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="传输文件活动"
->abstract="传输文件活动"
+>title="转移文件活动"
+>abstract="转移文件活动"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="传输文件远程服务器"
->abstract="传输文件远程服务器"
+>title="转移文件远程服务器"
+>abstract="转移文件远程服务器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="传输文件源"
->abstract="传输文件源"
+>title="转移文件源"
+>abstract="转移文件源"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="传输后删除源文件"
->abstract="传输后删除源文件"
+>title="转移后删除源文件"
+>abstract="转移后删除源文件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
@@ -551,8 +551,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="投放警报标准仪表板"
->abstract="投放警报标准仪表板"
+>title="投放提醒标准仪表板"
+>abstract="投放提醒标准仪表板"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
@@ -561,18 +561,18 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="创建投放警报标准"
->abstract="创建投放警报标准"
+>title="创建投放提醒条件"
+>abstract="创建投放提醒条件"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
->title="添加到警报中的指标"
->abstract="添加到警报中的指标"
+>title="添加到提醒中的指标"
+>abstract="添加到提醒中的指标"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
->title="警报类型"
->abstract="警报类型"
+>title="提醒类型"
+>abstract="提醒类型"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
@@ -586,20 +586,20 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="投放警报常规参数"
+>title="投放提醒通用参数"
 >abstract="投放提醒"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="投放警报标准参数"
+>title="投放提醒条件参数"
 >abstract="投放提醒"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
->title="已发送投放警报"
->abstract="已发送投放警报"
+>title="已发送投放提醒"
+>abstract="已发送投放提醒"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
->title="投放警报历史记录"
->abstract="投放警报历史记录"
+>title="投放提醒历史记录"
+>abstract="投放提醒历史记录"
