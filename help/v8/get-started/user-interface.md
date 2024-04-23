@@ -4,7 +4,7 @@ title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
->title="最近访问"
+>title="最近项目"
 >abstract="**最近项目**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。"
 
 通过 Campaign 主页，可快速轻松地浏览关键资源、指标和组件。
