@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接�
 
 >[!NOTE]
 >
->虽然其中的某些活动仅在客户端控制台中可用，但在 Campaign Web 用户界面中也可进行部分活动，例如&#x200B;**扩充**、**加载文件**、**更改数据源**&#x200B;或&#x200B;**更改维度**&#x200B;活动。[了解关于 Campaign Web 用户界面中的定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
+>虽然其中的某些活动仅在客户端控制台中可用，但在 Campaign Web 用户界面中也可进行部分活动，例如&#x200B;**扩充**、**加载文件**、**更改数据源**&#x200B;或&#x200B;**更改维度**&#x200B;活动。[在Campaign Web用户界面中了解关于定位和数据管理活动的更多信息](../workflows/activities/about-activities.md#targeting)
 
 ### 联合数据访问配置 {#fda}
 

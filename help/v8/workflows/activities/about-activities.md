@@ -3,7 +3,7 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -62,6 +62,6 @@ ht-degree: 35%
 overview: what they're used for
 which use case you can perform with them
 
-list available activites + short description + ref to section
+list available activities + short description + ref to section
 -->
 

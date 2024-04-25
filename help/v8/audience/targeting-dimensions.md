@@ -2,7 +2,7 @@
 title: 定位维度
 description: 了解有关在Adobe Campaign Web中定位维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 14%
