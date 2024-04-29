@@ -5,8 +5,8 @@ description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '855'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动过滤器"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
