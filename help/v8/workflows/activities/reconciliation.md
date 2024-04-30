@@ -54,7 +54,7 @@ ht-degree: 44%
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
 >abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
