@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文档更新](rn/documentation-updates.md)
+   + [Campaign Standard过渡到Campaign v8](rn/acs-migration.md)
 + Adobe Campaign 入门{#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 100%
       + [重复数据删除](workflows/activities/deduplication.md)
       + [电子邮件、短信、推送、直邮](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
+      + [外部信号](workflows/activities/external-signal.md)
+      + [提取文件](workflows/activities/extract-file.md)
       + [分叉](workflows/activities/fork.md)
+      + [增量查询](workflows/activities/incremental-query.md)
+      + [JavaScript 代码](workflows/activities/javascript-code.md)
       + [加载文件](workflows/activities/load-file.md)
       + [协调](workflows/activities/reconciliation.md)
       + [保存受众](workflows/activities/save-audience.md)
       + [调度程序](workflows/activities/scheduler.md)
       + [拆分](workflows/activities/split.md)
+      + [订阅服务](workflows/activities/subscription-services.md)
+      + [测试](workflows/activities/test.md)
+      + [转移文件](workflows/activities/transfer-file.md)
+      + [更新数据](workflows/activities/update-data.md)
       + [等待](workflows/activities/wait.md)
 + 查询数据库 {#query-database}
    + [使用查询建模器](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [与其他 Adobe 解决方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
++ 管理 {#administration}
+   + [配置自定义字段](administration/custom-fields.md)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 30%
+source-wordcount: '1067'
+ht-degree: 29%
 
 ---
 
@@ -103,3 +103,8 @@ ht-degree: 30%
    * **[!UICONTROL 中止进程]**：工作流将自动停止，其状态将更改为 **[!UICONTROL 失败]**. 问题解决后，请使用重新启动工作流 **[!UICONTROL 开始]** 按钮。
 
 * **[!UICONTROL 连续错误]**：当满足以下条件时，此字段将变为可用 **[!UICONTROL 忽略]** 值在 **[!UICONTROL 发生错误时]** 字段。 您可以指定在流程停止前可忽略的错误的数量。一旦达到此数量，工作流状态将更改为 **[!UICONTROL 失败]**. 如果此字段的值为 0，则无论错误数量是多少，工作流都绝不会停止。
+
+## 初始化脚本 {#initialization-script}
+
+此 **初始化脚本** 用于初始化变量或修改活动属性。 单击 **编辑代码** 按钮并键入要执行的代码片段。 工作流执行时将调用脚本。 请参阅与 [事件变量](../workflows/event-variables.md).
+

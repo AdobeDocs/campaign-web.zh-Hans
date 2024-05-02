@@ -3,10 +3,10 @@ audience: end-user
 title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,29 @@ ht-degree: 100%
 
 1. 选择一个元素，并单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
+1. 选择要创建的链接类型：
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 外部链接]**：插入指向外部URL的链接。
+
+     >[!AVAILABILITY]
+     >
+     >以下功能(链接到 **[!UICONTROL 登陆页面]**， **[!UICONTROL 订阅链接]** 和 **[!UICONTROL 退订链接]**)在有限可用性(LA)中。 它们仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+
+   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 如果您选择动态登陆页面(使用 **[!UICONTROL 来自URL的服务]** 选项)，您可以从列表中选择任何服务。 [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 订阅链接]**：插入指向订阅服务的链接。 当用户单击该链接时，将被定向到所选服务中引用的订阅登陆页面。 [了解详情](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 退订链接]**：插入指向退订服务的链接。 当订阅者单击该链接时，将被定向到所选服务中引用的退订登陆页面。 [了解详情](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. 在相应字段中输入所需的URL，或者选择登陆页面或服务，然后定义链接设置和样式。
 
 1. 添加&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 链接]**。
 
@@ -41,7 +63,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。邮件类别（**[!UICONTROL 营销]**&#x200B;或&#x200B;**[!UICONTROL 事务性]**）在渠道表面（即邮件预设）级别以及创建邮件时进行定义。
+>营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)在渠道平面级别和创建消息时定义。
 
 应在所有电子邮件中添加指向镜像页面的特定链接。在[此章节](mirror-page.md)中详细了解镜像页面。
 
