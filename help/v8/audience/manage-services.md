@@ -3,10 +3,10 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '1074'
+ht-degree: 31%
 
 ---
 
@@ -53,6 +53,11 @@ ht-degree: 34%
 >title="选择确认消息"
 >abstract="当用户订阅服务或从服务取消订阅时，您可发送确认消息。选择用于该消息的模板。"
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="默认登陆页面"
+>abstract="选择与此服务关联的默认登陆页面。"
+
 要创建订阅服务，请执行以下步骤。
 
 1. 选择 **[!UICONTROL 创建订阅服务]** 按钮。
@@ -81,9 +86,25 @@ ht-degree: 34%
 
 1. 单击 **[!UICONTROL 保存并审阅]**. 新服务将添加到 **[!UICONTROL 订阅服务]** 列表。
 
+1. 您还可以选择与此服务关联的默认订阅和退订登陆页面。
+
+   >[!AVAILABILITY]
+   >
+   >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   完成后，当 [插入链接](../email/message-tracking.md) 在电子邮件中，选择 **[!UICONTROL 订阅链接]** 或 **[!UICONTROL 退订链接]**. 单击该链接后，用户将被定向到服务中引用的订阅或退订登陆页面。 <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. 保存并查看更改。
+
 您现在可以：
 
-* 将订阅者添加到此服务，并取消订阅用户档案。 [了解详情](../msg/send-to-subscribers.md)
+* 手动将订阅者添加到此服务，并取消订阅用户档案。 [了解详情](../audience/manage-subscribers.md)
+
+* 通过登陆页面邀请您的客户订阅此服务。 [了解详情](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * 向此服务的订阅者发送消息。 [了解如何操作](../msg/send-to-subscribers.md)
 

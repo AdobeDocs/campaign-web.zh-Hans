@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 86%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动过滤器"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -55,7 +55,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="跳过空过渡"
->abstract="跳过空过渡。"
+>abstract="切换 **[!UICONTROL 跳过空过渡]** 选项启用，以在传入群体为空时禁用此子集的输出过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ ht-degree: 86%
    1. 要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包含来自其电子邮件地址存在于数据库中的传入群体的用户档案。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
    1. 要限制子集所选的配置文件的数量，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包含的群体的数量或百分比。
+
+   1. 要在传入群体为空时禁用过渡，请切换 **[!UICONTROL 跳过空过渡]** 选项启用。 如果没有与子集匹配的用户档案，则工作流将不会转换为下一个活动。
 
       ![](../assets/workflow-split-subset.png)
 
