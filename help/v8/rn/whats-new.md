@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -100,10 +100,10 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**受 AI 助力的上下文帮助**
-
-直接从产品用户界面提问并寻求指导。新的&#x200B;**受 AI 助力的上下文帮助**&#x200B;可帮助您学习和提升有关新 Campaign 功能的专业知识。根据最新的产品文档，在您构建用例时，它帮助您立即寻求帮助并获得分步指导。此功能当前处于 Beta 阶段，仅对少数用户开放。可在[此部分](../get-started/using-ai.md)中了解详情。
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **预定义过滤器**
 
@@ -129,6 +129,8 @@ Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器
 使用 Campaign Web 用户界面时，用户界面将反映用户的权限。可在[此页面](../get-started/permissions.md)中详细了解权限。
 
 要了解 Campaign Web 用户界面和 Campaign 客户端控制台支持/不支持的功能以及两者之间的互操作性，请参阅[此页面](../get-started/capability-matrix.md)。
+
+作为过渡到Campaign v8的Campaign Standard用户， [请参阅此页面](../rn/acs-migration.md).
 
 ## 术语更新 {#terminology-updates}
 
