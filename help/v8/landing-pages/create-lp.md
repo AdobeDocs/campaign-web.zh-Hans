@@ -3,10 +3,10 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 30%
+source-wordcount: '1504'
+ht-degree: 27%
 
 ---
 
@@ -61,7 +61,9 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="定义预加载选项"
->abstract="在选中&#x200B;**预先填入在表格中引用的数据**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。在选中&#x200B;**如果没有 ID，则跳过预先加载**&#x200B;选项后，每个输入的配置文件都将在表单获批后被添加到数据库。"
+>abstract="在选中&#x200B;**预先填入在表格中引用的数据**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。使用 **授权缺少ID** 选中此选项后，任何访客（包括匿名用户）都可以访问登陆页面。"
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -98,21 +100,41 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. 在 **[!UICONTROL 数据预加载]** 部分，默认情况下会选中以下两个选项：
+1. 在 **[!UICONTROL 数据预加载]** 部分中，提供了以下两个选项：
 
    * 在选中&#x200B;**[!UICONTROL 预先填入在表格中引用的数据]**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。用户只需填写缺少的字段，并在需要时更新现有值。 这允许合并现有用户档案的数据，而不是创建重复项。
 
-   * 此 **[!UICONTROL 如果没有ID，则跳过预加载]** 如果不希望更新用户档案，则必须选择选项。 在这种情况下，输入的每个用户档案都将在批准表单后添加到数据库中。 例如，当表单在网站上发布时，将使用此选项。
+     >[!NOTE]
+     >
+     >默认情况下，会为所有登陆页面模板选择此选项。
+
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * 此 **[!UICONTROL 授权缺少ID]** 选项允许任何访客访问登陆页面。 取消选择此选项可阻止匿名访客使用它，这意味着只有已识别的用户才能访问和提交表单。
+
+     >[!AVAILABILITY]
+     >
+     >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+
+     对于 **[!UICONTROL 客户获取]** 和 **[!UICONTROL 订阅]** 模板时，默认会选中此选项。 对于 **[!UICONTROL 退订]** 和 **[!UICONTROL 阻止列表]** 模板，此选项默认处于未选中状态，无法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. 登陆页面可以具有后续页面。 要添加页面，请浏览 **[!UICONTROL 页面]** 部分，然后单击 **[!UICONTROL 编辑内容]** 按钮来指定您要为此登陆页面设计的每个页面。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. 此 **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
+1. 在 **[!UICONTROL 存储]** 部分， **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
 
    您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。 要执行此操作，请取消选择 **[!UICONTROL 更新预加载的记录]** 选项并选中下的所需字段 **[!UICONTROL 对帐选项]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. 创建 **[!UICONTROL 其他数据]** 以在提交登陆页面时存储内部数据。 访问该页面的用户不会看到此数据。 仅考虑常量值。
+
+   >[!AVAILABILITY]
+   >
+   >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。
 
@@ -161,6 +183,8 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 1. 从 **[!UICONTROL 模拟]** 屏幕中，选择一个或多个测试用户档案。
 
    选择测试用户档案的步骤与测试消息时的步骤相同。 有关详情，请参见 [预览和测试](../preview-test/preview-test.md) 部分。
+
+1. 测试动态登陆页面时(使用 **[!UICONTROL 来自URL的服务]** 已选择选项 —  [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. 选择 **[!UICONTROL 打开预览]** 以测试您的登陆页面。
 
