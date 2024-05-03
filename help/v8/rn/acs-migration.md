@@ -2,13 +2,13 @@
 audience: end-user
 title: 从Campaign Standard过渡到Adobe Campaign Web
 description: 了解Campaign Web用户界面
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Campaign Standard过渡到Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ Campaign Web界面和Campaign Standard中的大多数概念都很相似。 但�
 * 自定义资源为 **架构** 在Campaign Web用户界面中。
 * 营销活动不再存在。
 * 消息为 **投放**.
-* 运算符为 **用户**.
-* 已命名权限为 **角色**.
-* 操作员组为 **安全组**.
-* 文件夹权限为 **组织单位**
+* 用户是 **运算符**.
+* 角色为 **已命名权限**.
+* 安全组是 **操作员组**.
+* 组织单位为 **文件夹权限**
 
 ## 新增功能 {#new-features}
 
