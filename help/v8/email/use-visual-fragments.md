@@ -3,17 +3,16 @@ audience: end-user
 title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 4%
 
 ---
 
 # 将可视片段添加到电子邮件 {#use-visual-fragments}
 
-您可以在以下位置使用可视化片段： [电子邮件投放](get-started-email-designer.md)，或在 [内容模板](use-email-templates.md).
-
+您可以在以下位置使用可视化片段： [电子邮件投放](get-started-email-designer.md)，或在 [内容模板](use-email-templates.md). 步骤详见下文。
 
 
 >[!NOTE]

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用片段
 description: 了解如何使用片段
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
 要充分利用片段，请执行以下操作：
 
 * 创建您自己的可视化片段，如下所述。
-* 通过Email Designer，在内容中根据需要多次使用它们。 请参阅 [添加可视片段](../email/use-visual-fragments.md)
+* 通过Email Designer，在内容中根据需要多次使用它们。 请参阅 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md).
 
 ## 创建可视片段 {#create-fragments}
 
@@ -102,8 +102,6 @@ ht-degree: 6%
    ![](assets/fragment-designer.png)
 
 1. 片段准备就绪后，单击 **[!UICONTROL 保存并关闭]**. 它会添加到 [片段列表](#access-manage-fragments).
-
-1. 如果需要，单击片段名称旁边的箭头以返回到 **[!UICONTROL 详细信息]** 屏幕并进行编辑。
 
 现在，可在构建任何 [电子邮件](../email/get-started-email-designer.md) 或 [内容模板](use-email-templates.md) 在Campaign中。 [了解如何操作](../email/use-visual-fragments.md)
 
