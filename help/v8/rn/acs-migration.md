@@ -2,9 +2,9 @@
 audience: end-user
 title: 从Campaign Standard过渡到Adobe Campaign Web
 description: 了解Campaign Web用户界面
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,6 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 * 全新和重新设计的活动工作流活动。 [了解详情](../workflows/gs-workflows.md)
 * 使用查询建模器定位受众。 [了解详情](../query/query-modeler-overview.md)
 * 轻松创建和管理配置文件。 [了解详情](../audience/about-recipients.md)
-* AI支持的上下文帮助。 [了解详情](../get-started/using-ai.md)
 * 预定义过滤器。 [了解详情](../get-started/predefined-filters.md)
 * 用于电子邮件设计的HTML转换器。 [了解详情](../email/existing-content.md)
 * 包含选件的短信。 [了解详情](../msg/offers.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ ht-degree: 99%
 
 * **报告** - **报告**&#x200B;条目可提供 Campaign 环境中每个渠道的流量和参与量度的整体摘要。这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。可在[此部分](../reporting/global-reports.md)中了解详情。
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## 上下文帮助 {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-界面中提供了上下文帮助。当 `?` 图标可用时，单击该图标可显示帮助信息和相关文档链接。
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-目前，**AI 支持的知识助手**&#x200B;在新 Campaign Web 用户界面中作为 Beta 版发布，嵌入在上下文帮助中，彻底改变了文档搜索和解答操作方法疑问的方式，可轻松地筛选大型文档存储库并立即找出所需的准确信息。
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-通过 Campaign 生成式 AI 的各项功能，此助手改变您的体验，使检索信息和解决问题变得轻而易举。无论您是在复杂的任务中寻求指导，还是在大量文档中导航，我们的基于 AI 的知识助手都是您的绝佳伙伴，每次互动的效率和准确性都无与伦比。
+Learn more in [this section](using-ai.md).
 
-可在[此部分](using-ai.md)中了解详情。
-
+-->
 
 ## 了解详情 {#learn-more}
 
@@ -285,29 +286,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="默认登陆页面"
->abstract="选择与此订阅服务相关的默认登陆页面。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="订阅服务活动"
->abstract="使用 Adobe Campaign 创建和监测您的服务（如新闻稿）以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="订阅服务参数"
->abstract="选择并确认订阅服务的设置。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="订阅服务出站过渡"
->abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项，可在活动后添加过渡。"
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +323,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="为拒绝内容生成出站过渡。"
 >abstract="切换&#x200B;**“为拒绝内容生成出站过渡”**&#x200B;选项，可添加包含更新后未正确处理记录的出站过渡（例如，存在重复记录）。更新通常标志着定位工作流的结束，因此默认情况下不会激活该选项。"
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="外部信号"
->abstract="借助&#x200B;**外部信号**&#x200B;活动，您可以从 API 或另一个工作流触发工作流中一组任务的执行。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="外部信号参数"
->abstract="外部信号参数"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="结束触发器"
->abstract="结束触发器"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript 代码"
->abstract="**JavaScript 代码**&#x200B;活动在工作流上下文中执行 JavaScript 代码。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript 代码片段"
->abstract="配置要执行的代码。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="请参阅 Campaign v8（控制台）文档了解详情。"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript 执行"
->abstract="默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。切换&#x200B;**“停止执行于”**&#x200B;选项来定义自定义延迟。若要忽略此限制，请将该值设置为 0。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="流程错误"
->abstract="切换&#x200B;**“处理错误”**&#x200B;选项，可添加包含错误的出站过渡。"
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="提取文件"
->abstract="提取文件活动"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="要提取的文件"
->abstract="选择要提取的文件。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="目标格式"
->abstract="选择格式。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="后处理"
->abstract="定义后处理步骤"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="出站过渡"
->abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项，可在当前活动后添加出站过渡。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="流程错误"
->abstract="切换&#x200B;**“处理错误”**&#x200B;选项，可添加包含错误的出站过渡。"
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +344,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="执行初始化脚本"
 >abstract="执行初始化脚本"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="增量查询"
->abstract="增量查询"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="增量查询历史记录"
->abstract="增量查询历史记录"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="增量查询已处理数据"
->abstract="增量查询已处理数据"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="转移文件"
->abstract="转移文件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="转移文件选项"
->abstract="转移文件选项"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="转移文件活动"
->abstract="转移文件活动"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="转移文件远程服务器"
->abstract="转移文件远程服务器"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="转移文件源"
->abstract="转移文件源"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="转移后删除源文件"
->abstract="转移后删除源文件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="显示会话日志"
->abstract="显示会话日志"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="列出所有文件"
->abstract="列出所有文件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="文件历史记录"
->abstract="文件历史记录"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="处理缺失的文件"
->abstract="处理缺失的文件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="流程错误"
->abstract="流程错误"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +388,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="投放提醒"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="默认登陆页面"
+>abstract="选择与此订阅服务相关的默认登陆页面。"
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="投放提醒条件参数"
 >abstract="投放提醒"
