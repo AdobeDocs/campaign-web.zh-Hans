@@ -3,20 +3,14 @@ audience: end-user
 title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 21%
+source-wordcount: '879'
+ht-degree: 16%
 
 ---
 
 # 创建受众 {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="受众组合"
->abstract="在可视化工作流程画布中创建新受众。除了从头开始创建简单受众之外，还可利用工作流活动细化受众。将多个受众合并为单个受众、用外部属性充实受众或根据所选择的规则将其划分为多个受众。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
