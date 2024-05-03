@@ -2,14 +2,21 @@
 audience: end-user
 title: 使用增量查询工作流活动
 description: 了解如何使用增量查询工作流活动
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 16%
+source-wordcount: '786'
+ht-degree: 18%
 
 ---
 
 # 增量查询 {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="增量查询活动"
+>abstract="使用新的增量查询活动按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
