@@ -2,9 +2,9 @@
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 25%
 
 ---
@@ -17,7 +17,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 ## 4月发行说明 {#april-24-4-release}
 
-**发行日期**：2024年4月30日
+**发行日期**：2024年5月2日
 
 ### 新增功能 {#new-24-4}
 
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **动态报告**  — 作为Campaign Standard迁移的用户，您可以访问动态报表，其中提供完全可自定义的实时报表以衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还可按用户档案维度（如性别、城市和年龄）进行人口统计分析。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **加载文件活动改进** - **加载文件** 增强了活动，提供了多个部分来上传样例文件、管理错误和拒绝以及在执行活动后删除上传的文件。 [了解更多信息](../workflows/activities/load-file.md)
-
 * **登陆页面**  — 以下对登陆页面的改进仅适用于从Campaign Standard过渡的用户：
 
    * 现在，在配置服务时，您可以引用默认订阅/退订登陆页面。 设计电子邮件时，如果您定义指向该登陆页面的链接，则提交登陆页面表单的用户将自动订阅或取消订阅此服务。 [了解更多信息](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 从4月版开始，所有客户都可以获得以下改进。
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* 您现在可以将某个工作流的活动从其他浏览器选项卡复制/粘贴到另一个工作流。 [了解更多信息](../workflows/orchestrate-activities.md#copy-activities-copy)
+* 此 **加载文件** 增强了活动，提供了多个部分来上传样例文件、管理错误和拒绝以及在执行活动后删除上传的文件。 [了解更多信息](../workflows/activities/load-file.md)
+
+
+* 您现在可以 **复制/粘贴活动** 从不同的浏览器选项卡将访客从某个工作流转到另一个工作流。 [了解更多信息](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* 现在，所有工作流活动都允许您管理其执行选项。 这让您能够定义活动的执行模式和出现错误时的行为。 [了解更多信息](../workflows/orchestrate-activities.md#execution-options-execution)
+* 现在，所有工作流活动都允许您管理其 **执行选项**. 这让您能够定义活动的执行模式和出现错误时的行为。 [了解更多信息](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!--* **Support of custom fields**-->
 
-* 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 在Campaign Web用户界面中，这些自定义字段现在可在各种屏幕中看到，例如用户档案或测试用户档案的详细信息。 在Web用户界面中，无法创建自定义字段，但现在可以修改其显示方式。 [了解更多信息](../administration/custom-fields.md)
+* **自定义字段** 是通过Adobe Campaign控制台添加到现成模式的其他属性。 在Campaign Web用户界面中，这些自定义字段现在可在各种屏幕中看到，例如用户档案或测试用户档案的详细信息。 在Web用户界面中，无法创建自定义字段，但现在可以修改其显示方式。 [了解更多信息](../administration/custom-fields.md)
 
 
 ## 3 月发行说明 {#24-3-release}

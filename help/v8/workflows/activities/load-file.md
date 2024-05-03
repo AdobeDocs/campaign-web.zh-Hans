@@ -3,10 +3,10 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 13%
 ![](../assets/workflow-load-file.png)
 
 ### 配置样例文件 {#sample}
-
->[!AVAILABILITY]
->
->此功能位于有限可用性(LA)中。 它仅限在Campaign服务器v8.7上运行的客户使用，不能部署在任何其他环境中。
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ ht-degree: 13%
 >
 >在加载目标文件之前，请确保它遵守示例文件格式。 文件格式、列结构或列数的任何差异都可能导致工作流执行期间出现错误。
 
+要定义要上传的目标文件，请执行以下步骤：
+
 1. 在 **[!UICONTROL 目标文件]** 部分，指定检索要在服务器上上载的文件时要执行的操作。
 
    * **[!UICONTROL 从本地计算机上传文件]**：选择要从计算机上传的文件。
@@ -150,10 +148,6 @@ ht-degree: 13%
 >title="导入后删除文件"
 >abstract="切换&#x200B;**”导入后删除文件“**，可在导入文件后从服务器中删除原始文件。"
 
-
->[!AVAILABILITY]
->
->这些选项在有限可用性(LA)中提供。 它们仅限于在Campaign服务器v8.7上运行的客户，不能部署在任何其他环境中。
 
 1. 在 **拒绝管理** 部分，指定活动在出现错误时的行为方式：
 
