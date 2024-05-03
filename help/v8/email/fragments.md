@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: 使用片段
-description: 了解如何使用片段
+title: 创建内容片段
+description: 了解如何使用内容片段创建
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 6%
 
 ---
 
-# 使用片段 {#fragments}
+# 创建内容片段 {#fragments}
 
 
 >[!CONTEXTUALHELP]
