@@ -30,7 +30,7 @@ ht-degree: 81%
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动过滤器"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
