@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -407,5 +407,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="创建投放警报仪表板"
->abstract="创建投放警报仪表板"
+>title="创建投放提醒仪表板"
+>abstract="创建投放提醒仪表板"
