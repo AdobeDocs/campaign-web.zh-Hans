@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 3 月版本已上线！]
+>[!TAB 4月版已上线！]
 
-了解 Adobe Campaign Web 用户界面 24.3 版本的新功能和改进。
+了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 直邮渠道]
+>[!TAB 新的工作流活动]
 
-**直邮**&#x200B;渠道现在既可在工作流中使用，也可独立投放。直邮是一种离线渠道，允许您创建和生成提取文件、进行个性化设置，并与直邮提供商共享，向客户发送邮件。
+此版本附带以下工作流活动：更新数据、订阅服务、提取文件、传输文件、测试、JavaScript代码、外部信号、增量查询。
 
-![图像](assets/do-not-localize/direct-mail.gif)
+[![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB 富推送通知]
 
->[!TAB 新增更改数据源工作流活动]
+您现在可以通过Android发送富推送通知。 富推送通知是移动通知的一种增强形式，它通过合并多媒体元素（如图像、交互式按钮或其他富媒体内容）而超出简单的文本消息。
 
-**更改数据源**&#x200B;定位活动允许您更改工作流工作表使用的数据源。这项活动提供了更大的灵活性，使您可以跨不同的数据库管理数据并提高性能。
-
-![图像](assets/do-not-localize/change-data-source.gif)
-
-[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
@@ -111,7 +107,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到 Campaign</a> - <a href="get-started/using-ai.md">由 AI 支持的上下文帮助</a> - <a href="get-started/permissions.md">访问和权限</a>
+      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到Campaign</a> - <a href="get-started/permissions.md">访问和权限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

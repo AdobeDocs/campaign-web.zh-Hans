@@ -2,10 +2,8 @@
 audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
-hide: true
-hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 6%
