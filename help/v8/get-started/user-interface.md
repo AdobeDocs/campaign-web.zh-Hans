@@ -3,9 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 100%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="收件人优惠预览"
 >abstract="收件人优惠预览"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="片段"
->abstract="片段"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="片段保存"
->abstract="片段保存"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="片段创建"
->abstract="片段创建"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="片段属性"
->abstract="片段属性"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="片段类型"
->abstract="片段类型"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="片段列表"
->abstract="片段列表"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="片段详情"
->abstract="片段详情"
 
 
 

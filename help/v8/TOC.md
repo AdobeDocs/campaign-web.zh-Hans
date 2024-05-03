@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '684'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 98%
       + [创建您的第一封电子邮件](email/create-email.md)
       + 定义电子邮件内容 {#content}
          + [配置电子邮件内容](email/edit-content.md)
-         + [使用内容模板](email/create-email-templates.md)
+         + 管理可重用内容 {#manage-reusable-content}
+            + [使用内容模板](email/create-email-templates.md)
+            + [使用片段](email/fragments.md)
+            + [向您的电子邮件添加可视化片段](email/use-visual-fragments.md)
          + 开始计划您的电子邮件 {#start-design}
             + [电子邮件设计器入门](email/get-started-email-designer.md)
             + [从头开始](email/create-email-content.md)
