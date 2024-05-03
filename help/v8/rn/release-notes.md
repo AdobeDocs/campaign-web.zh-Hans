@@ -2,9 +2,9 @@
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 * **传输文件**  — 使用此活动接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议或HTTP协议。 [了解更多信息](../workflows/activities/transfer-file.md)
 * **测试**  — 使用此活动可根据指定的条件启用过渡。 [了解更多信息](../workflows/activities/test.md)
 * **JavaScript代码**  — 使用此活动可在工作流上下文中执行JavaScript代码片段。 [了解更多信息](../workflows/activities/javascript-code.md)
-* **外部信号**  — 使用此活动触发从另一个工作流*或API调用执行工作流。 [了解更多信息](../workflows/activities/external-signal.md)
+* **外部信号**  — 使用此活动触发从另一个工作流执行的工作流或API调用。 [了解更多信息](../workflows/activities/external-signal.md)
 * **增量查询**  — 使用此活动按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。 [了解更多信息](../workflows/activities/incremental-query.md)
 
 **富推送通知模板**
