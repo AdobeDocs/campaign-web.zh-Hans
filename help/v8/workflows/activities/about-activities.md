@@ -3,10 +3,10 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 35%
+source-wordcount: '567'
+ht-degree: 30%
 
 ---
 
@@ -23,19 +23,31 @@ ht-degree: 35%
 
 ![](../assets/workflow-activities.png)
 
-## 定位和数据管理活动 {#targeting}
+## 定位活动 {#targeting}
 
-这些活动专门针对定位、操纵和丰富人口数据。利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
+这些活动特定于定位。 利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
 
-* 使用 [保存受众](save-audience.md) 活动，用于更新现有受众，或从工作流上游计算的群体中创建新受众。
-* 使用 [构建受众](build-audience.md) 用于定义目标群体的活动。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
-* 使用 [合并](combine.md) 对集客群体执行分段的活动。 您可以使用并集、交集或差集。
-* 使用 [Split](split.md) 将传入群体划分为多个子集的活动。
-* 使用 [调解](reconciliation.md) 活动，用于定义Adobe Campaign数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
-* 使用 [扩充](enrichment.md) 活动，以定义要在工作流中处理的附加数据。 通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。
-* 使用 [删除重复项](deduplication.md) 活动，用于删除集客活动结果中的重复项。
-* 使用 [更改维度](change-dimension.md) 活动，以在构建工作流时更改定向维度。
-* 使用 [加载文件](load-file.md) 活动以使用存储在外部文件中的用户档案和数据。
+* [构建受众](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
+* [更改数据源](change-data-source.md)：更改工作流工作表的数据源。”
+* [更改维度](change-dimension.md)：在构建工作流时更改定向维度。
+* [合并](combine.md)：对集客群体执行分段。 您可以使用并集、交集或差集。
+* [删除重复项](deduplication.md)：删除集客活动结果中的重复项。
+* [扩充](enrichment.md)：定义要在工作流中处理的附加数据。 通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。
+* [增量查询](incremental-query.md)：按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。
+* [调解](reconciliation.md)：定义Adobe Campaign数据库中的数据与工作表中的数据之间的链接，例如从外部文件加载的数据。
+* [保存受众](save-audience.md)：更新现有受众，或从工作流上游计算的群体创建新受众。
+* [Split](split.md)：将传入群体分段为多个子集。
+
+## 数据管理活动 {#data}
+
+这些活动专门用于操纵和丰富人口数据。
+
+* [提取文件](extract-file.md)：将数据从Adobe Campaign作为外部文件导出到其他系统。
+* [加载文件](load-file.md)：使用存储在外部文件中的用户档案和数据。
+* [传输文件](transfer-file.md)：接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议或HTTP协议。
+* [JavaScript代码](javascript-code.md)：在工作流上下文中执行JavaScript代码片段。
+* [订阅服务](subscription-services.md)：通过一次操作为多个用户档案订阅服务或退订服务。
+* [更新数据](update-data.md)：对数据库中的字段执行批量更新。 您可以通过多个选项将数据更新个性化。
 
 ## 渠道活动 {#channel}
 
@@ -50,18 +62,10 @@ ht-degree: 35%
 
 以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
 
-* 使用 [计划程序](scheduler.md) 工作流启动时计划的活动。
-* 使用 [And — 连接](and-join.md) 活动，用于同步工作流的多个执行分支。
-* 添加 **结束** 活动，以图形方式标记工作流的结尾。 此活动没有功能影响，因此是可选的。
-* 使用 [分支](fork.md) 活动，用于创建叫客过渡以同时启动多个活动。
-* 添加 [等待](wait.md) 活动用于暂时暂停执行部分工作流。
-
-<!--
-## Data management activities {#data-management}
-
-overview: what they're used for
-which use case you can perform with them
-
-list available activities + short description + ref to section
--->
-
+* [And — 连接](and-join.md)：同步工作流的多个执行分支。
+* **结束**：以图形方式标记工作流的结尾。 此活动对功能没有影响，因此是可选的
+* [外部信号](external-signal.md)：触发执行来自另一个工作流的工作流，或API调用。
+* [分支](fork.md)：创建叫客过渡以同时启动多个活动。
+* [计划程序](scheduler.md)：安排工作流何时启动。
+* [测试](test.md)：根据指定的条件启用过渡。
+* [等待](wait.md)：暂时暂停执行部分工作流。
