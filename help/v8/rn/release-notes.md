@@ -2,14 +2,19 @@
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 26%
 
 ---
 
 # 发行说明 {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="发行说明"
+>abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，Campaign发行说明每月更新几次，其中包括最新功能、改进和修复。 我们建议您定期检查。"
 
 <!--Last update: **March 19, 2024**-->
 
