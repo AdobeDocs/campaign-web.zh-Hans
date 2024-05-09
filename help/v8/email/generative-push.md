@@ -6,10 +6,10 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 * [开始使用 AI 助手](generative-gs.md)
 * [使用 AI 助手生成电子邮件](generative-content.md)
 * [使用 AI 助手生成短信](generative-sms.md)
-* **[使用AI助手生成推送通知](generative-push.md)**
+* 使用 AI 助手生成推送通知
 
 >[!ENDSHADEBOX]
 

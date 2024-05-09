@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文档更新](rn/documentation-updates.md)
-   + [从Campaign Standard到v8](rn/acs-migration.md)
+   + [从 Campaign Standard 到 v8](rn/acs-migration.md)
 + Adobe Campaign 入门{#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
-   + [Campaign Web和客户端控制台](get-started/capability-matrix.md)
+   + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [配置电子邮件内容](email/edit-content.md)
          + 管理可重用内容 {#manage-reusable-content}
             + [使用内容模板](email/create-email-templates.md)
-            + [使用片段](email/fragments.md)
+            + [使用可视化片段](email/fragments.md)
             + [向您的电子邮件添加可视化片段](email/use-visual-fragments.md)
          + 开始计划您的电子邮件 {#start-design}
             + [电子邮件设计器入门](email/get-started-email-designer.md)

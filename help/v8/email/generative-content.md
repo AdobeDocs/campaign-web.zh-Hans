@@ -6,9 +6,9 @@ badge: label="Beta 版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1369'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 **目录**
 
 * [开始使用 AI 助手](generative-gs.md)
-* **[使用AI助手生成电子邮件](generative-content.md)**
+* 使用 AI 助手生成电子邮件
 * [使用 AI 助手生成短信](generative-sms.md)
 * [使用 AI 助手生成推送通知](generative-push.md)
 
@@ -216,10 +216,10 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+了解如何使用AI助手生成完整的电子邮件内容、文本和图像。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

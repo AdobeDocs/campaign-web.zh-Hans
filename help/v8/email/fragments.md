@@ -5,9 +5,9 @@ description: 了解如何使用内容片段创建
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '887'
 ht-degree: 5%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->删除内容片段时，会更新电子邮件投放和使用它的模板，并从其消息内容中删除片段。 如果需要，可以中断继承。 [了解详情](use-visual-fragments.md#break-inheritance)
+>删除内容片段时，会更新电子邮件投放和使用它的模板：片段将从电子邮件内容中删除，但仍被引用。 要将片段内容保留在这些投放和模板中，必须在删除片段之前中断继承。 [如本节所述](use-visual-fragments.md#break-inheritance).
 >
 
 ### 复制片段 {#duplicate-fragments}
