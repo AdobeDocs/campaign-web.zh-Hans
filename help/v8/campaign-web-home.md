@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,21 +51,21 @@ ht-degree: 82%
 
 >[!BEGINTABS]
 
->[!TAB 4月版已上线！]
+>[!TAB 4 月版本已上线！]
 
-了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和改进。
+了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和相关改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 新的工作流活动]
+>[!TAB 新工作流活动]
 
-此版本附带以下工作流活动：更新数据、订阅服务、提取文件、传输文件、测试、JavaScript代码、外部信号、增量查询。
+此版本附带以下工作流活动：更新数据、订阅服务、提取文件、传输文件、测试、JavaScript 代码、外部信号、增量查询。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 富推送通知]
 
-您现在可以通过Android发送富推送通知。 富推送通知是移动通知的一种增强形式，它通过合并多媒体元素（如图像、交互式按钮或其他富媒体内容）而超出简单的文本消息。
+您现在可以通过 Android 发送富推送通知。富推送通知是移动通知的一种增强形式，它不局限于简单的文本消息，而是融合了图像、交互式按钮或其他富媒体内容等多媒体元素。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ ht-degree: 82%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>入门</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到Campaign</a> - <a href="get-started/permissions.md">访问和权限</a>
+      <strong>开始使用</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到 Campaign</a> - <a href="get-started/permissions.md">访问和权限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

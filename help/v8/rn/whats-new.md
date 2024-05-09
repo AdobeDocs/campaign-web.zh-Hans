@@ -4,9 +4,9 @@ title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign Web 用户界面提供了一个全面的图形环境以供设计�
 
 在[此页面](../get-started/user-interface.md)中详细了解新的 Web 用户界面。
 
-**新的简化且直观的查询建模器**
+**经简化且直观的全新查询建模器**
 
 Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过滤数据库以根据各种条件选择特定目标的过程。可使用查询建模器：
 
@@ -130,7 +130,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 要了解 Campaign Web 用户界面和 Campaign 客户端控制台支持/不支持的功能以及两者之间的互操作性，请参阅[此页面](../get-started/capability-matrix.md)。
 
-作为过渡到Campaign v8的Campaign Standard用户， [请参阅此页面](../rn/acs-migration.md).
+作为正在过渡到 Campaign v8 的 Campaign Standard 用户，请[参阅此页面](../rn/acs-migration.md)。
 
 ## 术语更新 {#terminology-updates}
 
