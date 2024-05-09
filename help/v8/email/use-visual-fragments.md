@@ -5,7 +5,7 @@ description: 了解如何将可视化片段添加到您的电子邮件
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -53,8 +53,7 @@ ht-degree: 4%
    从 **[!UICONTROL 设置]** 选项卡，您可以：
 
    * 选择您希望片段显示的设备。
-   * 
-      1. 单击 **编辑内容** 按钮以打开此片段的内容。 [了解详情](../email/fragments.md#edit-fragments)
+   * 单击 **编辑内容** 按钮以打开此片段的内容。 [了解详情](../email/fragments.md#edit-fragments)
 
      您可以使用进一步自定义片段 **[!UICONTROL 样式]** 选项卡。
 
