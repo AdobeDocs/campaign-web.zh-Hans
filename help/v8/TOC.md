@@ -161,7 +161,7 @@ ht-degree: 98%
       + [拆分](workflows/activities/split.md)
       + [订阅服务](workflows/activities/subscription-services.md)
       + [测试](workflows/activities/test.md)
-      + [转移文件](workflows/activities/transfer-file.md)
+      + [传输文件](workflows/activities/transfer-file.md)
       + [更新数据](workflows/activities/update-data.md)
       + [等待](workflows/activities/wait.md)
 + 查询数据库 {#query-database}
