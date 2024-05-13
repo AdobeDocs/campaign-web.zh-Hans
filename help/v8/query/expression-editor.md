@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 55%
+source-wordcount: '2106'
+ht-degree: 53%
 
 ---
 
@@ -91,6 +91,11 @@ ht-degree: 55%
    <td> <strong>标准开发</strong><br /> </td> 
    <td> 返回数字、字符串或日期列的标准偏差<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>字符串聚合</strong><br /> </td> 
+   <td> 返回字符串类型列的值的连接，在第二个参数中用字符分隔<br /> </td> 
+   <td> StringAgg(&lt;value&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>总和</strong><br /> </td> 
@@ -145,6 +150,16 @@ ht-degree: 55%
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> 应用定义的会话TZ，将时间戳NTZ（不带时区的时间戳）转换为TZ（带时区的时间戳）<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> 比较两个日期<br/> </td> 
+   <td> DateCmp(&lt;date&gt;，&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ ht-degree: 55%
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> 将字符串转换为日期+时间<br /> </td> 
    <td> ToDateTime(&lt;字符串&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> 将字符串转换为时间戳<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> 将日期+时间转换为时区<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;，&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ ht-degree: 55%
    <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> 加密参数中提供的字符串<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 如果条件为true，则返回值1。 如果不存在，则返回值2。<br /> </td> 
@@ -522,11 +547,11 @@ ht-degree: 55%
    <td> 如果字符串1为空，则返回值2，否则返回值3<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> 返回唯一ID<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果参数为 NULL，则返回空字符串<br /> </td> 
@@ -631,11 +656,11 @@ ht-degree: 55%
    <td> 返回字符串的长度<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>折线图</strong><br /> </td> 
+   <td> 从字符串中提取行n<br /> </td> 
+   <td> Line(&lt;string&gt;，&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 以小写形式返回字符串<br /> </td> 
@@ -665,6 +690,11 @@ ht-degree: 55%
    <td> <strong>节点值</strong><br /> </td> 
    <td> 从其XPath和字段数据提取XML字段的值<br /> </td> 
    <td> 节点值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> 将所有出现的指定字符串值替换为其他字符串值。<br /> </td> 
+   <td> Replace(&lt;string&gt;，&lt;string&gt;，&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
