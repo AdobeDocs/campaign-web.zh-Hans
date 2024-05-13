@@ -6,7 +6,7 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="更新数据活动"
->abstract="更新数据活动现在可在工作流中使用。 使用更新数据活动对数据库中的字段执行批量更新。 建议使用多个选项来个性化更新类型。"
+>abstract="“更新数据”活动现在可用于工作流。使用“更新数据”活动可以对数据库中的字段执行大规模更新。提出了几种选项来个性化更新类型。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 

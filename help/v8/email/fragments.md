@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 5%
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="定义您自已的片段"
->abstract="片段是可重复使用的组件，可在营销活动之间的一个或多个电子邮件中引用。 此功能用于预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。"
+>abstract="片段是一个可重复使用的组件，可以在各种营销活动中的一封或多封电子邮件中引用。此功能用于预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
@@ -28,7 +28,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="定义您自已的片段"
->abstract="片段是可重复使用的组件，可在营销活动之间的一个或多个电子邮件中引用。"
+>abstract="片段是一个可重复使用的组件，可以在各种营销活动中的一封或多封电子邮件中引用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
@@ -38,12 +38,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="片段类型"
->abstract="选择片段类型。 目前，只有电子邮件的可视化片段可用。"
+>abstract="选择片段类型。目前，仅提供适用于电子邮件的视觉片段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="定义您自已的片段"
->abstract="片段是可重复使用的组件，可在营销活动之间的一个或多个电子邮件中引用。 您还可以在电子邮件模板中使用片段。 目前，仅可视化片段可用。"
+>abstract="片段是一个可重复使用的组件，可以在各种营销活动中的一封或多封电子邮件中引用。您还可以在电子邮件模板中使用片段。目前，只有视觉片段可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
@@ -53,9 +53,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
 >title="定义您自已的片段"
->abstract="片段是可重复使用的组件，可在营销活动之间的一个或多个电子邮件中引用。"
+>abstract="片段是一个可重复使用的组件，可以在各种营销活动中的一封或多封电子邮件中引用。"
 
-片段是可重复使用的组件，可在营销活动之间的一个或多个电子邮件中引用。 修改片段时，使用该片段的每个内容都会更新。
+片段是一个可重复使用的组件，可以在各种营销活动中的一封或多封电子邮件中引用。修改片段时，使用该片段的每个内容都会更新。
 
 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。
 

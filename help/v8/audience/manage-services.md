@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="默认登陆页面"
->abstract="选择与此服务关联的默认登陆页面。"
+>abstract="选择与此服务相关的默认登陆页面。"
 
 要创建订阅服务，请执行以下步骤。
 
@@ -90,7 +90,7 @@ ht-degree: 31%
 
    >[!AVAILABILITY]
    >
-   >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+   >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
    ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
 

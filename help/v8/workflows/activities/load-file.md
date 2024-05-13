@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="加载文件活动"
->abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动处理存储在外部文件中的数据。 用户档案和数据不会添加到数据库中，但输入文件中的所有字段可用于进行个性化、更新用户档案或任何其他表。 "
+>abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。配置文件和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新配置文件或任何其他表。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -41,22 +41,22 @@ ht-degree: 14%
 
 ![](../assets/workflow-load-file.png)
 
-### 配置样例文件 {#sample}
+### 配置示例文件 {#sample}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="示例文件"
->abstract="通过上传样例文件选择预期的文件结构。"
+>abstract="通过上传示例文件来选择预期的文件结构。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="加载文件活动的格式设置"
->abstract="在 **格式化** 部分，指定文件的格式以确保正确导入数据。"
+>abstract="在&#x200B;**格式化**&#x200B;部分，指定文件的格式化方式，以确保正确导入数据。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="“加载文件”活动的值重新映射"
->abstract="使用此选项可使用新值映射加载文件中的特定值。 例如，如果列包含“True”/“False”值，则可以添加映射以自动将这些值替换为“0”/“1”字符。"
+>abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含“True”/“False”值，则可以通过添加映射来自动用“0”/“1”字符替换这些值。"
 
 按照以下步骤配置用于定义预期文件结构的样例文件：
 
@@ -86,28 +86,28 @@ ht-degree: 14%
    * **[!UICONTROL 分隔符]** （日期、时间、整数和数字数据类型）*：指定要用作分隔符的字符。
    * **[!UICONTROL 允许NULL]**：指定如何管理列中的空值。 如果存在空值，“Adobe Campaign默认值”选项将引发错误。
    * **[!UICONTROL 处理时出错]** （字符串数据类型）：指定其中一行出错时的行为。
-   * **[!UICONTROL 值重新映射]**：利用此选项可使用新值映射特定值。 例如，如果列包含“True”/“False”值，则可以添加映射以自动将这些值替换为“0”/“1”字符。
+   * **[!UICONTROL 值重新映射]**：利用此选项可使用新值映射特定值。 例如，如果列中包含“True”/“False”值，则可以通过添加映射来自动用“0”/“1”字符替换这些值。
 
 +++
 
-1. 在 **格式化** 部分，指定文件的格式以确保正确导入数据。
+1. 在&#x200B;**格式化**&#x200B;部分，指定文件的格式化方式，以确保正确导入数据。
 
 ### 定义要上传的目标文件 {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="“加载文件”活动的目标文件"
->abstract="在 **[!UICONTROL 目标文件]** 部分，指定如何检索要在服务器上上传的文件。"
+>abstract="在&#x200B;**[!UICONTROL 目标文件]**&#x200B;部分，指定如何检索要上传到服务器的文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="文件名称"
->abstract="指定要在服务器上上载的字段的名称。 单击 **[!UICONTROL 打开个性化对话框]** 图标以利用表达式编辑器（包括事件变量）计算文件名。"
+>abstract="指定要上传到服务器的字段的名称。单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标，利用表达式编辑器（包括事件变量）来计算文件名称。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="目标数据库"
->abstract="如果您要访问 **[!UICONTROL 加载文件]** 已在客户端控制台中设置的活动，这是一项 **[!UICONTROL 目标数据库]** 如果已将活动配置为将文件上载到外部数据库，则部分可用。"
+>abstract="如果您访问的是已在客户端控制台中设置的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，并且已将该活动配置为将文件上传到外部数据库，则还会有额外的&#x200B;**[!UICONTROL 目标数据库]**&#x200B;部分可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 预处理文件]**：上传在上一个过渡中指定的文件，并对其应用预处理命令，例如 **[!UICONTROL 解压缩]** 或 **[!UICONTROL 解密]**.
 
-   * **[!UICONTROL 已计算]**：上传在中指定名称的文件 **[!UICONTROL 文件名]** 字段。 单击 **[!UICONTROL 打开个性化对话框]** 图标以利用表达式编辑器（包括事件变量）计算文件名。
+   * **[!UICONTROL 已计算]**：上传在中指定名称的文件 **[!UICONTROL 文件名]** 字段。 单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标，利用表达式编辑器（包括事件变量）来计算文件名称。
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="加载文件活动的拒绝管理"
->abstract="在 **拒绝管理** 部分，指定活动在出现错误时的行为方式。 您可以定义允许的最大错误数，并切换 **[!UICONTROL 将拒绝保留在文件中]** 选项，用于在服务器上下载包含导入期间发生错误的文件。"
+>abstract="在&#x200B;**拒绝管理**&#x200B;部分，指定在出现错误时该活动应如何表现。您可以定义允许的最大错误数，并切换&#x200B;**[!UICONTROL 将拒绝的内容保留在文件中]**&#x200B;选项，以在服务器上下载包含导入期间发生的错误的文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

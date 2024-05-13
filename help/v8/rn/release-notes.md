@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="发行说明"
->abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，Campaign发行说明每月更新几次，其中包括最新功能、改进和修复。 我们建议您定期检查。"
+>abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，Campaign 发行说明每月更新数次，其中包含最新的功能、改进和修复。我们建议您定期查看这些说明。"
 
 <!--Last update: **March 19, 2024**-->
 
@@ -59,11 +59,11 @@ The Audit trail feature constantly records a detailed log of actions and events 
 >
 >请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)。
 
-* **品牌化**：作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **品牌化**：作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
 
-* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hans)
 
-* **动态报告**：作为 Campaign Standard 迁移用户，您可以访问动态报告，该报告可以提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对配置文件数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等配置文件维度进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
 * **登陆页面**：登陆页面的以下改进仅适用于从 Campaign Standard 过渡的用户：
 

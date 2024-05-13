@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="跳过空过渡"
->abstract="切换 **[!UICONTROL 跳过空过渡]** 选项启用，以在传入群体为空时禁用此子集的输出过渡。"
+>abstract="如果传入的群体为空，则切换&#x200B;**[!UICONTROL 跳过空过渡]**&#x200B;选项，以禁用此子集的输出过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"

@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="定义预加载选项"
->abstract="在选中&#x200B;**预先填入在表格中引用的数据**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。使用 **授权缺少ID** 选中此选项后，任何访客（包括匿名用户）都可以访问登陆页面。"
+>abstract="在选中&#x200B;**预先填入在表格中引用的数据**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。选中&#x200B;**授权无 ID** 选项后，任何访客（包括匿名用户）均可访问登陆页面。"
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
      >[!AVAILABILITY]
      >
-     >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+     >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
      对于 **[!UICONTROL 客户获取]** 和 **[!UICONTROL 订阅]** 模板时，默认会选中此选项。 对于 **[!UICONTROL 退订]** 和 **[!UICONTROL 阻止列表]** 模板，此选项默认处于未选中状态，无法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    >[!AVAILABILITY]
    >
-   >此功能位于有限可用性(LA)中。 仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+   >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 

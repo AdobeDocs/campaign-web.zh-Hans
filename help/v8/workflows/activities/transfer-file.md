@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="转移文件"
->abstract="此 **传输文件** 活动允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议或HTTP协议。"
+>abstract="**传输文件**&#x200B;活动可以接收或发送文件、测试文件是否存在或列出服务器上的文件。使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -66,7 +67,7 @@ ht-degree: 11%
 >title="流程错误"
 >abstract="流程错误"
 
-此 **传输文件** 活动是 **数据管理** 活动。 它允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议或HTTP协议。
+此 **传输文件** 活动是 **数据管理** 活动。 它允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 26%
+ht-degree: 43%
 
 ---
 
@@ -43,14 +43,14 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="提取和加载文件活动"
->abstract="工作流中提供了新的数据管理活动。 使用提取文件活动，将数据从Adobe Campaign作为外部文件导出到其他系统。 使用加载文件活动处理存储在外部文件中的用户档案和数据。"
+>abstract="工作流中提供了新的数据管理活动。使用“提取文件”活动将 Adobe Campaign 中的数据作为外部文件导出到另一个系统。使用“加载文件”活动来处理存储在外部文件中的配置文件和数据。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 这些活动专门用于操纵和丰富人口数据。
 
 * [提取文件](extract-file.md)：将数据从Adobe Campaign作为外部文件导出到其他系统。
 * [加载文件](load-file.md)：使用存储在外部文件中的用户档案和数据。
-* [传输文件](transfer-file.md)：接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议或HTTP协议。
+* [传输文件](transfer-file.md)：接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 * [JavaScript代码](javascript-code.md)：在工作流上下文中执行JavaScript代码片段。
 * [订阅服务](subscription-services.md)：通过一次操作为多个用户档案订阅服务或退订服务。
 * [更新数据](update-data.md)：对数据库中的字段执行批量更新。 您可以通过多个选项将数据更新个性化。
@@ -65,7 +65,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="高级工作流活动"
->abstract="您现在可以在工作流中配置测试、JavaScript代码和外部信号活动。 使用测试活动，根据条件启用工作流过渡。 添加JavaScript代码活动以在工作流的上下文中执行JS代码片段。 配置外部信号活动，以触发从API或其他工作流执行工作流。"
+>abstract="您现在可以在工作流中配置测试、JavaScript 代码和外部信号活动。使用测试活动来根据条件启用工作流过渡。通过添加 JavaScript 代码活动在工作流的上下文中执行 JS 代码片段。配置外部信号活动以触发从 API 或其他工作流执行工作流。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 

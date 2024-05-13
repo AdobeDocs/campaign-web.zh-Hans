@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用JavaScript代码工作流活动
 description: 了解如何使用JavaScript代码工作流活动
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 代码"
->abstract="此 **JavaScript代码** 利用活动，可在工作流的上下文中执行JavaScript脚本。 这允许您执行操作或从数据库中收集信息。 使用 **简单** JavaScript代码活动，用于在工作流执行时执行一个代码段。 **高级** Javascript代码活动允许您通过按顺序执行两个不同的代码片段来执行更复杂的操作。 第一次启动工作流时，将执行第一次调用。 每次再次运行工作流时，都会执行第二次调用中定义的代码。"
+>abstract="**JavaScript 代码**&#x200B;活动允许您在工作流上下文中执行 JavaScript 脚本。您可以使用它来执行操作或从数据库收集信息。使用&#x200B;**简单的** JavaScript 代码活动在执行工作流时执行一个代码片段。**高级** Javascript 代码活动允许您通过按顺序执行两个不同的代码片段来执行更复杂的操作。工作流第一次启动时，会执行第一个调用。工作流每次再次运行时，都会执行第二次调用中定义的代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript代码片段"
->abstract="定义运行活动时要执行的脚本。 如果您正在配置 **高级** 在JavaScript活动中，您需要编辑两个代码片段：第一个调用代码将在第一次执行工作流时执行，下一个调用代码将在下一次调用工作流时执行。"
+>title="JavaScript 代码片段"
+>abstract="定义运行活动时要执行的脚本。如果您正在配置&#x200B;**高级** JavaScript 活动，则需要编辑两个代码片段：在第一次执行工作流时执行的第一个调用代码，以及在下一次调用工作流时执行的下一个调用代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 执行"
->abstract="配置执行延迟，以便在执行一段时间后停止活动。 默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。若要忽略此限制，请将该值设置为 0。"
+>abstract="配置延迟执行，以便在执行一段时间后停止活动。默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。若要忽略此限制，请将该值设置为 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript过渡"
->abstract="如果要添加多个输出过渡，请单击 **[!UICONTROL 添加过渡]** 按钮。 例如，这允许您根据JavaScript代码活动中定义的特定条件触发特定过渡。 此选项可用于 **高级** 仅限JavaScript代码活动。"
+>title="JavaScript 过渡"
+>abstract="如果要添加多个输出过渡，请点击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;按钮。例如，这允许您根据 JavaScript 代码活动中定义的特定条件来触发特定的过渡。此选项仅适用于&#x200B;**高级** JavaScript 代码活动。"
 
 此 **JavaScript代码** 活动是 **数据管理** 活动。 使用此活动可在工作流的上下文中执行JavaScript脚本。 这允许您从数据库收集信息或执行其他复杂操作。
 

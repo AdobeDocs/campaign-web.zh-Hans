@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用提取文件工作流活动
 description: 了解如何使用提取文件工作流活动
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -14,9 +15,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="提取文件"
->abstract="此 **提取文件** 利用活动，可将数据以外部文件的形式从Adobe Campaign中导出。 然后，可以使用传输文件活动将数据导出到服务器位置，如SFTP、云存储或您的Campaign服务器。"
+>abstract="利用&#x200B;**提取文件**&#x200B;活动，可将数据以外部文件的形式从 Adobe Campaign 中导出。然后可以使用“传输文件”活动将数据导出到服务器位置，例如 SFTP、云存储或您的 Campaign 服务器。"
 
-此 **提取文件** 活动是 **数据管理** 活动。 使用此活动以外部文件的形式从Adobe Campaign导出数据。 然后，可以使用传输文件活动将数据导出到服务器位置，如SFTP、云存储或您的Campaign服务器。
+此 **提取文件** 活动是 **数据管理** 活动。 使用此活动以外部文件的形式从Adobe Campaign导出数据。 然后可以使用“传输文件”活动将数据导出到服务器位置，例如 SFTP、云存储或您的 Campaign 服务器。
 
 配置 **提取文件** 活动，添加 **提取文件** 将活动添加到工作流中，然后执行以下步骤。
 
