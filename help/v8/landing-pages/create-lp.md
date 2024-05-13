@@ -3,7 +3,7 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 31%
@@ -27,7 +27,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-此 **[!UICONTROL 登陆页面]** 库存显示所有已创建的物料。 您可以使用以下代码筛选它们 **显示筛选器** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+此 **[!UICONTROL 登陆页面]** 库存显示所有已创建的物料。 您可以使用以下代码筛选它们 **[!UICONTROL 显示筛选器]** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
