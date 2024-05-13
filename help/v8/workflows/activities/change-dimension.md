@@ -3,10 +3,10 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 30%
+source-wordcount: '341'
+ht-degree: 26%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 30%
 此 **更改维度** 活动是 **定位** 活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 
 例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以便向定向收件人发送推送通知。
+
+>[!IMPORTANT]
+>
+>请注意 **[!UICONTROL 更改维度]** 和 **[!UICONTROL 更改数据源]** 活动不应添加在一行中。 如果需要连续使用这两个活动，请确保包含 **[!UICONTROOL 扩充]** 活动。 这可以确保正确执行并防止潜在的冲突或错误。
 
 ## 配置更改维度活动 {#configure}
 
