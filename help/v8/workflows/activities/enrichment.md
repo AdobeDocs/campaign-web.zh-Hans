@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
+source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 81%
 >id="acw_orchestration_enrichment_data"
 >title="扩充活动"
 >abstract="将扩充数据添加到工作流后，即可在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求将客户分成不同的组，或创建更有可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="扩充协调"
+>abstract="扩充协调"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
