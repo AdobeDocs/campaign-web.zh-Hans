@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 40%
+source-wordcount: '726'
+ht-degree: 39%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 40%
 
 * **浏览**&#x200B;选项卡将列出所有现有的营销活动。您可以单击一个营销活动以打开其仪表板，也可以通过单击&#x200B;**创建营销活动**&#x200B;按钮来创建新的营销活动。请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。您可以查看现有模板或创建新模板。 [阅读更多](#manage-campaign-templates)。
+* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。您可以查看现有模板或创建新模板。 [了解更多信息](#manage-campaign-templates)。
 
 ![营销活动列表](assets/campaign-list.png)
 
@@ -49,7 +49,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Campaign 中的工作流列表"
->abstract="Campaign 中的工作流列表"
+>abstract="此 **工作流** 选项卡列出了链接到当前营销策划的所有工作流。"
 
 在 **浏览** 选项卡上，单击促销活动名称以显示其详细信息。
 

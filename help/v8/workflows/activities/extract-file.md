@@ -3,10 +3,10 @@ audience: end-user
 title: 使用提取文件工作流活动
 description: 了解如何使用提取文件工作流活动
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 16%
+source-wordcount: '875'
+ht-degree: 15%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="目标格式"
->abstract="选择格式。"
+>abstract="选择其他选项以配置提取文件的格式。"
 
 此 **[!UICONTROL 目标]** 格式部分允许您配置提取文件的格式。
 
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="后处理"
->abstract="定义后处理步骤"
+>abstract="定义要应用的后处理步骤，如压缩或加密。"
 
 此 **[!UICONTROL 导出修改脚本]** 允许您应用处理阶段以在数据提取期间执行，如压缩或加密。 要执行此操作，请单击 **[!UICONTROL 编辑脚本]** 按钮。
 

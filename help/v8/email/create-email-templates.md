@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 20%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="内容模板设计"
->abstract="内容模板设计"
+>abstract="设计电子邮件内容模板。"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="内容模板选择"
->abstract="内容模板选择"
+>abstract="选择您的电子邮件内容模板。"
 
 内容模板可以通过以下方式创建 [将现有电子邮件另存为模板](#save-as-template)，或从电子邮件模板列表中，通过 **创建内容模板** 按钮， [如下所述](#create-template-from-scratch).
 

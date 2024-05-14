@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2138'
 ht-degree: 9%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="选择受众"
->abstract="选择受众"
+>abstract="通过使用 **选择受众** 选项，您可以选择要用于筛选查询的受众。"
 
 要使用现有受众筛选查询，请执行以下步骤：
 
@@ -174,7 +174,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="预定义过滤器"
->abstract="预定义过滤器"
+>abstract="通过使用 **预定义过滤器** 选项，您可以从自定义过滤器列表或从收藏夹中选择预定义过滤器。"
 
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
@@ -213,7 +213,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="组"
->abstract="组"
+>abstract="在此窗格中，您可以更改用于将筛选条件链接在一起的运算符。"
 
 每次将新的筛选组件添加到查询时，它都会通过 **和** 运算符。 这意味着来自两个过滤组件的结果将组合在一起。
 
