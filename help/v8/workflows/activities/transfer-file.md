@@ -3,10 +3,10 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="转移文件远程服务器"
->abstract="转移文件远程服务器"
+>abstract="指定要连接的服务器。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="转移后删除源文件"
->abstract="转移后删除源文件"
+>abstract="成功传输后擦除源文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="显示会话日志"
->abstract="显示会话日志"
+>abstract="与传输操作相关的信息显示在工作流日志中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="列出所有文件"
->abstract="列出所有文件"
+>abstract="此选项对服务器上存在的所有文件编制索引。 **vars.filenames** 事件变量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="处理缺失的文件"
->abstract="处理缺失的文件"
+>abstract="利用此选项，可在活动后激活“无文件”叫客过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="流程错误"
->abstract="流程错误"
+>abstract="利用此选项，可在活动后激活“错误”叫客过渡。"
 
 此 **传输文件** 活动是 **数据管理** 活动。 它允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 
