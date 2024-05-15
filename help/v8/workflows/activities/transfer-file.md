@@ -3,10 +3,10 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="转移文件源"
->abstract="转移文件源"
+>abstract="输入所需的文件名。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="处理缺失的文件"
->abstract="利用此选项，可在活动后激活“无文件”叫客过渡。"
+>abstract="此选项允许您激活 **无文件** 活动后的叫客过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="流程错误"
->abstract="利用此选项，可在活动后激活“错误”叫客过渡。"
+>abstract="此选项允许您激活 **错误** 活动后的叫客过渡。"
 
 此 **传输文件** 活动是 **数据管理** 活动。 它允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 
