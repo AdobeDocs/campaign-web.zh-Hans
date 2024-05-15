@@ -4,9 +4,9 @@ title: 从 Campaign Standard 过渡到 Adobe Campaign Web
 description: 探索 Campaign Web 用户界面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ Campaign Web 界面和 Campaign Standard 之间的大多数概念相似。但是
 * 自定义资源在 Campaign Web 用户界面中为&#x200B;**架构**。
 * 营销活动不再存在。
 * 消息为&#x200B;**投放**。
-* 用户是 **运算符**.
-* 角色为 **已命名权限**.
-* 安全组是 **操作员组**.
-* 组织单位为 **文件夹权限**
+* 用户是&#x200B;**操作员**。
+* 角色是&#x200B;**已命名权限**。
+* 安全组是&#x200B;**操作员组**。
+* 组织实体是&#x200B;**文件夹权限**
 
 ## 新增功能 {#new-features}
 
