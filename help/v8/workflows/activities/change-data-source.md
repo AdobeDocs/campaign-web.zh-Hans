@@ -3,7 +3,7 @@ audience: end-user
 title: 使用更改数据源工作流活动
 description: 了解如何使用更改数据源工作流活动
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->请注意 **[!UICONTROL 更改维度]** 和 **[!UICONTROL 更改数据源]** 活动不应添加在一行中。 如果需要连续使用这两个活动，请确保包含 **[!UICONTROOL 扩充]** 活动。 这可以确保正确执行并防止潜在的冲突或错误。
+>请注意 **[!UICONTROL 更改维度]** 和 **[!UICONTROL 更改数据源]** 活动不应添加在一行中。 如果需要连续使用这两个活动，请确保包含 **[!UICONTROL 扩充]** 活动。 这可以确保正确执行并防止潜在的冲突或错误。
 
 <!--
 
