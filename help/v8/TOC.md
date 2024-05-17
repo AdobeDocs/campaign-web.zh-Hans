@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -196,6 +196,6 @@ ht-degree: 99%
    + [与其他 Adobe 解决方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
-+ 管理 {#administration}
++ 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
-+ [Campaign v8客户端控制台文档>](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8（控制台）文档>](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
