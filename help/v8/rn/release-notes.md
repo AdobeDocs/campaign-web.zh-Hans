@@ -2,9 +2,9 @@
 title: 最新发行说明
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **拆分活动**&#x200B;中的“如果群体为空，则不激活过渡”选项允许您选择当区段结果为空时工作流是否应过渡到下一个活动。[了解更多信息](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* **自定义字段**&#x200B;是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在 Campaign Web 用户界面中，这些自定义字段现在可在各个屏幕中看到，例如配置文件或测试配置文件的详细信息。在 Web 用户界面中，您无法创建自定义字段，但现在您可以修改它们的显示方式。[了解更多信息](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## 3 月发行说明 {#24-3-release}
 

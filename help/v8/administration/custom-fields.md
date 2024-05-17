@@ -1,10 +1,13 @@
 ---
 title: 自定义字段
 description: 了解如何配置自定义字段
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -31,19 +34,19 @@ ht-degree: 5%
 
 1. 下 **管理**，单击 **架构**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. 找到所需的架构，例如 **收件人(nms)** 架构。
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. 单击 **更多操作** 按钮并选择 **编辑自定义详细信息**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    此 **编辑自定义详细信息** 屏幕显示所有自定义字段及其类型。
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    在此屏幕中，您可以执行以下操作：
 
@@ -54,4 +57,4 @@ ht-degree: 5%
 
 1. 导航到显示自定义字段的屏幕。 在我们的示例中，显示的是配置文件详细信息屏幕。
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
