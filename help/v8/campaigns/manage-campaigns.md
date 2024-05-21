@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Campaign 中的工作流列表"
->abstract="此 **工作流** 选项卡列出了链接到当前营销策划的所有工作流。"
+>abstract="**工作流**&#x200B;选项卡列出链接到当前营销活动的所有工作流。"
 
 在 **浏览** 选项卡上，单击促销活动名称以显示其详细信息。
 

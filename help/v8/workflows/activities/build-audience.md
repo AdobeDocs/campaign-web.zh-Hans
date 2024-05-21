@@ -6,7 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="受众"
->abstract="选择受众，与设计新投放时使用受众的方式相同。"
+>abstract="选择您的受众，就像设计新投放时使用受众一样。"
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 

@@ -5,7 +5,7 @@ description: 了解如何在Adobe Campaign Web查询建模器中构建您的第�
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2092'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
   示例： *订阅“体育”新闻稿的收件人*. *居住在纽约的收件人*， *居住在旧金山的收件人*
 
-  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-component.png){zoomable="yes"}
 
 * **组操作员** (AND、OR、EXCEPT)允许您将图中的过滤组件组合在一起。 它们会添加到现有过渡中，然后是筛选组件。 [了解如何使用操作员](#filtering)
 
   示例： *订阅“体育”新闻稿的收件人&#x200B;**和**住在纽约的人&#x200B;**或者**旧金山*.
 
-  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-operator.png){zoomable="yes"}
 
 ## 添加筛选组件 {#filtering}
 
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 1. 在 **属性** 字段，从数据库中选择要用于创建条件的属性。 属性列表包含Campaign数据库中的所有属性，包括链接表中的属性。
 
-   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -84,11 +84,11 @@ ht-degree: 9%
 
    *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
-   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition.png){zoomable="yes"}
 
    对于日期类型属性，可以使用预定义的值 **[!UICONTROL 预设]** 选项。
 
-   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
+   ![](assets/date-presets.png){zoomable="yes"}
 
 #### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
@@ -104,15 +104,15 @@ ht-degree: 9%
 
 1. 在 **品牌** 表并选择 **标签** 属性。
 
-   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 定义属性的预期值。
 
-   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 以下是一个直接选择表链接的查询示例。 必须从专用选取器中选择此表的可用值。
 
-![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -124,19 +124,19 @@ ht-degree: 9%
 
 1. 选择 **购买** 表格并进行确认。
 
-   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. 将添加叫客过渡，从而允许您创建子条件。
 
-   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 选择 **价格** 1000美元或以上的属性和目标购买
 
-   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 根据您的需要添加子条件。 在此，我们添加了条件来定向购买BrewMaster产品的用户档案。
 
-   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -146,18 +146,18 @@ ht-degree: 9%
 
 1. 在所需的集合表中导航，并选择要对其执行聚合操作的属性。
 
-   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 在属性窗格中，切换 **聚合数据** 选项并选择所需的聚合函数。
 
-   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### 选择受众 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="选择受众"
->abstract="通过使用 **选择受众** 选项，您可以选择要用于筛选查询的受众。"
+>abstract="通过使用&#x200B;**选择受众**&#x200B;选项，您可以选择想要用来过滤查询的受众。"
 
 要使用现有受众筛选查询，请执行以下步骤：
 
@@ -167,14 +167,14 @@ ht-degree: 9%
 
    *查询示例返回属于“节日观看者”受众的所有用户档案：*
 
-   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-audience.png){zoomable="yes"}
 
 ### 使用预定义过滤器 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="预定义过滤器"
->abstract="通过使用 **预定义过滤器** 选项，您可以从自定义过滤器列表或从收藏夹中选择预定义过滤器。"
+>abstract="通过使用&#x200B;**预定义过滤器**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
 
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
@@ -184,7 +184,7 @@ ht-degree: 9%
 
    *返回与“不活跃客户”预定义过滤器对应的所有用户档案的查询示例：*
 
-   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### 复制粘贴组件 {#copy}
 
@@ -202,24 +202,24 @@ ht-degree: 9%
 
    | 复制单个组件 | 复制多个组件 |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择 **粘贴n项**.
 
-   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
+   ![](assets/copy-paste.png){zoomable="yes"}
 
 ## 将过滤组件与运算符相结合 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="组"
->abstract="在此窗格中，您可以更改用于将筛选条件链接在一起的运算符。"
+>abstract="在此窗格中，您可以更改用于链接过滤条件的运算符。"
 
 每次将新的筛选组件添加到查询时，它都会通过 **和** 运算符。 这意味着来自两个过滤组件的结果将组合在一起。
 
 在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件通过以下方式链接到预定义过滤器条件： **和** 运算符，这意味着查询结果包含受“Madridians”预定义过滤器定向的且属于“Discount hunter”受众的收件人。
 
-![](assets/query-operator.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator.png){zoomable="yes"}
 
 要更改用于将筛选条件链接在一起的运算符，请单击它并在中选择所需的运算符 **组** 在右侧打开的窗格。
 
@@ -229,13 +229,13 @@ ht-degree: 9%
 * **OR（并集）**：包括与叫客过渡中的至少一个筛选组件匹配的结果。
 * **排除（排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
 
-![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator-change.png){zoomable="yes"}
 
 此外，通过单击 **+** 按钮进行转换。 这允许您在此特定位置添加运算符，以将多个组件分组在一起并细化查询。
 
 在下面的示例中，我们创建了一个中间组，以包含来自“要奖励的VIP”或“超级VIP”受众的结果。
 
-![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
+![](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## 检查并验证您的查询
 
@@ -259,4 +259,4 @@ ht-degree: 9%
 
 您可以随时通过打开查询来修改查询。 请记住，打开现有查询时，它以简化视图显示，不显示  **+** 按钮。 要向查询添加新元素，请在画布上选择一个组件或运算符以显示 **+** 按钮。
 
-![](assets/edit-audience.png){zoomable=&quot;yes&quot;}
+![](assets/edit-audience.png){zoomable="yes"}

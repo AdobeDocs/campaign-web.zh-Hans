@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="目标格式"
->abstract="选择其他选项以配置提取文件的格式。"
+>abstract="选择不同的选项来配置提取文件的格式。"
 
 此 **[!UICONTROL 目标]** 格式部分允许您配置提取文件的格式。
 
