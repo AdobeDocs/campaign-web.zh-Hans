@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 83%
 
 ---
 
@@ -51,23 +51,29 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 4 月版本已上线！]
+>[!TAB 5月发布已上线！]
 
 了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和相关改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 新工作流活动]
+>[!TAB 审核跟踪]
 
-此版本附带以下工作流活动：更新数据、订阅服务、提取文件、传输文件、测试、JavaScript 代码、外部信号、增量查询。
+新的审核记录功能会按时间顺序详细记录对Adobe Campaign实例实时执行的所有操作和事件。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB 富推送通知]
+>[!TAB 自定义字段]
 
-您现在可以通过 Android 发送富推送通知。富推送通知是移动通知的一种增强形式，它不局限于简单的文本消息，而是融合了图像、交互式按钮或其他富媒体内容等多媒体元素。
+自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 现在，它们可以在Web用户界面中使用。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB 链接表]
+
+现在，您可以在扩充工作流活动中在工作表数据和Adobe Campaign数据库之间创建链接。
+
+[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
