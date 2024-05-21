@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 99%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文档更新](rn/documentation-updates.md)
-   + [从 Campaign Standard 到 v8](rn/acs-migration.md)
 + Adobe Campaign 入门{#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 99%
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [访问和权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
+   + [从 Campaign Standard 到 v8](rn/acs-migration.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 99%
    + [护栏和限制](get-started/guardrails.md)
    + [工作流事件变量](workflows/event-variables.md)
    + [访问和管理工作流](workflows/access-monitor.md)
+   + [关于只读工作流](workflows/readonly-workflows.md)
    + 创建并运行您的第一个工作流{#create-workflow}
       + [创建工作流的主要原则](workflows/gs-workflow-creation.md)
       + [创建工作流](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 99%
    + [过滤器列表](query/filter.md)
 + 报告 {#reports}
    + [报告入门](reporting/gs-reports.md)
+   + [审核记录](reporting/audit-trail.md)
    + [导出您的报告](reporting/export-reports.md)
    + [关键绩效指标](reporting/kpis.md)
    + 投放报告 {#delivery-report}
@@ -198,4 +200,4 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
-+ [Campaign v8（控制台）文档>](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8（操作台）文档>](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
