@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+source-git-commit: fa2d596a36652f504112c7a8543453d845462021
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 81%
+source-wordcount: '1223'
+ht-degree: 47%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="简单加入"
+>title="链接定义"
 >abstract="简单加入"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,21 @@ ht-degree: 81%
 
 例如，可以将与客户购买相关的信息添加到工作流工作表中，并使用此数据来个性化包含客户最近一次购买或在这些购买中花费的金额的电子邮件。
 
-## 配置扩充活动 {#enrichment-configuration}
+## 添加扩充活动 {#enrichment-configuration}
 
 请按照以下步骤操作，配置&#x200B;**扩充**&#x200B;活动：
 
 1. 添加活动，例如&#x200B;**生成受众**&#x200B;和&#x200B;**合并**&#x200B;活动。
 1. 添加&#x200B;**扩充**&#x200B;活动。
+1. 如果已在工作流中配置了多个过渡，则可以使用 **[!UICONTROL 主集]** 字段来定义哪个过渡应用作主集以扩充数据。
+
+## 添加扩充数据 {#enrichment-add}
+
 1. 单击 **添加扩充数据** 并选择要用于扩充数据的属性。
 
-   您可以选择两种类型的扩充数据：目标维度中的[单个扩充属性](#single-attribute)，或[收藏集链接](#collection-link)。
+   您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接。 以下示例详细介绍了每种类型：
+   * [单个扩充属性](#single-attribute)
+   * [收藏集链接](#collection-link)
 
    >[!NOTE]
    >
@@ -69,7 +75,39 @@ ht-degree: 81%
 
    ![](../assets/workflow-enrichment1.png)
 
-## 单个扩充属性 {#single-attribute}
+## 创建表之间的链接 {#create-links}
+
+此 **[!UICONTROL 链接定义]** 部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接，以便更新其用户档案中的此信息。
+
+有多种类型的链接可用：
+
+* **[!UICONTROL 1基数简单链接]**：主集中的每个记录都可以与链接数据中的一个记录（且只能与一个记录关联）。
+* **[!UICONTROL 0或1基数简单链接]**：主集中的每个记录可以与链接数据中的0或1个记录关联，但不能与多个记录关联。
+* **[!UICONTROL N基数收藏集链接]**：主集中的每个记录可以与来自链接数据的0、1个或多个(N)记录关联。
+
+要创建链接，请执行以下步骤：
+
+1. 在 **[!UICONTROL 链接定义]** 部分，单击 **[!UICONTROL 添加链接]** 按钮。
+
+   ![](../assets/workflow-enrichment-link.png)
+
+1. 在 **关系类型** 从下拉列表中，选择要创建的链接类型。
+
+1. 确定要将主集链接到的目标：
+
+   * 要链接数据库中的现有表，请选择 **[!UICONTROL 数据库模式]** 并从中选择所需的表 **[!UICONTROL 目标架构]** 字段。
+   * 要链接到输入过渡中的数据，请选择 **临时架构** 并选择要使用其数据的过渡。
+
+1. 定义协调条件，以将主集的数据与链接架构进行匹配。 有两种类型的连接可用：
+
+   * **简单联接**：选择特定属性以匹配两个架构中的数据。 单击 **添加联接** 并选择 **来源** 和 **目标** 要用作协调条件的属性。
+   * **高级联接**：使用高级条件创建连接。 单击 **添加联接** 然后单击 **创建条件** 按钮以打开查询建模器。
+
+有关使用链接的工作流示例，请参阅 [示例](#link-example) 部分。
+
+## 示例 {#example}
+
+### 单个扩充属性 {#single-attribute}
 
 我们在此处只添加单个扩充属性，例如出生日期。执行以下步骤：
 
@@ -79,7 +117,7 @@ ht-degree: 81%
 
 ![](../assets/workflow-enrichment2.png)
 
-## 收藏集链接 {#collection-link}
+### 收藏集链接 {#collection-link}
 
 在这个更复杂的用例中，我们将选择一个收藏集链接，它是表之间具有 1 对多基数的链接。让我们检索最近三笔低于 100 美元的购买。为此，您需要定义：
 
@@ -88,7 +126,7 @@ ht-degree: 81%
 * 筛选条件：筛选掉大于 100 美元的项目
 * 排序：**订购日期**&#x200B;字段的降序排序。
 
-### 添加属性 {#add-attribute}
+#### 添加属性 {#add-attribute}
 
 您可以在此处选择用作扩充数据的收藏集链接。
 
@@ -98,7 +136,7 @@ ht-degree: 81%
 
 ![](../assets/workflow-enrichment3.png)
 
-### 定义收藏集设置{#collection-settings}
+#### 定义收藏集设置{#collection-settings}
 
 然后，定义数据的收集方式以及要检索的记录数。
 
@@ -111,7 +149,7 @@ ht-degree: 81%
 
 ![](../assets/workflow-enrichment5.png)
 
-### 定义筛选条件{#collection-filters}
+#### 定义筛选条件{#collection-filters}
 
 我们在此处定义扩充属性的最大值。我们将筛选掉大于100$的项目。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
@@ -121,7 +159,7 @@ ht-degree: 81%
 
 ![](../assets/workflow-enrichment6.png)
 
-### 定义排序{#collection-sorting}
+#### 定义排序{#collection-sorting}
 
 我们现在需要应用排序来检索这三个&#x200B;**最新**&#x200B;的购买。
 
@@ -132,6 +170,20 @@ ht-degree: 81%
 1. 从&#x200B;**排序**&#x200B;下拉列表中选择&#x200B;**降序**。
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### 使用链接数据进行扩充 {#link-example}
+
+下方的示例显示了一个工作流，该工作流配置为在两个过渡之间创建链接。 第一转变使用查询活动定位用户档案数据，而第二转变包括存储到通过加载文件活动加载的文件中的购买数据。
+
+* 第一个 **扩充** 活动链接我们的主集(来自 **查询** 活动)中的架构 **加载文件** 活动。 这样，我们就可以将查询所定向的每个用户档案与相应的购买数据相匹配。
+* 秒 **扩充** 添加了活动，以便使用来自的购买数据扩充工作流表中的数据 **加载文件** 活动。 这样，我们便可以在进一步的活动中使用这些数据，例如，将发送给客户的消息与他们的购买信息个性化。
+
+  ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

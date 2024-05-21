@@ -3,10 +3,10 @@ audience: end-user
 title: 设计直邮投放
 description: 了解如何使用Adobe Campaign Web设计直邮投放
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ ht-degree: 22%
 
 1. 打开 **[!UICONTROL 请求的数量]** 用于限制投放收件人数量的选项。
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## 配置提取文件列 {#content}
 
 在 **[!UICONTROL 内容]** 部分，指定要在提取文件中显示的列。 为此，请执行以下步骤：
 
 1. 单击 **[!UICONTROL 添加属性]** 按钮以创建新列。
-1. 选择要显示在列中的属性，然后进行确认。 添加列后，您可以更改其标签，并使用编辑图标修改关联的属性。
+1. 选择要显示在列中的属性，然后进行确认。 请注意，您可以使用表达式编辑器通过单击 **[!UICONTROL 编辑表达式]** 按钮。
+
+   ![](assets/dm-add-attribute.png)
+
+1. 添加列后，您可以更改其标签，并使用编辑图标修改关联的属性。
 1. 重复这些步骤以根据需要为提取文件添加任意数量的列。
 1. 要使用其中一列对提取文件排序，请单击 **[!UICONTROL 排序]** 列并选择所需的排序方法。
 1. 要更改列的位置，请使用向上箭头和向下箭头。

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 5%
+source-wordcount: '1068'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 此时会显示可添加到图中的活动列表。 可用的活动取决于您在工作流图中的位置。 例如，添加第一个活动时，您可以通过定位受众、拆分工作流路径或设置 **等待** 活动，用于延迟工作流的执行。 另一方面，在 **构建受众** 活动，您可以通过定位活动来优化目标，通过渠道活动向受众发送投放，或通过流量控制活动来组织工作流过程。
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 将活动添加到图后，将显示右侧窗格，允许您使用特定设置配置新添加的活动。 有关如何配置每个活动的详细信息，请参阅 [本节](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 重复此过程，根据您希望工作流执行的任务，添加所需数量的活动。 请注意，您还可以在两个活动之间插入新活动。 要执行此操作，请单击 **+** 按钮上，选择所需的活动并在右侧窗格中对其进行配置。
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 * **缩小** / **放大**：缩小或显示在画布中。
 * **显示地图**：打开显示您所在位置的画布快照。
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## 管理活动 {#manage}
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 * 访问活动的 **日志和任务**.
 * **暂停/恢复** 活动。 执行工作流时，它会在暂停的活动中暂停。 相应的任务以及在同一路径中跟随该任务的所有任务都不会执行。
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 多个 **定位** 活动，例如 **合并** 或 **删除重复项**，即可处理剩余群体，并将其包含到其他叫客过渡中。 例如，如果您使用 **Split** 在活动中，补充包含与之前定义的任何子集都不匹配的群体。 要使用此功能，请激活 **生成补码** 选项。
 
@@ -70,21 +70,21 @@ ht-degree: 5%
 
 * 使用操作按钮复制一个活动。
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * 使用工具栏按钮复制多个活动。
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 要粘贴复制的活动，请单击 **+** 按钮，然后选择“粘贴X活动”。
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## 执行选项 {#execution}
 
 所有活动均允许您管理其执行选项。 选择一个活动，然后单击 **执行选项** 按钮。 这让您能够定义活动的执行模式和出现错误时的行为。
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### 属性
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 
 下面是一个工作流示例，旨在通过电子邮件向所有对咖啡机感兴趣的客户(VIP客户除外)发送电子邮件。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 为了实现这一目标，新增了以下活动：
 
