@@ -3,14 +3,22 @@ audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
 
 # 设计 Android 富推送投放 {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="富推送投放"
+>abstract="您现在可以通过 Android 发送富推送通知。目前，此功能处于“有限可用”状态。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ ht-degree: 6%
 
 * 此 **[!UICONTROL 通知消息]**，由FCM SDK自动处理。 FCM会代表客户端应用程序在用户设备上自动显示消息。 通知消息包含预定义的一组参数和选项，但仍可以使用自定义应用程序变量进一步个性化。
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## 定义通知的内容 {#push-message}
 
@@ -168,7 +176,7 @@ ht-degree: 6%
 
 ## 推送通知高级设置 {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | 参数 | 说明 |
 |---------|---------|

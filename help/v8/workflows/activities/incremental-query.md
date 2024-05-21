@@ -3,20 +3,22 @@ audience: end-user
 title: 使用增量查询工作流活动
 description: 了解如何使用增量查询工作流活动
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 24%
+source-wordcount: '751'
+ht-degree: 19%
 
 ---
 
 # 增量查询 {#incremental-query}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="“增量查询”活动"
->abstract="使用新的“增量查询”活动按计划查询数据库。每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>title="Incremental Query activity"
+>abstract="Use the new Incremental Query activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

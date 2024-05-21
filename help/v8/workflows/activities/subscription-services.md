@@ -3,21 +3,17 @@ audience: end-user
 title: 使用订阅服务活动
 description: 了解如何使用订阅服务工作流活动
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 24%
+source-wordcount: '940'
+ht-degree: 20%
 
 ---
 
 # 订阅服务 {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="订阅服务活动"
->abstract="使用新的订阅服务工作流活动来管理对服务的订阅。您可以订阅或取消订阅群体，也可以从外部文件更新多个订阅。作为一种选择，您还可以通过发送确认消息来通知您的订阅者。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+
 
 
 >[!CONTEXTUALHELP]

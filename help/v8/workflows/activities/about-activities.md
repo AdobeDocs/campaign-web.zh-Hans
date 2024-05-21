@@ -3,10 +3,10 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 43%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,6 @@ ht-degree: 43%
 
 ## 数据管理活动 {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="提取和加载文件活动"
->abstract="工作流中提供了新的数据管理活动。使用“提取文件”活动将 Adobe Campaign 中的数据作为外部文件导出到另一个系统。使用“加载文件”活动来处理存储在外部文件中的配置文件和数据。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
-
 这些活动专门用于操纵和丰富人口数据。
 
 * [提取文件](extract-file.md)：将数据从Adobe Campaign作为外部文件导出到其他系统。
@@ -60,15 +54,6 @@ ht-degree: 43%
 通过Adobe Campaign Web，您可以跨多个渠道自动执行营销活动。 您可以将渠道活动合并到画布中，以创建可以根据客户行为触发操作的跨渠道工作流。 以下各项 **渠道** 可用活动：电子邮件、短信、Android和iOS推送通知。 [了解如何在工作流的上下文中设置投放](channels.md).
 
 ## 流量控制活动 {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="高级工作流活动"
->abstract="您现在可以在工作流中配置测试、JavaScript 代码和外部信号活动。使用测试活动来根据条件启用工作流过渡。通过添加 JavaScript 代码活动在工作流的上下文中执行 JS 代码片段。配置外部信号活动以触发从 API 或其他工作流执行工作流。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
