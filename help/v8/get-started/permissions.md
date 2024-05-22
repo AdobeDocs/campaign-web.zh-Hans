@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面中的权限管理
 description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 91%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="此工作流为只读"
 >abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="此工作流为只读"
->abstract="由于画布不受支持或不兼容，您无法编辑此工作流程。"
+
 
 访问控制可限制从主列表访问对象和数据（如投放、收件人或工作流）。这些限制在&#x200B;**资源管理器**&#x200B;导航树中也适用。此外，您需要权限才能从用户界面创建、删除、重复和编辑对象。
 
@@ -68,11 +65,11 @@ ht-degree: 100%
 1. 从&#x200B;**资源管理器**&#x200B;左侧导航菜单中，选择一个文件夹。
 1. 单击右上角的三个点，然后选择&#x200B;**文件夹权限**。
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. 在屏幕中查看详细信息，如下所示：
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    组或操作员可具有对存储在所选文件夹中的数据的读取、写入和/或删除权限。
 
@@ -94,11 +91,17 @@ ht-degree: 100%
 要创建文件夹，请执行以下步骤：
 
 1. 从&#x200B;**资源管理器**&#x200B;左侧导航菜单中，选择一个文件夹。
-1. 单击右上角的三个点，然后选择&#x200B;**新建子文件夹**。
-1. 输入文件夹的名称并保存。
+1. 单击右上角的三个圆点，然后选择 **创建新文件夹**.
+1. 输入文件夹的名称。
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 选择文件夹类型。 在本例中，默认选择父文件夹类型“投放”。 要更改文件夹类型，请单击文件夹图标并选择任何其他类型。
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 单击 **创建**.
 
    该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。还可从任何文件夹创建组件，然后从属性的&#x200B;**其他选项**&#x200B;部分将该组件保存在该新文件夹中，如下为投放所示：
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
