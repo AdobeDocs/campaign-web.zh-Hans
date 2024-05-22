@@ -200,4 +200,4 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
-+ [Campaign v8（操作台）文档>](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8（操作台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
