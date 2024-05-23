@@ -1,11 +1,11 @@
 ---
-title: 最新发行说明
-description: 发现 Campaign Web 用户界面附带的新功能
+title: Campaign v8 Web用户界面发行说明
+description: 了解最新Campaign Web用户界面版本随附的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="发行说明"
 >abstract="Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，Campaign 发行说明每月更新数次，其中包含最新的功能、改进和修复。我们建议您定期查看这些说明。"
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+
+## 5月发行说明 {#24-5-release}
+
+**发行日期**：2024年5月21日
+
+从5月版本开始，所有用户都可以使用以下功能和改进。
+
+### 审核记录  {#24-5-1}
+
+新 **审核记录** 功能会按时间顺序详细记录对Adobe Campaign实例实时执行的所有操作和事件。 它提供了一种便捷的方法，用于跟踪对Campaign数据所做的所有更改，并可通过查询解决以下问题：工作流的状态、最新修改数据的个人，或用户在实例中执行的活动。 [了解更多信息](../reporting/audit-trail.md)
+
+### 自定义字段 {#24-5-2}
+
+**自定义字段**&#x200B;是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在 Campaign Web 用户界面中，这些自定义字段现在可在各个屏幕中看到，例如配置文件或测试配置文件的详细信息。在 Web 用户界面中，您无法创建自定义字段，但现在您可以修改它们的显示方式。[了解更多信息](../administration/custom-fields.md)
+
+### 创建表之间的链接 {#24-5-3}
+
+您现在可以在以下位置创建与另一个表的链接： **扩充** 工作流活动。 使用新的 **链接定义** 部分来创建工作表数据与Adobe Campaign数据库之间的链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则现在可以创建指向国家/地区表的链接，以更新其用户档案中的此信息。 [了解更多信息](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### 一般改进 {#improvements-24-5}
+
+* **直邮**  — 您现在可以利用表达式编辑器选择要显示在直邮提取文件中的属性。 [了解更多信息](../direct-mail/content-direct-mail.md)
+
+* **文件夹管理**  — 您现在可以创建与父文件夹类型不同的子文件夹。 [了解更多信息](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **全球化**  — 作为我们持续努力提供统一用户体验的一部分，我们统一了Adobe Experience Cloud产品和应用程序中使用的术语。 这会影响德语术语“Titel”，在与对象名称相关时，该术语会更改为“Label”。 这些更改将在UI和文档中逐步推出。
+
 
 ## 4 月发行说明 {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 请注意，此功能处于&#x200B;**有限可用性** (LA) 状态。
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### 有限可用性版本中的新功能 {#acs-24-4}
 
@@ -91,9 +122,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **拆分活动**&#x200B;中的“如果群体为空，则不激活过渡”选项允许您选择当区段结果为空时工作流是否应过渡到下一个活动。[了解更多信息](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## 3 月发行说明 {#24-3-release}
 
