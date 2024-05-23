@@ -3,9 +3,9 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 38%
 
 1. 在 **拒绝管理** 部分，指定活动在出现错误时的行为方式：
 
-   * 在 **[!UICONTROL 德勒]** 字段，指定处理要加载的文件时授权的最大错误数。 例如，如果该值设置为“20”，则当加载文件时出现20个以上的错误时，工作流执行将失败。
+   * 在 **[!UICONTROL 允许的错误数]** 字段，指定处理要加载的文件时授权的最大错误数。 例如，如果该值设置为“20”，则当加载文件时出现20个以上的错误时，工作流执行将失败。
 
    * 要保留加载文件时发生的错误，请切换 **[!UICONTROL 将拒绝保留在文件中]** 选项，并在中为文件指定所需的名称 **[!UICONTROL 拒绝文件]** 字段。
 
