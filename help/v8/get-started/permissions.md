@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面中的权限管理
 description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 91%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ ht-degree: 91%
 
 
 ## 使用文件夹 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="文件夹属性"
+>abstract="文件夹属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="文件夹安全性"
+>abstract="文件夹安全性"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="文件夹限制"
+>abstract="文件夹限制"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="文件夹计划"
+>abstract="文件夹计划"
 
 可以创建、重命名、重新排序和移动文件夹以整理组件和数据。还可以从同一菜单中删除文件夹。
 
