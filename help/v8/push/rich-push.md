@@ -6,7 +6,7 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="富推送投放"
->abstract="您现在可以通过 Android 发送富推送通知。目前，此功能处于“有限可用”状态。"
+>title="丰富的推送投放"
+>abstract="您现在可以通过 Android 发送富推送通知。目前，此功能可用性有限。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -61,7 +61,7 @@ ht-degree: 6%
 
    ![](assets/rich_push_default_2.png)
 
-1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解更多信息](../personalization/personalize.md)
 
 1. 定义 **[!UICONTROL 点击操作]** 与用户单击您的通知相关联。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 
    ![](assets/rich_push_default_3.png)
 
-1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解详情](#push-advanced)
+1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解更多信息](#push-advanced)
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 
@@ -85,7 +85,7 @@ ht-degree: 6%
 
    ![](assets/rich_push_basic_2.png)
 
-1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解更多信息](../personalization/personalize.md)
 
 1. 添加定义 **[!UICONTROL 点击操作]** 与用户单击您的通知相关联。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -119,7 +119,7 @@ ht-degree: 6%
 
    ![](assets/rich_push_basic_5.png)
 
-1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解详情](#push-advanced)
+1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解更多信息](#push-advanced)
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 
@@ -135,7 +135,7 @@ ht-degree: 6%
 
    ![](assets/rich_push_carousel_1.png)
 
-1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解更多信息](../personalization/personalize.md)
 
 1. 添加定义 **[!UICONTROL 点击操作]** 与用户单击您的通知相关联。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -168,7 +168,7 @@ ht-degree: 6%
 
 1. 使用向下和向上箭头处理图像的顺序。
 
-1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解详情](#push-advanced)
+1. 配置 **[!UICONTROL 高级设置]** 的推送通知。 [了解更多信息](#push-advanced)
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 

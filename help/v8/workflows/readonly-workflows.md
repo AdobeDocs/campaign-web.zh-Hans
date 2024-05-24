@@ -5,7 +5,7 @@ description: 了解工作流处于只读模式的原因
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="此工作流为只读"
->abstract="由于您的权限或工作流的类型，您无法编辑此工作流。"
+>abstract="由于您的权限或工作流程类型，您无法编辑此工作流程。"
 
 某些工作流可能处于只读模式。 您可以通过查看它：
 

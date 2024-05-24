@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="自定义字段"
->abstract="自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 现在，它们可以在Web用户界面中使用。"
+>abstract="自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。它们现在可以在 Web 用户界面中使用。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 
 
-自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 在中了解详情 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在中了解详情 [Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 这些自定义字段会显示在各种屏幕中，例如用户档案或测试用户档案的详细信息。
 
