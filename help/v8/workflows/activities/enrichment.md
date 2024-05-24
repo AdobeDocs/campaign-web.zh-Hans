@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 46%
+source-wordcount: '1300'
+ht-degree: 47%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 46%
 >abstract="将扩充数据添加到工作流后，即可在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求将客户分成不同的组，或创建更有可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接，以便更新其用户档案中的此信息。"
+>abstract="链接定义"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="扩充协调"
 >abstract="扩充协调"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="链接定义"
->abstract="简单加入"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -75,12 +75,12 @@ ht-degree: 46%
 
    ![](../assets/workflow-enrichment1.png)
 
-## 创建表之间的链接 {#create-links}
+## 在表之间创建链接 {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="表之间的链接"
->abstract="现在，您可以在扩充工作流活动中在工作表数据和Adobe Campaign数据库之间创建链接。"
+>abstract="您现在可以在 Enrichment 工作流活动中创建工作表数据和 Adobe Campaign 数据库之间的链接。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 此 **[!UICONTROL 链接定义]** 部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接，以便更新其用户档案中的此信息。
