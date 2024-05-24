@@ -14,7 +14,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="此工作流为只读"
->abstract="由于您的权限或工作流程类型，您无法编辑此工作流程。"
+>abstract="由于您的权限或工作流类型，您无法编辑此工作流。"
 
 某些工作流可能处于只读模式。 您可以通过查看它：
 

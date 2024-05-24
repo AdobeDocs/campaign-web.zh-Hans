@@ -15,7 +15,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="审核记录"
->abstract="新的审计跟踪功能提供了对 Adobe Campaign 实例执行的所有操作和事件的详细且按时间顺序的记录。"
+>abstract="新的审核记录功能提供了对 Adobe Campaign 实例执行的所有操作和事件的详细且按时间顺序的记录。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 
