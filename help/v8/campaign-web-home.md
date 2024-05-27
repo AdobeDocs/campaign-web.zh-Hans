@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -51,27 +51,27 @@ ht-degree: 83%
 
 >[!BEGINTABS]
 
->[!TAB 5月发布已上线！]
+>[!TAB 5 月版本已上线！]
 
 了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和相关改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 审核跟踪]
+>[!TAB 审核记录]
 
-新的审核记录功能会按时间顺序详细记录对Adobe Campaign实例实时执行的所有操作和事件。
+新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。
 
 [![image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
 >[!TAB 自定义字段]
 
-自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 现在，它们可以在Web用户界面中使用。
+自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。它们现在可以在 Web 用户界面中使用。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
 
 >[!TAB 链接表]
 
-现在，您可以在扩充工作流活动中在工作表数据和Adobe Campaign数据库之间创建链接。
+您现在可以在 Enrichment 工作流活动中创建工作表数据和 Adobe Campaign 数据库之间的链接。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 

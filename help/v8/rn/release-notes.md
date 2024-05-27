@@ -1,11 +1,11 @@
 ---
-title: Campaign v8 Web用户界面发行说明
-description: 了解最新Campaign Web用户界面版本随附的新功能
+title: Campaign v8 Web 用户界面发行说明
+description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 81%
 
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
-## 5月发行说明 {#24-5-release}
+## 5 月发行说明 {#24-5-release}
 
-**发行日期**：2024年5月21日
+**发行日期**：2024 年 5 月 21 日
 
-从5月版本开始，所有用户都可以使用以下功能和改进。
+自 5 月版本开始，所有用户都可以使用以下功能和改进。
 
 ### 审核记录  {#24-5-1}
 
-新 **审核记录** 功能会按时间顺序详细记录对Adobe Campaign实例实时执行的所有操作和事件。 它提供了一种便捷的方法，用于跟踪对Campaign数据所做的所有更改，并可通过查询解决以下问题：工作流的状态、最新修改数据的个人，或用户在实例中执行的活动。 [了解更多信息](../reporting/audit-trail.md)
+新的&#x200B;**审核记录**&#x200B;功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。它提供了一种追踪对 Campaign 数据进行的所有更改的简便方法，可解决诸如以下查询：工作流的状态、最近修改工作流的个人或实例内用户执行的活动。[了解更多信息](../reporting/audit-trail.md)
 
 ### 自定义字段 {#24-5-2}
 
 **自定义字段**&#x200B;是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在 Campaign Web 用户界面中，这些自定义字段现在可在各个屏幕中看到，例如配置文件或测试配置文件的详细信息。在 Web 用户界面中，您无法创建自定义字段，但现在您可以修改它们的显示方式。[了解更多信息](../administration/custom-fields.md)
 
-### 创建表之间的链接 {#24-5-3}
+### 在表之间创建链接 {#24-5-3}
 
-您现在可以在以下位置创建与另一个表的链接： **扩充** 工作流活动。 使用新的 **链接定义** 部分来创建工作表数据与Adobe Campaign数据库之间的链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则现在可以创建指向国家/地区表的链接，以更新其用户档案中的此信息。 [了解更多信息](../workflows/activities/enrichment.md#create-links)
+您现在可以在&#x200B;**扩充**&#x200B;工作流活动中创建与另一个表的链接。使用活动参数中的新&#x200B;**链接定义**&#x200B;部分在工作表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则您现在可以创建指向该国家/地区表的链接，以便在其配置文件中更新此信息。[了解更多信息](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 ### 一般改进 {#improvements-24-5}
 
-* **直邮**  — 您现在可以利用表达式编辑器选择要显示在直邮提取文件中的属性。 [了解更多信息](../direct-mail/content-direct-mail.md)
+* **直邮**：您现在可以利用表达式编辑器来选择要在直邮提取文件中显示的属性。[了解更多信息](../direct-mail/content-direct-mail.md)
 
-* **文件夹管理**  — 您现在可以创建与父文件夹类型不同的子文件夹。 [了解更多信息](../get-started/permissions.md#folders)
+* **文件夹管理**：您现在可以创建与父文件夹不同类型的子文件夹。[了解更多信息](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **全球化**  — 作为我们持续努力提供统一用户体验的一部分，我们统一了Adobe Experience Cloud产品和应用程序中使用的术语。 这会影响德语术语“Titel”，在与对象名称相关时，该术语会更改为“Label”。 这些更改将在UI和文档中逐步推出。
+* **全球化**：作为我们持续努力提供统一用户体验的一部分，我们统一了 Adobe Experience Cloud 产品和应用程序中使用的术语。这会影响德语术语“Titel”，当它与对象名称相关时会更改为“Label”。这些变化将会在 UI 和文档中逐步推出。
 
 
 ## 4 月发行说明 {#april-24-4-release}
@@ -88,13 +88,13 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 >
 >以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans)。
 
 * **品牌化**：作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
 
 * **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hans)
 
-* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hans)
 
 * **登陆页面**：登陆页面的以下改进仅适用于从 Campaign Standard 过渡的用户：
 
