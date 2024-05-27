@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -111,16 +111,16 @@ ht-degree: 89%
 要创建文件夹，请执行以下步骤：
 
 1. 从&#x200B;**资源管理器**&#x200B;左侧导航菜单中，选择一个文件夹。
-1. 单击右上角的三个圆点，然后选择 **创建新文件夹**.
+1. 单击右上角的三个点，然后选择&#x200B;**新建文件夹**。
 1. 输入文件夹的名称。
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. 选择文件夹类型。 在本例中，默认选择父文件夹类型“投放”。 要更改文件夹类型，请单击文件夹图标并选择任何其他类型。
+1. 选择文件夹类型。在我们的示例中，默认情况下选择父文件夹类型“Deliveries”。要更改文件夹类型，请单击文件夹图标并选择任何其他类型。
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. 单击 **创建**.
+1. 单击&#x200B;**创建**。
 
    该文件夹将添加为当前文件夹的子文件夹。浏览到该新文件夹以直接在其中创建组件。还可从任何文件夹创建组件，然后从属性的&#x200B;**其他选项**&#x200B;部分将该组件保存在该新文件夹中，如下为投放所示：
 
