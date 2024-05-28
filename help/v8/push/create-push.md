@@ -3,10 +3,10 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 31%
+source-wordcount: '704'
+ht-degree: 30%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 31%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable="yes"}
 
 ## 配置投放设置 {#configure-push-settings}
 
@@ -68,7 +68,7 @@ ht-degree: 31%
 
 1. 从 **[!UICONTROL 受众]** 部分，选择要用于此投放的应用程序。 默认情况下，将您的推送通知发送到应用程序的所有订阅者。您可以通过单击 **[!UICONTROL 选择受众]** 按钮。
 
-   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable="yes"}
 
 1. 选择现有受众，或创建自己的受众，以优化推送投放的目标群体。 对于推送通知，默认为 [目标维度](../audience/about-recipients.md#targeting-dimensions) 是 **订阅者应用程序** (nms：appSubscriptionRcp)，链接到收件人表。
 
@@ -76,13 +76,13 @@ ht-degree: 31%
 
    了解如何在中创建新受众 [此页面](../audience/one-time-audience.md)
 
-1. 打开 **[!UICONTROL 启用对照组]** 用于设置控制组以测量投放影响的选项。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解详情](../audience/control-group.md)
+1. 打开 **[!UICONTROL 启用对照组]** 用于设置控制组以测量投放影响的选项。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解更多信息](../audience/control-group.md)
 
 ## 定义推送通知内容 {#create-content-push}
 
-要定义通知的内容，请单击 **[!UICONTROL 编辑内容]**. [了解详情](content-push.md)
+要定义通知的内容，请单击 **[!UICONTROL 编辑内容]**. [了解更多信息](content-push.md)
 
-![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable="yes"}
 
 在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
@@ -100,12 +100,12 @@ ht-degree: 31%
 
 启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。
 
-![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable="yes"}
 
-在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule)
+在中了解有关投放计划的更多信息 [本节](../msg/gs-deliveries.md#gs-schedule)
 
 ## “交付”高级设置 {#adv-push}
 
-单击 **[!UICONTROL 配置投放设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
+单击 **[!UICONTROL 配置投放设置]** 访问与投放模板相关的高级选项。 [了解更多信息](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用Campaign Web用户界面准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 40%
+source-wordcount: '891'
+ht-degree: 38%
 
 ---
 
@@ -25,29 +25,29 @@ ht-degree: 40%
 
 1. 在投放仪表板中，单击 **[!UICONTROL 审阅并发送]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. 单击 **[!UICONTROL 准备]** 按钮进行确认。
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >如果您计划了投放并禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-messages.md#gs-schedule)
+   >如果您计划了投放并禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 1. 这将显示准备进度。根据目标人群的规模，此操作可能需要花费一些时间。
 
    您可以随时使用停止准备 **[!UICONTROL 停止准备]** 按钮。
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >在准备阶段，不发送任何邮件。因此，您可以开始或停止准备而不影响任何内容。
 
 1. 在准备完成后，检查 KPI。如果要发送的邮件数不符合您的期望，请修改您的受众并重新开始准备。
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    以下是显示的不同 KPI：
 
@@ -55,13 +55,13 @@ ht-degree: 40%
    * **[!UICONTROL 投放]**：将发送的消息数。
    * **[!UICONTROL 排除]**：由排除的消息数 [类型规则](../advanced-settings/delivery-settings.md#typology).
 
-1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解详情](delivery-logs.md)
+1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解更多信息](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. 如果准备阶段检测到阻止发送投放的严重错误，则准备状态在投放仪表板中显示为失败。
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. 如果在准备之后对投放进行了任何更改，则必须重新开始准备以将这些更改考虑在内。
 
@@ -72,7 +72,7 @@ ht-degree: 40%
 
 一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
 
-如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解详情](../msg/gs-messages.md#gs-schedule)
+如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 ### 立即发送 {#send-immediately}
 
@@ -80,7 +80,7 @@ ht-degree: 40%
 
 1. 在投放仪表板中，单击 **[!UICONTROL 发送]** 按钮进行标记。
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. 确认此操作以立即将消息发送到主目标。
 
@@ -90,17 +90,17 @@ ht-degree: 40%
 
 如果您计划稍后发送电子邮件，请按照以下步骤操作。
 
-1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解详情](../msg/gs-messages.md#gs-schedule)
+1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 1. 在投放仪表板中，单击 **[!UICONTROL 按计划发送按钮]** 按钮进行标记。
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. 单击 **[!UICONTROL 确认发送]**. 投放将在计划日期发送到主目标。
 
    >[!NOTE]
    >
-   >如果您禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-messages.md#gs-schedule)
+   >如果您禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 ## 暂停或停止发送 {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ ht-degree: 40%
 
 * 单击 **[!UICONTROL 停止发送]** 立即中断发送。 一旦停止，准备工作和发送均无法恢复。
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## 检查 KPI {#check-kpis}
 
@@ -150,7 +150,7 @@ ht-degree: 40%
 
 发送完成后，您可以检查显示的KPI：
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL 已发送]**：投放的消息数。 显示的百分比基于要投放的消息总数。
 
@@ -168,4 +168,4 @@ ht-degree: 40%
 
 在中了解有关KPI的更多信息 [此页面](../reporting/kpis.md).
 
-您也可以查看日志。[了解详情](delivery-logs.md)
+您也可以查看日志。[了解更多信息](delivery-logs.md)

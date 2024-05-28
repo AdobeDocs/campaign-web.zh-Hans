@@ -3,10 +3,10 @@ audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 44%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 44%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_1.png){zoomable="yes"}
 
 1. 输入 **[!UICONTROL 标签]** ，并访问 **[!UICONTROL 其他选项]** 下拉菜单。 如果您的投放基于扩展模式，请指定 **自定义选项** 字段可用。
 
@@ -55,26 +55,26 @@ ht-degree: 44%
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解有关受众的更多信息](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_2.png){zoomable="yes"}
 
    了解如何在中选择现有受众 [此页面](../audience/add-audience.md)
 
    了解如何在中创建新受众 [此页面](../audience/one-time-audience.md)
 
-1. 打开 **[!UICONTROL 启用对照组]** 用于设置控制组以测量投放影响的选项。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解详情](../audience/control-group.md)
+1. 打开 **[!UICONTROL 启用对照组]** 用于设置控制组以测量投放影响的选项。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解更多信息](../audience/control-group.md)
 
-1. 单击 **[!UICONTROL 编辑内容]** 开始设计短信消息的内容。 [了解详情](content-sms.md)
+1. 单击 **[!UICONTROL 编辑内容]** 开始设计短信消息的内容。 [了解更多信息](content-sms.md)
 
-   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_4.png){zoomable="yes"}
 
    在此屏幕中，您还可以 [模拟您的内容](../preview-test/preview-test.md) 和 [设置优惠](../msg/offers.md).
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。 在中了解有关投放计划的更多信息 [本节](../msg/gs-messages.md#gs-schedule).
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统将在您为收件人定义的确切日期和时间自动发送消息。 在中了解有关投放计划的更多信息 [本节](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
    >在工作流上下文中发送投放时，您必须使用 **计划程序** 活动。 请参阅[此页面](../workflows/activities/scheduler.md)以了解详情。
 
-1. 单击 **[!UICONTROL 设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
+1. 单击 **[!UICONTROL 设置]** 访问与投放模板相关的高级选项。 [了解更多信息](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_3.png){zoomable="yes"}

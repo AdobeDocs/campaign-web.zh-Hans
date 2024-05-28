@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 99%
 
 ---
 
@@ -64,6 +64,7 @@ ht-degree: 100%
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [使用多批次发送](advanced-settings/send-using-waves.md)
          + [监测投放日志](monitor/delivery-logs.md)
+         + [计划投放的发送](monitor/schedule-sending.md)
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
