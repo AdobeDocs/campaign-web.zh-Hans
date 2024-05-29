@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 47%
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接，以便更新其用户档案中的此信息。"
+>title="在表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。"
 >abstract="链接定义"
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ ht-degree: 47%
 >abstract="您现在可以在 Enrichment 工作流活动中创建工作表数据和 Adobe Campaign 数据库之间的链接。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
-此 **[!UICONTROL 链接定义]** 部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接，以便更新其用户档案中的此信息。
+此 **[!UICONTROL 链接定义]** 部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。
 
 有多种类型的链接可用：
 
