@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务活动
 description: 了解如何使用订阅服务工作流活动
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 17%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 17%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="生成出站过渡"
 >abstract="切换&#x200B;**“生成出站过渡”**&#x200B;选项，可在活动后添加过渡。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="其他信息"
+>abstract="其他信息"
 
 此 **订阅服务** 活动是 **数据管理** 活动。 它允许您为过渡中指定的群体创建或删除对信息服务的订阅。
 
