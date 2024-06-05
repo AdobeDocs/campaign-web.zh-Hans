@@ -3,9 +3,9 @@ audience: end-user
 title: 使用保存受众工作流活动
 description: 了解如何使用“分叉工作流”活动
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 16%
 
 ---
@@ -53,4 +53,4 @@ ht-degree: 16%
 
 ## 示例{#save-audience-example}
 
-下方的示例展示了如何通过定位进行简单的受众更新。 将添加调度程序以每月运行一次工作流。 查询恢复订阅了可用的不同应用程序服务的所有用户档案。 此 **保存受众** 活动可更新受众，其方法为删除自上次工作流执行以来取消订阅服务的用户档案并添加新订阅的用户档案。
+下方的示例展示了如何通过定位进行简单的受众更新。 将添加调度程序以每月运行一次工作流。 查询可恢复订阅了不同可用应用程序的所有用户档案。 此 **保存受众** 活动可更新受众，其方法为删除自上次工作流执行以来取消订阅服务的用户档案并添加新订阅的用户档案。
