@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
-workflow-type: ht
-source-wordcount: '1650'
-ht-degree: 100%
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
+workflow-type: tm+mt
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 主页的上半部分详细介绍了产品中所提供的最新更新和新功能，以及发行说明和详细文档的链接。使用向左箭头滚动功能卡。
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 利用&#x200B;**关键绩效指标 (KPI)**，可以通过常见 KPI 检查平台有效性。可在[此页面](../reporting/kpis.md)中详细了解这些 KPI。
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
   使用&#x200B;**更多操作**&#x200B;按钮删除或重复投放。
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **工作流** - 可在此屏幕中访问工作流和工作流模板的完整列表。可检查其状态、上次/下次执行日期，并可创建新的工作流或新的工作流模板。可用与筛选其他对象相同的条件筛选该列表。此外，还可筛选属于或不属于营销活动的工作流。可[在此部分中](../workflows/gs-workflows.md)详细了解工作流。
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="默认登陆页面"
 >abstract="选择与此订阅服务相关的默认登陆页面。"
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="投放提醒条件参数"
 >abstract="投放提醒"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="创建投放提醒仪表板"
 >abstract="创建投放提醒仪表板"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="创建警报条件"
+>abstract="要创建自己的投放过滤器，请在Campaign v8控制台中从以下位置创建新的预定义过滤器 **管理** > **配置** > **预定义过滤器** 节点。"
 
 <!-- IDs -->
 
