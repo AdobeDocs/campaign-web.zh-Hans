@@ -3,10 +3,10 @@ title: Campaign v8 Web用户界面早期发行说明
 description: 发现下一个Campaign Web用户界面版本随附的新功能
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Campaign Web用户界面不断提供新功能、现有功能的增强以�
 
 ### 内容片段 {#24-6-1}
 
-* 您现在可以创作、使用和保存 **可视化片段** 快速汇编电子邮件和内容模板。 片段是预建的可重用组件，可以在Adobe Campaign的多个电子邮件中引用，以实现改进和加快设计过程。 [了解更多信息](../email/fragments.md)
-
-* 您现在可以创作、使用和管理 **表达片段** 以快速构建个性化内容。 片段是预建的可重用组件，可以在Adobe Campaign的多个内容中引用，以实现改进和加快设计过程。
+您现在可以创作、使用和管理 **可视化** 和 **表达式** 片段，用于快速汇编电子邮件和内容模板。 片段是预建的可重用组件，可以在Adobe Campaign的多个电子邮件中引用，以实现改进和加快设计过程。
 
 ### 种子列表 {#24-6-2}
 
@@ -42,3 +40,4 @@ Adobe Campaign Web用户界面不断提供新功能、现有功能的增强以�
 
 ### 改进 {#improvements-24-6}
 
+* **扩充活动中的协调**：扩充活动现在可用于将来自Campaign数据库架构的数据与来自其他架构的数据进行协调，或与来自临时架构的数据（例如使用加载文件活动上载的数据）进行协调。 例如，您可以使用此选项将用户档案在上传文件中指定的国家/地区与Campaign数据库的专用表中可用的国家/地区之一进行协调。
