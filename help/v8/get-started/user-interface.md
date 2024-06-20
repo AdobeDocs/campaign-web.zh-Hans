@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="执行初始化脚本"
 >abstract="执行初始化脚本"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="投放提醒标准仪表板"
->abstract="投放提醒标准仪表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="投放提醒仪表板"
->abstract="投放提醒仪表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="创建投放提醒条件"
->abstract="创建投放提醒条件"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="添加到提醒中的指标"
->abstract="添加到提醒中的指标"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="提醒类型"
->abstract="提醒类型"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="条件频率"
->abstract="条件频率"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="投放提醒条件"
->abstract="投放提醒条件"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="投放提醒通用参数"
->abstract="投放提醒"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="投放提醒条件参数"
->abstract="投放提醒"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="已发送投放提醒"
->abstract="已发送投放提醒"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="投放提醒历史记录"
->abstract="投放提醒历史记录"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="创建投放提醒仪表板"
->abstract="创建投放提醒仪表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="创建警报条件"
->abstract="要创建自己的投放过滤器，请在Campaign v8控制台中从以下位置创建新的预定义过滤器 **管理** > **配置** > **预定义过滤器** 节点。"
 
 <!-- IDs -->
 

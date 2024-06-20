@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1664'
+ht-degree: 42%
 
 ---
 
@@ -111,6 +111,36 @@ ht-degree: 54%
 
 有关使用链接的工作流示例，请参阅 [示例](#link-example) 部分。
 
+## 数据协调 {#reconciliation}
+
+此 **扩充** 活动可用于将来自Campaign数据库模式的数据与来自其他模式的数据或来自临时模式的数据（例如使用加载文件活动上传的数据）进行协调。 此类链接定义针对唯一记录的协调。 Adobe Campaign通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。
+
+例如，您可以使用此选项将用户档案在上传文件中指定的国家/地区与Campaign数据库的专用表中可用的国家/地区之一进行协调。
+
+按照以下步骤配置 **扩充** 具有协调链接的活动：
+
+1. 单击 **添加链接** 中的按钮 **调解** 部分。
+1. 确定要创建协调链接的数据。
+
+   * 要使用Campaign数据库中的数据创建协调链接，请选择 **数据库模式** 并选择存储目标的架构。
+   * 要创建包含来自输入过渡的数据的协调链接，请选择 **临时架构** 并选择存储目标数据的工作流过渡。
+
+1. 此 **标签** 和 **名称** 字段会根据所选目标架构自动填充。 您可以根据需要更改其值。
+
+1. 在 **协调条件** 部分，指定从源表和目标表中协调数据的方式：
+
+   * **简单联接**：将源表中的特定字段与目标表中的其他字段进行协调。 要执行此操作，请单击 **添加联接** 按钮并指定 **来源** 和 **目标** 用于协调的字段。
+
+     >[!NOTE]
+     >
+     >您可以使用一个或多个 **简单联接** 在这种情况下，必须对标准进行验证，以便将数据链接在一起。
+
+   * **高级联接**：使用查询建模器配置协调条件。 要执行此操作，请单击 **创建条件** 按钮然后使用AND和OR操作构建您自己的规则来定义协调条件。
+
+下方的示例显示了一个工作流，该工作流配置为在Adobe Campaign数据库收件人表和生成的临时表之间创建链接 **加载文件** 活动。 在此示例中，扩充活动使用电子邮件地址作为协调条件来协调两个表。
+
+![](../assets/enrichment-reconciliation.png)
+
 ## 示例 {#example}
 
 ### 单个扩充属性 {#single-attribute}
@@ -177,48 +207,17 @@ ht-degree: 54%
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### 使用链接数据进行扩充 {#link-example}
 
-下方的示例显示了一个工作流，该工作流配置为在两个过渡之间创建链接。 第一转变使用查询活动定位用户档案数据，而第二转变包括存储到通过加载文件活动加载的文件中的购买数据。
+下方的示例显示了一个工作流，该工作流配置为在两个过渡之间创建链接。 第一个过渡使用 **查询** 活动，而第二个过渡包括购买数据，该数据存储在通过加载文件活动加载的文件中。
 
-* 第一个 **扩充** 活动链接我们的主集(来自 **查询** 活动)中的架构 **加载文件** 活动。 这样，我们就可以将查询所定向的每个用户档案与相应的购买数据相匹配。
+![](../assets/enrichment-uc-link.png)
+
+* 第一个 **扩充** 活动链接主集(来自 **查询** 活动)中的架构 **加载文件** 活动。 这样，我们就可以将查询所定向的每个用户档案与相应的购买数据相匹配。
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * 秒 **扩充** 添加了活动，以便使用来自的购买数据扩充工作流表中的数据 **加载文件** 活动。 这样，我们便可以在进一步的活动中使用这些数据，例如，将发送给客户的消息与他们的购买信息个性化。
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

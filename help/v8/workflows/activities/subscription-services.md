@@ -3,14 +3,14 @@ audience: end-user
 title: 使用订阅服务活动
 description: 了解如何使用订阅服务工作流活动
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 17%
+source-wordcount: '972'
+ht-degree: 18%
 
 ---
 
-# 订阅服务 {#subscriptipon-services}
+# 订阅服务 {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -56,9 +56,11 @@ ht-degree: 17%
 
    * **从集客过渡路径中选择操作类型**：选择集客数据的列，在该列中指定要对每个记录执行的操作。 例如，可以导入一个文件，该文件指定对“operation”列中的每行执行的操作。
 
-     >[!NOTE]
+     此处只能选择boolean或integer字段。 确保包含要执行的操作的数据与此格式匹配。 例如，如果从加载文件活动加载数据，请检查您是否正确设置了中包含操作的列的格式 **[!UICONTROL 加载文件]** 活动。 有关示例，请参见 [本节](#uc2).
+
+     >[!CAUTION]
      >
-     >此处只能选择boolean或integer字段。 确保包含要执行的操作的数据与此格式匹配。 例如，如果从加载文件活动加载数据，请检查您是否正确设置了中包含操作的列的格式 **[!UICONTROL 加载文件]** 活动。 有关示例，请参见 [本节](#uc2).
+     >默认情况下，如果选择此选项， **订阅服务** 活动应具有指向的链接定义 **服务(nms)** 工作流中设置的表。 为此，请确保您已在 **扩充活动** 工作流中向上搜索。 提供了说明如何使用此选项的示例 [此处](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -86,14 +88,13 @@ ht-degree: 17%
 
 * A **[!UICONTROL 订阅服务]** 通过活动，选择用户档案必须订阅的服务。
 
-<!--
-### Updating multiple subscription statuses from a file {#uc2}
+### 从文件更新多个订阅状态 {#uc2}
 
-The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
+以下工作流显示如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
+* A **[!UICONTROL 加载文件]** 活动会加载一个包含数据的CSV文件，并定义导入列的结构。 “服务”和“操作”列指定要更新的服务和要执行的操作（订阅或退订）。
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -104,26 +105,24 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。要符合此要求，请执行以下操作：
+   * 此 **数据类型** （对于“operation”列）设置为integer。
+   * A **值重新映射** 必须执行以将“sub”和“unsub”值与“1”和“0”值相匹配。
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
+  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。仅确保将列作为 **布尔型** 或 **整数** 在示例文件列中。
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
+* A **[!UICONTROL 调解]** 活动标识来自文件的数据，使其归属至Adobe Campaign数据库的用户档案维度。 此 **电子邮件** 字段的匹配项 **电子邮件** 用户档案资源的字段。
+
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
+
+* An **[!UICONTROL 扩充]** 活动会创建一个指向“服务(nms)”表的协调链接，该链接在上传文件的“服务”列与数据库中的“服务”内部名称”字段之间有一个简单的联接。
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* A **[!UICONTROL 订阅服务]** 标识要更新的服务来自过渡。
 
-    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  此 **[!UICONTROL 操作类型]** 被标识为来自 **操作** 字段输入。 此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已正确设置了中的列格式 **[!UICONTROL 加载文件]** 活动，如本示例前面所述。
 
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
-  
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
-
-  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)

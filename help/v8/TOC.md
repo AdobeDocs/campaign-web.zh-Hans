@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [预览消息内容](preview-test/preview-content.md)
       + [发送校样](preview-test/test-deliveries.md)
       + [测试电子邮件渲染](preview-test/email-rendering.md)
+   + 投放警报 {#delivery-alerting}
+      + [投放警报入门](msg/delivery-alerting.md)
+      + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
+      + [投放提醒条件](msg/delivery-alerting-criteria.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [开始使用营销活动](campaigns/gs-campaigns.md)
    + [访问和管理营销活动](campaigns/manage-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
+   + [计划和项目群](administration/plans-programs.md)
 + 工作流{#wf}
    + [工作流入门](workflows/gs-workflows.md)
    + [护栏和限制](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
+   + [创建和管理文件夹](administration/create-manage-folder.md)
 + [Campaign v8（操作台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)

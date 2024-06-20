@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -51,29 +51,24 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 5 月版本已上线！]
+>[!TAB 6月版已上线！]
 
-了解 Adobe Campaign Web 用户界面 24.4 版本的新功能和相关改进。
+了解 Adobe Campaign Web 用户界面 24.6 版本的新功能和相关改进。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 审核记录]
+>[!TAB 投放警报]
 
-新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。
+投放警报是一种警报管理系统，它使用户组能够自动接收电子邮件通知，其中包含有关其投放执行的信息。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB 自定义字段]
+>[!TAB 计划和计划]
 
-自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。它们现在可以在 Web 用户界面中使用。
+Adobe Campaign允许您为营销计划和项目配置文件夹层次结构。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB 链接表]
-
-您现在可以在 Enrichment 工作流活动中创建工作表数据和 Adobe Campaign 数据库之间的链接。
-
-[![图像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
