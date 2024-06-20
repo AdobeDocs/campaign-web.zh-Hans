@@ -3,22 +3,15 @@ audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 7%
+source-wordcount: '1420'
+ht-degree: 5%
 
 ---
 
 # 设计 Android 富推送投放 {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="丰富的推送投放"
->abstract="您现在可以通过 Android 发送富推送通知。目前，此功能可用性有限。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 42%
+source-wordcount: '1681'
+ht-degree: 40%
 
 ---
 
@@ -77,12 +77,6 @@ ht-degree: 42%
 
 ## 在表之间创建链接 {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="表之间的链接"
->abstract="您现在可以在 Enrichment 工作流活动中创建工作表数据和 Adobe Campaign 数据库之间的链接。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
-
 此 **[!UICONTROL 链接定义]** 部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。
 
 有多种类型的链接可用：
@@ -112,6 +106,14 @@ ht-degree: 42%
 有关使用链接的工作流示例，请参阅 [示例](#link-example) 部分。
 
 ## 数据协调 {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="数据协调"
+>abstract="现在，工作流扩充活动可用于将来自Campaign数据库模式的数据与来自其他模式的数据进行协调，或与来自临时模式的数据（例如使用加载文件活动上传的数据）进行协调。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+
 
 此 **扩充** 活动可用于将来自Campaign数据库模式的数据与来自其他模式的数据或来自临时模式的数据（例如使用加载文件活动上传的数据）进行协调。 此类链接定义针对唯一记录的协调。 Adobe Campaign通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。
 

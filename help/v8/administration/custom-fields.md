@@ -2,7 +2,7 @@
 title: 自定义字段
 description: 了解如何配置自定义字段
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 # 配置自定义字段 {#custom-fields}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="自定义字段"
 >abstract="自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。它们现在可以在 Web 用户界面中使用。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"

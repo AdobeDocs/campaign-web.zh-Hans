@@ -3,7 +3,8 @@ product: campaign
 title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -13,9 +14,9 @@ ht-degree: 6%
 # 审核记录{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="审核记录"
->abstract="新的审核记录功能提供了对 Adobe Campaign 实例执行的所有操作和事件的详细且按时间顺序的记录。"
+>abstract="新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 
@@ -100,4 +101,3 @@ ht-degree: 6%
    代码块为您提供了有关实体中确切更改的更多信息。
 
    ![](assets/audit-trail-2.png)
-
