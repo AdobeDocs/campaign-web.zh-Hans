@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 97%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 97%
 + 用户档案和受众 {#audiences}
    + [用户档案和受众入门](audience/gs-audiences-recipients.md)
    + [定位维度](audience/targeting-dimensions.md)
+   + [隔离](audience/quarantine.md)
    + 使用配置文件 {#work-with-profiles}
       + [开始使用配置文件](audience/about-recipients.md)
       + [浏览配置文件的详细信息](audience/profile-view.md)
