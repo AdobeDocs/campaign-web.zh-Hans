@@ -2,10 +2,11 @@
 audience: end-user
 title: 投放提醒
 description: 了解如何使用投放警报。
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -38,7 +39,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >
 >默认值将应用于上述标准的所有参数。 这些值可在以下位置自定义： **标准参数** 投放警报仪表板中使用它们的部分。 [了解如何使用仪表板](../msg/delivery-alerting-dashboards.md)
 
-## 创建警报条件 {#criteria}
+## 创建警报标准 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
@@ -62,8 +63,8 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="创建警报条件"
->abstract="要创建自己的投放过滤器，请在Campaign v8控制台中从以下位置创建新的预定义过滤器 **管理** > **配置** > **预定义过滤器** 节点。"
+>title="创建警报标准"
+>abstract="要创建您自己的传递过滤器，请从 Campaign v8 控制台中的“**管理**”>“**配置**”>“**预定义过滤器**”节点创建一个新的预定义过滤器。"
 
 要创建新标准，请执行以下步骤：
 
