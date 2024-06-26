@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="帮助和文档"
->abstract="Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决方案保持一致。"
+>abstract="Campaign 现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这个新的现代 UI 简化营销活动的设计和投放，并与其他 Adobe 解决项目保持一致。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -43,7 +43,7 @@ ht-degree: 89%
 >abstract="新一代查询建模器和电子邮件设计器"
 
 
-我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
+我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决项目（包括 Adobe Experience Platform）的一致性。
 
 ## 新增功能
 
@@ -51,21 +51,21 @@ ht-degree: 89%
 
 >[!BEGINTABS]
 
->[!TAB 6月版已上线！]
+>[!TAB 6 月版本已上线！]
 
 了解 Adobe Campaign Web 用户界面 24.6 版本的新功能和相关改进。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 投放警报]
 
-投放警报是一种警报管理系统，它使用户组能够自动接收电子邮件通知，其中包含有关其投放执行的信息。
+投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB 计划和计划]
+>[!TAB 计划与项目]
 
-Adobe Campaign允许您为营销计划和项目配置文件夹层次结构。
+使用 Adobe Campaign 可以为营销计划和项目配置文件夹层次结构。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
