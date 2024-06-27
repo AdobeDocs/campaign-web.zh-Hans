@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: 计划和项目群
+title: 计划和项目
 description: 了解如何在Adobe Campaign中创建和配置计划和程序
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# 计划和计划 {#plan-and-programs}
+# 计划和项目 {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="计划和计划"
->abstract="您现在可以在Campaign Web用户界面中为营销计划和项目配置文件夹层次结构。"
+>title="计划和项目"
+>abstract="您现在可以在 Campaign Web 用户界面中配置营销计划和方案的文件夹层次结构。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
-Adobe Campaign允许您为营销计划和项目配置文件夹层次结构。
+使用 Adobe Campaign 可以为营销计划和项目配置文件夹层次结构。
 
 为了更好地组织这些活动，Adobe建议采用以下层次结构：计划 `>` 程序 `>` 营销活动
 

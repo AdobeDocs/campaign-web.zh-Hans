@@ -1,11 +1,12 @@
 ---
 audience: end-user
-title: 投放提醒
+title: 投放警报
 description: 了解如何使用投放警报。
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="投放警报仪表板"
->abstract="投放警报是一种警报管理系统，它使用户组能够自动接收电子邮件通知，其中包含有关其投放执行的信息。 利用投放警报仪表板，可指定接收电子邮件警报的人员、选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
+>abstract="投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。投放警报仪表板允许您指定谁将接收电子邮件警报，选择和配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
 
 利用投放警报仪表板，可指定接收电子邮件警报的人员、选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。 可从以下位置访问它们 **投放警报** 菜单，位于左侧导航窗格中的 **仪表板** 选项卡。
 
@@ -25,22 +26,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="创建投放提醒仪表板"
->abstract="通过创建投放警报仪表板，您可以指定接收电子邮件警报的人员，选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
+>abstract="创建投放警报仪表板允许您指定谁将接收电子邮件警报，选择和配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="投放提醒通用参数"
->abstract="指定投放警报功能板的常规属性。 此 **选择警报组** 字段，以指定 **操作员组** 以接收由此仪表板发送的警报。"
+>abstract="指定投放警报仪表板的常规属性。**选择警报组** 字段允许您指定 **操作员组** 来接收此仪表板发送的警报。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="投放提醒条件"
->abstract="在此部分中，添加要用于从该仪表板发送警报的标准。 从预定义标准中进行选择，或者根据特定需求创建自己的标准。"
+>title="投放警报条件"
+>abstract="在本节中，添加您想要用于从此仪表板发送警报的条件。从预定义标准中选择或创建自己的标准以满足特定需求。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="标准参数"
->abstract="标准具有默认参数值，这些值定义必须如何应用标准。 您可以根据本节中的需要更改这些值。"
+>abstract="标准具有默认参数值，定义如何应用它们。您可以从本节更改这些值以满足您的需要。"
 
 要创建投放仪表板，请执行以下步骤：
 
@@ -56,7 +57,7 @@ ht-degree: 2%
 
 1. 在 **投放警报标准** 部分，添加要用于发送警报的标准。 从预定义标准中进行选择，或者根据特定需求创建自己的标准。 [了解如何使用标准](../msg/delivery-alerting-criteria.md)
 
-1. 标准具有默认参数值，这些值定义必须如何应用标准。 您可以根据自己的需要更改这些值，具体方法为 **标准参数** 部分。
+1. 标准具有默认参数值，定义如何应用它们。您可以根据自己的需要更改这些值，具体方法为 **标准参数** 部分。
 
    ![](assets/alerting-criteria-parameters.png)
 
@@ -95,12 +96,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
 >title="已发送投放提醒"
->abstract="利用此部分，可显示与最新发送警报相关的信息。"
+>abstract="此部分可让你直观地了解与最新发送的警报相关的信息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="投放提醒历史记录"
->abstract="此 **历史记录** 窗格包含从此仪表板发送的所有警报。 单击某个项目可访问在该特定时间发送的相应警报。"
+>abstract="**历史记录** 窗格包含从此仪表板发送的所有警报。单击某个项目可以访问在特定时间发送的相应警报。"
 
 所有创建的警报仪表板都可从以下位置访问： **投放警报** 菜单，在 **仪表板** 选项卡。
 
@@ -108,7 +109,7 @@ ht-degree: 2%
 
 您可以使用来复制或删除功能板 **更多操作** 按钮的名称旁边的。
 
-要访问功能板的详细视图，请在列表中单击其名称。 在此屏幕中，您可以可视化最新发送的警报。 所有已发送的警报都列在左窗格中。 单击某个项目可访问在该特定时间发送的相应警报。
+要访问功能板的详细视图，请在列表中单击其名称。 在此屏幕中，您可以可视化最新发送的警报。 所有已发送的警报都列在左窗格中。 单击某个项目可以访问在特定时间发送的相应警报。
 
 ![](assets/alerting-dashboard-details.png)
 

@@ -1,23 +1,23 @@
 ---
 audience: end-user
-title: 投放提醒
+title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 7%
+ht-degree: 26%
 
 ---
 
-# 投放提醒条件 {#delivery-alerting-criteria}
+# 投放警报条件 {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="投放提醒标准仪表板"
->abstract="Campaign Web用户界面提供了预定义的警报标准（吞吐量低的投放，准备失败的投放……），您可以将这些标准添加到仪表板。 您也可以根据自己的需求创建自己的标准。"
+>abstract="Campaign Web 用户界面提供了预定义的警报标准（吞吐量低的投放、准备失败的投放……），你可以将其添加到你的仪表板。您还可以创建自己的标准来满足您的需要。"
 
-Campaign Web用户界面提供了预定义的警报标准（吞吐量低的投放，准备失败的投放……），您可以将这些标准添加到仪表板。 您也可以根据自己的需求创建自己的标准。
+Campaign Web用户界面提供了预定义的警报标准（吞吐量低的投放，准备失败的投放……），您可以将这些标准添加到仪表板。 您还可以创建自己的标准来满足您的需要。
 
 警报标准可从 **投放警报** 菜单，位于左侧导航窗格中的 **标准** 选项卡。
 
@@ -44,22 +44,22 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="创建投放提醒条件"
->abstract="除了Adobe Campaign提供的预定义警报标准之外，您还可以根据自己的需求创建自己的标准。"
+>abstract="除了 Adobe Campaign 提供的预定义警报标准外，您还可以创建自己的标准来满足您的需求。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="添加到提醒中的指标"
->abstract="选择要作为列显示在电子邮件警报“详细信息”部分中的指示器。"
+>abstract="选择要在电子邮件提醒的“详细信息”部分中显示为列的指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="提醒类型"
->abstract="指定 **警报类型** 对于标准，表示要在警报的“摘要”部分中投放标准旁边显示的标签和颜色。"
+>abstract="指定标准的 **警报类型**，即在警报的“摘要”部分中投放标准旁边显示的标签和颜色。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="条件频率"
->abstract="控制每个符合条件的投放每天的警报频率。"
+>abstract="控制符合标准的每次投放的每日警报频率。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
@@ -85,7 +85,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 
 1. 在 **要添加到警报的指示器** 部分，选择要作为列显示在电子邮件警报“详细信息”部分中的指示器。
 
-1. 指定 **警报类型** 对于标准，表示要在警报的“摘要”部分中投放标准旁边显示的标签和颜色。
+1. 指定标准的 **警报类型**，即在警报的“摘要”部分中投放标准旁边显示的标签和颜色。
 
 1. 此 **标准频率** 部分允许您控制每个符合条件的投放每天的警报频率：
 
