@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 70%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract="启用输出群体的重叠"
+>abstract=" 此 **[!UICONTROL 启用输出群体的重叠]** 利用选项，可管理属于多个子集的群体。 如果未勾选该框，则拆分活动将确保即使收件人满足多个子集的条件，也无法存在于多个输出转换中。 它们将位于第一个选项卡的目标中，并带有匹配条件。 选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 Adobe Campaign建议使用排除条件。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
@@ -102,6 +102,11 @@ ht-degree: 83%
    >[!NOTE]
    >
    >此 **[!UICONTROL 在同一张表中生成所有子集]** 选项允许将所有子集分组到单个输出转换中。
+
+1. 此 **[!UICONTROL 启用输出群体的重叠]** 利用选项，可管理属于多个子集的群体：
+
+   * 如果未勾选该框，则拆分活动将确保即使收件人满足多个子集的条件，也无法存在于多个输出转换中。 它们将位于第一个选项卡的目标中，并带有匹配条件。
+   * 选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 Adobe Campaign建议使用排除条件。
 
 现已配置该活动。在工作流执行时，群体将按照各个子集添加到活动的顺序划分为这些子集。
 
