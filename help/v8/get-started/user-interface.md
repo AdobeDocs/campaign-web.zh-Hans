@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 100%
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="编辑自定义属性"
 >abstract="编辑自定义属性"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="事务性消息传递"
+>abstract="事务性消息传递"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="事务性消息传递属性"
+>abstract="事务性消息传递属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="事务性消息传递事件"
+>abstract="事务性消息传递事件"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="事务性消息上下文"
+>abstract="事务性消息上下文"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="事务性消息内容"
+>abstract="事务性消息内容"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="事务性消息个性化"
+>abstract="事务性消息个性化"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="事务性消息个性化"
+>abstract="事务性消息个性化"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="事务性消息排除日志"
+>abstract="事务性消息排除日志"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="事务性消息上下文"
+>abstract="事务性消息上下文"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="事务性消息传递事件历史记录"
+>abstract="事务性消息传递事件历史记录"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="事务性消息传递事件历史记录预览"
+>abstract="事务性消息传递事件历史记录预览"
+
