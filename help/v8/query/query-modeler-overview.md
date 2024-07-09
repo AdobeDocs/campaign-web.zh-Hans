@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 22%
+source-wordcount: '558'
+ht-degree: 20%
 
 ---
 
@@ -32,18 +32,18 @@ Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据�
 
 | 使用情况 | 示例 |
 |  ---  |  ---  |
-| **定义受众**：指定要在消息或工作流中定位的群体，并根据您的需求轻松创建新受众。 [了解如何构建受众](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自定义工作流活动**：在工作流活动中应用规则，例如 **Split** 和 **调解**，以符合您的特定要求。 [了解有关工作流活动的更多信息](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **预定义过滤器**：创建预定义过滤器，这些过滤器在各种过滤操作期间用作快捷键，无论您是使用数据列表还是构成投放的受众。 [了解如何使用预定义过滤器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **过滤报表数据**：添加规则以筛选报表中显示的数据。 [了解如何使用报告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自定义列表**：创建自定义规则以过滤在列表（如收件人、投放列表等）中显示的数据。 [了解如何筛选列表](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **定义受众**：指定要在消息或工作流中定位的群体，并根据您的需求轻松创建新受众。 [了解如何构建受众](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自定义工作流活动**：在工作流活动中应用规则，例如 **Split** 和 **调解**，以符合您的特定要求。 [了解有关工作流活动的更多信息](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **预定义过滤器**：创建预定义过滤器，这些过滤器在各种过滤操作期间用作快捷键，无论您是使用数据列表还是构成投放的受众。 [了解如何使用预定义过滤器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **过滤报表数据**：添加规则以筛选报表中显示的数据。 [了解如何使用报告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自定义列表**：创建自定义规则以过滤在列表（如收件人、投放列表等）中显示的数据。 [了解如何筛选列表](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **构建条件内容**：通过创建条件来定义应向不同收件人显示的内容，从而动态显示电子邮件内容，确保发送个性化的相关消息。 [了解如何构建条件内容](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## 查询建模器接口 {#interface}
 
 查询建模器提供了一个中央画布，您可以在其中构建查询，以及一个右窗格，提供有关查询的信息。
 
-![](assets/query-interface.png){zoomable=&quot;yes&quot;}
+![](assets/query-interface.png){zoomable="yes"}
 
 ### 中央画布 {#canvas}
 
@@ -59,4 +59,4 @@ Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据�
 
 ### 规则属性窗格 {#rule-properties}
 
-在右侧， **[!UICONTROL 规则属性]** 窗格提供有关查询的信息。 它允许您执行各种操作来检查查询并确保查询符合您的需求。 [了解如何检查和验证您的查询](build-query.md#check-and-validate-your-query)
+在右侧， **[!UICONTROL 规则属性]** 窗格提供有关查询的信息。 它允许您执行各种操作来检查查询并确保查询符合您的需求。 构建查询以创建受众时，显示此窗格。 [了解如何检查和验证您的查询](build-query.md#check-and-validate-your-query)
