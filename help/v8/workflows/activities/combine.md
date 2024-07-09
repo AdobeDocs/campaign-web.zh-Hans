@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择如何合并受众：并集、交集或排除。"
+>abstract="选择如何合并受众：并集、交叉或排除。"
 
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
