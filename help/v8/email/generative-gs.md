@@ -6,10 +6,10 @@ badge: label="Beta 版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 39%
+source-wordcount: '644'
+ht-degree: 38%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 39%
 >abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Campaign中的AI Assistant是Adobe的AI支持的内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Campaign中的AI助手由Azure OpenAI和Azure Vision提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
 
 AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创建和执行营销活动，既简单又无麻烦，同时还能节省时间、提高效率和产生更好的结果。
 
