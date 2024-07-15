@@ -6,7 +6,7 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ ht-degree: 100%
    + [通过用例学习](landing-pages/lp-use-cases.md)
 + 用户档案和受众 {#audiences}
    + [用户档案和受众入门](audience/gs-audiences-recipients.md)
-   + [定位维度](audience/targeting-dimensions.md)
+   + [目标选择维度](audience/targeting-dimensions.md)
    + [隔离](audience/quarantine.md)
    + 使用配置文件 {#work-with-profiles}
       + [开始使用配置文件](audience/about-recipients.md)

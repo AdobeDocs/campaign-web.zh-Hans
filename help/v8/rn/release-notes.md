@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### 改进 {#improvements-24-6}
 
-* **扩充活动中的协调**：和 **扩充** 活动现在可用于将来自Campaign数据库模式的数据与来自其他模式的数据或来自临时模式的数据（例如使用加载文件活动上传的数据）进行协调。 例如，您可以使用此选项将上传文件中指定的配置文件的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。[了解更多信息](../workflows/activities/enrichment.md)
+* **扩充活动中的协调**：**扩充**&#x200B;活动现在可用于协调来自 Campaign 数据库模式的数据与来自另一个模式的数据，或来自临时模式的数据（例如使用“加载”文件活动上传的数据）。例如，您可以使用此选项将上传文件中指定的配置文件的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。[了解更多信息](../workflows/activities/enrichment.md)
 
 ## 5 月发行说明 {#24-5-release}
 
