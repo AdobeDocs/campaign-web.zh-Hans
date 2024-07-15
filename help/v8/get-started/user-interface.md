@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -325,13 +325,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
->title="事务性消息传递"
->abstract="事务性消息传递"
+>title="事务性消息"
+>abstract="事务性消息"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="事务性消息传递属性"
->abstract="事务性消息传递属性"
+>title="事务性消息属性"
+>abstract="事务性消息属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
@@ -340,8 +340,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="事务性消息传递事件"
->abstract="事务性消息传递事件"
+>title="事务性消息事件"
+>abstract="事务性消息事件"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
@@ -370,11 +370,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="事务性消息传递事件历史记录"
->abstract="事务性消息传递事件历史记录"
+>title="事务性消息事件历史记录"
+>abstract="事务性消息事件历史记录"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="事务性消息传递事件历史记录预览"
->abstract="事务性消息传递事件历史记录预览"
+>title="事务性消息事件历史记录预览"
+>abstract="事务性消息事件历史记录预览"
 
