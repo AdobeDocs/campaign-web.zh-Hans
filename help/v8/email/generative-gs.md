@@ -6,10 +6,10 @@ badge: label="Beta 版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
+source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 38%
+source-wordcount: '581'
+ht-degree: 29%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 条款"
->abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
+>abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。请检查此功能的任何输出是否正确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Campaign中的AI助手由Azure OpenAI和Azure Vision提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Campaign中的AI助手由Azure OpenAI提供支持，是Adobe的AI内容生成功能，可彻底改变营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
 
 AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创建和执行营销活动，既简单又无麻烦，同时还能节省时间、提高效率和产生更好的结果。
 
@@ -59,7 +59,7 @@ AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创�
 * 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
 * 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的最大大小为50MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
-* 最好使用Adobe Campaign创作的电子邮件模板 [内置电子邮件模板](../email/create-email-templates.md)，用于创建电子邮件内容的特定于品牌的模板或自定义模板。 建议使用最多包含8至10张图像的电子邮件模板。
+* 使用Adobe Campaign创作的电子邮件模板（最好是[内置电子邮件模板](../email/create-email-templates.md)）、特定于品牌的模板或自定义模板来创建您的电子邮件内容。 建议使用最多包含8至10张图像的电子邮件模板。
 * 选择变体时，请确保使用向上缩略图、向下缩略图或标记图标报告任何有问题的输出。
 * 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
@@ -76,7 +76,7 @@ AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创�
 <img alt="电子邮件生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>使用AI助手生成电子邮件</strong></a>
+使用AI助手生成<a href="generative-content.md"><strong>电子邮件</strong></a>
 </div>
 <p>
 </td>
@@ -84,7 +84,7 @@ AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创�
 <a href="generative-sms.md">
 <img alt="短信生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>使用AI助手生成短信</strong>
+<div>使用AI助手生成<a href="generative-sms.md"><strong>短信</strong>
 </div>
 <p>
 </td>
@@ -93,7 +93,7 @@ AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创�
 <img alt="推送生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>使用AI助手生成推送通知</strong></a>
+使用AI助手生成<a href="generative-push.md"><strong>推送通知</strong></a>
 </div>
 <p></td>
 </tr></table>
