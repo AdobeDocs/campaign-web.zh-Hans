@@ -4,7 +4,7 @@ description: 在 Campaign Web 用户界面中使用工作流时的护栏和限�
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -26,19 +26,19 @@ Campaign Web 用户界面中尚不支持的工作流活动为只读活动，并�
 
 | 控制台 | Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 如果&#x200B;**查询**&#x200B;或&#x200B;**扩充**&#x200B;活动是在控制台中使用附加数据配置的，则会在 Campaign Web 中考虑扩充数据并将其传递到出站过渡中，但无法对其进行编辑。
 
 | 控制台 | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 在控制台中，**扩充**&#x200B;活动可执行协调和扩充。如果已在客户端控制台中定义&#x200B;**扩充**&#x200B;活动中的协调设置，则该活动将在 Campaign Web 用户界面中显示为&#x200B;**协调**&#x200B;活动。
 
 | 控制台 | Web |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 ## 工作流画布 {#wkf-canvas}
 
@@ -46,10 +46,10 @@ Campaign Web 用户界面中尚不支持的工作流活动为只读活动，并�
 
 | 控制台 | Web |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 每次添加或移除活动时都会刷新节点的定位。如果在控制台中创建工作流，使用 Campaign Web 用户界面修改它，然后在控制台中重新打开，则可能会发现一些细微的定位瑕疵。这种情况不影响工作流的过程和任务。
 
 | 初始工作流 | 定位更改 |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |

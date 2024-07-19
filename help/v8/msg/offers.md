@@ -5,15 +5,15 @@ description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 36%
+source-wordcount: '760'
+ht-degree: 35%
 
 ---
 
 
 # 将优惠添加到您的消息 {#offers-content}
 
-您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些优惠可从以下网站获取： **选件** 左侧菜单，用于访问选件列表。 所有这些选件均为只读，且必须已在Campaign客户端控制台中使用 **[!UICONTROL 互动]** 模块。 有关交互以及如何在控制台中管理优惠目录的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}.
+您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。 所有这些选件都是只读的，并且必须已使用&#x200B;**[!UICONTROL 交互]**&#x200B;模块在Campaign客户端控制台中创建。 有关交互以及如何管理控制台中的优惠目录的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
 
 
 通过投放发送优惠的步骤如下：
@@ -37,19 +37,19 @@ ht-degree: 36%
 
 要选择要添加到投放的优惠，请执行以下步骤。
 
-1. 单击 **[!UICONTROL 设置优惠]** 按钮。
+1. 单击投放内容版本屏幕中的&#x200B;**[!UICONTROL 设置选件]**&#x200B;按钮。
 
-   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable="yes"}
 
 1. 配置应向收件人推荐的优惠。
 
-   首先选择 **[!UICONTROL 优惠空间]** 与您的选件环境相匹配的。 了解如何在中创建优惠空间 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   首先选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}以了解如何创建优惠空间。
 
-   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. 要细化引擎的优惠选择，请选择已在其中对优惠排序的特定&#x200B;**[!UICONTROL 优惠类别]**。
 
-   选择文件夹时，会自动包含所有子文件夹，并且无法将其删除。 请注意 [!DNL Campaign] 接口不反映此行为。
+   选择文件夹时，会自动包含所有子文件夹，并且无法将其删除。 请注意，[!DNL Campaign]接口不反映此行为。
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ ht-degree: 36%
 
 1. （可选）输入主题以筛选类别。 主题是在类别中上游定义的关键字。 它们充当筛选器，可让您通过在一组类别中选择优惠来细化要显示的优惠数量。
 
-1. 使用 **[!UICONTROL 建议]** 字段，用于指定要插入到投放中的选件数量。
+1. 使用&#x200B;**[!UICONTROL 建议]**&#x200B;字段指定要插入到投放中的优惠数量。
 
 1. 如有必要，可以选择&#x200B;**[!UICONTROL 排除不符合条件的收件人]**&#x200B;选项。
 
@@ -77,11 +77,11 @@ ht-degree: 36%
 
 ## 将优惠插入投放 {#insert}
 
-可使用将优惠添加到投放中 [表达式编辑器](../personalization/gs-personalization.md#access). 可以将它们插入主题行或投放正文中。
+可以使用[表达式编辑器](../personalization/gs-personalization.md#access)将选件添加到投放中。 可以将它们插入主题行或投放正文中。
 
 >[!CAUTION]
 >
->在将选件插入投放之前，请确保已 [已配置要在该投放中建议哪些优惠](#configure).
+>在将选件插入投放中之前，请确保已[配置要与该投放一起建议哪些选件](#configure)。
 
 要使用表达式编辑器插入选件，请执行以下步骤。
 
@@ -89,21 +89,21 @@ ht-degree: 36%
 
 1. 将鼠标光标放在要插入选件的位置，然后使用个性化图标打开表达式编辑器。
 
-   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
-1. 选择 **[!UICONTROL 建议]** 菜单。 可用建议会显示在列表中。
+1. 选择&#x200B;**[!UICONTROL 建议]**&#x200B;菜单。 可用建议会显示在列表中。
 
    >[!NOTE]
    >
-   >在以下情况下定义建议数量 [设置优惠](#configure) 当前投放的。
+   >在为当前投放[设置选件](#configure)时定义建议数。
 
 1. 使用可用的个性化字段、渲染函数或优惠属性定义每个建议。
 
-   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 在中了解详情 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}以了解详情。
 
 1. 保存您的更改。
 

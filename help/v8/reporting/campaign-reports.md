@@ -5,8 +5,8 @@ description: 了解如何访问和使用营销活动报告
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 24%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 24%
 
 要访问和管理营销活动报表，请执行以下步骤：
 
-1. 导航至 **[!UICONTROL 营销活动]** 菜单。 单击 **报表** 活动仪表板中的按钮。
+1. 导航到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单。 单击营销活动信息板上的&#x200B;**报表**&#x200B;按钮。
 
-   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_2.png){zoomable="yes"}
 
-   或者，您可以使用三个点 **更多操作** 按钮，然后选择 **[!UICONTROL 查看报告]**.
+   或者，您可以使用促销活动列表中促销活动名称旁边的三个圆点&#x200B;**更多操作**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看报告]**。
 
-   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_1.png){zoomable="yes"}
 
 1. 从左侧菜单中，从列表中选择一个报表，并导航到选项卡以显示每个渠道的数据。
 
-   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 在仪表板中，单击 **[!UICONTROL 选择投放]** 适用于要定位活动中包含的特定投放的情况。
+1. 在仪表板中，如果您要定位活动中包含的特定投放，请单击&#x200B;**[!UICONTROL 选择投放]**。
 
-1. 在 **[!UICONTROL 投放吞吐量]** 菜单，选择 **开始** 和 **[!UICONTROL 结束时间]** 以定位特定数据。
+1. 在&#x200B;**[!UICONTROL 投放吞吐量]**&#x200B;菜单中，选择&#x200B;**开始**&#x200B;和&#x200B;**[!UICONTROL 结束时间]**&#x200B;以定向特定数据。
 
-   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_3.png){zoomable="yes"}
 
-1. 从 **[!UICONTROL 选取文件夹]** 字段，选择要从特定文件夹定位投放或营销活动。
+1. 从&#x200B;**[!UICONTROL Pick folder]**&#x200B;字段中，选择要从特定文件夹定位投放或营销活动。
 
-   您还可以选择 **[!UICONTROL 添加规则]** 以开始构建查询，从而更好地筛选报表数据。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
+   您还可以选择&#x200B;**[!UICONTROL 添加规则]**&#x200B;以开始构建查询，更好地筛选报表数据。 [了解如何使用查询建模器](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 从 **[!UICONTROL URL和点击流]**，您还可以选择 **[!UICONTROL 热门访问链接]** 或 **[!UICONTROL 时间段]**.
+1. 从&#x200B;**[!UICONTROL URL并单击流]**&#x200B;中，您还可以选择&#x200B;**[!UICONTROL 热门访问链接]**&#x200B;或&#x200B;**[!UICONTROL 时段]**。
 
-   此 **[!UICONTROL 查看方式]** 利用选项，可按URL、标签或类别进行过滤。
+   通过&#x200B;**[!UICONTROL 查看方式]**&#x200B;选项，可按URL、标签或类别进行筛选。

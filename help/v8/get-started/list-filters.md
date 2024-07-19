@@ -5,7 +5,7 @@ description: 探索如何浏览和筛选列表 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 100%
 
 列表将以列的形式显示。可以更改列配置来显示其他信息。为此，请单击列表右上角的&#x200B;**为自定义版面配置列**&#x200B;图标。
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 在&#x200B;**配置列**&#x200B;屏幕中，添加或删除列，并更改它们的显示顺序。
 
 例如，对于这些设置：
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 该列表显示以下列：
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## 对数据排序 {#sort-lists}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 要更快地找到项，可使用搜索栏或内置过滤器和自定义过滤器根据上下文条件调整列表。
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 可在[此部分](../query/filter.md)中找到有关如何使用过滤器和创建您自己的自定义过滤器的详细信息。
 

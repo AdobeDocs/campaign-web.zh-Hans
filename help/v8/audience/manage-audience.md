@@ -5,8 +5,8 @@ description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 26%
+source-wordcount: '352'
+ht-degree: 25%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 26%
 >title="受众出错"
 >abstract="无受众数据可用。请等待工作流执行结束。"
 
-受众是投放的主要目标：接收消息的用户档案。 可在Campaign Web中使用的受众列表，可从以下位置访问： **[!UICONTROL 受众]** 菜单。
+受众是投放的主要目标：接收消息的用户档案。 可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问Campaign Web中可用的受众列表。
 
-![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable="yes"}
 
-受众可以源自多个源。 此 **[!UICONTROL Origin]** 列指示创建给定受众的位置：
+受众可以源自多个源。 **[!UICONTROL Origin]**&#x200B;列指示创建给定受众的位置：
 
-* **[!UICONTROL Adobe Campaign]**：这些受众创建于 [Adobe Campaign Web用户界面](create-audience.md) 或在 [Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中创建。
 
-* **[!UICONTROL Adobe Experience Platform：]** 这些受众已在Adobe Experience Platform中创建，并已使用Adobe源和目标集成集成集成到Campaign Web中。 了解如何在中设置此集成 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform中创建，并使用Adobe源和目标集成集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
 
-  ➡️ [在视频中发现此功能](#video)
+  ➡️[在视频中发现此功能](#video)
 
-要获取有关受众的更多信息，请从列表中将其打开。 此时将显示受众属性以及受众中包含的用户档案数。 您可以随时使用刷新受众计数 **[!UICONTROL 计算]** 按钮。
+要获取有关受众的更多信息，请从列表中将其打开。 此时将显示受众属性以及受众中包含的用户档案数。 您可以随时使用&#x200B;**[!UICONTROL 计算]**&#x200B;按钮刷新受众计数。
 
-此 **[!UICONTROL 数据]** 选项卡允许您可视化属于受众的用户档案。 您可以通过添加更多列或利用高级筛选器来优化显示的数据来自定义此视图。
+**[!UICONTROL 数据]**&#x200B;选项卡允许您可视化属于受众的用户档案。 您可以通过添加更多列或利用高级筛选器来优化显示的数据来自定义此视图。
 
-![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable="yes"}
 
-要复制或删除受众，请单击 **[!UICONTROL 更多操作]** 按钮在受众名称或受众详细信息屏幕中的受众列表中可用。
+要复制或删除受众，请单击受众名称旁边的受众列表中或受众详细信息屏幕内可用的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
 
 ## 操作说明视频 {#video}
 
@@ -53,4 +53,4 @@ ht-degree: 26%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有关如何设置Adobe源和目标集成的详细信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+有关如何设置Adobe源和目标集成的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

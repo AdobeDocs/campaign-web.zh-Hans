@@ -20,31 +20,31 @@ ht-degree: 10%
 
 使用 Adobe Campaign 可以为营销计划和项目配置文件夹层次结构。
 
-为了更好地组织这些活动，Adobe建议采用以下层次结构：计划 `>` 程序 `>` 营销活动
+为了更好地组织这些活动，Adobe建议采用以下层次结构：计划`>`项目`>`营销活动
 
-* A **计划** 可能包含多个程序。 它定义了一个时期的战略目标。
-* A **项目** 可能包含其他项目以及营销策划、工作流和登陆页面。
-* A **营销活动** 可能包含投放、工作流和登陆页面。
+* **计划**&#x200B;可能包含多个计划。 它定义了一个时期的战略目标。
+* **项目**&#x200B;可能包含其他项目以及营销策划、工作流和登陆页面。
+* **营销活动**&#x200B;可能包含投放、工作流和登陆页面。
 
 ## 创建和配置计划 {#create-plan}
 
-要创建计划，您需要创建具有文件夹类型的文件夹 **[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](create-manage-folder.md).
+要创建计划，您需要创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](create-manage-folder.md)。
 
 ![](assets/plan_create.png){zoomable="yes"}
 
-转到 **[!UICONTROL 文件夹设置]** 管理它的计划。
+转到计划的&#x200B;**[!UICONTROL 文件夹设置]**&#x200B;对其进行管理。
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-您可以定义 **[!UICONTROL 自定义选项]**，并设置计划的计划日期。
+您可以定义&#x200B;**[!UICONTROL 自定义选项]**，并设置计划的计划日期。
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-要管理  **[!UICONTROL 自定义选项]**：
+要管理&#x200B;**[!UICONTROL 自定义选项]**：
 
-1. 浏览至 **[!UICONTROL 架构]**
-1. 选择 **[!UICONTROL 可编辑]** 筛选器中的架构
-1. 单击图标 **[!UICONTROL 编辑自定义详细信息]**
+1. 浏览到&#x200B;**[!UICONTROL 架构]**
+1. 选择筛选器中的&#x200B;**[!UICONTROL 可编辑]**&#x200B;架构
+1. 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;的图标
 
 ![](assets/plan_edit.png){zoomable="yes"}
 
@@ -54,23 +54,23 @@ ht-degree: 10%
 
 ## 创建和配置程序
 
-要在您的计划中创建项目，请执行以下操作([了解有关创建计划的更多信息](#create-plan))，您需要加入您的计划并创建具有文件夹类型的文件夹 **[!UICONTROL 项目]** [了解有关创建文件夹的更多信息](create-manage-folder.md).
+若要在计划中创建计划（[了解有关创建计划的详细信息](#create-plan)），您需要加入计划，并创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](create-manage-folder.md)。
 
 ![](assets/program_create.png){zoomable="yes"}
 
-转到 **[!UICONTROL 文件夹设置]** 以管理它。
+转到程序的&#x200B;**[!UICONTROL 文件夹设置]**&#x200B;对其进行管理。
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-您可以定义 **[!UICONTROL 自定义选项]**，并设置项目的计划日期。
+您可以定义&#x200B;**[!UICONTROL 自定义选项]**，并设置程序的计划日期。
 
 ![](assets/program_options.png){zoomable="yes"}
 
-要管理  **[!UICONTROL 自定义选项]**：
+要管理&#x200B;**[!UICONTROL 自定义选项]**：
 
-1. 浏览至 **[!UICONTROL 架构]**
-1. 选择 **[!UICONTROL 可编辑]** 筛选器中的架构
-1. 单击图标 **[!UICONTROL 编辑自定义详细信息]**
+1. 浏览到&#x200B;**[!UICONTROL 架构]**
+1. 选择筛选器中的&#x200B;**[!UICONTROL 可编辑]**&#x200B;架构
+1. 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;的图标
 
 ![](assets/program_edit.png){zoomable="yes"}
 
@@ -88,21 +88,21 @@ ht-degree: 10%
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-此 **[!UICONTROL 文件夹]** 设置将自动与程序的路径一起归档。
+**[!UICONTROL 文件夹]**&#x200B;设置将自动与程序路径一起归档。
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### 方#2：您已经有一个现有营销活动，并希望将其链接到现有项目
 
-转到 **[!UICONTROL 设置]** 链接至项目的营销策划的按钮：
+转到要链接到项目的营销活动的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮：
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-在 **[!UICONTROL 属性]**，单击 **[!UICONTROL 文件夹]** 图标 **[!UICONTROL 文件夹]** 设置，以便选择您的 **[!UICONTROL 项目]** 文件夹。
+在其&#x200B;**[!UICONTROL 属性]**&#x200B;中，单击&#x200B;**[!UICONTROL 文件夹]**&#x200B;设置中的&#x200B;**[!UICONTROL 文件夹]**&#x200B;图标，以选择您的&#x200B;**[!UICONTROL 程序]**&#x200B;文件夹。
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-选择您的 **[!UICONTROL 项目]** 文件夹，然后单击 **[!UICONTROL 确认]** 按钮，然后打开 **[!UICONTROL 保存并关闭]** 按钮。
+选择您的&#x200B;**[!UICONTROL Program]**&#x200B;文件夹并单击&#x200B;**[!UICONTROL 确认]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;按钮。
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 

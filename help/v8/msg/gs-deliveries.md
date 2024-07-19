@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1185'
 ht-degree: 96%
 
 ---
@@ -34,12 +34,12 @@ ht-degree: 96%
 
 1. 浏览到左侧导航上的&#x200B;**[!UICONTROL 投放]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. 选择投放的渠道。
-1. 为主要目标和对照组定义投放受众。[了解有关受众的更多信息](../audience/about-recipients.md).
+1. 为主要目标和对照组定义投放受众。[了解有关受众的详细信息](../audience/about-recipients.md)。
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. 定义消息内容。在以下各部分中了解有关投放渠道以及如何定义投放内容的更多信息：
 
@@ -51,24 +51,24 @@ ht-degree: 96%
 1. 单击&#x200B;**[!UICONTROL 查看并发送]**&#x200B;按钮可检查您的设置。
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮可测试您的投放和个性化设置。在[此章节](../preview-test/preview-test.md)中详细了解消息模拟。
 1. 单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮可计算目标群体并生成消息。准备步骤可能需要几分钟时间。准备完成后，消息随时即可发送。如果出现错误，请浏览到&#x200B;**日志**&#x200B;检查警报和警告。
-1. 检查结果，然后单击 **[!UICONTROL 发送]** 按钮以开始发送消息。
+1. 检查结果，然后单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮开始发送消息。
 1. 发送消息后，浏览到&#x200B;**报告**&#x200B;部分以访问关键量度。在[此章节](../reporting/delivery-reports.md)中详细了解投放报告。
 
 >[!TAB 在工作流中创建投放]
 
 要在工作流中创建投放，请执行以下步骤：
 
-1. 创建工作流或打开现有工作流。[了解有关工作流的更多信息](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. 添加和配置 [**[!UICONTROL 构建受众]**](../workflows/activities/build-audience.md) 活动。
-1. 单击 `+` 图标并选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。详细了解工作流中的投放渠道活动，以及如何在中定义投放内容 [本节](../workflows/activities/channels.md).
+1. 创建工作流或打开现有工作流。[了解有关工作流的详细信息](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. 添加和配置[**[!UICONTROL 构建受众]**](../workflows/activities/build-audience.md)活动。
+1. 单击 `+` 图标并选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知 (Android)]** 或&#x200B;**[!UICONTROL 推送通知 (iOS)]**。在[本节](../workflows/activities/channels.md)中进一步了解工作流中的投放渠道活动以及如何定义投放内容。
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. 启动工作流，并检查日志。
 
 您还可以在不创建工作流的情况下在营销活动中添加投放。为此，请浏览到营销活动的&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 配置步骤与独立投放类似。
 
@@ -116,7 +116,7 @@ ht-degree: 96%
 
 要安排发送投放，请打开您的投放并浏览到&#x200B;**[!UICONTROL 安排]**&#x200B;部分。使用&#x200B;**[!UICONTROL 启用安排]**&#x200B;切换开关以激活该功能，然后设置要发送的日期和时间。发送投放后，实际发送将在您定义的联系日期开始。
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
 默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在安排的日期和时间发送投放之前确认发送。如果您需要在安排的日期和时间自动发送投放，可禁用此选项。
 

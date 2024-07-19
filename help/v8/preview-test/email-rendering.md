@@ -5,8 +5,8 @@ description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 6%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
 
@@ -15,38 +15,38 @@ ht-degree: 6%
 
 在发送电子邮件之前，请确保以最佳方式在各种Web客户端和设备上向收件人显示您的消息。
 
-为此，您可以利用 **利特默斯** 帐户至 [!DNL Adobe Campaign] 即时预览不同上下文中的电子邮件呈现，并检查主要桌面和应用程序（Web邮件、消息服务、移动设备等）中的兼容性。
+为此，您可以将&#x200B;**Litmus**&#x200B;帐户用于[!DNL Adobe Campaign]，以便即时预览不同上下文中的电子邮件渲染，并检查主要桌面和应用程序（Web邮件、消息服务、移动设备等）中的兼容性。
 
 >[!CAUTION]
 >
->在Campaign中使用电子邮件渲染会向第三方系统发送验证。 将您的Litmus帐户与 [!DNL Campaign]，则您确认该Adobe对您可能发送给该第三方的任何数据概不负责。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些验证中的个性化数据。 要访问或删除此类数据，您需要直接联系Litmus。
+>在Campaign中使用电子邮件渲染会向第三方系统发送验证。 将Litmus帐户与[!DNL Campaign]连接后，即表示您确认Adobe对您可能发送给该第三方的任何数据不承担任何责任。 Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些验证中的个性化数据。 要访问或删除此类数据，您需要直接联系Litmus。
 
 要访问电子邮件渲染功能，您需要：
 
 * 拥有Litmus帐户
-* 选择配置文件和/或测试配置文件 — 了解如何在 [本节](preview-content.md)
+* 选择配置文件和/或测试配置文件 — 在[本节](preview-content.md)中了解如何操作
 
 然后，执行以下步骤。
 
-1. 在 [编辑内容](../email/edit-content.md) 屏幕或 [电子邮件设计工具](../email/get-started-email-designer.md)，单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 在[编辑内容](../email/edit-content.md)屏幕或[电子邮件Designer](../email/get-started-email-designer.md)中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
-1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
+1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;按钮。
 
-   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
-1. 单击 **连接您的Litmus帐户** 在右上角。
+1. 单击右上角的&#x200B;**连接您的Litmus帐户**。
 
-   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. 输入您的凭据并登录。
 
-   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
-1. 单击 **运行测试** 按钮以生成电子邮件预览。
+1. 单击&#x200B;**运行测试**&#x200B;按钮以生成电子邮件预览。
 
 1. 在常用的桌面、移动和基于Web的客户端中查看您的电子邮件内容。
 
-   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

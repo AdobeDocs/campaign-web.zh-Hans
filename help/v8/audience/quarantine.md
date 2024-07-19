@@ -2,7 +2,8 @@
 audience: end-user
 title: 关于隔离
 description: 了解隔离地址的管理
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Adobe Campaign管理隔离地址（电子邮件、短信、推送通知）。
 
-隔离仅适用于 **电子邮件地址**， a **电话号码**，或 **设备令牌**，但不适用于配置文件本身。 例如，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后再次被投放操作定向。 同样，如果两个用户档案碰巧拥有相同的电话号码，那么隔离该号码将会同时影响这两个用户档案。
+隔离仅适用于&#x200B;**电子邮件地址**、**电话号码**&#x200B;或&#x200B;**设备令牌**，而不适用于配置文件本身。 例如，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后再次被投放操作定向。 同样，如果两个用户档案碰巧拥有相同的电话号码，那么隔离该号码将会同时影响这两个用户档案。
 
 
 >[!CAUTION]
@@ -22,7 +23,7 @@ Adobe Campaign管理隔离地址（电子邮件、短信、推送通知）。
 
 ## 什么是隔离？
 
-隔离是实现 **管理投放中的无效地址**.
+隔离是&#x200B;**管理投放**&#x200B;中的无效地址的方法。
 
 如果投放的无效地址比率很高，则可能会将其视为垃圾邮件。 通过隔离管理这些地址可避免您被Internet提供商列入阻止列表。 这对你的声誉很重要。
 
@@ -43,7 +44,7 @@ Adobe Campaign管理隔离地址（电子邮件、短信、推送通知）。
 
 ## 在何处查找隔离地址
 
-您可以在以下位置查看实例的所有隔离地址： **[!UICONTROL 资源管理器]** > **[!UICONTROL 管理]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 不可交付结果管理]** > **[!UICONTROL 不可交付结果和地址]**. 此部分列出了电子邮件、短信和推送通知渠道的隔离元素。
+您可以在&#x200B;**[!UICONTROL Explorer]** > **[!UICONTROL 管理]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 不可交付结果管理]** > **[!UICONTROL 不可交付结果和地址]**&#x200B;中查看实例的所有隔离地址。 此部分列出了电子邮件、短信和推送通知渠道的隔离元素。
 
 ![](assets/quarantine_location.png){zoomable="yes"}
 
@@ -55,4 +56,4 @@ Adobe Campaign管理隔离地址（电子邮件、短信、推送通知）。
 
 ![](assets/quarantine_delivery.png){zoomable="yes"}
 
-在Adobe Campaign控制台中管理隔离地址的可能性更大。 [了解更多信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)
+在Adobe Campaign控制台中管理隔离地址的可能性更大。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)

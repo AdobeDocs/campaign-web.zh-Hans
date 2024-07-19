@@ -5,7 +5,7 @@ description: 了解如何添加和管理指向镜像页面的链接
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '439'
 ht-degree: 96%
 
 ---
@@ -30,15 +30,15 @@ Adobe Campaign 生成的镜像页面包含所有个性化数据。
 
 1. 选择一个元素，并单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
 1. 选择&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标以访问个性化菜单。
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 内容块]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 镜像页面 URL]**，然后单击&#x200B;**[!UICONTROL 添加]**。
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
    有关自定义内容块插入的更多信息，请参阅[此章节](../personalization/personalize.md#personalize-emails)。
 

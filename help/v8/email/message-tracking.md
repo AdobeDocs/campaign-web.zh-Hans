@@ -5,8 +5,8 @@ description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 66%
+source-wordcount: '535'
+ht-degree: 69%
 
 ---
 
@@ -28,23 +28,23 @@ ht-degree: 66%
 
 1. 选择要创建的链接类型：
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部链接]**：插入指向外部URL的链接。
 
      >[!AVAILABILITY]
      >
-     >以下功能(链接到 **[!UICONTROL 登陆页面]**， **[!UICONTROL 订阅链接]** 和 **[!UICONTROL 退订链接]**)在有限可用性(LA)中。 它们仅限于迁移的客户 **从Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和无法部署在任何其他环境中。
+     >以下功能（链接到&#x200B;**[!UICONTROL 登陆页面]**、**[!UICONTROL 订阅链接]**&#x200B;和&#x200B;**[!UICONTROL 退订链接]**）的可用性有限(LA)。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 
-   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 如果您选择动态登陆页面(使用 **[!UICONTROL 来自URL的服务]** 选项)，您可以从列表中选择任何服务。 [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 如果选择动态登陆页面（选择了&#x200B;**[!UICONTROL 来自URL的服务]**&#x200B;选项），则可以从列表中选择任何服务。 [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-   * **[!UICONTROL 订阅链接]**：插入指向订阅服务的链接。 当用户单击该链接时，将被定向到所选服务中引用的订阅登陆页面。 [了解详情](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 订阅链接]**：插入订阅服务的链接。 当用户单击该链接时，将被定向到所选服务中引用的订阅登陆页面。 [了解详情](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL 退订链接]**：插入指向退订服务的链接。 当订阅者单击该链接时，将被定向到所选服务中引用的退订登陆页面。 [了解详情](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 退订链接]**：插入退订服务的链接。 当订阅者单击该链接时，将被定向到所选服务中引用的退订登陆页面。 [了解详情](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -59,11 +59,11 @@ ht-degree: 66%
    * 可以编辑链接并更改其&#x200B;**[!UICONTROL 目标]**。
    * 可以通过选中相应的选项来选择是否为链接加下划线。
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)在渠道平面级别和创建消息时定义。
+>营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在渠道表面级别和创建消息时定义。
 
 应在所有电子邮件中添加指向镜像页面的特定链接。在[此章节](mirror-page.md)中详细了解镜像页面。
 
@@ -77,11 +77,11 @@ ht-degree: 66%
 
 1. 要编辑链接，请单击相应的铅笔图标。
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. 如果需要，可以修改&#x200B;**[!UICONTROL 跟踪类型]**：
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    对于每个跟踪的 URL，可以将跟踪模式设置为下列值之一：
 
@@ -92,6 +92,6 @@ ht-degree: 66%
 
 1. 将&#x200B;**[!UICONTROL 类别]**&#x200B;添加到链接以对跟踪的链接进行分组，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. 发送您的投放后，访问您的投放报告。在&#x200B;**[!UICONTROL 跟踪]**&#x200B;菜单下方，**[!UICONTROL URL 和点击流]**&#x200B;报告显示了投放中访问次数最多的 URL。[了解详情](../reporting/gs-reports.md)

@@ -5,8 +5,8 @@ description: 了解如何定义和发送验证
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 15%
+source-wordcount: '1124'
+ht-degree: 13%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 15%
 要开始测试消息内容，请执行以下操作：
 
 1. 编辑投放的内容。
-1. 单击 **[!UICONTROL 模拟内容]** 按钮。
-1. 单击 **[!UICONTROL 发送验证]** 按钮以发送校样。
+1. 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
+1. 单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮以发送校样。
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. 选择校样收件人。
 
    根据消息渠道，校样可以发送给以下类型的收件人：
 
-   * 对于短信和电子邮件，您可以使用 [测试用户档案](#test-profiles)，即数据库中的其他特定收件人。 您也可以使用 [从主目标替换](#substitution-profiles) 模式，用于将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+   * 对于短信和电子邮件，您可以使用[测试用户档案](#test-profiles)，这些用户档案是数据库中的特定附加收件人。 您还可以使用主目标](#substitution-profiles)模式中的[替换，该模式会将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
-   * 对于推送消息，您可以使用 [订阅者](#subscribers)，这些是添加到数据库中的虚拟订阅者。 它们创建于 [!DNL Campaign] 控制台。 了解详情，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * 对于推送消息，您可以使用[订阅者](#subscribers)，这些订阅者是添加到数据库中的虚拟订阅者。 它们是在[!DNL Campaign]控制台中创建的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}以了解详情
 
    下面提供了每种模式的详细配置。
 
@@ -70,87 +70,87 @@ ht-degree: 15%
 >title="将测试配置文件包含在主要受众中"
 >abstract="启用此选项还可将最终消息发送给验证收件人。"
 
-测试用户档案是数据库中的其他收件人。 它们是从 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 菜单。 [了解详情](../audience/test-profiles.md#create-test-profiles)
+测试用户档案是数据库中的其他收件人。 它们是从&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**&#x200B;菜单创建的。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
 将验证发送到测试用户档案的步骤详述如下。
 
-1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 发送验证]** 按钮。
+1. 从投放的内容中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
-1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **[!UICONTROL 测试用户档案]** 定位将接收验证或短信投放的虚构收件人。
+1. 从&#x200B;**[!UICONTROL 模式]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试用户档案]**&#x200B;以定向将接收校样或短信投放的虚拟收件人。
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-1. 如果您已经选择用户档案到 [预览消息](preview-content.md) 在内容模拟屏幕中，预先选择这些用户档案作为验证收件人。 您可以清除所做的选择和/或使用 **[!UICONTROL 添加测试配置文件]** 按钮。
+1. 如果您已在内容模拟屏幕中选择了用于[预览邮件](preview-content.md)的用户档案，则会预先选择这些用户档案作为验证收件人。 您可以使用&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;按钮清除选择和/或添加其他收件人。
 
-1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。 例如，您可以定义规则以查找所有测试用户档案，其中 **[!UICONTROL 潜在客户]** 状态。 了解如何使用 [查询建模器](../query/query-modeler-overview.md).
+1. 在浏览测试用户档案或用户档案列表时，您可以使用过滤器来优化搜索。 例如，您可以定义规则以查找所有状态为&#x200B;**[!UICONTROL 潜在客户]**&#x200B;的测试配置文件。 了解如何使用[查询建模器](../query/query-modeler-overview.md)添加规则。
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
-1. 要将最终消息发送给验证的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
+1. 若要将最终消息发送给验证的收件人，请选择&#x200B;**[!UICONTROL 将测试群体包含在主目标]**&#x200B;中。
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
-1. 选择测试用户档案后，您可以 [发送证明](#send-test).
+1. 选择测试配置文件后，您可以[发送校样](#send-test)。
 
 ## 替换用户档案数据 {#substitution-profiles}
 
-使用配置文件替换将验证发送到特定的电子邮件地址或电话号码，同时显示来自的现有配置文件的数据 [!DNL Adobe Campaign] 数据库。 仅当已定义投放的受众时，才能选择此模式。
+使用配置文件替换将验证发送到特定电子邮件地址或电话号码，同时显示[!DNL Adobe Campaign]数据库的现有配置文件中的数据。 仅当已定义投放的受众时，才能选择此模式。
 
 要替换主目标中的用户档案数据，请执行以下步骤：
 
-1. 从投放内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 发送验证]** 按钮。
+1. 从投放的内容中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
-1. 从 **[!UICONTROL 模式]** 下拉列表，选择 **[!UICONTROL 从主要目标替换]** 在显示现有用户档案中的数据时将验证发送到特定电子邮件地址或电话号码。
+1. 从&#x200B;**[!UICONTROL 模式]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 从主目标]**&#x200B;替换，以在显示现有配置文件中的数据时向特定电子邮件地址或电话号码发送校样。
 
    >[!CAUTION]
    >
-   >如果您尚未选择 [受众](../audience/about-recipients.md) 对于您的投放， **[!UICONTROL 从主要目标替换]** 选项将灰显，您将无法选择替换配置文件。
+   >如果您尚未为您的投放选择[受众](../audience/about-recipients.md)，则&#x200B;**[!UICONTROL 从主目标]**&#x200B;替代选项将灰显，您将无法选择替代配置文件。
 
-1. 单击 **[!UICONTROL 添加地址]** 按钮并指定将接收验证的电子邮件地址或电话号码。
+1. 单击&#x200B;**[!UICONTROL 添加地址]**&#x200B;按钮并指定将接收校样的电子邮件地址或电话号码。
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >您可以输入任何电子邮件地址或电话号码。 这允许您向任何收件人发送验证，即使他们不是的用户 [!DNL Adobe Campaign].
+   >您可以输入任何电子邮件地址或电话号码。 这允许您向任何收件人发送验证，即使他们不是[!DNL Adobe Campaign]的用户。
 
-1. 从为投放定义的目标中选择要用作替换的用户档案。 您还可以让 [!DNL Adobe Campaign] 从目标中选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在验证中。
+1. 从为投放定义的目标中选择要用作替换的用户档案。 您还可以让[!DNL Adobe Campaign]从目标中选择一个随机配置文件。 所选用户档案中的用户档案数据将显示在验证中。
 
 1. 确认收件人并重复该操作，根据需要添加任意数量的电子邮件地址或电话号码。
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
-1. 要将最终消息发送给验证的收件人，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
+1. 若要将最终消息发送给验证的收件人，请选择&#x200B;**[!UICONTROL 将测试群体包含在主目标]**&#x200B;中。
 
-1. 选择替代配置文件后，您可以 [发送证明](#send-test).
+1. 选择替代配置文件后，您可以[发送校样](#send-test)。
 
 ## 向应用程序订阅者发送验证 {#subscribers}
 
 在设计推送通知时，只能将验证发送给应用程序订阅者。 要选择它们，请执行以下步骤。
 
-1. 在推送投放的内容中，单击 **[!UICONTROL 模拟内容]** 按钮，以及 **[!UICONTROL 发送验证]** 按钮。
+1. 从推送的内容中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮和&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
-1. 如果您已选择订阅者 [预览投放](preview-content.md) 在内容模拟屏幕中，预先选择这些用户档案作为测试订阅者。
+1. 如果您已在内容模拟屏幕中选择了[预览投放](preview-content.md)的订阅者，则会预先选择这些配置文件作为测试订阅者。
 
    您可以使用专用按钮清除选择和/或添加其他订阅者。
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
-1. 要同时向测试订阅者发送最终推送通知，请选择 **[!UICONTROL 在主要目标中包含测试群体]** 选项。
+1. 若要将最终推送通知发送给测试订阅者，请选择&#x200B;**[!UICONTROL 将测试群体包含在主目标]**&#x200B;中。
 
-1. 选择订阅者后，您可以 [发送证明](#send-test).
+1. 选择订阅者后，您可以[发送校样](#send-test)。
 
 ## 发送证明 {#send-test}
 
 要将校样发送给选定的收件人，请执行以下步骤。
 
-1. 单击 **[!UICONTROL 发送验证]** 按钮。
+1. 单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
 1. 确认发送。
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. 发送所需数量的校样，直到完成投放内容为止。
 
@@ -162,12 +162,12 @@ ht-degree: 15%
 
 ## 访问已发送的校样 {#access-test-deliveries}
 
-发送校样后，您可以从访问其日志 **[!UICONTROL 模拟内容]** 屏幕。
+发送校样后，您可以从&#x200B;**[!UICONTROL 模拟内容]**&#x200B;屏幕访问其日志。
 
 利用这些日志，可访问为所选投放发送的所有验证，并可视化与其发送相关的特定统计信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
-您还可以从以下位置访问已发送的校样 [投放列表](../msg/gs-messages.md)，与任何投放一样。
+您还可以从[投放列表](../msg/gs-messages.md)访问已发送的校样，就像任何投放一样。
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

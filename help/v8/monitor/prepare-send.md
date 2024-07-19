@@ -15,30 +15,30 @@ ht-degree: 38%
 
 ## 准备发送 {#prepare}
 
-当您定义了 [内容](../email/edit-content.md)， [受众](../audience/add-audience.md)、和 [计划](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已准备好准备电子邮件投放。
+当您定义了[内容](../email/edit-content.md)、[受众](../audience/add-audience.md)和[计划](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)后，您就可以准备电子邮件投放了。
 
 在投放准备期间，将计算目标群体并为目标中包含的每个用户档案生成消息内容。 完成准备工作后，即可立即或在安排的日期和时间发送消息。
 
-有关投放准备期间使用的验证规则，请参见 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+在[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}中介绍了投放准备期间使用的验证规则。
 
 下面列出了准备发送的主要步骤。
 
-1. 在投放仪表板中，单击 **[!UICONTROL 审阅并发送]**.
+1. 在投放仪表板中，单击&#x200B;**[!UICONTROL 审阅并发送]**。
 
    ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
-1. 单击 **[!UICONTROL 准备]** 按钮进行确认。
+1. 单击右上角的&#x200B;**[!UICONTROL 准备]**&#x200B;按钮并确认。
 
    ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >如果您计划了投放并禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
+   >如果您计划了投放并禁用了&#x200B;**[!UICONTROL 发送前启用确认]**&#x200B;选项，则准备和发送步骤将分组到&#x200B;**[!UICONTROL 准备和发送]**&#x200B;按钮下。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 1. 这将显示准备进度。根据目标人群的规模，此操作可能需要花费一些时间。
 
-   您可以随时使用停止准备 **[!UICONTROL 停止准备]** 按钮。
+   您可以使用&#x200B;**[!UICONTROL 停止准备]**&#x200B;按钮随时停止准备。
 
    ![](assets/email-stop-preparation.png){zoomable="yes"}
 
@@ -51,11 +51,11 @@ ht-degree: 38%
 
    以下是显示的不同 KPI：
 
-   * **[!UICONTROL 已定位]**：定向的收件人数量。
-   * **[!UICONTROL 投放]**：将发送的消息数。
-   * **[!UICONTROL 排除]**：由排除的消息数 [类型规则](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL 目标]**：目标收件人的数量。
+   * **[!UICONTROL 投放]**：将发送的邮件数。
+   * **[!UICONTROL 排除]**：[分类规则](../advanced-settings/delivery-settings.md#typology)排除的消息数。
 
-1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解更多信息](delivery-logs.md)
+1. 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮并检查确认没有错误。最后一条日志消息显示了所有错误消息和错误数。[了解详情](delivery-logs.md)
 
    ![](assets/email-prepare-logs.png){zoomable="yes"}
 
@@ -70,15 +70,15 @@ ht-degree: 38%
 ## 发送邮件 {#send}
 
 
-一旦 [准备](#prepare) 完成，您现在可以发送电子邮件。
+[准备](#prepare)完成后，您现在可以发送电子邮件。
 
-如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解更多信息](../msg/gs-deliveries.md#gs-schedule)
+如果消息是按计划发送的，则会在定义的日期和时间发送该消息。 [了解详情](../msg/gs-deliveries.md#gs-schedule)
 
 ### 立即发送 {#send-immediately}
 
 要立即发送电子邮件，请执行以下步骤。
 
-1. 在投放仪表板中，单击 **[!UICONTROL 发送]** 按钮进行标记。
+1. 在投放仪表板中，单击右上角的&#x200B;**[!UICONTROL 发送]**&#x200B;按钮。
 
    ![](assets/email-send.png){zoomable="yes"}
 
@@ -90,25 +90,25 @@ ht-degree: 38%
 
 如果您计划稍后发送电子邮件，请按照以下步骤操作。
 
-1. 在您点击之前 **[!UICONTROL 审阅并发送]** 按钮，确保您为电子邮件定义了计划。 [了解更多信息](../msg/gs-deliveries.md#gs-schedule)
+1. 在点击&#x200B;**[!UICONTROL 审阅并发送]**&#x200B;按钮之前，请确保为电子邮件定义了计划。 [了解详情](../msg/gs-deliveries.md#gs-schedule)
 
-1. 在投放仪表板中，单击 **[!UICONTROL 按计划发送按钮]** 按钮进行标记。
+1. 在投放仪表板中，单击右上角的&#x200B;**[!UICONTROL 按计划发送]**&#x200B;按钮。
 
    ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
-1. 单击 **[!UICONTROL 确认发送]**. 投放将在计划日期发送到主目标。
+1. 单击&#x200B;**[!UICONTROL 确认发送]**。 投放将在计划日期发送到主目标。
 
    >[!NOTE]
    >
-   >如果您禁用了 **[!UICONTROL 发送前启用确认]** 选项，则准备和发送步骤将分组在 **[!UICONTROL 准备和发送]** 按钮。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
+   >如果您禁用了&#x200B;**[!UICONTROL 发送前启用确认]**&#x200B;选项，则准备和发送步骤将分组在&#x200B;**[!UICONTROL 准备和发送]**&#x200B;按钮下。 [了解有关计划的更多信息](../msg/gs-deliveries.md#gs-schedule)
 
 ## 暂停或停止发送 {#pause-stop-sending}
 
-是否计划您的投放<!--TBC-->，则可以在发送过程中随时执行两个操作：
+无论您是否计划了投放<!--TBC-->，在发送过程中，都可以随时执行两个操作：
 
-* 单击 **[!UICONTROL 暂停发送]** 中断消息的发送。 您可以随时恢复发送。
+* 单击&#x200B;**[!UICONTROL 暂停发送]**&#x200B;可中断消息的发送。 您可以随时恢复发送。
 
-* 单击 **[!UICONTROL 停止发送]** 立即中断发送。 一旦停止，准备工作和发送均无法恢复。
+* 单击&#x200B;**[!UICONTROL 停止发送]**&#x200B;可立即中断发送。 一旦停止，准备工作和发送均无法恢复。
 
 ![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
@@ -152,7 +152,7 @@ ht-degree: 38%
 
 ![](assets/email-send-kpis.png){zoomable="yes"}
 
-* **[!UICONTROL 已发送]**：投放的消息数。 显示的百分比基于要投放的消息总数。
+* **[!UICONTROL 已发送]**：已送达的邮件数。 显示的百分比基于要投放的消息总数。
 
 * **[!UICONTROL 已送达]**：成功送达的邮件数。显示的百分比是基于已发送邮件的总数计算所得。
 
@@ -160,12 +160,12 @@ ht-degree: 38%
 
 * **[!UICONTROL 点击次数]**：在电子邮件中至少点击一次的收件人数量。 显示的百分比是不同点击次数与已投放消息数的对比。
 
-* **[!UICONTROL 错误]**：包含错误状态的电子邮件数量。 显示的百分比是基于已发送邮件的总数计算所得。
+* **[!UICONTROL 错误]**：具有错误状态的电子邮件数。 显示的百分比是基于已发送邮件的总数计算所得。
 
 >[!NOTE]
 >
 >在投放开始后，所有指标每 5 分钟更新一次。投放准备指标是实时的。
 
-在中了解有关KPI的更多信息 [此页面](../reporting/kpis.md).
+在[此页面](../reporting/kpis.md)中了解有关KPI的更多信息。
 
-您也可以查看日志。[了解更多信息](delivery-logs.md)
+您也可以查看日志。[了解详情](delivery-logs.md)

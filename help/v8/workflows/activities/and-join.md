@@ -5,7 +5,7 @@ description: 了解如何使用“AND-连接工作流”活动
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 以下示例显示了两个工作流分支，其中包含电子邮件和短信投放。当两个集客过渡均启用时，将触发 AND-连接。只有在两次投放完成后才会发送推送通知。
 
-![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
+![](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 21%
+source-wordcount: '592'
+ht-degree: 19%
 
 ---
 
@@ -23,39 +23,39 @@ ht-degree: 21%
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-有关将验证发送到测试用户档案的详细步骤，请参见 [本节](../preview-test/test-deliveries.md#test-profiles).
+在[此部分](../preview-test/test-deliveries.md#test-profiles)中详细说明了向测试用户档案发送校样的步骤。
 
 >[!NOTE]
 >
 >* 测试用户档案在客户端控制台中创建为种子地址。
 >
->* 测试用户档案会自动从有关以下投放统计的报告中排除： **[!UICONTROL 点击次数]**， **[!UICONTROL 打开次数]**， **[!UICONTROL 取消订阅]**.
+>* 测试配置文件自动从有关以下投放统计信息的报告中排除：**[!UICONTROL 点击次数]**、**[!UICONTROL 打开次数]**、**[!UICONTROL 取消订阅]**。
 
 ## 访问和管理测试用户档案 {#access-test-profiles}
 
-要访问测试配置文件列表，请选择 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 从左侧菜单中，单击 **[!UICONTROL 测试用户档案]** 选项卡。
+要访问测试配置文件列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**，然后单击&#x200B;**[!UICONTROL 测试配置文件]**&#x200B;选项卡。
 
-![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
+![](assets/test-profile-list.png){zoomable="yes"}
 
-* 您可以根据特定的 [文件夹](../get-started/permissions.md#folders) 使用下拉列表或使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+* 您可以使用下拉列表对特定[文件夹](../get-started/permissions.md#folders)进行筛选，或者使用[查询建模器](../query/query-modeler-overview.md)添加规则。
 
-  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-filters.png){zoomable="yes"}
 
-* 您可以复制任何测试用户档案并根据需要对其进行更新。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
+* 您可以复制任何测试用户档案并根据需要对其进行更新。 编辑测试配置文件的步骤与[创建测试配置文件](#create-test-profile)时的步骤相同。
 
-* 要删除测试用户档案，请从 **[!UICONTROL 更多操作]** 菜单。
+* 要删除测试配置文件，请从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中选择相应的选项。
 
-  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-delete.png){zoomable="yes"}
 
-* 要编辑测试用户档案，请在列表中单击所需的项目。 编辑测试用户档案的步骤与以下步骤相同： [创建测试用户档案](#create-test-profile).
+* 要编辑测试用户档案，请在列表中单击所需的项目。 编辑测试配置文件的步骤与[创建测试配置文件](#create-test-profile)时的步骤相同。
 
-您还可以通过以下方式访问测试用户档案 **[!UICONTROL 资源管理器]** 视图，从 **[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]** 节点。
+您还可以通过&#x200B;**[!UICONTROL 资源管理器]**&#x200B;视图，从&#x200B;**[!UICONTROL 资源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 种子地址]**&#x200B;节点访问测试配置文件。
 
 从该位置，您可以浏览、创建和管理文件夹或子文件夹，以及检查关联的权限。 [了解如何创建文件夹](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
+![](assets/test-profiles-folders.png){zoomable="yes"}
 
-从 **[!UICONTROL 资源管理器]** 视图您还可以筛选、删除、编辑和 [创建](#create-test-profile) 测试用户档案。
+从&#x200B;**[!UICONTROL 资源管理器]**&#x200B;视图中，您还可以筛选、删除、编辑和[创建](#create-test-profile)测试配置文件。
 
 ## 创建测试用户档案 {#create-test-profile}
 
@@ -66,21 +66,21 @@ ht-degree: 21%
 
 要创建测试用户档案，请执行以下步骤：
 
-1. 浏览至 **[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]** 并选择 **[!UICONTROL 测试用户档案]** 选项卡。
+1. 浏览到&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**&#x200B;并选择&#x200B;**[!UICONTROL 测试配置文件]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 创建测试用户档案]** 按钮。
+1. 单击&#x200B;**[!UICONTROL 创建测试配置文件]**&#x200B;按钮。
 
-   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-create.png){zoomable="yes"}
 
-1. 根据需要填写测试用户档案的详细信息。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+1. 根据需要填写测试用户档案的详细信息。<!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 标签]** 字段会自动填写您所定义的名字和姓氏。
+   >**[!UICONTROL 标签]**&#x200B;字段会自动填写您所定义的名字和姓氏。
 
-1. 默认情况下，测试用户档案存储在 **[!UICONTROL 种子地址]** 文件夹。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
+1. 默认情况下，测试配置文件存储在&#x200B;**[!UICONTROL 种子地址]**&#x200B;文件夹中。 您可以通过浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
    <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
@@ -88,19 +88,19 @@ ht-degree: 21%
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
 -->
 
-1. 在 **[!UICONTROL 联系信息]** 部分，输入电子邮件地址和其他相关数据。 电子邮件地址显示在测试用户档案标签后面的括号之间。
+1. 在&#x200B;**[!UICONTROL 联系人信息]**&#x200B;部分中，输入电子邮件地址和其他相关数据。 电子邮件地址显示在测试用户档案标签后面的括号之间。
 
-   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-address.png){zoomable="yes"}
 
-1. 如果您选择 **[!UICONTROL 不再联系（通过任何渠道）]** 复选框，测试配置文件处于列入阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
+1. 如果选中&#x200B;**[!UICONTROL 不再联系（通过任何渠道）]**&#x200B;复选框，则测试配置文件将处于阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
 
-1. 在 **[!UICONTROL 其他数据]** 选项卡，输入用于在Data Management工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的更多信息](../workflows/gs-workflows.md)
+1. 在&#x200B;**[!UICONTROL 其他数据]**&#x200B;选项卡中，输入用于数据管理工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的更多信息](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   请确保已定义其他目标数据，并在中以“@”开头的别名 **[!UICONTROL 扩充]** 工作流活动。 否则，您无法将其与投放活动中的种子地址正确一起使用。 [了解有关扩充活动的更多信息](../workflows/activities/enrichment.md)
+   请确保已在&#x200B;**[!UICONTROL 扩充]**&#x200B;工作流活动中定义了其他目标数据，且别名以“@”开头。 否则，您无法将其与投放活动中的种子地址正确一起使用。 [了解有关扩充活动的更多信息](../workflows/activities/enrichment.md)
 
-1. 单击 **[!UICONTROL 保存]** 按钮。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。
 
 您刚刚创建的测试用户档案现已准备就绪，可用于发送校样。 [了解详情](../preview-test/test-deliveries.md#test-profiles)
 

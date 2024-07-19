@@ -4,7 +4,7 @@ description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过�
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 可使用现有的内置过滤器访问数据的特定子集，也可创建自己的预定义过滤器并保存它们。
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## 创建预定义过滤器 {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 1. 打开查询建模器并定义您的过滤条件。在下面的示例中，您过滤居住在马德里并已订阅新闻稿的收件人。
 1. 单击&#x200B;**选择或保存过滤器**&#x200B;按钮，然后选择&#x200B;**另存为过滤器**。
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. 选择&#x200B;**创建新过滤器**，然后输入该过滤器的名称和说明。
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    如果需要，可将过滤器保存为收藏项目。可在[此部分](#fav-filter)中了解详情。
 
@@ -71,12 +71,12 @@ ht-degree: 100%
 
 1. 定义过滤器的规则。 例如，年龄超过 30 岁的个人资料。
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. 保存您的更改。
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 该过滤器即被添加到预定义过滤器列表。如果需要，可将过滤器保存为收藏项目。可在[此部分](#fav-filter)中了解详情。
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 将过滤器保存为收藏项目后，所有用户均可在过滤器创建列表的&#x200B;**收藏过滤器**&#x200B;部分中找到该过滤器，如下所示：
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ ht-degree: 100%
 1. 输入受众名称，然后单击&#x200B;**创建受众**&#x200B;按钮。
 1. 选择&#x200B;**查询**&#x200B;活动，然后从右侧窗格中单击&#x200B;**创建受众**&#x200B;按钮。
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. 从&#x200B;**选择或保存过滤器**&#x200B;按钮中选择&#x200B;**选择自定义过滤器**&#x200B;选项。
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. 浏览到用于创建受众的预定义过滤器，选择它并确认。
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. 检查此过滤器的规则属性并确认。
 
    该过滤器现在用作&#x200B;**查询**&#x200B;活动中的查询。
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. 保存您的更改并单击&#x200B;**开始**&#x200B;按钮以生成受众并使其在受众列表中可用。
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 所有预定义过滤器都集中在左侧导航菜单的专用条目中。
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 可从此列表创建新过滤器（如上所述），并执行以下列出的操作：
 

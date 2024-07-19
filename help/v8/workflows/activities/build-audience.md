@@ -27,7 +27,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->无法使用构建受众活动定位从文件加载的受众。 为此，您需要使用 **加载文件** 活动后跟 **调解** 活动。 [了解详情](../../audience/about-recipients.md)
+>无法使用构建受众活动定位从文件加载的受众。 为此，您需要先使用&#x200B;**加载文件**&#x200B;活动，然后再使用&#x200B;**协调**&#x200B;活动。 [了解详情](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 要创建自己的查询，请执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。[了解有关定位维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
+1. 选择&#x200B;**定位维度**。定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。默认情况下，目标是从收件人中选择的。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 1. 单击&#x200B;**继续**。
 1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 

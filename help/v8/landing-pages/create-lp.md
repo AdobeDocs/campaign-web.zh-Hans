@@ -5,8 +5,8 @@ feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 31%
+source-wordcount: '1478'
+ht-degree: 30%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 31%
 
 Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布后，您可以在投放中插入指向表单的链接。 收件人单击该链接后，会被定向到相应的登陆页面。
 
-[!DNL Adobe Campaign] 随附四个模板，用于管理以下用例： **acquisition**， **订阅**， **退订**、和 **阻止列表**. [了解详情](lp-use-cases.md)
+列入阻止列表 [!DNL Adobe Campaign]附带四个模板，用于管理以下用例：**客户获取**、**订阅**、**取消订阅**&#x200B;和&#x200B;**订阅**。 [了解详情](lp-use-cases.md)
 
 ## 访问登陆页面 {#access-landing-pages}
 
-要访问登陆页面列表，请选择 **[!UICONTROL 营销活动管理]** > **[!UICONTROL 登陆页面]** 从左侧菜单。
+要访问登陆页面列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 营销活动管理]** > **[!UICONTROL 登陆页面]**。
 
-![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory.png){zoomable="yes"}
 
-此 **[!UICONTROL 登陆页面]** 库存显示所有已创建的物料。 您可以使用以下代码筛选它们 **[!UICONTROL 显示筛选器]** 按钮。 您可以将结果限制为特定 [文件夹](../get-started/permissions.md#folders) 使用下拉列表，或者使用添加规则 [查询建模器](../query/query-modeler-overview.md).
+**[!UICONTROL 登陆页面]**&#x200B;清单显示所有已创建的项目。 您可以使用&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;按钮筛选它们。 您可以使用下拉列表将结果限制为特定的[文件夹](../get-started/permissions.md#folders)，或者使用[查询建模器](../query/query-modeler-overview.md)添加规则。
 
-![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
 >[!CAUTION]
 >
->在Campaign Web用户界面中，无法显示或编辑从客户端控制台（Web窗体）创建的登陆页面。 在中了解详情 [Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}.
+>在Campaign Web用户界面中，无法显示或编辑从客户端控制台（Web窗体）创建的登陆页面。 请参阅[Campaign控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -76,31 +76,31 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 要创建登陆页面，请执行以下步骤：
 
-1. 从 **[!UICONTROL 登陆页面]** 库存，单击 **[!UICONTROL 创建登陆页面]**.
+1. 在&#x200B;**[!UICONTROL 登陆页面]**&#x200B;清单中，单击&#x200B;**[!UICONTROL 创建登陆页面]**。
 
-   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-create-button.png){zoomable="yes"}
 
 1. 选择模板：
-   * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新用户档案数据。
-   * **[!UICONTROL 订阅]**：使用此模板可让用户订阅特定的 [服务](../audience/manage-services.md).
-   * **[!UICONTROL 退订]**：此模板可用于发送给服务订阅者的投放，以便他们取消订阅 [服务](../audience/manage-services.md).
-   * **[!UICONTROL 阻止列表]**：当用户档案单击投放中的选择退出链接时，并且不想再被联系时，应使用此模板。
+   * **[!UICONTROL 客户获取]**：这是登陆页面的默认模板，允许您捕获和更新配置文件数据。
+   * **[!UICONTROL 订阅]**：使用此模板使用户能够订阅特定的[服务](../audience/manage-services.md)。
+   * **[!UICONTROL 取消订阅]**：此模板可用于发送给服务订阅者的投放，以允许他们取消订阅此[服务](../audience/manage-services.md)。
+   * **[!UICONTROL 阻止列表]**：当个人资料单击投放中的选择退出链接时，且不想再联系时，应使用此模板。
 
-   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >了解如何在中实施与每个模板对应的不同用例 [此页面](lp-use-cases.md).
+   >了解如何在[此页面](lp-use-cases.md)中实施与每个模板对应的不同用例。
 
-1. 单击 **[!UICONTROL 创建]**.
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 填写 **[!UICONTROL 属性]** 字段，例如标签。
+1. 填写&#x200B;**[!UICONTROL 属性]**&#x200B;字段，如标签。
 
-   默认情况下，登陆页面存储在 **[!UICONTROL Web应用程序]** 文件夹。 您可以通过浏览到中所需的位置来更改它 **[!UICONTROL 其他选项]**. [了解如何使用文件夹](../get-started/permissions.md#folders)
+   默认情况下，登陆页面存储在&#x200B;**[!UICONTROL Web应用程序]**&#x200B;文件夹中。 您可以通过在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-properties.png){zoomable="yes"}
 
-1. 在 **[!UICONTROL 数据预加载]** 部分中，提供了以下两个选项：
+1. 在&#x200B;**[!UICONTROL 数据预加载]**&#x200B;部分中，以下两个选项可用：
 
    * 在选中&#x200B;**[!UICONTROL 预先填入在表格中引用的数据]**&#x200B;选项后，如果登陆页面的访客与数据库中的某个配置文件匹配，则自动在表单中预先加载该配置文件的信息。用户只需填写缺少的字段，并在需要时更新现有值。 这允许合并现有用户档案的数据，而不是创建重复项。
 
@@ -110,35 +110,35 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * 此 **[!UICONTROL 授权缺少ID]** 选项允许任何访客访问登陆页面。 取消选择此选项可阻止匿名访客使用它，这意味着只有已识别的用户才能访问和提交表单。
+   * **[!UICONTROL 授权缺少ID]**&#x200B;选项允许任何访客访问登陆页面。 取消选择此选项可阻止匿名访客使用它，这意味着只有已识别的用户才能访问和提交表单。
 
      >[!AVAILABILITY]
      >
      >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
-     对于 **[!UICONTROL 客户获取]** 和 **[!UICONTROL 订阅]** 模板时，默认会选中此选项。 对于 **[!UICONTROL 退订]** 和 **[!UICONTROL 阻止列表]** 模板，此选项默认处于未选中状态，无法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     对于&#x200B;**[!UICONTROL 客户获取]**&#x200B;和&#x200B;**[!UICONTROL 订阅]**&#x200B;模板，默认情况下会选中此选项。 对于&#x200B;**[!UICONTROL 取消订阅]**&#x200B;和&#x200B;**[!UICONTROL 阻止列表]**&#x200B;模板，默认情况下将取消选择此选项，因此无法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->。
 
-1. 登陆页面可以具有后续页面。 要添加页面，请浏览 **[!UICONTROL 页面]** 部分，然后单击 **[!UICONTROL 编辑内容]** 按钮来指定您要为此登陆页面设计的每个页面。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
+1. 登陆页面可以具有后续页面。 要添加页面，请浏览&#x200B;**[!UICONTROL 页面]**&#x200B;部分，然后单击要为此登陆页面设计的每个页面的&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)
 
-   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-pages.png){zoomable="yes"}
 
-1. 在 **[!UICONTROL 存储]** 部分， **[!UICONTROL 更新预加载的记录]** 默认情况下选中该选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
+1. 在&#x200B;**[!UICONTROL 存储]**&#x200B;部分中，默认选中&#x200B;**[!UICONTROL 更新预加载的记录]**&#x200B;选项。 它允许通过登陆页面更新存储在数据库中的用户档案。 通过预加载框，您可以指示如何在数据库中查找要更新的记录。
 
-   您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。 要执行此操作，请取消选择 **[!UICONTROL 更新预加载的记录]** 选项并选中下的所需字段 **[!UICONTROL 对帐选项]**.
+   您还可以从登陆页面当前上下文中的字段中进行选择，这些字段将用于查找数据库中的相应用户档案。 为此，请取消选择&#x200B;**[!UICONTROL 更新预加载的记录]**&#x200B;选项，并在&#x200B;**[!UICONTROL 协调选项]**&#x200B;下检查所需的字段。
 
-   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-storage.png){zoomable="yes"}
 
-1. 创建 **[!UICONTROL 其他数据]** 以在提交登陆页面时存储内部数据。 访问该页面的用户不会看到此数据。 仅考虑常量值。
+1. 创建&#x200B;**[!UICONTROL 附加数据]**&#x200B;以在提交登陆页面时存储内部数据。 访问该页面的用户不会看到此数据。 仅考虑常量值。
 
    >[!AVAILABILITY]
    >
    >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
-   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-additional-data.png){zoomable="yes"}
 
-1. 可定义登陆页面的开始日期和结束日期。选择 **[!UICONTROL 启用计划]** 并设置日期。
+1. 可定义登陆页面的开始日期和结束日期。选择&#x200B;**[!UICONTROL 启用计划]**&#x200B;并设置日期。
 
-   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-schedule.png){zoomable="yes"}
 
    * 登陆页面会在指定的开始日期/时间自动发布。
 
@@ -146,15 +146,15 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
      >
      >如果未定义开始日期，则登陆页面在发布后立即处于活动状态。
 
-   * 当页面到达结束日期时， <!--the landing page is automatically unpublished and -->该表单不再可用。 而将显示&#x200B;**[!UICONTROL 过期]**&#x200B;页面。
+   * 当页面到达结束日期时，<!--the landing page is automatically unpublished and -->该表单不再可用。 而将显示&#x200B;**[!UICONTROL 过期]**&#x200B;页面。
 
      >[!NOTE]
      >
      >出于安全原因和平台性能的考虑，Adobe建议您设置结束日期。
 
-1. 单击 **[!UICONTROL 审阅并发布]**.
+1. 单击&#x200B;**[!UICONTROL 审阅并发布]**。
 
-定义所有设置和 [设计](lp-content.md) 您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面，如下所述。
+定义所有设置并[设计](lp-content.md)所有页面后，您可以[测试](#test-landing-page)和[发布](#publish-landing-page)您的登陆页面，如下所述。
 
 ## 测试登陆页面 {#test-landing-page}
 
@@ -168,7 +168,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 >title="预览和测试登陆页面"
 >abstract="定义了登陆页面设置和内容之后，您可使用测试配置文件对其进行预览。"
 
-定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您已插入 [个性化内容](../personalization/gs-personalization.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
+定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您插入[个性化内容](../personalization/gs-personalization.md)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
 
 >[!CAUTION]
 >
@@ -176,25 +176,25 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 要测试登陆页面，请执行以下步骤：
 
-1. 单击之后 **[!UICONTROL 审阅并发布]**，选择 **[!UICONTROL 模拟内容]** 登录页面仪表板中用于访问测试用户档案选择的按钮。
+1. 单击&#x200B;**[!UICONTROL 审阅和发布]**&#x200B;后，从登陆页面仪表板中选择&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以访问测试配置文件选择。
 
-   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-simulate-content.png){zoomable="yes"}
 
-1. 从 **[!UICONTROL 模拟]** 屏幕中，选择一个或多个测试用户档案。
+1. 从&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，选择一个或多个测试配置文件。
 
-   选择测试用户档案的步骤与测试消息时的步骤相同。 有关详情，请参见 [预览和测试](../preview-test/preview-test.md) 部分。
+   选择测试用户档案的步骤与测试消息时的步骤相同。 在[预览和测试](../preview-test/preview-test.md)部分中有详细介绍。
 
-1. 测试动态登陆页面时(使用 **[!UICONTROL 来自URL的服务]** 已选择选项 —  [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
+1. 测试动态登陆页面时(选择了&#x200B;**[!UICONTROL 来自URL的服务]**&#x200B;选项 — [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-1. 选择 **[!UICONTROL 打开预览]** 以测试您的登陆页面。
+1. 选择&#x200B;**[!UICONTROL 打开预览]**&#x200B;以测试您的登陆页面。
 
-   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-open-preview.png){zoomable="yes"}
 
 1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试配置文件数据替换。
 
-   如果您选择了 **[!UICONTROL 使用表单中引用的数据预填充]** 选项，则表单字段会自动预填相应的测试配置文件数据。<!--TBC-->
+   如果您在登陆页面设置中选择了&#x200B;**[!UICONTROL 使用表单]**&#x200B;中引用的数据预填充选项，则表单字段会自动预填充对应的测试配置文件数据。<!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-preview.png){zoomable="yes"}
 
 1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
 
@@ -206,14 +206,14 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 发布后：
 
-* 登陆页面将添加到登陆页面列表中， **[!UICONTROL 已发布]** 状态。 它现已上线，并准备好在您的内容中引用。
+* 登陆页面已添加到具有&#x200B;**[!UICONTROL 已发布]**&#x200B;状态的登陆页面列表。 它现已上线，并准备好在您的内容中引用。
 
-* 您可以复制并粘贴 **[!UICONTROL 登陆页面URL]** ，该页面顶部显示的内容将置于Web浏览器中，以预览您的登陆页面。
+* 您可以将页面顶部显示的&#x200B;**[!UICONTROL 登陆页面URL]**&#x200B;复制粘贴到Web浏览器中，以预览您的登陆页面。
 
 >[!CAUTION]
 >
->要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。请改用 [模拟内容](#test-landing-page) 函数进行测试，并遵循中所述的步骤 [本节](lp-use-cases.md) 以正确使用登陆页面。
+>要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。请改用[模拟内容](#test-landing-page)函数对其进行测试，并按照[此部分](lp-use-cases.md)中描述的步骤正确使用登陆页面。
 
-![](assets/lp-published.png){zoomable=&quot;yes&quot;}
+![](assets/lp-published.png){zoomable="yes"}
 
-您可以通过日志监控登陆页面影响<!--and specific reports-->. 单击 **[!UICONTROL 日志]** 按钮。
+您可以通过日志<!--and specific reports-->监控登陆页面影响。 单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮。

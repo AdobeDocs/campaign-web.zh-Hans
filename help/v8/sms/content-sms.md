@@ -5,8 +5,8 @@ description: 了解如何设计短信投放
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 79%
+source-wordcount: '256'
+ht-degree: 78%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 79%
 
    此外，通过单击&#x200B;**[!UICONTROL 打开个性化对话框]**，可在消息中加入个性化字段、内容块和动态内容。
 
-   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_1.png){zoomable="yes"}
 
-1. 在 **[!UICONTROL 消息]** 字段，或单击 **[!UICONTROL 打开个性化对话框]** 用于定义内容和添加动态内容的选项。 [了解详情](../personalization/gs-personalization.md)
+1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中键入您的文本消息，或单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;选项以定义内容并添加动态内容。 [了解详情](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。
 
-1. 单击 **[!UICONTROL 设置]** 访问与投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
+1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;可访问与您的投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 
-1. 访问 **[!UICONTROL 模拟内容]** 菜单来预览您的个性化内容。 [了解详情](send-sms.md#preview-sms)
+1. 访问&#x200B;**[!UICONTROL 模拟内容]**&#x200B;菜单以预览您的个性化内容。 [了解详情](send-sms.md#preview-sms)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。
 

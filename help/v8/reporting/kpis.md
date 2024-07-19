@@ -4,7 +4,7 @@ description: 了解如何了解关键绩效指标
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 79%
 
 可以选择要显示的渠道。默认情况下，这些指标反映电子邮件渠道的量度。
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## 已投放的消息 {#ui-delivered-kpi}
 
@@ -97,7 +97,7 @@ ht-degree: 79%
 
 收件人可以选择加入电子邮件和短信通信。
 
-此 **订阅** 指示器显示以下KPI：每个渠道的订阅数量占成功投放的消息总数的百分比。
+**订阅**&#x200B;指示器显示以下KPI，即每个渠道的订阅数相对于成功投放的消息总数的百分比。
 
 
 >[!NOTE]
@@ -155,7 +155,7 @@ Adobe Campaign 平台发送的某些消息无法送达目标。如果用户地�
 
 与准备的邮件总数相比，绝不能是100%的已发送邮件，因为某些地址可能丢失或不完整。
 
-此 **已发送** 指示器显示直邮渠道的以下KPI：
+针对直邮渠道，**已发送**&#x200B;指示器显示以下KPI：
 
 * 发送的消息数占准备的消息总数的百分比。
 

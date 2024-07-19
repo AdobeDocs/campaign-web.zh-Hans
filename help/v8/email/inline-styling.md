@@ -5,7 +5,7 @@ description: 了解如何添加内联样式属性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 1. 从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 高级]**&#x200B;下拉列表。
 
-   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. 修改现有属性的值。
 
 1. 可以使用 **+** 按钮添加新属性。可以添加任何符合 CSS 的属性和值。
 
-   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_2.png){zoomable="yes"}
 
 样式将应用于所选元素。
 

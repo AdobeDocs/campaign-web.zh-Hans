@@ -6,7 +6,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -29,28 +29,28 @@ ht-degree: 35%
 
 要创建新营销活动，请执行以下步骤：
 
-1. 单击 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]** 按钮。
+1. 单击&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;按钮。
 
    ![创建新营销活动](assets/create-campaign-button.png)
 
-1. 选择 **模板** 为营销活动使用和提供标签。 [阅读更多](manage-campaigns.md#manage-campaign-templates)。
-1. 如果需要，可以更改以下内容 **其他选项**：内部名称、文件夹、被分派人、描述和性质。
-1. 定义 **计划** 您的营销活动中的。 了解如何在中设置活动计划 [本节](#campaign-schedule)
-1. 单击 **创建**.
+1. 选择要使用的&#x200B;**模板**，并为该营销活动提供标签。 [了解更多信息](manage-campaigns.md#manage-campaign-templates)。
+1. 如果需要，您可以更改以下&#x200B;**其他选项**：内部名称、文件夹、代理人、说明和性质。
+1. 定义营销活动的&#x200B;**计划**。 在[本节](#campaign-schedule)中了解如何设置营销活动计划
+1. 单击&#x200B;**创建**。
 
    ![创建营销活动属性](assets/create-a-campaign-properties.png)
 
 1. 将工作流和投放添加到营销活动：
 
-   * 从 **工作流** 选项卡，单击 **创建工作流**. 创建营销策划时，会自动添加默认工作流。 了解关于如何操作的更多信息 [创建工作流](../workflows/create-workflow.md).
+   * 在&#x200B;**工作流**&#x200B;选项卡中，单击&#x200B;**创建工作流**。 创建营销策划时，会自动添加默认工作流。 了解关于如何[创建工作流](../workflows/create-workflow.md)的更多信息。
 
-   * 从 **投放** 选项卡，单击 **创建投放**. [了解详情](../msg/gs-messages.md)
+   * 在&#x200B;**投放**&#x200B;选项卡中，单击&#x200B;**创建投放**。 [了解详情](../msg/gs-messages.md)
 
 ## 监控和跟踪您的活动{#campaign-monitoring}
 
-营销活动监测是分析营销活动效果的关键步骤。 打开您的营销策划，然后单击 **日志** 按钮。
+营销活动监测是分析营销活动效果的关键步骤。 打开您的营销活动，然后单击&#x200B;**日志**&#x200B;按钮。
 
-您还可以通过单击 **报表** 按钮。 请参阅此[章节](../reporting/campaign-reports.md)。
+您还可以通过单击&#x200B;**报告**&#x200B;按钮查看专用报告。 请参阅此[章节](../reporting/campaign-reports.md)。
 
 
 ## 定义营销活动计划 {#campaign-schedule}
@@ -61,13 +61,13 @@ ht-degree: 35%
 >abstract="选择营销活动计划。您可以创建营销活动，在到达开始日期时，此营销活动将开始。默认情况下，营销活动开始日期为创建日期，持续 5 天。开始日期和结束日期显示在营销活动列表中，并可用作筛选条件。"
 
 
-达到开始日期时，营销活动即会开始。 只要未到达开始日期，营销活动就会具有 **[!UICONTROL 草稿]** 状态。 然后，当到达开始日期时，它会变为 **[!UICONTROL 进行中]**. 达到结束日期后，营销活动将设置为 **[!UICONTROL 已完成]**.
+达到开始日期时，营销活动即会开始。 只要未到达开始日期，营销活动就会处于&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。 当达到开始日期时，它将变为&#x200B;**[!UICONTROL 正在进行]**。 到达结束日期后，营销活动将设置为&#x200B;**[!UICONTROL 已完成]**。
 
 开始和结束日期显示在营销活动列表中，并可用作过滤器。 请参阅此[章节](manage-campaigns.md#access-campaigns)。
 
 >[!NOTE]
 >
->您以后始终可以从 **配置Campaign设置** 图标（在促销活动标签旁边）。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
+>您以后始终可以通过营销活动标签旁边的&#x200B;**配置营销活动设置**&#x200B;图标修改这些属性。 请参阅此[章节](gs-campaigns.md#campaign-dashboard)。
 
 到达日期后，将实际发送在工作流上下文中在该营销活动中创建的已准备好发送的投放。 为此，必须已启动工作流。
 

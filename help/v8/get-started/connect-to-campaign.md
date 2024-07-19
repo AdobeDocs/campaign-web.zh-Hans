@@ -3,8 +3,8 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
-workflow-type: ht
-source-wordcount: '559'
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
    登录到 Experience Cloud 后，您可以快速访问所有解决方案和应用程序。
 
-   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
+   ![](assets/exc-home.png){zoomable="yes"}
 
 1. 验证您是否属于正确的组织。
 
-   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
    请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
 
@@ -40,11 +40,11 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 如果您已连接到另一个 Adobe Experience Cloud 解决方案，还可以从屏幕右上角的解决方案切换器浏览到您的 Campaign 环境。
 
-![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
+![](assets/solution-switcher.png){zoomable="yes"}
 
 如果您有权访问多个环境（包括 Campaign 控制面板），请点击正确实例的&#x200B;**启动**&#x200B;按钮。
 
-![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
+![](assets/launch-campaign.png){zoomable="yes"}
 
 您现已连接到 Campaign。在[此页面](user-interface.md)中了解如何开始使用用户界面。
 
@@ -59,7 +59,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 * 检查您的产品通知
 * 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## 支持的浏览器 {#browsers}
 
