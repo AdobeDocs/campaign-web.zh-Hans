@@ -2,18 +2,15 @@
 audience: end-user
 title: 创建内容片段
 description: 了解如何使用内容片段创建
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 22%
+source-wordcount: '916'
+ht-degree: 24%
 
 ---
 
 # 创建内容片段 {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,31 +58,34 @@ ht-degree: 22%
 
 ![](assets/fragments.gif)
 
-
 要充分利用片段，请执行以下操作：
 
 * 创建您自己的可视化片段，如下所述。
-* 通过Email Designer，在内容中根据需要多次使用它们。 请参阅 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md).
+* 您可以根据需要通过Email Designer在内容中多次使用它们。 请参阅[将可视化片段添加到您的电子邮件](../email/use-visual-fragments.md)。
+
+>[!AVAILABILITY]
+>
+>此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 ## 创建可视片段 {#create-fragments}
 
 创建片段的方法有两种：
 
-* 使用，从头开始创建片段 **[!UICONTROL 片段]** 专用菜单。 [了解如何操作](#create-from-scratch)
+* 使用&#x200B;**[!UICONTROL 片段]**&#x200B;专用菜单从头开始创建片段。 [了解如何操作](#create-from-scratch)
 
 * 设计内容时，将部分内容另存为片段。 [了解如何操作](#save-as-fragment)
 
-保存后，您的片段即可用于电子邮件或电子邮件模板。 无论是从头开始还是从现有内容创建，您现在都可以在在Campaign中构建任何内容时使用此片段。 请参阅 [添加可视片段](../email/use-visual-fragments.md).
+保存后，您的片段即可用于电子邮件或电子邮件模板。 无论是从头开始还是从现有内容创建，您现在都可以在在Campaign中构建任何内容时使用此片段。 请参阅[添加可视化片段](../email/use-visual-fragments.md)。
 
 ### 从头开始创建片段 {#create-from-scratch}
 
 要从头开始创建片段，请执行以下步骤。
 
-1. [访问片段列表](#access-manage-fragments) 通过 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左侧菜单。
+1. [通过&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;左侧菜单访问片段列表](#access-manage-fragments)。
 
    ![](assets/fragments-list.png)
 
-1. 选择 **[!UICONTROL 创建片段]**.
+1. 选择&#x200B;**[!UICONTROL 创建片段]**。
 
 1. 输入片段的标签。
 
@@ -97,28 +97,28 @@ ht-degree: 22%
    >
    >目前，您只能创建可视化片段。
 
-1. 单击 **创建** 按钮以配置片段的内容。
+1. 单击&#x200B;**创建**&#x200B;按钮配置片段的内容。
 
-1. 此 [电子邮件设计工具](../email/get-started-email-designer.md) 显示。 根据需要编辑内容，就像处理营销活动中的任何电子邮件一样。 您可以添加图像、链接、个性化字段和动态内容。
+1. 显示[电子邮件Designer](../email/get-started-email-designer.md)。 根据需要编辑内容，就像处理营销活动中的任何电子邮件一样。 您可以添加图像、链接、个性化字段和动态内容。
 
    ![](assets/fragment-designer.png)
 
-1. 片段准备就绪后，单击 **[!UICONTROL 保存并关闭]**. 它会添加到 [片段列表](#access-manage-fragments).
+1. 片段准备就绪后，单击&#x200B;**[!UICONTROL 保存并关闭]**。 已将其添加到[片段列表](#access-manage-fragments)。
 
-现在，可在构建任何 [电子邮件](../email/get-started-email-designer.md) 或 [内容模板](use-email-templates.md) 在Campaign中。 [了解如何操作](../email/use-visual-fragments.md)
+现在，在Campaign中构建任何[电子邮件](../email/get-started-email-designer.md)或[内容模板](use-email-templates.md)时，可使用此片段。 [了解如何操作](../email/use-visual-fragments.md)
 
 
 ### 将内容另存为片段 {#save-as-fragment}
 
-任何电子邮件内容都可以另存为片段以供将来重用。 设计 [内容模板](use-email-templates.md) 或 [电子邮件](../email/get-started-email-designer.md) 投放，您可以将内容的一部分另存为可视化片段。 为此请执行以下操作步骤：
+任何电子邮件内容都可以另存为片段以供将来重用。 在设计[内容模板](use-email-templates.md)或[电子邮件](../email/get-started-email-designer.md)投放时，您可以将部分内容另存为可视片段。 为此请执行以下操作步骤：
 
-1. 在 [电子邮件设计工具](../email/get-started-email-designer.md)，单击 **更多** 按钮。
+1. 在[电子邮件Designer](../email/get-started-email-designer.md)中，单击屏幕右上角的&#x200B;**更多**&#x200B;按钮。
 
-1. 选择 **[!UICONTROL 另存为片段]** 从下拉菜单中。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 另存为片段]**。
 
    ![](assets/fragment-save-as.png)
 
-1. 此 **[!UICONTROL 另存为片段]** 屏幕显示。 其中选择要包含在片段中的元素，包括个性化字段和动态内容。
+1. 将显示&#x200B;**[!UICONTROL 另存为片段]**&#x200B;屏幕。 其中选择要包含在片段中的元素，包括个性化字段和动态内容。
 
    >[!CAUTION]
    >
@@ -130,7 +130,7 @@ ht-degree: 22%
 
    ![](assets/fragment-save-confirm.png)
 
-   此内容现在是添加到中的独立片段 [片段列表](#manage-fragments)，可从专用菜单访问。 现在，您可以在构建任何 [电子邮件](../email/get-started-email-designer.md) 或 [内容模板](use-email-templates.md) 在Campaign中。 [了解如何操作](../email/use-visual-fragments.md)
+   此内容现在是独立的片段，添加到[片段列表](#manage-fragments)中，可从专用菜单访问。 现在，在Campaign中构建任何[电子邮件](../email/get-started-email-designer.md)或[内容模板](use-email-templates.md)时，可以使用此片段。 [了解如何操作](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
@@ -144,8 +144,8 @@ ht-degree: 22%
 
 要编辑片段，请执行以下步骤。
 
-1. 单击要编辑的片段的名称，从 **[!UICONTROL 片段]** 列表。
-1. 单击 **编辑内容** 按钮以打开此片段的内容。
+1. 从&#x200B;**[!UICONTROL 片段]**&#x200B;列表中单击要编辑的片段的名称。
+1. 单击&#x200B;**编辑内容**&#x200B;按钮以打开此片段的内容。
 
    ![](assets/fragment-edit-content.png)
 
@@ -160,22 +160,22 @@ ht-degree: 22%
 
 要删除片段，请执行以下步骤：
 
-1. 浏览到片段列表，然后单击 **[!UICONTROL 更多操作]** 按钮删除片段。
-1. 单击 **删除** 并确认。
+1. 浏览到片段列表，然后单击要删除的片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
+1. 单击&#x200B;**删除**&#x200B;并确认。
 
    ![](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->删除内容片段时，会更新电子邮件投放和使用它的模板：片段将从电子邮件内容中删除，但仍被引用。 要将片段内容保留在这些投放和模板中，必须在删除片段之前中断继承。 [如本节所述](use-visual-fragments.md#break-inheritance).
+>删除内容片段时，会更新电子邮件投放和使用它的模板：片段将从电子邮件内容中删除，但仍被引用。 要将片段内容保留在这些投放和模板中，必须在删除片段之前中断继承，[如本节](use-visual-fragments.md#break-inheritance)所述。
 >
 
 ### 复制片段 {#duplicate-fragments}
 
 您可以轻松复制片段以创建新片段。 要复制现有片段，请执行以下步骤：
 
-1. 浏览到片段列表，然后单击 **[!UICONTROL 更多操作]** 按钮删除片段。
-1. 单击 **复制** 并确认。
+1. 浏览到片段列表，然后单击要删除的片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
+1. 单击&#x200B;**复制**&#x200B;并确认。
 1. 输入新片段的标签并保存更改。
 
    片段将添加到片段列表。 您可以根据需要对其进行编辑和配置。

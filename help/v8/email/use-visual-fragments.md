@@ -2,33 +2,29 @@
 audience: end-user
 title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
 # 将可视片段添加到电子邮件 {#use-visual-fragments}
 
-您可以在以下位置使用可视化片段： [电子邮件投放](get-started-email-designer.md)，或在 [内容模板](use-email-templates.md). 步骤详见下文。
+您可以在[电子邮件投放](get-started-email-designer.md)或[内容模板](use-email-templates.md)中使用可视片段。 步骤详见下文。 在[本节](fragments.md)中了解如何创建和管理片段。
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->了解如何在中创建和管理片段 [本节](fragments.md).
-
+>此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 ## 使用片段 {#use-fragment}
 
 要在电子邮件内容中插入片段，请执行以下步骤：
 
-1. 使用打开任何电子邮件或模板内容 [电子邮件设计工具](get-started-email-designer.md).
+1. 使用[电子邮件Designer](get-started-email-designer.md)打开任何电子邮件或模板内容。
 
-1. 选择 **[!UICONTROL 片段]** 图标。
+1. 从左边栏中选择&#x200B;**[!UICONTROL 片段]**&#x200B;图标。
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +38,7 @@ ht-degree: 4%
    >
    >片段按创建日期排序：最近添加的可视化片段首先显示在列表中。
 
-   如果在编辑内容时修改或添加了某些片段，请单击 **刷新** 图标以使用最新更改更新列表。
+   如果在编辑内容时修改或添加了某些片段，请单击&#x200B;**刷新**&#x200B;图标以使用最新更改更新列表。
 
 1. 将列表中的任何片段拖放到要插入它的区域。 与任何其他组件一样，您可以在内容中移动片段。
 
@@ -50,17 +46,17 @@ ht-degree: 4%
 
    ![](assets/fragment-right-pane.png)
 
-   从 **[!UICONTROL 设置]** 选项卡，您可以：
+   在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
 
    * 选择您希望片段显示的设备。
-   * 单击 **编辑内容** 按钮以打开此片段的内容。 [了解详情](../email/fragments.md#edit-fragments)
+   * 单击&#x200B;**编辑内容**&#x200B;按钮以打开此片段的内容。 [了解详情](../email/fragments.md#edit-fragments)
 
-     您可以使用进一步自定义片段 **[!UICONTROL 样式]** 选项卡。
+     您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义片段。
 
 1. 如果需要，您可以使用原始片段中断继承。 [了解详情](#break-inheritance)
 您还可以从内容中删除或复制片段。 这些操作可以直接从片段顶部显示的上下文菜单执行。
 
-1. 添加所需数量的片段并 **[!UICONTROL 保存]** 您所做的更改。
+1. 添加所需数量的片段，然后&#x200B;**[!UICONTROL 保存]**&#x200B;您的更改。
 
 ## 中断继承 {#break-inheritance}
 
