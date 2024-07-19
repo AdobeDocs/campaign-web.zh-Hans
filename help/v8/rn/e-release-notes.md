@@ -4,10 +4,10 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 
 #### 内容片段 {#LA-24-7}
 
-片段是预建的可重用组件，可以在Adobe Campaign的多个内容中引用，以实现改进和加快设计过程。
+您现在可以创建和使用内容片段。 内容片段是可在一条或多条消息中引用的可重用组件。 修改片段时，使用该片段的每个内容都会更新。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合消息内容。
 
-* 您现在可以创作、使用和管理&#x200B;**表达式片段**&#x200B;以快速构建个性化内容。
+提供了两种类型的片段：
 
-* 您现在可以创作、使用和保存&#x200B;**可视化片段**&#x200B;以快速汇编电子邮件和内容模板。 [了解详情](../email/fragments.md)
+* **表达式片段**&#x200B;是预定义表达式，可从表达式编辑器的专用条目中使用。
+* **可视化片段**&#x200B;是预定义的可视化块，您可以在多个电子邮件投放中或在内容模板中重复使用。 [了解详情](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**可视化片段**&#x200B;处于有限可用性(LA)。 此功能仅限于将&#x200B;**从Adobe Campaign Standard迁移到Adobe Campaign v8**&#x200B;的客户，不能在任何其他环境中部署。
