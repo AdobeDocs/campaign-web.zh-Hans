@@ -2,7 +2,7 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 您现在可以在&#x200B;**扩充**&#x200B;工作流活动中创建与另一个表的链接。使用活动参数中的新&#x200B;**链接定义**&#x200B;部分在工作表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则您现在可以创建指向该国家/地区表的链接，以便在其配置文件中更新此信息。[了解更多信息](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### 一般改进 {#improvements-24-5}
 
 * **直邮**：您现在可以利用表达式编辑器来选择要在直邮提取文件中显示的属性。[了解更多信息](../direct-mail/content-direct-mail.md)
 
 * **文件夹管理**：您现在可以创建与父文件夹不同类型的子文件夹。[了解更多信息](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **全球化**：作为我们持续努力提供统一用户体验的一部分，我们统一了 Adobe Experience Cloud 产品和应用程序中使用的术语。这会影响德语术语“Titel”，当它与对象名称相关时会更改为“Label”。这些变化将会在 UI 和文档中逐步推出。
 
@@ -125,22 +114,15 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 ### 一般改进 {#improvements-24-4}
 
 自 4 月版本开始，所有客户均可享受以下改进功能。
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * **加载文件**&#x200B;活动通过几个部分得到了增强，其中允许您上传示例文件、管理错误和拒绝内容，以及在活动执行后删除上传的文件。[了解更多信息](../workflows/activities/load-file.md)
 
 
 * 您现在可以从不同的浏览器选项卡将活动从一个工作流&#x200B;**复制/粘贴**&#x200B;到另一个工作流。[了解更多信息](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * 现在，所有工作流活动都允许您管理其&#x200B;**执行选项**。这有助于您定义活动的执行模式和出现错误时的行为。[了解更多信息](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * **拆分活动**&#x200B;中的“如果群体为空，则不激活过渡”选项允许您选择当区段结果为空时工作流是否应过渡到下一个活动。[了解更多信息](../workflows/activities/split.md)
-
-
 
 ## 3 月发行说明 {#24-3-release}
 
