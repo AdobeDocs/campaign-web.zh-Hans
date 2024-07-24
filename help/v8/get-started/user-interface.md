@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -335,8 +335,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="事务性消息移动应用程序"
->abstract="事务性消息移动应用程序"
+>title="交易型消息传递移动应用程序"
+>abstract="交易型消息传递移动应用程序"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"

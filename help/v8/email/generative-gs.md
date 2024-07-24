@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 条款"
->abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。请检查此功能的任何输出是否正确，并确保它适合您的用例。"
+>abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Campaign中的AI助手由Azure OpenAI提供支持，是Adobe的AI内容生成功能，可彻底改变营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
