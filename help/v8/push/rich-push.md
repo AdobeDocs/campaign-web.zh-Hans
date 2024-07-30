@@ -3,24 +3,23 @@ audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 5%
+source-wordcount: '3354'
+ht-degree: 3%
 
 ---
 
 # 设计 Android 富推送投放 {#rich-push}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="稍后提醒按钮"
 >abstract="**稍后提醒**&#x200B;按钮提供了计划提醒的选项。时间戳字段需要一个表示 epoch 的值（以秒为单位）。"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->此功能位于&#x200B;**有限可用性** (LA)。
+>在设计富推送通知之前，您首先需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
 
 使用Firebase Cloud Messaging，您可以选择两种类型的消息：
 
@@ -32,19 +31,31 @@ ht-degree: 5%
 
 ## 定义通知的内容 {#push-message}
 
-创建推送投放后，即可定义其内容。 提供了三个模板：
+创建推送投放后，您可以使用以下模板之一定义其内容：
 
-* **默认模板**&#x200B;允许您发送带有简单图标和随附图像的通知。
+* **默认**&#x200B;允许您发送带有简单图标和随附图像的通知。
 
-* **基本模板**&#x200B;可以在通知中包含文本、图像和按钮。
+* **基本**&#x200B;可以在通知中包含文本、图像和按钮。
 
-* **轮播模板**&#x200B;允许您发送包含用户可以轻扫的文本和多个图像的通知。
+* 通过&#x200B;**轮播**，您可以发送包含用户可以轻扫的文本和多个图像的通知。
+
+* **图标按钮**&#x200B;允许您发送带有图标和相应图像的通知。
+
+* **输入框**&#x200B;通过通知直接收集用户输入和反馈。
+
+* **产品目录**&#x200B;显示各种产品图像。
+
+* **产品评级**&#x200B;允许用户提供反馈并对产品评级。
+
+* **计时器**&#x200B;在通知中包含实时倒计时器。
+
+* **零挡板**&#x200B;使用图像的整个背景表面，文本无缝覆盖。
 
 浏览以下选项卡，详细了解如何个性化这些模板。
 
 >[!BEGINTABS]
 
->[!TAB 默认模板]
+>[!TAB 默认值]
 
 1. 从&#x200B;**[!UICONTROL 模板]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 默认值]**。
 
@@ -66,7 +77,7 @@ ht-degree: 5%
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 
->[!TAB 基本模板]
+>[!TAB 基本]
 
 1. 从&#x200B;**[!UICONTROL 模板]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 基本]**。
 
@@ -116,7 +127,7 @@ ht-degree: 5%
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 
->[!TAB 轮播模板]
+>[!TAB 轮播]
 
 1. 从&#x200B;**[!UICONTROL 模板]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 轮播]**。
 
@@ -165,6 +176,245 @@ ht-degree: 5%
 
 定义消息内容后，您可以使用测试订阅者来预览和测试消息。
 
+>[!TAB 图标按钮]
+
+1. 从&#x200B;**[!UICONTROL 模板]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 图标按钮]**。
+
+   ![](assets/rich_push_icon_1.png)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+   ![](assets/rich_push_icon_2.png)
+
+1. 若要进一步个性化推送通知，您可以选择通知的&#x200B;**[!UICONTROL 图标]**&#x200B;显示在用户档案的设备上。
+
+1. 添加&#x200B;**[!UICONTROL 取消按钮图像]**&#x200B;的URL。
+
+1. 单击&#x200B;**[!UICONTROL 添加图标]**&#x200B;并输入您的&#x200B;**图像URL**、**[!UICONTROL 链接URI]**&#x200B;并选择您的&#x200B;**[!UICONTROL 链接类型]**。
+
+   确保您至少包括三个图标和最多五个图标。
+
+   ![](assets/rich_push_icon_3.png)
+
+1. 使用向下和向上箭头处理图像的顺序。
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+   ![](assets/rich_push_icon_4.png)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
+>[!TAB 输入框]
+
+1. 从&#x200B;**[!UICONTROL 通知类型]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 输入框]**。
+
+   ![](assets/rich_push_input_1.png)
+
+1. 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 邮件]**&#x200B;和&#x200B;**[!UICONTROL 扩展邮件]**&#x200B;字段中输入您的文本。
+
+   在展开通知时，显示&#x200B;**[!UICONTROL 展开的消息]**&#x200B;时，折叠的视图中会显示&#x200B;**[!UICONTROL 消息]**&#x200B;文本。
+
+   ![](assets/rich_push_input_2.png)
+
+1. 使用动态个性化字段定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
+
+1. 为&#x200B;**输入框**&#x200B;填写以下选项：
+
+   * **[!UICONTROL 输入接收器名称]**：输入输入接收器的名称或标识符。
+   * **[!UICONTROL 输入文本]**：输入&#x200B;**输入框**&#x200B;的文本。
+   * **[!UICONTROL 反馈文本]**：输入要在回复后显示的文本。
+   * **[!UICONTROL 反馈图像]**：为回复后显示的图像添加URL。
+
+   ![](assets/rich_push_input_3.png)
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
+>[!TAB 产品目录]
+
+1. 从&#x200B;**[!UICONTROL 通知类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 产品目录]**。
+
+   ![](assets/rich_push_catalog_1.png)
+
+1. 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 邮件]**&#x200B;字段中输入您的文本。
+
+   ![](assets/rich_push_catalog_2.png)
+
+1. 使用动态个性化字段定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+1. 若要进一步个性化推送通知，您可以选择通知的&#x200B;**[!UICONTROL 图标]**&#x200B;显示在用户档案的设备上。
+
+1. 输入您的&#x200B;**点击操作文本**&#x200B;和&#x200B;**图像**。
+
+1. 在“水平”或“垂直”之间选择您的&#x200B;**[!UICONTROL 显示类型]**。
+
+1. 填写您的&#x200B;**[!UICONTROL 目录]**&#x200B;项信息。
+
+   确保您至少包含三个项目，最多包含五个项目。
+
+   ![](assets/rich_push_catalog_3.png)
+
+1. 使用向下和向上箭头处理图像的顺序。
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
+>[!TAB 产品评级]
+
+1. 从&#x200B;**[!UICONTROL 通知类型]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 产品评级]**。
+
+   ![](assets/rich_push_rating_1.png)
+
+1. 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 邮件]**&#x200B;和&#x200B;**[!UICONTROL 扩展邮件]**&#x200B;字段中输入您的文本。
+
+   在展开通知时，显示&#x200B;**[!UICONTROL 展开的消息]**&#x200B;时，折叠的视图中会显示&#x200B;**[!UICONTROL 消息]**&#x200B;文本。
+
+   ![](assets/rich_push_rating_2.png)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
+
+1. 添加处于未选择状态的&#x200B;**[!UICONTROL 评级图标]**&#x200B;和处于选定状态&#x200B;]**URL的**[!UICONTROL &#x200B;评级图标。
+
+   ![](assets/rich_push_rating_3.png)
+
+1. 单击&#x200B;**[!UICONTROL 添加评级]**&#x200B;并输入您的&#x200B;**[!UICONTROL 链接URI]**&#x200B;和&#x200B;**[!UICONTROL 链接类型]**。
+
+   确保至少包括三个评级，最多包括五个评级。
+
+   ![](assets/rich_push_rating_4.png)
+
+1. 使用向下和向上箭头处理图像的顺序。
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
+>[!TAB 计时器]
+
+1. 从&#x200B;**[!UICONTROL 通知类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 计时器]**。
+
+   ![](assets/rich_push_timer_1.png)
+
+1. 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 邮件]**&#x200B;字段中输入您的文本。
+
+   使用动态个性化字段定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+
+   ![](assets/rich_push_timer_2.png)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+   ![](assets/rich_push_timer_3.png)
+
+1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
+
+1. 将您的&#x200B;**[!UICONTROL 计时器持续时间]**&#x200B;设置为特定纪元时间戳（以秒为单位）或&#x200B;**[!UICONTROL 计时器结束时间戳]**。
+
+   ![](assets/rich_push_timer_4.png)
+
+1. 在&#x200B;**[!UICONTROL 备用标题]**、**[!UICONTROL 备用消息]**、**[!UICONTROL 备用扩展消息]**&#x200B;和&#x200B;**[!UICONTROL 备用启动图像]**&#x200B;字段中输入计时器过期后显示的文本和图像。
+
+   ![](assets/rich_push_timer_5.png)
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
+>[!TAB 零挡板]
+
+1. 从&#x200B;**[!UICONTROL 通知类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 零挡板]**。
+
+   ![](assets/rich_push_bezel_1.png)
+
+1. 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 邮件]**&#x200B;和&#x200B;**[!UICONTROL 扩展邮件]**&#x200B;字段中输入您的文本。
+
+   在展开通知时，显示&#x200B;**[!UICONTROL 展开的消息]**&#x200B;时，折叠的视图中会显示&#x200B;**[!UICONTROL 消息]**&#x200B;文本。
+
+   ![](assets/rich_push_bezel_2.png)
+
+1. 使用动态个性化字段定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
+
+1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
+
+1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
+
+   * **[!UICONTROL Web URL]**： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+
+   * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
+
+   * **[!UICONTROL 打开应用程序]**：打开应用程序URL允许您直接连接到应用程序中的内容。 它使您的应用程序能够绕过消除歧义对话框，将自身确立为特定类型链接的默认处理程序。
+
+   有关如何处理Android应用程序链接的更多信息，请参阅[Android开发人员文档](https://developer.android.com/training/app-links)。
+
+1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
+
+   ![](assets/rich_push_bezel_3.png)
+
+1. 选择通知的&#x200B;**[!UICONTROL 折叠通知样式]**，无论该通知主要显示图像还是文本。
+
+1. 配置推送通知的&#x200B;**[!UICONTROL 高级设置]**。 [了解详情](#push-advanced)
+
+定义消息内容后，您可以使用测试订阅者来预览和测试消息。
+
 >[!ENDTABS]
 
 ## 推送通知高级设置 {#push-advanced}
@@ -176,6 +426,7 @@ ht-degree: 5%
 | **[!UICONTROL 图标颜色]** | 使用十六进制颜色代码设置图标的颜色。 |
 | **[!UICONTROL 标题颜色]** | 使用十六进制颜色代码设置标题的颜色。 |
 | **[!UICONTROL 消息文本颜色]** | 使用十六进制颜色代码设置消息文本的颜色。 |
+| **[!UICONTROL 计时器颜色]** | 使用十六进制颜色代码设置计时器的颜色。 |
 | **[!UICONTROL 通知背景颜色]** | 使用十六进制颜色代码设置通知背景的颜色。 |
 | **[!UICONTROL 声音]** | 设置设备收到通知时播放的声音。 |
 | **[!UICONTROL 通知计数]** | 设置直接在应用程序图标上显示的新未读信息数。 这样用户即可迅速了解待处理通知的数量。 |
