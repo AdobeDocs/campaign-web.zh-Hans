@@ -3,19 +3,17 @@ audience: end-user
 title: Campaign Web 用户界面中的权限管理
 description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 20%
+source-wordcount: '228'
+ht-degree: 18%
 
 ---
 
 
 # 权限 {#permissions}
 
-Adobe Campaign中的每个用户在应用程序中都有自己的权限和限制。
-
-用户可以是操作员组的一部分，并将继承该组的权限。
+Adobe Campaign中的每个用户在应用程序中都有自己的权限和限制。 用户可以是操作员组的一部分，并继承该组的权限。
 
 根据其权限，操作员可以：
 
@@ -23,10 +21,13 @@ Adobe Campaign中的每个用户在应用程序中都有自己的权限和限制
 * 访问特定数据
 * 访问某些操作（创建、修改、删除）
 
+有关在Adobe Campaign中设置权限的详细过程，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}。
+
 ## 文件夹权限 {#folder-permissions}
 
-根据您的权限，您可以在&#x200B;**[!UICONTROL 文件夹设置]**中查看和管理文件夹的权限。
-下面是投放文件夹的示例。
+根据您的权限，您可以在&#x200B;**[!UICONTROL 文件夹设置]**&#x200B;中查看和管理文件夹的权限。
+
+以下是投放文件夹的示例：
 
 ![](assets/folder_settings.png){zoomable="yes"}
 
@@ -42,5 +43,6 @@ Adobe Campaign中的每个用户在应用程序中都有自己的权限和限制
 
 如果选中&#x200B;**[!UICONTROL 系统文件夹]**&#x200B;选项，则允许所有操作员访问，无论其权限如何。
 
-您还可以[在Adobe Campaign控制台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)中管理文件夹的权限。
-Campaign Web UI中的所有权限都会与Campaign客户端控制台权限同步。
+您还可以[在Adobe Campaign控制台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}中管理文件夹的权限。
+
+Campaign Web用户界面中的所有权限都会与Campaign客户端控制台权限同步。
