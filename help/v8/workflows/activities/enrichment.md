@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 44%
+source-wordcount: '1636'
+ht-degree: 43%
 
 ---
 
@@ -106,14 +106,6 @@ ht-degree: 44%
 [示例](#link-example)部分提供了使用链接的工作流示例。
 
 ## 数据协调 {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="数据协调"
->abstract="工作流扩充活动现在可用于协调来自 Campaign 数据库模式的数据与来自另一个模式的数据，或来自临时模式的数据（例如使用“加载”文件活动上传的数据）。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
-
 
 **扩充**&#x200B;活动可用于协调来自Campaign数据库架构的数据与来自其他架构的数据，或协调来自临时架构的数据，例如使用加载文件活动上载的数据。 此类链接定义针对唯一记录的协调。 Adobe Campaign通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。
 

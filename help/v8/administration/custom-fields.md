@@ -2,22 +2,14 @@
 title: 自定义字段
 description: 了解如何配置自定义字段
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 19%
+source-wordcount: '225'
+ht-degree: 8%
 
 ---
 
 # 配置自定义字段 {#custom-fields}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="自定义字段"
->abstract="自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。它们现在可以在 Web 用户界面中使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
-
-
 
 自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}以了解详情
 
