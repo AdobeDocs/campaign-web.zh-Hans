@@ -3,9 +3,9 @@ audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3372'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,10 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->在设计富推送通知之前，您首先需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
+>* 此功能需要更新Campaign v8.6.3 <!--or v8.7.2-->。 请参阅Campaign v8客户端控制台[发行说明](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}以了解详情。
+>
+>* 在设计富推送通知之前，您首先需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
+
 
 使用Firebase Cloud Messaging，您可以选择两种类型的消息：
 

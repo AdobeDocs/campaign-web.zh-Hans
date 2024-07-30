@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 40%
@@ -279,7 +279,7 @@ ht-degree: 40%
 
 * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 
-* **[!UICONTROL 平台平均值]** ：计算每个速率（反应性、非重复点击和累计点击）下显示的平均速率，用于衡量过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
+* **[!UICONTROL 平台平均值]**：计算每个速率（反应性、非重复点击和累计点击）下显示的平均速率，用于计算过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
 
 +++
 

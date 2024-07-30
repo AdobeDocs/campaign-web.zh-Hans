@@ -3,7 +3,7 @@ audience: end-user
 title: 计划和项目
 description: 了解如何在Adobe Campaign中创建和配置计划和程序
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # 计划和项目 {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="计划和项目"
 >abstract="您现在可以在 Campaign Web 用户界面中配置营销计划和方案的文件夹层次结构。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
@@ -74,7 +74,7 @@ ht-degree: 10%
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-您可以配置它们：
+您可以对其进行配置：
 
 ![](assets/program_customfields.png){zoomable="yes"}
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 您可以通过两种方式将营销活动链接到项目：
 
-### 方#1：您已经有一个项目，并想要创建与其关联的活动
+### 方#1：您已经有一个项目，并想要创建与其关联的营销策划
 
 要将新营销活动链接到项目，请直接在项目中创建您的营销活动：
 
@@ -92,7 +92,7 @@ ht-degree: 10%
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 方#2：您已经有一个现有营销活动，并希望将其链接到现有项目
+### 方式#2：您已经有一个现有营销策划，并想要将其链接到现有项目
 
 转到要链接到项目的营销活动的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮：
 

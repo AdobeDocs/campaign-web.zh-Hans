@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 25%
@@ -239,7 +239,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 总点击次数]**：投放中链接的点击总数。
 
-* **[!UICONTROL 平台平均值]** ：计算每个速率（反应性、非重复点击和累计点击）下显示的平均速率，用于衡量过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
+* **[!UICONTROL 平台平均值]**：计算每个速率（反应性、非重复点击和累计点击）下显示的平均速率，用于计算过去六个月发送的投放数量。 只考虑具有相同类型和相同渠道的投放。 排除验证。
 +++
 
 ### 访问量排名前 10 的链接 {#top10-global-report-email}

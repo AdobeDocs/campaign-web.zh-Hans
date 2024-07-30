@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载电子邮件受众](audience/file-audience.md)
       + [设置对照组](audience/control-group.md)
+      + [添加陷阱组](audience/trap-group.md)
    + 使用订阅服务 {#work-with-services}
       + [创建和管理订阅服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)

@@ -4,7 +4,7 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 # 审核记录{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="审核记录"
 >abstract="新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
@@ -92,11 +92,11 @@ ht-degree: 6%
 
 1. **[!UICONTROL 审核实体]**&#x200B;窗口为您提供有关所选实体的更多详细信息，例如：
 
-   * **[!UICONTROL 类型]** ：工作流、选项、投放或架构。
-   * **[!UICONTROL 实体]** ：活动的内部名称。
-   * **[!UICONTROL 修改者]** ：上次修改此实体的人员的用户名。
-   * **[!UICONTROL 操作]** ：对此实体执行的最后一个操作，已创建、已修改或已删除。
-   * **[!UICONTROL 修改日期]** ：对此实体执行的上次操作的日期。
+   * **[!UICONTROL 类型]**：工作流、选项、投放或架构。
+   * **[!UICONTROL 实体]**：活动的内部名称。
+   * **[!UICONTROL 修改者]**：上次修改此实体的人员的用户名。
+   * **[!UICONTROL 操作]**：对此实体执行的最后一个操作，已创建、已修改或已删除。
+   * **[!UICONTROL 修改日期]**：对此实体执行的上次操作的日期。
 
    代码块为您提供了有关实体中确切更改的更多信息。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 关于隔离
 description: 了解隔离地址的管理
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Campaign管理隔离地址（电子邮件、短信、推送通知）。
 
 ## 将地址添加到隔离区的原因
 
-将地址添加到隔离区有许多原因：
+许多原因都可能导致将地址添加到隔离：
 
 - 对于短信，为错误的电话号码
 - 对于短信，当用户档案回复带有关键词（如“STOP”）的短信消息时
