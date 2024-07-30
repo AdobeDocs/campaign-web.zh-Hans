@@ -2,7 +2,7 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 ### 改进 {#improvements-24-7}
 
 **文件夹管理** - 您现在可以管理文件夹的权限和限制。
-
 
 ## 6 月发行说明 {#24-6-release}
 
