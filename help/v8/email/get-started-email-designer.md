@@ -3,7 +3,7 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web 用户界面中的电子邮件设计器开始构建内容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 利用电子邮件设计器，可以通过直观的拖放界面创建迷人的、单独定制的电子邮件。无论您是从头开始，导入现有内容还是利用现有模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
 
-<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 

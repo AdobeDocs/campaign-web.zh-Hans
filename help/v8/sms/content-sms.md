@@ -3,10 +3,10 @@ audience: end-user
 title: 设计短信投放
 description: 了解如何设计短信投放
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 78%
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="短信内容"
->abstract="创建短信投放的内容，并用个性化字段、内容块和动态内容使其个性化。要开始编写消息，请单击&#x200B;**编辑内容**&#x200B;按钮。"
+>abstract="创建短信投放的内容，并使用个性化字段、表达式片段和动态内容对其进行个性化。 要开始编写消息，请单击&#x200B;**编辑内容**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 1. 在&#x200B;**[!UICONTROL 编辑内容]**&#x200B;页面上，可通过访问&#x200B;**[!UICONTROL 发件人]**&#x200B;字段并输入首选名称而自定义发件人名称。
 
-   此外，通过单击&#x200B;**[!UICONTROL 打开个性化对话框]**，可在消息中加入个性化字段、内容块和动态内容。
+   此外，通过单击&#x200B;**[!UICONTROL 打开个性化对话框]**，您可以在消息中包含个性化字段、表达式片段和动态内容。
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

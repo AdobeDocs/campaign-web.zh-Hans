@@ -3,7 +3,7 @@ audience: end-user
 title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 47%
@@ -39,7 +39,7 @@ ht-degree: 47%
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL 编辑Personalization]**&#x200B;窗口中，您可以使用左侧的专用条目添加[个性化字段](../personalization/personalize.md)、[内容块](../personalization/content-blocks.md)和[条件内容](../personalization/conditions.md)。
+1. 在&#x200B;**[!UICONTROL 编辑Personalization]**&#x200B;窗口中，您可以使用左侧的专用条目添加[个性化字段](../personalization/personalize.md)、[表达式片段](../content/use-expression-fragments.md)和[条件内容](../personalization/conditions.md)。
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

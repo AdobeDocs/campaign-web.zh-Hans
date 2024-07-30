@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 91%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 96%
 
   个性化字段用于邮件的第一级个性化。您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、邮件或投放相关的任何字段。可将这些个性化属性插入邮件的主题行或正文中。[了解详情](../personalization/personalize.md)
 
-* 插入预定义的&#x200B;**内容块**
+* 正在插入预定义的&#x200B;**表达式片段**
 
-  Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。可以从个性化编辑器的专用条目中获得内容块。[了解详情](../personalization/personalize.md#ootb-content-blocks)
+  Campaign提供了一组表达式片段，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。表达式片段可从个性化编辑器中的专用条目获取。 此外，您还可以创建自己的表达式片段以满足您的需求。 [了解如何使用表达式片段](../content/use-expression-fragments.md)
 
 * 创建&#x200B;**条件内容**
 

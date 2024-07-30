@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 67%
+source-wordcount: '1166'
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="关于内容"
->abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
+>abstract="内容组件是空的内容占位符，可用于创建内容片段的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

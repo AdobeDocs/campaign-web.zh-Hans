@@ -1,6 +1,6 @@
 ---
-title: 开始使用动态内容
-description: 了解如何使用个性化、条件内容和内置内容块将内容设置为动态内容。
+title: 如何将内容设置为动态内容？
+description: 了解如何使用个性化和条件内容使您的内容成为动态内容。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# 开始使用动态内容 {#gs-dynamic-content}
+# 如何将内容设置为动态内容？ {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="个性化"
->abstract="表达式编辑器让您可以选择、排列、自定义和验证所有数据，为自己的内容创建定制体验。您可以通过利用配置文件数据对发送给每个收件人的邮件进行个性化设置，并创建有条件的内容以使邮件适合每个收件人，并仅显示相关的内容。此外，个性化块可用于将预定义的个性化内容添加到投放中。"
+>abstract="表达式编辑器让您可以选择、排列、自定义和验证所有数据，为自己的内容创建定制体验。您可以利用用户档案数据为每个收件人个性化消息，并创建条件内容以根据每个收件人调整消息并仅显示相关内容。"
 
 作为一名营销人员，定位那些真正对您的产品感兴趣的客户，并提供有效的相关内容来吸引他们是至关重要的。鉴于您会遇到各种不同的收件人，创建多种营销内容来吸引不同的受众可能会既耗时又浪费。这种时候就是动态内容发挥作用的地方。
 
@@ -38,10 +38,6 @@ Adobe Campaign Web 动态内容功能可让您根据收集到的收件人相关�
 * **创建条件内容**，使您的投放适合每个收件人，并根据您获得的给定客户的相关信息，仅向其显示相关内容。这允许您根据条件显示特定的文本块和/或图像。例如，根据收件人的特定服务订阅来调整电子邮件横幅。
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **使用个性化块**&#x200B;来节省时间，并在您的邮件中使用易重用的个性化内容。Campaign 附带了一组个性化块，其中包含可插入投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向电子邮件的镜像页面的链接。可以从个性化编辑器中的专用条目中获得内容块。
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 访问表达式编辑器 {#access}
 
@@ -64,35 +60,3 @@ Adobe Campaign Web 提供了一个表达式编辑器，可让您选择、排列�
 >[!NOTE]
 >
 >除了表达式编辑器之外，您还可以在设计电子邮件时利用专用的条件内容生成器。[了解如何在电子邮件中生成条件内容](conditions.md)
-
-## 让我们深入探究 {#dive-deeper}
-
-既然您已了解如何将内容设置为动态内容，现在应该仔细阅读这些文档章节以开始使用该功能。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="个性化内容" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>添加个性化内容</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="潜在客户" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>添加条件内容</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="不频繁" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>添加内置内容块</strong></a>
-</div>
-<p></td>
-</tr></table>

@@ -3,7 +3,7 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 45%
@@ -73,7 +73,7 @@ ht-degree: 45%
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入您的主题，或者打开表达式编辑器以使用各种属性和内容块或选件添加[个性化](../personalization/personalize.md)。
+1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入您的主题，或者打开表达式编辑器以使用各种属性和表达式片段或选件添加[个性化](../personalization/personalize.md)。
 
 1. 如果要将文件附加到电子邮件，请单击&#x200B;**[!UICONTROL 添加附件]**&#x200B;按钮，然后选择一个或多个文件。
 

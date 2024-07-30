@@ -1,0 +1,64 @@
+---
+audience: end-user
+title: 内容片段入门
+description: 了解如何使用内容片段创建
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 33%
+
+---
+
+# 内容片段入门 {#gs-fragments}
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="定义您自己的内容片段"
+>abstract="内容片段是可重复使用的组件，可在营销活动中的一个或多个消息中引用。 此功能用于预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合内容。 有两种类型的内容片段：可视片段（在电子邮件设计器中可用）和表达式编辑器中的表达式片段。"
+
+## 什么是内容片段？ {#what}
+
+内容片段是可重复使用的组件，可以在一条或多条消息中引用。当修改片段时，使用它的每个内容都会被更新。此功能用于预构建多个自定义内容块，营销用户可以使用这些块在改进的设计过程中快速组装消息内容。
+
+有两种类型的片段可用：
+
+* **表达式片段**&#x200B;是预定义表达式，可从表达式编辑器的专用条目中使用。 Campaign提供了一组预定义内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段以满足您的需求。
+
+* **可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中重复使用。
+
+  >[!AVAILABILITY]
+  >
+  >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
+
+## 让我们深入探究
+
+现在，您已了解什么是内容片段以及可以在Adobe Campaign中处理这些片段做什么，接下来该深入挖掘这些文档部分，以开始使用此功能。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-fragment.md">
+<img alt="创建您自己的表达式片段" src="assets/do-not-localize/create-fragment.png">
+</a>
+<div>
+<a href="create-fragment.md"><strong>创建您自己的内容片段</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="use-visual-fragments.md">
+<img alt="将可视片段添加到电子邮件" src="assets/do-not-localize/visual.png">
+</a>
+<div><a href="use-visual-fragments.md"><strong>将可视片段添加到电子邮件</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="use-expression-fragments.md">
+<img alt="将表达式片段添加到表达式编辑器" src="assets/do-not-localize/expression.png">
+</a>
+<div>
+<a href="use-expression-fragments.md"><strong>在表达式编辑器中使用表达式片段</strong></a>
+</div>
+<p></td>
+</tr></table>

@@ -3,7 +3,7 @@ audience: end-user
 title: 计划和项目
 description: 了解如何在Adobe Campaign中创建和配置计划和程序
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 ## 创建和配置计划 {#create-plan}
 
-要创建计划，您需要创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](create-manage-folder.md)。
+要创建计划，您需要创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](../get-started/work-with-folders.md)。
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 
 ## 创建和配置程序
 
-若要在计划中创建计划（[了解有关创建计划的详细信息](#create-plan)），您需要加入计划，并创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](create-manage-folder.md)。
+若要在计划中创建计划（[了解有关创建计划的详细信息](#create-plan)），您需要加入计划，并创建文件夹类型为&#x200B;**[!UICONTROL 计划]** [了解有关创建文件夹的更多信息](../get-started/work-with-folders.md)。
 
 ![](assets/program_create.png){zoomable="yes"}
 

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '741'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 98%
    + [探索界面](get-started/user-interface.md)
    + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
-   + [访问和权限](get-started/permissions.md)
+   + [使用文件夹](get-started/work-with-folders.md)
+   + [权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 98%
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
-      + 定义电子邮件内容 {#content}
-         + [配置电子邮件内容](email/edit-content.md)
-         + 管理可重复使用的内容 {#manage-reusable-content}
-            + [使用内容模板](email/create-email-templates.md)
-            + [使用视觉片段](email/fragments.md)
-            + [将可视片段添加到电子邮件](email/use-visual-fragments.md)
-         + 开始计划您的电子邮件 {#start-design}
-            + [电子邮件设计器入门](email/get-started-email-designer.md)
-            + [从头开始](email/create-email-content.md)
-            + [导入电子邮件内容](email/existing-content.md)
-            + [为自己的内容编写代码](email/code-content.md)
-            + [使用电子邮件内容模板](email/use-email-templates.md)
-         + 设计内容 {#design-content}
-            + [使用内容组件](email/content-components.md)
-            + [添加链接和跟踪邮件](email/message-tracking.md)
-            + [添加指向镜像页面的链接](email/mirror-page.md)
-            + [添加邮件引文](email/preheader.md)
-            + [生成文本版本](email/text-version-email.md)
-         + 设置内容的样式 {#style}
-            + [电子邮件样式入门](email/get-started-email-style.md)
-            + [编辑背景设置](email/backgrounds.md)
-            + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
-            + [定义链接的样式](email/styling-links.md)
-            + [添加内联样式属性](email/inline-styling.md)
+      + [配置电子邮件内容](email/edit-content.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [使用多批次发送](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 98%
       + [使用 AI 助手生成电子邮件](email/generative-content.md)
       + [使用 AI 助手生成短信](email/generative-sms.md)
       + [使用 AI 助手生成推送通知](email/generative-push.md)
-   + 将内容设置为动态内容 {#dynamic-content}
-      + [动态内容入门](personalization/gs-personalization.md)
-      + [添加个性化内容](personalization/personalize.md)
-      + [构建条件内容](personalization/conditions.md)
-      + [添加内置内容块](personalization/content-blocks.md)
    + [将优惠添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 98%
       + [投放警报入门](msg/delivery-alerting.md)
       + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
       + [投放警报条件](msg/delivery-alerting-criteria.md)
++ 内容管理{#content}
+   + 创建动态内容{#dynamic-content}
+      + [如何将内容设置为动态内容？](personalization/gs-personalization.md)
+      + [添加个性化内容](personalization/personalize.md)
+      + [构建条件内容](personalization/conditions.md)
+   + 重用内容{#manage-reusable-content}
+      + [使用内容模板](email/create-email-templates.md)
+      + 内容片段{#fragments}
+         + [内容片段入门](content/fragments.md)
+         + [创建和编辑内容片段](content/create-fragment.md)
+         + [在电子邮件中使用可视化片段](content/use-visual-fragments.md)
+         + [在表达式编辑器中使用表达式片段](content/use-expression-fragments.md)
+   + 设计电子邮件{#email-design}
+      + [电子邮件设计器入门](email/get-started-email-designer.md)
+      + 开始计划您的电子邮件 {#start-design}
+         + [从头开始](email/create-email-content.md)
+         + [导入电子邮件内容](email/existing-content.md)
+         + [为自己的内容编写代码](email/code-content.md)
+         + [使用电子邮件内容模板](email/use-email-templates.md)
+      + 设计内容 {#design-content}
+         + [使用内容组件](email/content-components.md)
+         + [添加链接和跟踪邮件](email/message-tracking.md)
+         + [添加指向镜像页面的链接](email/mirror-page.md)
+         + [添加邮件引文](email/preheader.md)
+         + [生成文本版本](email/text-version-email.md)
+      + 设置内容的样式 {#style}
+         + [电子邮件样式入门](email/get-started-email-style.md)
+         + [编辑背景设置](email/backgrounds.md)
+         + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
+         + [定义链接的样式](email/styling-links.md)
+         + [添加内联样式属性](email/inline-styling.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 98%
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
-   + [创建和管理文件夹](administration/create-manage-folder.md)
 + [Campaign v8（操作台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)

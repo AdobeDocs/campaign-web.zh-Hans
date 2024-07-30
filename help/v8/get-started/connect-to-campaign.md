@@ -2,10 +2,10 @@
 title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 您现已连接到 Campaign。在[此页面](user-interface.md)中了解如何开始使用用户界面。
+
+### 访问控制 {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="需要权限"
+>abstract="您的管理员必须先授予您权限，然后您才能创建此对象。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="此受众为只读"
+>abstract="您无权编辑此受众。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服务为只读"
+>abstract="您无权编辑此服务。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="收件人只读配置文件"
+>abstract="您无权编辑此配置文件。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="此活动为只读"
+>abstract="您无权编辑此活动。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="此投放为只读"
+>abstract="您无权编辑此投放。如果需要，请联系您的管理员以向您授予访问权限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流为只读"
+>abstract="您无权编辑此工作流。如果需要，请联系您的管理员以向您授予访问权限。"
+
+访问控制可限制从主列表（如投放、收件人或工作流）对于对象和数据的访问。这些限制在资源管理器导航树中也适用。此外，您需要权限才能从用户界面创建、删除、重复和编辑对象。
+
+Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。只有Campaign管理员可以定义和修改用户权限。
+
+在浏览 Campaign Web 用户界面时，可以根据您的权限访问数据、对象和功能。例如，如果您无权访问某个文件夹，则您看不到它。您的权限还影响对象和数据管理。没有特定文件夹的写入权限，即无法在该文件夹中创建某个投放，即使您可在用户界面中看到它也是如此。
+
+您可以在此学习如何[查看和管理权限](permissions.md)。
 
 ## Adobe Experience Cloud 顶部导航 {#top-bar}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 从 Campaign Standard 过渡到 Adobe Campaign Web
 description: 探索 Campaign Web 用户界面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,8 @@ Campaign v8 界面和 Campaign Standard 之间的大多数概念相似。但是�
 * **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}。
 
 * **登陆页面** - 对 Campaign v8 登陆页面进行了一些改进，以确保功能与 Campaign Standard 相同。通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面 [文档](../landing-pages/get-started-lp.md)了解详情。
+
+* **可视化片段** — 可视化片段是可重用的可视化组件，可在一个或多个电子邮件投放或内容模板中引用。 当修改片段时，使用它的每个内容都会被更新。此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合消息内容。 [了解详情](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

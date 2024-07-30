@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
-workflow-type: ht
-source-wordcount: '1629'
-ht-degree: 100%
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 97%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 
 * **内容模板** - 为了加快并改进设计流程，您可以创建独立的模板，从而轻松地在 [!DNL Adobe Campaign] 中重复使用自定义内容。此功能仅适用于电子邮件，它使以内容为导向的用户能够使用独立的模板，这样营销用户可以在自己的电子邮件营销活动中重复使用和调整模板。可在[此部分](../email/create-email-templates.md)中了解详情。
 
-<!--
-* **Fragments** -
--->
+* **片段** — 片段是可重复使用的组件，可在营销活动之间的一个或多个投放中引用。 当修改片段时，使用它的每个内容都会被更新。[了解如何使用片段](../content/fragments.md)
+
+此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。
 
 ### 客户管理 {#user-interface-customer-management}
 
