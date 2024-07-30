@@ -2,10 +2,11 @@
 audience: end-user
 title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
+badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
+source-git-commit: 3b602342885c16c09b5bc97015fa039c153c9ded
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 9%
 
 ---
