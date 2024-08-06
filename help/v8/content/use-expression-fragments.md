@@ -5,7 +5,7 @@ description: 了解如何使用内容片段创建
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段"
->abstract="在当前沙盒上创建的所有表达式片段将显示在此列表中。 要使用片段，请单击+按钮以将片段ID添加到编辑器中。"
+>abstract="当前沙盒中创建的所有表情片段都显示在此列表中。要使用片段，请单击 + 按钮将片段 ID 添加到编辑器中。"
 
 <!-- pas vu dans l'UI-->
 

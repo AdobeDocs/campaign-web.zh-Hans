@@ -31,7 +31,7 @@ ht-degree: 45%
 >id="acw_deliveries_email_options"
 >title="编辑跟踪"
 >abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。您可以从此处禁用该选项。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="添加链接和跟踪邮件"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="添加链接和跟踪邮件"
 
 电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕允许您：
 

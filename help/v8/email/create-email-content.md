@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="添加结构"
->abstract="结构定义了内容片段的布局。 将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的片段内容。"
+>abstract="结构定义内容片段的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的片段内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -46,7 +46,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义内容片段列"
->abstract="电子邮件Designer允许您通过定义列结构轻松定义内容片段的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义内容片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

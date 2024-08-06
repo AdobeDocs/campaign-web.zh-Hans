@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: 内容片段入门
+title: 开始使用内容片段
 description: 了解如何使用内容片段创建
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 38%
+ht-degree: 61%
 
 ---
 
-# 内容片段入门 {#gs-fragments}
+# 开始使用内容片段 {#gs-fragments}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="内容片段"
->abstract="您现在可以创建和使用内容片段。内容片段是可重复使用的组件，可以在一条或多条消息中引用。修改片段时，使用该片段的每个内容都会更新。"
+>abstract="您现在可以创建和使用内容片段。内容片段是可重复使用的组件，可以在一条或多条消息中引用。当修改片段时，使用它的每个内容都会被更新。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="定义您自己的内容片段"
->abstract="内容片段是可重复使用的组件，可在营销活动中的一个或多个消息中引用。 此功能用于预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合内容。 有两种类型的内容片段：可视片段（在电子邮件设计器中可用）和表达式编辑器中的表达式片段。"
+>abstract="内容片段是一个可重复使用的组件，可以在各种营销活动中的一条或条信息中引用。此功能用于预构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组装内容。内容片段有两种类型：电子邮件设计器中提供的可视化片段以及表达式编辑器中的表达式片段。"
 
 ## 什么是内容片段？ {#what}
 
