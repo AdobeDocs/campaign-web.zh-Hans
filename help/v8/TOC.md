@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
-      + 富推送{#rich-push}
+      + 丰富的推送 {#rich-push}
          + [设计 Android 富推送投放](push/rich-push.md)
-         + [设计iOS富推送投放](push/rich-push-ios.md)
+         + [设计 iOS 富推送投放](push/rich-push-ios.md)
       + [设计推送投放](push/content-push.md)
       + [预览并发送推送投放](push/send-push.md)
    + 短信 {#sms}
@@ -79,19 +79,19 @@ ht-degree: 93%
       + [投放警报入门](msg/delivery-alerting.md)
       + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
       + [投放警报条件](msg/delivery-alerting-criteria.md)
-+ 内容管理{#content}
-   + 创建动态内容{#dynamic-content}
++ 内容管理 {#content}
+   + 创建动态内容 {#dynamic-content}
       + [如何将内容设置为动态内容？](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
       + [构建条件内容](personalization/conditions.md)
-   + 重用内容{#manage-reusable-content}
+   + 重复使用内容 {#manage-reusable-content}
       + [使用内容模板](email/create-email-templates.md)
       + 内容片段{#fragments}
-         + [内容片段入门](content/fragments.md)
+         + [开始使用内容片段](content/fragments.md)
          + [创建和编辑内容片段](content/create-fragment.md)
-         + [在电子邮件中使用可视化片段](content/use-visual-fragments.md)
+         + [在电子邮件中使用视觉片段](content/use-visual-fragments.md)
          + [在表达式编辑器中使用表达式片段](content/use-expression-fragments.md)
-   + 设计电子邮件{#email-design}
+   + 设计电子邮件 {#email-design}
       + [电子邮件设计器入门](email/get-started-email-designer.md)
       + 开始计划您的电子邮件 {#start-design}
          + [从头开始](email/create-email-content.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
       + [生成一次性受众](audience/one-time-audience.md)
       + [从文件加载电子邮件受众](audience/file-audience.md)
       + [设置对照组](audience/control-group.md)
-      + [添加陷阱组](audience/trap-group.md)
+      + [添加陷印组](audience/trap-group.md)
    + 使用订阅服务 {#work-with-services}
       + [创建和管理订阅服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)

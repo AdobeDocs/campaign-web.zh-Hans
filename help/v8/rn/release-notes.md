@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
   >
   >**视觉片段** 处于有限可用性（LA）。该功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 
-### 陷阱组 {#24-7-2}
+### 陷印组 {#24-7-2}
 
-**陷阱组**&#x200B;是种子地址的列表。 它用于在您的投放中包含特定地址，然后定位不符合定义的目标标准的配置文件。这样，不在投放受众内的收件人就可以像其他目标收件人一样收到投放内容。您可以在发送校样时使用种子地址，或保护您的邮件列表。 [了解详情](../audience/trap-group.md)
+**陷印组**&#x200B;是种子地址列表。它用于在您的投放中包含特定地址，然后定位不符合定义的目标标准的配置文件。这样，不在投放受众内的收件人就可以像其他目标收件人一样收到投放内容。您可以在发送校样或保护您的邮件列表时使用种子地址。[了解详情](../audience/trap-group.md)
 
 ### 富推送通知模板 {#24-7-3}
 
@@ -49,7 +49,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 >[!AVAILABILITY]
 >
->此功能需要更新Campaign v8.6.3 <!--or v8.7.2-->。 请参阅Campaign v8客户端控制台[发行说明](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}以了解详情。
+>此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。欲了解更多信息，请参阅 Campaign v8 客户端控制台 [发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 
 ### 改进 {#improvements-24-7}
 
@@ -132,13 +132,13 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 >
 >以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans)。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hans)。
 
-* **品牌化**：作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
+* **品牌化**：作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-hans)
 
-* **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hans)
+* **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans)
 
-* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hans)
+* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hans)
 
 * **登陆页面**：登陆页面的以下改进仅适用于从 Campaign Standard 过渡的用户：
 
@@ -165,7 +165,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 >[!AVAILABILITY]
 >
->此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级的更多信息。
+>此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级的更多信息。
 
 **发布日期**：2024 年 3 月 19–20 日
 

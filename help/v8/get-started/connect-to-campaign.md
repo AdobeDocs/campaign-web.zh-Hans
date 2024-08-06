@@ -3,9 +3,9 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
+   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
 
 
 ## 访问 Adobe Campaign {#access-to-campaign}
@@ -87,11 +87,11 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 访问控制可限制从主列表（如投放、收件人或工作流）对于对象和数据的访问。这些限制在资源管理器导航树中也适用。此外，您需要权限才能从用户界面创建、删除、重复和编辑对象。
 
-Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。只有Campaign管理员可以定义和修改用户权限。
+Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。仅 Campaign 管理员能够定义和修改用户权限。
 
 在浏览 Campaign Web 用户界面时，可以根据您的权限访问数据、对象和功能。例如，如果您无权访问某个文件夹，则您看不到它。您的权限还影响对象和数据管理。没有特定文件夹的写入权限，即无法在该文件夹中创建某个投放，即使您可在用户界面中看到它也是如此。
 
-您可以在此学习如何[查看和管理权限](permissions.md)。
+您可以在此处了解如何 [查看和管理权限](permissions.md)。
 
 ## Adobe Experience Cloud 顶部导航 {#top-bar}
 
@@ -100,7 +100,7 @@ Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。
 * 分享有关 Campaign Web 用户界面的反馈
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
-* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans){target="_blank"} 的帮助
+* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hans){target="_blank"} 的帮助
 * 检查您的产品通知
 * 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
@@ -145,6 +145,6 @@ Adobe Campaign Web 目前提供以下语言版本：
 
 Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的配置文件图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
 
-在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans#preferences){target="_blank"}中详述用户配置文件设置和帐户首选项。
+在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}中详述用户配置文件设置和帐户首选项。
 
-请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。
+请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。

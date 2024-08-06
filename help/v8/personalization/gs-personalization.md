@@ -1,6 +1,6 @@
 ---
 title: 如何将内容设置为动态内容？
-description: 了解如何使用个性化和条件内容使您的内容成为动态内容。
+description: 了解如何使用个性化、条件内容将内容设置为动态内容。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

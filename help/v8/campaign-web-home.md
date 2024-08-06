@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 95%
 
 >[!BEGINTABS]
 
->[!TAB 7月版本已上线！]
+>[!TAB 7 月版本已上线！]
 
-了解Adobe Campaign Web用户界面2024年7月版的新增功能和改进。
+了解 Adobe Campaign Web 用户界面 24 年 7 月版本的新功能和改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
@@ -131,4 +131,4 @@ ht-degree: 95%
 ## 其他资源
 
 * [Adobe Campaign 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans){target="_blank"}
+* [Adobe Campaign V8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hans){target="_blank"}
