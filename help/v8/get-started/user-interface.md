@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 97%
+source-wordcount: '1713'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
 
 可配置列以自定义显示，以便查看所需的所有信息。请参阅此[部分](#list-screens)。还可添加文件夹和子文件夹，如[此部分](permissions.md#folders)中所详述。
 
-有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hans#ac-explorer-ui){target="_blank"}。
+有关 Campaign 探索工具、文件夹层次结构和资源的更多信息，请参阅此 [Campaign v8（控制台）文档 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-hans#ac-explorer-ui){target="_blank"}。
 
 ### 营销活动管理 {#user-interface-campaign-management}
 
@@ -81,9 +81,9 @@ ht-degree: 97%
 
 * **内容模板** - 为了加快并改进设计流程，您可以创建独立的模板，从而轻松地在 [!DNL Adobe Campaign] 中重复使用自定义内容。此功能仅适用于电子邮件，它使以内容为导向的用户能够使用独立的模板，这样营销用户可以在自己的电子邮件营销活动中重复使用和调整模板。可在[此部分](../email/create-email-templates.md)中了解详情。
 
-* **片段** — 片段是可重复使用的组件，可在营销活动之间的一个或多个投放中引用。 当修改片段时，使用它的每个内容都会被更新。[了解如何使用片段](../content/fragments.md)
+* **片段** - 是一个可重复使用的组件，可以在各种营销活动中的一个或多个投放中引用。当修改片段时，使用它的每个内容都会被更新。[了解如何使用片段](../content/fragments.md)
 
-此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。
+此功能用于预构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组装消息内容。
 
 ### 客户管理 {#user-interface-customer-management}
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 * **用户档案** - 创建和管理用户档案，并访问收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。可在[此部分](../audience/about-recipients.md)中详细了解用户档案。
 * **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。可在[此部分](../audience/about-recipients.md)中详细了解受众和列表。
-* **订阅服务** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hans){target="_blank"}，了解如何管理订阅和退订。
+* **订阅服务** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-hans){target="_blank"}，了解如何管理订阅和退订。
 * **预定义筛选器** - 预定义筛选器是创建并保存以供将来使用的自定义筛选器。在使用查询建模器进行任何过滤操作时，例如在过滤数据列表或创建投放受众时，可将预定义过滤器用作快捷方式。可在[此部分](predefined-filters.md)中了解详情。
 
 
@@ -101,7 +101,7 @@ ht-degree: 97%
 >id="acw_offers_list"
 >title="优惠"
 >abstract="浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的优惠和优惠模板的列表。这些列表为只读。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-Hans" text="将优惠添加到投放"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hans" text="将优惠添加到投放"
 
 在“决策管理”部分中，您可以查看优惠和优惠模板。这些列表为只读。
 
@@ -332,6 +332,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="事务性消息属性"
 >abstract="事务性消息属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_email_properties"
+>title="事务性消息传递电子邮件属性"
+>abstract="事务性消息传递电子邮件属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_sms_properties"
+>title="事务性消息传递短信属性"
+>abstract="事务性消息传递短信属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_push_properties"
+>title="事务性消息传递推送属性"
+>abstract="事务性消息传递推送属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
