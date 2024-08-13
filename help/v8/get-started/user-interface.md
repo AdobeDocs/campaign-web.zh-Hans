@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -335,18 +335,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="事务性消息传递电子邮件属性"
->abstract="事务性消息传递电子邮件属性"
+>title="事务性消息电子邮件属性"
+>abstract="事务性消息电子邮件属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="事务性消息传递短信属性"
->abstract="事务性消息传递短信属性"
+>title="事务性消息 SMS 属性"
+>abstract="事务性消息 SMS 属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="事务性消息传递推送属性"
->abstract="事务性消息传递推送属性"
+>title="事务性消息推送属性"
+>abstract="事务性消息推送属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
