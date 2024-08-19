@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用 Adobe Campaign Web
 description: 开始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
+source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 96%
 
 ---
@@ -61,8 +61,10 @@ Campaign 数据存储在应用程序服务器中。可从客户端控制台和 C
 
 有关如何将 Campaign v8 与其客户端控制台一起使用的更多信息，请参阅 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans){target="_blank"}。
 
-## 操作说明视频 {#video}
+<!--
+## How-to video {#video}
 
-了解如何访问和导航 Campaign Web 用户界面，以及如何自定义库列表。了解 AI 支持的知识助手。
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->
