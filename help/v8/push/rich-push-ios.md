@@ -9,7 +9,7 @@ ht-degree: 4%
 
 ---
 
-# 设计iOS富推送投放 {#rich-push}
+# 设计 iOS 富推送投放 {#rich-push}
 
 >[!IMPORTANT]
 >

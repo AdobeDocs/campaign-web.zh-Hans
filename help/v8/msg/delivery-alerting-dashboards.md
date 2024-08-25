@@ -53,7 +53,7 @@ ht-degree: 25%
 
 1. 在&#x200B;**选择警报组**&#x200B;字段中，指定&#x200B;**操作员组**&#x200B;以接收该仪表板发送的警报。 所选操作员组的所有成员都将收到警报。
 
-   在[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中了解有关权限和操作员组的更多信息
+   在[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中了解有关权限和操作员组的更多信息
 
 1. 在&#x200B;**投放警报标准**&#x200B;部分中，添加要用于发送警报的标准。 从预定义标准中进行选择，或者根据特定需求创建自己的标准。 [了解如何使用标准](../msg/delivery-alerting-criteria.md)
 

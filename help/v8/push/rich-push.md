@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->* 此功能需要更新Campaign v8.6.3 <!--or v8.7.2-->。 请参阅Campaign v8客户端控制台[发行说明](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}以了解详情。
+>* 此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。欲了解更多信息，请参阅 Campaign v8 客户端控制台 [发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 >
 >* 在设计富推送通知之前，您首先需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
 
