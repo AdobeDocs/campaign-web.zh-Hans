@@ -4,9 +4,9 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 50%
 
 ---
@@ -286,3 +286,9 @@ ht-degree: 50%
 
 * 使用&#x200B;**[!UICONTROL 保留证明的传递代码]**，将为其相关的传递定义的传递代码与证明关联起来。
 * 默认情况下，验证的主题的前缀为“PROOF #”，其中#是验证的编号。 您可以在&#x200B;**[!UICONTROL 标签前缀]**&#x200B;字段中更改此前缀。
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="变量"
+>abstract="变量"
