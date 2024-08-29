@@ -4,9 +4,9 @@ title: 开始使用 Adobe Campaign Web
 description: 开始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 * 将电子邮件、移动设备、线上和线下渠道&#x200B;**整合**&#x200B;到客户历程中
 * **自动**&#x200B;投放有意义、及时的消息和优惠
 
-## 了解Campaign Web用户界面 {#web}
+## 探索 Campaign Web 用户界面 {#web}
 
 最初只能通过功能丰富的[客户端控制台](#ac-client)使用 Campaign，而它现在提供一个新的 Web 用户界面 (UI)，该界面提高了可用性、可访问性并采用新设计以显著改善您的用户体验。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决方案（包括 Adobe Experience Platform）的一致性。
 
@@ -53,7 +53,7 @@ Adobe Campaign v8 是新一代营销活动工具，专为各种营销渠道（�
 
 ## 关于 Campaign 客户端控制台 {#ac-client}
 
-客户端控制台专为管理员和高级用户执行其任务而设计。 Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
+客户端控制台专为管理员和高级用户执行其任务而设计。Campaign 客户端控制台是系统上安装的基于浏览器的应用程序。它通过 Web 服务 API 连接到您的 Campaign 应用程序服务器。
 
 Campaign 数据存储在应用程序服务器中。可从客户端控制台和 Campaign Web 用户界面获得此数据。例如，如果您使用客户端控制台创建投放模板，则它在 Campaign Web 用户界面中也可用。如果您在 Campaign Web 用户界面中创建电子邮件投放，则也可从客户端控制台访问此投放。
 
