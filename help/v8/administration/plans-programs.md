@@ -16,7 +16,7 @@ ht-degree: 10%
 >id="acw_homepage_welcome_rn3"
 >title="计划和项目"
 >abstract="您现在可以在 Campaign Web 用户界面中配置营销计划和方案的文件夹层次结构。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 使用 Adobe Campaign 可以为营销计划和项目配置文件夹层次结构。
 

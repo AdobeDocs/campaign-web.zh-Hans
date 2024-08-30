@@ -17,7 +17,7 @@ ht-degree: 6%
 >id="acw_homepage_welcome_rn5"
 >title="审核记录"
 >abstract="新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
 在Adobe Campaign Web用户界面中，**[!UICONTROL 审核跟踪]**&#x200B;功能可让用户完全了解对实例中的重要实体所做的所有修改，通常是对实例的顺利操作产生显着影响的修改。

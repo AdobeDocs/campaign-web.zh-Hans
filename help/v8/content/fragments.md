@@ -16,7 +16,7 @@ ht-degree: 61%
 >id="acw_homepage_welcome_rn1"
 >title="内容片段"
 >abstract="您现在可以创建和使用内容片段。内容片段是可重复使用的组件，可以在一条或多条消息中引用。当修改片段时，使用它的每个内容都会被更新。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
