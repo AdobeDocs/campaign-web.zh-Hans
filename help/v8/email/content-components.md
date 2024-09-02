@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 67%
+source-wordcount: '1195'
+ht-degree: 65%
 
 ---
 
@@ -147,6 +147,11 @@ ht-degree: 67%
 >为了仅使外部内容符合电子邮件Designer，Adobe建议[从头开始创建消息](create-email-content.md)，并将现有电子邮件中的内容复制到组件中。
 
 ## 图像 {#image}
+
+>[!IMPORTANT]
+>
+>Assets菜单的访问权限仅限具有活动AdobeExperience Essentials许可证的用户。 如果您没有此许可证，Assets菜单将不可用。
+
 
 使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件可在电子邮件中插入计算机中的图像文件。
 
