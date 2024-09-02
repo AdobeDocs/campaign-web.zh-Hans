@@ -3,9 +3,9 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1199'
 ht-degree: 65%
 
 ---
@@ -150,8 +150,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Assets菜单的访问权限仅限具有活动AdobeExperience Essentials许可证的用户。 如果您没有此许可证，Assets菜单将不可用。
-
+>Assets菜单的访问仅限于拥有有效Adobe Experience Manager as a Cloud Service许可证的用户。 如果您没有此许可证，Assets菜单将不可用。
 
 使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件可在电子邮件中插入计算机中的图像文件。
 
