@@ -2,10 +2,10 @@
 audience: end-user
 title: 创建内容片段
 description: 了解如何创建内容片段
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 30%
+source-wordcount: '1013'
+ht-degree: 27%
 
 ---
 
@@ -141,11 +141,23 @@ ht-degree: 30%
 >
 >删除片段时，会更新使用它的投放和模板：片段会从内容中删除，但仍会引用。 要将片段内容保留在这些投放和模板中，必须在删除片段之前中断继承，[如本节](use-visual-fragments.md#break-inheritance)所述。
 
+### 存档内容片段 {#archive}
+
+您可以从不再与您的品牌相关的片段中清除片段列表。 为此，请单击所需片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 存档]**。 片段将从片段列表中删除，这会阻止用户在未来电子邮件或模板中使用它。
+
+要访问已存档的片段，请使用筛选窗格显示它们。 要取消存档片段，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 取消存档]**。
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>如果存档内容中使用的片段，则该内容不会受到影响。
+
 ### 复制内容片段 {#duplicate-fragments}
 
 您可以轻松复制内容片段以创建新内容片段。 要复制现有片段，请执行以下步骤：
 
-1. 浏览到片段列表，然后单击要删除的片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
+1. 浏览到片段列表，然后单击要复制的片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
 1. 单击&#x200B;**复制**&#x200B;并确认。
 1. 输入新片段的标签并保存更改。
 

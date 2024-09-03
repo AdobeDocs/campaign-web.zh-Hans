@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
    + [新增功能](rn/whats-new.md)
    + [早期发行说明](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
+   + 之前版本 {#previous-release-notes}
+      + [2024 版](rn/release-notes-24.md)
    + [文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门{#start}
    + [快速入门](get-started/get-started.md)
@@ -34,7 +36,8 @@ ht-degree: 100%
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
-   + [使用投放](msg/gs-deliveries.md)
+   + [访问投放](msg/gs-deliveries.md)
+   + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)

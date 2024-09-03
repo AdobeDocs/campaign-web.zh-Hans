@@ -3,10 +3,10 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 30%
+source-wordcount: '1619'
+ht-degree: 27%
 
 ---
 
@@ -98,6 +98,8 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    默认情况下，登陆页面存储在&#x200B;**[!UICONTROL Web应用程序]**&#x200B;文件夹中。 您可以通过在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
+   您还可以设置验证码以保护登陆页面。 [在此了解详情](#captcha)。
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. 在&#x200B;**[!UICONTROL 数据预加载]**&#x200B;部分中，以下两个选项可用：
@@ -155,6 +157,28 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 1. 单击&#x200B;**[!UICONTROL 审阅并发布]**。
 
 定义所有设置并[设计](lp-content.md)所有页面后，您可以[测试](#test-landing-page)和[发布](#publish-landing-page)您的登陆页面，如下所述。
+
+## 使用验证码保护登陆页面 {#captcha}
+
+>[!AVAILABILITY]
+>
+>此功能位于有限可用性(LA)中。 它仅限于使用与上次修复版本&#x200B;**一起升级的** Adobe Campaign v8.7.2的客户，不能在任何其他环境中部署。
+
+设置验证码可帮助您保护登陆页面免受垃圾邮件和滥用。
+
+若要使用它，请转到登陆页面的&#x200B;**[!UICONTROL 属性]**。
+在**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+要检查验证码设置，请单击&#x200B;**[!UICONTROL 审阅和发布]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 模拟内容]**。 在提交表单时，您会看到验证码构件在验证期间正常工作，如下所示。
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe Campaign v8中的captcha小组件是在浮动模式下运行的ALTCHA。 它会在验证期间显示，并在过程完成后消失。
+
 
 ## 测试登陆页面 {#test-landing-page}
 

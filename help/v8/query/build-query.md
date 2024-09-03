@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2210'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,22 @@ ht-degree: 9%
   示例：*订阅了“体育”新闻稿&#x200B;**和**且居住在&#x200B;**OR**旧金山的收件人*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## 查询中的值分布 {#distribution-values-query}
+
+值的分布有助于了解表中某个字段中的值的百分比。 了解查询中值的分布有助于优化分段。
+
+要访问该功能，请在查询中单击属性选择按钮，如下所示。 然后，单击选定属性旁边的&#x200B;**[!UICONTROL 信息]**&#x200B;图标。 您可以在该处访问&#x200B;**[!UICONTROL 值分布]**&#x200B;按钮。
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> 对于具有许多值的字段，只显示前20个值。 通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;将警告您。
+
+>[!NOTE]
+>
+> 可在每个属性选取器中访问&#x200B;**[!UICONTROL 值分布]**&#x200B;功能。
 
 ## 添加筛选组件 {#filtering}
 

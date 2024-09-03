@@ -3,10 +3,10 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 36%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 36%
 >id="acw_deliveries_email_audience_select"
 >title="选择现有受众"
 >abstract="浏览列表以选择现有受众。使用“显示过滤器”图标筛选列表，或选择特定文件夹。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="细化目标"
->abstract="这些规则只能在桌面控制台中更改。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="附加目标"
->abstract="这些规则只能在桌面控制台中更改。"
 
 本节介绍在定义投放的目标群体时，如何选择现有受众。 定义投放的主要目标时，您还可以：
 * [使用查询建模器生成一次性受众](one-time-audience.md)。
@@ -58,4 +48,4 @@ ht-degree: 36%
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   您还可以设置对照组来衡量营销活动的影响。对照组不会接收邮件。这使您能够将收到邮件的群体的行为与未收到邮件的联系人的行为进行比较。[了解详情](control-group.md)
+1. 您还可以设置对照组来衡量营销活动的影响。对照组不会接收邮件。这使您能够将收到邮件的群体的行为与未收到邮件的联系人的行为进行比较。[了解详情](control-group.md)

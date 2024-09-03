@@ -4,7 +4,7 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
+source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 42%
@@ -43,3 +43,5 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 * **登陆页面captcha** — 您现在可以添加captcha以保护登陆页面免受机器人程序造成的垃圾邮件和滥用。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。
 
 * **Rest API** — 作为Campaign Standard迁移的用户，您现在可以使用Rest API处理事务性消息。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans){target="_blank"}。
+
+

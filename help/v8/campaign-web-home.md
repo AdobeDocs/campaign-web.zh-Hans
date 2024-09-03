@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
@@ -51,23 +51,23 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 7 月版本已上线！]
+>[!TAB 8月版本已上线！]
 
 了解 Adobe Campaign Web 用户界面 24 年 7 月版本的新功能和改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 投放警报]
+>[!TAB 值分布]
 
-投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。
+在访问个性化字段列表时，您现在可以检查每个字段值的分配方式。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB 计划与项目]
+>登陆页面中的[!TAB 验证码]
 
-使用 Adobe Campaign 可以为营销计划和项目配置文件夹层次结构。
+您现在可以添加验证码以保护登陆页面免受机器人程序导致的垃圾邮件和滥用。 此功能处于有限可用状态。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
