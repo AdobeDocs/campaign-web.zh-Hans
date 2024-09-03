@@ -4,10 +4,10 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 50%
+source-wordcount: '2787'
+ht-degree: 45%
 
 ---
 
@@ -288,7 +288,68 @@ ht-degree: 50%
 * 默认情况下，验证的主题的前缀为“PROOF #”，其中#是验证的编号。 您可以在&#x200B;**[!UICONTROL 标签前缀]**&#x200B;字段中更改此前缀。
 
 
+
+
+## 电子邮件投放的SMTP设置 {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP参数"
+>abstract="您可以向电子邮件投放添加其他SMTP参数。"
+
+您可以向电子邮件投放添加其他SMTP参数。 您可以在投放设置的SMTP选项卡中执行此操作。
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### 字符编码 {#character-encoding}
+
+**[!UICONTROL 字符编码]**&#x200B;部分允许您设置特定编码。 默认编码为UTF-8，它适用于大多数字符。 但是，如果某些电子邮件提供商不支持UTF-8标准编码，则他们可能无法正确显示特殊字符。
+
+例如，如果要发送包含日语字符的电子邮件，最好使用专门支持这些字符的编码，以便日语受众能够正确查看所有内容。
+
+为此，请激活&#x200B;**[!UICONTROL 强制用于邮件的编码]**&#x200B;切换开关，并从支持特殊字符的列表中选择正确的编码。
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### 退回电子邮件 {#bounce-emails}
+
+通过投放设置的&#x200B;**[!UICONTROL SMTP]**&#x200B;选项卡，还可以配置退回邮件的管理。
+
+* **[!UICONTROL 错误到地址]**：如果激活&#x200B;**[!UICONTROL 使用为平台]**&#x200B;定义的默认错误地址切换，则会在平台的默认错误框中接收退回的电子邮件。 如果不激活它，则可以为投放定义特定的错误地址。
+
+* **[!UICONTROL 退回地址]**：您还可以定义将未处理的退回电子邮件转发到的其他地址。 利用此地址，可调查应用程序无法自动限定电子邮件时退回的原因。
+
+这两个字段可以按照[此部分](../personalization/gs-personalization.md)中的说明进行个性化。
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### 其他 SMTP 标题 {#smtp-headers}
+
+您可以在投放设置的SMTP选项卡中向电子邮件投放添加&#x200B;**[!UICONTROL SMTP标头]**。
+
+在此窗口中输入的脚本必须按照以下格式每行引用一个标头： name：value。
+
+如有必要，将自动对值进行编码。
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>高级用户可随时添加脚本以插入其他 SMTP 标头。此脚本的语法必须符合此内容类型的要求：没有未使用的空格，没有空行等。
+
+## 添加变量 {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="变量"
 >abstract="变量"
+
+您可以将变量添加到投放中，这有助于跟踪。 要执行此操作，
+导航到**[!UICONTROL 变量]**&#x200B;选项卡，如下所示。
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+单击&#x200B;**[!UICONTROL 添加变量]**&#x200B;按钮输入变量的详细信息，然后单击&#x200B;**[!UICONTROL 确认]**&#x200B;保存更改。
+
+![](assets/variables-add.png){zoomable="yes"}
