@@ -4,9 +4,9 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78356629dc64702d81645b684350304f65b88597
+source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2826'
 ht-degree: 45%
 
 ---
@@ -343,9 +343,11 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="变量"
->abstract="变量"
+>abstract="您可以将变量添加到投放中，这对跟踪和个性化非常有用。 可从投放内容和工作流访问这些变量。"
 
-您可以将变量添加到投放中，这有助于跟踪。 为此，请导航到&#x200B;**[!UICONTROL 变量]**&#x200B;选项卡，如下所示。
+您可以将变量添加到投放中，这对跟踪和个性化非常有用。 可从投放内容和工作流访问这些变量。
+
+要添加变量，请浏览到&#x200B;**[!UICONTROL 变量]**&#x200B;选项卡，如下所示。
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
