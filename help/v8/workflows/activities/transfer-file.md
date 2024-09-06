@@ -3,10 +3,10 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 18%
+source-wordcount: '1246'
+ht-degree: 17%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 18%
 >id="acw_orchestration_transferfile_source"
 >title="转移文件源"
 >abstract="输入所需的文件名。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="转移后删除源文件"
->abstract="转移成功后删除源文件。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="显示会话日志"
->abstract="与转移操作相关的信息显示在工作流日志中。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="列出所有文件"
->abstract="此选项会对服务器上 **vars.filenames** 事件变量中的所有文件进行索引。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="文件历史记录"
->abstract="文件历史记录"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="处理缺失的文件"
->abstract="此选项允许您在活动结束后激活&#x200B;**无文件**&#x200B;出站过渡。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="流程错误"
->abstract="此选项允许您在活动结束后激活&#x200B;**错误**&#x200B;出站过渡。"
 
 **传输文件**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 它允许您接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 
@@ -122,6 +92,11 @@ ht-degree: 18%
 
 ## 历史化设置 {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="文件历史记录"
+>abstract="每次执行&#x200B;**[!UICONTROL 传输文件]**&#x200B;活动时，都会将上载或下载的文件存储在专用文件夹中。 为工作流的每个传输文件活动创建一个文件夹。 默认情况下，文件在处理之前保存在Adobe Campaign安装文件夹(`/vars`)的默认存储目录中。 若要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项，然后输入该目录的路径。"
+
 每次执行&#x200B;**[!UICONTROL 传输文件]**&#x200B;活动时，都会将上载或下载的文件存储在专用文件夹中。 为工作流的每个传输文件活动创建一个文件夹。 默认情况下，文件在处理之前保存在Adobe Campaign安装文件夹(`/vars`)的默认存储目录中。 若要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项，然后输入该目录的路径。
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ ht-degree: 18%
 >如果不再执行活动，则不会检查或清除其文件夹。考虑到这一点，在传输大文件时要多加小心。
 
 ## 高级和错误管理选项 {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="转移后删除源文件"
+>abstract="转移成功后删除源文件。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="显示会话日志"
+>abstract="与转移操作相关的信息显示在工作流日志中。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="列出所有文件"
+>abstract="此选项会对服务器上 **vars.filenames** 事件变量中的所有文件进行索引。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="处理缺失的文件"
+>abstract="此选项允许您在活动结束后激活&#x200B;**无文件**&#x200B;出站过渡。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="流程错误"
+>abstract="此选项允许您在活动结束后激活&#x200B;**错误**&#x200B;出站过渡。"
 
 1. 在&#x200B;**[!UICONTROL 高级选项]**&#x200B;中，根据您配置的活动类型，提供了其他选项。 展开以下部分以获取更多信息。
 

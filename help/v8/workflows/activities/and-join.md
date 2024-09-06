@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“AND-连接工作流”活动
 description: 了解如何使用“AND-连接工作流”活动
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="配置 AND-join 活动"
+>title="合并选项"
 >abstract="选择您要参加的活动。在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
 
 请按照以下步骤操作，配置 **AND-连接**&#x200B;活动：

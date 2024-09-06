@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 43%
+source-wordcount: '1705'
+ht-degree: 41%
 
 ---
 
@@ -16,26 +16,6 @@ ht-degree: 43%
 >id="acw_orchestration_enrichment"
 >title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用于分段活动之后的工作流中。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_data"
->title="扩充活动"
->abstract="将扩充数据添加到工作流后，即可在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求将客户分成不同的组，或创建更有可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="链接定义"
->abstract="在表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="扩充协调"
->abstract="扩充协调"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="扩充数据"
->abstract="选择用于扩充您的工作流的数据。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。它通常用于分段活动之后的工作流中。
 
@@ -63,6 +43,16 @@ ht-degree: 43%
 
 ## 添加扩充数据 {#enrichment-add}
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="扩充数据"
+>abstract="选择用于扩充您的工作流的数据。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="扩充活动"
+>abstract="将扩充数据添加到工作流后，即可在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求将客户分成不同的组，或创建更有可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
+
 1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
 
    您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接。 以下示例详细介绍了每种类型：
@@ -76,6 +66,11 @@ ht-degree: 43%
    ![](../assets/workflow-enrichment1.png)
 
 ## 在表之间创建链接 {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="链接定义"
+>abstract="在表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。"
 
 **[!UICONTROL 链接定义]**&#x200B;部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其配置文件中更新此信息。
 
@@ -106,6 +101,11 @@ ht-degree: 43%
 [示例](#link-example)部分提供了使用链接的工作流示例。
 
 ## 数据协调 {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="协调"
+>abstract="**扩充**&#x200B;活动可用于协调来自Campaign数据库架构的数据与来自其他架构的数据，或协调来自临时架构的数据，例如使用加载文件活动上载的数据。 此类链接定义针对唯一记录的协调。 Adobe Campaign通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。"
 
 **扩充**&#x200B;活动可用于协调来自Campaign数据库架构的数据与来自其他架构的数据，或协调来自临时架构的数据，例如使用加载文件活动上载的数据。 此类链接定义针对唯一记录的协调。 Adobe Campaign通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。
 

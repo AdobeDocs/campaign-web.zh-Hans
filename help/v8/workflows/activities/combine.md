@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“合并工作流”活动
 description: 了解如何使用“合并工作流”活动
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 85%
+source-wordcount: '1046'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择如何合并受众：并集、交叉或排除。"
+>abstract="选择如何组合受众。 使用&#x200B;**Union**&#x200B;可将多个活动的结果重组为单个目标。 **交集**&#x200B;允许您仅保留活动中不同集客群体的共有元素。 **差集**&#x200B;可根据特定条件从一个群体中排除某些元素。 "
 
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
@@ -57,14 +57,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 ## 并集 {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="交叉协调选项"
->abstract="选择协调类型以定义如何处理重复项。"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="“协调”选项"
->abstract="选择&#x200B;**协调**&#x200B;类型以定义如何处理重复项。"
+>abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。 默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同集客过渡的元素具有相同的键时，该活动只保留一个元素。 使用&#x200B;**选择的列**&#x200B;选项定义应用数据协调的列列表。"
 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**合并**。 为此，您需要选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项：
 
@@ -72,6 +67,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **选择的列**：选择此选项可定义应用数据协调的列的列表。 必须先选择主集（包含源数据的集），然后选择用于连接的列。
 
 ## 交集 {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="交叉协调选项"
+>abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。 默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同集客过渡的元素具有相同的键时，该活动只保留一个元素。 使用&#x200B;**选择的列**&#x200B;选项定义应用数据协调的列列表。"
 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**交叉点**。 为此，您需要执行以下额外步骤：
 

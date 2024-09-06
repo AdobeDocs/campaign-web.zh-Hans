@@ -3,14 +3,24 @@ audience: end-user
 title: 使用测试工作流活动
 description: 了解如何使用测试工作流活动
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # 测试 {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="测试活动"
+>abstract="**测试**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。 它允许您根据指定条件启用过渡。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="条件"
+>abstract="**测试**&#x200B;活动可以有多个输出转换。 在执行工作流期间，将按顺序测试每个条件，直到满足其中一个条件为止。 如果不满足任何条件，则工作流将沿&#x200B;**[!UICONTROL 默认条件]**&#x200B;的路径继续。 如果未激活默认条件，则工作流将在此时停止。"
 
 **测试**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。 它允许您根据指定条件启用过渡。
 
