@@ -5,8 +5,8 @@ description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract=" **[!UICONTROL 启用输出群体重叠]** 选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。Adobe Campaign 建议使用专属标准。"
+>abstract=" **[!UICONTROL 启用输出群体重叠]**&#x200B;选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。Adobe Campaign 建议使用专属标准。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 

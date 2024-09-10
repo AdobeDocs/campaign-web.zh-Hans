@@ -5,8 +5,8 @@ description: 了解如何使用投放警报。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="投放提醒标准仪表板"
->abstract="Campaign Web 用户界面提供了预定义的警报标准（吞吐量低的投放、准备失败的投放……），你可以将其添加到你的仪表板。您还可以创建自己的标准来满足您的需要。"
+>abstract="Campaign Web 用户界面提供了预定义的提醒条件（吞吐量低的投放、准备失败的投放......），你可以将其添加到你的仪表板。您还可以创建自己的条件来满足您的需要。"
 
-Campaign Web用户界面提供了预定义的警报标准（吞吐量低的投放，准备失败的投放……），您可以将这些标准添加到仪表板。 您还可以创建自己的标准来满足您的需要。
+Campaign Web用户界面提供了预定义的警报标准（吞吐量低的投放，准备失败的投放……），您可以将这些标准添加到仪表板。 您还可以创建自己的条件来满足您的需要。
 
 可从左侧导航窗格的&#x200B;**传递警报**&#x200B;菜单（**条件**&#x200B;选项卡下）访问警报条件。
 
@@ -39,7 +39,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >
 >默认值将应用于上述标准的所有参数。 可以在投放警报仪表板的&#x200B;**标准参数**&#x200B;部分中自定义这些值，正在使用它们。 [了解如何使用仪表板](../msg/delivery-alerting-dashboards.md)
 
-## 创建警报标准 {#criteria}
+## 创建提醒条件 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
@@ -63,7 +63,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="创建警报标准"
+>title="创建提醒条件"
 >abstract="要创建您自己的传递过滤器，请从 Campaign v8 控制台中的“**管理**”>“**配置**”>“**预定义过滤器**”节点创建一个新的预定义过滤器。"
 
 要创建新标准，请执行以下步骤：
