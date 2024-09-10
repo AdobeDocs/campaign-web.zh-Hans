@@ -5,8 +5,8 @@ description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1062'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="“拆分”活动过滤器"
+>title="“拆分”活动筛选条件"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
 >title="拆分生成补充"
->abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**生成补充**&#x200B;选项。"
+>abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
@@ -95,7 +95,7 @@ ht-degree: 0%
       >
       >在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。为此，请打开&#x200B;**[!UICONTROL 启用排序]**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。
 
-1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**[!UICONTROL 生成补充]**&#x200B;选项。
+1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。
 
    ![](../assets/workflow-split-complement.png)
 

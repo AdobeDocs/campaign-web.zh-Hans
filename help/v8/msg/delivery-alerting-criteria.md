@@ -54,12 +54,12 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="提醒类型"
->abstract="指定标准的 **警报类型**，即在警报的“摘要”部分中投放标准旁边显示的标签和颜色。"
+>abstract="指定条件的&#x200B;**提醒类型**，即在提醒的“摘要”部分中投放条件旁边显示的标签和颜色。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="条件频率"
->abstract="控制符合标准的每次投放的每日警报频率。"
+>abstract="控制符合条件的每次投放的每日提醒频率。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
@@ -85,7 +85,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 
 1. 在要添加到警报的&#x200B;**指示符**&#x200B;部分中，选择要作为列显示在电子邮件警报的“详细信息”部分中的指示符。
 
-1. 指定标准的 **警报类型**，即在警报的“摘要”部分中投放标准旁边显示的标签和颜色。
+1. 指定条件的&#x200B;**提醒类型**，即在提醒的“摘要”部分中投放条件旁边显示的标签和颜色。
 
 1. 通过&#x200B;**标准频率**&#x200B;部分，您可以控制每个符合条件的投放每天的警报频率：
 

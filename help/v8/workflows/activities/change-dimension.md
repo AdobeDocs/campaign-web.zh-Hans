@@ -5,8 +5,8 @@ description: 了解如何使用更改维度工作流活动
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="生成补集"
->abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**生成补集**&#x200B;选项"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

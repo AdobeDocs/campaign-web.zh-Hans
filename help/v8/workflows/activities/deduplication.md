@@ -5,8 +5,8 @@ description: 了解如何使用重复数据删除工作流活动
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。通过字段的顺序，可指定要先处理的字段。"
+>abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -25,7 +25,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="生成补集"
->abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**生成补集**&#x200B;选项"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
@@ -42,7 +42,7 @@ ht-degree: 53%
 
 1. 向工作流添加&#x200B;**重复数据删除**&#x200B;活动。
 
-1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。通过字段的顺序，可指定要先处理的字段。
+1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
 1. 在&#x200B;**重复数据删除设置**&#x200B;部分中，选择要保留的唯一&#x200B;**重复项数**。 此字段的默认值为 1。使用 0 值，可保留所有重复项。
 
