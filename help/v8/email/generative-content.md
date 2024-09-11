@@ -1,58 +1,46 @@
 ---
 audience: end-user
 title: 创新型内容
-description: Campaign中的AI助手入门
-badge: label="Beta 版"
+description: Adobe Campaign Web中的AI助手内容加速入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-hide: true
-hidefromtoc: true
-source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
+source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 3%
+source-wordcount: '1593'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助手生成电子邮件 {#generative-content}
+# 使用Adobe Campaign Web中的AI助手生成电子邮件 — 内容加速器 {#generative-content}
 
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [开始使用 AI 助手](generative-gs.md)
-* 使用 AI 助手生成电子邮件
-* [使用 AI 助手生成短信](generative-sms.md)
-* [使用 AI 助手生成推送通知](generative-push.md)
-
->[!ENDSHADEBOX]
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
+></br>
+>
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建并个性化电子邮件后，使用由创作AI提供支持的Campaign中的AI助手将您的内容提升到新的水平。
 
-AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚至是通过特别定制的图片来引起受众的共鸣，从而帮助您优化投放的影响。 这可以优化您的电子邮件促销活动，以提高参与度。
+创建并个性化电子邮件后，使用Adobe Campaign Web中的AI助手在由generative AI提供支持的Campaign中实现内容加速，将您的内容提升到新的水平。
 
-通过电子邮件营销活动，您可以使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何在Campaign中使用AI助手。
+Adobe Campaign Web中用于Content Acceleration的AI助手可以生成整个电子邮件、目标文本内容，甚至可以生成专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。 这可以优化您的电子邮件促销活动，以提高参与度。
+
+通过电子邮件营销活动，您可以使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手在Campaign中实现内容加速。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整电子邮件]
 
-在以下示例中，我们将利用AI助手来优化现有电子邮件，并为特殊事件自定义现有电子邮件。
+在以下示例中，我们将利用用于Content Acceleration的Adobe Campaign Web中的AI助手来优化现有电子邮件，为特殊事件自定义它。
 
 1. 创建和配置电子邮件投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
    有关如何配置电子邮件投放的详细信息，请参阅[此页面](../email/create-email-content.md)。
 
-1. 根据需要个性化您的电子邮件，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据您的投放、投放名称和所选受众来个性化新内容。
-
-   您的提示必须始终与当前内容绑定。
+1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -62,18 +50,26 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 您可以切换&#x200B;**[!UICONTROL 主题行]**&#x200B;或&#x200B;**[!UICONTROL 预编译标头]**&#x200B;以将其包含在变量生成中。
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上载的上下文。
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
+
+   * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
    ![](assets/full-email-3.png){zoomable="yes"}
 
-1. 使用不同的选项定制提示：
+1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
-   * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 语言]**：选择您希望生成内容的语言。
-   * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
-   * **[!UICONTROL 长度]**：使用范围滑块选择所需内容长度。
+   * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
+   * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
+   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
+   * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
+   * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
    ![](assets/full-email-4.png){zoomable="yes"}
+
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -81,11 +77,11 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
-   * **[!UICONTROL 用作引用内容]**：所选变量将用作用于生成其他结果的引用内容。
-
    * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+
+   您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![](assets/full-email-5.png){zoomable="yes"}
 
@@ -97,7 +93,7 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
 
->[!TAB 文本生成]
+>[!TAB 纯文本生成]
 
 在以下示例中，我们将利用AI助手来增强即将举行的活动的电子邮件邀请的内容。
 
@@ -109,9 +105,7 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据您的投放、投放名称和所选受众来个性化新内容。
-
-   您的提示必须始终与当前内容绑定。
+1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -119,18 +113,17 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
    ![](assets/text-genai-2.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何包含可为AI助手提供其他上下文的内容的品牌资产。
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
+
+   * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
+   * **文本长度**：使用滑块选择所需文本长度。
 
    ![](assets/text-genai-3.png){zoomable="yes"}
 
-1. 使用不同的选项定制提示：
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
 
-   * **[!UICONTROL 通信策略]**：为生成的文本选择所需的通信方法。
-   * **[!UICONTROL 语言]**：选择变体内容的语言。
-   * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
-   * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
-
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -148,13 +141,13 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
+
+   ![](assets/text-genai-4.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
 1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试配置文件检查个性化设置。 [了解详情](../preview-test/preview-content.md)
-
-   ![](assets/text-genai-7.png){zoomable="yes"}
 
 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
 
@@ -174,25 +167,28 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
+1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据所选内容对新内容进行个性化设置。
+
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供各种提示想法以改进投放。
 
    ![](assets/image-genai-2.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何包含可为AI助手提供其他上下文的内容的品牌资产。
-
-   您的提示必须始终与特定上下文关联。
-
-1. 使用不同的选项定制提示：
+1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 宽高比]**：这决定了资源的宽度和高度。 您可以选择常用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
-   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
+   * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
+   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
    ![](assets/image-genai-3.png){zoomable="yes"}
+
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
 1. 如果对提示配置满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -202,15 +198,13 @@ AI Assistant可以生成整个电子邮件、有针对性的文本内容，甚�
 
    ![](assets/image-genai-5.png){zoomable="yes"}
 
-1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 显示类似项]**。
-
-1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
+1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 生成类似项]**。
 
    ![](assets/image-genai-6.png){zoomable="yes"}
 
-1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试用户档案检查个性化设置。  [了解详情](../preview-test/preview-content.md)
+1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
-   ![](assets/image-genai-7.png){zoomable="yes"}
+1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试用户档案检查个性化设置。  [了解详情](../preview-test/preview-content.md)
 
 1. 定义内容、受众和计划后，便可以准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
 

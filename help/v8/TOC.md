@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [创建直邮投放](direct-mail/create-direct-mail.md)
       + [设计提取文件](direct-mail/content-direct-mail.md)
       + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
-   + AI 助手 {#ai-assistant}
-      + [开始使用 AI 助手](email/generative-gs.md)
-      + [使用 AI 助手生成电子邮件](email/generative-content.md)
-      + [使用 AI 助手生成短信](email/generative-sms.md)
-      + [使用 AI 助手生成推送通知](email/generative-push.md)
    + [将优惠添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
+   + 内容加速器{#ai-assistant}的AI助手
+      + [开始使用 AI 助手](email/generative-gs.md)
+      + [使用 AI 助手生成电子邮件](email/generative-content.md)
+      + [使用 AI 助手生成短信](email/generative-sms.md)
+      + [使用 AI 助手生成推送通知](email/generative-push.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
