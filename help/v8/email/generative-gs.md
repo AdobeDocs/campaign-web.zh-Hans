@@ -1,16 +1,23 @@
 ---
 audience: end-user
-title: Adobe Campaign Web - Content Accelerator中的AI助手入门
-description: Adobe Campaign Web - Content Accelerator中的AI助手入门
+title: AI Assistant — 内容加速器入门
+description: AI Assistant — 内容加速器入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '795'
 ht-degree: 20%
 
 ---
 
 # AI Assistant — 内容加速器入门  {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="AI Assistant内容加速器"
+>abstract="AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创建和执行营销活动，既简单又无麻烦，同时还能节省时间、提高效率和产生更好的结果。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -44,7 +51,7 @@ AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创�
 >
 >* 您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
-## 访问AI Assistant内容加速器 {#generative-access}
+## 访问AI Assistant — 内容加速器 {#generative-access}
 
 +++  了解如何分配与内容生成相关的权限
 

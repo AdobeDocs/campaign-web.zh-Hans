@@ -3,7 +3,7 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 19%
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="投放警报"
 >abstract="投放警报现已在 Campaign 中推出。此功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"

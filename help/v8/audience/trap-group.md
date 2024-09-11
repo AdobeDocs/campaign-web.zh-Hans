@@ -2,7 +2,8 @@
 audience: end-user
 title: 使用陷印组
 description: 了解如何在Campaign Web用户界面中使用陷阱组进行投放
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 13%
@@ -12,7 +13,7 @@ ht-degree: 13%
 # 使用陷印组 {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="陷印组"
 >abstract="您可以使用陷印组将特定地址包含在您的投递中，通过定位不符合定义的目标条件的配置文件来监控和验证分发过程。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"

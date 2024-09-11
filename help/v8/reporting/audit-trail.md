@@ -4,21 +4,14 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
 
 # 审核记录{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="审核记录"
->abstract="新的审核记录功能按时间顺序详细记录了对 Adobe Campaign 实例进行的所有操作和事件。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
-
 
 在Adobe Campaign Web用户界面中，**[!UICONTROL 审核跟踪]**&#x200B;功能可让用户完全了解对实例中的重要实体所做的所有修改，通常是对实例的顺利操作产生显着影响的修改。
 
