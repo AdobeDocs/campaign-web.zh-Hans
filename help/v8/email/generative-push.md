@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 在Journey Optimizer中使用AI助手推送内容加速通知
-description: 开始使用Journey Optimizer中用于Content Acceleration的AI助手
+title: 使用用于内容加速的AI助手推送通知
+description: 内容加速的AI助手入门
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
 
-# 在Journey Optimizer中使用AI助手生成推送通知 — 内容加速器  {#generative-push}
+# 使用AI Assistant生成推送通知 — 内容加速器 {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
-Journey Optimizer中用于Content Acceleration的AI助手可以通过建议更可能引起受众共鸣的其他内容来帮助您优化投放的影响。
+用于内容加速的AI助手可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
 在以下示例中，我们将利用AI助手制作引人入胜的消息来打造更引人入胜的客户体验。
 
