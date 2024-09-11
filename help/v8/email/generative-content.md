@@ -3,7 +3,7 @@ audience: end-user
 title: 创新型内容
 description: Adobe Campaign Web中的AI助手内容加速入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Campaign Web中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
 
 创建并个性化电子邮件后，使用Adobe Campaign Web中的AI助手在由generative AI提供支持的Campaign中实现内容加速，将您的内容提升到新的水平。
