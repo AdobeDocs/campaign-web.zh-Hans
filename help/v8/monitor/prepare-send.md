@@ -3,7 +3,7 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用Campaign Web用户界面准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 38%
@@ -118,34 +118,34 @@ ht-degree: 38%
 >id="acw_deliveries_email_metrics_delivered"
 >title="已投放"
 >abstract="成功送达的邮件数。该指示器每 5 分钟更新一次。显示的百分比是基于已发送邮件的总数计算所得。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hans" text="了解关键绩效指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="打开"
 >abstract="打开的邮件数。该指示器每 5 分钟更新一次。显示的百分比是不同打开次数与已送达邮件数的比率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hans" text="了解关键绩效指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="点击次数"
 >abstract="在电子邮件中至少单击一次的收件人的数目。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hans" text="了解关键绩效指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="已发送数指标"
 >abstract="投放分析期间处理的消息的总数。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hans" text="了解关键绩效指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误数指标"
 >abstract="投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hans" text="了解关键绩效指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 
 发送完成后，您可以检查显示的KPI：
