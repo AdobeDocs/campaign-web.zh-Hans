@@ -3,7 +3,7 @@ audience: end-user
 title: Adobe Campaign Web - Content Accelerator中的AI助手入门
 description: Adobe Campaign Web - Content Accelerator中的AI助手入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 10448255094e1be1f2c52b67d8f1f45d862f06df
+source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 20%
@@ -33,15 +33,16 @@ ht-degree: 20%
 >
 >使用[我们的交互式演示](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)亲身体验亲身体验，该演示旨在让您亲身体验其功能并充分了解其功能。
 
+
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Adobe Campaign Web中的AI Assistant for Content Acceleration由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+
+AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创建和执行营销活动，既简单又无麻烦，同时还能节省时间、提高效率和产生更好的结果。
+
 >[!IMPORTANT]
 >
 >* 在开始使用此功能之前，请阅读相关的[护栏和限制](#generative-guardrails)。
 >
 >* 您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
-
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Adobe Campaign Web中的AI Assistant for Content Acceleration由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
-
-AI Assistant可以跨渠道（如电子邮件、短信和推送）直观地创建和执行营销活动，既简单又无麻烦，同时还能节省时间、提高效率和产生更好的结果。
 
 ## 访问AI Assistant内容加速器 {#generative-access}
 

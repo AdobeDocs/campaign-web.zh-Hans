@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -294,8 +294,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
->title="SMTP参数"
->abstract="您可以向电子邮件投放添加其他SMTP参数。"
+>title="SMTP 参数"
+>abstract="您可以为电子邮件投放添加额外的 SMTP 参数。"
 
 您可以向电子邮件投放添加其他SMTP参数。 您可以在投放设置的SMTP选项卡中执行此操作。
 
@@ -343,9 +343,9 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="变量"
->abstract="您可以将变量添加到投放中，这对跟踪和个性化非常有用。 可通过投放内容和工作流访问这些变量。"
+>abstract="您可以为投放添加变量，这对跟踪和个性化非常有用。这些变量可以从您的投放内容和工作流中访问。"
 
-您可以将变量添加到投放中，这对跟踪和个性化非常有用。 可通过投放内容和工作流访问这些变量。 存储的变量可用于设置对投放内所有消息保持不变的值。 它们还可以在投放模板中进行配置。
+您可以为投放添加变量，这对跟踪和个性化非常有用。可通过投放内容和工作流访问这些变量。 存储的变量可用于设置对投放内所有消息保持不变的值。 它们还可以在投放模板中进行配置。
 
 要添加变量，请浏览到&#x200B;**[!UICONTROL 变量]**&#x200B;选项卡，如下所示。
 

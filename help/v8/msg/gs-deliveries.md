@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
->title="附加目标"
->abstract="这些规则只能在客户端控制台中更改。"
+>title="其他目标"
+>abstract="这些规则只能在客户端控制台中进行更改。"
 
 可从左侧导航栏的&#x200B;**[!UICONTROL 投放]**&#x200B;菜单访问投放。 从客户端控制台或Web用户界面创建的所有投放都将显示在此列表中。 在此屏幕中，您可以监控所有现有投放、复制或删除它们或创建新投放。
 

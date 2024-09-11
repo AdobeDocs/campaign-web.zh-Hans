@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="细化目标"
->abstract="这些规则只能在客户端控制台中更改。"
+>abstract="这些规则只能在客户端控制台中进行更改。"
 
 Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据各种标准筛选数据库的过程。 它确保与在客户端控制台中创建的查询完全兼容，从而促进到Web用户界面的无缝过渡。
 
