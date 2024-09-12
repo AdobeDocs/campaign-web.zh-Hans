@@ -3,9 +3,9 @@ audience: end-user
 title: AI Assistant内容加速器入门
 description: AI Assistant内容加速器入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 19%
 
 >[!INFO]
 >
->使用[我们的交互式演示](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)亲身体验亲身体验，该演示旨在让您亲身体验其功能并充分了解其功能。
+>使用[我们的实时功能预览](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
 
 
 随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Adobe Campaign Web中的AI Assistant for Content Acceleration由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
