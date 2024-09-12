@@ -3,7 +3,7 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 82%
@@ -51,7 +51,7 @@ ht-degree: 82%
 
 >[!BEGINTABS]
 
->[!TAB AI助手 — 内容加速器]
+>[!TAB AI助理内容加速器]
 
 ✨亲自体验我们的[AI Assistant Content Accelerator](../v8/email/generative-gs.md)实时功能预览，旨在让您亲身体验其功能并充分了解其功能。
 

@@ -3,14 +3,14 @@ audience: end-user
 title: 带有AI助手用于内容加速的短信
 description: 内容加速的AI助手入门
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# 使用AI助手生成短信 — 内容加速器 {#generative-sms}
+# 使用AI助手内容加速器生成短信 {#generative-sms}
 
 >[!IMPORTANT]
 >
