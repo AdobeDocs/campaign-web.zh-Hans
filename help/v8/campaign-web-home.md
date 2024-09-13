@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -57,15 +57,15 @@ ht-degree: 82%
 
 [![image](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 值分布]
+>[!TAB 值的分布]
 
-在访问个性化字段列表时，您现在可以检查每个字段值的分配方式。
+值的分布：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->登陆页面中的[!TAB 验证码]
+>[!TAB 登陆页面中的验证码]
 
-您现在可以添加验证码以保护登陆页面免受机器人程序导致的垃圾邮件和滥用。 此功能处于有限可用状态。
+您现在可以添加验证码来保护您的登陆页面免受机器人造成的垃圾邮件和滥用。此功能可用性有限。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 

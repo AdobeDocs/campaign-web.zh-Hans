@@ -36,7 +36,7 @@ ht-degree: 96%
    + [由 AI 支持的上下文帮助](get-started/using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
-   + [访问投放](msg/gs-deliveries.md)
+   + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
