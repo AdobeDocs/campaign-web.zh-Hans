@@ -1,16 +1,17 @@
 ---
-title: Campaign v8 Web用户界面以前的发行说明
-description: 2024 Campaign Web用户界面版本
-source-git-commit: 0cb44b82fa19f3960f3855947a9a6178a2bd71b7
-workflow-type: tm+mt
+title: Campaign v8 Web 用户界面早期发行说明
+description: 2024 Campaign Web 用户界面发布
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: ht
 source-wordcount: '1869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2024版发行说明 {#2024-release}
+# 2024 年发行说明 {#2024-release}
 
-此页面列出了&#x200B;**2024版本**&#x200B;的所有可用更改和改进。 在[此页面](release-notes.md)中提供了最新的发行说明。
+本页列出了 **2024 年版本**&#x200B;的所有变更和改进。最新发布说明可在 [此页面](release-notes.md)中查看。
 
 ## 7 月份发行说明 {#24-7-release}
 

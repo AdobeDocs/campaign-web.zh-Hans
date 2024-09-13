@@ -4,9 +4,9 @@ title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -80,30 +80,30 @@ ht-degree: 54%
 
 ## 文件夹中的值分布 {#distribution-values-folder}
 
-值的分布有助于了解表中某列中值的百分比。
+值的分布有助于了解表中某一列中某个值的百分比。
 
-要了解某个文件夹中的值分布，请按照以下步骤操作：
+要了解文件夹中值的分布，请按以下步骤操作：
 
-例如，我们希望了解&#x200B;**Channel**&#x200B;列的值在投放中的分布情况。
+例如，在交付中，我们想知道 **渠道** 列的值的分布。
 
-若要获取此信息，请转到&#x200B;**[!UICONTROL 投放]**&#x200B;文件夹，然后单击&#x200B;**[!UICONTROL 配置列]**&#x200B;图标。
+要获取此信息，请转到 **[!UICONTROL 交付]** 文件夹并单击 **[!UICONTROL 配置列]** 图标。
 
-在&#x200B;**[!UICONTROL 配置列]**&#x200B;窗口中，单击要了解的列的&#x200B;**[!UICONTROL 信息]**&#x200B;图标。 然后，单击&#x200B;**[!UICONTROL 值分布]**&#x200B;按钮。
+在 **[!UICONTROL 配置列]** 窗口中，点击您想要了解的列的 **[!UICONTROL 信息]** 图标。然后，点击 **[!UICONTROL 值分布]** 按钮。
 
 ![](assets/values_deliveries.png){zoomable="yes"}
 
-您将获得&#x200B;**[!UICONTROL Channel]**&#x200B;列中值的百分比。
+您将获得 **[!UICONTROL 渠道]** 列中的值的百分比。
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> 对于具有许多值的列，只显示前20个值。 通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;将警告您。
+> 对于具有许多值的列，仅显示前二十个值。通知 **[!UICONTROL 部分加载]** 将警告您。
 
-您还可以具有链接值的分布情况。
+您还可以获得链接值的分布。
 
-在属性列表中，单击所需链接旁边的&#x200B;**+**&#x200B;按钮，如下所示。 这会添加指向&#x200B;**[!UICONTROL 输出列]**&#x200B;的链接。 您现在可以有&#x200B;**[!UICONTROL 信息]**&#x200B;图标，允许您查看其值的分布情况。 如果不希望链接保留在&#x200B;**[!UICONTROL 输出列]**&#x200B;中，请确保单击&#x200B;**[!UICONTROL 取消]**&#x200B;按钮。
+在属性列表中，点击所需链接旁边的 **+** 按钮，如下所示。这会将链接添加到 **[!UICONTROL 输出列]**。您现在可以获得 **[!UICONTROL 信息]** 图标，以便查看其值的分布。如果您不想保留 **[!UICONTROL 输出列]**&#x200B;中的链接，请务必点击 **[!UICONTROL 取消]** 按钮。
 
 ![](assets/values_link.png){zoomable="yes"}
 
-查询建模器中也可以具有值的分布情况。 [在此了解详情](../query/build-query.md#distribution-of-values-in-a-query)。
+查询建模器中也可以有值的分布。[在此处了解详情](../query/build-query.md#distribution-of-values-in-a-query)。
