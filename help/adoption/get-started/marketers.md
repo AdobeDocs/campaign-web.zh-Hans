@@ -3,7 +3,7 @@ title: Adobe Campaign v8营销人员入门
 description: 探索Campaign v8的主要功能。 它适用于从Campaign Standard迁移到Campaign v8的营销人员。
 role: User
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本指南概述了Campaign v8的主要功能，适合从Campaign Standard过渡到Campaign v8的营销人员。
 
-您可以通过客户端控制台或Web用户界面访问Adobe Campaign v8。 通过Web界面，您可以创建、管理和执行关键营销操作。 新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。在本节中了解详情。 [了解详情](../../v8/get-started/user-interface.md)。
+您可以通过客户端控制台或Web用户界面访问Adobe Campaign v8。 通过Web界面，您可以创建、管理和执行关键营销操作。 新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。[了解详情](../../v8/get-started/user-interface.md)。
 
 通过迁移，您的Campaign Standard中的所有数据都会在Campaign v8中导入，从而确保平稳过渡，同时对您正在进行的操作造成的中断降至最低。
 
