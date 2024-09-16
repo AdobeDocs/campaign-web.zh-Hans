@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 96%
    + [权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
-   + [由 AI 支持的上下文帮助](get-started/using-ai.md)
+   + [由 AI 支持的上下文帮助](get-started/-using-ai.md)
 + 消息和投放{#msg}
    + [消息入门](msg/gs-messages.md)
    + [访问传递](msg/gs-deliveries.md)
