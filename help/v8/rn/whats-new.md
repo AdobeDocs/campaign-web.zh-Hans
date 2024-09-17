@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -114,9 +114,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 **包含优惠的短信**
 
-通过新的 Campaign Web 用户界面，除了电子邮件，还可&#x200B;**将优惠与短信集成**。在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成优惠的威力，改善您的市场营销效果。
-
-可在[此部分](../msg/offers.md)中了解详情。
+通过新的 Campaign Web 用户界面，除了电子邮件，还可&#x200B;**将优惠与短信集成**。在移动设备上触达受众以投放促销和及时的通知。通过在我们的高级Web平台上利用短信提供的集成优惠的强大功能，提升您的营销工作。 可在[此部分](../msg/offers.md)中了解详情。
 
 ## 过渡到 Campaign Web 用户界面
 
