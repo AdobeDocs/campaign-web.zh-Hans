@@ -2,7 +2,8 @@
 audience: end-user
 title: 设计iOS富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计iOS富推送通知投放
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 4%
@@ -210,4 +211,3 @@ ht-degree: 4%
 | **[!UICONTROL 线程ID]** | 设置用于将相关通知分组在一起的标识符。 |
 | **[!UICONTROL 类别]** | 设置将显示操作按钮的类别ID的名称。 这些通知为用户提供了一种更快的方式，无需在应用程序中打开或导航即可响应通知执行不同任务。 |
 | **[!UICONTROL 目标内容ID]** | 设置标识符，用于在打开通知时定向要前转的应用程序窗口。 |
-

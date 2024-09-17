@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 访问投放
+title: 访问传递
 description: 了解如何在Campaign Web中访问和管理投放
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -13,14 +13,14 @@ ht-degree: 71%
 
 ---
 
-# 访问投放 {#work-with-deliveries}
+# 访问传递 {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
 >abstract="投放是在电子邮件、短信或推送通知等特定渠道上发给受众的通信。在此屏幕上，您可以编辑、复制和删除现有投放。您还可以查看已完成的投放的报表。单击&#x200B;**创建投放**&#x200B;按钮以添加新投放。"
 
-## 访问投放 {#access}
+## 访问传递 {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"

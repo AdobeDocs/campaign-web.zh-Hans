@@ -98,7 +98,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    默认情况下，登陆页面存储在&#x200B;**[!UICONTROL Web应用程序]**&#x200B;文件夹中。 您可以通过在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中浏览到所需的位置来更改它。 [了解如何使用文件夹](../get-started/permissions.md#folders)
 
-   您还可以设置验证码以保护登陆页面。 [在此了解详情](#captcha)。
+   您还可以设置验证码以保护登陆页面。 [在此处了解详情](#captcha)。
 
    ![](assets/lp-properties.png){zoomable="yes"}
 

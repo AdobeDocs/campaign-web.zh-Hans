@@ -4,8 +4,8 @@ description: Campaign Standard迁移到Campaign v8的用户，了解如何开始
 title: Adobe Campaign采用指南
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 53%
 
 ---
 

@@ -5,8 +5,8 @@ description: 了解如何使用投放警报。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 25%
 
 ---
 
