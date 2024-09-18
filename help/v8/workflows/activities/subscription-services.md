@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 16%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他信息"
->abstract="指定每个记录的数据和订阅来源。 您可以将此部分留空，这样在运行工作流时就不会设置日期或来源。 如果集客数据包含一列，指示用户档案订阅服务的日期，则可以在&#x200B;**[!UICONTROL Date]**&#x200B;字段中选择该列。 在&#x200B;**[!UICONTROL 原始路径]**&#x200B;字段中，定义订阅的来源。 您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为origin]**&#x200B;选项将其设置为您选择的常量值。"
+>abstract="指定每条记录的订阅数据和来源。您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。如果入站数据包含一列指示轮廓对服务的订阅日期，则可以在&#x200B;**[!UICONTROL 日期]**&#x200B;字段中选择它。在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常数设置为来源]**&#x200B;选项将其设定为所选的常数值。"
 
 **订阅服务**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 它允许您为过渡中指定的群体创建或删除对信息服务的订阅。
 
@@ -70,7 +70,7 @@ ht-degree: 16%
 
    * 如果集客数据包含一列，指示用户档案订阅服务的日期，则可以在&#x200B;**[!UICONTROL Date]**&#x200B;字段中选择该列。
 
-   * 在&#x200B;**[!UICONTROL 原始路径]**&#x200B;字段中，定义订阅的来源。 您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为origin]**&#x200B;选项将其设置为您选择的常量值。
+   * 在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常数设置为来源]**&#x200B;选项将其设定为所选的常数值。
 
    ![](../assets/workflow-subscription-service-additional.png)
 

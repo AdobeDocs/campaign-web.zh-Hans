@@ -17,7 +17,7 @@ ht-degree: 19%
 >id="acw_homepage_welcome_rn5"
 >title="投放警报"
 >abstract="投放警报现已在 Campaign 中推出。此功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。收件人可以监控Adobe Campaign处理的持续投放，并在出现问题时采取适当措施。
 

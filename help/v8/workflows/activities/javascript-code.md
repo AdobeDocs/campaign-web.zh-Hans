@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 过渡"
->abstract="打开&#x200B;**[!UICONTROL 进程错误]**&#x200B;选项，以便在额外的输出转换中保留脚本执行期间发生的错误。"
+>abstract="切换&#x200B;**[!UICONTROL 流程错误]**&#x200B;选项，将执行脚本期间发生的错误保留在额外的输出过渡中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="流程错误"
->abstract="进程错误"
+>abstract="流程错误"
 
 **JavaScript代码**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用此活动可在工作流的上下文中执行JavaScript脚本。 这允许您从数据库收集信息或执行其他复杂操作。
 
@@ -62,7 +62,7 @@ ht-degree: 26%
 
    ![](../assets/javascript-config.png)
 
-1. 打开&#x200B;**[!UICONTROL 进程错误]**&#x200B;选项，以便在额外的输出转换中保留脚本执行期间发生的错误。
+1. 切换&#x200B;**[!UICONTROL 流程错误]**&#x200B;选项，将执行脚本期间发生的错误保留在额外的输出过渡中。
 
 ## 高级JavaScript代码活动 {#advanced}
 

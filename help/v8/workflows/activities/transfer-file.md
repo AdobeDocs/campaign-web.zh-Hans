@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="文件历史记录"
->abstract="每次执行&#x200B;**[!UICONTROL 传输文件]**&#x200B;活动时，都会将上载或下载的文件存储在专用文件夹中。 为工作流的每个传输文件活动创建一个文件夹。 默认情况下，文件在处理之前保存在Adobe Campaign安装文件夹(`/vars`)的默认存储目录中。 若要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项，然后输入该目录的路径。"
+>abstract="每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个转移文件活动创建一个文件夹。默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。"
 
-每次执行&#x200B;**[!UICONTROL 传输文件]**&#x200B;活动时，都会将上载或下载的文件存储在专用文件夹中。 为工作流的每个传输文件活动创建一个文件夹。 默认情况下，文件在处理之前保存在Adobe Campaign安装文件夹(`/vars`)的默认存储目录中。 若要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项，然后输入该目录的路径。
+每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个转移文件活动创建一个文件夹。默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。
 
 ![](../assets/workflow-transfer-file-historization.png)
 

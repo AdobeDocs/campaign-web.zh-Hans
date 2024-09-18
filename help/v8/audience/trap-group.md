@@ -16,7 +16,7 @@ ht-degree: 13%
 >id="acw_homepage_welcome_rn3"
 >title="陷印组"
 >abstract="您可以使用陷印组将特定地址包含在您的投递中，通过定位不符合定义的目标条件的配置文件来监控和验证分发过程。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 **[!UICONTROL 陷阱组]**（也称为&#x200B;**[!UICONTROL 种子列表]**）用于在投放中包含特定地址，以通过定向不符合定义的目标条件的用户档案来监视和验证分发过程。 这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
 
