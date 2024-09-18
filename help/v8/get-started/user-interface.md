@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+source-git-commit: dd265e446e2e65dc6393fb4b13b0477a701722c5
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 100%
+source-wordcount: '1727'
+ht-degree: 99%
 
 ---
 
@@ -392,4 +392,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_eventhistory_preview"
 >title="事务性消息事件历史记录预览"
 >abstract="事务性消息事件历史记录预览"
+
+<!--about-->
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="关于"
+>abstract="关于"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="关于实例"
+>abstract="关于实例"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="关于Web"
+>abstract="关于Web"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="关于包"
+>abstract="关于包"
+
 
