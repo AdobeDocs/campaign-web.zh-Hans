@@ -3,9 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1765'
 ht-degree: 99%
 
 ---
@@ -397,8 +397,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="关于"
->abstract="关于"
+>title="描述"
+>abstract="描述"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
@@ -407,12 +407,67 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="关于Web"
->abstract="关于Web"
+>title="关于网站"
+>abstract="关于网站"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="关于包"
->abstract="关于包"
+>title="关于软件包"
+>abstract="关于软件包"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="模式"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="架构类型"
+>abstract="架构类型"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="架构属性"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="选择现有架构"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="选择外部数据库"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="添加表"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="工作流日志和任务"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="更新数据库"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="更新脚本"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="开始数据库更新"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="添加表"
+>abstract="模式"
