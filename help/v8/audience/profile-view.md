@@ -14,7 +14,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="订阅列表"
->abstract="此选项卡列出了配置文件订阅的所有服务。"
+>abstract="此选项卡列出了轮廓订阅的所有服务。"
 
 要访问配置文件的详细信息，请浏览到&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**，然后单击要访问的配置文件。
 

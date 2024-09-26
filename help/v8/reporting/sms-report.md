@@ -88,7 +88,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="短信排除项"
->abstract="**排除项**&#x200B;图表显示阻止（从目标配置文件中排除的）用户配置文件接收消息的各种原因。"
+>abstract="**排除项**&#x200B;图表显示阻止（从目标轮廓中排除的）用户轮廓接收消息的各种原因。"
 
 **[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}。
 

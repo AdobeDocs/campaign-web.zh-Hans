@@ -3,7 +3,7 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
@@ -67,8 +67,8 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="收件人只读配置文件"
->abstract="您无权编辑此配置文件。如果需要，请联系您的管理员以向您授予访问权限。"
+>title="收件人只读轮廓"
+>abstract="您无权编辑此轮廓。如果需要，请联系您的管理员以向您授予访问权限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

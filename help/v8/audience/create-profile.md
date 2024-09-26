@@ -14,27 +14,27 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本详细信息"
->abstract="本节深入介绍了配置文件的基本详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍了轮廓的基本详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="联系人信息"
->abstract="本节深入介绍了配置文件的联系信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍了轮廓的联系信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="地址"
->abstract="本节深入介绍配置文件的邮政地址和地址质量。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的邮政地址和地址质量。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="帐户详细信息"
->abstract="本节深入介绍配置文件的帐户详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的帐户详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="不再是联系人"
->abstract="本节深入介绍配置文件的联系偏好设置。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的联系偏好设置。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"

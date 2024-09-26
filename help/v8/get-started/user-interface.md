@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
 source-wordcount: '1762'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -224,22 +224,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
->title="模拟测试配置文件"
->abstract="模拟测试配置文件"
+>title="模拟测试轮廓"
+>abstract="模拟测试轮廓"
 
 <!--ML: not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="模拟测试配置文件选择"
->abstract="模拟测试配置文件选择"
+>title="模拟测试轮廓选择"
+>abstract="模拟测试轮廓选择"
 
 <!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="模拟测试配置文件发送"
->abstract="模拟测试配置文件发送"
+>title="模拟测试轮廓发送"
+>abstract="模拟测试轮廓发送"
 
 <!-- ML: beta wiki page - not visible in UI-->
 

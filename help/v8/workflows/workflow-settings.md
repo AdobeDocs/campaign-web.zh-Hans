@@ -59,7 +59,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="分段设置"
->abstract="在此部分中，您可以选择工作流中目标配置文件的目标选择维度，并选择保留两次执行之间的工作流结果。此选项只应用于测试目的，且不得在生产工作流中启用。"
+>abstract="在此部分中，您可以选择工作流中目标轮廓的目标选择维度，并选择保留两次执行之间的工作流结果。此选项只应用于测试目的，且不得在生产工作流中启用。"
 
 * **[!UICONTROL 定向维度]**：选择要用于定向用户档案的定向维度：收件人、合同受益人、操作员、订阅者等。 [了解有关定向维度的更多信息](../audience/targeting-dimensions.md)
 

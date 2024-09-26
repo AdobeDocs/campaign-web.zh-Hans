@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="加载文件活动"
->abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。配置文件和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新配置文件或任何其他表。 "
+>abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。轮廓和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新轮廓或任何其他表。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"

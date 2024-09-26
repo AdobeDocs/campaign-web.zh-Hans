@@ -21,7 +21,7 @@ ht-degree: 13%
 
 要检测消息内容或个性化设置中可能出现的错误，请先向测试用户档案发送校样，然后再将其发送给目标受众。 每次进行更改时都应发送校样，以验证最新内容。 发送校样是验证营销活动和识别潜在问题的重要步骤。 校样收件人可以检查各种元素，如链接、选择退出链接、图像或镜像页面，并检测渲染、内容、个性化设置和投放配置中的任何错误。
 
-## 使用测试配置文件模拟内容 {#simulate-content-test-deliveries}
+## 使用测试轮廓模拟内容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -48,7 +48,7 @@ ht-degree: 13%
 
    下面提供了每种模式的详细配置。
 
-## 使用测试配置文件 {#test-profiles}
+## 使用测试轮廓 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,8 +57,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
->title="上传配置文件"
->abstract="如果要用与您用于主要目标的集合不同的集合测试投放，可再上传一个文件，其中包含其他配置文件。"
+>title="上传轮廓"
+>abstract="如果要用与您用于主要目标的集合不同的集合测试投放，可再上传一个文件，其中包含其他轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
@@ -67,7 +67,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="将测试配置文件包含在主要受众中"
+>title="将测试轮廓包含在主要受众中"
 >abstract="启用此选项还可将最终消息发送给验证收件人。"
 
 测试用户档案是数据库中的其他收件人。 它们是从&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**&#x200B;菜单创建的。 [了解详情](../audience/test-profiles.md#create-test-profiles)

@@ -41,7 +41,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="提取方式"
->abstract="对照组是从投放中排除的一组配置文件。要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
+>abstract="对照组是从投放中排除的一组轮廓。要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。"
 
 
 ### 构建对照组 {#build-extract-target}
@@ -105,7 +105,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="对照组是从投放中排除的一组配置文件。可通过选择现有受众或定义查询而从投放受众排除特定群体。"
+>abstract="对照组是从投放中排除的一组轮廓。可通过选择现有受众或定义查询而从投放受众排除特定群体。"
 
 定义控制组的另一种方法是选择现有受众中的特定群体，或通过定义查询。
 
