@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: 营销活动采用指南
 title: Adobe Campaign采用指南
-user-guide-description: Campaign Standard迁移到Campaign v8的用户，了解如何开始使用。
+user-guide-description: Campaign Standard 用户正在过渡到 Campaign v8，了解如何开始使用。
 description: Campaign Standard用户，了解如何开始使用Campaign v8。
 breadcrumb-title: 营销活动采用指南
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 16%
+ht-degree: 34%
 
 ---
 
