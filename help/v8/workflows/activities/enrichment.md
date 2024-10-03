@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1709'
 ht-degree: 49%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 49%
 >id="acw_orchestration_enrichment"
 >title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用于分段活动之后的工作流中。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="产品建议提议"
+>abstract="产品建议提议"
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。它通常用于分段活动之后的工作流中。
 
