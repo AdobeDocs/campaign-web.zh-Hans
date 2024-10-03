@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 92%
 
 >[!BEGINTABS]
 
->[!TAB AI助理内容加速器]
+>[!TAB AI 助手内容加速器]
 
-✨亲自体验我们的[AI Assistant Content Accelerator](../v8/email/generative-gs.md)实时功能预览，旨在让您亲身体验其功能并充分了解其功能。
+✨ 通过我们的 [AI 助手内容加速器](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
 
-[![image](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![图像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 值的分布]
 

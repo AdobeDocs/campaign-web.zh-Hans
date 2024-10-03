@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 82%
 
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
-## 9月更新 {#9-2024}
+## 9 月更新 {#9-2024}
 
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant内容加速器</strong><br/></th>
+<th><strong>AI 助手内容加速器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>完成定制和定制消息后，利用Adobe Campaign Web中的AI助手进行Content Acceleration，可将消息提升到新的级别。 这款功能强大的工具允许您通过生成一系列引人入胜的文本、主标题和美观的图像，优化内容的影响。</p>
-<p>使用<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，亲身体验亲身体验并充分了解其功能。</a></p>
+<p>在精心制作并定制您的信息后，借助 Adobe Campaign Web 中的 AI 助手进行内容加速，将其提升到一个新的水平。使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
+<p>通过<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力</a>。</p>
 <p>有关更多信息，请参阅<a href="../email/generative-gs.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>发布日期： 9月12日</p>
+<p>发行日期：9 月 12 日</p>
 </td>
 </tr>
 </tbody>
