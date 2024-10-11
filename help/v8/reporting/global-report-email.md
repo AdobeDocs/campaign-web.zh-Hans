@@ -70,7 +70,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
 >title="投放统计信息"
->abstract="**投放统计信息**&#x200B;图和表概述关键指标，包括成功投放次数、错误数和新隔离数，提供简明概述以评估投放效果。"
+>abstract="**投放统计信息**&#x200B;图和表概述关键量度，包括成功投放次数、错误数和新隔离数，提供简明概述以评估投放效果。"
 
 **[!UICONTROL 投放统计数据]**&#x200B;表提供了每个电子邮件投放成功的明细，详述指标如下。
 

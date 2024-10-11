@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 过渡"
->abstract="要添加一个或多个输出过渡，请单击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;按钮，并为每个过渡指定标签和内部名称。"
+>abstract="要添加一个或多个输出过渡，请点击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;按钮，并为每个过渡指定一个标签和内部名称。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -78,7 +78,7 @@ ht-degree: 29%
    * 单击&#x200B;**[!UICONTROL 编辑首次调用代码]**&#x200B;以定义要在首次调用期间执行的脚本。
    * 单击&#x200B;**[!UICONTROL 编辑下一个调用代码]**&#x200B;以定义要在工作流下次调用期间执行的脚本。 （可选）
 
-1. 要添加一个或多个输出过渡，请单击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;按钮，并为每个过渡指定标签和内部名称。
+1. 要添加一个或多个输出过渡，请点击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;按钮，并为每个过渡指定一个标签和内部名称。
 
    在此示例中，我们配置了两个由脚本根据特定条件在代码片段中激活的过渡。
 

@@ -52,8 +52,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="验证目标"
->abstract="如果要在发送到主要目标之前测试投放，可再上传一个文件作为“验证目标”。"
+>title="校对目标"
+>abstract="如果要在发送到主要目标之前测试投放，可再上传一个文件作为“校对目标”。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="将测试轮廓包含在主要受众中"
->abstract="启用此选项还可将最终消息发送给验证收件人。"
+>abstract="启用此选项还可将最终消息发送给校样收件人。"
 
 测试用户档案是数据库中的其他收件人。 它们是从&#x200B;**[!UICONTROL 客户管理]** > **[!UICONTROL 配置文件]**&#x200B;菜单创建的。 [了解详情](../audience/test-profiles.md#create-test-profiles)
 
