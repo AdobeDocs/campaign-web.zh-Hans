@@ -3,7 +3,7 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用Campaign Web用户界面准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 38%
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 在投放准备期间，将计算目标群体并为目标中包含的每个用户档案生成消息内容。 完成准备工作后，即可立即或在安排的日期和时间发送消息。
 
-在[Campaign v8 （客户端控制台）文档](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中介绍了投放准备期间使用的验证规则。
+在[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中介绍了投放准备期间使用的验证规则。
 
 下面列出了准备发送的主要步骤。
 
