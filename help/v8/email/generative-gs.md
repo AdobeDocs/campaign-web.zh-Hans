@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用 AI 助手内容加速器
 description: AI Assistant内容加速器入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '835'
 ht-degree: 29%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 29%
 >使用[我们的实时功能预览](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
 
 
-随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Adobe Campaign Web中的AI Assistant for Content Acceleration由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+随着营销行业的竞争日益激烈，各大品牌都在寻求高效的方法，以便快速高效地生成有影响力的内容。 Adobe Campaign Web中的AI助手内容加速器由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，它彻底改变了营销人员跨电子邮件、短信、推送等渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
 
 AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营销活动变得直观、简单、轻松，同时还可节省时间、提高效率并带来更优质的结果。
 
@@ -49,7 +49,7 @@ AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营�
 >
 >* 在开始使用此功能之前，请阅读相关的[护栏和限制](#generative-guardrails)。
 >
->* 您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能使用Adobe Campaign Web中的AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>* 您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
 
 ## 访问AI Assistant内容加速器 {#generative-access}
 
@@ -70,7 +70,7 @@ AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营�
 
 ## 护栏和限制 {#generative-guardrails}
 
-下面列出了在Adobe Campaign Web中使用AI助手进行内容加速以生成电子邮件的一般准则：
+下面列出了在Adobe Campaign Web中使用AI助理内容加速器生成电子邮件的一般准则：
 
 * 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
 * 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
@@ -80,9 +80,9 @@ AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营�
 * 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 作为Adobe承诺在媒体创建中使用创新型人工智能工具时提高透明度的一部分，Adobe将在下载或导出内容或项目包含Firefly生成的资源时应用Content credentials。 [了解详情](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-以下限制适用于Adobe Campaign Web中用于内容加速的AI助手：
+以下限制适用于Adobe Campaign Web中的AI助手内容加速器：
 
-* Adobe Campaign Web中用于内容加速的AI助手当前仅支持英语版本。 非英文输入内容可能会产生不一致或错误的结果。 非英文答复引起的问题目前不予处理或改进。
+* Adobe Campaign Web中的AI助手内容加速器当前仅支持英语版本。 非英文输入内容可能会产生不一致或错误的结果。 非英文答复引起的问题目前不予处理或改进。
 * 仅适用于电子邮件、推送和短信渠道。
 * GenAI内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
 * 您可以上传多个品牌资产，但只能为特定世代利用一个。

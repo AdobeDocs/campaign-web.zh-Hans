@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
    + 预览和测试投放{#preview-test}
-      + [关于预览和验证](preview-test/preview-test.md)
+      + [关于预览和校样](preview-test/preview-test.md)
       + [预览消息内容](preview-test/preview-content.md)
       + [发送校样](preview-test/test-deliveries.md)
       + [测试电子邮件渲染](preview-test/email-rendering.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
          + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
-   + 适用于内容加速器的 AI 助手{#ai-assistant}
+   + AI Assistant内容加速器{#ai-assistant}
       + [使用 AI 助手内容加速器](email/generative-gs.md)
       + [使用 AI 生成电子邮件](email/generative-content.md)
       + [使用 AI 生成短信](email/generative-sms.md)
