@@ -33,7 +33,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 条款"
->abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
+>abstract="此功能的访问取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 >[!INFO]
