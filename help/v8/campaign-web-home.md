@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
+
+>[!TAB 2024年10月版]
+
+10月版本现已上线，其中包括事务型消息传递、外部帐户以及更多改进功能。
+
+[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB AI 助手内容加速器]
 
 ✨ 通过我们的 [AI 助手内容加速器](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
@@ -62,12 +70,6 @@ ht-degree: 100%
 值的分布：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB 登陆页面中的验证码]
-
-您现在可以添加验证码来保护您的登陆页面免受机器人造成的垃圾邮件和滥用。此功能可用性有限。
-
-[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
