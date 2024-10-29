@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ ht-degree: 100%
 ### 报告 {#left-nav-reporting}
 
 * **报告** - **报告**&#x200B;条目可提供 Campaign 环境中每个渠道的流量和参与量度的整体摘要。这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。可在[此部分](../reporting/global-reports.md)中了解详情。
+
+### 管理 {#left-nav-admin}
+
+
+* **审核记录** - **审核记录**&#x200B;条目使用户能够完全了解对实例中的重要实体所做的所有修改，通常是对实例的顺利操作产生显着影响的修改。 [了解详情](../reporting/audit-trail.md)
+
+* **外部帐户** — 使用Web用户界面创建新的外部帐户，以满足您的特定需求并确保无缝的数据传输。 [了解详情](../administration/external-account.md)
+
+* **架构** — 自定义字段是通过Adobe Campaign控制台添加到现成架构的其他属性。 [了解详情](../administration/custom-fields.md)
+
+* **投放警报** — 投放警报是一个警报管理系统，它使用户组能够自动接收电子邮件通知，其中包含有关其投放执行的信息。 [了解详情](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="事务性消息"
->abstract="事务性消息"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="事务性消息属性"
->abstract="事务性消息属性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="事务性消息电子邮件属性"
->abstract="事务性消息电子邮件属性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="事务性消息 SMS 属性"
->abstract="事务性消息 SMS 属性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="事务性消息推送属性"
->abstract="事务性消息推送属性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="交易型消息传递移动设备应用程序"
->abstract="交易型消息传递移动设备应用程序"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="事务性消息事件"
->abstract="事务性消息事件"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="事务性消息上下文"
->abstract="事务性消息上下文"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="事务性消息内容"
->abstract="事务性消息内容"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="事务性消息个性化"
->abstract="事务性消息个性化"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="事务性消息排除日志"
->abstract="事务性消息排除日志"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="事务性消息上下文"
->abstract="事务性消息上下文"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="事务性消息事件历史记录"
->abstract="事务性消息事件历史记录"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="事务性消息事件历史记录预览"
->abstract="事务性消息事件历史记录预览"
 
 <!--about-->
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 49%
+source-wordcount: '2061'
+ht-degree: 39%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 >title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用于分段活动之后的工作流中。"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="产品建议提议"
->abstract="产品建议提议"
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。它通常用于分段活动之后的工作流中。
 
@@ -140,6 +136,56 @@ ht-degree: 49%
 
 ![](../assets/enrichment-reconciliation.png)
 
+## 添加优惠 {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="产品建议提议"
+>abstract="利用扩充活动，可为每个用户档案添加优惠。"
+
+**[!UICONTROL 扩充]**&#x200B;活动允许您为每个配置文件添加选件。
+
+为此，请按照使用选件配置&#x200B;**[!UICONTROL 扩充]**&#x200B;活动的步骤操作：
+
+1. 在&#x200B;**[!UICONTROL 扩充]**&#x200B;活动中，在&#x200B;**[!UICONTROL 优惠建议]**&#x200B;部分单击&#x200B;**[!UICONTROL 添加优惠]**&#x200B;按钮
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. 您有两个选项可供选择选件：
+
+   * **[!UICONTROL 在类别中搜索最佳选件]** ：选中此选项并指定选件引擎调用参数（选件空间、类别或主题、联系日期、要保留的选件数）。 引擎将根据这些参数计算要添加的最佳选件。 我们建议填写类别或主题字段，而不是同时填写这两个字段。
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL 预定义优惠]** ：选中此选项并指定优惠空间、特定优惠和联系日期，以直接配置要添加的优惠，而无需调用优惠引擎。
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. 选择选件后，单击&#x200B;**[!UICONTROL 确认]**&#x200B;按钮。
+
+您现在可以在投放活动中使用选件。
+
+### 使用扩充活动中的优惠
+
+在工作流中，如果要使用从投放中的扩充活动中获得的选件，请执行以下步骤：
+
+1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
+如果您只想查看扩充活动中的优惠，请将**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
+
+   ![](../assets/offers-settings.png)
+
+1. 在Email Designer中，添加包含选件的个性化设置时，单击&#x200B;**[!UICONTROL 建议]**&#x200B;图标，将显示您从&#x200B;**[!UICONTROL 扩充]**&#x200B;活动中获得的选件。 通过单击要选择的选件以将其打开。
+
+   ![](../assets/offers-propositions.png)
+
+   进入&#x200B;**[!UICONTROL 渲染函数]**&#x200B;并根据您的需要选择&#x200B;**[!UICONTROL HTML渲染]**&#x200B;或&#x200B;**[!UICONTROL 文本渲染]**。
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>如果您选择在&#x200B;**[!UICONTROL 扩充]**&#x200B;活动中的&#x200B;**[!UICONTROL 要保留的选件数]**&#x200B;选项处有多个选件，则单击&#x200B;**[!UICONTROL 建议]**&#x200B;图标时将显示所有选件。
+
 ## 示例 {#example}
 
 ### 单个扩充属性 {#single-attribute}
@@ -156,10 +202,10 @@ ht-degree: 49%
 
 在这个更复杂的用例中，我们将选择一个收藏集链接，它是表之间具有 1 对多基数的链接。让我们检索最近三笔低于 100 美元的购买。为此，您需要定义：
 
-* 扩充属性：**总金额**&#x200B;字段
+* 扩充属性：**价格**&#x200B;字段
 * 要检索的行数：3
 * 筛选条件：筛选掉大于 100 美元的项目
-* 排序：**订购日期**&#x200B;字段的降序排序。
+* 排序：**订单日期**&#x200B;字段的降序排序。
 
 #### 添加属性 {#add-attribute}
 
@@ -167,9 +213,9 @@ ht-degree: 49%
 
 1. 在&#x200B;**属性**&#x200B;字段内单击。
 1. 单击&#x200B;**显示高级属性**。
-1. 从&#x200B;**购买**&#x200B;表中选择&#x200B;**总金额**&#x200B;字段。
+1. 从&#x200B;**购买**&#x200B;表中选择&#x200B;**价格**&#x200B;字段。
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### 定义收藏集设置{#collection-settings}
 
@@ -178,21 +224,23 @@ ht-degree: 49%
 1. 在&#x200B;**选择数据收集方式**&#x200B;下拉列表中选择&#x200B;**收集数据**。
 1. 在&#x200B;**要检索的行（要创建的列）**&#x200B;字段中键入“3”。
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 例如，如果您想要获取客户的平均购买金额，请改选&#x200B;**汇总数据**，然后从&#x200B;**汇总函数**&#x200B;中选择&#x200B;**平均**。
 
-![](../assets/workflow-enrichment5.png)
+请使用属性的&#x200B;**标签**&#x200B;和&#x200B;**别名**&#x200B;字段，以使属性更易于理解，如下所示。
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### 定义筛选条件{#collection-filters}
 
 我们在此处定义扩充属性的最大值。我们将筛选掉大于100$的项目。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
-1. 单击&#x200B;**编辑筛选条件**。
-1. 添加以下两个筛选条件：**总金额**&#x200B;存在且&#x200B;**总金额**&#x200B;小于 100。第一个筛选条件筛选掉 NULL 值，因为它们将显示为最大值。
+1. 单击&#x200B;**创建筛选器**。
+1. 添加以下两个筛选器：**Price**&#x200B;存在且&#x200B;**Price**&#x200B;小于100。 第一个筛选条件筛选掉 NULL 值，因为它们将显示为最大值。
 1. 单击&#x200B;**确认**。
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### 定义排序{#collection-sorting}
 
@@ -204,7 +252,7 @@ ht-degree: 49%
 1. 单击&#x200B;**确认**。
 1. 从&#x200B;**排序**&#x200B;下拉列表中选择&#x200B;**降序**。
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### 使用链接数据进行扩充 {#link-example}
 

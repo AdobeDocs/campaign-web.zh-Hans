@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2227'
 ht-degree: 9%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 9%
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="文件夹计划"
 >abstract="文件夹计划"
 
-## 关于文件夹
+## 关于文件夹 {#about-folders}
 
 文件夹是 Adobe Campaign 中的对象，可用于组织组件和数据。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 您可以设置文件夹类型。例如：一个交付文件夹。
 文件夹的图标将根据此类型而改变。
 
-## 创建新文件夹
+## 创建新文件夹 {#create-a-folder}
 
 要在 Adobe Campaign Web UI 中创建新文件夹，请按照以下步骤操作：
 
@@ -52,8 +52,7 @@ ht-degree: 100%
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-当你创建一个新文件夹时，默认情况下，文件夹类型是文件夹父级的类型。
-在我们的示例中，我们在 **[!UICONTROL 交付]** 文件夹中创建一个文件夹。
+创建新文件夹时，默认情况下，文件夹类型是父文件夹的类型。 在我们的示例中，我们在 **[!UICONTROL 交付]** 文件夹中创建一个文件夹。
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ ht-degree: 100%
 
 您还可以 [在 Adobe Campaign 控制台中创建和管理文件夹](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/folders-and-views)。
 
-## 删除文件夹
+## 删除文件夹 {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ ht-degree: 100%
 ![](assets/values_link.png){zoomable="yes"}
 
 查询建模器中也可以有值的分布。[在此处了解详情](../query/build-query.md#distribution-of-values-in-a-query)。
+
+### 筛选值 {#filter-values}
+
+通过使用值分布窗口中的&#x200B;**[!UICONTROL 高级筛选器]**，您可以根据指定的条件筛选结果。
+
+在上面的投放列表示例中（显示每个渠道的分布），您可以对其进行筛选，以仅显示状态为&#x200B;**已完成**&#x200B;的投放。
+
+![](assets/values_filter.png){zoomable="yes"}
