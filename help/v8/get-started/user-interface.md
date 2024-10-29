@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。此新界面与 Adobe Experience Cloud 应用程序和解决方案集成。
 
 [在本文中](connect-to-campaign.md)，了解如何连接到 Adobe Campaign 并探索有关 Experience Cloud 导航的基础知识。
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ ht-degree: 94%
 **最近**&#x200B;列表提供了最近创建和修改的投放的快捷方式。此列表显示了它们的渠道、状态、所有者、创建日期和修改日期。单击&#x200B;**显示更多**&#x200B;链接，加载更多投放。
 
 此外，还可从页面的&#x200B;**学习**&#x200B;部分访问 Adobe Campaign Web 的关键帮助页面。
+
+### 关于链接 {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="“关于”页面"
+>abstract="“关于”页面提供有关您的Adobe Campaign实例的详细信息"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="关于实例"
+>abstract="“实例”部分提供有关控制台客户端的关键信息，包括版本和关联的内部版本号"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="关于Web"
+>abstract="Web部分显示Campaign Web用户界面的版本，以及上次更新日期（如果可用）。"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="关于已安装的包"
+>abstract="已安装的软件包部分列出了实例中存在的所有模块、功能和集成。"
+
+在页面底部，**[!UICONTROL About]**&#x200B;链接提供了有关您的Adobe Campaign实例的详细信息。 这些信息处于只读模式。
+
+![](assets/about-link.png){zoomable="yes"}
+
+**实例**&#x200B;部分提供有关控制台客户端的关键信息，包括&#x200B;**版本**&#x200B;和关联的&#x200B;**内部版本**&#x200B;编号。
+
+* **版本**&#x200B;是指您所使用的正式发行版本，
+* **内部版本**&#x200B;引用了该版本的特定迭代。
+
+版本号和内部版本号对故障排除至关重要，因为它们有助于准确确定环境中存在的功能和修复。
+
+**Web**&#x200B;部分显示您的Campaign Web用户界面的版本，以及上次更新日期（如果可用）。 这有助于跟踪对Campaign Web用户界面所做的更改或改进。
+
+**已安装的包**&#x200B;部分列出了实例中存在的所有模块、功能和集成。 这些软件包扩展了Adobe Campaign的功能，允许它执行特殊任务，如与其他Adobe解决方案集成或启用特定工作流。 鉴于软件包的数量很大，您可以在此部分中进行研究，以快速检查实例上是否安装了特定模块。
+
+![](assets/about.png){zoomable="yes"}
 
 ## 左侧导航菜单 {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="编辑自定义属性"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="描述"
->abstract="描述"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="关于实例"
->abstract="关于实例"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="关于网站"
->abstract="关于网站"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="关于软件包"
->abstract="关于软件包"
 
 <!--Schema-->
 
