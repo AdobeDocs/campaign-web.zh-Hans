@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -68,15 +68,17 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。此界面主要
 
 在 Campaign Web 用户界面中，无法访问 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=zh-Hans#import-jobs){target="_blank"}中所述的一次性导入/导出作业。<!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## 事务性消息传递 {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-目前，新的 Campaign Web 用户界面中尚不提供消息中心产品包附带的事务性消息传递功能。
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-浏览 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=zh-Hans){target="_blank"}并了解关于实时消息传递功能的更多信息，例如：
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* 在电子邮件、短信和推送上实时创作并执行信息
-* 消息扩充和个性化
-* 报告和监控事务性消息传递
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## 内容设计 {#content-capabilities}
 
@@ -155,7 +157,7 @@ Campaign Web 用户界面不会显示以下功能。这些仅在客户端控制�
 
 ### 外部帐户 {#external}
 
-Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为 Campaign 系统管理员，您只能从客户端控制台创建和管理外部帐户。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=zh-Hans){target="_blank"}
+Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为Campaign系统管理员，您可以创建和管理外部帐户。 [了解详情](../administration/external-account.md)
 
 ### 架构创建和扩展 {#schema}
 

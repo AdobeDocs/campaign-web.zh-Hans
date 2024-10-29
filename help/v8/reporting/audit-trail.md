@@ -4,9 +4,9 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 * **外部帐户**&#x200B;允许您检查Campaign V8中对外部帐户所做的修改，这些修改由技术工作流或营销活动工作流等技术流程使用。
 
-  有关外部帐户的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts)。
+  有关外部帐户的详细信息，请参阅此[页面](../administration/external-account.md)。
 
 * 通过&#x200B;**投放映射**，您可以监视活动以及最近对Campaign V8中的投放映射所做的修改。
 

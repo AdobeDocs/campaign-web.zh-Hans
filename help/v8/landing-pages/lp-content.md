@@ -3,7 +3,7 @@ title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -145,7 +145,9 @@ ht-degree: 16%
 >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 要在提交登陆页面后自动发送确认消息，请执行以下步骤：
+
 1. 在&#x200B;**[!UICONTROL 行动号召]**&#x200B;部分中，选中&#x200B;**[!UICONTROL 发送确认电子邮件]**&#x200B;选项。
+
 1. 在关联的下拉列表中，选择需要发送的事务型消息模板。
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
