@@ -3,10 +3,10 @@ audience: end-user
 title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -66,6 +66,20 @@ ht-degree: 86%
 
 您还可以 [在 Adobe Campaign 控制台中创建和管理文件夹](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/folders-and-views)。
 
+
+## 对文件夹重新排序 {#reorder-folders}
+
+您可以根据需要对文件夹重新排序。 为此，请单击&#x200B;**[!UICONTROL 重新排序文件夹]**，如下所示。
+
+在本例中，文件夹&#x200B;**递送**&#x200B;包含4个文件夹。
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+您可以通过&#x200B;**拖放**&#x200B;或使用&#x200B;**向上和向下箭头**&#x200B;更改文件夹的顺序。
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
+
 ## 删除文件夹 {#delete-a-folder}
 
 >[!CAUTION]
@@ -109,8 +123,8 @@ ht-degree: 86%
 
 ### 筛选值 {#filter-values}
 
-通过使用值分布窗口中的&#x200B;**[!UICONTROL 高级筛选器]**，您可以根据指定的条件筛选结果。
+通过在值分布窗口中使用&#x200B;**[!UICONTROL 高级筛选器]**，可以根据指定的条件筛选结果。
 
-在上面的投放列表示例中（显示每个渠道的分布），您可以对其进行筛选，以仅显示状态为&#x200B;**已完成**&#x200B;的投放。
+在上面的传递列表（显示每通道的分布）示例中，您可以对其进行筛选，以仅显示状态为&#x200B;**已完成**&#x200B;的传递。
 
 ![](assets/values_filter.png){zoomable="yes"}
