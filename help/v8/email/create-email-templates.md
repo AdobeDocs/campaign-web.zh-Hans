@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 18%
+source-wordcount: '1018'
+ht-degree: 17%
 
 ---
 
@@ -47,6 +47,17 @@ ht-degree: 18%
 
 从该列表中，您可以编辑、复制或删除现有内容模板。 使用上半部分的按钮可创建内容模板。
 
+### 只读模式下的内容模板 {#template-readonly}
+
+访问权限可应用于内容模板。
+
+如果您没有特定内容模板的编辑权限，则该内容模板将以&#x200B;**只读模式**&#x200B;显示。 在这种情况下，**[!UICONTROL 编辑内容]**&#x200B;按钮将替换为&#x200B;**[!UICONTROL 查看内容]**&#x200B;按钮，从而允许您在不进行任何更改的情况下查看模板。
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+如下所示，所有功能图标都已停用，将交互限制为仅查看。
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## 创建内容模板 {#create-content-templates}
 

@@ -4,10 +4,10 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 >[!AVAILABILITY]
 >
->此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
+>此功能在有限可用性(LA)中提供。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 您可以在[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中使用可视片段。 步骤详见下文。 [了解如何创建和管理内容片段](fragments.md)。
 
@@ -34,11 +34,11 @@ ht-degree: 20%
 
 1. 使用[电子邮件Designer](../email/get-started-email-designer.md)打开任何电子邮件或模板内容。
 
-1. 从左边栏中选择&#x200B;**[!UICONTROL 片段]**&#x200B;图标。
+1. 从左边栏中选择&#x200B;**[!UICONTROL 碎片]**&#x200B;图标。
 
    ![](assets/fragments-in-designer.png)
 
-1. 此时将显示在当前沙盒中创建的所有可视化片段的列表。 您可以：
+1. 此时会显示在当前沙箱中创建的所有可视片段列表。 您可以：
 
    * 通过开始键入特定片段的标签来搜索该片段。
    * 按升序或降序对片段排序。
@@ -56,9 +56,9 @@ ht-degree: 20%
 
    ![](assets/fragment-right-pane.png)
 
-   在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
+   从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
 
-   * 选择您希望片段显示的设备。
+   * 选择要在其上显示片段的设备。
    * 单击&#x200B;**编辑内容**&#x200B;按钮以打开此片段的内容。 [了解详情](../content/fragments.md#edit-fragments)
 
      您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义片段。
@@ -68,6 +68,18 @@ ht-degree: 20%
    您还可以从内容中删除或复制片段。 这些操作可以直接从片段顶部显示的上下文菜单执行。
 
 1. 添加所需数量的可视化片段，并&#x200B;**[!UICONTROL 保存]**&#x200B;您的更改。
+
+### 只读模式下的可视化片段 {#fragment-readonly}
+
+访问权限可能会应用于可视化片段。
+
+如果您没有特定可视片段的编辑权限，则内容模板将以&#x200B;**只读模式**&#x200B;显示。 在这种情况下，**[!UICONTROL 编辑内容]**&#x200B;按钮将替换为&#x200B;**[!UICONTROL 查看内容]**&#x200B;按钮，这样您无需进行任何更改即可查看片段。
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+如下图所示，所有功能图标均已停用，仅允许查看交互。
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## 中断继承 {#break-inheritance}
 
@@ -85,4 +97,4 @@ ht-degree: 20%
 
    ![](assets/fragment-break-inheritance.png)
 
-1. 该片段将成为不再链接到原始片段的独立元素。 可将其编辑为内容中的任何其他内容组件。 [了解详情](../email/content-components.md)
+1. 该片段成为不再链接到原始片段的独立元素。 可像编辑内容中的任何其他内容组件一样对其进行编辑。 [了解详情](../email/content-components.md)
