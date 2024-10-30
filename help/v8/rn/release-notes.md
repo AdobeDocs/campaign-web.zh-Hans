@@ -2,9 +2,9 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 * **版本和系统信息** — 现在，您可以在客户端控制台和Web用户界面中访问有关实例版本的详细信息。 此新部分还列出了环境中安装的所有内置软件包。 [了解详情](../get-started/user-interface.md#user-interface-about)
 
 * **列表** — 您现在可以轻松对列表的值重新排序。 [了解详情](../get-started/work-with-folders.md)
+
+* **投放** — 现在可从个性化字段访问投放变量。 [了解详情](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
