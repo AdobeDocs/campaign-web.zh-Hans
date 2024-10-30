@@ -4,9 +4,9 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2888'
 ht-degree: 46%
 
 ---
@@ -351,6 +351,8 @@ ht-degree: 46%
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-单击&#x200B;**[!UICONTROL 添加变量]**&#x200B;按钮输入变量的详细信息，然后单击&#x200B;**[!UICONTROL 确认]**&#x200B;保存更改。
+单击&#x200B;**[!UICONTROL 添加变量]**&#x200B;按钮输入变量的详细信息。 通过激活复选框&#x200B;**[!UICONTROL ，您可以直接添加其值或使用表达式。值是表达式]**&#x200B;的结果。 然后单击&#x200B;**[!UICONTROL 确认]**&#x200B;以保存更改。
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+了解有关[将变量用于个性化](../personalization/personalize.md#variables-personalization)以及[将变量用于动态内容](../personalization/conditions.md#variables-conditional)的更多信息。

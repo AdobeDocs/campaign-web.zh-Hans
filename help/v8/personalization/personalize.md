@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 1%
 
 ---
 
 
 # 个性化您的内容 {#add-personalization}
 
-您可以使用表达式编辑器对任何投放进行个性化设置，该编辑器可在带有&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段中访问，例如主题行、电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
+投放内容的Personalization是一项关键功能，它允许您为各个收件人定制消息，从而使通信更具有相关性和吸引力。
 
-## Personalization语法 {#syntax}
+在Adobe Campaign中，通过使用[个人资料数据](#data-personalization)（如个人资料的名称、位置或过去的交互）和投放的特定[变量](#variables-personalization)，您可以动态自定义通信中的文本、图像和选件等元素。
+
+投放个性化不仅改善了用户体验，还提高了参与率，从而提高了转化率和客户满意度。
+
+## 使用用户档案数据进行个性化 {#data-personalization}
+
+您可以使用表达式编辑器对包含用户档案数据的任何投放进行个性化，该编辑器可在包含&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段中访问，例如主题行、电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md/#access)
+
+### Personalization语法 {#syntax}
 
 Personalization标记遵循特定语法： `<%= table.field %>`。 例如，要从收件人表中插入收件人的姓氏，请使用`<%= recipient.lastName %>`语法。
 
@@ -26,7 +34,7 @@ Personalization标记遵循特定语法： `<%= table.field %>`。 例如，要�
 
 从外部文件上传联系人以进行独立电子邮件投放时，输入文件中的所有字段都可用于个性化。 语法如下： `<%= dataSource.field %>`。
 
-## 添加个性化标记 {#add}
+### 添加个性化标记 {#add}
 
 要将个性化标记添加到投放中，请执行以下步骤：
 
@@ -56,3 +64,20 @@ Personalization标记遵循特定语法： `<%= table.field %>`。 例如，要�
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## 使用变量进行个性化 {#variables-personalization}
+
+您还可以使用变量将投放个性化。
+了解有关[将变量添加到投放](../advanced-settings/delivery-settings.md#variables-delivery)的更多信息。
+
+例如，我们定义了变量`deliveryType`，如下所示。
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+例如，通过使用&#x200B;**[!UICONTROL 添加Personalization]**&#x200B;图标和表达式`<%= variables.deliveryType %>`，可在投放内容中使用此变量。
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+您可以通过&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮检查变量的使用情况。
+
+![](assets/variables-simulate.png){zoomable="yes"}

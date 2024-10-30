@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1011'
 ht-degree: 6%
 
 ---
@@ -116,3 +116,20 @@ ht-degree: 6%
 
    >[!NOTE]
    >如果发送消息时未满足变体中定义的任何规则，则内容组件将显示在&#x200B;**[!UICONTROL 条件内容]**&#x200B;窗格的&#x200B;**[!UICONTROL 默认变体]**&#x200B;中定义的内容。
+
+## 对条件内容使用变量 {#variables-conditional}
+
+变量可用于投放中的条件内容。
+
+了解有关[将变量添加到投放](../advanced-settings/delivery-settings.md#variables-delivery)的更多信息。
+
+选择要放置条件内容的元素。
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+要使用变量，请使用&#x200B;**[!UICONTROL 编辑表达式]**按钮配置条件，如下所示。
+在此示例中，此图像在变量的值为`launch`时显示。
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+您还可以创建值为`reminder`的其他变体，例如，其中显示其他图像。
