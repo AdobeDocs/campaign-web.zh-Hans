@@ -3,20 +3,14 @@ audience: end-user
 title: 使用陷印组
 description: 了解如何在Campaign Web用户界面中使用陷阱组进行投放
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 13%
+source-wordcount: '397'
+ht-degree: 5%
 
 ---
 
 # 使用陷印组 {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="陷印组"
->abstract="您可以使用陷印组将特定地址包含在您的投放中，通过定位不符合定义的目标条件的轮廓来监控和验证分发过程。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
 
 **[!UICONTROL 陷阱组]**（也称为&#x200B;**[!UICONTROL 种子列表]**）用于在投放中包含特定地址，以通过定向不符合定义的目标条件的用户档案来监视和验证分发过程。 这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
 
@@ -44,12 +38,12 @@ ht-degree: 13%
 
 要设置&#x200B;**[!UICONTROL 陷阱组]**，请转到投放的&#x200B;**[!UICONTROL 受众]**&#x200B;设置。 您将有2个选项：
 
-* [选择测试配置文件](#select-test-profile)
+* [选择测试轮廓](#select-test-profile)
 * [创建条件](#create-condition)
 
 ![](assets/trap-group.png){zoomable="yes"}
 
-### 选择测试配置文件 {#select-test-profiles}
+### 选择测试轮廓 {#select-test-profiles}
 
 当您选择&#x200B;**选择测试配置文件**&#x200B;时，可以使用&#x200B;**添加测试配置文件**&#x200B;按钮，如下所示：
 
