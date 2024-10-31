@@ -2,10 +2,10 @@
 audience: end-user
 title: 事务性消息传递
 description: 关于使用Adobe Campaign Web进行事务性消息传递
-source-git-commit: ccb0c7805dd063b41f0277b4afc42596444db716
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,16 @@ ht-degree: 1%
 >title="事务性消息传递"
 >abstract="事务性消息传递是Adobe Campaign中用于处理触发消息的专用模块。"
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="事务性消息传递"
+>abstract="事务性消息传递是Adobe Campaign中用于处理触发消息的专用模块。 这些消息是响应来自信息系统的事件自动生成的。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
-
 
 事务性消息传递是Adobe Campaign中用于处理触发消息的专用模块。 这些消息是响应来自信息系统的事件自动生成的。 此类事件的常见示例包括单击按钮或链接、放弃购买、请求产品可用性警报、创建或修改帐户等。
 
