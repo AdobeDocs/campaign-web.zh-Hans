@@ -4,9 +4,9 @@ title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Campaign Web 用户界面不会显示以下功能。这些仅在客户端控制�
 
 ### 外部帐户 {#external}
 
-Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为Campaign系统管理员，您可以创建和管理外部帐户。 [了解详情](../administration/external-account.md)
+Adobe Campaign 提供了一组预定义的外部帐户来与外部系统连接。作为 Campaign 系统管理员，您只能创建和管理外部帐户。[了解详情](../administration/external-account.md)
 
 ### 架构创建和扩展 {#schema}
 

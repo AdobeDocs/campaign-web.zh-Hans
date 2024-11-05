@@ -4,9 +4,9 @@ title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -44,38 +44,38 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="“关于”页面"
->abstract="“关于”页面提供有关您的Adobe Campaign实例的详细信息"
+>title="关于页面"
+>abstract="关于页面提供了有关 Adobe Campaign 实例的详细信息"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
 >title="关于实例"
->abstract="“实例”部分提供有关控制台客户端的关键信息，包括版本和关联的内部版本号"
+>abstract="实例部分提供了有关控制台客户端的关键信息，包括版本和相关的内部版本号"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="关于Web"
->abstract="Web部分显示Campaign Web用户界面的版本，以及上次更新日期（如果可用）。"
+>title="关于 Web"
+>abstract="Web 部分显示您的 Campaign Web 用户界面的版本，以及其最新更新日期（如果有）。"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
 >title="关于已安装的包"
->abstract="已安装的软件包部分列出了实例中存在的所有模块、功能和集成。"
+>abstract="已安装的包部分列出了实例上存在的所有模块、功能和集成。"
 
-在页面底部，**[!UICONTROL About]**&#x200B;链接提供了有关您的Adobe Campaign实例的详细信息。 这些信息处于只读模式。
+在页面底部，**[!UICONTROL 关于]** 链接提供了有关 Adobe Campaign 实例的详细信息。这些信息处于只读模式。
 
 ![](assets/about-link.png){zoomable="yes"}
 
-**实例**&#x200B;部分提供有关控制台客户端的关键信息，包括&#x200B;**版本**&#x200B;和关联的&#x200B;**内部版本**&#x200B;编号。
+**实例**&#x200B;部分提供了有关控制台客户端的关键信息，包括&#x200B;**版本**&#x200B;和相关的&#x200B;**内部版本**&#x200B;号
 
-* **版本**&#x200B;是指您所使用的正式发行版本，
-* **内部版本**&#x200B;引用了该版本的特定迭代。
+*  **版本** 指的是您所使用的正式发布版本，
+*  **内部版本** 指的是该版本的特定开发周期。
 
-版本号和内部版本号对故障排除至关重要，因为它们有助于准确确定环境中存在的功能和修复。
+版本号和内部版本号对于故障排除都至关重要，因为它们有助于准确确定您的环境中存在哪些功能和修复。
 
-**Web**&#x200B;部分显示您的Campaign Web用户界面的版本，以及上次更新日期（如果可用）。 这有助于跟踪对Campaign Web用户界面所做的更改或改进。
+**Web** 部分显示您的 Campaign Web 用户界面的版本，以及其最新更新日期（如果有）。这有助于跟踪对 Campaign Web 用户界面所做的更改或改进。
 
-**已安装的包**&#x200B;部分列出了实例中存在的所有模块、功能和集成。 这些软件包扩展了Adobe Campaign的功能，允许它执行特殊任务，如与其他Adobe解决方案集成或启用特定工作流。 鉴于软件包的数量很大，您可以在此部分中进行研究，以快速检查实例上是否安装了特定模块。
+**已安装的包**&#x200B;部分列出了实例上存在的所有模块、功能和集成。这些软件包扩展了 Adobe Campaign 的功能，使其能够执行专门的任务，例如与其他 Adobe 解决方案集成或启用特定的工作流程。由于软件包数量众多，您可以在本节中进行研究，以快速检查您的实例上是否安装了特定模块。
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ ht-degree: 82%
 ### 管理 {#left-nav-admin}
 
 
-* **审核记录** - **审核记录**&#x200B;条目使用户能够完全了解对实例中的重要实体所做的所有修改，通常是对实例的顺利操作产生显着影响的修改。 [了解详情](../reporting/audit-trail.md)
+* **审核记录** - **审核记录** 条目为用户提供了对实例中重要实体所做的所有修改的全面可见性，通常是那些对实例的顺利运行产生重大影响的修改。[了解详情](../reporting/audit-trail.md)
 
-* **外部帐户** — 使用Web用户界面创建新的外部帐户，以满足您的特定需求并确保无缝的数据传输。 [了解详情](../administration/external-account.md)
+* **外部帐户** - 使用 Web 用户界面创建新的外部帐户以满足您的特定需求并确保无缝数据传输。[了解详情](../administration/external-account.md)
 
-* **架构** — 自定义字段是通过Adobe Campaign控制台添加到现成架构的其他属性。 [了解详情](../administration/custom-fields.md)
+* **架构** - 自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。[了解详情](../administration/custom-fields.md)
 
-* **投放警报** — 投放警报是一个警报管理系统，它使用户组能够自动接收电子邮件通知，其中包含有关其投放执行的信息。 [了解详情](../msg/delivery-alerting.md)
+* **投放提醒** - 投放提醒是一个提醒管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。[了解详情](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 

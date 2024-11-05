@@ -4,9 +4,9 @@ title: 浏览和筛选列表
 description: 探索如何浏览和筛选列表 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 在&#x200B;**配置列**&#x200B;屏幕中，添加或删除列，并更改它们的显示顺序。
 
-您可以通过&#x200B;**拖放**&#x200B;或使用&#x200B;**上下箭头**&#x200B;更改列表顺序，如下所示：
+您可以通过 **拖放**&#x200B;或使用 **上下箭头** 更改列表的顺序，如下所示：
 
 ![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

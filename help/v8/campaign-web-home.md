@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 96%
 >[!BEGINTABS]
 
 
->[!TAB 2024年10月版]
+>[!TAB 2024 年 10 月版本]
 
-10月版本现已上线，其中包括事务型消息传递、外部帐户以及更多改进功能。
+10 月版本现已上线，包括交易型消息传递、外部帐户和更多改进。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
