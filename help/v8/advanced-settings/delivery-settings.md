@@ -290,7 +290,7 @@ ht-degree: 46%
 
 
 
-## 电子邮件投放的SMTP设置 {#smtp}
+## 电子邮件投放的 SMTP 设置 {#smtp}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"

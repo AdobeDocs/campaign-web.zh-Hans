@@ -136,12 +136,12 @@ ht-degree: 39%
 
 ![](../assets/enrichment-reconciliation.png)
 
-## 添加优惠 {#add-offers}
+## 添加产品建议 {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="产品建议提议"
->abstract="利用扩充活动，可为每个用户档案添加优惠。"
+>abstract="通过“扩充”活动，您可以为每个轮廓添加产品建议。"
 
 **[!UICONTROL 扩充]**&#x200B;活动允许您为每个配置文件添加选件。
 

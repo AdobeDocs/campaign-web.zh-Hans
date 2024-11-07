@@ -5,7 +5,7 @@ description: 了解如何在Campaign Web用户界面中监控事务型消息
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="事务性消息传递事件历史记录"
->abstract="您可以查看触发事务型消息的事件。"
+>abstract="您可以查看触发事务性消息的事件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="事务性消息传递事件历史记录预览"
->abstract="您可以查看触发事务型消息的事件。"
+>abstract="您可以查看触发事务性消息的事件。"
 
 您还可以查看触发事务型消息的事件。
 要查看这些事件，请转到**[!UICONTROL 事件历史记录]**&#x200B;部分。
