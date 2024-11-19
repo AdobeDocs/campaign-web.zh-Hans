@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 100%
+source-wordcount: '2023'
+ht-degree: 99%
 
 ---
 
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="执行初始化脚本"
 >abstract="执行初始化脚本"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="编辑自定义属性"
->abstract="编辑自定义属性"
+>title="编辑自定义详细信息"
+>abstract="编辑自定义详细信息"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="分隔符属性"
+>abstract="分隔符属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="属性设置"
+>abstract="属性设置"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="常规"
+>abstract="常规"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="布局"
+>abstract="布局"
 
 
 <!--Schema-->
