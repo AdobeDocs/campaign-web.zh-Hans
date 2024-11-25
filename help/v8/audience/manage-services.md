@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 32%
 
 要访问适用于您的平台的订阅服务，请执行以下步骤。
 
-1. 在左侧导航边栏上浏览到&#x200B;**[!UICONTROL 订阅服务]**&#x200B;菜单。
+1. 在左侧导航边栏的&#x200B;**[!UICONTROL 客户管理]**&#x200B;下，浏览到&#x200B;**[!UICONTROL 订阅服务]**&#x200B;菜单。
 
    ![](assets/service-list.png){zoomable="yes"}
 
