@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 98%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -118,21 +118,22 @@ ht-degree: 98%
       + [使用 AI 生成电子邮件](email/generative-content.md)
       + [使用 AI 生成短信](email/generative-sms.md)
       + [使用 AI 生成推送通知](email/generative-push.md)
+      + [AI助手用例](email/generative-uc.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
    + [设计登陆页内容](landing-pages/lp-content.md)
    + [使用登陆页模板](landing-pages/lp-templates.md)
    + [通过用例学习](landing-pages/lp-use-cases.md)
-+ 用户档案和受众 {#audiences}
-   + [用户档案和受众入门](audience/gs-audiences-recipients.md)
++ 轮廓和受众 {#audiences}
+   + [轮廓和受众入门](audience/gs-audiences-recipients.md)
    + [目标选择维度](audience/targeting-dimensions.md)
    + [隔离](audience/quarantine.md)
-   + 使用配置文件 {#work-with-profiles}
-      + [开始使用配置文件](audience/about-recipients.md)
-      + [浏览配置文件的详细信息](audience/profile-view.md)
-      + [创建配置文件](audience/create-profile.md)
-      + [使用测试配置文件](audience/test-profiles.md)
+   + 使用轮廓 {#work-with-profiles}
+      + [开始使用轮廓](audience/about-recipients.md)
+      + [浏览轮廓的详细信息](audience/profile-view.md)
+      + [创建轮廓](audience/create-profile.md)
+      + [使用测试轮廓](audience/test-profiles.md)
    + 使用受众 {#audiences}
       + [开始使用受众](audience/manage-audience.md)
       + [创建受众](audience/create-audience.md)
