@@ -56,11 +56,11 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。此界面主要
 * **在线调查**。仅可从客户端控制台创建在线调查并收集答案。此功能在 Campaign Web 用户界面中不可用。·[请参阅 Campaign Classic v7 文档以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html?lang=zh-Hans){target="_blank"}
 
 
-## 用户档案、测试用户档案和受众 {#profiles-audiences-capabilities}
+## 轮廓、测试轮廓和受众 {#profiles-audiences-capabilities}
 
-可在 Campaign 客户端控制台和 Campaign Web 用户界面中创建、管理及更新用户档案和测试用户档案。在一个 UI 中执行的所有更改都会在另一个 UI 中显示。但是，新的 Campaign Web 用户界面中可能会缺少某些特定的收件人设置和高级参数。
+可在 Campaign 客户端控制台和 Campaign Web 用户界面中创建、管理及更新轮廓和测试轮廓。在一个 UI 中执行的所有更改都会在另一个 UI 中显示。但是，新的 Campaign Web 用户界面中可能会缺少某些特定的收件人设置和高级参数。
 
-请注意，在新的 Web 用户界面中，“收件人”一词已更改为“用户档案”，而“种子地址”现在改为“测试用户档案”
+请注意，在新的 Web 用户界面中，“收件人”一词已更改为“轮廓”，而“种子地址”现在改为“测试轮廓”
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -180,7 +180,7 @@ Campaign 配置以及与外部系统的连接仅限高级用户使用，并且�
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="审批管理"
->abstract="只能从客户端控制台进行审批管理。 "
+>abstract="仅可从客户端控制台进行审批管理。 "
 
 Campaign Web 用户界面不会显示内容、投放、工作流、营销活动和目标的审批管理。这些功能仅在客户端控制台中可用。
 

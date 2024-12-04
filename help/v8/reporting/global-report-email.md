@@ -106,7 +106,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
 >title="投放吞吐量"
->abstract="通过此&#x200B;**投放吞吐量**&#x200B;可全面了解投放吞吐量，其中强调指定时间范围内的成功率和错误率。"
+>abstract="通过此&#x200B;**投放吞吐量**&#x200B;可全面洞察投放吞吐量，其中强调指定时间范围内的成功率和错误率。"
 
 ![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 

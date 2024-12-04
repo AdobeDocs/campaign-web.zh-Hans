@@ -38,7 +38,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="iOS 的静默通知"
->abstract="通过静默推送模式，可将“静默”通知发送到移动应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
+>abstract="通过静默推送模式，可将“静默”通知发送到移动设备应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
 
 创建推送投放后，即可定义其内容。 参数和设置取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统编写消息。
 
@@ -69,7 +69,7 @@ ht-degree: 40%
 
 您可以添加iOS通知有效负载的subtitle参数的&#x200B;**[!UICONTROL Subtitle]**&#x200B;值。 请参阅此部分。
 
-通过静默推送模式，可将“静默”通知发送到移动应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。
+通过静默推送模式，可将“静默”通知发送到移动设备应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。
 
 ![](assets/push_content_1.png){zoomable="yes"}
 
@@ -99,7 +99,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
 >title="可变内容"
->abstract="使用此选项使移动应用程序可下载与通知关联的媒体内容。"
+>abstract="使用此选项使移动设备应用程序可下载与通知关联的媒体内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"

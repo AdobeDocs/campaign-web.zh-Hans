@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 99%
 
 ### 客户管理 {#user-interface-customer-management}
 
-在“客户管理”部分，您可以查看用户档案、受众和订阅。这些列表为只读。
+在“客户管理”部分，您可以查看轮廓、受众和订阅。这些列表为只读。
 
-* **用户档案** - 创建和管理用户档案，并访问收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。可在[此部分](../audience/about-recipients.md)中详细了解用户档案。
+* **轮廓** - 创建和管理轮廓，并访问收件人数据库。默认情况下，您可以查看他们的电子邮件地址、名字和姓氏。可在[此部分](../audience/about-recipients.md)中详细了解轮廓。
 * **受众** - 这是您的受众列表。默认情况下，您可以查看它们的类型、来源、创建/最后修改日期和标签。您可以按来源筛选列表。可在[此部分](../audience/about-recipients.md)中详细了解受众和列表。
 * **订阅服务** - 浏览您的订阅列表。默认情况下，您可以查看它们的类型、模式和标签。请参阅 [Adobe Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-hans){target="_blank"}，了解如何管理订阅和退订。
 * **预定义筛选器** - 预定义筛选器是创建并保存以供将来使用的自定义筛选器。在使用查询建模器进行任何过滤操作时，例如在过滤数据列表或创建投放受众时，可将预定义过滤器用作快捷方式。可在[此部分](predefined-filters.md)中了解详情。
@@ -150,7 +150,7 @@ ht-degree: 99%
 
 ### 报告 {#left-nav-reporting}
 
-* **报告** - **报告**&#x200B;条目可提供 Campaign 环境中每个渠道的流量和参与量度的整体摘要。这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。可在[此部分](../reporting/global-reports.md)中了解详情。
+* **报告** - **报告**&#x200B;条目可提供 Campaign 环境中每个渠道的流量和参与量度的整体摘要。这些报告由各种小组件组成，每个小组件都提供您的营销活动或投放效果的一个独特视角。可在[此部分](../reporting/global-reports.md)中了解详情。
 
 ### 管理 {#left-nav-admin}
 
@@ -387,7 +387,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="链接属性"
->abstract="LaLink属性"
+>abstract="链接属性布局"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
