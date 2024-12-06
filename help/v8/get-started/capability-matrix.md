@@ -4,9 +4,9 @@ title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。此界面主要
 * **营销日历**。营销活动日历在全局时间线中显示所有项目、计划、营销活动和投放。此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hans#campaign-calendar){target="_blank"}
 * **项目和计划**。每个营销活动都属于一个项目，而项目又属于一个计划。在 Campaign Web 用户界面中，所有营销活动都与默认的内置计划和项目相关联。只能在客户端控制台中创建和管理计划与项目。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hans#work-with-plan-and-program){target="_blank"}
 * **提供商、预算和成本管理**。您可以配置在营销活动中执行的作业中涉及的服务提供商（包括成本结构），并管理每个项目和营销活动的预算。此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=zh-Hans){target="_blank"}
-* **分布式营销**（中央/地方营销）。Adobe Campaign提供了一个分布式营销应用程序，用于在中央实体（总部、营销部门等）和地方实体（销售点、区域机构等）之间实施合作活动。 此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hans){target="_blank"}
+* **分布式营销**（中央/地方营销）。Adobe Campaign 提供分布式营销应用程序，用于在中央实体（总部、营销部门等）和本地实体（销售点、区域代理等）之间实施合作营销活动。此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hans){target="_blank"}
 * **营销资源管理** (MRM)、目标、模拟、和成本控制。Adobe Campaign 提供了一个营销资源管理 (MRM) 应用程序，可全面管理和实时跟踪所涉及的任务、预算和营销资源，从而让您在协作模式下控制营销操作。此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=zh-Hans){target="_blank"}
 * **任务管理**。作为 MRM 应用程序的一部分，可通过营销活动仪表板创建、分配、跟踪和监控 Campaign 任务。此功能仅在客户端控制台中可用。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=zh-Hans){target="_blank"}
 

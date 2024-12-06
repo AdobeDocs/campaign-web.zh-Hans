@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 97%
       + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
    + 事务性消息{#transactional-messages}
       + [事务性消息入门](transactional-messaging/transactional.md)
-      + [创建事务型消息](transactional-messaging/create-transactional.md)
-      + [验证事务型消息](transactional-messaging/validate-transactional.md)
+      + [创建事务性消息](transactional-messaging/create-transactional.md)
+      + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
    + [将优惠添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
@@ -113,12 +113,12 @@ ht-degree: 97%
          + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
-   + AI Assistant内容加速器{#ai-assistant}
+   + AI 助手内容加速器 {#ai-assistant}
       + [使用 AI 助手内容加速器](email/generative-gs.md)
       + [使用 AI 生成电子邮件](email/generative-content.md)
       + [使用 AI 生成短信](email/generative-sms.md)
       + [使用 AI 生成推送通知](email/generative-push.md)
-      + [AI助手用例](email/generative-uc.md)
+      + [AI 助手用例](email/generative-uc.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
