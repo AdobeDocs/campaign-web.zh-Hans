@@ -3,13 +3,13 @@ title: Adobe Campaign v8营销人员入门
 description: 探索Campaign v8的主要功能。 它适用于从Campaign Standard迁移到Campaign v8的营销人员。
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 营销人员入门 {#acs-gs-marketers}
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 您可以在下方找到一些有用的链接，以供您开始使用。
 
-### 管理用户档案 {#acs-gs-marketers-profiles}
+### 管理轮廓 {#acs-gs-marketers-profiles}
 
 在Adobe Campaign中，用户档案是存储在数据库中的记录，充当为投放创建受众并向内容添加个性化数据的关键组件。
 
@@ -316,7 +316,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 ### 直邮 {#acs-gs-marketers-direct-mail}
 
-直邮是一种线下渠道，允许您生成文件以向客户批量投放个性化信件，如明信片、传单或目录。 在创建直邮投放时，Adobe Campaign会自动生成一个提取文件，其中包含所有定向的用户档案和选定数据，如邮政地址和用户档案属性。
+直邮是一种线下渠道，使用它可以制作文件，以批量向客户发送个性化信件，例如明信片、传单或产品样本。在创建直邮投放时，Adobe Campaign 会自动生成一个提取文件，其中包含所有的目标轮廓和选定数据，例如邮政地址和轮廓属性。
 
 在Campaign v8中，创建、测试和发送直邮投放的详细步骤与Campaign Standard类似。
 
@@ -373,7 +373,7 @@ Adobe Campaign提供一组[报告工具](https://experienceleague.adobe.com/en/d
 
 Adobe Campaign报表工具套件提供了有关营销工作有效性的宝贵见解，从而允许您优化营销活动以发挥最大影响。 请参阅[报告文档](../../v8/reporting/gs-reports.md)以了解详情。
 
-此外，根据Adobe Campaign Standard的体验，您可以在Campaign v8中使用动态报告来发送电子邮件。 它提供完全可自定义的实时报表以衡量营销活动的影响。 它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。在[动态报告文档](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}中了解详情
+此外，根据Adobe Campaign Standard的体验，您可以在Campaign v8中使用动态报告来发送电子邮件。 它提供完全可自定义的实时报表以衡量营销活动的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。在[动态报告文档](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}中了解详情
 
 >[!AVAILABILITY]
 >
@@ -418,7 +418,7 @@ Adobe Campaign 提供三种不同的报告：
 </div>
 <p>
 <div>
-<p>提供Campaign实例中每个渠道的流量和参与量度的综合整体摘要。 这些报告由各种构件组成，每个构件都提供您的营销活动或投放效果的一个独特视角。</p>
+<p>提供Campaign实例中每个渠道的流量和参与量度的综合整体摘要。 这些报告由各种小组件组成，每个小组件都提供您的营销活动或投放效果的一个独特视角。</p>
 </div>
 <p>
 </td>
