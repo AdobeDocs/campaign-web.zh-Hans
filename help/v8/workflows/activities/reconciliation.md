@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
->title="协调活动"
+>title="”协调“活动"
 >abstract="**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，通过它可定义 Adobe Campaign 数据库中的数据与工作表中的数据之间的联系。例如，可将&#x200B;**协调**&#x200B;活动放在&#x200B;**加载文件**&#x200B;活动之后以将非标准数据导入到数据库中。在本例中，**协调**&#x200B;活动允许您定义 Adobe Campaign 数据库中的数据与外部表中的数据之间的关联。"
 
 >[!CONTEXTUALHELP]
@@ -43,7 +43,7 @@ ht-degree: 44%
 >[!NOTE]
 >协调操作意味着链接维度的数据已在数据库中。  例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
 
-## 配置协调活动 {#reconciliation-configuration}
+## 配置”协调“活动 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## 示例 {#reconciliation-example}
 
-下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。该工作流由以下活动组成：
+下方的示例演示了直接从包含新客户的导入文件创建受众轮廓的工作流。该工作流由以下活动组成：
 
 工作流的设计如下所示：
 
@@ -103,7 +103,7 @@ ht-degree: 44%
 
 它是通过以下活动构建的：
 
-* [加载文件](load-file.md)活动，上传包含从外部工具提取之用户档案数据的文件。
+* [加载文件](load-file.md)活动，上传包含从外部工具提取之轮廓数据的文件。
 
   例如：
 

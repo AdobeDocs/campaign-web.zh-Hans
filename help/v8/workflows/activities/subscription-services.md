@@ -14,8 +14,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="订阅服务活动"
->abstract="订阅服务活动允许在一个操作中订阅或取消订阅多个轮廓。"
+>title="”订阅服务“活动"
+>abstract="”订阅服务“活动允许在一个操作中订阅或取消订阅多个轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"

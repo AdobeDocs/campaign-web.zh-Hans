@@ -14,7 +14,7 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="合并活动"
+>title="”合并“活动"
 >abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 **合并**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
@@ -112,10 +112,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ![](../assets/workflow-union-example.png)
 
-下例展示了两个查询活动之间的&#x200B;**交集**。此处使用它来检索年龄在 18 至 27 岁之间且已提供电子邮件地址的人员的个人资料。
+下例展示了两个查询活动之间的&#x200B;**交集**。此处使用它来检索年龄在 18 至 27 岁之间且已提供电子邮件地址的人员的轮廓。
 
 ![](../assets/workflow-intersection-example.png)
 
-下面的&#x200B;**差集**&#x200B;示例展示了两个查询，这两个查询配置为筛选出年龄在 18 岁到 27 岁之间且具有 Adobe 电子邮件域的人员的个人资料。随后，具有 Adobe 电子邮件域的个人资料将从第一个集合中排除。
+下面的&#x200B;**差集**&#x200B;示例展示了两个查询，这两个查询配置为筛选出年龄在 18 岁到 27 岁之间且具有 Adobe 电子邮件域的人员的轮廓。随后，具有 Adobe 电子邮件域的轮廓将从第一个集合中排除。
 
 ![](../assets/workflow-exclusion-example.png)

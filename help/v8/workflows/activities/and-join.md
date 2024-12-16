@@ -15,14 +15,14 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="AND-join 活动"
+>title="”AND-join“ 活动"
 >abstract="利用 **And-join** 活动，可同步工作流的多个执行分支。一旦完成所有之前的活动，即触发该活动。这使您能够在继续执行工作流之前确保某些活动已完成。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。利用此活动，可同步工作流的多个执行分支。
 
 一旦激活所有集客过渡，换言之，一旦完成所有先行工作，此活动就会触发其所有叫客过渡。这使您可以在继续执行工作流之前确保某些活动已完成。
 
-## 配置 AND-join 活动{#and-join-configuration}
+## 配置 ”AND-join“ 活动{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -470,4 +470,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="目标映射存储"
->abstract="目标映射拒绝存储"
+>abstract="目标映射阻止存储"

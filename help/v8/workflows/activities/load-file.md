@@ -14,7 +14,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="加载文件活动"
+>title="”加载文件“活动"
 >abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。轮廓和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新轮廓或任何其他表。 "
 
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="加载文件活动的格式设置"
+>title="”加载文件“活动的格式设置"
 >abstract="在&#x200B;**格式化**&#x200B;部分，指定文件的格式化方式，以确保正确导入数据。"
 
 >[!CONTEXTUALHELP]
@@ -140,7 +140,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="加载文件活动的拒绝管理"
+>title="”加载文件“活动的拒绝管理"
 >abstract="在&#x200B;**拒绝管理**&#x200B;部分，指定在出现错误时该活动应如何表现。您可以定义允许的最大错误数，并切换&#x200B;**[!UICONTROL 将拒绝的内容保留在文件中]**&#x200B;选项，以在服务器上下载包含导入期间发生的错误的文件。"
 
 >[!CONTEXTUALHELP]

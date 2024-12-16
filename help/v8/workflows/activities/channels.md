@@ -46,27 +46,27 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="电子邮件活动"
+>title="”电子邮件“活动"
 >abstract="电子邮件活动有助于在工作流程中发送电子邮件，允许一次性和重复发送消息。它可用于自动将电子邮件发送到在同一工作流程中计算的目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
->title="短信活动"
+>title="”短信“活动"
 >abstract="短信活动有助于在工作流程中发送短信，允许一次性和重复发送消息。它可用于自动将短信发送到在同一工作流程中计算的目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="推送 iOS 活动"
+>title="”推送 iOS“ 活动"
 >abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复传送消息，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="推送 Android 活动"
+>title="”推送 Android“ 活动"
 >abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复传送消息，自动将 Android 推送通知发送到同一工作流程中的预定义目标。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
->title="直邮活动"
+>title="”直邮“活动"
 >abstract="直邮活动有助于在工作流中直接发送邮件，允许一次性和重复发送消息。该功能可以自动生成直邮提供商所需的提取文件。您可以将渠道活动组合到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 要在工作流上下文中设置投放，请执行以下步骤：
