@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用受众
 description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 25%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 25%
 >id="acw_audiences_count"
 >title="受众规模"
 >abstract="您可以在此处找到受众内轮廓的总数。单击&#x200B;**“计算”**&#x200B;按钮，可更新并重新计算受众结果。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="定位"
+>abstract="定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
