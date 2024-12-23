@@ -322,9 +322,9 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="用户活动"
->abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。"
+>abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。可选择时段以锁定数据：过去一天、过去一小时或过去 30 分钟。"
 
-**[!UICONTROL 用户活动]**&#x200B;报告以图表形式显示打开数和点击数的细分。 可选择时段以定位数据：过去一天、过去一小时或过去 30 分钟。
+**[!UICONTROL 用户活动]**&#x200B;报告以图表形式显示打开数和点击数的细分。 可选择时段以锁定数据：过去一天、过去一小时或过去 30 分钟。
 
 ![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
