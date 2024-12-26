@@ -24,8 +24,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="定位"
->abstract="定位"
+>title="目标选择"
+>abstract="目标选择"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
