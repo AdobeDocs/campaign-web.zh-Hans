@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 100%
+source-wordcount: '2108'
+ht-degree: 99%
 
 ---
 
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="明细列表值列表"
 >abstract="明细列表值列表"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="业务规则"
+>abstract="业务规则"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="规则集属性"
+>abstract="规则集属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="IP 关联"
+>abstract="IP 关联"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="规则属性"
+>abstract="规则属性"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="筛选"
+>abstract="筛选"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="代码"
+>abstract="代码"
