@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用内容片段
 description: 了解如何使用内容片段创建
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 61%
+source-wordcount: '433'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 61%
 >id="acw_fragments_menu"
 >title="定义您自己的内容片段"
 >abstract="内容片段是一个可重复使用的组件，可以在各种营销活动中的一条或条信息中引用。此功能用于预构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组装内容。内容片段有两种类型：电子邮件设计器中提供的可视化片段以及表达式编辑器中的表达式片段。"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="添加表达式片段"
+>abstract="表达式片段是预定义的内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段以满足您的需求。"
 
 ## 什么是内容片段？ {#what}
 

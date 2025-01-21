@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 6%
 除了表达式编辑器之外，在设计允许您为电子邮件正文的某个元素创建多个变体的电子邮件时，还可以利用专用的&#x200B;**条件内容生成器**。 [了解如何在电子邮件中创建条件内容](#condition-condition-builder)
 
 ## 在表达式编辑器中创建条件 {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="条件"
+>abstract="利用此菜单，可使用辅助函数定义条件内容。"
 
 要使用表达式编辑器为投放定义条件内容，请执行以下步骤。 在本例中，我们要根据收件人的语言（法语或英语）创建条件内容。
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: 创建事务型消息
 description: 了解如何在Campaign Web用户界面中创建事务型消息
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 18%
+source-wordcount: '1209'
+ht-degree: 19%
 
 ---
 
@@ -117,6 +118,11 @@ ht-degree: 18%
 >title="事务性消息传递个性化"
 >abstract="了解如何个性化事务性消息传递内容"
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="事件上下文"
+>abstract="此菜单提供触发事件中的变量，您可以利用这些变量将事务型消息内容个性化。"
+
 处理事务型消息的内容与创建投放的内容类似。 单击&#x200B;**[!UICONTROL 打开电子邮件设计器]**&#x200B;或&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;并选择模板内容或导入您的HTML代码。
 
 ![](assets/template-content.png){zoomable="yes"}
@@ -144,7 +150,7 @@ ht-degree: 18%
 
 ![](assets/template-preview.png){zoomable="yes"}
 
-## 创建事务型消息 {#transactional-message}
+## 创建事务性消息 {#transactional-message}
 
 您可以直接创建事务型消息，也可以使用事务型消息模板创建事务型消息。 [了解如何创建事务型消息模板](#transactional-template)。
 
