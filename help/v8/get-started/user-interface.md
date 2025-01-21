@@ -138,15 +138,15 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="优惠"
->abstract="浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的优惠和优惠模板的列表。这些列表为只读。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hans" text="将优惠添加到投放"
+>title="产品建议"
+>abstract="浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的产品建议和产品建议模板的列表。这些列表为只读。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hans" text="将产品建议添加到投放"
 
-在“决策管理”部分中，您可以查看优惠和优惠模板。这些列表为只读。
+在“决策管理”部分中，您可以查看产品建议和产品建议模板。这些列表为只读。
 
-* **优惠** - 浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的优惠和优惠模板的列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。还有优惠模板可用。
+* **产品建议** - 浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的产品建议和产品建议模板的列表。默认情况下，您可以查看它们的状态、开始/结束日期和环境。您可以按状态和开始/结束日期筛选列表。还有产品建议模板可用。
 
-可在[此部分](../msg/offers.md)中了解如何在电子邮件和短信中创建和发送优惠。
+可在[此部分](../msg/offers.md)中了解如何在电子邮件和短信中创建和发送产品建议。
 
 ### 报告 {#left-nav-reporting}
 
@@ -239,13 +239,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="收件人合格优惠列表"
->abstract="收件人合格优惠列表"
+>title="收件人合格的产品建议列表"
+>abstract="收件人合格的产品建议列表"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="收件人优惠预览"
->abstract="收件人优惠预览"
+>title="收件人产品建议预览"
+>abstract="收件人产品建议预览"
 
 
 
@@ -399,8 +399,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
->title="模式"
->abstract="模式"
+>title="架构"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -410,42 +410,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
 >title="架构属性"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_existing"
 >title="选择现有架构"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_external"
 >title="选择外部数据库"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_add_tables"
 >title="添加表"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
 >title="工作流日志和任务"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update"
 >title="更新数据库"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update_script"
 >title="更新脚本"
->abstract="模式"
+>abstract="架构"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
 >title="开始数据库更新"
->abstract="模式"
+>abstract="架构"
 
 
 

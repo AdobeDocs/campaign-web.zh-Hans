@@ -11,27 +11,27 @@ ht-degree: 35%
 ---
 
 
-# 将优惠添加到您的消息 {#offers-content}
+# 将产品建议添加到您的消息 {#offers-content}
 
 您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。 所有这些选件都是只读的，并且必须已使用&#x200B;**[!UICONTROL 交互]**&#x200B;模块在Campaign客户端控制台中创建。 有关交互以及如何管理控制台中的优惠目录的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
 
 
 通过投放发送优惠的步骤如下：
 
-1. [配置要推荐的优惠](#configure)
+1. [配置要推荐的产品建议](#configure)
 1. [将优惠插入投放](#insert)
 
-## 配置要推荐的优惠 {#configure}
+## 配置要推荐的产品建议 {#configure}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="定义优惠参数"
->abstract="通过定义优惠空间（还可包括类别和主题）并指定要插入到投放中的优惠的数量，从而配置应为收件人建议哪些优惠。"
+>title="定义产品建议参数"
+>abstract="通过定义产品建议空间（还可包括类别和主题）并指定要插入到投放中的产品建议的数量，从而配置应为收件人建议哪些产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="设置优惠高级设置"
->abstract="可实现排除其没有足够多合格优惠的收件人，并选择在其中一项提议不存在时处理消息的方式。"
+>title="设置产品建议高级设置"
+>abstract="可实现排除其没有足够多合格的产品建议的收件人，并选择在其中一项提议不存在时处理消息的方式。"
 
 通过Adobe Campaign，您可以向给定联系人建议一个或多个特定选件，从而在交互过程中实时响应他们。 这些优惠可以是简单的通信消息、一个或多个产品上的特殊优惠或服务。
 
@@ -41,21 +41,21 @@ ht-degree: 35%
 
    ![](assets/offer-setup.png){zoomable="yes"}
 
-1. 配置应向收件人推荐的优惠。
+1. 配置应向收件人推荐的产品建议。
 
    首先选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}以了解如何创建优惠空间。
 
    ![](assets/offer-create-content.png){zoomable="yes"}
 
-1. 要细化引擎的优惠选择，请选择已在其中对优惠排序的特定&#x200B;**[!UICONTROL 优惠类别]**。
+1. 要细化引擎的产品建议选择，请选择已在其中对产品建议排序的特定&#x200B;**[!UICONTROL 产品建议类别]**。
 
    选择文件夹时，会自动包含所有子文件夹，并且无法将其删除。 请注意，[!DNL Campaign]接口不反映此行为。
 
    >[!NOTE]
    >
-   >如果未指定类别，除非已选中&#x200B;**[!UICONTROL 优惠主题]**，否则优惠引擎将考虑环境中包含的所有优惠。
+   >如果未指定类别，除非已选中&#x200B;**[!UICONTROL 产品建议主题]**，否则产品建议引擎将考虑环境中包含的所有产品建议。
 
-1. （可选）输入主题以筛选类别。 主题是在类别中上游定义的关键字。 它们充当筛选器，可让您通过在一组类别中选择优惠来细化要显示的优惠数量。
+1. （可选）输入主题以筛选类别。 主题是在类别中上游定义的关键字。 它们充当筛选器，可让您通过在一组类别中选择产品建议来细化要显示的产品建议数量。
 
 1. 使用&#x200B;**[!UICONTROL 建议]**&#x200B;字段指定要插入到投放中的优惠数量。
 
@@ -66,7 +66,7 @@ ht-degree: 35%
    * 如果启用此选项，则将从投放中排除不具有足量建议的收件人。
    * 如果禁用此选项，则不会排除这些收件人，但他们无法拥有请求的建议数量。
 
-1. 如有必要，可以选择&#x200B;**[!UICONTROL 如果未选择任何优惠，则隐藏所有内容]**&#x200B;选项。
+1. 如有必要，可以选择&#x200B;**[!UICONTROL 如果未选择任何产品建议，则隐藏所有内容]**&#x200B;选项。
 
    利用此选项，可选择在建议不存在时如何处理消息：
 

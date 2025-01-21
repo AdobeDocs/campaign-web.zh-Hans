@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定义电子邮件的内容"
->abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或优惠）和访问电子邮件设计器以美化邮件的外观。"
+>abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或产品建议）和访问电子邮件设计器以美化邮件的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -85,7 +85,7 @@ ht-degree: 45%
 
 1. 如果要通过电子邮件发送优惠，请使用&#x200B;**[!UICONTROL 设置优惠]**&#x200B;按钮选择它们。
 
-   之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送优惠](../msg/offers.md)
+   之后，您可以使用个性化字段将它们插入电子邮件中。[了解如何发送产品建议](../msg/offers.md)
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮可使用[电子邮件Designer](get-started-email-designer.md#start-authoring)来构造和设计电子邮件的内容。 有关如何设计电子邮件内容的其他信息，请参阅以下章节：
 
