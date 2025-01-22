@@ -3,7 +3,7 @@ audience: end-user
 title: 关于只读工作流
 description: 了解工作流处于只读模式的原因
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 某些工作流可能处于只读模式。 您可以通过查看它：
 
-- **[!UICONTROL 设置]**&#x200B;按钮附近的提及&#x200B;**[!UICONTROL **&#x200B;只读&#x200B;**]**
+- **[!UICONTROL 设置]**&#x200B;按钮附近的提及&#x200B;**[!UICONTROL 只读]**
 - 操作按钮不可访问
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
