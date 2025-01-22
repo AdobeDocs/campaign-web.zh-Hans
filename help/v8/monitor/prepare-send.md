@@ -3,9 +3,9 @@ audience: end-user
 title: 准备并发送电子邮件
 description: 了解如何使用Campaign Web用户界面准备和发送电子邮件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 38%
 
 ---
@@ -136,14 +136,14 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="已发送数指标"
+>title="已发送"
 >abstract="投放分析期间处理的消息的总数。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="错误数指标"
+>title="错误数"
 >abstract="投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
