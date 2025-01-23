@@ -3,10 +3,10 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
+source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 99%
+source-wordcount: '2136'
+ht-degree: 98%
 
 ---
 
@@ -535,7 +535,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP 关联"
->abstract="IP 关联"
+>abstract="通过管理与IP地址的相似性，可以根据其投放操作的类型将不同的IP地址与每种类型的流量相关联，从而更好地控制传出的SMTP流量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
