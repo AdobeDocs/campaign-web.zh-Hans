@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: ht
-source-wordcount: '773'
-ht-degree: 100%
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
+   + [使用分类](msg/typologies.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + [配置电子邮件内容](email/edit-content.md)
@@ -70,7 +71,7 @@ ht-degree: 100%
       + [创建事务性消息](transactional-messaging/create-transactional.md)
       + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
-   + [将优惠添加到您的消息](msg/offers.md)
+   + [将产品建议添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
    + 预览和测试投放{#preview-test}
