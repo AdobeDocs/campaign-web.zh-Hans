@@ -6,13 +6,13 @@ hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
+source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
-
 
 # 使用分类 {#typologies}
 
@@ -33,7 +33,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
->title="分类规则属性"
+>title="类型规则属性"
 >abstract="规则属性"
 
 >[!CONTEXTUALHELP]
