@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="个性化"
->abstract="个性化编辑器允许您选择、排列、自定义和验证所有数据，为您的内容创建自定义体验。 您可以利用用户档案数据为每个收件人个性化消息，并创建条件内容以根据每个收件人调整消息并仅显示相关内容。"
+>abstract="使用个性化编辑器，您可以选择、排列、自定义和验证所有数据，获得自定义内容的体验。您可以利用轮廓数据对发送给每个收件人的消息进行个性化设置，根据每个收件人创建有条件的适合的消息内容，并仅显示相关的内容。"
 
 作为一名营销人员，锁定那些真正对您的产品感兴趣的客户，并提供有效的相关内容来吸引他们是至关重要的。鉴于您会遇到各种不同的收件人，创建多种营销内容来吸引不同的受众可能会既耗时又浪费。这种时候就是动态内容发挥作用的地方。
 

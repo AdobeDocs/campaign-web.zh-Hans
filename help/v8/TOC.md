@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
-   + [使用分类](msg/typologies.md)
+   + [使用类型工作](msg/typologies.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + [配置电子邮件内容](email/edit-content.md)
