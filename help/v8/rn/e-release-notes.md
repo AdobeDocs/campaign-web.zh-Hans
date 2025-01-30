@@ -4,10 +4,10 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
+source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 32%
 
 ---
 
@@ -17,31 +17,120 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 
 **以下早期发行说明在发行可用日期之前如有更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在[发行说明](release-notes.md)中发布。
 
-## 8 月发行说明 {#24-8-release}
+## 2025年1月版 {#25-1-release}
 
-**发布日期**：2024 年 9 月 3 日
+**发行日期**：2025年2月5日
 
-自 8 月版本开始提供以下功能和改进。
+从1月版本开始，将提供以下功能和改进。
 
-**值的分布**：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。专用的弹出窗口显示每个值的数字和百分比。
+### 功能 {#25-1-features}
 
 
-### 有限可用性版本中的新功能 {#acs-24-8}
+<table>
+<thead>
+<tr>
+<th><strong>创建和使用可视化片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>可视化片段是预定义的可视化块，您可以在多个电子邮件投放中或在内容模板中重复使用。 此功能现在适用于在服务器版本8.6.4及更高版本上运行的所有客户。</p>
+<p>有关更多信息，请参阅<a href="../content/use-visual-fragments.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
->[!AVAILABILITY]
->
->以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
->
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8 ](../rn/acs-migration.md)以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}。
+<table>
+<thead>
+<tr>
+<th><strong>使用第三方系统发送投放</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在Campaign Web用户界面中定义外部投放和外部投放模板。 在这种模式下，输入文件中会生成消息，并可以与外部提供商共享。外部投放模式是直邮渠道的默认模式。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **直邮的品牌化**：您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您现在可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。
+<table>
+<thead>
+<tr>
+<th><strong>控制和过滤带有类型的投放发送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。分类验证投放始终包含所需的元素（如退订链接或主题行），或者用于从预期目标中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
+<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **带有登陆页面的订阅** - 您现在可以将登陆页面链接到服务，并在用户验证时发送确认消息。
+<table>
+<thead>
+<tr>
+<th><strong>管理您的明细列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以直接通过Adobe Campaign Web用户界面创建明细列表。 枚举是系统建议用于填充字段的值列表。 使用枚举来标准化这些字段的值，帮助在查询中输入或使用数据。</p>
+<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **视觉片段**：您现在可以对视觉内容片段进行存档。
+<table>
+<thead>
+<tr>
+<th><strong>创建自定义选项</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以访问Adobe Campaign Web用户界面中的技术选项，并根据自己的需求创建自定义选项。 在使用JavaScript代码工作流活动存储中间数据时，这尤其有用。</p>
+<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **登陆页面验证码**：您现在可以添加验证码来保护您的登陆页面免受机器人造成的垃圾邮件和滥用的影响。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。
 
-* **Rest API** ——作为 Campaign Standard 迁移用户，您现在可以使用 Rest API 处理事务消息。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans){target="_blank"}。
+<table>
+<thead>
+<tr>
+<th><strong>定义和调用Javascript代码</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在Adobe Campaign Web用户界面中创建JavaScript代码。 这允许您创建可重复使用的功能，这些功能可在多个工作流中使用，类似于库。</p>
+<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#25-1-improvements}
+
+* 自定义界面中自定义字段的显示：
+
+   * 您现在可以选择要在界面中显示的其他自定义字段
+   * 您现在可以设置用于显示链接类型自定义字段的规则，例如基于其他字段的输入来限制列表值
+   * 您现在可以更灵活地排列界面中的字段：字段可以跨越一列，或者分组到子部分中以更好地组织
+   * 您现在可以将特定字段设置为只读。
+
+* 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹。 这可以确保将来任务可以随时访问它们。 除了收藏夹之外，您还可以查看和使用最近选定的属性。
 
 
