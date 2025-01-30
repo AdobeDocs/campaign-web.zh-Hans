@@ -4,10 +4,10 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 32%
+source-wordcount: '514'
+ht-degree: 28%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tr>
 <td>
 <p>现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。分类验证投放始终包含所需的元素（如退订链接或主题行），或者用于从预期目标中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tr>
 <td>
 <p>现在，您可以直接通过Adobe Campaign Web用户界面创建明细列表。 枚举是系统建议用于填充字段的值列表。 使用枚举来标准化这些字段的值，帮助在查询中输入或使用数据。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tr>
 <td>
 <p>您现在可以访问Adobe Campaign Web用户界面中的技术选项，并根据自己的需求创建自定义选项。 在使用JavaScript代码工作流活动存储中间数据时，这尤其有用。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tr>
 <td>
 <p>您现在可以在Adobe Campaign Web用户界面中创建JavaScript代码。 这允许您创建可重复使用的功能，这些功能可在多个工作流中使用，类似于库。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
    * 您现在可以选择要在界面中显示的其他自定义字段
    * 您现在可以设置用于显示链接类型自定义字段的规则，例如基于其他字段的输入来限制列表值
    * 您现在可以更灵活地排列界面中的字段：字段可以跨越一列，或者分组到子部分中以更好地组织
-   * 您现在可以将特定字段设置为只读。
+   * 您现在可以将特定字段设置为只读
 
 * 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹。 这可以确保将来任务可以随时访问它们。 除了收藏夹之外，您还可以查看和使用最近选定的属性。
 
