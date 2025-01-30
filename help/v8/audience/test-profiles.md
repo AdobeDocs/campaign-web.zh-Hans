@@ -5,21 +5,23 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '614'
 ht-degree: 19%
 
 ---
 
-# 创建和管理测试用户档案 {#create-test-profiles}
+# 创建和管理测试轮廓 {#create-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
->title="创建测试用户档案"
+>title="创建测试轮廓"
 >abstract="测试轮廓是额外的收件人，以便您在发送消息之前预览和测试个性化和渲染。您可以在预览消息内容时选择测试轮廓，并将校样发送到测试轮廓，以控制和验证您的消息内容和设置。"
 
 测试用户档案用于发送校样，并验证消息内容和设置。 这些用户档案是额外的收件人，允许您在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试轮廓，并将校样发送到测试轮廓，以控制和验证您的消息内容和设置。
+
+➡️[在视频中发现此功能](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -57,7 +59,7 @@ ht-degree: 19%
 
 从&#x200B;**[!UICONTROL 资源管理器]**&#x200B;视图中，您还可以筛选、删除、编辑和[创建](#create-test-profile)测试配置文件。
 
-## 创建测试用户档案 {#create-test-profile}
+## 创建测试轮廓 {#create-test-profile}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 您刚刚创建的测试用户档案现已准备就绪，可用于发送校样。 [了解详情](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## 操作说明视频 {#video}
+
+了解如何使用Campaign Web用户界面创建和管理测试用户档案。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
