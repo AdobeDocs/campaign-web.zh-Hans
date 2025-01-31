@@ -4,10 +4,10 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 28%
+source-wordcount: '511'
+ht-degree: 18%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Campaign Web用户界面中定义外部投放和外部投放模板。 在这种模式下，输入文件中会生成消息，并可以与外部提供商共享。外部投放模式是直邮渠道的默认模式。</p>
+<p>您现在可以在Campaign Web界面中定义外部投放和外部投放模板。 在此模式下，消息将编译为输入文件，并与外部提供商共享。 默认情况下，直邮渠道使用外部投放模式。</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <table>
 <thead>
 <tr>
-<th><strong>控制和过滤带有类型的投放发送</strong><br/></th>
+<th><strong>创建业务规则（类型规则）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。分类验证投放始终包含所需的元素（如退订链接或主题行），或者用于从预期目标中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
+<p>现在，您可以在Adobe Campaign Web界面中创建分类和分类规则。 分类是分类规则的集合，可帮助控制、过滤投放和为其设置优先级。 分类可确保投放始终包含必需的元素（例如取消订阅链接或主题行），并应用筛选规则从目标受众中排除特定组（例如取消订阅者、竞争对手或不忠诚客户）。</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
