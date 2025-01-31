@@ -15,7 +15,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="提取文件内容"
->abstract="单击 **编辑内容** 按钮开始设计直邮提供商所需的提取文件。这允许您定义文件属性（例如标签和格式），并指定要包含在文件中的列。"
+>abstract="单击&#x200B;**编辑内容**&#x200B;按钮开始设计直邮提供商所需的提取文件。这允许您定义文件属性（例如标签和格式），并指定要包含在文件中的列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"

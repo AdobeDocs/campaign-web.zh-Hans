@@ -31,7 +31,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="投放提醒通用参数"
->abstract="指定投放警报仪表板的常规属性。**选择警报组** 字段允许您指定 **操作员组** 来接收此仪表板发送的警报。"
+>abstract="指定投放警报仪表板的常规属性。**选择警报组**&#x200B;字段允许您指定&#x200B;**操作员组**&#x200B;来接收此仪表板发送的警报。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"

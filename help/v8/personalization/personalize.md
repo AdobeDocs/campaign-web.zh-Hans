@@ -9,7 +9,7 @@ exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
 >title="添加当前日期"
->abstract="此菜单提供了与日期格式相关的功能，您可以利用这些功能将内容个性化。"
+>abstract="此菜单提供与日期格式相关的功能，您可以利用这些功能来个性化您的内容。"
 
 投放内容的Personalization是一项关键功能，它允许您为各个收件人定制消息，从而使通信更具有相关性和吸引力。
 

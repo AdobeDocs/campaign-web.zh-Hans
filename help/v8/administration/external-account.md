@@ -1,10 +1,11 @@
 ---
 title: 外部帐户
 description: 了解如何配置外部帐户
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 10%
 >id="acw_homepage_welcome_rn2"
 >title="外部帐户"
 >abstract="您现在可以连接到其他平台或自定义连接以适合您的工作流程，并轻松创建新的外部帐户以满足您的特定需求并确保无缝数据传输。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
 >[!AVAILABILITY]

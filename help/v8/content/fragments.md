@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 58%
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 58%
 >id="acw_homepage_welcome_rn4"
 >title="内容片段"
 >abstract="您现在可以创建和使用内容片段。内容片段是可重复使用的组件，可以在一条或多条消息中引用。当修改片段时，使用它的每个内容都会被更新。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -26,7 +26,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="添加表达式片段"
->abstract="表达式片段是预定义的内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段以满足您的需求。"
+>abstract="表达式片段是预定义的内容块，其中包含可插入到投放中的特定渲染。例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段来满足您的需要。"
 
 ## 什么是内容片段？ {#what}
 
@@ -34,7 +34,7 @@ ht-degree: 58%
 
 有两种类型的片段可用：
 
-* **表达式片段**&#x200B;是预定义表达式，可从表达式编辑器的专用条目中使用。 Campaign提供了一组预定义内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段以满足您的需求。
+* **表达式片段**&#x200B;是预定义表达式，可从表达式编辑器的专用条目中使用。 Campaign提供了一组预定义内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段来满足您的需要。
 
 * **可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中重复使用。
 

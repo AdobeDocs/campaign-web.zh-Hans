@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 使用分类
+title: 使用类型工作
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 hidefromtoc: true
 hide: true
@@ -10,11 +10,11 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 27%
+ht-degree: 75%
 
 ---
 
-# 使用分类 {#typologies}
+# 使用类型工作 {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -29,7 +29,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP 关联"
->abstract="通过管理与IP地址的相似性，可以根据其投放操作的类型将不同的IP地址与每种类型的流量相关联，从而更好地控制传出的SMTP流量。"
+>abstract="通过管理与 IP 地址的关联，可以根据投放操作的类型将不同的 IP 地址与每种类型的流量关联起来，从而更好地控制传出的 SMTP 流量"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"

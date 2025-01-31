@@ -75,8 +75,8 @@ ht-degree: 56%
 >id="acw_deliveries_email_audience"
 >title="为投放选择受众"
 >abstract="选择最适合营销消息的最佳受众。可选择（已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的）现有受众、使用查询建模器创建新受众或上传包含您的受众的文件。没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-Hans" text="选择主要受众"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hans" text="设置对照组"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-hans" text="选择主要受众"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hans" text="设置对照组"
 
 在此使用案例中，您将向现有受众发送电子邮件。
 
@@ -162,9 +162,9 @@ ht-degree: 56%
 
    ![](assets/review-email.png){zoomable="yes"}
 
-1. 在左侧，选择要用于预览电子邮件的配置文件。
+1. 在左侧，选择要用于预览电子邮件的轮廓。
 
-   右侧窗格显示基于所选配置文件的电子邮件预览。如果已添加多个配置文件，则可以在它们之间进行切换来预览相应的电子邮件。
+   右侧窗格显示基于所选轮廓的电子邮件预览。如果已添加多个轮廓，则可以在它们之间进行切换来预览相应的电子邮件。
 
    ![](assets/preview.png){zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 56%
 
 1. 单击&#x200B;**[!UICONTROL 添加地址]**&#x200B;并指定接收校样的电子邮件地址。
 
-   对于每个电子邮件地址，选择要模拟的配置文件。您还可以让 Adobe Campaign 从目标中选择一个随机配置文件。
+   对于每个电子邮件地址，选择要模拟的轮廓。您还可以让 Adobe Campaign 从目标中选择一个随机轮廓。
 
    ![](assets/proof-test-profile.png){zoomable="yes"}
 
@@ -216,6 +216,6 @@ ht-degree: 56%
 
 ## 操作说明视频 {#video}
 
-了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送验证。
+了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送校样。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

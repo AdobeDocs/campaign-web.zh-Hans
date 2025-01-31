@@ -9,7 +9,7 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_conditions"
 >title="条件"
->abstract="利用此菜单，可使用辅助函数定义条件内容。"
+>abstract="此菜单允许您利用助手功能来定义条件内容。"
 
 要使用表达式编辑器为投放定义条件内容，请执行以下步骤。 在本例中，我们要根据收件人的语言（法语或英语）创建条件内容。
 

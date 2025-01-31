@@ -144,7 +144,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="错误数"
->abstract="投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。"
+>abstract="投放和自动返回处理期间累积的错误的总数与已发送消息总数有关。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 

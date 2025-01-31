@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="事件上下文"
->abstract="此菜单提供触发事件中的变量，您可以利用这些变量将事务型消息内容个性化。"
+>abstract="此菜单提供触发事件的变量，您可以利用这些变量来个性化您的事务性消息内容。"
 
 处理事务型消息的内容与创建投放的内容类似。 单击&#x200B;**[!UICONTROL 打开电子邮件设计器]**&#x200B;或&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;并选择模板内容或导入您的HTML代码。
 

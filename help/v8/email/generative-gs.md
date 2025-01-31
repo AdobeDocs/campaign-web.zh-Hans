@@ -16,7 +16,7 @@ ht-degree: 29%
 >id="acw_homepage_welcome_rn3"
 >title="AI 助手内容加速器"
 >abstract="AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营销活动变得直观、简单、轻松，同时还可节省时间、提高效率并带来更优质的结果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hans" text="请参阅发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
 >[!CONTEXTUALHELP]
