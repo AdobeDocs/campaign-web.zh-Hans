@@ -1,9 +1,9 @@
 ---
 title: 在 Campaign Web 中使用受 AI 助力的上下文帮助
 description: 在 Campaign Web 帮助弹出窗口中提问
-source-git-commit: eea1be08c1af02fbdf6d048f33e0279f0c42711d
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -77,5 +77,5 @@ Adobe Campaign Classic v7的支持将持续到2027年3月31日。 请访问[产�
 
 +++ 新Web用户界面是否有任何护栏或限制？
 
-可以在[此页面](../get-started/guardrails.md)中查看护栏和限制。
+[此处](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}列出了Campaign v8的护栏和限制。 此外，特定的护栏适用于Web用户界面中的工作流。 可以在[此页面](../get-started/guardrails.md)中查看它们。 另请参阅[Adobe Campaign Managed Cloud Services | 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 +++
