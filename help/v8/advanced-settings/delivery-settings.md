@@ -4,10 +4,10 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 46%
+source-wordcount: '2765'
+ht-degree: 45%
 
 ---
 
@@ -25,24 +25,16 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="类型"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的轮廓将排除在投放受众之外。在 Campaign 客户端控制台中创建类型和类型规则。"
+>abstract="分类允许您在所有投放中标准化业务实践。 类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="投放的类型设置"
->abstract="利用类型规则，营销人员可以标准化所有投放中的业务实践。类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，符合类型规则的轮廓将排除在投放受众之外。在 Campaign 客户端控制台中创建类型和类型规则。"
+>abstract="利用类型规则，您可以在所有投放中标准化业务实践。 类型是类型规则集合，可让您控制和筛选投放的发送并确定其优先级。在准备阶段，将从投放受众中排除符合类型规则中的条件的轮廓。"
 
-类型是在准备阶段执行的&#x200B;**类型规则**&#x200B;集，以便一次轻松将多个筛选规则应用于投放。 借助这些工具，营销人员可以标准化所有投放的业务实践，因为可以通过它们来控制、筛选投放并安排其发送优先级。
-
-将分类与消息或消息模板关联时，将执行包含在分类中的分类规则，以在消息准备期间检查投放的有效性。 然后，会从投放受众中排除与分类规则中标准匹配的用户档案。
-
-分类允许您确保投放始终包含特定元素（如退订链接或主题行）或用于从预期目标中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。
+类型是在准备阶段执行的&#x200B;**类型规则**&#x200B;集，以便一次轻松将多个筛选规则应用于投放。 借助这些工具，营销人员可以标准化所有投放的业务实践，因为他们可以控制、筛选投放投放并安排其发送优先级。 [了解如何创建类型和类型规则](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->分类和分类规则是在Campaign客户端控制台中创建的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hans){target="_blank"}以了解有关压力规则以及如何配置疲劳管理的更多信息。
 
 ### 压力参数 {#pressure-parameters}
 
