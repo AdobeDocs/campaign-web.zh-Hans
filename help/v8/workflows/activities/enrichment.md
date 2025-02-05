@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2071'
 ht-degree: 39%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 39%
 >title="扩充活动"
 >abstract="将扩充数据添加到工作流后，即可在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求将客户分成不同的组，或创建更有可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
-1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
+1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)
 
    您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接。 以下示例详细介绍了每种类型：
    * [单个扩充属性](#single-attribute)

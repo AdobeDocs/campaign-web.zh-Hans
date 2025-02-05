@@ -3,10 +3,10 @@ audience: end-user
 title: 创建内容片段
 description: 了解如何创建内容片段
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 27%
+source-wordcount: '1003'
+ht-degree: 25%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 27%
 
    >[!AVAILABILITY]
    >
-   >可视片段在有限可用性(LA)中。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
+   >可视片段需要更新到Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
 1. 单击&#x200B;**创建**&#x200B;按钮。
 

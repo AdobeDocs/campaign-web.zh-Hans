@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + 发行说明 {#release-notes}
    + [新增功能](rn/whats-new.md)
-   + [早期发行说明](rn/e-release-notes.md)
+   + [早期版本](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 之前版本 {#previous-release-notes}
       + [2024 版](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [浏览和筛选列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [使用文件夹](get-started/work-with-folders.md)
+   + [选择属性并将其添加到收藏夹](get-started/attributes.md)
    + [权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 100%
    + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
-   + [使用类型工作](msg/typologies.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + [配置电子邮件内容](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 100%
       + [创建事务性消息](transactional-messaging/create-transactional.md)
       + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
+   + [发送外部投放](msg/send-external-deliveries.md)
    + [将产品建议添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 100%
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
    + [配置外部帐户](administration/external-account.md)
+   + [使用类型工作](administration/typologies.md)
+   + [管理明细列表](administration/enumerations.md)
+   + [配置 [!DNL Campaign] 选项](administration/options.md)
+   + [使用JavaScript代码](administration/javascript-codes.md)
 + [Campaign v8（操作台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)

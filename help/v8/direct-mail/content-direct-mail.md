@@ -3,9 +3,9 @@ audience: end-user
 title: 设计直邮投放
 description: 了解如何使用Adobe Campaign Web设计直邮投放
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '573'
 ht-degree: 21%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 21%
 在&#x200B;**[!UICONTROL Content]**&#x200B;部分中，指定要显示在提取文件中的列。 为此，请执行以下步骤：
 
 1. 单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以创建新列。
-1. 选择要显示在列中的属性，然后进行确认。 请注意，您可以通过单击&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮，利用表达式编辑器选择要使用的属性。
+1. 选择要显示在列中的属性，然后进行确认。 请注意，您可以通过单击&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮，利用表达式编辑器选择要使用的属性。 [了解如何选择属性并将其添加到收藏夹](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

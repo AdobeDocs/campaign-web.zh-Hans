@@ -3,7 +3,7 @@ title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -87,13 +87,12 @@ ht-degree: 16%
    * **[!UICONTROL 如果选中，则订阅]**：用户需要选中复选框才能同意（选择加入）。
    * **[!UICONTROL 如果选中，则取消订阅]**：用户需要选中此框以移除其同意（选择退出）。
 
-   如果选择&#x200B;**[!UICONTROL 字段]**，请从属性列表中选择一个字段，然后在以下两个选项之间进行选择：
+   如果选择&#x200B;**[!UICONTROL 字段]**，请从[属性列表](../get-started/attributes.md)中选择一个字段，然后在以下两个选项之间进行选择：
 
    * 如果选中&#x200B;**[!UICONTROL 是]**.<!--TBC-->
-
    * 如果选中&#x200B;**[!UICONTROL 否]**.<!--TBC-->
 
-1. 您可以删除和添加尽可能多的字段（如文本字段、单选按钮、复选框、下拉列表等） 根据需要。
+1. 您可以根据需要删除和添加任意数量的字段（例如文本字段、单选按钮、复选框、下拉列表等）。
 
 1. 添加或更新所有字段后，单击&#x200B;**[!UICONTROL 行动号召]**&#x200B;展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。 [了解如何操作](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ ht-degree: 16%
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 展开并编辑与您可能添加的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分 到你的表格里。
+1. 展开并编辑与您可能已添加到表单的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分。
 
 1. 展开&#x200B;**[!UICONTROL 行动号召]**&#x200B;部分以修改组件表单中按钮的外观。 例如，您可以更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用提取文件工作流活动
 description: 了解如何使用提取文件工作流活动
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '885'
 ht-degree: 18%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 18%
 1. 指定要显示在提取文件中的列。 为此，请执行以下步骤：
 
    1. 单击&#x200B;**[!UICONTROL 添加输出列]**。
-   1. 选择要显示在列中的属性，然后进行确认。 可用属性取决于工作流的定向维度。
+   1. 选择要显示在列中的属性，然后进行确认。 可用属性取决于工作流的定向维度。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)
    1. 添加该列后，您可以更改其&#x200B;**[!UICONTROL 标签]**&#x200B;并修改关联的&#x200B;**[!UICONTROL 属性]**。
    1. 如果要将转换应用于列的值，请从下拉列表中选择它。 例如，可以将选定列中的所有值全部转换为大写。
 

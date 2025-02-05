@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“拆分工作流”活动
 description: 了解如何使用“拆分工作流”活动
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="“拆分”活动筛选条件"
->abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的配置文件。"
+>abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
@@ -44,7 +44,7 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="拆分生成补充"
+>title="拆分生成补集"
 >abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
@@ -93,7 +93,7 @@ ht-degree: 83%
 
       >[!NOTE]
       >
-      >在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。为此，请打开&#x200B;**[!UICONTROL 启用排序]**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。
+      >为子集设置群体限制时，您可以根据特定的[配置文件属性](../../get-started/attributes.md)，按升序或降序对选定的配置文件进行排名。 为此，请打开&#x200B;**[!UICONTROL 启用排序]**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。
 
 1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。
 
@@ -114,8 +114,8 @@ ht-degree: 83%
 
 在下面的示例中，**[!UICONTROL 拆分]**&#x200B;活动用于根据要使用的通信渠道将受众划分为不同的子集：
 
-* **子集 1“推送”**：此子集包含已安装我们的移动应用程序的所有配置文件。
-* **子集 2“短信”**：手机用户：对于未归入子集 1 的剩余群体，子集 2 应用筛选规则来选择数据库中带手机的配置文件。
-* **补充过渡**：此过渡捕获不符合子集 1 或子集 2 的条件的所有剩余配置文件。具体来说，它包括既没有安装移动应用程序也没有手机的配置文件，例如未安装移动应用程序或缺少注册的手机号码的用户。
+* **子集 1“推送”**：此子集包含已安装我们的移动应用程序的所有轮廓。
+* **子集 2“短信”**：手机用户：对于未归入子集 1 的剩余群体，子集 2 应用筛选规则来选择数据库中带手机的轮廓。
+* **补集过渡**：此过渡捕获不符合子集 1 或子集 2 的条件的所有剩余轮廓。具体来说，它包括既没有安装移动应用程序也没有手机的轮廓，例如未安装移动应用程序或缺少注册的手机号码的用户。
 
 ![](../assets/workflow-split-example.png)

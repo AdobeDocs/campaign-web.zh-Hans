@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 85%
 
 ---
 
@@ -20,25 +20,95 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [本页](release-notes-24.md)列出了以前版本中的变更和改进。
 
-## 2024 年 10 月版本 {#24-10-release}
+## 2025 年 1 月版本 {#25-1-release}
 
-**发行日期**：2024 年 10 月 29 日
+**发行日期**：2025 年 2 月 5 日
 
-自 10 月版本开始提供以下功能和改进。
+自 1 月版本开始可以使用以下功能和改进。
 
-### 功能
+### 功能 {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>外部帐户</strong><br/></th>
+<th><strong>创建并使用视觉片段</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以直接通过 Adobe Campaign Web 用户界面设置和管理外部帐户。此新功能可以轻松配置不同类型的外部帐户，例如退回电子邮件（POP3）或执行实例。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+<p>视觉片段是预定义的视觉块，您可以在多个电子邮件投放或内容模板中重复使用。此功能现已可供运行服务器版本 8.6.4 及更高版本的所有客户使用。</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>有关更多信息，请参阅<a href="../content/use-visual-fragments.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用第三方系统进行投放</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在此模式下，消息将编译到一个输出文件中，该文件可与外部提供商共享。 默认情况下，直邮渠道使用外部投放模式。</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>有关更多信息，请参阅<a href="../msg/send-external-deliveries.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>创建业务规则（类型规则）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在 Adobe Campaign 网络界面中创建类型和类型规则。类型是类型规则的集合，有助于控制、筛选和优先处理投放。类型可确保您的投放始终包含所需的元素（例如退订链接或主题行），并且可应用过滤规则以从目标受众中排除特定群体（例如取消订阅者、竞争对手或非忠诚客户）。</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>管理您的枚举</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接通过 Adobe Campaign 网络用户界面创建枚举。枚举是系统建议填充字段的值列表。使用枚举来标准化这些字段的值，有助于数据输入或在查询中使用。</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>创建自定义选项</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在 Adobe Campaign 网络用户界面中访问技术选项，并通过创建自己的自定义选项来满足您的需求。在使用 JavaScript 代码工作流活动存储中间数据时，这一点特别有用。</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <table>
 <thead>
 <tr>
-<th><strong>交易型消息传递</strong><br/></th>
+<th><strong>定义并调用 Javascript 代码</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>交易消息传递（消息中心）现已在 Campaign 网络用户界面中提供。此附加组件用于触发由信息系统触发的事件生成的消息，可以是：发票、订单确认、发货确认、密码更改、产品不可用通知、帐户报表、网站帐户创建等等。</p>
-<p>有关更多信息，请参阅<a href="../transactional-messaging/transactional.md">详细文档</a>。</p>
+<p>您现在可以在 Adobe Campaign 网络用户界面中创建 JavaScript 代码。这允许您创建可跨工作流使用的可重用函数，类似于库。</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>使用AI Assistant Content Accelerator生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>AI Assistant内容加速器现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>有关AI助理内容加速器的详细信息，请参阅<a href="../email/generative-gs.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### 改进
 
-* **工作流活动** - 您现在可以将活动及其所有子节点从工作流中的一个过渡移动到另一个过渡。活动的属性窗格中有一个专用的 **移动** 按钮可以执行此操作。[了解详情](../workflows/orchestrate-activities.md#move)
 
-* **工作流扩充活动**
+### 改进 {#25-1-improvements}
 
-   * 现在，您可以在 **扩充** 活动中创建新字段时定义别名和标签。[了解详情](../workflows/activities/enrichment.md#collection-settings)
-   * 您现在可以在 **扩充** 活动中为每个轮廓添加产品建议。[了解详情](../workflows/activities/enrichment.md##add-offers)
+* 定制界面中自定义字段的显示：
 
-* **值的分布**：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。专用的弹出窗口显示每个值的数字和百分比。[了解详情](../query/build-query.md#distribution-values-query)
+   * 您现在可以选择在界面中显示其他自定义字段
+   * 现在，您可以设置显示链接类型自定义字段的规则，例如根据另一个字段的输入限制列表值
+   * 现在，您可以更灵活地排列界面中的字段：字段可以跨越单个列，也可以分组到子部分中以更好地组织
+   * 现在，您可以将特定字段设置为只读
 
-* **版本和系统信息** - 您现在可以访问有关实例版本的详细信息，包括客户端控制台和 Web 用户界面。此新部分还列出了您的环境中安装的所有内置包。[了解详情](../get-started/user-interface.md#user-interface-about)
+* 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹中。这可以确保它们在未来的任务中易于访问。除了收藏夹，您还可以查看和使用最近选择的属性。
 
-* **列表** - 您现在可以轻松地重新排序列表的值。[了解详情](../get-started/work-with-folders.md)
-
-* **交付** - 现在可以从个性化字段访问交付变量。[了解详情](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* 外部帐户：在创建新的外部帐户时，可以选择新的&#x200B;**[!UICONTROL 路由]**&#x200B;类型。 它允许您配置特定的外部帐户以在外部投放中使用。 [了解详情](../administration/external-account.md#routing)

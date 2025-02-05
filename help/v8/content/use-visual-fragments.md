@@ -4,10 +4,10 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '570'
+ht-degree: 14%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->此功能在有限可用性(LA)中提供。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
+>此功能需要更新Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
-您可以在[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中使用可视片段。 步骤详见下文。 [了解如何创建和管理内容片段](fragments.md)。
+您可以在[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中使用可视片段。 步骤详见下文。
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>在[本节](fragments.md)中了解如何创建和管理内容片段。
 
 ## 使用可视片段 {#use-fragment}
 
@@ -34,11 +38,11 @@ ht-degree: 18%
 
 1. 使用[电子邮件Designer](../email/get-started-email-designer.md)打开任何电子邮件或模板内容。
 
-1. 从左边栏中选择&#x200B;**[!UICONTROL 碎片]**&#x200B;图标。
+1. 从左边栏中选择&#x200B;**[!UICONTROL 片段]**&#x200B;图标。
 
    ![](assets/fragments-in-designer.png)
 
-1. 此时会显示在当前沙箱中创建的所有可视片段列表。 您可以：
+1. 此时将显示在当前沙盒中创建的所有可视化片段的列表。 您可以：
 
    * 通过开始键入特定片段的标签来搜索该片段。
    * 按升序或降序对片段排序。
@@ -56,9 +60,9 @@ ht-degree: 18%
 
    ![](assets/fragment-right-pane.png)
 
-   从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
+   在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
 
-   * 选择要在其上显示片段的设备。
+   * 选择您希望片段显示的设备。
    * 单击&#x200B;**编辑内容**&#x200B;按钮以打开此片段的内容。 [了解详情](../content/fragments.md#edit-fragments)
 
      您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义片段。
@@ -73,11 +77,11 @@ ht-degree: 18%
 
 访问权限可能会应用于可视化片段。
 
-如果您没有特定可视片段的编辑权限，则内容模板将以&#x200B;**只读模式**&#x200B;显示。 在这种情况下，**[!UICONTROL 编辑内容]**&#x200B;按钮将替换为&#x200B;**[!UICONTROL 查看内容]**&#x200B;按钮，这样您无需进行任何更改即可查看片段。
+如果您没有特定可视化片段的编辑权限，则内容模板将以&#x200B;**只读模式**&#x200B;显示。 在这种情况下，**[!UICONTROL 编辑内容]**&#x200B;按钮将替换为&#x200B;**[!UICONTROL 查看内容]**&#x200B;按钮，从而允许您在不进行任何更改的情况下查看片段。
 
 ![](assets/fragment-readonly.png){zoomable="yes"}
 
-如下图所示，所有功能图标均已停用，仅允许查看交互。
+如下所示，所有功能图标都已停用，将交互限制为仅查看。
 
 ![](assets/fragment-readonly-view.png){zoomable="yes"}
 
@@ -97,4 +101,4 @@ ht-degree: 18%
 
    ![](assets/fragment-break-inheritance.png)
 
-1. 该片段成为不再链接到原始片段的独立元素。 可像编辑内容中的任何其他内容组件一样对其进行编辑。 [了解详情](../email/content-components.md)
+1. 该片段将成为不再链接到原始片段的独立元素。 可将其编辑为内容中的任何其他内容组件。 [了解详情](../email/content-components.md)

@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: ht
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -52,24 +52,24 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2024 年 10 月版本]
+>[!TAB  2025年1月版]
 
-10 月版本现已上线，包括交易型消息传递、外部帐户和更多改进。
+1月版现已推出，其中包括事务性消息传递、外部帐户等改进。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![了解详情按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI 助手内容加速器]
 
 ✨ 通过我们的 [AI 助手内容加速器](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
 
-[![图像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 值的分布]
+>[!TAB 常见问题解答]
 
-值的分布：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。
+有关Campaign Web用户界面的常见问题解答将列在新的专用页面中。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![了解详情按钮](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
@@ -92,7 +92,7 @@ ht-degree: 100%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的用户档案来自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
+    <div><strong>使您的内容生动活泼</strong><br/>了解如何根据您收集的轮廓来自定义内容，以使您的内容更具吸引力并提高其被阅读的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -125,7 +125,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>用户档案和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试用户档案</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
+      <strong>轮廓和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试轮廓</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
     </td>
   </tr>
 </table>

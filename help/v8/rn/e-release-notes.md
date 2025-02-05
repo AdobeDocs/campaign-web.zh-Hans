@@ -4,9 +4,9 @@ description: 了解下一版 Campaign Web 用户界面的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
-workflow-type: ht
-source-wordcount: '511'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <td>
 <p>您现在可以在 Adobe Campaign 网络界面中创建类型和类型规则。类型是类型规则的集合，有助于控制、筛选和优先处理投放。类型可确保您的投放始终包含所需的元素（例如退订链接或主题行），并且可应用过滤规则以从目标受众中排除特定群体（例如取消订阅者、竞争对手或非忠诚客户）。</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <td>
 <p>您现在可以直接通过 Adobe Campaign 网络用户界面创建枚举。枚举是系统建议填充字段的值列表。使用枚举来标准化这些字段的值，有助于数据输入或在查询中使用。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../administration/enumerations.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -102,7 +102,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <td>
 <p>您现在可以在 Adobe Campaign 网络用户界面中访问技术选项，并通过创建自己的自定义选项来满足您的需求。在使用 JavaScript 代码工作流活动存储中间数据时，这一点特别有用。</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../administration/options.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -120,7 +120,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <td>
 <p>您现在可以在 Adobe Campaign 网络用户界面中创建 JavaScript 代码。这允许您创建可跨工作流使用的可重用函数，类似于库。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../administration/javascript-codes.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

@@ -2,9 +2,9 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2024 Campaign Web 用户界面发布
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # 2024 年发行说明 {#2024-release}
 
 本页列出了 **2024 年版本**&#x200B;的所有变更和改进。最新发布说明可在 [此页面](release-notes.md)中查看。
+
+
+## 2024 年 10 月版本 {#24-10-release}
+
+**发行日期**：2024 年 10 月 29 日
+
+自 10 月版本开始提供以下功能和改进。
+
+### 功能
+
+<table>
+<thead>
+<tr>
+<th><strong>外部帐户</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接通过 Adobe Campaign Web 用户界面设置和管理外部帐户。此新功能可以轻松配置不同类型的外部帐户，例如退回电子邮件（POP3）或执行实例。</p>
+<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>交易型消息传递</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>交易消息传递（消息中心）现已在 Campaign 网络用户界面中提供。此附加组件用于触发由信息系统触发的事件生成的消息，可以是：发票、订单确认、发货确认、密码更改、产品不可用通知、帐户报表、网站帐户创建等等。</p>
+<p>有关更多信息，请参阅<a href="../transactional-messaging/transactional.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改进
+
+* **工作流活动** - 您现在可以将活动及其所有子节点从工作流中的一个过渡移动到另一个过渡。活动的属性窗格中有一个专用的 **移动** 按钮可以执行此操作。[了解详情](../workflows/orchestrate-activities.md#move)
+
+* **工作流扩充活动**
+
+   * 现在，您可以在 **扩充** 活动中创建新字段时定义别名和标签。[了解详情](../workflows/activities/enrichment.md#collection-settings)
+   * 您现在可以在 **扩充** 活动中为每个轮廓添加产品建议。[了解详情](../workflows/activities/enrichment.md##add-offers)
+
+* **值的分布**：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。专用的弹出窗口显示每个值的数字和百分比。[了解详情](../query/build-query.md#distribution-values-query)
+
+* **版本和系统信息** - 您现在可以访问有关实例版本的详细信息，包括客户端控制台和 Web 用户界面。此新部分还列出了您的环境中安装的所有内置包。[了解详情](../get-started/user-interface.md#user-interface-about)
+
+* **列表** - 您现在可以轻松地重新排序列表的值。[了解详情](../get-started/work-with-folders.md)
+
+* **交付** - 现在可以从个性化字段访问交付变量。[了解详情](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## 9 月更新 {#9-2024}
@@ -86,7 +146,7 @@ ht-degree: 100%
 
 ### 陷印组 {#24-7-2}
 
-**陷印组**&#x200B;是种子地址列表。它用于在您的投放中包含特定地址，然后定位不符合定义的目标标准的配置文件。这样，不在投放受众内的收件人就可以像其他目标收件人一样收到投放内容。您可以在发送校样或保护您的邮件列表时使用种子地址。[了解详情](../audience/trap-group.md)
+**陷印组**&#x200B;是种子地址列表。它用于在您的投放中包含特定地址，然后定位不符合定义的目标标准的轮廓。这样，不在投放受众内的收件人就可以像其他目标收件人一样收到投放内容。您可以在发送校样或保护您的邮件列表时使用种子地址。[了解详情](../audience/trap-group.md)
 
 ### 富推送通知模板 {#24-7-3}
 
@@ -118,7 +178,7 @@ ht-degree: 100%
 
 ### 改进 {#improvements-24-6}
 
-* **扩充活动中的协调**：**扩充**&#x200B;活动现在可用于协调来自 Campaign 数据库模式的数据与来自另一个模式的数据，或来自临时模式的数据（例如使用“加载”文件活动上传的数据）。例如，您可以使用此选项将上传文件中指定的配置文件的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。[了解更多信息](../workflows/activities/enrichment.md)
+* **扩充活动中的协调**：**扩充**&#x200B;活动现在可用于协调来自 Campaign 数据库架构的数据与来自另一个架构的数据，或来自临时架构的数据（例如使用“加载”文件活动上传的数据）。例如，您可以使用此选项将上传文件中指定的轮廓的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。[了解更多信息](../workflows/activities/enrichment.md)
 
 ## 5 月发行说明 {#24-5-release}
 
@@ -132,11 +192,11 @@ ht-degree: 100%
 
 ### 自定义字段 {#24-5-2}
 
-**自定义字段**&#x200B;是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在 Campaign Web 用户界面中，这些自定义字段现在可在各个屏幕中看到，例如配置文件或测试配置文件的详细信息。在 Web 用户界面中，您无法创建自定义字段，但现在您可以修改它们的显示方式。[了解更多信息](../administration/custom-fields.md)
+**自定义字段**&#x200B;是通过 Adobe Campaign 控制台添加到现成架构的附加属性。在 Campaign Web 用户界面中，这些自定义字段现在可在各个屏幕中看到，例如轮廓或测试轮廓的详细信息。在 Web 用户界面中，您无法创建自定义字段，但现在您可以修改它们的显示方式。[了解更多信息](../administration/custom-fields.md)
 
 ### 在表之间创建链接 {#24-5-3}
 
-您现在可以在&#x200B;**扩充**&#x200B;工作流活动中创建与另一个表的链接。使用活动参数中的新&#x200B;**链接定义**&#x200B;部分在工作表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则您现在可以创建指向该国家/地区表的链接，以便在其配置文件中更新此信息。[了解更多信息](../workflows/activities/enrichment.md#create-links)
+您现在可以在&#x200B;**扩充**&#x200B;工作流活动中创建与另一个表的链接。使用活动参数中的新&#x200B;**链接定义**&#x200B;部分在工作表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则您现在可以创建指向该国家/地区表的链接，以便在其轮廓中更新此信息。[了解更多信息](../workflows/activities/enrichment.md#create-links)
 
 ### 一般改进 {#improvements-24-5}
 
@@ -158,7 +218,7 @@ ht-degree: 100%
 **新工作流活动**
 
 * **更新数据**：使用此活动可以对数据库中的字段执行大规模更新。您可以利用多个选项，以个性化方式更新数据。[了解更多信息](../workflows/activities/update-data.md)
-* **订阅服务**：使用此活动可在单个操作中向服务订阅或取消订阅多个配置文件。[了解更多信息](../workflows/activities/subscription-services.md)
+* **订阅服务**：使用此活动可在单个操作中向服务订阅或取消订阅多个轮廓。[了解更多信息](../workflows/activities/subscription-services.md)
 * **提取文件**：使用此活动可以将 Adobe Campaign 中的数据作为外部文件导出到另一个系统。[了解更多信息](../workflows/activities/extract-file.md)
 * **传输文件**：使用此活动可以接收或发送文件、测试文件是否存在或列出服务器上的文件。使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。[了解更多信息](../workflows/activities/transfer-file.md)
 * **测试**：使用此活动可以根据指定的条件启用过渡。[了解更多信息](../workflows/activities/test.md)
@@ -185,7 +245,7 @@ ht-degree: 100%
 
 * **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans)
 
-* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对用户档案数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按用户档案维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hans)
+* **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hans)
 
 * **登陆页面**：登陆页面的以下改进仅适用于从 Campaign Standard 过渡的用户：
 

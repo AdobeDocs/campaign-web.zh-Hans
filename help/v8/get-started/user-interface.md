@@ -3,9 +3,9 @@ audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="执行初始化脚本"
 >abstract="执行初始化脚本"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="编辑自定义详细信息"
->abstract="编辑自定义详细信息"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="分隔符属性"
->abstract="分隔符属性"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="属性设置"
->abstract="属性设置"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="常规"
->abstract="常规"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="链接属性"
->abstract="链接属性布局"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="布局"
->abstract="布局"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="目标映射存储"
 >abstract="目标映射阻止存储"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="收藏夹和最近项目"
->abstract="收藏夹和最近项目"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="选项"
->abstract="选项"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="创建选项"
->abstract="创建选项"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript 代码"
->abstract="JavaScript 代码"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="创建 JavaScript 代码"
->abstract="创建 JavaScript 代码"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="明细列表"
->abstract="明细列表"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="属性"
->abstract="属性"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="明细列表值列表"
->abstract="明细列表值列表"

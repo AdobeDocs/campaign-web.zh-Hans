@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2242'
 ht-degree: 9%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 9%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >
->* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。
+>* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
 >* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
@@ -62,7 +62,7 @@ ht-degree: 9%
 
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 自定义条件]**。 自定义条件属性窗格将在右侧打开。
 
-1. 在&#x200B;**Attribute**&#x200B;字段中，从数据库中选择要用于创建条件的属性。 属性列表包含Campaign数据库中的所有属性，包括链接表中的属性。
+1. 在&#x200B;**Attribute**&#x200B;字段中，从数据库中选择要用于创建条件的属性。 属性列表包含Campaign数据库中的所有属性，包括链接表中的属性。 [了解如何选择属性并将其添加到收藏夹](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

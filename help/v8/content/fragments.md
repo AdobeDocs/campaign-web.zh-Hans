@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用内容片段
 description: 了解如何使用内容片段创建
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 69%
+source-wordcount: '423'
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 69%
 
   >[!AVAILABILITY]
   >
-  >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
+  >此功能需要更新Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
 ## 让我们深入探究
 
