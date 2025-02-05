@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 85%
+source-wordcount: '585'
+ht-degree: 83%
 
 ---
 
@@ -63,22 +63,24 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>创建业务规则（类型规则）</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Adobe Campaign 网络界面中创建类型和类型规则。类型是类型规则的集合，有助于控制、筛选和优先处理投放。类型可确保您的投放始终包含所需的元素（例如退订链接或主题行），并且可应用过滤规则以从目标受众中排除特定群体（例如取消订阅者、竞争对手或非忠诚客户）。</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
