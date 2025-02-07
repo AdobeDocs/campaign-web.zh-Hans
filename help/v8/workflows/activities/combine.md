@@ -76,7 +76,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**交叉点**。 为此，您需要执行以下额外步骤：
 
 1. 选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。请参阅[并集](#union)部分。
-1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。补充将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
+1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。补集将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
 
 ## 差集 {#combine-exclusion}
 
@@ -97,7 +97,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="合并生成补充"
+>title="合并生成补集"
 >abstract="开启“生成补集”选项以在额外的过渡中处理剩余群体。"
 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**排除项**。 为此，您需要执行以下额外步骤：

@@ -1,6 +1,6 @@
 ---
-title: 配置文件和受众入门
-description: 了解如何在 Campaign Web 中使用配置文件和受众
+title: 轮廓和受众入门
+description: 了解如何在 Campaign Web 中使用轮廓和受众
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
@@ -9,13 +9,13 @@ ht-degree: 100%
 
 ---
 
-# 用户档案和受众入门 {#about-profiles}
+# 轮廓和受众入门 {#about-profiles}
 
-在 Adobe Campaign Web 中，**用户档案**&#x200B;是存储在数据库中的记录，充当关键组件以创建投放受众和将个性化数据添加到内容。数据库中存储着&#x200B;**测试配置文件**（这些配置文件旨在将您的投放发送到最终受众之前测试投放）等各种类型的配置文件存储。
+在 Adobe Campaign Web 中，**轮廓**&#x200B;是存储在数据库中的记录，充当关键组件以创建投放受众和将个性化数据添加到内容。数据库中存储着&#x200B;**测试轮廓**（这些轮廓旨在将您的投放发送到最终受众之前测试投放）等各种类型的轮廓存储。
 
-**受众**&#x200B;是行为和/或特征相似的配置文件的集合。可生成、选择或加载这组人员。创建受众后，可将其作为您的投放的目标群体。
+**受众**&#x200B;是行为和/或特征相似的轮廓的集合。可生成、选择或加载这组人员。创建受众后，可将其作为您的投放的目标群体。
 
-此外，可使用 Adobe Campaign Web 管理和创建&#x200B;**服务**（如新闻稿）以及检查这些服务的订阅或取消订阅情况。完成后，即可添加订阅者、取消订阅配置文件以及将消息发送到您服务的订阅者。
+此外，可使用 Adobe Campaign Web 管理和创建&#x200B;**服务**（如新闻稿）以及检查这些服务的订阅或取消订阅情况。完成后，即可添加订阅者、取消订阅轮廓以及将消息发送到您服务的订阅者。
 
 既然您已了解可以在 Adobe Campaign Web 中做什么，现在应该仔细阅读这些文档章节以开始使用它。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="about-recipients.md"><strong>监控和管理配置文件</strong></a>
+<a href="about-recipients.md"><strong>监控和管理轮廓</strong></a>
 </div>
 <p>
 </td>

@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 25%
 
 * **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform中创建，并使用Adobe源和目标集成集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
 
-  ➡️[在视频中发现此功能](#video)
+  ➡️ [通过观看视频了解此功能](#video)
 
 要获取有关受众的更多信息，请从列表中将其打开。 此时将显示受众属性以及受众中包含的用户档案数。 您可以随时使用&#x200B;**[!UICONTROL 计算]**&#x200B;按钮刷新受众计数。
 

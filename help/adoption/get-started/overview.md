@@ -3,13 +3,13 @@ title: 从Campaign Standard过渡后的Adobe Campaign v8快速入门
 description: 了解开始使用新的Campaign v8应用程序所需的步骤
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 29%
 
 ---
-
 
 # 从 Campaign Standard 到 v8 {#ac-acs}
 
@@ -128,7 +128,7 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 
 为了让您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中有详细说明。
 
-* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对配置文件数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等配置文件维度进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
+* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对轮廓数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等轮廓维度进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 
 * **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
@@ -155,8 +155,8 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 此外，作为现有的Campaign用户，请注意，一些概念已重命名，以符合最新的术语标准。 这些更改仅适用于 Campaign Web 用户界面，并且不会反映在客户端控制台中。下面对它们进行了汇总。
 
-* 收件人现在改为&#x200B;**用户档案**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
-* 种子地址现在改为&#x200B;**测试用户档案**。[了解详情](../../v8/preview-test/test-deliveries.md)。
+* 收件人现在改为&#x200B;**轮廓**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
+* 种子地址现在改为&#x200B;**测试轮廓**。[了解详情](../../v8/preview-test/test-deliveries.md)。
 * 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../../v8/monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../../v8/preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
@@ -230,4 +230,3 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

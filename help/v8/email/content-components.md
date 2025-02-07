@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 65%
 
 ## 文本 {#text}
 
-使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
+使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式（边框、大小、内边距等等）。
 
 1. 从&#x200B;**[!UICONTROL 内容]**&#x200B;菜单中，将&#x200B;**[!UICONTROL 文本]**&#x200B;拖放到&#x200B;**[!UICONTROL 结构]**&#x200B;组件中。
 
@@ -115,8 +115,8 @@ ht-degree: 65%
    * **[!UICONTROL 显示源代码]**：显示文本的源代码。不能修改。
    * **[!UICONTROL 复制]**：添加文本组件的副本。
    * **[!UICONTROL 删除]**：从电子邮件中删除选定的文本组件。
-   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据中的内容。
-   * **[!UICONTROL 启用条件内容]**：添加条件内容以使组件内容适应目标配置文件。
+   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义轮廓数据中的内容。
+   * **[!UICONTROL 启用条件内容]**：添加条件内容以使组件内容适应目标轮廓。
 
 1. 从以下位置调整其他样式属性，例如文本颜色、字体系列、边框、内边距、边距等：从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
@@ -150,7 +150,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Assets菜单的访问仅限于拥有有效Adobe Experience Manager as a Cloud Service许可证的用户。 如果您没有此许可证，Assets菜单将不可用。
+>Assets菜单的访问仅限于拥有有效Adobe Experience Manager as a Cloud Service许可证的用户。 如果您没有此许可证，则 Assets 菜单将不可用。
 
 使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件可在电子邮件中插入计算机中的图像文件。
 

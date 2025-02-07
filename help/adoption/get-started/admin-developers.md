@@ -3,13 +3,13 @@ title: 开始使用面向管理员和开发人员的Adobe Campaign v8。
 description: 本教程概述了Campaign v8的主要管理和数据管理功能。 它面向从Campaign Standard迁移到Campaign v8的管理员和技术营销人员。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 7%
 
 ---
-
 
 # 管理员和开发人员快速入门 {#acs-gs-admin}
 
@@ -204,7 +204,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 与Campaign Standard一样，管理员可以创建订阅服务，营销人员可以向其订阅者发送消息。 关键概念和实施步骤与Campaign Standard保持一致。 您可以在下面找到有用的链接和视频。
 
-了解如何设置和管理订阅和定位订阅者。
+了解如何设置和管理订阅和锁定订阅者。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
@@ -305,4 +305,3 @@ MISSING LINKS:
 请注意，Campaign还可以与Adobe Experience Manager 6.5集成。要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard环境与&#x200B;**触发器**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}中所述。
 * 如果您的Campaign Standard环境与&#x200B;**Adobe Target**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}中所述。
-

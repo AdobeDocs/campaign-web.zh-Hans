@@ -34,7 +34,7 @@ ht-degree: 14%
 
 您还可以在下面列出的工作流和投放中使用其他内置目标映射：
 
-| 名称 | 使用至 | 模式 |
+| 名称 | 使用至 | 架构 |
 |---|---|---|
 | 收件人 | 投放到用户档案/收件人（内置收件人表） | nms：recipient |
 | 访客 | 向通过反向链接（病毒式营销）收集用户档案的访客投放，例如。 | mns：visitor |
@@ -42,6 +42,6 @@ ht-degree: 14%
 | 访客订阅 | 向订阅了信息服务的访客投放 | nms：visitorSub |
 | 运算符 | 交付给Adobe Campaign操作员 | nms：operator |
 | 外部文件 | 通过包含投放所需所有信息的文件投放 | 无链接架构，未输入目标 |
-| 订阅者申请 | 交付给订阅了应用程序的用户档案 | nms：appSubscriptionRcp |
+| 订阅者应用程序 | 交付给订阅了应用程序的用户档案 | nms：appSubscriptionRcp |
 
 此外，您可以根据需要创建新的目标映射。 此操作仅从客户端控制台执行。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。

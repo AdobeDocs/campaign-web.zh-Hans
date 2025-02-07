@@ -4,7 +4,7 @@ title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Adobe Campaign Web 用户界面提供了一个全面的图形环境以供设计�
 
 Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过滤数据库以根据各种条件选择特定目标的过程。可使用查询建模器：
 
-* 定义要在您的消息或工作流中定位的受众，并轻松地创建适合您需求的新受众
+* 定义要在您的消息或工作流中锁定的受众，并轻松地创建适合您需求的新受众
 * 在工作流活动中应用规则（如拆分和协调）以符合您的特定要求
 * 创建在各种过滤操作（无论您是使用数据列表还是生成投放的受众）期间充当快捷方式的预定义过滤器
 * 添加规则以筛选报告中显示的数据
@@ -85,13 +85,13 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 通过我们&#x200B;**多种多样的工作流活动**&#x200B;促进您的市场营销活动。发掘新的自动化和优化的可能性，并让您创建更加动态和个性化的客户历程。从高级分段到条件触发器，我们的附加工作流活动可让您投放有针对性的消息并增强营销活动效果。可在[此部分](../workflows/gs-workflows.md)中了解详情。
 
 
-**使用查询建模器定位受众**
+**使用查询建模器锁定受众**
 
 Adobe Campaign Web 的特色是&#x200B;**功能强大且直观的查询建模器**，它可简化过滤数据库以根据各种条件选择特定目标的过程。其中包括使用高级表达式和运算符。在每个需要定义规则以过滤数据的环境下都有查询建模器可用。可在[此部分](../query/query-modeler-overview.md)中了解详情。
 
-**轻松创建和管理配置文件**
+**轻松创建和管理轮廓**
 
-可使用新的 Campaign Web 用户界面直接从“收件人”菜单在数据库中&#x200B;**创建和更新收件人**。通过一个经过简化的配置文件编辑表单，无需使用客户端控制台，即可输入收件人的联系信息和属性以及更新现有收件人。可在[此部分](../audience/about-recipients.md)中了解详情。
+可使用新的 Campaign Web 用户界面直接从“收件人”菜单在数据库中&#x200B;**创建和更新收件人**。通过一个经过简化的轮廓编辑表单，无需使用客户端控制台，即可输入收件人的联系信息和属性以及更新现有收件人。可在[此部分](../audience/about-recipients.md)中了解详情。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -119,9 +119,9 @@ Ask questions and find guidance directly from the product user interface. The ne
 您现在可以在 Campaign 的电子邮件编辑器中&#x200B;**导入并转换任何 HTML 内容**。自动识别内容块，并可在电子邮件设计器中找到内容块：借助它强大的设计功能更新它和使它个性化！可在[此部分](../email/existing-content.md)中了解详情。
 
 
-**包含优惠的短信**
+**包含产品建议的短信**
 
-通过新的 Campaign Web 用户界面，除了电子邮件，还可&#x200B;**将优惠与短信集成**。在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成优惠的威力，改善您的市场营销效果。可在[此部分](../msg/offers.md)中了解详情。
+通过新的 Campaign Web 用户界面，除了电子邮件，还可&#x200B;**将产品建议与短信集成**。在移动设备上触达受众以投放促销和及时的通知。在我们先进的 Web 平台上通过短信发挥集成产品建议的威力，改善您的市场营销效果。可在[此部分](../msg/offers.md)中了解详情。
 
 ## 过渡到 Campaign Web 用户界面
 
@@ -139,8 +139,8 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 作为现有 Campaign 用户，请注意，已对一些概念进行重命名以符合最新的术语标准。这些更改仅适用于 Campaign Web 用户界面，并且不会反映在客户端控制台中。下面对它们进行了汇总。
 
-* 收件人现在改为&#x200B;**用户档案**。[了解详情](../audience/gs-audiences-recipients.md)。
-* 种子地址现在改为&#x200B;**测试用户档案**。[了解详情](../preview-test/test-deliveries.md)。
+* 收件人现在改为&#x200B;**轮廓**。[了解详情](../audience/gs-audiences-recipients.md)。
+* 种子地址现在改为&#x200B;**测试轮廓**。[了解详情](../preview-test/test-deliveries.md)。
 * 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。[了解详情](../audience/gs-audiences-recipients.md)。

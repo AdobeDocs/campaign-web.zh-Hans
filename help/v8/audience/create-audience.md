@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 **[!UICONTROL Origin]**&#x200B;列指示受众的来源： **[!UICONTROL Adobe Campaign]**&#x200B;受众已创建Adobe Campaign v8控制台或Web用户界面，而&#x200B;**[!UICONTROL Adobe Experience Platform：]**&#x200B;受众已在Adobe Experience Platform中创建，并使用Adobe源和目标集成集成集成到Campaign中。
 
-➡️[在视频中发现此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 创建您的第一个受众 {#create}
 

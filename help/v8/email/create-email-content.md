@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 71%
 
 使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过使用简单的拖放操作来添加和移动结构元素，可以在几秒钟内设计出电子邮件正文。
 
-➡️[在视频中发现此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 要开始构建电子邮件内容，请执行以下步骤。
 

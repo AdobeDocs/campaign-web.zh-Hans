@@ -1,5 +1,5 @@
 ---
-title: 浏览配置文件的详细信息
+title: 浏览轮廓的详细信息
 description: 了解如何浏览用户档案的详细信息。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
@@ -9,7 +9,7 @@ ht-degree: 10%
 
 ---
 
-# 浏览配置文件的详细信息 {#profile-view}
+# 浏览轮廓的详细信息 {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"

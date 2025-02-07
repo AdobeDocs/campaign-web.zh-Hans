@@ -4,7 +4,7 @@ title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 100%
 
@@ -122,11 +122,11 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 
 请参阅[此处](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hans){target="_blank"}的 Adobe Campaign v8（控制台）工作流文档，了解有关工作流活动的更多信息。
 
-## 优惠管理 {#offer-capabilities}
+## 产品建议管理 {#offer-capabilities}
 
-可在通过 Adobe Campaign Web 用户界面创建的投放中发送优惠。须在客户端控制台中使用&#x200B;**[!UICONTROL 互动]**&#x200B;模块创建这些优惠。优惠设计、资格规则和优惠管理仅在 Campaign 客户端控制台中可用。[了解详情](../msg/offers.md)
+可在通过 Adobe Campaign Web 用户界面创建的投放中发送产品建议。须在客户端控制台中使用&#x200B;**[!UICONTROL 互动]**&#x200B;模块创建这些产品建议。产品建议设计、资格规则和产品建议管理仅在 Campaign 客户端控制台中可用。[了解详情](../msg/offers.md)
 
-在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}中了解如何管理优惠目录。
+在 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}中了解如何管理产品建议目录。
 
 ## 与 Adobe Experience Cloud 解决方案集成 {#exc-capabilities}
 

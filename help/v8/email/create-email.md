@@ -22,7 +22,7 @@ ht-degree: 56%
 
 基于预定义的[设计模板](../email/create-email-templates.md)，电子邮件还根据客户配置文件属性提供个性化内容。
 
-➡️[在视频中发现此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 创建电子邮件投放 {#create-email}
 

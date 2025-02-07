@@ -1,13 +1,13 @@
 ---
 title: 配置 [!DNL Campaign] 选项
 description: 了解如何配置Campaign选项和创建自己的自定义选项。
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
 
 ---
-
 
 # 配置[!DNL Campaign]选项 {#options}
 

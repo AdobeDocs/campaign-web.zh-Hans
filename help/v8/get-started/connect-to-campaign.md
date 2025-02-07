@@ -102,7 +102,7 @@ Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
 * 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hans){target="_blank"} 的帮助
 * 检查您的产品通知
-* 编辑您的 Adobe 配置文件和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
+* 编辑您的 Adobe 轮廓和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
 ![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
@@ -126,11 +126,11 @@ Adobe Campaign Web 目前提供以下语言版本：
 * 繁体中文 - CHT
 
 
-在您的用户配置文件中指定的首选语言决定您的 Campaign Web 默认语言。它与 Campaign 服务器和客户端控制台的语言无关。
+在您的用户轮廓中指定的首选语言决定您的 Campaign Web 默认语言。它与 Campaign 服务器和客户端控制台的语言无关。
 
 要更改您的语言，请执行以下操作：
 
-1. 单击右上角的配置文件图标，然后选择&#x200B;**偏好设置**。
+1. 单击右上角的个人档案图标，然后选择&#x200B;**偏好设置**。
 1. 然后单击电子邮件地址下方显示的语言链接。
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
@@ -143,8 +143,8 @@ Adobe Campaign Web 目前提供以下语言版本：
 
 ## 深色和浅色主题 {#dark-theme}
 
-Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的配置文件图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
+Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的个人档案图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
 
-在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}中详述用户配置文件设置和帐户首选项。
+在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}中详述用户轮廓设置和帐户首选项。
 
 请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。

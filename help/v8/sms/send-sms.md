@@ -27,7 +27,7 @@ ht-degree: 14%
 
    ![](assets/sms_send_1.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 添加测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
+1. 单击&#x200B;**[!UICONTROL 添加测试轮廓]**&#x200B;以选择一个或多个测试轮廓。
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.

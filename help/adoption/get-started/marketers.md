@@ -6,8 +6,8 @@ level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2453'
+ht-degree: 17%
 
 ---
 
@@ -311,7 +311,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 >
 >* Adobe Campaign v8支持Android和iOS推送渠道。 要使用推送渠道过渡现有工作流和投放，请联系Adobe Campaign过渡经理。 了解有关[渠道设置](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}的更多信息。
 >
->* 请注意，适用于移动设备应用程序的SDK V4在几年前在Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被弃用。 [您应该已经过渡到Adobe Experience Platform SDK，该SDK与Campaign v8中使用的相同。
+>* 请注意，适用于移动设备应用程序的SDK V4在几年前在Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被弃用。 [您应该已经过渡到Adobe Experience Platform SDK，该版本与Campaign v8中的版本相同。
 > 
 
 ### 直邮 {#acs-gs-marketers-direct-mail}

@@ -1,5 +1,5 @@
 ---
-title: 创建配置文件
+title: 创建轮廓
 description: 了解如何在Campaign Web中创建用户档案。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
@@ -9,7 +9,7 @@ ht-degree: 48%
 
 ---
 
-# 创建配置文件 {#profiles}
+# 创建轮廓 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"

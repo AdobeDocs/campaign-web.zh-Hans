@@ -3,7 +3,8 @@ title: 将技术用户迁移到Adobe Developer控制台
 description: 了解如何将用户访问管理从Campaign Standard迁移到Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 2%
@@ -108,11 +109,3 @@ Adobe Campaign Standard和Campaign V8中使用了以下概念来实现用户访�
 * Adobe Experience Manager应用程序管理器
 
 * 中继帐户
- 
-
-
- 
-
- 
-
-

@@ -1,11 +1,12 @@
 ---
 keywords: Campaign Classic;home;popular topics
-description: Campaign Standard迁移到Campaign v8的用户，了解如何开始使用。
+description: Campaign Standard 用户正在过渡到 Campaign v8，了解如何开始使用。
 title: Adobe Campaign采用指南
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 53%
+ht-degree: 57%
 
 ---
 
@@ -93,4 +94,3 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 ## 其他资源
 
 [Adobe Campaign v8产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web用户界面文档](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hans){target="_blank"} - [Adobe Campaign客户端控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [客户端控制台Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} - [[!DNL Adobe Campaign] 自动化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hans){target="_blank"} - [Campaign v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans){target="_blank"}
-

@@ -1,19 +1,19 @@
 ---
-title: 开始使用配置文件
+title: 开始使用轮廓
 description: 了解如何在Campaign Web中监控和管理用户档案。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
-# 开始使用用户档案 {#profiles}
+# 开始使用轮廓 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="用户档案"
+>title="轮廓"
 >abstract="轮廓是接收 Adobe Campaign 发送的消息所针对的记录。从此列表中可根据您的权限查看轮廓详情。使用过滤选项浏览此列表。您可以编辑和更新轮廓的一小部分属性。"
 
 ## 什么是配置文件？ {#what}
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 用户档案和测试用户档案均可用于在投放到达目标受众之前对其进行测试。 这样，您就可以预览消息内容和个性化，发送验证以进行测试和验证，评估各种平台和设备中的电子邮件渲染情况，并测试您的登陆页面。 [了解如何预览和测试投放](../preview-test/preview-test.md)
 
-➡️[在视频中发现此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 访问配置文件列表 {#access}
 
