@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="编辑自定义详细信息"
->abstract="所选架构的界面中显示的所有自定义字段。 您可以使用上下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。 要删除自定义字段或编辑设置（如可见性条件），请单击省略号按钮。"
+>abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="常规"
->abstract="定义自定义字段的常规设置。 如果未提供标签，则将显示架构中定义的标签。 使用&#x200B;**Visible if**&#x200B;字段定义条件，该条件使用xtk表达式来控制字段的显示时间。 您还可以在界面中将字段标记为必填或只读。"
+>abstract="定义自定义字段的一般设置。如果没有提供标签，就会显示架构中定义的标签。使用 **Visible if** 字段，通过一个控制何时显示该字段的 xtk 表达式定义一个条件。您还可以在界面中将该字段标记为必填或只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="链接属性"
->abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据其他字段的输入限制列表值。"
+>abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。例如，根据另一个字段的输入限制列表值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="布局"
->abstract="默认情况下，自定义字段在界面中以两列显示。 启用此选项可跨屏幕全屏显示自定义字段而不是两列。"
+>abstract="默认情况下，自定义字段在界面中显示为两列。切换此选项可在屏幕的整个宽度上显示自定义字段，而不是两列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
 >title="分隔符属性"
->abstract="指定子部分界面中显示的名称。"
+>abstract="指定用于在界面中显示子部分的名称。"
 
 <!-- NOT USED IN THE UI?-->
 >[!CONTEXTUALHELP]
@@ -106,7 +106,7 @@ ht-degree: 3%
 * **[!UICONTROL 如果]**&#x200B;可见：使用控制字段显示时间的xtk表达式定义条件。 例如，如果其他字段为空，则隐藏此字段。
 * **[!UICONTROL 必填]**：在界面中将字段设为必填。
 * **[!UICONTROL 只读]**：将接口中的字段设为只读。 用户将无法编辑该字段的值。
-* **[!UICONTROL 筛选器设置]**（用于链接类型字段）：使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据其他字段的输入限制列表值。
+* **[!UICONTROL 筛选器设置]**（用于链接类型字段）：使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据另一个字段的输入限制列表值。
 
   您还可以使用语法`$(<field-name>)`引用在条件中其他字段输入的值。 这允许您引用在表单中输入的字段的当前值，即使它尚未保存到数据库也是如此。
 
@@ -118,7 +118,7 @@ ht-degree: 3%
 
 +++
 
-* **[!UICONTROL 跨两列]**：默认情况下，自定义字段在界面中以两列显示。 启用此选项可跨屏幕全屏显示自定义字段而不是两列。
+* **[!UICONTROL 跨两列]**：默认情况下，自定义字段在界面中以两列显示。 切换此选项可在屏幕的整个宽度上显示自定义字段，而不是两列。
 
 ## 组织子部分中的自定义字段 {#separator}
 

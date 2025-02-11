@@ -1,15 +1,15 @@
 ---
-title: 使用JavaScript代码
+title: 使用 JavaScript 代码工作
 description: 了解如何使用JavaScript代码。
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 使用JavaScript代码 {#javascript-codes}
+# 使用 JavaScript 代码工作 {#javascript-codes}
 
 <!-- JavaScript codes -->
 
