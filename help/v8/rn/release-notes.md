@@ -2,7 +2,7 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,6 +145,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tr>
 <td>
 <p>AI Assistant内容加速器现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>有关AI助理内容加速器的详细信息，请参阅<a href="../email/generative-lp.md">详细文档</a>。</p>
 </td>
 </tr>

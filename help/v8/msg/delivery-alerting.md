@@ -3,21 +3,15 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 19%
+source-wordcount: '306'
+ht-degree: 9%
 
 ---
 
 # 开始使用投放警报 {#gs-delivery-alerting}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="投放警报"
->abstract="投放警报现已在 Campaign 中推出。此功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。收件人可以监控Adobe Campaign处理的持续投放，并在出现问题时采取适当措施。
 

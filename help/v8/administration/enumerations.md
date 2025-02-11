@@ -1,15 +1,22 @@
 ---
-title: 管理明细列表
+title: 管理枚举
 description: 了解如何使用枚举
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 27%
 
 ---
 
-# 管理明细列表 {#enumerations}
+# 管理枚举 {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="创建明细列表"
+>abstract="您现在可以直接通过 Adobe Campaign 网络用户界面创建枚举。枚举是系统建议用于填充字段的值列表。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
@@ -19,12 +26,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="属性"
->abstract="定义枚举的属性，如名称、内部名称和类型。 **[!UICONTROL 已关闭的]**&#x200B;枚举具有只能从&#x200B;**[!UICONTROL 枚举]**&#x200B;菜单修改的固定值列表。 **[!UICONTROL 打开]**&#x200B;枚举允许用户直接基于此枚举在字段中添加新值。 **[!UICONTROL 系统]**&#x200B;枚举与系统字段相关联。 **[!UICONTROL 表情符号]**&#x200B;枚举用于更新表情符号列表。"
+>abstract="定义枚举的属性，例如其名称、内部名称和类型。**[!UICONTROL 封闭的]** 枚举有一个固定的值列表，只能从 **[!UICONTROL 枚举]** 菜单中更改该列表。**[!UICONTROL 开放的]** 枚举中，用户可以直接在基于此枚举的字段中添加新值。**[!UICONTROL 系统]** 枚举与系统字段相关。**[!UICONTROL 表情符号]** 枚举用于更新表情符号列表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="明细列表值列表"
->abstract="若要向枚举添加值，请单击&#x200B;**[!UICONTROL 添加值]**&#x200B;按钮，然后根据需要对其进行配置。"
+>abstract="要在枚举中添加值，请点击&#x200B;**[!UICONTROL 添加值]**&#x200B;按钮，然后根据需要进行配置。"
 
 ## 什么是明细列表？ {#about}
 
@@ -49,7 +56,7 @@ ht-degree: 10%
    * **[!UICONTROL 已关闭的]**&#x200B;枚举具有只能从&#x200B;**[!UICONTROL 枚举]**&#x200B;菜单修改的固定值列表。
    * **[!UICONTROL 打开]**&#x200B;枚举允许用户直接基于此枚举在字段中添加新值。
    * **[!UICONTROL 系统]**&#x200B;枚举与系统字段相关联。
-   * **[!UICONTROL 表情符号]**&#x200B;枚举用于更新表情符号列表。
+   * **[!UICONTROL 表情符号]** 枚举用于更新表情符号列表。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。此时将显示枚举详细信息，允许您向列表添加值。
 

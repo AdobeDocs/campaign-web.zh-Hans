@@ -3,20 +3,14 @@ audience: end-user
 title: 开始使用 AI 助手内容加速器
 description: AI Assistant内容加速器入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 29%
+source-wordcount: '797'
+ht-degree: 25%
 
 ---
 
 # 使用 AI 助手内容加速器  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="AI 助手内容加速器"
->abstract="AI 助手可以使通过电子邮件、SMS 和推送等渠道创建和执行营销活动变得直观、简单、轻松，同时还可节省时间、提高效率并带来更优质的结果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
 >[!CONTEXTUALHELP]

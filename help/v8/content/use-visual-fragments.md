@@ -4,26 +4,28 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '605'
 ht-degree: 14%
 
 ---
 
 # 将可视片段添加到电子邮件 {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="电子邮件可视化片段"
+>abstract="您现在可以创建并使用可视化片段。 这些是预定义的可视化块，您可以在多个电子邮件投放中或在内容模板中重复使用。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+
 >[!AVAILABILITY]
 >
 >此功能需要更新Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
-您可以在[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中使用可视片段。 步骤详见下文。
+在Campaign Web界面中，**可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中重复使用。 在[本节](fragments.md)中了解如何创建和管理内容片段。
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->在[本节](fragments.md)中了解如何创建和管理内容片段。
 
 ## 使用可视片段 {#use-fragment}
 
