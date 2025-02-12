@@ -6,11 +6,11 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 使用AI Assistant Content Accelerator生成登陆页面 {#generative-lp}
+# 使用 AI 助手内容加速器生成登陆页面 {#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"

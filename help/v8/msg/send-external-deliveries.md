@@ -6,16 +6,16 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
-# 发送外部投放 {#gs-direct-mail}
+# 发送外部交付 {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="创建外部投放"
->abstract="您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在此模式下，消息将编译到一个输出文件中，该文件可与外部提供商共享。 默认情况下，直邮渠道使用外部投放模式。"
+>abstract="您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在这种模式下，消息会被编译成一个输出文件，并可以与外部提供商共享。默认情况下，直邮渠道使用外部投放模式。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
