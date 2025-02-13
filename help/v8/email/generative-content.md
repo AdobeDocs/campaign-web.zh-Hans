@@ -1,36 +1,36 @@
 ---
 audience: end-user
 title: 创新型内容
-description: AI Assistant内容加速器入门
+description: AI助手入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1563'
 ht-degree: 1%
 
 ---
 
-# 使用AI Assistant内容加速器生成电子邮件 {#generative-content}
+# 使用 AI 助手生成电子邮件 {#generative-content}
 
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign Web中使用AI助手内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 
-创建并个性化电子邮件后，在由generative AI提供支持的Campaign中使用Adobe Campaign Web中的AI助手内容加速器，将您的内容提升到新的水平。
+创建并个性化电子邮件后，在由generative AI提供支持的Campaign中使用Adobe Campaign Web中的AI助手，将您的内容提升到新的水平。
 
-Adobe Campaign Web中的AI助手内容加速器可以生成整个电子邮件、目标文本内容，甚至可以生成专门定制以引起受众共鸣的图像，从而帮助您优化投放的影响。 这可以优化您的电子邮件促销活动，以提高参与度。
+Adobe Campaign Web中的AI助手可以生成整个电子邮件、有针对性的文本内容，甚至是通过特别定制以引起受众共鸣的图像来帮助您优化投放的影响。 这可以优化您的电子邮件促销活动，以提高参与度。
 
-通过电子邮件营销活动，您可以使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手内容加速器。
+通过电子邮件营销活动，您可以使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整电子邮件]
 
-在以下示例中，我们将利用Adobe Campaign Web中的AI助理内容加速器来优化现有电子邮件，并为特殊事件自定义现有电子邮件。
+在以下示例中，我们将利用Adobe Campaign Web中的AI助手来优化现有电子邮件，为特殊事件自定义它。
 
 1. 创建和配置电子邮件投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 

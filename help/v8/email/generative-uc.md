@@ -1,15 +1,15 @@
 ---
-title: 内容加速器用例的AI助手
-description: 通过用例了解如何使用内容加速器的AI Assistant
+title: AI 助手用例
+description: 通过用例了解如何使用AI助手
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
-# 内容加速器用例的AI助手 {#generative-uc}
+# AI 助手用例 {#generative-uc}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;部分。
 
-1. 打开内容加速器的AI助手中的&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;功能，根据您的投放详细信息（包括投放名称和目标受众）定制新内容。
+1. 打开AI助手中的&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;功能，根据您的投放详细信息（包括投放名称和目标受众）定制新内容。
 
 1. 通过在&#x200B;**[!UICONTROL 提示]**&#x200B;框中指定您的请求来调整内容，并根据需要自定义设置。
 
@@ -89,11 +89,11 @@ ht-degree: 0%
 
 1. 设置和配置投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 使用AI Assistant for Content Accelerator选择要修改的资产。
+1. 使用AI助手选择要修改的资源。
 
 1. 从右窗格菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
-1. 打开&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便内容加速器的AI助手可以使用引用材料生成新内容。
+1. 打开&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便AI助手可以使用引用材料生成新内容。
 
 1. 单击&#x200B;**[!UICONTROL 上传图像]**&#x200B;以包含将上下文添加到变体的图像。
 

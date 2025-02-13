@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 96%
+source-wordcount: '794'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + 发行说明 {#release-notes}
    + [新增功能](rn/whats-new.md)
-   + [早期版本](rn/e-release-notes.md)
+   + [提前发布](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 之前版本 {#previous-release-notes}
       + [2024 版](rn/release-notes-24.md)
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [创建事务性消息](transactional-messaging/create-transactional.md)
       + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
-   + [发送外部投放](msg/send-external-deliveries.md)
+   + [发送外部交付](msg/send-external-deliveries.md)
    + [将产品建议添加到您的消息](msg/offers.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
@@ -116,12 +116,12 @@ ht-degree: 96%
          + [调整垂直对齐方式和内边距](email/alignment-and-padding.md)
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
-   + AI 助手内容加速器 {#ai-assistant}
-      + [使用 AI 助手内容加速器](email/generative-gs.md)
+   + AI 助手 {#ai-assistant}
+      + [使用AI助手](email/generative-gs.md)
       + [使用 AI 生成电子邮件](email/generative-content.md)
       + [使用 AI 生成短信](email/generative-sms.md)
       + [使用 AI 生成推送通知](email/generative-push.md)
-      + [使用人工智能生成登陆页面](email/generative-lp.md)
+      + [使用 AI 生成登陆页面](email/generative-lp.md)
       + [AI 助手用例](email/generative-uc.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
@@ -229,8 +229,8 @@ ht-degree: 96%
 + 配置 {#conf}
    + [配置自定义字段](administration/custom-fields.md)
    + [配置外部帐户](administration/external-account.md)
-   + [使用类型工作](administration/typologies.md)
-   + [管理明细列表](administration/enumerations.md)
+   + [使用类型](administration/typologies.md)
+   + [管理枚举](administration/enumerations.md)
    + [配置 [!DNL Campaign] 选项](administration/options.md)
-   + [使用JavaScript代码](administration/javascript-codes.md)
+   + [使用 JavaScript 代码](administration/javascript-codes.md)
 + [Campaign v8（操作台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)

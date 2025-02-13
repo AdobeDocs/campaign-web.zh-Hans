@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: 使用AI Assistant内容加速器的推送通知
-description: AI Assistant内容加速器入门
+title: 使用AI助手推送通知
+description: AI助手入门
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
-# 使用AI Assistant内容加速器生成推送通知 {#generative-push}
+# 使用 AI 助手生成推送通知 {#generative-push}
 
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-AI Assistant内容加速器可以建议您更可能引起受众共鸣的不同内容，从而帮助您优化投放的影响。
+AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
 
 在以下示例中，我们将利用AI助手制作引人入胜的消息来打造更引人入胜的客户体验。
 

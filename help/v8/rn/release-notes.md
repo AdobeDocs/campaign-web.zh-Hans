@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 83%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在此模式下，消息将编译到一个输出文件中，该文件可与外部提供商共享。 默认情况下，直邮渠道使用外部投放模式。</p>
+<p>您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在这种模式下，消息会被编译成一个输出文件，并可以与外部提供商共享。默认情况下，直邮渠道使用外部投放模式。</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>有关更多信息，请参阅<a href="../msg/send-external-deliveries.md">详细文档</a>。</p>
 </td>
@@ -138,15 +138,15 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <table>
 <thead>
 <tr>
-<th><strong>使用AI Assistant Content Accelerator生成登陆页面</strong><br/></th>
+<th><strong>使用AI助手生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant内容加速器现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>AI助手现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>有关AI助理内容加速器的详细信息，请参阅<a href="../email/generative-lp.md">详细文档</a>。</p>
+<p>有关AI助手的详细信息，请参阅<a href="../email/generative-lp.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 * 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹中。这可以确保它们在未来的任务中易于访问。除了收藏夹，您还可以查看和使用最近选择的属性。
 
-* 外部帐户：在创建新的外部帐户时，可以选择新的&#x200B;**[!UICONTROL 路由]**&#x200B;类型。 它允许您配置特定的外部帐户以在外部投放中使用。 [了解详情](../administration/external-account.md#routing)
+* 外部账户：在创建新的外部账户时，可以选择新的&#x200B;**[!UICONTROL 路由]**&#x200B;类型。它允许您配置一个特定的外部帐户，以用于外部交付。[了解详情](../administration/external-account.md#routing)

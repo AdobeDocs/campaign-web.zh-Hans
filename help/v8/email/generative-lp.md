@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 具有AI Assistant Content Accelerator的登陆页面
-description: AI Assistant内容加速器入门
+title: 具有AI助理的登陆页面
+description: AI助手入门
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助手内容加速器生成登陆页面 {#generative-lp}
+# 使用AI助手生成登陆页面{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="使用AI生成登陆页面"
->abstract="您现在可以使用AI Assistant内容加速器创建登陆页面投放，从而生成文本、图像或完整的页面布局。"
+>abstract="您现在可以使用AI Assistant创建登陆页面投放，从而生成文本、图像或完整的页面布局。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-在Adobe Campaign Web中使用AI Assistant Content Accelerator，由创作AI提供支持，转换您的登陆页面。
+使用由创作AI提供支持的Adobe Campaign Web中的AI助手转换登陆页面。
 
 轻松创建有影响力的内容，包括完整的页面、量身定制的文本片段以及可与受众引起共鸣的自定义视觉效果，从而促进参与和互动。
 
-浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手内容加速器。
+浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整登陆页面]
 
-在以下示例中，我们将利用AI Assistant内容加速器来优化现有登陆页面模板。
+在以下示例中，我们将利用AI助手来优化现有登陆页面模板。
 
 1. 创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 >[!TAB 纯文本生成]
 
-在以下示例中，我们将利用AI助理内容加速器来增强登陆页面的内容。
+在以下示例中，我们将利用AI助手来增强登陆页面的内容。
 
 1. 创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -159,19 +159,19 @@ ht-degree: 2%
 
 >[!TAB 仅生成图像]
 
-在下面的示例中，了解如何利用AI Assistant内容加速器优化和改进资源，确保获得对用户更友好的体验。
+在下面的示例中，了解如何利用AI Assistant优化和改进资源，确保获得对用户更友好的体验。
 
 1. 创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
    有关如何配置登陆页面的详细信息，请参阅[此页面](../landing-pages/create-lp.md)。
 
-1. 选择要使用AI Assistant内容加速器更改的资产。
+1. 选择要使用AI助手更改的资源。
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. 为AI助手内容加速器启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
+1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 

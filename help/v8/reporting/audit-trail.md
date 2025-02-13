@@ -4,7 +4,7 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 要访问实例的&#x200B;**[!UICONTROL 审核跟踪]**，请执行以下操作：
 
-1. 在&#x200B;**[!UICONTROL 管理]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 审核跟踪]** 。
+1. 在&#x200B;**[!UICONTROL 管理]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 审核跟踪]**。
 
    ![](assets/audit-trail-1.png)
 

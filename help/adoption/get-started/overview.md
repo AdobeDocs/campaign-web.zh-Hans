@@ -4,9 +4,9 @@ description: 了解开始使用新的Campaign v8应用程序所需的步骤
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供了云原生的敏捷性，使您能够加快实现价值并适应不断变化的业务需求。 此集成不仅增强了您的内容管理功能，还允许您在所有接触点上向客户提供更加个性化和引人入胜的体验。
 
-* **AI助手 — 内容加速器**
+* **AI助手**
 
   Campaign AI Assistant可以在电子邮件、短信和推送等渠道中创建和执行营销活动，操作直观、简单且轻松，同时还能节省时间、提高效率和产生更好的结果。
 
@@ -105,7 +105,7 @@ ht-degree: 29%
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/email/generative-content.md)中了解有关AI Assistant — 内容加速器的更多信息。 Adobe Campaign v8具有AI助手，可用于[电子邮件](../../v8/email/generative-content.md)、[短信](../../v8/email/generative-sms.md)和[推送](../../v8/email/generative-push.md)。
+  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/email/generative-content.md)中了解有关AI助手的详细信息。 Adobe Campaign v8具有AI助手，可用于[电子邮件](../../v8/email/generative-content.md)、[短信](../../v8/email/generative-sms.md)和[推送](../../v8/email/generative-push.md)。
 
 * **已升级的SMS基础架构 — SMS v2.0**
 

@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 91%
+source-wordcount: '456'
+ht-degree: 93%
 
 ---
 
@@ -52,24 +52,24 @@ ht-degree: 91%
 >[!BEGINTABS]
 
 
->[!TAB  2025年1月版]
+>[!TAB 2025 年 1 月版本]
 
-1月版现已推出，其中包括事务性消息传递、外部帐户等改进。
+1 月版本现已上线，其中包括交易型消息传递、外部帐户和更多改进。
 
-[![了解详情按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI 助手内容加速器]
+>[!TAB AI助手]
 
-✨ 通过我们的 [AI 助手内容加速器](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
+✨使用我们的[AI Assistant](../v8/email/generative-gs.md)实时功能预览体验亲身体验，旨在让您亲身体验其功能并充分了解其功能。
 
 [![了解更多按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常见问题解答]
 
-有关Campaign Web用户界面的常见问题解答将列在新的专用页面中。
+有关 Campaign Web 用户界面的常见问题已列在新的专用页面中。
 
-[![了解详情按钮](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
