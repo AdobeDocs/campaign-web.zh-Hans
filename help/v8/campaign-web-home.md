@@ -54,7 +54,7 @@ ht-degree: 93%
 
 >[!TAB 2025 年 1 月版本]
 
-1 月版本现已上线，其中包括交易型消息传递、外部帐户和更多改进。
+1 月版本现已上线，其中包括交易型消息、外部帐户和更多改进。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
