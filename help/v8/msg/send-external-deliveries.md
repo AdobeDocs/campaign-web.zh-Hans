@@ -10,7 +10,7 @@ ht-degree: 16%
 
 ---
 
-# 发送外部交付 {#gs-direct-mail}
+# 发送外部投放 {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
