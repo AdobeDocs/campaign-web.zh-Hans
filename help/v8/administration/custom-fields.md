@@ -2,10 +2,10 @@
 title: 自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 25%
+source-wordcount: '925'
+ht-degree: 24%
 
 ---
 
@@ -68,9 +68,11 @@ ht-degree: 25%
 
    使用筛选器窗格中的&#x200B;**[!UICONTROL 可编辑]**&#x200B;筛选器快速识别具有自定义字段的架构。
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. 单击位于架构名称旁边的铅笔图标可访问其自定义字段。 在此示例中，我们要为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加字段。
+1. 在列表中选择架构名称以将其打开。 详细的架构视图显示[了解架构详细信息](../administration/schemas.md)。 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;按钮以访问自定义字段。 在此示例中，我们要为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加字段。
+
+   ![](assets/custom-fields-edit.png)
 
 1. 架构显示界面中显示的自定义字段列表。 在此处，“CRM ID”字段在用户档案的详细信息屏幕中可见，并且已标记为必填字段。
 
@@ -78,9 +80,9 @@ ht-degree: 25%
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. 若要向界面添加自定义字段，请单击屏幕右上角的&#x200B;**[!UICONTROL 添加]**&#x200B;按钮，然后选择以下选项之一：
+1. 要向界面添加自定义字段，请单击省略号按钮，然后选择以下选项之一：
 
-   * **[!UICONTROL 自定义属性]**：选择一个或多个自定义字段以在界面中显示。
+   * **[!UICONTROL 选择自定义字段]**：选择一个或多个自定义字段以在界面中显示。
    * **[!UICONTROL 自动填写自定义字段列表]**：将为该架构定义的所有自定义字段添加到该界面。
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ ht-degree: 25%
    * **将字段设为必填**：选中&#x200B;**必填**&#x200B;复选框。
    * **编辑字段设置**：单击省略号按钮并选择&#x200B;**[!UICONTROL 编辑]**。 [了解详情](#settings)
    * **删除字段**：单击省略号按钮并选择&#x200B;**[!UICONTROL 删除]**。
-   * **在界面中将字段组织为子部分**：单击&#x200B;**[!UICONTROL 添加]**&#x200B;并选择&#x200B;**[!UICONTROL 分隔符]**。 [了解详情](#separator)
+   * **在界面中将字段组织为子部分**：单击上下箭头旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 添加分隔符]**。 [了解详情](#separator)
 
 ## 配置自定义字段设置 {#settings}
 
@@ -124,7 +126,7 @@ ht-degree: 25%
 
 Campaign Web用户界面允许您添加分隔符，以便将界面中的自定义字段分组以提高可读性。 为此，请执行以下步骤：
 
-1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 分隔符]**。
+1. 单击上下箭头旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 添加分隔符]**。
 
 1. 代表分隔符的新行将添加到列表中。 单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以命名子部分。
 

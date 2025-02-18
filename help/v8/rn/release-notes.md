@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 75%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 [本页](release-notes-24.md)列出了以前版本中的变更和改进。
+
+## 2025年2月版 {#25-2-release}
+
+**发行日期**：2025 年 2 月 18 日
+
+从2月版本开始，将提供以下功能和改进。
+
+### 功能 {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>创建业务规则（类型规则）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 通过分类，您可以控制、过滤投放投放并设置其优先级。 分类用于验证投放始终包含强制性组件（如退订链接或主题行）或用于从受众中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>目标映射</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在Campaign Web用户界面中创建目标映射。 目标映射定义如何将不同的投放渠道（电子邮件、短信、推送通知）链接到架构的数据字段。 通过目标映射，您可以定义目标受众：用户档案、合同受益人、操作员、订阅者、潜在客户等。</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>有关更多信息，请参阅<a href="../administration/target-mappings.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>架构详细信息</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以通过在列表中选择架构名称来访问架构的详细信息。 自定义字段版本现在可从架构详细信息中提供的<b>编辑自定义字段</b>按钮访问。</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>有关更多信息，请参阅<a href="../administration/schemas.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025 年 1 月版本 {#25-1-release}
 
@@ -62,25 +121,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### 改进 {#25-1-improvements}
