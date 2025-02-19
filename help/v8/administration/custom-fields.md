@@ -2,10 +2,10 @@
 title: 自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="链接属性"
->abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。例如，根据另一个字段的输入限制列表值。"
+>abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。例如，根据其他字段的输入限制列表值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -38,6 +38,7 @@ ht-degree: 24%
 >abstract="指定用于在界面中显示子部分的名称。"
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="属性设置"
@@ -108,7 +109,7 @@ ht-degree: 24%
 * **[!UICONTROL 如果]**&#x200B;可见：使用控制字段显示时间的xtk表达式定义条件。 例如，如果其他字段为空，则隐藏此字段。
 * **[!UICONTROL 必填]**：在界面中将字段设为必填。
 * **[!UICONTROL 只读]**：将接口中的字段设为只读。 用户将无法编辑该字段的值。
-* **[!UICONTROL 筛选器设置]**（用于链接类型字段）：使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据另一个字段的输入限制列表值。
+* **[!UICONTROL 筛选器设置]**（用于链接类型字段）：使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据其他字段的输入限制列表值。
 
   您还可以使用语法`$(<field-name>)`引用在条件中其他字段输入的值。 这允许您引用在表单中输入的字段的当前值，即使它尚未保存到数据库也是如此。
 
