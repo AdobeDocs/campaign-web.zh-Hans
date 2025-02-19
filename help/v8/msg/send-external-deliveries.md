@@ -3,20 +3,14 @@ audience: end-user
 title: 外部投放入门
 description: 了解如何使用Adobe Campaign Web创建和发送外部投放
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 16%
+source-wordcount: '465'
+ht-degree: 7%
 
 ---
 
 # 发送外部投放 {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="创建外部投放"
->abstract="您现在可以在 Campaign 网络界面中定义外部投放和外部投放模板。在这种模式下，消息会被编译成一个输出文件，并可以与外部提供商共享。默认情况下，直邮渠道使用外部投放模式。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
 Adobe Campaign允许您处理在Campaign之外创建的投放，以便通过外部系统批量投放个性化电子邮件、短信消息或推送通知(iOs和Android)。

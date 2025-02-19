@@ -3,14 +3,21 @@ audience: end-user
 title: 使用业务规则（类型）
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1449'
 ht-degree: 22%
 
 ---
 
 # 使用业务规则（类型） {#typologies}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="业务规则"
+>abstract="现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 通过分类，您可以控制、过滤投放投放并设置其优先级。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

@@ -2,20 +2,14 @@
 title: 配置 [!DNL Campaign] 选项
 description: 了解如何配置Campaign选项和创建自己的自定义选项。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
 # 配置[!DNL Campaign]选项 {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="创建自定义选项"
->abstract="您现在可以创建自己的技术自定义选项以满足您的需求。 在使用&#x200B;**JavaScript代码**&#x200B;工作流活动存储中间数据时，此功能特别有用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

@@ -2,7 +2,7 @@
 title: 管理枚举
 description: 了解如何使用枚举
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 27%
@@ -12,7 +12,7 @@ ht-degree: 27%
 # 管理枚举 {#enumerations}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="创建明细列表"
 >abstract="您现在可以直接通过 Adobe Campaign 网络用户界面创建枚举。枚举是系统建议用于填充字段的值列表。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"

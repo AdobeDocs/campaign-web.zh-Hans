@@ -1,14 +1,21 @@
 ---
 title: 管理目标映射
 description: 了解如何管理目标映射。
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 管理目标映射 {#target-mappings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="目标映射"
+>abstract="您现在可以在Campaign Web用户界面中创建目标映射。 目标映射定义如何将不同的投放渠道（电子邮件、短信、推送通知）链接到架构的数据字段。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

@@ -4,20 +4,14 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '573'
 ht-degree: 14%
 
 ---
 
 # 将可视片段添加到电子邮件 {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="电子邮件可视化片段"
->abstract="您现在可以创建并使用可视化片段。 这些是预定义的可视化块，您可以在多个电子邮件投放中或在内容模板中重复使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!AVAILABILITY]
 >

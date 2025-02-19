@@ -1,19 +1,27 @@
 ---
 title: 使用架构
 description: 了解如何使用架构。
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # 使用架构 {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="使用架构"
+>abstract="您现在可以通过在列表中选择架构名称来访问架构的详细信息。 自定义字段版本也可以通过&#x200B;**编辑自定义详细信息**&#x200B;按钮访问。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="架构"
->abstract="**[!DNL Adobe Campaign]**&#x200B;使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 在此屏幕中，可以查看所有现有架构。 筛选器可用于帮助优化列表，例如仅显示可编辑的架构。"
+>abstract="**[!DNL Adobe Campaign]**&#x200B;使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 在此屏幕中，您可以查看所有现有架构，并通过在列表中选择架构名称来访问架构的详细信息。 筛选器可用于帮助优化列表，例如仅显示可编辑的架构。"
 
 ## 关于架构 {#about}
 
