@@ -1,10 +1,11 @@
 ---
 title: 使用架构
 description: 了解如何使用架构。
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="使用架构"
->abstract="您现在可以通过在列表中选择架构名称来访问架构的详细信息。 自定义字段版本也可以通过&#x200B;**编辑自定义详细信息**&#x200B;按钮访问。"
+>abstract="现在，您可以通过在列表中选择某个架构的名称来访问该架构的详细信息。还可以通过&#x200B;**编辑自定义详细信息**&#x200B;按钮访问自定义字段版本。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="架构"
->abstract="**[!DNL Adobe Campaign]**&#x200B;使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 在此屏幕中，您可以查看所有现有架构，并通过在列表中选择架构名称来访问架构的详细信息。 筛选器可用于帮助优化列表，例如仅显示可编辑的架构。"
+>abstract="**[!DNL Adobe Campaign]** 使用基于 XML 的架构定义应用程序内数据的物理和逻辑结构。在这个屏幕上您可以查看所有现有架构，并通过在列表中选择一个架构的名称访问该架构的详细信息。过滤器可用于帮助细化列表，例如仅显示可编辑的架构。"
 
 ## 关于架构 {#about}
 
-**[!DNL Adobe Campaign]**&#x200B;使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 架构是链接到数据库表的XML文档，该数据库表定义：
+**[!DNL Adobe Campaign]** 使用基于 XML 的架构定义应用程序内数据的物理和逻辑结构。架构是链接到数据库表的XML文档，该数据库表定义：
 
 * SQL表结构（表名、字段、关系）。
 * XML数据结构（元素、属性、层次结构、类型、默认值、标签）。
@@ -46,7 +47,7 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 
 ![](assets/schemas-list.png)
 
-在此屏幕中，可以查看所有现有架构。 筛选器可用于帮助优化列表，例如仅显示可编辑的架构。
+在此屏幕中，可以查看所有现有架构。 过滤器可用于帮助细化列表，例如仅显示可编辑的架构。
 
 要打开架构，请选择其名称。 将显示一个详细的架构视图。
 

@@ -1,10 +1,11 @@
 ---
 title: 管理目标映射
 description: 了解如何管理目标映射。
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="目标映射"
->abstract="您现在可以在Campaign Web用户界面中创建目标映射。 目标映射定义如何将不同的投放渠道（电子邮件、短信、推送通知）链接到架构的数据字段。"
+>abstract="您现在可以在 Campaign Web 用户界面中创建目标映射。目标映射定义了不同的投放渠道（电子邮件、SMS、推送）如何链接到一个架构的数据字段。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -32,17 +33,17 @@ ht-degree: 3%
 
 有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
-## 创建目标映射 {#create-mapping}
+## 创建一个目标映射 {#create-mapping}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="目标映射属性"
->abstract="**[!UICONTROL 属性]**&#x200B;部分允许您定义目标映射和目标群体的常规设置。"
+>abstract="您可以在&#x200B;**[!UICONTROL 属性]**&#x200B;部分定义目标映射和目标群体的通用设置。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="目标映射映射"
->abstract="**[!UICONTROL 映射]**&#x200B;部分允许您标识目标映射的架构中要用于各种投放地址字段的属性。"
+>abstract="您可以在&#x200B;**[!UICONTROL 映射]**&#x200B;部分识别目标映射模式中的哪些属性用于不同的投放地址字段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -52,7 +53,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="目标映射存储"
->abstract="**[!UICONTROL 存储]**&#x200B;部分允许您识别必须存储日志的位置。"
+>abstract="您可以在&#x200B;**[!UICONTROL 存储]**&#x200B;部分识别日志必须存储在哪里。"
 
 要创建新的目标映射，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 目标映射]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建映射]**&#x200B;按钮，然后按照以下部分中详述的步骤操作。
 
