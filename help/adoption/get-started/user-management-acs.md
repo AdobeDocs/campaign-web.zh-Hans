@@ -4,7 +4,7 @@ description: 了解如何将用户访问管理从Campaign Standard迁移到Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 2%
@@ -89,7 +89,9 @@ Adobe Campaign Standard和Campaign V8中使用了以下概念来实现用户访�
 由于&#x200B;**项目**&#x200B;在Campaign V8中视为&#x200B;**文件夹**，因此可以采用与任何其他文件夹相同的方式管理其访问权限。 迁移后，Campaign Standard管理员可以执行以下步骤：
 
 1. 在资源管理器中，右键单击任意文件夹并选择&#x200B;**[!UICONTROL 属性……]**。
+
 1. 导航到&#x200B;**[!UICONTROL 安全]**&#x200B;选项卡。
+
 1. 根据所需的访问模型修改操作员组权限。 
 
 ## 用于访问REST API的产品配置文件映射 
