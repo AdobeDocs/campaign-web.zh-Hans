@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2024 Campaign Web 用户界面发布
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>完成消息制作和定制后，使用Adobe Campaign Web中的AI助手将其提升到新的级别。 使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
+<p>在精心制作并定制您的信息后，使用 Adobe Campaign Web 中的 AI 助手将其提升到一个新的水平。使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
 <p>通过<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力</a>。</p>
 <p>有关更多信息，请参阅<a href="../email/generative-gs.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

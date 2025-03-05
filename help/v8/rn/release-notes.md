@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [本页](release-notes-24.md)列出了以前版本中的变更和改进。
 
-## 2025年2月版 {#25-2-release}
+## 2025 年 2 月版本 {#25-2-release}
 
 **发行日期**：2025 年 2 月 18 日
 
-从2月版本开始，将提供以下功能和改进。
+自 2 月版本开始可以使用以下功能和改进。
 
 ### 功能 {#25-2-features}
 
@@ -37,7 +37,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在Adobe Campaign Web用户界面中创建分类和分类规则。 通过分类，您可以控制、过滤投放投放并设置其优先级。 分类用于验证投放始终包含强制性组件（如退订链接或主题行）或用于从受众中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
+<p>您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型，您可以控制和筛选投放的发送并确定其优先顺序。类型用于验证投放是否始终包含强制组件（如退订链接或主题行）或过滤规则，以从您的受众中排除群组（如取消订阅者、竞争对手或非忠诚客户）。</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
 </td>
@@ -54,7 +54,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Campaign Web用户界面中创建目标映射。 目标映射定义如何将不同的投放渠道（电子邮件、短信、推送通知）链接到架构的数据字段。 通过目标映射，您可以定义目标受众：用户档案、合同受益人、操作员、订阅者、潜在客户等。</p>
+<p>您现在可以在 Campaign Web 用户界面中创建目标映射。目标映射定义了不同的投放渠道（电子邮件、SMS、推送）如何链接到一个架构的数据字段。目标映射有助于您定义目标受众：个人资料、合同受益人、运营商、订阅者、潜在客户等。</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>有关更多信息，请参阅<a href="../administration/target-mappings.md">详细文档</a>。</p>
 </td>
@@ -71,7 +71,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过在列表中选择架构名称来访问架构的详细信息。 自定义字段版本现在可从架构详细信息中提供的<b>编辑自定义字段</b>按钮访问。</p>
+<p>现在，您可以通过在列表中选择某个架构的名称来访问该架构的详细信息。现在可以通过架构详细信息中的<b>编辑自定义字段</b>按钮访问自定义字段版本。</p>
 <img src="assets/do-not-localize/schemas.gif">
 <p>有关更多信息，请参阅<a href="../administration/schemas.md">详细文档</a>。</p>
 </td>
@@ -177,15 +177,15 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <table>
 <thead>
 <tr>
-<th><strong>使用AI助手生成登陆页面</strong><br/></th>
+<th><strong>使用 AI 助手生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI助手现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>AI 助手现在可用于您的登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>有关AI助手的详细信息，请参阅<a href="../email/generative-lp.md">详细文档</a>。</p>
+<p>有关 AI 助手的更多信息，请参阅<a href="../email/generative-lp.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

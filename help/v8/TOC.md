@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 98%
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
    + AI 助手 {#ai-assistant}
-      + [使用AI助手](email/generative-gs.md)
+      + [使用 AI 助手](email/generative-gs.md)
       + [使用 AI 生成电子邮件](email/generative-content.md)
       + [使用 AI 生成短信](email/generative-sms.md)
       + [使用 AI 生成推送通知](email/generative-push.md)
