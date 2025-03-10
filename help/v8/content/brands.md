@@ -5,7 +5,7 @@ description: 了解如何创建和管理品牌指南
 hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -104,6 +104,6 @@ ht-degree: 1%
 
    ![](assets/brands_5.png)
 
-现在，可从AI助手菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南，使其生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](gs-generative.md)
+现在，可从AI助手菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南，使其生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
