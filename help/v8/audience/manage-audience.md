@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="您可以在此处找到受众内轮廓的总数。单击&#x200B;**“计算”**&#x200B;按钮，可更新并重新计算受众结果。"
+>abstract="您可以在此处找到受众内轮廓的总数。单击&#x200B;**计算**&#x200B;按钮，可更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
@@ -40,7 +40,7 @@ ht-degree: 27%
 
 * **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中创建。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform中创建，并使用Adobe源和目标集成集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform内创建，并已通过Adobe Sources与Destinations集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
 
   ➡️ [通过观看视频了解此功能](#video)
 
@@ -58,4 +58,4 @@ ht-degree: 27%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有关如何设置Adobe源和目标集成的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。
+有关如何设置Adobe Sources与Destinations集成的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="在此页面中，您可以访问工作流或独立投放中可定位的所有受众列表。点击&#x200B;**“创建”**，在可视化画布中创建新的受众。<br/><br/>除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众、用外部属性充实受众，或根据所选择的规则将其划分为多个受众。"
+>abstract="在此页面中，您可以访问工作流或独立投放中可定位的所有受众列表。单击&#x200B;**创建**，在可视化画布中创建新的受众。<br/><br/>除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众、用外部属性充实受众，或根据所选择的规则将其划分为多个受众。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ Campaign Web允许您在可视工作流画布中创建新受众。 除了从头�
 
 创建工作流后，生成的受众将自动与现有受众一起存储在Campaign数据库中。 然后，可以在工作流或独立投放中定位这些受众。
 
-**[!UICONTROL Origin]**&#x200B;列指示受众的来源： **[!UICONTROL Adobe Campaign]**&#x200B;受众已创建Adobe Campaign v8控制台或Web用户界面，而&#x200B;**[!UICONTROL Adobe Experience Platform：]**&#x200B;受众已在Adobe Experience Platform中创建，并使用Adobe源和目标集成集成集成到Campaign中。
+**[!UICONTROL Origin]**&#x200B;列指示受众的来源： **[!UICONTROL Adobe Campaign]**&#x200B;受众已创建Adobe Campaign v8控制台或Web用户界面，而&#x200B;**[!UICONTROL Adobe Experience Platform：]**&#x200B;受众已在Adobe Experience Platform中创建，并使用Adobe Sources与Destinations集成集成到Campaign中。
 
 ➡️ [通过观看视频了解此功能](#video)
 
