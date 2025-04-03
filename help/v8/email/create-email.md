@@ -3,10 +3,10 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 56%
+source-wordcount: '1493'
+ht-degree: 51%
 
 ---
 
@@ -162,6 +162,10 @@ ht-degree: 56%
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定用例中已禁用。 本节](#content-simulation-limitations)中详细介绍了[的限制。
+
 1. 在左侧，选择要用于预览电子邮件的轮廓。
 
    右侧窗格显示基于所选轮廓的电子邮件预览。如果已添加多个轮廓，则可以在它们之间进行切换来预览相应的电子邮件。
@@ -190,6 +194,37 @@ ht-degree: 56%
    ![](assets/proof-sent.png){zoomable="yes"}
 
    您可以随时通过单击模拟内容屏幕中的&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮来检查发送状态并访问已发送的校样。
+
+## 内容模拟限制 {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="不支持内容模拟"
+>abstract="**模拟内容**&#x200B;按钮已禁用，因为多语言投放仅包含一个区域设置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="不支持内容模拟"
+>abstract="**模拟内容**&#x200B;按钮已禁用，因为它与此阶段的已协调投放不兼容。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="不支持内容模拟"
+>abstract="已禁用&#x200B;**模拟内容**&#x200B;按钮，因为Campaign企业完全联合访问(FFDA)模式不支持该按钮。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="不支持内容模拟"
+>abstract="**模拟内容**&#x200B;按钮已禁用，因为未上载任何内容。"
+
+在某些情况下，您无法执行内容模拟，并且&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮已禁用。
+
+在以下情况下不支持内容模拟：
+
+<!--* When a multilingual delivery contains only one locale,-->
+* 使用协调的投放，
+* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
+* 未上传任何文件时。
 
 ## 发送和监控电子邮件 {#prepare-send}
 
