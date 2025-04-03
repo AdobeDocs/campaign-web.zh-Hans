@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 51%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定用例中已禁用。 本节](#content-simulation-limitations)中详细介绍了[的限制。
+   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节](#content-simulation-limitations)中详细介绍了[的限制。
 
 1. 在左侧，选择要用于预览电子邮件的轮廓。
 
@@ -195,7 +195,7 @@ ht-degree: 51%
 
    您可以随时通过单击模拟内容屏幕中的&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮来检查发送状态并访问已发送的校样。
 
-## 内容模拟限制 {#content-simulation-limitations}
+### 内容模拟限制 {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
