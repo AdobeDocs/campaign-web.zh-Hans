@@ -15,12 +15,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。主要在目标选择活动之后且在允许使用目标数据的活动之前使用。"
+>abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。主要在目标市场选择活动之后且在允许使用目标数据的活动之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="删除重复项活动"
->abstract="删除&#x200B;**重复项活动可让您删除**&#x200B;入站活动结果中的重复项。主要在目标选择活动之后且在允许使用目标数据的活动之前使用。"
+>abstract="删除&#x200B;**重复项活动可让您删除**&#x200B;入站活动结果中的重复项。主要在目标市场选择活动之后且在允许使用目标数据的活动之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"

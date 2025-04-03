@@ -19,8 +19,8 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="“更改维度”活动"
->abstract="通过此活动，可在构建受众时更改目标选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
+>title="更改维度活动"
+>abstract="通过此活动，可在构建受众时更改目标市场选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
 **更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 

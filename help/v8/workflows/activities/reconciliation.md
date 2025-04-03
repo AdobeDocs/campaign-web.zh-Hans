@@ -43,12 +43,12 @@ ht-degree: 45%
 >[!NOTE]
 >协调操作意味着链接维度的数据已在数据库中。  例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
 
-## 配置”协调“活动 {#reconciliation-configuration}
+## 配置协调活动 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="目标选择维度"
->abstract="选择新的目标选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标选择维度。"
+>title="目标市场选择维度"
+>abstract="选择新的目标市场选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标市场选择维度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -58,8 +58,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="选择目标选择维度"
->abstract="选择要协调的入站数据的目标选择维度。"
+>title="选择目标市场选择维度"
+>abstract="选择要协调的入站数据的目标市场选择维度。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目标选择维度"
 
 >[!CONTEXTUALHELP]
@@ -76,7 +76,7 @@ ht-degree: 45%
 
 1. 将&#x200B;**协调**&#x200B;活动添加到您的工作流中。 应在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后添加此活动。
 
-1. 选择新的目标选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
+1. 选择新的目标市场选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
 
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 

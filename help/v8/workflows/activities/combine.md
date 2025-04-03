@@ -14,7 +14,7 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="”合并“活动"
+>title="合并活动"
 >abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 **合并**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
@@ -27,7 +27,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。
 * **差集**&#x200B;可根据特定条件从一个群体中排除某些元素。
 
-## 配置“合并”活动 {#combine-configuration}
+## 配置合并活动 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -58,7 +58,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
->title="“协调”选项"
+>title="协调选项"
 >abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**合并**。 为此，您需要选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项：

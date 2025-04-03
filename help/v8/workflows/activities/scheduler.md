@@ -15,7 +15,7 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="“调度程序”活动"
+>title="调度程序活动"
 >abstract="通过&#x200B;**调度程序**&#x200B;活动，可安排何时开始工作流。应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。"
 
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 * 如果要在工作流中发送一次性投放，可以添加调度程序活动并将其设置为运行&#x200B;**一次**。 您还可以在投放设置中定义&#x200B;**计划**。
 * 如果要在工作流中发送定期投放，则需要使用&#x200B;**调度程序**&#x200B;活动并设置执行频率。 循环投放活动不允许您定义计划。
 
-## 配置”调度程序“活动 {#scheduler-configuration}
+## 配置调度程序活动 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
