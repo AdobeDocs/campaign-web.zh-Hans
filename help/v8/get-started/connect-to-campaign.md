@@ -2,10 +2,10 @@
 title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
 要登录到 Adobe Experience Cloud，请遵循以下基本步骤：
 
-1. 浏览到 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
+1. 浏览到[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
 
-1. 使用您的 Adobe ID 或 Enterprise ID 登录。请参阅[此文章](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"}以了解有关 Adobe 身份类型的更多信息。
+1. 使用您的 Adobe ID 或 Enterprise ID 登录。在[本文](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"}中详细了解Adobe的身份类型。
 
    登录到 Experience Cloud 后，您可以快速访问所有解决方案和应用程序。
 
@@ -31,7 +31,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
+   在[本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target="_blank"}中详细了解Adobe Experience Cloud中的组织。
 
 
 ## 访问 Adobe Campaign {#access-to-campaign}
@@ -100,7 +100,7 @@ Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。
 * 分享有关 Campaign Web 用户界面的反馈
 * 在组织之间切换
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换
-* 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hans){target="_blank"} 的帮助
+* 在[Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hans){target="_blank"}上搜索帮助
 * 检查您的产品通知
 * 编辑您的 Adobe 轮廓和管理设置，如[更新您的常用语言](#language-pref)或[切换到浅色/深色主题](#dark-theme)
 
@@ -134,17 +134,10 @@ Adobe Campaign Web 目前提供以下语言版本：
 1. 然后单击电子邮件地址下方显示的语言链接。
 1. 选择您的首选语言并单击&#x200B;**保存**。如果您使用的组件未本地化为您的首选语言，可以选择第二语言。
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## 深色和浅色主题 {#dark-theme}
 
 Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的个人档案图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用/禁用它。
 
-在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}中详述用户轮廓设置和帐户首选项。
+用户配置文件设置和帐户首选项在[此部分](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}中有详细说明。
 
-请参阅[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans){target="_blank"}以了解有关 Experience Cloud 中央界面组件的更多信息。
+了解[此文档](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans){target="_blank"}中有关Experience Cloud中心接口组件的详细信息。
