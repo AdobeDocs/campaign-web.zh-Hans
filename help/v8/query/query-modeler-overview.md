@@ -27,7 +27,7 @@ ht-degree: 20%
 >title="细化目标"
 >abstract="这些规则只能在客户端控制台中进行更改。"
 
-Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. 它确保与在客户端控制台中创建的查询完全兼容，从而促进到Web用户界面的无缝过渡。
+Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据各种标准筛选数据库的过程。 它确保与在客户端控制台中创建的查询完全兼容，从而促进到Web用户界面的无缝过渡。
 
 此外，查询建模器可以高效地管理非常复杂和长的查询，提供增强的灵活性和精确度。 此外，它支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 
@@ -37,16 +37,16 @@ Adobe Campaign Web user interface features a query modeler that simplifies the p
 
 | 使用情况 | 示例 |
 |  ---  |  ---  |
-| **Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Customize workflow activities**: apply rules within workflow activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more on workflow activities](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you&#39;re working with data lists or forming the audience for a delivery. [Learn how to work with predefined filters](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **筛选报表数据**：添加规则以筛选报表中显示的数据。 [Learn how to work with reports](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **定义受众**：指定要在消息或工作流中定位的群体，并轻松创建根据您的需求定制的新受众。 [了解如何构建受众](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自定义工作流活动**：在工作流活动中应用规则（如&#x200B;**拆分**&#x200B;和&#x200B;**协调**）以符合您的特定要求。 [了解有关工作流活动的更多信息](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **预定义筛选器**：创建预定义筛选器，这些筛选器可在各种筛选操作期间用作快捷键，无论您是使用数据列表还是组成投放的受众。 [了解如何使用预定义过滤器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **筛选报表数据**：添加规则以筛选报表中显示的数据。 [了解如何使用报表](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **自定义列表**：创建自定义规则以筛选显示在列表中的数据，如收件人、投放列表等。 [了解如何筛选列表](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **生成条件内容**：通过创建条件来定义应该向不同收件人显示哪些内容，从而生成动态的电子邮件内容，确保发送个性化的相关消息。 [了解如何生成条件内容](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
->When accessing an object created in the client console where rules have been applied such as an audience or a predefined filter, the **[!UICONTROL Refine target]** section may display. This means that additional parameters have been configured to refine the rule target. These parameters can be modified in the console only.
+>访问在客户端控制台中创建的对象（已应用规则）时，如受众或预定义过滤器，可能会显示&#x200B;**[!UICONTROL 优化目标]**&#x200B;部分。 这意味着已配置其他参数来优化规则目标。 这些参数只能在控制台中修改。
 >
 >![](assets/target-warning.png){zoomable="yes"}
 
