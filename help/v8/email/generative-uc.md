@@ -2,9 +2,9 @@
 title: AI 助手用例
 description: 通过用例了解如何使用AI助手
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 使用现有内容
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![演示如何通过AI助手重用现有内容](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 设置投放后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -31,17 +31,17 @@ ht-degree: 1%
 
 1. 浏览可用的&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;全屏查看所选变体。
 
-定义内容、受众和计划后，便可以准备投放。
+定义内容、受众和计划后，请准备投放。
 
 ## 优化变量
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![使用AI助手优化内容变体的演示](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 设置和配置投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
 1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
-1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中输入所需请求并修改设置，以调整内容。
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中输入所需的请求来调整内容，并根据需要修改设置。
 
 1. 准备就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中，转到&#x200B;**[!UICONTROL 优化]**&#x200B;选项以进行进一步自定义，包括：
 
-   * **[!UICONTROL 用作引用内容]**：所选变量将用作引用以生成更多内容。
+   * **[!UICONTROL 用作引用内容]**：所选变量用作引用，以生成更多内容。
 
    * **[!UICONTROL 细节]**：让AI助手在某些点上扩展，提供更深入和详细的信息，以提高参与度。
 
@@ -59,13 +59,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 使用更简单的语言]**：使用AI Assistant简化语言，以确保消息清晰且所有读者都可以访问。
 
-   此外，您可以调整内容的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
+   此外，调整内容的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-1. 找到正确的内容后，单击&#x200B;**[!UICONTROL 选择]**。
+1. 内容准备就绪后，单击&#x200B;**[!UICONTROL 选择]**。
 
 ## 生成类似图像
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![使用AI助手生成类似图像的演示](assets/do-not-localize/uc-image-similar.gif)
 
 1. 设置投放后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 上载样式引用
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![上传AI助手样式引用的演示](assets/do-not-localize/uc-image-reference.gif)
 
 1. 设置和配置投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 

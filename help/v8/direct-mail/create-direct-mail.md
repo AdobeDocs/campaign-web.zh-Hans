@@ -3,10 +3,10 @@ audience: end-user
 title: 创建直邮投放
 description: 了解如何使用Adobe Campaign Web创建直邮投放
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 19%
+source-wordcount: '502'
+ht-degree: 17%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 19%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-   ![](assets/dm-create.png){zoomable="yes"}
+   ![显示直邮投放创建的屏幕快照](assets/dm-create.png){zoomable="yes"}
 
-1. 为投放输入&#x200B;**[!UICONTROL 标签]**&#x200B;并访问&#x200B;**[!UICONTROL 其他选项]**&#x200B;下拉列表。 如果您的投放基于扩展架构，则特定&#x200B;**自定义选项**&#x200B;字段可用。
+1. 为投放输入&#x200B;**[!UICONTROL 标签]**，并访问&#x200B;**[!UICONTROL 其他选项]**&#x200B;下拉列表。 如果您的投放基于扩展架构，则特定&#x200B;**自定义选项**&#x200B;字段可用。
 
-   ![](assets/dm-properties.png){zoomable="yes"}
+   ![显示直邮投放属性配置的屏幕截图](assets/dm-properties.png){zoomable="yes"}
 
    +++根据您的要求配置以下设置。
    * **[!UICONTROL 内部名称]**：为投放分配一个唯一标识符。
@@ -41,7 +41,7 @@ ht-degree: 19%
    * [了解如何选择现有受众](../audience/add-audience.md)
    * [了解如何创建新受众](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable="yes"}
+   ![显示直邮投放受众选择的屏幕截图](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,16 +51,16 @@ ht-degree: 19%
 
 1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以定义要导出到提取文件中的信息（列）。 [了解详情](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable="yes"}
+   ![显示直接邮件投放内容编辑的屏幕截图](assets/dm-content.png){zoomable="yes"}
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，提取文件将在您定义的确切日期和时间自动生成。 [了解如何计划投放](../msg/gs-deliveries.md#gs-schedule)。
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，提取文件会在您定义的确切日期和时间自动生成。 [了解如何计划投放](../msg/gs-deliveries.md#gs-schedule)。
 
    >[!NOTE]
    >
-   >在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 请参阅[此页面](../workflows/activities/scheduler.md)以了解详情。
+   >在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 在[此页面](../workflows/activities/scheduler.md)上了解详情。
 
 1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;可访问与您的投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable="yes"}
+   ![显示直邮投放高级设置的屏幕截图](assets/dm-settings.png){zoomable="yes"}
 
 1. 直邮投放就绪后，单击&#x200B;**[!UICONTROL 审阅并发送]**&#x200B;按钮以验证并发送投放并生成提取文件。 [了解如何预览和发送直邮投放](send-direct-mail.md)

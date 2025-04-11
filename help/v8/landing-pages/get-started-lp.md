@@ -4,10 +4,10 @@ title: 登陆页面入门
 description: 了解 Campaign Web 中的登陆页面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 借助 [!DNL Adobe Campaign]，您可以创建、设计和共享登陆页面。
 
-在营销活动上下文中，登陆页面是一个独立的网页，访客单击投放内容或网站中的链接后，会被定向到该页面。
+在营销活动的上下文中，登陆页面是一个独立的网页，访客在单击投放或网站中的链接后会被定向到该页面。
 
-借助登陆页面，可将用户定向到在线表单，用户可从中更新其数据，选择启用/禁用接收通信，或订阅特定服务（如新闻稿）。
+通过登陆页面，您可以将用户定向到在线表单，他们可以在其中更新数据、选择加入或退出接收您的通信，或订阅特定服务（如新闻稿）。
 
 >[!CAUTION]
 >
 >在 Campaign Web 用户界面中创建的登陆页面与从客户端控制台创建的 Web 窗体不同。无法在 Campaign Web 用户界面中显示或编辑在客户端控制台中创建的 Web 窗体。
 >
->要了解有关 Web 窗体的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}。
+>在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}中了解有关Web窗体的更多信息。
 
 登陆页面的主要功能如下所示：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="潜在客户" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="使用预填充模板创建登陆页面" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>创建登陆页面</strong>
 </div>
@@ -45,7 +45,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="不频繁" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="为用户设置订阅服务" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>创建订阅服务</strong></a>
@@ -53,7 +53,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="验证" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="设计响应式登陆页面" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>设计登陆页面</strong></a>
@@ -62,7 +62,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="验证" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="使用登陆页面的内容模板" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>使用内容模板</strong></a>

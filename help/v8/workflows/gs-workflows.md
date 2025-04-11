@@ -3,10 +3,10 @@ audience: end-user
 title: 工作流入门
 description: 了解如何开始使用工作流
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '313'
+ht-degree: 23%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 ## 什么是工作流？
 
-跨渠道营销对于任何寻求有效接触客户的企业来说至关重要。Adobe Campaign 提供了一个全面的图形环境以供您设计复杂流程，从而帮助您轻松管理营销活动。
+跨渠道营销对于任何旨在有效接触客户的企业都至关重要。 Adobe Campaign提供了一个全面的图形环境，允许您设计复杂的流程来轻松管理营销活动。
 
-利用工作流，您可以协调所有流程和任务，加快营销活动的各个方面的速度并扩大其规模（从创建细分和准备邮件到投放）。此外，您可以通过一个易于使用的界面来使渠道同步，以进行营销活动编排。
+借助工作流，您可以编排各种流程和任务，从创建区段、准备消息到投放，提高营销活动各个方面的速度和规模。 此外，您还可以使用单个易于使用的界面来同步渠道，以进行营销活动编排。
 
-使用工作流的最显著优势之一是，可以轻松地跨所有渠道向客户投放个性化内容。无论您的客户是希望通过电子邮件还是手机接收消息，Adobe Campaign 都能让您在任何渠道上提供一致的上下文体验，将每个客户的历程转变为独特体验。
+工作流的一个主要优势是，它们能够简化跨所有渠道向客户交付个性化内容的过程。 无论客户更喜欢通过电子邮件还是移动设备接收消息，Adobe Campaign都可以确保在任何渠道上获得一致的情境式体验，从而将每位客户的历程转化为独特的体验。
 
 ## 工作流的实际使用
 
-工作流非常通用，可用于各种上下文，包括用于管理受众或发送消息的定位、用于操作数据的数据管理 (ETL)，以及将数据导入 Adobe Campaign 数据库。
+工作流具有高度通用性，适用于各种上下文，包括定位以管理受众或发送消息，数据管理(ETL)以操作数据，以及将数据导入Adobe Campaign数据库。
 
-借助 Adobe Campaign 全面的图形环境，可以设计分段、营销活动执行、文件处理等流程。工作流也可让用户参与进来，方法是为他们分配任务或让他们批准已执行的任务，从而更轻松地管理团队的工作，并确保正确完成所有工作。
+使用Adobe Campaign的图形环境，您可以设计分段、活动执行和文件处理等流程。 工作流还涉及用户，具体方式是分配任务或要求批准已执行的任务，从而简化团队管理并确保准确性。
 
-以下是有关如何将工作流与 Adobe Campaign 结合使用的一些示例：
+以下是工作流如何与Adobe Campaign一起使用的一些示例：
 
 * 启动面向不活跃客户的后续营销活动，
 * 向服务的所有新订阅者发送欢迎电子邮件，
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 让我们深入探究
 
-既然您已了解工作流是什么以及在 Adobe Campaign 中可使用工作流做什么，现在应该仔细阅读这些文档章节以开始使用该功能。
+现在您已经了解了Adobe Campaign中的工作流程及其功能，可浏览以下文档部分以开始使用此功能。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="潜在客户" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="创建并运行您的第一个工作流" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong>创建并运行您的第一个工作流</strong>
 </div>
@@ -56,7 +56,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="不常见" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="使用工作流活动" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>使用工作流活动</strong></a>

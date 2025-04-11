@@ -3,12 +3,13 @@ audience: end-user
 title: 短信投放入门
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 97%
 
 ---
+
 
 # 短信投放入门 {#sms}
 
@@ -27,7 +28,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="潜在客户" src="assets/do-not-localize/create_sms.png">
+<img alt="创建短信投放" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>创建短信投放</strong>
 </div>
@@ -35,7 +36,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="不常见" src="assets/do-not-localize/design_sms.png">
+<img alt="设计短信投放" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>设计短信投放<strong></strong></a>
@@ -43,7 +44,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="验证" src="assets/do-not-localize/send_sms.png">
+<img alt="发送短信投放" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>发送短信投放</strong></a>
@@ -52,7 +53,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="验证" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="短信投放报告" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>短信投放报告</strong></a>

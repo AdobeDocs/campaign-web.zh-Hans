@@ -3,9 +3,9 @@ audience: end-user
 title: 使用AI助手推送通知
 description: AI助手入门
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---
@@ -17,49 +17,49 @@ ht-degree: 3%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
-AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮助您优化投放的影响。
+AI Assistant通过建议可与受众引起共鸣的不同内容，帮助优化投放的影响。
 
-在以下示例中，我们将利用AI助手制作引人入胜的消息来打造更引人入胜的客户体验。
+在以下示例中，利用AI Assistant来制作引人注目的消息，以创建更具吸引力的客户体验。
 
 1. 创建和配置推送通知投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-   有关如何配置推送投放的详细信息，请参阅[此页面](../push/create-push.md)。
+   有关配置推送投放的详细信息，请参阅[此页面](../push/create-push.md)。
 
 1. 访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![显示“显示AI助手”菜单的屏幕快照](assets/push-genai-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
-1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
+1. 通过描述您要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，微调内容。
 
-   如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供各种提示想法以改进投放。
+   如果创作提示时需要帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法以改进投放。
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![显示提示库界面的屏幕截图](assets/push-genai-2.png){zoomable="yes"}
 
-1. 选择要生成的字段：**[!UICONTROL 标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
+1. 选择要生成的字段： **[!UICONTROL 标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
+   * **[!UICONTROL 音调]**：调整电子邮件的音调以便与受众产生共鸣。 无论您想获得信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
 
-   ![](assets/push-genai-3.png){zoomable="yes"}
+   ![显示文本设置选项的屏幕快照](assets/push-genai-3.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
-   * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
-   * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
-   * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
-   * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
+   * **[!UICONTROL 内容类型]**：对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
+   * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置(2)产生更柔和、更受限的外观，而较高的设置(10)使图像更生动且视觉更强大。
+   * **[!UICONTROL 光源]**：调整图像中的光源以调整其大气形状并突出显示特定元素。
+   * **[!UICONTROL 合成]**：在图像的框架中排列元素。
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![显示图像设置选项的屏幕快照](assets/push-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何包含向AI助手提供其他上下文的内容的品牌资产，或选择以前上传的品牌资产。
 
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -67,21 +67,18 @@ AI Assistant可以通过建议更可能引起受众共鸣的不同内容来帮�
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
-   * **[!UICONTROL 用作引用内容]**：所选变量将用作用于生成其他结果的引用内容。
-
-   * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
-
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 用作引用内容]**：将所选变量用作用于生成其他结果的引用内容。
+   * **[!UICONTROL 重述]**：以不同的方式重述您的消息，以使您的写作保持新鲜，并吸引不同的受众。
+   * **[!UICONTROL 使用更简单的语言]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![显示优化选项的屏幕快照](assets/push-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
-1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试配置文件检查个性化设置。 [了解详情](../preview-test/preview-content.md)
+1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染并检查测试用户档案的个性化设置。 [了解详情](../preview-test/preview-content.md)
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![显示“模拟内容”按钮的屏幕快照](assets/push-genai-6.png){zoomable="yes"}
 
-定义内容、受众和计划后，便可以准备推送投放。 [了解详情](../monitor/prepare-send.md)
-
+在定义内容、受众和计划时，准备推送投放。 [了解详情](../monitor/prepare-send.md)

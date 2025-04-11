@@ -2,10 +2,10 @@
 title: 使用 JavaScript 代码工作
 description: 了解如何使用JavaScript代码。
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 4%
+source-wordcount: '479'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 4%
 
 JavaScript代码允许您创建可跨工作流使用的可重用函数，类似于库。 这些函数存储在左侧导航窗格中的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL JavaScript代码]**&#x200B;菜单中。
 
-![](assets/javascript-list.png)
+![JavaScript代码列表界面显示可用选项](assets/javascript-list.png)
 
 从JavaScript代码列表中，您可以：
 
-* **复制或删除代码**：单击省略号按钮并选择所需的操作。
-* **修改代码**：单击代码名称以打开其属性。 进行更改并保存。
+* **复制或删除代码**：单击省略号按钮，然后选择所需的操作。
+* **修改代码**：单击代码名称以打开其属性，进行更改并保存。
 * **创建新的JavaScript代码**：单击&#x200B;**[!UICONTROL 创建JavaScript代码]**&#x200B;按钮。
 
 >[!NOTE]
@@ -47,9 +47,9 @@ JavaScript代码允许您创建可跨工作流使用的可重用函数，类似�
 
    * **[!UICONTROL 命名空间]**：指定与自定义资源相关的命名空间。 默认情况下，命名空间为“cus”，但它可能会因您的实施而异。
    * **[!UICONTROL 名称]**：用于引用代码的唯一标识符。
-   * **[!UICONTROL 标签]**：要在JavaScript代码列表中显示的描述性标签。
+   * **[!UICONTROL 标签]**： JavaScript代码列表中显示的描述性标签。
 
-   ![](assets/javascript-create.png)
+   ![JavaScript代码创建界面，显示命名空间、名称和标签字段](assets/javascript-create.png)
 
    >[!NOTE]
    >
@@ -59,24 +59,24 @@ JavaScript代码允许您创建可跨工作流使用的可重用函数，类似�
 
 1. 单击&#x200B;**[!UICONTROL 创建代码]**&#x200B;按钮以定义JavaScript代码。 左窗格提供两个菜单，允许您使用与条件和日期格式相关的预定义函数。
 
-   ![](assets/javascript-code.png)
+   ![JavaScript代码编辑器界面显示预定义函数](assets/javascript-code.png)
 
 1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以保存您的代码。
 
-1. 当您的JavaScript代码就绪时，单击&#x200B;**[!UICONTROL 创建]**。  JavaScript代码现在可以跨工作流使用。
+1. 当您的JavaScript代码就绪时，单击&#x200B;**[!UICONTROL 创建]**。 JavaScript代码现在可以跨工作流使用。
 
 ## 使用工作流中的JavaScript代码 {#workflow}
 
 ### 加载JavaScript代码库 {#library}
 
-您可以在工作流中引用JavaScript代码，以避免为重复任务重写代码。 要使用这些代码，您首先需要在工作流的初始化脚本中加载相应的库。 这样，您只需在工作流中加载一次包含要使用的函数的所有库。
+您可以在工作流中引用JavaScript代码，以避免为重复任务重写代码。 要使用这些代码，请在工作流的初始化脚本中加载相应的库。 这样，您只需在工作流中加载一次包含要使用的函数的所有库。
 
 要加载库，请执行以下步骤：
 
-1. 打开工作流并单击&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
+1. 打开工作流，然后单击&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
 1. 导航到&#x200B;**[!UICONTROL 初始化脚本]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 创建代码]**。
 
-   ![](assets/javascript-initialization.png)
+   ![工作流初始化脚本界面显示代码创建选项](assets/javascript-initialization.png)
 
 1. 在代码中使用以下语法加载库：
 
@@ -87,10 +87,10 @@ JavaScript代码允许您创建可跨工作流使用的可重用函数，类似�
    * 将`<namespace>`替换为在JavaScript代码创建期间指定的命名空间。
    * 将`<name>`替换为JavaScript代码的名称。
 
-1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;并保存设置。
+1. 单击&#x200B;**[!UICONTROL 确认]**，然后保存设置。
 
 ### 工作流中的引用函数 {#reference}
 
 加载JavaScript库后，您可以在工作流中直接引用JavaScript代码中定义的函数，通常使用&#x200B;**[!UICONTROL JavaScript代码]**&#x200B;活动。
 
-![](assets/javascript-function.png)
+![显示JavaScript函数使用情况的工作流界面](assets/javascript-function.png)
