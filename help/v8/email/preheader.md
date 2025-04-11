@@ -3,10 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中添加邮件引文
 description: 了解如何设计电子邮件内容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 34%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 47%
 
 1. 从[电子邮件Designer](create-email-content.md)中，添加至少一个&#x200B;**[!UICONTROL 结构]**&#x200B;组件以开始设计电子邮件。
 
-1. 单击左侧窗格中的&#x200B;**[!UICONTROL 导航树]**&#x200B;图标并选择&#x200B;**[!UICONTROL 正文]**。
+1. 从左窗格中单击&#x200B;**[!UICONTROL 导航树]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 正文]**。
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![显示Email Designer界面中的“导航树”图标和“正文”选择的屏幕截图。](assets/preheader_body.png){zoomable="yes"}
 
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，为预告页眉输入一些文本。
 
 1. 要进一步对其进行个性化，请单击&#x200B;**[!UICONTROL 预标题]**&#x200B;字段左侧的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标。
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   Designer ![显示“设置”选项卡和“添加个性化”图标的屏幕截图。](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL 编辑Personalization]**&#x200B;窗口中，您可以使用左侧的专用条目添加[个性化字段](../personalization/personalize.md)、[表达式片段](../content/use-expression-fragments.md)和[条件内容](../personalization/conditions.md)。
+1. 在&#x200B;**[!UICONTROL 编辑Personalization]**&#x200B;窗口中，使用左侧的专用条目添加[个性化字段](../personalization/personalize.md)、[表达式片段](../content/use-expression-fragments.md)和[条件内容](../personalization/conditions.md)。
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![屏幕截图显示“编辑Personalization”窗口，其中包含用于个性化字段、表达式片段和条件内容的选项。](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 确认]**。
 

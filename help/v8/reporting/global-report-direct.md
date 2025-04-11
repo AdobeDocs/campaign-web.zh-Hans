@@ -3,10 +3,10 @@ audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 32%
+source-wordcount: '659'
+ht-degree: 27%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 32%
 >title="投放概述"
 >abstract=" **投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
 
- **[!UICONTROL 投放概述]**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。
+**[!UICONTROL 投放概述]**&#x200B;显示关键绩效指标(KPI)，提供对访客与每个直邮投放交互情况的深入分析。 这些量度概述如下。
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![此图像显示了直邮投放的投放概述量度。](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -37,7 +37,8 @@ ht-degree: 32%
 
 * **[!UICONTROL 错误]**：投放和自动返回处理期间累计的错误总数与已发送消息的总数之比。
 
-* **[!UICONTROL 取消订阅]**：点击取消订阅的收件人数量。
+* **[!UICONTROL 取消订阅]**：点击取消订阅链接的收件人数量。
+
 +++
 
 ### 目标受众 {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ ht-degree: 32%
 
 **[!UICONTROL 目标受众]**&#x200B;的表和图形展示了与收件人相关的数据，下面提供了详细的量度。
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![此图像显示了直邮投放的目标受众量度。](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -62,7 +63,7 @@ ht-degree: 32%
 
 * **[!UICONTROL 要投放的邮件]**：投放准备后要投放的邮件总数。
 
-* **[!UICONTROL 排除]**：应用规则时在分析期间忽略的地址总数：地址缺失、隔离、列入阻止列表等。
+* 列入阻止列表 **[!UICONTROL 排除]**：应用规则时在分析期间忽略的地址总数，例如地址缺失、隔离或。
 
 +++
 
@@ -86,9 +87,9 @@ ht-degree: 32%
 
 * **[!UICONTROL 成功]**：已成功处理的邮件数与要传递的邮件数相关。
 
-* **[!UICONTROL 错误/退回]**：投放和自动回弹处理期间累计的错误总数与要投放的消息数相关。
+* **[!UICONTROL 错误/退回]**：投放和自动回弹处理期间累计的错误总数，与要投放的消息数相关。
 
-* **[!UICONTROL 新隔离]**：在投放失败（用户未知，域无效）后隔离的地址总数与要投放的消息数相关。
+* **[!UICONTROL 新隔离]**：在投放失败后隔离的地址总数（例如，用户未知、无效域），与要投放的消息数相关。
 
 +++
 
@@ -104,13 +105,13 @@ ht-degree: 32%
 >title="排除的原因"
 >abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![此图像显示了直邮投放中排除量度的原因。](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
 +++了解有关排除量度原因的更多信息。
 
-* 隔离中的&#x200B;**[!UICONTROL 地址]**：将地址置于隔离中时生成错误类型。
+* **[!UICONTROL 隔离中的地址]**：将地址置于隔离中时生成错误类型。
 
 * **[!UICONTROL 未指定地址]**：发送投放时生成错误类型以指示地址不存在。
 
@@ -118,7 +119,7 @@ ht-degree: 32%
 
 * 列入阻止列表 列入阻止列表 **[!UICONTROL 地址]**：执行传递时收件者产生错误类型。
 
-* **[!UICONTROL 双精度型]**：由于键值不唯一而排除收件人时生成的错误类型。
+* **[!UICONTROL 双精度型]**：由于收件人键值不唯一而被排除时生成的错误类型。
 
 * **[!UICONTROL 控制组]**：收件人的地址是控制组的一部分。
 

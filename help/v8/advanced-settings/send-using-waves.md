@@ -4,10 +4,10 @@ title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 14%
+source-wordcount: '803'
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 
 如果选择此选项，则所有波浪都具有相同的大小（最后一个波浪除外），并且每个波浪之间的延迟始终相同。
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![大小相同的批次示例](assets/waves-same-size.png){zoomable="yes"}
 
 * 指定要将投放拆分为的所有批次的大小。 您可以输入百分比或数值。 只有最后一波报文的大小可以不同，因为它必须包含剩余的消息数量。
 
@@ -70,17 +70,17 @@ ht-degree: 14%
 
 为此，请选择&#x200B;**[!UICONTROL 计划多个相同大小的批次]**&#x200B;选项。 在&#x200B;**[!UICONTROL 时间间隔]**&#x200B;字段中输入&#x200B;**[!UICONTROL 20]**&#x200B;作为批次大小，并输入&#x200B;**[!UICONTROL 1天]**。
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![呼叫中心处理的批次示例](assets/waves-call-center.png){zoomable="yes"}
 
 ## 根据日历安排批次 {#waves-calendar}
 
-如果选择此选项，则需要定义要发送的每个波次的开始日期/时间以及每个波次的大小。
+如果选择此选项，请定义要发送的每个波次的开始日期/时间以及每个波次的大小。
 
 * 在&#x200B;**[!UICONTROL 开始]**&#x200B;字段中，指定两个连续批次开始之间的延迟。
 
 * 在&#x200B;**[!UICONTROL 大小]**&#x200B;列中，输入固定数字或百分比。
 
-添加任意所需数量的批次。 您可以根据需要重新排序。
+根据需要添加任意数量的批次。 根据您的要求重新排序。
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ ht-degree: 14%
 
 在下面的示例中，第一波表示投放中包含的消息总数的25%，并立即开始。 接下来的两个批次将完成投放，并设置为以六小时间隔开始。
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![按日历计划的批次示例](assets/waves-calendar.png){zoomable="yes"}
 
 根据日历使用多个批次的一个常见用例是在启动过程中。
 
 使用新平台发送电子邮件时，Internet服务提供商(ISP)会怀疑无法识别的IP地址。 如果突然发送大量电子邮件，ISP通常会将其标记为垃圾邮件。
 
-要避免被标记为垃圾邮件，您可以逐步增加使用批次发送的数量。 这应该可以确保启动阶段的顺利发展，并帮助您降低地址无效的总比率。
+要避免被标记为垃圾邮件，请逐步增加使用批次发送的数量。 这可以确保启动阶段的顺利发展，并降低无效地址的总速率。
 
 要执行此操作，请使用&#x200B;**[!UICONTROL 根据日历]**&#x200B;选项安排批次。 例如，将第一个波次设置为10%，将第二个波次设置为15%，将第三个波次设置为20%，以此类推。
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![启动过程的波次示例](assets/waves-ramp-up.png){zoomable="yes"}

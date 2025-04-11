@@ -3,12 +3,13 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 40%
+source-wordcount: '1569'
+ht-degree: 38%
 
 ---
+
 
 # 设计推送投放 {#content-push}
 
@@ -29,7 +30,6 @@ ht-degree: 40%
 >title="推送 iOS 消息"
 >abstract="定义您用于 iOS 设备的推送通知的内容。要编写消息，请单击&#x200B;**标题**&#x200B;和&#x200B;**消息**&#x200B;字段。使用表达式编辑器使数据个性化并添加动态内容。有关更多自定义配置，请浏览到&#x200B;**高级设置**&#x200B;部分。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="推送 Android 消息"
@@ -38,63 +38,59 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="iOS 的静默通知"
->abstract="通过静默推送模式，可将“静默”通知发送到移动设备应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
+>abstract="静默推送模式允许将“静默”通知发送到移动应用程序。 其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
 
-创建推送投放后，即可定义其内容。 参数和设置取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统编写消息。
+创建推送投放后，请定义其内容。 参数和设置取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统编写消息。
 
 >[!BEGINTABS]
 
 >[!TAB Android]
 
-使用Firebase Cloud Messaging，您可以选择两种类型的消息：
+使用Firebase Cloud Messaging时，请选择两种类型的消息：
 
 * **[!UICONTROL 数据消息]**&#x200B;由客户端应用程序处理。 这些消息将直接发送到移动设备应用程序，后者在设备上生成并显示Android通知。 数据消息仅包含您的自定义应用程序变量。
 
-  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**字段并使用表达式编辑器。 您可以访问此编辑器以自定义消息。
-在**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，您可以配置在用户激活通知时显示的特定应用程序屏幕。
+  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**字段并使用表达式编辑器。 访问此编辑器以自定义消息。
+在**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，配置在用户激活通知时显示的特定应用程序屏幕。
 
-  ![](assets/push_content_4.png){zoomable="yes"}
+  ![描述：在Android通知中为数据消息定义内容的示例](assets/push_content_4.png){zoomable="yes"}
 
 * **[!UICONTROL 通知消息]**，由FCM SDK自动处理。 FCM会代表客户端应用程序在用户设备上自动显示消息。 通知消息包含预定义的一组参数和选项，但仍可以使用自定义应用程序变量进一步个性化。
 
   要编写消息，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 消息]**&#x200B;字段。使用表达式编辑器定义内容、个性化数据和添加动态内容。
 
-  要进一步个性化推送通知，您可以选择要添加到推送通知的图像，即要在用户档案设备上显示的通知图标及其颜色。
+  要进一步个性化推送通知，请选择要添加到推送通知的图像、要在用户档案设备上显示的通知图标及其颜色。
 
-  ![](assets/push_content_3.png){zoomable="yes"}
+  ![描述：在Android通知中为通知消息定义内容的示例](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
 要编写消息，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 消息]**&#x200B;字段。使用表达式编辑器定义内容、个性化数据和添加动态内容。
 
-您可以添加iOS通知有效负载的subtitle参数的&#x200B;**[!UICONTROL Subtitle]**&#x200B;值。 请参阅此部分。
+您可以添加&#x200B;**[!UICONTROL Subtitle]**，它是iOS通知有效负载的subtitle参数的值。 请参阅此章节。
 
 通过静默推送模式，可将“静默”通知发送到移动设备应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。
 
-![](assets/push_content_1.png){zoomable="yes"}
+![描述：定义iOS通知内容的示例](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## 推送通知高级设置 {#push-advanced}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="推送通知的高级设置"
 >abstract="定义推送通知的高级设置，例如其优先级、关联的通知计数、应用程序变量等。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="重要警报模式"
 >abstract="启用此选项以将声音添加到您的通知，即使将用户的手机设置为专注模式或将设备设为静音也是如此。这样确保用户在任何情况下均可收到重要警告的通知。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="通知次数"
 >abstract="使用此选项设置要直接显示在应用程序图标上的未读通知数。这样用户即可迅速了解待处理通知的数量。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
@@ -106,12 +102,10 @@ ht-degree: 40%
 >title="相关性分数"
 >abstract="设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="应用程序变量"
 >abstract="使用应用程序变量定义通知行为。可完全自定义这些变量，并将其纳入发送到移动设备的消息负载。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
@@ -124,7 +118,7 @@ ht-degree: 40%
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable="yes"}
+![描述： Android通知的高级设置示例](assets/push_content_5.png){zoomable="yes"}
 
 | 参数 | 说明 |
 |---------|---------|
@@ -140,7 +134,7 @@ ht-degree: 40%
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable="yes"}
+![描述： iOS通知的高级设置示例](assets/push_content_2.png){zoomable="yes"}
 
 | 参数 | 说明 |
 |---------|---------|
@@ -150,10 +144,10 @@ ht-degree: 40%
 | **[!UICONTROL 卷]** | 声音的音量从0到100。 |
 | **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载与通知关联的媒体内容。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
 | **[!UICONTROL 相关性得分]** | 设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。 |
-| **[!UICONTROL 中断级别]** | <ul> <li>**[!UICONTROL 活动]**：默认设置，系统立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 被动]**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 有时效性]**：系统立即显示通知，打开屏幕，可以播放声音并突破“聚焦”模式。 此级别不需要Apple的特殊权限。</li> <li>**[!UICONTROL 关键]**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</ul> |
+| **[!UICONTROL 中断级别]** | <ul> <li>**[!UICONTROL 活动]**：默认设置，系统立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 被动]**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 时效性]**：系统立即显示通知，打开屏幕，可以播放声音，并突破焦点模式。 此级别不需要Apple的特殊权限。</li> <li>**[!UICONTROL 关键]**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</ul> |
 | **[!UICONTROL 线程ID]** | 用于将相关通知分组在一起的标识符。 具有相同线程ID的通知在通知列表中被组织为单个对话或线程。 |
 | **[!UICONTROL 类别]** | 指定与通知关联的类别 ID 的名称。这样可显示操作按钮，使用户不必打开应用程序，即可直接从通知中执行各种任务。 |
-| **[!UICONTROL 目标内容ID]** | 用于在打开通知时定位要转发的应用程序窗口的标识符。 |
+| **[!UICONTROL 目标内容ID]** | 用于在打开通知时定位要前转的应用程序窗口的标识符。 |
 | **[!UICONTROL 启动图像]** | 指定用户选择从通知中启动应用程序时要显示的启动图像文件的名称。 将显示选定的图像，而不是应用程序常规启动屏幕。 |
 | **[!UICONTROL 应用程序变量]** | 允许您定义通知行为。 可完全自定义这些变量，并将其纳入发送到移动设备的消息负载。 |
 

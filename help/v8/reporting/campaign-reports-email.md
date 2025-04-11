@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 21%
+source-wordcount: '1677'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 **[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与电子邮件投放的详细信息。 指标详见下文。
 
-![](assets/campaign_report_email_1.png){zoomable="yes"}
+![投放概述报告的屏幕截图](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -50,7 +50,7 @@ ht-degree: 21%
 
 **[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
 
-![](assets/campaign_report_email_2.png){zoomable="yes"}
+![初始目标受众统计信息表的屏幕截图](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -71,7 +71,7 @@ ht-degree: 21%
 
 **[!UICONTROL 执行统计信息]**&#x200B;表详细说明了您的交付是否成功。 指标详见下文。
 
-![](assets/campaign_report_email_3.png){zoomable="yes"}
+![详细描述投放成功的执行统计表的屏幕截图](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -96,7 +96,7 @@ ht-degree: 21%
 
 **[!UICONTROL 反应统计信息]**&#x200B;表包含投放的收件人活动的可用数据。 指标详见下文。
 
-![](assets/campaign_report_email_4.png){zoomable="yes"}
+![反应统计信息表的屏幕截图，其中包含投放的收件人活动可用数据](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -120,7 +120,7 @@ ht-degree: 21%
 
 **[!UICONTROL 生成的点击流]**&#x200B;表显示与收件人与投放交互方式相关的数据。 指标详见下文。
 
-![](assets/campaign_report_email_5.png){zoomable="yes"}
+![生成的点击流表的屏幕截图](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -145,7 +145,7 @@ ht-degree: 21%
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}
+![每种类型图表和表的错误划分屏幕截图](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -185,7 +185,7 @@ ht-degree: 21%
 
 **[!UICONTROL 投放统计数据]**&#x200B;量度提供关键绩效指标(KPI)，用于提供关于已发送电子邮件可用数据的详细信息。 指标详见下文。
 
-![](assets/campaign_report_email_7.png){zoomable="yes"}
+![投放统计量度的屏幕截图](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -211,7 +211,7 @@ ht-degree: 21%
 
 **[!UICONTROL 打开和点进率]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
 
-![](assets/campaign_report_email_8.png){zoomable="yes"}
+![打开和点进率表的屏幕截图](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ 了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -236,7 +236,7 @@ ht-degree: 21%
 
 **[!UICONTROL URL和点击流]**&#x200B;报表提供了关键绩效指标(KPI)，这些指标提供了有关投放期间点击次数最多的URL的详细信息。 指标详见下文。
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}
+![URL屏幕截图并单击steams报告](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ 了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -259,7 +259,7 @@ ht-degree: 21%
 
 **[!UICONTROL 前10个访问次数最多的链接]**&#x200B;图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
-![](assets/campaign_report_email_10.png){zoomable="yes"}
+![访问次数前10位的链接图屏幕截图](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++了解有关电子邮件促销活动报告指标的更多信息。
 
@@ -278,7 +278,7 @@ ht-degree: 21%
 
 **[!UICONTROL 随时间变化的点击细分]**&#x200B;图形包含每个链接的收件人行为的可用数据。
 
-![](assets/campaign_report_email_11.png){zoomable="yes"}
+![随时间变化的点击细分屏幕截图](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## 用户活动 {#user-activities-email}
 
@@ -289,7 +289,7 @@ ht-degree: 21%
 
 **[!UICONTROL 用户活动]**&#x200B;报告以图表形式显示打开数和点击数的细分。 此报告的量度详述如下。
 
-![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+![用户活动报告的屏幕截图](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++了解有关电子邮件投放报告指标的更多信息。
 

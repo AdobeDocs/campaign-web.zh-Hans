@@ -3,10 +3,10 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 利用投放警报仪表板，可指定接收电子邮件警报的人员、选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。 可从左侧导航窗格的&#x200B;**功能板**&#x200B;选项卡下的&#x200B;**投放警报**&#x200B;菜单访问它们。
 
-![](assets/alerting-dashboard-list.png)
+![屏幕截图显示“投放警报”菜单中警报功能板的列表。](assets/alerting-dashboard-list.png)
 
 ## 创建投放仪表板 {#dashboards}
 
@@ -47,7 +47,7 @@ ht-degree: 25%
 
 1. 导航到左侧导航窗格中的&#x200B;**投放警报**&#x200B;菜单，然后单击&#x200B;**创建投放仪表板**。
 
-   ![](assets/alerting-dashboard.png)
+   ![在投放警报菜单中显示“创建投放仪表板”选项的屏幕快照。](assets/alerting-dashboard.png)
 
 1. 在&#x200B;**标签**&#x200B;字段中命名仪表板。 **内部名称**&#x200B;字段会自动填充且为只读。
 
@@ -57,9 +57,9 @@ ht-degree: 25%
 
 1. 在&#x200B;**投放警报标准**&#x200B;部分中，添加要用于发送警报的标准。 从预定义标准中进行选择，或者根据特定需求创建自己的标准。 [了解如何使用标准](../msg/delivery-alerting-criteria.md)
 
-1. 标准具有默认参数值，定义如何应用它们。您可以根据需要从&#x200B;**标准参数**&#x200B;部分更改这些值。
+1. 标准具有默认参数值，这些值定义必须如何应用标准。 您可以根据需要从&#x200B;**标准参数**&#x200B;部分更改这些值。
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![显示投放仪表板中“条件参数”部分的屏幕截图。](assets/alerting-criteria-parameters.png)
 
    例如，默认情况下，**投放目标最小大小**&#x200B;标准参数设置为50，这意味着仅当投放目标至少为50个配置文件时，该投放才会包含在此仪表板发送的警报中。 如果要包含定向少于50个用户档案的投放，可以更改此参数。
 
@@ -81,9 +81,9 @@ ht-degree: 25%
 
 1. 默认情况下，警报仪表板处于禁用状态，这意味着不会发送链接到此仪表板的电子邮件警报。 要立即启用仪表板，请切换警报组选择字段旁边的&#x200B;**常规**&#x200B;部分中的&#x200B;**已启用**&#x200B;选项。
 
-   您还可以保存仪表板并在以后启用它。
+   您还可以保存并稍后启用仪表板。
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![在投放仪表板设置中显示“已启用”切换选项的屏幕快照。](assets/alerting-dashboard-enable.png)
 
 1. 要保存警报仪表板，请单击&#x200B;**保存**&#x200B;按钮。
 
@@ -105,12 +105,12 @@ ht-degree: 25%
 
 可从&#x200B;**仪表板**&#x200B;选项卡的&#x200B;**投放警报**&#x200B;菜单访问所有创建的警报仪表板。
 
-![](assets/alerting-dashboard-list.png)
+![屏幕截图显示“投放警报”菜单中警报功能板的列表。](assets/alerting-dashboard-list.png)
 
 您可以使用位于仪表板名称旁边的&#x200B;**更多操作**&#x200B;按钮来复制或删除仪表板。
 
 要访问功能板的详细视图，请在列表中单击其名称。 在此屏幕中，您可以可视化最新发送的警报。 所有已发送的警报都列在左窗格中。 单击某个项目可以访问在特定时间发送的相应警报。
 
-![](assets/alerting-dashboard-details.png)
+![显示警报仪表板的详细视图的屏幕截图。](assets/alerting-dashboard-details.png)
 
 要编辑仪表板，请单击右上角的&#x200B;**设置**&#x200B;按钮，然后进行所需的更改。

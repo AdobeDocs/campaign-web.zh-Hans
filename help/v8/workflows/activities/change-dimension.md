@@ -3,10 +3,10 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 26%
+source-wordcount: '346'
+ht-degree: 21%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 26%
 >title="更改维度活动"
 >abstract="通过此活动，可在构建受众时更改目标市场选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
-**更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
+**更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
 
-例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以便向定向收件人发送推送通知。
+例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以向定向收件人发送推送通知。
 
 >[!IMPORTANT]
 >
->请注意，不应将&#x200B;**[!UICONTROL 更改维度]**&#x200B;和&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动添加到一行中。 如果需要连续使用这两个活动，请确保在它们之间包含&#x200B;**[!UICONTROL 扩充]**&#x200B;活动。 这可以确保正确执行并防止潜在的冲突或错误。
+>请注意，不应将&#x200B;**[!UICONTROL 更改维度]**&#x200B;和&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动添加到一行中。 如果需要连续使用这两个活动，请在它们之间包含&#x200B;**[!UICONTROL 扩充]**&#x200B;活动。 这可以确保正确执行并防止潜在的冲突或错误。
 
 ## 配置更改维度活动 {#configure}
 
@@ -36,7 +36,7 @@ ht-degree: 26%
 
 1. 将&#x200B;**更改维度**&#x200B;活动添加到您的工作流。
 
-   ![](../assets/workflow-change-dimension.png)
+   ![显示添加到工作流的“更改”维度活动的屏幕截图](../assets/workflow-change-dimension.png)
 
 1. 定义&#x200B;**新目标维度**。 在维度更改期间，将保留所有记录。 其他选项尚不可用。
 
@@ -44,8 +44,8 @@ ht-degree: 26%
 
 ## 示例 {#example}
 
-在本例中，我们希望向所有已购买的用户档案发送短信投放。 为此，我们首先使用链接到自定义“购买”定向维度的&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动来定向发生的所有购买。
+在本例中，向已购买的所有用户档案发送短信投放。 首先，使用链接到自定义“购买”定向维度的&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动来定向发生的所有购买。
 
-然后，我们使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动将工作流定向维度切换为“收件人”。 这样，我们便能够定位匹配查询的收件人。
+然后，使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动将工作流定向维度切换为“收件人”。 这允许定向匹配查询的收件人。
 
-![](../assets/workflow-change-dimension-example.png)
+![显示工作流中使用的“更改”维度活动示例的屏幕截图](../assets/workflow-change-dimension-example.png)

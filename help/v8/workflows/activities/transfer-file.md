@@ -3,10 +3,10 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 29%
+source-wordcount: '1253'
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->通过Campaign Web用户界面，我们通过合并&#x200B;**文件传输**&#x200B;和&#x200B;**Web下载**&#x200B;功能，将两个活动合并为一个。 此合并不会以任何方式影响该活动的功能。
+>使用Campaign Web用户界面，通过合并&#x200B;**文件传输**&#x200B;和&#x200B;**Web下载**&#x200B;功能，将两个活动合并为一个。 此合并不会以任何方式影响该活动的功能。
 
 按照下面详述的步骤配置&#x200B;**传输文件**&#x200B;活动。
 
@@ -49,7 +49,7 @@ ht-degree: 29%
 
 1. 将&#x200B;**传输文件**&#x200B;活动添加到您的工作流中，然后根据要使用的协议指定要执行的传输类型：
 
-   * 对于HTTP协议，选择&#x200B;**[!UICONTROL Web下载]**。 这样，您就可以执行以GET或POST方式下载明确的URL、外部帐户或Adobe Campaign实例上的文件。
+   * 对于HTTP协议，选择&#x200B;**[!UICONTROL Web下载]**。 这允许您执行GET或POST操作，以通过显式URL、外部帐户或Adobe Campaign实例下载文件。
    * 对于其他服务器到服务器协议和相关操作，请选择&#x200B;**[!UICONTROL 文件传输]**。
 
 1. 选择要对活动执行的操作。 可用操作取决于您选择的传输类型。 展开以下部分以获取更多信息。
@@ -57,7 +57,7 @@ ht-degree: 29%
    +++可用于&#x200B;**文件传输**&#x200B;类型活动的操作
 
    * **[!UICONTROL 文件下载]**：从服务器下载文件。
-   * **[!UICONTROL 文件上传]**：在服务器上上传文件。
+   * **[!UICONTROL 文件上传]**：将文件上传到服务器。
    * **[!UICONTROL 测试文件是否存在]**：检查服务器上是否存在给定的文件。 在活动后生成两个叫客过渡：“文件存在”和“文件不存在”。
    * **[!UICONTROL 文件列表]**：列出服务器上所有可用的文件。
 
@@ -70,7 +70,7 @@ ht-degree: 29%
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![显示工作流传输文件操作选项的屏幕快照](../assets/workflow-transfer-file-action.png)
 
 1. 默认情况下，对于文件上传操作，该活动使用上一个活动中指定的文件。 若要使用其他文件，请关闭&#x200B;**[!UICONTROL 使用上一个活动的文件]**&#x200B;选项，然后单击&#x200B;**[!UICONTROL 添加文件]**&#x200B;按钮。
 
@@ -84,11 +84,11 @@ ht-degree: 29%
    * **[!UICONTROL 快速配置]**：输入文件的URL（或用于文件列表操作的文件夹）。
    * **[!UICONTROL Adobe Campaign实例]**（Web下载类型活动）：从Adobe Campaign实例服务器下载文件。
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![显示工作流传输文件服务器配置选项的屏幕截图](../assets/workflow-transfer-file-server.png)
 
-1. 对于Web下载POST操作，您可以通过该操作传递其他参数。 为此，请单击&#x200B;**[!UICONTROL 添加参数]**&#x200B;按钮，然后指定参数的名称和值。 您可以根据需要添加任意数量的参数。
+1. 对于Web下载POST操作，您可以随操作传递其他参数。 为此，请单击&#x200B;**[!UICONTROL 添加参数]**&#x200B;按钮，然后指定参数的名称和值。 您可以根据需要添加任意数量的参数。
 
-1. 默认情况下，对于文件上传，会自动保存服务器上上传的文件。 如果不想保留此历史记录，请关闭&#x200B;**[!UICONTROL 保留已发送文件的历史记录]**&#x200B;选项。
+1. 默认情况下，对于文件上传，会自动保存上载到服务器的文件。 如果不想保留此历史记录，请关闭&#x200B;**[!UICONTROL 保留已发送文件的历史记录]**&#x200B;选项。
 
 ## 历史化设置 {#historization}
 
@@ -99,31 +99,31 @@ ht-degree: 29%
 
 每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个转移文件活动创建一个文件夹。默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。
 
-![](../assets/workflow-transfer-file-historization.png)
+![显示工作流传输文件历史化设置的屏幕截图](../assets/workflow-transfer-file-historization.png)
 
-必须能够限制此文件夹的大小以保留服务器上的物理空间。 为此，您可以定义活动文件夹的文件数目上限或文件总计大小上限。 默认为 100 个文件和 50 MB。
+必须限制此文件夹的大小以保留服务器上的物理空间。 为此，请定义活动文件夹的文件数目上限或文件总计大小上限。 默认为 100 个文件和 50 MB。
 
 每次执行活动时，都会按如下方式检查文件夹：
 
 * 只考虑创建时间早于执行活动 24 小时以上的文件。
-* 如果考虑的文件数大于&#x200B;**[!UICONTROL 文件数]**&#x200B;字段的值，则删除最早的文件，直到达到允许的最大文件数。
-* 如果考虑的文件总大小大于&#x200B;**[!UICONTROL 最大大小（以MB为单位）]**&#x200B;参数的值，则将删除最早的文件，直到达到允许的最大大小（以MB为单位）。
+* 如果考虑的文件数超过&#x200B;**[!UICONTROL 文件数]**&#x200B;字段的值，则会删除最早的文件，直到达到允许的最大文件数。
+* 如果考虑的文件总大小超过&#x200B;**[!UICONTROL 最大大小（以MB为单位）]**&#x200B;参数的值，则将删除最早的文件，直到达到允许的最大大小。
 
 >[!CAUTION]
 >
->如果不再执行活动，则不会检查或清除其文件夹。考虑到这一点，在传输大文件时要多加小心。
+>如果不再执行活动，则不会检查或清除其文件夹。 传输大文件时要小心。
 
 ## 高级和错误管理选项 {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="转移后删除源文件"
->abstract="转移成功后删除源文件。"
+>abstract="成功传输后擦除源文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="显示会话日志"
->abstract="与转移操作相关的信息显示在工作流日志中。"
+>abstract="与传输操作相关的信息显示在工作流日志中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

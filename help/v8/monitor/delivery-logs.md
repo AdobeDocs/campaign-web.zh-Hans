@@ -3,10 +3,10 @@ audience: end-user
 title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 71%
+source-wordcount: '428'
+ht-degree: 55%
 
 ---
 
@@ -40,39 +40,37 @@ ht-degree: 71%
 * 黄色图标表示非关键处理错误。
 * 红色图标表示阻止发送投放的严重错误。 必须修复严重错误才能发送投放。
 
-![](assets/logs.png){zoomable="yes"}
-
+![日志选项卡显示验证步骤、警告和错误，并带有彩色图标指示消息类型。](assets/logs.png){zoomable="yes"}
 
 ## 投放 {#deliveries-tab}
 
 **发送日志**&#x200B;选项卡提供了每次进行此投放的历史记录。此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
 
-![](assets/logs2.png){zoomable="yes"}
+![ “投放”选项卡显示已发送消息的历史记录及其状态。](assets/logs2.png){zoomable="yes"}
 
 ## 排除项 {#exclusion-tab}
 
 **排除日志**&#x200B;选项卡列出了从目标中排除的所有消息，并说明了发送失败的原因。
 
-![](assets/logs3.png){zoomable="yes"}
+![排除项选项卡列出了已排除的消息和发送失败的原因。](assets/logs3.png){zoomable="yes"}
 
 ## 排除原因 {#exclusion-causes-tab}
 
 针对每种可能的原因，**排除原因**&#x200B;选项卡显示已从目标中排除的消息数。
 
-![](assets/logs4.png){zoomable="yes"}
+![排除原因选项卡显示每个原因的排除消息数。](assets/logs4.png){zoomable="yes"}
 
 ## 跟踪的 URL {#tracked-urls-tab}
 
 **跟踪的URL**&#x200B;选项卡重组已发送消息中包含的URL，包括其URL类型和源URL。
 
-![](assets/logs5.png){zoomable="yes"}
+![跟踪的URL选项卡显示已发送消息中包含的URL、其类型和源URL。](assets/logs5.png){zoomable="yes"}
 
 ## 跟踪 {#tracking-tab}
 
-**跟踪**&#x200B;选项卡列出了此次投放的跟踪历史记录。此选项卡显示已发送消息的跟踪数据，即由 Adobe Campaign 跟踪的所有 URL。
+**跟踪**&#x200B;选项卡列出了此次投放的跟踪历史记录。此选项卡显示已发送消息的跟踪数据，包括所有受Adobe Campaign跟踪的URL。
 
-
-![](assets/logs6.png){zoomable="yes"}
+![跟踪选项卡，显示已发送消息的跟踪历史记录和数据。](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

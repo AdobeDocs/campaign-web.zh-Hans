@@ -2,20 +2,19 @@
 title: 自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 24%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
-
 
 # 配置自定义字段 {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="编辑自定义详细信息"
->abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
+>abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用上下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。 要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}以了解如何扩展架构。
 
-自定义字段可以显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 管理员可以控制哪些字段可见以及它们的显示方式。 这些更改适用于所有Campaign用户。
+自定义字段可显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 管理员可以控制哪些字段可见以及它们的显示方式。 这些更改适用于所有Campaign用户。
 
 >[!NOTE]
 >
@@ -65,28 +64,28 @@ ht-degree: 24%
 
 要在界面中显示自定义字段，请执行以下步骤：
 
-1. 在左侧导航窗格中浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;菜单并找到所需的架构。
+1. 在左侧导航窗格中浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;菜单，并找到所需的架构。
 
    使用筛选器窗格中的&#x200B;**[!UICONTROL 可编辑]**&#x200B;筛选器快速识别具有自定义字段的架构。
 
-   ![](assets/custom-fields-open.png)
+   ![在导航窗格中显示“架构”菜单和“可编辑”过滤器的屏幕快照](assets/custom-fields-open.png)
 
-1. 在列表中选择架构名称以将其打开。 详细的架构视图显示[了解架构详细信息](../administration/schemas.md)。 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;按钮以访问自定义字段。 在此示例中，我们要为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加字段。
+1. 在列表中选择架构名称以将其打开。 将显示一个详细的架构视图。 [了解有关架构详细信息的更多信息](../administration/schemas.md)。 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;按钮以访问自定义字段。 在此示例中，为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加了字段。
 
-   ![](assets/custom-fields-edit.png)
+   ![在架构视图中显示“编辑自定义详细信息”按钮的屏幕截图](assets/custom-fields-edit.png)
 
-1. 架构显示界面中显示的自定义字段列表。 在此处，“CRM ID”字段在用户档案的详细信息屏幕中可见，并且已标记为必填字段。
+1. 此时将显示架构界面中显示的自定义字段列表。 在此处，“CRM ID”字段在用户档案的详细信息屏幕中可见，并且已标记为必填字段。
 
    | 自定义字段配置 | 在界面中渲染 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![显示自定义字段配置的屏幕截图](assets/custom-fields-detail.png){zoomable="yes"} | ![在界面中显示CRM ID字段渲染的屏幕快照](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. 要向界面添加自定义字段，请单击省略号按钮，然后选择以下选项之一：
 
    * **[!UICONTROL 选择自定义字段]**：选择一个或多个自定义字段以在界面中显示。
    * **[!UICONTROL 自动填写自定义字段列表]**：将为该架构定义的所有自定义字段添加到该界面。
 
-   ![](assets/custom-fields-add.png)
+   ![显示用于添加自定义字段的选项的屏幕截图](assets/custom-fields-add.png)
 
 1. 添加自定义字段后，您可以：
 
@@ -100,7 +99,7 @@ ht-degree: 24%
 
 要为每个自定义字段配置特定设置，请单击所需字段旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-![](assets/custom-fields-settings.png)
+![显示自定义字段设置菜单的屏幕截图](assets/custom-fields-settings.png)
 
 可用设置包括：
 
@@ -117,7 +116,7 @@ ht-degree: 24%
 
   +++查看示例
 
-  ![](assets/custom-fields-ref.png)
+  ![显示自定义字段的筛选器设置示例的屏幕截图](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,7 +124,7 @@ ht-degree: 24%
 
 ## 组织子部分中的自定义字段 {#separator}
 
-Campaign Web用户界面允许您添加分隔符，以便将界面中的自定义字段分组以提高可读性。 为此，请执行以下步骤：
+Campaign Web用户界面允许您添加分隔符，以便对界面中的自定义字段进行分组，从而提高可读性。 为此，请执行以下步骤：
 
 1. 单击上下箭头旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 添加分隔符]**。
 
@@ -137,4 +136,4 @@ Campaign Web用户界面允许您添加分隔符，以便将界面中的自定�
 
    | 自定义字段配置 | 在界面中渲染 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![显示分隔符配置的屏幕截图](assets/custom-fields-separator.png){zoomable="yes"} | ![显示接口中子区域渲染的屏幕快照](assets/custom-fields-section.png){zoomable="yes"} |

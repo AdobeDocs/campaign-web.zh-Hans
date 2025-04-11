@@ -3,10 +3,10 @@ audience: end-user
 title: 从文件加载电子邮件受众
 description: 了解如何从外部文件加载用户档案以构建电子邮件受众
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '691'
+ht-degree: 24%
 
 ---
 
@@ -53,20 +53,20 @@ Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户�
 1. 打开现有的电子邮件投放，或[创建新的电子邮件投放](../email/create-email.md)。
 1. 在&#x200B;**受众**&#x200B;部分中，单击&#x200B;**选择受众**&#x200B;按钮，然后选择&#x200B;**从文件选择**。
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![屏幕截图显示“受众”部分中的“从文件选择”选项](assets/select-from-file.png){zoomable="yes"}
 
 1. 选择要加载的本地文件。 文件格式必须与[示例文件](#sample-file)一致。
 1. 在屏幕的中央部分预览和检查如何映射数据。
 
-   ![](assets/select-from-file-map.png)
+   ![在中心部分显示数据映射预览的屏幕截图](assets/select-from-file-map.png)
 
-1. 从&#x200B;**地址字段**&#x200B;下拉列表中指定包含电子邮件地址的列。 如果在输入的文件中有阻止列表列，则还可选择此类信息。
-1. 调整列设置以及如何通过可用选项设置数据的格式。
+1. 从&#x200B;**地址字段**&#x200B;下拉列表中指定包含电子邮件地址的列。 如果输入文件中包含此类信息，也可以选择“阻止列表”列。
+1. 调整列设置并使用可用选项定义数据格式化的方式。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
-创建消息内容时，您可以利用输入文件中的字段添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
+创建消息内容时，利用输入文件中的字段添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![显示使用输入文件中的字段的个性化选项的屏幕截图](assets/select-external-perso.png){zoomable="yes"}
 
 ## 示例文件 {#sample-file}
 
@@ -101,18 +101,18 @@ Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户�
 
 1. 投放内容的预览显示在屏幕的右侧窗格中。 个性化元素被替换为在左窗格中选择的配置文件中的数据。 [了解有关投放内容预览的更多信息](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![显示具有个性化元素的投放内容预览的屏幕截图](assets/file-upload-preview.png){zoomable="yes"}
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
-1. 单击&#x200B;**[!UICONTROL 上传校样配置文件]**&#x200B;按钮并选择包含校样收件人的.txt或.csv文件。
+1. 单击&#x200B;**[!UICONTROL 上传校样配置文件]**&#x200B;按钮，然后选择包含校样收件人的.txt或.csv文件。
 
    >[!CAUTION]
    >
    >确保文件格式与用于上传受众的文件格式匹配。 任何格式错误都会显示警报。
 
-1. 添加验证配置文件并准备好发送验证时，单击&#x200B;**[!UICONTROL 发送验证]**&#x200B;按钮并确认发送。
+1. 添加验证配置文件并准备好发送验证时，单击&#x200B;**[!UICONTROL 发送验证]**&#x200B;按钮，并确认发送。
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![显示验证发送过程的屏幕快照](assets/file-upload-test.png){zoomable="yes"}
 
-1. 您可以随时使用&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮监视校样的发送。 [了解有关验证监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 随时使用&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮监视校样的发送。 [了解有关验证监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)

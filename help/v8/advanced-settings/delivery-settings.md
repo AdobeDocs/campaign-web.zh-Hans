@@ -4,7 +4,7 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 46%
@@ -144,7 +144,7 @@ ht-degree: 46%
   >
   >此选项包括文档的两个版本。 因此，它会影响投放率，因为电子邮件较大。
 
-* **[!UICONTROL 以文本格式发送所有邮件]**：电子邮件以文本格式发送。 不会发送HTML格式，但仅当收件人单击电子邮件时，才会将其用于镜像页面。
+* **[!UICONTROL 以文本格式发送所有邮件]**：电子邮件以文本格式发送。 HTML格式不会发送，但仅在收件人单击电子邮件时用于镜像页面。
 
 ## Web 分析 {#web-analytics}
 

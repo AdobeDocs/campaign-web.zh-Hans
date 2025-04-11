@@ -3,16 +3,16 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 25%
+source-wordcount: '600'
+ht-degree: 23%
 
 ---
 
 # 推送渠道全局报表 {#campaign-reports-push}
 
-全局报告可在渠道级别为用户提供流量和参与量度的全面概述。
+全局报告在渠道级别为用户提供流量和参与量度的全面概述。
 
 导航到&#x200B;**[!UICONTROL 报告]**&#x200B;部分中的&#x200B;**[!UICONTROL 报告]**&#x200B;菜单。 您可以根据报表日期、文件夹或规则过滤数据。 [了解详情](global-reports.md)
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 
 **[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![传递概述量度，显示与推送通知性能相关的KPI。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++了解有关投放概述量度的更多信息。
 
@@ -50,7 +50,7 @@ ht-degree: 25%
 
 **[!UICONTROL 目标受众]**&#x200B;表和图表显示与每个已发送推送通知投放的收件人相关的数据。 指标详见下文。
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![目标受众量度，显示与推送通知的收件人和排除项相关的数据。](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++了解有关目标受众量度的更多信息。
 
@@ -58,7 +58,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 要投放的邮件]**：投放准备后要投放的邮件总数。
 
-* **[!UICONTROL 排除]**：应用规则时在分析期间忽略的地址总数：地址缺失、隔离、列入阻止列表等。
+* **[!UICONTROL 排除]**：应用规则时分析期间忽略的地址总数：地址缺失、隔离、列入阻止列表或类似原因。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 25%
 
 **[!UICONTROL 投放统计数据]**&#x200B;表详细说明了每个推送通知投放的成功情况。 指标详见下文。
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![投放统计量度，显示推送通知的成功率、错误和隔离。](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++了解有关投放统计量度的更多信息。
 
@@ -81,7 +81,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 错误/退回]**：投放和自动回弹处理期间累计的错误总数与要投放的消息数相关。
 
-* **[!UICONTROL 新隔离]**：在投放失败（注册无效、邮件拒绝、有效负载错误等）后隔离的地址总数与要投放的邮件数相关。
+* **[!UICONTROL 新隔离]**：投放失败（注册无效、邮件拒绝、有效负载错误及类似原因）后隔离的地址总数，与要投放的邮件数相关。
 
   推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
@@ -105,6 +105,6 @@ ht-degree: 25%
 >title="投放吞吐量报告"
 >abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![投放吞吐量量度，显示指定时间段内推送通知的成功率和错误率。](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 **[!UICONTROL 投放吞吐量]**&#x200B;报表提供了对推送通知投放系统有效性的全面见解，提供了指定时间段内成功率和错误率的详细摘要。

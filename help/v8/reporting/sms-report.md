@@ -3,10 +3,10 @@ audience: end-user
 title: 短信投放报告
 description: 了解如何访问和使用短信投放报告
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 45%
+source-wordcount: '608'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 45%
 >title="报告发送"
 >abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
-**短信投放概述**&#x200B;全面概述短信投放，其中提供大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。
+**SMS投放概述**&#x200B;提供您的SMS投放的详细摘要，提供广泛的见解和特定数据。 它包括有关投放的性能、效果和结果的全面信息。
 
 ## 投放摘要 {#delivery-summary}
 
@@ -28,9 +28,9 @@ ht-degree: 45%
 >title="短信投放概述"
 >abstract="**短信投放概述**&#x200B;全面概述短信投放，其中提供大量洞察和具体数据。它提供有关投放的效果、有效性和结果的全面信息。"
 
-**[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关成功率和错误率以及访客如何参与短信消息的详细信息。
+**[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供关于成功率和错误率以及访客如何参与短信消息的详细信息。
 
-![](assets/reporting_sms_3.png){zoomable="yes"}
+![描述：该图像显示了投放概述报告，其中包括成功率、错误率和访客参与度等KPI。](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -40,7 +40,7 @@ ht-degree: 45%
 
 * **[!UICONTROL 点进率]**：与短信投放中包含的链接进行交互的用户百分比和数量。
 
-* **[!UICONTROL 错误]**：投放期间发生的阻止将其发送到用户档案的错误百分比和总数。
+* **[!UICONTROL 错误]**：投放期间发生的错误百分比和错误总数，导致无法将其发送到用户档案。
 
 +++
 
@@ -51,9 +51,9 @@ ht-degree: 45%
 >title="短信目标群体"
 >abstract="**目标群体**&#x200B;图表显示与短信受众相关的数据：要投放的消息和排除项。"
 
-**定向群体**&#x200B;图形和表格显示与受众相关的数据。 指标详见下文。
+**目标群体**&#x200B;图形和表格显示与受众相关的数据。 指标详见下文。
 
-![](assets/reporting_sms_4.png){zoomable="yes"}
+![描述：该图像显示了目标人口图和表，其中包含要投放的消息和排除项等量度。](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -61,7 +61,6 @@ ht-degree: 45%
 
 * **[!UICONTROL 排除项]**：已从分析中排除的用户档案的数量和百分比率。
 +++
-
 
 ### 整体统计信息 {#sms-delivery-overall}
 
@@ -72,7 +71,7 @@ ht-degree: 45%
 
 **总体统计信息**&#x200B;报告显示已发送SMS消息的数据。 指标详见下文。
 
-![](assets/reporting_sms_5.png){zoomable="yes"}
+![描述：该图像显示了“总体统计信息”报告，其中包括成功率、错误和隔离等度量。](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++了解有关短信投放报告量度的更多信息。
 
@@ -92,7 +91,7 @@ ht-degree: 45%
 
 **[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}。
 
-![](assets/reporting_sms_6.png){zoomable="yes"}
+![描述：该图像显示了“排除项”图形和表，其中详细说明了将用户配置文件排除在接收消息之外的原因。](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -101,6 +100,6 @@ ht-degree: 45%
 >title="短信投放吞吐量"
 >abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内的投放吞吐量的详细信息。用于衡量消息投放速度的主要量度是每小时发送的消息数。"
 
-此报表显示有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
+此报表提供有关指定时间范围内的投放吞吐量的详细信息。 用于衡量消息投放速度的主要量度是每小时发送的消息数。
 
-![](assets/reporting_sms_2.png){zoomable="yes"}
+![描述：此图像显示“投放吞吐量”报告，其中包括指定时间范围内每小时发送的消息数等量度。](assets/reporting_sms_2.png){zoomable="yes"}

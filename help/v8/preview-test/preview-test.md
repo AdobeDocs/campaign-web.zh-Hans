@@ -3,9 +3,9 @@ audience: end-user
 title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-hans" text="发送校样"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="测试登陆页面"
 
-定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。 这是确保准确且无内容错误和个性化设置错误的关键步骤。
+定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。 此步骤可确保准确性并消除内容和个性化设置中的错误。
 
 [!DNL Adobe Campaign Web user interface]允许您：
 
@@ -28,9 +28,9 @@ ht-degree: 17%
 * [在常用桌面、移动和基于Web的客户端中检查电子邮件渲染](email-rendering.md)
 * [预览和测试登陆页面](../landing-pages/create-lp.md#test-landing-page)
 
-可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮执行这些操作，该按钮可从投放的编辑内容屏幕或[电子邮件Designer](../email/get-started-email-designer.md)访问。
+使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮执行这些操作，该按钮可从投放的编辑内容屏幕或从[电子邮件Designer](../email/get-started-email-designer.md)访问。
 
-![](assets/simulate-button.png){zoomable="yes"}
+![在投放的编辑内容屏幕中模拟内容按钮](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
