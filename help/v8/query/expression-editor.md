@@ -25,7 +25,7 @@ ht-degree: 37%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
+| ![表达式编辑器属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 | ![表达式编辑器值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 |
 
 表达式编辑器提供：
 
