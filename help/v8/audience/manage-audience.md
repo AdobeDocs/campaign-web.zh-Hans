@@ -13,12 +13,24 @@ ht-degree: 5%
 # 开始使用受众 {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Audience error"
+>abstract="Audience data is not available. Please wait for the end of the workflow execution."
 
 受众是投放的主要目标：接收消息的用户档案。 可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问Campaign Web中可用的受众列表。
 

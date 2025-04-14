@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >
-**调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时启动工作流。 应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。
+>**调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时启动工作流。 应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。
 
 ## 最佳实践 {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ ht-degree: 9%
 
 ## 配置调度程序活动 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 按照以下步骤配置&#x200B;**调度程序**&#x200B;活动：
 
