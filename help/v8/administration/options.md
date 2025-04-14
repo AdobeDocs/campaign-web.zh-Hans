@@ -12,8 +12,14 @@ ht-degree: 4%
 # 配置[!DNL Campaign]选项 {#options}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Options"
+>abstract="Options"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Create option"
+>abstract="Create option"
 
 Adobe Campaign Web包括技术选项，可让您更具体地配置应用程序。 其中有些选项是内置的，而其他选项可以根据需要手动添加。
 

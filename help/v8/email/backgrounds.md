@@ -13,8 +13,9 @@ ht-degree: 40%
 # 个性化电子邮件背景 {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-使用Email Designer设置背景时，Adobe建议执行以下操作：
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. 如果设计需要，可对电子邮件正文应用背景颜色。
 1. 在大多数情况下，在列级别设置背景颜色。

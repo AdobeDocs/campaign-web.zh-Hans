@@ -12,8 +12,9 @@ ht-degree: 5%
 # 目标选择维度 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
-定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 ## 工作流的定位维度 {#workflow}
 
