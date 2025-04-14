@@ -13,8 +13,9 @@ ht-degree: 9%
 # 调度程序 {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->**调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时启动工作流。 应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## 最佳实践 {#scheduler-best-practices}
 
