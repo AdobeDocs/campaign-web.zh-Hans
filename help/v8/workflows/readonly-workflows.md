@@ -13,9 +13,8 @@ ht-degree: 4%
 # 关于只读工作流 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="This workflow is read only"
->abstract="You cannot edit this workflow due to your rights or the type of the workflow."
+>
+某些工作流是只读的。 内置的技术工作流始终是只读的，但此限制也适用于其他类型的工作流。
 
 Campaign用户对Adobe Campaign数据的访问权限可能受限。 Campaign管理员可以授予他们查看特定功能的权限，但不能编辑或修改这些功能。 用户对数据的权限对于确保数据和流程的安全性至关重要。 在[本节](../get-started/permissions.md)中了解有关Campaign中权限管理的更多信息。
 

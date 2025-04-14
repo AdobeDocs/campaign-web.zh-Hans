@@ -13,10 +13,8 @@ ht-degree: 12%
 # 选择现有受众 {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
-
+>
+本节介绍在定义投放的目标群体时，如何选择现有受众。 定义投放的主要目标时，您还可以：
 * [使用查询建模器生成一次性受众](one-time-audience.md)。
 * [从外部文件加载受众](file-audience.md)（仅适用于电子邮件）。
 
