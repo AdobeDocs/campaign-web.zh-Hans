@@ -3,17 +3,20 @@ audience: end-user
 title: 关于只读工作流
 description: 了解工作流处于只读模式的原因
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 11%
 
 ---
 
 # 关于只读工作流 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_wf_read_only_canvas"
+>title="此工作流为只读"
+>abstract="由于您的权限或工作流类型，您无法编辑此工作流。"
+
 某些工作流是只读的。 内置的技术工作流始终是只读的，但此限制也适用于其他类型的工作流。
 
 Campaign用户对Adobe Campaign数据的访问权限可能受限。 Campaign管理员可以授予他们查看特定功能的权限，但不能编辑或修改这些功能。 用户对数据的权限对于确保数据和流程的安全性至关重要。 在[本节](../get-started/permissions.md)中了解有关Campaign中权限管理的更多信息。

@@ -3,17 +3,20 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 9%
+source-wordcount: '505'
+ht-degree: 24%
 
 ---
 
 # 调度程序 {#scheduler}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_scheduler"
+>title="调度程序活动"
+>abstract="通过&#x200B;**调度程序**&#x200B;活动，可安排何时开始工作流。应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。"
+
 **调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时启动工作流。 应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。
 
 ## 最佳实践 {#scheduler-best-practices}
@@ -24,9 +27,15 @@ ht-degree: 9%
 
 ## 配置调度程序活动 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="调度程序有效期"
+>abstract="可定义调度程序的有效期。它可为永久（默认），也可一直有效至特定日期。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="调度程序选项"
+>abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
 
 按照以下步骤配置&#x200B;**调度程序**&#x200B;活动：
 
@@ -52,7 +61,7 @@ ht-degree: 9%
    * **有效期**：根据指定的频率执行工作流，直到达到特定日期为止。 指定开始日期和结束日期。
 
 >[!NOTE]\
-如果要立即启动工作流，请单击计划程序顶部操作栏中的&#x200B;**执行挂起任务**。 此按钮仅在工作流启动后可用。
+>如果要立即启动工作流，请单击计划程序顶部操作栏中的&#x200B;**执行挂起任务**。 此按钮仅在工作流启动后可用。
 
 ## 示例 {#scheduler-example}
 

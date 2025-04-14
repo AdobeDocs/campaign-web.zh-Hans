@@ -3,17 +3,20 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 12%
+source-wordcount: '381'
+ht-degree: 18%
 
 ---
 
 # 选择现有受众 {#add-audience}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_deliveries_email_audience_select"
+>title="选择现有受众"
+>abstract="浏览列表以选择现有受众。使用“显示过滤器”图标筛选列表，或选择特定文件夹。"
+
 本节介绍在定义投放的目标群体时，如何选择现有受众。 定义投放的主要目标时，您还可以：
 * [使用查询建模器生成一次性受众](one-time-audience.md)。
 * [从外部文件加载受众](file-audience.md)（仅适用于电子邮件）。

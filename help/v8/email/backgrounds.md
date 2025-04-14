@@ -3,17 +3,20 @@ audience: end-user
 title: 个性化电子邮件背景
 description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 44%
 
 ---
 
 # 个性化电子邮件背景 {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
+>id="ac_edition_backgroundimage"
+>title="背景设置"
+>abstract="您可以为自己的内容使用个性化的背景颜色或背景图像。请注意，并非所有电子邮件客户端都支持背景图像。"
+
 使用Email Designer设置背景时，Adobe建议执行以下操作：
 
 1. 如果设计需要，可对电子邮件正文应用背景颜色。
@@ -38,7 +41,7 @@ ht-degree: 40%
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]\
-  请确保未设置视区背景颜色，因为它可能会隐藏结构背景颜色。
+  >请确保未设置视区背景颜色，因为它可能会隐藏结构背景颜色。
 
 * 设置结构组件的内容的&#x200B;**[!UICONTROL 背景图像]**。
 
@@ -46,7 +49,7 @@ ht-degree: 40%
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]\
-  某些电子邮件程序不支持背景图像。不支持时，将改用行背景颜色。 选择适当的回退背景颜色，以防图像无法显示。
+  >某些电子邮件程序不支持背景图像。不支持时，将改用行背景颜色。 选择适当的回退背景颜色，以防图像无法显示。
 
 * 在列级别设置背景颜色。
 
@@ -54,6 +57,6 @@ ht-degree: 40%
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]\
-  这是最常见的用例。Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时可以更加灵活。
+  >这是最常见的用例。Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时可以更加灵活。
 
   您也可以在列级别设置背景图像，但很少这样做。

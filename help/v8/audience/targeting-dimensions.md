@@ -2,17 +2,20 @@
 title: 目标选择维度
 description: 了解有关在Adobe Campaign Web中定位维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 11%
 
 ---
 
 # 目标选择维度 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_build_audience_dimension"
+>title="选择目标选择维度"
+>abstract="通过定位维度，您可以定义操作所定向的群体：收件人、合同受益人、操作员、订阅者等。 默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+
 定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。
 
 ## 工作流的定位维度 {#workflow}
