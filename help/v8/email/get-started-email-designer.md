@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web 用户界面中的电子邮件设计器开始构建内容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 45%
+source-wordcount: '409'
+ht-degree: 61%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 在发送电子邮件时，请考虑收件人可能转发它们，这有时可能会导致电子邮件的呈现出现问题。 在使用用于转发的电子邮件提供商可能不支持的CSS类时，这种情况尤为明显。 例如，如果您使用“is-desktop-hidden”CSS类来隐藏移动设备上的图像，则可能无法正确呈现该图像。
 
-为了最大限度地减少这些渲染问题，请尽可能简化电子邮件设计结构。 使用适用于桌面和移动设备的单一设计，并避免使用可能并非所有电子邮件客户端完全支持的复杂CSS类或其他设计元素。 通过遵循这些最佳实践，您可以确保始终如一地呈现电子邮件，而不管收件人如何查看或转发电子邮件。
+为了最大限度地减少这些呈现问题，我们建议尽可能使电子邮件设计结构变得简单。尝试使用适用于桌面和移动设备的单一设计，同时避免使用复杂的 CSS 类或其他并非所有电子邮件客户端都完全支持的设计元素。在电子邮件中使用图像时，请避免使用大于2 MB的图像或使用编码的图像链接。
+
+通过遵循这些最佳实践，您可以帮助确保始终如一地正确呈现电子邮件，无论收件人如何查看或转发它们。
 
 ## 开始创作内容 {#start-authoring}
 
