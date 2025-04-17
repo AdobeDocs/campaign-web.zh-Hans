@@ -4,9 +4,9 @@ description: 了解如何将用户访问管理从Campaign Standard迁移到Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,9 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 
 ## 从安全组到操作员组的迁移方法
 
-### 警告说明
-
-这些角色/已命名权限的功能在实施中可能有所不同，这可能会导致授权问题（例如，权限提升或功能中断）。 我们建议用户在转换后查看这些映射，以确保进行正确的访问控制。 [了解有关权限的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### 安全组和操作员组
+>[!IMPORTANT]
+>
+>这些角色/已命名权限的功能在实施中可能有所不同，这可能会导致授权问题（例如，权限提升或功能中断）。 我们建议用户在转换后查看这些映射，以确保进行正确的访问控制。 [了解有关权限的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 下表概述了从Adobe Campaign Standard过渡到Campaign v8时用户角色组的迁移方法。 在Campaign Standard中，**安全组**（在Campaign v8中称为&#x200B;**操作员组**）用于将一组角色分配给用户。 虽然某些安全组/操作员组是现成可用的，但如果需要，用户可以创建新组或修改现有组。
 
@@ -48,11 +46,9 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 
 ## 从用户角色到已命名权限的迁移方法
 
-### 警告说明
-
-从Adobe Campaign Standard迁移到Campaign v8期间，具有&#x200B;**数据模型**&#x200B;角色但不具有&#x200B;**管理**&#x200B;角色的用户将自动获得&#x200B;**管理**&#x200B;访问权限，因为Campaign v8中的架构创建需要管理权限。 要防止出现这种情况，请在迁移之前删除其&#x200B;**数据模型**&#x200B;角色。
-
-### 用户角色和已命名权限
+>[!IMPORTANT]
+>
+>从Adobe Campaign Standard迁移到Campaign v8期间，具有&#x200B;**数据模型**&#x200B;角色但不具有&#x200B;**管理**&#x200B;角色的用户将自动获得&#x200B;**管理**&#x200B;访问权限，因为Campaign v8中的架构创建需要管理权限。 要防止出现这种情况，请在迁移之前删除其&#x200B;**数据模型**&#x200B;角色。
 
 在Adobe Campaign Standard中，术语&#x200B;**用户角色**&#x200B;在Campaign v8中称为&#x200B;**Named right**。 下表概述了在Campaign v8中用于与Campaign Standard中的&#x200B;**用户角色**&#x200B;对应的&#x200B;**已命名权限**&#x200B;的术语。
 
@@ -72,13 +68,12 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 
 ## 组织单位的迁移方法
 
-### 警告说明
+>[!IMPORTANT]
+>
+>Adobe Campaign Standard中没有作为直接或间接父项的&#x200B;**所有（所有）**的组织单位将不会迁移到Campaign v8。
+></br>
+>为多个安全组中的用户分配了最高级别安全组的组织单位。 如果多个组具有平行的顶级单位，则系统会为Campaign Standard中的用户选择组织单位，并且该用户只能访问系统选择的组织单位及其子级。 在迁移后的Campaign v8中，用户将有权访问&#x200B;**所有分配的组织单位及其子单位**，权限可能会不断提升。 要防止出现这种情况，请避免将用户分配给具有并行组织单位的安全组。 了解有关[并行组织单位分配](#parallel-assignments)的更多信息。
 
-Adobe Campaign Standard中没有作为直接或间接父项的&#x200B;**所有（所有）**&#x200B;的组织单位将不会迁移到Campaign v8。
-
-为多个安全组中的用户分配了最高级别安全组的组织单位。 如果多个组具有平行的顶级单位，则系统会为Campaign Standard中的用户选择组织单位，并且该用户只能访问系统选择的组织单位及其子级。 在迁移后的Campaign v8中，用户将有权访问&#x200B;**所有分配的组织单位及其子单位**，权限可能会不断提升。 要防止出现这种情况，请避免将用户分配给具有并行组织单位的安全组。 了解有关[并行组织单位分配](#parallel-assignments)的更多信息。
-
-### 组织单位和文件夹管理
 
 在Adobe Campaign Standard中，**组织单位**&#x200B;映射到Campaign v8中的现有&#x200B;**文件夹**&#x200B;层次结构模型，以维护类似的访问控制。 [了解有关文件夹管理的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
