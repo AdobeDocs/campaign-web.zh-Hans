@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -199,22 +199,22 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="不支持内容模拟"
->abstract="**模拟内容**&#x200B;按钮已禁用，因为多语言投放仅包含一个区域设置。"
+>abstract="**模拟内容**&#x200B;按钮已被禁用，因为多语言投放仅包含一个区域设置。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
 >title="不支持内容模拟"
->abstract="**模拟内容**&#x200B;按钮已禁用，因为它与此阶段的已协调投放不兼容。"
+>abstract="由于和此阶段的协调投放不兼容，因此&#x200B;**模拟内容**&#x200B;按钮已被禁用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
 >title="不支持内容模拟"
->abstract="已禁用&#x200B;**模拟内容**&#x200B;按钮，因为Campaign企业完全联合访问(FFDA)模式不支持该按钮。"
+>abstract="**模拟内容**&#x200B;按钮已被禁用，因为在 Campaign Enterprise Full Federated Access (FFDA) 模式下不受支持。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"
 >title="不支持内容模拟"
->abstract="**模拟内容**&#x200B;按钮已禁用，因为未上载任何内容。"
+>abstract="由于尚未上传任何内容，因此&#x200B;**模拟内容**&#x200B;按钮已被禁用。"
 
 在某些情况下，您无法执行内容模拟，并且&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮已禁用。
 
