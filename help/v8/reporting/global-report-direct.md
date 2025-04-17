@@ -3,7 +3,7 @@ audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 27%
@@ -109,7 +109,7 @@ ht-degree: 27%
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
-+++了解有关排除量度原因的更多信息。
++++详细了解排除量度的原因。
 
 * **[!UICONTROL 隔离中的地址]**：将地址置于隔离中时生成错误类型。
 

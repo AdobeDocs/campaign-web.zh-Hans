@@ -3,9 +3,9 @@ audience: end-user
 title: 直邮报表
 description: 了解如何访问和使用直邮报表
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 20%
 
 ![排除图按规则显示拒绝消息分布的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++了解有关排除量度原因的更多信息。
++++详细了解排除量度的原因。
 
 * **[!UICONTROL 隔离中的地址]**：将地址置于隔离中时生成错误类型。
 * **[!UICONTROL 未指定地址]**：地址不存在时生成错误类型。

@@ -4,7 +4,7 @@ description: 本教程概述了Campaign v8的主要管理和数据管理功能�
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 7%
@@ -55,7 +55,7 @@ Campaign客户端控制台是一个本机应用程序，它通过标准互联网
 
 ### 了解客户端控制台界面  {#acs-gs-ui}
 
-通过本教程视频了解Adobe Campaign V8用户界面以及如何导航主要功能。
+通过本教程视频了解Adobe Campaign v8用户界面以及如何导航主要功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
@@ -71,7 +71,7 @@ Campaign客户端控制台是一个本机应用程序，它通过标准互联网
 
 Adobe Campaign允许您定义和管理分配给用户的权限。 这些权限是通过组合操作员组权限、命名权限和文件夹权限来定义的。
 
-作为过渡到Campaign v8的Campaign Standard用户，您的权限和访问权限保持不变。 安全组已按Adobe移动到Campaign v8操作员组，并且您的每个组织单位的权限已转换为文件夹权限。 Campaign用户   使用他们的Adobe ID连接到Campaign v8，然后可以使用与Campaign Standard中相同的登录和密码。
+作为过渡到Campaign v8的Campaign Standard用户，您的权限和访问权限保持不变。 Adobe已将安全组移动到Campaign v8操作员组，并且您的每个组织单位的权限已转换为文件夹权限。 Campaign用户   使用他们的Adobe ID连接到Campaign v8，然后可以使用与Campaign Standard中相同的登录和密码。
 
 Campaign [文件夹](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"}是客户端控制台资源管理器树中的节点。 它们根据其类型，包含特定类型的数据。 项目由Campaign v8中的文件夹具体化。 您可以创建文件夹并管理对它们的权限以限制访问。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}。
 
@@ -96,7 +96,7 @@ Campaign 控制面板允许管理每个实例的设置并跟踪使用情况，�
 
 ### 审核记录 {#acs-gs-admin-audit-trail}
 
-如在Campaign Standard中已经可用，可以在Campaign v8中使用审核跟踪来访问实例中所做更改的完整历史记录。
+在Campaign Standard中已经提供审核跟踪，该跟踪可用于Campaign v8以访问实例中所做更改的完整历史记录。
 
 在Adobe Campaign Web用户界面中，审核记录功能使用户能够完全了解对实例中的重要实体所做的所有修改，通常是对实例的顺利操作产生重大影响的修改。 请参阅[审核记录文档](../../v8/reporting/audit-trail.md)以了解详情
 
@@ -116,7 +116,7 @@ MISSING LINKS:
 
 在客户端控制台中，您可以使用多个选项来自定义用户界面，例如：
 
-* **列表和数据显示** — 此文档提供了管理用户界面设置（如列表、单位或数据显示）的准则： [用户界面设置文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **列表和数据显示** — 此文档提供了管理用户界面设置（如列表、单位或数据显示）的指南： [用户界面设置文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **文件夹管理** — 文件夹是Adobe Campaign中的对象，可用于组织组件和数据。 它们还用于管理权限。 了解如何[使用文件夹](../../v8/get-started/work-with-folders.md)。
 
@@ -160,7 +160,7 @@ MISSING LINKS:
 
 * Campaign 可帮助您将联系人添加到云数据库。您可以加载文件、计划和自动更新多个联系人、在Web上收集数据，或直接在收件人表格中输入用户档案信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
 
-* 您可以轻松地将其他报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。 请参阅[导出数据文档](../../v8/reporting/export-reports.md)以了解详情。
+* 您可以轻松地将不同的报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。 请参阅[导出数据文档](../../v8/reporting/export-reports.md)以了解详情。
 
 ## REST API {#acs-gs-admin-apis}
 
@@ -202,7 +202,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ## 订阅服务 {#acs-gs-admin-sub}
 
-与Campaign Standard一样，管理员可以创建订阅服务，营销人员可以向其订阅者发送消息。 关键概念和实施步骤与Campaign Standard保持一致。 您可以在下面找到有用的链接和视频。
+与Campaign Standard中一样，管理员可以创建订阅服务，营销人员可以向其订阅者发送消息。 关键概念和实施步骤与Campaign Standard保持一致。 您可以在下面找到有用的链接和视频。
 
 了解如何设置和管理订阅和锁定订阅者。
 
@@ -210,7 +210,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 * 请参阅订阅服务[Web用户界面文档](../../v8/audience/manage-subscribers.md)。
 
-* 另请参阅文档以在[此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}中设置客户端控制台中的订阅服务。
+* 另请参阅[此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}中有关在客户端控制台中设置订阅服务的文档。
 
 ## 消息和投放{#acs-gs-msg}
 
@@ -227,9 +227,9 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ### 外部帐户 {#acs-gs-ext-accounts}
 
-作为管理员，您负责配置和管理Campaign外部帐户。 与Campaign Standard一样，技术工作流或营销策划工作流等技术流程也会使用外部帐户。
+作为管理员，您负责配置和管理Campaign外部帐户。 与Campaign Standard中一样，外部帐户由技术工作流或活动工作流等技术流程使用。
 
-过渡到Campaign v8的过程会照顾到您现有的Campaign Standard外部帐户。
+过渡到Campaign v8的过程需要处理您现有的Campaign Standard外部帐户。
 
 请参阅[外部帐户文档](../../v8/administration/external-account.md)以了解详情。
 
@@ -275,7 +275,7 @@ MISSING LINKS:
 
 ### 投放模板 {#acs-gs-templates}
 
-在Campaign v8中，需要使用投放模板，例如Campaign Standard。
+在Campaign v8中，需要使用投放模板，在Campaign Standard中也是如此。
 
 为了加快并改进设计过程，请创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。 了解如何在[Campaign Web用户界面](../../v8/msg/delivery-template.md)中创建投放模板。 另请参阅[本节](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}中的如何在客户端控制台中创建投放模板。
 
@@ -300,7 +300,7 @@ MISSING LINKS:
 
 作为迁移到Campaign v8的Campaign Standard用户，以下内容适用于您：
 
-* 如果您将这些集成与Campaign Standard一起使用，则Adobe已迁移您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;配置及数据。
+* 如果您正在使用这些与Campaign Standard的集成，则您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;配置和数据已由Adobe迁移。
 * 如果您的Campaign Standard环境已与&#x200B;**Adobe Experience Manager**&#x200B;集成，Adobe建议您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便能够在Campaign Web用户界面中设计电子邮件时使用此功能，并简化直接在Adobe Experience Manager环境中管理电子邮件投放内容和表单的过程。 在[此页面](../../v8/integrations/aem-content.md)中了解详情。
 请注意，Campaign还可以与Adobe Experience Manager 6.5集成。要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard环境与&#x200B;**触发器**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}中所述。

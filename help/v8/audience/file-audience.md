@@ -3,7 +3,7 @@ audience: end-user
 title: 从文件加载电子邮件受众
 description: 了解如何从外部文件加载用户档案以构建电子邮件受众
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 24%
@@ -115,4 +115,4 @@ Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户�
 
    ![显示验证发送过程的屏幕快照](assets/file-upload-test.png){zoomable="yes"}
 
-1. 随时使用&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮监视校样的发送。 [了解有关验证监视的更多信息](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 随时使用&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮监视校样的发送。 [了解有关验证监视的详细信息](../preview-test/test-deliveries.md#access-test-deliveries)

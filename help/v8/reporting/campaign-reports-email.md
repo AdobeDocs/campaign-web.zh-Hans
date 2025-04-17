@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 20%
@@ -213,7 +213,7 @@ ht-degree: 20%
 
 ![打开和点进率表的屏幕截图](assets/campaign_report_email_8.png){zoomable="yes"}
 
-+++ 了解有关电子邮件促销活动报告指标的更多信息。
++++ 了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 已发送]**：已发送的邮件总数。
 
@@ -238,7 +238,7 @@ ht-degree: 20%
 
 ![URL屏幕截图并单击steams报告](assets/campaign_report_email_9.png){zoomable="yes"}
 
-+++ 了解有关电子邮件促销活动报告指标的更多信息。
++++ 了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 反应性]**：已点击投放的目标收件人数量与已打开投放的目标收件人的估计数量之比。
 

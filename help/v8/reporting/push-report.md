@@ -3,9 +3,9 @@ audience: end-user
 title: 推送投放报告
 description: 了解如何访问和使用推送投放报告
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '566'
 ht-degree: 32%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 32%
 
 ![此屏幕截图显示投放概述报告，该报告提供有关访客参与推送消息的KPI。](assets/reporting_push_3.png){zoomable="yes"}
 
-+++了解有关推送投放报告量度的更多信息。
++++了解有关推送投放报表量度的更多信息。
 
 * **[!UICONTROL 发送的总数]**：投放准备期间处理的邮件总数。
 * **[!UICONTROL 已投放]**：成功发送的邮件数与已发送的邮件总数相关。
@@ -52,7 +52,7 @@ ht-degree: 32%
 
 ![此屏幕截图显示目标群体图和表，其中显示有关要投放的消息和排除项的数据。](assets/reporting_push_4.png){zoomable="yes"}
 
-+++了解有关推送投放报告量度的更多信息。
++++了解有关推送投放报表量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备期间处理的邮件总数。
 * **[!UICONTROL 排除项]**：已从分析中排除的用户档案数。
@@ -70,7 +70,7 @@ ht-degree: 32%
 
 ![此屏幕截图显示“总体统计信息”报告，其中显示有关发送的推送通知的成功、错误和隔离的数据。](assets/reporting_push_5.png){zoomable="yes"}
 
-+++了解有关推送投放报告量度的更多信息。
++++了解有关推送投放报表量度的更多信息。
 
 * **[!UICONTROL 成功]**：已成功处理的邮件数。
 * **[!UICONTROL 错误]**：在传递期间发生的总错误数，使邮件无法发送到某些用户档案。

@@ -3,7 +3,7 @@ audience: end-user
 title: 选择现有受众
 description: 了解如何选择受众
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 18%
@@ -21,7 +21,7 @@ ht-degree: 18%
 * [使用查询建模器生成一次性受众](one-time-audience.md)。
 * [从外部文件加载受众](file-audience.md)（仅适用于电子邮件）。
 
-可从左侧菜单&#x200B;**受众**&#x200B;访问投放中可定位的受众。 它们源自多个来源，例如客户端控制台、Campaign Web受众工作流或Adobe Experience Platform。 [详细了解受众](manage-audience.md)。
+可从左侧菜单&#x200B;**受众**&#x200B;访问投放中可定位的受众。 它们源自多个来源，例如客户端控制台、Campaign Web受众工作流或Adobe Experience Platform。 [了解有关受众](manage-audience.md)的更多信息
 
 要为邮件选择现有受众，请执行以下步骤：
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要访问和配置功能板和警报条件，您必须具有&#x200B;**管理权限**&#x200B;或是&#x200B;**投放主管**&#x200B;安全组的成员。 标准用户无法访问Adobe Campaign界面中的仪表板，但会收到警报通知。 [了解有关访问和权限的更多信息](../get-started/permissions.md)。
+>要访问和配置功能板和警报条件，您必须具有&#x200B;**管理权限**&#x200B;或是&#x200B;**投放主管**&#x200B;安全组的成员。 标准用户无法访问Adobe Campaign界面中的仪表板，但会收到警报通知。 [了解有关访问和权限的详细信息](../get-started/permissions.md)。

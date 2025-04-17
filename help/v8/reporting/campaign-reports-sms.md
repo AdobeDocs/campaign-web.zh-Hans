@@ -3,7 +3,7 @@ audience: end-user
 title: 短信渠道的营销活动报告
 description: 了解短信渠道的营销活动报告
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 15%
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 显示SMS量度的![投放概述报告](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++了解有关短信营销活动报告指标的更多信息。
++++了解有关短信营销活动报告量度的更多信息。
 
 * **[!UICONTROL 发送的总数]**：投放准备期间处理的邮件总数。
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 ![显示收件人数据的初始目标受众统计信息表](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++了解有关短信营销活动报告指标的更多信息。
++++了解有关短信营销活动报告量度的更多信息。
 
 * **[!UICONTROL 初始受众]**：目标收件人的总数。
 
@@ -69,7 +69,7 @@ ht-degree: 15%
 
 ![显示投放成功量度的执行统计信息表](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++了解有关短信营销活动报告指标的更多信息。
++++了解有关短信营销活动报告量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备后要投放的邮件总数。
 
@@ -94,7 +94,7 @@ ht-degree: 15%
 
 ![生成的显示收件人交互数据的点击流表](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++了解有关短信营销活动报告指标的更多信息。
++++了解有关短信营销活动报告量度的更多信息。
 
 * **[!UICONTROL 非重复点击]**：在投放中至少点击一次的非重复收件人总数。
 

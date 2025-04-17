@@ -3,7 +3,7 @@ audience: end-user
 title: 短信渠道全局报表
 description: 了解短信渠道的全局报告
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 23%
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 **[!UICONTROL 排除原因]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收短信投放的原因。
 
-[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中列出了错误类型。
+错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ![排除原因报告的屏幕截图，显示短信投放排除的原因。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

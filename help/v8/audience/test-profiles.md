@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 14%
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [通过观看视频了解此功能](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 在[此部分](../preview-test/test-deliveries.md#test-profiles)中详细说明了向测试用户档案发送校样的步骤。
 
@@ -96,7 +96,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 如果选中&#x200B;**[!UICONTROL 不再联系（通过任何渠道）]**&#x200B;复选框，则测试配置文件将处于阻止列表状态。 任何渠道（电子邮件、短信等）不再定向此类收件人。
 
-1. 在&#x200B;**[!UICONTROL 其他数据]**&#x200B;选项卡中，输入用于数据管理工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的更多信息](../workflows/gs-workflows.md)
+1. 在&#x200B;**[!UICONTROL 其他数据]**&#x200B;选项卡中，输入用于数据管理工作流中创建的投放且要为其分配特定值的个性化数据。 [了解有关工作流的详细信息](../workflows/gs-workflows.md)
 
    ![附加数据选项卡](assets/test-profile-additional-data.png){zoomable="yes"}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 21%
@@ -112,7 +112,7 @@ ht-degree: 21%
 
 “投放吞吐量”报表提供了对投放流程效率的深入分析，其中详细概述了指定时间范围内的成功率和错误率。
 
-+++了解关于投放吞吐量量度的更多信息。
++++了解有关投放吞吐量量度的更多信息。
 
 * **[!UICONTROL 成功]**：已成功处理的邮件数与要传递的邮件数相关。
 
@@ -135,7 +135,7 @@ ht-degree: 21%
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
-+++了解有关每个类型量度错误划分的更多信息。
++++了解有关每个类型量度错误细分的更多信息。
 
 * **[!UICONTROL 用户未知]**：在投放期间生成错误类型以指示电子邮件地址无效。
 
@@ -231,7 +231,7 @@ ht-degree: 21%
 
 ![个URL并单击流度量](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++了解有关URL和点击流量度的更多信息。
++++了解有关URL和点击流度量的更多信息。
 
 * **[!UICONTROL 反应性]**：已点击投放的目标收件人数量与已打开投放的目标收件人的估计数量之比。
 
@@ -253,7 +253,7 @@ ht-degree: 21%
 
 ![访问次数最多的前10个链接量度](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++了解有关10个最常访问的链接量度的更多信息。
++++进一步了解前10个最常访问的链接量度。
 
 * **[!UICONTROL 总点击次数]**：投放中链接的点击总数。
 

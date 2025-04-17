@@ -4,7 +4,7 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 +++ 了解有关审核记录可用实体的更多信息
 
-* **Source架构审核跟踪**&#x200B;允许您在Campaign V8客户端控制台中监视活动以及最近对架构所做的修改。
+* **Source架构审核跟踪**&#x200B;允许您在Campaign v8客户端控制台中监视活动以及最近对架构所做的修改。
 
   有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
   有关工作流的详细信息，请参阅此[页面](../workflows/gs-workflows.md)。
 
-* **选项审核记录**&#x200B;允许您监视活动以及最近对Campaign V8中的选项所做的修改。
+* **选项审核记录**&#x200B;允许您监视活动以及最近对Campaign v8中的选项所做的修改。
 
   有关选项的更多信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
@@ -49,15 +49,15 @@ ht-degree: 1%
 
   有关投放的详细信息，请参阅此[页面](../msg/gs-deliveries.md)。
 
-* **外部帐户**&#x200B;允许您检查Campaign V8中对外部帐户所做的修改，这些修改由技术工作流或营销活动工作流等技术流程使用。
+* **外部帐户**&#x200B;允许您检查Campaign v8中对外部帐户所做的修改，这些修改由技术工作流或营销活动工作流等技术流程使用。
 
   有关外部帐户的更多信息，请参阅此[页面](../administration/external-account.md)。
 
-* 通过&#x200B;**投放映射**，您可以监视活动以及最近对Campaign V8中的投放映射所做的修改。
+* 通过&#x200B;**投放映射**，您可以监视活动以及最近对Campaign v8中的投放映射所做的修改。
 
   有关投放映射的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
 
-* **Web应用程序**&#x200B;允许您检查Campaign V8中对Web窗体所做的修改，这些修改用于创建具有输入和选择字段的页面，并且可能包含来自数据库的数据。
+* **Web应用程序**&#x200B;允许您检查Campaign v8中对Web窗体所做的修改，这些修改用于创建具有输入和选择字段的页面，并且可能包含来自数据库的数据。
 
   有关Web应用程序的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
   有关选件的详细信息，请参阅此[页面](../msg/offers.md)。
 
-* **操作员**&#x200B;允许您监视活动以及最近在Campaign V8中对操作员进行的修改。
+* **操作员**&#x200B;允许您监视活动以及最近在Campaign v8中对操作员进行的修改。
 
   有关运算符的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
 

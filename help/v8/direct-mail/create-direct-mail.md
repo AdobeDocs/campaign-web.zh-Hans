@@ -3,7 +3,7 @@ audience: end-user
 title: 创建直邮投放
 description: 了解如何使用Adobe Campaign Web创建直邮投放
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 在[此页面](../workflows/activities/scheduler.md)上了解详情。
+   >在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 了解有关[此页面](../workflows/activities/scheduler.md)的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;可访问与您的投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 

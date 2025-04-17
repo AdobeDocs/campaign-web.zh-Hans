@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -50,14 +50,14 @@ Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据�
 >
 >![显示有关优化目标的警告的图像](assets/target-warning.png){zoomable="yes"}
 
-## 查询建模器接口 {#interface}
+## 查询建模器界面 {#interface}
 
 查询建模器提供了一个中央画布（可在其中构建查询）和一个右窗格（提供有关查询的信息）。
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="新用户体验"
->abstract="使用此切换开关可在经典查询建模器和新的规则生成器体验之间切换。"
+>title="新的用户体验"
+>abstract="使用此切换按钮可以在经典查询建模器和新规则生成器体验之间切换。"
 
 ![显示查询建模器接口的图像](assets/query-interface.png){zoomable="yes"}
 
