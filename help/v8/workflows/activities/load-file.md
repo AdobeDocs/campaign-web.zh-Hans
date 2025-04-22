@@ -3,9 +3,9 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1264'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
  **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据未添加到数据库，但输入文件中的所有字段均可用于[个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 
 >[!NOTE]
->支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。您可以加载最大大小为50MB的文件。
+>支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。使用Web用户界面控制台，您可以加载最大大小为50MB的文件。 在客户端控制台中，数据加载活动具有150 MB的限制。 [了解详情](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 此活动可与[协调](reconciliation.md)活动一起使用，以将未识别的数据链接到现有资源。 例如，如果将非标准数据导入数据库，则可以将&#x200B;**加载文件**&#x200B;活动放在&#x200B;**协调**&#x200B;活动之前。
 
