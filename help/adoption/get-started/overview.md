@@ -4,9 +4,9 @@ description: 了解开始使用新的Campaign v8应用程序所需的步骤
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 29%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供了云原生的敏捷性，使您能够加快实现价值并适应不断变化的业务需求。 此集成不仅增强了您的内容管理功能，还允许您在所有接触点上向客户提供更加个性化和引人入胜的体验。
 
-* **AI助手**
+* **AI 助手**
 
   Campaign AI Assistant可以在电子邮件、短信和推送等渠道中创建和执行营销活动，操作直观、简单且轻松，同时还能节省时间、提高效率和产生更好的结果。
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 
 ## v8中添加了Campaign Standard功能 {#ac-v8-added}
 
-为了让您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中有详细说明。
+为了帮助您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。在[此文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中对这些规则进行了详细说明。
 
 * **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对轮廓数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等轮廓维度进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 
@@ -161,7 +161,7 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../../v8/preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
 
-## 新用户体验
+## 新的用户体验
 
 访问您的角色的相关参考指南，了解Adobe Campaign v8的新用户体验。
 

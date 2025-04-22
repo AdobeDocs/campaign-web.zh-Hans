@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2024 Campaign Web 用户界面发布
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 100%
+source-wordcount: '2501'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>在精心制作并定制您的信息后，使用 Adobe Campaign Web 中的 AI 助手将其提升到一个新的水平。使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
+<p>完成消息制作和定制后，利用Adobe Campaign Web中的AI助手将其提升到新的级别。 使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
 <p>通过<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力</a>。</p>
 <p>有关更多信息，请参阅<a href="../email/generative-gs.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -111,7 +111,7 @@ ht-degree: 100%
 >
 >以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8 ](../rn/acs-migration.md)以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}。
 
 * **直邮的品牌化**：您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您现在可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud/campaign/branding/branding-assign)
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。欲了解更多信息，请参阅 Campaign v8 客户端控制台 [发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
+>此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多信息，请参阅 Campaign v8 客户端控制台[发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 
 ### 改进 {#improvements-24-7}
 

@@ -3,14 +3,14 @@ audience: end-user
 title: 创新型内容
 description: AI助手入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1525'
 ht-degree: 1%
 
 ---
 
-# 使用 AI 助手生成电子邮件 {#generative-content}
+# 使用AI助手生成电子邮件 {#generative-content}
 
 >[!IMPORTANT]
 >
@@ -19,17 +19,17 @@ ht-degree: 1%
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建并个性化电子邮件后，使用Adobe Campaign Web中的AI助手增强内容。
+创建并个性化电子邮件后，在Adobe Campaign Web中使用AI助手增强内容。
 
 Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的文本内容和图像来与受众引起共鸣，从而帮助优化投放的影响。 这改进了您的电子邮件促销活动，以实现更好的参与。
 
-在电子邮件营销活动中，使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手。
+在电子邮件营销活动中，使用AI助手生成完整电子邮件、文本或图像。 浏览以下选项卡，了解如何在Adobe Campaign Web中使用AI助手。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整电子邮件]
 
-在以下示例中，利用Adobe Campaign Web中的AI助手来优化现有电子邮件，并为特殊事件自定义现有电子邮件。
+在以下示例中，利用Adobe Campaign Web中的AI助手来优化现有电子邮件，为特殊事件自定义现有电子邮件。
 
 1. 创建和配置电子邮件投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -52,7 +52,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想获得信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
+   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
 
    ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
    ![显示Adobe Campaign Web中的图像设置选项的屏幕截图](assets/full-email-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
@@ -76,7 +76,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
-   * **[!UICONTROL 改写]**： AI助手会以不同的方式改写您的消息，以使您的写作保持新鲜，并吸引各种受众。
+   * **[!UICONTROL 改写]**： AI Assistant以不同的方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
    * **[!UICONTROL 使用更简单的语言]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
@@ -93,7 +93,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 >[!TAB 纯文本生成]
 
-在以下示例中，利用AI助手增强您为即将发生的事件发出的电子邮件邀请的内容。
+在以下示例中，利用AI Assistant增强即将举行的活动的电子邮件邀请的内容。
 
 1. 创建和配置电子邮件投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -114,12 +114,12 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想获得信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
+   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
    ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/text-genai-3.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
@@ -180,7 +180,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
    ![显示Adobe Campaign Web中的图像设置选项的屏幕截图](assets/image-genai-3.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
@@ -206,6 +206,6 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 ## 操作说明视频 {#video}
 
-了解如何使用AI助手生成完整的电子邮件内容、文本和图像。
+了解如何使用AI Assistant生成完整的电子邮件内容、文本和图像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

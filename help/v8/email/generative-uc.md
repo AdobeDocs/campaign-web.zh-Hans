@@ -2,9 +2,9 @@
 title: AI 助手用例
 description: 通过用例了解如何使用AI助手
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -51,13 +51,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 用作引用内容]**：所选变量用作引用，以生成更多内容。
 
-   * **[!UICONTROL 细节]**：让AI助手在某些点上扩展，提供更深入和详细的信息，以提高参与度。
+   * **[!UICONTROL 细节]**：让AI助手扩展某些点，提供更深入和详细的信息，以提高参与度。
 
-   * **[!UICONTROL 摘要]**：如需较长的信息，请使用AI助手创建电子邮件收件人更容易理解的简要摘要。
+   * **[!UICONTROL 摘要]**：为了获取较长的信息，请使用AI助手创建电子邮件收件人更容易理解的简要摘要。
 
-   * **[!UICONTROL 改写]**： AI助手可以通过不同方式呈现您的消息，帮助各种受众保持内容新鲜。
+   * **[!UICONTROL 改写]**： AI助手可以通过不同的方式呈现您的消息，帮助各种受众保持内容新鲜。
 
-   * **[!UICONTROL 使用更简单的语言]**：使用AI Assistant简化语言，以确保消息清晰且所有读者都可以访问。
+   * **[!UICONTROL 使用更简单的语言]**：使用AI Assistant简化语言，以确保消息清晰且可供所有读者访问。
 
    此外，调整内容的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 1. 设置和配置投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 使用AI助手选择要修改的资源。
+1. 选择要使用AI助手修改的资源。
 
 1. 从右窗格菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 

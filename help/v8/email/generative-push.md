@@ -3,14 +3,14 @@ audience: end-user
 title: 使用AI助手推送通知
 description: AI助手入门
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
-# 使用 AI 助手生成推送通知 {#generative-push}
+# 使用AI助手生成推送通知 {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 3%
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
-AI Assistant通过建议可与受众引起共鸣的不同内容，帮助优化投放的影响。
+AI Assistant通过建议与受众产生共鸣的不同内容，帮助优化投放的影响。
 
 在以下示例中，利用AI Assistant来制作引人注目的消息，以创建更具吸引力的客户体验。
 
@@ -44,7 +44,7 @@ AI Assistant通过建议可与受众引起共鸣的不同内容，帮助优化�
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 音调]**：调整电子邮件的音调以便与受众产生共鸣。 无论您想获得信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
+   * **[!UICONTROL 音调]**：调整电子邮件的音调以便与受众产生共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
 
    ![显示文本设置选项的屏幕快照](assets/push-genai-3.png){zoomable="yes"}
 

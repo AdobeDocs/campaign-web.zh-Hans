@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 使用AI助手发送短信
+title: 带有AI助理的短信
 description: AI助手入门
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
 
-# 使用 AI 助手生成短信 {#generative-sms}
+# 使用AI助手生成短信 {#generative-sms}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 2%
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
-一旦您制作并个性化短信消息以适合受众，即可借助创新的AI技术，提升与Adobe Campaign Web中的AI助理的通信。
+一旦您制作并个性化短信消息以适合受众，即可借助创新的AI技术，提升Adobe Campaign Web中的AI助手与您的通信。
 
 此工具提供了智能建议，可优化您的内容，确保您的消息有效地引起共鸣并最大限度地提高参与度。
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想获得信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
+   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
    ![显示文本设置选项的屏幕快照](assets/sms-genai-3.png){zoomable="yes"}
@@ -64,8 +64,8 @@ ht-degree: 2%
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能并微调您的首选项变量：
 
    * **[!UICONTROL 用作引用内容]**：所选变量用作用于生成其他结果的引用内容。
-   * **[!UICONTROL 使用更简单的语言]**： AI助手可帮助您编写每个人都能理解的清晰、简洁的消息。
-   * **[!UICONTROL 改写]**： AI助手将改写您的消息以使其可吸引不同受众。
+   * **[!UICONTROL 使用更简单的语言]**： AI Assistant可帮助您编写所有人都能理解的清晰、简洁的消息。
+   * **[!UICONTROL 改写]**： AI Assistant将改写您的消息以使其可吸引不同受众。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -125,8 +125,8 @@ ht-degree: 2%
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能并微调您的首选项变量：
 
    * **[!UICONTROL 用作引用内容]**：所选变量用作用于生成其他结果的引用内容。
-   * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 重述]**： AI助手可以通过不同方式重述您的消息，使您的写作保持新鲜，并吸引各种受众。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
