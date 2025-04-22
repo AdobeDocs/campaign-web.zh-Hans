@@ -37,7 +37,7 @@ Adobe Campaign Web 用户界面的发布采用持续投放模型，该模型支�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型可以控制和筛选投放的发送并确定其优先顺序。使用类型可以验证投放是否始终包含强制组件（如退订链接或主题行）或过滤规则，以从您的受众中排除群组（如取消订阅者、竞争对手或非忠诚客户）。</p>
+<p>您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型可以控制和过滤投放的发送并确定其优先顺序。使用类型可以验证投放是否始终包含强制组件（如退订链接或主题行）或过滤规则，以从您的受众中排除群组（如取消订阅者、竞争对手或非忠诚客户）。</p>
 <img src="assets/do-not-localize/typology.gif" alt="Adobe Campaign Web 用户界面中类型规则创建的说明">
 <p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
 </td>

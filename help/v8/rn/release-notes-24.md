@@ -71,7 +71,7 @@ ht-degree: 99%
 
 * **列表** - 您现在可以轻松地重新排序列表的值。[了解详情](../get-started/work-with-folders.md)
 
-* **交付** - 现在可以从个性化字段访问交付变量。[了解详情](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* **投放** - 现在可以从个性化字段访问投放变量。[了解详情](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## 9 月更新 {#9-2024}
@@ -103,7 +103,7 @@ ht-degree: 99%
 
 * **SMTP 参数** - SMTP 设置现在可在电子邮件传递设置中使用。[了解详情](../advanced-settings/delivery-settings.md#smtp)
 
-* **全局变量** - 您现在可以定义全局变量来定义您的交付的值。[了解详情](../advanced-settings/delivery-settings.md#variables-delivery)
+* **全局变量** - 您现在可以定义全局变量来定义您的投放的值。[了解详情](../advanced-settings/delivery-settings.md#variables-delivery)
 
 ### 有限可用性版本中的新功能 {#acs-24-8}
 
@@ -272,7 +272,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级的更多信息。
+>此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans)的用户。请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级方面的更多信息。
 
 **发布日期**：2024 年 3 月 19–20 日
 
