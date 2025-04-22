@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月的最后整合到[发行说明](release-notes.md)中。
 
-**以下早期发行说明在发行可用日期之前如有更改，恕不另行通知**。在发行日期，[发行说明](release-notes.md)中发布了链接、屏幕和更新文档。
+**以下早期发行说明在发行可用日期之前如有更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在[发行说明](release-notes.md)中发布。
 
 ## 2025 年 2 月版本 {#25-2-ern}
 
@@ -35,8 +35,8 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型，您可以控制和筛选投放的发送并确定其优先顺序。分类验证投放始终包含强制性组件（如退订链接或主题行）或用于从受众中排除分组（如取消订阅者、竞争对手或不忠诚客户）的筛选规则。</p>
-<img src="assets/do-not-localize/typology.gif" alt="在Adobe Campaign Web用户界面中创建类型规则的演示">
+<p>您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型，您可以控制和过滤投放的发送并确定其优先顺序。使用类型可以验证投放是否始终包含强制组件（如退订链接或主题行）或过滤规则，以从您的受众中排除群组（如取消订阅者、竞争对手或非忠诚客户）。</p>
+<img src="assets/do-not-localize/typology.gif" alt="在 Adobe Campaign Web 用户界面中创建类型规则的演示">
 <p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -52,7 +52,7 @@ Adobe Campaign Web 用户界面不断地提供新功能、对现有功能进行�
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Campaign Web 用户界面中创建目标映射。目标映射定义了不同的投放渠道（电子邮件、SMS、推送）如何链接到一个架构的数据字段。目标映射定义目标受众：用户档案、合同受益人、操作员、订阅者、潜在客户等。</p>
+<p>您现在可以在 Campaign Web 用户界面中创建目标映射。目标映射定义了不同的投放渠道（电子邮件、SMS、推送）如何链接到一个架构的数据字段。目标映射功能可以定义目标受众：轮廓、合同受益人、运营商、订阅者、潜在客户等。</p>
 <p>有关更多信息，请参阅<a href="../administration/typologies.md">详细文档</a>。</p>
 </td>
 </tr>

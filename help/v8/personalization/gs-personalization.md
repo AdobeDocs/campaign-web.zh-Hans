@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Adobe Campaign Web 提供了一个表达式编辑器，可让您选择、排列�
 
   [描述：从电子邮件文本组件访问表达式编辑器的示例。](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
-* *通过电子邮件中的链接访问表达式编辑器*
+* *从电子邮件中的链接访问表达式编辑器*
 
   [描述：从电子邮件中的链接访问表达式编辑器的示例。](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 

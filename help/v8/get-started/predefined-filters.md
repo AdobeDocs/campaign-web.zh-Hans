@@ -3,7 +3,7 @@ title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -14,14 +14,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="预定义过滤器管理"
->abstract="Campaign Web 用户界面提供了一个用户友好的界面，使您能够轻松管理和定制预定义的过滤器，以满足您的特定需求。创建一次并保存，以供将来使用。"
+>abstract="Campaign Web 用户界面提供了一个用户友好的界面，使您能够轻松管理和定制预定义的过滤器，以满足您的特定需求。创建一次并保存以供将来使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="预定义过滤器"
 >abstract="Campaign Web 用户界面提供了一个用户友好的界面，使您能够轻松管理和定制预定义的过滤器，以满足您的特定需求。创建一次并保存，以供将来使用。"
 
-预定义过滤器是用户创建并保存的自定义过滤器，以供将来使用。它们可在使用查询建模器进行过滤操作时充当快捷方式。例如，它们可以在筛选数据列表或创建投放的受众时使用。
+预定义过滤器是用户创建并保存的自定义过滤器，以供将来使用。它们可在使用查询建模器进行过滤操作时充当快捷方式。例如，它们可以在过滤数据列表或创建投放的受众时使用。
 
 可使用现有的内置过滤器访问数据的特定子集，也可创建自己的预定义过滤器并保存它们。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 从[查询建模器](../query/query-modeler-overview.md)保存自定义过滤器，以供将来使用。执行以下步骤：
 
-1. 打开查询建模器并定义您的过滤条件。在下面的示例中，筛选出了居住在马德里并订阅了新闻稿的收件人。
+1. 打开查询建模器并定义您的过滤条件。在下面的示例中，过滤出了居住在马德里并订阅了新闻稿的收件人。
 1. 单击&#x200B;**选择或保存过滤器**&#x200B;按钮，然后选择&#x200B;**另存为过滤器**。
 
    ![保存预定义过滤器界面](assets/predefined-filters-save.png){zoomable="yes"}
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 1. 浏览到用于创建受众的预定义过滤器，选择它并确认。
 
-   ![预定义过滤列表界面](assets/build-audience-filter-list.png){zoomable="yes"}
+   ![预定义过滤器列表界面](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. 检查此过滤器的规则属性并确认。
 

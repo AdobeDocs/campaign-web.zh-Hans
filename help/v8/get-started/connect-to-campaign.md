@@ -3,7 +3,7 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ Adobe Campaign Web 目前提供以下语言版本：
 
 ## 深色和浅色主题 {#dark-theme}
 
-Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的个人档案图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用或禁用它。
+Adobe Campaign 有浅色和深色主题可用。默认情况下，以浅色主题启用用户界面。要切换到深色主题，请单击您的轮廓图标，然后使用&#x200B;**深色主题**&#x200B;切换开关启用或禁用它。
 
 有关用户轮廓设置和帐户偏好设置的详情，请参阅[本节内容](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hans#preferences){target="_blank"}。
 
