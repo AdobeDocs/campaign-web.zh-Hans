@@ -3,19 +3,19 @@ audience: end-user
 title: 具有AI助理的登陆页面
 description: AI助手入门
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 3%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助手生成登陆页面{#generative-lp}
+# 使用AI助手生成登陆页面{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="使用 AI 生成登陆页面"
->abstract="您现在可以使用 AI 助手来创建登陆页面投放，从而生成文本、图像或完整的页面布局。"
+>abstract="您现在可以使用AI Assistant创建登陆页面投放，从而生成文本、图像或完整的页面布局。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!IMPORTANT]
@@ -25,11 +25,11 @@ ht-degree: 3%
 >
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-使用由创作AI提供支持的Adobe Campaign Web中的AI助手转换登陆页面。
+在Adobe Campaign Web中使用AI助手，通过创作AI转换登陆页面。
 
 轻松创建有影响力的内容，包括完整的页面、量身定制的文本片段以及可与受众引起共鸣的自定义视觉效果，从而促进参与和互动。
 
-浏览以下选项卡，了解如何使用Adobe Campaign Web中的AI助手。
+浏览以下选项卡，了解如何在Adobe Campaign Web中使用AI助手。
 
 >[!BEGINTABS]
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    ![显示图像设置选项的屏幕快照。](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
-   * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
+   * **[!UICONTROL 重述]**： AI助手可以通过不同方式重述您的消息，使您的写作保持新鲜，并吸引各种受众。
    * **[!UICONTROL 使用更简单的语言]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
@@ -97,7 +97,7 @@ ht-degree: 3%
 
 >[!TAB 纯文本生成]
 
-在以下示例中，了解如何利用AI助手增强登陆页面的内容。
+在以下示例中，了解如何利用AI Assistant增强登陆页面的内容。
 
 1. 创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    ![显示文本设置选项的屏幕快照。](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
@@ -184,7 +184,7 @@ ht-degree: 3%
 
    ![显示图像设置选项的屏幕快照。](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何为AI助手提供其他上下文的品牌资产，或选择以前上传的品牌资产。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 

@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 开始使用 AI 助手
+title: AI助手入门
 description: AI助手入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 6%
 
 ---
 
-# 使用 AI 助手 {#generative-gs}
+# 使用AI助手 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 助手"
->abstract="在构建并个性化投放后，使用AI助手增强您的内容。 此功能允许您通过描述要生成的内容来微调内容，从而简化个性化和内容改进。"
+>abstract="在构建和个性化投放后，使用AI助手增强您的内容。 此功能允许您通过描述要生成的内容来微调内容，从而简化个性化和内容改进。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
