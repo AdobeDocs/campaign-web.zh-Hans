@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web 用户界面/客户端控制台功能矩阵
 description: Campaign Web 用户界面中支持的功能列表
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '2102'
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
+workflow-type: tm+mt
+source-wordcount: '2072'
 ht-degree: 100%
 
 ---
@@ -103,12 +103,18 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 
 使用提供的链接浏览 Campaign v8（客户端控制台）文档并了解有关类型规则的更多信息：
 
-* 创建控制规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hans){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * 创建疲劳/压力规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}
-* 创建过滤规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hans){target="_blank"}
-* 管理类型规则。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hans){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * 营销活动模拟。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hans){target="_blank"}
-* 用于创作类型规则的 JavaScript 编码。[了解详情](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## 工作流 {#wf-capabilities}
 
@@ -116,7 +122,10 @@ Adobe Campaign Web 用户界面带有全新的电子邮件设计器，通过其�
 
 请注意，以下功能仅在 Campaign 客户端控制台中可用：
 
-* 工作流中的脚本
+<!--
+* Scripting in workflows
+-->
+
 * ETL 活动：导出、编辑架构、数据加载、数据提取、SQL 代码
 
 请参阅[此处](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hans){target="_blank"}的 Adobe Campaign v8（控制台）工作流文档，了解有关工作流活动的更多信息。
