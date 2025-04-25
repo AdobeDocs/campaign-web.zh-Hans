@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="投放统计信息"
->abstract="**投放统计数据**&#x200B;关键绩效指标(KPI)全面概述了您的投放和营销活动绩效，并提供了有关成功投放、遇到的错误和用户参与情况的见解。"
+>abstract="**投放统计数据**&#x200B;关键绩效指标 (KPI) 全面概述您的投放和营销活动效果，在此可了解成功投放次数、遇到的错误数和用户参与情况。"
 
 **[!UICONTROL 投放统计信息]**&#x200B;量度提供关键绩效指标(KPI)，用于提供有关与每个电子邮件投放关联的数据的详细信息。 有关这些指标的更多详细信息如下。
 
@@ -247,7 +247,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="访问量排名前 10 的链接"
->abstract="**前10个访问次数最多的链接**&#x200B;图形和表格提供了有关收件人与每个链接的交互情况的全面数据。"
+>abstract="**访问量排名前 10 的链接**&#x200B;的图和表展示有关收件人与每个链接的互动情况的全面数据。"
 
 **[!UICONTROL 前10个访问次数最多的链接]**&#x200B;图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 

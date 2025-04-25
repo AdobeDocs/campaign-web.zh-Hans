@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="生成出站过渡"
->abstract="如果要在&#x200B;**保存受众**&#x200B;活动之后添加过渡，请使用此选项。"
+>abstract="如果您想在&#x200B;**保存受众**&#x200B;活动之后添加过渡，请使用此选项。"
 
 **保存受众**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众列表中，并可通过&#x200B;**受众**&#x200B;菜单使用。
 

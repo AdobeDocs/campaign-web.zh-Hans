@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="编辑自定义详细信息"
->abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用上下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。 要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
+>abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"

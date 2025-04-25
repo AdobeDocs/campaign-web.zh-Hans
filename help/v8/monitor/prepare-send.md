@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="点击次数"
->abstract="在电子邮件中至少点击一次的收件人数量。 该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
+>abstract="在电子邮件中至少点击一次的收件人的数量。该指示器每 5 分钟更新一次。显示的百分比是不同单击次数与已送达邮件数的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/kpis" text="了解关键绩效指标"
 
 >[!CONTEXTUALHELP]

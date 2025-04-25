@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义允许用户选择和提交其选择的特定内容，请使用表单组件。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够选择并提交其选择，请使用表单组件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="定义主页面设置"
->abstract="用户单击指向登陆页面的链接后（例如通过电子邮件或网站），会立即向用户显示主页面。"
+>abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
 
 您可以编辑登陆页面中任何页面的内容。
 

@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 29%
+ht-degree: 40%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="短信投放属性"
->abstract="属性包括常用投放参数，可帮助您对投放进行命名和分类。 如果您的投放使用扩展架构，则特定自定义选项字段可用。"
+>abstract="这些属性包括常见的投放参数，可帮助您为投放命名和分类。如果您的投放使用扩展架构，则有专门的“自定义选项”字段可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
->abstract="通过单击&#x200B;**选择受众**&#x200B;按钮创建新受众或选择现有受众。 如果需要，可添加对照组以衡量投放的影响力。"
+>abstract="创建新受众或通过单击&#x200B;**选择受众**&#x200B;按钮选择现有受众。如果需要，可添加对照组以衡量投放的影响力。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hans" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
->abstract="选择预定义模板以开始投放您的短信。利用投放模板，可在营销活动和投放中重复使用自定义内容和设置。"
+>abstract="选择预定义模板以开始投放您的短信。通过投放模板，您可在各种营销活动和投放中重用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hans" text="使用投放模板"
 
 您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤解释独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，将在[此部分](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中说明创建步骤。

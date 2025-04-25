@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -118,12 +118,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="转移后删除源文件"
->abstract="成功传输后擦除源文件。"
+>abstract="转移成功后删除源文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="显示会话日志"
->abstract="与传输操作相关的信息显示在工作流日志中。"
+>abstract="与转移操作相关的信息显示在工作流日志中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

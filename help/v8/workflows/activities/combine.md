@@ -6,7 +6,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 32%
+ht-degree: 61%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="合并活动"
->abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。您可以合并多个群体，排除其中一部分群体，或者仅保留多个目标共有的数据。"
+>abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 **合并**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动允许对集客群体进行分段。您可以合并多个群体，排除其中一部分群体，或者仅保留多个目标共有的数据。 下面显示了可用的分段类型：
 
@@ -25,24 +25,24 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 * **Union**&#x200B;将多个活动的结果重组为单个目标。
 * **交集**&#x200B;仅保留活动中不同集客群体的共有元素。
-* **排除项**&#x200B;根据特定条件从一个群体中排除某些元素。
+* **差集**&#x200B;根据特定条件从一个群体中排除了某些元素。
 
 ## 配置合并活动 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
 >title="交集合并选项"
->abstract="交叉点仅保留活动中不同集客群体的共有元素。 在“要联接的集”部分中，选中之前要联接的所有活动。"
+>abstract="交集仅包含活动中不同集客群体的共有元素。在“要加入的集合”部分中，选中您之前希望加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_merging_options"
 >title="差集合并选项"
->abstract="该排除项根据特定条件从一个群体中排除某些元素。 在“要联接的集”部分中，选中之前要联接的所有活动。"
+>abstract="差集根据特定条件从一个群体中排除了某些元素。在“要加入的集合”部分中，选中您之前希望加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择如何合并受众。**Union**&#x200B;将多个活动的结果重组为单个目标。 **交集**&#x200B;仅保留活动中不同集客群体的共有元素。 **排除项**&#x200B;根据特定条件从一个群体中排除某些元素。"
+>abstract="选择如何合并受众。**并集**&#x200B;将多个活动的结果重组为单个目标。**交集**&#x200B;仅包含活动中不同集客群体的共有元素。**差集**&#x200B;根据特定条件从一个群体中排除了某些元素。"
 
 按照以下常用步骤配置&#x200B;**合并**&#x200B;活动：
 
@@ -59,7 +59,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="协调选项"
->abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同集客过渡的元素具有相同的键时，该活动只保留一个元素。 使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
+>abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
 在&#x200B;**组合**&#x200B;活动中，通过选择&#x200B;**协调类型**&#x200B;来配置&#x200B;**联合**&#x200B;以定义如何处理重复项：
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="交叉协调选项"
->abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同集客过渡的元素具有相同的键时，该活动只保留一个元素。 使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
+>abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
 在&#x200B;**合并**&#x200B;活动中，按照以下额外步骤配置&#x200B;**交叉点**：
 
@@ -83,7 +83,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，处理入站表。 要从其他维度中排除某个目标，请将此目标返回到与主目标相同的定向维度。 单击排除规则部分中的添加规则，然后指定维更改条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，操作集客表。要从另一个维度排除一个目标，将该目标返回到与主目标相同的目标市场选择维度。单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
@@ -93,7 +93,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
 >title="差集规则"
->abstract="必要时，处理入站表。 要从其他维度中排除某个目标，请将此目标返回到与主目标相同的定向维度。 单击排除规则部分中的添加规则，然后指定维更改条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，操作集客表。要从另一个维度排除一个目标，将该目标返回到与主目标相同的目标市场选择维度。单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -103,7 +103,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在&#x200B;**合并**&#x200B;活动中，按照以下额外步骤配置&#x200B;**排除项**：
 
 1. 在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主集**。这是排除了元素的集合。其他集合用于匹配从主集中排除之前的元素。
-1. 必要时，处理入站表。 要从其他维度中排除某个目标，请将此目标返回到与主目标相同的定向维度。 在&#x200B;**排除规则**&#x200B;部分中单击&#x200B;**添加规则**&#x200B;并指定维度更改条件。 数据协调是通过属性或联接来执行的。
+1. 必要时，操作集客表。要从另一个维度排除一个目标，将该目标返回到与主目标相同的目标市场选择维度。在&#x200B;**排除规则**&#x200B;部分中单击&#x200B;**添加规则**&#x200B;并指定维度更改条件。 数据协调是通过属性或联接来执行的。
 1. 如果要处理剩余群体，请选中&#x200B;**生成补码**&#x200B;选项。 请参阅[交集](#intersection)部分。
 
 ## 示例 {#combine-examples}

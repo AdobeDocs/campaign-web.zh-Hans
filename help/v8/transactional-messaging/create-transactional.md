@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="事务性消息传递属性"
->abstract="填写此表单以配置事务型消息传递属性。"
+>abstract="填写此表单以配置事务性消息传递属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
@@ -51,7 +51,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
 >title="事务性消息传递 SMS 属性"
->abstract="填写此表单以配置事务性消息传递短信属性。"
+>abstract="填写此表单以配置事务性消息传递 SMS 属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
@@ -110,12 +110,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="事务性消息传递内容"
->abstract="了解如何创建事务型消息内容。"
+>abstract="了解如何创建事务性消息传递内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="事务性消息传递个性化"
->abstract="了解如何个性化事务型消息内容。"
+>abstract="了解如何个性化事务性消息传递内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
@@ -181,9 +181,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
 >title="事务性消息传递事件"
->abstract="事件类型的配置将消息链接到触发器事件。"
+>abstract="事件类型的配置将消息与触发事件联系起来。"
 
-事件类型的配置将消息链接到触发器事件。
+事件类型的配置将消息与触发事件联系起来。
 
 在Campaign Web用户界面中，选择已创建的事件类型，或直接在此配置页面中创建事件类型。
 

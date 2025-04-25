@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="加载文件活动的值重新映射"
->abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列包含“True”/“False”值，则可以添加映射以自动将这些值替换为“0”/“1”字符。"
+>abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含 “True”/“False” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
 
 按照以下步骤配置用于定义预期文件结构的样例文件：
 
@@ -106,12 +106,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="目标数据库"
->abstract="如果您正在访问已在客户端控制台中设置的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，如果您已将该活动配置为将文件上载到外部数据库，则可以使用额外的&#x200B;**[!UICONTROL 目标数据库]**&#x200B;部分。"
+>abstract="如果您访问的是已在客户端控制台中设置的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，并且已将该活动配置为将文件上传到外部数据库，则还会有额外的&#x200B;**[!UICONTROL 目标数据库]**&#x200B;部分可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="加载文件命令"
->abstract="允许使用任意命令进行预处理是一个安全问题。 禁用安全选项XtkSecurity_Disable_Preproc以强制使用预定义的命令列表。"
+>abstract="允许任意预处理命令是一个安全隐患。禁用安全选项 XtkSecurity_Disable_Preproc 以强制使用预定义的命令列表。"
 
 >[!CAUTION]
 >

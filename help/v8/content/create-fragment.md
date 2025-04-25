@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -74,12 +74,12 @@ ht-degree: 14%
 * [将可视片段添加到电子邮件](use-visual-fragments.md)
 * [将表达式片段添加到表达式编辑器](use-expression-fragments.md)
 
-## 将内容另存为可视化片段 {#save-as-fragment}
+## 将内容保存为可视片段 {#save-as-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="另存为片段"
->abstract="要将内容另存为可视化片段，请选择要包含在片段中的元素，包括个性化字段和动态内容。 只能选取相邻的部分。 无法选择空的结构或其他内容片段。 然后，内容将成为一个独立的片段，添加到片段列表，可从专用菜单访问。 在Campaign中构建任何电子邮件或内容模板时，可以使用此片段。"
+>abstract="要将内容保存为可视片段，请选择要包含到片段中的元素，包括个性化字段和动态内容。仅可选择相邻部分。不能选择空结构或其他内容片段。然后该内容将成为一个独立的片段，被添加到片段列表中，并可通过专用菜单进行访问。在营销活动中构建任何电子邮件或内容模板时可以使用此片段。"
 
 <!--pas vu dans l'UI-->
 
@@ -95,7 +95,7 @@ ht-degree: 14%
 
    >[!CAUTION]
    >
-   >只能选取相邻的部分。 无法选择空的结构或其他内容片段。
+   >仅可选择相邻部分。无法选择空的结构或其他内容片段。
 
    ![另存为片段屏幕，显示元素选择](assets/fragment-save-as-screen.png)
 

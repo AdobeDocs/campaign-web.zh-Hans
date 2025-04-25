@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="投放"
->abstract="投放是在特定渠道上发送给受众的通信内容：电子邮件、短信或推送。 在此屏幕上，您可以编辑、复制和删除现有投放。您还可以查看已完成的投放的报表。单击&#x200B;**创建投放**&#x200B;按钮以添加新投放。"
+>abstract="投放是在电子邮件、短信或推送通知等特定渠道上发送给受众的通信。在此屏幕上，您可以编辑、复制和删除现有投放。您还可以查看已完成的投放的报表。单击&#x200B;**创建投放**&#x200B;按钮以添加新投放。"
 
 ## 访问传递 {#access}
 

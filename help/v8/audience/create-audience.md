@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="受众"
->abstract="在此页面中，您可以访问工作流或独立投放中可定位的所有受众列表。单击&#x200B;**创建**，在可视化画布中创建新的受众。<br/><br/>除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众，使用外部属性丰富受众，或根据您选择的规则将其划分为多个受众。"
+>abstract="在此页面中，您可以访问工作流或独立投放中可定位的所有受众列表。单击&#x200B;**创建**，在可视化画布中创建新的受众。<br/><br/>除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众、用外部属性充实受众，或根据所选择的规则将其划分为多个受众。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-Campaign Web允许您在可视化工作流画布中创建新受众。 除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众，使用外部属性丰富受众，或根据您选择的规则将其划分为多个受众。
+Campaign Web允许您在可视化工作流画布中创建新受众。 除了从头开始创建简单受众之外，还可利用工作流活动细化受众。例如，您可以将多个受众合并为单个受众、用外部属性充实受众，或根据所选择的规则将其划分为多个受众。
 
 制作工作流后，生成的受众将自动与现有受众一起存储在Campaign数据库中。 然后，可以在工作流或独立投放中定位这些受众。
 

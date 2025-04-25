@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="创建和管理服务"
->abstract="使用Adobe Campaign创建和监控服务（如新闻稿），并检查这些服务的订阅或退订。 订阅仅适用于电子邮件和短信投放。"
+>abstract="使用 Adobe Campaign 创建和监测您的服务，如新闻稿，以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
 
 使用Adobe Campaign Web管理和创建您的服务（如新闻稿），并检查这些服务的订阅或退订。
 
@@ -149,7 +149,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="订阅者计数"
->abstract="单击&#x200B;**计算**&#x200B;以获取此服务的订阅者总数。"
+>abstract="单击&#x200B;**计算**&#x200B;以获取此服务的订阅者的总数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
@@ -164,7 +164,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="订阅整体演变"
->abstract="此图表按期间显示细分，包括订阅、退订、数量演变和忠诚度百分比。"
+>abstract="此图显示各时段的细分，包括订阅数、退订数、数量演变和忠诚度百分比。"
 
 要衡量短信和电子邮件渠道订阅服务的有效性，请访问给定服务的日志和报告。
 

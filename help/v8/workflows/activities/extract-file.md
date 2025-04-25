@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="提取文件"
->abstract="利用&#x200B;**提取文件**&#x200B;活动，可将数据以外部文件的形式从 Adobe Campaign 中导出。然后，可以使用传输文件活动将数据导出到服务器位置，如SFTP、云存储或您的Campaign服务器。"
+>abstract="利用&#x200B;**提取文件**&#x200B;活动，可将数据以外部文件的形式从 Adobe Campaign 中导出。然后可以使用“传输文件”活动将数据导出到服务器位置，例如 SFTP、云存储或您的 Campaign 服务器。"
 
-**提取文件**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用此活动以外部文件的形式从Adobe Campaign导出数据。 然后，可以使用传输文件活动将数据导出到服务器位置，如SFTP、云存储或您的Campaign服务器。
+**提取文件**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用此活动以外部文件的形式从Adobe Campaign导出数据。 然后可以使用“传输文件”活动将数据导出到服务器位置，例如 SFTP、云存储或您的 Campaign 服务器。
 
 要配置&#x200B;**提取文件**&#x200B;活动，请将&#x200B;**提取文件**&#x200B;活动添加到您的工作流中，然后执行以下步骤。
 

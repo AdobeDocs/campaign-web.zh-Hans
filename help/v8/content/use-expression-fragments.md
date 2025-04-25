@@ -6,7 +6,7 @@ exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 16%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段"
->abstract="当前沙盒中创建的所有表情片段都显示在此列表中。要使用片段，请单击+按钮以将片段ID添加到编辑器中。"
+>abstract="当前沙盒中创建的所有表情片段都显示在此列表中。要使用片段，请单击 + 按钮将片段 ID 添加到编辑器中。"
 
 <!-- pas vu dans l'UI-->
 

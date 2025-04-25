@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 29%
+ht-degree: 35%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="扩充活动"
->abstract="将扩充数据添加到工作流后，便可在后续活动中使用该数据，根据客户的行为、偏好和需求将客户划分为不同的群组，或创建个性化的营销消息和营销活动以引起目标受众的共鸣。"
+>abstract="将扩充数据添加到工作流后，就可以在后续活动中使用这些数据，以根据客户的行为、偏好和需求将他们划分为不同的群组，或创建让目标受众产生共鸣的个性化营销消息和营销活动。"
 
 1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充的属性。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)。
 
@@ -69,9 +69,9 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="链接定义"
->abstract="在表数据和 Adobe Campaign 数据库之间创建链接。例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接以更新其用户档案中的此信息。"
+>abstract="在表数据和 Adobe Campaign 数据库之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其轮廓中更新此信息。"
 
-**[!UICONTROL 链接定义]**&#x200B;部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果从包含收件人帐号、国家/地区和电子邮件的文件加载数据，则必须创建指向国家/地区表的链接以更新其用户档案中的此信息。
+**[!UICONTROL 链接定义]**&#x200B;部分允许您在工作表数据和Adobe Campaign数据库之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其轮廓中更新此信息。
 
 有多种类型的链接可用：
 

@@ -4,7 +4,7 @@ title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 20%
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定义电子邮件的内容"
->abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，您可以定义邮件的基本元素，如发件人地址和主题行，执行添加附件或优惠等其他操作，以及访问Email Designer为您的邮件提供光泽的外观。"
+>abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或产品建议）和访问电子邮件设计器以美化邮件的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="将文件附加到电子邮件"
->abstract="选择一个或多个要插入到消息中的文件。 为避免出现性能问题，建议每封电子邮件不要包含多个附件。"
+>abstract="选择要插入邮件的一个或多个文件。为了避免出现性能问题，建议每封电子邮件不要附加多个附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -79,7 +79,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >为避免出现性能问题，建议每封电子邮件不要包含多个附件。
+   >为了避免出现性能问题，建议每封电子邮件不要附加多个附件。
 
    <!--limitation on size + number of files?-->
 

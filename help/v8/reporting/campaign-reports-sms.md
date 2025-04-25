@@ -6,7 +6,7 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="初始目标受众统计信息"
->abstract="**初始目标受众统计信息**&#x200B;表显示与收件人相关的数据。"
+>abstract="**初始目标受众统计数据**&#x200B;表显示有关您的收件人的数据。"
 
 **[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
 

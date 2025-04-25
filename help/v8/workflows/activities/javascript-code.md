@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 22%
+ht-degree: 32%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 代码"
->abstract="**JavaScript 代码**&#x200B;活动允许您在工作流上下文中执行 JavaScript 脚本。这使您能够执行操作或从数据库中收集信息。 使用&#x200B;**Simple** JavaScript代码活动在执行工作流期间执行一个代码段。 **高级** JavaScript代码活动允许您通过按顺序执行两个不同的代码片段来执行更复杂的操作。 第一次启动工作流时，将执行第一次调用。 工作流每次再次运行时，都会执行第二次调用中定义的代码。"
+>abstract="**JavaScript 代码**&#x200B;活动允许您在工作流上下文中执行 JavaScript 脚本。您可以使用它来执行操作或从数据库收集信息。使用&#x200B;**简单的** JavaScript 代码活动在执行工作流时执行一个代码片段。**高级** JavaScript 代码活动允许您按顺序执行两个不同的代码片段，从而执行更复杂的操作。工作流第一次启动时，会执行第一个调用。工作流每次再次运行时，都会执行第二次调用中定义的代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 代码片段"
->abstract="定义运行活动时要执行的脚本。如果要配置&#x200B;**高级** JavaScript活动，请编辑两个代码片段：在第一个工作流执行期间执行的第一个调用代码，以及在后续工作流执行期间执行的下一个调用代码。"
+>abstract="定义运行活动时要执行的脚本。如果您正在配置&#x200B;**高级** JavaScript 活动，请编辑两个代码片段：在第一次执行工作流时执行的第一个调用代码，以及在之后执行工作流时执行的下一个调用代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"

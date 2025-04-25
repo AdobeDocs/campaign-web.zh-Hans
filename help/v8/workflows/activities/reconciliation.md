@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 22%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="协调活动"
->abstract="**协调**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它定义了Adobe Campaign数据库中的数据与工作表中的数据之间的链接。 例如，可将&#x200B;**协调**&#x200B;活动放在&#x200B;**加载文件**&#x200B;活动之后以将非标准数据导入到数据库中。在这种情况下，**协调**&#x200B;活动定义Adobe Campaign数据库中的数据与外部表中的数据之间的链接。"
+>abstract="**协调**&#x200B;活动是一项&#x200B;**定位**&#x200B;活动，通过它可定义 Adobe Campaign 数据库中的数据与工作表中的数据之间的联系。例如，可将&#x200B;**协调**&#x200B;活动放在&#x200B;**加载文件**&#x200B;活动之后以将非标准数据导入到数据库中。在本例中，**协调**&#x200B;活动定义了 Adobe Campaign 数据库中的数据与外部表中的数据之间的关联。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -48,12 +48,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="目标市场选择维度"
->abstract="选择新的目标市场选择维度。维度定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。 默认情况下会选择当前的目标市场选择维度。"
+>abstract="选择新的目标市场选择维度。维度定义了目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标市场选择维度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择删除重复项的对帐规则。 若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
@@ -65,18 +65,18 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请取消激活&#x200B;**保留未协调的数据**&#x200B;选项。"
+>abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="协调属性"
->abstract="选择要用于协调数据的属性，然后单击“确认”。"
+>abstract="选择用于协调数据的属性，然后单击“确认”。"
 
 按照以下步骤配置&#x200B;**协调**&#x200B;活动：
 
 1. 将&#x200B;**协调**&#x200B;活动添加到您的工作流。 此活动应紧跟在包含定向维度并非直接来自Adobe Campaign的群体的过渡之后。
 
-1. 选择新的目标市场选择维度。维度定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。 [了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
+1. 选择新的目标市场选择维度。维度定义了目标群体：收件人、应用程序订阅者、运营商、订阅者等。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
 
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 
@@ -90,7 +90,7 @@ ht-degree: 22%
 
 1. 使用&#x200B;**创建筛选器**&#x200B;按钮筛选要协调的数据。 这使您可以使用查询建模器创建自定义条件。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)。
 
-默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请取消激活&#x200B;**保留未协调的数据**&#x200B;选项。
+默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。
 
 ## 示例 {#reconciliation-example}
 

@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 20%
+ht-degree: 26%
 
 ---
 
@@ -49,12 +49,12 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="添加到提醒中的指标"
->abstract="选择要作为列显示在电子邮件警报“详细信息”部分中的指示器。"
+>abstract="选择要在电子邮件提醒的“详细信息”部分中显示为列的指标。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="提醒类型"
->abstract="为条件指定&#x200B;**警报类型**，这意味着要在警报的“摘要”部分中的投放条件旁边显示的标签和颜色。"
+>abstract="指定条件的&#x200B;**提醒类型**，即在提醒的“摘要”部分中投放条件旁边显示的标签和颜色。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

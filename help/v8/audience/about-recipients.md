@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="轮廓"
->abstract="用户档案是旨在接收Adobe Campaign发送的消息的记录。 从此列表中可根据您的权限查看轮廓详情。使用过滤选项浏览此列表。您可以编辑和更新轮廓的一小部分属性。"
+>abstract="轮廓是一条针对接收 Adobe Campaign 发送的消息的记录。从此列表中可根据您的权限查看轮廓详情。使用过滤选项浏览此列表。您可以编辑和更新轮廓的一小部分属性。"
 
 ## 什么是配置文件？ {#what}
 

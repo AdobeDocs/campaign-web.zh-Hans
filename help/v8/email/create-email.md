@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="选择电子邮件模板"
->abstract="电子邮件模板是一种特定的投放配置，其中包含预定义设置，如类型规则、个性化或路由参数。 模板在 Campaign 客户端控制台中定义。"
+>abstract="电子邮件模板是一种特定的投放配置，其中包含预定义的设置，例如类型规则、个性化或路由参数。模板在 Campaign 客户端控制台中定义。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="定义电子邮件属性"
->abstract="属性是常见的投放参数，可帮助您对投放进行命名和分类。 其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
+>abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
 
 可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在[此页面](../msg/gs-deliveries.md)中了解有关Adobe Campaign中投放创建步骤的更多信息。
 

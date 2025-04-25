@@ -6,7 +6,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1569'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="iOS 的静默通知"
->abstract="静默推送模式允许将“静默”通知发送到移动应用程序。 其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
+>abstract="通过静默推送模式，可将“静默”通知发送到移动设备应用程序。其中并不通知用户已送达通知。而是直接将通知传送到应用程序。"
 
 创建推送投放后，请定义其内容。 参数和设置取决于移动设备操作系统：Android或iOS。 浏览以下选项卡，了解如何为每个操作系统编写消息。
 

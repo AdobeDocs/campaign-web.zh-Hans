@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="”订阅服务“活动"
->abstract="订阅服务活动允许多个用户档案在单个操作中订阅或取消订阅服务。"
+>abstract="”订阅服务“活动允许在一个操作中多个轮廓被订阅或取消订阅某个服务。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="订阅服务常规参数"
->abstract="选择所需的服务，然后选择要执行的操作（订阅或取消订阅）。打开&#x200B;**发送确认消息**&#x200B;选项，通知群体已订阅或取消订阅所选服务。"
+>abstract="选择所需的服务，然后选择要执行的操作（订阅或取消订阅）。切换打开&#x200B;**发送确认消息**&#x200B;选项，通知群体他们已订阅或取消订阅所选服务。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他信息"
->abstract="指定每条记录的订阅数据和来源。您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。如果集客数据包含一列，指示用户档案订阅服务的日期，则可以在&#x200B;**[!UICONTROL Date]**&#x200B;字段中选择该列。 在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常数设置为来源]**&#x200B;选项将其设定为所选的常数值。"
+>abstract="指定每条记录的订阅数据和来源。您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。如果入站数据包含一列表示轮廓订阅该服务的日期，则可以在&#x200B;**[!UICONTROL 日期]**&#x200B;字段中选择此列。在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常数设置为来源]**&#x200B;选项将其设定为所选的常数值。"
 
 **订阅服务**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 它允许您为过渡中指定的群体创建或删除对信息服务的订阅。
 

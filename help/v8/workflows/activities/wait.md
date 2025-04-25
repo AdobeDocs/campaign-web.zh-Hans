@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="等待活动"
->abstract="**等待**&#x200B;活动用于延迟从一个活动到另一个活动的过渡。"
+>abstract="**等待**&#x200B;活动用于推迟从一个活动到另一个活动的过渡。"
 
 **等待**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它允许在执行两个活动之间经过一定的时间。 例如，它可以用于在电子邮件投放活动后等待几天，然后分析这期间生成的打开次数和点击次数，然后再执行后续操作，如发送提醒电子邮件或创建受众。
 

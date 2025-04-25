@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="短信目标群体"
->abstract="**目标人群**&#x200B;的图表和表显示了与短信受众相关的数据，包括有关要投放的消息和排除的信息。"
+>abstract="**目标群体**&#x200B;图和表展示与您的短信受众相关的数据，包括有关要投放的消息和排除项的信息。"
 
 **[!UICONTROL 目标受众]**&#x200B;表和图表显示与每个已发送短信投放的收件人相关的数据。 指标详见下文。
 

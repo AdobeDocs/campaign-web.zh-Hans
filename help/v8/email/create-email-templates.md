@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定义模板属性"
->abstract="定义电子邮件内容模板属性，以便在需要时轻松检索。"
+>abstract="定义您的电子邮件内容模板属性，以便在需要时轻松检索。"
 
 要从内容模板仪表板中创建新内容模板，请执行以下步骤：
 
