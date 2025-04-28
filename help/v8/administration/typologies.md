@@ -3,10 +3,10 @@ audience: end-user
 title: 使用业务规则（类型）
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 24%
+source-wordcount: '1474'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 24%
 >id="acw_business_rules"
 >title="类型和类型规则"
 >abstract="使用类型，您可以将所有投放中的业务实践标准化。类型是类型规则集合，可让您控制和筛选投放内容的发送并确定其优先级。在准备阶段，符合类型规则中的条件的轮廓将从投放受众中被排除。"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="筛选"
+>abstract=" 可以使用两种类型的分类规则：<br/><br/>**控制**&#x200B;规则，这些规则可确保消息质量和有效性的预发送，如字符显示、短信长度、地址格式或URL缩短。 <br/><br/>**正在筛选**&#x200B;规则，这些规则根据特定条件（如年龄、位置、国家/地区或电话号码）排除目标受众的区段。"
 
 ## 关于分类
 
