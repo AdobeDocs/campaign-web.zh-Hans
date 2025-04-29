@@ -3,7 +3,7 @@ audience: end-user
 title: 将元数据添加到您的电子邮件内容
 description: 了解如何使用元数据提高电子邮件内容的可读性和可访问性
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 25%
@@ -37,12 +37,12 @@ ht-degree: 25%
 
 1. 从左侧的&#x200B;**[!UICONTROL 导航树]**&#x200B;或右窗格顶部单击&#x200B;**[!UICONTROL 正文]**。
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，在&#x200B;**[!UICONTROL 预标题]**、**[!UICONTROL 文档标题]**&#x200B;和/或&#x200B;**[!UICONTROL 文档语言]**&#x200B;字段中键入一些文本。
 
 1. 您还可以单击每个字段旁边的个性化图标以根据配置文件属性、受众、上下文属性等自定义您的内容。 [了解有关个性化的更多信息](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。
