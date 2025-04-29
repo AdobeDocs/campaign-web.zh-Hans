@@ -2,9 +2,9 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
+source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '689'
 ht-degree: 34%
 
 ---
@@ -92,7 +92,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**电子邮件编辑器**：为了增强Campaign Web UI中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`html`元素中的`title`元素和lang属性。 除了电子邮件正文部分中的预编译标头字段外，您还可以定义这些设置。
+**电子邮件编辑器**：为了增强Campaign Web UI中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`html`元素中的`title`元素和lang属性。 除了电子邮件正文部分中的预编译标头字段外，您还可以定义这些设置。 有关更多信息，请参阅[详细文档](../email/metadata.md)。
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
