@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 31%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 33%
 >title="编辑跟踪"
 >abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。您可以从此处禁用该选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="添加链接和跟踪邮件"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="添加语言"
+>abstract="在此选项卡中，您将找到要用于发送投放的语言的列表。 您可以通过单击“添加语言”按钮或通过此选项卡复制其他语言来添加更多语言。"
 
 电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕允许您：
 
