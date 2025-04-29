@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 呼叫中心投放入门
+title: 呼叫中心渠道入门
 description: 了解如何使用Adobe Campaign Web创建和发送呼叫中心投放
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
-
-# 呼叫中心邮件投放入门 {#gs-call-center}
+# 呼叫中心渠道入门 {#gs-call-center}
 
 通过呼叫中心渠道，可直接从Adobe Campaign Web UI导出出站电话营销活动的目标联系人列表。 使用它来协调通过内部团队或外部联系中心的呼叫。
 
