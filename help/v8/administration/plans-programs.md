@@ -3,9 +3,9 @@ audience: end-user
 title: 计划和项目
 description: 了解如何在Adobe Campaign中创建和配置计划和程序
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -38,9 +38,13 @@ ht-degree: 3%
 
 1. 浏览到&#x200B;**[!UICONTROL 架构]**。
 1. 在筛选器中选择&#x200B;**[!UICONTROL 可编辑的]**&#x200B;架构。
-1. 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;图标。
+1. 单击架构。
 
 ![显示计划自定义详细信息的编辑屏幕截图](assets/plan_edit.png){zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮。
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 配置自定义选项：
 
@@ -64,9 +68,13 @@ ht-degree: 3%
 
 1. 浏览到&#x200B;**[!UICONTROL 架构]**。
 1. 在筛选器中选择&#x200B;**[!UICONTROL 可编辑的]**&#x200B;架构。
-1. 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;图标。
+1. 单击架构。
 
 ![显示编辑程序自定义详细信息的屏幕截图](assets/program_edit.png){zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮。
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 配置自定义选项：
 

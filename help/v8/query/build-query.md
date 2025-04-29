@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 9%
+source-wordcount: '2780'
+ht-degree: 7%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 9%
 
 要开始构建查询，请从您选择的位置访问查询建模器，具体取决于您要执行的操作。 此时将打开查询建模器，并显示一个空白画布。 单击&#x200B;**+**&#x200B;按钮配置查询的第一个节点。
 
+>[!IMPORTANT]
+>
+>提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+
 可添加两种类型的元素：
 
 * **筛选组件**（自定义条件、选择受众、预定义过滤器）允许您构建自己的规则、选择受众或使用预定义过滤器来优化查询。 它们会添加到查询的开头和点状过渡中。 [了解如何使用筛选组件](#filtering)
 
   示例：*订阅“体育”新闻通讯的收件人*、*在纽约的收件人*、*旧金山的收件人*
 
-  ![将筛选组件添加到查询的示例。](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
+![将筛选组件添加到查询的示例。](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB 新规则生成器]
+
+![将筛选组件添加到查询的示例。](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **组操作员** ( AND、OR、EXCEPT)允许您对图中的筛选组件进行分组。 它们会添加到现有过渡中，然后是筛选组件。 [了解如何使用操作员](#filtering)
 
-  示例：*订阅了“体育”新闻稿&#x200B;**和**且居住在&#x200B;**OR**旧金山的收件人*。
+  示例： *超级VIP **和** VIP的收件人，用于奖励&#x200B;**OR** VIP演示，**EXCEPT**&#x200B;名21岁及以上45岁的收件人。
 
-  ![描述：向查询添加组运算符的示例。](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
+![描述：向查询添加组运算符的示例。](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB 新规则生成器]
+
+![将筛选组件添加到查询的示例。](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## 查询中的值分布 {#distribution-values-query}
 
@@ -99,11 +128,31 @@ ht-degree: 9%
 
    *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
-   ![面向21岁或以上用户档案的查询示例。](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
+>[!TAB 经典查询建模器]
 
-   ![在查询中使用日期预设的示例。](assets/date-presets.png){zoomable="yes"}
+![面向21岁或以上用户档案的查询示例。](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB 新规则生成器]
+
+![面向21岁或以上用户档案的查询示例。](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
+
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
+![在查询中使用日期预设的示例。](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB 新规则生成器]
+
+![在查询中使用日期预设的示例。](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
@@ -165,7 +214,17 @@ ht-degree: 9%
 
 1. 在属性窗格中，打开&#x200B;**聚合数据**&#x200B;选项并选择所需的聚合函数。
 
-   ![聚合数据选项的屏幕快照](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
+![聚合数据选项的屏幕快照](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB 新规则生成器]
+
+![聚合数据选项的屏幕快照](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### 选择受众 {#audiences}
 
@@ -176,6 +235,10 @@ ht-degree: 9%
 
 要使用现有受众筛选查询，请执行以下步骤：
 
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 选择受众]**。
 
 1. 将在右侧打开&#x200B;**选择受众**&#x200B;属性窗格。 选择要用于筛选查询的受众。
@@ -183,6 +246,18 @@ ht-degree: 9%
    *返回属于“节日出席者”受众的所有用户档案的查询示例：*
 
    ![查询示例的屏幕快照](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB 新规则生成器]
+
+1. 单击“**[!UICONTROL 添加条件]**”按钮旁边的“**展开**”按钮，然后选择“**[!UICONTROL 选择受众]**”。
+
+1. 将在右侧打开&#x200B;**选择受众**&#x200B;属性窗格。 选择要用于筛选查询的受众。
+
+   *返回属于“Coffee Works”受众的所有用户档案的查询示例：*
+
+   ![查询示例的屏幕快照](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### 使用预定义过滤器 {#predefined-filters}
 
@@ -193,6 +268,10 @@ ht-degree: 9%
 
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 预定义过滤器]**。
 
 1. 将在右侧打开&#x200B;**预定义过滤器**&#x200B;属性窗格。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
@@ -201,6 +280,18 @@ ht-degree: 9%
 
    ![查询示例屏幕截图](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB 新规则生成器]
+
+1. 单击“**[!UICONTROL 添加条件]**”按钮旁边的“**展开**”按钮，然后选择“**[!UICONTROL 预定义过滤器]**”。
+
+1. 将在右侧打开&#x200B;**预定义过滤器**&#x200B;属性窗格。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
+
+   *查询示例返回与“非活动客户”预定义筛选器对应的所有用户档案：*
+
+   ![查询示例屏幕截图](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### 复制粘贴组件 {#copy}
 
 查询建模器允许您复制一个或多个筛选组件并将它们粘贴到过渡的末尾。 可以在当前查询画布中或实例中的任何画布中执行此操作。
@@ -208,6 +299,11 @@ ht-degree: 9%
 >[!NOTE]
 >
 >只要您在实例中工作，复制的选定内容就会保留。 如果您注销并重新登录，则您的选择将不再可用于粘贴。
+
+>[!IMPORTANT]
+>
+>目前无法复制和粘贴新规则生成器体验中的组件。 若要执行以下步骤，请单击顶部的&#x200B;**[!UICONTROL 返回经典体验]**&#x200B;切换开关以使用经典查询建模器。
+
 
 要复制并粘贴筛选组件，请执行以下步骤：
 
@@ -232,7 +328,11 @@ ht-degree: 9%
 
 每次将新的筛选组件添加到查询时，它都会通过&#x200B;**AND**&#x200B;运算符自动链接到另一个组件。 这意味着来自两个过滤组件的结果将组合在一起。
 
-在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件链接到带有&#x200B;**AND**&#x200B;运算符的预定义过滤器条件，这意味着查询结果包括被“Madridians”预定义过滤器定位并属于“Discount hunters”受众的收件人。
+在此示例中，我们在第二个过渡中添加了新的受众类型筛选组件。 该组件链接到带有&#x200B;**AND**&#x200B;运算符的预定义过滤器条件，这意味着查询结果包含受“新闻稿订阅者 — 马德里”预定义过滤器定向并属于“购买者（所有时间）”受众的收件人。
+
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
 
 ![查询示例](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ ht-degree: 9%
 
 ![查询示例](assets/query-operator-change.png){zoomable="yes"}
 
-此外，您可以通过单击过渡上的&#x200B;**+**&#x200B;按钮来创建中间组件组。 这允许您在此特定位置添加运算符，以将多个组件分组在一起并细化查询。
+此外，通过将组件分组到同一组中并将它们链接在一起，可以创建中间组件组。 这样一来，默认情况下，将放入AND运算符，然后您可以将其更改为所需的运算符。
+
+>[!TAB 新规则生成器]
+
+![查询示例](assets/ruleb-9.png){zoomable="yes"}
+
+要更改用于将筛选条件链接在一起的运算符，请单击该运算符，它将更改为OR、EXCEPT，然后返回到AND，并选择所需的运算符。
+
+可用的运算符包括：
+
+* **AND （交集）**：将匹配出站过渡中所有筛选组件的结果组合在一起。
+* **OR （并集）**：包含与叫客过渡中至少一个筛选组件匹配的结果。
+* **EXCEPT （排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
+
+![查询示例](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 在下面的示例中，我们创建了一个中间组，以包含“要奖励的VIP”或“超级VIP”受众的结果。
 
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
 ![查询示例](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB 新规则生成器]
+
+![新规则生成器中的查询示例](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 检查并验证您的查询
 
@@ -272,7 +398,19 @@ ht-degree: 9%
 
 查询就绪后，单击右上角的&#x200B;**[!UICONTROL 确认]**&#x200B;按钮进行保存。
 
+
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
 您可以随时通过打开查询来修改查询。 请记住，打开现有查询时，它以简化视图显示，没有&#x200B;**+**&#x200B;按钮。 要向查询添加新元素，请在画布上选择一个组件或运算符以显示&#x200B;**+**&#x200B;按钮。
 
 ![查询示例](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB 新规则生成器]
+
+您可以随时通过打开查询来修改查询，为此，请单击左上角的&#x200B;**[!UICONTROL 添加条件]**&#x200B;按钮。
+
+![新规则生成器中的查询示例](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

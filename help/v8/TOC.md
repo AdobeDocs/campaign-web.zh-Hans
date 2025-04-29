@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 99%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 99%
       + [创建直邮投放](direct-mail/create-direct-mail.md)
       + [设计提取文件](direct-mail/content-direct-mail.md)
       + [预览并发送直邮投放](direct-mail/send-direct-mail.md)
+   + 呼叫中心 {#call-center}
+      + [呼叫中心投放入门](call-center/gs-call-center.md)
+      + [创建并发送呼叫中心投放](call-center/create-call-center.md)
    + 事务性消息 {#transactional-messages}
       + [事务性消息入门](transactional-messaging/transactional.md)
       + [创建事务性消息](transactional-messaging/create-transactional.md)

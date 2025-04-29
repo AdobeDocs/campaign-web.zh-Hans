@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 31%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -40,13 +40,16 @@ ht-degree: 31%
 
 电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕允许您：
 
-* 定义消息的基本元素，如发件人地址和主题行。
-* 执行其他操作，例如添加附件或设置优惠。
-* 访问[电子邮件Designer](get-started-email-designer.md#start-authoring)以开始生成电子邮件的适当内容。
+* 定义消息的基本元素，如发件人地址和主题行
+* 执行其他操作，例如添加附件或设置优惠
+* 访问[电子邮件Designer](get-started-email-designer.md#start-authoring)以开始生成电子邮件的适当内容
+* 向投放添加语言变体。
 
 >[!NOTE]
 >
 >可使用个性化字段填写此屏幕的所有可编辑文本字段。 [了解如何个性化内容](../personalization/personalize.md)
+
+## 配置投放
 
 要配置或编辑电子邮件的内容，请执行以下步骤。
 
@@ -92,15 +95,97 @@ ht-degree: 31%
 
    然后，您可以使用个性化字段将它们插入到电子邮件中。 [了解如何发送产品建议](../msg/offers.md)
 
-1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮可使用[电子邮件Designer](get-started-email-designer.md#start-authoring)来构造和设计电子邮件的内容。 有关如何设计电子邮件内容的其他信息，请参阅以下部分：
+## 编辑电子邮件正文
 
-   * [从头开始创作电子邮件](create-email-content.md)
-   * [设置内容的样式](get-started-email-style.md)
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮可使用[电子邮件Designer](get-started-email-designer.md#start-authoring)来构造和设计电子邮件的内容。
 
    >[!NOTE]
    >
    >您还可以将鼠标悬停在电子邮件预览上并选择&#x200B;**[!UICONTROL 打开电子邮件设计器]**。
 
-1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)。
+
+   有关如何设计电子邮件内容的其他信息，请参阅以下章节：
+
+   * [从头开始创作电子邮件](create-email-content.md)
+   * [设置内容的样式](get-started-email-style.md)
+
+1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)
+
+1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。[了解如何预览和测试电子邮件](../preview-test/preview-test.md)。
+
+## 配置多语言投放
+
+在Campaign Web用户界面中，您可以将电子邮件投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
+
+在多语言投放中，语言管理基于变体。 每个变体表示一种语言。
+
+在创建投放期间，您可以在消息中添加与所需语言数量对应的变体数量。 您还可以在添加新语言时定义默认语言。
+
+### 添加语言变体
+
+要创建语言变体，请执行以下步骤：
+
+1. 单击电子邮件配置屏幕上方的&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮。
+
+   >[!IMPORTANT]
+   >
+   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+
+   ![](assets/edit-content_2.png){zoomable="yes"}
+
+
+1. 选择要在&#x200B;**[!UICONTROL 语言]**&#x200B;下拉列表中选择的语言。 添加第一种语言时，它会设置为默认语言，当前内容是默认内容。 添加新语言时，内容将基于默认内容。
+
+   >[!NOTE]
+   >
+   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
+
+
+   ![](assets/edit-content_3.png){zoomable="yes"}
+
+   例如，对于英语（美国）：
+
+   ![](assets/edit-content_8.png){zoomable="yes"}
+
+
+1. 重复此过程以添加其他语言。 **[!UICONTROL 语言]**&#x200B;面板显示您已选择的语言列表、不同语言的数量和默认语言。
+
+   例如，如果您选择了英语、法语和瑞典语，则可以看到如下所示的这3种语言：
+
+   ![](assets/edit-content_9.png){zoomable="yes"}
+
+   您可以单击右上角的展开按钮以删除每种语言。
+
+### 定义每个变体的电子邮件内容
+
+设置语言后，定义将使用此首选语言发送到用户档案的电子邮件内容。
+
+要定义电子邮件内容，请执行以下步骤：
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮以打开[电子邮件Designer](get-started-email-designer.md#start-authoring)。
+
+   >[!NOTE]
+   >
+   >您还可以将鼠标悬停在电子邮件预览上并选择&#x200B;**[!UICONTROL 打开电子邮件设计器]**。
+
+   ![](assets/edit-content_11.png){zoomable="yes"}
+
+
+1. 您可以通过单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来预览投放，并选择显示电子邮件的用户档案和语言。
+
+1. 在“模拟内容”窗口中，您可以切换用户档案以预览对应于为该用户档案设置的语言的电子邮件内容。
+
+   ![](assets/edit-content_5.png){zoomable="yes"}
+
+### 复制或删除语言变体
+
+您可以单击右上角的展开按钮，然后单击&#x200B;**[!UICONTROL 删除所有变体]**&#x200B;按钮以删除所有语言。
+
+![](assets/edit-content_13.png){zoomable="yes"}
+
+要删除某个语言变体，请单击选项卡右侧的三个圆点，然后选择“删除”。
+
+要复制语言变体，请单击选项卡右侧的三个圆点，然后选择复制。 如果选择复制默认语言以外的语言，则复制的内容将基于您选择复制的语言。
+
 
 1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。[了解如何预览和测试电子邮件](../preview-test/preview-test.md)。

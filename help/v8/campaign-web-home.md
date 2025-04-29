@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 97%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 2 月版本]
+>[!TAB 2025年4月版]
 
-二月版本现已上线，其中包括业务规则、目标映射和更多改进。
+4月版本现已上线，其中包括业务规则、目标映射和更多改进。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

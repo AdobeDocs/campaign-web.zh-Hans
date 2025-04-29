@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 37%
+source-wordcount: '2192'
+ht-degree: 36%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 37%
 
 编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >以下部分提供了有关如何使用表达式编辑器构建规则的信息。 请记住，用于构建规则的语法不同于用于添加个性化的语法。
+
+>[!IMPORTANT]
+>
+>查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 使用表达式编辑器 {#edit}
 
@@ -25,7 +30,7 @@ ht-degree: 37%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| ![表达式编辑器属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 | ![表达式编辑器值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 |
+| 属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 
@@ -41,7 +46,17 @@ ht-degree: 37%
 
 以下示例显示为&#x200B;**[!UICONTROL 值]**&#x200B;字段配置的表达式。 若要编辑它，请使用&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮打开表达式编辑器。
 
+>[!BEGINTABS]
+
+>[!TAB 经典查询建模器]
+
 ![编辑值字段](assets/edit-expression-value.png){zoomable="yes"}的表达式示例
+
+>[!TAB 新规则生成器]
+
+![编辑值字段](assets/ruleb-12.png){zoomable="yes"}的表达式示例
+
+>[!ENDTABS]
 
 ## 辅助功能
 

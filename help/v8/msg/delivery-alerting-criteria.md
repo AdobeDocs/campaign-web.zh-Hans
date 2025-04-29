@@ -3,10 +3,10 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 26%
+source-wordcount: '712'
+ht-degree: 24%
 
 ---
 
@@ -61,11 +61,6 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 >title="条件频率"
 >abstract="控制符合条件的每次投放的每日提醒频率。"
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="创建提醒条件"
->abstract="要创建您自己的投放过滤器，请从 Campaign v8 控制台中的“**管理**”>“**配置**”>“**预定义过滤器**”节点创建一个新的预定义过滤器。"
-
 要创建新标准，请执行以下步骤：
 
 1. 导航到左侧导航窗格中的&#x200B;**投放警报**&#x200B;菜单，然后选择&#x200B;**标准**&#x200B;选项卡。
@@ -79,7 +74,7 @@ Campaign Web用户界面中提供了预定义的警报标准。 这些标准涵�
 
    >[!NOTE]
    >
-   >如果任何预定义过滤器都不适合您的需要，请与管理员联系以创建您自己的过滤器。 有关如何在Campaign控制台中创建预定义过滤器的详细信息，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}。
+   >如果任何预定义过滤器都不适合您的需要，您可以从&#x200B;**客户管理** > **预定义过滤器**&#x200B;菜单创建您自己的过滤器。 [了解更多信息](../get-started/predefined-filters.md)
    >
    >此操作只能由高级用户执行。
 

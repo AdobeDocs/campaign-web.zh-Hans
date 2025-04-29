@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用受众
 description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 26%
+source-wordcount: '388'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 26%
   ➡️ [通过观看视频了解此功能](#video)
 
 要获取有关受众的其他信息，请从列表中将其打开。 此时将显示受众属性，以及受众中包含的用户档案数。 使用&#x200B;**[!UICONTROL 计算]**&#x200B;按钮随时刷新受众计数。
+
+要预览受众的临时架构，请单击“属性”部分下的&#x200B;**[!UICONTROL 架构预览]**&#x200B;按钮。
 
 **[!UICONTROL 数据]**&#x200B;选项卡允许您可视化属于受众的用户档案。 通过添加其他列自定义此视图，或使用高级筛选器优化显示的数据。
 

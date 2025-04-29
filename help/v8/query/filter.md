@@ -3,16 +3,21 @@ audience: end-user
 title: 过滤器列表
 description: 了解如何使用内置和自定义筛选器来筛选Adobe Campaign Web列表。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
 # 过滤器列表 {#filter-lists}
 
 Adobe Campaign Web在每个对象列表中提供过滤器，使您能够根据特定的上下文条件过滤信息。 例如，您可以根据投放的状态、渠道、联系日期或文件夹来筛选投放。 您还可以隐藏校样。
+
+>[!IMPORTANT]
+>
+>提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 应用过滤器 {#apply}
 
