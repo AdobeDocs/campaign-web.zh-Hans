@@ -2,10 +2,10 @@
 title: 使用架构
 description: 了解如何使用架构。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 24%
+source-wordcount: '513'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="使用架构"
->abstract="现在，您可以通过在列表中选择某个架构的名称来访问该架构的详细信息。还可以通过&#x200B;**编辑自定义详细信息**&#x200B;按钮访问自定义字段版本。"
+>abstract="现在，您可以通过在列表中选择某个架构的名称来访问该架构的详细信息。自定义字段版本也可以通过&#x200B;**屏幕版本**&#x200B;按钮访问。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 24%
 
 Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性和组织性。
 
-有关架构的详细信息，请参阅[营销活动控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在Web用户界面中访问架构 {#access}
 
@@ -73,8 +73,10 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
 
-自定义字段可显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 您可以控制哪些字段可见以及它们在界面中的显示方式。 为此，请单击&#x200B;**[!UICONTROL 架构]**&#x200B;菜单中的&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;按钮。
+自定义字段可显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 您可以控制哪些字段可见以及它们在界面中的显示方式。 为此，请单击&#x200B;**[!UICONTROL 架构]**&#x200B;菜单中的&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮。
 
 ![自定义字段屏幕显示可编辑的属性](assets/schemas-custom.png)
+
+单击&#x200B;**[!UICONTROL 预览]**&#x200B;可在示例屏幕中显示自定义字段。
 
 有关如何编辑架构中自定义字段的详细信息，请参阅以下部分：[配置自定义字段](../administration/custom-fields.md)。

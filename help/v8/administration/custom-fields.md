@@ -2,10 +2,10 @@
 title: 自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 22%
+source-wordcount: '988'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="编辑自定义详细信息"
+>title="屏幕版"
 >abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ ht-degree: 22%
 
    ![在导航窗格中显示“架构”菜单和“可编辑”过滤器的屏幕快照](assets/custom-fields-open.png)
 
-1. 在列表中选择架构名称以将其打开。 将显示一个详细的架构视图。 [了解有关架构详细信息的更多信息](../administration/schemas.md)。 单击&#x200B;**[!UICONTROL 编辑自定义详细信息]**&#x200B;按钮以访问自定义字段。 在此示例中，为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加了字段。
+1. 在列表中选择架构名称以将其打开。 将显示一个详细的架构视图。 [了解有关架构详细信息的更多信息](../administration/schemas.md)。 单击&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮可访问自定义字段。 在此示例中，为&#x200B;**[!UICONTROL 收件人]**&#x200B;架构添加了字段。
 
-   ![在架构视图中显示“编辑自定义详细信息”按钮的屏幕截图](assets/custom-fields-edit.png)
+   ![在架构视图中显示“屏幕定义”按钮的屏幕截图](assets/custom-fields-edit.png)
 
-1. 此时将显示架构界面中显示的自定义字段列表。 在此处，“CRM ID”字段在用户档案的详细信息屏幕中可见，并且已标记为必填字段。
+   此时将显示架构界面中显示的自定义字段列表。
 
-   | 自定义字段配置 | 在界面中渲染 |
-   |  ---  |  ---  |
-   | ![显示自定义字段配置的屏幕截图](assets/custom-fields-detail.png){zoomable="yes"} | ![在界面中显示CRM ID字段渲染的屏幕快照](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;按钮以在示例屏幕中显示自定义字段。
+
+   ![](assets/custom-fields-edit2.png)
+
+   在此，“金额”字段已标记为必填字段。
+
+   ![](assets/custom-fields-edit3.png)
 
 1. 要向界面添加自定义字段，请单击省略号按钮，然后选择以下选项之一：
 
@@ -89,7 +93,7 @@ ht-degree: 22%
 
 1. 添加自定义字段后，您可以：
 
-   * **对字段重新排序**：使用向上箭头和向下箭头。
+   * **字段重新排序**：使用上下箭头，或使用拖放操作移动字段。
    * **将字段设为必填**：选中&#x200B;**必填**&#x200B;复选框。
    * **编辑字段设置**：单击省略号按钮并选择&#x200B;**[!UICONTROL 编辑]**。 [了解详情](#settings)
    * **删除字段**：单击省略号按钮并选择&#x200B;**[!UICONTROL 删除]**。
