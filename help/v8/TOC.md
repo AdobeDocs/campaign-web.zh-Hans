@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 97%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 97%
          + [使用内容组件](email/content-components.md)
          + [添加链接和跟踪邮件](email/message-tracking.md)
          + [添加指向镜像页面的链接](email/mirror-page.md)
-         + [添加邮件引文](email/preheader.md)
+         + [添加元数据](email/metadata.md)
          + [生成文本版本](email/text-version-email.md)
       + 设置内容的样式 {#style}
          + [电子邮件样式入门](email/get-started-email-style.md)
