@@ -2,9 +2,10 @@
 audience: end-user
 title: 创建呼叫中心投放
 description: 了解如何使用Adobe Campaign Web创建呼叫中心交付
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 要创建并发送新的独立呼叫中心投放，请执行以下步骤：
 
 1. 创建投放，[了解更多](#create-delivery)
-1. 选择受众，[阅读更多](#select-audience)
+1. 定义受众，[了解更多](#select-audience)
 1. 编辑内容，[阅读更多](#edit-content)
 1. 预览并发送投放，[了解更多](#preview-send)
 
@@ -42,7 +43,7 @@ ht-degree: 3%
 >
 >您可以计划在特定日期发送投放。 有关更多信息，请参阅此](../msg/gs-deliveries.md#gs-schedule)章节[。
 
-## 选择受众{#select-audience}
+## 定义受众{#select-audience}
 
 现在，您需要定义提取文件将定向的受众。
 
@@ -65,7 +66,7 @@ ht-degree: 3%
 
 ## 编辑内容{#edit-content}
 
-现在，我们来设计将由呼叫中心投放生成的提取文件的内容。
+现在，让我们编辑将由呼叫中心投放生成的提取文件的内容。
 
 1. 在投放页面中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
@@ -101,7 +102,7 @@ ht-degree: 3%
 
 预览和发送提取文件的主要步骤如下。 [此页面](../direct-mail/send-direct-mail.md)中提供了更多详细信息。
 
-1. 在投放内容页面中，使用&#x200B;**[!UICONTROL 模拟内容]**。
+1. 在投放内容页面中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
    ![在投放内容页面中显示模拟内容选项的屏幕截图](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ ht-degree: 3%
 跟踪投放页面中的KPI（关键绩效指标）数据和&#x200B;**[!UICONTROL 日志]**&#x200B;菜单中的数据。
 
 开始使用内置报告衡量消息的影响。 [了解详情](../reporting/direct-mail.md)
-
-

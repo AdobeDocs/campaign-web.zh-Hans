@@ -3,10 +3,10 @@ audience: end-user
 title: 呼叫中心渠道入门
 description: 了解如何使用Adobe Campaign Web创建和发送呼叫中心投放
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
@@ -24,41 +24,4 @@ ht-degree: 5%
 * **营销活动**：创建营销活动后，您可以添加呼叫中心投放。 有关设置促销活动的详细信息，请参阅[此页面](../campaigns/gs-campaigns.md)。
 * **独立投放**：创建一次性呼叫中心投放，而无需工作流或营销活动。 [了解如何创建投放](../msg/gs-deliveries.md)
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-push.md">
-<img alt="Create a push delivery" src="assets/do-not-localize/push_create.jpeg">
-</a>
-<div><a href="create-push.md"><strong>Create a push delivery</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-push.md">
-<img alt="Design a push delivery" src="assets/do-not-localize/push_design.jpeg">
-</a>
-<div>
-<a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
-</div>
-<p></td>
-<td>
-<a href="send-push.md">
-<img alt="Send a push delivery" src="assets/do-not-localize/push_send.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Send a push delivery</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="send-push.md">
-<img alt="Push delivery report" src="assets/do-not-localize/push_report.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Push delivery report</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
--->
+要了解如何创建和发送呼叫中心投放，请参阅此[页面](../call-center/create-call-center.md)
