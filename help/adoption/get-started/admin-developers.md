@@ -57,7 +57,7 @@ Campaign客户端控制台是一个本机应用程序，它通过标准互联网
 
 通过本教程视频了解Adobe Campaign v8用户界面以及如何导航主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426444?quality=12&learn=on&captions=chi_hans){transcript=true}
 
 有关详细信息，请参阅[使用客户端控制台](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
 
@@ -156,7 +156,7 @@ MISSING LINKS:
 
 * 请在此视频中了解什么是定位维度和工作表，以及Adobe Campaign如何管理不同数据源的数据：
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452604?quality=12&learn=on&captions=chi_hans){transcript=true}
 
 * Campaign 可帮助您将联系人添加到云数据库。您可以加载文件、计划和自动更新多个联系人、在Web上收集数据，或直接在收件人表格中输入用户档案信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
 
@@ -206,7 +206,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 了解如何设置和管理订阅和锁定订阅者。
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426553?quality=12&learn=on&captions=chi_hans){transcript=true}
 
 * 请参阅订阅服务[Web用户界面文档](../../v8/audience/manage-subscribers.md)。
 
@@ -264,7 +264,7 @@ MISSING LINKS:
 
 借助Campaign v8，管理员可以在以下视频中定义动态内容块以及如何使用动态内容块将电子邮件投放内容个性化：
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449016?quality=12&learn=on&captions=chi_hans){transcript=true}
 
 有用的链接：
 
