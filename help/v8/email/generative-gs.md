@@ -30,7 +30,7 @@ ht-degree: 18%
 
 >[!INFO]
 >
->使用[我们的实时功能预览](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
+>使用[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator)，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
 
 随着营销行业的竞争日益激烈，品牌厂商开始寻求有效的方法来快速生成有影响力的内容。 Adobe Campaign Web中的AI助手由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，可转变营销人员如何跨电子邮件、短信和推送通知等渠道创建专业且品牌一致的内容。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，并根据品牌概述的样式、布局、色调等优化内容。
 
@@ -69,7 +69,7 @@ AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的�
 * 使用[内置电子邮件模板](../email/create-email-templates.md)、品牌特定模板或自定义模板通过AI助手创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
 * 在选择变体时，使用拇指上移、拇指下移或标记图标报告任何有问题的输出。
 * 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/firefly/using/content-credentials.html)。
+* 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)。
 
 以下限制适用于Adobe Campaign Web中的AI助手：
 

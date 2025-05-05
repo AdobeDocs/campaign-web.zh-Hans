@@ -36,7 +36,7 @@ Adobe Campaign Web包括技术选项，可让您更具体地配置应用程序�
 
 >[!NOTE]
 >\
->尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
+>尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
 
 从选项列表中，您可以：
 

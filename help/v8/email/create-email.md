@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
@@ -222,7 +222,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用协调的投放，
-* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
+* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
 * 未上传任何文件时。
 
 ## 发送和监控电子邮件 {#prepare-send}

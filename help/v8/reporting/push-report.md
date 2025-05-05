@@ -85,7 +85,7 @@ ht-degree: 32%
 >title="推送排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标轮廓中排除的）用户轮廓接收消息的各种原因。"
 
-**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}。
+**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){_blank}。
 
 ![此屏幕快照显示排除项图形和表，其中显示阻止排除的用户配置文件接收消息的原因。](assets/reporting_push_6.png){zoomable="yes"}
 

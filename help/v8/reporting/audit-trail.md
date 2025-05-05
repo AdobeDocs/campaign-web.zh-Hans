@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * **Source架构审核跟踪**&#x200B;允许您在Campaign v8客户端控制台中监视活动以及最近对架构所做的修改。
 
-  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
+  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
 * **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * **选项审核记录**&#x200B;允许您监视活动以及最近对Campaign v8中的选项所做的修改。
 
-  有关选项的更多信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  有关选项的更多信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **投放审核跟踪**&#x200B;允许您检查投放的活动和上次所做的修改。
 
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 * 通过&#x200B;**投放映射**，您可以监视活动以及最近对Campaign v8中的投放映射所做的修改。
 
-  有关投放映射的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
+  有关投放映射的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
 
 * **Web应用程序**&#x200B;允许您检查Campaign v8中对Web窗体所做的修改，这些修改用于创建具有输入和选择字段的页面，并且可能包含来自数据库的数据。
 
-  有关Web应用程序的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)。
+  有关Web应用程序的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/content/webapps)。
 
 * **选件**&#x200B;允许您检查活动和对选件所做的最后修改。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 * **操作员**&#x200B;允许您监视活动以及最近在Campaign v8中对操作员进行的修改。
 
-  有关运算符的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
+  有关运算符的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
 
 +++
 

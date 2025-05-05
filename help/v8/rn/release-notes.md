@@ -85,7 +85,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 **常规接口改进**
 
 * 架构属性的字段说明、添加到收藏夹和值分布选项现在在用户界面中更加可见。 有关更多信息，请参阅[详细文档](../get-started/attributes.md)。
-* 在界面中，现在会根据Experience League首选项中设置的主要语言显示日期和时间。 这项改进仅适用于多种语言。 要查看支持的语言的完整列表，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}。
+* 在界面中，现在会根据Experience League首选项中设置的主要语言显示日期和时间。 这项改进仅适用于多种语言。 要查看支持的语言的完整列表，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/browser-language){target=_blank}。
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -111,11 +111,11 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能处于“有限可用性” (LA) 状态。它们仅限于将&#x200B;**从Adobe Campaign Standard迁移到Adobe Campaign v8**&#x200B;的客户，不能在任何其他环境中部署。 它们需要将Campaign服务器升级到v8.7.4。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans)。
 
 * **创建多语言投放** — 您现在可以在Adobe Campaign Web用户界面中以不同语言发送多个电子邮件投放。 利用多语言投放功能，可选择投放的默认语言以及可发送投放的不同语言。 您也可以使用所选的语言预览这些投放。 有关更多信息，请参阅[详细文档](../email/edit-content.md)。
 
 * **多语言的动态报告** — 动态报告现在可用于多语言电子邮件投放。 有关更多信息，请参阅[详细文档](../reporting/global-reports.md)。
 
-* **SMS REST API支持(LA)** — 事务性消息传递REST API现在可用于SMS渠道。 当有效负载中同时存在电子邮件和手机时，您可以使用“widedChannel”字段指定渠道。 如果未提供，则默认使用电子邮件，除非wisdedChannel明确请求短信。 有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
+* **SMS REST API支持(LA)** — 事务性消息传递REST API现在可用于SMS渠道。 当有效负载中同时存在电子邮件和手机时，您可以使用“widedChannel”字段指定渠道。 如果未提供，则默认使用电子邮件，除非wisdedChannel明确请求短信。 有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
 

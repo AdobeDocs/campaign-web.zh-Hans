@@ -37,7 +37,7 @@ ht-degree: 21%
 
 Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性和组织性。
 
-有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在Web用户界面中访问架构 {#access}
 

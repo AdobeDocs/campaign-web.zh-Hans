@@ -79,7 +79,7 @@ ht-degree: 17%
 
 * **[!UICONTROL 新隔离]**：在投放失败（用户未知，域无效）后隔离的地址总数，与要投放的消息数相关。
 
-  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}中列出了短信错误类型。
+  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#sms-quarantines){target="_blank"}中列出了短信错误类型。
 
 +++
 
