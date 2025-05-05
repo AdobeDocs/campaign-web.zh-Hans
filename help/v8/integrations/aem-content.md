@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Adobe Experience Manager平台中简化电子邮件投放内容和表单的管理。
 
-![](assets/do-not-localize/book.png)[了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## 在[!DNL Adobe Experience Manager as a Cloud Service]中创建模板{#create-aem-template}
 

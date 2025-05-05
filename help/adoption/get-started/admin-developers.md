@@ -222,8 +222,8 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 * **电子邮件** - [此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中详细介绍了电子邮件设置。
 * **短信** — 请参阅[本文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
-* **推送通知** — 此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了[配置推送通知渠道的步骤。
-* **事务性消息传递** — 本节中详细介绍了[在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **推送通知** — 此部分[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了配置推送通知渠道的步骤。
+* **事务性消息传递** — 本节中详细介绍了[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤
 
 ### 外部帐户 {#acs-gs-ext-accounts}
 

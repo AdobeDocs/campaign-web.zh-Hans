@@ -141,7 +141,7 @@ ht-degree: 20%
 >title="按类型细分错误"
 >abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
-每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
+每个类型&#x200B;**表和图形的**&#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="按域细分错误"
 >abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
-每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]**表和图表的**[!UICONTROL &#x200B;错误划分共同。
+每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 

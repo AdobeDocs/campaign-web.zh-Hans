@@ -151,7 +151,7 @@ ht-degree: 37%
 >title="按类型细分错误"
 >abstract="**每种类型的错误细分**&#x200B;表提供了每种错误类型发生次数的全面细分。"
 
-每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
+每个类型&#x200B;**表和图形的**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -187,7 +187,7 @@ ht-degree: 37%
 >title="按域细分错误"
 >abstract="**每个域的错误细分**&#x200B;表根据所使用的域提供了每个错误发生次数的全面细分。"
 
-每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示每个域可能遇到的错误的可用数据。
+每个域&#x200B;**表和图形的**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
 
 ![每个域的错误划分屏幕截图](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 

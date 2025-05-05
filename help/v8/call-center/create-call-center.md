@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以计划在特定日期发送投放。 有关更多信息，请参阅此](../msg/gs-deliveries.md#gs-schedule)章节[。
+>您可以计划在特定日期发送投放。 有关更多信息，请参阅此[&#128279;](../msg/gs-deliveries.md#gs-schedule)章节。
 
 ## 定义受众{#select-audience}
 
