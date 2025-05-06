@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![目标映射列表屏幕显示可用的映射](assets/target-mappings-list.png)
 
-有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans){target="_blank"}。
+有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 创建一个目标映射 {#create-mapping}
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 
    1. **[!UICONTROL 跟踪日志]**：激活&#x200B;**[!UICONTROL 生成跟踪的架构]**&#x200B;选项以生成跟踪日志的存储架构。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 映射]**&#x200B;部分确定目标映射的架构中要用于每个投放地址字段的属性。 对于每个字段，选择要映射的所需属性。 您还可以构建用于标识该字段的表达式。 例如，对地址属性应用较低的函数。
 
