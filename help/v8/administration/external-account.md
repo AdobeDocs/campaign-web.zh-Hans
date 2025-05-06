@@ -2,20 +2,14 @@
 title: 管理外部帐户
 description: 了解如何配置外部帐户
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 2%
+source-wordcount: '1342'
+ht-degree: 5%
 
 ---
 
 # 管理外部帐户 {#external-accounts}
-
->[!AVAILABILITY]
->
->* 外部帐户当前仅适用于退回邮件(POP3)、路由和执行实例。 稍后将添加其他帐户类型。
->
->* 在Adobe Campaign控制台中创建的不受支持的外部帐户在Web用户界面中可见，但无法编辑或访问。
 
 Adobe Campaign包括预配置的外部帐户，可轻松与各种系统集成。 要连接到其他平台或自定义连接以适合您的工作流，请使用Web用户界面创建新的外部帐户。 这可确保无缝的数据传输。
 
@@ -63,10 +57,6 @@ Adobe Campaign包括预配置的外部帐户，可轻松与各种系统集成。
 
 ### 退回电子邮件 (POP3) {#bounce}
 
->[!AVAILABILITY]
->
-> 当前不支持OAuth 2.0。
-
 退回邮件外部帐户指定用于连接到电子邮件服务的外部POP3帐户。 所有配置为POP3访问的服务器都可以接收回邮。
 
 ![显示退回邮件(POP3)外部帐户配置字段的屏幕截图。](assets/external_account_bounce.png)
@@ -88,6 +78,33 @@ Adobe Campaign包括预配置的外部帐户，可轻松与各种系统集成。
    * POP3在SSL上安全（默认使用端口995）。
 
 * **[!UICONTROL 功能]** — 选择&#x200B;**[!UICONTROL 入站电子邮件]**&#x200B;配置接收入站电子邮件的帐户或选择&#x200B;**[!UICONTROL SOAP路由器]**&#x200B;处理SOAP请求。
+
+>[!IMPORTANT]
+>
+>在使用Microsoft OAuth 2.0配置POP3外部帐户之前，您首先需要在Azure门户中注册应用程序。 有关详细信息，请参见[此页面](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}。
+
+要使用Microsoft OAuth 2.0配置POP3外部连接，请选中Microsoft OAuth 2.0选项并填写以下字段：
+
+* **[!UICONTROL Azure租户]**
+
+  Azure ID(或目录（租户） ID)可以在Azure门户的应用程序概述的Essentials下拉菜单中找到。
+
+* **[!UICONTROL Azure客户端ID]**
+
+  可以在Azure门户中应用程序概述的Essentials下拉菜单中找到客户端ID(或应用程序（客户端）ID)。
+
+* **[!UICONTROL Azure客户端密钥]**
+
+  可以在Azure门户中应用程序的证书和密码菜单的“客户端密码”列中找到客户端密码ID。
+
+
+* **[!UICONTROL Azure重定向URL]**
+
+  可在Azure门户中应用程序的身份验证菜单中找到重定向URL。 它应以下列语法nl/jsp/oauth.jsp结尾，如`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+
+安装和使用客户端控制台中的“测试连接”按钮需要Internet访问。 设置完成后，inMail进程可以与Microsoft服务器通信，而无需互联网。
+
+输入不同的凭据后，可以单击“设置”连接以完成外部帐户配置。
 
 ### 路由 {#routing}
 
@@ -131,6 +148,117 @@ Adobe Campaign包括预配置的外部帐户，可轻松与各种系统集成。
 
 * **[!UICONTROL 方法]** — 在Web服务或联合数据访问(FDA)之间进行选择。
 
-  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/fda#_blank)
+  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 创建存档工作流]** — 对于在消息中心中注册的每个执行实例，无论您拥有一个还是多个实例，请为与该执行实例关联的每个外部帐户创建单独的存档工作流。
+
+## Adobe解决方案集成外部帐户
+
+### Adobe Experience Cloud
+
+要使用Adobe ID连接到Adobe Campaign控制台，您必须配置Adobe Experience Cloud (MAC)外部帐户。
+
+![显示Adobe Experience Cloud MAC外部帐户配置字段的屏幕截图。](assets/external-MAC.png)
+
+* **[!UICONTROL IMS服务器]**
+
+  IMS服务器的URL。 确保暂存实例和生产实例都指向同一个IMS生产端点。
+
+* **[!UICONTROL IMS范围]**
+
+  此处定义的范围必须是IMS设置的范围的子集。
+
+* **[!UICONTROL IMS客户端标识符]**
+
+  IMS客户端的ID。
+
+* **[!UICONTROL IMS客户端密码]**
+
+  IMS客户端密钥的凭据。
+
+* **[!UICONTROL 回调服务器]**
+
+  访问Adobe Campaign实例的URL。
+
+* **[!UICONTROL IMS组织ID]**
+
+  您组织的ID。 要查找您的组织ID，请参阅[此页面](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target=_blank}。
+
+* **[!UICONTROL 关联掩码]**
+
+  语法允许Enterprise Dashboard中的配置名称与Adobe Campaign中的组同步。
+
+* **[!UICONTROL 服务器]**
+
+  Adobe Experience Cloud实例的URL。
+
+* **[!UICONTROL 租户]**
+
+  您的Adobe Experience Cloud租户的名称。
+
+## 传输数据外部帐户
+
+### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
+
+Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adobe Campaign。 它可以在工作流活动中设置。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+
+![](assets/external-AWS.png)
+
+在设置此新外部帐户时，您需要提供以下详细信息：
+
+* **[!UICONTROL AWS S3帐户服务器]**
+
+  服务器的URL，应按如下方式填写：
+
+  `  <S3bucket name>.s3.amazonaws.com/<s3object path>`
+
+
+* **[!UICONTROL AWS访问密钥ID]**
+
+  要了解在何处查找您的AWS访问密钥ID，请参阅此[页面](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)。
+
+* **[!UICONTROL 访问AWS的密钥]**
+
+  要了解在何处查找您的AWS访问密钥，请参阅此[页面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
+
+* **[!UICONTROL AWS地区]**
+
+  要了解有关AWS地区的更多信息，请参阅此[页面](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
+
+* 通过&#x200B;**[!UICONTROL 使用服务器端加密]**&#x200B;复选框，您可以以S3加密模式存储文件。
+
+要了解在何处查找访问密钥ID和访问密钥，请参阅Amazon Web服务[文档](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)。
+
+### Azure Blob Storage {#azure-blob-external-account}
+
+**[!UICONTROL Azure Blob Storage]**&#x200B;外部帐户可用于通过&#x200B;**[!UICONTROL 传输文件]**&#x200B;工作流活动将数据导入或导出到Adobe Campaign。 如需详细信息，请参阅[此小节](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+
+![](assets/external-azure.png)
+
+要将&#x200B;**[!UICONTROL Azure外部帐户]**&#x200B;配置为与Adobe Campaign配合使用，您需要提供以下详细信息：
+
+* **[!UICONTROL 服务器]**
+
+  Azure Blob Storage服务器的URL。
+
+* **[!UICONTROL 加密]**
+
+  在&#x200B;**[!UICONTROL 无]**&#x200B;或&#x200B;**[!UICONTROL SSL]**&#x200B;之间选择的加密类型。
+
+* **[!UICONTROL 访问密钥]**
+
+  若要了解在何处查找您的&#x200B;**[!UICONTROL 访问密钥]**，请参阅此[页面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。
+
+## Hadoop
+
+Hadoop外部帐户允许您将Campaign实例连接到Hadoop外部数据库。 您可以在[Campaign V7控制台文档](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中了解有关Hadoop的更多信息。
+
+![显示Hadoop外部帐户配置的屏幕截图。](assets/external-hadoop.png)
+
+* **[!UICONTROL 服务器]**
+
+  Hadoop storage server的URL。
+
+* **[!UICONTROL 帐户]**
+
+  您的Hadoop服务器帐户的名称。
