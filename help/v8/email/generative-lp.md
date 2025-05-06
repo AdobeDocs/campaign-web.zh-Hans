@@ -3,20 +3,14 @@ audience: end-user
 title: 具有AI助理的登陆页面
 description: AI助手入门
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1463'
 ht-degree: 1%
 
 ---
 
-# 使用AI助手生成登陆页面{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="使用 AI 生成登陆页面"
->abstract="您现在可以使用AI Assistant创建登陆页面投放，从而生成文本、图像或完整的页面布局。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
+# 使用 AI 助手生成登陆页面{#generative-lp}
 
 >[!IMPORTANT]
 >

@@ -3,14 +3,20 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '926'
 ht-degree: 14%
 
 ---
 
 # 使用查询建模器 {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="新建规则生成器"
+>abstract="现在提供了新的规则生成器，帮助您在改进的用户界面中定义复杂的条件。 您可以根据需要从旧规则生成器切换到新规则生成器。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

@@ -2,20 +2,14 @@
 title: 使用架构
 description: 了解如何使用架构。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '479'
+ht-degree: 18%
 
 ---
 
 # 使用架构 {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="使用架构"
->abstract="现在，您可以通过在列表中选择某个架构的名称来访问该架构的详细信息。自定义字段版本也可以通过&#x200B;**屏幕版本**&#x200B;按钮访问。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +31,7 @@ ht-degree: 21%
 
 Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性和组织性。
 
-有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在Web用户界面中访问架构 {#access}
 
