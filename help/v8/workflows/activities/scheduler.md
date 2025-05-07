@@ -3,7 +3,7 @@ audience: end-user
 title: 使用调度程序工作流活动
 description: 了解如何使用调度程序工作流活动
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 24%
@@ -61,7 +61,6 @@ ht-degree: 24%
    * **有效期**：根据指定的频率执行工作流，直到达到特定日期为止。 指定开始日期和结束日期。
 
 >[!NOTE]
->\
 >如果要立即启动工作流，请单击计划程序顶部操作栏中的&#x200B;**执行挂起任务**。 此按钮仅在工作流启动后可用。
 
 ## 示例 {#scheduler-example}
