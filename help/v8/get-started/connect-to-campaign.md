@@ -3,9 +3,9 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Campaign Web 目前提供以下语言版本：
 * 简体中文 - CHS
 * 繁体中文 - CHT
 
-此外，特定于区域设置的格式（如日期、时间、日历、数字）也可能以用户界面所支持语言的变体形式提供：
+此外，受用户界面支持的各种语言变体也可能提供特定于区域设置的格式化（例如日期、时间、日历、数字）：
 
 * 英语（以色列）
 * 英语（英国）
