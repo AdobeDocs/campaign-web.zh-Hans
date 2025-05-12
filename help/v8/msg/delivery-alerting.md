@@ -2,8 +2,12 @@
 audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 通知是根据通过Adobe Campaign Web用户界面定义的特定警报条件自定义的。
 
-有关管理投放失败的更多信息，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+有关管理投放失败的更多信息，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
 
 ## 电子邮件通知内容 {#content}
 

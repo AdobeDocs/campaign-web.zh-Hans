@@ -2,10 +2,14 @@
 audience: end-user
 title: 探索界面
 description: Adobe Campaign Web 用户界面
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '1548'
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+workflow-type: tm+mt
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -156,7 +160,7 @@ ht-degree: 100%
 
 * **架构** - 自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。[了解详情](../administration/custom-fields.md)。
 
-* **投放提醒** - 投放提醒是一个提醒管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。[了解详情](../msg/delivery-alerting.md)。
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## 了解详情 {#learn-more}
 

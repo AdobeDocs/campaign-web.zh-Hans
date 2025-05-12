@@ -2,8 +2,12 @@
 audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 22%
@@ -77,7 +81,7 @@ ht-degree: 22%
    * **最小预期吞吐量（以每小时的已发送消息数表示）**：对于低吞吐量条件的投放，只考虑吞吐量低于指定值的投放。
    * **“正在进行的投放”标准所需的最小处理比率**：只考虑处理消息百分比高于指定百分比的投放。
 
-   +++
++++
 
 1. 默认情况下，警报仪表板处于禁用状态，这意味着不会发送链接到此仪表板的电子邮件警报。 要立即启用仪表板，请切换警报组选择字段旁边的&#x200B;**常规**&#x200B;部分中的&#x200B;**已启用**&#x200B;选项。
 
