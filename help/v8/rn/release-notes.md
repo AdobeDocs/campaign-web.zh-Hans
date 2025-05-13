@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
+## 2025年5月更新 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性分数(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。 此功能在Beta中可用。</p>
+<p>有关更多信息，请参阅<a href="../content/brands-score.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2025 年 4 月版本 {#25-4-release}
 
 **发布日期**：2025 年 4 月 29 日
-
 
 ### 新增功能 {#25-4-features}
 
