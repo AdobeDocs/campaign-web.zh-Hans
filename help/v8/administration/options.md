@@ -2,7 +2,7 @@
 title: 配置 [!DNL Campaign] 选项
 description: 了解如何配置Campaign选项和创建自己的自定义选项。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 5%
@@ -24,7 +24,6 @@ ht-degree: 5%
 Adobe Campaign Web包括技术选项，可让您更具体地配置应用程序。 其中有些选项是内置的，而其他选项可以根据需要手动添加。
 
 >[!IMPORTANT]
->\
 >内置选项已预配置，只应由高级用户修改。 如果您有任何问题或请求，请联系您的Adobe代表。
 
 ## 访问Campaign选项 {#access}
@@ -35,8 +34,7 @@ Adobe Campaign Web包括技术选项，可让您更具体地配置应用程序�
 [在“管理”/“选项”菜单中显示的选项列表]
 
 >[!NOTE]
->\
->尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
+>尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
 
 从选项列表中，您可以：
 
