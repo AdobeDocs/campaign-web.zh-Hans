@@ -5,7 +5,7 @@ description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 29%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="使用现有的电子邮件内容"
->abstract="通过电子邮件设计器，可导入现有的 HTML 内容。此内容可以是内含样式表的 HTML 文件，也可以是具有 HTML 文件、样式表 (.css) 和图像的 .zip 文件夹。"
+>abstract="通过电子邮件 Designer，可导入现有的 HTML 内容。此内容可以是内含样式表的 HTML 文件，也可以是具有 HTML 文件、样式表 (.css) 和图像的 .zip 文件夹。"
 
 您可以在电子邮件Designer中导入现有HTML内容。 相关的内容可以是：
 
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 了解如何通过上传HTML创建电子邮件、使其与电子邮件Designer兼容并将其转换为模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447042/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -48,14 +48,14 @@ ht-degree: 24%
 * 工作流失败时，将通过电子邮件通知属于&#x200B;**[!UICONTROL 主管]**&#x200B;字段中所选操作员组的操作员。
 * 输入工作流的&#x200B;**[!UICONTROL 描述]**。
 
-当工作流为与营销活动[&#128279;](create-workflow.md)关联的时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
+当工作流为与营销活动](create-workflow.md)关联的[时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
 
 ## 分段设置 {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="分段设置"
->abstract="在此部分中，您可以选择工作流中目标轮廓的目标选择维度，并选择保留两次执行之间的工作流结果。此选项只应用于测试目的，且不得在生产工作流中启用。"
+>abstract="在此部分中，您可以选择工作流中目标轮廓的定位维度，并选择保留两次执行之间的工作流结果。此选项只应用于测试目的，且不得在生产工作流中启用。"
 
 * **[!UICONTROL 定向维度]**：选择要用于定向用户档案的定向维度，如收件人、合同受益人、操作员、订阅者等。 [了解有关定向维度的更多信息](../audience/targeting-dimensions.md)。
 

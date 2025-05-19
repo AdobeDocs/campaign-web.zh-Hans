@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定义电子邮件的内容"
->abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或产品建议）和访问电子邮件设计器以美化邮件的外观。"
+>abstract="通过&#x200B;**编辑内容**&#x200B;屏幕，可定义消息的基本元素（如发件人地址和主题行）、执行其他操作（如添加附件或产品建议）和访问电子邮件 Designer 以美化邮件的外观。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -36,7 +36,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="添加语言"
->abstract="在此选项卡中，您将找到要用于发送投放的语言的列表。 您可以通过单击“添加语言”按钮或通过此选项卡复制其他语言来添加更多语言。"
+>abstract="在此选项卡中，您将找到要发送的投放所使用的语言列表。您可以通过单击“添加语言”按钮或通过此选项卡复制另一种语言来添加更多语言。"
 
 电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕允许您：
 
@@ -129,7 +129,7 @@ ht-degree: 21%
 
    >[!IMPORTANT]
    >
-   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
+   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

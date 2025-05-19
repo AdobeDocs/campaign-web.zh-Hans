@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="筛选"
->abstract=" 可以使用两种类型的分类规则：<br/><br/>**控制**&#x200B;规则，这些规则可确保消息质量和有效性的预发送，如字符显示、短信长度、地址格式或URL缩短。 <br/><br/>**正在筛选**&#x200B;规则，这些规则根据特定条件（如年龄、位置、国家/地区或电话号码）排除目标受众的区段。"
+>abstract=" 有两种类型的类型规则可用：<br/><br/>**控制**&#x200B;规则，确保发送前的消息质量和有效性，例如字符显示、SMS 长度、地址格式或 URL 缩短。<br/><br/>**筛选**&#x200B;规则，根据特定标准（例如年龄、地区、国家、电话号码）排除某些目标受众区段。"
 
 ## 关于分类
 
@@ -40,7 +40,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 将分类应用于消息的主要步骤如下：
 
@@ -86,7 +86,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="类型规则属性"
->abstract="定义类型规则的属性。**控制**&#x200B;规则用于在发送前验证消息的质量和有效性，而&#x200B;**筛选**&#x200B;规则会根据特定标准排除某些目标受众区段。<br/><br/>您还可以更改规则的执行顺序，以管理在同一个消息处理阶段中执行同一类型的多条规则时执行类型规则的顺序。"
+>abstract="定义类型规则的属性。**控制**&#x200B;规则用于在发送前验证消息的质量和有效性，而&#x200B;**筛选**&#x200B;规则会根据特定标准排除某些目标受众区段。<br/><br/>您还可以更改规则的执行顺序，以管理在同一个消息处理阶段中执行同一类型的多条规则时执行类型规则的序列。"
 
 要创建分类规则，请导航到&#x200B;**[!UICONTROL 业务规则]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 分类规则]**&#x200B;选项卡。
 
@@ -108,7 +108,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. 选择要与规则关联的&#x200B;**[!UICONTROL 渠道]**。
 
@@ -134,7 +134,7 @@ ht-degree: 23%
 
    **[!UICONTROL 在分析结束时]**：应用需要完整邮件个性化的检查。
 
-   +++
++++
 
    * **[!UICONTROL 级别]**：指定规则的警报级别。 展开以下部分以获取更多信息。
 
@@ -148,14 +148,14 @@ ht-degree: 23%
 
    **[!UICONTROL 详细]**：在服务器日志中显示信息。
 
-   +++
++++
 
-### 构建规则内容 {#build}
+### 生成规则内容 {#build}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="筛选"
->abstract="**筛选**&#x200B;规则根据特定标准（例如年龄、地区、国家、电话号码）排除某些目标受众区段。选择类型规则的目标维度，然后单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;按钮，以访问查询建模器并构建规则。"
+>abstract="**筛选**&#x200B;规则根据特定标准（例如年龄、地区、国家、电话号码）排除某些目标受众区段。选择类型规则的目标维度，然后单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;按钮，以访问查询建模器并生成规则。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"

@@ -14,10 +14,10 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="构建受众活动"
->abstract="通过&#x200B;**构建受众**&#x200B;活动，可定义将进入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**构建受众**&#x200B;活动中定义消息受众。"
+>title="生成受众活动"
+>abstract="通过&#x200B;**生成受众**&#x200B;活动，可定义将进入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。"
 
-**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**构建受众**&#x200B;活动中定义消息受众。
+**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。
 
 要定义受众群体，您可以：
 
@@ -33,7 +33,7 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 配置构建受众活动 {#build-audience-configuration}
+## 配置生成受众活动 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"

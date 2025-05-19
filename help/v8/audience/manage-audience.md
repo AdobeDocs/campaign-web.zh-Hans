@@ -5,7 +5,7 @@ description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 25%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="目标选择"
->abstract="目标选择"
+>title="定位"
+>abstract="定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -38,9 +38,9 @@ ht-degree: 25%
 
 受众可以源自多个源。 **[!UICONTROL Origin]**&#x200B;列指示创建给定受众的位置：
 
-* **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=zh-Hans){target="_blank"}中创建。
+* **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中创建。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform内创建，并已通过Adobe Sources与Destinations集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何设置此集成。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform内创建，并已通过Adobe Sources与Destinations集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
 
   ➡️ [通过观看视频了解此功能](#video)
 
@@ -60,4 +60,4 @@ ht-degree: 25%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有关如何设置Adobe Sources与Destinations集成的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}。
+有关如何设置Adobe Sources与Destinations集成的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

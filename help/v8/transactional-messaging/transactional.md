@@ -10,12 +10,12 @@ ht-degree: 13%
 
 ---
 
-# 关于事务性消息传递 {#transactional-messaging}
+# 关于交易型消息传递 {#transactional-messaging}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="交易型消息传递"
->abstract="事务性消息传递是 Adobe Campaign 中专门用于处理触发消息的模块。"
+>abstract="交易型消息传递是 Adobe Campaign 中专门用于处理触发消息的模块。"
 
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"

@@ -5,7 +5,7 @@ description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 54%
 
 ---
@@ -35,22 +35,22 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定义电子邮件列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
+>abstract="使用电子邮件 Designer，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="定义登陆页面列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义登陆页面的版面。"
+>abstract="使用电子邮件 Designer，您可以通过定义列结构来轻松定义登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义内容片段列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义内容片段的版面。"
+>abstract="使用电子邮件 Designer，您可以通过定义列结构来轻松定义内容片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定义模板列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义模板的版面。"
+>abstract="使用电子邮件 Designer，您可以通过定义列结构来轻松定义模板的版面。"
 
 使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过执行简单的拖放操作来添加和移动结构元素，可在几秒钟内设计电子邮件的正文。
 
@@ -110,4 +110,4 @@ ht-degree: 54%
 
 了解如何在电子邮件设计器中导航。了解如何从头开始构建和设计电子邮件、对电子邮件进行个性化和测试。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453575/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

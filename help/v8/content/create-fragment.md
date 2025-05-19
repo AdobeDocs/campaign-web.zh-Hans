@@ -15,7 +15,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="定义您自己的内容片段"
->abstract="定义片段属性和您想要创建的片段类型。然后，您可以使用电子邮件设计器或表达式编辑器来配置片段的内容。"
+>abstract="定义片段属性和您想要创建的片段类型。然后，您可以使用电子邮件 Designer 或表达式编辑器来配置片段的内容。"
 
 <!-- pas vu dans l'UI-->
 

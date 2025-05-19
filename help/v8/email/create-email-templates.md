@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="编辑您的模板内容"
->abstract="单击&#x200B;**编辑内容**&#x200B;按钮可使用电子邮件设计器更新您的内容。"
+>abstract="单击&#x200B;**编辑内容**&#x200B;按钮可使用电子邮件 Designer 更新您的内容。"
 
 要访问内容模板列表，请从左边栏浏览到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]**&#x200B;菜单。
 

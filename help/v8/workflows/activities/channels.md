@@ -57,12 +57,12 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="”推送 iOS“ 活动"
->abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复传送消息，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复投放，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="”推送 Android“ 活动"
->abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复传送消息，自动将 Android 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复投放，自动将 Android 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"

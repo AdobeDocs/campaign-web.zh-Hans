@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # 将产品建议添加到您的消息 {#offers-content}
 
-您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。 所有这些选件都是只读的，必须在Campaign客户端控制台中使用&#x200B;**[!UICONTROL 交互]**&#x200B;模块创建。 有关交互以及如何管理控制台中的优惠目录的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
+您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。 所有这些选件都是只读的，必须在Campaign客户端控制台中使用&#x200B;**[!UICONTROL 交互]**&#x200B;模块创建。 有关交互以及如何管理控制台中的优惠目录的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
 
 通过投放发送优惠的步骤如下：
 
@@ -29,7 +29,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="设置产品建议高级设置"
->abstract="可实现排除其没有足够多合格的产品建议的收件人，并选择在其中一项提议不存在时处理消息的方式。"
+>abstract="可实现排除其没有足够多合格优惠的收件人，并选择在其中一项提议不存在时处理消息的方式。"
 
 Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或多个特定优惠来实时响应。 这些优惠可以是简单的通信消息、一个或多个产品上的特殊优惠或服务。
 
@@ -41,7 +41,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
 1. 配置应向收件人推荐的产品建议。
 
-   首先，选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=zh-Hans){target="_blank"}以了解如何创建优惠空间。
+   首先，选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}以了解如何创建优惠空间。
 
    ![显示优惠创建内容中的优惠空间选择的屏幕截图](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
    >[!NOTE]
    >
-   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}以了解详情。
+   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}以了解详情。
 
 1. 保存您的更改。
 

@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="第 4 项"
->abstract="新一代查询建模器和电子邮件设计器"
+>abstract="新一代查询建模器和电子邮件 Designer"
 
 
 我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决项目（包括 Adobe Experience Platform）的一致性。
@@ -61,9 +61,9 @@ ht-degree: 100%
 
 >[!TAB AI 助手]
 
-✨ 通过我们的 [AI 助手](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
+✨使用我们的[AI Assistant](../v8/email/generative-gs.md)实时功能预览体验亲身体验，旨在让您亲身体验其功能并充分了解其功能。
 
-[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常见问题解答]
 

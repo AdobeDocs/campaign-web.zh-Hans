@@ -14,7 +14,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="关键绩效指标"
->abstract="利用&#x200B;**关键绩效指标 (KPI)** 部分，可以通过常见 KPI 检查平台有效性。"
+>abstract="利用&#x200B;**关键绩效指标 (KPI)** 部分，可以通过常见关键绩效指标检查 Platform 有效性。"
 
 <!-- à enlever? -->
 

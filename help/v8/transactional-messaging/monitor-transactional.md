@@ -40,13 +40,13 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="事务性消息传递事件历史记录"
->abstract="您可以查看触发事务性消息的事件。"
+>title="交易型消息传递事件历史记录"
+>abstract="您可以查看触发交易型消息的事件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="事务性消息传递事件历史记录预览"
->abstract="您可以查看触发事务性消息的事件。"
+>title="交易型消息传递事件历史记录预览"
+>abstract="您可以查看触发交易型消息的事件。"
 
 您可以查看触发事务型消息的事件。 要访问它们，请转到&#x200B;**[!UICONTROL 事件历史记录]**&#x200B;部分。
 

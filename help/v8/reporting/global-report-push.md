@@ -23,7 +23,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推送投放概述"
->abstract="推送&#x200B;**投放概述** KPI 彻底考察您的推送投放，并提供详细洞察和具体数据。它提供有关投放的效果、有效性和成果的全面详细信息。"
+>abstract="推送&#x200B;**投放概述**&#x200B;关键绩效指标彻底考察您的推送投放，并提供详细洞察和具体数据。它提供有关投放的效果、有效性和成果的全面详细信息。"
 
 **[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 
@@ -83,7 +83,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 新隔离]**：投放失败（注册无效、邮件拒绝、有效负载错误及类似原因）后隔离的地址总数，与要投放的邮件数相关。
 
-  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
+  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 +++
 
@@ -96,14 +96,14 @@ ht-degree: 23%
 
 **[!UICONTROL 排除原因]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。
 
-推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
+推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="投放吞吐量报告"
->abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内整个平台的推送通知投放吞吐量的详细信息。"
+>abstract="**投放吞吐量**&#x200B;报告展示有关指定时间范围内整个 Platform 的推送通知投放吞吐量的详细信息。"
 
 ![投放吞吐量量度，显示指定时间段内推送通知的成功率和错误率。](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 

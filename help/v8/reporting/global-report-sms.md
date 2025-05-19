@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="短信投放概述"
->abstract="**短信投放概述** KPI 提供您的短信投放的全面摘要，并提供详细洞察和具体数据。它提供有关您的投放的效果、有效性和成果的全面信息。"
+>abstract="**短信投放概述**&#x200B;关键绩效指标提供您的短信投放的全面摘要，并提供详细洞察和具体数据。它提供有关您的投放的效果、有效性和成果的全面信息。"
 
 **[!UICONTROL 投放概述]**&#x200B;报表提供了全面的关键绩效指标(KPI)，可深入分析访客与每个短信投放的交互模式。 以下列出了以下量度。
 
@@ -67,7 +67,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="短信投放统计信息"
->abstract="通过&#x200B;**投放统计信息**&#x200B;报告可全面洞察发送的短信，其中细分各种量度，如成功率、错误发生率和被隔离的受众。通过此详细演示可全面地检查短信投放过程的整体效果和成果。"
+>abstract="通过&#x200B;**投放统计信息**&#x200B;报告可全面洞察发送的短信，其中细分各种量度，如成功率、错误发生次数和被隔离的受众。通过此详细演示可全面地检查短信投放过程的整体效果和成果。"
 
 **[!UICONTROL 投放统计数据]**&#x200B;表详细说明了每次SMS投放的成功情况。 指标详见下文。
 
@@ -83,7 +83,7 @@ ht-degree: 27%
 
 * **[!UICONTROL 新隔离]**：在投放失败后隔离的地址总数（例如，用户未知、无效域），与要投放的消息数相关。
 
-  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#sms-quarantines){target="_blank"}中列出了短信错误类型。
+  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}中列出了短信错误类型。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 27%
 
 **[!UICONTROL 排除原因]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收短信投放的原因。
 
-错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
+错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ![排除原因报告的屏幕截图，显示短信投放排除的原因。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

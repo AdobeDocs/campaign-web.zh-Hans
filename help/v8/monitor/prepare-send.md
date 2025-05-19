@@ -18,7 +18,7 @@ ht-degree: 31%
 
 在投放准备期间，会计算目标群体，并为目标中包含的每个用户档案生成消息内容。 完成准备工作后，即可立即或在安排的日期和时间发送消息。
 
-在[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=zh-Hans){target="_blank"}中介绍了投放准备期间使用的验证规则。
+在[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中介绍了投放准备期间使用的验证规则。
 
 下面列出了准备发送的主要步骤。
 
@@ -109,7 +109,7 @@ ht-degree: 31%
 
 ![在投放仪表板中暂停或停止发送按钮](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
-## 检查 KPI {#check-kpis}
+## 检查关键绩效指标 {#check-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"

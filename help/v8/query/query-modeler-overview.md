@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="新建规则生成器"
+>title="新的规则生成器"
 >abstract="现在可以使用新的规则生成器来帮助您在改进的用户界面中定义复杂的条件。您可以根据需要从旧规则生成器切换到新规则生成器。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
@@ -26,7 +26,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="查询建模器"
->abstract="为收件人或数据库中的任何其他目标选择维度定义过滤条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
+>abstract="为收件人或数据库中的任何其他定位维度定义筛选条件。利用 Adobe Experience Platform 受众进一步细化目标受众，并最大限度地提高营销活动的影响力。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
@@ -69,7 +69,7 @@ Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据�
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="新的规则生成器体验"
->abstract="使用此切换开关可在经典查询建模器和新规则生成器体验之间切换。 新的规则生成器具有简单直观的界面，可让您更轻松地构建查询。"
+>abstract="使用此切换按钮可以在经典查询建模器和新的规则生成器体验之间切换。由于新的规则生成器具有简化且直观的界面，因此您可以更轻松地构建查询。"
 
 ![显示查询建模器接口的图像](assets/query-interface.png){zoomable="yes"}
 

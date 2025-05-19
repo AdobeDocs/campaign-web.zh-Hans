@@ -6,7 +6,7 @@ exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="更改维度活动"
->abstract="通过此活动，可在构建受众时更改目标市场选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
+>abstract="通过此活动，可在生成受众时更改定位维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
 **更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
 

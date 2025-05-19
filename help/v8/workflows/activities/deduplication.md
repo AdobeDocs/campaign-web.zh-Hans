@@ -20,7 +20,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="删除重复项活动"
->abstract="通过&#x200B;**内部重复数据删除**&#x200B;活动，可删除集客活动结果中的重复项。它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。"
+>abstract="通过&#x200B;**删除重复项**&#x200B;活动，可删除集客活动结果中的重复项。它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"

@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 创建事务型消息模板 {#transactional-template}
 
-在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional)上的事务性消息的配置不同。
+在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)上的[事务性消息的配置不同。
 
 事务型消息模板可用于在到达最终受众之前预览用户档案收到的投放内容。 例如，管理员可以设置和配置模板，以便营销用户随时使用。
 
@@ -36,27 +36,27 @@ ht-degree: 18%
 
   ![显示事务性消息模板配置页面的屏幕截图。](assets/transactional-template-configuration.png){zoomable="yes"}
 
-### 事务性消息属性 {#transactional-properties}
+### 交易型消息属性 {#transactional-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="事务性消息传递属性"
->abstract="填写此表单以配置事务性消息传递属性。"
+>title="交易型消息传递属性"
+>abstract="填写此表单以配置交易型消息传递属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="事务性消息传递电子邮件属性"
->abstract="填写此表单以配置事务性消息传递电子邮件属性。"
+>title="交易型消息传递电子邮件属性"
+>abstract="填写此表单以配置交易型消息传递电子邮件属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="事务性消息传递 SMS 属性"
->abstract="填写此表单以配置事务性消息传递 SMS 属性。"
+>title="交易型消息传递 SMS 属性"
+>abstract="填写此表单以配置交易型消息传递 SMS 属性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="事务性消息传递推送属性"
->abstract="填写此表单以配置事务性消息传递推送属性。"
+>title="交易型消息传递推送属性"
+>abstract="填写此表单以配置交易型消息传递推送属性。"
 
 事务型消息的&#x200B;**[!UICONTROL 属性]**&#x200B;部分可帮助您设置：
 
@@ -66,7 +66,7 @@ ht-degree: 18%
 * **[!UICONTROL 执行文件夹]**，在执行后存储消息。
 * **[!UICONTROL 传递代码]**，如果需要，该代码有助于识别消息以进行报告。
 * **[!UICONTROL 描述]**。
-* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![显示事务性消息模板属性部分的屏幕截图。](assets/template-properties.png){zoomable="yes"}
 
@@ -74,7 +74,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="事务性消息传递移动设备应用程序"
+>title="交易型消息传递移动设备应用程序"
 >abstract="在本节中，您可以选择想要用来推送消息的应用程序。"
 
 在此部分中，选择要将消息推送到的应用程序。
@@ -87,15 +87,15 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="事务性消息传递上下文"
->abstract="通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的事务性消息。"
+>title="交易型消息传递上下文"
+>abstract="通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的交易型消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="事务性消息传递上下文"
->abstract="通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的事务性消息。"
+>title="交易型消息传递上下文"
+>abstract="通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的交易型消息。"
 
-通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的事务性消息。
+通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的交易型消息。
 
 此步骤是可选的。您可以使用没有上下文示例的模板，但缺点是无法预览个性化内容。
 
@@ -105,22 +105,22 @@ ht-degree: 18%
 
 ![显示事务性消息上下文示例配置的屏幕截图。](assets/transactional-context.png){zoomable="yes"}
 
-### 事务性消息模板内容 {#transactional-content}
+### 交易型消息模板内容 {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="事务性消息传递内容"
->abstract="了解如何创建事务性消息传递内容。"
+>title="交易型消息传递内容"
+>abstract="了解如何创建交易型消息传递内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
->title="事务性消息传递个性化"
->abstract="了解如何个性化事务性消息传递内容。"
+>title="交易型消息传递个性化"
+>abstract="了解如何个性化交易型消息传递内容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="事件上下文"
->abstract="此菜单提供触发事件的变量，您可以利用这些变量来个性化您的事务性消息内容。"
+>abstract="此菜单提供触发事件的变量，您可以利用这些变量来个性化您的交易型消息内容。"
 
 处理事务型消息的内容与创建投放的内容类似。 单击&#x200B;**[!UICONTROL 打开电子邮件设计器]**&#x200B;或&#x200B;**[!UICONTROL 编辑电子邮件正文]**，然后选择模板内容或导入HTML代码。
 
@@ -169,7 +169,7 @@ ht-degree: 18%
   ![显示事务性消息配置页面的屏幕截图。](assets/transactional-configuration.png){zoomable="yes"}
 
   将消息的配置作为模板进行填写：
-   * [事务性消息属性](#transactional-properties)
+   * [交易型消息属性](#transactional-properties)
    * [上下文示例](#context-sample)
    * [消息内容](#transactional-content)
 和[配置事件类型](#event-type)，如下所述。
@@ -180,7 +180,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="事务性消息传递事件"
+>title="交易型消息传递事件"
 >abstract="事件类型的配置将消息与触发事件联系起来。"
 
 事件类型的配置将消息与触发事件联系起来。

@@ -37,12 +37,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="创建预定义过滤器"
->abstract="输入预定义过滤器的标签，然后选择它应用于的表。打开其他选项以添加描述，并将此过滤器设置为收藏。然后使用“创建规则”按钮来定义过滤条件。"
+>abstract="输入预定义过滤器的标签，然后选择它应用于的表。打开其他选项以添加描述，并将此过滤器设置为收藏。然后使用“创建规则”按钮来定义筛选条件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="创建预定义的过滤规则"
->abstract="要定义您的自定义过滤器的过滤条件，请单击“创建规则”按钮。"
+>abstract="要定义您的自定义过滤器的筛选条件，请单击“创建规则”按钮。"
 
 ### 从查询建模器创建过滤器 {#create-from-rule-builder}
 

@@ -13,8 +13,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="选择目标选择维度"
->abstract="通过目标市场选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+>title="选择定位维度"
+>abstract="通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
 
 定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。
 
@@ -44,4 +44,4 @@ ht-degree: 16%
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
 | 订阅者应用程序 | 订阅应用程序的配置文件 | nms：appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
