@@ -48,7 +48,7 @@ ht-degree: 24%
 * 工作流失败时，将通过电子邮件通知属于&#x200B;**[!UICONTROL 主管]**&#x200B;字段中所选操作员组的操作员。
 * 输入工作流的&#x200B;**[!UICONTROL 描述]**。
 
-当工作流为与营销活动](create-workflow.md)关联的[时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
+当工作流为与营销活动[&#128279;](create-workflow.md)关联的时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
 
 ## 分段设置 {#segmentation-settings}
 
