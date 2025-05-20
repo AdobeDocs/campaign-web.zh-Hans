@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 94%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 4 月版本]
+>[!TAB 2025年5月版]
 
-四月版本现已上线，包括呼叫中心渠道、新规则生成器和更多改进。
+5月版本现已上线，其中包括呼叫中心渠道、新的规则生成器以及更多改进。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ ht-degree: 94%
 
 ✨使用我们的[AI Assistant](../v8/email/generative-gs.md)实时功能预览体验亲身体验，旨在让您亲身体验其功能并充分了解其功能。
 
-[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常见问题解答]
 
