@@ -33,7 +33,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <tbody>
 <tr>
 <td>
-<p>品牌一致性分数功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
+<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
 <p>有关更多信息，请参阅<a href="../content/brands-score.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
