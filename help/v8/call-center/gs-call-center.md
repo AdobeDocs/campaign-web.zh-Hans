@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用呼叫中心渠道
 description: 了解如何使用 Adobe Campaign Web 创建和发送呼叫中心投放
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 通过呼叫中心渠道，您可以直接从 Adobe Campaign Web UI 导出外拨电话营销活动的目标联系人列表。使用它来通过内部团队或外部联络中心协调呼叫。
 
-您可以将呼叫投放配置为在工作流程中或者配置为独立投放，您可以定义您的受众，并生成包含所有必要联系人和个性化数据的可定制导出文件。
+您可以在工作流中配置呼叫中心投放，也可以将其配置为独立投放，定义受众，并使用所有必要的联系人和个性化数据生成可自定义的导出文件。
 
 该渠道非常适合进行潜在客户跟进、客户保留电话或服务拓展，并通过个性化的语音交互来扩展您的全渠道战略。
+
+>[!NOTE]
+>
+>在呼叫中心渠道的Web UI中，报告不可用。 您必须浏览到“客户端控制台”才能访问报告。
 
 您可以通过以下方式之一使用呼叫中心渠道：
 

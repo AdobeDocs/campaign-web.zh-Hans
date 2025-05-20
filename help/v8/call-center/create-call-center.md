@@ -3,10 +3,10 @@ audience: end-user
 title: 创建呼叫中心投放
 description: 了解如何使用Adobe Campaign Web创建呼叫中心交付
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以计划在特定日期发送投放。 有关更多信息，请参阅此[&#128279;](../msg/gs-deliveries.md#gs-schedule)章节。
+>您可以计划在特定日期发送投放。 有关更多信息，请参阅此](../msg/gs-deliveries.md#gs-schedule)章节[。
 
 ## 定义受众{#select-audience}
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 >
 >呼叫中心收件人必须至少包含其姓名和电话号码。 所有信息不完整的收件人都将排除在呼叫中心投放之外。
 >
->要了解如何配置控制组，请参阅此[页面](../audience/control-group.md)
+>要了解如何配置控制组，请参阅此[页面](../audience/control-group.md)。
 
 ## 编辑内容{#edit-content}
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
    ![显示呼叫中心投放内容编辑的屏幕截图](assets/cc-content0.png){zoomable="yes"}
 
-1. 指定&#x200B;**[!UICONTROL 文件名]**&#x200B;字段。 要了解如何个性化文件名，请参阅此[页面](../personalization/personalize.md)。
+1. 指定&#x200B;**[!UICONTROL 文件名]**。 要了解如何个性化文件名，请参阅此[页面](../personalization/personalize.md)。
 
 1. 选择&#x200B;**[!UICONTROL 文件格式]**：**文本**、**使用固定宽度列的文本**、**CSV (Excel)**&#x200B;或&#x200B;**XML**。
 
@@ -120,7 +120,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 发送]**&#x200B;以继续执行最终发送过程，然后确认。
 
-发送投放后，将自动生成提取文件并将其导出到在投放模板的[高级设置](../advanced-settings/delivery-settings.md)中选择的&#x200B;**[!UICONTROL 路由]**&#x200B;外部帐户中指定的位置。
+发送投放后，将自动生成提取文件并将其导出到在投放模板的[高级设置](../advanced-settings/delivery-settings.md)中选择的&#x200B;**[!UICONTROL 路由]**&#x200B;外部帐户中指定的位置。 您还可以通过单击屏幕&#x200B;**Content**&#x200B;部分中的&#x200B;**Preview file**&#x200B;按钮预览文件。
 
 跟踪投放页面中的KPI（关键绩效指标）数据和&#x200B;**[!UICONTROL 日志]**&#x200B;菜单中的数据。
 

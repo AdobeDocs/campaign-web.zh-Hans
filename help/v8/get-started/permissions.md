@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 用户界面中的权限管理
 description: 详细了解 Campaign Web 用户界面中的权限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Adobe Campaign 中的每个用户在应用程序内都有具体的权限和限�
 您可以直接点击权限并将其更改为&#x200B;**[!UICONTROL 允许]**&#x200B;或&#x200B;**[!UICONTROL 拒绝]**。
 
 ![文件夹安全设置中权限被拒绝的示例](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>您应该不能创建至少有一个文件夹没有写入权限的对象。
+>
+>您无需成为管理员即可创建片段，但您必须对至少一个“内容可视化片段”文件夹具有写入权限。 否则，您将无法创建可视化片段。
 
 如果启用了&#x200B;**[!UICONTROL 传播]**&#x200B;选项，则为某个文件夹定义的所有权限都将应用于该文件夹的所有子文件夹。每个子文件夹的这些权限都可以被覆盖。
 

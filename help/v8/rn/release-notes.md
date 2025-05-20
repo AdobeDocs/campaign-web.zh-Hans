@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+source-git-commit: ea6c38d4c640c15994035d96c7a05934cf22d04b
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 94%
+source-wordcount: '277'
+ht-degree: 62%
 
 ---
 
@@ -20,18 +20,20 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
-## 2025年5月更新 {#25-5-release}
+## 2025年5月版 {#25-5-release}
+
+以下功能适用于从5月版本开始的所有用户。
 
 <table>
 <thead>
 <tr>
-<th><strong>品牌一致性分数(Beta)</strong><br/></th>
+<th><strong>品牌一致性得分 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。 此功能在Beta中可用。</p>
+<p>品牌一致性分数功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
 <p>有关更多信息，请参阅<a href="../content/brands-score.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -39,101 +41,24 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 </tbody>
 </table>
 
-## 2025 年 4 月版本 {#25-4-release}
-
-**发布日期**：2025 年 4 月 29 日
-
-### 新增功能 {#25-4-features}
-
-自 4 月版本开始，所有用户都可以使用以下功能。
-
 <table>
 <thead>
 <tr>
-<th><strong>呼叫中心渠道</strong><br/></th>
+<th><strong>外部投放的自定义渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign Web 用户界面中现在提供呼叫中心渠道。此渠道是指用于管理和跟踪通过呼叫中心处理的通信或交互的通信方法——通常是代理给客户或潜在客户拨打电话。</p>
-<img src="assets/do-not-localize/call-center.gif">
-<p>有关更多信息，请参阅<a href="../call-center/gs-call-center.md">详细文档</a>。</p>
+<p>现在，您可以直接从Adobe Campaign Web UI根据自定义外部渠道编排和执行投放。 这些投放可以是独立投放或工作流的一部分。 在控制台中创建与第三方集成的自定义外部渠道。</p>
+<p>注意：在自定义渠道的Web UI中报告不可用。 您必须浏览到“客户端控制台”才能访问报告。</p>
+<p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>新的规则生成器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在可以使用新的规则生成器来帮助您在改进的用户界面中定义复杂的条件。您可以根据需要从旧规则生成器切换到新规则生成器。</p>
-<img src="assets/do-not-localize/rule-builder-release.gif">
-<p>有关更多信息，请参阅<a href="../query/query-modeler-overview.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+### 改进 {#25-5-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>外部帐户创作</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>作为 Campaign 管理员，您现在可以从 Campaign Web 用户界面建立与外部系统的新连接。
-您还可以查看、更新和管理现有的外部帐户。</p>
-<p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改进 {#25-4-improvements}
-
-**通用界面改进**
-
-* 现在，用户界面中可以更清楚地看到架构属性的字段描述、添加到收藏夹和值分配三个选项。有关更多信息，请参阅[详细文档](../get-started/attributes.md)。
-* 在界面中，现在根据 Experience League 偏好设置中设置的主要语言显示日期和时间。此改进仅适用于几种语言。要查看受支持语言的完整列表，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/browser-language){target=_blank}。
-
-<!--
-ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
-ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
--->
-
-**电子邮件编辑器**：为了增强 Campaign Web UI 的可访问性，电子邮件设计器中现在提供两个新字段：它们涉及电子邮件内容的 `title` 元素和 `html` 元素中的 lang 属性。除了邮件引文字段之外，您还可以在电子邮件正文部分定义这些设置。有关更多信息，请参阅[详细文档](../email/metadata.md)。
-
-<!--
-**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
--->
-
-**架构**
-
-* 您现在可以从 Campaign Web 用户界面为列表编辑临时架构。有关更多信息，请参阅[详细文档](../audience/manage-audience.md)。
-* 您现在可以在示例屏幕中预览架构的自定义字段。有关更多信息，请参阅[详细文档](../administration/custom-fields.md#add)。
-* 您现在可以使用拖放功能移动列表中的自定义字段。有关更多信息，请参阅[详细文档](../administration/custom-fields.md#add)。
-
-
-### 有限可用性版本中的新功能 {#25-4-features-la}
-
->[!AVAILABILITY]
->
->以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。使用这些功能必须将 Campaign 服务器升级到 v8.7.4。
->
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hans)。
-
-* **创建多语言投放** - 您现在可以在 Adobe Campaign Web 用户界面中使用不同语言发送多个电子邮件投放。多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您还可以使用您选择的语言预览这些投放内容。有关更多信息，请参阅[详细文档](../email/edit-content.md)。
-
-* **多语言的动态报告** - 动态报告现可用于多语言电子邮件投放。有关更多信息，请参阅[详细文档](../reporting/global-reports.md)。
-
-* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
-
+类型规则创建屏幕已更新，以便于选择规则类型。
