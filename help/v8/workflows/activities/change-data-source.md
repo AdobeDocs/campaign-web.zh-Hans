@@ -23,7 +23,7 @@ ht-degree: 13%
 
 在某些情况下，当前数据库中没有数据，或者数据不够有效，无法执行单一操作。 因此，您可能需要通过添加&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动，强制工作流使用其他数据库来执行此类操作。
 
-有关Campaign架构的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)。
+有关Campaign架构的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hans)。
 
 >[!IMPORTANT]
 >
