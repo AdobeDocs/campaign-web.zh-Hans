@@ -51,7 +51,7 @@ ht-degree: 8%
 
      ![屏幕快照在其标签旁显示工作流的内部名称。](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * **外部信号活动的名称**，该名称显示在工作流的&#x200B;**[!UICONTROL 执行选项]**&#x200B;中。
 
@@ -59,7 +59,7 @@ ht-degree: 8%
 
      ![屏幕截图显示“执行”选项中的External Signal活动的名称。](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. 要触发工作流，请执行`PostEvent` JavaScript函数。 此函数允许您通过选择的值传递变量，并在触发的工作流中使用它们。
 
@@ -79,6 +79,6 @@ ht-degree: 8%
 
    ![此屏幕快照显示了使用PostEvent函数触发External Signal活动的示例。](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * 要通过API调用触发&#x200B;**[!UICONTROL 外部信号]**&#x200B;活动，请按照Campaign API文档中详述的步骤操作。 [了解如何使用静态`PostEvent`方法](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)。

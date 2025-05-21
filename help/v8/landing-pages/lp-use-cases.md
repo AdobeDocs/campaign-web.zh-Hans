@@ -133,7 +133,7 @@ ht-degree: 9%
 
 1. 将显示页面内容。 选择与登陆页面表单对应的部分，并展开&#x200B;**[!UICONTROL 复选框1]**&#x200B;部分。
 
-1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;]**选项，请保留**[!UICONTROL  Subscribe in。
+1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;**选项，请保留** Subscribe in。
 
    ![显示订阅复选框界面的屏幕截图。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
@@ -185,7 +185,7 @@ ht-degree: 9%
 
 您可以设置&#x200B;**[!UICONTROL 阻止列表]**&#x200B;登录页面，以允许用户选择退出所有投放。
 
-1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;****&#x200B;模板。
+1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;**&#x200B;**&#x200B;模板。
 
 1. 选择&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面以编辑其内容。
 
