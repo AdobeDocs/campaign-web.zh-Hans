@@ -169,7 +169,7 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 设置验证码可帮助您保护登陆页面免受垃圾邮件和滥用。
 
 若要使用它，请转到登陆页面的&#x200B;**[!UICONTROL 属性]**。
-在**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
+在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
 
 ![屏幕截图显示“额外启用验证码”解决方案切换](assets/lp-properties-captcha.png){zoomable="yes"}
 
