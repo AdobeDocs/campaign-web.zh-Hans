@@ -51,8 +51,7 @@ ht-degree: 30%
    * **[!UICONTROL 投放代码]**：使用您自己的命名惯例整理投放。
    * **[!UICONTROL 描述]**：提供投放的描述。
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
-
-   +++
++++
 
 ## 选择您的投放受众 {#create-audience-push}
 

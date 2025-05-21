@@ -16,13 +16,13 @@ ht-degree: 3%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service]是一个集成的协作平台，旨在简化您的创意工作流程并集中数字资产，以实现无缝体验交付。 它简化了已批准生产资产的组织、标记和检索，确保跨团队的品牌一致性。 [!DNL Assets as Cloud Service]界面友好，允许您在Adobe Creative和Experience Cloud应用程序中即时访问和共享资源。
 
-请参阅[Adobe Experience Manager Assets as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=zh-Hans){target="_blank"}以了解详情。
+请参阅[Adobe Experience Manager Assets as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}以了解详情。
 
 ## 上传和插入资源{#add-asset}
 
 要将文件导入[!DNL Assets as Cloud Service]，请浏览或创建用于存储这些文件的文件夹。 然后，将它们插入到您的电子邮件内容中。
 
-有关如何上传资源的更多信息，请参阅[Adobe Experience Manager Assets as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=zh-Hans){target="_blank"}。
+有关如何上传资源的更多信息，请参阅[Adobe Experience Manager Assets as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}。
 
 1. 从主页访问高级菜单，然后选择[!DNL Experience Manager Assets]。
 
@@ -46,11 +46,11 @@ ht-degree: 3%
 
 1. 要访问高级资产管理菜单，请选择您刚刚上传的资产。
 
-   要了解有关管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=zh-Hans)。
+   要了解有关管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html)。
 
    ![显示Adobe Experience Manager Assets中高级资源管理菜单的屏幕截图](assets/assets_4.png){zoomable="yes"}
 
-1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击该资源。 然后从右侧菜单中选择&#x200B;**[!UICONTROL 编辑模式]**&#x200B;图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=zh-Hans#edit-using-express){target="_blank"}。
+1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击该资源。 然后从右侧菜单中选择&#x200B;**[!UICONTROL 编辑模式]**&#x200B;图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}。
 
 1. 从[!DNL Adobe Campaign]中，从电子邮件设计器的左窗格中选择&#x200B;**[!UICONTROL 资产选取器]**&#x200B;菜单。
 

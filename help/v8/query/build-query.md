@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 
@@ -122,7 +122,7 @@ ht-degree: 7%
    | 类似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)，如“Jon%s”。 通配符用作“小丑”，可查找诸如“Jones”之类的姓名。 |
    | 不相似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)不像“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
-   +++
++++
 
 1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击&#x200B;**编辑表达式**&#x200B;按钮。 [了解如何编辑表达式](expression-editor.md)
 

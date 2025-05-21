@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 ![显示……按钮下的“创建新文件夹”选项的屏幕截图](assets/folder_create.png){zoomable="yes"}
 
 创建新文件夹时，文件夹类型默认为父文件夹的类型。\
-在此示例中，在&#x200B;**[!UICONTROL Deliveries]**&#x200B;文件夹中创建了一个文件夹。
+在该示例中，会在&#x200B;**[!UICONTROL 投放]**&#x200B;文件夹中创建一个子文件夹。
 
 ![屏幕截图显示在投放文件夹中创建的新文件夹](assets/folder_new.png){zoomable="yes"}
 

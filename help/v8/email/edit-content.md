@@ -129,7 +129,7 @@ ht-degree: 24%
 
    >[!IMPORTANT]
    >
-   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
+   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

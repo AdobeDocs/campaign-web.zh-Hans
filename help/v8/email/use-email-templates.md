@@ -43,7 +43,7 @@ ht-degree: 6%
 
    电子邮件Designer中的![保存模板选项卡](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. 将显示所有[保存的模板](#save-as-template)的列表。您可以按名称&#x200B;**、**&#x200B;[!UICONTROL &#x200B;上次修改时间&#x200B;]&#x200B;**和**&#x200B;[!UICONTROL &#x200B;上次创建时间&#x200B;]&#x200B;**对它们进行排序。**
+1. 将显示所有[保存的模板](#save-as-template)的列表。您可以按名称&#x200B;]**、**[!UICONTROL &#x200B;上次修改时间&#x200B;]**和**[!UICONTROL &#x200B;上次创建时间&#x200B;]**对它们进行排序。**[!UICONTROL 
 
    电子邮件Designer中的![已保存模板列表](assets/email_designer-saved-templates.png){zoomable="yes"}
 

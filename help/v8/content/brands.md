@@ -25,7 +25,7 @@ ht-degree: 1%
 
 要访问[!DNL Adobe Campaign Web]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单，必须向用户分配&#x200B;**[!UICONTROL 管理员（管理员）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;产品配置文件，才能创建和管理品牌。 要获得只读访问权限，用户需要[!UICONTROL AI助手]产品配置文件。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 了解如何分配与品牌相关的权限
 
@@ -157,7 +157,7 @@ ht-degree: 1%
 
 您现在可以进一步个性化您的品牌或[发布您的品牌](#create-brand-kit)。
 
-### 书写样式 {#writing-style}
+### 写作风格 {#writing-style}
 
 **[!UICONTROL 书写样式]**&#x200B;部分概述了书写内容的标准，详细说明了如何使用语言、格式和结构来保持所有材料的清晰度、一致性和一致性。
 
@@ -258,7 +258,7 @@ ht-degree: 1%
 
 您现在可以进一步个性化您的品牌或[发布您的品牌](#create-brand-kit)。
 
-### 可视内容 {#visual-content}
+### 视觉内容 {#visual-content}
 
 **[!UICONTROL 可视化内容]**&#x200B;部分定义了图像和设计的标准，详细说明了保持统一和一致的品牌外观所需的规范。
 

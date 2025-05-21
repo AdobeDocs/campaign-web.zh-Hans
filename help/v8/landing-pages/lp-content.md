@@ -28,7 +28,7 @@ ht-degree: 16%
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;和&#x200B;**[!UICONTROL Expiration]**&#x200B;页面的内容也已预填充。 根据需要编辑它们。
 
-您还可以为登陆页面[&#128279;](#lp-form-styles)定义样式。
+您还可以为登陆页面](#lp-form-styles)定义[样式。
 
 要进一步设计登陆页面内容，请执行以下操作：
 
@@ -129,7 +129,7 @@ ht-degree: 16%
    >
    >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
-   来自表单组件![&#128279;](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的服务
+   来自表单组件](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的![服务
 
    在设计电子邮件时，如果您定义指向此登陆页面的&#x200B;**[!UICONTROL 登陆页面]**&#x200B;类型的链接，则可以从列表中选择任何服务。 然后，在定义指向此登陆页面的其他链接时，您可以选择其他服务。 [了解有关插入链接的更多信息](../email/message-tracking.md)
 

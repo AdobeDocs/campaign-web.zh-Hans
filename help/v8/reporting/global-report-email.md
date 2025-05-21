@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
-电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
+电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -131,9 +131,9 @@ ht-degree: 24%
 
 ![按类型量度划分错误](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
+每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 +++了解有关每个类型量度错误细分的更多信息。
 
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 ![每个域量度的错误细分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
+每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;]**表和图表的**[!UICONTROL &#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 

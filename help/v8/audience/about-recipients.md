@@ -4,7 +4,7 @@ description: 了解如何在Campaign Web中监控和管理用户档案。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 ## 什么是配置文件？ {#what}
 
-**配置文件**（在客户端控制台中又称为“收件人”）表示存储在Campaign数据库中的记录。 它用作[为投放创建受众](create-audience.md)以及向内容添加个性化[&#128279;](../personalization/personalize.md)数据的关键组件。 Adobe Campaign支持对用户档案进行无缝管理，包括通过Campaign Web用户界面创建新条目以及访问所有用户档案属性和服务订阅的全面视图。
+**配置文件**（在客户端控制台中又称为“收件人”）表示存储在Campaign数据库中的记录。 它用作[为投放创建受众](create-audience.md)以及向内容添加个性化](../personalization/personalize.md)数据的关键组件。 [Adobe Campaign支持对用户档案进行无缝管理，包括通过Campaign Web用户界面创建新条目以及访问所有用户档案属性和服务订阅的全面视图。
 
 此外，在客户端控制台中标识为“种子配置文件”的&#x200B;**[!UICONTROL 测试配置文件]**&#x200B;允许定位与给定投放的定位条件不匹配的其他收件人。 这些用户档案包含虚构的联系信息或由发件人控制的联系信息。 测试用户档案是验证收件人，用于通过发送验证来测试消息。 [了解如何使用测试用户档案](test-profiles.md)
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 了解如何使用Campaign Web用户界面访问、管理和浏览用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448374?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
