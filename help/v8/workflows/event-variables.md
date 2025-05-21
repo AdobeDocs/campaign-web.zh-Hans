@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->有关脚本以及Adobe Campaign中公开的对象和变量的其他信息，请参阅[此部分](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)中的Campaign v8 （客户端控制台）文档。
+>有关脚本以及Adobe Campaign中公开的对象和变量的其他信息，请参阅[此部分](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)中的Campaign v8 （客户端控制台）文档。
 >
 >请注意，虽然此资源提供了有价值的分析，但可能存在差异，因为它具体适用于客户端控制台，而不是Campaign Web用户界面。
 
