@@ -37,7 +37,7 @@ ht-degree: 1%
 1. 创建新的路由外部帐户。
 1. 创建与新渠道关联的新投放模板。
 
-有关详细信息，请参阅[客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+有关详细信息，请参阅[客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans)
 
 ## 创建投放{#create-delivery}
 
