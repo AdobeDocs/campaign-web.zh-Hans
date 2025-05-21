@@ -25,7 +25,7 @@ ht-degree: 1%
 
 要访问[!DNL Adobe Campaign Web]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单，必须向用户分配&#x200B;**[!UICONTROL 管理员（管理员）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;产品配置文件，才能创建和管理品牌。 要获得只读访问权限，用户需要[!UICONTROL AI助手]产品配置文件。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 了解如何分配与品牌相关的权限
 

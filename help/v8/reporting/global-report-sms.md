@@ -83,7 +83,7 @@ ht-degree: 27%
 
 * **[!UICONTROL 新隔离]**：在投放失败后隔离的地址总数（例如，用户未知、无效域），与要投放的消息数相关。
 
-  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}中列出了短信错误类型。
+  [Adobe Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#sms-quarantines){target="_blank"}中列出了短信错误类型。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 27%
 
 **[!UICONTROL 排除原因]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收短信投放的原因。
 
-错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
+错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
 
 ![排除原因报告的屏幕截图，显示短信投放排除的原因。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
