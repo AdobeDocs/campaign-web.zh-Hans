@@ -2,7 +2,7 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: a0ca24df649cc5bdca6d58a6519ffb03b2234cb4
+source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 98%
@@ -31,7 +31,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>Campaign Web 用户界面中现在提供呼叫中心渠道。此渠道是指用于管理和跟踪通过呼叫中心处理的通信或交互的通信方法——通常是代理给客户或潜在客户拨打电话。</p>
-<p>注意：在呼叫中心渠道的Web UI中不可使用报表。 您必须浏览到“客户端控制台”才能访问报告。</p></td>
+<p>注意：在呼叫中心渠道的Web UI中不可使用报表。 您必须浏览到“客户端控制台”才能访问报告。</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>有关更多信息，请参阅<a href="../call-center/gs-call-center.md">详细文档</a>。</p>
 </td>
