@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -52,18 +52,18 @@ ht-degree: 89%
 >[!BEGINTABS]
 
 
->[!TAB 2025年5月版]
+>[!TAB 2025 年 5 月版本]
 
-5月版本现已上线，其中包括新的自定义渠道、品牌一致性得分和分类规则改进。
+5 月版本现已上线，包括新的自定义渠道、品牌一致性得分和类型规则改进。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI 助手]
 
-✨使用我们的[AI Assistant](../v8/email/generative-gs.md)实时功能预览体验亲身体验，旨在让您亲身体验其功能并充分了解其功能。
+✨ 通过我们的 [AI 助手](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
 
-[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常见问题解答]
 

@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
-## 2025年5月版 {#25-5-release}
+## 2025 年 5 月版本 {#25-5-release}
 
-以下功能适用于从5月版本开始的所有用户。
+自 5 月版本开始，所有用户都可以使用以下功能。
 
 <table>
 <thead>
@@ -44,14 +44,14 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 <table>
 <thead>
 <tr>
-<th><strong>外部投放的自定义渠道</strong><br/></th>
+<th><strong>自定义外部投放渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以直接从Adobe Campaign Web UI根据自定义外部渠道编排和执行投放。 这些投放可以是独立投放或工作流的一部分。 在控制台中创建与第三方集成的自定义外部渠道。</p>
-<p>注意：在自定义渠道的Web UI中报告不可用。 您必须浏览到“客户端控制台”才能访问报告。</p>
+<p>您现在可以直接从 Adobe Campaign Web UI 根据自定义外部渠道协调和执行投放。这些投放可以是独立的，也可以是工作流的一部分。与第三方集成的自定义外部渠道在控制台中创建。</p>
+<p>注意：自定义渠道的 Web UI 中不提供报告。您必须在浏览器中前往客户端控制台才能访问报告。</p>
 <p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
@@ -61,4 +61,4 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 ### 改进 {#25-5-improvements}
 
-类型规则创建屏幕已更新，以便于选择规则类型。
+类型规则创建屏幕已更新，以方便选择规则类型。

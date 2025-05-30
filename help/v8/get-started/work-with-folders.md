@@ -4,7 +4,7 @@ title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
->title="收藏夹"
->abstract="收藏夹"
+>title="收藏"
+>abstract="收藏"
 
 ## 关于文件夹 {#about-folders}
 
