@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css，编辑器，摘要，电子邮件
-source-git-commit: 4ebe0990f086d6d9ea54ea68c3061e8361344b5c
+source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '649'
 ht-degree: 8%
 
 ---
@@ -238,16 +238,19 @@ body {
 
 * 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中，并且`data-disabled`未应用于`global-custom`。 [了解详情](#implementation)
 
-* 确保您的CSS不会被其他CSS规则覆盖，包括应用于内容的任何[主题](apply-email-themes.md)。
+<!--
+* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
+ 
+  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
+  
+  * Consider adding `!important` to your declarations to ensure they take precedence. 
+    
+    For example:
 
-   * 使用浏览器开发人员工具检查内容，并验证CSS是否针对正确的选择器。
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
+    -->
 
-   * 考虑将`!important`添加到声明以确保它们优先。
-
-     例如：
-
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
