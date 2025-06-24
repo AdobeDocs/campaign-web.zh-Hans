@@ -2,15 +2,12 @@
 audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="有限发布版"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 24%
+source-wordcount: '743'
+ht-degree: 26%
 
 ---
 
@@ -26,6 +23,10 @@ Campaign Web用户界面提供了预定义的警报标准，例如可添加到�
 可从左侧导航窗格的&#x200B;**传递警报**&#x200B;菜单（**条件**&#x200B;选项卡下）访问警报条件。
 
 ![投放警报菜单中显示的警报条件列表](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 ## 预定义的警报条件 {#ootb-criteria}
 

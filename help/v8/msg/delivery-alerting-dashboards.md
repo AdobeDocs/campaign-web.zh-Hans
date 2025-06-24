@@ -2,15 +2,12 @@
 audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="有限发布版"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1146'
+ht-degree: 24%
 
 ---
 
@@ -24,6 +21,10 @@ ht-degree: 22%
 利用投放警报仪表板，可指定接收电子邮件警报的人员、选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。 可从左侧导航窗格的&#x200B;**功能板**&#x200B;选项卡下的&#x200B;**投放警报**&#x200B;菜单访问它们。
 
 ![屏幕截图显示“投放警报”菜单中警报功能板的列表。](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 ## 创建投放仪表板 {#dashboards}
 
@@ -81,7 +82,7 @@ ht-degree: 22%
    * **最小预期吞吐量（以每小时的已发送消息数表示）**：对于低吞吐量条件的投放，只考虑吞吐量低于指定值的投放。
    * **“正在进行的投放”标准所需的最小处理比率**：只考虑处理消息百分比高于指定百分比的投放。
 
-   +++
++++
 
 1. 默认情况下，警报仪表板处于禁用状态，这意味着不会发送链接到此仪表板的电子邮件警报。 要立即启用仪表板，请切换警报组选择字段旁边的&#x200B;**常规**&#x200B;部分中的&#x200B;**已启用**&#x200B;选项。
 
