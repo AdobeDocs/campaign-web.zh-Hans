@@ -92,7 +92,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}以了解详情。
+>类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 ## 受众设置 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的详细信息](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 测试SMTP投放]** （电子邮件通道）：此选项用于测试通过SMTP的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}以了解详情。
+* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 在&#x200B;**[!UICONTROL 波次定义]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 使用多个波次发送]**&#x200B;选项，以逐步增加使用波次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}以了解详情。
+>可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hans#external-account-ac){target="_blank"}以了解详情。
 
 ## 重试 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 39%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
+请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
 
 ### 镜像页面管理（电子邮件渠道） {#mirror}
 
