@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2863'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+>>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 可添加两种类型的元素：
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 
@@ -122,7 +122,7 @@ ht-degree: 7%
    | 类似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)，如“Jon%s”。 通配符用作“小丑”，可查找诸如“Jones”之类的姓名。 |
    | 不相似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)不像“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
-   +++
++++
 
 1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用Campaign Web表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击&#x200B;**编辑表达式**&#x200B;按钮。 [了解如何编辑表达式](expression-editor.md)
 
@@ -318,6 +318,18 @@ ht-degree: 7%
 1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择&#x200B;**粘贴n个项目**。
 
    ![粘贴组件的示例](assets/copy-paste.png){zoomable="yes"}
+
+## 拖放组件 {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>此功能仅适用于新的规则生成器体验。
+
+将组件添加到查询时，可以使用拖放功能上下移动组件。
+
+在每个组件的左侧，您可以单击圆点并按住圆点，以根据要放置和分组组件的位置来上下拖动组件。
+
+![Gif显示如何在新的规则生成器中拖放组件](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## 将过滤组件与运算符相结合 {#operators}
 

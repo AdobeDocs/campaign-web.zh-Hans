@@ -3,16 +3,18 @@ audience: end-user
 title: 直邮报表
 description: 了解如何访问和使用直邮报表
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 20%
+source-wordcount: '696'
+ht-degree: 19%
 
 ---
 
-# 直邮投放报告 {#direct-mail-report}
+# 外部投放报告 {#direct-mail-report}
 
-**直邮投放报告**&#x200B;提供了针对您的直邮投放的综合见解和数据。 它包括有关单个交付的绩效、效果和结果的详细信息，并提供完整的概述。
+**外部投放报告**&#x200B;提供了特定于外部投放的综合分析和数据。 它包括有关单个交付的绩效、效果和结果的详细信息，并提供完整的概述。
+
+直邮上下文中介绍了以下报表。 此外，它还适用于呼叫中心和自定义外部渠道。
 
 ## 投放摘要 {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ ht-degree: 20%
 >title="投放排除原因"
 >abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
-**[!UICONTROL 排除原因]**&#x200B;图形提供了在投放准备期间拒绝消息的原因细目。 此划分按各种规则组织，提供了排除报文的详细因素视图。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){_blank}。
+**[!UICONTROL 排除原因]**&#x200B;图形提供了在投放准备期间拒绝消息的原因细目。 此划分按各种规则组织，提供了排除报文的详细因素视图。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
 
 ![排除图按规则显示拒绝消息分布的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

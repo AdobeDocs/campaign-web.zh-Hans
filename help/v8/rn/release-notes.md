@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
-## 2025 年 5 月版本 {#25-5-release}
+## 2025年6月版 {#25-6-release}
 
-自 5 月版本开始，所有用户都可以使用以下功能。
+### 改进 {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>品牌一致性得分 (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
-<p>有关更多信息，请参阅<a href="../content/brands-score.md">详细文档</a>。</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* “投放摘要”报告现在可用于呼叫中心和自定义渠道。 [了解详情](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>自定义外部投放渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以直接从 Adobe Campaign Web UI 根据自定义外部渠道协调和执行投放。这些投放可以是独立的，也可以是工作流的一部分。与第三方集成的自定义外部渠道在控制台中创建。</p>
-<p>注意：自定义渠道的 Web UI 中不提供报告。您必须在浏览器中前往客户端控制台才能访问报告。</p>
-<p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* 配置短信投放时，您现在可以访问特定的短信参数。 这些参数与“客户端控制台”中提供的参数相同。 [了解详情](../advanced-settings/delivery-settings.md#sms-tab)
 
-### 改进 {#25-5-improvements}
+* 收藏夹现在显示在Explorer页面的左侧面板顶部，使其更易于访问。 [了解详情](../get-started/work-with-folders.md#favorite-folders)
 
-类型规则创建屏幕已更新，以方便选择规则类型。
+* 规则生成器现在支持拖放，使您能够更高效地重新排列查询的组件。 [了解详情](../query/build-query.md#drag-and-drop)
+
+* 改进了规则生成器中的“人类条件”。 这是规则的书面纯语言版本，显示在屏幕底部：
+
+   * 属性现在突出显示，并显示关联的架构。
+   * 您可以单击这些元素以查看更多详细信息。
+   * 您现在可以使用相应的按钮复制人工条件。
+
+* 现在限制对“技术工作流”和“自动创建的对象”文件夹的访问，以防止查看它们。 [了解详情](../get-started/work-with-folders.md#about-folders)

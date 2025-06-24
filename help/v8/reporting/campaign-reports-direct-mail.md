@@ -3,16 +3,18 @@ audience: end-user
 title: 直邮渠道的营销活动报表
 description: 了解直邮渠道的营销活动报表
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 19%
 
 ---
 
-# 直邮渠道的营销活动报表 {#campaign-reports-direct-mail}
+# 外部投放渠道的营销活动报告 {#campaign-reports-direct-mail}
 
-每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于直邮渠道，下文详细介绍了报表和量度。 在[此页面](campaign-reports.md)中了解如何访问您的营销活动报告。
+每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于外部投放渠道，报告和量度详述如下。 在[此页面](campaign-reports.md)中了解如何访问您的营销活动报告。
+
+直邮上下文中介绍了以下报表。 此外，它还适用于呼叫中心和自定义外部渠道。
 
 ## 投放摘要 {#delivery-summary-direct}
 

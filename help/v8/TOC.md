@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 99%
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 99%
       + [电子邮件投放报告](reporting/email-report.md)
       + [推送投放报告](reporting/push-report.md)
       + [短信投放报告](reporting/sms-report.md)
-      + [直邮投放报告](reporting/direct-mail.md)
+      + [外部投放报告](reporting/direct-mail.md)
    + 营销活动报告 {#campaign-report}
       + [营销活动报告入门](reporting/campaign-reports.md)
       + [电子邮件营销活动报告](reporting/campaign-reports-email.md)
       + [推送营销活动报告](reporting/campaign-reports-push.md)
       + [短信营销活动报告](reporting/campaign-reports-sms.md)
-      + [直邮营销活动报告](reporting/campaign-reports-direct-mail.md)
+      + [外部投放活动报告](reporting/campaign-reports-direct-mail.md)
    + 全局报告 {#global-report}
       + [全局报告入门](reporting/global-reports.md)
       + [电子邮件全局报告](reporting/global-report-email.md)
