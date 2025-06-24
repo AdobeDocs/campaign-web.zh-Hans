@@ -17,7 +17,7 @@ ht-degree: 8%
 
 通知是根据通过Adobe Campaign Web用户界面定义的特定警报条件自定义的。
 
-有关管理投放失败的更多信息，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+有关管理投放失败的更多信息，请参阅[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
 
 >[!AVAILABILITY]
 >
