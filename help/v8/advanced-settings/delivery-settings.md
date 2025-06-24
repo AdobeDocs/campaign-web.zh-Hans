@@ -4,23 +4,15 @@ title: 配置投放设置
 description: 了解如何在Campaign Web中配置投放设置
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 46%
+source-wordcount: '3324'
+ht-degree: 39%
 
 ---
 
 
 # 配置投放设置 {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="短信投放设置"
->abstract="短信投放参数是适用于短信投放的技术设置。 您可以定义发件人地址、服务参数、传输模式等。 这些选项仅供专家用户使用。"
-
-
 
 投放设置是在投放模板中定义的&#x200B;**技术投放参数**。 每次投放都会使其过载。 这些设置可通过编辑投放或投放模板时可用的&#x200B;**设置**&#x200B;按钮使用。
 
@@ -96,11 +88,11 @@ ht-degree: 46%
 
 在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则已关联到该渠道。
 
-收件人&#x200B;**字段的**&#x200B;重要性是一个公式，用于确定在超出容量类型规则时保留哪些用户档案。
+收件人&#x200B;]**字段的**[!UICONTROL &#x200B;重要性是一个公式，用于确定在超出容量类型规则时保留哪些用户档案。
 
 >[!NOTE]
 >
->类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}以了解详情。
 
 ## 受众设置 {#audience}
 
@@ -111,7 +103,7 @@ ht-degree: 46%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的详细信息](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}
+在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -138,7 +130,7 @@ ht-degree: 46%
 
 * **[!UICONTROL 测试SMTP投放]** （电子邮件通道）：此选项用于测试通过SMTP的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hans){target="_blank"}以了解详情。
+* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}以了解详情。
 
 在&#x200B;**[!UICONTROL 波次定义]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 使用多个波次发送]**&#x200B;选项，以逐步增加使用波次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -167,7 +159,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hans#external-account-ac){target="_blank"}以了解详情。
+>可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}以了解详情。
 
 ## 重试 {#retries}
 
@@ -236,7 +228,7 @@ ht-degree: 46%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
+请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
 
 ### 镜像页面管理（电子邮件渠道） {#mirror}
 
@@ -287,8 +279,62 @@ ht-degree: 46%
 * 使用&#x200B;**[!UICONTROL 保留证明的传递代码]**，将为其相关的传递定义的传递代码与证明关联起来。
 * 默认情况下，验证的主题的前缀为“PROOF #”，其中#是验证的编号。 您可以在&#x200B;**[!UICONTROL 标签前缀]**&#x200B;字段中更改此前缀。
 
+## 短信设置（短信渠道） {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="短信投放设置"
+>abstract="短信投放参数是适用于短信投放的技术设置。 您可以定义发件人地址、服务参数、传输模式等。 这些选项仅供专家用户使用。"
+
+短信投放参数是适用于短信投放的技术设置。 您可以定义发件人地址、服务参数、传输模式等。 这些选项仅供专家用户使用。
+
+* **[!UICONTROL 发件人地址]**
+
+  根据SMPP规范，字段限制为21个字符，但某些提供程序可能允许较长的值。 另请注意，某些国家/地区可能会应用非常严格的限制（长度、内容、允许的字符……），因此您可能需要仔细检查您在此处放置的内容是否合法。 使用个性化字段时尤其要小心。
 
 
+  此可选字段允许您覆盖发件人地址(oADC)。 其内容放在SUBMIT_SM PDU的&#x200B;*source_addr*&#x200B;字段中。
+
+  尽管SMPP规范将此字段限制为21个字符，但一些提供商可能支持较长的值。 请注意，某些国家/地区对发件人地址（关于长度、内容、允许的字符等）施加了严格的规定，因此请始终验证您的输入内容是否符合当地的要求。 使用个性化字段时请格外小心。
+
+  如果此字段留空，将改用外部帐户中定义的Source编号字段的值。 如果两个值都为空，则&#x200B;*source_addr*&#x200B;字段将留空。
+
+* **[!UICONTROL 服务类型]**：
+
+  此参数按原样传递给提供程序。
+
+* **[!UICONTROL 服务或程序ID]**
+
+  >[!NOTE]
+  >
+  >不建议使用此字段。 客户端控制台中提供的可选SMPP参数可提供更加灵活的实施。
+  >
+  >此字段不能与可选的SMPP参数同时使用。
+
+  结合匹配的外部帐户设置，允许随每个MT发送一个可选参数。 此字段定义TLV的值部分。
+
+* **[!UICONTROL 传输模式]**
+
+  此字段定义要发送的SMS的类型：它是普通消息还是闪存消息，以及是否应存储在移动设备或SIM卡上。 此设置在SUBMIT_SM PDU的dest_addr_subunit可选字段中传输。
+
+   * **Flash**&#x200B;将该值设置为1。 发送立即在屏幕上出现且未存储的Flash SMS。
+   * **Normal**&#x200B;将该值设置为0。 发送标准短信。
+   * **保存在移动设备上**&#x200B;将该值设置为2。 指示设备将SMS存储在内部内存中。
+   * **保存在终端**&#x200B;上，将值设置为3。 指示设备将SMS存储在SIM卡上。
+
+* **[!UICONTROL 优先级，通信类型]**
+
+  扩展SMPP连接器将忽略这些字段。
+
+* **[!UICONTROL 每条消息的最大SMS数]**
+
+  此设置仅在禁用消息有效负载选项时有效（有关更多详细信息，请参阅外部帐户设置）。 如果消息需要的短信数超过此值，则会触发错误。
+
+  虽然短信协议允许将消息拆分为最多255个部分，但某些移动设备可能难以重新组合消息长度超过10个部分（具体限制取决于设备型号）。 为了提高可靠性，最好将邮件限制在5个或更少的部分。
+
+  请注意，由于个性化消息在Adobe Campaign中的工作方式，消息大小可能会有所不同。 大量长消息可能会导致发送成本增加，因此使用合理的限制有助于控制费用。
+
+  将此值设置为0可禁用限制。
 
 ## 电子邮件投放的 SMTP 设置 {#smtp}
 

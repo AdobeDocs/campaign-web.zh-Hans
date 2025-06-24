@@ -3,10 +3,10 @@ audience: end-user
 title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="文件夹安全性"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="文件夹限制"
->abstract="文件夹限制"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="文件夹计划"
 >abstract="文件夹计划"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="收藏"
->abstract="收藏"
 
 ## 关于文件夹 {#about-folders}
 
@@ -46,6 +36,16 @@ ht-degree: 100%
 ![显示文件夹组织的文件夹界面](assets/folders.png){zoomable="yes"}
 
 您可以设置文件夹类型。例如：一个投放文件夹。文件夹图标会根据其类型而变化。
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="文件夹限制"
+>abstract="文件夹“自动创建的对象”和“技术工作流”受到限制，无法在左侧面板中查看。"
+
+>[!IMPORTANT]
+>
+>文件夹&#x200B;**[!UICONTROL 自动创建的对象]**&#x200B;和&#x200B;**[!UICONTROL 技术工作流]**&#x200B;受到限制，无法在左侧面板中查看。
+
 
 ## 创建新文件夹 {#create-a-folder}
 
@@ -80,6 +80,19 @@ ht-degree: 100%
 您可以通过&#x200B;**拖放**&#x200B;或使用&#x200B;**上下箭头**&#x200B;来更改文件夹的顺序。
 
 ![用于文件夹重新排序的拖放功能](assets/folder-draganddrop.png){zoomable="yes"}
+
+### 收藏夹 {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="收藏"
+>abstract="您收藏的文件夹将显示在左侧选项卡的顶部。"
+
+标记为“收藏”的文件夹将始终显示在左侧选项卡的顶部。
+
+查看文件夹时，单击右上角的星形按钮可将文件夹添加为收藏夹。
+
+![收藏夹位置屏幕快照](assets/folders-favorite.png){zoomable="yes"}
 
 ## 删除文件夹 {#delete-a-folder}
 
