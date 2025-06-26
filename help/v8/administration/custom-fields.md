@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 >title="属性设置"
 >abstract="属性设置"
 
-自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=zh-Hans){target="_blank"}以了解如何扩展架构。
+自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}以了解如何扩展架构。
 
 自定义字段可显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 管理员可以控制哪些字段可见以及它们的显示方式。 这些更改适用于所有Campaign用户。
 
@@ -65,7 +65,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="屏幕清晰度"
->abstract="定义要为架构及其属性编辑的自定义字段列表。 单击&#x200B;**预览**&#x200B;按钮以在示例屏幕中显示自定义字段。"
+>abstract="定义要为架构编辑的自定义字段列表及其属性。点击&#x200B;**预览**&#x200B;按钮可在示例屏幕中显示自定义字段。"
 
 
 要在界面中显示自定义字段，请执行以下步骤：
@@ -82,7 +82,7 @@ ht-degree: 22%
 
    此时将显示架构界面中显示的自定义字段列表。
 
-1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;按钮以在示例屏幕中显示自定义字段。
+1. 点击&#x200B;**[!UICONTROL 预览]**&#x200B;按钮可在示例屏幕中显示自定义字段。
 
    ![](assets/custom-fields-edit2.png)
 
@@ -128,7 +128,7 @@ ht-degree: 22%
 
   ![显示自定义字段的筛选器设置示例的屏幕截图](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL 跨两列]**：默认情况下，自定义字段在界面中以两列显示。 切换此选项可在屏幕的整个宽度上显示自定义字段，而不是两列。
 
