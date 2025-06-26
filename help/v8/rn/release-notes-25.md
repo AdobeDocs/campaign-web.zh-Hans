@@ -2,9 +2,9 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
-workflow-type: ht
-source-wordcount: '1281'
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
+workflow-type: tm+mt
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # 2025 年发行说明 {#2025-release}
 
 本页列出了 **2025 年版本**&#x200B;的所有变更和改进。最新发布说明可在 [此页面](release-notes.md)中查看。
+
+## 2025 年 5 月版本 {#25-5-release}
+
+自 5 月版本开始，所有用户都可以使用以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性得分 (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
+<p>有关更多信息，请参阅<a href="../content/brands-score.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义外部投放渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接从 Adobe Campaign Web UI 根据自定义外部渠道协调和执行投放。这些投放可以是独立的，也可以是工作流的一部分。与第三方集成的自定义外部渠道在控制台中创建。</p>
+<p>注意：自定义渠道的 Web UI 中不提供报告。您必须在浏览器中前往客户端控制台才能访问报告。</p>
+<p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#25-5-improvements}
+
+类型规则创建屏幕已更新，以方便选择规则类型。
 
 ## 2025 年 4 月版本 {#25-4-release}
 
