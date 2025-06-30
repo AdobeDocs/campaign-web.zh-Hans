@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="文件夹限制"
->abstract="文件夹“自动创建的对象”和“技术工作流”受到限制，无法在左侧面板中查看。"
+>abstract="左侧面板中的 “Objects created automatically” 文件夹与 “Technical workflows” 文件夹为受限内容，无法查看。"
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="收藏"
->abstract="您收藏的文件夹将显示在左侧选项卡的顶部。"
+>abstract="您收藏的文件夹将显示在左侧标签页的顶部。"
 
 标记为“收藏”的文件夹将始终显示在左侧选项卡的顶部。
 

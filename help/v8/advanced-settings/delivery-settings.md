@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
 source-wordcount: '3159'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
 
@@ -88,11 +88,11 @@ ht-degree: 42%
 
 在此部分中，您可以选择在Adobe Campaign v8控制台中定义的容量规则。 此规则已关联到该渠道。
 
-收件人&#x200B;**字段的**&#x200B;重要性是一个公式，用于确定在超出容量类型规则时保留哪些用户档案。
+收件人&#x200B;]**字段的**[!UICONTROL &#x200B;重要性是一个公式，用于确定在超出容量类型规则时保留哪些用户档案。
 
 >[!NOTE]
 >
->类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}以了解详情。
 
 ## 受众设置 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 42%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的详细信息](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}
+在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 42%
 
 * **[!UICONTROL 测试SMTP投放]** （电子邮件通道）：此选项用于测试通过SMTP的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hans){target="_blank"}以了解详情。
+* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}以了解详情。
 
 在&#x200B;**[!UICONTROL 波次定义]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 使用多个波次发送]**&#x200B;选项，以逐步增加使用波次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hans#external-account-ac){target="_blank"}以了解详情。
+>可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}以了解详情。
 
 ## 重试 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 42%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
+请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
 
 ### 镜像页面管理（电子邮件渠道） {#mirror}
 
@@ -279,7 +279,7 @@ ht-degree: 42%
 * 使用&#x200B;**[!UICONTROL 保留证明的传递代码]**，将为其相关的传递定义的传递代码与证明关联起来。
 * 默认情况下，验证的主题的前缀为“PROOF #”，其中#是验证的编号。 您可以在&#x200B;**[!UICONTROL 标签前缀]**&#x200B;字段中更改此前缀。
 
-## 短信设置（短信渠道） {#sms-tab}
+## SMS 设置（SMS 渠道） {#sms-tab}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
