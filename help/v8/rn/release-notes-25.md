@@ -3,7 +3,7 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1438'
 ht-degree: 100%
 
