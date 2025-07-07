@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
-## 2025年6月版 {#25-6-release}
+## 2025 年 6 月版本 {#25-6-release}
 
 ### 改进 {#25-6-improvements}
 
-* “投放摘要”报告现在可用于呼叫中心和自定义渠道。 [了解详情](../reporting/direct-mail.md)
+* “投放摘要”报告现已适用于呼叫中心和自定义渠道。[了解详情](../reporting/direct-mail.md)
 
-* 配置短信投放时，您现在可以访问特定的短信参数。 这些参数与“客户端控制台”中提供的参数相同。 [了解详情](../advanced-settings/delivery-settings.md#sms-tab)
+* 在配置短信投放时，您现在可以访问特定的短信参数。这些参数与客户端控制台中提供的参数相同。[了解详情](../advanced-settings/delivery-settings.md#sms-tab)
 
-* 收藏夹现在显示在Explorer页面的左侧面板顶部，使其更易于访问。 [了解详情](../get-started/work-with-folders.md#favorite-folders)
+* 您收藏的文件夹现在会显示在资源管理器页面左侧面板的顶部，方便快速访问。[了解详情](../get-started/work-with-folders.md#favorite-folders)
 
-* 规则生成器现在支持拖放，使您能够更高效地重新排列查询的组件。 [了解详情](../query/build-query.md#drag-and-drop)
+* 规则构建器现已支持拖放操作，使您能够更高效地重新排列查询组件。[了解详情](../query/build-query.md#drag-and-drop)
 
-* 改进了规则生成器中的“人类条件”。 这是规则的书面纯语言版本，显示在屏幕底部：
+* 规则构建器中的“人工条件”功能已得到优化。这是您规则的书面简明语言版本，显示在屏幕底部：
 
-   * 属性现在突出显示，并显示关联的架构。
-   * 您可以单击这些元素以查看更多详细信息。
-   * 您现在可以使用相应的按钮复制人工条件。
+   * 属性现在会高亮显示，并会展示其关联的架构。
+   * 您可以点击这些元素以查看更详细的信息。
+   * 您现在可以使用相应的按钮复制“人工条件”内容。
 
-* 现在限制对“技术工作流”和“自动创建的对象”文件夹的访问，以防止查看它们。 [了解详情](../get-started/work-with-folders.md#about-folders)
+* 为防止查看，“技术工作流”和“自动创建的对象”文件夹的访问权限现已受到限制。[了解详情](../get-started/work-with-folders.md#about-folders)

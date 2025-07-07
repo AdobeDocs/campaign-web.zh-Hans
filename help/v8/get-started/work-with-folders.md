@@ -4,9 +4,9 @@ title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->文件夹&#x200B;**[!UICONTROL 自动创建的对象]**&#x200B;和&#x200B;**[!UICONTROL 技术工作流]**&#x200B;受到限制，无法在左侧面板中查看。
+>左侧面板中的&#x200B;**[!UICONTROL 自动创建的对象]**&#x200B;文件夹与&#x200B;**[!UICONTROL 技术工作流]**&#x200B;文件夹为受限内容，无法查看。
 
 
 ## 创建新文件夹 {#create-a-folder}
@@ -88,11 +88,11 @@ ht-degree: 91%
 >title="收藏"
 >abstract="您收藏的文件夹将显示在左侧标签页的顶部。"
 
-标记为“收藏”的文件夹将始终显示在左侧选项卡的顶部。
+标记为“收藏”的文件夹将始终显示在左侧标签页的顶部。
 
-查看文件夹时，单击右上角的星形按钮可将文件夹添加为收藏夹。
+在查看文件夹时，点击右上角的星形按钮即可将该文件夹添加为收藏。
 
-![收藏夹位置屏幕快照](assets/folders-favorite.png){zoomable="yes"}
+![收藏文件夹位置截图](assets/folders-favorite.png){zoomable="yes"}
 
 ## 删除文件夹 {#delete-a-folder}
 

@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2024 Campaign Web 用户界面发布
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 98%
 >
 >以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans){target="_blank"}。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}。
 
 * **直邮的品牌化**：您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您现在可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud/campaign/branding/branding-assign)
 
@@ -122,7 +122,7 @@ ht-degree: 98%
 * **登陆页面中的验证码**：您现在可以使用 Google reCAPTCHA 机制保护您的登陆页面免受机器人造成的垃圾邮件和滥用的影响。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。[了解详情](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7 月份发行说明 {#24-7-release}
@@ -178,11 +178,11 @@ ht-degree: 98%
 * **扩充活动中的协调**：**扩充**&#x200B;活动现在可用于协调来自 Campaign 数据库架构的数据与来自另一个架构的数据，或来自临时架构的数据（例如使用“加载”文件活动上传的数据）。例如，您可以使用此选项将上传文件中指定的轮廓的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。[了解更多信息](../workflows/activities/enrichment.md)
 
 
-### 限量发布中的新增功能 {#acs-24-6}
+### 限量发布的新功能 {#acs-24-6}
 
 >[!AVAILABILITY]
 >
->以下功能在有限可用性(LA)中。 它仅限于将&#x200B;**从Adobe Campaign Standard迁移到Adobe Campaign v8**&#x200B;的客户，不能在任何其他环境中部署。
+>以下功能目前为限量发布（LA）。该功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且无法部署至其他任何环境。
 
 * **投放警报**
 
