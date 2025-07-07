@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css，编辑器，摘要，电子邮件
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -40,14 +41,13 @@ ht-degree: 8%
 
 1. 单击&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;按钮。
 
-1. 在弹出的专用文本区域中输入CSS代码。 确保自定义CSS有效并遵循正确的语法。 [了解详情](#use-valid-css)
-
-   ![在专用文本区域中输入自定义CSS](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >**[!UICONTROL 添加自定义CSS]**&#x200B;按钮仅在选择&#x200B;**[!UICONTROL 正文]**&#x200B;时可用。 但是，您可以将自定义CSS样式应用于内容中的所有组件。
 
+1. 在弹出的专用文本区域中输入CSS代码。 确保自定义CSS有效并遵循正确的语法。 [了解详情](#use-valid-css)
+
+   ![在专用文本区域中输入自定义CSS](assets/email-body-custom-css.png){width="65%"}
 
 1. 保存自定义CSS并检查自定义CSS是否正确应用于您的内容。 如果不是这种情况，请查看[疑难解答](#troubleshooting)部分。
 
@@ -67,8 +67,9 @@ ht-degree: 8%
 >
 >避免使用可能无意中破坏内容布局或功能的CSS。
 
-+++ 有效CSS的示例
++++ CSS示例
 
+以下是有效CSS的示例。
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -166,7 +167,7 @@ body {
 
 ## 技术实施 {#implementation}
 
-您的自定义CSS已添加至`<head>`部分的末尾，作为具有`data-name="global-custom"`属性的`<style>`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
+您的自定义CSS已添加至`<head>`部分的末尾，作为具有`<style>`属性的`data-name="global-custom"`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
 
 +++ 请参阅示例
 
@@ -219,7 +220,7 @@ body {
 
 +++
 
-## 护栏
+## 护栏 — 导入的内容
 
 如果要对导入到Email Designer中的内容使用自定义CSS，请考虑以下事项：
 
@@ -236,21 +237,30 @@ body {
 
 * 确保CSS有效并且没有语法错误（例如缺少大括号、属性名称不正确）。 [了解如何操作](#use-valid-css)
 
-* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中，并且`data-disabled`未应用于`global-custom`。 [了解详情](#implementation)
+* 确保将您的CSS添加到具有`<style>`属性的`data-name="global-custom"`标记中。
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++例如：
 
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* 确保您的CSS不会被其他CSS规则覆盖。
+
+   * 使用浏览器开发人员工具检查内容，并验证CSS是否针对正确的选择器。
+
+   * 考虑将`!important`添加到声明以确保它们优先。
+
++++ 例如：
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
