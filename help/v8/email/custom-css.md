@@ -249,7 +249,7 @@ For example:
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * 确保您的CSS不会被其他CSS规则覆盖。
 
