@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css，编辑器，摘要，电子邮件
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ ht-degree: 7%
 
 +++
 
-+++ 无效CSS的示例
-
 如果输入的CSS无效，则会显示一条错误消息，指示CSS无法保存。 以下是无效CSS的示例。
+
++++ 无效CSS的示例
 
 不接受使用`<style>`标记：
 
@@ -208,17 +208,19 @@ body {
 
 电子邮件Designer的&#x200B;**[!UICONTROL 设置]**&#x200B;窗格未解释或验证自定义CSS。 它是完全独立的，只能通过&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;选项进行修改。
 
-如果`global-custom`样式标记的属性`data-disabled`设置为`true`，则不会应用自定义CSS。
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ 请参阅示例
++++ See sample
 
-例如：
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## 护栏 — 导入的内容
 
@@ -247,7 +249,7 @@ body {
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * 确保您的CSS不会被其他CSS规则覆盖。
 
