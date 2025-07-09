@@ -3,10 +3,10 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 29%
+source-wordcount: '1127'
+ht-degree: 28%
 
 ---
 
@@ -87,10 +87,6 @@ ht-degree: 29%
 1. 单击&#x200B;**[!UICONTROL 保存并审阅]**。 新服务已添加到&#x200B;**[!UICONTROL 订阅服务]**&#x200B;列表。
 
 1. 选择与此服务关联的默认订阅和退订登陆页面。
-
-   >[!AVAILABILITY]
-   >
-   >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
    ![显示订阅服务默认登陆页面设置的屏幕截图](assets/service-create-default-lp.png){zoomable="yes"}
 

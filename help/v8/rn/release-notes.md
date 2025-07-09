@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 62294ce1809caee8af770b376aad97bac71c942c
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 65%
 
 ---
 
@@ -20,22 +20,54 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了以前版本中的变更和改进。
 
-## 2025 年 6 月版本 {#25-6-release}
+## 2025年7月更新 {#25-7-updates}
 
-### 改进 {#25-6-improvements}
+>[!AVAILABILITY]
+>
+>若要从这些更新中获益，您的服务器必须升级到8.8.1最小值。 请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans){target="_blank"}。
 
-* “投放摘要”报告现已适用于呼叫中心和自定义渠道。[了解详情](../reporting/direct-mail.md)
+以前以“有限可用性”发布，现在所有环境都可以使用以下功能（一般可用性）：
 
-* 在配置短信投放时，您现在可以访问特定的短信参数。这些参数与客户端控制台中提供的参数相同。[了解详情](../advanced-settings/delivery-settings.md#sms-tab)
+* **创建多语言投放** - 您现在可以在 Adobe Campaign Web 用户界面中使用不同语言发送多个电子邮件投放。多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您还可以使用您选择的语言预览这些投放内容。[了解更多信息](../email/edit-content.md#multilingual-delivery)。
 
-* 您收藏的文件夹现在会显示在资源管理器页面左侧面板的顶部，方便快速访问。[了解详情](../get-started/work-with-folders.md#favorite-folders)
+<!--
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+-->
 
-* 规则构建器现已支持拖放操作，使您能够更高效地重新排列查询组件。[了解详情](../query/build-query.md#drag-and-drop)
+* **投放警报** — 投放警报功能是一个警报管理系统，它允许一组用户自动接收包含其投放执行信息的通知。 [了解更多信息](../msg/delivery-alerting.md)
 
-* 规则构建器中的“人工条件”功能已得到优化。这是您规则的书面简明语言版本，显示在屏幕底部：
+* **登陆页面改进** — 现在提供了对登陆页面的以下改进：
 
-   * 属性现在会高亮显示，并会展示其关联的架构。
-   * 您可以点击这些元素以查看更详细的信息。
-   * 您现在可以使用相应的按钮复制“人工条件”内容。
+   * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。[了解更多信息](../audience/manage-services.md#create-service)
+   * 登陆页面配置中的新选项允许匿名访客访问登陆页面。如果取消选择此选项，则只有已识别的用户才能访问和提交表单。[了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+   * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。[了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+   * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。[了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * 登陆页面现在支持条件内容。[了解更多信息](../landing-pages/lp-content.md)
+   * 您可以将登陆页面链接到服务，并在用户验证该服务时发送确认消息。 [了解详情](../landing-pages/lp-content.md#lp-message)
+   * 您可以添加验证码以保护登陆页面免受机器人程序导致的垃圾邮件和滥用。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。[了解详情](../landing-pages/create-lp.md#captcha)
 
-* 为防止查看，“技术工作流”和“自动创建的对象”文件夹的访问权限现已受到限制。[了解详情](../get-started/work-with-folders.md#about-folders)
+以前以“有限可用性”发布，现在可在&#x200B;**按需提供**&#x200B;以下功能：
+
+* **动态报告** — 您现在可以访问动态报告，其中提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。动态报告也可用于多语言电子邮件投放和事务型消息。 [了解更多信息](../reporting/dynamic-reporting/get-started-reporting.md)
+
+* **集中品牌** — 技术管理员现在可以定义一个或多个品牌，以集中影响品牌标识的参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。品牌推广选项适用于所有渠道，包括短信和直邮。 [了解更多信息](../administration/branding/branding-gs.md){target="_blank"}
+
+  >[!NOTE]
+  >
+  >此功能仅适用于新实施。
+
+除了上面列出的功能外，此版本还附带客户端控制台中提供的一系列功能：
+
+* [新SMS发送连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html)。
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+
+请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans){target="_blank"}。
+
+<!--
+ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
+web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+ACC - Branding - As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Read more
+Previously released in Limited Availability, the following capability is now available **on demand, only for [Campaign FDA deployments](../architecture/fda-deployment.md)**. To gain access, contact your Adobe representative.
+Previously released in Limited Availability, the following capability is now available by default **for new implementations**, and available **on demand for existing environments**. To gain access, contact your Adobe representative.
+Previously released in Limited Availability, the following capability is now available **on demand**. To gain access, contact your Adobe representative.
+-->

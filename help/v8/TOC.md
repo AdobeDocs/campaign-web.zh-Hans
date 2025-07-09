@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 97%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 100%
    + [查询示例](query/query-samples.md)
    + [过滤器列表](query/filter.md)
 + 报告 {#reports}
-   + [使用入门](reporting/gs-reports.md)
    + [审核记录](reporting/audit-trail.md)
-   + [导出您的报告](reporting/export-reports.md)
    + [关键绩效指标](reporting/kpis.md)
-   + 投放报告 {#delivery-report}
-      + [投放报告入门](reporting/delivery-reports.md)
-      + [电子邮件投放报告](reporting/email-report.md)
-      + [推送投放报告](reporting/push-report.md)
-      + [短信投放报告](reporting/sms-report.md)
-      + [外部投放报告](reporting/direct-mail.md)
-   + 营销活动报告 {#campaign-report}
-      + [营销活动报告入门](reporting/campaign-reports.md)
-      + [电子邮件营销活动报告](reporting/campaign-reports-email.md)
-      + [推送营销活动报告](reporting/campaign-reports-push.md)
-      + [短信营销活动报告](reporting/campaign-reports-sms.md)
-      + [外部投放活动报告](reporting/campaign-reports-direct-mail.md)
-   + 全局报告 {#global-report}
-      + [全局报告入门](reporting/global-reports.md)
-      + [电子邮件全局报告](reporting/global-report-email.md)
-      + [推送全局报告](reporting/global-report-push.md)
-      + [短信全局报告](reporting/global-report-sms.md)
-      + [直邮全球报告](reporting/global-report-direct.md)
+   + 标准报表 {#standard-reports}
+      + [报告入门](reporting/gs-reports.md)
+      + [导出您的报告](reporting/export-reports.md)
+      + 投放报告 {#delivery-report}
+         + [投放报告入门](reporting/delivery-reports.md)
+         + [电子邮件投放报告](reporting/email-report.md)
+         + [推送投放报告](reporting/push-report.md)
+         + [短信投放报告](reporting/sms-report.md)
+         + [外部投放报告](reporting/direct-mail.md)
+      + 营销活动报告 {#campaign-report}
+         + [营销活动报告入门](reporting/campaign-reports.md)
+         + [电子邮件营销活动报告](reporting/campaign-reports-email.md)
+         + [推送营销活动报告](reporting/campaign-reports-push.md)
+         + [短信营销活动报告](reporting/campaign-reports-sms.md)
+         + [外部投放活动报告](reporting/campaign-reports-direct-mail.md)
+      + 全局报告 {#global-report}
+         + [全局报告入门](reporting/global-reports.md)
+         + [电子邮件全局报告](reporting/global-report-email.md)
+         + [推送全局报告](reporting/global-report-push.md)
+         + [短信全局报告](reporting/global-report-sms.md)
+         + [直邮全球报告](reporting/global-report-direct.md)
+   + 动态报告 {#dynamic-reporting}
+      + [动态报告快速入门](reporting/dynamic-reporting/get-started-reporting.md)
+      + 关于报告 {#about-reporting}
+         + [关于动态报告](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [报告界面](reporting/dynamic-reporting/reporting-interface.md)
+         + [组件列表](reporting/dynamic-reporting/list-of-components.md)
+         + [指标计算](reporting/dynamic-reporting/indicator-calculation.md)
+         + [故障排除](reporting/dynamic-reporting/troubleshooting.md)
+      + 报告列表 {#list-of-reports}
+         + [定义报告周期](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [退回摘要](reporting/dynamic-reporting/bounce-summary.md)
+         + [按域细分](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [投诉](reporting/dynamic-reporting/complaints.md)
+         + [投放摘要](reporting/dynamic-reporting/delivery-summary.md)
+         + [投放吞吐量](reporting/dynamic-reporting/delivery-throughput.md)
+         + [无法投放项和退回](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [打开](reporting/dynamic-reporting/opens.md)
+         + [跟踪指标](reporting/dynamic-reporting/tracking-indicators.md)
+         + [取消订阅](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL 和点击流](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + 自定义报表 {#customizing-reports}
+         + [添加面板](reporting/dynamic-reporting/adding-panels.md)
+         + [添加可视化](reporting/dynamic-reporting/adding-visualizations.md)
+         + [添加组件](reporting/dynamic-reporting/adding-components.md)
+         + [创建自定义轮廓维度](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [动态报告使用协议](reporting/dynamic-reporting/pii-agreement.md)
 + 集成 {#integrations}
    + [与其他 Adobe 解决项目搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
+   + 品牌化 {#branding}
+      + [关于品牌](administration/branding/branding-gs.md)
+      + [配置品牌](administration/branding/branding-configure.md)
+      + [分配品牌](administration/branding/branding-assign.md)
    + [使用业务规则（类型）](administration/typologies.md)
    + [管理目标映射](administration/target-mappings.md)
    + [使用架构](administration/schemas.md)

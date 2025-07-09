@@ -3,7 +3,7 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 24%
@@ -53,7 +53,7 @@ ht-degree: 24%
 
 要配置或编辑电子邮件的内容，请执行以下步骤。
 
-1. 从[电子邮件投放仪表板](../email/create-email.md)屏幕单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
+1. 从&#x200B;**[!UICONTROL 电子邮件投放仪表板]**&#x200B;屏幕单击[编辑内容](../email/create-email.md)按钮。
 
    ![在电子邮件投放仪表板上显示“编辑内容”按钮的屏幕截图。](assets/email-edit-content-button.png){zoomable="yes"}
 
@@ -113,7 +113,7 @@ ht-degree: 24%
 
 1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。[了解如何预览和测试电子邮件](../preview-test/preview-test.md)。
 
-## 配置多语言投放
+## 配置多语言投放 {#multilingual-delivery}
 
 在Campaign Web用户界面中，您可以将电子邮件投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
 
@@ -129,7 +129,7 @@ ht-degree: 24%
 
    >[!IMPORTANT]
    >
-   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+   >仅当目标维度包含语言架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和Target维度的更多信息，请参阅[详细文档](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
+   >此列表中可用的语言取决于由“语言”属性定义的值（例如：system、user、dbenum等值） 在此[部分](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中了解有关枚举管理的更多信息。
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 要定义电子邮件内容，请执行以下步骤：
 
-1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮以打开[电子邮件Designer](get-started-email-designer.md#start-authoring)。
+1. 单击[编辑电子邮件正文](get-started-email-designer.md#start-authoring)按钮以打开&#x200B;**[!UICONTROL 电子邮件Designer]**。
 
    >[!NOTE]
    >

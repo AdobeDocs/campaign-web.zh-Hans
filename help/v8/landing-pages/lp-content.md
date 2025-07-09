@@ -3,10 +3,10 @@ title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 16%
+source-wordcount: '1161'
+ht-degree: 11%
 
 ---
 
@@ -24,21 +24,17 @@ ht-degree: 16%
 
 您可以编辑登陆页面中任何页面的内容。
 
-第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充了选定模板<!-- to enable users to select and submit their choices-->的[特定于登陆页面的表单组件](#use-form-component)。
+第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充了选定模板[的](#use-form-component)特定于登陆页面的表单组件<!-- to enable users to select and submit their choices-->。
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;和&#x200B;**[!UICONTROL Expiration]**&#x200B;页面的内容也已预填充。 根据需要编辑它们。
 
-您还可以为登陆页面[&#128279;](#lp-form-styles)定义样式。
+您还可以为登陆页面[定义](#lp-form-styles)样式。
 
 要进一步设计登陆页面内容，请执行以下操作：
 
 * 使用与设计电子邮件时使用的组件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
 * 以与电子邮件相同的方式向登陆页面添加条件内容。 [了解详情](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
 ## 使用表单组件 {#use-form-component}
 
@@ -94,9 +90,9 @@ ht-degree: 16%
 
 1. 根据需要删除和添加任意数量的字段（例如文本字段、单选按钮、复选框、下拉列表等）。
 
-1. 添加或更新所有字段后，单击&#x200B;**[!UICONTROL 行动号召]**&#x200B;展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。 [了解如何操作](#define-actions-on-form-submission)
+1. 添加或更新所有字段后，单击&#x200B;**[!UICONTROL Call to action]**&#x200B;展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。 [了解如何操作](#define-actions-on-form-submission)
 
-   ![表单组件中的行动号召设置](assets/lp-call-to-action.png){zoomable="yes"}
+   表单组件中的![Call to action设置](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. 保存您的内容以返回[登陆页面属性](create-lp.md#create-landing-page)。
 
@@ -125,11 +121,7 @@ ht-degree: 16%
 
 1. 选择“**[!UICONTROL 服务来自URL]**”选项，以允许将登陆页用于多个服务，使其成为动态页面。 定义在提交表单时要选择加入还是选择退出用户。
 
-   >[!AVAILABILITY]
-   >
-   >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
-
-   来自表单组件![&#128279;](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的服务
+   来自表单组件![中的URL设置的](assets/lp-form-service-from-url.png){zoomable="yes"}服务
 
    在设计电子邮件时，如果您定义指向此登陆页面的&#x200B;**[!UICONTROL 登陆页面]**&#x200B;类型的链接，则可以从列表中选择任何服务。 然后，在定义指向此登陆页面的其他链接时，您可以选择其他服务。 [了解有关插入链接的更多信息](../email/message-tracking.md)
 
@@ -139,13 +131,9 @@ ht-degree: 16%
 
 ### 提交后发送消息 {#lp-message}
 
->[!AVAILABILITY]
->
->此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
-
 要在提交登陆页面后自动发送确认消息，请执行以下步骤：
 
-1. 在&#x200B;**[!UICONTROL 行动号召]**&#x200B;部分中，选中&#x200B;**[!UICONTROL 发送确认电子邮件]**&#x200B;选项。
+1. 在&#x200B;**[!UICONTROL CALL TO ACTION]**&#x200B;部分中，选中&#x200B;**[!UICONTROL 发送确认电子邮件]**&#x200B;选项。
 
 1. 在关联的下拉列表中，选择需要发送的事务型消息模板。
 
@@ -165,7 +153,7 @@ ht-degree: 16%
 
 1. 展开并编辑与您可能已添加到表单的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分。
 
-1. 展开&#x200B;**[!UICONTROL 行动号召]**&#x200B;部分以修改组件表单中按钮的外观。 例如，更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
+1. 展开&#x200B;**[!UICONTROL Call to action]**&#x200B;部分以修改该按钮在组件表单中的外观。 例如，更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
 
    ![行动号召样式设置](assets/lp-call-to-action-style.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 25%
+source-wordcount: '1643'
+ht-degree: 24%
 
 ---
 
@@ -116,10 +116,6 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
    * **[!UICONTROL 授权缺少ID]**&#x200B;选项允许任何访客访问登陆页面。 取消选择此选项可阻止匿名访客使用它，这意味着只有已识别的用户才能访问和提交表单。
 
-     >[!AVAILABILITY]
-     >
-     >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
-
      对于&#x200B;**[!UICONTROL 客户获取]**&#x200B;和&#x200B;**[!UICONTROL 订阅]**&#x200B;模板，默认情况下会选中此选项。 对于&#x200B;**[!UICONTROL 取消订阅]**&#x200B;和&#x200B;**[!UICONTROL 阻止列表]**&#x200B;模板，默认情况下将取消选择此选项，且无法修改此选项。
 
 1. 登陆页面可以具有后续页面。 要添加页面，请浏览&#x200B;**[!UICONTROL 页面]**&#x200B;部分，然后单击要为此登陆页面设计的每个页面的&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。 每个页面的内容均已预填充。 根据需要编辑它们。 [了解详情](lp-content.md)。
@@ -133,10 +129,6 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
    ![显示登陆页存储选项的屏幕截图。](assets/lp-storage.png){zoomable="yes"}
 
 1. 创建&#x200B;**[!UICONTROL 附加数据]**&#x200B;以在提交登陆页面时存储内部数据。 访问该页面的用户不会看到此数据。 仅考虑常量值。
-
-   >[!AVAILABILITY]
-   >
-   >此功能位于有限可用性(LA)中。 仅供&#x200B;**从 Adobe Campaign Standard 迁移到 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境上。
 
    ![显示附加数据部分的屏幕截图。](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -162,14 +154,10 @@ Campaign Web用户界面允许您创建、设计和发布登陆页面。 发布�
 
 ## 使用验证码保护登陆页面 {#captcha}
 
->[!AVAILABILITY]
->
->此功能位于有限可用性(LA)中。 它仅限于使用与上次修复版本&#x200B;**一起升级的** Adobe Campaign v8.7.2的客户，不能在任何其他环境中部署。
-
 设置验证码可帮助您保护登陆页面免受垃圾邮件和滥用。
 
 若要使用它，请转到登陆页面的&#x200B;**[!UICONTROL 属性]**。
-在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
+在**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
 
 ![屏幕截图显示“额外启用验证码”解决方案切换](assets/lp-properties-captcha.png){zoomable="yes"}
 

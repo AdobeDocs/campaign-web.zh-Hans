@@ -2,16 +2,36 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # 2025 年发行说明 {#2025-release}
 
 本页列出了 **2025 年版本**&#x200B;的所有变更和改进。最新发布说明可在 [此页面](release-notes.md)中查看。
+
+## 2025 年 6 月版本 {#25-6-release}
+
+### 改进 {#25-6-improvements}
+
+* “投放摘要”报告现已适用于呼叫中心和自定义渠道。[了解详情](../reporting/direct-mail.md)
+
+* 在配置短信投放时，您现在可以访问特定的短信参数。这些参数与客户端控制台中提供的参数相同。[了解详情](../advanced-settings/delivery-settings.md#sms-tab)
+
+* 您收藏的文件夹现在会显示在资源管理器页面左侧面板的顶部，方便快速访问。[了解详情](../get-started/work-with-folders.md#favorite-folders)
+
+* 规则构建器现已支持拖放操作，使您能够更高效地重新排列查询组件。[了解详情](../query/build-query.md#drag-and-drop)
+
+* 规则构建器中的“人工条件”功能已得到优化。这是您规则的书面简明语言版本，显示在屏幕底部：
+
+   * 属性现在会高亮显示，并会展示其关联的架构。
+   * 您可以点击这些元素以查看更详细的信息。
+   * 您现在可以使用相应的按钮复制“人工条件”内容。
+
+* 为防止查看，“技术工作流”和“自动创建的对象”文件夹的访问权限现已受到限制。[了解详情](../get-started/work-with-folders.md#about-folders)
 
 ## 2025 年 5 月版本 {#25-5-release}
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多语言的动态报告** - 动态报告现可用于多语言电子邮件投放。有关更多信息，请参阅[详细文档](../reporting/global-reports.md)。
 
-* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
+* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}。
 
 ## 2025 年 2 月版本 {#25-2-release}
 
