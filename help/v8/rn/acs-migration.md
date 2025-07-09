@@ -70,7 +70,7 @@ Campaign v8 界面和 Campaign Standard 之间的大多数概念相似。但是�
 
 ## 具体功能 {#new-features}
 
-为确保顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hans){target=&quot;_blank}中对这些功能进行了详细说明，并且仅适用于从 Campaign Standard 过渡的用户。
+为确保顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hans){target=_blank}中对这些功能进行了详细说明，并且仅适用于从 Campaign Standard 过渡的用户。
 
 * **动态报告**：动态报告提供可定制的实时报告，用以衡量营销活动所产生的影响。它包括访问轮廓数据，以便按性别、城市和年龄等维度进行人口统计分析，同时还可以访问功能性电子邮件营销活动数据，如打开次数和点击次数。[了解详情](../reporting/dynamic-reporting/get-started-reporting.md)。
 
