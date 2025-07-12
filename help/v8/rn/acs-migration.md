@@ -76,7 +76,7 @@ Campaign v8 界面和 Campaign Standard 之间的大多数概念相似。但是�
 
 * **集中化品牌管理**：Adobe Campaign 允许公司定义品牌视觉和技术指南。用户可以向客户展示一致的品牌形象，从标识到技术细节，如电子邮件发件人、URL 或域名等。[了解详情](../administration/branding/branding-gs.md)。
 
-* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
+* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}。
 
 * **登陆页面**：Campaign v8 登陆页面进行了改进，以确保功能与 Campaign Standard 保持一致。通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面[文档](../landing-pages/get-started-lp.md)了解详情。
 

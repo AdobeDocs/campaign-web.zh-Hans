@@ -59,7 +59,7 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 除了上面列出的功能外，此版本还附带客户端控制台中提供的一系列功能：
 
 * [新SMS发送连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hans)。
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans)
 
 请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hans){target="_blank"}。
 
