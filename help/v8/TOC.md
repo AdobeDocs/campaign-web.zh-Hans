@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 97%
 + 报告 {#reports}
    + [审核记录](reporting/audit-trail.md)
    + [关键绩效指标](reporting/kpis.md)
-   + 标准报表 {#standard-reports}
+   + 标准报告 {#standard-reports}
       + [报告入门](reporting/gs-reports.md)
       + [导出您的报告](reporting/export-reports.md)
       + 投放报告 {#delivery-report}
@@ -234,7 +234,7 @@ ht-degree: 97%
          + [直邮全球报告](reporting/global-report-direct.md)
    + 动态报告 {#dynamic-reporting}
       + [动态报告快速入门](reporting/dynamic-reporting/get-started-reporting.md)
-      + 关于报告 {#about-reporting}
+      + 关于报告  {#about-reporting}
          + [关于动态报告](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [报告界面](reporting/dynamic-reporting/reporting-interface.md)
          + [组件列表](reporting/dynamic-reporting/list-of-components.md)
@@ -252,7 +252,7 @@ ht-degree: 97%
          + [跟踪指标](reporting/dynamic-reporting/tracking-indicators.md)
          + [取消订阅](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL 和点击流](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + 自定义报表 {#customizing-reports}
+      + 自定义报告  {#customizing-reports}
          + [添加面板](reporting/dynamic-reporting/adding-panels.md)
          + [添加可视化](reporting/dynamic-reporting/adding-visualizations.md)
          + [添加组件](reporting/dynamic-reporting/adding-components.md)
@@ -264,7 +264,7 @@ ht-degree: 97%
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
 + 配置 {#conf}
    + 品牌化 {#branding}
-      + [关于品牌](administration/branding/branding-gs.md)
+      + [关于品牌化](administration/branding/branding-gs.md)
       + [配置品牌](administration/branding/branding-configure.md)
       + [分配品牌](administration/branding/branding-assign.md)
    + [使用业务规则（类型）](administration/typologies.md)

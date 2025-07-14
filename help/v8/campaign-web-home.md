@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 91%
 >[!BEGINTABS]
 
 
->[!TAB 7月25日更新]
+>[!TAB 7 月 25 日更新]
 
-Campaign Web用户界面中现在提供了新增功能和增强功能。 要利用这些改进，请确保将您的Campaign环境升级到版本8.8。有关完整的概述，请查看发行说明。
+Campaign Web 用户界面现已推出新功能与增强功能。要充分利用这些改进功能，请确保将您的 Campaign 环境升级至 8.8 版本。完整说明请参阅发行说明。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ Campaign Web用户界面中现在提供了新增功能和增强功能。 要利�
 
 ✨ 通过我们的 [AI 助手](../v8/email/generative-gs.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
 
-[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常见问题解答]
 
