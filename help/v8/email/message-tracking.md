@@ -3,10 +3,10 @@ audience: end-user
 title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 23%
    ![屏幕截图显示用于在邮件跟踪工具中插入链接的接口](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部链接]**：插入指向外部URL的链接。
-
-     >[!AVAILABILITY]
-     >
-     >以下功能（链接到&#x200B;**[!UICONTROL 登陆页面]**、**[!UICONTROL 订阅链接]**&#x200B;和&#x200B;**[!UICONTROL 退订链接]**）在有限可用性(LA)中。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 
    * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 如果选择动态登陆页面（选择了&#x200B;**[!UICONTROL 来自URL的服务]**&#x200B;选项），则可以从列表中选择任何服务。 [了解详情](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
