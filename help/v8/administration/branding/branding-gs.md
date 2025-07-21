@@ -6,14 +6,19 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 19%
+source-wordcount: '331'
+ht-degree: 18%
 
 ---
 
 # 品牌策略入门 {#branding-gs}
+
+>[!AVAILABILITY]
+>
+>此功能仅在新实施中按需提供。 要获取访问权限，请联系您的Adobe代表。
+
 
 >[!IMPORTANT]
 >
@@ -25,7 +30,7 @@ ht-degree: 19%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请按照以下步骤进行：
 
-1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 在此页面[中了解有关子域配置](https://experienceleague.adobe.com/zh-hans/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)的更多信息。
+1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 在此页面[中了解有关子域配置](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)的更多信息。
 
    >[!NOTE]
    >

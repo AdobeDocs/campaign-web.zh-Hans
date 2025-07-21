@@ -4,14 +4,18 @@ description: 在内建或自定义的动态报告中，分析促销活动成功�
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '291'
 ht-degree: 12%
 
 ---
 
 # 动态报告入门 {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>此功能仅可按需使用。 要获取访问权限，请联系您的Adobe代表。
 
 动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还可按用户档案维度（如性别、城市和年龄）进行人口统计分析。
 
