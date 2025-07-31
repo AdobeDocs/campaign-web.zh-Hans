@@ -2,20 +2,15 @@
 audience: end-user
 title: 管理品牌
 description: 了解如何创建和管理品牌指南
-badge: label="Beta 版" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
 
 # 创建和管理您的品牌 {#brands}
-
->[!AVAILABILITY]
->
->此功能作为专用测试版发布。 它将在即将发布的版本中逐步向所有客户提供。
 
 品牌指南是一套全面的规则和标准，用于定义品牌的视觉和语言标识。 它们用作参考，以确保在所有营销和通信渠道中一致的品牌代表性。
 
@@ -23,9 +18,9 @@ ht-degree: 1%
 
 ## 访问品牌 {#generative-access}
 
-要访问[!DNL Adobe Campaign Web]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单，必须向用户分配&#x200B;**[!UICONTROL 管理员（管理员）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;产品配置文件，才能创建和管理品牌。 要获得只读访问权限，用户需要[!UICONTROL AI助手]产品配置文件。
+要访问&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Campaign Web]菜单，必须向用户分配&#x200B;**[!UICONTROL 管理员（管理员）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;产品配置文件，才能创建和管理品牌。 要获得只读访问权限，用户需要[!UICONTROL AI助手]产品配置文件。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 了解如何分配与品牌相关的权限
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 创新型内容
 description: AI助手入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1624'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
-></br>
+>></br>
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -54,7 +54,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
 
-   ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/full-email-3.png){zoomable="yes"}
+   ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/full-email-4.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -64,15 +64,21 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
    * **[!UICONTROL 光源]**：修改图像中的光源，以调整其大气形状并突出显示特定元素。
    * **[!UICONTROL 合成]**：在图像的框架中排列元素。
 
-   ![显示Adobe Campaign Web中的图像设置选项的屏幕截图](assets/full-email-4.png){zoomable="yes"}
-
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
+   ![显示Adobe Campaign Web中的品牌设置选项的屏幕截图](assets/full-email-3.png){zoomable="yes"}
+
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -83,11 +89,11 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
    ![显示Adobe Campaign Web中优化选项的屏幕截图](assets/full-email-5.png){zoomable="yes"}
 
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
+
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
 1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染并检查测试用户档案的个性化设置。 [了解详情](../preview-test/preview-content.md)
-
-   ![显示Adobe Campaign Web中的“模拟内容”按钮的屏幕截图](assets/full-email-6.png){zoomable="yes"}
 
 在定义内容、受众和计划时，准备电子邮件投放。 [了解详情](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
    * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
-   ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/text-genai-3.png){zoomable="yes"}
+   ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/text-genai-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
@@ -125,7 +131,13 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -137,7 +149,9 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![显示Adobe Campaign Web中优化选项的屏幕截图](assets/text-genai-4.png){zoomable="yes"}
+   ![显示Adobe Campaign Web中优化选项的屏幕截图](assets/text-genai-5.png){zoomable="yes"}
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -171,14 +185,14 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
-   * **[!UICONTROL 宽高比]**：确定资源的宽度和高度。 从常用比率（如16:9、4:3、3:2或1:1）中进行选择，或输入自定义大小。
+   * **[!UICONTROL 宽高比]**：确定资源的宽度和高度。 从通用比率（如16:9、4:3、3:2或1:1）中选择，或输入自定义大小。
    * **[!UICONTROL 内容类型]**：对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置(2)产生更柔和的外观，而较高的设置(10)使图像更生动。
    * **[!UICONTROL 颜色和色调]**：调整颜色的总体外观以及传达的气氛或气氛。
    * **[!UICONTROL 光源]**：修改图像中的光源，以调整其大气形状并突出显示特定元素。
    * **[!UICONTROL 合成]**：在图像的框架中排列元素。
 
-   ![显示Adobe Campaign Web中的图像设置选项的屏幕截图](assets/image-genai-3.png){zoomable="yes"}
+   ![显示Adobe Campaign Web中的图像设置选项的屏幕截图](assets/image-genai-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加为AI助手提供其他上下文的任何品牌资产，或选择以前上传的品牌资产。
 
@@ -186,15 +200,17 @@ Adobe Campaign Web中的AI助手通过生成整封电子邮件、有针对性的
 
 1. 如果对提示配置满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资源。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
 
-   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
 
-   ![显示有关Adobe Campaign Web中图像生成的变体建议的屏幕截图](assets/image-genai-5.png){zoomable="yes"}
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 生成类似项]**。
 
-   ![在Adobe Campaign Web中显示生成类似选项的屏幕截图](assets/image-genai-6.png){zoomable="yes"}
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 具有AI助理的登陆页面
 description: AI助手入门
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1595'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
-></br>
+>></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -68,11 +68,15 @@ ht-degree: 1%
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 切换要包含在生成中的资产。
 
-   ![显示品牌资产菜单的屏幕截图。](assets/lp_full_gen_5.png){zoomable="yes"}
-
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -82,6 +86,8 @@ ht-degree: 1%
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![显示优化选项的屏幕快照。](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -125,7 +131,13 @@ ht-degree: 1%
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![显示品牌资产菜单的屏幕截图。](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -138,6 +150,8 @@ ht-degree: 1%
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![显示优化选项的屏幕快照。](assets/lp-text-genai-5.png){zoomable="yes"}
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -169,7 +183,7 @@ ht-degree: 1%
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
-   * **[!UICONTROL 宽高比]**：确定资源的宽度和高度。 从常用比率（如16:9、4:3、3:2或1:1）中进行选择，或输入自定义大小。
+   * **[!UICONTROL 宽高比]**：确定资源的宽度和高度。 从通用比率（如16:9、4:3、3:2或1:1）中选择，或输入自定义大小。
    * **[!UICONTROL 内容类型]**：对可视元素的性质进行分类，区分不同的可视表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：通过调整图像的强度来控制其影响。 较低的设置(2)产生更柔和的外观，而较高的设置(10)使图像更生动。
    * **[!UICONTROL 颜色和色调]**：调整图像内颜色的整体外观及其传达的情绪或气氛。
@@ -184,13 +198,17 @@ ht-degree: 1%
 
 1. 如果对提示配置满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资源。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
 
-   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
 
-1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 生成类似项]**。
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
 
-   ![显示变量建议界面的屏幕截图。](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![显示品牌资产菜单的屏幕截图。](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. 如果要查看与此变体相关的图像，请在&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中选择&#x200B;**[!UICONTROL 生成类似]**。
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 

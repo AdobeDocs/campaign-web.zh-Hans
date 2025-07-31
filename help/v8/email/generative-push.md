@@ -3,9 +3,9 @@ audience: end-user
 title: 使用AI助手推送通知
 description: AI助手入门
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
-></br>
+>></br>
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -39,7 +39,7 @@ AI Assistant通过建议与受众产生共鸣的不同内容，帮助优化投�
 
    ![显示提示库界面的屏幕截图](assets/push-genai-2.png){zoomable="yes"}
 
-1. 选择要生成的字段： **[!UICONTROL 标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
+1. 选择要生成的字段：**[!UICONTROL 标题]**、**[!UICONTROL 子标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -63,7 +63,13 @@ AI Assistant通过建议与受众产生共鸣的不同内容，帮助优化投�
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](../content/brands-score.md)的更多信息。
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -75,10 +81,10 @@ AI Assistant通过建议与受众产生共鸣的不同内容，帮助优化投�
 
    ![显示优化选项的屏幕快照](assets/push-genai-5.png){zoomable="yes"}
 
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](../content/brands.md)保持一致。
+
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
 1. 插入个性化字段，以根据用户档案数据自定义电子邮件内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染并检查测试用户档案的个性化设置。 [了解详情](../preview-test/preview-content.md)
-
-   ![显示“模拟内容”按钮的屏幕快照](assets/push-genai-6.png){zoomable="yes"}
 
 在定义内容、受众和计划时，准备推送投放。 [了解详情](../monitor/prepare-send.md)

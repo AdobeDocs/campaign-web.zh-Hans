@@ -2,19 +2,18 @@
 audience: end-user
 title: 品牌一致性
 description: 了解如何使用品牌得分创建、验证和管理品牌内内容。
-badge: label="Beta 版" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 5%
 
 ---
 
-# 品牌协调(Beta){#brands-score}
+# 品牌一致性 {#brands-score}
 
 >[!AVAILABILITY]
 >
->此功能作为专用测试版发布。 它将在未来版本中逐步向所有客户提供。
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 “品牌协调”功能旨在帮助您创建、审查和管理符合品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
