@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
->></br>
+>&#x200B;></br>
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
