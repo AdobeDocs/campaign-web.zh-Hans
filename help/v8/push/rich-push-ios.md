@@ -3,9 +3,9 @@ audience: end-user
 title: 设计iOS富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计iOS富推送通知投放
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1625'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->在设计富推送通知之前，您需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
+>在设计富推送通知之前，您需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
 
 ## 定义通知的内容 {#push-message}
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
    此字段定义iOS通知有效负载的&#x200B;**title**&#x200B;参数的值。
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
 
 1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入消息的内容。
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -109,7 +109,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -152,7 +152,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -203,6 +203,7 @@ ht-degree: 4%
 | 参数 | 说明 |
 |-----------|-------------|
 | **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载媒体内容。 |
+| **[!UICONTROL 可用内容]** | 启用此选项可允许您的通知在iOS设备上触发后台更新，即使应用程序未主动打开也是如此。 这可确保无需用户交互即可处理消息或数据更新等内容并将其存储在应用程序收件箱中。 选中后，将根据Apple推送通知服务(APNS)标准将`content-available: 1`标志添加到`aps`有效负载中。 |
 | **[!UICONTROL 相关性得分]** | 将相关性得分从0设置为100。 系统使用此选项对通知摘要中的通知进行排序。 |
 | **[!UICONTROL 中断级别]** | <ul><li>**活动**：默认设置，系统立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**被动**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**时效性**：系统立即显示通知，打开屏幕，可以播放声音，并中断焦点模式。 此级别不需要Apple的特殊权限。</li><li>**关键**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</li></ul> |
 | **[!UICONTROL 线程ID]** | 设置用于将相关通知分组在一起的标识符。 |

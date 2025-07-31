@@ -3,10 +3,10 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 39%
+source-wordcount: '1632'
+ht-degree: 37%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 39%
 
 * **[!UICONTROL 数据消息]**&#x200B;由客户端应用程序处理。 这些消息将直接发送到移动设备应用程序，后者在设备上生成并显示Android通知。 数据消息仅包含您的自定义应用程序变量。
 
-  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**&#x200B;字段并使用表达式编辑器。 访问此编辑器以自定义消息。
-在&#x200B;**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，配置在用户激活通知时显示的特定应用程序屏幕。
+  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**字段并使用表达式编辑器。 访问此编辑器以自定义消息。
+在**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，配置在用户激活通知时显示的特定应用程序屏幕。
 
   ![描述：在Android通知中为数据消息定义内容的示例](assets/push_content_4.png){zoomable="yes"}
 
@@ -143,6 +143,7 @@ ht-degree: 39%
 | **[!UICONTROL 通知计数]** | 设置一个将直接显示在应用程序图标上的数字，指示新的未读信息数量。 为用户提供了快速的可视化参考。 |
 | **[!UICONTROL 卷]** | 声音的音量从0到100。 |
 | **[!UICONTROL 可变内容]** | 启用此选项可允许移动应用程序下载与通知关联的媒体内容。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
+| **[!UICONTROL 可用内容]** | 启用此选项可允许您的通知在iOS设备上触发后台更新，即使应用程序未主动打开也是如此。 这可确保无需用户交互即可处理消息或数据更新等内容并将其存储在应用程序收件箱中。 选中后，将根据Apple推送通知服务(APNS)标准将`content-available: 1`标志添加到`aps`有效负载中。 |
 | **[!UICONTROL 相关性得分]** | 设置 0 至 100 的相关性分数以划分通知在通知摘要中的顺序。分数越高，通知就越重要。 |
 | **[!UICONTROL 中断级别]** | <ul> <li>**[!UICONTROL 活动]**：默认设置，系统立即显示通知，打开屏幕并播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 被动]**：系统将通知添加到通知列表，而不打开屏幕或播放声音。 通知不会突破焦点模式。</li><li>**[!UICONTROL 时效性]**：系统立即显示通知，打开屏幕，可以播放声音，并突破焦点模式。 此级别不需要Apple的特殊权限。</li> <li>**[!UICONTROL 关键]**：系统立即显示通知，在屏幕上亮起，并绕过静音开关或聚焦模式。 请注意，此级别需要Apple的特殊权限。</ul> |
 | **[!UICONTROL 线程ID]** | 用于将相关通知分组在一起的标识符。 具有相同线程ID的通知在通知列表中被组织为单个对话或线程。 |

@@ -2,10 +2,10 @@
 title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
@@ -131,7 +131,9 @@ ht-degree: 100%
 * 复制预定义过滤器。
 * 删除预定义过滤器。
 
-此外，可将预定义过滤器添加为收藏项，以供在构建受众时快速访问。可在[此部分](#fav-filter)中了解详情。
+您还可以直接从规则生成器中编辑或删除预定义过滤器。 在预定义过滤器选择窗口中，使用&#x200B;**更多操作**&#x200B;按钮。 您可以删除或编辑过滤器。 您可以更改标签、添加描述并将其添加为收藏。
+
+![预定义过滤器的版本](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
