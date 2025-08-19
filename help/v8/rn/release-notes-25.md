@@ -2,9 +2,9 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: ht
-source-wordcount: '1604'
+source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+workflow-type: tm+mt
+source-wordcount: '2383'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,228 @@ ht-degree: 100%
 # 2025 年发行说明 {#2025-release}
 
 本页列出了 **2025 年版本**&#x200B;的所有变更和改进。最新发布说明可在 [此页面](release-notes.md)中查看。
+
+## 2025 年 7 月版 {#25-7-release}
+
+### 新增功能 {#25-7-features}
+
+自 7 月版本开始可以使用以下功能。
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Multilingual email and SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
+</p>
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
+<p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Custom channel for API deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom API channels. These deliveries can be standalone or part of a workflow. The configuration of the custom API channel is performed in the console.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件设计器中支持自定义 CSS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在设计电子邮件时，您现在可以在电子邮件设计器中直接添加自己的自定义 CSS。此功能使您能够应用高级和特定的样式，从而更灵活、更好地控制您的内容外观。</p>
+<p>有关更多信息，请参阅<a href="../email/custom-css.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以创建并自定义您的品牌，在所有宣传中清晰传达您的视觉风格与语言特征。通过品牌一致性评分，您可以实时获得内容是否符合品牌语调、风格和规范的反馈，帮助您在每一次沟通中始终保持品牌一致性。
+</p>
+<p>有关更多信息，请参阅<a href="../content/brands.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>投放警报</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>投放警报功能是一个警报管理系统，利用该系统可让一组用户自动接收包含其投放执行信息的通知。</p>
+<p>有关更多信息，请参阅<a href="../msg/delivery-alerting.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Landing pages improvements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements to landing pages are now available:</p>
+<ul>
+    <li>You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. <a href="../audience/manage-services.md#create-service">Read more</a></li>
+    <li>A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. <a href="../landing-pages/create-lp.md#create-landing-page">Read more</a></li>
+    <li>A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. <a href="../landing-pages/create-lp.md#create-landing-page">Read more</a></li>
+    <li>A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). <a href="../landing-pages/create-lp.md#define-actions-on-form-submission">Read more</a></li>
+    <li>Conditional content is now supported in landing pages. <a href="../landing-pages/lp-content.md">Read more</a></li>
+    <li>You can link a landing page to a service, and send a confirmation message when users validate it. <a href="../landing-pages/lp-content.md#lp-message">Read more</a></li>
+    <li>You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. <a href="../landing-pages/create-lp.md#captcha">Read more</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>动态报告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用动态报告功能，该功能提供完全可自定义的实时报告，以衡量您的营销活动成效。它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。动态报告现也适用于多语言电子邮件投放和事务性消息。</p>
+<p>此功能仅按需提供。要获得访问权限，请与 Adobe 代表联系。您的服务器必须至少升级到 8.8.1 版。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">发行说明</a>。
+<p>有关更多信息，请参阅<a href="../reporting/dynamic-reporting/get-started-reporting.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>集中品牌化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您的技术管理员现在可以定义一个或多个品牌，以集中管理影响品牌形象的相关参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。品牌化选项现在可用于所有渠道，包括短信和直邮。</p>
+<p>此功能仅针对新实施按需提供。要获得访问权限，请与 Adobe 代表联系。您的服务器必须至少升级到 8.8.1 版。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">发行说明</a>。
+<p>有关更多信息，请参阅<a href="../administration/branding/branding-gs.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+除上述功能外，本次版本还提供了一组可在客户端控制台中使用的功能：
+
+* [新的短信发送连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html)（FDA 环境）
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)（按需，FDA 环境）
+
+请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
+
+<!--
+
+### Features previously in Limited Availability {#25-7-limited} 
+
+>[!AVAILABILITY]
+>
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+
+Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
+
+* **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
+
+
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+
+* **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
+
+
+* **Landing pages improvements** - The following improvements to landing pages are now available:
+
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](../audience/manage-services.md#create-service)
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](../landing-pages/create-lp.md#define-actions-on-form-submission)
+    * Conditional content is now supported in landing pages. [Read more](../landing-pages/lp-content.md)
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message)
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
+
+Previously released in Limited Availability, the following capabilities are now available **on demand**:
+
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](../reporting/dynamic-reporting/get-started-reporting.md)
+
+* **Centralized Branding** -  Your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Branding options are available for all channels, including SMS and Direct mail. [Read more](../administration/branding/branding-gs.md){target="_blank"}
+
+    >[!NOTE]
+    >
+    >This feature is only available for new implementations.
+
+In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
+
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
+
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+
+-->
+
+### 改进 {#25-7-improvements}
+
+* 您现在可以在规则生成器中的每个条件和分组上直接计算目标人群。点击结果数字可查看详细记录列表。[了解详情](../query/build-query.md#validate-query)
+
+* 您现在可以直接从规则生成器编辑或删除预定义过滤器。[了解详情](../get-started/predefined-filters.md#manage-predefined-filter)
+
+* 在配置短信投放时，您现在可以在 **SMS** 部分访问&#x200B;**可选 SMPP 参数（TLV）**。此参数与客户端控制台中的相同。[了解详情](../advanced-settings/delivery-settings.md#sms-tab)
+
+* 您现在可以使用新的&#x200B;**可用内容**&#x200B;选项在 iOS 上启用后台通知，该选项位于 iOS 内容编辑屏幕的&#x200B;**高级设置**&#x200B;部分。该操作会在 `aps` 负载中添加 `content-available:1` 标志。请参阅[此页面](../push/content-push.md)了解详情。另请参阅[此页面](../push/rich-push-ios.md)。
+
+* 登陆页面进行了以下改进：
+
+   * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。[了解更多信息](../audience/manage-services.md#create-service)
+   * 登陆页面配置中的新选项允许匿名访客访问登陆页面。如果取消选择此选项，则只有已识别的用户才能访问和提交表单。[了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+   * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。[了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+   * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。[了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * 登陆页面现在支持条件内容。[了解更多信息](../landing-pages/lp-content.md)
+   * 您可以将着陆页面链接至某项服务，并在用户验证该页面时发送确认消息。[了解详情](../landing-pages/lp-content.md#lp-message)
+   * 您可以添加验证码，以防止机器人引发的垃圾信息和滥用行为，从而保护您的着陆页面。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。[了解详情](../landing-pages/create-lp.md#captcha)
 
 ## 2025 年 6 月版本 {#25-6-release}
 
@@ -167,13 +389,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能处于“有限可用性” (LA) 状态。这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。使用这些功能必须将 Campaign 服务器升级到 v8.7.4。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hans)。
+>请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)。
 
 * **创建多语言投放** - 您现在可以在 Adobe Campaign Web 用户界面中使用不同语言发送多个电子邮件投放。多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您还可以使用您选择的语言预览这些投放内容。有关更多信息，请参阅[详细文档](../email/edit-content.md)。
 
 * **多语言的动态报告** - 动态报告现可用于多语言电子邮件投放。有关更多信息，请参阅[详细文档](../reporting/global-reports.md)。
 
-* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target=_blank}。
+* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}。
 
 ## 2025 年 2 月版本 {#25-2-release}
 
