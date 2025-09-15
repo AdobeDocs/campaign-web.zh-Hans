@@ -30,7 +30,7 @@ ht-degree: 36%
  **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据未添加到数据库，但输入文件中的所有字段均可用于[个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 
 >[!NOTE]
->支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。使用Web用户界面控制台，您可以加载最大大小为50MB的文件。 在客户端控制台中，数据加载活动具有150 MB的限制。 [了解详情](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hans){target="_blank"}
+>支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。使用Web用户界面控制台，您可以加载最大大小为50MB的文件。 在客户端控制台中，数据加载活动具有150 MB的限制。 [了解详情](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 此活动可与[协调](reconciliation.md)活动一起使用，以将未识别的数据链接到现有资源。 例如，如果将非标准数据导入数据库，则可以将&#x200B;**加载文件**&#x200B;活动放在&#x200B;**协调**&#x200B;活动之前。
 
@@ -55,13 +55,13 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="加载文件活动的值重新映射"
->abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含 “True”/“False” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
+>abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含 “真”/“假” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
 
 按照以下步骤配置用于定义预期文件结构的样例文件：
 
 1. 将&#x200B;**加载文件**&#x200B;活动添加到您的工作流中。
 
-1. 选择用于定义预期文件结构的样例文件。 为此，请单击&#x200B;**[!UICONTROL 示例文件]**&#x200B;部分中的&#x200B;**选择文件**&#x200B;按钮，然后选择要使用的本地文件。
+1. 选择用于定义预期文件结构的样例文件。 为此，请单击&#x200B;**示例文件**&#x200B;部分中的&#x200B;**[!UICONTROL 选择文件]**&#x200B;按钮，然后选择要使用的本地文件。
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ ht-degree: 36%
    * **[!UICONTROL 分隔符]**（日期、时间、整数和数字数据类型）：指定要用作分隔符的字符。
    * **[!UICONTROL 允许NULL]**：指定如何管理列中的空值。 如果存在空值，“Adobe Campaign默认值”选项将引发错误。
    * **[!UICONTROL 处理]**&#x200B;时出错（字符串数据类型）：指定其中一行出错时的行为。
-   * **[!UICONTROL 值重新映射]**：此选项允许您使用新值映射特定值。 例如，如果列中包含 “True”/“False” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。
+   * **[!UICONTROL 值重新映射]**：此选项允许您使用新值映射特定值。 例如，如果列中包含 “真”/“假” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。
 
    +++
 
@@ -163,4 +163,4 @@ ht-degree: 36%
 
 ## 示例 {#load-example}
 
-[此部分](reconciliation.md#reconciliation-example)中提供了与&#x200B;**协调**&#x200B;活动一起使用的外部文件加载示例。
+**此部分**&#x200B;中提供了与[协调](reconciliation.md#reconciliation-example)活动一起使用的外部文件加载示例。
