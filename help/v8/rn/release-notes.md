@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 63%
+source-wordcount: '221'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 63%
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
+
+## 2025年9月更新 {#25-9-updates}
+
+已发布以下改进：
+
+* 在使用Email Designer的条件内容功能设置条件时，添加了一组新运算符。
 
 ## ’25年8月版 {#25-8-release}
 
