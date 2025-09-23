@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Hadoop外部帐户 {#external-hadoop}
 
-Hadoop外部帐户允许您将Campaign实例连接到Hadoop外部数据库。 您可以在[Campaign V7控制台文档](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中了解有关Hadoop的更多信息。
+Hadoop外部帐户允许您将Campaign实例连接到Hadoop外部数据库。 您可以在[Campaign V7控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中了解有关Hadoop的更多信息。
 
 ![显示Hadoop外部帐户配置的屏幕截图。](assets/external-hadoop.png)
 
