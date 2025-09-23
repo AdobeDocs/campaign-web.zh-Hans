@@ -3,8 +3,8 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何使用 Campaign Web 用户界面中的电子邮件设计器开始构建内容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ The Email Designer allows you to create email content and email content template
 
 * 从文件或 .zip 文件夹中&#x200B;**导入现有 HTML 内容**。通过[本节](existing-content.md)了解如何导入电子邮件内容。
 
-* 从内置或自定义模板的列表中&#x200B;**选择现有内容**。通过[本节](create-email-templates.md)了解如何使用电子邮件模板。
+* 从内置或自定义模板的列表中&#x200B;**选择现有内容**。通过[本节](../content/create-email-templates.md)了解如何使用电子邮件模板。
 
   ![电子邮件设计器界面中可用于创建电子邮件内容的选项](assets/email_designer_create_options.png){zoomable="yes"}

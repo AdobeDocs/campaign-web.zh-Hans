@@ -1,24 +1,24 @@
 ---
-title: 目标选择维度
-description: 了解有关在Adobe Campaign Web中定位维度的更多信息
+title: 定位和筛选维度
+description: 了解有关在Adobe Campaign Web UI中定位和筛选维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '571'
+ht-degree: 14%
 
 ---
 
-# 目标选择维度 {#targeting-dimensions}
+# 定位和筛选维度 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="选择定位维度"
 >abstract="通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
 
-定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。
+定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。
 
-## 工作流的定位维度 {#workflow}
+## 目标选择维度 {#targeting}
 
 工作流的定向维度由前&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动定义，并用于所有后续活动，直到工作流结束。 例如，从数据库查询用户档案时，出站过渡包含“recipient”类型的数据，该数据将传输到下一个活动。
 
@@ -28,20 +28,33 @@ ht-degree: 16%
 
 ![显示启用了“显示所有架构”按钮的定位维度界面的屏幕截图。](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
-## 目标选择维度 {#list}
-
-默认情况下，电子邮件和短信投放模板会定向用户档案。 他们的目标维度使用&#x200B;**nms：recipient**&#x200B;表的字段。 对于推送通知，默认目标维度为链接到收件人表的&#x200B;**订阅者应用程序nms：appSubscriptionRcp**。
+默认情况下，电子邮件和短信投放模板会定向用户档案。 他们的目标维度使用&#x200B;**nms:recipient**&#x200B;表的字段。 对于推送通知，默认目标维度为链接到收件人表的&#x200B;**订阅者应用程序nms:appSubscriptionRcp**。
 
 在工作流和投放中使用其他内置目标映射，如下所示：
 
 | 名称 | 使用投放 | 架构 |
 |-----------------------|-------------------------------------------------------|-------------------------|
-| 收件人 | 用户档案/收件人（内置收件人表） | nms：recipient |
-| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | mns：visitor |
-| 订阅 | 订阅新闻稿等信息服务的用户档案 | nms：subscription |
-| 访客订阅 | 订阅了信息服务的访客 | nms：visitorSub |
-| 运算符 | Adobe Campaign运算符 | nms：operator |
+| 收件人 | 用户档案/收件人（内置收件人表） | nms:recipient |
+| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | mns:visitor |
+| 订阅 | 订阅新闻稿等信息服务的用户档案 | nms:subscription |
+| 访客订阅 | 订阅了信息服务的访客 | nms:visitorSub |
+| 运算符 | Adobe Campaign运算符 | nms:operator |
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
-| 订阅者应用程序 | 订阅应用程序的配置文件 | nms：appSubscriptionRcp |
+| 订阅者应用程序 | 订阅应用程序的配置文件 | nms:appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
+
+## 过滤维度 {#filtering}
+
+定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。利用筛选维度，您可以通过引用相关数据将筛选器应用于此群体，而无需更改主定向维度。 例如，您可以根据特定条件选择群体，如合同持有者或新闻稿订阅者。
+
+筛选维度仅在&#x200B;**生成受众**&#x200B;活动中可用。
+
+要选择持有人寿保险单超过5年的客户，请选择以下选项：
+
+* 目标维度： **客户端**
+* 正在过滤维度：**合同持有者**。
+
+然后，您可以在&#x200B;**构建受众**&#x200B;活动中定义筛选条件。 请参见[此页面](../workflows/activities/build-audience.md)。
+
+在定向维度选择过程中，界面中只显示兼容的筛选维度。 这两个维度必须相关，因此过滤维度列表的内容取决于在第一个字段中选择的定向维度。

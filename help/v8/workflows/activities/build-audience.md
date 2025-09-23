@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '454'
+ht-degree: 57%
 
 ---
 
@@ -56,7 +56,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 要创建自己的查询，请执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
+1. 选择&#x200B;**定位维度**。利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。[了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#targeting)
+1. 单击定向维度旁边的图标以选择&#x200B;**过滤维度**。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#filtering)
 1. 单击&#x200B;**继续**。
 1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 

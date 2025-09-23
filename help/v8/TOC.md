@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
    + 呼叫中心 {#call-center}
       + [开始使用呼叫中心投放](call-center/gs-call-center.md)
       + [创建并发送呼叫中心投放](call-center/create-call-center.md)
-   + [自定义外部渠道](call-center/gs-custom-channel.md)
+   + [自定义渠道](call-center/gs-custom-channel.md)
    + 事务性消息 {#transactional-messages}
       + [事务性消息入门](transactional-messaging/transactional.md)
       + [创建事务性消息](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 99%
       + [添加个性化内容](personalization/personalize.md)
       + [构建条件内容](personalization/conditions.md)
    + 重复使用内容  {#manage-reusable-content}
-      + [使用内容模板](email/create-email-templates.md)
+      + 内容模板 {#content-templates}
+         + [使用内容模板](content/create-email-templates.md)
+         + [使用电子邮件内容模板](content/use-email-templates.md)
+         + [锁定电子邮件模板中的内容](content/content-locking.md)
       + 内容片段 {#fragments}
          + [开始使用内容片段](content/fragments.md)
          + [创建和编辑内容片段](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 99%
          + [从头开始](email/create-email-content.md)
          + [导入电子邮件内容](email/existing-content.md)
          + [为自己的内容编写代码](email/code-content.md)
-         + [使用电子邮件内容模板](email/use-email-templates.md)
       + 设计内容  {#design-content}
          + [使用内容组件](email/content-components.md)
          + [添加链接和跟踪邮件](email/message-tracking.md)
@@ -273,7 +275,13 @@ ht-degree: 99%
    + [使用架构](administration/schemas.md)
    + [配置自定义字段](administration/custom-fields.md)
    + [配置 [!DNL Campaign] 选项](administration/options.md)
-   + [配置外部帐户](administration/external-account.md)
+   + 外部帐户 {#external-accounts}
+      + [创建外部帐户](administration/create-external-account.md)
+      + [Adobe解决方案集成](administration/integration-external-account.md)
+      + [促销活动特定](administration/external-account.md)
+      + [外部数据库](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [传输数据](administration/transfer-external-account.md)
    + [管理枚举](administration/enumerations.md)
    + [使用 JavaScript 代码工作](administration/javascript-codes.md)
 + [Campaign v8（控制台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)

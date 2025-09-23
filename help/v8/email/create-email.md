@@ -3,7 +3,7 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
-基于预定义的[设计模板](../email/create-email-templates.md)，电子邮件还根据客户配置文件属性提供个性化内容。
+基于预定义的[设计模板](../content/create-email-templates.md)，电子邮件还根据客户配置文件属性提供个性化内容。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
@@ -117,7 +117,7 @@ ht-degree: 44%
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
-   选择要用于创建电子邮件内容的方法。在此示例中，使用[预定义的内容模板](create-email-templates.md)。
+   选择要用于创建电子邮件内容的方法。在此示例中，使用[预定义的内容模板](../content/create-email-templates.md)。
 
    ![显示所选预定义内容模板的屏幕截图](assets/select-template.png){zoomable="yes"}
 
@@ -163,7 +163,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节[&#128279;](#content-simulation-limitations)中详细介绍了的限制。
+   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节[中详细介绍了](#content-simulation-limitations)的限制。
 
 1. 在左侧，选择要用于预览电子邮件的轮廓。
 
@@ -176,7 +176,7 @@ ht-degree: 44%
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后选择要使用的模式。
 
-   在此示例中，使用主目标&#x200B;**模式中的**&#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
+   在此示例中，使用主目标&#x200B;**[!UICONTROL 模式中的]**&#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
 
    ![显示校样发送模式选择的屏幕快照](assets/proof-mode.png){zoomable="yes"}
 
@@ -222,7 +222,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用协调的投放，
-* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
+* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
 * 未上传任何文件时。
 
 ## 发送和监控电子邮件 {#prepare-send}
@@ -252,4 +252,4 @@ ht-degree: 44%
 
 了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送校样。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454015/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

@@ -4,7 +4,7 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 >
 >此功能需要更新Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
-在Campaign Web界面中，**可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中重复使用。 在[本节](fragments.md)中了解如何创建和管理内容片段。
+在Campaign Web界面中，**可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../content/use-email-templates.md)中重复使用。 在[本节](fragments.md)中了解如何创建和管理内容片段。
 
 ![正在使用的视觉片段的视觉呈现](assets/do-not-localize/fragments.gif)
 

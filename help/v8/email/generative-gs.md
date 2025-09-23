@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用 AI 助手
 description: AI 助手入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 22%
@@ -66,10 +66,10 @@ AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的�
 * 生成的内容的质量在很大程度上取决于您定义的营销目标或提示。 使用明确定义的GenAI模型提示来准确地解释。
 * 上传品牌资产以确保准确的品牌内内容。 否则，内容将基于公开可用的信息。 上传的内容可以采用以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的最大大小为50MB。 较大的文件或大量的图像可能会增加处理时间。
-* 使用[内置电子邮件模板](../email/create-email-templates.md)、品牌特定模板或自定义模板通过AI助手创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
+* 使用[内置电子邮件模板](../content/create-email-templates.md)、品牌特定模板或自定义模板通过AI助手创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
 * 在选择变体时，使用拇指上移、拇指下移或标记图标报告任何有问题的输出。
 * 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)。
+* 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 以下限制适用于Adobe Campaign Web中的AI助手：
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用内容片段
 description: 了解如何使用内容片段创建
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 58%
@@ -30,7 +30,7 @@ ht-degree: 58%
 
 * **表达式片段**&#x200B;是可从表达式编辑器中的专用条目中使用的预定义表达式。 Campaign包括一组预定义内容块，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。您还可以创建自己的表达式片段来满足您的需要。
 
-* **可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../email/use-email-templates.md)中重复使用。
+* **可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../content/use-email-templates.md)中重复使用。
 
   >[!AVAILABILITY]
   >

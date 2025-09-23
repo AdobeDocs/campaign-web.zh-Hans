@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->传递模板不同于[内容模板](../email/create-email-templates.md)，后者允许您仅重用电子邮件的内容，并开始使用提供的现成示例电子邮件模板之一构建内容。
+>传递模板不同于[内容模板](../content/create-email-templates.md)，后者允许您仅重用电子邮件的内容，并开始使用提供的现成示例电子邮件模板之一构建内容。
 
 ## 访问和管理投放模板 {#access-manage-templates}
 
@@ -174,7 +174,7 @@ Campaign包括每个渠道的内置模板：电子邮件、推送和短信。 �
 
 您可以测试任何投放模板的渲染，无论是从头开始还是从现有内容创建。 为此，请执行以下步骤：
 
-1. 通过&#x200B;**[!UICONTROL 营销活动管理]** > **[!UICONTROL 投放]**&#x200B;菜单浏览到&#x200B;**模板**&#x200B;选项卡并选择任意模板。 [了解详情](#access-manage-templates)
+1. 通过&#x200B;**营销活动管理** > **[!UICONTROL 投放]**&#x200B;菜单浏览到&#x200B;**[!UICONTROL 模板]**&#x200B;选项卡并选择任意模板。 [了解详情](#access-manage-templates)
 
 1. 单击屏幕右上角的&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
