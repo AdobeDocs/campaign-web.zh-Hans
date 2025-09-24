@@ -1,14 +1,21 @@
 ---
 title: 管理外部帐户
 description: 了解如何配置外部帐户
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 17%
 
 ---
 
 # 创建外部帐户 {#create-external-account}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="外部帐户创作"
+>abstract="作为 Campaign 管理员，您现在可以从 Campaign Web 用户界面建立与外部系统的新连接。您还可以查看、更新和管理现有的外部帐户。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 要创建新的外部帐户，请执行以下步骤。 特定的配置设置取决于您创建的外部帐户类型。
 

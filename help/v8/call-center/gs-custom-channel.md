@@ -3,14 +3,20 @@ audience: end-user
 title: 自定义渠道入门
 description: 了解如何使用Adobe Campaign Web创建和发送自定义渠道投放
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 2%
+source-wordcount: '700'
+ht-degree: 3%
 
 ---
 
 # 自定义渠道入门 {#gs-custom-channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="API投放的自定义渠道"
+>abstract="现在，您可以直接从Adobe Campaign Web UI基于自定义API渠道编排和执行投放。 这些投放可以是独立投放或工作流的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 您可以直接从Adobe Campaign Web UI根据与第三方集成的自定义渠道编排和执行投放。 自定义渠道的配置在客户端控制台中执行。
 
@@ -32,11 +38,11 @@ ht-degree: 2%
 
 首先，您需要配置自定义渠道。 以下是要在客户端控制台中执行的主要步骤。 这些步骤对于自定义外部和API渠道是通用的：
 
-1. 配置架构以将新渠道添加到可用渠道列表。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#configure-schema){target="_blank"}
-1. 创建新的路由外部帐户。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#reate-ext-account){target="_blank"}
-1. 创建与新渠道关联的新投放模板。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#create-template){target="_blank"}
+1. 配置架构以将新渠道添加到可用渠道列表。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
+1. 创建新的路由外部帐户。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
+1. 创建与新渠道关联的新投放模板。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
 
-自定义API渠道需要其他配置。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#api-additional){target="_blank"}
+自定义API渠道需要其他配置。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
 
 ## 创建投放{#create-delivery}
 
@@ -84,7 +90,7 @@ ht-degree: 2%
 
 1. 在投放仪表板中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
-1. 根据需要填写字段。 要了解如何设置此屏幕，请参阅此[页面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#api-additional-screen){target="_blank"}。
+1. 根据需要填写字段。 要了解如何设置此屏幕，请参阅此[页面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"}。
 
    ![显示API渠道属性配置选项的屏幕截图。](assets/cc-content-attributes-api.png)
 
@@ -112,7 +118,7 @@ ht-degree: 2%
 
 1. 在投放内容页面中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮并选择测试配置文件。
 
-1. 单击右侧的&#x200B;**打开预览**。 此功能需要使用JSSP进行配置。 请参见[此页面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hans#api-additional-preview){target="_blank"}。
+1. 单击右侧的&#x200B;**打开预览**。 此功能需要使用JSSP进行配置。 请参见[此页面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}。
 
    ![屏幕截图显示API的投放内容页面中的“模拟内容”选项](assets/cus-simulate-api.png){zoomable="yes"}
 
