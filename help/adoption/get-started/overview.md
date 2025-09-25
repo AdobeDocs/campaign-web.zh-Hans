@@ -4,9 +4,9 @@ description: 了解开始使用新的Campaign v8应用程序所需的步骤
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 29%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 1. 首先了解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下来，根据您的角色[&#128279;](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的体验差异。
+1. 接下来，根据您的角色[了解Adobe Campaign Standard与Adobe Campaign v8之间的](#experiences)体验差异。
 
 ## 新增功能 {#new}
 
@@ -111,13 +111,13 @@ ht-degree: 29%
 
   SMS的简单性和易用性使其成为非常宝贵的通信渠道，此外，它还具有数十亿终端的无与伦比的稳定性和兼容性。
 
-  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
+  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
 
 * **已升级的推送基础结构**
 
   Adobe Campaign v8正在推出我们最新的推送通知服务，该服务基于现代尖端技术构建的强大框架提供支持。 此服务旨在解锁更高级别的可扩展性，确保您的通知能够以无缝效率接触到更多受众。 通过我们增强的基础架构和优化的流程，您可以期待更高的扩展性和可靠性，使您能够以前所未有的方式吸引移动应用程序用户并与之建立联系。
 
-  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,11 +126,11 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 
 ## v8中添加了Campaign Standard功能 {#ac-v8-added}
 
-为了帮助您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。在[此文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans){target="_blank"}中对这些规则进行了详细说明。
+为了帮助您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。在[此文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中对这些规则进行了详细说明。
 
-* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对轮廓数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等轮廓维度进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hans){target="_blank"}。
+* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对轮廓数据的访问权限，除了打开和点击等功能性电子邮件活动数据之外，还支持按性别、城市和年龄等轮廓维度进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 
-* **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
+* **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
 * **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans){target="_blank"}。
 
@@ -141,8 +141,6 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 ## Campaign Standard和Campaign v8之间的主要差异 {#experiences}
 
 Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 但是，有一些不同之处如下所述。
-
-### 术语更改 {#terminology-changes}
 
 以下是Campaign Standard和Campaign v8之间的一些术语差异。
 
@@ -160,6 +158,7 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 * 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../../v8/monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../../v8/preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
+
 
 ## 新的用户体验
 
@@ -229,4 +228,4 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
