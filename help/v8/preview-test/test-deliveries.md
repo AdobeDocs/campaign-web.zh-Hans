@@ -3,9 +3,9 @@ audience: end-user
 title: 发送校样
 description: 了解如何定义和发送验证
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1167'
 ht-degree: 13%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 13%
 >id="acw_email_preview_mode"
 >title="预览模式"
 >abstract="通过将测试群体包括在主目标中而预览和测试消息。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="其他验证目标"
+>abstract="其他验证目标。"
 
 定义消息内容后，您可以通过向测试用户档案发送校样来预览和测试该内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
@@ -42,9 +47,9 @@ ht-degree: 13%
 
    根据消息渠道，校样可以发送给以下类型的收件人：
 
-   * 对于短信和电子邮件，您可以使用[测试用户档案](#test-profiles)，这些用户档案是数据库中的特定附加收件人。 您还可以使用主目标[&#128279;](#substitution-profiles)模式中的替换，该模式将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+   * 对于短信和电子邮件，您可以使用[测试用户档案](#test-profiles)，这些用户档案是数据库中的特定附加收件人。 您还可以使用主目标[模式中的](#substitution-profiles)替换，该模式将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
-   * 对于推送消息，您可以使用[订阅者](#subscribers)，这些订阅者是添加到数据库中的虚拟订阅者。 它们是在[!DNL Campaign]控制台中创建的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hans){target="_blank"}以了解详情
+   * 对于推送消息，您可以使用[订阅者](#subscribers)，这些订阅者是添加到数据库中的虚拟订阅者。 它们是在[!DNL Campaign]控制台中创建的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}以了解详情
 
    下面提供了每种模式的详细配置。
 
