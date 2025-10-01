@@ -4,9 +4,9 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="第 4 项"
->abstract="新一代查询建模器和电子邮件 Designer"
+>abstract="新一代查询建模器和电子邮件设计器"
 
 
 我们隆重推出 Adobe Campaign Web 用户界面的新版本。我们的最新版本带有多种直观的功能，这些功能旨在简化创建个性化跨渠道营销活动的过程、取得出色的成果并在所有渠道上都为您带来竞争优势。这一新推出的现代 UI 简化了营销活动的设计和投放，并实现了与其他 Adobe 解决项目（包括 Adobe Experience Platform）的一致性。
@@ -52,9 +52,9 @@ ht-degree: 91%
 >[!BEGINTABS]
 
 
->[!TAB 2025年9月版]
+>[!TAB 2025 年 9 月版] 
 
-9月版已上线。 Campaign Web用户界面中现在提供了新增功能和增强功能，包括API投放的自定义渠道、外部帐户创作和电子邮件内容锁定。 有关完整的概述，请查看发行说明。
+9 月版本现已上线。Campaign Web 用户界面现已提供新功能和增强特性，包括用于 API 投放的自定义渠道、外部账户编辑以及电子邮件内容锁定。如需完整概述，请查阅发行说明。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

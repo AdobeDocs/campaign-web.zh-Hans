@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
 
-## 2025年9月版 {#25-9-release}
+## 2025 年 9 月版 {#25-9-release}
 
 _2025 年 9 月 23 日_
 
-从9月版本开始，将开始提供以下功能。
+以下功能自 9 月版本起提供。
 
 <table>
 <thead>
 <tr>
-<th><strong>API投放的自定义渠道</strong><br/></th>
+<th><strong>用于 API 投放的自定义渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以直接从Adobe Campaign Web UI基于自定义API渠道编排和执行投放。 这些投放可以是独立的，也可以是工作流的一部分。自定义API渠道的配置在控制台中执行。</p>
+<p>您现在可以直接从 Adobe Campaign Web UI 基于自定义 API 渠道来编排和执行投放。这些投放既可以独立执行，也可以作为工作流的一部分。自定义 API 渠道的配置需在控制台中完成。</p>
 <p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -67,7 +67,7 @@ _2025 年 9 月 23 日_
 <tbody>
 <tr>
 <td>
-<p>现在，可使用Campaign通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。</p>
+<p>Campaign 现在支持在电子邮件模板中锁定内容，您可以选择锁定整个模板，或仅锁定特定结构和组件。这可帮助您防止内容被误编辑或误删除，从而更好地掌控模板定制，并提升电子邮件营销活动的效率与可靠性。</p>
 <p>有关更多信息，请参阅<a href="../content/content-locking.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -159,8 +159,8 @@ _2025 年 9 月 23 日_
 
 ### 改进 {#25-9-improvements}
 
-* 在使用电子邮件设计器的条件内容功能设置条件时，新增了一组运算符。
-* 筛选维度现在可在&#x200B;**生成受众**&#x200B;工作流活动中使用。 要查看或更改它，请单击定向维度旁边的图标。 [了解详情](../workflows/activities/build-audience.md#build-audience-configuration)。
+* 在使用电子邮件设计器的条件内容功能设置条件时，新增了一组运算符可供使用。
+* 过滤维度现已在&#x200B;**构建受众**&#x200B;工作流活动中可用。要查看或更改，请单击目标维度旁边的图标。[了解详情](../workflows/activities/build-audience.md#build-audience-configuration)。
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
