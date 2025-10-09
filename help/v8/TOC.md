@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 98%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 100%
       + [创建事务性消息](transactional-messaging/create-transactional.md)
       + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
+      + [使用用户档案数据扩充事务型消息](transactional-messaging/profile-enrichment.md)
    + [发送外部投放](msg/send-external-deliveries.md)
    + [将产品建议添加到您的消息](msg/offers.md)
+   + [配置多语言投放](msg/multilingual.md)
    + [将消息发送到您的订阅者](msg/send-to-subscribers.md)
    + [配置投放设置](advanced-settings/delivery-settings.md)
    + 预览和测试投放 {#preview-test}
