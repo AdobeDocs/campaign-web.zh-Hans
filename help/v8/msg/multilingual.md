@@ -2,9 +2,9 @@
 audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 在多语言投放中，语言管理基于变体。 每个变体表示一种语言。 在创建投放期间，您可以添加多种语言变体以匹配消息中所需的语言数量。 您还可以在添加这些变体后随时更改默认语言。
 
-多语言功能当前可用于电子邮件、推送通知和事务性消息。
+目前，多语言功能可用于电子邮件、推送通知、事务性消息和短信。
 
 >[!AVAILABILITY]
 >
@@ -107,7 +107,7 @@ ht-degree: 6%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
