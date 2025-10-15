@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
       + [创建事务性消息](transactional-messaging/create-transactional.md)
       + [验证您的事务性消息](transactional-messaging/validate-transactional.md)
       + [监测事务性消息](transactional-messaging/monitor-transactional.md)
-      + [使用用户档案数据扩充事务型消息](transactional-messaging/profile-enrichment.md)
+      + [使用轮廓数据扩充事务性消息](transactional-messaging/profile-enrichment.md)
    + [发送外部投放](msg/send-external-deliveries.md)
    + [将产品建议添加到您的消息](msg/offers.md)
    + [配置多语言投放](msg/multilingual.md)
@@ -279,7 +279,7 @@ ht-degree: 98%
    + [配置 [!DNL Campaign] 选项](administration/options.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)

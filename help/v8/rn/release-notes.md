@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
 
-## 2025年10月更新 {#25-9-updates}
+## 2025 年 10 月更新 {#25-9-updates}
 
-_2025年10月9日_
+_2025 年 10 月 9 日_
 
 <table>
 <thead>
 <tr>
-<th><strong>事务性消息传递、推送通知和短信(LA)的多语言功能</strong><br/></th> 
+<th><strong>事务性消息、推送通知和短信（LA）的多语言功能</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Adobe Campaign Web用户界面中以不同语言发送多条事务型消息、推送通知和短信消息。 多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您也可以使用所选的语言预览这些投放。</p>
-<p>注意：此功能仅适用于一组组织（限量发布），并将在未来版本中全局推出。</p>
+<p>您现在可以在 Adobe Campaign Web 用户界面中以不同语言发送多条事务性消息、推送通知和短信消息。多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您还可以使用您选择的语言预览这些投放内容。</p>
+<p>注释：此功能目前仅面向部分组织开放（限量发布版），将在未来版本中逐步向全球推广。</p>
 <p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -44,14 +44,14 @@ _2025年10月9日_
 <table>
 <thead>
 <tr>
-<th><strong>事务性消息中的用户档案扩充(LA)</strong><br/></th> 
+<th><strong>事务性消息中的轮廓扩充（LA）</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此功能允许您通过将Adobe Campaign数据库字段链接到消息内容来个性化事务型消息。 您可以选择目标映射、扩充列和协调键值，以确保准确、实时的个性化，同时保持性能阈值。</p>
-<p>注意：此功能仅适用于一组组织（限量发布），并将在未来版本中全局推出。 此功能当前仅适用于电子邮件。</p>
+<p>此功能允许您通过将 Adobe Campaign 数据库字段链接到消息内容来个性化事务性消息。您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。</p>
+<p>注释：此功能目前仅面向部分组织开放（限量发布版），将在未来版本中逐步向全球推广。此功能目前仅适用于电子邮件。</p>
 <p>有关更多信息，请参阅<a href="../transactional-messaging/profile-enrichment.md">详细文档</a>。</p>
 </td>
 </tr>
