@@ -3,9 +3,9 @@ audience: end-user
 title: 使用业务规则（类型）
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1503'
 ht-degree: 26%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 将分类应用于消息的主要步骤如下：
 
@@ -88,69 +88,25 @@ ht-degree: 26%
 >title="类型规则属性"
 >abstract="定义类型规则的属性。**控制**&#x200B;规则用于在发送前验证消息的质量和有效性，而&#x200B;**筛选**&#x200B;规则会根据特定标准排除某些目标受众区段。<br/><br/>您还可以更改规则的执行顺序，以管理在同一个消息处理阶段中执行同一类型的多条规则时执行类型规则的序列。"
 
-要创建分类规则，请导航到&#x200B;**[!UICONTROL 业务规则]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 分类规则]**&#x200B;选项卡。
+提供了两种类型的分类规则：
 
-单击&#x200B;**[!UICONTROL 创建分类规则]**&#x200B;按钮，然后执行下面详述的步骤。
+* **控制**：确保消息质量和有效性预发送，如字符显示、SMS长度、地址格式或URL缩短。 这些规则是使用脚本界面创建的，用于定义内容检查和修改的复杂逻辑。
 
-### 定义分类规则的属性 {#properties}
+* **筛选**：根据特定条件（如年龄、位置、国家/地区或电话号码）排除目标受众的区段。 这些规则链接到定向维度。
 
-定义分类规则的属性：
+>[!NOTE]
+>
+>目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. 输入规则的&#x200B;**[!UICONTROL 标签]**。
+要创建分类规则，请执行以下步骤：
 
-   ![控制规则创建界面](assets/business-rules-control-rule.png)
+1. 导航到&#x200B;**[!UICONTROL 业务规则]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 类型规则]**&#x200B;选项卡。
 
-1. 选择分类规则的&#x200B;**[!UICONTROL 类型]**：
+1. 单击&#x200B;**[!UICONTROL 创建分类规则]**&#x200B;按钮，然后执行下面详述的步骤。
 
-   * **控制**：确保消息质量和有效性预发送，如字符显示、SMS长度、地址格式或URL缩短。 这些规则是使用脚本界面创建的，用于定义内容检查和修改的复杂逻辑。
+[创建类型规则](assets/business-rules-create-typo.png)
 
-   * **筛选**：根据特定条件（如年龄、位置、国家/地区或电话号码）排除目标受众的区段。 这些规则链接到定向维度。
-
-   >[!NOTE]
-   >
-   >目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. 选择要与规则关联的&#x200B;**[!UICONTROL 渠道]**。
-
-1. 如果您不希望规则在创建后立即处于活动状态，请关闭&#x200B;**[!UICONTROL 活动]**&#x200B;选项。
-
-1. 定义规则的&#x200B;**[!UICONTROL 执行顺序]**。
-
-   默认情况下，分类规则顺序设置为50。 调整此值以管理在同一消息处理阶段执行多个相同类型的规则时执行分类规则的顺序。 例如，执行顺序为20的筛选规则在执行顺序为30的筛选规则之前执行。
-
-1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以访问高级设置，如规则的内部名称、文件夹存储和描述。
-
-1. 对于控制规则，其他选项中还提供了两个其他字段。 指定应用规则的时间及其警报级别：
-
-   * **[!UICONTROL 阶段]**：指定在投放生命周期的哪个时间点应用规则。 在&#x200B;**[!UICONTROL 阶段]**&#x200B;下拉列表中选择值。 展开以下部分，了解有关可能值的更多详细信息。
-
-   +++控制规则阶段：
-
-   **[!UICONTROL 在定位]**&#x200B;开始时：如果发生错误，则阻止执行个性化步骤。
-
-   **[!UICONTROL 定位后]**：如果需要了解目标的卷以应用控制规则，请选择此阶段。 例如，**[!UICONTROL 检查校对大小]**&#x200B;控件规则在每个定位阶段之后应用。 如果校样收件人过多，此规则会阻止消息个性化。
-
-   **[!UICONTROL 在个性化开始时]**：如果控件涉及审批消息个性化，请选择此阶段。 在分析阶段执行消息个性化。
-
-   **[!UICONTROL 在分析结束时]**：应用需要完整邮件个性化的检查。
-
-   +++
-
-   * **[!UICONTROL 级别]**：指定规则的警报级别。 展开以下部分以获取更多信息。
-
-   +++控制规则级别：
-
-   **[!UICONTROL 错误]**：停止邮件准备。
-
-   **[!UICONTROL 警告]**：在准备日志中显示警告。
-
-   **[!UICONTROL 信息]**：在准备日志中显示信息。
-
-   **[!UICONTROL 详细]**：在服务器日志中显示信息。
-
-   +++
-
-### 生成规则内容 {#build}
+### 定义规则的主要属性 {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ ht-degree: 26%
 >title="代码"
 >abstract="**控制**&#x200B;规则在消息发送前验证消息的质量和有效性，例如字符显示、SMS 长度、地址格式、URL 缩短情况。这些规则使用 JavaScript 代码创建。"
 
-定义分类规则的属性后，构建规则的内容。
+这些是创建新的分类规则时的主要属性。
 
-* 对于&#x200B;**控制规则**，请单击&#x200B;**编辑代码**&#x200B;按钮，然后使用JavaScript输入规则的逻辑。 在以下示例中，创建了一个规则，如果目标为空，则会在日志中显示警告。
+>[!BEGINTABS]
 
-  ![控制规则代码编辑器](assets/business-rules-code.png)
+>[!TAB 控制规则]
 
-* 对于&#x200B;**筛选规则**，选择定向维度并单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;按钮以使用[查询建模器](../query/query-modeler-overview.md)定义筛选条件。
+1. 输入规则的&#x200B;**[!UICONTROL 标签]**。
 
-  ![筛选规则查询建模器](assets/business-rules-query.png)
+[创建控制规则](assets/business-rules-create-typo1.png)
 
-规则就绪后，单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮以创建分类规则。 引用分类中的规则以将其应用于消息。
+1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以访问高级设置，如规则的内部名称、文件夹存储和描述。 您还可以指定应用规则的时间及其警报级别。 展开以下部分以获取更多信息。
+
+   +++阶段：
+
+   指定将在投放生命周期的哪个时间点应用规则。 在&#x200B;**[!UICONTROL 阶段]**&#x200B;下拉列表中选择值：
+
+   * **[!UICONTROL 在定位]**&#x200B;开始时：如果发生错误，则阻止执行个性化步骤。
+
+   * **[!UICONTROL 定位后]**：如果需要了解目标的卷以应用控制规则，请选择此阶段。 例如，**[!UICONTROL 检查校对大小]**&#x200B;控件规则在每个定位阶段之后应用。 如果校样收件人过多，此规则会阻止消息个性化。
+
+   * **[!UICONTROL 在个性化开始时]**：如果控件涉及审批消息个性化，请选择此阶段。 在分析阶段执行消息个性化。
+
+   * **[!UICONTROL 在分析结束时]**：应用需要完整邮件个性化的检查。
+
+   +++
+
+   +++级别：
+
+   指定规则的警报级别：
+
+   * **[!UICONTROL 错误]**：停止邮件准备。
+
+   * **[!UICONTROL 警告]**：在准备日志中显示警告。
+
+   * **[!UICONTROL 信息]**：在准备日志中显示信息。
+
+   * **[!UICONTROL 详细]**：在服务器日志中显示信息。
+
+   +++
+
+1. 要生成规则的内容，请单击&#x200B;**编辑代码**&#x200B;按钮，然后使用JavaScript输入规则的逻辑。 在以下示例中，创建了一个规则，如果目标为空，则会在日志中显示警告。
+
+   ![控制规则代码编辑器](assets/business-rules-code.png)
+
+1. 单击&#x200B;**创建**。
+
+
+>[!TAB 筛选规则]
+
+1. 输入规则的&#x200B;**[!UICONTROL 标签]**。
+
+[创建筛选规则](assets/business-rules-create-typo2.png)
+
+1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以访问高级设置，如规则的内部名称、文件夹存储和描述。
+
+1. 要构建规则的内容，请选择定向维度并单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;按钮以使用[规则生成器](../query/query-modeler-overview.md)定义筛选条件。
+
+   ![筛选规则查询建模器](assets/business-rules-query.png)
+
+1. 单击&#x200B;**创建**
+
+>[!ENDTABS]
+
+### 定义规则的其他属性 {#add-properties}
+
+现在，我们来定义其他参数。 在此屏幕中，您仍然可以更改之前定义的主属性。
+
+[创建筛选规则附加](assets/business-rules-create-typo2.png)
+
+1. 如果您不希望规则在创建后立即处于活动状态，请关闭&#x200B;**[!UICONTROL 活动]**&#x200B;选项。
+
+1. 定义规则的&#x200B;**[!UICONTROL 执行顺序]**。
+
+   默认情况下，分类规则顺序设置为50。 调整此值以管理在同一消息处理阶段执行多个相同类型的规则时执行分类规则的顺序。 例如，执行顺序为20的筛选规则在执行顺序为30的筛选规则之前执行。
+
+1. 选择要与规则关联的&#x200B;**[!UICONTROL 渠道]**。
+
+您的规则已准备好在分类中引用，以将其应用于消息。
 
 ## 引用分类中的分类规则 {#add-rules}
 
@@ -180,7 +203,7 @@ ht-degree: 26%
 
 1. 导航到&#x200B;**[!UICONTROL 分类]**&#x200B;选项卡，并打开要引用规则的分类。
 
-1. 选择&#x200B;**[!UICONTROL 分类规则]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加分类规则]**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 类型规则]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加规则)]**&#x200B;按钮。
 
    ![添加类型规则接口](assets/business-rules-reference.png)
 

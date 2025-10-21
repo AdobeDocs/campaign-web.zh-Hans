@@ -3,10 +3,10 @@ audience: end-user
 title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 24%
+source-wordcount: '1083'
+ht-degree: 23%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 * 工作流失败时，将通过电子邮件通知属于&#x200B;**[!UICONTROL 主管]**&#x200B;字段中所选操作员组的操作员。
 * 输入工作流的&#x200B;**[!UICONTROL 描述]**。
 
-当工作流为与营销活动[&#128279;](create-workflow.md)关联的时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
+当工作流为与营销活动[关联的](create-workflow.md)时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
 
 ## 分段设置 {#segmentation-settings}
 
@@ -100,5 +100,10 @@ ht-degree: 24%
 * **[!UICONTROL 连续错误]**：在&#x200B;**[!UICONTROL 如果出现错误]**&#x200B;字段中选择&#x200B;**[!UICONTROL 忽略]**&#x200B;值时，此字段将变为可用。 指定进程停止前可忽略的错误数。 一旦达到此数量，工作流状态将更改为&#x200B;**[!UICONTROL 失败]**。 如果此字段的值为 0，则无论错误数量是多少，工作流都绝不会停止。
 
 ## 初始化脚本 {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="初始化脚本"
+>abstract="利用此部分，可定义在工作流开始时运行的JavaScript代码。 它可用于在执行任何工作流活动之前初始化变量、设置参数或准备数据。"
 
 **初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 工作流执行时将调用脚本。 请参阅与[事件变量](../workflows/event-variables.md)相关的部分。
