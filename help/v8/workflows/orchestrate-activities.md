@@ -3,9 +3,9 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1287'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="活动属性"
->abstract="此部分允许您定义活动运行的方式和位置。 您可以设置执行操作、限制运行持续时间、选择时区、分配计算机关联性、管理异步行为以及指定出错时执行的操作。"
+>abstract="在此部分中，您可以配置活动的执行设置，包括要执行的操作、最大持续时间、时区、计算机关联和异步行为。"
 
 **执行**&#x200B;字段允许您定义任务启动时要执行的操作。
 

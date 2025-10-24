@@ -3,9 +3,9 @@ audience: end-user
 title: 使用业务规则（类型）
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 26%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 将分类应用于消息的主要步骤如下：
 
 1. [创建分类](#typology)。
-1. [创建类型规则](#typology-rules)。
+1. [创建类型规则](#typology-rule)。
 1. [在分类](#add-rules)中引用分类规则。
 1. [将分类应用于消息](#message)。
 
@@ -96,7 +96,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 要创建分类规则，请执行以下步骤：
 
@@ -104,7 +104,7 @@ ht-degree: 26%
 
 1. 单击&#x200B;**[!UICONTROL 创建分类规则]**&#x200B;按钮，然后执行下面详述的步骤。
 
-[创建类型规则](assets/business-rules-create-typo.png)
+   ![创建类型规则](assets/business-rules-create-typo.png)
 
 ### 定义规则的主要属性 {#properties}
 
@@ -118,7 +118,7 @@ ht-degree: 26%
 >title="代码"
 >abstract="**控制**&#x200B;规则在消息发送前验证消息的质量和有效性，例如字符显示、SMS 长度、地址格式、URL 缩短情况。这些规则使用 JavaScript 代码创建。"
 
-这些是创建新的分类规则时的主要属性。
+以下是创建新分类规则时要定义的主要属性：
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ ht-degree: 26%
 
 1. 输入规则的&#x200B;**[!UICONTROL 标签]**。
 
-[创建控制规则](assets/business-rules-create-typo1.png)
+   ![创建控制规则](assets/business-rules-create-typo1.png)
 
-1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以访问高级设置，如规则的内部名称、文件夹存储和描述。 您还可以指定应用规则的时间及其警报级别。 展开以下部分以获取更多信息。
+1. **[!UICONTROL 其他选项]**&#x200B;部分允许您访问高级设置，如规则的内部名称、文件夹存储和描述。 您还可以指定应用规则的时间及其警报级别。 展开以下部分以获取更多信息。
 
-   +++阶段：
+   +++阶段
 
    指定将在投放生命周期的哪个时间点应用规则。 在&#x200B;**[!UICONTROL 阶段]**&#x200B;下拉列表中选择值：
 
@@ -144,17 +144,17 @@ ht-degree: 26%
 
    +++
 
-   +++级别：
+   +++等级
 
    指定规则的警报级别：
 
-   * **[!UICONTROL 错误]**：停止邮件准备。
+   * **[!UICONTROL 错误]**：停止邮件准备
 
-   * **[!UICONTROL 警告]**：在准备日志中显示警告。
+   * **[!UICONTROL 警告]**：在准备日志中显示警告
 
-   * **[!UICONTROL 信息]**：在准备日志中显示信息。
+   * **[!UICONTROL 信息]**：在准备日志中显示信息
 
-   * **[!UICONTROL 详细]**：在服务器日志中显示信息。
+   * **[!UICONTROL 详细]**：在服务器日志中显示信息
 
    +++
 
@@ -169,7 +169,7 @@ ht-degree: 26%
 
 1. 输入规则的&#x200B;**[!UICONTROL 标签]**。
 
-[创建筛选规则](assets/business-rules-create-typo2.png)
+   ![创建筛选规则](assets/business-rules-create-typo2.png)
 
 1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以访问高级设置，如规则的内部名称、文件夹存储和描述。
 
@@ -185,7 +185,7 @@ ht-degree: 26%
 
 现在，我们来定义其他参数。 在此屏幕中，您仍然可以更改之前定义的主属性。
 
-[创建筛选规则附加](assets/business-rules-create-typo2.png)
+![创建附加筛选规则](assets/business-rules-create-typo3.png)
 
 1. 如果您不希望规则在创建后立即处于活动状态，请关闭&#x200B;**[!UICONTROL 活动]**&#x200B;选项。
 
