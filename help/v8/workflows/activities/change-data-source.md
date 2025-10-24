@@ -3,10 +3,10 @@ audience: end-user
 title: 使用更改数据源工作流活动
 description: 了解如何使用更改数据源工作流活动
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 12%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 13%
 
 在某些情况下，当前数据库中没有数据，或者数据不够有效，无法执行单一操作。 因此，您可能需要通过添加&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动，强制工作流使用其他数据库来执行此类操作。
 
-有关Campaign架构的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hans)。
+有关Campaign架构的详细信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)。
 
 >[!IMPORTANT]
 >
 >请注意，不应将&#x200B;**[!UICONTROL 更改维度]**&#x200B;和&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动添加到一行中。 如果需要连续使用这两个活动，请在它们之间包含&#x200B;**[!UICONTROL 扩充]**&#x200B;活动。 这可以确保正确执行并防止潜在的冲突或错误。
+
+>[!NOTE]
+>
+>**更改数据Source**&#x200B;活动每次执行最多可处理100万个记录。 如果您需要提高此限制，请联系您的Adobe代表。
 
 <!--
 

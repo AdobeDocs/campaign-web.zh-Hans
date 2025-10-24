@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 18%
+source-wordcount: '405'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请按照以下步骤进行：
 
-1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 在此页面[中了解有关子域配置](https://experienceleague.adobe.com/zh-hans/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)的更多信息。
+1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 在此页面[中了解有关子域配置](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)的更多信息。
 
    >[!NOTE]
    >
@@ -39,3 +39,13 @@ ht-degree: 18%
 1. **创建投放模板** — 新品牌可用后，最佳做法是至少创建一个引用此新品牌的新空白投放模板。 [了解详情](branding-assign.md)。
 
 1. **检查可投放性准则** — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。
+
+## 兼容性说明 {#compatibility-note}
+
+新的集中式品牌推广模型与客户端控制台中以前使用的[旧版品牌](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"}配置不兼容。
+
+在旧式方法中，客户通过扩展extAccount表单并使用&#x200B;**品牌**&#x200B;选项卡实施品牌。
+
+![](assets/branding-legacy.png)
+
+如果您的现有环境使用此旧版配置，则无法将其直接迁移到新的集中式品牌推广模型。 要采用新系统，必须全面重新实施品牌设置。

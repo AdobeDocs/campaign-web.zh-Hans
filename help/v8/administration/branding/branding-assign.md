@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hans)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 创建模板后，您可以将其链接到品牌。操作步骤：
 
@@ -126,3 +126,27 @@ ht-degree: 19%
 1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](../../email/create-email.md)部分。
 
 >[!ENDTABS]
+
+## 检查与事务型消息关联的品牌策略 {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>本节仅适用于事务型消息传递（消息中心）。
+>
+>虽然事务型功能在Campaign Web UI中可用，但必须在Campaign v8客户端控制台（控制实例）中执行以下验证步骤。
+
+从实时(RT)执行实例同步到控制实例的事务性投放不会复制路由或品牌策略等属性。 每周从同一模板生成这些同步投放，以恢复控制实例中的投放指示器。
+
+因此，控制实例显示默认品牌。 消息执行期间使用的实际品牌和路由设置是在控制实例上的事务性消息模板中定义的。
+
+要验证事务型消息使用了哪个品牌：
+
+1. 识别发布到实时的事务性模板的内部名称（例如，`TransactionalMessaging4768`）。
+
+   ![](assets/branding-transactional.png)
+
+1. 在控制实例中，在&#x200B;**事务性消息模板**&#x200B;下搜索此内部名称。
+
+   ![](assets/branding-transactional2.png)
+
+1. 打开模板以查看品牌和其他相关属性。
