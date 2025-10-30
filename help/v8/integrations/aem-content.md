@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Adobe Experience Manager平台中简化电子邮件投放内容和表单的管理。
 
-![](assets/do-not-localize/book.png) [了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=zh-Hans)
 
 ## 在[!DNL Adobe Experience Manager as a Cloud Service]中创建模板{#create-aem-template}
 
@@ -32,7 +32,7 @@ Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Ad
 
    ![[显示“Adobe Campaign电子邮件”模板选择和命名字段的屏幕截图。]](assets/aem_2.png)
 
-1. 通过添加组件(例如Adobe Campaign中的个性化字段)自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
+1. 通过添加组件(例如Adobe Campaign中的个性化字段)自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hans#editing-email-content)
 
 1. 电子邮件准备就绪后，导航到&#x200B;**[!UICONTROL 页面信息]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 启动工作流]**。
 

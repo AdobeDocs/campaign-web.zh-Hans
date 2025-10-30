@@ -52,4 +52,4 @@ Campaign用户对Adobe Campaign数据的访问权限可能受限。 Campaign管�
 
 ![只读模式的技术工作流界面，显示暂停或停止工作流的选项。](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-在[本节](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中了解有关技术工作流的更多信息。
+在[本节](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中了解有关技术工作流的更多信息。

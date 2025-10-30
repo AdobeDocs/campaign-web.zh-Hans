@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
-电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
+电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
 每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
 
 +++详细了解每种类型量度的错误细分。
 
