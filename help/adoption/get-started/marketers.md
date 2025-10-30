@@ -311,7 +311,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 >
 >* Adobe Campaign v8支持Android和iOS推送渠道。 要使用推送渠道过渡现有工作流和投放，请联系Adobe Campaign过渡经理。 了解有关[渠道设置](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}的更多信息。
 >
->* 请注意，适用于移动设备应用程序的SDK V4几年前在Campaign Standard[中被弃用。 ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}您应该已经过渡到Adobe Experience Platform SDK，该版本与Campaign v8中的版本相同。
+>* 请注意，适用于移动设备应用程序的SDK V4几年前在Campaign Standard[中被弃用。 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}您应该已经过渡到Adobe Experience Platform SDK，该版本与Campaign v8中的版本相同。
 > 
 
 ### 直邮 {#acs-gs-marketers-direct-mail}

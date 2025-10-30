@@ -70,9 +70,9 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 
 >[!IMPORTANT]
 >
->Adobe Campaign Standard中没有作为直接或间接父项的&#x200B;**所有（所有）**的组织单位将不会迁移到Campaign v8。
->></br>
->>为多个安全组中的用户分配了最高级别安全组的组织单位。 如果多个组具有平行的顶级单位，则系统会为Campaign Standard中的用户选择组织单位，并且该用户只能访问系统选择的组织单位及其子级。 在迁移后的Campaign v8中，用户将有权访问&#x200B;**所有分配的组织单位及其子单位**，权限可能会不断提升。 要防止出现这种情况，请避免将用户分配给具有并行组织单位的安全组。 了解有关[并行组织单位分配](#parallel-assignments)的更多信息。
+>Adobe Campaign Standard中没有作为直接或间接父项的&#x200B;**所有（所有）**&#x200B;的组织单位将不会迁移到Campaign v8。
+>&#x200B;></br>
+>&#x200B;>为多个安全组中的用户分配了最高级别安全组的组织单位。 如果多个组具有平行的顶级单位，则系统会为Campaign Standard中的用户选择组织单位，并且该用户只能访问系统选择的组织单位及其子级。 在迁移后的Campaign v8中，用户将有权访问&#x200B;**所有分配的组织单位及其子单位**，权限可能会不断提升。 要防止出现这种情况，请避免将用户分配给具有并行组织单位的安全组。 了解有关[并行组织单位分配](#parallel-assignments)的更多信息。
 
 
 在Adobe Campaign Standard中，**组织单位**&#x200B;映射到Campaign v8中的现有&#x200B;**文件夹**&#x200B;层次结构模型，以维护类似的访问控制。 [了解有关文件夹管理的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
