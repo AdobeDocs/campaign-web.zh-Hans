@@ -4,7 +4,7 @@ title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 

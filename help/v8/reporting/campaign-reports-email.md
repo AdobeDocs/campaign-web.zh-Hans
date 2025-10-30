@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ![投放概述报告的屏幕截图](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备期间处理的邮件总数。
 
@@ -52,7 +52,7 @@ ht-degree: 20%
 
 ![初始目标受众统计信息表的屏幕截图](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 初始受众]**：目标收件人的总数。
 
@@ -73,7 +73,7 @@ ht-degree: 20%
 
 ![详细描述投放成功的执行统计表的屏幕截图](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备后要投放的邮件总数。
 
@@ -83,7 +83,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 新隔离]**：在投放失败（用户未知，域无效）后隔离的地址总数与要投放的消息数相关。
 
-  电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
+  电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 +++
 
@@ -98,7 +98,7 @@ ht-degree: 20%
 
 ![反应统计信息表的屏幕截图，其中包含投放的收件人活动可用数据](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 独特打开次数]**：至少打开过一次邮件的目标收件人总数。
 
@@ -122,7 +122,7 @@ ht-degree: 20%
 
 ![生成的点击流表的屏幕截图](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 独特点击次数]**：在投放中至少点击一次的独特收件人总数。
 
@@ -141,13 +141,13 @@ ht-degree: 20%
 >title="按类型细分错误"
 >abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
+每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 ![每种类型图表和表的错误划分屏幕截图](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 用户未知]**：在投放期间生成错误类型以指示电子邮件地址无效。
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="按域细分错误"
 >abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
-每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
+每个域&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;**[!UICONTROL 表和图表的]**&#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 
@@ -187,7 +187,7 @@ ht-degree: 20%
 
 ![投放统计量度的屏幕截图](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 要传递的邮件数]**：已成功处理的邮件数与要传递的邮件数相关。
 
@@ -261,7 +261,7 @@ ht-degree: 20%
 
 ![访问次数前10位的链接图屏幕截图](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 点击次数]**：投放中链接的点击总数。
 

@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="监管"
->abstract="切换监管以锁定模板中的内容，可以锁定整个模板或特定结构和组件。这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。"
+>abstract="切换监管以锁定模板中的内容，可以锁定整个模板或特定结构和组件。这可帮助您防止内容被误编辑或误删除，从而更好地掌控模板定制，并提升电子邮件营销活动的效率与可靠性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->

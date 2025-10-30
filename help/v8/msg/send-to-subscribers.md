@@ -5,7 +5,7 @@ description: 了解如何向服务的订阅者发送消息
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 创建投放。 创建投放的步骤详见[此页面](../msg/gs-messages.md#create-delivery)。
 
-1. 浏览到您的投放设置，并将默认目标映射更改为&#x200B;**订阅(nms：subscriptions)**。
+1. 浏览到您的投放设置，并将默认目标映射更改为&#x200B;**订阅(nms:subscriptions)**。
 
    ![屏幕截图显示了目标映射更改为“Adobe Campaign中的订阅”的投放设置。](assets/service-delivery-change-mapping.png){zoomable="yes"}
 

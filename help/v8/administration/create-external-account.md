@@ -5,7 +5,7 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 1. 输入您的&#x200B;**[!UICONTROL 标签]**&#x200B;并选择外部帐户&#x200B;**[!UICONTROL 类型]**。
 
    * [促销活动特定的类型](external-account.md)
-   * [Adobe解决方案集成](integration-external-account.md)
+   * [Adobe 解决方案集成 ](integration-external-account.md)
    * [传输数据](transfer-external-account.md)
    * [外部数据库](external-account-database.md)
 

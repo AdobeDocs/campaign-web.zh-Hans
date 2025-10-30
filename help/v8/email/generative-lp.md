@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 具有AI助理的登陆页面
-description: AI助手入门
+description: AI 助手入门
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Adobe Campaign Web中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 

@@ -1,7 +1,8 @@
 ---
 title: 管理外部帐户
 description: 了解如何配置外部帐户
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 6%
@@ -12,7 +13,7 @@ ht-degree: 6%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adobe Campaign。 它可以在工作流活动中设置。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adobe Campaign。 它可以在工作流活动中设置。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![显示Amazon Simple Storage Service S3外部帐户配置字段的屏幕截图。](assets/external-AWS.png)
 
@@ -42,7 +43,7 @@ Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adob
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob Storage]**&#x200B;外部帐户可用于通过&#x200B;**[!UICONTROL 传输文件]**&#x200B;工作流活动将数据导入或导出到Adobe Campaign。 如需详细信息，请参阅[此小节](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+**[!UICONTROL Azure Blob Storage]**&#x200B;外部帐户可用于通过&#x200B;**[!UICONTROL 传输文件]**&#x200B;工作流活动将数据导入或导出到Adobe Campaign。 如需详细信息，请参阅[此小节](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![显示Azure Blob Storage外部帐户配置字段的屏幕截图。](assets/external-azure.png)
 

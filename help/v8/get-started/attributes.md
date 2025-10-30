@@ -4,7 +4,7 @@ title: 选择属性并将其添加到收藏夹
 description: 了解如何使用属性并轻松访问收藏的和最近使用的属性。
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

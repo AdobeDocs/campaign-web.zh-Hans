@@ -26,7 +26,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->除了在创建投放[&#128279;](../email/create-email.md#preview-test)期间和从[控制组](control-group.md)中发送验证外，添加陷阱组也是测试受众的好方法。
+>除了在创建投放[期间和从](../email/create-email.md#preview-test)控制组[中发送](control-group.md)验证外，添加陷阱组也是测试受众的好方法。
 
 ## 关于陷阱组 {#about-trap-group}
 

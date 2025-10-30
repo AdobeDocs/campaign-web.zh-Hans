@@ -68,7 +68,7 @@ ht-degree: 1%
 
    如果已计划直邮投放，请单击&#x200B;**[!UICONTROL 按计划发送]**&#x200B;按钮。 在[本节](../msg/gs-messages.md#schedule-the-delivery-sending)中了解有关投放计划的更多信息。
 
-发送投放后，将自动生成提取文件并将其导出到在投放模板的[高级设置](../advanced-settings/delivery-settings.md)中选择的&#x200B;**[!UICONTROL 路由]**&#x200B;外部帐户中指定的位置。
+发送投放后，将自动生成提取文件并将其导出到在投放模板的&#x200B;**[!UICONTROL 高级设置]**&#x200B;中选择的[路由](../advanced-settings/delivery-settings.md)外部帐户中指定的位置。
 
 跟踪投放页面中的KPI（关键绩效指标）数据和&#x200B;**[!UICONTROL 日志]**&#x200B;菜单中的数据。
 

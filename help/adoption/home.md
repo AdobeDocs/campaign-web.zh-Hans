@@ -20,7 +20,7 @@ ht-degree: 57%
 * 与 Adobe Experience Platform 集成：Managed Cloud Services v8 可与 Adobe Experience Platform 无缝连接，使客户能够充分利用其数据的潜力，并跨渠道开展个性化、有影响力的活动。
 * 一致的用户界面和体验：请放心，过渡到 Managed Cloud Services v8 不会对您的工作流造成干扰。您可以继续享有熟悉的用户界面和用户体验，确保您的团队可以轻松上手。
 
-作为迁移到Campaign v8的Campaign Standard，本文档可帮助您入门。
+作为过渡到Campaign v8的Campaign Standard，本文档可帮助您入门。
 
 >[!BEGINTABS]
 
@@ -93,4 +93,4 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 ## 其他资源
 
-[Adobe Campaign v8产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web用户界面文档](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hans){target="_blank"} - [Adobe Campaign客户端控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [客户端控制台Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} - [[!DNL Adobe Campaign] 自动化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hans){target="_blank"} - [Campaign v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans){target="_blank"}
+[Adobe Campaign v8产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web用户界面文档](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hans){target="_blank"} - [Adobe Campaign客户端控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [客户端控制台教程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} - [[!DNL Adobe Campaign] 自动化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hans){target="_blank"} - [Campaign v8控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans){target="_blank"}

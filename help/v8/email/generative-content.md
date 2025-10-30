@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 创新型内容
-description: AI助手入门
+description: AI 助手入门
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 

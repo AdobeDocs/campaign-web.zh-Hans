@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 创建事务型消息模板 {#transactional-template}
 
-在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional)上的事务性消息的配置不同。
+在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[上的](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)事务性消息的配置不同。
 
 事务型消息模板可用于在到达最终受众之前预览用户档案收到的投放内容。 例如，管理员可以设置和配置模板，以便营销用户随时使用。
 
@@ -66,7 +66,7 @@ ht-degree: 18%
 * **[!UICONTROL 执行文件夹]**，在执行后存储消息。
 * **[!UICONTROL 传递代码]**，如果需要，该代码有助于识别消息以进行报告。
 * **[!UICONTROL 描述]**。
-* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* 在枚举&#x200B;**[!UICONTROL deliveryNature]**&#x200B;中列出的&#x200B;*Nature*，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![显示事务性消息模板属性部分的屏幕截图。](assets/template-properties.png){zoomable="yes"}
 

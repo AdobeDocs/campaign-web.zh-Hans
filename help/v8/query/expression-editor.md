@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+>>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 使用表达式编辑器 {#edit}
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 | 值字段![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
+| 属性字段![的](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}表达式编辑器 | 值字段![的](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}表达式编辑器 |
 
 表达式编辑器提供：
 

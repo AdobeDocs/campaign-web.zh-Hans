@@ -25,7 +25,7 @@ ht-degree: 17%
 
 ![投放概述报告中显示的投放摘要量度](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++了解有关推送营销活动报告量度的更多信息。
++++了解有关推送营销活动报表量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备期间处理的邮件总数。
 
@@ -48,7 +48,7 @@ ht-degree: 17%
 
 ![报表中显示的初始目标受众统计信息](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++了解有关推送营销活动报告量度的更多信息。
++++了解有关推送营销活动报表量度的更多信息。
 
 * **[!UICONTROL 初始受众]**：目标收件人的总数。
 
@@ -69,7 +69,7 @@ ht-degree: 17%
 
 ![报告中显示的执行统计信息](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++了解有关推送营销活动报告量度的更多信息。
++++了解有关推送营销活动报表量度的更多信息。
 
 * **[!UICONTROL 要投放的邮件]**：投放准备后要投放的邮件总数。
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
 * **[!UICONTROL 新隔离]**：在投放失败（例如无效注册、消息拒绝或有效负载错误）后隔离的地址总数，与要投放的消息数相关。
 
-  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
+  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 +++
 
@@ -94,7 +94,7 @@ ht-degree: 17%
 
 ![报表中显示的已生成的点击流](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++了解有关推送营销活动报告量度的更多信息。
++++了解有关推送营销活动报表量度的更多信息。
 
 * **[!UICONTROL 唯一点击次数]**：在投放中至少点击一次的不同收件人的总数。
 

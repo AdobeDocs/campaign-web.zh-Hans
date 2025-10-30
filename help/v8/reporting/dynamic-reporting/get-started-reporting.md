@@ -7,7 +7,7 @@ exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->此功能仅在需要时可用。 要获取访问权限，请联系您的Adobe代表。
+>此功能仅按需提供。要获取访问权限，请联系您的Adobe代表。
 
 动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还可按用户档案维度（如性别、城市和年龄）进行人口统计分析。
 

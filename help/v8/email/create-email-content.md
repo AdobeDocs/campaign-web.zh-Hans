@@ -5,8 +5,8 @@ description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 54%
+source-wordcount: '650'
+ht-degree: 51%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 54%
 
    ![在Email Designer中显示结构组件窗格的屏幕截图。](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. 选择 **[!UICONTROL n:n 列]**&#x200B;组件来定义所选列数（3 和 10 之间）。通过移动每列底部的箭头来定义每列的宽度。
+1. 选择&#x200B;**[!UICONTROL n:n列]**&#x200B;组件以定义您选择的列数（3到10之间）。 通过移动每列底部的箭头来定义每列的宽度。
 
    >[!NOTE]
    >
@@ -110,4 +110,4 @@ ht-degree: 54%
 
 了解如何在电子邮件设计器中导航。了解如何从头开始构建和设计电子邮件、对电子邮件进行个性化和测试。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453575/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

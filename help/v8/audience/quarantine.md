@@ -30,7 +30,7 @@ Adobe Campaign管理电子邮件、推送和短信渠道的隔离地址。
 
 隔离通过从投放中排除错误的电话号码来降低SMS发送成本。
 
-在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中了解有关隔离的更多信息。
+在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中了解有关隔离的更多信息。
 
 ## 将地址添加到隔离区的原因 {#quarantines-why}
 
@@ -41,7 +41,7 @@ Adobe Campaign管理电子邮件、推送和短信渠道的隔离地址。
 * 对于电子邮件，当您的邮件报告为垃圾邮件时。 邮件会自动重定向到由Adobe管理的技术邮箱。 列入阻止列表随后，该用户的电子邮件地址会自动添加到隔离，且状态为。
 * 例如，当邮箱已满、地址不存在或电子邮件服务器不可用时，可以隔离电子邮件地址。
 
-请参阅[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}以了解有关投放失败的更多信息。
+请参阅[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}以了解有关投放失败的更多信息。
 
 ## 在何处查找隔离地址 {#quarantines-where}
 
@@ -57,4 +57,4 @@ Adobe Campaign界面中的![隔离位置](assets/quarantine_location.png){zoomab
 
 ![显示隔离地址的投放摘要报告](assets/quarantine_delivery.png){zoomable="yes"}
 
-您可以探索更多选项，以在Adobe Campaign控制台中管理隔离地址。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。
+您可以探索更多选项，以在Adobe Campaign控制台中管理隔离地址。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。

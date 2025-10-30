@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
    ![](assets/custom_field_1.png)
 
-1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms：recipient架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms:recipient架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将自定义字段添加到架构编辑器。
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将与收件人架构相同的自定义字段添加到架构编辑器。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 现在，您的用户档案字段已创建，我们需要将其链接到相应的动态报告维度。
 
-在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口，以便能够将PII数据发送到动态报告。 有关详细信息，请参见此 [&#x200B; 页面](pii-agreement.md)。
+在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口，以便能够将PII数据发送到动态报告。 有关详细信息，请参见此 [ 页面](pii-agreement.md)。
 
 1. 导航到资源管理器中的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]** > **[!UICONTROL 数据架构]** > **[!UICONTROL 其他报告字段]**&#x200B;文件夹。
 

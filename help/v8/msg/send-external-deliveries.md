@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign允许您管理在Campaign之外创建的投放，以通过外部�
 
    >[!NOTE]
    >
-   >如果要创建投放，请确保已使用&#x200B;**[!UICONTROL 路由]**&#x200B;类型的外部帐户选择了[投放模板](delivery-template.md)。 否则，您将无法选择[以上](#routing-external-account)创建的专用帐户。
+   >如果要创建投放，请确保已使用[路由](delivery-template.md)类型的外部帐户选择了&#x200B;**[!UICONTROL 投放模板]**。 否则，您将无法选择[以上](#routing-external-account)创建的专用帐户。
 
 1. 在投放&#x200B;**[!UICONTROL 内容]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 编辑内容]**。
 

@@ -22,7 +22,7 @@ ht-degree: 21%
 
 ![工作流活动概述](../assets/workflow-activities.png)
 
-## 定位活动 {#targeting}
+## 目标选择活动 {#targeting}
 
 这些活动特定于定位。 通过定义受众，并使用交集、并集或排除操作拆分或组合这些受众，可构建一个或多个目标受众。
 

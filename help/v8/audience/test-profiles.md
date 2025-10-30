@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [通过观看视频了解此功能](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hans){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 在[此部分](../preview-test/test-deliveries.md#test-profiles)中详细说明了向测试用户档案发送校样的步骤。
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 了解如何使用Campaign Web用户界面创建和管理测试用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442905?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

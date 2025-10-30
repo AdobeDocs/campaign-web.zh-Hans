@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -34,7 +34,6 @@ ht-degree: 17%
    * **[!UICONTROL 投放代码]**：使用您自己的命名惯例整理投放。
    * **[!UICONTROL 描述]**：提供投放的描述。
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
-
    +++
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以定位现有受众或创建您自己的受众。

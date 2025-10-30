@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Adobe Campaign包含多个连接器，这些连接器支持与外部应用程序的通信、连接到数据库引擎以及共享和同步数据。 Adobe配置这些连接。
 
-在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=zh-Hans){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
+在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
 
 此外，通过新的Campaign Web用户界面，您可以连接Adobe Experience Manager as a Cloud Service环境以实现以下用例：
 

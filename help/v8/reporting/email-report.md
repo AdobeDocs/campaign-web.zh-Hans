@@ -56,7 +56,7 @@ ht-degree: 37%
 
 ![显示投放统计信息详细信息的图形屏幕截图](assets/reporting_email_2.png){zoomable="yes"}
 
-+++了解有关电子邮件促销活动报告指标的更多信息。
++++了解有关电子邮件促销活动报表量度的更多信息。
 
 * **[!UICONTROL 已发送邮件]**：准备传递后要传递的邮件总数。
 
@@ -75,7 +75,7 @@ ht-degree: 37%
 >title="投放排除原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
-**[!UICONTROL 排除原因]**&#x200B;图形和表显示在投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){_blank}。
+**[!UICONTROL 排除原因]**&#x200B;图形和表显示在投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
 
 ![排除图表和表的原因屏幕截图](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -151,9 +151,9 @@ ht-degree: 37%
 >title="按类型细分错误"
 >abstract="**每种类型的错误细分**&#x200B;表提供了每种错误类型发生次数的全面细分。"
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
+每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 ![每个类型的错误划分屏幕截图](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
@@ -187,7 +187,7 @@ ht-degree: 37%
 >title="按域细分错误"
 >abstract="**每个域的错误细分**&#x200B;表根据所使用的域提供了每个错误发生次数的全面细分。"
 
-每个域&#x200B;**表和图形的**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
+每个域&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
 
 ![每个域的错误划分屏幕截图](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 

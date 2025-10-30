@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![显示用于添加订阅者的配置文件选择界面的屏幕截图。](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 发送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，使选定的收件人接收您在[创建服务](manage-services.md#create-service)时定义的订阅[确认消息](manage-services.md#create-confirmation-message)。
+1. 单击&#x200B;**[!UICONTROL 发送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，使选定的收件人接收您在[创建服务](manage-services.md#create-confirmation-message)时定义的订阅[确认消息](manage-services.md#create-service)。
 
    ![显示用于添加订阅者的确认消息界面的屏幕截图。](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 确认删除。
 
-1. 单击&#x200B;**[!UICONTROL 发送]**，使选定的收件人接收您在[创建服务](manage-services.md#create-service)时定义的取消订阅[确认消息](manage-services.md#create-confirmation-message)。
+1. 单击&#x200B;**[!UICONTROL 发送]**，使选定的收件人接收您在[创建服务](manage-services.md#create-confirmation-message)时定义的取消订阅[确认消息](manage-services.md#create-service)。
 
    ![显示取消订阅用户档案的确认消息界面的屏幕截图。](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 

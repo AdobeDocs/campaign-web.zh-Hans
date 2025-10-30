@@ -4,7 +4,7 @@ title: 开始使用呼叫中心渠道
 description: 了解如何使用 Adobe Campaign Web 创建和发送呼叫中心投放
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

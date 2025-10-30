@@ -5,8 +5,8 @@ description: 了解如何使用Adobe Campaign Web创建推送通知投放
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 30%
+source-wordcount: '738'
+ht-degree: 28%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 30%
    * **[!UICONTROL 投放代码]**：使用您自己的命名惯例整理投放。
    * **[!UICONTROL 描述]**：提供投放的描述。
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
-
    +++
 
 ## 选择您的投放受众 {#create-audience-push}
@@ -68,7 +67,7 @@ ht-degree: 30%
 
    ![显示推送投放受众选择的屏幕截图](assets/push_create_2.png){zoomable="yes"}
 
-1. 选择现有受众，或创建自己的受众，以优化推送投放的目标群体。 对于推送通知，默认[目标维度](../audience/about-recipients.md#targeting-dimensions)为链接到收件人表的&#x200B;**订阅者应用程序** (nms：appSubscriptionRcp)。
+1. 选择现有受众，或创建自己的受众，以优化推送投放的目标群体。 对于推送通知，默认[目标维度](../audience/about-recipients.md#targeting-dimensions)为链接到收件人表的&#x200B;**订阅者应用程序** (nms:appSubscriptionRcp)。
 
    了解如何在[此页面](../audience/add-audience.md)中选择现有受众。
 

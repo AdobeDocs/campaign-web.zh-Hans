@@ -155,7 +155,7 @@ ht-degree: 11%
 
 1. 展开&#x200B;**[!UICONTROL Call to action]**&#x200B;部分以修改该按钮在组件表单中的外观。 例如，更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
 
-   ![行动号召样式设置](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Call to action样式设置](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览某些设置，例如悬停时的按钮标签颜色。 [了解详情](create-lp.md#test-landing-page)
 

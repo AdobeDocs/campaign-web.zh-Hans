@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 带有AI助理的短信
-description: AI助手入门
+description: AI 助手入门
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 

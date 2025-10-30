@@ -4,7 +4,7 @@ description: 了解如何管理目标映射。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 14%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 14%
 
 ## 关于目标映射 {#about}
 
-每个通信渠道使用默认目标映射来定位其收件人。 例如，默认情况下，电子邮件和短信投放模板以&#x200B;**[!UICONTROL 收件人]**&#x200B;为目标。 因此，它们的目标映射使用&#x200B;**nms：recipient**&#x200B;表的字段。 对于推送通知，默认目标映射为链接到收件人表的&#x200B;**订阅者应用程序(nms：appSubscriptionRcp)**。
+每个通信渠道使用默认目标映射来定位其收件人。 例如，默认情况下，电子邮件和短信投放模板以&#x200B;**[!UICONTROL 收件人]**&#x200B;为目标。 因此，它们的目标映射使用&#x200B;**nms:recipient**&#x200B;表的字段。 对于推送通知，默认目标映射为链接到收件人表的&#x200B;**订阅者应用程序(nms:appSubscriptionRcp)**。
 
 可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 目标映射]**&#x200B;菜单访问目标映射。 从该屏幕中，您可以访问每个目标映射的详细信息，或创建新目标映射以满足您的需求。
 
 ![目标映射列表屏幕显示可用的映射](assets/target-mappings-list.png)
 
-有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans){target="_blank"}。
+有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 创建一个目标映射 {#create-mapping}
 
@@ -69,7 +69,7 @@ ht-degree: 14%
 
 1. 如果所选维度尚未由现有目标映射使用，则需要创建用于存储日志的架构。 **[!UICONTROL 存储]**&#x200B;部分中有其他选项可用。 展开下面的部分以了解更多详细信息。
 
-   +++新定向维度的存储选项
+   +++新定位维度的存储选项
 
    1. **[!UICONTROL 命名空间]**：标识将用于创建日志的命名空间。
    1. **[!UICONTROL 扩展架构的后缀]**：为新架构提供一个后缀。
