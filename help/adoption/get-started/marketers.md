@@ -33,7 +33,7 @@ ht-degree: 18%
 
 在下面的视频中，了解如何访问和导航Campaign Web用户界面，以及如何自定义清单列表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453432?captions=chi_hans&quality=12&learn=on){transcript=true}
 
 有关更多详细信息，请参阅以下文档：
 
@@ -54,7 +54,7 @@ ht-degree: 18%
 
 1. 在此视频中，了解如何使用Campaign Web用户界面访问、管理和浏览用户档案：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448374?captions=chi_hans&quality=12&learn=on){transcript=true}
 
    请参阅[用户档案入门](../../v8/audience/about-recipients.md)文档以了解详情。
 
@@ -66,7 +66,7 @@ ht-degree: 18%
 
 请在此视频中了解如何构建和管理受众、如何为投放选择受众以及定义控制组：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453212?captions=chi_hans&quality=12&learn=on){transcript=true}
 
 有关详细信息，请参阅[受众入门](../../v8/audience/manage-audience.md){target="_blank"}。
 
@@ -144,7 +144,7 @@ Campaign Web用户界面已完全重新设计，以方便使用、配置、执�
 
 请在此视频中了解工作流的工作方式以及如何创建定位工作流：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453982?captions=chi_hans&quality=12&learn=on){transcript=true}
 
 通过[工作流文档](../../v8/workflows/gs-workflows.md)获取更多详细信息。
 
@@ -200,7 +200,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 通过此视频了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览和发送校样：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454015?captions=chi_hans&quality=12&learn=on){transcript=true}
 
 在[创建您的第一个电子邮件文档](../../v8/email/create-email.md)中了解如何创建您的第一个定向电子邮件
 
@@ -212,13 +212,13 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
    了解如何在电子邮件设计器中导航。请在以下视频中了解如何从头开始结构和设计电子邮件、如何个性化和测试电子邮件：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453575?captions=chi_hans&quality=12&learn=on){transcript=true}
 
    电子邮件设计器通过直观的拖放界面，让您能够创建引人入胜且量身定制的电子邮件。请参阅[电子邮件Designer文档](../../v8/email/get-started-email-designer.md)以了解详情
 
    请在此视频中了解如何通过上传HTML创建电子邮件、如何使其与Email Designer兼容以及如何将其转换为模板：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447042?captions=chi_hans&quality=12&learn=on){transcript=true}
 
    内容片段是可重复使用的组件，可以在一条或多条消息中引用。了解有关[内容片段](../../v8/content/fragments.md)的更多信息，以简化电子邮件投放的创建。
 
@@ -228,7 +228,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
    在此视频中，了解如何预览电子邮件内容和个性化、发送测试投放（验证）以及检查常用桌面、移动和基于Web的客户端中的电子邮件渲染：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450347?captions=chi_hans&quality=12&learn=on){transcript=true}
 
 1. **发送电子邮件并检查日志**
 

@@ -46,4 +46,4 @@ ht-degree: 14%
 
 了解如何使用Campaign Web用户界面访问、管理和浏览用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448374?captions=chi_hans&quality=12)
