@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 64%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
 
-## 2025 年 10 月更新 {#25-9-updates}
+## 2025年10月版 {#25-10-updates}
 
-_2025 年 10 月 9 日_
+_2025 年 10 月 28 日_
 
 <table>
 <thead>
@@ -41,6 +41,10 @@ _2025 年 10 月 9 日_
 </tbody>
 </table>
 
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
 <table>
 <thead>
 <tr>
@@ -58,24 +62,17 @@ _2025 年 10 月 9 日_
 </tbody>
 </table>
 
-
-## 2025 年 9 月版 {#25-9-release}
-
-_2025 年 9 月 23 日_
-
-以下功能自 9 月版本起提供。
-
 <table>
 <thead>
 <tr>
-<th><strong>用于 API 投放的自定义渠道</strong><br/></th>
+<th><strong>与Adobe GenStudio集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以直接从 Adobe Campaign Web UI 基于自定义 API 渠道来编排和执行投放。这些投放既可以独立执行，也可以作为工作流的一部分。自定义 API 渠道的配置需在控制台中完成。</p>
-<p>有关更多信息，请参阅<a href="../call-center/gs-custom-channel.md">详细文档</a>。</p>
+<p>为了提高营销效率并维护品牌一致性，您现在可以将GenStudio for Performance Marketing体验与Campaign无缝集成。 这使您能够利用GenStudio的AI功能内容创建以及Campaign的高级编排功能。<p>
+<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -84,130 +81,47 @@ _2025 年 9 月 23 日_
 <table>
 <thead>
 <tr>
-<th><strong>外部帐户创作</strong><br/></th>
+<th><strong>电子邮件设计器中的深色模式支持</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>作为 Campaign 管理员，您现在可以从 Campaign Web 用户界面建立与外部系统的新连接。您还可以查看、更新和管理现有的外部帐户。</p>
-<p>有关更多信息，请参阅<a href="../administration/create-external-account.md">详细文档</a>。</p>
+<p>电子邮件Designer现在提供切换到深色模式视图的功能，您还可以在该视图中定义特定的自定义设置。 请注意，最终呈现取决于收件人的电子邮件客户端，并且并非所有电子邮件客户端都支持深色模式。</p>
+<p>有关更多信息，请参阅<a href="../email/accessible-content.md#dark-mode">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>电子邮件内容锁定</strong><br/></th>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign 现在支持在电子邮件模板中锁定内容，您可以选择锁定整个模板，或仅锁定特定结构和组件。这可帮助您防止内容被误编辑或误删除，从而更好地掌控模板定制，并提升电子邮件营销活动的效率与可靠性。</p>
-<p>有关更多信息，请参阅<a href="../content/content-locking.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>To enhance marketing efficiency and to maintain brand consistency, you can now seamlessly integrate GenStudio for Performance Marketing experiences with Campaign. This enables you to leverage GenStudio's AI-power content creation alongside Campaign's advanced orchestration capabilities.<p>
+<p>Continuous delivery activity</p>
 <p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings. Note that the final rendering depends on the recipient's email client, and not all email clients support dark mode.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### 改进 {#25-10-improvements}
 
-<!--table>>
-<thead>
-<tr>
-<th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now send multiple transactional messages and push notifications in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* 在Client Console中创建的投放中，**受众**&#x200B;部分现在指示是否已为验证目标定义了动态条件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability allows you to personalize transactional messages (Email, SMS, Push) by linking Adobe Campaign database fields to the message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* 现在，在使用Email Designer的条件内容功能设置条件时，您可以在新的和旧版规则生成器之间切换。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* 现在，您可以在收件人模式的屏幕定义中选择收藏集链接，例如购买。 这可通过专用选项卡在配置文件屏幕上显示相关数据。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
+* 作为Campaign管理员，您现在可以设置与Salesforce CRM和Microsoft Dynamics的连接。
+  [了解详情](../administration/external-crm.md)
 
-### 改进 {#25-9-improvements}
-
-* 在使用电子邮件设计器的条件内容功能设置条件时，新增了一组运算符可供使用。
-* 过滤维度现已在&#x200B;**构建受众**&#x200B;工作流活动中可用。要查看或更改，请单击目标维度旁边的图标。[了解详情](../workflows/activities/build-audience.md#build-audience-configuration)。
 <!--
-
-NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
-NEO-90345 WebUI - Extended operators for dynamic content ->>>> deja mis
-NEO-88858 WebUI - Send proof from execution recurring delivery -> bug
-NEO-89777 Content locking on create email template -> juliette
-NEO-90365 Multi-lingual – Identify fields editable from variants???? -> fix pour SMS
-query activity -> query ds workflow fitleting dimentsion 
-
+* Stop button for deliveries not linked to release and no info
 -->
 

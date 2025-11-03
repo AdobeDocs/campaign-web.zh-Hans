@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 36%
 
 ---
 
@@ -35,11 +35,13 @@ ht-degree: 38%
 
 ![传递详细信息屏幕，显示参数和报告](assets/delivery-details.png)
 
->[!NOTE]
->
->如果打开在客户端控制台中创建的投放，则可能会为受众显示&#x200B;**[!UICONTROL 其他目标]**&#x200B;部分。 这表示已为此投放配置了多个目标。 这些参数只能在控制台中修改。
->
->![有关其他目标配置的警告消息](assets/target-warning-audience.png){zoomable="yes"}
+如果打开在客户端控制台中创建的投放，则可能会为受众显示两个新部分。 这些参数只能在控制台中修改。
+
+* **[!UICONTROL 其他目标]**：表示已为此投放配置了多个目标。
+
+* **[!UICONTROL 其他验证目标]**：表示已为此投放中的验证目标定义了动态条件。
+
+![有关其他目标配置的警告消息](assets/target-warning-audience.png){zoomable="yes"}
 
 ## 复制投放 {#delivery-duplicate}
 

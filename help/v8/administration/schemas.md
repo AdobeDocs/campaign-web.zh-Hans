@@ -2,10 +2,10 @@
 title: 使用架构
 description: 了解如何使用架构。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 18%
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 18%
 
 Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性和组织性。
 
-有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在Web用户界面中访问架构 {#access}
 
@@ -63,7 +63,9 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 
 ![显示数据结构和属性的架构数据选项卡](assets/schemas-data.png)
 
-## 编辑自定义字段 {#fields}
+## 配置屏幕定义 {#screen-definition}
+
+### 编辑自定义字段 {#fields}
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
 
@@ -74,3 +76,27 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 单击&#x200B;**[!UICONTROL 预览]**&#x200B;可在示例屏幕中显示自定义字段。
 
 有关如何编辑架构中自定义字段的详细信息，请参阅以下部分：[配置自定义字段](../administration/custom-fields.md)。
+
+### 添加收藏集列表 {#collection-lists}
+
+此&#x200B;**自定义列表列表**&#x200B;分区允许您定义收藏集链接，如购买。 然后，相关数据通过专用选项卡显示在用户档案屏幕中。
+
+>[!NOTE]
+>
+>目前，此功能仅适用于收件人架构。
+
+1. 若要向界面添加收藏集列表，请单击省略号按钮，然后选择&#x200B;**选择自定义列表**。
+
+   ![收藏集列表创建](assets/schemas-collection1.png)
+
+1. 选择一个可用的自定义列表，例如购买，然后单击&#x200B;**确认**。
+
+   ![收藏集列表创建](assets/schemas-collection2.png)
+
+1. 浏览到&#x200B;**用户档案**&#x200B;菜单并筛选已购买的用户档案。
+
+   ![收藏集列表创建](assets/schemas-collection3.png)
+
+1. 单击配置文件。 您会注意到新选项卡已显示。 如果需要，您可以添加更多列。
+
+   ![收藏集列表创建](assets/schemas-collection4.png)

@@ -2,10 +2,10 @@
 title: 浏览轮廓的详细信息
 description: 了解如何浏览用户档案的详细信息。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 8%
 * **[!UICONTROL 订阅]**&#x200B;选项卡为insight提供该配置文件订阅的服务。 [了解有关订阅服务的更多信息](manage-services.md)
 
   ![显示“订阅”选项卡的屏幕截图，其中列出了配置文件订阅的服务。](assets/profile-subscriptions.png){zoomable="yes"}
+
+* 通过在收件人模式的屏幕定义中定义收藏集链接，您可以显示自定义选项卡，例如购买。 [了解有关收藏集链接的更多信息](../administration/schemas.md#collection-lists)
+
+  ![显示自定义选项卡的屏幕截图](assets/schemas-collection4.png){zoomable="yes"}
 
 * 此外，位于屏幕右上角的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮允许您通过发送、排除和跟踪日志查看用户档案交互的历史记录。 [了解有关投放日志的更多信息](../monitor/delivery-logs.md)
 

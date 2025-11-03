@@ -3,7 +3,7 @@ audience: end-user
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 29%
@@ -46,9 +46,9 @@ ht-degree: 29%
 
    ![显示“HTML转换器”选项卡和“转换”按钮的屏幕截图。](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
+   >[!NOTE]
+   >
+   >在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
 1. 使用Email Designer功能，根据需要个性化导入的文件。 [了解详情](content-components.md)
 
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 了解如何通过上传HTML创建电子邮件、使其与电子邮件Designer兼容并将其转换为模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447042/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

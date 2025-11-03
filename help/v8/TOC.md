@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [定义链接的样式](email/styling-links.md)
          + [添加内联样式属性](email/inline-styling.md)
          + [添加自定义 CSS](email/custom-css.md)
+         + [管理深色模式内容](email/dark-mode.md)
       + [创建无障碍内容](email/accessible-content.md)
    + AI 助手 {#ai-assistant}
       + [使用 AI 助手](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [与其他 Adobe 解决项目搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
+   + [使用 GenStudio for Performance Marketing](integrations/genstudio.md)
 + 配置 {#conf}
    + 品牌化 {#branding}
       + [关于品牌化](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [传输数据](administration/transfer-external-account.md)
+      + [CRM外部帐户](administration/external-crm.md)
    + [管理枚举](administration/enumerations.md)
    + [使用 JavaScript 代码工作](administration/javascript-codes.md)
 + [Campaign v8（控制台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
