@@ -3,13 +3,12 @@ title: 在Adobe Campaign中使用GenStudio for Performance Marketing
 description: 了解如何在Adobe Campaign中使用GenStudio for Performance Marketing
 feature: Email Design
 topic: Content Management, Artificial Intelligence
-badge: label="有限可用性" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 61e6dcf13fc6a405f5e25328bf336e863701b2fe
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '504'
 ht-degree: 7%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 7%
 
 ## GenStudio入门 {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}是一个创新型人工智能优先应用程序，它允许营销团队创建自己的广告和电子邮件，以推动符合您的品牌标准并遵守企业政策的有影响力的个性化营销活动。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}是一个创新型人工智能优先应用程序，它允许营销团队创建自己的广告和电子邮件，以推动符合您的品牌标准并遵守企业政策的有影响力的个性化营销活动。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
 
 >[!AVAILABILITY]
 >
@@ -33,7 +32,7 @@ ht-degree: 7%
 
 >[!INFO]
 >
->若要继续，请查看此[概述](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
+>若要继续，请查看此[概述](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
 
 ## 在Adobe Campaign中使用GenStudio功能 {#use-genstudio}
 
@@ -57,13 +56,13 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。<!--GenStudio doc to be updated with Campaign-->
+   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。<!--GenStudio doc to be updated with Campaign-->
 
 1. 在GenStudio中，使用此模板创建多个具有AI提示的电子邮件变体并保存它们。
 
    >[!NOTE]
    >
-   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
+   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
 
 ### 在Adobe Campaign中利用GenStudio体验 {#leverage-genstudio-experiences}
 
@@ -107,6 +106,6 @@ ht-degree: 7%
 
 Discover the process of exporting an email template from Adobe Campaign to GenStudio for Performance Marketing, crafting brand-compliant emails using the template in GenStudio, and importing them seamlessly back into Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456059/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
 TO REPLACE WITH CAMPAIGN VIDEO WHEN/IF RELEASED
 -->
