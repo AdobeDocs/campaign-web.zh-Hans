@@ -282,7 +282,7 @@ ht-degree: 99%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
