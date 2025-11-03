@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 91%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 9 月版] 
+>[!TAB 2025年10月版]
 
-9 月版本现已上线。Campaign Web 用户界面现已提供新功能和增强特性，包括用于 API 投放的自定义渠道、外部账户编辑以及电子邮件内容锁定。如需完整概述，请查阅发行说明。
+10月版已上线。 Campaign Web用户界面中现在提供了新增功能和增强功能，包括事务性消息传递、推送通知和短信的多语言功能、与Adobe GenStudio的集成以及事务性消息中的用户档案扩充。 如需完整概述，请查阅发行说明。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
