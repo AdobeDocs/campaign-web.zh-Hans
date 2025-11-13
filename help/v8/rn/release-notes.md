@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
 
-## 2025年10月版 {#25-10-updates}
+## 2025 年 10 月版本 {#25-10-updates}
 
-_2025年11月3日_
+_2025 年 11 月 3 日_
 
 <table>
 <thead>
@@ -65,13 +65,13 @@ _2025年11月3日_
 <table>
 <thead>
 <tr>
-<th><strong>与Adobe GenStudio集成</strong><br/></th>
+<th><strong>与 Adobe GenStudio 集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>为了提高营销效率并维护品牌一致性，您现在可以将GenStudio for Performance Marketing体验与Campaign无缝集成。 这使您能够利用GenStudio的AI功能内容创建以及Campaign的高级编排功能。<p>
+<p>为提升营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Campaign 无缝集成。这使您能够结合使用 GenStudio 的 AI 驱动内容创作功能与 Campaign 的高级编排能力。<p>
 <p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _2025年11月3日_
 <tbody>
 <tr>
 <td>
-<p>电子邮件Designer现在提供切换到深色模式视图的功能，您还可以在该视图中定义特定的自定义设置。 请注意，最终呈现取决于收件人的电子邮件客户端，并且并非所有电子邮件客户端都支持深色模式。</p>
+<p>电子邮件设计器现已支持切换至深色模式视图，您还可以在该模式下定义特定的自定义设置。请注意，电子邮件的最终呈现效果取决于收件人的电子邮件客户端，并非所有电子邮件客户端都支持深色模式。</p>
 <p>有关更多信息，请参阅<a href="../email/dark-mode.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -112,13 +112,13 @@ _2025年11月3日_
 
 ### 改进 {#25-10-improvements}
 
-* 在Client Console中创建的投放中，**受众**&#x200B;部分现在指示是否已为验证目标定义了动态条件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* 在客户端控制台中创建的投放中，**受众**&#x200B;部分现在会显示是否已为校样目标定义动态条件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* 现在，在使用Email Designer的条件内容功能设置条件时，您可以在新的和旧版规则生成器之间切换。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* 使用电子邮件设计器的条件内容功能设置条件时，您现在可以在新版规则生成器与旧版规则生成器之间切换。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* 现在，您可以在收件人模式的屏幕定义中选择收藏集链接，例如购买。 这可通过专用选项卡在配置文件屏幕上显示相关数据。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* 您现在可以在收件人架构的屏幕定义中选择收藏集链接，例如购买记录。这样可通过专用选项卡在轮廓界面中显示相关数据。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* 作为Campaign管理员，您现在可以设置与Salesforce CRM和Microsoft Dynamics的连接。
+* 作为 Campaign 管理员，您现在可以设置与 Salesforce CRM 和 Microsoft Dynamics 的连接。
   [了解详情](../administration/external-crm.md)
 
 <!--

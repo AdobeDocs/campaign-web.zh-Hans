@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -282,12 +282,12 @@ ht-degree: 99%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [传输数据](administration/transfer-external-account.md)
-      + [CRM外部帐户](administration/external-crm.md)
+      + [CRM 外部帐户](administration/external-crm.md)
    + [管理枚举](administration/enumerations.md)
    + [使用 JavaScript 代码工作](administration/javascript-codes.md)
 + [Campaign v8（控制台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
