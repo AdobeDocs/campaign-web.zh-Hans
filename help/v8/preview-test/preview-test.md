@@ -17,7 +17,7 @@ ht-degree: 17%
 >title="预览和测试内容"
 >abstract="定义内容后，即可使用轮廓和测试轮廓对其进行预览和测试。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-hans" text="发送校样"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#test-landing-page" text="测试登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="测试登陆页面"
 
 定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。 此步骤可确保准确性并消除内容和个性化设置中的错误。
 
