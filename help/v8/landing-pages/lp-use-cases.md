@@ -26,7 +26,7 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
 >abstract="在创建登陆页面时，通过四个现成的模板可实现不同的用例：将轮廓添加到 Campaign 数据库或更新轮廓、为客户订阅服务、为客户取消订阅服务或帮助用户退出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#create-landing-page" text="创建登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="创建登陆页面"
 
 要正确使用登陆页面，请使用专用选项将其引用为消息中的链接。 您无法将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。 请改用&#x200B;**模拟内容**&#x200B;功能对其进行测试。
 
@@ -185,7 +185,7 @@ ht-degree: 9%
 
 您可以设置&#x200B;**[!UICONTROL 阻止列表]**&#x200B;登录页面，以允许用户选择退出所有投放。
 
-1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;**&#x200B;**&#x200B;模板。
+1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;****&#x200B;模板。
 
 1. 选择&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面以编辑其内容。
 
