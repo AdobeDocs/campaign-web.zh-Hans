@@ -42,7 +42,7 @@ ht-degree: 14%
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
 | 订阅者应用程序 | 订阅应用程序的配置文件 | nms:appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
 
 ## 过滤维度 {#filtering}
 
