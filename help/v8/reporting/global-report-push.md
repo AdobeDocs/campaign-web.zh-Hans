@@ -83,7 +83,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 新隔离]**：投放失败（注册无效、邮件拒绝、有效负载错误及类似原因）后隔离的地址总数，与要投放的邮件数相关。
 
-  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
+  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 **[!UICONTROL 排除原因]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。
 
-推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
+推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 ## 投放吞吐量 {#delivery-throughput-sms}
 
