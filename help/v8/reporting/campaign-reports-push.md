@@ -79,7 +79,7 @@ ht-degree: 17%
 
 * **[!UICONTROL 新隔离]**：在投放失败（例如无效注册、消息拒绝或有效负载错误）后隔离的地址总数，与要投放的消息数相关。
 
-  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
+  推送通知错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){target="_blank"}中。
 
 +++
 

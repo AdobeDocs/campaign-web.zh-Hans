@@ -60,8 +60,8 @@ ht-degree: 46%
    | **联系信息** | 用户档案的联系信息，如电子邮件地址或电话号码。 |
    | **地址** | 用户档案的邮政地址。 此部分还提供地址质量的评估。 如果指定了“姓氏”、“城市”和“邮政编码”字段，则会将用户档案的地址视为有效。 |
    | **帐户详细信息** | 用户档案帐户的信息，如状态或帐号。 |
-   | **不再联系** | 配置文件的联系人首选项。 当选取这些选项中的任何一个选项时，配置文件都会处于阻止列表中。<br/>例如，如果收件人点击了新闻稿中的退订链接，此信息将添加到联系人数据中。 此类收件人不再位于所选渠道中。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}以了解有关隔离管理的更多信息 |
-   | **自定义字段** | 如果自定义字段已配置，则会显示在此部分中。 自定义字段是通过Adobe Campaign控制台添加到&#x200B;**[!UICONTROL 配置文件]**&#x200B;架构的其他属性。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}以了解详情 |
+   | **不再联系** | 配置文件的联系人首选项。 当选取这些选项中的任何一个选项时，配置文件都会处于阻止列表中。<br/>例如，如果收件人点击了新闻稿中的退订链接，此信息将添加到联系人数据中。 此类收件人不再位于所选渠道中。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}以了解有关隔离管理的更多信息 |
+   | **自定义字段** | 如果自定义字段已配置，则会显示在此部分中。 自定义字段是通过Adobe Campaign控制台添加到&#x200B;**[!UICONTROL 配置文件]**&#x200B;架构的其他属性。 请参阅[Adobe Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=zh-Hans){target="_blank"}以了解详情 |
    | **其他** | 其他内置属性。 |
 
 1. 配置配置文件后，单击&#x200B;**[!UICONTROL 创建]**&#x200B;以将其保存到数据库中。
