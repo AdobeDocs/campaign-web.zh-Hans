@@ -3,9 +3,9 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2043'
 ht-degree: 35%
 
 ---
@@ -52,12 +52,7 @@ ht-degree: 35%
 >title="扩充活动"
 >abstract="将扩充数据添加到工作流后，就可以在后续活动中使用这些数据，以根据客户的行为、偏好和需求将他们划分为不同的群组，或创建让目标受众产生共鸣的个性化营销消息和营销活动。"
 
-<!-- /NEO-92684 -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_settings"
->title="扩充设置"
->abstract="扩充设置：定向维度、其他属性和选项。"
 
 1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充的属性。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)。
 
@@ -175,7 +170,7 @@ ht-degree: 35%
 在工作流中，如果要使用从投放中的扩充活动中获得的选件，请执行以下步骤：
 
 1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
-如果您只想查看扩充活动中的优惠，请将&#x200B;**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
+如果您只想查看扩充活动中的优惠，请将**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
 
    ![](../assets/offers-settings.png)
 
