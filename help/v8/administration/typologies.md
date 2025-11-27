@@ -3,7 +3,7 @@ audience: end-user
 title: 使用业务规则（类型）
 description: 了解如何使用分类和分类规则来控制、筛选和监控投放的发送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 26%
@@ -13,7 +13,7 @@ ht-degree: 26%
 # 使用业务规则（类型） {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn3"
 >title="业务规则"
 >abstract="您现在可以在 Adobe Campaign Web 用户界面中创建类型和类型规则。使用类型，您可以控制和筛选投放的发送并确定其优先顺序。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 类型规则]**&#x200B;列表显示了迄今为止在Web用户界面或客户端控制台中创建的所有现有规则。 但是，在Web用户界面中只能创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;规则。 要创建其他类型的分类规则，如压力或容量规则，请使用Campaign v8客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 将分类应用于消息的主要步骤如下：
 
@@ -96,7 +96,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前，只能从Web用户界面创建&#x200B;**控件**&#x200B;和&#x200B;**筛选**&#x200B;分类规则。 要创建其他类型的规则，请使用客户端控制台。 [了解如何在客户端控制台中创建类型规则](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 要创建分类规则，请执行以下步骤：
 
