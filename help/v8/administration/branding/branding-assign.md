@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 14%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hans)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 创建模板后，您可以将其链接到品牌。操作步骤：
 
@@ -125,7 +125,10 @@ ht-degree: 14%
 
 1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](../../email/create-email.md)部分。
 
+1. 您还可以使用个性化字段添加品牌信息。 导航到&#x200B;**[!UICONTROL 品牌]**&#x200B;并选择要插入的品牌相关个性化块（如品牌名称、徽标URL、网站URL、发件人信息等）。
+
 >[!ENDTABS]
+
 
 ## 检查与事务型消息关联的品牌策略 {#check-branding-transactional}
 

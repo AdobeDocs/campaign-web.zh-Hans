@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 29%
 
 ---
 
@@ -60,3 +60,29 @@ ht-degree: 43%
   使用&#x200B;**[!UICONTROL 其他URL参数]**&#x200B;菜单创建其他参数作为键值对及其适用条件。 每个参数名称都必须唯一且非空，并且每个参数值都必须非空。 适用性条件可以为空，但所有这些值都不能包含JST标记。
 
   这些参数将应用于与&#x200B;**[!UICONTROL 域名列表]**&#x200B;中指定的任何域名匹配的跟踪URL，这些URL可以包括正则表达式。
+
+  **示例：**&#x200B;如果为该域配置了其他参数`https://www.example.com`和`https://www.example.com/?age=21&deliveryName=DM101`，则诸如`age=21`之类的跟踪URL将变为`deliveryName=DM101`。
+
+## 为事务性消息配置品牌策略 {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>本节仅适用于事务型消息传递（消息中心）。
+>
+>虽然事务型功能在Campaign Web UI中可用，但必须在Campaign v8客户端控制台（控制实例）中执行以下步骤。
+
+如果您将事务型消息传递（消息中心）与品牌策略结合使用，则需要额外配置。
+
+### 实时实例的跟踪公式
+
+在实时(RT)控制实例上激活品牌策略时，会使用特定的跟踪选项来管理跟踪公式。 这些公式在RT Control实例上集中配置，而不是在每个RT Execution实例上单独配置。
+
+以下选项定义RT投放使用的跟踪公式：
+
+* **`NmsTracking_RT_ClickFormula`**：指定用于对RT实例进行点击跟踪的公式
+
+* **`NmsTracking_RT_OpenFormula`**：指定用于在RT实例上打开跟踪的公式
+
+如果您的实施需要事务型消息的自定义跟踪公式，请使用以下选项：
+
+* **`Branding_RT_ListXtkOptions_toPublish`**：在此处列出自定义公式的XTK选项名称（用逗号分隔）。 这可确保RT投放可以应用自定义跟踪公式。
