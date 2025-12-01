@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 100%
          + [管理深色模式内容](email/dark-mode.md)
       + [创建无障碍内容](email/accessible-content.md)
    + AI 助手 {#ai-assistant}
-      + [使用 AI 助手](email/generative-gs.md)
-      + [使用 AI 生成电子邮件](email/generative-content.md)
-      + [使用 AI 生成短信](email/generative-sms.md)
-      + [使用 AI 生成推送通知](email/generative-push.md)
-      + [使用 AI 生成登陆页面](email/generative-lp.md)
-      + [AI 助手用例](email/generative-uc.md)
+      + [使用 AI 助手](content/generative-gs.md)
+      + [AI提示最佳实践](content/ai-assistant-prompting-guide.md)
+      + [使用AI生成完整内容](content/generative-full-content.md)
+      + [使用人工智能生成文本](content/generative-text.md)
+      + [使用人工智能生成图像](content/generative-image.md)
+      + [AI 助手用例](content/generative-uc.md)
       + 品牌 {#ai-assistant}
          + [创建和管理品牌](content/brands.md)
          + [评估您的品牌一致性得分](content/brands-score.md)

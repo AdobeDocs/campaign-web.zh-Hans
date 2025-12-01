@@ -3,9 +3,9 @@ audience: end-user
 title: 管理品牌
 description: 了解如何创建和管理品牌指南
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 要访问&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Campaign Web]菜单，必须向用户分配&#x200B;**[!UICONTROL 管理员（管理员）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;产品配置文件，才能创建和管理品牌。 要获得只读访问权限，用户需要[!UICONTROL AI助手]产品配置文件。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 了解如何分配与品牌相关的权限
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
    品牌仪表板中的![高级菜单选项](assets/brands-6.png)
 
-现在可从AI助手菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南。 这使得AI Assistant能够生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](../email/generative-gs.md)
+现在可从AI助手菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南。 这使得AI Assistant能够生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](../content/generative-gs.md)
 
 ![带有品牌下拉列表的AI助手菜单](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 写入样式]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加准则、异常或排除项。
 
-1. 输入指南、例外或排除项，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 输入您的指南、例外或排除项。 您还可以包括&#x200B;**[!UICONTROL 示例]**&#x200B;以更好地说明应如何应用它。
 
    ![](assets/brands-3.png)
 
-1. 选择一个要更新或删除的准则或排除项。
+1. 为准则、异常或排除指定&#x200B;**[!UICONTROL 使用上下文]**：
+
+   * **[!UICONTROL 渠道类型]**：选择应用此准则、异常或排除项的位置。 例如，您可能希望特定书写样式仅显示在电子邮件、移动设备、打印或其他通信渠道中。
+
+   * **[!UICONTROL 元素类型]**：指定应用规则的内容元素。 这可能包括标题、按钮、链接或内容中的其他组件等元素。
+
+   ![](assets/brands-16.png)
+
+1. 设置指南、例外或排除项后，单击&#x200B;**[!UICONTROL 添加]**。
+1. 如果需要，请选择要更新或删除的准则或排除项。
 
 1. 单击![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以编辑您的示例，或单击![潜水图像替换文本](assets/do-not-localize/Smock_Delete_18_N.svg "删除")图标以删除它。
 
@@ -298,9 +307,19 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 可视内容]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加指南、排除项或示例。
 
-1. 输入指南、排除项或示例，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 输入您的指南、排除项或示例。
 
    ![添加排除项或示例按钮](assets/brands-4.png)
+
+1. 为准则或排除项指定&#x200B;**[!UICONTROL 使用上下文]**：
+
+   * **[!UICONTROL 渠道类型]**：选择应用此准则、异常或排除项的位置。 例如，您可能希望特定书写样式仅显示在电子邮件、移动设备、打印或其他通信渠道中。
+
+   * **[!UICONTROL 元素类型]**：指定应用规则的内容元素。 这可能包括标题、按钮、链接或内容中的其他组件等元素。
+
+     ![添加使用情况内容](assets/brands-17.png)
+
+1. 设置指南、例外或排除项后，单击&#x200B;**[!UICONTROL 添加]**。
 
 1. 要添加显示正确用法的图像，请选择&#x200B;**[!UICONTROL 示例]**&#x200B;并单击&#x200B;**[!UICONTROL 选择图像]**。 您还可以添加显示不正确用法的图像作为排除示例。
 

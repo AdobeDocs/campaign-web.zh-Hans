@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 
 使用我们先进的所见即所得式的拖放编辑器重新定义内容投放，以实现简洁、高效的目的。这款一体化的工具带有无缝 AEM 集成、动态内容功能以及颠覆传统的 AI 助手，使投放内容的创建变得直观、高效且高度个性化。
 
-利用 AI 助手先进算法的强大功能来创建引人入胜、量身定制的内容，以推动成果。凭借由 AI 推动的智能内容生成功能提高打开率、点击率和转化率。可在[此部分](../email/generative-gs.md)中了解详情。
+利用 AI 助手先进算法的强大功能来创建引人入胜、量身定制的内容，以推动成果。凭借由 AI 推动的智能内容生成功能提高打开率、点击率和转化率。可在[此部分](../content/generative-gs.md)中了解详情。
 
 **重新设计的全新营销活动工作流活动**
 
