@@ -7,9 +7,9 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -165,3 +165,12 @@ ht-degree: 100%
 ## 了解详情 {#learn-more}
 
 参阅[此页面](list-filters.md)，了解如何浏览、搜索和过滤 Campaign 环境中可用的列表。
+
+
+
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_notification"
+>title="持续投放"
+>abstract="持续投放"
