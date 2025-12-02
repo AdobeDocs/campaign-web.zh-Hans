@@ -3,10 +3,11 @@ title: 在 Campaign 中个性化您的内容
 description: 了解如何在Adobe Campaign Web中个性化您的内容
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -28,7 +29,7 @@ ht-degree: 4%
 
 ## 使用用户档案数据进行个性化 {#data-personalization}
 
-您可以使用表达式编辑器对包含用户档案数据的任何投放进行个性化，该编辑器可在包含&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段中访问，例如主题行、电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md/#access)。
+您可以使用表达式编辑器对包含用户档案数据的任何投放进行个性化，该编辑器可在包含&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标的字段中访问，例如主题行、电子邮件链接和文本/按钮内容组件。 [了解如何访问表达式编辑器](gs-personalization.md#access)。
 
 ### Personalization语法 {#syntax}
 
@@ -42,7 +43,7 @@ Personalization标记遵循特定语法： `<%= table.field %>`。 例如，要�
 
 要将个性化标记添加到投放中，请执行以下步骤：
 
-1. 使用&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标打开表达式编辑器，可通过文本类型编辑字段（如主题行或短信正文）访问该图标。 [了解如何访问表达式编辑器](gs-personalization.md/#access)。
+1. 使用&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标打开表达式编辑器，可通过文本类型编辑字段（如主题行或短信正文）访问该图标。 [了解如何访问表达式编辑器](gs-personalization.md#access)。
 
    ![显示如何访问个性化对话框的屏幕截图](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 

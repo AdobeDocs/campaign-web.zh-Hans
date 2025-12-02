@@ -2,9 +2,9 @@
 title: AI 助手用例
 description: 通过用例了解如何使用AI助手
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -104,5 +104,23 @@ ht-degree: 1%
 1. 查看&#x200B;**[!UICONTROL 变体建议]**&#x200B;以找到您喜欢的资源。
 
 1. 选择&#x200B;**[!UICONTROL 预览]**&#x200B;以全屏查看所选变量。
+
+1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。
+
+## 跨支持的语言生成内容{#languages}
+
+![AI助手以多种语言（包括法语、西班牙语和德语）生成内容的动画演示](assets/do-not-localize/ai-language.gif)
+
+1. 设置和配置投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中用法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语或挪威语输入所需的请求来调整内容。
+
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示，并为生成的内容选择所需的&#x200B;**[!UICONTROL 语言]**。
+
+1. 根据需要进一步个性化您的提示，然后单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 以您选择的语言查看&#x200B;**[!UICONTROL 变体建议]**。
 
 1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。

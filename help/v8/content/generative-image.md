@@ -2,9 +2,9 @@
 audience: end-user
 title: 创新型内容
 description: 了解如何使用AI助手生成图像
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 >
 >在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-使用Adobe Campaign Web中的AI助手创建引人注目的可视内容，以增强电子邮件、网页、登陆页和推送通知中的消息。 AI Assistant可帮助您生成和优化图像，确保您的内容在视觉上吸引人并与您的品牌保持一致。
+使用Adobe Campaign Web中的AI助手创建引人注目的可视内容，以增强跨电子邮件、登陆页和推送通知的消息。 AI Assistant可帮助您生成和优化图像，确保您的内容在视觉上吸引人并与您的品牌保持一致。
 
 ## 用于电子邮件和登陆页面 {#email-web-channels}
 
-AI助手可以为您的电子邮件营销活动和登陆页面生成完整的可视化体验。 此功能允许您制作品牌上吸引眼球的图像，从而在数字接触点上与受众产生共鸣。
+AI助手可以为您的电子邮件投放和登陆页面生成完整的可视化体验。 此功能允许您制作品牌上吸引眼球的图像，从而在数字接触点上与受众产生共鸣。
 
 ### 访问和配置 {#access-configure}
 
@@ -68,6 +68,8 @@ AI助手可以为您的电子邮件营销活动和登陆页面生成完整的可
 
 ### 优化并完成 {#refine-finalize}
 
+生成图像变体后，您可以查看结果、检查品牌对齐方式并为内容选择最佳选项。
+
 1. 浏览生成的&#x200B;**[!UICONTROL 变体]**。
 
 1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
@@ -92,23 +94,13 @@ AI助手可以为您的电子邮件营销活动和登陆页面生成完整的可
 
 ## 适用于移动渠道 {#mobile-channels}
 
-AI Assistant允许您为推送通知和短信消息生成吸引人的文本，帮助您创建移动通信，在所有移动接触点上吸引注意并与受众产生共鸣。
+AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮助您创建吸引眼球并与受众引起共鸣的有视觉吸引力的移动通信。
 
 ### 访问和配置 {#mobile-access-configure}
 
-要开始使用AI助手为移动渠道生成文本，请首先设置投放并打开AI助手。 根据您使用的是推送通知还是短信消息，访问AI Assistant的步骤会略有不同。
+要开始使用AI助手为推送通知生成图像，请首先设置投放并打开AI助手。
 
-1. 创建和配置移动投放：
-
-   * **推送通知**：创建和配置推送通知投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../push/create-push.md)
-   * **短信**：创建和配置短信投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../sms/create-sms.md)
-
-1. 填写投放的&#x200B;**[!UICONTROL 基本详细信息]**。 完成后，单击&#x200B;**[!UICONTROL 编辑内容]**。
-
-1. 根据需要个性化您的消息：
-
-   * **推送通知**： [了解更多](../push/content-push.md)
-   * **短信**：[了解详情](../sms/content-sms.md)
+1. 创建和配置推送通知投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../push/create-push.md)
 
 1. 访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 

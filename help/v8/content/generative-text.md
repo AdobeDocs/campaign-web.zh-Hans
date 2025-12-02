@@ -2,9 +2,9 @@
 audience: end-user
 title: 创新型内容
 description: 了解如何使用AI助手生成文本内容体验
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1441'
 ht-degree: 1%
 
 ---
@@ -112,8 +112,6 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 1. 创建和配置移动投放：
    * **推送通知**：创建和配置推送通知投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../push/create-push.md)
    * **短信**：创建和配置短信投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../sms/create-sms.md)
-
-1. 填写投放的&#x200B;**[!UICONTROL 基本详细信息]**。 完成后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
 1. 根据需要个性化您的消息：
    * **推送通知**： [了解更多](../push/content-push.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: 创新型内容
 description: 了解如何使用Journey Optimizer中的AI助手生成完整的内容体验。
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1606'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,6 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 
 打开AI助手后，您现在可以配置生成设置，以创建与您的品牌和营销活动目标相匹配的内容。 自定义文本和图像参数、添加品牌资产并提供提示，以指导AI为您的受众生成相关变体。
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
-
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
@@ -57,6 +55,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
 
      ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/full-email-4.png){zoomable="yes"}
@@ -103,7 +102,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 
    * **[!UICONTROL 更改沟通策略]**：根据您的目标修改消息传送方式，如创建紧急消息或强调令人兴奋的吸引力。
 
-   ![显示选项的细化菜单](assets/full-email-5.png){zoomable="yes"}
+     ![显示选项的细化菜单](assets/full-email-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -112,7 +111,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 1. 插入个性化字段以根据用户档案数据自定义您的内容。 然后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试配置文件检查个性化设置。 [了解详情](../preview-test/preview-content.md)
 
 1. 查看并激活您的内容：
-   * **电子邮件**：定义内容、受众和计划后，您就可以准备电子邮件促销活动。 [了解详情](../monitor/prepare-send.md)
+   * **电子邮件**：定义内容、受众和计划后，您就可以准备电子邮件投放了。 [了解详情](../monitor/prepare-send.md)
    * **登陆页面**：登陆页面准备就绪后，您可以发布该登陆页面，以供在消息中使用。 [了解详情](../landing-pages/create-lp.md)
 
 ## 适用于移动渠道 {#mobile-channels}
@@ -190,7 +189,8 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
    * **[!UICONTROL 重述]**：以不同的方式重述您的消息，以使您的写作保持新鲜，并吸引不同的受众。
    * **[!UICONTROL 使用更简单的语言]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
    * **[!UICONTROL 翻译]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
-您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
+
+   您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![优化推送通知的选项](assets/push-genai-5.png){zoomable="yes"}
 
