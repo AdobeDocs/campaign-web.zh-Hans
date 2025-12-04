@@ -2,10 +2,10 @@
 audience: end-user
 title: 创新型内容
 description: 了解如何使用AI助手生成图像
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,8 @@ AI助手可以为您的电子邮件投放和登陆页面生成完整的可视化
    ![显示Adobe Campaign Web中的文本组件选择的屏幕截图](assets/image-genai-1.png){zoomable="yes"}
 
 ### 生成内容 {#generate-content}
+
+了解如何使用AI Assistant制作有效提示并配置图像设置以生成引人注目视觉效果的图像。 自定义宽高比、视觉强度和光照等参数，以创建与您的品牌和促销活动目标一致的图像。
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据所选内容对新内容进行个性化设置。
 
@@ -108,7 +110,7 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
 ### 生成内容 {#mobile-generate-content}
 
-在访问AI助手后，您可以调整生成设置以创建与您的品牌相一致的图像并支持您的目标。
+在访问AI助手后，您可以调整生成设置以创建与您的品牌相一致的图像并支持您的推送通知目标。 配置提示和图像参数，以生成针对移动设备显示器优化的视觉效果。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 

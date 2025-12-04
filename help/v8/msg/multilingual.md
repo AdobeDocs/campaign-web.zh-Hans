@@ -2,10 +2,10 @@
 audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
-source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
+source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '632'
+ht-degree: 7%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 8%
 >id="acw_deliveries_email_multilingual"
 >title="添加语言"
 >abstract="在此选项卡中，您将找到要发送的投放所使用的语言列表。您可以通过单击“添加语言”按钮或通过此选项卡复制另一种语言来添加更多语言。"
+
+[!CONTEXTUALHELP]
+>id=&quot;acw_multilingual_file_upload&quot;
+>title=&quot;导入语言变体&quot;
+>abstract=&quot;使用此对话框可通过导入CSV文件来添加语言变体。 该文件会自动填充所选语言的所有可用字段。 您可以在确认之前拖放文件或从计算机中选择文件。”
 
 在Campaign Web UI中，您可以将投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
 
@@ -107,7 +112,7 @@ ht-degree: 8%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
