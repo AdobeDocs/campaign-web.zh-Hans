@@ -16,7 +16,7 @@ ht-degree: 7%
 >title="添加语言"
 >abstract="在此选项卡中，您将找到要发送的投放所使用的语言列表。您可以通过单击“添加语言”按钮或通过此选项卡复制另一种语言来添加更多语言。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=&quot;acw_multilingual_file_upload&quot;
 >title=&quot;导入语言变体&quot;
 >abstract=&quot;使用此对话框可通过导入CSV文件来添加语言变体。 该文件会自动填充所选语言的所有可用字段。 您可以在确认之前拖放文件或从计算机中选择文件。”
@@ -112,7 +112,7 @@ ht-degree: 7%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
