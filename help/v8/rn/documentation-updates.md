@@ -6,9 +6,9 @@ exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 hidefromtoc: true
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '56'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 44%
 
 ## 2025 年 12 月 {#december-2025}
 
-**日期： 2025年12月1日**
+**日期：2025 年 12 月 1 日**
 
-* 重新组织了AI Assistant文档指南，其中包含用于生成[完整内容](../content/generative-full-content.md)、[文本生成](../content/generative-text.md)和[图像生成](../content/generative-image.md)的合并页面
-* 添加了[AI助手提示最佳实践指南](../content/ai-assistant-prompting-guide.md)，以帮助用户制作有效的提示
+* 重新整理了 AI 助手文档指南，并将以下内容整合为独立页面：[完整内容生成](../content/generative-full-content.md)、[文本生成](../content/generative-text.md)和[图像生成](../content/generative-image.md)
+* 新增[AI 助手提示最佳做法指南](../content/ai-assistant-prompting-guide.md)，帮助用户撰写更高效的提示。

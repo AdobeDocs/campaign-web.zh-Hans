@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,10 +130,10 @@ ht-degree: 98%
       + [创建无障碍内容](email/accessible-content.md)
    + AI 助手 {#ai-assistant}
       + [使用 AI 助手](content/generative-gs.md)
-      + [AI提示最佳实践](content/ai-assistant-prompting-guide.md)
-      + [使用AI生成完整内容](content/generative-full-content.md)
-      + [使用人工智能生成文本](content/generative-text.md)
-      + [使用人工智能生成图像](content/generative-image.md)
+      + [AI 提示最佳做法](content/ai-assistant-prompting-guide.md)
+      + [AI 全内容生成](content/generative-full-content.md)
+      + [AI 文本生成](content/generative-text.md)
+      + [AI 图像生成](content/generative-image.md)
       + [AI 助手用例](content/generative-uc.md)
       + 品牌 {#ai-assistant}
          + [创建和管理品牌](content/brands.md)
@@ -282,7 +282,7 @@ ht-degree: 98%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)

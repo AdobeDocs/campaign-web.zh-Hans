@@ -3,9 +3,9 @@ title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-select"
->title="保存筛选条件"
->abstract="选择现有的预定义过滤器。 预定义过滤器是用户创建并保存的自定义过滤器，以供将来使用。它们可在使用查询建模器进行过滤操作时充当快捷方式。例如，它们可以在过滤数据列表或创建投放的受众时使用。"
+>title="保存过滤器"
+>abstract="选择一个现有的预定义过滤器。预定义过滤器是用户创建并保存的自定义过滤器，以供将来使用。它们可在使用查询建模器进行过滤操作时充当快捷方式。例如，它们可以在过滤数据列表或创建投放的受众时使用。"
 
 预定义过滤器是用户创建并保存的自定义过滤器，以供将来使用。它们可在使用查询建模器进行过滤操作时充当快捷方式。例如，它们可以在过滤数据列表或创建投放的受众时使用。
 
@@ -51,8 +51,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
->title="保存筛选条件"
->abstract="利用此屏幕，可将规则另存为预定义过滤器。 您可以创建新的预定义过滤器，也可以覆盖现有过滤器。 要将筛选器另存为收藏，请打开&#x200B;**[!UICONTROL 收藏的筛选器]**&#x200B;选项。 您还可以启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项以使其他用户可访问该筛选器。"
+>title="保存过滤器"
+>abstract="在此界面，您可以将规则保存为预定义过滤器。您可以创建新的预定义过滤器，或覆盖现有过滤器。如需将过滤器保存为收藏，请开启&#x200B;**[!UICONTROL 收藏过滤器]**&#x200B;选项。您也可以启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项，让其他用户也能使用该过滤器。"
 
 ### 从查询建模器创建过滤器 {#create-from-rule-builder}
 
