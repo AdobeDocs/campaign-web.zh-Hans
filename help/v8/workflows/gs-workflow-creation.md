@@ -4,7 +4,7 @@ title: 创建工作流的主要原则
 description: 了解使用 Adobe Campaign Web 工作流的关键原则
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
 ht-degree: 100%
 
