@@ -3,10 +3,10 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 21%
 >id="acw_orchestration_end"
 >title="结束活动"
 >abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。此活动没有功能影响，因此是可选的。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="外部信号"
+>abstract="结束活动参数中外部信号部分的占位符。 仅适用于编排的营销活动。 不DELETE"
 
 以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
 
