@@ -3,7 +3,7 @@ title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
