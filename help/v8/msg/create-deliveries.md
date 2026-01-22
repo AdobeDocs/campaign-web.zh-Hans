@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 53%
+source-wordcount: '956'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="启用轮廓扩充"
->abstract="选择用于用户档案扩充的字段。"
+>abstract="选择用于用户档案扩充的字段。 只有带索引的字段可选为协调键。不支持的字段显示为灰色。"
 
 您可以从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单创建独立投放，也可以在工作流（包含或未包含在营销活动中）的上下文中创建投放。
 
