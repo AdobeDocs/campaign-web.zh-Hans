@@ -23,7 +23,7 @@ ht-degree: 1%
 在创建多语言电子邮件投放之前，请确保您已：
 
 * 访问为Adobe Campaign Web界面集成配置的Adobe Experience Manager实例。
-* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
+* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
 * 配置为接收Adobe Experience Manager内容的电子邮件投放模板。 请参阅[启用多语言模式](#enable-multilingual)部分中详述的步骤。
 
 ## 创建多语言投放
