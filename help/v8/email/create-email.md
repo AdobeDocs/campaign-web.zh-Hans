@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1648'
 ht-degree: 44%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
@@ -152,6 +152,8 @@ ht-degree: 44%
 在发送电子邮件之前，您可以预览和测试电子邮件以确保符合您的期望。
 
 在此使用案例中，您可以在模拟某些定向的用户档案时，预览电子邮件并向特定电子邮件地址发送校样。
+
+您还可以验证内容质量，以检查可读性、CTA有效性、主题行质量等。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
 
 有关如何预览电子邮件和发送校样的其他信息，请参阅[此部分](../preview-test/preview-test.md)。
 
@@ -252,4 +254,4 @@ ht-degree: 44%
 
 了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送校样。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454015/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

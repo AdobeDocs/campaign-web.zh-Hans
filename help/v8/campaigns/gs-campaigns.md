@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '214'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ Campaigns 提供专门的报告量度，以全面洞察整个营销活动的绩�
 
 * [访问和管理营销活动](manage-campaigns.md)
 * [创建您的第一个营销活动](create-campaigns.md)
+* [建立和管理审批流程](campaign-approvals.md)
 * [浏览您的营销活动报告](../reporting/campaign-reports.md)。

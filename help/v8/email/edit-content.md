@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 36%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -106,4 +106,6 @@ ht-degree: 36%
 
 1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)
 
-1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。[了解如何预览和测试电子邮件](../preview-test/preview-test.md)。
+1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。您还可以验证内容质量，以评估可读性、CTA效果和整体质量。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
+
+1. [了解如何预览和测试电子邮件](../preview-test/preview-test.md)。

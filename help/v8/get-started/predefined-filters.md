@@ -2,10 +2,10 @@
 title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 100%
 
    ![保存过滤器详情界面](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   如果需要，可将过滤器保存为收藏项目。可在[此部分](#fav-filter)中了解详情。
+   如果需要，可将过滤器保存为收藏项目。在[本节](#fav-filter)中了解详情。 您还可以启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项以使其他用户可访问该筛选器。 可在[此部分](#share-filter)中了解详情。
 
 1. 单击&#x200B;**确认**&#x200B;以保存您的更改。
 
-现在可在&#x200B;**预定义过滤器**&#x200B;列表中找到您的自定义过滤器，并且所有 Campaign 用户均可访问您的自定义过滤器。
+您的自定义筛选器现在可在&#x200B;**预定义筛选器**&#x200B;列表中使用。
 
 ### 从过滤器列表创建过滤器 {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![已保存新过滤器的界面](assets/new-filter.png){zoomable="yes"}
 
-该过滤器即被添加到预定义过滤器列表。如果需要，可将过滤器保存为收藏项目。可在[此部分](#fav-filter)中了解详情。
+该过滤器即被添加到预定义过滤器列表。如果需要，可将过滤器保存为收藏项目。在[本节](#fav-filter)中了解详情。 您还可以通过启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项与其他用户共享筛选器。 可在[此部分](#share-filter)中了解详情。
 
 ## 将过滤器保存为收藏项目 {#fav-filter}
 
@@ -98,6 +98,14 @@ ht-degree: 100%
 将过滤器保存为收藏项目后，所有用户均可在过滤器创建列表的&#x200B;**收藏过滤器**&#x200B;部分中找到该过滤器，如下所示：
 
 ![收藏过滤器部分](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## 共享预定义过滤器 {#share-filter}
+
+默认情况下，您创建的预定义过滤器是私有的，仅对您可见。 要使组织中的其他操作员能够访问某个筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。
+
+![共享筛选器选项](assets/predefined-filters-shared.png){zoomable="yes"}
+
+共享筛选器显示在所有用户的预定义筛选器列表中，允许用户在其自己的工作流和查询中使用这些筛选器。
 
 ## 使用预定义过滤器 {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ ht-degree: 100%
 
    ![预定义过滤器列表界面](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   您还可以使用![](../content/assets/do-not-localize/Smock_More_18_N.svg)按钮编辑或删除现有的预定义过滤器。
+
 1. 检查此过滤器的规则属性并确认。
 
    该过滤器现在用作&#x200B;**查询**&#x200B;活动中的查询。
@@ -141,7 +151,7 @@ ht-degree: 100%
 * 复制预定义过滤器。
 * 删除预定义过滤器。
 
-您还可以直接从规则生成器编辑或删除预定义过滤器。在预定义过滤器选择窗口中，使用&#x200B;**更多操作**&#x200B;按钮。您可以删除或编辑过滤器。您可以更改标签、添加描述并将其添加到收藏夹。
+您还可以直接从规则生成器编辑或删除预定义过滤器。在预定义过滤器选择窗口中，使用&#x200B;**更多操作**&#x200B;按钮。您可以删除或编辑过滤器。您可以更改标签、添加说明、将其添加为收藏夹，或切换&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项以控制可以访问筛选器的用户。
 
 ![预定义过滤器的编辑](assets/filter-edit.png){zoomable="yes"}
 

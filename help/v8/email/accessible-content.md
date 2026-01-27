@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1643'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 1%
 
 此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Adobe Campaign]设计的电子邮件和登陆页面并与之交互。
  
-
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
@@ -124,6 +123,8 @@ ht-degree: 1%
 * 使用测试配置文件预览内容。 [了解如何操作](../preview-test/preview-content.md)
 
 * 使用[电子邮件渲染](../preview-test/email-rendering.md)选项，该选项可利用Litmus在主要电子邮件客户端(Apple Mail、Gmail、Outlook)间模拟您的设计，并查看文本、颜色和图像是否可以访问您的内容。<!--Litmus includes accessibility testing-->
+
+* 验证内容质量以评估可读性，可读性是辅助功能的重要组成部分。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
 
 * 在将内容发送到实际受众之前，请发送校样以测试内容的渲染。 [了解如何操作](../preview-test/test-deliveries.md)
 

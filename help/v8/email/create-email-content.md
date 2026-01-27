@@ -3,10 +3,10 @@ audience: end-user
 title: 在电子邮件设计器中设计电子邮件
 description: 了解如何从头开始设计电子邮件内容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 51%
+source-wordcount: '673'
+ht-degree: 49%
 
 ---
 
@@ -104,10 +104,12 @@ ht-degree: 51%
 
    ![显示Email Designer中模拟选项的屏幕截图。](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. 您还可以验证内容质量，以评估可读性、CTA有效性、主题行质量等。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
+
 1. 在电子邮件就绪后，单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 操作说明视频 {#video}
 
 了解如何在电子邮件设计器中导航。了解如何从头开始构建和设计电子邮件、对电子邮件进行个性化和测试。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453575/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

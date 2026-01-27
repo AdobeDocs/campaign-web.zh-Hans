@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 

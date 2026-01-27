@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '700'
+ht-degree: 31%
 
 ---
 
@@ -20,42 +20,43 @@ Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
 
-## 2025 年 10 月版本 {#25-10-updates}
+## 2026年1月版 {#26-1-release}
 
-_2025 年 11 月 3 日_
+_2026 年 1 月 27 日_
+
+### 新增功能 {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>事务性消息、推送通知和短信（LA）的多语言功能</strong><br/></th> 
+<th><strong>多语言交付功能(GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Adobe Campaign Web 用户界面中以不同语言发送多条事务性消息、推送通知和短信消息。多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。您还可以使用您选择的语言预览这些投放内容。</p>
-<p>注释：此功能目前仅面向部分组织开放（限量发布版），将在未来版本中逐步向全球推广。</p>
+<p>多语言交付功能现在向所有客户提供(GA)。 利用此功能，可在Adobe Campaign Web用户界面中以不同语言发送多条消息。 您可以选择投放的默认语言以及可发送投放的不同语言。 您还可以使用您选择的语言预览这些投放内容。 
 <p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
+<p>对多语言推送通知进行了以下改进：</p>
+<ul>
+<li>您现在可以通过上传包含多语言内容的CSV文件来快速填充所有语言变体。 <a href="../msg/multilingual.md#csv-upload">了解更多</a>
+</li>
+<li>现在支持富推送通知。</li>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
 <table>
 <thead>
 <tr>
-<th><strong>事务性消息中的轮廓扩充（LA）</strong><br/></th> 
+<th><strong>事务性消息中的用户档案扩充(GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此功能允许您通过将 Adobe Campaign 数据库字段链接到消息内容来个性化事务性消息。您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。</p>
-<p>注释：此功能目前仅面向部分组织开放（限量发布版），将在未来版本中逐步向全球推广。此功能目前仅适用于电子邮件。</p>
+<p>现在，所有客户都可以使用“事务性消息中的用户档案扩充”功能(GA)。 除了电子邮件之外，现在还支持短信和推送通知。 此功能允许您通过将Adobe Campaign数据库字段链接到消息内容来个性化事务型消息。 您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。</p>
 <p>有关更多信息，请参阅<a href="../transactional-messaging/profile-enrichment.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -65,14 +66,14 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>与 Adobe GenStudio 集成</strong><br/></th>
+<th><strong>Adobe Experience Manager实时和语言副本</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>为提升营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Campaign 无缝集成。这使您能够结合使用 GenStudio 的 AI 驱动内容创作功能与 Campaign 的高级编排能力。<p>
-<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
+<p>Adobe Experience Manager内容集成允许您在构建投放时直接在Campaign中访问在Adobe Experience Manager中创建的所有语言和活动副本。 您可以实时刷新内容以获取最新的Adobe Experience Manager版本。 此集成消除了Adobe Experience Manager和Campaign之间的手动内容同步，简化了多语言活动工作流。</p>
+<p>有关更多信息，请参阅<a href="../integrations/aem-multilingual.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +82,55 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件设计器中的深色模式支持</strong><br/></th> 
+<th><strong>内容实验 — A/B测试</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>电子邮件设计器现已支持切换至深色模式视图，您还可以在该模式下定义特定的自定义设置。请注意，电子邮件的最终呈现效果取决于收件人的电子邮件客户端，并非所有电子邮件客户端都支持深色模式。</p>
-<p>有关更多信息，请参阅<a href="../email/dark-mode.md">详细文档</a>。</p>
+<p>Adobe Campaign Web中的内容实验允许您定义多个A/B测试投放变体，以衡量哪些变体最符合您的目标受众。 您可以更改投放内容、主题或发件人，以测试不同的版本并确定哪个变体产生最佳结果。 您可以对不同的电子邮件元素（如主题行、发件人姓名和电子邮件正文内容）执行A/B测试。</p>
+<p>有关更多信息，请参阅<a href="../email/ab-testing.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>连续投放活动</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>利用连续投放活动，可将新收件人添加到现有投放。 此投放类型可避免每次都创建新投放，从而更有效地根据需要发送低流量警报或通知。 连续投放会创建单个投放实例。 所有投放日志(broadLog)和跟踪日志都引用此一次投放，从而简化了监控和报告。</p>
+<p>有关更多信息，请参阅<a href="../workflows/activities/continuous-delivery.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### 改进 {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>活动审批管理</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>批准流程有助于协调多个利益相关者，并确保在发送投放之前进行质量控制。 当您的组织需要经过不同团队的验证时，例如营销经理审查内容或数据分析师验证目标受众，请使用批准。</p>
+<p>有关更多信息，请参阅<a href="../campaigns/campaign-approvals.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* 在客户端控制台中创建的投放中，**受众**&#x200B;部分现在会显示是否已为校样目标定义动态条件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+### 改进 {#26-1-improvements}
 
-* 使用电子邮件设计器的条件内容功能设置条件时，您现在可以在新版规则生成器与旧版规则生成器之间切换。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
-
-* 您现在可以在收件人架构的屏幕定义中选择收藏集链接，例如购买记录。这样可通过专用选项卡在轮廓界面中显示相关数据。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* 作为 Campaign 管理员，您现在可以设置与 Salesforce CRM 和 Microsoft Dynamics 的连接。
-  [了解详情](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* 动态报告现在支持推送通知和短信。 [了解详情](../reporting/dynamic-reporting/get-started-reporting.md)
+* 预定义过滤器 — 通过新的“共享过滤器”选项，您可以使预定义过滤器可供组织中的其他用户使用。 [了解详情](../get-started/predefined-filters.md#share-filter)
+* 现在包括在Adobe Experience Manager中创建的个性化字段，例如名称、电子邮件、日期和地址，这些字段在使用内容模板时可用。
+* 内容质量评估现在检查可读性、一致性和有效性问题，而不依赖于品牌准则，识别不明确的消息、不一致的语调或结构性缺口。 [了解详情](../content/brands-score.md)
+* 品牌指南现在包括一个颜色部分，该部分定义了品牌颜色系统的标准，以确保在所有体验中一致地使用主要颜色、次要颜色、强调色和中性颜色。 [了解详情](../content/brands-personalize.md)

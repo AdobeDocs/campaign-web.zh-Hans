@@ -3,9 +3,9 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 28%
    * **[!UICONTROL 描述]**：提供投放的描述。
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
    +++
+
+1. 您可以将推送通知配置为多语言投放，以根据用户档案的首选语言发送消息。 [了解详情](../msg/multilingual.md)。
 
 ## 选择您的投放受众 {#create-audience-push}
 

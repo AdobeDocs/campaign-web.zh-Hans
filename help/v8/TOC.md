@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + 发行说明 {#release-notes}
-   + [新增功能](rn/whats-new.md)
+   + [新增功能？](rn/whats-new.md)
    + [提前发布](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 之前版本  {#previous-release-notes}
@@ -28,7 +28,7 @@ ht-degree: 100%
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
    + [探索界面](get-started/user-interface.md)
-   + [浏览和筛选列表](get-started/list-filters.md)
+   + [浏览和过滤列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [使用文件夹](get-started/work-with-folders.md)
    + [选择属性并将其添加到收藏夹](get-started/attributes.md)
@@ -37,25 +37,26 @@ ht-degree: 100%
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
    + [AI 驱动的上下文帮助](get-started/using-ai.md)
    + [常见问题解答](get-started/faq.md)
-+ 消息和投放 {#msg}
-   + [消息入门](msg/gs-messages.md)
+   + 消息和投放 {#msg}
+   + [开始使用消息功能](msg/gs-messages.md)
    + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
    + [使用投放模板](msg/delivery-template.md)
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + [配置电子邮件内容](email/edit-content.md)
+      + [创建内容实验](email/ab-testing.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [使用多批次发送](advanced-settings/send-using-waves.md)
          + [监测投放日志](monitor/delivery-logs.md)
-         + [安排发送投放](monitor/schedule-sending.md)
+         + [计划投放的发送](monitor/schedule-sending.md)
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
       + 丰富的推送  {#rich-push}
          + [设计 Android 富推送投放](push/rich-push.md)
-         + [设计 iOS 富推送投放](push/rich-push-ios.md)
+         + [设计 iOS 富媒体推送投放](push/rich-push-ios.md)
       + [设计推送投放](push/content-push.md)
       + [预览并发送推送投放](push/send-push.md)
    + 短信 {#sms}
@@ -108,7 +109,7 @@ ht-degree: 100%
          + [在电子邮件中使用视觉片段](content/use-visual-fragments.md)
          + [在表达式编辑器中使用表达式片段](content/use-expression-fragments.md)
    + 设计电子邮件 {#email-design}
-      + [电子邮件设计器入门](email/get-started-email-designer.md)
+      + [Email Designer 快速入门](email/get-started-email-designer.md)
       + 开始计划您的电子邮件  {#start-design}
          + [从头开始](email/create-email-content.md)
          + [导入电子邮件内容](email/existing-content.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [AI 助手用例](content/generative-uc.md)
       + 品牌 {#ai-assistant}
          + [创建和管理品牌](content/brands.md)
-         + [评估您的品牌一致性得分](content/brands-score.md)
+         + [个性化您的品牌](content/brands-personalize.md)
+         + [评估您的内容](content/brands-score.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [开始使用营销活动](campaigns/gs-campaigns.md)
    + [访问和管理营销活动](campaigns/manage-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
+   + [建立和管理审批流程](campaigns/campaign-approvals.md)
    + [计划和项目](administration/plans-programs.md)
 + 工作流 {#wf}
    + [工作流入门](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 100%
       + [更改数据源](workflows/activities/change-data-source.md)
       + [更改维度](workflows/activities/change-dimension.md)
       + [合并](workflows/activities/combine.md)
+      + [持续投放](workflows/activities/continuous-delivery.md)
       + [重复数据删除](workflows/activities/deduplication.md)
       + [电子邮件、短信、推送、直邮](workflows/activities/channels.md)
       + [扩充](workflows/activities/enrichment.md)
@@ -215,10 +219,10 @@ ht-degree: 100%
    + [查询示例](query/query-samples.md)
    + [过滤器列表](query/filter.md)
 + 报告 {#reports}
-   + [审核记录](reporting/audit-trail.md)
+   + [审核跟踪](reporting/audit-trail.md)
    + [关键绩效指标](reporting/kpis.md)
    + 标准报告 {#standard-reports}
-      + [报告入门](reporting/gs-reports.md)
+      + [使用入门](reporting/gs-reports.md)
       + [导出您的报告](reporting/export-reports.md)
       + 投放报告 {#delivery-report}
          + [投放报告入门](reporting/delivery-reports.md)
@@ -268,6 +272,7 @@ ht-degree: 100%
    + [与其他 Adobe 解决项目搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
+   + [使用Adobe Experience Manager管理语言副本](integrations/aem-multilingual.md)
    + [使用 GenStudio for Performance Marketing](integrations/genstudio.md)
 + 配置 {#conf}
    + 品牌化 {#branding}

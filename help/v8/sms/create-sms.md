@@ -3,10 +3,10 @@ audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 39%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 39%
    了解如何在[此页面](../audience/one-time-audience.md)中创建新受众。
 
 1. 打开&#x200B;**[!UICONTROL 启用控制组]**&#x200B;选项，设置控制组以测量传递的影响。 消息不会发送到该控制组，因此您可以将收到消息的群体的行为与未收到消息的联系人的行为进行比较。 [了解详情](../audience/control-group.md)
+
+1. 您可以将短信投放配置为多语言投放，以根据用户档案的首选语言发送消息。 [了解详情](../msg/multilingual.md)。
 
 1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;开始设计短信消息的内容。 [了解详情](content-sms.md)
 
