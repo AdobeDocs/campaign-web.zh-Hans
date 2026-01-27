@@ -39,7 +39,7 @@ ht-degree: 11%
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. 选择模板并定义属性。 有关详细信息，请参见此 [ 页面](create-transactional.md#transactional-message)。
+1. 选择模板并定义属性。 有关详细信息，请参见此 [&#x200B; 页面](create-transactional.md#transactional-message)。
 
 ## 定义事件类型{#event-enrichment}
 
