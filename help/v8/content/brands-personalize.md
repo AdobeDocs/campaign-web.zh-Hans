@@ -4,9 +4,9 @@ title: 管理品牌
 description: 了解如何个性化您的品牌指南
 role: User
 level: Beginner, Intermediate
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 * **[!UICONTROL 关于品牌]**&#x200B;建立品牌的核心标识和值。
 * **[!UICONTROL 书写样式]**&#x200B;定义语言和内容标准。
 * **[!UICONTROL 视觉内容]**&#x200B;设置图像和设计准则。
-* **[!UICONTROL 颜色]**&#x200B;管理您品牌的颜色系统和使用情况。
 
 配置后，您可以使用品牌指南来验证内容质量和品牌一致性。 [了解有关内容质量验证的更多信息](brands-score.md#validate-quality)
 
@@ -249,60 +248,61 @@ ht-degree: 0%
 
 您现在可以进一步个性化您的品牌或[发布您的品牌](#create-brand-kit)。
 
-## 颜色 {#colors}
+<!--
+## Colors {#colors}
 
-**[!UICONTROL 颜色]**&#x200B;部分介绍了品牌颜色系统的标准，概述了如何在体验间选择、组织和应用颜色。 它确保了一致地使用主要颜色、次要颜色、强调色和中性颜色，以保持有凝聚力、可访问和可识别的品牌标识。
+The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
 
-+++ 可用类别和示例
++++ Available categories and examples
 
 <table>
   <thead>
     <tr>
-      <th>类别</th>
-      <th>准则示例</th>
-      <th>排除项示例</th>
+      <th>Category</th>
+      <th>Guidelines Example</th>
+      <th>Exclusions Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>主要颜色</td>
-      <td>对徽标、标题和主要call-to-action元素使用主要品牌颜色。</td>
-      <td>请勿替换或修改主要品牌颜色。</td>
+      <td>Primary colors</td>
+      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
+      <td>Do not substitute or modify primary brand colors.</td>
     </tr>
     <tr>
-      <td>次要颜色</td>
-      <td>使用辅助颜色支持布局、插图和UI组件。</td>
-      <td>不要让次要颜色超过主要品牌颜色。</td>
+      <td>Secondary colors</td>
+      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
+      <td>Do not let secondary colors overpower primary brand colors.</td>
     </tr>
     <tr>
-      <td>重点颜色</td>
-      <td>请谨慎使用强调色来显示按钮、链接和警报。</td>
-      <td>对于较大的背景区域，请勿使用强调色。</td>
+      <td>Accent colors</td>
+      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
+      <td>Do not use accent colors for large background areas.</td>
     </tr>
     <tr>
-      <td>中性色</td>
-      <td>对文本、分隔线、边框和细微UI元素使用中性色。</td>
-      <td>避免使用对比度差或色度投射较重的中性色。</td>
+      <td>Neutral colors</td>
+      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
+      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
     </tr>
     <tr>
-      <td>背景颜色</td>
-      <td>使用浅色或中性背景以确保可读性和视觉清晰度。</td>
-      <td>请勿在低对比度背景上放置文本或徽标。</td>
+      <td>Background colors</td>
+      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
+      <td>Do not place text or logos on low-contrast backgrounds.</td>
     </tr>
     <tr>
-      <td>其他颜色</td>
-      <td>仅将数据可视化或批准的营销活动使用其他颜色。</td>
-      <td>不要引入未经批准或品牌外颜色。</td>
+      <td>Additional colors</td>
+      <td>Use additional colors only for data visualization or approved campaigns.</td>
+      <td>Do not introduce unapproved or off-brand colors.</td>
     </tr>
     <tr>
-      <td>颜色比例</td>
-      <td>对UI状态（例如悬停、活动和禁用）使用批准的色调和底纹。</td>
-      <td>请勿创建非官方的阴影或渐变。</td>
+      <td>Color scales</td>
+      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
+      <td>Do not create unofficial shades or gradients.</td>
     </tr>
     <tr>
-      <td>使用指南</td>
-      <td>在所有资产中保持一致的颜色使用率和可访问的对比度。</td>
-      <td>请勿混合冲突的调色板或应用颜色不一致。</td>
+      <td>Usage guidelines</td>
+      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
+      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
     </tr>
 </table>
 
@@ -310,39 +310,40 @@ ht-degree: 0%
 
 </br>
 
-个性化您的&#x200B;**[!UICONTROL 颜色]**：
+To personalize your **[!UICONTROL Colors]**:
 
-1. 在&#x200B;**[!UICONTROL 颜色]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加颜色、准则或排除项。
+1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
 
-1. 输入颜色信息以准确定义它：
+1. Enter your color information to define it accurately:
 
-   * **颜色名称**：提供一个清晰的描述性名称，以标识品牌系统中的颜色。
+    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
 
-   * **颜色值**：使用色相选择器选择您的颜色，或使用RGB、十六进制或Pantone名称/代码输入精确值，以确保数字资源和打印资源的一致性。
+    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
 
-   ![](assets/brands-color-1.png)
+    ![](assets/brands-color-1.png)
 
-1. 检查您的选择以确认准确性和视觉一致性，然后单击&#x200B;**[!UICONTROL 添加]**&#x200B;保存您的颜色。
+1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
 
-1. 然后，输入您的准则或排除项。
+1. Then, enter your guideline or exclusion.
 
-1. 指定指南或排除项的使用上下文：
+1. Specify the Usage context for your guideline or exclusion:
 
-   * **[!UICONTROL 渠道类型]**：选择应用此准则、异常或排除项的位置。 例如，您可能希望特定书写样式仅显示在电子邮件、移动设备、打印或其他通信渠道中。
+    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
 
-   * **[!UICONTROL 元素类型]**：指定应用规则的内容元素。 这可能包括标题、按钮、链接或内容中的其他组件等元素。
+    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
 
-     ![](assets/brands-color-2.png)
+      ![](assets/brands-color-2.png)
+  
+1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
 
-1. 设置指南、例外或排除项后，单击&#x200B;**[!UICONTROL 添加]**。
+1. If needed, select one of your guideline or exclusion to update or delete.
 
-1. 如果需要，请选择要更新或删除的准则或排除项。
+1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
 
-1. 选择一个指南或排除项以更新它。 单击![潜水图像替换文本](assets/do-not-localize/Smock_Delete_18_N.svg "删除")图标以将其删除。
+    ![](assets/brands-color-3.png)
 
-   ![](assets/brands-color-3.png)
+1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
-1. 单击&#x200B;**[!UICONTROL 添加群组]**&#x200B;为您的品牌定义其他颜色或添加色阶群组。
+You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
 
-您现在可以进一步个性化您的品牌或[发布您的品牌](brands.md#create-brand-kit)。
-
+-->

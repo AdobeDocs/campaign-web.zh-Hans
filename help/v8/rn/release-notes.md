@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 31%
+source-wordcount: '670'
+ht-degree: 32%
 
 ---
 
@@ -133,4 +133,3 @@ _2026 年 1 月 27 日_
 * 预定义过滤器 — 通过新的“共享过滤器”选项，您可以使预定义过滤器可供组织中的其他用户使用。 [了解详情](../get-started/predefined-filters.md#share-filter)
 * 现在包括在Adobe Experience Manager中创建的个性化字段，例如名称、电子邮件、日期和地址，这些字段在使用内容模板时可用。
 * 内容质量评估现在检查可读性、一致性和有效性问题，而不依赖于品牌准则，识别不明确的消息、不一致的语调或结构性缺口。 [了解详情](../content/brands-score.md)
-* 品牌指南现在包括一个颜色部分，该部分定义了品牌颜色系统的标准，以确保在所有体验中一致地使用主要颜色、次要颜色、强调色和中性颜色。 [了解详情](../content/brands-personalize.md)
