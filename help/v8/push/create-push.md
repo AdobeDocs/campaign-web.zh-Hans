@@ -3,7 +3,7 @@ audience: end-user
 title: 创建推送通知投放
 description: 了解如何使用Adobe Campaign Web创建推送通知投放
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 28%
@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="推送通知模板"
 >abstract="选择推送通知模板以开始推送投放。通过投放模板，可轻松地在营销活动和投放中重用自定义内容和设置。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hans" text="使用投放模板"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="使用投放模板"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
