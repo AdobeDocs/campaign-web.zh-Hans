@@ -3,7 +3,7 @@ audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 7f7063572b95df9c289e614cb217239f579ddb27
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 37%
@@ -27,7 +27,7 @@ ht-degree: 37%
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
 >abstract="选择预定义模板以开始投放您的短信。通过投放模板，您可在各种营销活动和投放中重用自定义内容和设置。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hans" text="使用投放模板"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="使用投放模板"
 
 您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤解释独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，将在[此部分](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中说明创建步骤。
 
