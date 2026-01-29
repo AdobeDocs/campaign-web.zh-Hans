@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 99%
+source-wordcount: '1519'
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,6 @@ ht-degree: 99%
 >id="acw_offers_list"
 >title="产品建议"
 >abstract="浏览在控制台中使用&#x200B;**交互**&#x200B;模块创建的产品建议和产品建议模板的列表。这些列表为只读。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/start/offers" text="将产品建议添加到投放"
 
 在&#x200B;**决策管理**&#x200B;部分中，您可以查看产品建议和产品建议模板。这些列表为只读。
 
