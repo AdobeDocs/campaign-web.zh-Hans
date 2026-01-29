@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="推送通知模板"
 >abstract="选择推送通知模板以开始推送投放。通过投放模板，可轻松地在营销活动和投放中重用自定义内容和设置。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/start/delivery-template" text="使用投放模板"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="使用投放模板"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
