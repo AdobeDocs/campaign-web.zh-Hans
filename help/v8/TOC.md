@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 97%
@@ -37,7 +37,7 @@ ht-degree: 97%
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
    + [AI 驱动的上下文帮助](get-started/using-ai.md)
    + [常见问题解答](get-started/faq.md)
-   + 消息和投放 {#msg}
++ 消息和投放 {#msg}
    + [开始使用消息功能](msg/gs-messages.md)
    + [访问传递](msg/gs-deliveries.md)
    + [创建投放](msg/create-deliveries.md)
@@ -287,7 +287,7 @@ ht-degree: 97%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
