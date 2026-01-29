@@ -2,7 +2,7 @@
 audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 3%
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
