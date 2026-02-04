@@ -3,7 +3,7 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Experience Cloud 是 Adobe 的数字营销应用程序、产品和服务的集�
 
    ![显示 Adobe Experience Cloud 中的组织选择的屏幕快照](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
+   请参阅[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target="_blank"}以了解有关 Adobe Experience Cloud 中的组织的更多信息。
 
 ## 访问 Adobe Campaign {#access-to-campaign}
 

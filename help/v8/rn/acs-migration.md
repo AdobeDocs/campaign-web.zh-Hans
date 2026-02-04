@@ -4,7 +4,7 @@ title: 从 Campaign Standard 过渡到 Adobe Campaign Web
 description: 探索 Campaign Web 用户界面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -70,13 +70,13 @@ Campaign v8 界面和 Campaign Standard 之间的大多数概念相似。但是�
 
 ## 具体功能 {#new-features}
 
-为确保顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans){target=&quot;_blank}中对这些功能进行了详细说明，并且仅适用于从 Campaign Standard 过渡的用户。
+为确保顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。[本文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank}中对这些功能进行了详细说明，并且仅适用于从 Campaign Standard 过渡的用户。
 
 * **动态报告**：动态报告提供可定制的实时报告，用以衡量营销活动所产生的影响。它包括访问轮廓数据，以便按性别、城市和年龄等维度进行人口统计分析，同时还可以访问功能性电子邮件营销活动数据，如打开次数和点击次数。[了解详情](../reporting/dynamic-reporting/get-started-reporting.md)。
 
 * **集中化品牌管理**：Adobe Campaign 允许公司定义品牌视觉和技术指南。用户可以向客户展示一致的品牌形象，从标识到技术细节，如电子邮件发件人、URL 或域名等。[了解详情](../administration/branding/branding-gs.md)。
 
-* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}。
+* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
 
 * **登陆页面**：Campaign v8 登陆页面进行了改进，以确保功能与 Campaign Standard 保持一致。通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面[文档](../landing-pages/get-started-lp.md)了解详情。
 

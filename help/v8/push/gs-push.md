@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * **独立投放**：利用个人推送通知投放直接、即时地与客户互动，无需工作流或营销活动。
 
-![](../assets/do-not-localize/book.png) 通过 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hans){target="_blank"}了解如何配置推送通知渠道。
+![](../assets/do-not-localize/book.png) 通过 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}了解如何配置推送通知渠道。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
