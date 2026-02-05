@@ -22,7 +22,7 @@ ht-degree: 5%
 1. 输入您的&#x200B;**[!UICONTROL 标签]**&#x200B;并选择外部帐户&#x200B;**[!UICONTROL 类型]**。
 
    * [促销活动特定的类型](external-account.md)
-   * [Adobe 解决方案集成 ](integration-external-account.md)
+   * [Adobe 解决方案集成 &#x200B;](integration-external-account.md)
    * [传输数据](transfer-external-account.md)
    * [外部数据库](external-account-database.md)
 
