@@ -24,7 +24,7 @@ ht-degree: 10%
 
 ![目标映射列表屏幕显示可用的映射](assets/target-mappings-list.png)
 
-有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
+有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans){target="_blank"}。
 
 ## 创建一个目标映射 {#create-mapping}
 
