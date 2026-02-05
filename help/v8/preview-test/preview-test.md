@@ -3,7 +3,7 @@ audience: end-user
 title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 16%
@@ -16,8 +16,8 @@ ht-degree: 16%
 >id="acw_deliveries_simulate"
 >title="预览和测试内容"
 >abstract="定义内容后，即可使用轮廓和测试轮廓对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="发送校样"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#test-landing-page" text="测试登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="发送校样"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="测试登陆页面"
 
 定义投放内容后，您可以使用用户档案和测试用户档案，在发送消息之前对其进行预览和测试。 此步骤可确保准确性并消除内容和个性化设置中的错误。
 
