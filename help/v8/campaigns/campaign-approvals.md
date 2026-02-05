@@ -3,14 +3,20 @@ audience: end-user
 title: 建立和管理审批流程
 description: 了解如何在Campaign Web中管理营销活动的批准
 feature: Approvals, Campaigns
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '723'
 ht-degree: 4%
 
 ---
 
 # 管理审批流程 {#campaign-approvals}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="活动审批管理"
+>abstract="您现在可以在发送投放之前协调利益相关者验证。 需要营销经理、数据分析师或其他团队的审批以进行质量控制。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!IMPORTANT]
 >

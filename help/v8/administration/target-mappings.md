@@ -2,20 +2,14 @@
 title: 管理目标映射
 description: 了解如何管理目标映射。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 14%
+source-wordcount: '770'
+ht-degree: 10%
 
 ---
 
 # 管理目标映射 {#target-mappings}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="目标映射"
->abstract="您现在可以在 Campaign Web 用户界面中创建目标映射。目标映射定义了不同的投放渠道（电子邮件、SMS、推送）如何链接到一个架构的数据字段。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -30,7 +24,7 @@ ht-degree: 14%
 
 ![目标映射列表屏幕显示可用的映射](assets/target-mappings-list.png)
 
-有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans){target="_blank"}。
+有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 创建一个目标映射 {#create-mapping}
 

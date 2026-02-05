@@ -2,14 +2,20 @@
 audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
-source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
 
 # 配置多语言投放 {#multilingual-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="多语言投放"
+>abstract="您现在可以在Campaign Web UI中以多种语言发送消息。 对于推送通知，请通过上传CSV文件填充所有语言变体。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -108,7 +114,7 @@ ht-degree: 3%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
