@@ -2,13 +2,13 @@
 audience: end-user
 title: 事务型消息中的用户档案扩充
 description: 了解如何在Campaign Web用户界面中创建事务型消息
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 12%
 
 ---
-
 
 # 使用轮廓数据扩充事务性消息{#profile-enrichment}
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. 选择模板并定义属性。 有关详细信息，请参见此 [&#x200B; 页面](create-transactional.md#transactional-message)。
+1. 选择模板并定义属性。 有关详细信息，请参见此 [ 页面](create-transactional.md#transactional-message)。
 
 ## 定义事件类型{#event-enrichment}
 
@@ -131,4 +131,3 @@ Once the event has been published, a transactional message linked to the new eve
 
 Integrate the event into your website (see Integrate the event triggering).
 -->
-

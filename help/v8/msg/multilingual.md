@@ -2,7 +2,8 @@
 audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 3%
@@ -114,7 +115,7 @@ ht-degree: 3%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
@@ -256,4 +257,3 @@ title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,android
 | 列名大小写不匹配 | 列名称不完全匹配 | 列名称区分大小写 — 使用上面显示的确切名称（例如，`badge`，而不是`Badge`或`BADGE`） |
 
 >此[部分](#csv-best-practices)列出了最佳实践。 此[部分](#csv-columns)中详细介绍了列结构。
-

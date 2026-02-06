@@ -3,7 +3,8 @@ audience: end-user
 title: 建立和管理审批流程
 description: 了解如何在Campaign Web中管理营销活动的批准
 feature: Approvals, Campaigns
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
