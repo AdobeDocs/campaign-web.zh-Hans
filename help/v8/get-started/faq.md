@@ -11,7 +11,7 @@ ht-degree: 98%
 
 # 常见问题解答
 
-以下部分列出了有关新的营销活动界面的常见问题。您是否还有其他疑问？您想与同行分享您的经验或交流想法吗？或者，您是否对 Adobe 团队的学习内容有任何反馈意见？加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的对话。
+以下部分列出了有关新的营销活动界面的常见问题。您是否还有其他疑问？您想与同行分享您的经验或交流想法吗？或者，您是否对 Adobe 团队的学习内容有任何反馈意见？加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hans){target="_blank"}中的对话。
 
 +++ 我需要使用哪个版本的 Adobe 营销活动才能访问新的 Web 用户界面？
 
