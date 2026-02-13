@@ -2,16 +2,16 @@
 title: 常见问题解答
 description: Campaign Web 用户界面常见问题解答
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
 # 常见问题解答
 
-以下部分列出了有关新的营销活动界面的常见问题。您是否还有其他疑问？您想与同行分享您的经验或交流想法吗？或者，您是否对 Adobe 团队的学习内容有任何反馈意见？加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hans){target="_blank"}中的对话。
+以下部分列出了有关新的营销活动界面的常见问题。您是否还有其他疑问？您想与同行分享您的经验或交流想法吗？或者，您是否对 Adobe 团队的学习内容有任何反馈意见？加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的对话。
 
 +++ 我需要使用哪个版本的 Adobe 营销活动才能访问新的 Web 用户界面？
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 中的新用户界面与 Adobe Experience Platform 保持一�
 
 +++ 这是否意味着对 Adobe Campaign Classic v7 的支持将会终止？
 
-对 Adobe Campaign Classic v7 的支持将持续至 2027 年 3 月 31 日。请访问[产品和技术支持期](https://helpx.adobe.com/cn/support/programs/eol-matrix.html){target="_blank"}页面。
+访问[产品和技术支持时段](https://helpx.adobe.com/cn/support/programs/eol-matrix.html){target="_blank"}页面，了解Adobe Campaign Classic v7支持终止日期。
 
 +++
 
