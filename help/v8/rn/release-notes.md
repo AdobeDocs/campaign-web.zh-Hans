@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 43%
+source-wordcount: '274'
+ht-degree: 47%
 
 ---
 
@@ -66,7 +66,7 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>营销活动清单现在包含一个时间线视图，可让您随时间推移可视化和管理营销活动：在列表和时间线之间切换，按周、月或日导航，使用今天按钮跳转到当前日期，并在右侧面板中打开营销活动详细信息（状态、工作流、投放） — 筛选器与搜索与列表视图相同。</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>有关更多信息，请参阅<a href="../campaigns/manage-campaigns.md#timeline">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>您现在可以直接从Campaign Web用户界面创建和管理架构。 此功能允许您创建新表、扩展现有架构和创建自定义表单。 您可以定义自定义数据结构来支持您的特定业务需求，而无需访问客户端控制台。</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../administration/schemas.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ _2026 年 2 月 17 日_
 ### 改进 {#26-2-improvements}
 
 * 品牌指南现在包括一个颜色部分，该部分定义了品牌颜色系统的标准，以确保在所有体验中一致地使用主要颜色、次要颜色、强调色和中性颜色。
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [了解详情](../content/brands-personalize.md)
 
 
 
