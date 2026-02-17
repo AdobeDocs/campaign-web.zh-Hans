@@ -1,22 +1,20 @@
 ---
-title: 使用架构
+title: 关于架构
 description: 了解如何使用架构。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 14%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
-# 使用架构 {#schemas}
+# 关于架构 {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="架构"
->abstract="**[!DNL Adobe Campaign]** 使用基于 XML 的架构定义应用程序内数据的物理和逻辑结构。在这个屏幕上您可以查看所有现有架构，并通过在列表中选择一个架构的名称访问该架构的详细信息。过滤器可用于帮助细化列表，例如仅显示可编辑的架构。"
-
-## 关于架构 {#about}
+>abstract="Adobe Campaign使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 在此屏幕中，您可以直接从Web用户界面查看所有现有架构、访问架构详细信息、配置自定义表单以及创建或扩展架构。"
 
 **[!DNL Adobe Campaign]** 使用基于 XML 的架构定义应用程序内数据的物理和逻辑结构。架构是链接到数据库表的XML文档，该数据库表定义：
 
@@ -31,72 +29,18 @@ ht-degree: 14%
 
 Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性和组织性。
 
-有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+利用模式界面，您可以：
 
-## 在Web用户界面中访问架构 {#access}
-
-可从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 架构]**&#x200B;菜单访问架构。
-
-![架构列表屏幕显示可用的架构和筛选器](assets/schemas-list.png)
-
-在此屏幕中，可以查看所有现有架构。 过滤器可用于帮助细化列表，例如仅显示可编辑的架构。
-
-要打开架构，请选择其名称。 将显示一个详细的架构视图。
-
-![架构详细信息屏幕，显示架构属性和内容](assets/schema-details.png)
-
-### 架构概述 {#overview}
-
-**[!UICONTROL 概述]**&#x200B;选项卡提供了架构的一般视图：
-
-* **[!UICONTROL 属性]**&#x200B;部分显示关键信息，如架构名称、命名空间和相关联的表名。
-
-* **[!UICONTROL 架构定义]**&#x200B;部分显示有关架构定义的详细信息，包括用于数据协调的主键及其与其他表的链接。
-
-  单击&#x200B;**[!UICONTROL 架构预览]**&#x200B;按钮可查看构成架构的不同字段和链接。 这允许您检查架构的完整结构。 如果架构已使用自定义字段进行扩展，则可以可视化其所有扩展。
-
-* **[!UICONTROL Content]**&#x200B;部分显示架构的XML内容，允许您在源和生成的语法之间进行切换。
-
-### 架构数据 {#data}
-
-**[!UICONTROL 数据]**&#x200B;选项卡提供有关架构数据的信息。
-
-![显示数据结构和属性的架构数据选项卡](assets/schemas-data.png)
-
-## 配置屏幕定义 {#screen-definition}
-
-### 编辑自定义字段 {#fields}
-
-自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
-
-自定义字段可显示在各种屏幕中，例如Campaign Web界面中的用户档案详细信息。 您可以控制哪些字段可见以及它们在界面中的显示方式。 为此，请单击&#x200B;**[!UICONTROL 架构]**&#x200B;菜单中的&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮。
-
-![自定义字段屏幕显示可编辑的属性](assets/schemas-custom.png)
-
-单击&#x200B;**[!UICONTROL 预览]**&#x200B;可在示例屏幕中显示自定义字段。
-
-有关如何编辑架构中自定义字段的详细信息，请参阅以下部分：[配置自定义字段](../administration/custom-fields.md)。
-
-### 添加收藏集列表 {#collection-lists}
-
-此&#x200B;**自定义列表列表**&#x200B;分区允许您定义收藏集链接，如购买。 然后，相关数据通过专用选项卡显示在用户档案屏幕中。
+* [访问和自定义架构](schemas-browse-access.md) — 查看可用的架构，浏览其详细信息并自定义屏幕显示
+* [配置列表列](schemas-list-columns.md) — 配置在列表视图中默认显示的列。
+* [编辑自定义字段](schemas-custom-fields.md) — 配置哪些自定义字段在详细信息屏幕中显示并将它们整理到多个部分中。
+* [添加收藏集列表](schemas-collection-lists.md) — 添加收藏集列表以在配置文件屏幕中显示相关数据。
+* [创建和管理架构](schemas-create-publish.md#create-schemas) — 创建新架构并扩展现有架构
+* [发布并同步架构](schemas-create-publish.md#publish) — 同步架构更改与数据库结构。
+* [使用自定义表单](schemas-custom-forms.md) — 使用数据输入表单在自定义架构中创建、编辑和管理记录。
 
 >[!NOTE]
 >
->目前，此功能仅适用于收件人架构。
+>您需要具有管理员权限才能管理架构。
 
-1. 若要向界面添加收藏集列表，请单击省略号按钮，然后选择&#x200B;**选择自定义列表**。
-
-   ![收藏集列表创建](assets/schemas-collection1.png)
-
-1. 选择一个可用的自定义列表，例如购买，然后单击&#x200B;**确认**。
-
-   ![收藏集列表创建](assets/schemas-collection2.png)
-
-1. 浏览到&#x200B;**用户档案**&#x200B;菜单并筛选已购买的用户档案。
-
-   ![收藏集列表创建](assets/schemas-collection3.png)
-
-1. 单击配置文件。 您会注意到新选项卡已显示。 如果需要，您可以添加更多列。
-
-   ![收藏集列表创建](assets/schemas-collection4.png)
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。

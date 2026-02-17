@@ -2,7 +2,7 @@
 title: 浏览轮廓的详细信息
 description: 了解如何浏览用户档案的详细信息。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 7%
@@ -28,7 +28,7 @@ ht-degree: 7%
 
   ![显示“订阅”选项卡的屏幕截图，其中列出了配置文件订阅的服务。](assets/profile-subscriptions.png){zoomable="yes"}
 
-* 通过在收件人模式的屏幕定义中定义收藏集链接，您可以显示自定义选项卡，例如购买。 [了解有关收藏集链接的更多信息](../administration/schemas.md#collection-lists)
+* 通过在收件人模式的屏幕定义中定义收藏集链接，您可以显示自定义选项卡，例如购买。 [了解有关收藏集链接的更多信息](../administration/schemas-collection-lists.md)
 
   ![显示自定义选项卡的屏幕截图](assets/schemas-collection4.png){zoomable="yes"}
 

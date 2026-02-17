@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
@@ -158,7 +158,7 @@ ht-degree: 100%
 
 * **外部帐户** - 使用 Web 用户界面创建新的外部帐户以满足您的特定需求并确保无缝数据传输。[了解详情](../administration/external-account.md)。
 
-* **架构** - 自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。[了解详情](../administration/custom-fields.md)。
+* **架构** - 自定义字段是通过 Adobe Campaign 控制台添加到现成架构的附加属性。[了解详情](../administration/schemas-custom-fields.md)。
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
