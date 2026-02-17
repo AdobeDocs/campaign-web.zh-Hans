@@ -90,7 +90,7 @@ ht-degree: 0%
 1. 导航到&#x200B;**[!UICONTROL 资源管理器]**&#x200B;菜单，然后选择要放置自定义架构的文件夹。
 1. 单击省略号图标，然后单击&#x200B;**[!UICONTROL 新建文件夹]**。
    为自定义架构创建![导航条目](assets/schemas-publish3.png)
-1. 添加标签并在&#x200B;**[!UICONTROL 文件夹类型]**字段中选择您的架构。
+1. 添加标签并在&#x200B;**[!UICONTROL 文件夹类型]**&#x200B;字段中选择您的架构。
    为自定义架构创建![导航条目](assets/schemas-publish5.png)
 1. 自定义架构现在可以从&#x200B;**[!UICONTROL 资源管理器]**&#x200B;视图中访问。
 
