@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
+source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 32%
+source-wordcount: '256'
+ht-degree: 43%
 
 ---
 
@@ -18,30 +18,55 @@ ht-degree: 32%
 
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
-[2024](release-notes-24.md) 和 [2025](release-notes-25.md) 页面中列出了以前版本中的变更和改进。
+## 2026年2月版 {#26-2-release}
 
-## 2026年1月版 {#26-1-release}
+_2026 年 2 月 17 日_
 
-_2026 年 1 月 27 日_
+### 新增功能 {#26-2-features}
 
-### 新增功能 {#26-1-features}
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>多语言交付功能(GA)</strong><br/></th> 
+<th><strong>Delivery scheduling compute process</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>多语言交付功能现在向所有客户提供(GA)。 利用此功能，可在Adobe Campaign Web用户界面中以不同语言发送多条消息。 您可以选择投放的默认语言以及可发送投放的不同语言。 您还可以使用您选择的语言预览这些投放内容。 
-<p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
-<p>对多语言推送通知进行了以下改进：</p>
-<ul>
-<li>您现在可以通过上传包含多语言内容的CSV文件来快速填充所有语言变体。 <a href="../msg/multilingual.md#csv-upload">了解更多</a>
-</li>
-<li>现在支持富推送通知。</li>
+<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>活动清单中的时间线视图</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>营销活动清单现在包含一个时间线视图，可让您随时间推移可视化和管理营销活动：在列表和时间线之间切换，按周、月或日导航，使用今天按钮跳转到当前日期，并在右侧面板中打开营销活动详细信息（状态、工作流、投放） — 筛选器与搜索与列表视图相同。</p>
+<!--p>For more information, refer to the detailed documentation.</p-->
 </td>
 </tr>
 </tbody>
@@ -50,86 +75,23 @@ _2026 年 1 月 27 日_
 <table>
 <thead>
 <tr>
-<th><strong>事务性消息中的用户档案扩充(GA)</strong><br/></th> 
+<th><strong>架构创作</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，所有客户都可以使用“事务性消息中的用户档案扩充”功能(GA)。 除了电子邮件之外，现在还支持短信和推送通知。 此功能允许您通过将Adobe Campaign数据库字段链接到消息内容来个性化事务型消息。 您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。</p>
-<p>有关更多信息，请参阅<a href="../transactional-messaging/profile-enrichment.md">详细文档</a>。</p>
+<p>您现在可以直接从Campaign Web用户界面创建和管理架构。 此功能允许您创建新表、扩展现有架构和创建自定义表单。 您可以定义自定义数据结构来支持您的特定业务需求，而无需访问客户端控制台。</p>
+<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager实时和语言副本</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Manager内容集成允许您在构建投放时直接在Campaign中访问在Adobe Experience Manager中创建的所有语言和活动副本。 您可以实时刷新内容以获取最新的Adobe Experience Manager版本。 此集成消除了Adobe Experience Manager和Campaign之间的手动内容同步，简化了多语言活动工作流。</p>
-<p>有关更多信息，请参阅<a href="../integrations/aem-multilingual.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+### 改进 {#26-2-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>内容实验 — A/B测试</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign Web中的内容实验允许您定义多个A/B测试投放变体，以衡量哪些变体最符合您的目标受众。 您可以更改投放内容、主题或发件人，以测试不同的版本并确定哪个变体产生最佳结果。 您可以对不同的电子邮件元素（如主题行、发件人姓名和电子邮件正文内容）执行A/B测试。</p>
-<p>有关更多信息，请参阅<a href="../email/ab-testing.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 品牌指南现在包括一个颜色部分，该部分定义了品牌颜色系统的标准，以确保在所有体验中一致地使用主要颜色、次要颜色、强调色和中性颜色。
+  <!--[Learn more](../content/brands-personalize.md)-->
 
-<table>
-<thead>
-<tr>
-<th><strong>连续投放活动</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>利用连续投放活动，可将新收件人添加到现有投放。 此投放类型可避免每次都创建新投放，从而更有效地根据需要发送低流量警报或通知。 连续投放会创建单个投放实例。 所有投放日志(broadLog)和跟踪日志都引用此一次投放，从而简化了监控和报告。</p>
-<p>有关更多信息，请参阅<a href="../workflows/activities/continuous-delivery.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>活动审批管理</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>批准流程有助于协调多个利益相关者，并确保在发送投放之前进行质量控制。 当您的组织需要经过不同团队的验证时，例如营销经理审查内容或数据分析师验证目标受众，请使用批准。</p>
-<p>有关更多信息，请参阅<a href="../campaigns/campaign-approvals.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-### 改进 {#26-1-improvements}
-
-* 动态报告现在支持推送通知和短信。 [了解详情](../reporting/dynamic-reporting/get-started-reporting.md)
-* 预定义过滤器 — 通过新的“共享过滤器”选项，您可以使预定义过滤器可供组织中的其他用户使用。 [了解详情](../get-started/predefined-filters.md#share-filter)
-* 现在包括在Adobe Experience Manager中创建的个性化字段，例如名称、电子邮件、日期和地址，这些字段在使用内容模板时可用。
-* 内容质量评估现在检查可读性、一致性和有效性问题，而不依赖于品牌准则，识别不明确的消息、不一致的语调或结构性缺口。 [了解详情](../content/brands-score.md)
