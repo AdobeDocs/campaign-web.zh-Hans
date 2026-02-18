@@ -15,7 +15,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="报告发送"
->abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
+>abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入洞察访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
 **SMS投放概述**&#x200B;提供您的SMS投放的详细摘要，提供广泛的见解和特定数据。 它包括有关投放的性能、效果和结果的全面信息。
 
@@ -89,7 +89,7 @@ ht-degree: 32%
 >title="短信排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标轮廓中排除的）用户轮廓接收消息的各种原因。"
 
-**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#sms-quarantines){_blank}。
+**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}。
 
 ![描述：该图像显示了“排除项”图形和表，其中详细说明了将用户配置文件排除在接收消息之外的原因。](assets/reporting_sms_6.png){zoomable="yes"}
 

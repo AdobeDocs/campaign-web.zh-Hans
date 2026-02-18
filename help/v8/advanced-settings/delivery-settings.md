@@ -62,7 +62,7 @@ ht-degree: 39%
 
 使用&#x200B;**[!UICONTROL 投放权重]**&#x200B;字段可定义投放优先级。每个投放都有一个代表其优先级的权重。默认情况下，投放权重设置为 5。压力规则可让您定义它们应用于的投放权重。可以通过公式设置或计算权重以满足收件人的需求。例如，您可以根据收件人兴趣来定义投放权重。
 
-使用&#x200B;**[!UICONTROL 投放模式]**&#x200B;字段选择目标评估模式。
+使用&#x200B;**[!UICONTROL 传递模式]**&#x200B;字段选择目标评估模式。
 
 提供了三种模式：
 
@@ -72,7 +72,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->可在Campaign客户端控制台中配置疲劳管理和压力规则。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>可在Campaign客户端控制台中配置疲劳管理和压力规则。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}以了解详情。
 
 ### 容量设置 {#capacity-settings}
 
@@ -92,7 +92,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>类型规则在Campaign Client Console中配置。 在[Campaign v8 (Client Console)文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中了解详情。
 
 ## 受众设置 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。在 Adobe Campaign v8 控制台中定义目标映射。目标映射是操作正在处理的数据类型。 它允许您定义目标群体：收件人、合同受益人、操作员、订阅者等。 [了解有关目标映射的详细信息](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}
+在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 测试SMTP投放]** （电子邮件通道）：此选项用于测试通过SMTP的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hans){target="_blank"}以了解详情。
+* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}以了解详情。
 
 在&#x200B;**[!UICONTROL 波次定义]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 使用多个波次发送]**&#x200B;选项，以逐步增加使用波次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -138,11 +138,11 @@ ht-degree: 39%
 
 * **[!UICONTROL 使用收件人首选项]**（默认模式）：根据收件人配置文件中存储的数据定义电子邮件格式。 如果收件人希望以特定格式接收电子邮件，则此格式为已发送的格式。 如果未填写该字段，则会发送包含多个替代部分的电子邮件（见下文）。
 
-* **[!UICONTROL 让收件人邮件客户端选择最合适的格式]**：电子邮件包含两种格式：文本和HTML。 接收时显示的格式取决于收件人邮件软件的配置(multipart-alternative)。
+* **[!UICONTROL 让收件人邮件客户端选择最合适的格式]**：电子邮件包含两种格式：文本和HTML。 根据接收情况显示的格式取决于收件人邮件软件的配置（复合 — 可选）。
 
   >[!IMPORTANT]
   >
-  >此选项包括文档的两个版本。 因此，它会影响投放率，因为电子邮件较大。
+  >此选项包含文档的这两个版本。 因此，这会影响传递率，因为电子邮件大小更大。
 
 * **[!UICONTROL 以文本格式发送所有邮件]**：电子邮件以文本格式发送。 HTML格式不会发送，但仅在收件人单击电子邮件时用于镜像页面。
 
@@ -153,13 +153,13 @@ ht-degree: 39%
 >title="投放的网站分析设置"
 >abstract="选择一个网站分析帐户。在 Campaign 客户端控制台中配置此帐户。您还可以定义与您正在使用的分析工具共享的标记。"
 
-在此部分中，您可以选择网站分析帐户。 此帐户是在Campaign客户端控制台中配置的。
+在此部分中，您可以选择一个Web分析帐户。 此帐户在Campaign客户端控制台中配置。
 
 您还可以定义与您正在使用的分析工具共享的标记。
 
 >[!NOTE]
 >
->可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hans#external-account-ac){target="_blank"}以了解详情。
+>可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}以了解详情。
 
 ## 重试 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 39%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
+请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
 
 ### 镜像页面管理（电子邮件渠道） {#mirror}
 
@@ -319,9 +319,9 @@ ht-degree: 39%
 
 * **[!UICONTROL 传输模式]**
 
-  此字段定义要发送的SMS的类型：它是普通消息还是闪存消息，以及是否应存储在移动设备或SIM卡上。 此设置在SUBMIT_SM PDU的dest_addr_subunit可选字段中传输。
+  此字段定义要发送的SMS类型：是普通消息还是闪消息，以及它是否应存储在移动设备或SIM卡上。 此设置在SUBMIT_SM PDU的dest_addr_subunit可选字段中传输。
 
-   * **Flash**&#x200B;将该值设置为1。 发送立即在屏幕上出现且未存储的Flash SMS。
+   * **Flash**&#x200B;将该值设置为1。 发送立即出现在屏幕上且未存储的快闪短信。
    * **Normal**&#x200B;将该值设置为0。 发送标准短信。
    * **保存在移动设备上**&#x200B;将该值设置为2。 指示设备将SMS存储在内部内存中。
    * **保存在终端**&#x200B;上，将值设置为3。 指示设备将SMS存储在SIM卡上。
@@ -330,9 +330,9 @@ ht-degree: 39%
 
   扩展SMPP连接器将忽略这些字段。
 
-* **[!UICONTROL 每条消息的最大SMS数]**
+* **[!UICONTROL 每条消息的最大短信数]**
 
-  此设置仅在禁用消息有效负载选项时有效（有关更多详细信息，请参阅外部帐户设置）。 如果消息需要的短信数超过此值，则会触发错误。
+  此设置仅在消息负载选项被禁用时有效（请参阅外部帐户设置了解更多详细信息）。 如果消息需要的短信数超过此值，则会触发错误。
 
   虽然短信协议允许将消息拆分为最多255个部分，但某些移动设备可能难以重新组合消息长度超过10个部分（具体限制取决于设备型号）。 为了提高可靠性，最好将邮件限制在5个或更少的部分。
 
@@ -418,7 +418,7 @@ ht-degree: 39%
 >title="变量"
 >abstract="您可以为投放添加变量，这对跟踪和个性化非常有用。这些变量可以从您的投放内容和工作流中访问。"
 
-您可以为投放添加变量，这对跟踪和个性化非常有用。可通过投放内容和工作流访问这些变量。 存储的变量可用于设置对投放内所有消息保持不变的值。 它们还可以在投放模板中进行配置。
+您可以为投放添加变量，这对跟踪和个性化非常有用。这些变量可以从交付内容和工作流中访问。 存储的变量用于设置值，该值在传递中的所有消息中保持不变。 还可以在交付模板中配置这些模板。
 
 要添加变量，请浏览到&#x200B;**[!UICONTROL 变量]**&#x200B;选项卡，如下所示。
 

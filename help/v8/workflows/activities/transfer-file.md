@@ -10,11 +10,11 @@ ht-degree: 27%
 
 ---
 
-# 转移文件 {#transfer-file}
+# 传输文件 {#transfer-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="转移文件"
+>title="传输文件"
 >abstract="**转移文件**&#x200B;活动可以接收或发送文件、测试文件是否存在或列出服务器上的文件。使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。"
 
 >[!CONTEXTUALHELP]

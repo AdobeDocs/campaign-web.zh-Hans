@@ -15,7 +15,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="报告发送"
->abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
+>abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入洞察访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
 **推送投放报告**&#x200B;提供了推送渠道的全面概述，提供了广泛的见解和特定数据。 它提供关于每次投放的表现、效果和结果的全面信息。
 
@@ -85,7 +85,7 @@ ht-degree: 32%
 >title="推送排除项"
 >abstract="**排除项**&#x200B;图表显示阻止（从目标轮廓中排除的）用户轮廓接收消息的各种原因。"
 
-**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#push-error-types){_blank}。
+**[!UICONTROL 排除项]**&#x200B;图形和表格显示了阻止用户配置文件（已从目标配置文件中排除）接收消息的各种原因。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}。
 
 ![此屏幕快照显示排除项图形和表，其中显示阻止排除的用户配置文件接收消息的原因。](assets/reporting_push_6.png){zoomable="yes"}
 

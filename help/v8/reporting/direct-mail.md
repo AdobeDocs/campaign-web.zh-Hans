@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract=" **投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
+>abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。这些量度概述如下。"
 
 **[!UICONTROL 投放概述]**&#x200B;提供了有关访客与每个直邮投放交互的详细分析，展示了关键绩效指标(KPI)。 这些量度概述如下。
 
@@ -84,7 +84,7 @@ ht-degree: 19%
 >title="投放排除原因"
 >abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
-**[!UICONTROL 排除原因]**&#x200B;图形提供了在投放准备期间拒绝消息的原因细目。 此划分按各种规则组织，提供了排除报文的详细因素视图。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){_blank}。
+**[!UICONTROL 排除原因]**&#x200B;图形提供了在投放准备期间拒绝消息的原因细目。 此划分按各种规则组织，提供了排除报文的详细因素视图。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
 
 ![排除图按规则显示拒绝消息分布的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

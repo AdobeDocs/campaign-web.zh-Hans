@@ -38,13 +38,13 @@ ht-degree: 25%
 
 受众可以源自多个源。 **[!UICONTROL Origin]**&#x200B;列指示创建给定受众的位置：
 
-* **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=zh-Hans){target="_blank"}中创建。
+* **[!UICONTROL Adobe Campaign]**：这些受众已在[Adobe Campaign Web用户界面](create-audience.md)或[Adobe Campaign v8客户端控制台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中创建。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform内创建，并已通过Adobe Sources与Destinations集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何设置此集成。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;这些受众已在Adobe Experience Platform内创建，并已通过Adobe Sources与Destinations集成集成到Campaign Web中。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何设置此集成。
 
   ➡️ [通过观看视频了解此功能](#video)
 
-要获取有关受众的其他信息，请从列表中将其打开。 此时将显示受众属性，以及受众中包含的用户档案数。 使用&#x200B;**[!UICONTROL 计算]**&#x200B;按钮随时刷新受众计数。
+要获取有关受众的其他信息，请从列表中将其打开。 此时将显示受众属性，以及受众中包含的用户档案数。 随时使用&#x200B;**[!UICONTROL 计算]**&#x200B;按钮刷新受众规模。
 
 要预览受众的临时架构，请单击“属性”部分下的&#x200B;**[!UICONTROL 架构预览]**&#x200B;按钮。
 
@@ -60,4 +60,4 @@ ht-degree: 25%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有关如何设置Adobe Sources与Destinations集成的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}。
+有关如何设置Adobe Sources与Destinations集成的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

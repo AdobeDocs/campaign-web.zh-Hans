@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 
@@ -222,7 +222,7 @@ ht-degree: 7%
 
 >[!TAB 新规则生成器]
 
-![聚合数据选项的屏幕快照](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+![聚合数据选项的屏幕截图](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
 
 >[!ENDTABS]
 
@@ -354,7 +354,7 @@ ht-degree: 7%
 
 * **AND （交集）**：将匹配出站过渡中所有筛选组件的结果组合在一起。
 * **OR （并集）**：包含与叫客过渡中至少一个筛选组件匹配的结果。
-* **EXCEPT （排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
+* **EXCEPT （排除）**：排除与出站转换中所有筛选组件匹配的结果。
 
 ![查询示例](assets/query-operator-change.png){zoomable="yes"}
 

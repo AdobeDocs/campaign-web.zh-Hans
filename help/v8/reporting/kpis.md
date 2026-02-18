@@ -54,7 +54,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
->title="打开次数"
+>title="打开"
 >abstract="此量度显示所选渠道上已打开的所有消息的总数，以及已打开消息数与已成功投放消息总数的百分比。"
 
 总打开次数通过跟踪消息打开的总次数来计算，而不管有多少单独的收件人生成了这些打开。 此指标仅适用于电子邮件。
@@ -124,7 +124,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
->title="错误数"
+>title="错误"
 >abstract="投放和自动退回处理期间累积的错误总数。关联比率是与要投放的消息数量的比率。"
 
 Adobe Campaign 平台发送的某些消息无法送达目标。如果用户地址或电话存在拼写错误、收件人更改了电子邮件地址或其邮箱已满，则可能会发生这种情况。 如果无法将消息发送到轮廓，远程服务器会自动向 Adobe Campaign 发送错误消息。此错误可用于确定是否应隔离电子邮件地址、电话号码或设备。

@@ -14,7 +14,7 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="”AND-join“ 活动"
+>title="AND-join 活动"
 >abstract="利用 **And-join** 活动，可同步工作流的多个执行分支。一旦完成所有之前的活动，即会触发该活动。这可确保在继续执行工作流之前完成某些活动。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它同步工作流的多个执行分支。

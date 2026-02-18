@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract=" **投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入了解访客与每次直邮投放的互动情况。这些量度概述如下。"
+>abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。这些量度概述如下。"
 
 **[!UICONTROL 投放概述]**&#x200B;显示关键绩效指标(KPI)，提供对访客与每个直邮投放交互情况的深入分析。 这些量度概述如下。
 

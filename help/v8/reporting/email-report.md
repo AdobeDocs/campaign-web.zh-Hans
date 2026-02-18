@@ -19,7 +19,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="报告发送"
->abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入了解访客与投放之间的交互及访客可能遇到的任何潜在错误。"
+>abstract="利用报告中的&#x200B;**发送**&#x200B;选项卡，可深入洞察访客与投放之间的交互及访客可能遇到的任何潜在错误。"
 
 ### 初始目标群体 {#email-delivery-targeted-population}
 
@@ -75,7 +75,7 @@ ht-degree: 37%
 >title="投放排除原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
-**[!UICONTROL 排除原因]**&#x200B;图形和表显示在投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){_blank}。
+**[!UICONTROL 排除原因]**&#x200B;图形和表显示在投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
 
 ![排除图表和表的原因屏幕截图](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -153,7 +153,7 @@ ht-degree: 37%
 
 每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 ![每个类型的错误划分屏幕截图](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 

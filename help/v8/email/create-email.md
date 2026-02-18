@@ -49,7 +49,7 @@ ht-degree: 44%
    >
    >模板是已保存以供将来使用的预配置的投放设置。[了解详情](../msg/delivery-template.md)
 
-   ![显示所选电子邮件渠道和模板的屏幕截图](assets/channel-template.png){zoomable="yes"}
+   ![显示电子邮件渠道和模板选择的屏幕截图](assets/channel-template.png){zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 1. 输入投放标签，并根据需要配置其他选项：
@@ -77,19 +77,19 @@ ht-degree: 44%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-hans" text="选择主要受众"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hans" text="设置对照组"
 
-在此使用案例中，您将向现有受众发送电子邮件。
+在本使用案例中，您将电子邮件发送给现有受众。
 
 有关如何使用受众的其他说明，请参阅[此章节](../audience/about-recipients.md)。
 
-1. 要选择电子邮件的受众，请单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，然后从列表中选择现有受众。
+1. 若要选择电子邮件的受众，请单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，然后从列表中选择现有受众。
 
-   在本例中，我们希望使用现有受众，定向属于白银和金会员积分级别的客户。
+   在本例中，我们希望使用现有受众，定向属于银牌和金牌忠诚度积分级别的客户。
 
    ![显示受众选择过程的屏幕截图](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
@@ -111,7 +111,7 @@ ht-degree: 44%
 
    ![显示Email Designer界面的屏幕截图](assets/edit-content.png){zoomable="yes"}
 
-1. 输入电子邮件的主题行，然后使用表达式编辑器对其进行个性化设置。 [了解如何个性化您的内容](../personalization/personalize.md)
+1. 输入电子邮件的主题行，然后使用表达式编辑器将其个性化。 [了解如何个性化您的内容](../personalization/personalize.md)
 
    ![显示主题行配置的屏幕截图](assets/subject-line.png){zoomable="yes"}
 
@@ -135,9 +135,9 @@ ht-degree: 44%
 
 在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 在[此页面](../workflows/activities/scheduler.md)中了解详情。 以下步骤仅适用于独立投放。
 
-1. 浏览到投放属性的&#x200B;**[!UICONTROL 计划]**&#x200B;部分。
+1. 浏览投放属性的&#x200B;**[!UICONTROL 计划]**&#x200B;部分。
 
-1. 使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;切换来激活它。
+1. 使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;切换开关激活计划。
 
 1. 设置所需的发送日期和时间。
 
@@ -151,9 +151,9 @@ ht-degree: 44%
 
 在发送电子邮件之前，您可以预览和测试电子邮件以确保符合您的期望。
 
-在此使用案例中，您可以在模拟某些定向的用户档案时，预览电子邮件并向特定电子邮件地址发送校样。
+在此使用案例中，模拟某些定向用户档案时，您可以预览电子邮件并向特定电子邮件地址发送校样。
 
-您还可以验证内容质量，以检查可读性、CTA有效性、主题行质量等。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
+您还可以验证内容质量以检查可读性、CTA有效性、主题行质量等。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
 
 有关如何预览电子邮件和发送校样的其他信息，请参阅[此部分](../preview-test/preview-test.md)。
 
@@ -178,15 +178,15 @@ ht-degree: 44%
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后选择要使用的模式。
 
-   在此示例中，使用主目标&#x200B;**[!UICONTROL 模式中的]**&#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
+   在此示例中，使用&#x200B;**[!UICONTROL 从主目标]**&#x200B;模式替换，该模式向特定电子邮件地址发送校样，同时模拟电子邮件所定向的某些用户档案。
 
-   ![显示校样发送模式选择的屏幕快照](assets/proof-mode.png){zoomable="yes"}
+   ![显示校样发送模式选择的屏幕截图](assets/proof-mode.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 添加地址]**，并指定接收校样的电子邮件地址。
+1. 单击&#x200B;**[!UICONTROL 添加地址]**，然后指定接收校样的电子邮件地址。
 
    对于每个电子邮件地址，选择要模拟的轮廓。您还可以让 Adobe Campaign 从目标中选择一个随机轮廓。
 
-   ![显示已添加校样的电子邮件地址的屏幕截图](assets/proof-test-profile.png){zoomable="yes"}
+   ![显示新增电子邮件地址以进行验证的屏幕截图](assets/proof-test-profile.png){zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 发送校样]**，并确认发送。
 
@@ -218,14 +218,14 @@ ht-degree: 44%
 >title="不支持内容模拟"
 >abstract="由于尚未上传任何内容，因此&#x200B;**模拟内容**&#x200B;按钮已被禁用。"
 
-在某些情况下，您无法执行内容模拟，并且&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮已禁用。
+在某些情况下，您无法执行内容模拟，并且&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮处于禁用状态。
 
-在以下情况下不支持内容模拟：
+在以下情况下，不支持内容模拟：
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用协调的投放，
 * 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
-* 未上传任何文件时。
+* 尚未上传文件时。
 
 ## 发送和监控电子邮件 {#prepare-send}
 
@@ -254,4 +254,4 @@ ht-degree: 44%
 
 了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送校样。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454015/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
