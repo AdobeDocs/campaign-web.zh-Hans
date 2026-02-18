@@ -26,7 +26,7 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
 >abstract="在创建登陆页面时，通过四个现成的模板可实现不同的用例：将轮廓添加到 Campaign 数据库或更新轮廓、为客户订阅服务、为客户取消订阅服务或帮助用户退出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="创建登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#create-landing-page" text="创建登陆页面"
 
 要正确使用登陆页面，请使用专用选项将其作为消息中的链接引用。 您不能将已发布的交付仪表板中显示的链接直接复制粘贴到您的交付或网页中。 而应使用&#x200B;**模拟内容**&#x200B;功能对其进行测试。
 
