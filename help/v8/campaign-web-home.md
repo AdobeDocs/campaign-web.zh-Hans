@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
+source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 99%
+source-wordcount: '468'
+ht-degree: 98%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 99%
 >[!BEGINTABS]
 
 
->[!TAB  26年1月版]
+>[!TAB  2026年2月版]
 
-10 月版本已上线。Campaign Web 用户界面现已推出多项新功能和增强功能，包括事务性消息的多语言功能、推送通知与短信支持、与 Adobe GenStudio 的集成，以及事务性消息中的轮廓信息扩充。如需完整概述，请查阅发行说明。
+2月版已上线。 Campaign Web 用户界面现已推出新功能与增强功能。如需完整概述，请查阅发行说明。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
