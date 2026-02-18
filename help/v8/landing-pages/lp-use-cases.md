@@ -185,7 +185,7 @@ ht-degree: 9%
 
 您可以设置&#x200B;**[!UICONTROL 阻止列表]**&#x200B;登录页面，以允许用户选择退出所有投放。
 
-1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;****&#x200B;模板。
+1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;**&#x200B;**&#x200B;模板。
 
 1. 选择&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面以编辑其内容。
 
