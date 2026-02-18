@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 97%
+source-wordcount: '998'
+ht-degree: 95%
 
 ---
 
@@ -282,13 +282,20 @@ ht-degree: 97%
       + [分配品牌](administration/branding/branding-assign.md)
    + [使用业务规则（类型）](administration/typologies.md)
    + [管理目标映射](administration/target-mappings.md)
-   + [使用架构](administration/schemas.md)
+   + 使用架构 {#schemas}
+      + [关于架构](administration/schemas.md)
+      + [访问和配置架构](administration/schemas-browse-access.md)
+      + [配置列表列](administration/schemas-list-columns.md)
+      + [编辑自定义字段](administration/schemas-custom-fields.md)
+      + [添加收藏集列表](administration/schemas-collection-lists.md)
+      + [创建和发布架构](administration/schemas-create-publish.md)
+      + [使用自定义表单](administration/schemas-custom-forms.md)
    + [配置自定义字段](administration/custom-fields.md)
    + [配置 [!DNL Campaign] 选项](administration/options.md)
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
