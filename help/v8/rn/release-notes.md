@@ -2,10 +2,10 @@
 title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 52%
+source-wordcount: '267'
+ht-degree: 56%
 
 ---
 
@@ -75,13 +75,14 @@ _2026 年 2 月 17 日_
 <table>
 <thead>
 <tr>
-<th><strong>架构创作</strong><br/></th> 
+<th><strong>架构创作(LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您现在可以直接从Campaign Web用户界面创建和管理架构。 此功能允许您创建新表、扩展现有架构和创建自定义表单。 您可以定义自定义数据结构来支持您的特定业务需求，而无需访问客户端控制台。</p>
+<p>注释：此功能目前仅面向部分组织开放（限量发布版），将在未来版本中逐步向全球推广。</p>
 <p>有关更多信息，请参阅<a href="../administration/schemas.md">详细文档</a>。</p>
 </td>
 </tr>
