@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 24%
@@ -29,7 +29,7 @@ ht-degree: 24%
 
 **[!UICONTROL 浏览]**&#x200B;选项卡提供有关营销活动的当前状态、开始和结束日期、创建日期、上次修改这些营销活动的时间等信息。 可以通过单击列表右上角的&#x200B;**为自定义版面配置列**&#x200B;图标来自定义显示的列。这允许您在营销活动列表中添加或删除列以及重新排序信息。
 
-### 搜索和筛选库存 {#search}
+### 搜索和筛选库存 {#search-and-filter}
 
 可以使用搜索栏和筛选条件，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)。例如，您可以根据营销活动计划进行过滤。打开过滤器面板并使用&#x200B;**开始 - 结束日期**&#x200B;部分：
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 27%
@@ -155,6 +155,8 @@ ht-degree: 27%
    * **[!UICONTROL 遵循重定向]**：文件重定向允许您使用重定向，将数据输入或输出定向到其他类型的设备。
    * **[!UICONTROL 将HTTP标头添加到文件]**：在某些情况下，您可能希望向文件添加其他HTTP标头。 最常见的是，这些标头将用于提供其他信息以进行故障排除，用于[跨源资源共享(CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)，或用于设置特定的缓存指令。
    * **[!UICONTROL 忽略HTTP返回代码]**： HTTP返回代码（也称为HTTP状态代码）表示HTTP请求的结果。
+
+   +++
 
 1. 使用&#x200B;**[!UICONTROL 进程错误]**&#x200B;选项，您可以在传输期间发生任何错误时，在活动后激活“错误”出站过渡。
 
