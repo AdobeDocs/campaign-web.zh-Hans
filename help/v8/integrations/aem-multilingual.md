@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: 使用Adobe Experience Manager创建多语言电子邮件
+title: 使用 Adobe Experience Manager 创建多语言电子邮件
 description: 了解如何使用Campaign Web中的Adobe Experience Manager语言副本创建多语言电子邮件投放。
 feature: Email
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
-# 使用Adobe Experience Manager创建多语言电子邮件 {#aem-multilingual}
+# 使用 Adobe Experience Manager 创建多语言电子邮件 {#aem-multilingual}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Experience Manager实时和语言副本"
->abstract="您现在可以直接在Campaign中访问Adobe Experience Manager语言和活动副本。 实时内容刷新消除了手动同步以简化多语言工作流。"
+>abstract="您现在可以在 Campaign 中直接访问 Adobe Experience Manager 的语言副本和实时副本。实时内容刷新可免去手动同步，让多语言工作流程更顺畅。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 通过Adobe Experience Manager集成，您可以使用Adobe Experience Manager语言副本创建多语言电子邮件投放。 这允许您管理不同语言的内容变体，并根据收件人语言偏好提供个性化电子邮件。
@@ -29,7 +29,7 @@ ht-degree: 2%
 在创建多语言电子邮件投放之前，请确保您已：
 
 * 访问为Adobe Campaign Web界面集成配置的Adobe Experience Manager实例。
-* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
+* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
 * 配置为接收Adobe Experience Manager内容的电子邮件投放模板。 请参阅[启用多语言模式](#enable-multilingual)部分中详述的步骤。
 
 ## 创建多语言投放
