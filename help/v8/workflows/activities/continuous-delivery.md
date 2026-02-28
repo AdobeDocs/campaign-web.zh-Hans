@@ -6,7 +6,7 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="连续投放活动"
->abstract="您现在可以向现有投放添加新收件人。 此投放类型可避免每次都创建新投放，从而更有效地根据需要发送低流量警报或通知。"
+>abstract="现在，您可以向现有投放添加新的收件人。此类投放无需每次都创建新投放，更适用于按需发送的小规模提醒或通知，可提升效率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
-**连续投放**&#x200B;活动允许您向现有投放添加新收件人。 此投放类型可避免每次都创建新投放，从而更有效地根据需要发送低流量警报或通知。
+**连续投放**&#x200B;活动允许您向现有投放添加新收件人。 此类投放无需每次都创建新投放，更适用于按需发送的小规模提醒或通知，可提升效率。
 
 连续投放会创建单个投放实例。 所有投放日志(broadLog)和跟踪日志都引用此一次投放，从而简化了监控和报告。
 

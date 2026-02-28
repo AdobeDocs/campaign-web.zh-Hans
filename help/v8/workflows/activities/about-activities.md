@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="外部信号"
->abstract="结束活动参数中外部信号部分的占位符。 仅适用于编排的营销活动。 不DELETE"
+>abstract="用于“结束”活动参数中“外部信号”部分的占位符。仅适用于编排的营销活动。请勿删除"
 
 以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
 

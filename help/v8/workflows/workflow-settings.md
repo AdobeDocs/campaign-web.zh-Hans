@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -104,6 +104,6 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initialization"
 >title="初始化脚本"
->abstract="利用此部分，可定义在工作流开始时运行的JavaScript代码。 它可用于在执行任何工作流活动之前初始化变量、设置参数或准备数据。"
+>abstract="在此部分中，您可以定义在工作流开始时运行的 JavaScript 代码。可用于在执行任何工作流活动之前初始化变量、设置参数或准备数据。"
 
 **初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 工作流执行时将调用脚本。 请参阅与[事件变量](../workflows/event-variables.md)相关的部分。

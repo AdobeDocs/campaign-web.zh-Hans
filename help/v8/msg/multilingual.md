@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="多语言投放"
->abstract="您现在可以在Campaign Web UI中以多种语言发送消息。 对于推送通知，请通过上传CSV文件填充所有语言变体。"
+>abstract="您现在可以在 Campaign Web UI 中以多种语言发送消息。对于推送通知，可通过上传 CSV 文件填充所有语言变体。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
 >title="导入语言变体"
->abstract="使用此对话框可通过导入CSV文件来添加语言变体。 该文件会自动填充所选语言的所有可用字段。 在确认之前，您可以拖放文件或从计算机中选择文件。"
+>abstract="使用此对话框通过导入 CSV 文件来添加语言变体。该文件会为所选语言自动填充所有可用字段。确认前，您可以拖放文件，或从计算机中选择文件。"
 
 在Campaign Web UI中，您可以将投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 

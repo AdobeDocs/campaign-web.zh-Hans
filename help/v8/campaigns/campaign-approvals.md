@@ -7,7 +7,7 @@ exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn6"
 >title="活动审批管理"
->abstract="您现在可以在发送投放之前协调利益相关者验证。 需要营销经理、数据分析师或其他团队的审批以进行质量控制。"
+>abstract="现在，您可以在发送投放之前协调利益相关者进行验证。可要求营销经理、数据分析师或其他团队进行审批，以实现质量控制。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!IMPORTANT]

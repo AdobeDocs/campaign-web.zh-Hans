@@ -6,7 +6,7 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
 source-wordcount: '1287'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -111,7 +111,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="活动属性"
->abstract="在此部分中，您可以配置活动的执行设置，包括要执行的操作、最大持续时间、时区、计算机关联和异步行为。"
+>abstract="在此部分中，您可以配置活动的执行设置，包括要执行的操作、最长持续时间、时区、机器关联以及异步行为。"
 
 **执行**&#x200B;字段允许您定义任务启动时要执行的操作。
 
@@ -128,7 +128,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="初始化脚本"
->abstract="利用此部分，可定义活动失败时将发生的情况。 您可以选择各种操作，例如停止工作流、移至下一个活动或触发自定义错误处理流程。"
+>abstract="在此部分中，您可以定义活动失败时的处理方式。您可以选择停止工作流、转到下一个活动，或触发自定义错误处理流程等操作。"
 
 **如果出现错误**&#x200B;字段，允许您指定活动遇到错误时要执行的操作。 请参阅此[章节](workflow-settings.md#error-settings)。
 
@@ -137,7 +137,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="初始化脚本"
->abstract="在此部分中，您可以添加在活动启动时运行的JavaScript。 使用它可初始化变量、设置参数或准备特定于该活动执行的数据。"
+>abstract="在此部分中，您可以添加在活动启动时运行的 JavaScript。可用于初始化变量、设置参数，或准备该活动执行所需的特定数据。"
 
 **初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 活动执行时将调用脚本。 请参阅与[事件变量](../workflows/event-variables.md)相关的部分。
 
