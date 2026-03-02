@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
+source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1003'
 ht-degree: 95%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 95%
    + 电子邮件 {#email}
       + [创建您的第一封电子邮件](email/create-email.md)
       + [配置电子邮件内容](email/edit-content.md)
-      + [创建内容实验](email/ab-testing.md)
+      + [创建内容试验](email/ab-testing.md)
       + 发送和监控电子邮件 {#monitor}
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [使用多批次发送](advanced-settings/send-using-waves.md)
@@ -140,6 +140,7 @@ ht-degree: 95%
       + 品牌 {#ai-assistant}
          + [创建和管理品牌](content/brands.md)
          + [个性化您的品牌](content/brands-personalize.md)
+         + [创建和管理创成模型](content/generative-models.md)
          + [评估您的内容](content/brands-score.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
@@ -295,7 +296,7 @@ ht-degree: 95%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
