@@ -5,7 +5,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="架构"
->abstract="Adobe Campaign使用基于XML的架构来定义应用程序中数据的物理和逻辑结构。 在此屏幕中，您可以直接从Web用户界面查看所有现有架构、访问架构详细信息、配置自定义表单以及创建或扩展架构。"
+>abstract="Adobe Campaign 使用基于 XML 的架构来定义应用程序中数据的物理结构和逻辑结构。在此界面中，您可以查看所有现有架构、访问架构详细信息、配置自定义表单，并直接通过 Web 用户界面创建或扩展架构。"
 
 **[!DNL Adobe Campaign]** 使用基于 XML 的架构定义应用程序内数据的物理和逻辑结构。架构是链接到数据库表的XML文档，该数据库表定义：
 

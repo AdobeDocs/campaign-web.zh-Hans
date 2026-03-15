@@ -10,7 +10,7 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Experience Manager实时和语言副本"
+>title="Experience Manager 实时副本和语言副本"
 >abstract="您现在可以在 Campaign 中直接访问 Adobe Experience Manager 的语言副本和实时副本。 实时内容刷新可免去手动同步，让多语言工作流程更顺畅。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
@@ -29,7 +29,7 @@ ht-degree: 9%
 在创建多语言电子邮件投放之前，请确保您已：
 
 * 访问为Adobe Campaign Web界面集成配置的Adobe Experience Manager实例。
-* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
+* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
 * 配置为接收Adobe Experience Manager内容的电子邮件投放模板。 请参阅[启用多语言模式](#enable-multilingual)部分中详述的步骤。
 
 ## 创建多语言投放
