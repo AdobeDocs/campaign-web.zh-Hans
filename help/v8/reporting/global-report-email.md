@@ -23,7 +23,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="投放概述"
->abstract="**投放概述**&#x200B;展示便于深入了解您的受众如何与您发送的电子邮件投放和营销活动互动的关键绩效指标 (KPI)。"
+>abstract="**投放概述**&#x200B;展示便于深入洞察您的受众如何与您发送的电子邮件投放和营销活动互动的关键绩效指标 (KPI)。"
 
 **[!UICONTROL 投放概述]**&#x200B;显示关键绩效指标(KPI)，提供对访客与每个电子邮件投放交互情况的深入分析。 这些量度概述如下。
 
@@ -49,7 +49,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="初始目标受众统计信息"
->abstract="通过&#x200B;**目标受众**&#x200B;表和图可了解收件人参与情况，帮助您评估营销活动和投放的有效性。"
+>abstract="通过&#x200B;**目标受众**&#x200B;表和图可洞察收件人参与情况，帮助您评估营销活动和投放的有效性。"
 
 **[!UICONTROL 目标受众]**&#x200B;的表和图形展示了与收件人相关的数据，下面提供了详细的量度。
 
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除项图表和表说明了阻止从目标用户档案排除的用户用户档案接收消息的原因。
 
-电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hans#email-error-types){target="_blank"}中。
+电子邮件错误类型列在[Adobe Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
 每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
-此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans){target="_blank"}。
+此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 +++详细了解每种类型量度的错误细分。
 
@@ -171,7 +171,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="投放统计信息"
->abstract="**投放统计数据**&#x200B;关键绩效指标 (KPI) 全面概述您的投放和营销活动效果，在此可了解成功投放次数、遇到的错误数和用户参与情况。"
+>abstract="**投放统计数据**&#x200B;关键绩效指标 (KPI) 全面概述您的投放和营销活动效果，在此可洞察成功投放次数、遇到的错误数和用户参与情况。"
 
 **[!UICONTROL 投放统计信息]**&#x200B;量度提供关键绩效指标(KPI)，用于提供有关与每个电子邮件投放关联的数据的详细信息。 有关这些指标的更多详细信息如下。
 
@@ -225,7 +225,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_clickstreams_email"
 >title="URL 和点击流"
->abstract="**URL 和点击流**&#x200B;报告提供便于详细了解在投放期间点击次数最多的 URL 的重要关键绩效指标 (KPI)。"
+>abstract="**URL 和点击流**&#x200B;报告提供便于详细洞察在投放期间点击次数最多的 URL 的重要关键绩效指标 (KPI)。"
 
 **[!UICONTROL URL和点击流]**&#x200B;报表提供了关键绩效指标(KPI)，提供了有关投放期间获得最多点击数的URL的详细分析。 指标详见下文。
 

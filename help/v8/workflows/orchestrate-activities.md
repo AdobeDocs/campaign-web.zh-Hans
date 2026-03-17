@@ -111,7 +111,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="活动属性"
->abstract="在此部分中，您可以配置活动的执行设置，包括要执行的操作、最长持续时间、时区、机器关联以及异步行为。"
+>abstract="在此部分中，您可以配置活动的执行设置，包含要执行的操作、最长持续时间、时区、机器关联以及异步行为。"
 
 **执行**&#x200B;字段允许您定义任务启动时要执行的操作。
 
@@ -143,7 +143,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 
 ## 示例 {#example}
 
-下面是一个工作流示例，旨在通过电子邮件向所有对咖啡机感兴趣的客户(VIP客户除外)发送电子邮件。
+下面是一个工作流示例，旨在通过电子邮件向所有对咖啡机感兴趣的客户（VIP客户除外）发送电子邮件。
 
 ![工作流示例图表](assets/workflow-example.png){zoomable="yes"}
 

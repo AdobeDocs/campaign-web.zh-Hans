@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="加入活动"
->abstract="联接活动的占位符。"
+>title="Join 活动"
+>abstract="Join 活动的占位符。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它同步工作流的多个执行分支。
 
