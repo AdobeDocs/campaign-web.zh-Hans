@@ -3,20 +3,14 @@ audience: end-user
 title: 创建内容试验
 description: 了解如何在Adobe Campaign Web中创建内容实验
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 5%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
 # 创建内容试验 {#content-experiment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="内容试验 - A/B 测试"
->abstract="现在，您可以定义多个投放版本，以测试哪一个表现最佳。通过在电子邮件元素中变更内容、主题或发件人，确定最佳效果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"

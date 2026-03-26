@@ -3,10 +3,10 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 98%
+source-wordcount: '530'
+ht-degree: 84%
 
 ---
 
@@ -52,9 +52,15 @@ ht-degree: 98%
 >[!BEGINTABS]
 
 
->[!TAB  2026年2月版]
+>[!TAB 2026年3月版]
 
-2月版已上线。 Campaign Web 用户界面现已推出新功能与增强功能。如需完整概述，请查阅发行说明。
+3月版本已上线。 Campaign Web用户界面中现在提供了新增功能和增强功能。 重点包括：
+
+* **架构创作(GA)** — 直接在Campaign Web UI中创建和管理架构。
+* **电子邮件Designer (LA)中的主题** — 应用可重复使用的主题样式和变量以使电子邮件内容与您的品牌保持一致。
+* **工作流增强功能** - **自动交付**&#x200B;和&#x200B;**开始**&#x200B;活动现已可用，并且&#x200B;**加入**&#x200B;现在支持OR选项。 您现在还可以向工作流添加多个分支。
+
+如需完整概述，请查阅发行说明。
 
 [![了解更多按钮](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

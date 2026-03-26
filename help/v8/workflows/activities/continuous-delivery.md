@@ -3,20 +3,14 @@ audience: end-user
 title: 使用连续投放工作流活动
 description: 了解如何使用连续投放工作流活动
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 25%
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
 # 持续投放 {#continuous-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="连续投放活动"
->abstract="现在，您可以向现有投放添加新的收件人。此类投放无需每次都创建新投放，更适用于按需发送的小规模提醒或通知，可提升效率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 **连续投放**&#x200B;活动允许您向现有投放添加新收件人。 此类投放无需每次都创建新投放，更适用于按需发送的小规模提醒或通知，可提升效率。
 
@@ -45,5 +39,6 @@ ht-degree: 25%
 ## 相关主题 {#related}
 
 * [关于工作流活动](about-activities.md)
+* [自动投放](automated-delivery.md)
 * [电子邮件、短信、推送、直邮活动](channels.md)
 * [投放模板](../../msg/delivery-template.md)

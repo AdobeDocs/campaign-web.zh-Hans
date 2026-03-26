@@ -3,20 +3,14 @@ audience: end-user
 title: 事务型消息中的用户档案扩充
 description: 了解如何在Campaign Web用户界面中创建事务型消息
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 17%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 # 使用轮廓数据扩充事务性消息{#profile-enrichment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="轮廓扩充"
->abstract="现在，您可以将 Campaign 数据库字段与内容关联，实现事务性消息个性化。选择目标映射、扩充列和协调键，以实现准确的实时个性化。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 此功能允许您通过将Adobe Campaign数据库字段链接到消息内容来个性化事务型消息。 您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。
 
@@ -45,7 +39,7 @@ ht-degree: 17%
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. 选择模板并定义属性。 有关详细信息，请参见此 [&#x200B; 页面](create-transactional.md#transactional-message)。
+1. 选择模板并定义属性。 有关详细信息，请参见此 [ 页面](create-transactional.md#transactional-message)。
 
 ## 定义事件类型{#event-enrichment}
 
