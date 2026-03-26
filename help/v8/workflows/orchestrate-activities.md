@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 10%
+source-wordcount: '1321'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 10%
 工具栏位于画布的右上角，提供了用于轻松处理活动和在画布中导航的选项：
 
 * **多重选择模式**：选择多个活动以一次删除所有活动或复制并粘贴它们。 请参阅[此小节](#copy)。
+* **添加分支**：单击工具栏中的&#x200B;**+**&#x200B;按钮以在画布上创建单独的执行分支。 结果等同于对并行路径使用[分支](activities/fork.md)，但图形更加清晰。
 * **旋转**：垂直切换画布。
 * **适合屏幕**：根据屏幕调整画布缩放级别。
 * **缩小** / **放大**：缩小或缩小画布。

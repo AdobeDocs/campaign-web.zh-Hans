@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1011'
 ht-degree: 95%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 95%
       + [投放警报入门](msg/delivery-alerting.md)
       + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
       + [投放警报条件](msg/delivery-alerting-criteria.md)
-+ 内容管理  {#content}
++ 内容管理 {#content}
    + 创建动态内容  {#dynamic-content}
       + [如何将内容设置为动态内容？](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
@@ -115,6 +115,7 @@ ht-degree: 95%
          + [从头开始](email/create-email-content.md)
          + [导入电子邮件内容](email/existing-content.md)
          + [为自己的内容编写代码](email/code-content.md)
+         + [将主题应用于您的电子邮件内容](email/apply-email-themes.md)
       + 设计内容  {#design-content}
          + [使用内容组件](email/content-components.md)
          + [添加链接和跟踪邮件](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 95%
       + [启动和监测工作流](workflows/start-monitor-workflows.md)
    + 使用工作流活动 {#design-workflows}
       + [关于工作流活动](workflows/activities/about-activities.md)
-      + [And-join](workflows/activities/and-join.md)
+      + [自动投放](workflows/activities/automated-delivery.md)
       + [生成受众](workflows/activities/build-audience.md)
       + [更改数据源](workflows/activities/change-data-source.md)
       + [更改维度](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 95%
       + [分叉](workflows/activities/fork.md)
       + [增量查询](workflows/activities/incremental-query.md)
       + [JavaScript 代码](workflows/activities/javascript-code.md)
+      + [加入](workflows/activities/join.md)
       + [加载文件](workflows/activities/load-file.md)
       + [协调](workflows/activities/reconciliation.md)
       + [保存受众](workflows/activities/save-audience.md)
@@ -296,7 +298,7 @@ ht-degree: 95%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“分叉工作流”活动
 description: 了解如何使用“分叉工作流”活动
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 55%
+source-wordcount: '184'
+ht-degree: 51%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 55%
 >abstract="默认情况下，使用&#x200B;**分叉**&#x200B;活动创建两个过渡。单击&#x200B;**添加过渡**&#x200B;按钮以定义其他叫客过渡并输入其标签。"
 
 **分叉**&#x200B;活动是一种&#x200B;**流量控制**&#x200B;活动。通过使用该功能，可创建叫客过渡以同时启动多个活动。
+
+您还可以使用&#x200B;**添加分支** (**+**)工具栏按钮创建单独的分支。 查看[编排活动](../orchestrate-activities.md#toolbar)。
 
 ## 配置分支活动 {#fork-configuration}
 

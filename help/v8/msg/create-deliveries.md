@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 55%
+source-wordcount: '983'
+ht-degree: 48%
 
 ---
 
@@ -113,11 +113,18 @@ ht-degree: 55%
 
 您可以设置发送信息的日期和确切时间。选择最适合发送营销消息的时间，可尽量提高打开率。
 
-要计划发送投放，请打开您的投放并浏览到&#x200B;**[!UICONTROL 计划]**&#x200B;部分。 使用&#x200B;**[!UICONTROL 启用安排]**&#x200B;切换开关以激活该功能，然后设置要发送的日期和时间。发送投放后，实际发送从您定义的联系日期开始。
+要计划投放的发送，请执行以下步骤：
+
+1. 打开您的投放并浏览到&#x200B;**[!UICONTROL 计划]**&#x200B;部分。
+1. 使用&#x200B;**[!UICONTROL 启用计划]**&#x200B;切换来激活它。
+1. 在&#x200B;**[!UICONTROL 联系日期]**&#x200B;字段中，单击日历图标并设置所需的发送日期和时间。
+1. 在&#x200B;**[!UICONTROL 时区]**&#x200B;字段中，使用下拉菜单选择所需时区。
+
+发送投放后，实际发送从您定义的联系日期开始。
 
 ![显示投放计划界面的屏幕截图](assets/schedule.png){zoomable="yes"}
 
-默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在安排的日期和时间发送投放之前确认发送。如果您需要在安排的日期和时间自动发送投放，可禁用此选项。
+默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在计划日期发送投放之前确认发送，如果您需要在计划日期和时间自动发送投放，则可以禁用此选项.me。
 
 在[此部分](../monitor/prepare-send.md#schedule-the-send)中了解发送计划投放的步骤。
 
