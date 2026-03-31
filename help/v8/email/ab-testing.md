@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="内容试验"
->abstract="内容实验可定义多个A/B测试投放变体，以便衡量哪些变体最适合您的目标受众。 您可以更改投放内容、主题或发件人，以测试不同的版本并确定哪个变体产生最佳结果。"
+>abstract="内容试验可定义多个 A/B 测试投放变体，以衡量哪一个最适合您的目标受众。您可以变化投放内容、主题或发件人，以测试不同的版本，确定哪个变体能产生最佳结果。"
 
 ## 关于内容实验 {#about-content-experiment}
 
-Adobe Campaign Web中的内容实验允许您定义多个A/B测试投放变体，以衡量哪些变体最符合您的目标受众。 您可以更改投放内容、主题或发件人，以测试不同的版本并确定哪个变体产生最佳结果。
+Adobe Campaign Web中的内容实验允许您定义多个A/B测试投放变体，以衡量哪些变体最符合您的目标受众。 您可以变化投放内容、主题或发件人，以测试不同的版本，确定哪个变体能产生最佳结果。
 
 您可以对各种电子邮件元素执行A/B测试，例如：
 
