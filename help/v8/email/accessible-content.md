@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 1%
@@ -26,7 +26,6 @@ ht-degree: 1%
 
 此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Adobe Campaign]设计的电子邮件和登陆页面并与之交互。
  
-
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
@@ -49,7 +48,7 @@ ht-degree: 1%
 **颜色对比度**
 
 * 保持文本与背景之间的对比度至少为4.5:1。
-* 对于大文本(≥24px或粗体18px)，请确保对比度至少为3:1。
+* 对于大文本（≥24px或粗体18px），请确保对比度至少为3:1。
 * 避免在白色背景上使用浅灰色或淡色文本。
 * 不要只依靠颜色来传达含义，而是要使用下划线、图标等。
 
@@ -135,7 +134,7 @@ ht-degree: 1%
 
 * [WebAim对比度检查器](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE Web辅助功能评估工具](https://wave.webaim.org/){target="_blank"}用于评估对比度和符合性；
 
-* 屏幕阅读器等辅助技术(例如：[NVDA](https://www.nvaccess.org/download/){target="_blank"}或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"})可从视障用户的角度体验电子邮件。
+* 屏幕阅读器等辅助技术（例如：[NVDA](https://www.nvaccess.org/download/){target="_blank"}或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"}）可从视障用户的角度体验电子邮件。
 
 ## 使用深色模式 {#dark-mode}
 
@@ -316,7 +315,8 @@ ht-degree: 1%
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## 提供键盘导航和焦点支持 {#keyboard}
 

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 9%
@@ -26,21 +26,21 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
 >abstract="在创建登陆页面时，通过四个现成的模板可实现不同的用例：将轮廓添加到 Campaign 数据库或更新轮廓、为客户订阅服务、为客户取消订阅服务或帮助用户退出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#create-landing-page" text="创建登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="创建登陆页面"
 
-要正确使用登陆页面，请使用专用选项将其作为消息中的链接引用。 您不能将已发布的交付仪表板中显示的链接直接复制粘贴到您的交付或网页中。 而应使用&#x200B;**模拟内容**&#x200B;功能对其进行测试。
+要正确使用登陆页面，请使用专用选项将其引用为消息中的链接。 您无法将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。 请改用&#x200B;**模拟内容**&#x200B;功能对其进行测试。
 
-在[!DNL Adobe Campaign Web]界面中，四个现成的模板允许您实现不同的用例。 然而，主要步骤保持不变，详见下文。
+在[!DNL Adobe Campaign Web]界面中，有四个现成的模板允许您实施不同的用例。 但是，主要步骤保持不变，详见下文。
 
-1. [创建登陆页面](create-lp.md#create-landing-page)，并根据您的用例选择您想要的模板。
+1. [创建登陆页面](create-lp.md#create-landing-page)，并根据您的用例选择您选择的模板。
 
 1. 定义登陆页面的属性和设置。
 
    ![显示登陆页面属性和设置界面的屏幕截图。](assets/lp-uc-properties.png){zoomable="yes"}
 
-1. 根据您的案例，选择&#x200B;**[!UICONTROL 收购]**、**[!UICONTROL 订阅]**、**[!UICONTROL 取消订阅]**&#x200B;或&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面。
+1. 根据您的情况，选择&#x200B;**[!UICONTROL 客户获取]**、**[!UICONTROL 订阅]**、**[!UICONTROL 退订]**&#x200B;或&#x200B;**[!UICONTROL 订阅]**&#x200B;页。
 
-1. 此时将显示页面的内容。 选择与登陆页面表单对应的部分。
+1. 将显示页面内容。 选择与登陆页面表单对应的部分。
 
    ![显示登陆页面表单界面的屏幕截图。](assets/lp-uc-form.png){zoomable="yes"}
 
@@ -86,13 +86,13 @@ ht-degree: 9%
 
 1. 选择&#x200B;**[!UICONTROL 客户获取]**&#x200B;页面以编辑其内容。
 
-1. 根据要在配置文件上收集的信息，根据需要编辑文本字段。
+1. 根据要在用户档案上收集的信息，根据需要编辑文本字段。
 
-1. 添加一个复选框，邀请您的客户订阅您的新闻稿服务。 [了解如何创建服务](../audience/manage-services.md)
+1. 添加复选框以邀请客户订阅新闻稿服务。 [了解如何创建服务](../audience/manage-services.md)
 
-   ![屏幕截图，显示带有新闻稿订阅复选框的收购页面界面。](assets/lp-uc-acquisition-page.png){zoomable="yes"}
+   ![显示具有新闻稿订阅复选框的客户获取页面界面的屏幕截图。](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
-1. 根据需要调整您的内容并保存更改。
+1. 根据需要调整内容并保存更改。
 
 1. 查看并[发布](create-lp.md#publish-landing-page)您的登陆页面。
 
@@ -137,25 +137,26 @@ ht-degree: 9%
 
    ![显示订阅复选框界面的屏幕截图。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
-1. 根据需要调整您的内容并保存更改。
+1. 根据需要调整内容并保存更改。
 
-1. 审阅并[发布](create-lp.md#publish-landing-page)您的登陆页面。
+1. 查看并[发布](create-lp.md#publish-landing-page)您的登陆页面。
 
 1. 创建一个[电子邮件](../email/create-email.md)和[添加一个链接](../email/message-tracking.md#insert-links)以将流量引导到注册登陆页面。
 
 1. 设计电子邮件以宣布您的活动现已开放注册。
 
-收到电子邮件后，如果您的收件人单击登陆页面链接并提交表单，则他们将被定向到确认页面并添加到订阅列表。
+收到电子邮件后，如果您的收件人单击登陆页面的链接并提交表单，则他们将被定向到确认页面并添加到订阅列表。
 
 ## 退订 {#lp-unsubscription}
 
 您可以让客户使用登陆页面取消订阅服务。
 
-1. 为取消订阅服务的用户创建确认模板，以便在创建服务时可以轻松选择它。 [了解详情](../audience/manage-services.md#create-confirmation-message)
+1. 为取消订阅服务的用户创建确认模板，以便您在创建服务时可以轻松选择它。 [了解详情](../audience/manage-services.md#create-confirmation-message)
 
-1. 在您的[订阅服务](../audience/manage-services.md)中，选择您创建的模板，该模板是用户取消订阅时将收到的确认电子邮件。
+1. 在您的[订阅服务](../audience/manage-services.md)中，选择您创建的模板，作为用户取消订阅时将收到的确认电子邮件。
 
 1. [创建登陆页面](create-lp.md#create-landing-page)。 选择&#x200B;**[!UICONTROL 取消订阅]**&#x200B;模板。
 
@@ -185,7 +186,7 @@ ht-degree: 9%
 
 您可以设置&#x200B;**[!UICONTROL 阻止列表]**&#x200B;登录页面，以允许用户选择退出所有投放。
 
-1. 列入阻止列表在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;**&#x200B;**&#x200B;模板。
+1. 在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;****&#x200B;模板。
 
 1. 选择&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面以编辑其内容。
 
@@ -207,6 +208,6 @@ ht-degree: 9%
 
 例如，如果您选择更新登陆页面中的&#x200B;**[!UICONTROL 渠道（电子邮件）]**&#x200B;选项，则将选中&#x200B;**[!UICONTROL 不再通过电子邮件联系]**&#x200B;选项。
 
-列入阻止列表 ![显示用首选项更新的配置文件的屏幕截图。](assets/lp-uc-denylist-profile.png){zoomable="yes"}
+![显示用首选项更新的配置文件的屏幕截图。](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 除非再次订阅，否则此配置文件将不会收到来自您品牌的电子邮件通信。

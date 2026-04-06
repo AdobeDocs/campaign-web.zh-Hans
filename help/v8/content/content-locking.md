@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 30%
@@ -46,7 +46,8 @@ Adobe Campaign允许您通过锁定整个模板或特定结构和组件来锁定
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 可在&#x200B;**结构**&#x200B;级别或&#x200B;**组件**&#x200B;级别应用内容锁定。 以下是锁定模板中的内容时在结构和组件级别应用的主要原则：
 
@@ -67,7 +68,8 @@ Adobe Campaign允许您通过锁定整个模板或特定结构和组件来锁定
 >具有创建内容模板权限的用户可以启用内容锁定。
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## 锁定电子邮件模板 {#define}
 
@@ -201,4 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?captions=chi_hans&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->

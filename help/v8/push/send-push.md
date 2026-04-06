@@ -3,7 +3,7 @@ audience: end-user
 title: 发送推送通知投放
 description: 了解如何使用Adobe Campaign Web发送推送通知投放
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -24,8 +24,10 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 添加订阅者]**&#x200B;可选择一个或多个用户档案，以便在推送通知内容中预览其数据。
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. 在右侧窗格中，查找推送通知的预览，其中个性化元素会动态替换为所选用户档案中的数据。
 

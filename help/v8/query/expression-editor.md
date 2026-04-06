@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 36%
@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
->&#x200B;>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 使用表达式编辑器 {#edit}
 
@@ -320,7 +320,7 @@ ht-degree: 36%
 <tr>
 <td><strong>TruncDate</strong></td>
 <td>将日期+时间舍入到最接近的秒数</td>
-<td>TruncDate(@lastModified， &lt;秒数&gt;)</td>
+<td>TruncDate（@lastModified， &lt;秒数&gt;）</td>
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
@@ -524,11 +524,13 @@ ht-degree: 36%
    <td> 如果值1 =值2，则返回值3。 如果未返回值4.<br /> </td> 
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 返回值 1（只能用作 case 函数的参数）<br /> </td> 
@@ -778,7 +780,7 @@ ht-degree: 36%
   <tr> 
    <td> <strong>_超过__</strong><br /> </td> 
    <td> 执行作为第1参数输入的SQL函数调用，通过Partition或Order By作为第2参数<br />输入的字段 </td> 
-   <td> 超过_ （&lt;值&gt;， &lt;值&gt;）<br />(_Over_) </td>  
+   <td> _超过_ （&lt;值&gt;， &lt;值&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

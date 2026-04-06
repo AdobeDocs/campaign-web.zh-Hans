@@ -5,8 +5,8 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -21,7 +21,8 @@ ht-degree: 100%
 通过 Campaign 生成式 AI 的各项功能，此组件可提升您的体验，使检索信息和解决问题变得轻而易举。无论您是寻求有关复杂任务的指导，还是浏览大量文档，基于 AI 的上下文帮助都将作为您的得力助手，在每次交互中提供无与伦比的效率和准确性。
 
 <!--
-[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
+[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)
+-->
 
 >[!AVAILABILITY]
 >
@@ -42,7 +43,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/cn/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## 建议的问题 {#questions-ai}

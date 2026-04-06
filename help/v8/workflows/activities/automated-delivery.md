@@ -3,7 +3,7 @@ audience: end-user
 title: 自动投放工作流活动
 description: 了解如何使用自动投放工作流活动
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -26,7 +26,8 @@ ht-degree: 4%
 **自动交付**&#x200B;活动允许您直接在工作流中创建、配置和执行交付操作。 当您要按计划运行预定义交货，或作为自动流的一部分运行，或者当您要在每次活动运行时从模板生成新交货时，使用此模板。
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 要配置此活动，请执行以下步骤：
 
@@ -51,7 +52,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 选择要执行的操作 {#action-to-execute}
 
