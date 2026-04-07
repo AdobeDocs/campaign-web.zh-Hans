@@ -72,7 +72,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->可在Campaign客户端控制台中配置疲劳管理和压力规则。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>可在Campaign客户端控制台中配置疲劳管理和压力规则。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}以了解详情。
 
 ### 容量设置 {#capacity-settings}
 
@@ -92,7 +92,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hans){target="_blank"}以了解详情。
+>类型规则是在Campaign客户端控制台中配置的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}以了解详情。
 
 ## 受众设置 {#audience}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 测试SMTP投放]** （电子邮件通道）：此选项用于测试通过SMTP的发送。 电子邮件会一直处理到连接到SMTP服务器，但不会发送：对于电子邮件的每个收件人，Campaign会连接到SMTP提供商服务器，执行SMTP RCPT TO命令，并在SMTP DATA命令之前关闭连接。
 
-* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hans){target="_blank"}以了解详情。
+* **[!UICONTROL 电子邮件密件抄送]**（电子邮件渠道）：此选项用于通过密件抄送在外部系统上存储电子邮件，只需将密件抄送电子邮件地址添加到邮件目标即可。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}以了解详情。
 
 在&#x200B;**[!UICONTROL 波次定义]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 使用多个波次发送]**&#x200B;选项，以逐步增加使用波次发送的数量。 这将避免您的邮件被标记为垃圾邮件或您想要限制每天的邮件数。 利用批次，您可以将投放分为多个批次，而不是同时发送大量消息。 [了解详情](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hans#external-account-ac){target="_blank"}以了解详情。
+>可以在Campaign客户端控制台中配置网站分析功能。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}以了解详情。
 
 ## 重试 {#retries}
 
@@ -346,7 +346,7 @@ ht-degree: 39%
 该表列出了随每条消息一起发送的可选参数。 列包含以下信息：
 
    * **标签**：这是可选的自由格式标签。 不会发送给提供商。 您可以提供参数的文本描述。
-   * **标记**：标记值，以十进制格式(如12345)或带0x前缀的十六进制（如0x12ab）表示。 标记可以介于0和65535之间。 向SMPP服务提供商询问他们支持的标记。
+   * **标记**：标记值，以十进制格式（如12345）或带0x前缀的十六进制（如0x12ab）表示。 标记可以介于0和65535之间。 向SMPP服务提供商询问他们支持的标记。
    * **值**：要在可选参数中发送的值。 这是一个个性化字段。
    * **格式**：用于参数的编码。 您可以选择任何受支持的文本编码或最常见的二进制格式。 询问SMPP服务提供商所需的格式。
    * **最大长度**：此参数的最大字节数。 对于二进制字段，这将被忽略，因为二进制字段的大小是固定的。
