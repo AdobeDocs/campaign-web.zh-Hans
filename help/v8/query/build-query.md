@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 
