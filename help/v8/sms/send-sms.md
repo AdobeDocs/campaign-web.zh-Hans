@@ -3,7 +3,7 @@ audience: end-user
 title: 发送短信投放
 description: 了解如何使用Adobe Campaign Web发送短信
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 2bcb1c890ca90b73183fe5e168fb3ec3b08dea1f
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 12%
@@ -32,7 +32,7 @@ ht-degree: 12%
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
-—>
+    -->
 
 1. 在右侧窗格中，查看SMS投放预览，其中个性化元素会动态替换为所选用户档案中的数据。
 
