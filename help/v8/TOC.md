@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1006'
 ht-degree: 95%
 
 ---
@@ -147,7 +147,6 @@ ht-degree: 95%
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
    + [设计登陆页内容](landing-pages/lp-content.md)
-   + [使用登陆页模板](landing-pages/lp-templates.md)
    + [通过用例学习](landing-pages/lp-use-cases.md)
 + 用户档案和受众  {#audiences}
    + [轮廓和受众入门](audience/gs-audiences-recipients.md)
@@ -298,7 +297,7 @@ ht-degree: 95%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成 ](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
