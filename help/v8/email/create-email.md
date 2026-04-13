@@ -3,10 +3,10 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 43%
+source-wordcount: '1648'
+ht-degree: 44%
 
 ---
 
@@ -173,10 +173,7 @@ ht-degree: 43%
 
    ![根据所选的用户档案显示电子邮件预览的屏幕截图](assets/preview.png){zoomable="yes"}
 
-   <!--
-此外，**[!UICONTROL 呈现电子邮件]**&#x200B;按钮允许您使用多个设备或邮件提供商预览电子邮件。 了解如何预览电子邮件渲染
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后选择要使用的模式。
 

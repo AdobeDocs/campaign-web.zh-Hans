@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 95%
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + 发行说明 {#release-notes}
    + [新增功能？](rn/whats-new.md)
-   + [提前发布](rn/e-release-notes.md)
+   + {hide-from-toc}[早期版本](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 之前版本  {#previous-release-notes}
       + [2026 版](rn/release-notes-26.md)
       + [2025 版](rn/release-notes-25.md)
       + [2024 版](rn/release-notes-24.md)
-   + [文档更新](rn/documentation-updates.md)
+   + {hide-from-toc}[文档更新](rn/documentation-updates.md)
 + Adobe Campaign 入门 {#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
-   + [探索界面](get-started/user-interface.md)
+   + {hide-from-toc}[发现接口](get-started/user-interface.md)
    + [浏览和过滤列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [使用文件夹](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
-   + [AI 驱动的上下文帮助](get-started/using-ai.md)
+   + {hide-from-toc}[AI支持的上下文帮助](get-started/using-ai.md)
    + [常见问题解答](get-started/faq.md)
 + 消息和投放 {#msg}
    + [开始使用消息功能](msg/gs-messages.md)
@@ -219,7 +219,7 @@ ht-degree: 95%
    + [使用查询建模器](query/query-modeler-overview.md)
    + [生成您的第一个查询](query/build-query.md)
    + [编辑表达式](query/expression-editor.md)
-   + [查询示例](query/query-samples.md)
+   + {hide-from-toc}[查询示例](query/query-samples.md)
    + [过滤器列表](query/filter.md)
 + 报告 {#reports}
    + [审核跟踪](reporting/audit-trail.md)
@@ -292,7 +292,7 @@ ht-degree: 95%
       + [添加收藏集列表](administration/schemas-collection-lists.md)
       + [创建和发布架构](administration/schemas-create-publish.md)
       + [使用自定义表单](administration/schemas-custom-forms.md)
-   + [配置自定义字段](administration/custom-fields.md)
+   + {hide-from-toc}[配置自定义字段](administration/custom-fields.md)
    + [配置 [!DNL Campaign] 选项](administration/options.md)
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
