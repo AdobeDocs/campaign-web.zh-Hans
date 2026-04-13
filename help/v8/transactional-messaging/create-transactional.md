@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 创建事务型消息模板 {#transactional-template}
 
-在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[上的](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)事务性消息的配置不同。
+在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[上的](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional)事务性消息的配置不同。
 
 事务型消息模板可用于在到达最终受众之前预览用户档案收到的投放内容。 例如，管理员可以设置和配置模板，以便营销用户随时使用。
 
