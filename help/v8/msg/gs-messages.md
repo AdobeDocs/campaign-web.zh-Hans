@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: 在 Adobe Campaign Web 中开始使用消息和投放
-description: 了解如何使用 Campaign Web 处理投放和发送消息
+description: 了解如何使用Adobe Campaign Web用户界面处理投放和发送消息
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 75%
 
 ---
 
 
 # 开始使用消息功能{#gs-messages}
 
-借助 Adobe Campaign，您可以发送跨渠道营销活动，包括电子邮件、短信和推送通知，并使用各种专用报告来衡量其效果。
+借助Adobe Campaign，您可以发送跨渠道营销活动，包括电子邮件、短信、推送通知、[WhatsApp](../whatsapp/get-started-whatsapp.md)和直邮，并使用各种专用报告衡量其影响。
 
 这些消息通过投放进行设计和发送，并且可以为每位收件人进行个性化定制。这些投放可以是独立的，也可以包含在营销活动的工作流中。在[本节](gs-deliveries.md)中，了解如何在 Adobe Campaign 中创建和管理投放。
 
