@@ -1,18 +1,18 @@
 ---
 audience: end-user
 title: 使用投放工作流活动
-description: 了解如何添加投放工作流活动（电子邮件、推送、短信、直邮）
+description: 了解如何添加投放工作流活动（电子邮件、推送、短信、WhatsApp、直邮）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '974'
 ht-degree: 40%
 
 ---
 
-# 电子邮件、短信、推送、直邮活动 {#channel}
+# 电子邮件、短信、WhatsApp、推送、直邮活动 {#channel}
 
-通过Adobe Campaign Web，您可以跨电子邮件、短信、直邮和推送渠道自动执行营销活动。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
+通过Adobe Campaign Web，您可以跨电子邮件、短信、WhatsApp、直邮和推送渠道自动执行营销活动。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
 
 例如，创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信、推送和直邮。 您还可以在客户完成购买后发送跟进电子邮件，或通过短信向客户发送个性化的生日消息。
 
@@ -25,6 +25,7 @@ ht-degree: 40%
 >* [创建独立SMS投放](../../sms/create-sms.md)
 >* [创建独立推送投放](../../push/create-push.md)
 >* [创建独立直邮投放](../../direct-mail/create-direct-mail.md)
+>* [创建独立WhatsApp投放](../../whatsapp/create-whatsapp.md)
 
 ## 先决条件 {#channel-activity-prereq}
 
@@ -71,7 +72,7 @@ ht-degree: 40%
 
 要在工作流上下文中设置投放，请执行以下步骤：
 
-1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
+1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL WhatsApp]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
 
 1. 选择&#x200B;**投放类型**：单次或循环。
 
