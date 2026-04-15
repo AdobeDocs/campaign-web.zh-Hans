@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="结束活动"
->abstract="**开始**&#x200B;活动允许您以图形方式标记工作流的开始。 此活动没有功能影响，因此是可选的。"
+>abstract="您可以使用&#x200B;**开始**&#x200B;活动以图形方式标记工作流的始点。此活动没有功能影响，因此是可选的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"

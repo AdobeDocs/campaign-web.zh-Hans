@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Email Designer (LA)中的主题"
->abstract="应用可重复使用的主题样式和变量以使电子邮件内容与您的品牌保持一致。 此功能仅适用于一组组织（限量发布）"
+>title="电子邮件设计器中的主题（LA）"
+>abstract="应用可重复使用的主题样式和变量，确保电子邮件内容与您的品牌保持一致。此功能仅面向一部分组织（限量发布）"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
