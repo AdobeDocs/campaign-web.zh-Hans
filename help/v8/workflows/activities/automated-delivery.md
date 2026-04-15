@@ -6,7 +6,7 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="自动投放活动"
->abstract="工作流面板中现在提供了自动投放工作流活动。 您可以用它直接在工作流中创建或执行投放操作（准备、发送验证、准备和启动等）。"
+>abstract="工作流调色板中现在提供了自动投放工作流活动。您可以用它直接在工作流中创建或执行投放操作（准备、发送验证、准备和启动等）。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="自动投放活动"
->abstract="**自动投放**&#x200B;活动用于自动化：在工作流中创建或重用投放，然后选择要执行的操作（准备、准备和启动、发送验证等）。 您可以选择在工作流之外创建的现有显式投放，或在每次活动运行时从模板创建新投放。"
+>abstract="**自动投放**&#x200B;活动用于自动化：在工作流中创建或重复使用投放，然后选择要执行的操作（准备、准备和启动、发送验证等）。您可以选择在工作流之外创建的现有显式投放，或在每次活动运行时从模板创建新投放。"
 
 **自动交付**&#x200B;活动允许您直接在工作流中创建、配置和执行交付操作。 当您要按计划运行预定义交货，或作为自动流的一部分运行，或者当您要在每次活动运行时从模板生成新交货时，使用此模板。
 

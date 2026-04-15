@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 20%
+ht-degree: 36%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="多个工作流分支和连接活动"
->abstract="现在支持多个分支。 您可以单击工具栏上的“添加分支”，而不是使用“分支”。 合并连接活动也已得到改进。 它现在是一个通用的“连接”活动，允许您在“与”和“或”连接选项之间进行选择。"
+>abstract="现在支持多个分支。您可以单击工具栏上的“添加分支”，而不是使用“分叉”。AND-join 活动也已得到改进。它现在是一个通用的 Join 活动，允许您在 AND 和 OR join 选项之间进行选择。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Join 活动"
->abstract="**加入**&#x200B;活动允许您合并多个集客过渡。 选择是否在完成所有集客过渡后继续(AND)，或是否在完成任何集客过渡后继续(OR)。"
+>abstract="**Join** 活动允许您合并多个集客过渡。选择在所有集客过渡完成后继续 (AND) 还是在任何集客过渡完成后继续 (OR)。"
 
 **加入**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它同步工作流的多个执行分支。
 您可以选择评估集客过渡的方式：
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 选择&#x200B;**或**&#x200B;后，只要激活其中一个选定的集客过渡，就会立即继续执行。 它不会等待每一个分支。
 
-## 配置加入活动 {#join-configuration}
+## 配置 Join 活动 {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

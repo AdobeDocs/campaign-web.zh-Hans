@@ -5,7 +5,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="架构创作"
->abstract="您现在可以直接从Campaign Web用户界面创建和管理架构。 您可以创建新表、扩展现有模式以及创建自定义表单。"
+>abstract="您现在可以直接从 Campaign Web 用户界面创建和管理架构。您可以创建新表、扩展现有架构以及创建自定义表单。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]

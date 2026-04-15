@@ -1,5 +1,5 @@
 ---
-title: 创建和管理创成模型
+title: 创建和管理生成式模型
 description: 了解如何创建和管理创新型模型
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 创建和管理创成模型 {#generative-models}
+# 创建和管理生成式模型 {#generative-models}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="图像生成模型的集成"
->abstract="实现标准和自定义Firefly模型与经批准的第三方图像模型的无缝集成，以在生成图像时提供更大的灵活性、控制力以及品牌一致性。"
+>abstract="启用标准和自定义 Firefly 模型以及经过批准的第三方图像模型的无缝集成，从而在生成图像时提供更大的灵活性、控制力以及品牌一致性。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 通过内置模型、自定义Firefly模型和第三方图像生成提供商扩展您的AI图像创建功能，以满足您的特定需求并改善品牌一致性。
