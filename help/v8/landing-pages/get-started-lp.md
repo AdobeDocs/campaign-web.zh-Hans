@@ -5,9 +5,9 @@ description: 了解 Campaign Web 中的登陆页面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->在 Campaign Web 用户界面中创建的登陆页面与从客户端控制台创建的 Web 窗体不同。无法在 Campaign Web 用户界面中显示或编辑在客户端控制台中创建的 Web 窗体。
+>在 Campaign Web 用户界面中创建的登陆页面与从客户端控制台创建的 Web 窗体不同。 无法在 Campaign Web 用户界面中显示或编辑在客户端控制台中创建的 Web 窗体。
 >
 >要了解有关 Web 表单的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}。
 
 登陆页面的主要功能如下所示：
 
-* 使用适合各种用例的现成的&#x200B;**预填充模板**，即时创建、设计和共享登陆页面。[了解详情](create-lp.md)
-* 利用 [!DNL Adobe Campaign] 内容设计功能，轻松构建&#x200B;**响应式登陆页面**。[了解详情](lp-content.md)
-* 快速、无缝地设置&#x200B;**选择启用和选择禁用流程**。[了解详情](lp-use-cases.md)
-* 创建订阅服务，使用户能够&#x200B;**订阅服务**。[了解详情](lp-use-cases.md#lp-subscription)
-* 向收件人提供&#x200B;**取消订阅**&#x200B;以停止接收通信的功能。[了解详情](lp-use-cases.md#lp-unsubscription)
+* 使用适合各种用例的现成的&#x200B;**预填充模板**，即时创建、设计和共享登陆页面。 [了解详情](create-lp.md)
+* 利用 [!DNL Adobe Campaign] 内容设计功能，轻松构建&#x200B;**响应式登陆页面**。 [了解详情](lp-content.md)
+* 快速、无缝地设置&#x200B;**选择启用和选择禁用流程**。 [了解详情](lp-use-cases.md)
+* 创建订阅服务，使用户能够&#x200B;**订阅服务**。 [了解详情](lp-use-cases.md#lp-subscription)
+* 向收件人提供&#x200B;**取消订阅**&#x200B;以停止接收通信的功能。 [了解更多](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -62,10 +62,9 @@ ht-degree: 95%
 </td>
 <td>
 <a href="lp-use-cases.md">
-<img alt="登陆页面用例和内置模板" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="登陆页用例和内置模板" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
-<div>
-<a href="lp-use-cases.md"><strong>登陆页面用例</strong></a>
+<div><a href="lp-use-cases.md"><strong>登陆页用例</strong></a>
 </div>
 <p>
 </td>

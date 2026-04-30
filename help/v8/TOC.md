@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 + [Adobe Campaign Web 用户界面文档](campaign-web-home.md)
 + 发行说明 {#release-notes}
    + [新增功能？](rn/whats-new.md)
-   + {hide-from-toc}[早期版本](rn/e-release-notes.md)
+   + {hide-from-toc}[提前发布](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
-   + 之前版本  {#previous-release-notes}
+   + 之前版本 {#previous-release-notes}
       + [2026 版](rn/release-notes-26.md)
       + [2025 版](rn/release-notes-25.md)
       + [2024 版](rn/release-notes-24.md)
@@ -28,7 +28,7 @@ ht-degree: 93%
 + Adobe Campaign 入门 {#start}
    + [快速入门](get-started/get-started.md)
    + [连接到 Campaign](get-started/connect-to-campaign.md)
-   + {hide-from-toc}[发现接口](get-started/user-interface.md)
+   + {hide-from-toc}[了解界面](get-started/user-interface.md)
    + [浏览和过滤列表](get-started/list-filters.md)
    + [使用预定义过滤器](get-started/predefined-filters.md)
    + [使用文件夹](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 93%
    + [权限](get-started/permissions.md)
    + [Campaign Web 和客户端控制台](get-started/capability-matrix.md)
    + [从 Campaign Standard 到 v8](rn/acs-migration.md)
-   + {hide-from-toc}[AI支持的上下文帮助](get-started/using-ai.md)
+   + {hide-from-toc}[AI 驱动的上下文帮助](get-started/using-ai.md)
    + [常见问题解答](get-started/faq.md)
 + 消息和投放 {#msg}
    + [开始使用消息功能](msg/gs-messages.md)
@@ -51,11 +51,11 @@ ht-degree: 93%
          + [准备并发送电子邮件](monitor/prepare-send.md)
          + [使用多批次发送](advanced-settings/send-using-waves.md)
          + [监测投放日志](monitor/delivery-logs.md)
-         + [计划投放的发送](monitor/schedule-sending.md)
+         + [计划发送投放](monitor/schedule-sending.md)
    + 推送通知 {#push}
       + [推送通知入门](push/gs-push.md)
       + [创建推送通知投放](push/create-push.md)
-      + 丰富的推送  {#rich-push}
+      + 丰富的推送 {#rich-push}
          + [设计 Android 富推送投放](push/rich-push.md)
          + [设计 iOS 富媒体推送投放](push/rich-push-ios.md)
       + [设计推送投放](push/content-push.md)
@@ -73,8 +73,8 @@ ht-degree: 93%
    + 呼叫中心 {#call-center}
       + [开始使用呼叫中心投放](call-center/gs-call-center.md)
       + [创建并发送呼叫中心投放](call-center/create-call-center.md)
-   + {hide-from-toc}[开始使用WhatsApp](whatsapp/get-started-whatsapp.md)
-   + {hide-from-toc}[创建WhatsApp投放](whatsapp/create-whatsapp.md)
+   + {hide-from-toc}[开始使用 WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[创建 WhatsApp 投放](whatsapp/create-whatsapp.md)
    + [自定义渠道](call-center/gs-custom-channel.md)
    + 事务性消息 {#transactional-messages}
       + [事务性消息入门](transactional-messaging/transactional.md)
@@ -97,11 +97,11 @@ ht-degree: 93%
       + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
       + [投放警报条件](msg/delivery-alerting-criteria.md)
 + 内容管理 {#content}
-   + 创建动态内容  {#dynamic-content}
+   + 创建动态内容 {#dynamic-content}
       + [如何将内容设置为动态内容？](personalization/gs-personalization.md)
       + [添加个性化内容](personalization/personalize.md)
       + [构建条件内容](personalization/conditions.md)
-   + 重复使用内容  {#manage-reusable-content}
+   + 重复使用内容 {#manage-reusable-content}
       + 内容模板 {#content-templates}
          + [使用内容模板](content/create-email-templates.md)
          + [使用电子邮件内容模板](content/use-email-templates.md)
@@ -113,12 +113,12 @@ ht-degree: 93%
          + [在表达式编辑器中使用表达式片段](content/use-expression-fragments.md)
    + 设计电子邮件 {#email-design}
       + [Email Designer 快速入门](email/get-started-email-designer.md)
-      + 开始计划您的电子邮件  {#start-design}
+      + 开始计划您的电子邮件 {#start-design}
          + [从头开始](email/create-email-content.md)
          + [导入电子邮件内容](email/existing-content.md)
          + [为自己的内容编写代码](email/code-content.md)
          + [将主题应用于您的电子邮件内容](email/apply-email-themes.md)
-      + 设计内容  {#design-content}
+      + 设计内容 {#design-content}
          + [使用内容组件](email/content-components.md)
          + [添加链接和跟踪邮件](email/message-tracking.md)
          + [添加指向镜像页面的链接](email/mirror-page.md)
@@ -143,18 +143,18 @@ ht-degree: 93%
       + 品牌 {#ai-assistant}
          + [创建和管理品牌](content/brands.md)
          + [个性化您的品牌](content/brands-personalize.md)
-         + [创建和管理创成模型](content/generative-models.md)
+         + [创建和管理生成式模型](content/generative-models.md)
          + [评估您的内容](content/brands-score.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](landing-pages/get-started-lp.md)
    + [创建和发布登陆页](landing-pages/create-lp.md)
    + [设计登陆页内容](landing-pages/lp-content.md)
    + [通过用例学习](landing-pages/lp-use-cases.md)
-+ 用户档案和受众  {#audiences}
++ 用户档案和受众 {#audiences}
    + [轮廓和受众入门](audience/gs-audiences-recipients.md)
    + [目标选择维度](audience/targeting-dimensions.md)
    + [隔离](audience/quarantine.md)
-   + 使用配置文件  {#work-with-profiles}
+   + 使用配置文件 {#work-with-profiles}
       + [开始使用轮廓](audience/about-recipients.md)
       + [浏览轮廓的详细信息](audience/profile-view.md)
       + [创建轮廓](audience/create-profile.md)
@@ -162,7 +162,7 @@ ht-degree: 93%
    + 使用受众 {#audiences}
       + [开始使用受众](audience/manage-audience.md)
       + [创建受众](audience/create-audience.md)
-   + 选择您的投放收件人  {#target-audiences}
+   + 选择您的投放收件人 {#target-audiences}
       + [开始选择受众](audience/delivery-recipients.md)
       + [选择现有受众](audience/add-audience.md)
       + [生成一次性受众](audience/one-time-audience.md)
@@ -172,11 +172,11 @@ ht-degree: 93%
    + 使用订阅服务 {#work-with-services}
       + [创建和管理订阅服务](audience/manage-services.md)
       + [管理订阅者](audience/manage-subscribers.md)
-+ 跨渠道营销活动  {#campaigns}
++ 跨渠道营销活动 {#campaigns}
    + [开始使用营销活动](campaigns/gs-campaigns.md)
    + [访问和管理营销活动](campaigns/manage-campaigns.md)
    + [创建您的第一个营销活动](campaigns/create-campaigns.md)
-   + [建立和管理审批流程](campaigns/campaign-approvals.md)
+   + [设置和管理审批流程](campaigns/campaign-approvals.md)
    + [计划和项目](administration/plans-programs.md)
 + 工作流 {#wf}
    + [工作流入门](workflows/gs-workflows.md)
@@ -206,7 +206,7 @@ ht-degree: 93%
       + [分叉](workflows/activities/fork.md)
       + [增量查询](workflows/activities/incremental-query.md)
       + [JavaScript 代码](workflows/activities/javascript-code.md)
-      + [加入](workflows/activities/join.md)
+      + [连接](workflows/activities/join.md)
       + [加载文件](workflows/activities/load-file.md)
       + [协调](workflows/activities/reconciliation.md)
       + [保存受众](workflows/activities/save-audience.md)
@@ -217,7 +217,7 @@ ht-degree: 93%
       + [传输文件](workflows/activities/transfer-file.md)
       + [更新数据](workflows/activities/update-data.md)
       + [等待](workflows/activities/wait.md)
-+ 查询数据库  {#query-database}
++ 查询数据库 {#query-database}
    + [使用查询建模器](query/query-modeler-overview.md)
    + [生成您的第一个查询](query/build-query.md)
    + [编辑表达式](query/expression-editor.md)
@@ -249,7 +249,7 @@ ht-degree: 93%
          + [直邮全球报告](reporting/global-report-direct.md)
    + 动态报告 {#dynamic-reporting}
       + [动态报告快速入门](reporting/dynamic-reporting/get-started-reporting.md)
-      + 关于报告  {#about-reporting}
+      + 关于报告 {#about-reporting}
          + [关于动态报告](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [报告界面](reporting/dynamic-reporting/reporting-interface.md)
          + [组件列表](reporting/dynamic-reporting/list-of-components.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
          + [跟踪指标](reporting/dynamic-reporting/tracking-indicators.md)
          + [取消订阅](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL 和点击流](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + 自定义报告  {#customizing-reports}
+      + 自定义报告 {#customizing-reports}
          + [添加面板](reporting/dynamic-reporting/adding-panels.md)
          + [添加可视化](reporting/dynamic-reporting/adding-visualizations.md)
          + [添加组件](reporting/dynamic-reporting/adding-components.md)
@@ -277,7 +277,7 @@ ht-degree: 93%
    + [与其他 Adobe 解决项目搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 管理资源](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 管理模版](integrations/aem-content.md)
-   + [使用Adobe Experience Manager管理语言副本](integrations/aem-multilingual.md)
+   + [使用 Adobe Experience Manager 管理语言副本](integrations/aem-multilingual.md)
    + [使用 GenStudio for Performance Marketing](integrations/genstudio.md)
 + 配置 {#conf}
    + 品牌化 {#branding}
@@ -299,7 +299,7 @@ ht-degree: 93%
    + [时区管理](administration/timezone-management.md)
    + 外部帐户 {#external-accounts}
       + [创建外部帐户](administration/create-external-account.md)
-      + [Adobe 解决方案集成 &#x200B;](administration/integration-external-account.md)
+      + [Adobe 解决方案集成](administration/integration-external-account.md)
       + [Campaign 专属](administration/external-account.md)
       + [外部数据库](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
