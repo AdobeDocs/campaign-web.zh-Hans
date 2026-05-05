@@ -3,10 +3,10 @@ audience: end-user
 title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 57%
+source-wordcount: '514'
+ht-degree: 53%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="生成受众活动"
->abstract="通过&#x200B;**生成受众**&#x200B;活动，可定义将进入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。"
+>abstract="通过&#x200B;**生成受众**&#x200B;活动，可定义将进入工作流的受众。 在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。"
 
-**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。此活动允许您定义将输入工作流的受众。在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。
+**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。 此活动允许您定义将输入工作流的受众。 在工作流的上下文中发送消息时，不在渠道活动中，而是在&#x200B;**生成受众**&#x200B;活动中定义消息受众。
 
 要定义受众群体，您可以：
 
@@ -56,10 +56,11 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 要创建自己的查询，请执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。[了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#targeting)
+1. 选择&#x200B;**定位维度**。 利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#targeting)
 1. 单击定向维度旁边的图标以选择&#x200B;**过滤维度**。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#filtering)
 1. 单击&#x200B;**继续**。
 1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
+1. 使用&#x200B;**扩充数据**&#x200B;部分通过数据库中的附加信息（例如合同参考或新闻稿订阅）增强目标数据。 该数据将与受众一起存储在工作流&#x200B;**工作台**&#x200B;中，并且可用于后续的活动。 您可以添加单个扩充属性、集合链接或表达式。 有关详细步骤和示例，请参阅[添加扩充数据](enrichment.md#enrichment-add)。
 
 >[!TAB 读取受众]
 
@@ -67,12 +68,12 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 1. 选择&#x200B;**读取受众**。
 1. 单击&#x200B;**继续**。
-1. 选择受众，与设计新投放时使用受众的方式相同。 请参阅此[章节](../../audience/add-audience.md)。
+1. 选择您的受众，就像设计新投放时使用受众一样。 请参阅此[章节](../../audience/add-audience.md)。
 
 >[!ENDTABS]
 
 ## 示例 {#build-audience-examples}
 
-此工作流程示例包含两个&#x200B;**生成受众**&#x200B;活动。第一个示例针对扑克玩家受众，然后是电子邮件投放。第二个示例针对 VIP 客户受众，然后是短信投放。
+此工作流程示例包含两个&#x200B;**生成受众**&#x200B;活动。 第一个示例针对扑克玩家受众，然后是电子邮件投放。 第二个示例针对 VIP 客户受众，然后是短信投放。
 
 ![屏幕截图显示了一个示例工作流，该工作流具有两个针对不同受众的生成受众活动。](../assets/workflow-audience-example.png)

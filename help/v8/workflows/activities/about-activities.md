@@ -3,16 +3,16 @@ audience: end-user
 title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 24%
+source-wordcount: '629'
+ht-degree: 25%
 
 ---
 
 # 关于工作流活动 {#workflow-activities}
 
-工作流活动分为三类。根据具体情况，可用的活动可能会有所不同。
+工作流活动分为三类。 根据具体情况，可用的活动可能会有所不同。
 
 以下各章节详细介绍了所有活动：
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 这些活动特定于定位。 通过定义受众，并使用交集、并集或排除操作拆分或组合这些受众，可构建一个或多个目标受众。
 
-* [构建受众](build-audience.md)：定义目标群体。 选择现有受众，或使用查询建模器定义您自己的查询。
+* [构建受众](build-audience.md)：定义目标群体。 选择现有受众，或使用查询建模器定义您自己的查询。 您还可以配置&#x200B;**扩充数据** （可用于查询）。
 * [更改数据源](change-data-source.md)：更改工作流工作表的数据源。
 * [更改维度](change-dimension.md)：在构建工作流时更改定向维度。
 * [合并](combine.md)：对入站群体执行分段。 使用并集、交集或排除项。
@@ -46,7 +46,7 @@ ht-degree: 24%
 * [传输文件](transfer-file.md)：接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。
 * [JavaScript代码](javascript-code.md)：在工作流上下文中执行JavaScript代码片段。
 * [订阅服务](subscription-services.md)：在单个操作中订阅或退订多个配置文件来或从中订阅服务。
-* [更新数据](update-data.md)：对数据库中的字段执行批量更新。 您可以通过多个选项将数据更新个性化。
+* [更新数据](update-data.md)：对数据库中的字段执行批量更新。 您可以利用多个选项，以个性化方式更新数据。
 
 ## 渠道活动 {#channel}
 
@@ -57,19 +57,19 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="结束活动"
->abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。此活动没有功能影响，因此是可选的。"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 此活动没有功能影响，因此是可选的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="结束活动"
->abstract="您可以使用&#x200B;**开始**&#x200B;活动以图形方式标记工作流的始点。此活动没有功能影响，因此是可选的。"
+>abstract="您可以使用&#x200B;**开始**&#x200B;活动以图形方式标记工作流的始点。 此活动无功能性影响，因此为可选活动。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="外部信号"
->abstract="用于“结束”活动参数中“外部信号”部分的占位符。仅适用于编排的营销活动。请勿删除"
+>abstract="用于“结束”活动参数中“外部信号”部分的占位符。 仅适用于编排的营销活动。 请勿删除"
 
-以下活动专用于组织和执行工作流。这些活动的主要任务是协调其他活动：
+以下活动专用于组织和执行工作流。 这些活动的主要任务是协调其他活动：
 
 * [外部信号](external-signal.md)：从另一个工作流或API调用触发工作流执行。
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
