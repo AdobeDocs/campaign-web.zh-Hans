@@ -5,7 +5,7 @@ description: 关于使用Adobe Campaign Web进行事务性消息传递
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 >abstract="Transactional messaging exclusion logs" 
 -->
 
-事务性消息传递是 Adobe Campaign 中专门用于处理触发消息的模块。这些消息是响应来自信息系统的事件自动生成的。 此类事件的常见示例包括单击按钮或链接、放弃购买、请求产品可用性警报、创建或修改帐户。
+事务性消息传递是 Adobe Campaign 中专门用于处理触发消息的模块。 这些消息是响应来自信息系统的事件自动生成的。 此类事件的常见示例包括单击按钮或链接、放弃购买、请求产品可用性警报、创建或修改帐户。
 
 事务型消息用于发送：
 
