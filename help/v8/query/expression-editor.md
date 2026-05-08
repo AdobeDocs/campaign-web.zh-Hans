@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 36%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 36%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![的](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}表达式编辑器 | 值字段![的](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}表达式编辑器 |
+| 属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 
@@ -488,7 +488,7 @@ ht-degree: 36%
  </tbody> 
 </table>
 
-### 其他 
+### 其他
 
 此表包含剩余的可用函数。
 
@@ -525,12 +525,12 @@ ht-degree: 36%
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 返回值 1（只能用作 case 函数的参数）<br /> </td> 
@@ -780,7 +780,7 @@ ht-degree: 36%
   <tr> 
    <td> <strong>_超过__</strong><br /> </td> 
    <td> 执行作为第1参数输入的SQL函数调用，通过Partition或Order By作为第2参数<br />输入的字段 </td> 
-   <td> _超过_ （&lt;值&gt;， &lt;值&gt;）<br /> </td>  
+   <td> 超过_ （&lt;值&gt;， &lt;值&gt;）<br />(_Over_) </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
