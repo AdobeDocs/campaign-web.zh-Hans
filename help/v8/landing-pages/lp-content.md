@@ -3,9 +3,9 @@ title: 定义特定于登陆页面的内容
 description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够选择并提交其选择，请使用表单组件。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。 要定义特定内容使得用户能够选择并提交其选择，请使用表单组件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -24,11 +24,11 @@ ht-degree: 11%
 
 您可以编辑登陆页面中任何页面的内容。
 
-第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充了选定模板[的](#use-form-component)特定于登陆页面的表单组件<!-- to enable users to select and submit their choices-->。
+第一个页面（在用户单击指向您的登陆页面的链接后立即向用户显示）已预填充了选定模板<!-- to enable users to select and submit their choices-->的[特定于登陆页面的表单组件](#use-form-component)。
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;和&#x200B;**[!UICONTROL Expiration]**&#x200B;页面的内容也已预填充。 根据需要编辑它们。
 
-您还可以为登陆页面[定义](#lp-form-styles)样式。
+您还可以为登陆页面](#lp-form-styles)定义[样式。
 
 要进一步设计登陆页面内容，请执行以下操作：
 
@@ -88,7 +88,7 @@ ht-degree: 11%
    * 如果选中&#x200B;**[!UICONTROL 是]**。
    * 如果选中&#x200B;**[!UICONTROL 否]**。
 
-1. 根据需要删除和添加任意数量的字段（例如文本字段、单选按钮、复选框、下拉列表等）。
+1. 删除并添加尽可能多的字段（如文本字段、单选按钮、复选框、下拉列表等） 根据需要。
 
 1. 添加或更新所有字段后，单击&#x200B;**[!UICONTROL Call to action]**&#x200B;展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。 [了解如何操作](#define-actions-on-form-submission)
 
@@ -121,7 +121,7 @@ ht-degree: 11%
 
 1. 选择“**[!UICONTROL 服务来自URL]**”选项，以允许将登陆页用于多个服务，使其成为动态页面。 定义在提交表单时要选择加入还是选择退出用户。
 
-   来自表单组件![中的URL设置的](assets/lp-form-service-from-url.png){zoomable="yes"}服务
+   来自表单组件](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的![服务
 
    在设计电子邮件时，如果您定义指向此登陆页面的&#x200B;**[!UICONTROL 登陆页面]**&#x200B;类型的链接，则可以从列表中选择任何服务。 然后，在定义指向此登陆页面的其他链接时，您可以选择其他服务。 [了解有关插入链接的更多信息](../email/message-tracking.md)
 
@@ -151,7 +151,7 @@ ht-degree: 11%
 
    ![复选框样式设置](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 展开并编辑与您可能已添加到表单的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分。
+1. 展开并编辑与您可能添加的其他字段（单选按钮、下拉列表、日期和时间等）对应的任何其他部分 到你的表格里。
 
 1. 展开&#x200B;**[!UICONTROL Call to action]**&#x200B;部分以修改该按钮在组件表单中的外观。 例如，更改字体、添加边框、在光标悬停时编辑标签颜色或调整按钮的对齐方式。
 

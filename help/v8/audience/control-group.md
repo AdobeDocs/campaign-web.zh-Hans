@@ -3,9 +3,9 @@ audience: end-user
 title: 设置对照组
 description: 了解如何在Campaign Web用户界面中为消息设置控制组
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 >
 >[从外部文件](file-audience.md)加载目标人群时，无法使用对照组。
 
-要将控制组添加到投放，请从投放创建屏幕的&#x200B;**[!UICONTROL 受众]**&#x200B;部分激活&#x200B;**启用控制组**&#x200B;切换开关。
+要将控制组添加到投放，请从投放创建屏幕的&#x200B;**受众**&#x200B;部分激活&#x200B;**[!UICONTROL 启用控制组]**&#x200B;切换开关。
 
 在投放创建屏幕上![启用控制组选项切换](assets/control-group1.png)
 
@@ -40,11 +40,11 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="提取方式"
->abstract="对照组是从投放中排除的一组轮廓。要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的轮廓。"
+>abstract="对照组是从投放中排除的一组轮廓。 要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的轮廓。"
 
 ### 构建对照组 {#build-extract-target}
 
-要定义控制组，请选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。 如果添加额外群体，请选择&#x200B;**无提取**&#x200B;选项，然后选择此处[详述的额外群体](#extra-population)。
+要定义控制组，请选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。 如果添加额外群体，请选择&#x200B;**无提取**&#x200B;选项，然后选择此处](#extra-population)详述的额外群体[。
 
 首先，定义如何从目标提取用户档案：随机或基于排序。
 
@@ -102,7 +102,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="额外群体"
->abstract="对照组是从投放中排除的一组轮廓。可通过选择现有受众或定义查询而从投放受众排除特定群体。"
+>abstract="对照组是从投放中排除的一组轮廓。 可通过选择现有受众或定义查询而从投放受众排除特定群体。"
 
 定义控制组的另一种方法是选择现有受众中的特定群体或定义查询。
 
@@ -110,7 +110,7 @@ ht-degree: 21%
 
 ![额外群体选择屏幕](assets/control-group3.png){zoomable="yes"}
 
-* 要使用现有受众，请单击&#x200B;**选择受众**。可在[此部分](add-audience.md)中了解详情。
+* 要使用现有受众，请单击&#x200B;**选择受众**。 可在[此部分](add-audience.md)中了解详情。
 * 要定义新查询，请选择&#x200B;**创建您自己的查询**&#x200B;并使用查询建模器定义排除条件。 可在[此部分](../query/query-modeler-overview.md)中了解详情。
 
 受众中包含的或与查询结果匹配的用户档案从投放目标中&#x200B;**排除**。 他们不会收到任何消息。
@@ -119,4 +119,4 @@ ht-degree: 21%
 
 发送投放后，提取发送日志以比较未接收通信的用户档案和有效目标之间的行为。 使用投放日志构建新目标。
 
-要查看从目标中删除了哪些用户档案，请检查&#x200B;**投放日志**。 在本节[中了解更多](#check-control-group)。
+要查看从目标中删除了哪些用户档案，请检查&#x200B;**投放日志**。 在本节](#check-control-group)中了解更多[。

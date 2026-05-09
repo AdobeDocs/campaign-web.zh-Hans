@@ -3,9 +3,9 @@ audience: end-user
 title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 文件夹是 Adobe Campaign 中的对象，可用于组织组件和数据。
 
-您可以在导航树中创建、重命名、重新排序和移动文件夹。您也可以根据您的权限删除它们。
+您可以在导航树中创建、重命名、重新排序和移动文件夹。 您也可以根据您的权限删除它们。
 
 ![显示文件夹组织的文件夹界面](assets/folders.png){zoomable="yes"}
 
-您可以设置文件夹类型。例如：一个投放文件夹。文件夹图标会根据其类型而变化。
+您可以设置文件夹类型。 例如：一个投放文件夹。 文件夹图标会根据其类型而变化。
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
@@ -51,11 +51,11 @@ ht-degree: 100%
 
 要在 Adobe Campaign Web UI 中创建新文件夹，请按照以下步骤操作：
 
-1. 在 **[!UICONTROL 资源管理器]**&#x200B;中，转到您想要创建新文件夹的文件夹。在 **[!UICONTROL ...]** 菜单下，选择&#x200B;**[!UICONTROL 创建新文件夹]**。
+1. 在 **[!UICONTROL 资源管理器]**&#x200B;中，转到您想要创建新文件夹的文件夹。 在 **[!UICONTROL ...]** 菜单下，选择&#x200B;**[!UICONTROL 创建新文件夹]**。
 
 ![在资源管理器菜单中创建新文件夹选项](assets/folder_create.png){zoomable="yes"}
 
-当你创建一个新文件夹时，默认情况下，文件夹类型是父级文件夹的类型。在该示例中，会在&#x200B;**[!UICONTROL 投放]**&#x200B;文件夹中创建一个子文件夹。
+当你创建一个新文件夹时，默认情况下，文件夹类型是父级文件夹的类型。 在该示例中，会在&#x200B;**[!UICONTROL 投放]**&#x200B;文件夹中创建一个子文件夹。
 
 ![在投放文件夹下创建的新文件夹](assets/folder_new.png){zoomable="yes"}
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 ## 对文件夹重新排序 {#reorder-folders}
 
-您可以根据需要重新排序文件夹。为此，请点击&#x200B;**[!UICONTROL 重新排序文件夹]**，如下所示。
+您可以根据需要重新排序文件夹。 为此，请点击&#x200B;**[!UICONTROL 重新排序文件夹]**，如下所示。
 
 在该示例中，**投放**&#x200B;文件夹包含四个子文件夹。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 >
 >在删除某个文件夹时，还将删除存储在该文件夹中的所有数据。
 
-要删除文件夹，请在&#x200B;**[!UICONTROL 资源管理器]**&#x200B;树中选择该文件夹，然后单击 **[!UICONTROL ...]** 菜单。选择&#x200B;**[!UICONTROL 删除文件夹]**。
+要删除文件夹，请在&#x200B;**[!UICONTROL 资源管理器]**&#x200B;树中选择该文件夹，然后单击 **[!UICONTROL ...]** 菜单。 选择&#x200B;**[!UICONTROL 删除文件夹]**。
 
 ![在资源管理器菜单中删除文件夹选项](assets/folder_delete.png){zoomable="yes"}
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 要获取此信息，请转到&#x200B;**[!UICONTROL 投放]**&#x200B;文件夹，并单击&#x200B;**[!UICONTROL 配置列]**&#x200B;图标。
 
-在&#x200B;**[!UICONTROL 配置列]**&#x200B;窗口中，点击您想要分析的列的&#x200B;**[!UICONTROL 信息]**&#x200B;图标。然后，点击&#x200B;**[!UICONTROL 值分布]**&#x200B;按钮。
+在&#x200B;**[!UICONTROL 配置列]**&#x200B;窗口中，点击您想要分析的列的&#x200B;**[!UICONTROL 信息]**&#x200B;图标。 然后，点击&#x200B;**[!UICONTROL 值分布]**&#x200B;按钮。
 
 ![投放的值分配界面](assets/values_deliveries.png){zoomable="yes"}
 
@@ -124,15 +124,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->对于具有许多值的列，仅会显示前二十个值。通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会发出警告。
+>对于具有许多值的列，仅会显示前二十个值。 通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会发出警告。
 
 您还可以查看链接的值分布。
 
-在属性列表中，点击所需链接旁边的 **+** 按钮，如下所示。这会将链接添加到 **[!UICONTROL 输出列]**。您现在可以访问&#x200B;**[!UICONTROL 信息]**&#x200B;图标，以便查看其值的分布。如果您不想保留&#x200B;**[!UICONTROL 输出列]**&#x200B;中的链接，请点击&#x200B;**[!UICONTROL 取消]**&#x200B;按钮。
+在属性列表中，点击所需链接旁边的 **+** 按钮，如下所示。 这会将链接添加到 **[!UICONTROL 输出列]**。 您现在可以访问&#x200B;**[!UICONTROL 信息]**&#x200B;图标，以便查看其值的分布。 如果您不想保留&#x200B;**[!UICONTROL 输出列]**&#x200B;中的链接，请点击&#x200B;**[!UICONTROL 取消]**&#x200B;按钮。
 
 ![输出列中链接的值分布](assets/values_link.png){zoomable="yes"}
 
-也可以在查询模型器中查看值分布。[在此处了解详情](../query/build-query.md#distribution-of-values-in-a-query)。
+也可以在查询模型器中查看值分布。 [在此处了解详情](../query/build-query.md#distribution-of-values-in-a-query)。
 
 ### 过滤值 {#filter-values}
 

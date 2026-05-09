@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 9%
+source-wordcount: '1326'
+ht-degree: 10%
 
 ---
 
@@ -103,7 +103,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 
 ## 执行选项 {#execution}
 
-所有活动均允许您管理其执行选项。 选择一个活动，然后单击&#x200B;**执行选项**&#x200B;按钮。 这让您能够定义活动的执行模式和出现错误时的行为。
+所有活动均允许您管理其执行选项。 选择一个活动，然后单击&#x200B;**执行选项**&#x200B;按钮。 这有助于您定义活动的执行模式和出现错误时的行为。
 
 ![执行选项面板](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
@@ -129,7 +129,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="初始化脚本"
->abstract="在此部分中，您可以定义活动失败时的处理方式。您可以选择停止工作流、转到下一个活动，或触发自定义错误处理流程等操作。"
+>abstract="在此部分中，您可以定义活动失败时的处理方式。 您可以选择停止工作流、转到下一个活动，或触发自定义错误处理流程等操作。"
 
 **如果出现错误**&#x200B;字段，允许您指定活动遇到错误时要执行的操作。 请参阅此[章节](workflow-settings.md#error-settings)。
 
@@ -138,7 +138,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="初始化脚本"
->abstract="在此部分中，您可以添加在活动启动时运行的 JavaScript。可用于初始化变量、设置参数，或准备该活动执行所需的特定数据。"
+>abstract="在此部分中，您可以添加在活动启动时运行的 JavaScript。 可用于初始化变量、设置参数，或准备该活动执行所需的特定数据。"
 
 **初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 活动执行时将调用脚本。 请参阅与[事件变量](../workflows/event-variables.md)相关的部分。
 

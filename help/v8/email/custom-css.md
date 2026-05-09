@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%
@@ -165,7 +165,7 @@ body {
 
 ## 技术实施 {#implementation}
 
-您的自定义CSS已添加至`<head>`部分的末尾，作为具有`<style>`属性的`data-name="global-custom"`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
+您的自定义CSS已添加至`<head>`部分的末尾，作为具有`data-name="global-custom"`属性的`<style>`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
 
 +++ 请参阅示例 
 
@@ -238,7 +238,7 @@ For example:
 
 * 确保CSS有效并且没有语法错误（例如缺少大括号、属性名称不正确）。 [了解如何操作](#use-valid-css)
 
-* 确保将您的CSS添加到具有`<style>`属性的`data-name="global-custom"`标记中。
+* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中。
 
 * 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。
 

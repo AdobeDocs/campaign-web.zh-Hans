@@ -7,9 +7,9 @@ old-role: Data Engineer
 role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="添加条件内容"
->abstract="配置条件内容字段以根据收件人的轮廓数据创建高级动态个性化内容。当满足特定条件时，将替换消息内容中的文本块、链接、主题行和/或图像。"
+>abstract="配置条件内容字段以根据收件人的轮廓数据创建高级动态个性化内容。 当满足特定条件时，将替换消息内容中的文本块、链接、主题行和/或图像。"
 
 ## 条件内容入门 {#gs}
 
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 1. 指定收件人不符合条件时要显示的内容。 使用&#x200B;**else**&#x200B;辅助函数：
 
-   1. 将光标放在表达式结束标记`%>`之前，然后单击`+`Else **函数旁边的**。
+   1. 将光标放在表达式结束标记`%>`之前，然后单击&#x200B;**Else**&#x200B;函数旁边的`+`。
 
    1. 将`Insert content here`替换为要显示给不符合if函数条件的配置文件的内容。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1695'
 ht-degree: 44%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card3"
 >title="开始使用电子邮件"
->abstract="可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。了解如何创建投放、选择受众和设计电子邮件内容。"
+>abstract="可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。 了解如何创建投放、选择受众和设计电子邮件内容。"
 
-了解如何创建您的第一封定向电子邮件。在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
+了解如何创建您的第一封定向电子邮件。 在此用例中，您计划在特定日期向银牌和金牌忠诚度会员发送电子邮件。
 
 基于预定义的[设计模板](../content/create-email-templates.md)，电子邮件还根据客户配置文件属性提供个性化内容。
 
@@ -28,14 +28,14 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="选择电子邮件模板"
->abstract="电子邮件模板是一种特定的投放配置，其中包含预定义的设置，例如类型规则、个性化或路由参数。模板在 Campaign 客户端控制台中定义。"
+>abstract="电子邮件模板是一种特定的投放配置，其中包含预定义的设置，例如类型规则、个性化或路由参数。 模板在 Campaign 客户端控制台中定义。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="定义电子邮件属性"
->abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。其他设置为可选。如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
+>abstract="这些属性是常见的投放参数，可帮助您为投放命名和分类。 其他设置为可选。 如果您的投放基于在 Adobe Campaign v8 控制台中定义的扩展架构，则有一些特定的&#x200B;**自定义选项**&#x200B;字段可用。"
 
-可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在[此页面](../msg/gs-deliveries.md)中了解有关Adobe Campaign中投放创建步骤的更多信息。
+可创建独立的电子邮件投放或在营销活动工作流程的环境下创建电子邮件。 以下步骤详细介绍了独立（一次性）电子邮件投放的过程。 在[此页面](../msg/gs-deliveries.md)中了解有关Adobe Campaign中投放创建步骤的更多信息。
 
 要创建新的独立电子邮件投放，请执行以下步骤。
 
@@ -47,7 +47,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >模板是已保存以供将来使用的预配置的投放设置。[了解详情](../msg/delivery-template.md)
+   >模板是已保存以供将来使用的预配置的投放设置。 [了解详情](../msg/delivery-template.md)
 
    ![显示所选电子邮件渠道和模板的屏幕截图](assets/channel-template.png){zoomable="yes"}
 
@@ -73,7 +73,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="为投放选择受众"
->abstract="选择最适合营销消息的最佳受众。可选择（已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的）现有受众、使用查询建模器创建新受众或上传包含您的受众的文件。没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
+>abstract="选择最适合营销消息的最佳受众。 可选择（已在 Campaign v8 实例中或从 Adobe Experience Platform 定义的）现有受众、使用查询建模器创建新受众或上传包含您的受众的文件。 没有为&#x200B;**从文件选择**&#x200B;选项启用对照组，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-hans" text="选择主要受众"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hans" text="设置对照组"
 
@@ -89,13 +89,13 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hans){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
+   >列表中的可用受众源自您的Campaign v8实例，或者如果您已在实例上配置了目标/Source集成，则来自Adobe Experience Platform。 利用此集成，可将Experience Platform区段发送到Adobe Campaign，并将Campaign投放和跟踪日志发送到Adobe Experience Platform。 请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}以了解如何使用Campaign和Adobe Experience Platform。
 
 1. 选择受众后，可以通过应用其他规则来进一步细化目标。
 
    ![显示受众细化过程的屏幕截图](assets/audience-selected.png){zoomable="yes"}
 
-1. 您还可以设置一个对照组来分析比较电子邮件收件人的行为与非定向人员的行为。[了解如何使用对照组](../audience/control-group.md)
+1. 您还可以设置一个对照组来分析比较电子邮件收件人的行为与非定向人员的行为。 [了解如何使用对照组](../audience/control-group.md)
 
 ## 定义电子邮件的内容 {#create-content}
 
@@ -117,7 +117,7 @@ ht-degree: 44%
 
 1. 要设计电子邮件的内容，请单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮。
 
-   选择要用于创建电子邮件内容的方法。在此示例中，使用[预定义的内容模板](../content/create-email-templates.md)。
+   选择要用于创建电子邮件内容的方法。 在此示例中，使用[预定义的内容模板](../content/create-email-templates.md)。
 
    ![显示所选预定义内容模板的屏幕截图](assets/select-template.png){zoomable="yes"}
 
@@ -127,13 +127,13 @@ ht-degree: 44%
 
    ![显示个性化过程的屏幕截图](assets/add-perso.png){zoomable="yes"}
 
-1. 在对内容感到满意后，请保存并关闭您的设计。单击&#x200B;**[!UICONTROL 保存]**&#x200B;返回电子邮件创建屏幕。
+1. 在对内容感到满意后，请保存并关闭您的设计。 单击&#x200B;**[!UICONTROL 保存]**&#x200B;返回电子邮件创建屏幕。
 
    ![显示“保存”按钮的屏幕快照](assets/save-content.png){zoomable="yes"}
 
 ## 安排发送 {#schedule}
 
-在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 在[此页面](../workflows/activities/scheduler.md)中了解详情。 以下步骤仅适用于独立投放。
+在工作流上下文中发送投放时，必须使用&#x200B;**调度程序**&#x200B;活动。 请参阅[此页面](../workflows/activities/scheduler.md)以了解详情。 以下步骤仅适用于独立投放。
 
 1. 浏览到投放属性的&#x200B;**[!UICONTROL 计划]**&#x200B;部分。
 
@@ -157,7 +157,7 @@ ht-degree: 44%
 
 有关如何预览电子邮件和发送校样的其他信息，请参阅[此部分](../preview-test/preview-test.md)。
 
-1. 要查看您的电子邮件，请单击&#x200B;**[!UICONTROL 查看并发送]**。这会显示电子邮件的预览，以及所有配置的属性、受众和计划。 可以通过单击修改按钮来编辑这些元素中的任一元素。
+1. 要查看您的电子邮件，请单击&#x200B;**[!UICONTROL 查看并发送]**。 这会显示电子邮件的预览，以及所有配置的属性、受众和计划。 可以通过单击修改按钮来编辑这些元素中的任一元素。
 
 1. 要预览电子邮件并发送校样，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
@@ -165,11 +165,11 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节[中详细介绍了](#content-simulation-limitations)的限制。
+   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节](#content-simulation-limitations)中详细介绍了[的限制。
 
 1. 在左侧，选择要用于预览电子邮件的轮廓。
 
-   右侧窗格显示基于所选轮廓的电子邮件预览。如果已添加多个轮廓，则可以在它们之间进行切换来预览相应的电子邮件。
+   右侧窗格显示基于所选轮廓的电子邮件预览。 如果已添加多个轮廓，则可以在它们之间进行切换来预览相应的电子邮件。
 
    ![根据所选的用户档案显示电子邮件预览的屏幕截图](assets/preview.png){zoomable="yes"}
 
@@ -177,13 +177,13 @@ ht-degree: 44%
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后选择要使用的模式。
 
-   在此示例中，使用主目标&#x200B;**[!UICONTROL 模式中的]**&#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
+   在此示例中，使用主目标&#x200B;]**模式中的**[!UICONTROL &#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
 
    ![显示校样发送模式选择的屏幕快照](assets/proof-mode.png){zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 添加地址]**，并指定接收校样的电子邮件地址。
 
-   对于每个电子邮件地址，选择要模拟的轮廓。您还可以让 Adobe Campaign 从目标中选择一个随机轮廓。
+   对于每个电子邮件地址，选择要模拟的轮廓。 您还可以让 Adobe Campaign 从目标中选择一个随机轮廓。
 
    ![显示已添加校样的电子邮件地址的屏幕截图](assets/proof-test-profile.png){zoomable="yes"}
 
@@ -230,7 +230,7 @@ ht-degree: 44%
 
 查看并测试您的电子邮件后，可以启动其准备工作并发送它。
 
-1. 要启动电子邮件准备，请单击&#x200B;**[!UICONTROL 准备]**。[了解如何准备电子邮件](../monitor/prepare-send.md)
+1. 要启动电子邮件准备，请单击&#x200B;**[!UICONTROL 准备]**。 [了解如何准备电子邮件](../monitor/prepare-send.md)
 
    ![显示“准备”按钮的屏幕截图](assets/preparation.png){zoomable="yes"}
 
@@ -244,7 +244,7 @@ ht-degree: 44%
     ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}
     -->
 
-   还可以单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮来访问有关发送的详细信息。[了解如何监控投放日志](../monitor/delivery-logs.md)
+   还可以单击&#x200B;**[!UICONTROL 日志]**&#x200B;按钮来访问有关发送的详细信息。 [了解如何监控投放日志](../monitor/delivery-logs.md)
 
 1. 发送电子邮件后，可以通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮来访问专用报告以进行深入分析。
 
@@ -254,4 +254,4 @@ ht-degree: 44%
 
 了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览并发送校样。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454015/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

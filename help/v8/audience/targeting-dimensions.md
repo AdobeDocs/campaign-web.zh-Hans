@@ -2,10 +2,10 @@
 title: 目标选择与过滤维度
 description: 了解有关在Adobe Campaign Web UI中定位和筛选维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 16%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="选择定位维度"
->abstract="通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+>abstract="通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。 默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。 对于推送通知，默认目标维度是订阅者应用程序。"
 
 定位维度（也称为目标映射）是操作处理的数据类型。 它定义目标群体，例如用户档案、合同受益人、运营商或订阅者。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。
 
@@ -42,11 +42,11 @@ ht-degree: 16%
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
 | 订阅者应用程序 | 订阅应用程序的配置文件 | nms:appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
 
 ## 过滤维度 {#filtering}
 
-定位维度可让您定义操作的目标人群：收件人、合同受益人、操作人员、订阅者等。利用筛选维度，您可以通过引用相关数据将筛选器应用于此群体，而无需更改主定向维度。 例如，您可以根据特定条件选择群体，如合同持有者或新闻稿订阅者。
+通过定向维度，您可以定义操作定向的群体：收件人、合同受益人、操作员、订阅者等。利用筛选维度，您可以通过引用相关数据将筛选器应用于此群体，而无需更改主定向维度。 例如，您可以根据特定条件选择群体，如合同持有者或新闻稿订阅者。
 
 筛选维度仅在&#x200B;**生成受众**&#x200B;活动中可用。
 

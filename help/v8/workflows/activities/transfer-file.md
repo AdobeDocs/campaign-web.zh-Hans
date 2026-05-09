@@ -3,9 +3,9 @@ audience: end-user
 title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1266'
 ht-degree: 27%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="传输文件"
->abstract="**转移文件**&#x200B;活动可以接收或发送文件、测试文件是否存在或列出服务器上的文件。使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。"
+>abstract="**转移文件**&#x200B;活动可以接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -95,9 +95,9 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="文件历史记录"
->abstract="每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个转移文件活动创建一个文件夹。默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。"
+>abstract="每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。 它会为工作流的每个转移文件活动创建一个文件夹。 默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。 要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。"
 
-每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个转移文件活动创建一个文件夹。默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。
+每次执行&#x200B;**[!UICONTROL 转移文件]**&#x200B;活动时，都会将上传或下载的文件存储在专用文件夹中。 它会为工作流的每个转移文件活动创建一个文件夹。 默认情况下，文件在处理之前会保存在 Adobe Campaign 安装文件夹 (`/vars`) 的默认存储目录中。 要使用特定文件夹，请关闭&#x200B;**[!UICONTROL 使用默认存储目录]**&#x200B;选项并输入目录的路径。
 
 ![显示工作流传输文件历史化设置的屏幕截图](../assets/workflow-transfer-file-historization.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 推送渠道的营销活动报表
 description: 了解推送渠道的活动报表
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 17%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="投放概述"
 >abstract="**投放概述**&#x200B;报告提供详述访客如何与推送通知投放互动的关键绩效指标 (KPI)。"
 
-**[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与推送通知投放的详细信息。 指标详见下文。
+**[!UICONTROL 投放概述]**&#x200B;报告提供详述访客如何与推送通知投放互动的关键绩效指标 (KPI)。 指标详见下文。
 
 ![投放概述报告中显示的投放摘要量度](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 >title="初始目标受众统计信息"
 >abstract="**初始目标受众统计数据**&#x200B;表显示有关您的收件人的数据。"
 
-**[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的收件人的数据。 指标详见下文。
 
 ![报表中显示的初始目标受众统计信息](assets/campaign-reporting-push-target.png){zoomable="yes"}
 

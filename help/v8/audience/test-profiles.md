@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '645'
+ht-degree: 15%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="创建测试轮廓"
->abstract="测试轮廓是额外的收件人，以便您在发送消息之前预览和测试个性化和渲染。您可以在预览消息内容时选择测试轮廓，并将校样发送到测试轮廓，以控制和验证您的消息内容和设置。"
+>abstract="测试轮廓是额外的收件人，以便您在发送消息之前预览和测试个性化和渲染。 您可以在预览消息内容时选择测试轮廓，并将校样发送到测试轮廓，以控制和验证您的消息内容和设置。"
 
 测试用户档案用于发送校样并验证消息内容和设置。 这些用户档案是额外的收件人，允许您在发送消息之前预览和测试个性化和呈现。 您可以在预览消息内容时选择测试用户档案，并向测试用户档案发送校样，以控制和验证消息内容和设置。
 
 ➡️ [通过观看视频了解此功能](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hans){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 在[此部分](../preview-test/test-deliveries.md#test-profiles)中详细说明了向测试用户档案发送校样的步骤。
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 了解如何使用Campaign Web用户界面创建和管理测试用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442905?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

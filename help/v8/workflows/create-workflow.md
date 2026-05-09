@@ -3,9 +3,9 @@ audience: end-user
 title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用Adobe Campaign Web创建工作流
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '806'
 ht-degree: 18%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="营销活动中工作流的列表"
->abstract="**工作流**&#x200B;选项卡列出链接到当前营销活动的所有工作流。单击工作流的名称以编辑该工作流。使用&#x200B;**创建工作流**&#x200B;按钮为此营销活动添加新工作流。"
+>abstract="**工作流**&#x200B;选项卡列出链接到当前营销活动的所有工作流。 单击工作流的名称以编辑该工作流。 使用&#x200B;**创建工作流**&#x200B;按钮为此营销活动添加新工作流。"
 
 您可以在营销策划中创建独立的工作流或工作流。 第一步是选择模板并定义其常规属性。 然后，您可以根据需要配置其他设置。
 
@@ -49,9 +49,9 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_creation_properties"
 >title="工作流属性"
->abstract="工作流模板包含可重用于创建新工作流的预先配置的设置和活动。在此屏幕中，输入工作流模板的标签并配置其设置，例如其内部名称、文件夹和执行文件夹、时区和主管组。"
+>abstract="工作流模板包含可重用于创建新工作流的预先配置的设置和活动。 在此屏幕中，输入工作流模板的标签并配置其设置，例如其内部名称、文件夹和执行文件夹、时区和主管组。"
 
-工作流模板包含可重用于创建新工作流的预先配置的设置和活动。创建工作流时，请从工作流属性中选择工作流的模板。 默认情况下，会提供一个空模板。
+工作流模板包含可重用于创建新工作流的预先配置的设置和活动。 创建工作流时，请从工作流属性中选择工作流的模板。 默认情况下，会提供一个空模板。
 
 您可以从现有工作流创建模板，或从头开始创建新模板。 这两种方法详见下文。
 

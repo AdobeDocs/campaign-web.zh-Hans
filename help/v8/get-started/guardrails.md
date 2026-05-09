@@ -2,7 +2,7 @@
 title: Campaign Web 用户界面工作流中的护栏和限制
 description: 在 Campaign Web 用户界面中使用工作流时的护栏和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 21c2b9735c465f582516b9b4c07126a4ba620583
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用增量查询工作流活动
 description: 了解如何使用增量查询工作流活动
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '717'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="增量查询"
->abstract=" **增量查询**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它允许您使用查询建模器查询数据库。每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
+>abstract="**增量查询**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它允许您使用查询建模器查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。 这样可让您仅定向新元素。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -27,7 +27,7 @@ ht-degree: 11%
 >title="增量查询处理后的数据"
 >abstract="增量查询处理后的数据"
 
-**增量查询**&#x200B;活动是&#x200B;**定位**&#x200B;活动，允许您按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这使您能够仅定向新元素。
+**增量查询**&#x200B;活动是&#x200B;**定位**&#x200B;活动，允许您按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。 这使您能够仅定向新元素。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，选择&#x200B;**定向维度**，然后单击&#x200B;**[!UICONTROL 继续]**。
 
-   定向维度定义操作所定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
+   定向维度定义操作所定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。 [了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)
 
 1. 使用查询建模器定义查询，类似于设计新电子邮件时创建受众的方式。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 

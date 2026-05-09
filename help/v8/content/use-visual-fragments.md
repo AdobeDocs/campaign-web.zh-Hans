@@ -4,10 +4,10 @@ title: 将可视片段添加到电子邮件
 description: 了解如何将可视化片段添加到您的电子邮件
 badge: label="有限发布版"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 13%
+source-wordcount: '623'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->此功能需要更新Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
+>此功能需要更新Campaign v8.6.4。 请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
 在Campaign Web界面中，**可视化片段**&#x200B;是预定义的可视化块，您可以在多个[电子邮件投放](../email/get-started-email-designer.md)或[内容模板](../content/use-email-templates.md)中重复使用。 在[本节](fragments.md)中了解如何创建和管理内容片段。
 
@@ -26,7 +26,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="片段选项"
->abstract="此窗格提供与所选片段相关的选项。它允许您选择想要显示片段的设备，并打开该片段的内容。使用 **[!UICONTROL 样式]** 选项卡进一步自定义您的片段。您还可以打破与原始视觉片段的继承。"
+>abstract="此窗格提供与所选片段相关的选项。 它允许您选择想要显示片段的设备，并打开该片段的内容。 使用 **[!UICONTROL 样式]** 选项卡进一步自定义您的片段。 您还可以打破与原始视觉片段的继承。"
 
 <!-- pas vu dans l'UI-->
 

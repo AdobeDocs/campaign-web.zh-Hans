@@ -2,8 +2,8 @@
 title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![已保存新过滤器的界面](assets/new-filter.png){zoomable="yes"}
 
-该过滤器即被添加到预定义过滤器列表。 如果需要，可将过滤器保存为收藏项目。 可在[此部分](#fav-filter)中了解详情。 您还可以通过启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项，将该过滤器分享给其他用户。可在[此部分](#share-filter)中了解详情。
+该过滤器即被添加到预定义过滤器列表。 如果需要，可将过滤器保存为收藏项目。 可在[此部分](#fav-filter)中了解详情。 您还可以通过启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项，将该过滤器分享给其他用户。 可在[此部分](#share-filter)中了解详情。
 
 ## 将过滤器保存为收藏项目 {#fav-filter}
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ## 共享预定义过滤器 {#share-filter}
 
-默认情况下，您创建的预定义过滤器是私有的，仅您本人可见。若要让组织中的其他操作员能够使用该过滤器，请启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项。
+默认情况下，您创建的预定义过滤器是私有的，仅您本人可见。 若要让组织中的其他操作员能够使用该过滤器，请启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项。
 
 ![共享过滤器选项](assets/predefined-filters-shared.png){zoomable="yes"}
 

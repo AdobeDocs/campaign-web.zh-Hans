@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件渠道的营销活动报表
 description: 了解有关电子邮件渠道的营销活动报告的更多信息
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 20%
+source-wordcount: '1707'
+ht-degree: 23%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 20%
 >title="初始目标受众统计信息"
 >abstract="初始目标受众统计数据表显示有关您的收件人的数据。"
 
-**[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的收件人的数据。 指标详见下文。
 
 ![初始目标受众统计信息表的屏幕截图](assets/campaign_report_email_2.png){zoomable="yes"}
 
@@ -141,7 +141,7 @@ ht-degree: 20%
 >title="按类型细分错误"
 >abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
-每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
+每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="按域细分错误"
 >abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
-每个域&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;**[!UICONTROL 表和图表的]**&#x200B;错误划分共同。
+每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]**表和图表的**[!UICONTROL &#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 
@@ -234,7 +234,7 @@ ht-degree: 20%
 >title="URL 和点击流"
 >abstract="**URL 和点击流**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。"
 
-**[!UICONTROL URL和点击流]**&#x200B;报表提供了关键绩效指标(KPI)，这些指标提供了有关投放期间点击次数最多的URL的详细信息。 指标详见下文。
+**[!UICONTROL URL 和点击流]**&#x200B;报告提供详述投放期间点击次数最多的 URL 的关键绩效指标 (KPI)。 指标详见下文。
 
 ![URL屏幕截图并单击steams报告](assets/campaign_report_email_9.png){zoomable="yes"}
 
@@ -257,7 +257,7 @@ ht-degree: 20%
 >title="访问量排名前 10 的链接"
 >abstract="**访问量排名前 10 的链接**&#x200B;图表包含每个链接的接收者行为的可用数据。"
 
-**[!UICONTROL 前10个访问次数最多的链接]**&#x200B;图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
+**[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
 ![访问次数前10位的链接图屏幕截图](assets/campaign_report_email_10.png){zoomable="yes"}
 

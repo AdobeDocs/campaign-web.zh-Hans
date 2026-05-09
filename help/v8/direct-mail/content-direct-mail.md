@@ -3,9 +3,9 @@ audience: end-user
 title: 设计直邮投放
 description: 了解如何使用Adobe Campaign Web设计直邮投放
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 19%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="提取文件内容"
->abstract="单击&#x200B;**编辑内容**&#x200B;按钮开始设计直邮提供商所需的提取文件。这允许您定义文件属性，例如标签和格式，以及指定要包含在文件中的列。"
+>abstract="单击&#x200B;**编辑内容**&#x200B;按钮开始设计直邮提供商所需的提取文件。 这允许您定义文件属性，例如标签和格式，以及指定要包含在文件中的列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="文件属性"
->abstract="配置提取文件的属性，例如名称和格式。您可以使用表达式编辑器用数据库中的属性对文件名称进行个性化设置。"
+>abstract="配置提取文件的属性，例如名称和格式。 您可以使用表达式编辑器用数据库中的属性对文件名称进行个性化设置。"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="内容"
->abstract="在此部分中，指定要在提取文件中显示的列。完成后，您可以使用&#x200B;**模拟内容**&#x200B;按钮预览提取文件。"
+>abstract="在此部分中，指定要在提取文件中显示的列。 完成后，您可以使用&#x200B;**模拟内容**&#x200B;按钮预览提取文件。"
 
 要设计直邮投放生成的提取文件的内容，请在投放页面中单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮，然后配置文件属性和内容。
 

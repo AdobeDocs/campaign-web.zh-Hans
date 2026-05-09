@@ -3,8 +3,8 @@ keywords: Campaign Web;主页;热门主题
 description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 >[!TAB 2026 年 3 月版本]
 
-3 月版本已上线。Campaign Web 用户界面现已推出新功能和增强功能。亮点包括：
+3 月版本已上线。 Campaign Web 用户界面现已推出新功能和增强功能。 亮点包括：
 
 * **架构创作（GA）**：直接在 Campaign Web UI 中创建和管理架构。
 * **电子邮件设计器中的主题（LA）**：应用可重复使用的主题样式和变量，确保电子邮件内容与您的品牌保持一致。
-* **工作流增强功能**：**自动投放**&#x200B;和&#x200B;**开始**&#x200B;活动现已可用，**连接**&#x200B;现支持 OR 选项。现在，您还可以向工作流中添加多个分支。
+* **工作流增强功能**：**自动投放**&#x200B;和&#x200B;**开始**&#x200B;活动现已可用，**连接**&#x200B;现支持 OR 选项。 现在，您还可以向工作流中添加多个分支。
 
 如需完整概述，请查阅发行说明。
 
@@ -126,7 +126,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a>
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

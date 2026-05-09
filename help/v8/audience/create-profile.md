@@ -2,10 +2,10 @@
 title: 创建轮廓
 description: 了解如何在Campaign Web中创建用户档案。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 46%
+source-wordcount: '601'
+ht-degree: 45%
 
 ---
 
@@ -14,37 +14,37 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本详细信息"
->abstract="本节深入介绍了轮廓的基本详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍了轮廓的基本详细信息。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="联系人信息"
->abstract="本节深入介绍了轮廓的联系信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍了轮廓的联系信息。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="地址"
->abstract="本节深入介绍轮廓的邮政地址和地址质量。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的邮政地址和地址质量。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="帐户详细信息"
->abstract="本节深入介绍轮廓的帐户详细信息。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的帐户详细信息。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="不再是联系人"
->abstract="本节深入介绍轮廓的联系偏好设置。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="本节深入介绍轮廓的联系偏好设置。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="自定义字段"
->abstract="自定义字段是根据您需求定制并为您实例配置的特定属性。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>abstract="自定义字段是根据您需求定制并为您实例配置的特定属性。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="其他 "
->abstract="本节提供额外的内置属性。要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
+>title="其他"
+>abstract="本节提供额外的内置属性。 要修改任何信息，请直接在相应字段中进行更改，然后单击屏幕右上角的&#x200B;**保存**&#x200B;按钮。"
 
 要创建配置文件，请执行以下步骤：
 

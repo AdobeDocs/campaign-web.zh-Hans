@@ -3,7 +3,7 @@ audience: end-user
 title: 使用“扩充工作流”活动
 description: 了解如何使用“扩充工作流”活动
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 35%
@@ -174,7 +174,7 @@ ht-degree: 35%
 在工作流中，如果要使用从投放中的扩充活动中获得的选件，请执行以下步骤：
 
 1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
-如果您只想查看扩充活动中的优惠，请将&#x200B;**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
+如果您只想查看扩充活动中的优惠，请将**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
 
    ![](../assets/offers-settings.png)
 

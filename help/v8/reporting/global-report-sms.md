@@ -3,10 +3,10 @@ audience: end-user
 title: 短信渠道全局报表
 description: 了解短信渠道的全局报告
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 27%
+source-wordcount: '689'
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="短信投放概述"
->abstract="**短信投放概述** KPI 提供您的短信投放的全面摘要，并提供详细洞察和具体数据。它提供有关您的投放的效果、有效性和成果的全面信息。"
+>abstract="**短信投放概述** KPI 提供您的短信投放的全面摘要，并提供详细洞察和具体数据。 它提供有关您的投放的效果、有效性和成果的全面信息。"
 
 **[!UICONTROL 投放概述]**&#x200B;报表提供了全面的关键绩效指标(KPI)，可深入分析访客与每个短信投放的交互模式。 以下列出了以下量度。
 
@@ -67,7 +67,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="短信投放统计信息"
->abstract="通过&#x200B;**投放统计信息**&#x200B;报告可全面洞察发送的短信，其中细分各种量度，如成功率、错误发生率和被隔离的受众。通过此详细演示可全面地检查短信投放过程的整体效果和成果。"
+>abstract="通过&#x200B;**投放统计信息**&#x200B;报告可全面洞察发送的短信，其中细分各种量度，如成功率、错误发生率和被隔离的受众。 通过此详细演示可全面地检查短信投放过程的整体效果和成果。"
 
 **[!UICONTROL 投放统计数据]**&#x200B;表详细说明了每次SMS投放的成功情况。 指标详见下文。
 

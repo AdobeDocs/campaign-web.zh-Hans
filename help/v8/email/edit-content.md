@@ -3,10 +3,10 @@ audience: end-user
 title: 编辑电子邮件内容
 description: 了解如何在Campaign Web用户界面中编辑电子邮件内容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 35%
+source-wordcount: '699'
+ht-degree: 36%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="将文件附加到电子邮件"
->abstract="选择要插入邮件的一个或多个文件。为了避免出现性能问题，建议每封电子邮件不要附加多个附件。"
+>abstract="选择要插入邮件的一个或多个文件。 为了避免出现性能问题，建议每封电子邮件不要附加多个附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="编辑跟踪"
->abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。您可以从此处禁用该选项。"
+>abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。 您可以从此处禁用该选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="添加链接和跟踪邮件"
 
 电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕允许您：
@@ -48,7 +48,7 @@ ht-degree: 35%
 
 要配置或编辑电子邮件的内容，请执行以下步骤。
 
-1. 从&#x200B;**[!UICONTROL 电子邮件投放仪表板]**&#x200B;屏幕单击[编辑内容](../email/create-email.md)按钮。
+1. 从[电子邮件投放仪表板](../email/create-email.md)屏幕单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
    ![在电子邮件投放仪表板上显示“编辑内容”按钮的屏幕截图。](assets/email-edit-content-button.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ ht-degree: 35%
 
    ![显示电子邮件内容编辑器中“回复字段”部分的屏幕截图。](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。在专用字段中直接键入您的主题，或者打开表达式编辑器以使用各种属性、表达式片段或选件添加[个性化](../personalization/personalize.md)。
+1. 定义电子邮件&#x200B;**[!UICONTROL 主题行]**。 在专用字段中直接键入您的主题，或者打开表达式编辑器以使用各种属性、表达式片段或选件添加[个性化](../personalization/personalize.md)。
 
 1. 如果要将文件附加到电子邮件，请单击&#x200B;**[!UICONTROL 添加附件]**&#x200B;按钮，然后选择一个或多个文件。
 
@@ -104,8 +104,8 @@ ht-degree: 35%
    * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)
 
-1. 默认情况下，为投放启用跟踪。您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。[了解如何添加链接和管理跟踪](message-tracking.md)
+1. 默认情况下，为投放启用跟踪。 您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。 [了解如何添加链接和管理跟踪](message-tracking.md)
 
-1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。您还可以验证内容质量，以评估可读性、CTA效果和整体质量。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
+1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。 您还可以验证内容质量，以评估可读性、CTA效果和整体质量。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
 
 1. [了解如何预览和测试电子邮件](../preview-test/preview-test.md)。

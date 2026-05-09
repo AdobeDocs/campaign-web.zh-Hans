@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2077'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="电子邮件设计器中的主题（LA）"
->abstract="应用可重复使用的主题样式和变量，确保电子邮件内容与您的品牌保持一致。此功能仅面向一部分组织（限量发布）"
+>abstract="应用可重复使用的主题样式和变量，确保电子邮件内容与您的品牌保持一致。 此功能仅面向一部分组织（限量发布）"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hans" text="请参阅发行说明"
 
 >[!CONTEXTUALHELP]
@@ -261,7 +261,7 @@ ht-degree: 4%
 
 1. 提供主题的名称。
 
-1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。 [了解如何操作](#create-and-edit-themes)
+1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。[了解如何操作](#create-and-edit-themes)
 
    ![编辑器中生成的主题显示调色板和变量控件](assets/generate-theme-colors.png){width=90%}
 

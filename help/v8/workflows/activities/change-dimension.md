@@ -3,7 +3,7 @@ audience: end-user
 title: 使用更改维度工作流活动
 description: 了解如何使用更改维度工作流活动
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 25%
@@ -15,14 +15,14 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="生成补集"
->abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**生成补集**&#x200B;选项。"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项 为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="更改维度活动"
->abstract="通过此活动，可在生成受众时更改定位维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
+>abstract="通过此活动，可在生成受众时更改定位维度。 它根据数据模板和输入维度移动轴。 例如，您可以从“合同”维度切换到“客户”维度。"
 
-**更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。[了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
+**更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建工作流时更改定向维度。 它根据数据模板和输入维度移动轴。 [了解有关定向维度的更多信息](../../audience/about-recipients.md#targeting-dimensions)。
 
 例如，您可以将工作流的定向维度从“收件人”切换为“订阅者应用程序”，以向定向收件人发送推送通知。
 

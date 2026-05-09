@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '986'
 ht-degree: 48%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="启用轮廓扩充"
->abstract="选择用于轮廓扩充的字段。只有已建立索引的字段才能选作协调键。不支持的字段会显示为灰色。"
+>abstract="选择用于轮廓扩充的字段。 只有已建立索引的字段才能选作协调键。 不支持的字段会显示为灰色。"
 
 您可以从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单创建独立投放，也可以在工作流（包含或未包含在营销活动中）的上下文中创建投放。
 
@@ -41,7 +41,7 @@ ht-degree: 48%
 
    ![显示受众选择界面的屏幕截图](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
-1. 定义消息内容。要了解有关投放渠道以及如何定义投放内容的更多信息，请参阅以下部分：
+1. 定义消息内容。 要了解有关投放渠道以及如何定义投放内容的更多信息，请参阅以下部分：
 
    * [电子邮件渠道](../email/create-email.md)
    * [推送通知渠道](../push/gs-push.md)
@@ -50,15 +50,15 @@ ht-degree: 48%
 1. （可选）定义投放[计划](#gs-schedule)。 如果未定义计划，则单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后，将立即发送消息。
 1. 单击&#x200B;**[!UICONTROL 查看和发送]**&#x200B;按钮检查您的设置。
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮测试您的投放和个性化设置。 在[此章节](../preview-test/preview-test.md)中详细了解消息模拟。
-1. 单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮以计算目标群体并生成消息。 准备步骤可能需要几分钟。 准备完成后，消息随时即可发送。如果出现错误，请浏览到&#x200B;**日志**&#x200B;以检查警报和警告。
+1. 单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮以计算目标群体并生成消息。 准备步骤可能需要几分钟。 准备完成后，消息随时即可发送。 如果出现错误，请浏览到&#x200B;**日志**&#x200B;以检查警报和警告。
 1. 检查结果，然后单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮开始发送消息。
-1. 发送消息后，浏览到&#x200B;**报告**&#x200B;部分以访问关键量度。在[此章节](../reporting/delivery-reports.md)中详细了解投放报告。
+1. 发送消息后，浏览到&#x200B;**报告**&#x200B;部分以访问关键量度。 在[此章节](../reporting/delivery-reports.md)中详细了解投放报告。
 
 >[!TAB 在工作流中创建投放]
 
 要在工作流中创建投放，请执行以下步骤：
 
-1. 创建工作流或打开现有工作流。[了解有关工作流的详细信息](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. 创建工作流或打开现有工作流。 [了解有关工作流的详细信息](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. 添加和配置[**[!UICONTROL 构建受众]**](../workflows/activities/build-audience.md)活动。
 1. 单击`+`图标，然后选择投放活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知(Android)]**&#x200B;或&#x200B;**[!UICONTROL 推送通知(iOS)]**。 在[本节](../workflows/activities/channels.md)中了解有关工作流中的投放渠道活动以及如何定义投放内容的更多信息。
 
@@ -66,7 +66,7 @@ ht-degree: 48%
 
 1. 启动工作流，并检查日志。
 
-您还可以在不创建工作流的情况下在营销活动中添加投放。为此，请浏览到营销活动的&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
+您还可以在不创建工作流的情况下在营销活动中添加投放。 为此，请浏览到营销活动的&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
 
 ![显示营销活动中投放创建的屏幕截图](assets/new-campaign-delivery.png){zoomable="yes"}
 
@@ -78,23 +78,23 @@ ht-degree: 48%
 
 ## 添加个性化内容 {#personalization}
 
-由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。[详细了解个性化功能](../personalization/gs-personalization.md)。
+由 Adobe Campaign 投放的消息可以通过各种方式实现个性化。 [详细了解个性化功能](../personalization/gs-personalization.md)。
 
-使用 Campaign 创建动态内容并发送个性化消息。可以结合个性化功能来改进您的消息并创建自定义用户体验。
+使用 Campaign 创建动态内容并发送个性化消息。 可以结合个性化功能来改进您的消息并创建自定义用户体验。
 
 可以通过以下方式个性化邮件内容：
 
 * 插入动态&#x200B;**个性化字段**
 
-  个性化字段用于邮件的第一级个性化。您可以从个性化编辑器中选择数据库中可用的任何字段。对于投放，您可以选择与收件人、消息或投放相关的任何字段。 可将这些个性化属性插入邮件的主题行或正文中。[了解详情](../personalization/personalize.md)
+  个性化字段用于邮件的第一级个性化。 您可以从个性化编辑器中选择数据库中可用的任何字段。 对于投放，您可以选择与收件人、消息或投放相关的任何字段。 可将这些个性化属性插入邮件的主题行或正文中。 [了解详情](../personalization/personalize.md)
 
 * 正在插入预定义的&#x200B;**表达式片段**
 
-  Campaign提供了一组表达式片段，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。表达式片段可从个性化编辑器中的专用条目获取。 此外，您可以根据自己的需求创建自己的表达式片段。 [了解如何使用表达式片段](../content/use-expression-fragments.md)
+  Campaign提供了一组表达式片段，其中包含您可以插入到投放中的特定渲染。 例如，您可以添加徽标、问候邮件或指向邮件的镜像页面的链接。 表达式片段可从个性化编辑器中的专用条目获取。 此外，您可以根据自己的需求创建自己的表达式片段。 [了解如何使用表达式片段](../content/use-expression-fragments.md)
 
 * 正在创建&#x200B;**条件内容**
 
-  例如，配置条件内容以根据收件人的配置文件添加动态个性化。 满足特定条件时可插入文本块和/或图像。[了解详情](../personalization/conditions.md)
+  例如，配置条件内容以根据收件人的配置文件添加动态个性化。 满足特定条件时可插入文本块和/或图像。 [了解详情](../personalization/conditions.md)
 
 * 添加&#x200B;**个性化优惠**
 
@@ -109,9 +109,9 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="设置联系日期和时间"
->abstract="定义发送投放的日期和确切时间。选择最适合发送营销消息的时间，可尽量提高打开率。"
+>abstract="定义发送投放的日期和确切时间。 选择最适合发送营销消息的时间，可尽量提高打开率。"
 
-您可以设置发送信息的日期和确切时间。选择最适合发送营销消息的时间，可尽量提高打开率。
+您可以设置发送信息的日期和确切时间。 选择最适合发送营销消息的时间，可尽量提高打开率。
 
 要计划投放的发送，请执行以下步骤：
 
@@ -124,7 +124,7 @@ ht-degree: 48%
 
 ![显示投放计划界面的屏幕截图](assets/schedule.png){zoomable="yes"}
 
-默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在计划日期发送投放之前确认发送，如果您需要在计划日期和时间自动发送投放，则可以禁用此选项.me。
+默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。 此选项要求您在计划日期发送投放之前确认发送，如果您需要在计划日期和时间自动发送投放，则可以禁用此选项.me。
 
 在[此部分](../monitor/prepare-send.md#schedule-the-send)中了解发送计划投放的步骤。
 

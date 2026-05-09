@@ -3,10 +3,10 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 36%
+source-wordcount: '1402'
+ht-degree: 34%
 
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 36%
 
 ## 容器 {#container}
 
-可以添加一个简单容器，并在其中添加另一个内容组件。这允许您向容器应用特定样式，这与内部使用的组件不同。
+可以添加一个简单容器，并在其中添加另一个内容组件。 这允许您向容器应用特定样式，这与内部使用的组件不同。
 
-例如，添加一个&#x200B;**[!UICONTROL 容器]**&#x200B;组件，然后在该容器中添加一个[按钮](#button)组件。为容器使用特定背景，为按钮使用另一个背景。
+例如，添加一个&#x200B;**[!UICONTROL 容器]**&#x200B;组件，然后在该容器中添加一个[按钮](#button)组件。 为容器使用特定背景，为按钮使用另一个背景。
 
 ![显示如何在Email Designer中添加容器组件的屏幕截图。](assets/email_designer_container_component.png){zoomable="yes"}
 
@@ -94,7 +94,7 @@ ht-degree: 36%
 
 ## 文本 {#text}
 
-使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式（边框、大小、内边距等等）。
+使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入到您的电子邮件中，并调整样式（边框、大小、填充等） 使用&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
 1. 从&#x200B;**[!UICONTROL 内容]**&#x200B;菜单中，将&#x200B;**[!UICONTROL 文本]**&#x200B;拖放到&#x200B;**[!UICONTROL 结构]**&#x200B;组件中。
 
@@ -112,7 +112,7 @@ ht-degree: 36%
    * **[!UICONTROL 设置标题]**：向文本添加最多六个标题级别。
    * **字体大小**：选择文本的字体大小（以像素为单位）。
    * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。
-   * **[!UICONTROL 显示源代码]**：显示文本的源代码。不能修改。
+   * **[!UICONTROL 显示源代码]**：显示文本的源代码。 不能修改。
    * **[!UICONTROL 复制]**：添加文本组件的副本。
    * **[!UICONTROL 删除]**：从电子邮件中删除选定的文本组件。
    * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义轮廓数据中的内容。
@@ -160,7 +160,7 @@ ht-degree: 36%
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;从资源中选择图像文件。 您还可以选择&#x200B;**[!UICONTROL 导入您的媒体]**。
 
-   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hans)。
+   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
 
    ![显示Email Designer中图像组件的浏览选项的屏幕快照。](assets/email_designer_28.png){zoomable="yes"}
 
@@ -173,7 +173,7 @@ ht-degree: 36%
 1. 单击新添加的组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡设置图像属性：
 
    * **[!UICONTROL 图像标题]**&#x200B;允许您定义图像的标题。
-   * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
+   * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。 这对应于 alt HTML 属性。
 
    ![显示Email Designer中图像组件的“设置”选项卡的屏幕截图。](assets/email_designer_10.png){zoomable="yes"}
 

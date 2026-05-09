@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2946'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 
@@ -249,7 +249,7 @@ ht-degree: 7%
 
 >[!TAB 新规则生成器]
 
-1. 单击“**添加条件**”按钮旁边的“**[!UICONTROL 展开]**”按钮，然后选择“**[!UICONTROL 选择受众]**”。
+1. 单击“**[!UICONTROL 添加条件]**”按钮旁边的“**展开**”按钮，然后选择“**[!UICONTROL 选择受众]**”。
 
 1. 将在右侧打开&#x200B;**选择受众**&#x200B;属性窗格。 选择要用于筛选查询的受众。
 
@@ -282,7 +282,7 @@ ht-degree: 7%
 
 >[!TAB 新规则生成器]
 
-1. 单击“**添加条件**”按钮旁边的“**[!UICONTROL 展开]**”按钮，然后选择“**[!UICONTROL 预定义过滤器]**”。
+1. 单击“**[!UICONTROL 添加条件]**”按钮旁边的“**展开**”按钮，然后选择“**[!UICONTROL 预定义过滤器]**”。
 
 1. 将在右侧打开&#x200B;**预定义过滤器**&#x200B;属性窗格。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
 
