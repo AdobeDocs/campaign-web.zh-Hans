@@ -106,7 +106,7 @@ ht-degree: 10%
 
 * 您可以预览默认深色模式在大多数支持的电子邮件客户端中的呈现方式。 [了解详情](#preview-dark-mode)
 
-* 如果要覆盖支持自定义深色模式](#custom-support)的电子邮件客户端[的默认设置，可以为正在编辑的电子邮件定义自定义设置。 [了解详情](#define-custom-dark-mode)
+* 如果要覆盖支持自定义深色模式[&#128279;](#custom-support)的电子邮件客户端的默认设置，可以为正在编辑的电子邮件定义自定义设置。 [了解详情](#define-custom-dark-mode)
 
 ### 预览默认深色模式 {#preview-dark-mode}
 

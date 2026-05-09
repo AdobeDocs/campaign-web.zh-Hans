@@ -28,7 +28,7 @@ ht-degree: 11%
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;和&#x200B;**[!UICONTROL Expiration]**&#x200B;页面的内容也已预填充。 根据需要编辑它们。
 
-您还可以为登陆页面](#lp-form-styles)定义[样式。
+您还可以为登陆页面[&#128279;](#lp-form-styles)定义样式。
 
 要进一步设计登陆页面内容，请执行以下操作：
 
@@ -121,7 +121,7 @@ ht-degree: 11%
 
 1. 选择“**[!UICONTROL 服务来自URL]**”选项，以允许将登陆页用于多个服务，使其成为动态页面。 定义在提交表单时要选择加入还是选择退出用户。
 
-   来自表单组件](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的![服务
+   来自表单组件![&#128279;](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的服务
 
    在设计电子邮件时，如果您定义指向此登陆页面的&#x200B;**[!UICONTROL 登陆页面]**&#x200B;类型的链接，则可以从列表中选择任何服务。 然后，在定义指向此登陆页面的其他链接时，您可以选择其他服务。 [了解有关插入链接的更多信息](../email/message-tracking.md)
 
