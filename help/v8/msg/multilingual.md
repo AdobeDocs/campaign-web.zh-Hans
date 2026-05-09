@@ -3,9 +3,9 @@ audience: end-user
 title: 配置多语言投放
 description: 了解如何配置多语言投放
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1489'
 ht-degree: 6%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="添加语言"
->abstract="在此选项卡中，您将找到要发送的投放所使用的语言列表。您可以通过单击“添加语言”按钮或通过此选项卡复制另一种语言来添加更多语言。"
+>abstract="在此选项卡中，您将找到要发送的投放所使用的语言列表。 您可以通过单击“添加语言”按钮或通过此选项卡复制另一种语言来添加更多语言。"
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
 >title="导入语言变体"
->abstract="使用此对话框通过导入 CSV 文件来添加语言变体。该文件会为所选语言自动填充所有可用字段。确认前，您可以拖放文件，或从计算机中选择文件。"
+>abstract="使用此对话框通过导入 CSV 文件来添加语言变体。 该文件会为所选语言自动填充所有可用字段。 确认前，您可以拖放文件，或从计算机中选择文件。"
 
 在Campaign Web UI中，您可以将投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 
    >[!IMPORTANT]
    >
-   >仅当目标维度包含&#x200B;**[!UICONTROL 语言]**&#x200B;架构时，**添加语言**&#x200B;按钮才可用。 要了解有关架构和目标维度的更多信息，请参阅[详细文档](../audience/targeting-dimensions.md)。
+   >仅当目标维度包含&#x200B;**语言**&#x200B;架构时，**[!UICONTROL 添加语言]**&#x200B;按钮才可用。 要了解有关架构和目标维度的更多信息，请参阅[详细文档](../audience/targeting-dimensions.md)。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -160,7 +160,7 @@ ht-degree: 6%
 
 1. 通过将CSV文件拖放到上传区域来选择该文件，或单击以浏览计算机。
 
-   系统会验证您的文件格式和内容。 如果验证失败，错误消息将指示哪些列或数据不正确。 修复了CSV文件中的问题并再次上传。 请参阅此[章节](#csv-troubleshooting)。
+   系统会验证您的文件格式和内容。 如果验证失败，错误消息将指示哪些列或数据不正确。 修复了CSV文件中的问题并再次上传。 请参阅此[部分](#csv-troubleshooting)。
 
    ![屏幕截图显示成功对所有语言导入的CSV验证](assets//multilingual-csv2.png){zoomable="yes"}
 

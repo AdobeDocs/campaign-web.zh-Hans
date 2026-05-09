@@ -3,9 +3,9 @@ audience: end-user
 title: 直邮渠道的全局报告
 description: 详细了解直邮渠道的全局报告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 27%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。这些量度概述如下。"
+>abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。 这些量度概述如下。"
 
 **[!UICONTROL 投放概述]**&#x200B;显示关键绩效指标(KPI)，提供对访客与每个直邮投放交互情况的深入分析。 这些量度概述如下。
 
@@ -98,12 +98,12 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="排除项"
->abstract=" **排除原因**&#x200B;表格按规则显示在传送投放过程中遭到拒绝的邮件的细分。"
+>abstract="**排除原因**&#x200B;表格按规则显示在传送投放过程中遭到拒绝的邮件的细分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="排除的原因"
->abstract=" **排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
+>abstract="**排除原因**&#x200B;图表显示了准备投放期间遭到拒绝的邮件的分布情况，并按每项规则进行分类。"
 
 ![此图像显示了直邮投放中排除量度的原因。](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 

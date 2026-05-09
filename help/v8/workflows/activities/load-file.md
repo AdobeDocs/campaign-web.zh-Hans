@@ -3,9 +3,9 @@ audience: end-user
 title: 使用加载文件工作流活动
 description: 了解如何使用加载文件工作流活动
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="加载文件活动"
->abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。轮廓和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新轮廓或任何其他表。"
+>abstract="**加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。 使用此活动可以处理存储在外部文件中的数据。 轮廓和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新轮廓或任何其他表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,10 +27,10 @@ ht-degree: 36%
 >title="针对拒绝的拒绝管理出站过渡"
 >abstract="针对拒绝的拒绝管理出站过渡"
 
- **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据未添加到数据库，但输入文件中的所有字段均可用于[个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
+**加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。 使用此活动可使用存储在外部文件中的用户档案和数据。 用户档案和数据未添加到数据库，但输入文件中的所有字段均可用于[个性化](../../personalization/gs-personalization.md)，或者更新用户档案或任何其他表。
 
 >[!NOTE]
->支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。使用Web用户界面控制台，您可以加载最大大小为50MB的文件。 在客户端控制台中，数据加载活动具有150 MB的限制。 [了解详情](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hans){target="_blank"}
+>支持的文件格式有：文本 (TXT) 和逗号分隔值 (CSV)。 使用Web用户界面控制台，您可以加载最大大小为50MB的文件。 在客户端控制台中，数据加载活动具有150 MB的限制。 [了解详情](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hans){target="_blank"}
 
 此活动可与[协调](reconciliation.md)活动一起使用，以将未识别的数据链接到现有资源。 例如，如果将非标准数据导入数据库，则可以将&#x200B;**加载文件**&#x200B;活动放在&#x200B;**协调**&#x200B;活动之前。
 
@@ -55,17 +55,17 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="加载文件活动的值重新映射"
->abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含 “真”/“假” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
+>abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。 例如，如果列中包含 “真”/“假” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
 
 按照以下步骤配置用于定义预期文件结构的样例文件：
 
 1. 将&#x200B;**加载文件**&#x200B;活动添加到您的工作流中。
 
-1. 选择用于定义预期文件结构的样例文件。 为此，请单击&#x200B;**示例文件**&#x200B;部分中的&#x200B;**[!UICONTROL 选择文件]**&#x200B;按钮，然后选择要使用的本地文件。
+1. 选择用于定义预期文件结构的样例文件。 为此，请单击&#x200B;**[!UICONTROL 示例文件]**&#x200B;部分中的&#x200B;**选择文件**&#x200B;按钮，然后选择要使用的本地文件。
 
    >[!NOTE]
    >
-   >并不会导入样例文件的数据，仅将其用于配置活动。使用包含少量数据的样例文件。 文件格式必须与此[示例文件](../../audience/file-audience.md#sample-file)对齐。
+   >并不会导入样例文件的数据，仅将其用于配置活动。 使用包含少量数据的样例文件。 文件格式必须与此[示例文件](../../audience/file-audience.md#sample-file)对齐。
 
 1. 此时将显示样例文件的预览，最多显示30行。
 
@@ -101,7 +101,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="文件名称"
->abstract="指定要上传到服务器的字段的名称。单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标，利用表达式编辑器（包括事件变量）来计算文件名称。"
+>abstract="指定要上传到服务器的字段的名称。 单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标，利用表达式编辑器（包括事件变量）来计算文件名称。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
@@ -111,7 +111,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="加载文件命令"
->abstract="允许任意预处理命令是一个安全隐患。禁用安全选项 XtkSecurity_Disable_Preproc 以强制使用预定义的命令列表。"
+>abstract="允许任意预处理命令是一个安全隐患。 禁用安全选项 XtkSecurity_Disable_Preproc 以强制使用预定义的命令列表。"
 
 >[!CAUTION]
 >
@@ -140,7 +140,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="加载文件活动的拒绝管理"
->abstract="在&#x200B;**拒绝管理**&#x200B;部分，指定在出现错误时该活动应如何表现。您可以定义允许的最大错误数，并切换&#x200B;**[!UICONTROL 将拒绝的内容保留在文件中]**&#x200B;选项，以在服务器上下载包含导入期间发生的错误的文件。"
+>abstract="在&#x200B;**拒绝管理**&#x200B;部分，指定在出现错误时该活动应如何表现。 您可以定义允许的最大错误数，并切换&#x200B;**[!UICONTROL 将拒绝的内容保留在文件中]**&#x200B;选项，以在服务器上下载包含导入期间发生的错误的文件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
@@ -163,4 +163,4 @@ ht-degree: 36%
 
 ## 示例 {#load-example}
 
-**此部分**&#x200B;中提供了与[协调](reconciliation.md#reconciliation-example)活动一起使用的外部文件加载示例。
+[此部分](reconciliation.md#reconciliation-example)中提供了与&#x200B;**协调**&#x200B;活动一起使用的外部文件加载示例。

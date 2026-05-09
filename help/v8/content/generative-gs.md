@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用 AI 助手
 description: AI 助手入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 21%
+source-wordcount: '887'
+ht-degree: 24%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 助手"
->abstract="在精心制作和个性化定制您的投放内容后，请使用 AI 助手来提升您的内容质量。使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
+>abstract="在精心制作和个性化定制您的投放内容后，请使用 AI 助手来提升您的内容质量。 使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="在 Campaign 中使用 AI 助手定义上下文"
->abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。还可上传品牌资源以将其用作来源。如果不使用所选内容，就必须上传并选择品牌资产。"
+>abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。 还可上传品牌资源以将其用作来源。 如果不使用所选内容，就必须上传并选择品牌资产。"
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 条款"
->abstract="能否访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
+>abstract="能否访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。 请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 >[!INFO]

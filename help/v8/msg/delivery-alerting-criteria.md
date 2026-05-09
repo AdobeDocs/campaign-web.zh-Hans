@@ -3,9 +3,9 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '718'
 ht-degree: 24%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="投放提醒标准仪表板"
->abstract="Campaign Web 用户界面提供了预定义的提醒条件（吞吐量低的投放、准备失败的投放......），你可以将其添加到你的仪表板。您还可以创建自己的条件来满足您的需要。"
+>abstract="Campaign Web 用户界面提供了预定义的提醒条件（吞吐量低的投放、准备失败的投放......），你可以将其添加到你的仪表板。 您还可以创建自己的条件来满足您的需要。"
 
 Campaign Web用户界面提供了预定义的警报标准，例如可添加到功能板的低吞吐量投放或准备失败的投放。 您还可以创建自己的条件来满足您的需要。
 

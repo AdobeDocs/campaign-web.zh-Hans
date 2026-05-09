@@ -3,10 +3,10 @@ audience: end-user
 title: 使用订阅服务活动
 description: 了解如何使用订阅服务工作流活动
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="订阅服务常规参数"
->abstract="选择所需的服务，然后选择要执行的操作（订阅或取消订阅）。切换打开&#x200B;**发送确认消息**&#x200B;选项，通知群体他们已订阅或取消订阅所选服务。"
+>abstract="选择所需的服务，然后选择要执行的操作（订阅或取消订阅）。 切换打开&#x200B;**发送确认消息**&#x200B;选项，通知群体他们已订阅或取消订阅所选服务。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他信息"
->abstract="指定每条记录的订阅数据和来源。您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。如果入站数据包含一列表示轮廓订阅该服务的日期，则可以在&#x200B;**[!UICONTROL 日期]**&#x200B;字段中选择此列。在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为来源]**&#x200B;选项将其设定为所选的常量值。"
+>abstract="指定每条记录的订阅数据和来源。 您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。 如果入站数据包含一列表示轮廓订阅该服务的日期，则可以在&#x200B;**[!UICONTROL 日期]**&#x200B;字段中选择此列。 在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。 您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为来源]**&#x200B;选项将其设定为所选的常量值。"
 
 **订阅服务**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 它允许您为过渡中指定的群体创建或删除对信息服务的订阅。
 
@@ -66,11 +66,11 @@ ht-degree: 24%
 
 1. 要通知收件人他们已订阅或取消订阅所选服务，请启用&#x200B;**[!UICONTROL 发送确认消息]**&#x200B;选项。 该通知的内容在与信息服务相关联的投放模板中定义。
 
-1. 如果您使用的是来自集客过渡的数据，则会显示&#x200B;**[!UICONTROL 其他信息]**&#x200B;部分，允许您为每个记录指定数据和订阅来源。 您可以将此部分留空，这样在运行工作流时就不会设置日期或来源。
+1. 如果您使用的是来自集客过渡的数据，则会显示&#x200B;**[!UICONTROL 其他信息]**&#x200B;部分，允许您为每个记录指定数据和订阅来源。 您可以将此部分留空，在这种情况下，运行工作流时将不会设置日期或来源。
 
-   * 如果集客数据包含一列，指示用户档案订阅服务的日期，则可以在&#x200B;**[!UICONTROL Date]**&#x200B;字段中选择该列。
+   * 如果入站数据包含一列表示轮廓订阅该服务的日期，则可以在&#x200B;**[!UICONTROL 日期]**&#x200B;字段中选择此列。
 
-   * 在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为来源]**&#x200B;选项将其设定为所选的常量值。
+   * 在&#x200B;**[!UICONTROL 来源路径]**&#x200B;字段中，定义订阅的来源。 您可以将其设置为集客数据的一个字段，也可以通过选中&#x200B;**[!UICONTROL 将常量设置为来源]**&#x200B;选项将其设定为所选的常量值。
 
    ![工作流订阅服务附加信息界面的屏幕截图。](../assets/workflow-subscription-service-additional.png)
 
@@ -105,13 +105,13 @@ ht-degree: 24%
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  如您所见，文件中将该操作指定为“sub”或“unsub”。 系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。要符合此要求，请执行以下操作：
+  如您所见，文件中将该操作指定为“sub”或“unsub”。 系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。 要符合此要求，请执行以下操作：
    * “operation”列的&#x200B;**数据类型**&#x200B;设置为整数。
    * 必须执行&#x200B;**值重新映射**，以将“sub”和“unsub”值与“1”和“0”值相匹配。
 
   ![工作流订阅服务映射接口的屏幕截图。](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。仅确保将该列作为&#x200B;**Boolean**&#x200B;或&#x200B;**Integer**&#x200B;在示例文件列中进行处理。
+  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。 仅确保将该列作为&#x200B;**Boolean**&#x200B;或&#x200B;**Integer**&#x200B;在示例文件列中进行处理。
 
 * **[!UICONTROL 协调]**&#x200B;活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 文件的&#x200B;**email**&#x200B;字段与配置文件资源的&#x200B;**email**&#x200B;字段匹配。
 
@@ -123,6 +123,6 @@ ht-degree: 24%
 
 * **[!UICONTROL 订阅服务]**&#x200B;标识要更新的服务来自过渡。
 
-  将&#x200B;**[!UICONTROL 操作类型]**&#x200B;标识为来自文件的&#x200B;**操作**&#x200B;字段。 此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前面部分所述，在&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动中正确设置了列格式。
+  将&#x200B;**[!UICONTROL 操作类型]**&#x200B;标识为来自文件的&#x200B;**操作**&#x200B;字段。 此处只能选择 Boolean 或 Integer 字段。 如果列表中未显示包含要执行操作的文件列，请确保已根据本例前面部分所述，在&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动中正确设置了列格式。
 
   ![工作流订阅服务订阅界面的屏幕截图。](../assets/workflow-subscription-service-uc2-subscription.png)

@@ -3,7 +3,7 @@ audience: end-user
 title: 个性化电子邮件背景
 description: 了解如何个性化电子邮件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 44%
@@ -15,7 +15,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景设置"
->abstract="您可以为自己的内容使用个性化的背景颜色或背景图像。请注意，并非所有电子邮件客户端都支持背景图像。"
+>abstract="您可以为自己的内容使用个性化的背景颜色或背景图像。 请注意，并非所有电子邮件客户端都支持背景图像。"
 
 使用Email Designer设置背景时，Adobe建议执行以下操作：
 
@@ -25,17 +25,17 @@ ht-degree: 44%
 
 以下是您可以使用的可用背景设置：
 
-* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。在可从左窗格访问的导航树中选择正文设置。
+* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。 在可从左窗格访问的导航树中选择正文设置。
 
   [设置整个电子邮件正文的背景颜色，可通过导航树进行访问。]\
   ![](assets/background_1.png){zoomable="yes"}
 
-* 通过选择&#x200B;**[!UICONTROL 视口背景颜色]**&#x200B;来为所有结构组件设置同一背景颜色。此选项允许您从背景颜色中选择不同的设置。
+* 通过选择&#x200B;**[!UICONTROL 视口背景颜色]**&#x200B;来为所有结构组件设置同一背景颜色。 此选项允许您从背景颜色中选择不同的设置。
 
   [使用视区背景颜色选项为所有结构组件设置统一的背景颜色。]\
   ![](assets/background_2.png){zoomable="yes"}
 
-* 为每个结构组件设置不同的背景颜色。在左侧窗格的导航树中选择一个结构，以仅将特定的背景颜色应用于该结构。
+* 为每个结构组件设置不同的背景颜色。 在左侧窗格的导航树中选择一个结构，以仅将特定的背景颜色应用于该结构。
 
   [通过导航树将唯一的背景颜色应用于各个结构组件。]\
   ![](assets/background_3.png){zoomable="yes"}
@@ -49,7 +49,7 @@ ht-degree: 44%
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >某些电子邮件程序不支持背景图像。不支持时，将改用行背景颜色。 选择适当的回退背景颜色，以防图像无法显示。
+  >某些电子邮件程序不支持背景图像。 不支持时，将改用行背景颜色。 选择适当的回退背景颜色，以防图像无法显示。
 
 * 在列级别设置背景颜色。
 
@@ -57,6 +57,6 @@ ht-degree: 44%
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >这是最常见的用例。Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时可以更加灵活。
+  >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时可以更加灵活。
 
   您也可以在列级别设置背景图像，但很少这样做。

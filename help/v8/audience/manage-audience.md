@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用受众
 description: 了解如何在Adobe Campaign Web中使用受众
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 25%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="属性"
->abstract="您可以在此处找到受众属性的总结，例如其来源或其存储文件夹。单击&#x200B;**上一个工作流**&#x200B;部分中的链接以打开已用于创建该受众的工作流。"
+>abstract="您可以在此处找到受众属性的总结，例如其来源或其存储文件夹。 单击&#x200B;**上一个工作流**&#x200B;部分中的链接以打开已用于创建该受众的工作流。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="受众规模"
->abstract="您可以在此处找到受众内轮廓的总数。单击&#x200B;**计算**&#x200B;按钮，可更新并重新计算受众结果。"
+>abstract="您可以在此处找到受众内轮廓的总数。 单击&#x200B;**计算**&#x200B;按钮，可更新并重新计算受众结果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
@@ -30,7 +30,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="受众出错"
->abstract="无受众数据可用。请等待工作流执行结束。"
+>abstract="无受众数据可用。 请等待工作流执行结束。"
 
 受众是投放的主要目标：接收消息的用户档案。 可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问Campaign Web中可用的受众列表。
 

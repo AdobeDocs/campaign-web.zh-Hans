@@ -3,10 +3,10 @@ audience: end-user
 title: 关于投放预览和测试
 description: 了解如何预览和测试投放
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 16%
+source-wordcount: '229'
+ht-degree: 24%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->单击[审核并发送](../monitor/prepare-send.md)按钮后，还可从&#x200B;**[!UICONTROL 投放摘要]**&#x200B;中使用内容模拟。
+>单击&#x200B;**[!UICONTROL 审核并发送]**&#x200B;按钮后，还可从[投放摘要](../monitor/prepare-send.md)中使用内容模拟。
 >
 >如果您针对的是从文件上传的受众，请参阅[此章节](../audience/file-audience.md#preview--test-your-email-test)以了解如何预览和测试投放。

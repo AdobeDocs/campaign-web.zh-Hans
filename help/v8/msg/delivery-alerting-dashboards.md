@@ -3,10 +3,10 @@ audience: end-user
 title: 投放警报
 description: 了解如何使用投放警报。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1130'
+ht-degree: 27%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="投放警报仪表板"
->abstract="投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。投放警报仪表板允许您指定谁将接收电子邮件警报，选择和配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
+>abstract="投放警报功能是一个警报管理系统，利用该系统可让用户组自动接收包含其投放执行信息的电子邮件通知。 投放警报仪表板允许您指定谁将接收电子邮件警报，选择和配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。"
 
-利用投放警报仪表板，可指定接收电子邮件警报的人员、选择并配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。 可从左侧导航窗格的&#x200B;**功能板**&#x200B;选项卡下的&#x200B;**投放警报**&#x200B;菜单访问它们。
+投放警报仪表板允许您指定谁将接收电子邮件警报，选择和配置用于发送这些警报的警报标准，以及访问所有已发送通知的历史记录。 可从左侧导航窗格的&#x200B;**功能板**&#x200B;选项卡下的&#x200B;**投放警报**&#x200B;菜单访问它们。
 
 ![屏幕截图显示“投放警报”菜单中警报功能板的列表。](assets/alerting-dashboard-list.png)
 
@@ -31,17 +31,17 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="投放提醒通用参数"
->abstract="指定投放警报仪表板的常规属性。**选择警报组**&#x200B;字段允许您指定&#x200B;**操作员组**&#x200B;来接收此仪表板发送的警报。"
+>abstract="指定投放警报仪表板的常规属性。 **选择警报组**&#x200B;字段允许您指定&#x200B;**操作员组**&#x200B;来接收此仪表板发送的警报。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="投放警报条件"
->abstract="在本节中，添加您想要用于从此仪表板发送警报的条件。从预定义标准中选择或创建自己的标准以满足特定需求。"
+>abstract="在本节中，添加您想要用于从此仪表板发送警报的条件。 从预定义标准中选择或创建自己的标准以满足特定需求。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="标准参数"
->abstract="标准具有默认参数值，定义如何应用它们。您可以从本节更改这些值以满足您的需要。"
+>abstract="标准具有默认参数值，定义如何应用它们。 您可以从本节更改这些值以满足您的需要。"
 
 要创建投放仪表板，请执行以下步骤：
 
@@ -55,7 +55,7 @@ ht-degree: 22%
 
    在[Adobe Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中了解有关权限和操作员组的更多信息
 
-1. 在&#x200B;**投放警报标准**&#x200B;部分中，添加要用于发送警报的标准。 从预定义标准中进行选择，或者根据特定需求创建自己的标准。 [了解如何使用标准](../msg/delivery-alerting-criteria.md)
+1. 在&#x200B;**投放警报标准**&#x200B;部分中，添加要用于发送警报的标准。 从预定义标准中选择或创建自己的标准以满足特定需求。 [了解如何使用标准](../msg/delivery-alerting-criteria.md)
 
 1. 标准具有默认参数值，这些值定义必须如何应用标准。 您可以根据需要从&#x200B;**标准参数**&#x200B;部分更改这些值。
 
@@ -101,7 +101,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="投放提醒历史记录"
->abstract="**历史记录** 窗格包含从此仪表板发送的所有警报。单击某个项目可以访问在特定时间发送的相应警报。"
+>abstract="**历史记录** 窗格包含从此仪表板发送的所有警报。 单击某个项目可以访问在特定时间发送的相应警报。"
 
 可从&#x200B;**仪表板**&#x200B;选项卡的&#x200B;**投放警报**&#x200B;菜单访问所有创建的警报仪表板。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 29%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="使用现有的电子邮件内容"
->abstract="通过电子邮件 Designer，可导入现有的 HTML 内容。此内容可以是内含样式表的 HTML 文件，也可以是具有 HTML 文件、样式表 (.css) 和图像的 .zip 文件夹。"
+>abstract="通过电子邮件 Designer，可导入现有的 HTML 内容。 此内容可以是内含样式表的 HTML 文件，也可以是具有 HTML 文件、样式表 (.css) 和图像的 .zip 文件夹。"
 
 您可以在电子邮件Designer中导入现有HTML内容。 相关的内容可以是：
 
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->具体的 .zip 文件结构没有任何限制。但是，引用必须是相对的，并且适合.zip文件夹的树结构。
+>具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
 
 ➡️ [通过观看视频了解此功能](#video)
 

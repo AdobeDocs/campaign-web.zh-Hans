@@ -3,10 +3,10 @@ title: 自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="屏幕版"
->abstract="界面中显示的所有自定义字段用于所选架构显示。您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
+>abstract="界面中显示的所有自定义字段用于所选架构显示。 您可以使用向上和向下箭头更改它们在界面中的显示顺序，并通过添加分隔符将字段分组为子部分。 要删除自定义字段或编辑可见性条件等设置，请点击省略号按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="常规"
->abstract="定义自定义字段的一般设置。如果没有提供标签，就会显示架构中定义的标签。使用 **Visible if** 字段，通过一个控制何时显示该字段的 xtk 表达式定义一个条件。您还可以在界面中将该字段标记为必填或只读。"
+>abstract="定义自定义字段的一般设置。 如果没有提供标签，就会显示架构中定义的标签。 使用 **Visible if** 字段，通过一个控制何时显示该字段的 xtk 表达式定义一个条件。 您还可以在界面中将该字段标记为必填或只读。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="链接属性"
->abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。例如，根据另一个字段的输入限制列表值。"
+>abstract="使用查询建模器指定用于显示链接类型自定义字段的规则。 例如，根据另一个字段的输入限制列表值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="布局"
->abstract="默认情况下，自定义字段在界面中显示为两列。切换此选项可在屏幕的整个宽度上显示自定义字段，而不是两列。"
+>abstract="默认情况下，自定义字段在界面中显示为两列。 切换此选项可在屏幕的整个宽度上显示自定义字段，而不是两列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
@@ -66,7 +66,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="屏幕清晰度"
->abstract="定义要为架构编辑的自定义字段列表及其属性。点击&#x200B;**预览**&#x200B;按钮可在示例屏幕中显示自定义字段。"
+>abstract="定义要为架构编辑的自定义字段列表及其属性。 点击&#x200B;**预览**&#x200B;按钮可在示例屏幕中显示自定义字段。"
 
 
 要在界面中显示自定义字段，请执行以下步骤：
@@ -115,7 +115,7 @@ ht-degree: 27%
 可用设置包括：
 
 * **[!UICONTROL 属性]**：自定义字段的名称。
-* **[!UICONTROL 标签（自定义）]**：要在界面中显示的标签。 如果未提供标签，则将显示架构中定义的标签。
+* **[!UICONTROL 标签（自定义）]**：要在界面中显示的标签。 如果没有提供标签，就会显示架构中定义的标签。
 * **[!UICONTROL 如果]**&#x200B;可见：使用控制字段显示时间的xtk表达式定义条件。 例如，如果其他字段为空，则隐藏此字段。
 * **[!UICONTROL 必填]**：在界面中将字段设为必填。
 * **[!UICONTROL 只读]**：将接口中的字段设为只读。 用户将无法编辑该字段的值。

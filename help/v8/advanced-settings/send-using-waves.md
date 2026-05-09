@@ -4,10 +4,10 @@ title: 使用批次发送
 description: 详细了解Campaign Web中的投放设置
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 13%
+source-wordcount: '815'
+ht-degree: 14%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="将投放分为多个批次"
->abstract="定义波次，将投放分为多个批次，而非同时发送大量消息。您可以配置多个相同大小的波次，或者为要发送的不同波次设置日程表。"
+>abstract="定义波次，将投放分为多个批次，而非同时发送大量消息。 您可以配置多个相同大小的波次，或者为要发送的不同波次设置日程表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
 >title="定义每个波次的大小"
->abstract="您必须输入要添加的所有波次的大小。输入数值（每个波次的消息数）或百分比 (0-100%)。"
+>abstract="您必须输入要添加的所有波次的大小。 输入数值（每个波次的消息数）或百分比 (0-100%)。"
 
 要平衡负载，可以将电子邮件投放分为多个批次。 配置批次的数量及其相对于整个投放的比例以及两个批次之间的间隔。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 创建内容片段
 description: 了解如何创建内容片段
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 22%
+source-wordcount: '1038'
+ht-degree: 23%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="定义您自己的内容片段"
->abstract="定义片段属性和您想要创建的片段类型。然后，您可以使用电子邮件 Designer 或表达式编辑器来配置片段的内容。"
+>abstract="定义片段属性和您想要创建的片段类型。 然后，您可以使用电子邮件 Designer 或表达式编辑器来配置片段的内容。"
 
 <!-- pas vu dans l'UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="片段属性"
->abstract="输入片段的标签。如果需要，您可以定义其他选项，例如片段内部名称、其文件夹和描述。"
+>abstract="输入片段的标签。 如果需要，您可以定义其他选项，例如片段内部名称、其文件夹和描述。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="内容片段类型"
->abstract="选择您要创建的片段类型。**视觉片段** 是预定义的视觉块，您可以在多个电子邮件投放或内容模板中重复使用。**表达式片段** 是预定义表达式，可从表达式编辑器中的专用条目中获取。"
+>abstract="选择您要创建的片段类型。 **视觉片段** 是预定义的视觉块，您可以在多个电子邮件投放或内容模板中重复使用。 **表达式片段** 是预定义表达式，可从表达式编辑器中的专用条目中获取。"
 
 创建内容片段的方法有两种：
 
@@ -44,11 +44,11 @@ ht-degree: 22%
 
 要从头开始创建内容片段，请执行以下步骤。
 
-1. [通过](#access-manage-fragments)内容管理&#x200B;**[!UICONTROL >]**&#x200B;片段&#x200B;**[!UICONTROL 左侧菜单访问片段列表]**&#x200B;并选择&#x200B;**[!UICONTROL 创建片段]**。
+1. [通过&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;左侧菜单访问片段列表](#access-manage-fragments)并选择&#x200B;**[!UICONTROL 创建片段]**。
 
    显示“创建片段”选项的![片段列表屏幕](assets/fragments-list.png)
 
-1. 输入片段的标签。如果需要，可定义其他选项，如片段内部名称、其文件夹和描述。
+1. 输入片段的标签。 如果需要，可定义其他选项，如片段内部名称、其文件夹和描述。
 
 1. 选择要创建的片段类型： **可视化片段**&#x200B;或&#x200B;**表达式片段**。 [了解可视片段和表达式片段之间的差异](fragments.md)
 
@@ -56,7 +56,7 @@ ht-degree: 22%
 
    >[!AVAILABILITY]
    >
-   >可视片段需要更新到Campaign v8.6.4。请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
+   >可视片段需要更新到Campaign v8.6.4。 请参阅[Campaign v8客户端控制台发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes)以了解详情。
 
 1. 单击&#x200B;**创建**&#x200B;按钮。
 
@@ -79,7 +79,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="另存为片段"
->abstract="要将内容保存为可视片段，请选择要包含到片段中的元素，包括个性化字段和动态内容。仅可选择相邻部分。不能选择空结构或其他内容片段。然后该内容将成为一个独立的片段，被添加到片段列表中，并可通过专用菜单进行访问。在营销活动中构建任何电子邮件或内容模板时可以使用此片段。"
+>abstract="要将内容保存为可视片段，请选择要包含到片段中的元素，包括个性化字段和动态内容。 仅可选择相邻部分。 不能选择空结构或其他内容片段。 然后该内容将成为一个独立的片段，被添加到片段列表中，并可通过专用菜单进行访问。 在营销活动中构建任何电子邮件或内容模板时可以使用此片段。"
 
 <!--pas vu dans l'UI-->
 
@@ -95,11 +95,11 @@ ht-degree: 22%
 
    >[!CAUTION]
    >
-   >仅可选择相邻部分。无法选择空的结构或其他内容片段。
+   >仅可选择相邻部分。 不能选择空结构或其他内容片段。
 
    ![另存为片段屏幕，显示元素选择](assets/fragment-save-as-screen.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。填写片段名称并保存。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 填写片段名称并保存。
 
    ![保存可视片段的确认屏幕](assets/fragment-save-confirm.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3472'
 ht-degree: 3%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="稍后提醒按钮"
->abstract="**稍后提醒**&#x200B;按钮提供了计划提醒的选项。时间戳字段需要一个表示 epoch 的值（以秒为单位）。"
+>abstract="**稍后提醒**&#x200B;按钮提供了计划提醒的选项。 时间戳字段需要一个表示 epoch 的值（以秒为单位）。"
 
 >[!IMPORTANT]
 >
->* 此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多信息，请参阅 Campaign v8 客户端控制台[发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
+>* 此功能需要更新至 Campaign v8.6.3 <!--or v8.7.2-->。 若要了解更多信息，请参阅 Campaign v8 客户端控制台[发行说明](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 >
 >* 在设计富推送通知之前，您首先需要配置V2连接器。 有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
 
@@ -326,7 +326,7 @@ ht-degree: 3%
 
 1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
 
-1. 添加处于未选择状态的&#x200B;**[!UICONTROL 评级图标]**&#x200B;和处于选定状态&#x200B;**[!UICONTROL URL的]**&#x200B;评级图标。
+1. 添加处于未选择状态的&#x200B;**[!UICONTROL 评级图标]**&#x200B;和处于选定状态&#x200B;**URL的**&#x200B;评级图标。
 
    ![](assets/rich_push_rating_3.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 在消息中添加优惠
 description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '825'
 ht-degree: 23%
 
 ---

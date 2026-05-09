@@ -3,9 +3,9 @@ audience: end-user
 title: 使用订阅服务
 description: 了解如何在Adobe Campaign Web中访问、创建和管理订阅服务
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1130'
 ht-degree: 28%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="创建和管理服务"
->abstract="使用 Adobe Campaign 创建和监测您的服务，如新闻稿，以及检查这些服务的订阅或取消订阅情况。订阅仅适用于电子邮件和短信投放。"
+>abstract="使用 Adobe Campaign 创建和监测您的服务，如新闻稿，以及检查这些服务的订阅或取消订阅情况。 订阅仅适用于电子邮件和短信投放。"
 
 使用Adobe Campaign Web管理和创建您的服务（如新闻稿），并检查这些服务的订阅或退订。
 
@@ -51,7 +51,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
 >title="选择确认消息"
->abstract="当用户订阅服务或从服务取消订阅时，您可发送确认消息。选择用于该消息的模板。"
+>abstract="当用户订阅服务或从服务取消订阅时，您可发送确认消息。 选择用于该消息的模板。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
@@ -80,7 +80,7 @@ ht-degree: 28%
 
    ![显示订阅服务有效期设置的屏幕截图](assets/service-create-validity-period.png){zoomable="yes"}
 
-1. 当用户订阅服务或从服务取消订阅时，您可发送确认消息。根据您的用例选择用于该消息的模板。 这些模板必须使用&#x200B;**[!UICONTROL 订阅]**&#x200B;目标映射进行配置。 [了解详情](#create-confirmation-message)
+1. 当用户订阅服务或从服务取消订阅时，您可发送确认消息。 根据您的用例选择用于该消息的模板。 这些模板必须使用&#x200B;**[!UICONTROL 订阅]**&#x200B;目标映射进行配置。 [了解详情](#create-confirmation-message)
 
    ![显示确认消息模板选择的屏幕截图](assets/service-create-confirmation-msg.png){zoomable="yes"}
 

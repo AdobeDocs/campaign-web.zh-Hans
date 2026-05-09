@@ -2,10 +2,10 @@
 title: 管理枚举
 description: 了解如何使用枚举
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 23%
+source-wordcount: '646'
+ht-degree: 25%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
 >title="明细列表"
->abstract="枚举是系统建议填充字段的值列表。使用枚举来标准化这些字段的值，有助于数据输入或在查询中使用。"
+>abstract="枚举是系统建议填充字段的值列表。 使用枚举来标准化这些字段的值，有助于数据输入或在查询中使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="属性"
->abstract="定义枚举的属性，例如其名称、内部名称和类型。**[!UICONTROL 封闭的]** 枚举有一个固定的值列表，只能从 **[!UICONTROL 枚举]** 菜单中更改该列表。**[!UICONTROL 开放的]** 枚举中，用户可以直接在基于此枚举的字段中添加新值。**[!UICONTROL 系统]** 枚举与系统字段相关。**[!UICONTROL 表情符号]** 枚举用于更新表情符号列表。"
+>abstract="定义枚举的属性，例如其名称、内部名称和类型。 **[!UICONTROL 封闭的]** 枚举有一个固定的值列表，只能从 **[!UICONTROL 枚举]** 菜单中更改该列表。 **[!UICONTROL 开放的]** 枚举中，用户可以直接在基于此枚举的字段中添加新值。 **[!UICONTROL 系统]** 枚举与系统字段相关。 **[!UICONTROL 表情符号]** 枚举用于更新表情符号列表。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 ## 什么是明细列表？ {#about}
 
-枚举是系统建议填充字段的值列表。使用枚举来标准化这些字段的值，帮助进行数据输入或在查询中使用。 值列表将显示为一个下拉列表，您可以从中选择要在字段中输入的值。 下拉列表还支持预测输入：输入第一个字母，应用程序填充其余字母。
+枚举是系统建议填充字段的值列表。 使用枚举来标准化这些字段的值，帮助进行数据输入或在查询中使用。 值列表将显示为一个下拉列表，您可以从中选择要在字段中输入的值。 下拉列表还支持预测输入：输入第一个字母，应用程序填充其余字母。
 
 此类字段的值通过左侧导航窗格中的&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL 枚举]**&#x200B;菜单定义。
 
@@ -47,11 +47,11 @@ ht-degree: 23%
 1. 选择枚举&#x200B;**[!UICONTROL 类型]**：
 
    * **[!UICONTROL 已关闭的]**&#x200B;枚举具有固定的值列表，只能从&#x200B;**[!UICONTROL 枚举]**&#x200B;菜单修改该列表。
-   * **[!UICONTROL 打开]**&#x200B;枚举允许用户直接基于此枚举在字段中添加新值。
+   * **[!UICONTROL 开放的]** 枚举中，用户可以直接在基于此枚举的字段中添加新值。
    * **[!UICONTROL 系统]**&#x200B;枚举与系统字段相关联。
    * **[!UICONTROL 表情符号]** 枚举用于更新表情符号列表。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。此时将显示枚举详细信息，允许您向列表添加值。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 此时将显示枚举详细信息，允许您向列表添加值。
 
    ![枚举详细信息屏幕显示用于添加值的选项](assets/enumeration-details.png)
 
@@ -63,7 +63,7 @@ ht-degree: 23%
 
    ![添加值屏幕，显示标签、内部名称和Unicode代码的字段](assets/enumeration-emoticon.png)
 
-1. 保存您的更改。枚举会在使用它的屏幕中更新。
+1. 保存您的更改。 枚举会在使用它的屏幕中更新。
 
 ## 用例：将预定义值添加到明细列表 {#uc}
 

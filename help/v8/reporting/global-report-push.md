@@ -3,10 +3,10 @@ audience: end-user
 title: 推送渠道全局报表
 description: 了解推送渠道的全局报表
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 23%
+source-wordcount: '624'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推送投放概述"
->abstract="推送&#x200B;**投放概述** KPI 彻底考察您的推送投放，并提供详细洞察和具体数据。它提供有关投放的效果、有效性和成果的全面详细信息。"
+>abstract="推送&#x200B;**投放概述** KPI 彻底考察您的推送投放，并提供详细洞察和具体数据。 它提供有关投放的效果、有效性和成果的全面详细信息。"
 
 **[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与每个推送通知投放的详细信息。 指标详见下文。
 

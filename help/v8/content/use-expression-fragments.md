@@ -3,7 +3,7 @@ audience: end-user
 title: 在表达式编辑器中添加表达式片段
 description: 了解如何使用内容片段创建
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段"
->abstract="当前沙盒中创建的所有表情片段都显示在此列表中。要使用片段，请单击 + 按钮将片段 ID 添加到编辑器中。"
+>abstract="当前沙盒中创建的所有表情片段都显示在此列表中。 要使用片段，请单击 + 按钮将片段 ID 添加到编辑器中。"
 
 <!-- pas vu dans l'UI-->
 

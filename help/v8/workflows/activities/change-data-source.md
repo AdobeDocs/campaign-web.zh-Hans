@@ -3,10 +3,10 @@ audience: end-user
 title: 使用更改数据源工作流活动
 description: 了解如何使用更改数据源工作流活动
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 12%
+source-wordcount: '395'
+ht-degree: 13%
 
 ---
 
@@ -62,7 +62,7 @@ Before executing the operation, the working table is copied to the local databas
 
      >[!AVAILABILITY]
      >
-     >Campaign 配置以及与外部系统的连接仅限高级用户使用，并且只能从客户端控制台中使用。[了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"}
+     >Campaign 配置以及与外部系统的连接仅限高级用户使用，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"}
 
 1. 配置工作流以使用新数据源执行所需的操作。
 

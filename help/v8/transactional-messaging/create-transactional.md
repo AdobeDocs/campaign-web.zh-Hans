@@ -3,9 +3,9 @@ audience: end-user
 title: 创建事务型消息
 description: 了解如何在Campaign Web用户界面中创建事务型消息
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 创建事务型消息模板 {#transactional-template}
 
-在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[上的](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional)事务性消息的配置不同。
+在Campaign Web用户界面中，事务性消息配置的第一步是创建模板或直接创建消息。 这与客户端控制台[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional)上的事务性消息的配置不同。
 
 事务型消息模板可用于在到达最终受众之前预览用户档案收到的投放内容。 例如，管理员可以设置和配置模板，以便营销用户随时使用。
 
@@ -66,7 +66,7 @@ ht-degree: 18%
 * **[!UICONTROL 执行文件夹]**，在执行后存储消息。
 * **[!UICONTROL 传递代码]**，如果需要，该代码有助于识别消息以进行报告。
 * **[!UICONTROL 描述]**。
-* 在枚举&#x200B;**[!UICONTROL deliveryNature]**&#x200B;中列出的&#x200B;*Nature*，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![显示事务性消息模板属性部分的屏幕截图。](assets/template-properties.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ ht-degree: 18%
 
 通过上下文示例，您可以创建一个测试事件，以预览通过轮廓个性化收到的交易型消息。
 
-此步骤是可选的。您可以使用没有上下文示例的模板，但缺点是无法预览个性化内容。
+此步骤是可选的。 您可以使用没有上下文示例的模板，但缺点是无法预览个性化内容。
 
 在设置密码的示例中，事件会发送用户的名字、姓氏以及个性化链接以重置其密码。 上下文可以配置，如下所示。
 

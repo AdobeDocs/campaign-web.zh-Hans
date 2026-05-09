@@ -3,10 +3,10 @@ audience: end-user
 title: 短信渠道的营销活动报告
 description: 了解短信渠道的营销活动报告
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 17%
+source-wordcount: '532'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="投放概述"
 >abstract="**投放概述**&#x200B;报告提供详述访客如何与短信投放互动的关键绩效指标 (KPI)。"
 
-**[!UICONTROL 投放概述]**&#x200B;报告提供了关键绩效指标(KPI)，这些指标提供有关访客如何参与短信投放的详细信息。 指标详见下文。
+**[!UICONTROL 投放概述]**&#x200B;报告提供详述访客如何与短信投放互动的关键绩效指标 (KPI)。 指标详见下文。
 
 显示SMS量度的![投放概述报告](assets/campaign_report_sms_1.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 >title="初始目标受众统计信息"
 >abstract="**初始目标受众统计数据**&#x200B;表显示有关您的收件人的数据。"
 
-**[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示与收件人相关的数据。 指标详见下文。
+**[!UICONTROL 初始目标受众统计数据]**&#x200B;表显示有关您的收件人的数据。 指标详见下文。
 
 ![显示收件人数据的初始目标受众统计信息表](assets/campaign_report_sms_2.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件渠道的全局报告
 description: 了解有关电子邮件渠道全局报告的更多信息
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 24%
+source-wordcount: '1689'
+ht-degree: 25%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 24%
 
 ![按类型量度划分错误](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
+每个类型&#x200B;**表和图形的**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 ![每个域量度的错误细分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每个域&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;**[!UICONTROL 表和图表的]**&#x200B;错误划分共同。
+每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 
@@ -249,7 +249,7 @@ ht-degree: 24%
 >title="访问量排名前 10 的链接"
 >abstract="**访问量排名前 10 的链接**&#x200B;的图和表展示有关收件人与每个链接的互动情况的全面数据。"
 
-**[!UICONTROL 前10个访问次数最多的链接]**&#x200B;图形和表包含每个链接的收件人行为的可用数据。 指标详见下文。
+**[!UICONTROL 访问量排名前 10 的链接]**&#x200B;图和表包含每个链接的收件人行为的可用数据。 指标详见下文。
 
 ![访问次数最多的前10个链接量度](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 

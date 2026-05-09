@@ -3,10 +3,10 @@ audience: end-user
 title: 发送校样
 description: 了解如何定义和发送验证
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 14%
+source-wordcount: '1215'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 14%
 
    根据消息渠道，校样可以发送给以下类型的收件人：
 
-   * 对于短信和电子邮件，您可以使用[测试用户档案](#test-profiles)，这些用户档案是数据库中的特定附加收件人。 您还可以使用主目标[模式中的](#substitution-profiles)替换，该模式将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
+   * 对于短信和电子邮件，您可以使用[测试用户档案](#test-profiles)，这些用户档案是数据库中的特定附加收件人。 您还可以使用主目标[&#128279;](#substitution-profiles)模式中的替换，该模式将验证发送到电子邮件测试地址或电话号码，并使用现有配置文件的个性化数据。 这样，您就可以像收件人一样体验消息，从而准确地表示用户档案将收到的内容。
 
    * 对于推送消息，您可以使用[订阅者](#subscribers)，这些订阅者是添加到数据库中的虚拟订阅者。 它们是在[!DNL Campaign]控制台中创建的。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hans){target="_blank"}以了解详情
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="模板文件"
->abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。最大文件大小：15 MB。使用第一行作为列标题。"
+>abstract="文件的格式必须与原始文件相同。<br/>支持的文件格式：txt、csv。 最大文件大小：15 MB。 使用第一行作为列标题。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"

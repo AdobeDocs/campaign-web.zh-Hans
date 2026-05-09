@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用营销活动
 description: 了解如何开始使用跨渠道营销活动
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 24%
+source-wordcount: '1002'
+ht-degree: 21%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 24%
 
 要访问和管理营销活动，请单击左侧导航栏中的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单。 有两个选项卡可用：
 
-* **浏览**&#x200B;选项卡将列出所有现有的营销活动。您可以单击一个营销活动以打开其仪表板，也可以通过单击&#x200B;**创建营销活动**&#x200B;按钮来创建新的营销活动。请参阅此[章节](create-campaigns.md#create-campaigns)。
+* **浏览**&#x200B;选项卡将列出所有现有的营销活动。 您可以单击一个营销活动以打开其仪表板，也可以通过单击&#x200B;**创建营销活动**&#x200B;按钮来创建新的营销活动。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。您可以查看现有模板或创建新模板。 [了解更多信息](#manage-campaign-templates)。
+* **模板**&#x200B;选项卡将列出所有可用的营销活动模板。 您可以查看现有模板或创建新模板。 [了解更多信息](#manage-campaign-templates)。
 
 ![描述：营销活动列表屏幕显示“浏览”和“模板”选项卡，以及用于创建或查看营销活动的选项](assets/campaign-list.png)
 
 ## 营销活动库存 {#inventory}
 
-**[!UICONTROL 浏览]**&#x200B;选项卡提供有关营销活动的当前状态、开始和结束日期、创建日期、上次修改这些营销活动的时间等信息。 可以通过单击列表右上角的&#x200B;**为自定义版面配置列**&#x200B;图标来自定义显示的列。这允许您在营销活动列表中添加或删除列以及重新排序信息。
+**[!UICONTROL 浏览]**&#x200B;选项卡提供有关营销活动的当前状态、开始和结束日期、创建日期、上次修改这些营销活动的时间等信息。您可以通过单击位于列表右上角的自定义布局&#x200B;**图标的**&#x200B;配置列来自定义显示的列。 这允许您在营销活动列表中添加或删除列以及重新排序信息。
 
 ### 搜索和筛选库存 {#search-and-filter}
 
-可以使用搜索栏和筛选条件，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)。例如，您可以根据营销活动计划进行过滤。打开过滤器面板并使用&#x200B;**开始 - 结束日期**&#x200B;部分：
+可以使用搜索栏和筛选条件，以便于在列表中轻松搜索。 [了解详情](../get-started/user-interface.md#list-screens)。 例如，您可以根据营销活动计划进行过滤。 打开过滤器面板并使用&#x200B;**开始 - 结束日期**&#x200B;部分：
 
 ![描述：过滤器面板显示按开始日期和结束日期过滤促销活动的选项](assets/campaign-filter-on-dates.png)
 
@@ -56,7 +56,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="营销活动中的投放的列表"
->abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。单击投放的名称以编辑该投放。使用“创建投放”按钮为此营销活动添加新的投放。"
+>abstract="**投放**&#x200B;选项卡列出所有链接到当前营销活动的投放。 单击投放的名称以编辑该投放。 使用“创建投放”按钮为此营销活动添加新的投放。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -73,13 +73,13 @@ ht-degree: 24%
 
 对于每个活动，仪表板都显示两个主要选项卡：工作流和投放。
 
-* **工作流**&#x200B;选项卡列出了与营销活动关联的所有工作流。 此选项卡还可让您在营销活动中创建新的工作流。请参阅此[章节](create-campaigns.md#create-campaigns)。
+* **工作流**&#x200B;选项卡列出了与营销活动关联的所有工作流。 此选项卡还可让您在营销活动中创建新的工作流。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
-* **投放**&#x200B;选项卡列出了在当前营销活动中创建的所有投放。 您还可以在营销活动中创建新的投放。请参阅此[章节](create-campaigns.md#create-campaigns)。
+* **投放**&#x200B;选项卡列出了在当前营销活动中创建的所有投放。 您还可以在营销活动中创建新的投放。 请参阅此[章节](create-campaigns.md#create-campaigns)。
 
 >[!NOTE]
 >
->**投放**&#x200B;选项卡显示所有链接到该营销活动的投放。但是，无法从那里删除在工作流中创建的投放。要删除在工作流上下文中创建的投放，请从工作流中删除该投放活动。 [了解详情](../msg/gs-messages.md#delivery-delete)。
+>**投放**&#x200B;选项卡显示所有链接到该营销活动的投放。 但是，无法从那里删除在工作流中创建的投放。 要删除在工作流上下文中创建的投放，请从工作流中删除该投放活动。 [了解详情](../msg/gs-messages.md#delivery-delete)。
 
 ## 删除活动 {#campaign-delete}
 

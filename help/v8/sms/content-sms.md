@@ -3,7 +3,7 @@ audience: end-user
 title: 设计短信投放
 description: 了解如何设计短信投放
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 50%
@@ -15,12 +15,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="短信内容"
->abstract="创建短信投放的内容，并用个性化字段、表达片段和动态内容使其个性化。要开始编写消息，请单击&#x200B;**编辑内容**&#x200B;按钮。"
+>abstract="创建短信投放的内容，并用个性化字段、表达片段和动态内容使其个性化。 要开始编写消息，请单击&#x200B;**编辑内容**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="SMS 消息内容"
->abstract="定义您的短信的内容。要编写消息，请单击&#x200B;**消息**&#x200B;字段并输入消息内容。使用表达式编辑器添加个性化的数据和动态内容。您还可以自定义发件人姓名。默认情况下为所有短信投放启用跟踪，以使您可衡量收件人何时点击链接。"
+>abstract="定义您的短信的内容。 要编写消息，请单击&#x200B;**消息**&#x200B;字段并输入消息内容。 使用表达式编辑器添加个性化的数据和动态内容。 您还可以自定义发件人姓名。 默认情况下为所有短信投放启用跟踪，以使您可衡量收件人何时点击链接。"
 
 要设计短信投放的内容，请执行以下步骤：
 
@@ -36,7 +36,7 @@ ht-degree: 50%
 
    ![显示消息字段的屏幕截图，其中包含用于添加动态内容的选项](assets/sms_content_2.png){zoomable="yes"}
 
-1. 默认情况下，为投放启用跟踪。如果需要，请从&#x200B;**[!UICONTROL 可选功能部分]**&#x200B;禁用此选项。
+1. 默认情况下，为投放启用跟踪。 如果需要，请从&#x200B;**[!UICONTROL 可选功能部分]**&#x200B;禁用此选项。
 
 1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;可访问与您的投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 

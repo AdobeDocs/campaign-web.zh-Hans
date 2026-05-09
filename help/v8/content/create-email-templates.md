@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 13%
+source-wordcount: '1096'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="内容模板"
->abstract="为了加快并改进设计流程，您可以创建独立的电子邮件模板，从而轻松地在 Adobe Campaign 中重复使用自定义内容。这些内容模板可以从头开始设计，根据内置或自定义模板设计，从现有内容创建，也可以导入到内容模板编辑器中。"
+>abstract="为了加快并改进设计流程，您可以创建独立的电子邮件模板，从而轻松地在 Adobe Campaign 中重复使用自定义内容。 这些内容模板可以从头开始设计，根据内置或自定义模板设计，从现有内容创建，也可以导入到内容模板编辑器中。"
 
 为了加快并改进设计过程，您可以创建独立的模板以轻松地在[!DNL Adobe Campaign]中重复使用自定义内容。 这些内容模板可以从头开始设计，基于内置或自定义模板，从现有内容创建，或在内容模板编辑器中导入。
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 
 通过[将现有电子邮件另存为模板](#save-as-template)或通过&#x200B;**创建内容模板**&#x200B;按钮[从电子邮件模板列表中创建内容模板，如下所述](#create-template-from-scratch)。
 
-保存后，您可以在[中构建任何](../email/create-email.md)电子邮件[!DNL Adobe Campaign]时使用此模板。 [了解如何操作](use-email-templates.md)
+保存后，您可以在[!DNL Adobe Campaign]中构建任何[电子邮件](../email/create-email.md)时使用此模板。 [了解如何操作](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ ht-degree: 13%
 
    * [通过Email Designer的界面从头开始设计内容](../email/create-email-content.md)。
    * [直接将原始HTML](../email/code-content.md)编码或复制粘贴到Email Designer中。
-   * [从文件或.zip文件夹导入现有HTML内容](../email/existing-content.md)。
+   * 从文件或 .zip 文件夹中[导入现有 HTML 内容](../email/existing-content.md)。
    * 使用内置或自定义模板列表中的现有内容。 [本节](use-email-templates.md)介绍了在电子邮件中使用内容模板的步骤。
 
    ![发送电子邮件给用于创建模板的Designer选项](assets/email_designer-templates.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: 监测事务性消息
 description: 了解如何在Campaign Web用户界面中监控事务型消息
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 >title="交易型消息传递事件历史记录预览"
 >abstract="您可以查看触发交易型消息的事件。"
 
-您可以查看触发事务型消息的事件。 要访问它们，请转到&#x200B;**[!UICONTROL 事件历史记录]**&#x200B;部分。
+您可以查看触发交易型消息的事件。 要访问它们，请转到&#x200B;**[!UICONTROL 事件历史记录]**&#x200B;部分。
 
 事件会显示其事件类型名称。
 

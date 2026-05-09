@@ -3,10 +3,10 @@ audience: end-user
 title: 电子邮件投放报告
 description: 了解如何访问和使用电子邮件投放报告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 37%
+source-wordcount: '2481'
+ht-degree: 38%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 37%
 >title="投放排除原因"
 >abstract="**排除的原因**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。"
 
-**[!UICONTROL 排除原因]**&#x200B;图形和表显示在投放准备期间拒绝的消息按规则细分。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
+**[!UICONTROL 排除的原因]**&#x200B;图表显示投放准备期间拒绝的消息按规则细分的情况。 有关排除规则的详情，请参见[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}。
 
 ![排除图表和表的原因屏幕截图](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -151,7 +151,7 @@ ht-degree: 37%
 >title="按类型细分错误"
 >abstract="**每种类型的错误细分**&#x200B;表提供了每种错误类型发生次数的全面细分。"
 
-每个类型&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
+每个类型&#x200B;**表和图形的**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -187,7 +187,7 @@ ht-degree: 37%
 >title="按域细分错误"
 >abstract="**每个域的错误细分**&#x200B;表根据所使用的域提供了每个错误发生次数的全面细分。"
 
-每个域&#x200B;**[!UICONTROL 表和图形的]**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
+每个域&#x200B;**表和图形的**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
 
 ![每个域的错误划分屏幕截图](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
@@ -322,7 +322,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="用户活动"
->abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。可选择时段以锁定数据：过去一天、过去一小时或过去 30 分钟。"
+>abstract="**用户活动**&#x200B;图以图表形式显示打开次数和点击次数的细分。 可选择时段以锁定数据：过去一天、过去一小时或过去 30 分钟。"
 
 **[!UICONTROL 用户活动]**&#x200B;报告以图表形式显示打开数和点击数的细分。 可选择时段以锁定数据：过去一天、过去一小时或过去 30 分钟。
 
@@ -341,9 +341,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="跟踪统计数据"
->abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计信息。可选择特定的时间范围以定位数据。"
+>abstract="**跟踪统计数据**&#x200B;图提供有关打开次数和点击次数的统计信息。 可选择特定的时间范围以定位数据。"
 
-**[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计信息。可选择特定的时间范围以定位数据。
+**[!UICONTROL 跟踪统计数据]**&#x200B;图提供有关打开次数和点击次数的统计信息。 可选择特定的时间范围以定位数据。
 
 ![跟踪统计信息图的屏幕截图](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
@@ -362,11 +362,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="按设备细分"
->abstract="**按设备细分**&#x200B;报告显示相关时段的按设备类型细分的打开次数。为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示每种设备类型的确切数量和百分比。"
+>abstract="**按设备细分**&#x200B;报告显示相关时段的按设备类型细分的打开次数。 为每个类别使用了两个图表。 第一个图表显示有关计算机和移动设备上的打开的统计数据。 第二个图表显示每种设备类型的确切数量和百分比。"
 
 “**按设备细分**”报表显示在此期间按设备打开的细分：个人计算机、Android设备、Apple设备或其他。
 
-为每个类别使用了两个图表。第一个图表显示有关计算机和移动设备上的打开的统计数据。第二个图表显示每种设备类型的确切数量和百分比。
+为每个类别使用了两个图表。 第一个图表显示有关计算机和移动设备上的打开的统计数据。 第二个图表显示每种设备类型的确切数量和百分比。
 
 ![按设备划分的屏幕截图](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
@@ -376,11 +376,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="按操作系统细分"
->abstract="**按操作系统细分**&#x200B;报告显示相关时段的按操作系统细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。第二个图表显示每种操作系统的确切数量和百分比。"
+>abstract="**按操作系统细分**&#x200B;报告显示相关时段的按操作系统细分的打开次数。 第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。 第二个图表显示每种操作系统的确切数量和百分比。"
 
 “**按操作系统细分**”报表显示期间按操作系统打开的细分：Windows系统、Android系统、iOS系统或其他。
 
-为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个操作系统的确切数量和百分比。
+为每个类别使用了两个图表。 第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个显示每个操作系统的确切数量和百分比。
 
 ![按操作系统划分报表的屏幕截图](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
@@ -389,11 +389,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="按浏览器细分"
->abstract="**按浏览器细分**&#x200B;显示相关时段的按浏览器细分的打开次数。第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。第二个图表显示每种浏览器的确切数量和百分比。"
+>abstract="**按浏览器细分**&#x200B;显示相关时段的按浏览器细分的打开次数。 第一个图表显示关于在计算机和移动设备上的打开次数的统计信息。 第二个图表显示每种浏览器的确切数量和百分比。"
 
 **按浏览器细分**&#x200B;报表显示按浏览器打开的细分：Chrome、Safari、Internet Explorer等。
 
-为每个类别使用了两个图表。第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个图表显示每种浏览器的确切数量和百分比。
+为每个类别使用了两个图表。 第一个显示有关计算机和移动操作系统上打开的统计信息。 第二个图表显示每种浏览器的确切数量和百分比。
 
 ![按浏览器报告的打开划分屏幕截图](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
@@ -403,8 +403,8 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="热门点击报告"
->abstract="**热门点击**&#x200B;报告显示电子邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和产品建议链接计入总累计点击次数，但不显示在报告中。"
+>abstract="**热门点击**&#x200B;报告显示电子邮件内容（HTML 和/或文本）以及每个链接的点击百分比。 个性化块、退订链接、镜像页面链接和产品建议链接计入总累计点击次数，但不显示在报告中。"
 
-此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。个性化块、退订链接、镜像页面链接和产品建议链接计入总累计点击次数，但不显示在报告中。
+此报告显示邮件内容（HTML 和/或文本）以及每个链接的点击百分比。 个性化块、退订链接、镜像页面链接和产品建议链接计入总累计点击次数，但不显示在报告中。
 
 ![热门点击报告的屏幕截图](assets/reporting11.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: 创建短信投放
 description: 了解如何使用 Adobe Campaign Web 创建和发送短信
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 37%
+source-wordcount: '552'
+ht-degree: 39%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="短信投放属性"
->abstract="这些属性包括常见的投放参数，可帮助您为投放命名和分类。如果您的投放使用扩展架构，则有专门的“自定义选项”字段可用。"
+>abstract="这些属性包括常见的投放参数，可帮助您为投放命名和分类。 如果您的投放使用扩展架构，则有专门的“自定义选项”字段可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定义短信受众"
->abstract="创建新受众或通过单击&#x200B;**选择受众**&#x200B;按钮选择现有受众。如果需要，可添加对照组以衡量投放的影响力。"
+>abstract="创建新受众或通过单击&#x200B;**选择受众**&#x200B;按钮选择现有受众。 如果需要，可添加对照组以衡量投放的影响力。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hans" text="设置对照组"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="短信模板选择"
->abstract="选择预定义模板以开始投放您的短信。通过投放模板，您可在各种营销活动和投放中重用自定义内容和设置。"
+>abstract="选择预定义模板以开始投放您的短信。 通过投放模板，您可在各种营销活动和投放中重用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hans" text="使用投放模板"
 
 您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤解释独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，将在[此部分](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中说明创建步骤。
@@ -51,7 +51,7 @@ ht-degree: 37%
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
    +++
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。[了解有关受众的详细信息](../audience/about-recipients.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。 [了解有关受众的详细信息](../audience/about-recipients.md)。
 
    ![显示“选择受众”按钮的屏幕截图](assets/sms_create_2.png){zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 37%
 
    在此屏幕中，您还可以[模拟您的内容](../preview-test/preview-test.md)和[设置选件](../msg/offers.md)。
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。 在[本节](../msg/gs-deliveries.md#gs-schedule)中了解有关投放计划的更多信息。
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。 启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。 在[本节](../msg/gs-deliveries.md#gs-schedule)中了解有关投放计划的更多信息。
 
    >[!NOTE]
    >

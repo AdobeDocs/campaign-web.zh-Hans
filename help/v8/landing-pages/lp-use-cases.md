@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 9%
+source-wordcount: '1445'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="谨慎复制 URL"
->abstract="要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。相反，请使用&#x200B;**模拟内容**&#x200B;功能对其进行测试，并执行文档中描述的步骤来正确使用登陆页面。"
+>abstract="要全面测试或利用您的登陆页面，您无法将此链接直接复制并粘贴到 Web 浏览器或您的投放中。 相反，请使用&#x200B;**模拟内容**&#x200B;功能对其进行测试，并执行文档中描述的步骤来正确使用登陆页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
@@ -133,7 +133,7 @@ ht-degree: 9%
 
 1. 将显示页面内容。 选择与登陆页面表单对应的部分，并展开&#x200B;**[!UICONTROL 复选框1]**&#x200B;部分。
 
-1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;**[!UICONTROL 选项，请保留]** Subscribe in。
+1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;**选项，请保留** Subscribe in。
 
    ![显示订阅复选框界面的屏幕截图。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--

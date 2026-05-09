@@ -3,9 +3,9 @@ audience: end-user
 title: 直邮渠道的营销活动报表
 description: 了解直邮渠道的营销活动报表
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 19%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="投放概述"
->abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。这些量度概述如下。"
+>abstract="**投放概述**&#x200B;提供了关键绩效指标 (KPI)，可深入洞察访客与每次直邮投放的互动情况。 这些量度概述如下。"
 
 **[!UICONTROL 投放概述]**&#x200B;显示关键绩效指标(KPI)，提供对访客与每个直邮投放交互情况的深入分析。 这些量度概述如下。
 

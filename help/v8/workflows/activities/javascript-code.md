@@ -3,9 +3,9 @@ audience: end-user
 title: 使用JavaScript代码工作流活动
 description: 了解如何使用JavaScript代码工作流活动
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '966'
 ht-degree: 32%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 代码"
->abstract="**JavaScript 代码**&#x200B;活动允许您在工作流上下文中执行 JavaScript 脚本。您可以使用它来执行操作或从数据库收集信息。使用&#x200B;**简单的** JavaScript 代码活动在执行工作流时执行一个代码片段。**高级** JavaScript 代码活动允许您按顺序执行两个不同的代码片段，从而执行更复杂的操作。工作流第一次启动时，会执行第一个调用。工作流每次再次运行时，都会执行第二次调用中定义的代码。"
+>abstract="**JavaScript 代码**&#x200B;活动允许您在工作流上下文中执行 JavaScript 脚本。 您可以使用它来执行操作或从数据库收集信息。 使用&#x200B;**简单的** JavaScript 代码活动在执行工作流时执行一个代码片段。 **高级** JavaScript 代码活动允许您按顺序执行两个不同的代码片段，从而执行更复杂的操作。 工作流第一次启动时，会执行第一个调用。 工作流每次再次运行时，都会执行第二次调用中定义的代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 代码片段"
->abstract="定义运行活动时要执行的脚本。如果您正在配置&#x200B;**高级** JavaScript 活动，请编辑两个代码片段：在第一次执行工作流时执行的第一个调用代码，以及在之后执行工作流时执行的下一个调用代码。"
+>abstract="定义运行活动时要执行的脚本。 如果您正在配置&#x200B;**高级** JavaScript 活动，请编辑两个代码片段：在第一次执行工作流时执行的第一个调用代码，以及在之后执行工作流时执行的下一个调用代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 执行"
->abstract="配置延迟执行，以便在执行一段时间后停止活动。默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。若要忽略此限制，请将该值设置为 0。"
+>abstract="配置延迟执行，以便在执行一段时间后停止活动。 默认情况下，执行阶段不能超过 1 小时。 延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。 若要忽略此限制，请将该值设置为 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
@@ -58,7 +58,7 @@ ht-degree: 32%
 
    JavaScript代码活动的![表达式编辑器界面](../assets/javascript-editor.png)
 
-1. 在&#x200B;**[!UICONTROL 执行]**&#x200B;部分中，将延迟配置为在执行一段时间后停止活动。 默认情况下，执行阶段不能超过 1 小时。延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。若要忽略此限制，请将该值设置为 0。
+1. 在&#x200B;**[!UICONTROL 执行]**&#x200B;部分中，将延迟配置为在执行一段时间后停止活动。 默认情况下，执行阶段不能超过 1 小时。 延迟之后，该进程将会中止并会显示错误消息，并且活动执行会失败。 若要忽略此限制，请将该值设置为 0。
 
    ![用于执行延迟的配置接口](../assets/javascript-config.png)
 
@@ -139,4 +139,4 @@ ht-degree: 32%
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. 根据您的需求完成每个过渡的配置，然后启动工作流。 已根据通过`interest`外部信号&#x200B;**活动传递的**&#x200B;变量的值激活两个输出转换之一。
+1. 根据您的需求完成每个过渡的配置，然后启动工作流。 已根据通过&#x200B;**外部信号**&#x200B;活动传递的`interest`变量的值激活两个输出转换之一。
