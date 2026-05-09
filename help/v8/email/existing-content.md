@@ -56,4 +56,4 @@ ht-degree: 29%
 
 了解如何通过上传HTML创建电子邮件、使其与电子邮件Designer兼容并将其转换为模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447042/?captions=chi_hans&quality=12)
