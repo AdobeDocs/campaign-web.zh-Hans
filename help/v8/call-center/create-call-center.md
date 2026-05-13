@@ -3,9 +3,11 @@ audience: end-user
 title: 创建呼叫中心投放
 description: 了解如何使用Adobe Campaign Web创建呼叫中心交付
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
+TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 759
 ht-degree: 4%
 
 ---
@@ -41,7 +43,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您可以计划在特定日期发送投放。 有关更多信息，请参阅此[&#128279;](../msg/gs-deliveries.md#gs-schedule)章节。
+>您可以计划在特定日期发送投放。 有关更多信息，请参阅此](../msg/gs-deliveries.md#gs-schedule)章节[。
 
 ## 定义受众{#select-audience}
 
@@ -92,7 +94,7 @@ ht-degree: 4%
 
 1. 重复这些步骤以根据需要为提取文件添加任意数量的列。
 
-   然后，您可以编辑属性、对提取文件排序或更改列的位置。 有关详细信息，请参见此 [&#x200B; 页面](../direct-mail/content-direct-mail.md#content)。
+   然后，您可以编辑属性、对提取文件排序或更改列的位置。 有关详细信息，请参见此 [ 页面](../direct-mail/content-direct-mail.md#content)。
 
    ![显示提取文件属性配置选项的屏幕快照。](assets/cc-content-attributes.png)
 
@@ -120,7 +122,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 发送]**&#x200B;以继续执行最终发送过程，然后确认。
 
-发送投放后，将自动生成提取文件并将其导出到在投放模板的&#x200B;**[!UICONTROL 高级设置]**&#x200B;中选择的[路由](../advanced-settings/delivery-settings.md)外部帐户中指定的位置。 您还可以通过单击屏幕&#x200B;**Content**&#x200B;部分中的&#x200B;**Preview file**&#x200B;按钮预览文件。
+发送投放后，将自动生成提取文件并将其导出到在投放模板的[高级设置](../advanced-settings/delivery-settings.md)中选择的&#x200B;**[!UICONTROL 路由]**&#x200B;外部帐户中指定的位置。 您还可以通过单击屏幕&#x200B;**Content**&#x200B;部分中的&#x200B;**Preview file**&#x200B;按钮预览文件。
 
 跟踪投放页面中的KPI（关键绩效指标）数据和&#x200B;**[!UICONTROL 日志]**&#x200B;菜单中的数据。
 

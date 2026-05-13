@@ -3,9 +3,12 @@ audience: end-user
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: 1402
 ht-degree: 34%
 
 ---
@@ -160,7 +163,7 @@ ht-degree: 34%
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;从资源中选择图像文件。 您还可以选择&#x200B;**[!UICONTROL 导入您的媒体]**。
 
-   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hans)。
+   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
 
    ![显示Email Designer中图像组件的浏览选项的屏幕快照。](assets/email_designer_28.png){zoomable="yes"}
 

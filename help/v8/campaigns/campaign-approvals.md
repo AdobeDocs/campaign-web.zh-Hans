@@ -4,10 +4,14 @@ title: 建立和管理审批流程
 description: 了解如何在Campaign Web中管理营销活动的批准
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >审批仅适用于在营销策划内创建的投放。 这不适用于独立投放或在活动上下文之外的工作流中创建的投放。
 
-批准流程有助于协调多个利益相关者，并确保在发送投放之前进行质量控制。 当您的组织需要经过不同团队的验证时，例如营销经理审查内容或数据分析师验证目标受众，请使用批准。
+审批流程有助于协调各方利益相关者，并在投放前确保质量控制。 当您的组织需要不同团队进行验证时，请使用审批功能，例如市场经理审阅内容，或数据分析师验证目标受众。
 
 启用审批后，您必须提交内容或目标以供审批。 指定的审阅人会收到请求验证的电子邮件通知，并可直接从Web UI界面批准或拒绝。 在获得所有必需的批准之前，无法发送投放。 您可以启用：
 
@@ -55,19 +59,19 @@ ht-degree: 5%
 >[!NOTE]
 >审批在活动工作流投放和活动独立投放中均可用。
 
-1. 在投放仪表板中，单击&#x200B;**[!UICONTROL 提交内容]**&#x200B;按钮。 指定的审阅人可以批准或拒绝。 请参阅此[章节](#approve-reject)。
+1. 在投放仪表板中，单击&#x200B;**[!UICONTROL 提交内容]**&#x200B;按钮。 指定的审阅人可以批准或拒绝。 请参阅此[部分](#approve-reject)。
 
    ![显示“提交内容”按钮的屏幕截图](assets/approvals2.png){zoomable="yes"}
 
-   投放仪表板的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中的审批状态更改为待处理。 请参阅此[章节](#rack-approvals)。
+   投放仪表板的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中的审批状态更改为待处理。 请参阅此[部分](#rack-approvals)。
 
 1. 内容获得批准后，单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮以准备投放目标。 系统准备受众和定位标准。
 
-1. 单击&#x200B;**[!UICONTROL 提交目标]**&#x200B;按钮。 然后，指定的审阅人可批准或拒绝。 请参阅此[章节](#approve-reject)。
+1. 单击&#x200B;**[!UICONTROL 提交目标]**&#x200B;按钮。 然后，指定的审阅人可批准或拒绝。 请参阅此[部分](#approve-reject)。
 
    ![显示提交目标按钮的屏幕截图](assets/approvals5.png){zoomable="yes"}
 
-   审批状态更改为待定。 请参阅此[章节](#rack-approvals)。
+   审批状态更改为待定。 请参阅此[部分](#rack-approvals)。
 
 1. 目标获得批准后，准备工作将继续，并且投放。
 
@@ -76,7 +80,7 @@ ht-degree: 5%
 
 ## 批准或拒绝 {#approve-reject}
 
-指定的审阅人可以批准或拒绝内容并定位提交。 请参阅此[章节](#submit-approval)。
+指定的审阅人可以批准或拒绝内容并定位提交。 请参阅此[部分](#submit-approval)。
 
 >[!NOTE]
 >对于要发送的电子邮件通知，必须在实例中配置查看者的地址。
@@ -95,7 +99,7 @@ ht-degree: 5%
 
    ![屏幕截图显示审批对话框，其中包含审批、拒绝按钮和评论字段](assets/approvals4.png){zoomable="yes"}
 
-1. 确认您的决定。 审批状态会在投放仪表板中立即更新。 请参阅此[章节](#rack-approvals)。
+1. 确认您的决定。 审批状态会在投放仪表板中立即更新。 请参阅此[部分](#rack-approvals)。
 
 ## 跟踪审批状态 {#track-approvals}
 

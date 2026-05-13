@@ -1,16 +1,18 @@
 ---
 audience: end-user
-title: 计划投放的发送
+title: 计划发送投放
 description: 了解如何计划投放
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: 534
+ht-degree: 8%
 
 ---
 
-# 计划投放的发送 {#schedule-sending}
+# 计划发送投放 {#schedule-sending}
 
 您可以计划投放的发送。 这些步骤取决于它是独立（一次性）投放，还是您正在营销活动工作流的上下文中工作。
 
@@ -30,7 +32,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。此选项要求您在安排的日期和时间发送投放之前确认发送。如果您需要在计划的日期和时间自动发送投放，请禁用此选项。
+>默认情况下，**[!UICONTROL 启用发送前确认]**&#x200B;选项处于启用状态。 此选项要求您在安排的日期和时间发送投放之前确认发送。 如果您需要在计划的日期和时间自动发送投放，请禁用此选项。
 >
 
 1. 检查计划是否正确，然后单击&#x200B;**[!UICONTROL 准备]**&#x200B;按钮。

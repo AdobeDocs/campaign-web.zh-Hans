@@ -3,10 +3,13 @@ audience: end-user
 title: 使用连续投放工作流活动
 description: 了解如何使用连续投放工作流活动
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 14%
+source-wordcount: 242
+ht-degree: 24%
 
 ---
 
@@ -14,7 +17,7 @@ ht-degree: 14%
 
 **连续投放**&#x200B;活动允许您向现有投放添加新收件人。 此类投放无需每次都创建新投放，更适用于按需发送的小规模提醒或通知，可提升效率。
 
-连续投放会创建单个投放实例。 所有投放日志(broadLog)和跟踪日志都引用此一次投放，从而简化了监控和报告。
+一次持续投放会创建一个投放实例。 所有投放日志（broadLog）和跟踪日志均指向此次投放，从而简化了监控和报告。
 
 ## 配置连续投放活动 {#configure}
 
@@ -30,7 +33,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 由入站事件指定]**：目标来自入站过渡（来自上游活动，如生成受众或增量查询）。 这是最常见的选项。
 
-   * 在投放模板&#x200B;**[!UICONTROL 中指定]**：目标在模板本身中定义。
+   * 在投放模板&#x200B;]**中指定**[!UICONTROL ：目标在模板本身中定义。
 
    * **[!UICONTROL 在输入事件中指定的文件]**：目标是通过工作流传递的文件提供的。
 

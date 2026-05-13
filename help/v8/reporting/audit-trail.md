@@ -4,9 +4,14 @@ title: 审核记录
 description: 了解如何使用Campaign审核记录监控实例
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: 649
 ht-degree: 1%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 1%
 
 * **Source架构审核跟踪**&#x200B;允许您在Campaign v8客户端控制台中监视活动以及最近对架构所做的修改。
 
-  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
+  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
 * **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
 
@@ -43,7 +48,7 @@ ht-degree: 1%
 
 * **选项审核记录**&#x200B;允许您监视活动以及最近对Campaign v8中的选项所做的修改。
 
-  有关选项的更多信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  有关选项的更多信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **投放审核跟踪**&#x200B;允许您检查投放的活动和上次所做的修改。
 
@@ -55,11 +60,11 @@ ht-degree: 1%
 
 * 通过&#x200B;**投放映射**，您可以监视活动以及最近对Campaign v8中的投放映射所做的修改。
 
-  有关投放映射的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
+  有关投放映射的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
 
 * **Web应用程序**&#x200B;允许您检查Campaign v8中对Web窗体所做的修改，这些修改用于创建具有输入和选择字段的页面，并且可能包含来自数据库的数据。
 
-  有关Web应用程序的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/content/webapps)。
+  有关Web应用程序的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)。
 
 * **选件**&#x200B;允许您检查活动和对选件所做的最后修改。
 
@@ -67,7 +72,7 @@ ht-degree: 1%
 
 * **操作员**&#x200B;允许您监视活动以及最近在Campaign v8中对操作员进行的修改。
 
-  有关运算符的详细信息，请参阅此[页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
+  有关运算符的详细信息，请参阅此[页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
 
 +++
 

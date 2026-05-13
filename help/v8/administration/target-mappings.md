@@ -2,9 +2,14 @@
 title: 管理目标映射
 description: 了解如何管理目标映射。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 781
 ht-degree: 11%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 11%
 
 ![目标映射列表屏幕显示可用的映射](assets/target-mappings-list.png)
 
-有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans){target="_blank"}。
+有关Adobe Campaign提供的内置目标映射的详细信息，请参阅[Campaign v8客户端控制台文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 创建一个目标映射 {#create-mapping}
 

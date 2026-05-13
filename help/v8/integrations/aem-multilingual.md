@@ -7,9 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 527
 ht-degree: 4%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 4%
 在创建多语言电子邮件投放之前，请确保您已：
 
 * 访问为Adobe Campaign Web界面集成配置的Adobe Experience Manager实例。
-* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
+* 已创建和批准带有语言副本的Adobe Experience Manager内容。 在[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中了解有关语言复制向导的更多信息
 * 配置为接收Adobe Experience Manager内容的电子邮件投放模板。 请参阅[启用多语言模式](#enable-multilingual)部分中详述的步骤。
 
 ## 创建多语言投放

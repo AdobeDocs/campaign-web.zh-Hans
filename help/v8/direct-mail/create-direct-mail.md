@@ -3,10 +3,12 @@ audience: end-user
 title: 创建直邮投放
 description: 了解如何使用Adobe Campaign Web创建直邮投放
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 15%
+source-wordcount: 504
+ht-degree: 18%
 
 ---
 
@@ -36,7 +38,7 @@ ht-degree: 15%
    * **[!UICONTROL 性质]**：指定投放的性质以进行分类。
    +++
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以定位现有受众或创建您自己的受众。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。
 
    * [了解如何选择现有受众](../audience/add-audience.md)
    * [了解如何创建新受众](../audience/one-time-audience.md)
@@ -53,7 +55,7 @@ ht-degree: 15%
 
    ![显示直接邮件投放内容编辑的屏幕截图](assets/dm-content.png){zoomable="yes"}
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。启动投放后，提取文件会在您定义的确切日期和时间自动生成。 [了解如何计划投放](../msg/gs-deliveries.md#gs-schedule)。
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。 启动投放后，提取文件会在您定义的确切日期和时间自动生成。 [了解如何计划投放](../msg/gs-deliveries.md#gs-schedule)。
 
    >[!NOTE]
    >

@@ -2,9 +2,13 @@
 title: 目标选择与过滤维度
 description: 了解有关在Adobe Campaign Web UI中定位和筛选维度的更多信息
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 12%
 
 ---
@@ -42,7 +46,7 @@ ht-degree: 12%
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
 | 订阅者应用程序 | 订阅应用程序的配置文件 | nms:appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
 
 ## 过滤维度 {#filtering}
 

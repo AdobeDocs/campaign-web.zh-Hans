@@ -3,13 +3,15 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在Adobe Campaign Web查询建模器中构建您的第一个查询。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
+TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
-source-wordcount: '2199'
+source-wordcount: 2199
 ht-degree: 36%
 
 ---
-
 
 # 编辑表达式 {#expression}
 
@@ -30,7 +32,7 @@ ht-degree: 36%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的|![表达式编辑器  值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
+| 属性字段](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 
