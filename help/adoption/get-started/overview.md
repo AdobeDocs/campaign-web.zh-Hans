@@ -4,10 +4,31 @@ description: 了解开始使用新的Campaign v8应用程序所需的步骤
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 29%
+source-wordcount: 1621
+ht-degree: 30%
 
 ---
 
@@ -19,7 +40,7 @@ ht-degree: 29%
 
 1. 首先了解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下来，根据您的角色[了解Adobe Campaign Standard与Adobe Campaign v8之间的](#experiences)体验差异。
+1. 接下来，根据您的角色[&#128279;](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的体验差异。
 
 ## 新增功能？ {#new}
 
@@ -39,7 +60,7 @@ ht-degree: 29%
 
   ![](assets/home.png){zoomable="yes"}
 
-  所有新功能和改进均列在[发行说明](../../v8/rn/release-notes.md)中。 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+  所有新功能和改进均列在[发行说明](../../v8/rn/release-notes.md)中。 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
 
 * **性能**
@@ -122,21 +143,21 @@ ht-degree: 29%
 
 ## Managed Services {#ac-managed-services}
 
-Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发送警报和服务治理功能。Adobe 托管式云服务以较低的总体拥有成本为营销人员提供更加灵活、安全且可扩展性更高的跨渠道营销活动管理解决方案。新产品将各种服务与主动监督和及时发送警报的功能相结合。
+Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发送警报和服务治理功能。 Adobe 托管式云服务以较低的总体拥有成本为营销人员提供更加灵活、安全且可扩展性更高的跨渠道营销活动管理解决方案。 新产品将各种服务与主动监督和及时发送警报的功能相结合。
 
 ## v8中添加了Campaign Standard功能 {#ac-v8-added}
 
-为了帮助您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。在[此文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans){target="_blank"}中对这些规则进行了详细说明。
+为了帮助您顺利过渡到 Campaign v8，我们在 Campaign v8 中添加了主要的 Campaign Standard 功能。 在[此文档](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans){target="_blank"}中对这些规则进行了详细说明。
 
-* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hans){target="_blank"}。
+* **动态报告**：动态报告提供完全可定制的实时报告，用以衡量您的营销活动所产生的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。 [了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hans){target="_blank"}。
 
-* **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
+* **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。 通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。 [了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hans)
 
-* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。[了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans){target="_blank"}。
+* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。 [了解详情](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hans){target="_blank"}。
 
-* **登陆页面** - 对 Campaign v8 登陆页面进行了一些改进，以确保功能与 Campaign Standard 相同。通过[发行说明](../../v8/rn/release-notes.md#new-24-4)和登陆页面 [文档](../../v8/landing-pages/get-started-lp.md)了解详情。
+* **登陆页面** - 对 Campaign v8 登陆页面进行了一些改进，以确保功能与 Campaign Standard 相同。 通过[发行说明](../../v8/rn/release-notes.md#new-24-4)和登陆页面 [文档](../../v8/landing-pages/get-started-lp.md)了解详情。
 
-* **视觉片段**  - 视觉片段是可重复使用的视觉组件，可以在一封或多封电子邮件传递或内容模板中引用。当修改片段时，使用它的每个内容都会被更新。此功能用于预构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组装消息内容。[了解详情](../../v8//content/use-visual-fragments.md)
+* **视觉片段**  - 视觉片段是可重复使用的视觉组件，可以在一封或多封电子邮件传递或内容模板中引用。 当修改片段时，使用它的每个内容都会被更新。 此功能用于预构建多个自定义内容块，营销用户可以使用这些块在改进的设计过程中快速组装消息内容。 [了解详情](../../v8//content/use-visual-fragments.md)
 
 ## Campaign Standard和Campaign v8之间的主要差异 {#experiences}
 
@@ -151,13 +172,13 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 * 安全组是&#x200B;**操作员组**
 * 组织单位通过&#x200B;**文件夹权限**&#x200B;进行管理
 
-此外，作为现有的Campaign用户，请注意，一些概念已重命名，以符合最新的术语标准。 这些更改仅适用于 Campaign Web 用户界面，并且不会反映在客户端控制台中。下面对它们进行了汇总。
+此外，作为现有的Campaign用户，请注意，一些概念已重命名，以符合最新的术语标准。 这些更改仅适用于 Campaign Web 用户界面，并且不会反映在客户端控制台中。 下面对它们进行了汇总。
 
-* 收件人现在改为&#x200B;**轮廓**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
-* 种子地址现在改为&#x200B;**测试轮廓**。[了解详情](../../v8/preview-test/test-deliveries.md)。
-* 投放分析现在是&#x200B;**投放准备工作**。在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。[了解详情](../../v8/monitor/prepare-send.md)。
-* 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。[了解详情](../../v8/preview-test/preview-test.md)
-* 列表现在称为&#x200B;**受众**。[了解详情](../../v8/audience/gs-audiences-recipients.md)。
+* 收件人现在改为&#x200B;**轮廓**。 [了解详情](../../v8/audience/gs-audiences-recipients.md)。
+* 种子地址现在改为&#x200B;**测试轮廓**。 [了解详情](../../v8/preview-test/test-deliveries.md)。
+* 投放分析现在是&#x200B;**投放准备工作**。 在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。 [了解详情](../../v8/monitor/prepare-send.md)。
+* 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。 [了解详情](../../v8/preview-test/preview-test.md)
+* 列表现在称为&#x200B;**受众**。 [了解详情](../../v8/audience/gs-audiences-recipients.md)。
 
 
 ## 新的用户体验

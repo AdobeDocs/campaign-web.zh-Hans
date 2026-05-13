@@ -1,14 +1,21 @@
 ---
 title: 管理外部帐户
 description: 了解如何配置CRM外部帐户
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
+TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 0%
+source-wordcount: 863
+ht-degree: 1%
 
 ---
 
-# CRM外部帐户 {#external-crm}
+# CRM 外部帐户 {#external-crm}
 
 使用外部CRM类型帐户将Adobe Campaign与第三方数据库连接。
 
@@ -147,4 +154,3 @@ Microsoft Dynamics CRM外部帐户允许您将Campaign实例连接到Microsoft D
    要将Adobe Campaign值替换为Salesforce值，请启用&#x200B;**[!UICONTROL 替换]**&#x200B;选项。
 
    ![显示Salesforce CRM外部帐户配置字段的屏幕截图。](assets/crm-salesforce-5.png)
-

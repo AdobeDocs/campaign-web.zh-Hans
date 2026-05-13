@@ -3,9 +3,14 @@ audience: end-user
 title: 预览和发送直邮投放
 description: 了解如何使用Adobe Campaign Web预览和发送直邮投放
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/iJ6Y5vUUQbBE-X5B8WVVkjBCiaO2v4PLWoRjp5-uEhU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 573
 ht-degree: 1%
 
 ---
@@ -68,7 +73,7 @@ ht-degree: 1%
 
    如果已计划直邮投放，请单击&#x200B;**[!UICONTROL 按计划发送]**&#x200B;按钮。 在[本节](../msg/gs-messages.md#schedule-the-delivery-sending)中了解有关投放计划的更多信息。
 
-发送投放后，将自动生成提取文件并将其导出到在投放模板的&#x200B;**[!UICONTROL 高级设置]**&#x200B;中选择的[路由](../advanced-settings/delivery-settings.md)外部帐户中指定的位置。
+发送投放后，将自动生成提取文件并将其导出到在投放模板的[高级设置](../advanced-settings/delivery-settings.md)中选择的&#x200B;**[!UICONTROL 路由]**&#x200B;外部帐户中指定的位置。
 
 跟踪投放页面中的KPI（关键绩效指标）数据和&#x200B;**[!UICONTROL 日志]**&#x200B;菜单中的数据。
 

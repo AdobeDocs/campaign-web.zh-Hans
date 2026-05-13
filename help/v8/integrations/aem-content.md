@@ -3,10 +3,18 @@ audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理资源
 description: 了解如何使用Adobe Experience Manager as a Cloud Service管理内容
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 4%
+source-wordcount: 615
+ht-degree: 5%
 
 ---
 
@@ -32,7 +40,7 @@ Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Ad
 
    ![[显示“Adobe Campaign电子邮件”模板选择和命名字段的屏幕截图。]](assets/aem_2.png)
 
-1. 通过添加组件(例如Adobe Campaign中的个性化字段)自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hans#editing-email-content)
+1. 通过添加组件（例如Adobe Campaign中的个性化字段）自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hans#editing-email-content)
 
 1. 电子邮件准备就绪后，导航到&#x200B;**[!UICONTROL 页面信息]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 启动工作流]**。
 
@@ -86,7 +94,7 @@ Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Ad
 
 1. 如果您向Experience Manager模板添加了个性化内容，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用测试用户档案预览该内容在邮件中的显示方式。
 
-[了解有关预览和测试用户档案的更多信息](../preview-test/preview-content.md)
+   [了解有关预览和测试用户档案的更多信息](../preview-test/preview-content.md)
 
 1. 在查看消息预览时，任何个性化元素都会自动替换为所选测试用户档案中的相应数据。
 

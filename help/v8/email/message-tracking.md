@@ -3,9 +3,12 @@ audience: end-user
 title: 跟踪您的邮件
 description: 了解如何添加链接和跟踪已发送邮件
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
+TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 571
 ht-degree: 21%
 
 ---
@@ -59,7 +62,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在渠道表面级别和创建消息时定义。
+>营销类型的电子邮件必须包含一个选择退出链接，而事务性邮件不需要该链接。 消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在渠道表面级别和创建消息时定义。
 
 在您的所有电子邮件中都加入指向镜像页面的特定链接。 在[此章节](mirror-page.md)中详细了解镜像页面。
 
@@ -90,4 +93,4 @@ ht-degree: 21%
 
    ![屏幕截图显示了向邮件跟踪工具中的跟踪链接添加类别的界面](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
-1. 发送您的投放后，访问您的投放报告。在&#x200B;**[!UICONTROL 跟踪]**&#x200B;菜单下方，**[!UICONTROL URL 和点击流]**&#x200B;报告显示了投放中访问次数最多的 URL。[了解详情](../reporting/gs-reports.md)
+1. 发送您的投放后，访问您的投放报告。 在&#x200B;**[!UICONTROL 跟踪]**&#x200B;菜单下方，**[!UICONTROL URL 和点击流]**&#x200B;报告显示了投放中访问次数最多的 URL。 [了解详情](../reporting/gs-reports.md)

@@ -3,10 +3,17 @@ audience: end-user
 title: 品牌一致性
 description: 了解如何使用品牌得分创建、验证和管理品牌内内容。
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: 511
+ht-degree: 4%
 
 ---
 
@@ -37,7 +44,7 @@ ht-degree: 2%
 
    ![](assets/brand-score-2.png)
 
-1. 浏览&#x200B;**品牌一致性分数**(高、Medium、低)并查看详细反馈。
+1. 浏览&#x200B;**品牌一致性分数**（高、Medium、低）并查看详细反馈。
 
 1. 单击![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "全屏")图标查看更多有关您得分的分析。
 

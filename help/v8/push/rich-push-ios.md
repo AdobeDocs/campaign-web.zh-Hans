@@ -3,9 +3,12 @@ audience: end-user
 title: 设计iOS富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计iOS富推送通知投放
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: 1653
 ht-degree: 4%
 
 ---
@@ -39,7 +42,7 @@ ht-degree: 4%
 
    此字段定义iOS通知有效负载的&#x200B;**title**&#x200B;参数的值。
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;字段中输入消息的内容。
 
@@ -75,7 +78,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -109,7 +112,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 
@@ -152,7 +155,7 @@ ht-degree: 4%
 
 1. 使用表达式编辑器定义内容、个性化数据和添加动态内容。 [了解详情](../personalization/personalize.md)
 
-1. 或者，添加与iOS通知有效负载的&#x200B;**[!UICONTROL subtitle]**&#x200B;参数相对应的&#x200B;**Subtitle**。
+1. 或者，添加与iOS通知有效负载的&#x200B;**subtitle**&#x200B;参数相对应的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 添加定义与用户点击您的通知相关联的&#x200B;**[!UICONTROL 点击操作]**&#x200B;的URL。 这会确定用户与通知交互时的行为，例如打开特定屏幕或在应用程序中执行特定操作。
 

@@ -3,9 +3,14 @@ audience: end-user
 title: 管理订阅者
 description: 了解如何在Adobe Campaign Web中管理服务并将其交付给订阅者
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/4-ZuptAIqEcFECF-a-ocCGG8kImzn-OHp34UnSToF9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: 359
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
    ![显示用于添加订阅者的配置文件选择界面的屏幕截图。](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 发送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，使选定的收件人接收您在[创建服务](manage-services.md#create-confirmation-message)时定义的订阅[确认消息](manage-services.md#create-service)。
+1. 单击&#x200B;**[!UICONTROL 发送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，使选定的收件人接收您在[创建服务](manage-services.md#create-service)时定义的订阅[确认消息](manage-services.md#create-confirmation-message)。
 
    ![显示用于添加订阅者的确认消息界面的屏幕截图。](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
@@ -54,7 +59,7 @@ ht-degree: 0%
 
 1. 确认删除。
 
-1. 单击&#x200B;**[!UICONTROL 发送]**，使选定的收件人接收您在[创建服务](manage-services.md#create-confirmation-message)时定义的取消订阅[确认消息](manage-services.md#create-service)。
+1. 单击&#x200B;**[!UICONTROL 发送]**，使选定的收件人接收您在[创建服务](manage-services.md#create-service)时定义的取消订阅[确认消息](manage-services.md#create-confirmation-message)。
 
    ![显示取消订阅用户档案的确认消息界面的屏幕截图。](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 

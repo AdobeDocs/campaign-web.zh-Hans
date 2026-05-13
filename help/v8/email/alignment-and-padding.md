@@ -3,9 +3,12 @@ audience: end-user
 title: 在电子邮件设计器中调整垂直对齐方式和内边距
 description: 了解如何调整垂直对齐方式和内边距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 204
 ht-degree: 35%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 35%
 
    ![显示“样式”选项卡中的对齐调整选项的屏幕快照](assets/alignment_3.png){zoomable="yes"}
 
-   例如，选择&#x200B;**[!UICONTROL 底部]**。内容组件将移至列的底部。
+   例如，选择&#x200B;**[!UICONTROL 底部]**。 内容组件将移至列的底部。
 
 1. 在&#x200B;**[!UICONTROL 内边距]**&#x200B;下方，定义列中的上内边距，并为该列设置左内边距和右内边距。
 

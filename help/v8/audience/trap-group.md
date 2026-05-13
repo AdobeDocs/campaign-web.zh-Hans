@@ -3,9 +3,14 @@ audience: end-user
 title: 使用陷印组
 description: 了解如何在Campaign Web用户界面中使用陷阱组进行投放
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 4%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->除了在创建投放[期间和从](../email/create-email.md#preview-test)控制组[中发送](control-group.md)验证外，添加陷阱组也是测试受众的好方法。
+>除了在创建投放[&#128279;](../email/create-email.md#preview-test)期间和从[控制组](control-group.md)中发送验证外，添加陷阱组也是测试受众的好方法。
 
 ## 关于陷阱组 {#about-trap-group}
 
@@ -53,17 +58,17 @@ ht-degree: 4%
 
 您还可以创建新的测试用户档案。 [了解详情](#create-seed)
 
-[选择测试配置文件界面截图](assets/trap-select-test-profiles.png){zoomable="yes"}
+[选择测试用户档案界面屏幕截图](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 确认测试配置文件后，检查&#x200B;**[!UICONTROL 陷阱组]**&#x200B;下是否显示正确的编号。
 
-[陷阱组确认屏幕快照](assets/trap-check.png){zoomable="yes"}
+[陷阱组确认屏幕截图](assets/trap-check.png){zoomable="yes"}
 
 ### 创建条件 {#create-condition}
 
 使用&#x200B;**[!UICONTROL 创建条件]**&#x200B;选项，创建查询以定义要使用的测试用户档案：
 
-[创建条件接口屏幕截图](assets/trap-create-condition.png){zoomable="yes"}
+[创建条件界面屏幕截图](assets/trap-create-condition.png){zoomable="yes"}
 
 您的查询显示在&#x200B;**[!UICONTROL 陷阱组]**&#x200B;下。
 

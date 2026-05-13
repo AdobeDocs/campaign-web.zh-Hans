@@ -2,10 +2,15 @@
 title: 管理外部帐户
 description: 了解如何配置外部帐户
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: 213
+ht-degree: 5%
 
 ---
 
@@ -43,7 +48,7 @@ ht-degree: 1%
 
 * **[!UICONTROL IMS组织ID]**
 
-  您组织的ID。 要查找您的组织ID，请参阅[此页面](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans){target=_blank}。
+  您组织的ID。 要查找您的组织ID，请参阅[此页面](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans){target=_blank}。
 
 * **[!UICONTROL 关联掩码]**
 

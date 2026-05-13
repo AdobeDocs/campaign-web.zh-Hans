@@ -3,9 +3,14 @@ audience: end-user
 title: 测试电子邮件渲染
 description: 了解如何在Campaign Web用户界面中测试电子邮件渲染
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/EY2zw8-EfxmTKS3kCcigZY5f-piIO7S2s-gT8knFbeY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 245
 ht-degree: 2%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 2%
 
 在发送电子邮件之前，请确保消息以最佳方式显示在各种Web客户端和设备中的收件人。
 
-要实现此目的，请使用&#x200B;**中您的** Litmus[!DNL Adobe Campaign]帐户，在不同上下文中即时预览电子邮件渲染。 这允许您检查与主要桌面应用程序、Web邮件服务、移动设备等的兼容性。
+要实现此目的，请使用[!DNL Adobe Campaign]中您的&#x200B;**Litmus**&#x200B;帐户，在不同上下文中即时预览电子邮件渲染。 这允许您检查与主要桌面应用程序、Web邮件服务、移动设备等的兼容性。
 
 >[!CAUTION]
 >
