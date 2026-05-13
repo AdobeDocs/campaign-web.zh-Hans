@@ -4,7 +4,8 @@ title: 使用 Adobe Campaign Web 创建工作流
 description: 了解如何使用 Adobe Campaign Web 构建工作流
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 363
@@ -25,7 +26,7 @@ ht-degree: 16%
 
 列表中的每个工作流都显示有关其当前[状态](#status)、上次执行或修改它以及下一个计划执行日期和时间的信息。
 
-通过单击位于列表右上角的自定义布局&#x200B;]**图标的**[!UICONTROL &#x200B;配置列，自定义显示的列。 这样，您就可以向列表中添加其他信息，例如每个工作流的最后一个出错活动或应用的定向维度。
+通过单击位于列表右上角的自定义布局&#x200B;**图标的**&#x200B;配置列，自定义显示的列。 这样，您就可以向列表中添加其他信息，例如每个工作流的最后一个出错活动或应用的定向维度。
 
 此外，还可以使用搜索栏和过滤器来简化列表中的搜索。 例如，筛选工作流以仅显示属于某个促销活动的工作流或在特定日期范围内处理的工作流。
 

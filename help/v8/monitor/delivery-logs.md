@@ -4,7 +4,8 @@ title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 429
@@ -48,7 +49,7 @@ ht-degree: 58%
 
 **发送日志**&#x200B;选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。 您可通过该处查看每个收件人的投放状态。
 
-![ “投放”选项卡显示已发送消息的历史记录及其状态。](assets/logs2.png){zoomable="yes"}
+![&#x200B; “投放”选项卡显示已发送消息的历史记录及其状态。](assets/logs2.png){zoomable="yes"}
 
 ## 排除项 {#exclusion-tab}
 

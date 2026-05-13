@@ -4,7 +4,8 @@ description: 了解如何在Campaign Web中设计登陆页面特定内容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1170
@@ -30,7 +31,7 @@ ht-degree: 11%
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;和&#x200B;**[!UICONTROL Expiration]**&#x200B;页面的内容也已预填充。 根据需要编辑它们。
 
-您还可以为登陆页面](#lp-form-styles)定义[样式。
+您还可以为登陆页面[&#128279;](#lp-form-styles)定义样式。
 
 要进一步设计登陆页面内容，请执行以下操作：
 
@@ -123,7 +124,7 @@ ht-degree: 11%
 
 1. 选择“**[!UICONTROL 服务来自URL]**”选项，以允许将登陆页用于多个服务，使其成为动态页面。 定义在提交表单时要选择加入还是选择退出用户。
 
-   来自表单组件](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的![服务
+   来自表单组件![&#128279;](assets/lp-form-service-from-url.png){zoomable="yes"}中的URL设置的服务
 
    在设计电子邮件时，如果您定义指向此登陆页面的&#x200B;**[!UICONTROL 登陆页面]**&#x200B;类型的链接，则可以从列表中选择任何服务。 然后，在定义指向此登陆页面的其他链接时，您可以选择其他服务。 [了解有关插入链接的更多信息](../email/message-tracking.md)
 
