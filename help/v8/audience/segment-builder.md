@@ -3,9 +3,9 @@ audience: end-user
 title: 使用Campaign规则生成器构建受众
 description: 了解如何使用规则生成器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '624'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 位于左侧的面板包含可筛选以创建受众的所有元素。 使用搜索栏快速查找元素。 将调色板中包含的拼贴移动到中心画布以进行配置并考虑这些拼贴。
 
-![显示筛选选项和选项卡的调色板界面](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![显示筛选选项和选项卡的调色板界面](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 面板分为两个选项卡：
 
@@ -35,15 +35,15 @@ ht-degree: 24%
 
 ## 画布
 
-画布是中心区域，您可以在其中根据从面板添加的元素配置和组合规则。 要添加新规则，请从面板中拖动一个磁贴并将其放到画布上。上下文特定的选项是基于要添加的数据类型而显示的。
+画布是中心区域，您可以在其中根据从面板添加的元素配置和组合规则。 要添加新规则，请从面板中拖动一个磁贴并将其放到画布上。 上下文特定的选项是基于要添加的数据类型而显示的。
 
-![显示规则配置选项的画布界面](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![显示规则配置选项的画布界面](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## “规则属性”窗格
 
 在右侧，**规则属性**&#x200B;窗格允许您执行下面列出的操作。
 
-![显示可用操作的规则属性窗格](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![显示可用操作的规则属性窗格](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **查看结果：**&#x200B;显示受众定向的用户档案列表。
 * **代码视图**：显示SQL中受众的基于代码的版本。
@@ -53,7 +53,7 @@ ht-degree: 24%
 
   >[!IMPORTANT]
   >
-  >在此版本的产品中，用户界面中没有某些预定义过滤器。 但仍可使用这些它们。[了解详情](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)。
+  >在此版本的产品中，用户界面中没有某些预定义过滤器。 但仍可使用这些它们。 [了解详情](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)。
 
 * **属性**：显示已创建受众的说明。
 
@@ -61,7 +61,7 @@ ht-degree: 24%
 
 在此示例中，构建受众的目标是居住亚特兰大或西雅图且出生于1980年之后的所有客户。
 
-1. 在面板的&#x200B;**属性**&#x200B;选项卡中，搜索&#x200B;**出生日期**&#x200B;字段。拖动磁贴并将其放到画布上。
+1. 在面板的&#x200B;**属性**&#x200B;选项卡中，搜索&#x200B;**出生日期**&#x200B;字段。 拖动磁贴并将其放到画布上。
 
    ![正在将出生日期字段添加到画布](assets/segment-builder6.png){zoomable="yes"}
 
@@ -81,7 +81,7 @@ ht-degree: 24%
 
    ![在“城市”字段中输入第二个城市名称](assets/segment-builder10.png){zoomable="yes"}
 
-1. 单击&#x200B;**查看结果**&#x200B;以显示与查询匹配的收件人的列表和数量。添加列以可视化并检查数据。 在此示例中，添加&#x200B;**City**&#x200B;列以查看亚特兰大和西雅图。
+1. 单击&#x200B;**查看结果**&#x200B;以显示与查询匹配的收件人的列表和数量。 添加列以可视化并检查数据。 在此示例中，添加&#x200B;**City**&#x200B;列以查看亚特兰大和西雅图。
 
    ![正在查看添加了“城市”列的结果](assets/segment-builder11.png){zoomable="yes"}
 

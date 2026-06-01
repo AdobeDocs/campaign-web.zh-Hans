@@ -11,7 +11,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 397
 ht-degree: 19%
@@ -24,7 +24,7 @@ ht-degree: 19%
 
 Adobe Campaign生成的镜像页面包含所有个性化数据。
 
-![电子邮件中的镜像链接示例](assets/mirror-page-link.png){width="600" align="left"}
+![电子邮件中的镜像链接示例](assets/mirror-page-link.png){width="600"}
 
 ## 添加指向镜像页面的链接 {#link-to-mirror-page}
 

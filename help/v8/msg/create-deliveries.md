@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 48%
@@ -50,7 +50,7 @@ ht-degree: 48%
 1. 选择投放的渠道。
 1. 定义主目标和控制组的投放受众。 [了解有关受众的详细信息](../audience/about-recipients.md)。
 
-   ![显示受众选择界面的屏幕截图](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![显示受众选择界面的屏幕截图](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. 定义消息内容。 要了解有关投放渠道以及如何定义投放内容的更多信息，请参阅以下部分：
 

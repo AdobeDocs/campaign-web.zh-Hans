@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ ht-degree: 100%
 
   使用&#x200B;**更多操作**&#x200B;按钮删除或重复投放。
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [显示“更多操作”按钮及其删除或复制投放选项的屏幕快照。]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [显示“更多操作”按钮及其删除或复制投放选项的屏幕快照。]
 
 * **工作流** - 可在此屏幕中访问工作流和工作流模板的完整列表。 可检查其状态、上次/下次执行日期，并可创建新的工作流或新的工作流模板。 可用与过滤其他对象相同的条件过滤该列表。 此外，还可过滤属于或不属于营销活动的工作流。 可[在此部分中](../workflows/gs-workflows.md)详细了解工作流。
 
