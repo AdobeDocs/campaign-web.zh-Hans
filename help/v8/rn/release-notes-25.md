@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3136
-ht-degree: 100%
+source-wordcount: 3032
+ht-degree: 97%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建并自定义您的品牌，在所有宣传中清晰传达您的视觉风格与语言特征。 通过品牌一致性评分，您可以实时获得内容是否符合品牌语调、风格和规范的反馈，帮助您在每一次沟通中始终保持品牌一致性。
+<p>您现在可以创建和自定义自己的品牌，以清楚地定义您在通信中的视觉和口头身份。借助品牌一致性分数，您可以实时收到关于内容如何反映品牌基调、风格和准则的反馈，从而帮助您在发送每条消息时始终与品牌保持一致。
 </p>
 <p>有关更多信息，请参阅<a href="../content/brands.md">详细文档</a>。</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>您现在可以使用动态报告功能，该功能提供完全可自定义的实时报告，以衡量您的营销活动成效。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。 动态报告现也适用于多语言电子邮件投放和事务性消息。</p>
-<p>此功能仅按需提供。 要获得访问权限，请与 Adobe 代表联系。 您的服务器必须至少升级到 8.8.1 版。 请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
+<p>此功能仅在需要时可用。要获取访问权限，请联系您的Adobe代表。您的服务器必须升级到8.8.1的最低版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
 <p>有关更多信息，请参阅<a href="../reporting/dynamic-reporting/get-started-reporting.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>您的技术管理员现在可以定义一个或多个品牌，以集中管理影响品牌形象的相关参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。 您可以创建这些品牌并将它们链接到消息或登陆页面。 此配置在模板中进行管理。 品牌化选项现在可用于所有渠道，包括短信和直邮。</p>
-<p>此功能仅针对新实施按需提供。 要获得访问权限，请与 Adobe 代表联系。 您的服务器必须至少升级到 8.8.1 版。 请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
+<p>此功能仅在新的实施中按需提供。要获取访问权限，请联系您的Adobe代表。您的服务器必须升级到8.8.1的最低版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
 <p>有关更多信息，请参阅<a href="../administration/branding/branding-gs.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -649,7 +649,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>作为 Campaign 管理员，您现在可以从 Campaign Web 用户界面建立与外部系统的新连接。
+<p>作为Campaign管理员，您现在可以从Campaign Web用户界面设置与外部系统的新连接。
 您还可以查看、更新和管理现有的外部帐户。</p>
 <p>有关更多信息，请参阅<a href="../administration/external-account.md">详细文档</a>。</p>
 </td>
@@ -688,7 +688,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能处于“有限可用性” (LA) 状态。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。 使用这些功能必须将 Campaign 服务器升级到 v8.7.4。
 >
->请参阅以下文档页面：[从 Campaign Standard 过渡到 Campaign v8](../rn/acs-migration.md) 以及[面向 Campaign Standard 用户的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hans)。
+>请参阅以下文档页面：[Campaign Standard过渡到Campaign v8](../rn/acs-migration.md)
 
 * **创建多语言投放** - 您现在可以在 Adobe Campaign Web 用户界面中使用不同语言发送多个电子邮件投放。 多语言投放功能允许您选择投放的默认语言以及可以发送投放的不同语言。 您还可以使用您选择的语言预览这些投放内容。 有关更多信息，请参阅[详细文档](../email/edit-content.md)。
 

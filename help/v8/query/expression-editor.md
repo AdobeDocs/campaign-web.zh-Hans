@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 36%
+source-wordcount: 2152
+ht-degree: 37%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+>查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面切换的图像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 使用表达式编辑器 {#edit}
 
@@ -533,7 +533,7 @@ ht-degree: 36%
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
+  </tr>
   -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
