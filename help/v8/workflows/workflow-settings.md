@@ -4,12 +4,11 @@ title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 26%
+source-wordcount: 1070
+ht-degree: 27%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 26%
 
 这些设置是在创建工作流时选择的模板中预先配置的，但可以根据需要为此特定工作流进行编辑。
 
-![工作流设置按钮界面](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![工作流设置按钮界面](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## 工作流属性 {#properties}
 
@@ -35,14 +34,14 @@ ht-degree: 26%
 
 **[!UICONTROL 属性]**&#x200B;部分提供了在创建工作流时可以配置的常规设置。 要访问现有工作流的属性，请单击工作流画布上方操作栏中可用的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
 
-![工作流设置界面](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![工作流设置界面](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 这些属性包括：
 
 * 列表中显示的工作流的&#x200B;**[!UICONTROL 标签]**。
 * 工作流的&#x200B;**[!UICONTROL 内部名称]**。
 * 应保存工作流的&#x200B;**[!UICONTROL 文件夹]**。
-* 在工作流的所有活动中使用的默认&#x200B;**[!UICONTROL 时区]**。 默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
+* 在工作流的所有活动中使用的默认&#x200B;**[!UICONTROL 时区]**。默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
 可能的值包括：
    * **服务器时区**&#x200B;以使用Adobe Campaign应用程序服务器的时区。
    * **操作员时区**，使用执行工作流的Adobe Campaign操作员的时区，如客户端控制台中操作员的配置文件中所定义。
@@ -51,7 +50,7 @@ ht-degree: 26%
 * 工作流失败时，将通过电子邮件通知属于&#x200B;**[!UICONTROL 主管]**&#x200B;字段中所选操作员组的操作员。
 * 输入工作流的&#x200B;**[!UICONTROL 描述]**。
 
-当工作流为与营销活动[&#128279;](create-workflow.md)关联的时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
+当工作流为与营销活动](create-workflow.md)关联的[时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
 
 ## 分段设置 {#segmentation-settings}
 
