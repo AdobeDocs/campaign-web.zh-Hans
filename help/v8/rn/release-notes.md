@@ -3,19 +3,13 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -28,19 +22,19 @@ ht-degree: 91%
 
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
-## 2026年4月版 {#26-4-release}
+## 2026 年 4 月版本 {#26-4-release}
 
-_2026年4月29日_
+_2026 年 4 月 29 日_
 
 ### 改进 {#26-4-improvement}
 
-**扩充数据**&#x200B;部分现在可在&#x200B;**构建受众**&#x200B;工作流活动（查询类型）中使用。 您可以直接从Campaign Web用户界面查看、添加、编辑和删除&#x200B;**附加数据**。 与在&#x200B;**扩充**&#x200B;活动中一样，您可以添加单个扩充属性、集合链接和表达式。
+**扩充数据**&#x200B;部分现已在&#x200B;**构建受众**&#x200B;工作流活动（查询类型）中提供。您可以直接在 Campaign Web 用户界面中查看、添加、编辑和移除&#x200B;**附加数据**。与&#x200B;**扩充**&#x200B;活动一样，您可以添加单个扩充属性、收藏集链接和表达式。
 
 [了解详情](../workflows/activities/build-audience.md)
 
 ## 2026 年 3 月版本 {#26-3-release}
 
-_2026年3月_ 24日_
+2026 年 _3_ 月 24 日_
 
 ### 新增功能 {#26-3-features}
 
@@ -132,6 +126,6 @@ _2026年3月_ 24日_
 
 ### 改进 {#26-3-improvements}
 
-* 已添加&#x200B;**开始**&#x200B;工作流活动，以提升与客户端控制台的兼容性。 此活动为可选项，不会默认添加到新的工作流中。 不过，它会自动添加到现有工作流中。
+* 新增了&#x200B;**开始**工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)

@@ -3,15 +3,12 @@ title: 连接到 Adobe Campaign Web 界面
 description: 了解如何连接到 Adobe Campaign Web 用户界面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,18 +97,18 @@ Campaign Web 中的所有权限都与 Campaign 客户端控制台权限同步。
 
 ## Adobe Experience Cloud 顶部导航 {#top-bar}
 
-通过界面的顶栏，您可以快速访问核心Experience Cloud功能。
+界面顶部栏可让您快速访问 Experience Cloud 的核心功能。
 
 ![显示 Adobe Experience Cloud 顶部导航栏的屏幕快照](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
-使用顶栏可以：
+您可以使用顶部栏执行以下操作：
 
 * 分享有关 Campaign Web 用户界面的反馈。
 * 在组织之间切换。
 * 在 Adobe Experience Cloud 解决方案和应用程序之间切换。
 * 搜索关于 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hans){target="_blank"} 的帮助。
-* 查看您的产品通知。
-* 编辑您的Adobe配置文件并管理设置，如[更新您的首选语言](#language-pref)或[在浅色和深色主题之间切换](#dark-theme)。
+* 查看产品通知。
+* 编辑您的 Adobe 个人资料并管理设置，例如[更新首选语言](#language-pref)或[切换浅色和深色主题](#dark-theme)。
 
 ## 支持的浏览器 {#browsers}
 
