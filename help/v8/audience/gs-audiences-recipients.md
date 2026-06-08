@@ -13,7 +13,7 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 203
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="创建受众形象">
+<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="创建受众图像">
 </a>
 <div><a href="create-audience.md"><strong>创建受众</strong>
 </div>

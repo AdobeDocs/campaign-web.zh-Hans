@@ -12,8 +12,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 547
+workflow-type: ht
+source-wordcount: 506
 ht-degree: 100%
 
 ---
@@ -124,22 +124,22 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>开始使用</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到 Campaign </a> - <a href="get-started/permissions.md">访问和权限</a>
+      <strong>开始使用</strong><br/><a href="get-started/user-interface.md">用户界面</a> - <a href="get-started/connect-to-campaign.md">连接到 Campaign</a> - <a href="get-started/permissions.md">访问和权限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
+    <br/>
+      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">通过工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">营销活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告与分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
+    <br/>
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送通知</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>轮廓和受众</strong><br/><a href="audience/gs-audiences-recipients.md">开始使用</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试轮廓</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
+      <strong>轮廓和受众</strong><br/><a href="audience/gs-audiences-recipients.md">入门</a> - <a href="audience/create-audience.md">创建受众</a> - <a href="audience/test-profiles.md">测试轮廓</a> - <a href="audience/manage-services.md">订阅服务</a> - <a href="query/query-modeler-overview.md">查询建模器</a>
     </td>
   </tr>
 </table>

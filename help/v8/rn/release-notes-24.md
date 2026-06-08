@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 >
 >以下功能处于“有限可用性” (LA) 状态。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[Campaign Standard过渡到Campaign v8](../rn/acs-migration.md)
+>请参阅以下文档页面：[从 Campaign Standard 迁移到 Campaign v8](../rn/acs-migration.md)
 
 * **直邮的品牌化**：您的技术管理员现在可以定义一个或多个品牌，以便集中管理影响品牌标识的参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。 您现在可以创建这些品牌并将它们链接到消息或登陆页面。 此配置在模板中进行管理。 [了解详情](../administration/branding/branding-assign.md)
 
@@ -264,7 +264,7 @@ ht-degree: 99%
 >
 >以下功能处于“有限可用性” (LA) 状态。 这些功能仅限于从 **Adobe Campaign Standard 迁移至 Adobe Campaign v8** 的客户使用，并且不能部署在任何其他环境中。
 >
->请参阅以下文档页面：[Campaign Standard过渡到Campaign v8](../rn/acs-migration.md)
+>请参阅以下文档页面：[从 Campaign Standard 迁移到 Campaign v8](../rn/acs-migration.md)
 
 * **品牌化** - 作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以集中处理影响品牌标识的参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。 您可以创建这些品牌并将它们链接到消息或登陆页面。 此配置在模板中进行管理。 [了解更多信息](../administration/branding/branding-gs.md)
 
