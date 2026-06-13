@@ -148,4 +148,4 @@ ht-degree: 96%
 
 * [Adobe Campaign 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hans){target="_blank"}
-* [电子邮件跟踪像素和CNIL指南](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+* [电子邮件跟踪像素和CNIL指南](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
