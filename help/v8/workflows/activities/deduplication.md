@@ -6,10 +6,10 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: bf9d5d07ffca9c79821559e7fc75a930728e2f5a
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 39%
+source-wordcount: 769
+ht-degree: 30%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重复数据删除活动"
->abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。 它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。"
+>abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。 它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。 当有多个集客过渡可用时，请使用&#x200B;**要联接的集**&#x200B;部分选择要连接到活动的过渡。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="设置加入"
+>abstract="检查您以前希望作为&#x200B;**重复数据删除**&#x200B;活动的集客过渡连接的活动。 然后，选定的活动将连接到&#x200B;**重复数据删除**。 仅当有多个集客过渡可连接到活动时，才会显示此部分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -37,6 +42,8 @@ ht-degree: 39%
 
 **重复数据删除**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动会删除集客活动结果中的重复项，如收件人列表中重复的用户档案。 **重复数据删除**&#x200B;活动通常用在定向活动之后、使用定向数据的活动之前。
 
+活动支持多个集客过渡。 当有多个集客过渡可用时，请使用活动属性中的&#x200B;**要联接的集**&#x200B;部分，选择要连接到该活动的过渡。 然后，所选过渡将链接到工作流画布中的&#x200B;**重复数据删除**。
+
 ## 配置重复数据删除活动 {#deduplication-configuration}
 
 按照以下步骤配置&#x200B;**重复数据删除**&#x200B;活动：
@@ -44,6 +51,12 @@ ht-degree: 39%
 ![工作流去重配置进程](../assets/workflow-deduplication.png)
 
 1. 向工作流添加&#x200B;**重复数据删除**&#x200B;活动。
+
+1. 在&#x200B;**设置为加入**&#x200B;部分中，检查您希望作为&#x200B;**重复数据删除**&#x200B;活动的集客过渡连接的先前活动。 然后，所选活动将链接到工作流画布中的&#x200B;**重复数据删除**。 使用&#x200B;**主集**&#x200B;字段定义引用集客过渡。 来自其他集的记录与主集匹配以标识重复项。
+
+   >[!NOTE]
+   >
+   >仅当有多个集客过渡可用时，才会显示此部分。
 
 1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**&#x200B;添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。 字段的顺序指定了首先处理哪些。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)。
 
