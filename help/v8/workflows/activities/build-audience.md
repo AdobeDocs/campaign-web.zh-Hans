@@ -4,12 +4,11 @@ title: 使用“生成受众”工作流活动
 description: 了解如何使用“生成受众”工作流活动
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 53%
+source-wordcount: 518
+ht-degree: 52%
 
 ---
 
@@ -63,7 +62,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 单击定向维度旁边的图标以选择&#x200B;**过滤维度**。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#filtering)
 1. 单击&#x200B;**继续**。
 1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
-1. 使用&#x200B;**扩充数据**&#x200B;部分通过数据库中的附加信息（例如合同参考或新闻稿订阅）增强目标数据。 该数据将与受众一起存储在工作流&#x200B;**工作台**&#x200B;中，并且可用于后续的活动。 您可以添加单个扩充属性、集合链接或表达式。 有关详细步骤和示例，请参阅[添加扩充数据](enrichment.md#enrichment-add)。
+1. 使用&#x200B;**扩充数据**&#x200B;部分通过数据库中的附加信息（例如合同参考或新闻稿订阅）增强目标数据。 该数据将与受众一起存储在工作流&#x200B;**工作台**&#x200B;中，并且可用于后续的活动。 您可以添加单个扩充属性、集合链接或表达式，并访问高级选项。 有关详细步骤和示例，请参阅[添加扩充数据](enrichment.md#enrichment-add)。
 
 >[!TAB 读取受众]
 
