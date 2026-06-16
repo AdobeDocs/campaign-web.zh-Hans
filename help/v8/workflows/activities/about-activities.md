@@ -4,20 +4,14 @@ title: 使用工作流活动
 description: 了解如何使用工作流活动
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +60,9 @@ ht-degree: 25%
 ## 流量控制活动 {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="结束活动"
->abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 此活动没有功能影响，因此是可选的。"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="结束活动"
 >abstract="您可以使用&#x200B;**开始**&#x200B;活动以图形方式标记工作流的始点。 此活动无功能性影响，因此为可选活动。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="外部信号"
->abstract="用于“结束”活动参数中“外部信号”部分的占位符。 仅适用于编排的营销活动。 请勿删除"
 
 以下活动专用于组织和执行工作流。 这些活动的主要任务是协调其他活动：
 
@@ -86,7 +70,7 @@ ht-degree: 25%
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
 * [加入](join.md)：同步工作流的多个执行分支。
 * [计划程序](scheduler.md)：工作流启动时进行计划。
-* **开始**&#x200B;和结束&#x200B;**结束**：以图形方式标记工作流的开始和结束。 它们是可选的，不会对其自身产生任何功能影响。
+* **开始**&#x200B;和结束[结束](end.md)：以图形方式标记工作流的开始和结束。 它们是可选的，不会对其自身产生任何功能影响。
 
   >[!NOTE]
   >
