@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: ht
-source-wordcount: '1027'
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+workflow-type: tm+mt
+source-wordcount: '1028'
 ht-degree: 100%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 100%
       + [持续投放](workflows/activities/continuous-delivery.md)
       + [重复数据删除](workflows/activities/deduplication.md)
       + [电子邮件、短信、推送、直邮](workflows/activities/channels.md)
+      + [结束](workflows/activities/end.md)
       + [扩充](workflows/activities/enrichment.md)
       + [外部信号](workflows/activities/external-signal.md)
       + [提取文件](workflows/activities/extract-file.md)
