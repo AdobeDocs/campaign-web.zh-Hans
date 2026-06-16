@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _2026年6月16日_
 
 * **重复数据删除**&#x200B;和&#x200B;**结束**&#x200B;工作流活动现在支持多个集客过渡。 时间
 有多个集客过渡可用，请使用活动中的&#x200B;**集加入**&#x200B;部分
-属性以选择要连接的过渡。 在以下页面中了解详情： [重复数据删除](../workflows/activities/deduplication.md)，
-
-<!--
-[End](../workflows/activities/end.md)
--->
+属性以选择要连接的过渡。 在以下页面中了解详情： [重复数据删除](../workflows/activities/deduplication.md)，[结束](../workflows/activities/end.md)
 
 * 高级参数现在显示在&#x200B;**生成受众**（查询类型）和&#x200B;**扩充**&#x200B;工作流活动的&#x200B;**扩充数据**&#x200B;部分中。 利用这些参数，可优化扩充数据的构建方式，包括分组、重复数据删除、主键处理和入站事件数据。 [了解详情](../workflows/activities/enrichment.md)
 
