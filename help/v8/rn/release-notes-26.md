@@ -2,7 +2,7 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: ed3fd4bbe8466c049af13304526daea948ab4706
+source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 97%
@@ -117,7 +117,7 @@ _2026 年 4 月 29 日_
 
 ### 改进 {#26-3-improvements}
 
-* 新增了&#x200B;**开始**&#x200B;工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
+* 新增了&#x200B;**开始**工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)
 
