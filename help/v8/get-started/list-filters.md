@@ -4,20 +4,18 @@ title: 浏览和过滤列表
 description: 探索如何浏览和过滤列表 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 325
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
+workflow-type: tm+mt
+source-wordcount: 433
+ht-degree: 72%
 
 ---
 
 # 浏览和过滤列表 {#list-screens}
 
-左侧导航菜单中的大多数链接会显示对象列表，例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**&#x200B;的列表。 其中一些列表屏幕为只读状态。 您可以自定义列表显示并过滤这些列表，具体如下所述。
+左侧导航菜单中的大多数链接会显示对象列表，例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**&#x200B;的列表。 其中一些列表屏幕为只读状态。 您可以自定义列表显示、筛选这些列表以及将列表数据导出为CSV文件，如下所述。
 
 ## 自定义列表屏幕 {#custom-lists}
 
@@ -52,6 +50,18 @@ ht-degree: 100%
 ![该屏幕快照显示了可用于优化列表视图的过滤选项。](assets/filter.png){zoomable="yes"}{width="70%"}
 
 可在[此部分](../query/filter.md)中找到有关如何使用过滤器和创建您自己的自定义过滤器的详细信息。
+
+## 导出列表数据 {#export-list}
+
+您可以从任何列表屏幕（包括跟踪日志）导出数据。 要导出列表，请执行以下步骤：
+
+1. 打开要导出的列表。
+1. 调整显示的列并应用所需的搜索或过滤器。 导出会考虑屏幕上显示的列以及任何活动的搜索或过滤器。
+1. 如果需要，向下滚动以显示更多行。 仅导出列表中当前加载的行。
+1. 单击列表上方的&#x200B;**将加载的行导出为CSV**&#x200B;按钮。 该文件将保存到浏览器的默认下载文件夹中。
+
+![屏幕快照显示列表的导出。](assets/filter-export.png){zoomable="yes"}
+
 
 <!--
 ## Use advanced attributes {#adv-attributes}

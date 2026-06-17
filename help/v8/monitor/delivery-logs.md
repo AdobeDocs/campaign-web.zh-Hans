@@ -4,12 +4,11 @@ title: 监控投放日志
 description: 了解如何监控投放日志
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 58%
 准备投放并单击&#x200B;**发送**&#x200B;按钮后，浏览投放日志以检查警告、错误、状态、排除和跟踪数据。 可直接从消息仪表板访问这些日志。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
 要查看日志，请访问您的投放仪表板并单击&#x200B;**日志**&#x200B;按钮。
+
+>[!TIP]
+>
+>可使用列表上方的&#x200B;**将加载的行导出为CSV**&#x200B;按钮，将每个日志选项卡导出为CSV文件。 在[导出列表数据](../get-started/list-filters.md#export-list)中了解详情。
 
 可以使用以下选项卡：
 
@@ -49,7 +52,7 @@ ht-degree: 58%
 
 **发送日志**&#x200B;选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。 您可通过该处查看每个收件人的投放状态。
 
-![&#x200B; “投放”选项卡显示已发送消息的历史记录及其状态。](assets/logs2.png){zoomable="yes"}
+![ “投放”选项卡显示已发送消息的历史记录及其状态。](assets/logs2.png){zoomable="yes"}
 
 ## 排除项 {#exclusion-tab}
 
