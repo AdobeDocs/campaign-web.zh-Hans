@@ -5,21 +5,21 @@ description: 了解如何使用结束工作流活动
 source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 20%
+ht-degree: 54%
 
 ---
 
-# 结束 {#end}
+# 终止 {#end}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="结束活动"
->abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 当有多个集客过渡可用时，请使用&#x200B;**要联接的集**&#x200B;部分选择要连接到活动的过渡。"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 当有多个入站过渡可用时，请使用&#x200B;**要连接的集合**&#x200B;部分选择要连接到该活动的过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
->title="设置加入"
->abstract="检查您以前希望作为&#x200B;**结束**&#x200B;活动的集客过渡连接的活动。 然后，选定的活动连接到&#x200B;**End**。 仅当有多个集客过渡可连接到活动时，才会显示此部分。"
+>title="要连接的集合"
+>abstract="选中您希望作为&#x200B;**结束**&#x200B;活动入站过渡进行连接的上游活动。 随后，所选活动将连接到&#x200B;**结束**&#x200B;活动。 仅当有多个可连接到该活动的入站过渡时，才会显示此部分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
