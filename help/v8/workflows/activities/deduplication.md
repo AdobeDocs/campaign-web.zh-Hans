@@ -4,12 +4,11 @@ title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 30%
+ht-degree: 39%
 
 ---
 
@@ -23,12 +22,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重复数据删除活动"
->abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。 它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。 当有多个集客过渡可用时，请使用&#x200B;**要联接的集**&#x200B;部分选择要连接到活动的过渡。"
+>abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。 它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。 当有多个入站过渡可用时，请使用&#x200B;**要连接的集合**&#x200B;部分选择要连接到该活动的过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
->title="设置加入"
->abstract="检查您以前希望作为&#x200B;**重复数据删除**&#x200B;活动的集客过渡连接的活动。 然后，选定的活动将连接到&#x200B;**重复数据删除**。 仅当有多个集客过渡可连接到活动时，才会显示此部分。"
+>title="要连接的集合"
+>abstract="选中您希望作为&#x200B;**重复数据删除**&#x200B;活动入站过渡进行连接的上游活动。 随后，所选活动将连接到&#x200B;**重复数据删除**&#x200B;活动。 仅当有多个可连接到该活动的入站过渡时，才会显示此部分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
