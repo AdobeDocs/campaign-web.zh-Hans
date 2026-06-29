@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ _2026 年 4 月 29 日_
 
 ### 改进 {#26-3-improvements}
 
-* 新增了&#x200B;**开始**&#x200B;工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
+* 新增了&#x200B;**开始**工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)
 
@@ -219,12 +219,10 @@ _2026 年 1 月 27 日_
 <tbody>
 <tr>
 <td>
-<p>多语言交付功能现在向所有客户提供(GA)。利用此功能，可在Adobe Campaign Web用户界面中以不同语言发送多条消息。您可以选择投放的默认语言以及可发送投放的不同语言。您也可以使用所选的语言预览这些投放。 
-<p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
+<p>多语言投放功能现已面向所有客户正式发布（GA）。该功能允许您在 Adobe Campaign Web 用户界面中发送多种语言的消息。您可以选择投放的默认语言，以及可以发送投放的不同语言。您还可以预览所选语言的投放。<p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
 <p>多语言推送已进行以下改进：</p>
 <ul>
-<li>您现在可以通过上传包含多语言内容的CSV文件来快速填充所有语言变体。<a href="../msg/multilingual.md#csv-upload">阅读更多</a>
-</li>
+<li>现在，您可以通过上传包含多语言内容的 CSV 文件，快速填充所有语言变体。<a href="../msg/multilingual.md#csv-upload">阅读更多</a></li>
 <li>现已支持富媒体推送。</li>
 </td>
 </tr>
