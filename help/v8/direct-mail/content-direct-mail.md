@@ -4,14 +4,12 @@ title: 设计直邮投放
 description: 了解如何使用Adobe Campaign Web设计直邮投放
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 19%
+source-wordcount: 648
+ht-degree: 18%
 
 ---
 
@@ -48,7 +46,7 @@ ht-degree: 19%
    * **[!UICONTROL 列分隔符]**（文本格式）：指定在提取文件中用作列分隔符的字符。
    * **[!UICONTROL 字符串分隔符]**（文本格式）：指定如何在提取文件中分隔字符串。
    * **[!UICONTROL 行尾]** （文本格式）：指定提取文件中行尾的分隔方式。
-   * **[!UICONTROL 编码]**：选择提取文件的编码。
+   * **[!UICONTROL 编码]**：选择提取文件的编码。 默认编码为&#x200B;**Latin-1 (1252)**。 在创建以CJK语言（日语、韩语、简体中文、繁体中文）针对收件人的直邮投放时，请改为选择&#x200B;**UTF-8 (65001)**。 Latin-1不能表示CJK字符，将导致文件预览为空。
    * **[!UICONTROL 日期格式和分隔符]**：指定在提取文件中日期应如何格式化。
    * **[!UICONTROL 数字格式]**：指定如何在提取文件中设置数字的格式。
    * **[!UICONTROL 导出标签而不是枚举的内部值]**：如果导出枚举值并想要检索列标签（而不是内部ID），请打开此选项。
