@@ -15,7 +15,7 @@ ht-degree: 8%
 >id="acw_schema_detail_screen_configuration"
 >title="详细屏幕配置"
 >abstract="配置哪些自定义字段显示在详细信息屏幕中，并将它们整理到多个部分中。 添加收藏集列表以在配置文件屏幕中显示相关数据。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="添加收藏集列表"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="添加收藏集列表"
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
 
