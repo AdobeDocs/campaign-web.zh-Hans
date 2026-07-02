@@ -1,14 +1,21 @@
 ---
 title: 编辑自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1b531722-0935-4787-a673-60d97f776936
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
 # 编辑自定义字段 {#fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="详细屏幕配置"
+>abstract="配置哪些自定义字段显示在详细信息屏幕中，并将它们整理到多个部分中。 添加收藏集列表以在配置文件屏幕中显示相关数据。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="添加收藏集列表"
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
 
@@ -43,7 +50,7 @@ ht-degree: 5%
 可用设置包括：
 
 * **[!UICONTROL 属性]**：自定义字段的名称（只读）。
-* **[!UICONTROL 标签（自定义）]**：要在界面中显示的标签。 如果未提供标签，则将显示架构中定义的标签。
+* **[!UICONTROL 标签（自定义）]**：要在界面中显示的标签。 如果没有提供标签，就会显示架构中定义的标签。
 * **[!UICONTROL 如果]**&#x200B;可见：使用控制字段显示时间的xtk表达式定义条件。 例如，如果其他字段为空，则隐藏此字段。
 * **[!UICONTROL 必填]**：在界面中将字段设为必填。
 * **[!UICONTROL 只读]**：将接口中的字段设为只读。 用户将无法编辑该字段的值。

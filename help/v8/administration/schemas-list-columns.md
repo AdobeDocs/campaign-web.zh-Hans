@@ -1,14 +1,20 @@
 ---
 title: 配置默认列表列
 description: 了解如何配置在列表视图中默认显示的列。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
 # 配置列表列 {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="库存列表配置"
+>abstract="配置在列表视图中默认显示的列。 每列显示其标签和相应的属性。"
 
 **[!UICONTROL 清单列表配置]**&#x200B;部分允许您配置在列表视图中默认显示的列。 每列显示其标签和相应的属性。
 
