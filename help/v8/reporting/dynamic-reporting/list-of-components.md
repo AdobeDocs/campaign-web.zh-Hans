@@ -1,12 +1,12 @@
 ---
 title: 组件列表
-description: 在此处查找中可用的每个组件的列表     动态报告及其定义。
+description: 在此处查找动态报告中可用的每个组件的列表及其定义。
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
