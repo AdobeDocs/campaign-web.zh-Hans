@@ -5,7 +5,7 @@ exl-id: 1b531722-0935-4787-a673-60d97f776936
 source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_detail_screen_configuration"
->title="详细屏幕配置"
->abstract="配置哪些自定义字段显示在详细信息屏幕中，并将它们整理到多个部分中。 添加收藏集列表以在配置文件屏幕中显示相关数据。"
+>title="详细信息界面配置"
+>abstract="配置在详细信息界面中显示哪些自定义字段，并将它们整理到各个分区中。 在轮廓界面中添加收藏集列表，以显示相关数据。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hans" text="添加收藏集列表"
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
