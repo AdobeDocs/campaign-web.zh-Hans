@@ -5,7 +5,7 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="库存列表配置"
->abstract="配置在列表视图中默认显示的列。 每列显示其标签和相应的属性。"
+>abstract="配置列表视图中默认显示的列。 每列都显示其标签和相应的属性。"
 
-**[!UICONTROL 清单列表配置]**&#x200B;部分允许您配置在列表视图中默认显示的列。 每列显示其标签和相应的属性。
+**[!UICONTROL 清单列表配置]**&#x200B;部分允许您配置在列表视图中默认显示的列。 每列都显示其标签和相应的属性。
 
 有关屏幕定义屏幕以及如何对其进行访问的更多信息，请参阅[访问屏幕定义](schemas-browse-access.md#screen-def)部分。
 
