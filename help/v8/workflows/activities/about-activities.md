@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 19%
 ## 数据管理活动 {#data}
 
 这些活动专门用于操纵和丰富人口数据。
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="数据加载(RDBMS)活动"
+>abstract="**数据加载(RDBMS)**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用此活动将数据直接从外部关系数据库加载到工作流中，而无需切换到客户端控制台。 提取的数据可在整个工作流中使用，并可用于定位、扩充或进一步的数据处理。"
 
 * [提取文件](extract-file.md)：将数据从Adobe Campaign作为外部文件导出到另一个系统。
 * [加载文件](load-file.md)：使用存储在外部文件中的配置文件和数据。
