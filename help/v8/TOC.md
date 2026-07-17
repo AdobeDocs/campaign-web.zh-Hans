@@ -5,8 +5,9 @@ user-guide-description: Adobe Campaign Web 用户界面的产品文档。
 title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
-workflow-type: ht
+nudge: true
+source-git-commit: 293bf499d4021160420bd9698cecf594919de9c3
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
