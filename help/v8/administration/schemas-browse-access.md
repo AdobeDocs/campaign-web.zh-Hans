@@ -5,7 +5,7 @@ exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"
->title="针对数据的操作"
->abstract="配置可用于架构的详细信息和列表屏幕的操作。 启用&#x200B;**[!UICONTROL 只读]**&#x200B;以将详细信息屏幕设置为只读，并从列表中删除操作。 启用&#x200B;**[!UICONTROL 不允许删除]**&#x200B;以从详细信息和列表屏幕中删除删除操作。"
+>title="数据操作"
+>abstract="配置架构详细信息屏幕和列表屏幕中可用的操作。 启用&#x200B;**[!UICONTROL 只读]**&#x200B;后，可将详细信息屏幕设置为只读，并移除列表中的操作。 启用&#x200B;**[!UICONTROL 不允许删除]**&#x200B;后，可从详细信息屏幕和列表屏幕中移除删除操作。"
 
 可从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 架构]**&#x200B;菜单访问架构。
 
