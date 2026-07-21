@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
 source-wordcount: 611
-ht-degree: 2%
+ht-degree: 24%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript 代码"
->abstract="JavaScript代码是可重复使用的函数，可在多个工作流中使用，类似于库。 从该列表中，您可以创建、修改、复制或删除JavaScript代码。"
+>abstract="JavaScript 代码是可重复使用的函数，可像函数库一样在多个工作流中复用。 您可以在此列表中创建、修改、复制或删除 JavaScript 代码。"
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="创建 JavaScript 代码"
->abstract="为JavaScript代码定义命名空间、名称和标签，然后使用可用于条件和日期格式的预定义函数编写其内容。 创建后，无法修改命名空间和名称。"
+>abstract="为 JavaScript 代码定义命名空间、名称和标签，然后使用用于条件判断和日期格式设置的预定义函数编写代码内容。 创建后，命名空间和名称将无法修改。"
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
 >title="动态 JavaScript 页面"
->abstract="动态JavaScript页面(JSSP)允许您构建服务器端页面，在通过URL访问时生成动态内容，例如自定义API、导出或Web应用程序逻辑。 从该列表中，您可以创建、修改、复制或删除动态JavaScript页面。"
+>abstract="动态 JavaScript 页面 (JSSP) 可用于构建服务器端页面，当通过 URL 访问时生成动态内容，例如自定义 API、导出功能或 Web 应用程序逻辑。 您可以在此列表中创建、修改、复制或删除动态 JavaScript 页面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
->title="“创建动态JavaScript”页面"
->abstract="为动态JavaScript页面定义命名空间、名称和标签，然后使用JavaScript代码编写其内容。 创建后，无法修改命名空间和名称。"
+>title="创建动态 JavaScript 页面"
+>abstract="为动态 JavaScript 页面定义命名空间、名称和标签，然后使用 JavaScript 代码编写其内容。 创建后，命名空间和名称将无法修改。"
 
 ## 关于JavaScript代码 {#about}
 
