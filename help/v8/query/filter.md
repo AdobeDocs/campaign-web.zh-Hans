@@ -4,13 +4,11 @@ title: 过滤器列表
 description: 了解如何使用内置和自定义筛选器来筛选Adobe Campaign Web列表。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 365
 ht-degree: 1%
 
 ---
@@ -33,6 +31,10 @@ Adobe Campaign Web在每个对象列表中提供过滤器，使您能够根据�
 显示列表可用筛选器的![筛选器窗格](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 要根据您自己的条件筛选列表，请创建自定义筛选条件。 为此，请浏览到筛选器窗格的底部，然后单击&#x200B;**添加规则**&#x200B;按钮。 [了解如何创建自定义筛选器](#custom)。
+
+>[!NOTE]
+>
+>对于自定义架构，管理员可以将自己的快速访问字段添加到&#x200B;**添加规则**&#x200B;按钮上方的筛选器窗格中。 有关详细信息，请参阅[添加自定义筛选器](../administration/schemas-custom-filters.md)。
 
 筛选器应用于列表后，即可在搜索栏下方可见。 您可以随时删除单个筛选器，也可以通过单击&#x200B;**全部清除**&#x200B;按钮删除所有筛选器。
 

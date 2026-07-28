@@ -4,20 +4,22 @@ title: 在消息中添加优惠
 description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: 805
 ht-degree: 23%
 
 ---
 
 # 将产品建议添加到您的消息 {#offers-content}
 
-您可以在Adobe Campaign Web用户界面中将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。 所有这些选件都是只读的，必须在Campaign客户端控制台中使用&#x200B;**[!UICONTROL 交互]**&#x200B;模块创建。 有关交互以及如何管理控制台中的优惠目录的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
+您可以直接从Campaign Web UI将选件添加到投放。 这些选件可从&#x200B;**选件**&#x200B;左侧菜单获得，通过该菜单可访问选件列表。
+
+通过Campaign Web UI，您还可以直接创建和管理优惠环境、优惠空间和优惠，而无需切换到客户端控制台。 [了解详情](../offers/gs-offer-management.md)。
+
+有关高级配置，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hans){target="_blank"}。
 
 通过投放发送优惠的步骤如下：
 
@@ -46,7 +48,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
 1. 配置应向收件人推荐的产品建议。
 
-   首先，选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=zh-Hans){target="_blank"}以了解如何创建优惠空间。
+   首先，选择与您的优惠环境匹配的&#x200B;**[!UICONTROL 优惠空间]**。 在此[部分](../offers/offer-space.md)中了解如何直接从Campaign Web UI创建优惠空间。
 
    ![显示优惠创建内容中的优惠空间选择的屏幕截图](assets/offer-create-content.png){zoomable="yes"}
 
@@ -106,7 +108,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
    >[!NOTE]
    >
-   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}以了解详情。
+   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}以了解详情。
 
 1. 保存您的更改。
 

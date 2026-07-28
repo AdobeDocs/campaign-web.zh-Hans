@@ -3,16 +3,13 @@ title: 配置 [!DNL Campaign] 选项
 description: 了解如何配置Campaign选项和创建自己的自定义选项。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -41,7 +38,7 @@ Adobe Campaign Web包括技术选项，可让您更具体地配置应用程序�
 [在“管理”/“选项”菜单中显示的选项列表]
 
 >[!NOTE]
->尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
+>尽管选项菜单在Adobe Campaign控制台和Web用户界面中的位置不同，但该列表是相同的，其操作方式与镜像类似。 有关可用选项的更多详细信息，请参阅[Campaign v7文档](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的选项列表。
 
 从选项列表中，您可以：
 
@@ -83,3 +80,17 @@ Adobe Campaign Web用户界面允许您创建自定义选项以满足要求。 �
 1. 更新后的值现在显示在&#x200B;**[!UICONTROL 选项]**&#x200B;菜单中。
 
    ![显示自定义选项更新值的选项菜单](assets/options-sample-updated.png)
+
+## 限制投放的发件人电子邮件地址 {#restrict-sender-address}
+
+默认情况下，营销人员可以在电子邮件投放的&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;字段中键入任意地址。 若要将此字段限制为预定义的地址列表，请创建或编辑内置`NmsDelivery_senderAddressMask`选项，并将其值设置为允许的发件人地址逗号分隔列表，例如`abc@adobe.com,bcd@adobe.com`。
+
+![在“从”菜单中限制值的选项](assets/option-restrict-from.png)
+
+一旦此选项具有值，**[!UICONTROL 来自电子邮件]**&#x200B;字段就会成为仅包含这些地址的下拉列表，而不是自由文本字段。 如果选项不存在或其值为空，则字段将像之前一样保留自由文本。
+
+电子邮件中的![可用值](assets/option-restrict-from2.png)
+
+此限制是全局的。 它适用于每个品牌和投放模板，并且不支持个性化字段，仅支持静态地址。
+
+有关&#x200B;**[!UICONTROL 来自电子邮件]**&#x200B;字段的更多信息，请参阅[配置电子邮件内容](../email/edit-content.md#edit-content)。
