@@ -9,10 +9,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -83,3 +83,17 @@ Adobe Campaign Web用户界面允许您创建自定义选项以满足要求。 �
 1. 更新后的值现在显示在&#x200B;**[!UICONTROL 选项]**&#x200B;菜单中。
 
    ![显示自定义选项更新值的选项菜单](assets/options-sample-updated.png)
+
+## 限制投放的发件人电子邮件地址 {#restrict-sender-address}
+
+默认情况下，营销人员可以在电子邮件投放的&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;字段中键入任意地址。 若要将此字段限制为预定义的地址列表，请创建或编辑内置`NmsDelivery_senderAddressMask`选项，并将其值设置为允许的发件人地址逗号分隔列表，例如`abc@adobe.com,bcd@adobe.com`。
+
+![在“从”菜单中限制值的选项](assets/option-restrict-from.png)
+
+一旦此选项具有值，**[!UICONTROL 来自电子邮件]**&#x200B;字段就会成为仅包含这些地址的下拉列表，而不是自由文本字段。 如果选项不存在或其值为空，则字段将像之前一样保留自由文本。
+
+电子邮件中的![可用值](assets/option-restrict-from2.png)
+
+此限制是全局的。 它适用于每个品牌和投放模板，并且不支持个性化字段，仅支持静态地址。
+
+有关&#x200B;**[!UICONTROL 来自电子邮件]**&#x200B;字段的更多信息，请参阅[配置电子邮件内容](../email/edit-content.md#edit-content)。

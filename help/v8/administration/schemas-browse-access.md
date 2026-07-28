@@ -2,19 +2,14 @@
 title: 浏览和访问架构
 description: 了解如何在界面中浏览和访问架构。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 13%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
 # 访问和配置架构 {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="数据操作"
->abstract="配置架构详细信息屏幕和列表屏幕中可用的操作。 启用&#x200B;**[!UICONTROL 只读]**&#x200B;后，可将详细信息屏幕设置为只读，并移除列表中的操作。 启用&#x200B;**[!UICONTROL 不允许删除]**&#x200B;后，可从详细信息屏幕和列表屏幕中移除删除操作。"
 
 可从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 架构]**&#x200B;菜单访问架构。
 
@@ -65,5 +60,7 @@ ht-degree: 13%
 从屏幕定义中，您可以：
 
 * [配置默认列表列](schemas-list-columns.md) — 配置在列表视图中默认显示的列。
+* [添加自定义筛选器](schemas-custom-filters.md) — 在列表视图的筛选器窗格中添加快速访问筛选器字段。
 * [编辑自定义字段](schemas-custom-fields.md) — 配置哪些自定义字段在详细信息屏幕中显示并将它们整理到多个部分中。
 * [添加收藏集列表](schemas-collection-lists.md) — 添加收藏集列表以在配置文件屏幕中显示相关数据。
+* [控制对数据的操作](schemas-action-data.md) — 限制自定义架构的创建、编辑和删除操作。

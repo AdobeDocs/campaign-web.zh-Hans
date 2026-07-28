@@ -6,10 +6,10 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 44%
+source-wordcount: 366
+ht-degree: 43%
 
 ---
 
@@ -30,34 +30,29 @@ ht-degree: 44%
 
 * 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。 在可从左窗格访问的导航树中选择正文设置。
 
-  [设置整个电子邮件正文的背景颜色，可通过导航树进行访问。]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![设置整个电子邮件正文的背景颜色，可通过导航树进行访问。](assets/background_1.png){zoomable="yes"}
 
 * 通过选择&#x200B;**[!UICONTROL 视口背景颜色]**&#x200B;来为所有结构组件设置同一背景颜色。 此选项允许您从背景颜色中选择不同的设置。
 
-  [使用视区背景颜色选项为所有结构组件设置统一的背景颜色。]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![使用视区背景颜色选项为所有结构组件设置统一的背景颜色。](assets/background_2.png){zoomable="yes"}
 
 * 为每个结构组件设置不同的背景颜色。 在左侧窗格的导航树中选择一个结构，以仅将特定的背景颜色应用于该结构。
 
-  [通过导航树将唯一的背景颜色应用于各个结构组件。]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![通过导航树将唯一的背景颜色应用于各个结构组件。](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >请确保未设置视区背景颜色，因为它可能会隐藏结构背景颜色。
 
-* 设置结构组件的内容的&#x200B;**[!UICONTROL 背景图像]**。
+* 设置结构组件的内容的&#x200B;**[!UICONTROL 背景图像]**。 使用&#x200B;**[!UICONTROL 选择资产]**、**[!UICONTROL 导入媒体]**&#x200B;或&#x200B;**[!UICONTROL 导入公共资源]**&#x200B;来选择图像。 [了解详情](content-components.md#image)
 
-  [将背景图像添加到特定结构组件的内容中。]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![将背景图像添加到特定结构组件的内容中。](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >某些电子邮件程序不支持背景图像。 不支持时，将改用行背景颜色。 选择适当的回退背景颜色，以防图像无法显示。
 
 * 在列级别设置背景颜色。
 
-  [在列级别应用背景颜色以获得更大的灵活性。]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![在列级别应用背景颜色以获得更大的灵活性。](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时可以更加灵活。

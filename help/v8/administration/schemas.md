@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 33%
+source-wordcount: 348
+ht-degree: 30%
 
 ---
 
@@ -48,8 +48,10 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 
 * [访问和自定义架构](schemas-browse-access.md) — 查看可用的架构，浏览其详细信息并自定义屏幕显示
 * [配置列表列](schemas-list-columns.md) — 配置在列表视图中默认显示的列。
+* [添加自定义筛选器](schemas-custom-filters.md) — 在列表视图的筛选器窗格中添加快速访问筛选器字段。
 * [编辑自定义字段](schemas-custom-fields.md) — 配置哪些自定义字段在详细信息屏幕中显示并将它们整理到多个部分中。
 * [添加收藏集列表](schemas-collection-lists.md) — 添加收藏集列表以在配置文件屏幕中显示相关数据。
+* [控制对数据的操作](schemas-action-data.md) — 限制自定义架构的创建、编辑和删除操作。
 * [创建和管理架构](schemas-create-publish.md#create-schemas) — 创建新架构并扩展现有架构
 * [发布并同步架构](schemas-create-publish.md#publish) — 同步架构更改与数据库结构。
 * [使用自定义表单](schemas-custom-forms.md) — 使用数据输入表单在自定义架构中创建、编辑和管理记录。

@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 24%
+source-wordcount: 535
+ht-degree: 13%
 
 ---
 
@@ -26,16 +26,6 @@ ht-degree: 24%
 >id="acw_javascript_codes_create"
 >title="创建 JavaScript 代码"
 >abstract="为 JavaScript 代码定义命名空间、名称和标签，然后使用用于条件判断和日期格式设置的预定义函数编写代码内容。 创建后，命名空间和名称将无法修改。"
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_list"
->title="动态 JavaScript 页面"
->abstract="动态 JavaScript 页面 (JSSP) 可用于构建服务器端页面，当通过 URL 访问时生成动态内容，例如自定义 API、导出功能或 Web 应用程序逻辑。 您可以在此列表中创建、修改、复制或删除动态 JavaScript 页面。"
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_create"
->title="创建动态 JavaScript 页面"
->abstract="为动态 JavaScript 页面定义命名空间、名称和标签，然后使用 JavaScript 代码编写其内容。 创建后，命名空间和名称将无法修改。"
 
 ## 关于JavaScript代码 {#about}
 

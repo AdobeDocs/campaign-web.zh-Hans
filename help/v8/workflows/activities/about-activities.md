@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 26%
+source-wordcount: 597
+ht-degree: 19%
 
 ---
 
@@ -52,11 +52,7 @@ ht-degree: 26%
 
 这些活动专门用于操纵和丰富人口数据。
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="数据加载 (RDBMS) 活动"
->abstract="**数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动可直接将外部关系型数据库中的数据加载到工作流中，而无需切换到客户端控制台。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。"
-
+* [数据加载(RDBMS)](data-loading-rdbms.md)：将数据直接从外部关系数据库加载到您的工作流中。
 * [提取文件](extract-file.md)：将数据从Adobe Campaign作为外部文件导出到另一个系统。
 * [加载文件](load-file.md)：使用存储在外部文件中的配置文件和数据。
 * [传输文件](transfer-file.md)：接收或发送文件、测试文件是否存在或列出服务器上的文件。 使用的协议可以是服务器到服务器协议，也可以是 HTTP 协议。

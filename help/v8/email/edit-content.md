@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 36%
+source-wordcount: 728
+ht-degree: 35%
 
 ---
 
@@ -76,6 +76,10 @@ ht-degree: 36%
    >[!NOTE]
    >
    >您可以更改“@”之前的部分，但不能更改域地址。
+
+   >[!NOTE]
+   >
+   >管理员可以将此字段限制为发件人地址的预定义列表。 在这种情况下，请从下拉列表中选择一个地址，而不是键入该地址。 [了解详情](../administration/options.md#restrict-sender-address)
 
 1. 展开&#x200B;**[!UICONTROL 回复字段]**&#x200B;部分。 默认情况下，答复使用发件人姓名和地址。 但是，Adobe建议使用现有的真实地址，例如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
 

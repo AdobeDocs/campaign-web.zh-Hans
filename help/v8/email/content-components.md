@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 34%
+source-wordcount: 1517
+ht-degree: 30%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 34%
    * **[!UICONTROL 创建列表]**：在文本中添加项目符号或编号列表。
    * **[!UICONTROL 设置标题]**：向文本添加最多六个标题级别。
    * **字体大小**：选择文本的字体大小（以像素为单位）。
-   * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。
+   * **[!UICONTROL 编辑图像]**：从Adobe Experience Manager Assets库或计算机将图像添加到文本组件，或重用Adobe Campaign实例上可用的图像。 [了解详情](#image)
    * **[!UICONTROL 显示源代码]**：显示文本的源代码。 不能修改。
    * **[!UICONTROL 复制]**：添加文本组件的副本。
    * **[!UICONTROL 删除]**：从电子邮件中删除选定的文本组件。
@@ -153,27 +153,53 @@ ht-degree: 34%
 
 ## 图像 {#image}
 
->[!IMPORTANT]
->
->Assets菜单的访问仅限于拥有有效Adobe Experience Manager as a Cloud Service许可证的用户。 如果您没有此许可证，则 Assets 菜单将不可用。
-
-使用&#x200B;**[!UICONTROL Image]**&#x200B;组件将图像文件从您的计算机插入到您的电子邮件中。
+使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件将图像插入到您的电子邮件中。
 
 1. 从&#x200B;**[!UICONTROL Content]**&#x200B;菜单中，将&#x200B;**[!UICONTROL Image]**&#x200B;拖放到&#x200B;**[!UICONTROL Structure]**&#x200B;组件中。
 
    ![显示如何在Email Designer中拖放图像组件的屏幕快照。](assets/email_designer_9.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;从资源中选择图像文件。 您还可以选择&#x200B;**[!UICONTROL 导入您的媒体]**。
+1. 选择下列选项之一来添加图像：
+
+   ![显示Email Designer中图像组件选项的屏幕截图。](assets/email_designer_28.png){zoomable="yes"}
+
+   +++**[!UICONTROL 浏览]**
+
+   选择此选项可从Adobe Experience Manager Assets库中选择图像。
+
+   >[!IMPORTANT]
+   >
+   >此选项需要有效的Adobe Experience Manager as a Cloud Service许可证。
+
+   在文件夹中导航以找到所需的特定资源，或使用搜索栏高效地找到所需资源。 找到资产后，单击&#x200B;**[!UICONTROL 选择]**。
+
+   ![显示Email Designer中的资源选择过程的屏幕截图。](assets/email_designer_29.png){zoomable="yes"}
 
    要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hans)。
 
-   ![显示Email Designer中图像组件的浏览选项的屏幕快照。](assets/email_designer_28.png){zoomable="yes"}
+   +++
 
-1. 在文件夹中导航以找到所需的特定资源，或使用搜索栏高效地找到所需资源。
+   +++**[!UICONTROL 导入]**
 
-   找到要查找的资源后，单击&#x200B;**[!UICONTROL 选择]**。
+   选择此选项可从计算机上传新映像。 该文件将作为公共资源上传到Adobe Campaign实例上。
 
-   ![显示Email Designer中的资源选择过程的屏幕截图。](assets/email_designer_29.png){zoomable="yes"}
+   +++
+
+   +++**[!UICONTROL 导入公共资源]**
+
+   选择此选项以选择您的Adobe Campaign实例上已可用的图像，例如之前在Email Designer中导入的文件或作为客户端控制台中的公共资源。
+
+   ![显示Email Designer中公共资源选择过程的屏幕截图。](assets/email_designer_30.png){zoomable="yes"}
+
+   按名称搜索资源。 您还可以使用筛选器并重新组织列。
+
+   >[!NOTE]
+   >
+   >安全约束与Client Console中的相同：根据用户权限，您只能选择您有权访问的资源。
+
+   选择资源，然后单击&#x200B;**[!UICONTROL 确认]**。
+
+   +++
 
 1. 单击新添加的组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡设置图像属性：
 

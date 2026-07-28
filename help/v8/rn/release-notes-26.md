@@ -2,16 +2,37 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # 2026 年发行说明 {#2026-release}
 
 本页列出了 **2026 年版本**&#x200B;的所有变更和改进。 最新发行说明可在[此页面](release-notes.md)查看。
+
+## 2026 年 6 月版本 {#26-6-release}
+
+_2026 年 6 月 16 日_
+
+### 改进 {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* 您现在可以从任何列表界面（包括跟踪日志）导出数据。 找到您的列表，然后只需点击导出按钮即可。 导出包括当前加载的行，并会根据屏幕上显示的列以及任何正在进行的搜索或过滤器进行调整。 [了解详情](../get-started/list-filters.md)
+
+* **重复数据删除**&#x200B;和&#x200B;**终止**&#x200B;工作流活动现在支持多个入站过渡。 当有多个集客过渡可用时，请使用活动中的&#x200B;**集加入**&#x200B;部分
+属性，用于选择要连接的过渡。 请参阅以下页面了解更多信息：[重复数据删除](../workflows/activities/deduplication.md)、[终止](../workflows/activities/end.md)
+
+* 高级参数现已显示在&#x200B;**扩充数据**&#x200B;部分，该部分在&#x200B;**构建受众**（查询类型）和&#x200B;**扩充**&#x200B;工作流活动中。 这些参数可让您对扩充数据的构建方式进行精细调整，包括分组、重复数据删除、主键处理以及入站事件数据。 [了解详情](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## 2026 年 4 月版本 {#26-4-release}
 
@@ -117,7 +138,7 @@ _2026 年 4 月 29 日_
 
 ### 改进 {#26-3-improvements}
 
-* 新增了&#x200B;**开始**工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
+* 新增了&#x200B;**开始**&#x200B;工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)
 
@@ -219,10 +240,12 @@ _2026 年 1 月 27 日_
 <tbody>
 <tr>
 <td>
-<p>多语言投放功能现已面向所有客户正式发布（GA）。该功能允许您在 Adobe Campaign Web 用户界面中发送多种语言的消息。您可以选择投放的默认语言，以及可以发送投放的不同语言。您还可以预览所选语言的投放。<p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
+<p>多语言投放功能现已面向所有客户正式发布（GA）。该功能允许您在 Adobe Campaign Web 用户界面中发送多种语言的消息。您可以选择投放的默认语言，以及可以发送投放的不同语言。您还可以预览所选语言的投放。 
+<p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
 <p>多语言推送已进行以下改进：</p>
 <ul>
-<li>现在，您可以通过上传包含多语言内容的 CSV 文件，快速填充所有语言变体。<a href="../msg/multilingual.md#csv-upload">阅读更多</a></li>
+<li>现在，您可以通过上传包含多语言内容的 CSV 文件，快速填充所有语言变体。<a href="../msg/multilingual.md#csv-upload">阅读更多</a>
+</li>
 <li>现已支持富媒体推送。</li>
 </td>
 </tr>
