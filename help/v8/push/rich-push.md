@@ -4,8 +4,10 @@ title: 设计富推送通知投放
 description: 了解如何使用Adobe Campaign Web设计Android富推送通知投放
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 TQID: https://experienceleague.adobe.com/QhjmtA9msOTTN5RmYg8a7pE-zY02c4H-aDk5EtStRgg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 3472
@@ -151,7 +153,7 @@ ht-degree: 3%
 
 1. 选择添加到&#x200B;**[!UICONTROL 点击操作]**&#x200B;字段的URL的&#x200B;**[!UICONTROL 链接类型]**：
 
-   * **[!UICONTROL Web UR]**L： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
+   * **[!UICONTROL Web UR]**&#x200B;L： Web URL可将用户指引到在线内容。 单击后，它们将提示设备的默认Web浏览器打开并导航到指定的URL。
 
    * **[!UICONTROL 深层链接]**：深层链接是指引导用户访问应用程序内特定部分的URL，即使应用程序已关闭也是如此。 单击时，会显示一个对话框，允许用户从能够处理链接的各种应用程序中进行选择。
 
@@ -329,7 +331,7 @@ ht-degree: 3%
 
 1. 若要进一步个性化您的推送通知，您可以选择要添加到推送通知的&#x200B;**[!UICONTROL 图像]** URL，以及要在用户档案设备上显示的通知的&#x200B;**[!UICONTROL 图标]**。
 
-1. 添加处于未选择状态的&#x200B;**[!UICONTROL 评级图标]**&#x200B;和处于选定状态&#x200B;]**URL的**[!UICONTROL &#x200B;评级图标。
+1. 添加处于未选择状态的&#x200B;**[!UICONTROL 评级图标]**&#x200B;和处于选定状态&#x200B;**URL的**&#x200B;评级图标。
 
    ![](assets/rich_push_rating_3.png)
 

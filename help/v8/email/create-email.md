@@ -4,8 +4,11 @@ title: 发送您的第一封电子邮件
 description: 了解如何使用Campaign Web用户界面发送您的第一封电子邮件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 TQID: https://experienceleague.adobe.com/3pZPhEZkXmt4Ma9klxulMH8SB0G-e-RuNL-nwqcgo-8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1695
@@ -168,7 +171,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节](#content-simulation-limitations)中详细介绍了[的限制。
+   >**[!UICONTROL 模拟内容]**&#x200B;按钮在特定上下文中已禁用。 本节[&#128279;](#content-simulation-limitations)中详细介绍了的限制。
 
 1. 在左侧，选择要用于预览电子邮件的轮廓。
 
@@ -180,7 +183,7 @@ ht-degree: 44%
 
 1. 若要发送校样，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后选择要使用的模式。
 
-   在此示例中，使用主目标&#x200B;]**模式中的**[!UICONTROL &#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
+   在此示例中，使用主目标&#x200B;**模式中的**&#x200B;替换，该模式将验证发送到特定电子邮件地址，同时模拟电子邮件所定向的某些用户档案。
 
    ![显示校样发送模式选择的屏幕快照](assets/proof-mode.png){zoomable="yes"}
 
