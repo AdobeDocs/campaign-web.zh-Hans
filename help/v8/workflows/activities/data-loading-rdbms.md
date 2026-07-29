@@ -3,10 +3,8 @@ audience: end-user
 title: 使用数据加载(RDBMS)工作流活动
 description: 了解如何使用数据加载(RDBMS)工作流活动
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
@@ -24,7 +22,7 @@ ht-degree: 12%
 **数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动将数据直接从外部关系数据库加载到工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]
