@@ -175,10 +175,10 @@ ht-degree: 18%
   ![显示事务性消息配置页面的屏幕截图。](assets/transactional-configuration.png){zoomable="yes"}
 
   将消息的配置作为模板进行填写：
-   * [交易型消息属性](#transactional-properties)
-   * [上下文示例](#context-sample)
-   * [消息内容](#transactional-content)
-和[配置事件类型](#event-type)，如下所述。
+  * [交易型消息属性](#transactional-properties)
+  * [上下文示例](#context-sample)
+  * [消息内容](#transactional-content)
+    和[配置事件类型](#event-type)，如下所述。
 
 * 在[验证事务型消息](validate-transactional.md)后，单击&#x200B;**[!UICONTROL 查看和发布]**&#x200B;按钮创建和发布消息。 触发器现在可以推送事务型消息的发送。
 

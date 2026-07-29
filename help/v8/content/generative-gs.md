@@ -111,7 +111,7 @@ AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的�
 * 上传的品牌资产的最大大小为50MB。 较大的文件或大量的图像可能会增加处理时间。
 * 使用[内置电子邮件模板](../content/create-email-templates.md)、品牌特定模板或自定义模板通过AI助手创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
 * 在选择变体时，使用拇指上移、拇指下移或标记图标报告任何有问题的输出。
-* 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+* 您对AI Assistant的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)。
 
 以下限制适用于Adobe Campaign Web中的AI助手：

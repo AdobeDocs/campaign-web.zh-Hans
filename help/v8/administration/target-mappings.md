@@ -105,16 +105,16 @@ ht-degree: 11%
 
   显示日志表选项的![存储部分](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL 消息架构]**：标识用于存储发送日志的架构。
-   * **[!UICONTROL 排除的邮件]**：指定如何管理投放和排除日志存储。
+  * **[!UICONTROL 消息架构]**：标识用于存储发送日志的架构。
+  * **[!UICONTROL 排除的邮件]**：指定如何管理投放和排除日志存储。
 
-      * **[!UICONTROL 将排除项和消息存储在同一个表中]**
-      * **[!UICONTROL 仅存储邮件]**：不存储排除项。
-      * **[!UICONTROL 将排除项和消息存储在单独的表中]**：选择要在&#x200B;**[!UICONTROL 拒绝架构]**&#x200B;字段中存储排除日志的架构。
+    * **[!UICONTROL 将排除项和消息存储在同一个表中]**
+    * **[!UICONTROL 仅存储邮件]**：不存储排除项。
+    * **[!UICONTROL 将排除项和消息存储在单独的表中]**：选择要在&#x200B;**[!UICONTROL 拒绝架构]**&#x200B;字段中存储排除日志的架构。
 
-   * **[!UICONTROL 跟踪日志]**：选择存储跟踪日志和默认流量源的位置。
-   * **[!UICONTROL 附加字段]**：指定要存储在投放日志中的附加字段列表。 这些字段可以永久存储有关目标的单个成员（例如`recipient/@firstName`）的信息或存储工作流期间计算的附加数据（例如`[targetData/@offeCode]`）。
+  * **[!UICONTROL 跟踪日志]**：选择存储跟踪日志和默认流量源的位置。
+  * **[!UICONTROL 附加字段]**：指定要存储在投放日志中的附加字段列表。 这些字段可以永久存储有关目标的单个成员（例如`recipient/@firstName`）的信息或存储工作流期间计算的附加数据（例如`[targetData/@offeCode]`）。
 
-     为此，请选择&#x200B;**[!UICONTROL 添加字段]**。 确定要保存在&#x200B;**[!UICONTROL Source]**&#x200B;字段中的信息，以及发送日志中用于将此信息保存在&#x200B;**[!UICONTROL 目标]**&#x200B;字段中的属性。
+    为此，请选择&#x200B;**[!UICONTROL 添加字段]**。 确定要保存在&#x200B;**[!UICONTROL Source]**&#x200B;字段中的信息，以及发送日志中用于将此信息保存在&#x200B;**[!UICONTROL 目标]**&#x200B;字段中的属性。
 
-     ![显示存储额外数据的选项的其他字段部分](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![显示存储额外数据的选项的其他字段部分](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

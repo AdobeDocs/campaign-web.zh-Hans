@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 自定义渠道入门
+title: 开始使用自定义渠道
 description: 了解如何使用Adobe Campaign Web创建和发送自定义渠道投放
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
@@ -11,11 +11,11 @@ topic_v2:
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 740
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 自定义渠道入门 {#gs-custom-channel}
+# 开始使用自定义渠道 {#gs-custom-channel}
 
 您可以直接从Adobe Campaign Web UI根据与第三方集成的自定义渠道编排和执行投放。 自定义渠道的配置在客户端控制台中执行。
 

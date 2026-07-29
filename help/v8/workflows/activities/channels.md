@@ -38,13 +38,13 @@ ht-degree: 40%
 
 * 在插入渠道活动之前，请定义受众。 受众是投放的主要目标：接收消息的用户档案。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，而是在专用活动中进行定义，例如：
 
-   * **生成受众**&#x200B;活动。 [了解详情](build-audience.md)。
+  * **生成受众**&#x200B;活动。 [了解详情](build-audience.md)。
 
-     ![在工作流中添加投放的屏幕截图](../../msg/assets/add-delivery-in-wf.png)
+    ![在工作流中添加投放的屏幕截图](../../msg/assets/add-delivery-in-wf.png)
 
-   * **加载文件**&#x200B;活动，后跟&#x200B;**协调**&#x200B;活动。 [了解详情](load-file.md)。
+  * **加载文件**&#x200B;活动，后跟&#x200B;**协调**&#x200B;活动。 [了解详情](load-file.md)。
 
-     ![显示工作流协调条件的屏幕截图](../assets/workflow-reconciliation-criteria.png)
+    ![显示工作流协调条件的屏幕截图](../assets/workflow-reconciliation-criteria.png)
 
 * 要发送定期投放，请使用&#x200B;**调度程序**&#x200B;活动启动工作流。 对一次性投放使用&#x200B;**调度程序**&#x200B;活动来设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
 

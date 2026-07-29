@@ -264,16 +264,16 @@ For example:
 
 * 确保您的CSS不会被其他CSS规则覆盖。
 
-   * 使用浏览器开发人员工具检查内容，并验证CSS是否针对正确的选择器。
+  * 使用浏览器开发人员工具检查内容，并验证CSS是否针对正确的选择器。
 
-   * 考虑将`!important`添加到声明以确保它们优先。
+  * 考虑将`!important`添加到声明以确保它们优先。
 
-     +++ 例如：
+    +++ 例如：
 
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
 
-     +++
+    +++

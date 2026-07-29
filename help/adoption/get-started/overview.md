@@ -67,14 +67,14 @@ ht-degree: 29%
 
   Adobe Campaign v8利用高级云级数据库技术，从而显着提高性能和效率。 此重新设计的架构可提供几个主要优势：
 
-   * *缩放*：系统现在支持处理能力的大幅提高，批处理吞吐量达到每小时&#x200B;**20百万次操作**。 使用这种新架构，可以管理更高的配置文件，并提供可预测的性能。
-   * *速度*：系统已针对任何营销活动得到改进：事务性消息的分段、投放准备或吞吐量，现在为每小时&#x200B;**1百万**。
+  * *缩放*：系统现在支持处理能力的大幅提高，批处理吞吐量达到每小时&#x200B;**20百万次操作**。 使用这种新架构，可以管理更高的配置文件，并提供可预测的性能。
+  * *速度*：系统已针对任何营销活动得到改进：事务性消息的分段、投放准备或吞吐量，现在为每小时&#x200B;**1百万**。
 
   完全托管的云服务为用户提供：
 
-   * 实时数据探索：即时访问和分析数据，以实现快速见解和更明智的决策。
+  * 实时数据探索：即时访问和分析数据，以实现快速见解和更明智的决策。
 
-   * 快速构建受众：在几分钟内轻松创建目标受众，以实现更高效的活动分段。
+  * 快速构建受众：在几分钟内轻松创建目标受众，以实现更高效的活动分段。
 
   总体而言，Adobe Campaign v8强大的架构为以更快的速度和效率管理广泛而复杂的营销活动提供了强大的基础。
 
@@ -92,9 +92,9 @@ ht-degree: 29%
 
   您可以根据客户的系统定制通知：
 
-   * 对于[Android](../../v8/push/rich-push.md)模板
+  * 对于[Android](../../v8/push/rich-push.md)模板
 
-   * 对于[iOs](../../v8/push/rich-push.md)模板
+  * 对于[iOs](../../v8/push/rich-push.md)模板
 
   推送通知是吸引移动应用程序用户的重要工具，即使用户未主动使用您的应用程序，您也可以通过推送通知联系他们。
 
@@ -104,13 +104,13 @@ ht-degree: 29%
 
   以下是此集成启用的主要功能：
 
-   * *资源管理*：在Adobe Campaign v8中，电子邮件设计器提供了一个用于访问和管理资源的选取器。 此功能简化了将Adobe Experience Manager中的元素集成到交付中的过程，提高了内容管理的效率。 [了解有关资产管理的更多信息](../../v8/integrations/aem-assets.md)
+  * *资源管理*：在Adobe Campaign v8中，电子邮件设计器提供了一个用于访问和管理资源的选取器。 此功能简化了将Adobe Experience Manager中的元素集成到交付中的过程，提高了内容管理的效率。 [了解有关资产管理的更多信息](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *电子邮件模板导入*： Adobe Campaign v8允许您浏览电子邮件模板，并将其从Adobe Experience Manager直接导入Campaign。 [了解有关电子邮件模板导入的更多信息](../../v8/integrations/aem-content.md)
+  * *电子邮件模板导入*： Adobe Campaign v8允许您浏览电子邮件模板，并将其从Adobe Experience Manager直接导入Campaign。 [了解有关电子邮件模板导入的更多信息](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service提供了云原生的敏捷性，使您能够加快实现价值并适应不断变化的业务需求。 此集成不仅增强了您的内容管理功能，还允许您在所有接触点上向客户提供更加个性化和引人入胜的体验。
 

@@ -5,12 +5,12 @@ description: 了解如何使用加入工作流活动
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 38%
+source-wordcount: '473'
+ht-degree: 39%
 
 ---
 
-# Join {#join}
+# 连接 {#join}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
@@ -25,10 +25,10 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="Join 活动"
->abstract="**Join** 活动允许您合并多个集客过渡。 选择在所有集客过渡完成后继续 (AND) 还是在任何集客过渡完成后继续 (OR)。"
+>title="连接活动"
+>abstract="**连接**&#x200B;活动允许您合并多个入站过渡。 选择是否在完成所有入站过渡后继续 (AND)，或是否在完成任何入站过渡后继续 (OR)。"
 
-**加入**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它同步工作流的多个执行分支。
+**加入**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。它同步工作流的多个执行分支。
 您可以选择评估集客过渡的方式：
 
 * **AND**：仅在激活所有选定的集客过渡后继续。
@@ -38,12 +38,12 @@ ht-degree: 38%
 
 选择&#x200B;**或**&#x200B;后，只要激活其中一个选定的集客过渡，就会立即继续执行。 它不会等待每一个分支。
 
-## 配置 Join 活动 {#join-configuration}
+## 配置连接活动 {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="合并选项"
->abstract="选择您要参加的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
+>abstract="选择您要连接的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的入站过渡群体。"
 
 按照以下步骤配置&#x200B;**加入**&#x200B;活动：
 

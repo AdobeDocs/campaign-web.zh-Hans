@@ -1,10 +1,11 @@
 ---
 title: 添加收藏集列表
 description: 了解如何添加收藏集列表以在配置文件屏幕中显示相关数据。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 

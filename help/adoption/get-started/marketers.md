@@ -201,8 +201,8 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 * **正在计划** — 您可以设置发送消息的日期和确切时间。 通过选择最适合您的营销消息的时间，可尽量提高打开率。
 
-   * 了解如何[计划独立投放](../../v8/msg/gs-deliveries.md#gs-schedule)
-   * 了解如何[在工作流中计划投放](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
+  * 了解如何[计划独立投放](../../v8/msg/gs-deliveries.md#gs-schedule)
+  * 了解如何[在工作流中计划投放](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
 * **添加优惠** — 您可以在Adobe Campaign Web用户界面中将优惠添加到投放。 这些选件可从左侧选件菜单中获取，通过该菜单可访问选件列表。  了解如何[将优惠添加到您的消息](../../v8/msg/offers.md)
 

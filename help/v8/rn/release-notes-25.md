@@ -19,7 +19,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3032
 ht-degree: 100%
 
@@ -526,13 +526,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 登陆页面进行了以下改进：
 
-   * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
-   * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
-   * 您可以将着陆页面链接至某项服务，并在用户验证该页面时发送确认消息。 [了解详情](../landing-pages/lp-content.md#lp-message)
-   * 您可以添加验证码，以防止机器人引发的垃圾信息和滥用行为，从而保护您的着陆页面。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。 [了解详情](../landing-pages/create-lp.md#captcha)
+  * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
+  * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
+  * 您可以将着陆页面链接至某项服务，并在用户验证该页面时发送确认消息。 [了解详情](../landing-pages/lp-content.md#lp-message)
+  * 您可以添加验证码，以防止机器人引发的垃圾信息和滥用行为，从而保护您的着陆页面。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。 [了解详情](../landing-pages/create-lp.md#captcha)
 
 ## 2025 年 6 月版本 {#25-6-release}
 
@@ -548,9 +548,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 规则构建器中的“人工条件”功能已得到优化。 这是您规则的书面简明语言版本，显示在屏幕底部：
 
-   * 属性现在会高亮显示，并会展示其关联的架构。
-   * 您可以点击这些元素以查看更详细的信息。
-   * 您现在可以使用相应的按钮复制“人工条件”内容。
+  * 属性现在会高亮显示，并会展示其关联的架构。
+  * 您可以点击这些元素以查看更详细的信息。
+  * 您现在可以使用相应的按钮复制“人工条件”内容。
 
 * 为防止查看，“技术工作流”和“自动创建的对象”文件夹的访问权限现已受到限制。 [了解详情](../get-started/work-with-folders.md#about-folders)
 
@@ -872,10 +872,10 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * 定制界面中自定义字段的显示：
 
-   * 您现在可以选择在界面中显示其他自定义字段
-   * 现在，您可以设置显示链接类型自定义字段的规则，例如根据另一个字段的输入限制列表值
-   * 现在，您可以更灵活地排列界面中的字段：字段可以跨越单个列，也可以分组到子部分中以更好地组织
-   * 现在，您可以将特定字段设置为只读
+  * 您现在可以选择在界面中显示其他自定义字段
+  * 现在，您可以设置显示链接类型自定义字段的规则，例如根据另一个字段的输入限制列表值
+  * 现在，您可以更灵活地排列界面中的字段：字段可以跨越单个列，也可以分组到子部分中以更好地组织
+  * 现在，您可以将特定字段设置为只读
 
 * 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹中。 这可以确保它们在未来的任务中易于访问。 除了收藏夹，您还可以查看和使用最近选择的属性。
 

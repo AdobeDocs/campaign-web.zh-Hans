@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2946
+source-wordcount: 2867
 ht-degree: 7%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
+>提供了全新的查询建模器界面。新的规则生成器简化了界面，让您能够更轻松地构建查询。要切换到此体验，请按右上角的切换按钮。您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面切换的图像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 可添加两种类型的元素：
 

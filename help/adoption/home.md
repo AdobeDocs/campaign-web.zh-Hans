@@ -54,7 +54,7 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 了解管理员/开发人员用户在Adobe Campaign Standard和Adobe Campaign v8之间的体验差异。
 
-[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
+[![图像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
 
 >[!ENDTABS]
 

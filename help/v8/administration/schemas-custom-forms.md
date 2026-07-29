@@ -1,10 +1,11 @@
 ---
 title: 使用自定义表单
 description: 了解如何使用数据输入表单在自定义架构中创建、编辑和管理记录。
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ![自定义表单](assets/schemas-forms3.png)
 
-列表视图显示该架构的所有记录。 如果架构配置了表单定义，则列表是可编辑的，您可以创建、编辑和删除记录。
+列表视图显示该架构的所有记录。如果架构配置了表单定义，则列表是可编辑的，您可以创建、编辑和删除记录。
 ![自定义表单](assets/schemas-forms4.png)
 
 然后，您可以：
