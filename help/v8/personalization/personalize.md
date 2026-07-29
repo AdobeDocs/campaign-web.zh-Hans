@@ -8,14 +8,10 @@ role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 TQID: https://experienceleague.adobe.com/j6PlnXc9WwgLcXPJVHxBWvnbJLMzdJ6inWZP3G--Ejw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 659
@@ -63,7 +59,7 @@ Personalization标记遵循特定语法： `<%= table.field %>`。 例如，要�
    | 菜单 | 说明 |
    |------|-------------|
    | ![订阅者应用程序菜单图标](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | **[!UICONTROL 订阅者应用程序]**&#x200B;菜单列出了与应用程序的订阅者相关的字段，例如使用的终端或操作系统。 *此菜单仅适用于推送通知。* |
-   | ![收件人菜单图标](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件人]**&#x200B;菜单列出了在收件人表中定义的字段，如收件人的姓名、年龄或地址。 当从外部文件[&#128279;](../audience/file-audience.md)上载独立电子邮件投放的联系人时，此菜单列出输入文件中所有可用的字段。 |
+   | ![收件人菜单图标](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件人]**&#x200B;菜单列出了在收件人表中定义的字段，如收件人的姓名、年龄或地址。 当从外部文件](../audience/file-audience.md)上载独立电子邮件投放的联系人时[，此菜单列出输入文件中所有可用的字段。 |
    | ![消息菜单图标](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | **[!UICONTROL 消息]**&#x200B;菜单列出了与投放日志相关的字段，包括跨所有渠道发送到收件人或设备的所有消息，如与给定收件人的上次事件的日期。 |
    | ![传递菜单图标](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | **[!UICONTROL 投放]**&#x200B;菜单列出了与执行投放所需的参数相关的字段，如投放渠道或标签。 |
 

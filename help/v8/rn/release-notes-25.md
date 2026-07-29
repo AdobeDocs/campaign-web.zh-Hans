@@ -3,23 +3,12 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2025 Campaign Web 用户界面发布
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3032
 ht-degree: 100%
 
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -436,7 +425,7 @@ table>
 <tr>
 <td>
 <p>您现在可以使用动态报告功能，该功能提供完全可自定义的实时报告，以衡量您的营销活动成效。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。 动态报告现也适用于多语言电子邮件投放和事务性消息。</p>
-<p>此功能按需提供。如需获取访问权限，请联系您的 Adobe 代表。您的服务器必须至少升级至 8.8.1 版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
+<p>此功能按需提供。如需获取访问权限，请联系您的 Adobe 代表。您的服务器必须至少升级至 8.8.1 版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">发行说明</a>。
 <p>有关更多信息，请参阅<a href="../reporting/dynamic-reporting/get-started-reporting.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -453,7 +442,7 @@ table>
 <tr>
 <td>
 <p>您的技术管理员现在可以定义一个或多个品牌，以集中管理影响品牌形象的相关参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。 您可以创建这些品牌并将它们链接到消息或登陆页面。 此配置在模板中进行管理。 品牌化选项现在可用于所有渠道，包括短信和直邮。</p>
-<p>此功能仅适用于新的实施项目，并按需提供。如需获取访问权限，请联系您的 Adobe 代表。您的服务器必须至少升级至 8.8.1 版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans" target="_blank">发行说明</a>。
+<p>此功能仅适用于新的实施项目，并按需提供。如需获取访问权限，请联系您的 Adobe 代表。您的服务器必须至少升级至 8.8.1 版本。请参阅客户端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">发行说明</a>。
 <p>有关更多信息，请参阅<a href="../administration/branding/branding-gs.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -462,10 +451,10 @@ table>
 
 除上述功能外，本次版本还提供了一组可在客户端控制台中使用的功能：
 
-* [新的短信发送连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hans)（FDA 环境）
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans)（按需，FDA 环境）
+* [新的短信发送连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html)（FDA 环境）
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)（按需，FDA 环境）
 
-请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans){target="_blank"}。
+请参阅客户端控制台[发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
 
 <!--
 
@@ -473,14 +462,14 @@ table>
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=zh-Hans){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hans) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -526,13 +515,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 登陆页面进行了以下改进：
 
-   * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
-   * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
-   * 您可以将着陆页面链接至某项服务，并在用户验证该页面时发送确认消息。 [了解详情](../landing-pages/lp-content.md#lp-message)
-   * 您可以添加验证码，以防止机器人引发的垃圾信息和滥用行为，从而保护您的着陆页面。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。 [了解详情](../landing-pages/create-lp.md#captcha)
+  * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
+  * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
+  * 您可以将着陆页面链接至某项服务，并在用户验证该页面时发送确认消息。 [了解详情](../landing-pages/lp-content.md#lp-message)
+  * 您可以添加验证码，以防止机器人引发的垃圾信息和滥用行为，从而保护您的着陆页面。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。 [了解详情](../landing-pages/create-lp.md#captcha)
 
 ## 2025 年 6 月版本 {#25-6-release}
 
@@ -548,9 +537,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 规则构建器中的“人工条件”功能已得到优化。 这是您规则的书面简明语言版本，显示在屏幕底部：
 
-   * 属性现在会高亮显示，并会展示其关联的架构。
-   * 您可以点击这些元素以查看更详细的信息。
-   * 您现在可以使用相应的按钮复制“人工条件”内容。
+  * 属性现在会高亮显示，并会展示其关联的架构。
+  * 您可以点击这些元素以查看更详细的信息。
+  * 您现在可以使用相应的按钮复制“人工条件”内容。
 
 * 为防止查看，“技术工作流”和“自动创建的对象”文件夹的访问权限现已受到限制。 [了解详情](../get-started/work-with-folders.md#about-folders)
 
@@ -694,7 +683,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多语言的动态报告** - 动态报告现可用于多语言电子邮件投放。 有关更多信息，请参阅[详细文档](../reporting/global-reports.md)。
 
-* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。 当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。 如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。 有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target=_blank}。
+* **SMS REST API 支持 (LA)** - 事务性消息传递 REST API 现可用于 SMS 渠道。 当负载中同时存在电子邮件和移动电话时，您可以使用“wishedChannel”字段来指定渠道。 如果未提供，则默认使用电子邮件，除非 wishedChannel 明确请求 SMS。 有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}。
 
 ## 2025 年 2 月版本 {#25-2-release}
 
@@ -872,10 +861,10 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * 定制界面中自定义字段的显示：
 
-   * 您现在可以选择在界面中显示其他自定义字段
-   * 现在，您可以设置显示链接类型自定义字段的规则，例如根据另一个字段的输入限制列表值
-   * 现在，您可以更灵活地排列界面中的字段：字段可以跨越单个列，也可以分组到子部分中以更好地组织
-   * 现在，您可以将特定字段设置为只读
+  * 您现在可以选择在界面中显示其他自定义字段
+  * 现在，您可以设置显示链接类型自定义字段的规则，例如根据另一个字段的输入限制列表值
+  * 现在，您可以更灵活地排列界面中的字段：字段可以跨越单个列，也可以分组到子部分中以更好地组织
+  * 现在，您可以将特定字段设置为只读
 
 * 最近和收藏夹过滤器：要快速重用经常使用的属性，您现在可以将它们添加到收藏夹中。 这可以确保它们在未来的任务中易于访问。 除了收藏夹，您还可以查看和使用最近选择的属性。
 

@@ -10,7 +10,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '472'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 WhatsApp支持以下消息类型：
 
-| 消息功能 | 说明 |
+| 消息功能 | 描述 |
 |-|-|
 | 标头 | 显示在消息正文上方的可选文本。 |
 | 文本 | 通过参数支持动态内容。 |
@@ -89,7 +89,7 @@ WhatsApp支持以下消息类型：
 
 1. 从&#x200B;**WhatsApp模板**&#x200B;下拉列表中，选择您的Meta批准的模板。
 
-   [了解有关如何创建WhatsApp模板的更多信息](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [详细了解如何创建WhatsApp模板](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 

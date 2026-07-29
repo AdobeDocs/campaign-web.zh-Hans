@@ -4,10 +4,8 @@ title: 在消息中添加优惠
 description: 了解如何添加和发送优惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
 source-wordcount: 805
@@ -110,7 +108,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
    >[!NOTE]
    >
-   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}以了解详情。
+   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}以了解详情。
 
 1. 保存您的更改。
 

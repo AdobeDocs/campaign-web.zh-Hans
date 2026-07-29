@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '667'
 ht-degree: 13%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](../../msg/delivery-template.md)
 
-创建模板后，您可以将其链接到品牌。操作步骤：
+创建模板后，您可以将其链接到品牌。 操作步骤：
 
 1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单浏览到&#x200B;**[!UICONTROL 模板]**&#x200B;选项卡，然后选择投放模板。
 
@@ -47,9 +47,9 @@ ht-degree: 13%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hans)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
-创建模板后，您可以将其链接到品牌。操作步骤：
+创建模板后，您可以将其链接到品牌。 操作步骤：
 
 1. 在Adobe Campaign资源管理器中浏览到&#x200B;**[!UICONTROL 资源]** `>` **[!UICONTROL 模板]** `>` **[!UICONTROL 投放模板]**。
 

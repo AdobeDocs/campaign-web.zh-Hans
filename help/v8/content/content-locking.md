@@ -9,17 +9,11 @@ role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
 TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1244
@@ -65,15 +59,15 @@ Adobe Campaign允许您通过锁定整个模板或特定结构和组件来锁定
 
 * 锁定结构时：
 
-   * 默认情况下，该结构中的所有内容也会被锁定。
-   * 无法向结构添加任何内容。
-   * 默认情况下，无法删除结构。 您可以通过启用“允许删除”选项来覆盖此限制。
-   * 可以将锁定结构中的各个内容组件设置为可编辑。
+  * 默认情况下，该结构中的所有内容也会被锁定。
+  * 无法向结构添加任何内容。
+  * 默认情况下，无法删除结构。 您可以通过启用“允许删除”选项来覆盖此限制。
+  * 可以将锁定结构中的各个内容组件设置为可编辑。
 
 * 当结构可编辑（结构未锁定）时：
 
-   * 可以将各个内容组件锁定在该结构内。
-   * 默认情况下，如果组件已锁定，或者选择了“仅可编辑的内容锁定”，则无法删除组件。 您可以通过启用“允许删除”选项来覆盖此限制。
+  * 可以将各个内容组件锁定在该结构内。
+  * 默认情况下，如果组件已锁定，或者选择了“仅可编辑的内容锁定”，则无法删除组件。 您可以通过启用“允许删除”选项来覆盖此限制。
 
 >[!AVAILABILITY]
 >
@@ -215,5 +209,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
 -->

@@ -4,10 +4,8 @@ title: 使用投放工作流活动
 description: 了解如何添加投放工作流活动（电子邮件、推送、短信、WhatsApp、直邮）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 995
@@ -38,13 +36,13 @@ ht-degree: 40%
 
 * 在插入渠道活动之前，请定义受众。 受众是投放的主要目标：接收消息的用户档案。 在营销活动工作流的上下文中发送消息时，未在渠道活动中定义消息受众，而是在专用活动中进行定义，例如：
 
-   * **生成受众**&#x200B;活动。 [了解详情](build-audience.md)。
+  * **生成受众**&#x200B;活动。 [了解详情](build-audience.md)。
 
-     ![在工作流中添加投放的屏幕截图](../../msg/assets/add-delivery-in-wf.png)
+    ![在工作流中添加投放的屏幕截图](../../msg/assets/add-delivery-in-wf.png)
 
-   * **加载文件**&#x200B;活动，后跟&#x200B;**协调**&#x200B;活动。 [了解详情](load-file.md)。
+  * **加载文件**&#x200B;活动，后跟&#x200B;**协调**&#x200B;活动。 [了解详情](load-file.md)。
 
-     ![显示工作流协调条件的屏幕截图](../assets/workflow-reconciliation-criteria.png)
+    ![显示工作流协调条件的屏幕截图](../assets/workflow-reconciliation-criteria.png)
 
 * 要发送定期投放，请使用&#x200B;**调度程序**&#x200B;活动启动工作流。 对一次性投放使用&#x200B;**调度程序**&#x200B;活动来设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
 

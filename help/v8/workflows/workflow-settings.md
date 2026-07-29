@@ -4,8 +4,7 @@ title: 配置工作流设置
 description: 了解如何使用Adobe Campaign Web配置工作流设置
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1070
@@ -44,14 +43,14 @@ ht-degree: 27%
 * 应保存工作流的&#x200B;**[!UICONTROL 文件夹]**。
 * 在工作流的所有活动中使用的默认&#x200B;**[!UICONTROL 时区]**。默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
 可能的值包括：
-   * **服务器时区**&#x200B;以使用Adobe Campaign应用程序服务器的时区。
-   * **操作员时区**，使用执行工作流的Adobe Campaign操作员的时区，如客户端控制台中操作员的配置文件中所定义。
-   * **数据库的时区**&#x200B;以使用数据库服务器的时区。
-   * 特定时区。
+  * **服务器时区**&#x200B;以使用Adobe Campaign应用程序服务器的时区。
+  * **操作员时区**，使用执行工作流的Adobe Campaign操作员的时区，如客户端控制台中操作员的配置文件中所定义。
+  * **数据库的时区**&#x200B;以使用数据库服务器的时区。
+  * 特定时区。
 * 工作流失败时，将通过电子邮件通知属于&#x200B;**[!UICONTROL 主管]**&#x200B;字段中所选操作员组的操作员。
 * 输入工作流的&#x200B;**[!UICONTROL 描述]**。
 
-当工作流为与营销活动[&#128279;](create-workflow.md)关联的时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
+当工作流为与营销活动](create-workflow.md)关联的[时，它显示在&#x200B;**[!UICONTROL 链接营销活动]**&#x200B;字段中。 从该字段打开关联的营销策划。
 
 ## 分段设置 {#segmentation-settings}
 
@@ -96,9 +95,9 @@ ht-degree: 27%
 
 * **[!UICONTROL 错误管理]**：此字段允许您定义工作流任务出现错误时要执行的操作。 有三种可能的选项：
 
-   * **[!UICONTROL 挂起进程]**：工作流已自动暂停，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，使用&#x200B;**[!UICONTROL 恢复]**&#x200B;按钮恢复工作流。
-   * **[!UICONTROL 忽略]**：触发错误的任务状态更改为&#x200B;**[!UICONTROL 失败]**，但工作流会保留&#x200B;**[!UICONTROL 已启动]**&#x200B;状态。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL 中止进程]**：工作流已自动停止，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，使用&#x200B;**[!UICONTROL 启动]**&#x200B;按钮重新启动工作流。
+  * **[!UICONTROL 挂起进程]**：工作流已自动暂停，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，使用&#x200B;**[!UICONTROL 恢复]**&#x200B;按钮恢复工作流。
+  * **[!UICONTROL 忽略]**：触发错误的任务状态更改为&#x200B;**[!UICONTROL 失败]**，但工作流会保留&#x200B;**[!UICONTROL 已启动]**&#x200B;状态。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL 中止进程]**：工作流已自动停止，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，使用&#x200B;**[!UICONTROL 启动]**&#x200B;按钮重新启动工作流。
 
 * **[!UICONTROL 连续错误]**：在&#x200B;**[!UICONTROL 如果出现错误]**&#x200B;字段中选择&#x200B;**[!UICONTROL 忽略]**&#x200B;值时，此字段将变为可用。 指定进程停止前可忽略的错误数。 一旦达到此数量，工作流状态将更改为&#x200B;**[!UICONTROL 失败]**。 如果此字段的值为 0，则无论错误数量是多少，工作流都绝不会停止。
 

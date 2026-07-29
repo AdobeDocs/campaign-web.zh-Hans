@@ -3,22 +3,12 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2024 Campaign Web 用户界面发布
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 TQID: https://experienceleague.adobe.com/N4YGqWeKVOfakNNxhRekN1TsH4vyLhYav47axHu5O08
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2580
 ht-degree: 100%
 
@@ -77,8 +67,8 @@ ht-degree: 100%
 
 * **工作流扩充活动**
 
-   * 现在，您可以在 **扩充** 活动中创建新字段时定义别名和标签。 [了解详情](../workflows/activities/enrichment.md#collection-settings)
-   * 您现在可以在 **扩充** 活动中为每个轮廓添加产品建议。 [了解详情](../workflows/activities/enrichment.md##add-offers)
+  * 现在，您可以在 **扩充** 活动中创建新字段时定义别名和标签。 [了解详情](../workflows/activities/enrichment.md#collection-settings)
+  * 您现在可以在 **扩充** 活动中为每个轮廓添加产品建议。 [了解详情](../workflows/activities/enrichment.md##add-offers)
 
 * **值的分布**：当访问个性化字段列表时，您现在可以检查每个字段的值是如何分布的。 专用的弹出窗口显示每个值的数字和百分比。 [了解详情](../query/build-query.md#distribution-values-query)
 
@@ -137,7 +127,7 @@ ht-degree: 100%
 * **登陆页面中的验证码**：您现在可以使用 Google reCAPTCHA 机制保护您的登陆页面免受机器人造成的垃圾邮件和滥用的影响。 对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。 [了解详情](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -268,17 +258,17 @@ ht-degree: 100%
 
 * **品牌化** - 作为 Campaign Standard 迁移用户，您的技术管理员现在可以定义一个或多个品牌，以集中处理影响品牌标识的参数。 其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。 您可以创建这些品牌并将它们链接到消息或登陆页面。 此配置在模板中进行管理。 [了解更多信息](../administration/branding/branding-gs.md)
 
-* **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans)
+* **Rest API** - 作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与所使用的技术面板连接来构建自己的生态系统。 [了解更多信息](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
 
 * **动态报告** - 作为 Campaign Standard 迁移用户，您可以访问动态报告，该功能提供完全可自定义的实时报告来衡量营销活动的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。 [了解更多信息](../reporting/dynamic-reporting/get-started-reporting.md)
 
 * **登陆页面**：登陆页面的以下改进仅适用于从 Campaign Standard 过渡的用户：
 
-   * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
-   * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
-   * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
+  * 现在，您可以在配置服务时引用默认订阅/退订登陆页面。 在设计电子邮件时，如果您定义了指向该登陆页面的链接，则提交登陆页面表单的用户将会自动订阅或退订此服务。 [了解更多信息](../audience/manage-services.md#create-service)
+  * 登陆页面配置中的新选项允许匿名访客访问登陆页面。 如果取消选择此选项，则只有已识别的用户才能访问和提交表单。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 登陆页面配置中的一个新选项允许在提交登陆页面时存储额外的内部数据。 [了解更多信息](../landing-pages/create-lp.md#create-landing-page)
+  * 新选项允许将一个登陆页面用于多项服务，从而使其具有动态性。 在向电子邮件添加链接时，如果您选择动态登陆页面，则可以选择任何服务。 如果您选择与特定服务关联的登陆页面，则会自动使用该服务（您不能选择其他服务）。 [了解更多信息](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * 登陆页面现在支持条件内容。 [了解更多信息](../landing-pages/lp-content.md)
 
 ### 一般改进 {#improvements-24-4}
 
@@ -297,7 +287,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hans)的用户。 请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级方面的更多信息。
+>此版本适用于所有 [Campaign（控制台）v8.6 及更高版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html)的用户。 请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hans){target="_blank"}，了解有关 Adobe Campaign 客户端控制台版本和升级方面的更多信息。
 
 **发布日期**：2024 年 3 月 19–20 日
 

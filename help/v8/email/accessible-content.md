@@ -8,20 +8,14 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1690
 ht-degree: 1%
 
 ---
@@ -38,7 +32,6 @@ ht-degree: 1%
 
 此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Adobe Campaign]设计的电子邮件和登陆页面并与之交互。
  
-
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
@@ -339,40 +332,40 @@ ht-degree: 1%
 
 * 通过键盘聚焦
 
-   * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
+  * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
 
-   * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
+  * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
 
 * 自定义焦点样式
 
-   * 应用清晰且可区分的样式来关注可操作元素：
+  * 应用清晰且可区分的样式来关注可操作元素：
 
-     +++示例(CSS)
+    +++示例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
+  * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
 
-      * 最小区域：2 CSS像素粗轮廓。
+    * 最小区域：2 CSS像素粗轮廓。
 
-      * 聚焦状态和非聚焦状态之间的对比度：≥ 3:1。
+    * 对比度：聚焦状态与未聚焦状态之间的对比度。
 
 * 键盘激活支持
 
-   * 确保复选框和按钮与Enter和Space键相对应。
+  * 确保复选框和按钮与Enter和Space键相对应。
 
-   * 仅使用键盘验证交互：
+  * 仅使用键盘验证交互：
 
-      * Enter或Space应该切换复选框。
+    * Enter或Space应该切换复选框。
 
-      * Enter或Space应该触发按钮。
+    * Enter或Space应该触发按钮。

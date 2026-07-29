@@ -4,12 +4,9 @@ description: Campaign Standard 用户正在过渡到 Campaign v8，了解如何�
 title: Adobe Campaign采用指南
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
 TQID: https://experienceleague.adobe.com/OYw8d-1Yp38vJ-T6TZ3k1-F4j3KMbGzycBQEzDkwSuo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 366
@@ -54,7 +51,7 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 了解管理员/开发人员用户在Adobe Campaign Standard和Adobe Campaign v8之间的体验差异。
 
-[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
+[![图像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
 
 >[!ENDTABS]
 

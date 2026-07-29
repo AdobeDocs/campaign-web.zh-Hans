@@ -4,7 +4,7 @@ description: 了解如何配置外部帐户
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 2%
 * **[!UICONTROL 密码]** — 用户帐户密码。
 
 * **[!UICONTROL 加密]** — 选择的加密类型，包括：
-   * 默认情况下（如果端口110，则为POP3；如果端口995，则为POP3）。
-   * 发送STARTTLS后切换到SSL的POP3。
-   * POP3不安全（默认使用端口110）。
-   * POP3在SSL上安全（默认使用端口995）。
+  * 默认情况下（如果端口110，则为POP3；如果端口995，则为POP3）。
+  * 发送STARTTLS后切换到SSL的POP3。
+  * POP3不安全（默认使用端口110）。
+  * POP3在SSL上安全（默认使用端口995）。
 
 * **[!UICONTROL 功能]** — 选择&#x200B;**[!UICONTROL 入站电子邮件]**&#x200B;配置接收入站电子邮件的帐户或选择&#x200B;**[!UICONTROL SOAP路由器]**&#x200B;处理SOAP请求。
 
@@ -53,11 +53,11 @@ ht-degree: 2%
 
 * **[!UICONTROL Azure客户端密钥]**
 
-  可以在Azure门户中应用程序的证书和密码菜单的“客户端密码”列中找到客户端密码ID。
+  可以在Azure门户中应用程序的“证书和密码”菜单的“客户端密码”列中找到客户端密码ID。
 
 * **[!UICONTROL Azure重定向URL]**
 
-  可在Azure门户中应用程序的身份验证菜单中找到重定向URL。 它应以下列语法nl/jsp/oauth.jsp结尾，如`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+  可以在Azure门户中应用程序的身份验证菜单中找到重定向URL。 它应以下列语法nl/jsp/oauth.jsp结尾，如`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
 安装和使用客户端控制台中的“测试连接”按钮需要Internet访问。 设置完成后，inMail进程可以与Microsoft服务器通信，而无需互联网。
 
@@ -105,6 +105,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 方法]** — 在Web服务或联合数据访问(FDA)之间进行选择。
 
-  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/fda#_blank)
+  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 创建存档工作流]** — 对于在消息中心中注册的每个执行实例，无论您拥有一个还是多个实例，请为与该执行实例关联的每个外部帐户创建单独的存档工作流。

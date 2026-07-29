@@ -4,10 +4,8 @@ title: 关于只读工作流
 description: 了解工作流处于只读模式的原因
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 295
@@ -57,4 +55,4 @@ Campaign用户对Adobe Campaign数据的访问权限可能受限。 Campaign管�
 
 ![只读模式的技术工作流界面，显示暂停或停止工作流的选项。](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-在[本节](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中了解有关技术工作流的更多信息。
+在[本节](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中了解有关技术工作流的更多信息。

@@ -4,11 +4,8 @@ title: 使用传输文件活动
 description: 了解如何使用传输文件工作流活动
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 TQID: https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1266
@@ -55,7 +52,7 @@ ht-degree: 27%
 
 1. 将&#x200B;**传输文件**&#x200B;活动添加到您的工作流中，然后根据要使用的协议指定要执行的传输类型：
 
-   * 对于HTTP协议，选择&#x200B;**[!UICONTROL Web下载]**。 这允许您执行GET或POST操作，以通过显式URL、外部帐户或Adobe Campaign实例下载文件。
+   * 对于HTTP协议，选择&#x200B;**[!UICONTROL Web下载]**。 这样，您可以执行GET或POST操作，以通过显式URL、外部帐户或Adobe Campaign实例下载文件。
    * 对于其他服务器到服务器协议和相关操作，请选择&#x200B;**[!UICONTROL 文件传输]**。
 
 1. 选择要对活动执行的操作。 可用操作取决于您选择的传输类型。 展开以下部分以获取更多信息。

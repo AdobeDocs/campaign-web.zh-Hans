@@ -3,11 +3,8 @@ title: 管理外部帐户
 description: 了解如何配置外部帐户
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 743
@@ -19,7 +16,7 @@ ht-degree: 6%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adobe Campaign。 它可以在工作流活动中设置。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adobe Campaign。 它可以在工作流活动中设置。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![显示Amazon Simple Storage Service S3外部帐户配置字段的屏幕截图。](assets/external-AWS.png)
 
@@ -49,7 +46,7 @@ Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adob
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob Storage]**&#x200B;外部帐户可用于通过&#x200B;**[!UICONTROL 传输文件]**&#x200B;工作流活动将数据导入或导出到Adobe Campaign。 如需详细信息，请参阅[此小节](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+**[!UICONTROL Azure Blob Storage]**&#x200B;外部帐户可用于通过&#x200B;**[!UICONTROL 传输文件]**&#x200B;工作流活动将数据导入或导出到Adobe Campaign。 如需详细信息，请参阅[此小节](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![显示Azure Blob Storage外部帐户配置字段的屏幕截图。](assets/external-azure.png)
 
@@ -95,9 +92,9 @@ SFTP外部帐户允许您配置和测试对Adobe Campaign外部服务器的访�
 
   选择要通过SFTP服务器进行身份验证的方法。 选项包括：
 
-   * **[!UICONTROL 密码]**：使用帐户的密码进行身份验证。
+  * **[!UICONTROL 密码]**：使用帐户的密码进行身份验证。
 
-   * **[!UICONTROL 公钥]**：使用SSH密钥对（私钥和公钥）进行身份验证。
+  * **[!UICONTROL 公钥]**：使用SSH密钥对（私钥和公钥）进行身份验证。
 
 如果选择&#x200B;**[!UICONTROL 公钥]**&#x200B;身份验证，则需要填写以下字段：
 
@@ -141,8 +138,8 @@ HTTP外部帐户允许您配置和测试对Adobe Campaign外部服务器的访�
 
   选择连接的身份验证类型。 选项包括：
 
-   * 密码
-   * 公钥
+  * 密码
+  * 公钥
 
 如果您正在使用&#x200B;**[!UICONTROL 公钥]**&#x200B;身份验证，请在&#x200B;**[!UICONTROL 公钥身份验证]**&#x200B;菜单中，输入以下所需的值：
 
@@ -180,7 +177,7 @@ FTP外部帐户允许您配置和测试对Adobe Campaign外部服务器的访问
 
   选择连接的加密类型。 选项包括：
 
-   * 默认情况下
-   * POP3 + STARTTLS
-   * POP3不安全
-   * POP3安全
+  * 默认情况下
+  * POP3 + STARTTLS
+  * POP3不安全
+  * POP3安全

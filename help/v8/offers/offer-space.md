@@ -3,10 +3,8 @@ audience: end-user
 title: 创建和管理优惠空间
 description: 了解如何在Campaign Web中创建、配置、部署和预览优惠空间
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 921
@@ -82,7 +80,7 @@ ht-degree: 0%
 
 ### 配置高级设置 {#advanced}
 
-此部分允许您定义&#x200B;**[!UICONTROL 目标标识]**。 单击“添加”**&#x200B;**&#x200B;并选择一或多个&#x200B;**[!UICONTROL 收件人]**&#x200B;属性，或单击“编辑表达式”**[!UICONTROL 以定义自定义表达式]**。 对于基本选件空间，此设置是可选的。 有关其完整引用和行为，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+此部分允许您定义&#x200B;**[!UICONTROL 目标标识]**。 单击“添加”****&#x200B;并选择一或多个&#x200B;**[!UICONTROL 收件人]**&#x200B;属性，或单击“编辑表达式”**[!UICONTROL 以定义自定义表达式]**。 对于基本选件空间，此设置是可选的。 有关其完整引用和行为，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
 
 在&#x200B;**入站Web渠道**&#x200B;上创建的优惠空间，还需要将网站配置为显示优惠并调用优惠引擎。 此集成在客户端控制台中执行 — 请参阅Campaign v8文档中的[实时显示优惠](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}和[配置优惠引擎集成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}。
 

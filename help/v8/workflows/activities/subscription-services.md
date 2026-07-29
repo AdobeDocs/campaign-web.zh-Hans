@@ -4,10 +4,8 @@ title: 使用订阅服务活动
 description: 了解如何使用订阅服务工作流活动
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1135
@@ -111,8 +109,8 @@ ht-degree: 28%
   ```
 
   如您所见，文件中将该操作指定为“sub”或“unsub”。 系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。 要符合此要求，请执行以下操作：
-   * “operation”列的&#x200B;**数据类型**&#x200B;设置为整数。
-   * 必须执行&#x200B;**值重新映射**，以将“sub”和“unsub”值与“1”和“0”值相匹配。
+  * “operation”列的&#x200B;**数据类型**&#x200B;设置为整数。
+  * 必须执行&#x200B;**值重新映射**，以将“sub”和“unsub”值与“1”和“0”值相匹配。
 
   ![工作流订阅服务映射接口的屏幕截图。](../assets/workflow-subscription-service-uc2-mapping.png)
 

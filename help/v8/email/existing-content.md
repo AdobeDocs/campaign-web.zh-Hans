@@ -4,8 +4,7 @@ title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 291
@@ -59,4 +58,4 @@ ht-degree: 29%
 
 了解如何通过上传HTML创建电子邮件、使其与电子邮件Designer兼容并将其转换为模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447042/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
