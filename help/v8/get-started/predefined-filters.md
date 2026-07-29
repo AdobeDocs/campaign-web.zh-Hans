@@ -3,9 +3,8 @@ title: 使用预定义过滤器
 description: 了解如何在 Adobe Campaign Web 中创建和管理预定义过滤器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
 workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
@@ -86,7 +85,7 @@ ht-degree: 100%
 
 1. 定义过滤器的规则。 例如，年龄超过 30 岁的轮廓。
 
-   ![针对超过 30 岁的轮廓的过滤规则](assets/filter-30+.png){zoomable="yes"}
+   ![针对超过 30 岁的轮廓的过滤规则](assets/filter-30-plus.png){zoomable="yes"}
 
 1. 保存您的更改。
 
