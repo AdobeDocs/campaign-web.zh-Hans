@@ -5,12 +5,11 @@ description: Adobe Campaign Web 文档更新
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 55%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +26,5 @@ ht-degree: 55%
 
 **日期：2025 年 12 月 1 日**
 
-* 重新整理了 AI 助手文档指南，并将以下内容整合为独立页面：[完整内容生成](../content/generative-full-content.md)、[文本生成](../content/generative-text.md)和[图像生成](../content/generative-image.md)
-* 新增[AI 助手提示最佳做法指南](../content/ai-assistant-prompting-guide.md)，帮助用户撰写更高效的提示。
+* 重新组织了生成内容文档指南，其中包含用于生成[完整内容](../content/generative-full-content.md)、[文本生成](../content/generative-text.md)和[图像生成](../content/generative-image.md)的合并页面
+* 添加了[生成内容提示最佳实践指南](../content/ai-assistant-prompting-guide.md)，以帮助用户制作有效的提示

@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: 创新型内容
-description: 了解如何使用Journey Optimizer中的AI助手生成完整的内容体验。
+description: 了解如何使用Journey Optimizer中的AI生成完整的内容体验。
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1626
+source-wordcount: 1620
 ht-degree: 2%
 
 ---
 
-# 使用AI助手生成完整内容 {#generative-full-content}
+# 生成完整内容 {#generative-full-content}
 
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
+>在使用AI在Adobe Campaign Web中生成内容之前，您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
-使用Adobe Campaign Web中的AI助手生成电子邮件、登陆页和推送通知渠道中的完整内容体验。 AI Assistant通过创建与受众产生共鸣的综合内容，帮助您优化投放的影响。
+在Adobe Campaign Web中使用AI，跨电子邮件、登陆页和推送通知渠道生成完整的内容体验。 AI通过创建与受众产生共鸣的全面内容，帮助您优化投放的影响。
 
 ## 用于电子邮件和登陆页面 {#email-web-channels}
 
-AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体验，从而生成文本和图像。 这项强大的功能可帮助您创建引人注目的品牌内内容，这些内容可通过所有数字接触点与您的受众连接。
+使用AI为您的电子邮件投放和登陆页面生成完整的内容体验，并生成文本和图像。 这项强大的功能可帮助您创建引人注目的品牌内内容，这些内容可通过所有数字接触点与您的受众连接。
 
 ### 访问和配置 {#access-configure}
 
-开始使用AI助手创建内容之前，您需要设置投放并打开内容编辑器。 使用以下步骤准备工作区并访问AI助手面板。
+在开始使用AI创建内容之前，您需要设置投放并打开内容编辑器。 使用以下步骤准备工作区并访问生成内容面板。
 
 1. 创建和配置投放：
 
    * **电子邮件**：创建和配置电子邮件投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../email/create-email-content.md)
    * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../landing-pages/create-lp.md)
 
-1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL 生成内容]**&#x200B;菜单。
 
-   ![AI助手面板，显示品牌选择和提示字段](assets/full-email-1.png){zoomable="yes"}
+   ![显示品牌选择和提示字段的“生成内容”面板](assets/full-email-1.png){zoomable="yes"}
 
-### 生成内容 {#generate-content}
+### 生成完整内容 {#generate-content}
 
-打开AI助手后，您现在可以配置生成设置，以创建与您的品牌和营销活动目标相匹配的内容。 自定义文本和图像参数、添加品牌资产并提供提示，以指导AI为您的受众生成相关变体。
+打开“生成内容”后，您现在可以配置生成设置，以创建与您的品牌和营销活动目标相匹配的内容。 自定义文本和图像参数、添加品牌资产并提供提示，以指导AI为您的受众生成相关变体。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -62,7 +59,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
-   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI Assistant都会相应地调整消息。
+   * **[!UICONTROL 音调]**：确保您的电子邮件音调可与您的受众引起共鸣。 无论您想听起信息性、娱乐性还是说服力，AI都会相应地调整消息。
 
      ![显示Adobe Campaign Web中的文本设置选项的屏幕截图](assets/full-email-4.png){zoomable="yes"}
 
@@ -74,7 +71,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
    * **[!UICONTROL 光源]**：修改图像中的光源，以调整其大气形状并突出显示特定元素。
    * **[!UICONTROL 合成]**：在图像的框架中排列元素。
 
-1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文人工智能的内容或选择以前上载的内容。
 
    以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
@@ -100,7 +97,7 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 
    * **[!UICONTROL 重写]**：重写邮件，同时保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：使用AI编辑/优化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
    * **[!UICONTROL 翻译]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
 
@@ -122,11 +119,11 @@ AI Assistant可以为电子邮件投放和登陆页面生成完整的内容体�
 
 ## 适用于移动渠道 {#mobile-channels}
 
-AI Assistant还支持为移动推送通知生成内容，从而允许您为移动应用程序创建引人入胜的标题、消息和图像。 这有助于您在所有客户接触点（包括移动设备）之间保持一致、高质量的通信。
+“生成内容”还支持为移动推送通知生成内容，从而允许您为移动应用程序创建引人入胜的标题、消息和图像。 这有助于您在所有客户接触点（包括移动设备）之间保持一致、高质量的通信。
 
 ### 访问和配置 {#mobile-access-configure}
 
-要使用AI助手进行推送通知，请首先设置推送投放并打开内容编辑器。 以下步骤将指导您准备投放和访问AI助手工具。
+要使用AI生成推送通知内容，请首先设置推送投放并打开内容编辑器。 以下步骤将指导您准备投放并访问生成内容工具。
 
 1. 创建和配置推送通知投放后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -134,13 +131,13 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
 1. 根据需要个性化您的推送通知。 [了解详情](../push/content-push.md)
 
-1. 访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
+1. 访问&#x200B;**[!UICONTROL 显示生成内容]**&#x200B;菜单。
 
-   ![显示“显示AI助手”菜单的屏幕快照](assets/push-genai-1.png){zoomable="yes"}
+   ![显示“显示生成内容”菜单的屏幕快照](assets/push-genai-1.png){zoomable="yes"}
 
-### 生成内容 {#mobile-generate-content}
+### 生成完整内容 {#mobile-generate-content}
 
-访问用于推送通知的AI Assistant后，您可以配置生成设置以创建引人注目的移动内容。 定义文本和图像偏好设置，选择品牌资产，并使用提示生成吸引移动用户的推送通知变体。
+访问为推送通知生成内容后，您可以配置生成设置以创建引人注目的移动内容。 定义文本和图像偏好设置，选择品牌资产，并使用提示生成吸引移动用户的推送通知变体。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -148,7 +145,7 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供各种提示想法以改进您的投放。 [了解有关提示最佳实践的更多信息](ai-assistant-prompting-guide.md)
 
-   具有提示字段和选项的![AI助手](assets/push-genai-2.png){zoomable="yes"}
+   ![生成包含提示字段和选项的内容](assets/push-genai-2.png){zoomable="yes"}
 
 1. 选择要生成的字段：**[!UICONTROL 标题]**、**[!UICONTROL 子标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
 
@@ -156,7 +153,7 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
-   * **[!UICONTROL 音调]**：推送通知的音调应该会与受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
+   * **[!UICONTROL 音调]**：推送通知的音调应该会与受众产生共鸣。 无论您想听起信息性、娱乐性还是说服力，AI都可以相应地调整信息。
 
      推送通知的![文本设置面板](assets/push-genai-3.png){zoomable="yes"}
 
@@ -169,7 +166,7 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
      ![推送通知的图像设置](assets/push-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文人工智能的内容或选择以前上载的内容。
 
    以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
@@ -210,6 +207,6 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
 ## 操作说明视频 {#video}
 
-了解如何使用AI Assistant生成完整的电子邮件内容、文本和图像。
+了解如何使用AI生成完整的电子邮件内容、文本和图像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

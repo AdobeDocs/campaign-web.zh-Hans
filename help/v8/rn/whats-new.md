@@ -4,23 +4,14 @@ title: Campaign Web 用户界面新增功能
 description: 发现 Campaign Web 用户界面附带的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 100%
+source-wordcount: 1326
+ht-degree: 96%
 
 ---
 
@@ -85,13 +76,13 @@ Adobe Campaign Web 的特色是功能强大的查询建模器，它可简化过�
 * 使用内置报告监控发送和衡量结果 - [了解详情](../reporting/delivery-reports.md)
 
 
-**使用 AI 助手生成内容**
+生成内容时生成&#x200B;**内容**
 
 借助由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持的创新型内容设计器，告别手动创建内容的麻烦，迎接精简营销活动的新时代。
 
-使用我们先进的所见即所得式的拖放编辑器重新定义内容投放，以实现简洁、高效的目的。 这款一体化的工具带有无缝 AEM 集成、动态内容功能以及颠覆传统的 AI 助手，使投放内容的创建变得直观、高效且高度个性化。
+使用我们先进的所见即所得式的拖放编辑器重新定义内容投放，以实现简洁、高效的目的。 此一体化工具提供无缝AEM集成、动态内容功能和改变游戏规则的“生成内容”，使投放创建变得直观、高效且高度个性化。
 
-利用 AI 助手先进算法的强大功能来创建引人入胜、量身定制的内容，以推动成果。 凭借由 AI 推动的智能内容生成功能提高打开率、点击率和转化率。 可在[此部分](../content/generative-gs.md)中了解详情。
+利用AI高级算法的强大功能创建有吸引力的定制内容以推动结果。 凭借由 AI 推动的智能内容生成功能提高打开率、点击率和转化率。 可在[此部分](../content/generative-gs.md)中了解详情。
 
 **重新设计的全新营销活动工作流活动**
 

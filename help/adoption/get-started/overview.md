@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -40,7 +26,7 @@ ht-degree: 29%
 
 1. 首先了解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下来，根据您的角色[&#128279;](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的体验差异。
+1. 接下来，根据您的角色](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的[体验差异。
 
 ## 新增功能？ {#new}
 
@@ -114,31 +100,31 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供了云原生的敏捷性，使您能够加快实现价值并适应不断变化的业务需求。 此集成不仅增强了您的内容管理功能，还允许您在所有接触点上向客户提供更加个性化和引人入胜的体验。
 
-* **AI 助手**
+* **生成内容**
 
-  Campaign AI Assistant可以在电子邮件、短信和推送等渠道中创建和执行营销活动，操作直观、简单且轻松，同时还能节省时间、提高效率和产生更好的结果。
+  利用Campaign生成内容，可以直观、简便地跨渠道（如电子邮件、短信和推送）创建和执行营销活动，同时还可以节省时间、提高效率和产生更好的结果。
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant彻底改变了您跨渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型并深入了解您的品牌准则，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+  “生成内容”彻底改变了您跨渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型并深入了解您的品牌准则，生成内容可根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。
 
-  AI Assistant使营销活动的创建和执行变得直观、简单而轻松，同时节省时间、提高效率和产生更好的结果。
+  生成内容让营销活动的创建和执行变得直观、简单而轻松，同时节省了时间、提高了效率和产生了更好的结果。
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/content/generative-full-content.md)中了解有关AI助手的详细信息。 Adobe Campaign v8具有AI助手，可用于[电子邮件](../../v8/content/generative-full-content.md)、[短信](../../v8/content/generative-text.md)和[推送](../../v8/content/generative-full-content.md)。
+  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/content/generative-full-content.md)中了解有关生成内容的更多信息。 Adobe Campaign v8已生成可用于[电子邮件](../../v8/content/generative-full-content.md)、[短信](../../v8/content/generative-text.md)和[推送](../../v8/content/generative-full-content.md)的内容。
 
 * **已升级的SMS基础架构 — SMS v2.0**
 
   SMS的简单性和易用性使其成为非常宝贵的通信渠道，此外，它还具有数十亿终端的无与伦比的稳定性和兼容性。
 
-  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
+  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
 
 * **已升级的推送基础结构**
 
   Adobe Campaign v8正在推出我们最新的推送通知服务，该服务基于现代尖端技术构建的强大框架提供支持。 此服务旨在解锁更高级别的可扩展性，确保您的通知能够以无缝效率接触到更多受众。 通过我们增强的基础架构和优化的流程，您可以期待更高的扩展性和可靠性，使您能够以前所未有的方式吸引移动应用程序用户并与之建立联系。
 
-  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 
 
 ## Managed Services {#ac-managed-services}
@@ -153,7 +139,7 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 
 * **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。 通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。 [了解详情](../../v8/administration/branding/branding-gs.md)
 
-* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}
+* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
 
 * **登陆页面** - 对 Campaign v8 登陆页面进行了一些改进，以确保功能与 Campaign Standard 相同。 通过[发行说明](../../v8/rn/release-notes.md#new-24-4)和登陆页面 [文档](../../v8/landing-pages/get-started-lp.md)了解详情。
 
@@ -249,5 +235,5 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
