@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -94,13 +94,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI 助手</strong><br/></th>
+<th><strong>生成内容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您的定制信息制作完成后，使用 Adobe Campaign Web 中的 AI 助手将其提升到一个新水平。 使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
+<p>完成精心编制和定制消息后，请使用“在Adobe Campaign Web中生成内容”将其提升到新的级别。 使用这一功能强大的工具，您可以生成一系列引人入胜的文本、主标题以及在视觉上富有吸引力的图像来优化内容的影响力。</p>
 <p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力</a>。</p>
 <p>有关更多信息，请参阅<a href="../content/generative-gs.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

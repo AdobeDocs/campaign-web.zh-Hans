@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -114,19 +114,19 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供了云原生的敏捷性，使您能够加快实现价值并适应不断变化的业务需求。 此集成不仅增强了您的内容管理功能，还允许您在所有接触点上向客户提供更加个性化和引人入胜的体验。
 
-* **AI 助手**
+* **生成内容**
 
-  Campaign AI Assistant可以在电子邮件、短信和推送等渠道中创建和执行营销活动，操作直观、简单且轻松，同时还能节省时间、提高效率和产生更好的结果。
+  利用Campaign生成内容，可以直观、简便地跨渠道（如电子邮件、短信和推送）创建和执行营销活动，同时还可以节省时间、提高效率和产生更好的结果。
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant彻底改变了您跨渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型并深入了解您的品牌准则，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，其内容针对品牌概述的样式、布局、色调等进行了优化。
+  “生成内容”彻底改变了您跨渠道创建专业且品牌一致的内容的方式。 借助高级GenAI模型并深入了解您的品牌准则，生成内容可根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。
 
-  AI Assistant使营销活动的创建和执行变得直观、简单而轻松，同时节省时间、提高效率和产生更好的结果。
+  生成内容让营销活动的创建和执行变得直观、简单而轻松，同时节省了时间、提高了效率和产生了更好的结果。
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/content/generative-full-content.md)中了解有关AI助手的详细信息。 Adobe Campaign v8具有AI助手，可用于[电子邮件](../../v8/content/generative-full-content.md)、[短信](../../v8/content/generative-text.md)和[推送](../../v8/content/generative-full-content.md)。
+  它提供电子邮件模板的变体，并生成和重新生成图像。 在[本节](../../v8/content/generative-full-content.md)中了解有关生成内容的更多信息。 Adobe Campaign v8已生成可用于[电子邮件](../../v8/content/generative-full-content.md)、[短信](../../v8/content/generative-text.md)和[推送](../../v8/content/generative-full-content.md)的内容。
 
 * **已升级的SMS基础架构 — SMS v2.0**
 

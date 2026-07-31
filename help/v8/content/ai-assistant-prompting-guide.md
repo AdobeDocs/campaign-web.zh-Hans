@@ -1,5 +1,5 @@
 ---
-title: AI助手内容提示指南
+title: 生成内容提示指南
 description: 了解如何使用CO-STAR框架为人工智能支持的内容生成制作有效的提示，以创建高转化、品牌一致的营销内容。
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 1%
+source-wordcount: 2054
+ht-degree: 0%
 
 ---
 
-# AI 助手提示词最佳做法 {#ai-assistant-prompting-guide}
+# 生成内容提示最佳实践 {#ai-assistant-prompting-guide}
 
 本指南可帮助您构建请求、清晰地传达意图，并确保AI生成的消息符合您的品牌准则、受众需求和营销活动目标。
-了解如何编写有效的提示，以使AI助手能够根据您的目标生成高质量、品牌化的营销内容。
+了解如何编写有效的提示，以使AI能够根据您的目标生成高质量、品牌化的营销内容。
 
 ## 使用CO-STAR框架 {#costar-framework}
 
-要使AI助手达到最佳效果，请使用CO-STAR框架组织提示。 这种结构化方法可确保AI准确了解您所需的内容。
+要获得生成内容的最佳结果，请使用CO-STAR框架组织您的提示。 这种结构化方法可确保AI准确了解您所需的内容。
 
 | 组件 | 它的含义 | 为什么它很重要 |
 |-|-|-|

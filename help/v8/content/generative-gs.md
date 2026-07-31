@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: 开始使用 AI 助手
-description: AI 助手入门
+title: 生成内容入门
+description: 生成内容入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 24%
+ht-degree: 20%
 
 ---
 
-# 使用 AI 助手 {#generative-gs}
+# 使用生成内容 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI 助手"
->abstract="在精心制作和个性化定制您的投放内容后，请使用 AI 助手来提升您的内容质量。 使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
+>title="生成内容"
+>abstract="在构建和个性化投放后，使用AI增强您的内容。 使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="在 Campaign 中使用 AI 助手定义上下文"
+>title="在Campaign中使用“生成内容”定义上下文"
 >abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。 还可上传品牌资源以将其用作来源。 如果不使用所选内容，就必须上传并选择品牌资产。"
 
 >[!CONTEXTUALHELP]
@@ -37,9 +37,9 @@ ht-degree: 24%
 >
 >使用[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator)，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
 
-随着营销行业的竞争日益激烈，品牌厂商开始寻求有效的方法来快速生成有影响力的内容。 Adobe Campaign Web中的AI助手由Microsoft Azure OpenAI和Adobe Firefly提供支持，是Adobe的AI内容生成功能，可转变营销人员如何跨电子邮件、短信和推送通知等渠道创建专业且品牌一致的内容。 借助高级GenAI模型以及对品牌准则的深入了解，AI Assistant可根据营销目标自动生成个性化、引人入胜且有效的内容，并根据品牌概述的样式、布局、色调等优化内容。
+随着营销行业的竞争日益激烈，品牌厂商开始寻求有效的方法来快速生成有影响力的内容。 在Adobe Campaign Web中生成内容（由Microsoft Azure OpenAI和Adobe Firefly提供支持）是Adobe的AI内容生成功能，可转变营销人员如何跨渠道（如电子邮件、短信和推送通知）创建专业且品牌一致的内容。 借助高级GenAI模型和对品牌准则的深入了解，生成内容可根据营销目标自动生成个性化、引人入胜且有效的内容，并针对品牌概述的样式、布局、色调等优化内容。
 
-AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 AI Assistant提供以下语言版本：
+“生成内容”支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 生成内容提供以下语言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -72,17 +72,17 @@ AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸�
   </tbody>
 </table>
 
-AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的营销活动的创建和执行过程，从而节省时间、提高效率和取得更好的结果。
+生成内容简化了跨渠道（如电子邮件、短信和推送通知）的营销活动的创建和执行，从而节省了时间、提高了效率并产生了更好的结果。
 
 >[!IMPORTANT]
 >
 >* 在使用此功能之前，请查看相关的[护栏和限制](#generative-guardrails)。
 >
->* 在Adobe Campaign Web中使用AI助手之前，必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
+>* 在使用AI在Adobe Campaign Web中生成内容之前，您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。 有关更多信息，请与您的 Adobe 代表联系。
 
-## 访问AI助手 {#generative-access}
+## 访问生成内容 {#generative-access}
 
-用于电子邮件、推送通知、登陆页面和短信的AI助手现已正式发布(GA)，可供所有用户使用。 授予用户访问权限所需的权限和步骤详述如下。
+为电子邮件、推送通知、登陆页面和短信生成内容现已正式发布(GA)，可供所有用户使用。 授予用户访问权限所需的权限和步骤详述如下。
 
 +++ 了解如何分配与内容生成相关的权限
 
@@ -92,7 +92,7 @@ AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的�
 
    `Campaign - <instance-name> - AIAssistant`
 
-1. 设置具有AI助手访问所需权限的产品配置文件。
+1. 设置具有“生成内容”访问权限所需权限的产品配置文件。
 
 1. **添加用户或用户组**。 选择下列选项之一：
    * **添加个人用户**：将所需的用户直接添加到产品配置文件。
@@ -104,49 +104,49 @@ AI Assistant可简化跨渠道（如电子邮件、短信和推送通知）的�
 
 ## 护栏和限制 {#generative-guardrails}
 
-下面列出了在Adobe Campaign Web中使用AI助手生成电子邮件的一般准则：
+下面列出了在Adobe Campaign Web中使用人工智能生成内容以生成电子邮件的一般准则：
 
 * 生成的内容的质量在很大程度上取决于您定义的营销目标或提示。 使用明确定义的GenAI模型提示来准确地解释。
 * 上传品牌资产以确保准确的品牌内内容。 否则，内容将基于公开可用的信息。 上传的内容可以采用以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
 * 上传的品牌资产的最大大小为50MB。 较大的文件或大量的图像可能会增加处理时间。
-* 使用[内置电子邮件模板](../content/create-email-templates.md)、品牌特定模板或自定义模板通过AI助手创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
+* 使用[内置电子邮件模板](../content/create-email-templates.md)、品牌特定模板或自定义模板通过AI创建电子邮件内容。 建议使用最多包含8至10个图像的电子邮件模板。
 * 在选择变体时，使用拇指上移、拇指下移或标记图标报告任何有问题的输出。
-* 您对AI Assistant的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+* 您对生成内容的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * 作为Adobe在媒体创建中使用创作AI工具时实现透明化承诺的一部分，Adobe在下载或导出内容或项目时应用Content Credentials，其中包含Firefly生成的资源。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)。
 
-以下限制适用于Adobe Campaign Web中的AI助手：
+以下限制适用于在Adobe Campaign Web中生成内容：
 
-* Adobe Campaign Web中的AI助手当前仅支持英文。 非英文输入内容可能会产生不一致或错误的结果。 非英文答复引起的问题，目前不予处理或改进。
+* 目前，仅支持在Adobe Campaign Web中生成内容（英文）。 非英文输入内容可能会产生不一致或错误的结果。 非英文答复引起的问题，目前不予处理或改进。
 * 仅适用于电子邮件、推送和短信渠道。
 * GenAI内容可能并不总是准确的。 分享您的反馈，以便工程师可以优化模型。
 * 您可以上传多个品牌资产，但只能为特定世代利用一个品牌资产。
 
-## AI助手内容生成功能 {#generative-features}
+## 生成内容功能 {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[使用AI助手生成完整内容]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[使用“生成内容”生成完整内容]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-使用AI助手<a href="generative-full-content.md"><strong>生成完整内容</strong></a>
+生成内容时生成<a href="generative-full-content.md"><strong>完整内容</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[使用AI助手生成文本内容]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[使用生成内容生成文本内容]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div>使用AI助手生成<a href="generative-text.md"><strong>文本</strong>
+<div>使用生成内容生成<a href="generative-text.md"><strong>文本</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[使用AI助手生成图像]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[使用生成内容生成图像]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-使用AI助手生成<a href="generative-image.md"><strong>图像</strong></a>
+生成包含生成内容的<a href="generative-image.md"><strong>图像</strong></a>
 </div>
 <p></td>
 </tr></table>

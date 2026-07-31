@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 3032
-ht-degree: 100%
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -853,15 +853,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助手生成登陆页面</strong><br/></th>
+<th><strong>通过生成内容生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI 助手现在可用于您的登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>现在，生成内容可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>有关 AI 助手的更多信息，请参阅<a href="../content/generative-full-content.md">详细文档</a>。</p>
+<p>有关生成内容的详细信息，请参阅<a href="../content/generative-full-content.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
