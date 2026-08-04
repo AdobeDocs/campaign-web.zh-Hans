@@ -4,10 +4,8 @@ title: 创建受众
 description: 了解如何在Adobe Campaign Web中创建受众
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 TQID: https://experienceleague.adobe.com/3uaqEhHU8Hn8OkHogqYfPMXfKSaexNrD-9Y94ZX-SA0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1018
@@ -114,4 +112,4 @@ Campaign Web允许您在可视化工作流画布中创建新受众。 除了从�
 
 了解如何构建和管理受众、如何为投放选择受众，以及如何定义对照组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453212?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

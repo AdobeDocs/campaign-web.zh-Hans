@@ -5,45 +5,15 @@ role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
 TQID: https://experienceleague.adobe.com/-hVxbMvBihOVGmmQxQ2eCpa-mL-yRWHX2J1vkSSMZaE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a14877cc-63b1-41d9-bf0b-5f97cadd0417id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: b4ecd69f-2adf-4219-bc47-c9cd9a53c118id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e656c701-3899-4db3-989c-de0980ddfffaid: e739ee2b-6228-412e-878f-45de0791417did: ee3dfd63-9a21-4961-9f24-ea3385284a21id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3217
+source-wordcount: 3256
 ht-degree: 12%
 
 ---
@@ -58,7 +28,7 @@ Campaign客户端控制台可集中所有功能和设置。 它与Campaign Web�
 
 ![](assets/client_console.png){zoomable="yes"}
 
-[了解有关Adobe Campaign v8](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}客户端控制台用户界面的更多信息。
+[了解有关Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}客户端控制台用户界面的更多信息。
 
 ## Campaign v8 架构 {#acs-gs-admi-archi}
 
@@ -66,7 +36,7 @@ Campaign v8（控制台）文档中详细介绍了Campaign架构。 在[此页�
 
 供您开始使用的有用链接：
 
-* [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/ac-components){target="_blank"}中介绍了Adobe Campaign组件和全局架构。
+* [此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}中介绍了Adobe Campaign组件和全局架构。
 
 * 请参阅[Campaign架构入门](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}，了解Campaign架构，然后再开始构建实例。
 
@@ -86,23 +56,23 @@ Campaign客户端控制台是一个本机应用程序，它通过标准互联网
 
 >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
-有关详细信息，请参阅[使用客户端控制台连接到Campaign](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/connect){target="_blank"}。
+有关详细信息，请参阅[使用客户端控制台连接到Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}。
 
-请注意，客户端控制台必须安装在受支持的环境中。 在[Campaign v8 （控制台）兼容性矩阵](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}中了解详情。
+请注意，客户端控制台必须安装在受支持的环境中。 在[Campaign v8 （控制台）兼容性矩阵](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}中了解详情。
 
 ### 了解客户端控制台界面  {#acs-gs-ui}
 
 通过本教程视频了解Adobe Campaign v8用户界面以及如何导航主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426444?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
-有关详细信息，请参阅[使用客户端控制台](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
+有关详细信息，请参阅[使用客户端控制台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
 
 ## 管理环境 {#acs-gs-admin-env}
 
-安装客户端控制台后，请按照本文档中的步骤创建与应用程序服务器的连接： [与应用程序服务器文档的连接](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}。
+安装客户端控制台后，请按照本文档中的步骤创建与应用程序服务器的连接： [与应用程序服务器文档的连接](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}。
 
-安全实践深深地植入到我们的内部软件开发与运行流程和工具中，我们的跨职能团队严格遵循这些惯例，以预防、检测事件并快速做出响应。 请参阅[Campaign安全最佳实践](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/privacy/security){target="_blank"}以了解详情。
+安全实践深深地植入到我们的内部软件开发与运行流程和工具中，我们的跨职能团队严格遵循这些惯例，以预防、检测事件并快速做出响应。 请参阅[Campaign安全最佳实践](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}以了解详情。
 
 ### 访问权限和权限 {#acs-gs-admin-rights}
 
@@ -121,14 +91,14 @@ Campaign [文件夹](https://experienceleague.adobe.com/zh-hans/docs/campaign/ca
 
 Campaign 控制面板允许管理每个实例的设置并跟踪使用情况，从而帮助 Adobe Campaign 产品管理员提高工作效率。 其直观的界面可让您轻松监控关键资产的使用情况，并执行管理任务，如将 IP 地址添加到允许列表、SFTP 存储监控、密钥管理等。
 
-在[控制面板教程](https://experienceleague.adobe.com/zh-hans/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}和[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans){target="_blank"}中了解详情。
+在[控制面板教程](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}和[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans){target="_blank"}中了解详情。
 
-* **添加IP地址** - Campaign控制面板允许您通过将IP地址范围添加到允许列表来设置与实例的新连接。 请参阅[IP允许列表文档](https://experienceleague.adobe.com/zh-hans/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}以了解详情
+* **添加IP地址** - Campaign控制面板允许您通过将IP地址范围添加到允许列表来设置与实例的新连接。 请参阅[IP允许列表文档](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}以了解详情
 
 * **子域配置** — 您可以配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。
-请参阅[子域委派文档](https://experienceleague.adobe.com/zh-hans/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}以了解详情
+请参阅[子域委派文档](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}以了解详情
 
-* **管理SFTP服务器** — 在控制面板中，您可以与连接到您有权访问的Campaign实例的所有SFTP服务器进行交互。 请参阅[SFTP管理文档](https://experienceleague.adobe.com/zh-hans/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}以了解详情
+* **管理SFTP服务器** — 在控制面板中，您可以与连接到您有权访问的Campaign实例的所有SFTP服务器进行交互。 请参阅[SFTP管理文档](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}以了解详情
 
 
 ### 审核跟踪 {#acs-gs-admin-audit-trail}
@@ -141,7 +111,7 @@ Campaign 控制面板允许管理每个实例的设置并跟踪使用情况，�
 
 与Campaign Standard中可以实现的类似，管理员可以定义资源包，以通过结构化XML文件在不同的Adobe Campaign实例之间交换资源。 资源包可以是配置参数或数据。
 
-您可以使用数据包导出和导入平台自定义设置和数据。 资源包可以包含不同类型的配置和组件，无论是否进行了过滤。 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/packages){target="_blank"}以了解如何在Campaign v8中使用数据包。
+您可以使用数据包导出和导入平台自定义设置和数据。 资源包可以包含不同类型的配置和组件，无论是否进行了过滤。 请参阅[本文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}以了解如何在Campaign v8中使用数据包。
 
 <!--
 MISSING LINKS: 
@@ -168,7 +138,7 @@ MISSING LINKS:
 
 ## 了解数据模型创建 {#acs-gs-admin-data-model-creation}
 
-与Campaign Standard类似，Adobe Campaign v8附带其预定义的数据模型。 Adobe Campaign依赖于包含链接在一起的表的云数据库。 在[数据模型文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}中了解详情。
+与Campaign Standard类似，Adobe Campaign v8附带其预定义的数据模型。 Adobe Campaign依赖于包含链接在一起的表的云数据库。 在[数据模型文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}中了解详情。
 
 架构是与数据库表关联的XML文档。 它定义数据结构并描述表的SQL定义。 请参阅[架构创建文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
@@ -194,9 +164,9 @@ MISSING LINKS:
 
 * 请在此视频中了解什么是定位维度和工作表，以及Adobe Campaign如何管理不同数据源的数据：
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452604?captions=chi_hans&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-* Campaign 可帮助您将联系人添加到云数据库。 您可以加载文件、计划和自动更新多个联系人，在网站上收集数据，或直接在收件人表格中输入轮廓信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
+* Campaign 可帮助您将联系人添加到云数据库。 您可以加载文件、计划和自动更新多个联系人，在网站上收集数据，或直接在收件人表格中输入轮廓信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
 
 * 您可以轻松地将不同的报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。 请参阅[导出数据文档](../../v8/reporting/export-reports.md)以了解详情。
 
@@ -206,9 +176,9 @@ Campaign REST API旨在通过将Adobe Campaign与您使用的技术面板连接�
 
 作为过渡到Campaign v8的Campaign Standard用户，您可以使用REST API。
 
-请参阅[Rest API文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}以了解详情。
+请参阅[Rest API文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}以了解详情。
 
-请注意，从Campaign Standard过渡到Campaign v8时，一些建议和限制适用于REST API。 它们列在[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}中。 在过渡到Campaign v8时，如以下可用性说明中所列，特定限制也适用：
+请注意，从Campaign Standard过渡到Campaign v8时，一些建议和限制适用于REST API。 它们列在[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}中。 在过渡到Campaign v8时，如以下可用性说明中所列，特定限制也适用：
 
 >[!AVAILABILITY]
 >
@@ -233,16 +203,16 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You choose a built-in template when you create a landing page, then design the content. See [Create and publish a landing page](../../v8/landing-pages/create-lp.md) and [Learn through use cases](../../v8/landing-pages/lp-use-cases.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## 隐私和同意
 
 从Campaign Standard迁移到Campaign v8时，请务必查看隐私法规对您的数据操作有何影响。 根据您的业务以及您运营的管辖区，客户可能有合法的权限访问您掌握的有关他们的数据，或请求删除这些数据。
 
-在Campaign v8中，所有隐私请求都必须通过&#x200B;**Adobe Privacy Service**&#x200B;集成进行管理。 请参阅[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/privacy/privacy)以了解详情。
+在Campaign v8中，所有隐私请求都必须通过&#x200B;**Adobe Privacy Service**&#x200B;集成进行管理。 请参阅[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy)以了解详情。
 
 请记住，您的Campaign Standard环境在过渡后的一段时间内保持活动状态。 在此期间，隐私请求可能会同时到达这两个系统。 要确保合规性并避免出现缺口，请与您的Adobe过渡经理协调以正确处理两个环境中的请求。
 
@@ -252,11 +222,11 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 了解如何设置和管理订阅和锁定订阅者。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426553?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * 请参阅订阅服务[Web用户界面文档](../../v8/audience/manage-subscribers.md)。
 
-* 另请参阅[此部分](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}中有关在客户端控制台中设置订阅服务的文档。
+* 另请参阅[此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}中有关在客户端控制台中设置订阅服务的文档。
 
 ## 消息和投放{#acs-gs-msg}
 
@@ -266,10 +236,10 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 作为管理员，您必须定义渠道配置。 请参阅下面的链接以了解详情。
 
-* **电子邮件** - [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中详细介绍了电子邮件设置。
-* **短信** — 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
-* **推送通知** — 此部分[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了配置推送通知渠道的步骤。
-* **事务性消息传递** — 本节中详细介绍了[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤
+* **电子邮件** - [此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中详细介绍了电子邮件设置。
+* **短信** — 请参阅[本文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
+* **推送通知** — 此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了[配置推送通知渠道的步骤。
+* **事务性消息传递** — 本节中详细介绍了[在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### 外部帐户 {#acs-gs-ext-accounts}
 
@@ -311,20 +281,20 @@ MISSING LINKS:
 
 借助Campaign v8，管理员可以在以下视频中定义动态内容块以及如何使用动态内容块将电子邮件投放内容个性化：
 
->[!VIDEO](https://video.tv.adobe.com/v/3449016?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 有用的链接：
 
-* [个性化入门](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
-* [使用个性化块](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
-* [创建条件内容](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
-* [Personalization数据源](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
+* [个性化入门](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [使用个性化块](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [创建条件内容](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Personalization数据源](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### 投放模板 {#acs-gs-templates}
 
 在Campaign v8中，需要使用投放模板，在Campaign Standard中也是如此。
 
-为了加快并改进设计过程，请创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。 了解如何在[Campaign Web用户界面](../../v8/msg/delivery-template.md)中创建投放模板。 另请参阅[本节](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/create-templates){target="_blank"}中的如何在客户端控制台中创建投放模板。
+为了加快并改进设计过程，请创建投放模板以轻松地在营销活动中重复使用自定义内容和设置。 此功能使您能够标准化创意外观，以便更快地执行和启动营销活动。 了解如何在[Campaign Web用户界面](../../v8/msg/delivery-template.md)中创建投放模板。 另请参阅[本节](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}中的如何在客户端控制台中创建投放模板。
 
 ### 类型规则 {#acs-gs-admin-rules}
 
@@ -332,7 +302,7 @@ MISSING LINKS:
 
 从Campaign Standard环境过渡到Campaign v8时，您的分类规则将移至Campaign v8。
 
-在Campaign v8中，分类规则带有特定的活动优化附件。 此模块允许您控制、过滤和监控投放的发送。 为了避免活动之间发生冲突，Adobe Campaign 可以应用特定的限制规则来测试各种活动组合。 这可确保所发送的邮件符合客户的需求与期望以及公司的通信政策。 请参阅[类型规则文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}以了解详情。
+在Campaign v8中，分类规则带有特定的活动优化附件。 此模块允许您控制、过滤和监控投放的发送。 为了避免活动之间发生冲突，Adobe Campaign 可以应用特定的限制规则来测试各种活动组合。 这可确保所发送的邮件符合客户的需求与期望以及公司的通信政策。 请参阅[类型规则文档](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}以了解详情。
 
 ### 隔离管理 {#acs-gs-admin-quarantine}
 
@@ -343,12 +313,12 @@ MISSING LINKS:
 
 ## 管理Adobe Campaign集成 {#acs-gs-integrations}
 
-您可以将Campaign实例与Adobe Experience Cloud解决方案连接以组合功能。 Adobe Campaign附带几个连接器，允许您与外部应用程序通信、连接到数据库引擎、共享和同步数据。 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/integration){target="_blank"}以了解如何组合解决方案。
+您可以将Campaign实例与Adobe Experience Cloud解决方案连接以组合功能。 Adobe Campaign附带几个连接器，允许您与外部应用程序通信、连接到数据库引擎、共享和同步数据。 请参阅[本文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}以了解如何组合解决方案。
 
 作为迁移到Campaign v8的Campaign Standard用户，以下内容适用于您：
 
 * 如果您正在使用这些与Campaign Standard的集成，则您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;配置和数据已由Adobe迁移。
-* 如果您的Campaign Standard环境已与&#x200B;**Adobe Experience Manager**&#x200B;集成，Adobe建议您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便能够在Campaign Web用户界面中设计电子邮件时使用此功能，并简化直接在Adobe Experience Manager环境中管理电子邮件投放内容和表单的过程。在[此页面](../../v8/integrations/aem-content.md)中了解详情。
-请注意，Campaign还可以与Adobe Experience Manager 6.5集成。要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
-* 如果您的Campaign Standard环境与&#x200B;**触发器**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}中所述。
-* 如果您的Campaign Standard环境与&#x200B;**Adobe Target**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}中所述。
+* 如果您的Campaign Standard环境已与&#x200B;**Adobe Experience Manager**&#x200B;集成，Adobe建议您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便能够在Campaign Web用户界面中设计电子邮件时使用此功能，并简化直接在Adobe Experience Manager环境中管理电子邮件投放内容和表单的过程。 请参阅[此页面](../../v8/integrations/aem-content.md)以了解详情。
+请注意，Campaign还可以与Adobe Experience Manager 6.5集成。 要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
+* 如果您的Campaign Standard环境与&#x200B;**触发器**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}中所述。
+* 如果您的Campaign Standard环境与&#x200B;**Adobe Target**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}中所述。

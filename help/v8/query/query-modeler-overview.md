@@ -4,12 +4,11 @@ title: 使用查询建模器
 description: 了解如何使用Adobe Campaign Web查询建模器。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 TQID: https://experienceleague.adobe.com/lT-df-KAmZo0z77wk9iB882eSxmrW60-a-WYnHd0RzE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 813
-ht-degree: 20%
+source-wordcount: 898
+ht-degree: 18%
 
 ---
 
@@ -59,8 +58,8 @@ Adobe Campaign Web用户界面提供了一个查询建模器，可简化根据�
 
 >[!IMPORTANT]
 >
->提供了全新的查询建模器界面。新的规则生成器简化了界面，让您能够更轻松地构建查询。要切换到此体验，请按右上角的切换按钮。您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面切换的图像](assets/query-modeler-toggle.png){zoomable="yes"}
+>提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 
 >[!CONTEXTUALHELP]

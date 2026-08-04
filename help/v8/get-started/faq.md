@@ -3,10 +3,8 @@ title: 常见问题解答
 description: Campaign Web 用户界面常见问题解答
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 865
@@ -16,7 +14,7 @@ ht-degree: 97%
 
 # 常见问题解答
 
-以下部分列出了有关新的营销活动界面的常见问题。 您是否还有其他疑问？ 您想与同行分享您的经验或交流想法吗？ 或者，您是否对 Adobe 团队的学习内容有任何反馈意见？ 加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hans){target="_blank"}中的对话。
+以下部分列出了有关新的营销活动界面的常见问题。 您是否还有其他疑问？ 您想与同行分享您的经验或交流想法吗？ 或者，您是否对 Adobe 团队的学习内容有任何反馈意见？ 加入 [Adobe 营销活动社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的对话。
 
 +++ 我需要使用哪个版本的 Adobe 营销活动才能访问新的 Web 用户界面？
 

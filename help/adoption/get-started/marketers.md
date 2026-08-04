@@ -5,28 +5,15 @@ role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 TQID: https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b631758a-142d-425f-b9aa-f756d85cb979id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2803
+source-wordcount: 2860
 ht-degree: 16%
 
 ---
@@ -53,7 +40,7 @@ ht-degree: 16%
 
 在下面的视频中，了解如何访问和导航Campaign Web用户界面，以及如何自定义清单列表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453432?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 有关更多详细信息，请参阅以下文档：
 
@@ -74,13 +61,13 @@ ht-degree: 16%
 
 1. 在此视频中，了解如何使用Campaign Web用户界面访问、管理和浏览用户档案：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448374?captions=chi_hans&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    请参阅[用户档案入门](../../v8/audience/about-recipients.md)文档以了解详情。
 
 1. 了解如何在Campaign v8中创建和管理测试用户档案
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442905?captions=chi_hans&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### 管理受众 {#acs-gs-marketers-audiences}
 
@@ -88,11 +75,11 @@ ht-degree: 16%
 
 请在此视频中了解如何构建和管理受众、如何为投放选择受众以及定义控制组：
 
->[!VIDEO](https://video.tv.adobe.com/v/3453212?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 有关详细信息，请参阅[受众入门](../../v8/audience/manage-audience.md){target="_blank"}。
 
-与Campaign Standard中一样，您可以向投放添加控制组。您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。此选项可帮助您衡量活动的影响。
+与Campaign Standard中一样，您可以向投放添加控制组。 您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。 此选项可帮助您衡量活动的影响。
 了解如何[设置控制组](../../v8/audience/control-group.md){target="_blank"}。
 
 >[!AVAILABILITY]
@@ -111,27 +98,27 @@ ht-degree: 16%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/work-with-services/manage-services">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
 <img alt="不频繁" src="assets/lp-list.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>创建订阅服务</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>创建订阅服务</strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
 <img alt="不频繁" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>管理订阅者<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>管理订阅者<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/send-to-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
 <img alt="验证" src="assets/workflow-create.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/send-to-subscribers"><strong>向服务的订阅者发送消息</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong>向服务的订阅者发送消息</strong></a>
 </div>
 <p>
 </td>
@@ -166,7 +153,7 @@ Campaign Web用户界面已完全重新设计，以方便使用、配置、执�
 
 请在此视频中了解工作流的工作方式以及如何创建定位工作流：
 
->[!VIDEO](https://video.tv.adobe.com/v/3453982?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 通过[工作流文档](../../v8/workflows/gs-workflows.md)获取更多详细信息。
 
@@ -222,7 +209,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 通过此视频了解如何从头开始创建电子邮件投放、定义受众、设计内容、模拟预览和发送校样：
 
->[!VIDEO](https://video.tv.adobe.com/v/3454015?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 在[创建您的第一个电子邮件文档](../../v8/email/create-email.md)中了解如何创建您的第一个定向电子邮件
 
@@ -230,17 +217,17 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 1. **设计和定义内容**
 
-   Campaign v8电子邮件设计工具与Campaign Standard中提供的设计工具类似。 提醒您，几年前已弃用Campaign Standard[旧版电子邮件编辑器](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。 您应该已经过渡到Campaign电子邮件Designer ，以创建电子邮件内容并对电子邮件内容进行个性化设置。
+   Campaign v8电子邮件设计工具与Campaign Standard中提供的设计工具类似。 提醒您，几年前已弃用Campaign Standard[旧版电子邮件编辑器](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。 您应该已经过渡到Campaign电子邮件Designer ，以创建电子邮件内容并对电子邮件内容进行个性化设置。
 
    了解如何在电子邮件设计器中导航。 请在以下视频中了解如何从头开始结构和设计电子邮件、如何个性化和测试电子邮件：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453575?captions=chi_hans&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    电子邮件设计器通过直观的拖放界面，让您能够创建引人入胜且量身定制的电子邮件。 请参阅[电子邮件Designer文档](../../v8/email/get-started-email-designer.md)以了解详情
 
    请在此视频中了解如何通过上传HTML创建电子邮件、如何使其与Email Designer兼容以及如何将其转换为模板：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447042?captions=chi_hans&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    内容片段是可重复使用的组件，可以在一条或多条消息中引用。 了解有关[内容片段](../../v8/content/fragments.md)的更多信息，以简化电子邮件投放的创建。
 
@@ -250,7 +237,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
    在此视频中，了解如何预览电子邮件内容和个性化、发送测试投放（验证）以及检查常用桌面、移动和基于Web的客户端中的电子邮件渲染：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450347?captions=chi_hans&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **发送电子邮件并检查日志**
 
@@ -269,27 +256,27 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/create-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
 <img alt="潜在客户" src="assets/create_sms.png">
 </a>
-<div><a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/create-sms"><strong>创建短信投放</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong>创建短信投放</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/content-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
 <img alt="不频繁" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/content-sms"><strong>设计短信投放<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong>设计短信投放<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/send-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
 <img alt="验证" src="assets/send_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/sms/send-sms"><strong>预览和发送SMS投放</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong>预览和发送SMS投放</strong></a>
 </div>
 <p>
 </td>
@@ -304,43 +291,43 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/create-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
 <img alt="潜在客户" src="assets/push_create.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/create-push"><strong>创建推送投放</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong>创建推送投放</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/content-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
 <img alt="不频繁" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/content-push"><strong>设计推送投放<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong>设计推送投放<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/send-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
 <img alt="验证" src="assets/push_send.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/push/send-push"><strong>预览并发送推送投放</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong>预览并发送推送投放</strong></a>
 </div>
 <p>
 </tr></table>
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8支持Android和iOS推送渠道。 要使用推送渠道过渡现有工作流和投放，请联系Adobe Campaign过渡经理。 了解有关[渠道设置](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}的更多信息。
+>* Adobe Campaign v8支持Android和iOS推送渠道。 要使用推送渠道过渡现有工作流和投放，请联系Adobe Campaign过渡经理。 了解有关[渠道设置](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}的更多信息。
 >
->* 请注意，适用于移动设备应用程序的SDK V4几年前在Campaign Standard[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被弃用。 您应该已经过渡到Adobe Experience Platform SDK，该版本与Campaign v8中的版本相同。
+>* 请注意，适用于移动设备应用程序的SDK V4几年前在Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被弃用。 [您应该已经过渡到Adobe Experience Platform SDK，该版本与Campaign v8中的版本相同。
 > 
 
 ### 直邮 {#acs-gs-marketers-direct-mail}
 
 直邮是一种线下渠道，使用它可以制作文件，以批量向客户发送个性化信件，例如明信片、传单或产品样本。 在创建直邮投放时，Adobe Campaign 会自动生成一个提取文件，其中包含所有的目标轮廓和选定数据，例如邮政地址和轮廓属性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451793/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 在Campaign v8中，创建、测试和发送直邮投放的详细步骤类似于Campaign Standard。
 
@@ -348,7 +335,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 1. [定义提取文件](../../v8/direct-mail/content-direct-mail.md)
 1. [预览并发送](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3453575?captions=chi_hans&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
 ### 应用程序内渠道 {#acs-gs-marketers-in-app}
 
@@ -364,28 +351,28 @@ Adobe Campaign v8 Web用户界面重新设计了登陆页面的用户体验。 C
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="潜在客户" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/create-lp"><strong>创建登陆页面</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>创建登陆页面</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="验证" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/lp-content"><strong>设计登陆页面</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>设计登陆页面</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
 <img alt="登陆页用例和内置模板" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>登陆页面用例和内置模板</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>登陆页面用例和内置模板</strong></a>
 </div>
 <p>
 </td>
@@ -394,7 +381,7 @@ Adobe Campaign v8 Web用户界面重新设计了登陆页面的用户体验。 C
 
 ## 报告 {#acs-gs-marketers-reporting}
 
-Adobe Campaign提供一组[报告工具](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}。 作为管理员，您可以创建和配置报告以与其他Campaign用户共享。
+Adobe Campaign提供一组[报告工具](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}。 作为管理员，您可以创建和配置报告以与其他Campaign用户共享。
 
 Adobe Campaign报表工具套件提供了有关营销工作有效性的宝贵见解，从而允许您优化营销活动以发挥最大影响。 请参阅[报告文档](../../v8/reporting/gs-reports.md)以了解详情。
 

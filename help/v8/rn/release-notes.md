@@ -3,15 +3,9 @@ title: Campaign v8 Web 用户界面发行说明
 description: 了解最新版 Campaign Web 用户界面的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d9d1733854bceac52d54e02125dac92b74872c77
 workflow-type: tm+mt
 source-wordcount: 716
@@ -117,14 +111,14 @@ _2026年7月28日_
 ### 改进 {#26-7-improvements}
 
 * 已对&#x200B;**自定义架构配置**&#x200B;进行以下改进：
-  * 新的&#x200B;**操作数据**&#x200B;部分允许您限制自定义架构记录上的可用操作，而不管单个文件夹上配置的安全规则如何。 [了解更多信息](../administration/schemas-action-data.md)
-  * **自定义筛选器**&#x200B;已添加到&#x200B;**清单列表配置**&#x200B;部分。 它们允许您选择哪些属性在列表视图的筛选器窗格中显示为快速访问字段。 [了解更多信息](../administration/schemas-custom-filters.md)
+  * 新的&#x200B;**操作数据**&#x200B;部分允许您限制自定义架构记录上的可用操作，而不管单个文件夹上配置的安全规则如何。 [了解更多](../administration/schemas-action-data.md)
+  * **自定义筛选器**&#x200B;已添加到&#x200B;**清单列表配置**&#x200B;部分。 它们允许您选择哪些属性在列表视图的筛选器窗格中显示为快速访问字段。 [了解更多](../administration/schemas-custom-filters.md)
 
 * 已对&#x200B;**工作流**&#x200B;进行以下改进：
-  * 现在，删除工作流活动会更加灵活：当活动具有后续活动时，您可以选择删除所有后续活动、仅删除选定活动，或者删除活动，同时将后续活动保留在新分支中。 [了解更多信息](../workflows/orchestrate-activities.md#delete-activity)
-  * 您现在可以断开两个工作流活动之间的过渡，而无需删除其中任一活动。 例如，您可以借此重新组织工作流图，以暂时保留一组要保留的活动，而无需删除和重新创建它们。 [了解更多信息](../workflows/orchestrate-activities.md#disconnect-transition)
-  * 现在，水平滚动条和垂直滚动条会显示在工作流画布周围，您可以通过直接拖动到要查看的区域来导航大型工作流。 [了解更多信息](../workflows/orchestrate-activities.md)
+  * 现在，删除工作流活动会更加灵活：当活动具有后续活动时，您可以选择删除所有后续活动、仅删除选定活动，或者删除活动，同时将后续活动保留在新分支中。 [了解更多](../workflows/orchestrate-activities.md#delete-activity)
+  * 您现在可以断开两个工作流活动之间的过渡，而无需删除其中任一活动。 例如，您可以借此重新组织工作流图，以暂时保留一组要保留的活动，而无需删除和重新创建它们。 [了解更多](../workflows/orchestrate-activities.md#disconnect-transition)
+  * 现在，水平滚动条和垂直滚动条会显示在工作流画布周围，您可以通过直接拖动到要查看的区域来导航大型工作流。 [了解更多](../workflows/orchestrate-activities.md)
   * 在保存或启动/重新启动工作流时，如果自您打开工作流后其他用户在Web UI或客户端控制台中修改了该工作流，则现在会显示警告。 您可以选择覆盖其他更改，重新加载工作流以获取最新版本，或者取消。
 
-* **发件人电子邮件地址**：您现在可以使用&#x200B;**NmsDelivery_senderAddressMask**&#x200B;选项，将投放的&#x200B;**From email**&#x200B;字段限制为预定义的地址列表。 [了解更多信息](../administration/options.md#restrict-sender-address)
+* **发件人电子邮件地址**：您现在可以使用&#x200B;**NmsDelivery_senderAddressMask**&#x200B;选项，将投放的&#x200B;**From email**&#x200B;字段限制为预定义的地址列表。 [了解更多](../administration/options.md#restrict-sender-address)
 * **登录错误消息**&#x200B;已得到改进：当登录尝试失败时，Web UI现在会针对几种情况（例如，当用户未分配安全区域或其IP地址受限制时）显示更具体的错误消息。

@@ -4,13 +4,9 @@ title: 使用Adobe Experience Manager as a Cloud Service管理资源
 description: 了解如何使用Adobe Experience Manager as a Cloud Service管理内容
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 615
@@ -24,7 +20,7 @@ ht-degree: 5%
 
 Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Adobe Experience Manager平台中简化电子邮件投放内容和表单的管理。
 
-![](assets/do-not-localize/book.png) [了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=zh-Hans)
+![](assets/do-not-localize/book.png)[了解有关Adobe Experience Manager as a Cloud Service的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## 在[!DNL Adobe Experience Manager as a Cloud Service]中创建模板{#create-aem-template}
 
@@ -40,7 +36,7 @@ Adobe Campaign Web界面与Adobe Experience Manager相集成，允许直接在Ad
 
    ![[显示“Adobe Campaign电子邮件”模板选择和命名字段的屏幕截图。]](assets/aem_2.png)
 
-1. 通过添加组件（例如Adobe Campaign中的个性化字段）自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hans#editing-email-content)
+1. 通过添加组件（例如Adobe Campaign中的个性化字段）自定义电子邮件内容。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
 
 1. 电子邮件准备就绪后，导航到&#x200B;**[!UICONTROL 页面信息]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 启动工作流]**。
 

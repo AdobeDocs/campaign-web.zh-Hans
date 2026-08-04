@@ -3,10 +3,8 @@ audience: end-user
 title: 将可编辑列表添加到选件架构
 description: 了解如何直接在选件详细信息屏幕中将自定义收藏集链接显示为可编辑列表。
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
 source-wordcount: 449
@@ -16,7 +14,7 @@ ht-degree: 1%
 
 # 将可编辑列表添加到选件架构 {#offer-editable-list}
 
-当您使用自定义收藏集链接（例如链接到选件的一组区段）扩展 [!DNL nms:offer] 架构[&#128279;](../administration/schemas.md)时，可以直接在选件的&#x200B;**[!UICONTROL 自定义选项]**&#x200B;部分中将其显示为可编辑列表。 收藏集不是通过单独的屏幕管理相关记录，而是呈现为选件详细信息中的列表，您可以通过专用对话框内联创建新的相关记录。
+当您使用自定义收藏集链接（例如链接到选件的一组区段）扩展 [!DNL nms:offer] 架构](../administration/schemas.md)时，可以直接在选件的&#x200B;**[!UICONTROL 自定义选项]**&#x200B;部分中将其显示为可编辑列表。 [收藏集不是通过单独的屏幕管理相关记录，而是呈现为选件详细信息中的列表，您可以通过专用对话框内联创建新的相关记录。
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ ht-degree: 1%
    >
    >集合链接字段无法设为必填字段，并且不支持子属性。 默认情况下，它们跨越表单中的两列。
 
-1. 确认您的选择。 收藏集链接已添加到自定义字段&#x200B;**表的**&#x200B;列表，其类型为&#x200B;**[!UICONTROL 收藏集]**。
+1. 确认您的选择。 收藏集链接已添加到自定义字段&#x200B;]**表的**[!UICONTROL &#x200B;列表，其类型为&#x200B;**[!UICONTROL 收藏集]**。
 
    ![显示已添加属性的屏幕截图。](assets/offers-editable-list-2.png){zoomable="yes"}
 
@@ -64,7 +62,7 @@ ht-degree: 1%
 
 ## 在选件中使用可编辑列表 {#use-list}
 
-1. 从左侧菜单中，单击&#x200B;**选件**&#x200B;并打开一个选件。 [了解更多信息](create-offer.md#create)
+1. 从左侧菜单中，单击&#x200B;**选件**&#x200B;并打开一个选件。 [了解更多](create-offer.md#create)
 
    ![显示选件屏幕的屏幕截图。](assets/offers-editable-list-7.png){zoomable="yes"}
 
