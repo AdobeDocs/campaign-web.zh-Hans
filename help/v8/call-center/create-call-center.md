@@ -4,7 +4,8 @@ title: 创建呼叫中心投放
 description: 了解如何使用Adobe Campaign Web创建呼叫中心交付
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 759
@@ -43,7 +44,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您可以计划在特定日期发送投放。 有关更多信息，请参阅此](../msg/gs-deliveries.md#gs-schedule)章节[。
+>您可以计划在特定日期发送投放。 有关更多信息，请参阅此[&#128279;](../msg/gs-deliveries.md#gs-schedule)章节。
 
 ## 定义受众{#select-audience}
 
@@ -94,7 +95,7 @@ ht-degree: 4%
 
 1. 重复这些步骤以根据需要为提取文件添加任意数量的列。
 
-   然后，您可以编辑属性、对提取文件排序或更改列的位置。 有关详细信息，请参见此 [ 页面](../direct-mail/content-direct-mail.md#content)。
+   然后，您可以编辑属性、对提取文件排序或更改列的位置。 有关详细信息，请参见此 [&#x200B; 页面](../direct-mail/content-direct-mail.md#content)。
 
    ![显示提取文件属性配置选项的屏幕快照。](assets/cc-content-attributes.png)
 
