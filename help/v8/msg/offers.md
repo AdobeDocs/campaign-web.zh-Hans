@@ -110,7 +110,7 @@ Adobe Campaign允许您通过在交互过程中向给定联系人建议一个或
 
    >[!NOTE]
    >
-   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}以了解详情。
+   >可用建议的数目取决于引擎调用的配置方式，其顺序取决于优惠的优先级。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 1. 保存您的更改。
 

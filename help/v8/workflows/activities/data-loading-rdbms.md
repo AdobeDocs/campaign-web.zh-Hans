@@ -24,7 +24,7 @@ ht-degree: 12%
 **数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动将数据直接从外部关系数据库加载到工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]
