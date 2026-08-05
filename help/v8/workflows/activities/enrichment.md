@@ -12,8 +12,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
-ht-degree: 31%
+source-wordcount: 2370
+ht-degree: 30%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 31%
 
 在工作流中，如果要使用从投放中的扩充活动中获得的选件，请执行以下步骤：
 
-1. 打开投放活动，然后进入内容版本。单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
+1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
 如果您只想查看扩充活动中的优惠，请将&#x200B;**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
 
    ![](../assets/offers-settings.png)

@@ -10,8 +10,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2152
-ht-degree: 37%
+source-wordcount: 2205
+ht-degree: 36%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面切换的图像](assets/query-modeler-toggle.png){zoomable="yes"}
+>查询建模器的全新界面已推出，要切换到这种新的规则生成器体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 使用表达式编辑器 {#edit}
 

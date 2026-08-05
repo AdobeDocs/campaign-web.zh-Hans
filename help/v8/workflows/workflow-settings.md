@@ -8,8 +8,8 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 27%
+source-wordcount: 1087
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 * 列表中显示的工作流的&#x200B;**[!UICONTROL 标签]**。
 * 工作流的&#x200B;**[!UICONTROL 内部名称]**。
 * 应保存工作流的&#x200B;**[!UICONTROL 文件夹]**。
-* 在工作流的所有活动中使用的默认&#x200B;**[!UICONTROL 时区]**。默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
+* 在工作流的所有活动中使用的默认&#x200B;**[!UICONTROL 时区]**。 默认情况下，工作流的时区就是为当前Campaign操作员定义的时区。
 可能的值包括：
   * **服务器时区**&#x200B;以使用Adobe Campaign应用程序服务器的时区。
   * **操作员时区**，使用执行工作流的Adobe Campaign操作员的时区，如客户端控制台中操作员的配置文件中所定义。

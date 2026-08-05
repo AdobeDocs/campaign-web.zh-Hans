@@ -41,7 +41,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="创建受众图像">
+<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="创建受众形象">
 </a>
 <div><a href="create-audience.md"><strong>创建受众</strong>
 </div>

@@ -4,7 +4,7 @@ description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1415'
 ht-degree: 98%
 
 ---
@@ -138,7 +138,7 @@ _2026 年 4 月 29 日_
 
 ### 改进 {#26-3-improvements}
 
-* 新增了&#x200B;**开始**&#x200B;工作流活动，以提高与客户端控制台的兼容性。此活动为可选活动，不会默认添加到新工作流中。不过，系统会自动将其添加到现有工作流中。
+* 已添加&#x200B;**开始**&#x200B;工作流活动，以提升与客户端控制台的兼容性。 此活动为可选项，不会默认添加到新的工作流中。 不过，它会自动添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)
 
@@ -240,11 +240,11 @@ _2026 年 1 月 27 日_
 <tbody>
 <tr>
 <td>
-<p>多语言投放功能现已面向所有客户正式发布（GA）。该功能允许您在 Adobe Campaign Web 用户界面中发送多种语言的消息。您可以选择投放的默认语言，以及可以发送投放的不同语言。您还可以预览所选语言的投放。 
+<p>“多语言投放”功能现已面向所有客户正式发布（GA）。 此功能允许您在 Adobe Campaign Web 用户界面中发送多种语言的消息。 您可以选择投放的默认语言，以及可用于发送投放的其他语言。 您还可以使用您选择的语言预览这些投放内容。 
 <p>有关更多信息，请参阅<a href="../msg/multilingual.md">详细文档</a>。</p>
 <p>多语言推送已进行以下改进：</p>
 <ul>
-<li>现在，您可以通过上传包含多语言内容的 CSV 文件，快速填充所有语言变体。<a href="../msg/multilingual.md#csv-upload">阅读更多</a>
+<li>现在，您可以通过上传包含多语言内容的 CSV 文件，快速填充所有语言变体。 <a href="../msg/multilingual.md#csv-upload">了解更多信息</a>
 </li>
 <li>现已支持富媒体推送。</li>
 </td>

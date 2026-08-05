@@ -5,8 +5,8 @@ description: 了解如何使用加入工作流活动
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 39%
+source-wordcount: '489'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 39%
 >title="连接活动"
 >abstract="**连接**&#x200B;活动允许您合并多个入站过渡。 选择是否在完成所有入站过渡后继续 (AND)，或是否在完成任何入站过渡后继续 (OR)。"
 
-**加入**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。它同步工作流的多个执行分支。
+**加入**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它同步工作流的多个执行分支。
 您可以选择评估集客过渡的方式：
 
 * **AND**：仅在激活所有选定的集客过渡后继续。

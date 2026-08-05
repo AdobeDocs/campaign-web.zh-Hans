@@ -10,8 +10,8 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 1%
+source-wordcount: 450
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web在每个对象列表中提供过滤器，使您能够根据�
 
 >[!IMPORTANT]
 >
->提供了全新的查询建模器界面。新的规则生成器简化了界面，让您能够更轻松地构建查询。要切换到此体验，请按右上角的切换按钮。您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。您可以应用与这个新界面中的查询建模器相同的原则。
->![显示新规则生成器界面切换的图像](assets/query-modeler-toggle.png){zoomable="yes"}
+>提供了全新的查询建模器界面。 新的规则生成器简化了界面，让您能够更轻松地构建查询。 要切换到此体验，请按右上角的切换按钮。 您可以随时返回经典查询建模器，只需返回切换开关以禁用新界面即可。 您可以应用与这个新界面中的查询建模器相同的原则。
+>![显示新规则生成器界面](assets/query-modeler-toggle.png){zoomable="yes"}切换的图像
 
 ## 应用过滤器 {#apply}
 

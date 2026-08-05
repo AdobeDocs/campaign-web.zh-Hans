@@ -48,7 +48,7 @@ ht-degree: 4%
 
 **[!UICONTROL Brand]**&#x200B;已配置四个部分：**[!UICONTROL 标识]**、**[!UICONTROL Brand配置]**、**[!UICONTROL 电子邮件标头参数]**&#x200B;和&#x200B;**[!UICONTROL URL跟踪参数]**。
 
-### 身份标识 {#identity}
+### 标识 {#identity}
 
 **[!UICONTROL 标识]**&#x200B;部分允许您定义和个性化您的品牌。
 

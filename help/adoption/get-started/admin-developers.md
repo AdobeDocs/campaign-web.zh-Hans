@@ -43,7 +43,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3217
+source-wordcount: 3256
 ht-degree: 12%
 
 ---
@@ -348,7 +348,7 @@ MISSING LINKS:
 作为迁移到Campaign v8的Campaign Standard用户，以下内容适用于您：
 
 * 如果您正在使用这些与Campaign Standard的集成，则您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;配置和数据已由Adobe迁移。
-* 如果您的Campaign Standard环境已与&#x200B;**Adobe Experience Manager**&#x200B;集成，Adobe建议您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便能够在Campaign Web用户界面中设计电子邮件时使用此功能，并简化直接在Adobe Experience Manager环境中管理电子邮件投放内容和表单的过程。在[此页面](../../v8/integrations/aem-content.md)中了解详情。
-请注意，Campaign还可以与Adobe Experience Manager 6.5集成。要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
+* 如果您的Campaign Standard环境已与&#x200B;**Adobe Experience Manager**&#x200B;集成，Adobe建议您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便能够在Campaign Web用户界面中设计电子邮件时使用此功能，并简化直接在Adobe Experience Manager环境中管理电子邮件投放内容和表单的过程。 请参阅[此页面](../../v8/integrations/aem-content.md)以了解详情。
+请注意，Campaign还可以与Adobe Experience Manager 6.5集成。 要配置此集成，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard环境与&#x200B;**触发器**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}中所述。
 * 如果您的Campaign Standard环境与&#x200B;**Adobe Target**&#x200B;集成，则必须在Campaign v8中设置并配置此集成，如[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}中所述。

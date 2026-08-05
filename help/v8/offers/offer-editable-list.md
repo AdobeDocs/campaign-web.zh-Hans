@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ## 在选件中使用可编辑列表 {#use-list}
 
-1. 从左侧菜单中，单击&#x200B;**选件**&#x200B;并打开一个选件。 [了解更多信息](create-offer.md#create)
+1. 从左侧菜单中，单击&#x200B;**选件**&#x200B;并打开一个选件。 [了解更多](create-offer.md#create)
 
    ![显示选件屏幕的屏幕截图。](assets/offers-editable-list-7.png){zoomable="yes"}
 

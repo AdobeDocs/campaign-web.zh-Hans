@@ -26,7 +26,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2803
+source-wordcount: 2860
 ht-degree: 16%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 有关详细信息，请参阅[受众入门](../../v8/audience/manage-audience.md){target="_blank"}。
 
-与Campaign Standard中一样，您可以向投放添加控制组。您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。此选项可帮助您衡量活动的影响。
+与Campaign Standard中一样，您可以向投放添加控制组。 您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。 此选项可帮助您衡量活动的影响。
 了解如何[设置控制组](../../v8/audience/control-group.md){target="_blank"}。
 
 >[!AVAILABILITY]
