@@ -9,7 +9,7 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 4%
 >
 >此功能需要在实例上使用品牌推广软件包。 如果您看不到&#x200B;**品牌**&#x200B;菜单，请联系您的Adobe代表。
 
-## 创建或编辑品牌 {#create-edit-brand}
+## 创建或编辑一个品牌 {#create-edit-brand}
 
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
->title="创建品牌"
->abstract="单击&#x200B;**创建品牌**&#x200B;以定义新的品牌标识。 在配置选项卡中填写品牌详细信息，然后单击&#x200B;**创建品牌**&#x200B;以进行保存。 该品牌将链接到投放模板和独立投放。"
+>title="创建一个品牌"
+>abstract="点击&#x200B;**创建品牌**，定义一个新的品牌标识。 在各配置选项卡中填写品牌详细信息，然后点击&#x200B;**创建品牌**&#x200B;将其保存。 品牌就可以被选择关联到投放模板和独立传递。"
 
 要创建新品牌，请执行以下步骤：
 
