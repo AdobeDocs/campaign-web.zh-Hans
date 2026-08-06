@@ -15,7 +15,7 @@ ht-degree: 25%
 >id="acw_schema_inventory_list_configuration"
 >title="库存列表配置"
 >abstract="配置列表视图中默认显示的列。 每列都显示其标签和相应的属性。 添加自定义筛选条件，以在列表视图的筛选窗格中显示快速访问筛选条件字段。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="添加自定义筛选条件"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=zh-Hans" text="添加自定义筛选条件"
 
 **[!UICONTROL 清单列表配置]**&#x200B;部分允许您配置在列表视图中默认显示的列。 每列都显示其标签和相应的属性。
 
