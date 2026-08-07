@@ -1,14 +1,14 @@
 ---
-title: 控制针对数据的操作
+title: 针对数据的控制操作
 description: 了解如何限制对自定义架构记录的创建、编辑和删除操作。
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
-# 控制针对数据的操作 {#action-data}
+# 针对数据的控制操作 {#action-data}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"

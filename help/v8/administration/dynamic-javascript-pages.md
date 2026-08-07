@@ -1,5 +1,5 @@
 ---
-title: 使用动态JavaScript页面
+title: 使用动态 JavaScript 页面
 description: 了解如何使用动态JavaScript页面。
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
 product_v2:
@@ -10,11 +10,11 @@ topic_v2:
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
-# 使用动态JavaScript页面 {#dynamic-javascript-pages}
+# 使用动态 JavaScript 页面 {#dynamic-javascript-pages}
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"

@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="数据加载 (RDBMS) 活动"
->abstract="**数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动将数据直接从外部关系数据库加载到工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。"
+>abstract="**数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动可将数据直接从一个外部关系数据库加载到您的工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。"
 
-**数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动将数据直接从外部关系数据库加载到工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。
+**数据加载 (RDBMS)**&#x200B;活动属于&#x200B;**数据管理**&#x200B;活动。 使用此活动可将数据直接从一个外部关系数据库加载到您的工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hans){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.

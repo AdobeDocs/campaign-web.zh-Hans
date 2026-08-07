@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 生成内容入门
+title: 开始使用“生产内容”
 description: 生成内容入门
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
@@ -11,20 +11,20 @@ feature_v2:
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
-# 使用生成内容 {#generative-gs}
+# 使用“生成内容” {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="生成内容"
->abstract="在构建和个性化投放后，使用AI增强您的内容。 使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
+>abstract="精心制作和个性化定制您的传递内容后，可使用 AI 来提升您的内容质量。 使用此功能，您可以通过描述要生成什么来微调内容，从而简化个性化及提升内容的过程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="在Campaign中使用“生成内容”定义上下文"
+>title="在营销活动中使用“生成内容”定义上下文"
 >abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**用当前内容增强**&#x200B;切换开关。 还可上传品牌资源以将其用作来源。 如果不使用所选内容，就必须上传并选择品牌资产。"
 
 >[!CONTEXTUALHELP]
