@@ -3,9 +3,9 @@ title: Campaign v8 Web 用户界面早期发行说明
 description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 75%
 
 本页列出了 **2026 年版本**&#x200B;的所有变更和改进。 最新发行说明可在[此页面](release-notes.md)查看。
 
-## 2026年7月版 {#26-7-release}
+## 2026 年 7 月版本 {#26-7-release}
 
-_2026年7月28日_
+_2026 年 7 月 28 日_
 
 ### 新增功能 {#26-7-features}
 
@@ -28,7 +28,7 @@ _2026年7月28日_
 <tbody>
 <tr>
 <td>
-<p>您现在可以直接从Campaign Web用户界面端到端地管理选件。 配置优惠环境和优惠空间，构建优惠目录和类别，创建具有资格规则和优先级权重的优惠，并批准和部署它们以供在投放中使用。 高级配置在Client Console中仍然可用。</p>
+<p>您现在可以直接从 Campaign Web 用户界面端到端管理产品建议。配置产品建议环境和产品建议空间，构建产品建议目录和类别，创建具有资格规则和优先级权重的产品建议，并批准和部署它们以供在投放中使用。高级配置在客户端控制台中仍然可用。</p>
 <p>有关更多信息，请参阅<a href="../offers/gs-offer-management.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ _2026年7月28日_
 <tbody>
 <tr>
 <td>
-<p>现在，技术管理员可以直接从Campaign Web用户界面创建和配置品牌，而无需使用客户端控制台。 所有品牌设置（包括标识、子域和协议、电子邮件标头参数以及URL跟踪参数）现在均可在Web UI中使用。</p>
+<p>现在，技术管理员可以直接从 Campaign Web 用户界面创建和配置品牌，而无需使用客户端控制台。所有品牌设置（包括身份标识、子域和协议、电子邮件标题参数以及 URL 跟踪参数）现在均可在 Web UI 中使用。</p>
 <p>有关更多信息，请参阅<a href="../administration/branding/branding-configure.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -54,13 +54,13 @@ _2026年7月28日_
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件Designer中的公共资源</strong><br/></th>
+<th><strong>电子邮件设计器中的公共资源</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>将图像添加到电子邮件时，您现在可以选择<strong>公共资源</strong>。 这允许您选择在Adobe Campaign实例上已可用的图像，例如之前在Email Designer中导入的文件或从Client Console上传的公共资源。</p>
+<p>将图像添加到电子邮件时，您现在可以选择<strong>公共资源</strong>。这允许您选择在 Adobe Campaign 实例上已可用的图像，例如之前在电子邮件设计器中导入的文件或从客户端控制台上传的公共资源。</p>
 <p>有关更多信息，请参阅<a href="../email/content-components.md#image">详细文档</a>。</p>
 </td>
 </tr>
@@ -70,13 +70,13 @@ _2026年7月28日_
 <table>
 <thead>
 <tr>
-<th><strong>数据加载(RDBMS)工作流活动</strong><br/></th>
+<th><strong>数据加载 (RDBMS) 工作流活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>数据加载(RDBMS)</strong>活动现在可在Campaign Web用户界面中使用。 使用此活动可将数据直接从一个外部关系数据库加载到您的工作流中。 提取的数据将在整个工作流中可用，可用于目标定位、数据扩充或进一步的数据处理。</p>
+<p><strong>数据加载 (RDBMS)</strong> 活动现在可在 Campaign Web 用户界面中使用。使用此活动可将数据直接从一个外部关系数据库加载到您的工作流中。 提取的数据将在整个工作流中可用，可用于目标选择、数据扩充或进一步的数据处理。</p>
 <p>有关更多信息，请参阅<a href="../workflows/activities/data-loading-rdbms.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -92,7 +92,7 @@ _2026年7月28日_
 <tbody>
 <tr>
 <td>
-<p>动态 JavaScript 页面 (JSSP) 可用于构建服务器端页面，当通过 URL 访问时生成动态内容，例如自定义 API、导出功能或 Web 应用程序逻辑。 现在，您可以直接从Campaign Web用户界面创建、修改、复制和删除这些页面。</p>
+<p>动态 JavaScript 页面 (JSSP) 可用于构建服务器端页面，当通过 URL 访问时生成动态内容，例如自定义 API、导出功能或 Web 应用程序逻辑。 您现在可以直接从 Campaign Web 用户界面创建、修改、复制和删除这些页面。</p>
 <p>有关更多信息，请参阅<a href="../administration/dynamic-javascript-pages.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -102,17 +102,17 @@ _2026年7月28日_
 ### 改进 {#26-7-improvements}
 
 * 已对&#x200B;**自定义架构配置**&#x200B;进行以下改进：
-  * 新的&#x200B;**操作数据**&#x200B;部分允许您限制自定义架构记录上的可用操作，而不管单个文件夹上配置的安全规则如何。 [了解更多](../administration/schemas-action-data.md)
-  * **自定义筛选器**&#x200B;已添加到&#x200B;**清单列表配置**&#x200B;部分。 它们允许您选择哪些属性在列表视图的筛选器窗格中显示为快速访问字段。 [了解更多](../administration/schemas-custom-filters.md)
+  * 新的&#x200B;**操作数据**&#x200B;部分允许您限制自定义架构记录上的可用操作，而无论各个文件夹上配置的安全规则如何。[了解更多](../administration/schemas-action-data.md)
+  * **自定义过滤器**&#x200B;已添加到&#x200B;**库存列表配置**&#x200B;部分。它们允许您选择哪些属性在列表视图的过滤器窗格中显示为快速访问字段。[了解更多](../administration/schemas-custom-filters.md)
 
-* 已对&#x200B;**工作流**&#x200B;进行以下改进：
-  * 现在，删除工作流活动会更加灵活：当活动具有后续活动时，您可以选择删除所有后续活动、仅删除选定活动，或者删除活动，同时将后续活动保留在新分支中。 [了解更多](../workflows/orchestrate-activities.md#delete-activity)
-  * 您现在可以断开两个工作流活动之间的过渡，而无需删除其中任一活动。 例如，您可以借此重新组织工作流图，以暂时保留一组要保留的活动，而无需删除和重新创建它们。 [了解更多](../workflows/orchestrate-activities.md#disconnect-transition)
-  * 现在，水平滚动条和垂直滚动条会显示在工作流画布周围，您可以通过直接拖动到要查看的区域来导航大型工作流。 [了解更多](../workflows/orchestrate-activities.md)
-  * 在保存或启动/重新启动工作流时，如果自您打开工作流后其他用户在Web UI或客户端控制台中修改了该工作流，则现在会显示警告。 您可以选择覆盖其他更改，重新加载工作流以获取最新版本，或者取消。
+* **工作流**&#x200B;已进行以下改进：
+  * 现在，删除工作流活动会更加灵活：当活动具有后续活动时，您可以选择删除所有后续活动、仅删除选定活动，或者在删除活动的同时将后续活动保留在新分支中。[了解更多](../workflows/orchestrate-activities.md#delete-activity)
+  * 您现在可以断开两个工作流活动之间的过渡，而无需删除其中任一活动。例如，您可以借此重新组织工作流图，将一组想要保留的活动暂时搁置在一旁，而无需删除它们再重新创建。[了解更多](../workflows/orchestrate-activities.md#disconnect-transition)
+  * 现在，水平滚动条和垂直滚动条会显示在工作流画布周围，您可以通过直接拖动到要查看的区域来导航大型工作流。[了解更多](../workflows/orchestrate-activities.md)
+  * 现在，在保存或启动/重新启动工作流时，如果自您打开工作流后其他用户在 Web UI 或客户端控制台中修改了该工作流，则会显示警告。您可以选择覆盖其他更改，重新加载工作流以获取最新版本，或者取消。
 
-* **发件人电子邮件地址**：您现在可以使用&#x200B;**NmsDelivery_senderAddressMask**&#x200B;选项，将投放的&#x200B;**From email**&#x200B;字段限制为预定义的地址列表。 [了解更多](../administration/options.md#restrict-sender-address)
-* **登录错误消息**&#x200B;已得到改进：当登录尝试失败时，Web UI现在会针对几种情况（例如，当用户未分配安全区域或其IP地址受限制时）显示更具体的错误消息。
+* **发件人电子邮件地址**：您现在可以使用 **NmsDelivery_senderAddressMask** 选项，将投放的&#x200B;**发件人电子邮件**&#x200B;字段限制到预定义的地址列表。[了解更多](../administration/options.md#restrict-sender-address)
+* **登录错误消息**&#x200B;已得到改进：当登录尝试失败时，Web UI 现在会针对几种情况（例如，当用户未被分配安全区域或其 IP 地址受限制时）显示更具体的错误消息。
 
 ## 2026 年 6 月版本 {#26-6-release}
 
@@ -126,7 +126,7 @@ _2026 年 6 月 16 日_
 
 * 您现在可以从任何列表界面（包括跟踪日志）导出数据。 找到您的列表，然后只需点击导出按钮即可。 导出包括当前加载的行，并会根据屏幕上显示的列以及任何正在进行的搜索或过滤器进行调整。 [了解详情](../get-started/list-filters.md)
 
-* **重复数据删除**&#x200B;和&#x200B;**终止**&#x200B;工作流活动现在支持多个入站过渡。 当有多个集客过渡可用时，请使用活动中的&#x200B;**集加入**&#x200B;部分
+* **重复数据删除**&#x200B;和&#x200B;**终止**&#x200B;工作流活动现在支持多个入站过渡。 当有多个入站过渡可用时，请使用该活动中的&#x200B;**设置连接**部分
 属性，用于选择要连接的过渡。 请参阅以下页面了解更多信息：[重复数据删除](../workflows/activities/deduplication.md)、[终止](../workflows/activities/end.md)
 
 * 高级参数现已显示在&#x200B;**扩充数据**&#x200B;部分，该部分在&#x200B;**构建受众**（查询类型）和&#x200B;**扩充**&#x200B;工作流活动中。 这些参数可让您对扩充数据的构建方式进行精细调整，包括分组、重复数据删除、主键处理以及入站事件数据。 [了解详情](../workflows/activities/enrichment.md)
@@ -239,7 +239,7 @@ _2026 年 4 月 29 日_
 
 ### 改进 {#26-3-improvements}
 
-* 已添加&#x200B;**开始**&#x200B;工作流活动，以提升与客户端控制台的兼容性。 此活动为可选项，不会默认添加到新的工作流中。 不过，它会自动添加到现有工作流中。
+* 已添加&#x200B;**开始**工作流活动，以提升与客户端控制台的兼容性。 此活动为可选项，不会默认添加到新的工作流中。 不过，它会自动添加到现有工作流中。
   [了解详情](../workflows/activities/about-activities.md#flow-control)
 * 投放&#x200B;**计划**&#x200B;设置中的时区选择字段已移动至&#x200B;**联系日期**&#x200B;字段下方。 [了解详情](../msg/create-deliveries.md#gs-schedule)
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3118
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -853,15 +853,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>通过生成内容生成登陆页面</strong><br/></th>
+<th><strong>通过生成内容功能生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，生成内容可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>生成内容功能现在可用于您的登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>有关生成内容的详细信息，请参阅<a href="../content/generative-full-content.md">详细文档</a>。</p>
+<p>有关生成内容功能的更多信息，请参阅<a href="../content/generative-full-content.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
