@@ -4,17 +4,13 @@ description: Campaign Web 帮助中心
 title: Adobe Campaign Web 产品文档
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: 703
+ht-degree: 100%
 
 ---
 
@@ -75,7 +71,7 @@ ht-degree: 95%
 
 >[!TAB 生成内容]
 
-✨亲自体验我们的[生成内容](../v8/content/generative-gs.md)实时功能预览，旨在让您亲身体验其功能并充分了解其功能。
+✨ 通过我们的[生成内容](../v8/content/generative-gs.md)实时功能预览，享受沉浸式的实践体验，亲自探索其功能并充分了解其能力。
 
 [![了解详情按钮](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -129,12 +125,12 @@ ht-degree: 95%
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
+      <strong>客户体验</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流实现自动化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">营销活动编排</a> - <a href="personalization/gs-personalization.md">动态内容</a> - <a href="reporting/gs-reports.md">报告和分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

@@ -7,9 +7,9 @@ description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,12 +135,12 @@ ht-degree: 95%
       + [管理深色模式内容](email/dark-mode.md)
     + [创建无障碍内容](email/accessible-content.md)
   + 生成内容 {#ai-assistant}
-    + [使用生成内容](content/generative-gs.md)
+    + [使用“生成内容”](content/generative-gs.md)
     + [AI 提示最佳做法](content/ai-assistant-prompting-guide.md)
     + [AI 全内容生成](content/generative-full-content.md)
     + [AI 文本生成](content/generative-text.md)
     + [AI 图像生成](content/generative-image.md)
-    + [生成内容用例](content/generative-uc.md)
+    + [生成内容功能的用例](content/generative-uc.md)
     + 品牌 {#ai-assistant}
       + [创建和管理品牌](content/brands.md)
       + [个性化您的品牌](content/brands-personalize.md)
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [设计登陆页内容](landing-pages/lp-content.md)
   + [通过用例学习](landing-pages/lp-use-cases.md)
 + 产品建议管理 {#offers}
-  + [开始使用选件管理](offers/gs-offer-management.md)
-  + [查看优惠环境设置](offers/offer-environment.md)
-  + [创建和管理优惠空间](offers/offer-space.md)
-  + [创建和发布优惠](offers/create-offer.md)
-  + [将可编辑列表添加到选件架构](offers/offer-editable-list.md)
+  + [开始使用产品建议管理](offers/gs-offer-management.md)
+  + [检查产品建议环境设置](offers/offer-environment.md)
+  + [创建和管理产品建议空间](offers/offer-space.md)
+  + [创建和发布产品建议](offers/create-offer.md)
+  + [将可编辑列表添加到产品建议架构](offers/offer-editable-list.md)
 + 用户档案和受众 {#audiences}
   + [轮廓和受众入门](audience/gs-audiences-recipients.md)
   + [目标选择维度](audience/targeting-dimensions.md)
@@ -299,10 +299,10 @@ ht-degree: 95%
     + [关于架构](administration/schemas.md)
     + [访问和配置架构](administration/schemas-browse-access.md)
     + [配置列表列](administration/schemas-list-columns.md)
-    + [添加自定义筛选条件](administration/schemas-custom-filters.md)
+    + [添加自定义过滤器](administration/schemas-custom-filters.md)
     + [编辑自定义字段](administration/schemas-custom-fields.md)
     + [添加收藏集列表](administration/schemas-collection-lists.md)
-    + [控制针对数据的操作](administration/schemas-action-data.md)
+    + [针对数据的控制操作](administration/schemas-action-data.md)
     + [创建和发布架构](administration/schemas-create-publish.md)
     + [使用自定义表单](administration/schemas-custom-forms.md)
   + {hide-from-toc}[配置自定义字段](administration/custom-fields.md)
@@ -318,5 +318,5 @@ ht-degree: 95%
     + [CRM 外部帐户](administration/external-crm.md)
   + [管理枚举](administration/enumerations.md)
   + [使用 JavaScript 代码工作](administration/javascript-codes.md)
-  + [使用动态JavaScript页面](administration/dynamic-javascript-pages.md)
+  + [使用动态 JavaScript 页面](administration/dynamic-javascript-pages.md)
 + [Campaign v8（控制台）文档 >](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)
