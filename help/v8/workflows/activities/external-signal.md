@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: 408
 ht-degree: 8%
 
 ---
@@ -86,4 +86,4 @@ ht-degree: 8%
 
    +++
 
-   * 要通过API调用触发&#x200B;**[!UICONTROL 外部信号]**&#x200B;活动，请按照Campaign API文档中详述的步骤操作。 [了解如何使用静态`PostEvent`方法](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=zh-Hans)。
+   * 要通过API调用触发&#x200B;**[!UICONTROL 外部信号]**&#x200B;活动，请按照Campaign API文档中详述的步骤操作。 [了解如何使用静态`PostEvent`方法](https://experienceleague.adobe.com/zh-hans/tools/campaign-api)。
