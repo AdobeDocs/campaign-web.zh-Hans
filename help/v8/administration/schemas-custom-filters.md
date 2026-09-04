@@ -1,21 +1,21 @@
 ---
-title: 添加自定义筛选条件
+title: 添加自定义过滤器
 description: 了解如何在列表视图的筛选器窗格中将自定义筛选器添加为快速访问字段。
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
-# 添加自定义筛选条件 {#custom-filters}
+# 添加自定义过滤器 {#custom-filters}
 
 **[!UICONTROL 清单列表配置]** > **[!UICONTROL 自定义筛选器]**&#x200B;部分允许您选择在架构列表视图的[筛选器窗格](../query/filter.md)中，在&#x200B;**[!UICONTROL 高级筛选器]**&#x200B;规则生成器上方将哪些属性显示为快速访问字段。
 
 有关屏幕定义屏幕以及如何对其进行访问的更多信息，请参阅[访问屏幕定义](schemas-browse-access.md#screen-def)部分。
 
-## 添加自定义筛选条件 {#add}
+## 添加自定义过滤器 {#add}
 
 1. 浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;菜单，并使用筛选器找到可编辑的架构。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
    ![属性选取器显示直接属性和链接子属性](assets/schemas-custom-filters2.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。 您可以使用上下箭头或拖动自定过滤器来重新排序它们，并使用行上的垃圾桶图标删除过滤器。
+1. 单击&#x200B;**[!UICONTROL 保存]**。 您可以使用上下箭头或通过拖动自定义筛选器来重新排列它们。 要删除筛选器，请单击其行上的省略号图标，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 1. 浏览到此架构的记录列表，并打开筛选器窗格。 在&#x200B;**[!UICONTROL 高级筛选器]**&#x200B;规则生成器的上方，您选择的属性显示为&#x200B;**[!UICONTROL 自定义筛选器]**。
 
@@ -47,15 +47,20 @@ ht-degree: 1%
 
 1. 在其中一个自定义筛选器中输入或选择一个值以优化列表。
 
-<!--
-## Configure a custom filter's settings {#settings}
+## 限制链接类型自定义筛选器的值 {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+对于基于链接属性的自定义过滤器，您可以限制选取器中可用的值。
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>下面描述的&#x200B;**[!UICONTROL 编辑]**&#x200B;选项仅适用于基于链接属性的自定义筛选器。 基于其他属性类型的自定义筛选器只能重新排序或删除。
 
-Available settings are:
+1. 在链接类型自定义筛选器的行上，单击省略号图标并选择&#x200B;**[!UICONTROL 编辑]**。
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   链接类型自定义筛选器上的![编辑选项](assets/schemas-custom-filters4.png)
+
+1. 在&#x200B;**[!UICONTROL 筛选器设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 编辑筛选器]**，然后使用查询建模器定义一个条件，以限制选取器中可用的值。 例如，使用电子邮件渠道将投放过滤器限制为投放。
+
+   ![链接设置对话框中的筛选器设置选项卡](assets/schemas-custom-filters5.png)
+
+1. 确认更改。

@@ -4,13 +4,11 @@ title: 设计短信投放
 description: 了解如何设计短信投放
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 TQID: https://experienceleague.adobe.com/CZSfyKVl4NOWhNVcs8ZXj9b9o3EPaVjsDOz-7t2g20s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 278
 ht-degree: 50%
 
 ---
@@ -41,7 +39,7 @@ ht-degree: 50%
 
    ![显示消息字段的屏幕截图，其中包含用于添加动态内容的选项](assets/sms_content_2.png){zoomable="yes"}
 
-1. 默认情况下，为投放启用跟踪。 如果需要，请从&#x200B;**[!UICONTROL 可选功能部分]**&#x200B;禁用此选项。
+1. 默认情况下，为投放启用跟踪。 如果需要，从投放的&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 跟踪]**&#x200B;选项卡中禁用此选项。 [了解详情](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;可访问与您的投放模板相关的高级选项。 [了解详情](../advanced-settings/delivery-settings.md)
 

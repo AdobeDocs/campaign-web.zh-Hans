@@ -1,10 +1,10 @@
 ---
 title: 针对数据的控制操作
 description: 了解如何限制对自定义架构记录的创建、编辑和删除操作。
-source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 14%
+source-wordcount: '423'
+ht-degree: 13%
 
 ---
 
@@ -33,15 +33,17 @@ ht-degree: 14%
 
    屏幕定义中的![操作数据节](assets/schemas-action-data1.png)
 
-1. 选择一个或两个可用选项：
+1. 选择一个或多个可用选项：
 
    * **[!UICONTROL 只读]**：对于所有用户，详细信息屏幕变为只读。 列表中没有创建、复制、更新或删除操作，并且删除和复制操作在详细信息屏幕中处于隐藏状态。 选择此选项与配置视图类似：用户仍然可以打开记录并重用它们，例如在定位投放时，但无法修改它们。
 
    * **[!UICONTROL 不允许删除]**：删除操作将从每个文件夹的详细信息屏幕和列表中删除。 其他操作（如创建、复制和更新）仍可用。
 
+   * **[!UICONTROL 不允许重复]**：将从详细信息屏幕和列表中删除每个文件夹中的重复操作。 其他操作（如创建、删除和更新）仍可用。
+
      >[!NOTE]
      >
-     >启用&#x200B;**[!UICONTROL 只读]**&#x200B;也会自动覆盖删除，因此在选择&#x200B;**[!UICONTROL 只读]**&#x200B;时，**[!UICONTROL 不允许删除]**&#x200B;选项被禁用。
+     >启用&#x200B;**[!UICONTROL 只读]**&#x200B;也会自动覆盖删除和复制，因此&#x200B;**[!UICONTROL 不允许删除]**&#x200B;和&#x200B;**[!UICONTROL 不允许重复]**&#x200B;选项在选择&#x200B;**[!UICONTROL 只读]**&#x200B;时已禁用。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

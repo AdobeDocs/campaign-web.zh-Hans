@@ -4,12 +4,11 @@ title: 使用文件夹
 description: 了解如何在 Adobe Campaign 中管理文件夹
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 100%
+source-wordcount: 837
+ht-degree: 87%
 
 ---
 
@@ -49,6 +48,11 @@ ht-degree: 100%
 >
 >左侧面板中的&#x200B;**[!UICONTROL 自动创建的对象]**&#x200B;文件夹与&#x200B;**[!UICONTROL 技术工作流]**&#x200B;文件夹为受限内容，无法查看。
 
+您可以对文件夹执行的操作取决于您对该文件夹授予的权限。 **[!UICONTROL 文件夹设置]**&#x200B;对话框可能会以&#x200B;**只读模式**&#x200B;打开，并且某些操作或部分可能不可用，具体取决于您的权限。
+
+如果缺少对文件夹的权限，请联系您的管理员。 请参阅此[部分](permissions.md#folder-permissions)，了解如何管理文件夹权限。
+
+命名权限（如&#x200B;**[!UICONTROL 插入文件夹]**、**[!UICONTROL 编辑文件夹]**&#x200B;和&#x200B;**[!UICONTROL 删除文件夹]**）也决定了操作员可以使用哪些文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
 
 ## 创建新文件夹 {#create-a-folder}
 

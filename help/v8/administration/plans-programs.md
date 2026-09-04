@@ -4,17 +4,13 @@ title: 计划和项目
 description: 了解如何在Adobe Campaign中创建和配置计划和程序
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 6%
+source-wordcount: 640
+ht-degree: 5%
 
 ---
 
@@ -58,35 +54,35 @@ ht-degree: 6%
 
 ![显示计划自定义字段配置的屏幕截图](assets/plan_customfields.png){zoomable="yes"}
 
-## 创建和配置程序
+## 创建和配置程序 {#create-program}
 
-要在计划中创建计划（[了解有关创建计划的详细信息](#create-plan)），请导航到您的计划并创建文件夹类型为&#x200B;**[!UICONTROL 计划]**&#x200B;的文件夹。 [了解有关创建文件夹的更多信息](../get-started/work-with-folders.md)。
+项目可从左侧导航菜单中获得，类似于营销策划、投放和工作流的列表视图。 **[!UICONTROL 项目群]**&#x200B;条目允许您在现有项目群内创建项目群，而不是在计划下。
 
-![显示程序文件夹创建的屏幕截图](assets/program_create.png){zoomable="yes"}
+要在计划中创建第一个顶级计划，请在资源管理器中导航到您的计划（请参阅此[部分](#create-plan)），然后创建文件夹类型为&#x200B;**[!UICONTROL 计划]**&#x200B;的文件夹。 [了解有关创建文件夹的更多信息](../get-started/work-with-folders.md)。
 
-转到程序的&#x200B;**[!UICONTROL 文件夹设置]**&#x200B;对其进行管理。
+要在现有项目中创建项目，请执行以下步骤：
 
-![显示程序文件夹设置的屏幕截图](assets/program_settings.png){zoomable="yes"}
+1. 在左侧导航菜单中浏览到&#x200B;**[!UICONTROL 程序]**&#x200B;条目。 此视图列出您的所有项目并允许您搜索和过滤。 单击某个程序会在“资源管理器”视图中打开它。
 
-定义&#x200B;**[!UICONTROL 自定义选项]**，并设置程序的计划日期。
+   ![显示节目列表视图的屏幕截图](assets/program_view.png){zoomable="yes"}
 
-![显示程序自定义选项的屏幕截图](assets/program_options.png){zoomable="yes"}
+1. 单击&#x200B;**[!UICONTROL 创建程序]**&#x200B;并配置以下选项：
 
-要管理&#x200B;**[!UICONTROL 自定义选项]**：
+   ![显示“创建程序”屏幕的屏幕快照](assets/program_create.png){zoomable="yes"}
 
-1. 浏览到&#x200B;**[!UICONTROL 架构]**。
-1. 在筛选器中选择&#x200B;**[!UICONTROL 可编辑的]**&#x200B;架构。
-1. 单击架构。
+   * 输入&#x200B;**[!UICONTROL 标签]**。
+   * 选择要用作&#x200B;**[!UICONTROL 父文件夹]**&#x200B;的现有程序。
+   * （可选）在&#x200B;**[!UICONTROL 计划]**&#x200B;部分中设置&#x200B;**[!UICONTROL 日期范围]**。
 
-![显示编辑程序自定义详细信息的屏幕截图](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >如果从“资源管理器”视图创建程序，则父文件夹会自动设置为当前程序。
 
-1. 单击&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮。
+1. 再次单击&#x200B;**[!UICONTROL 创建程序]**&#x200B;以保存更改并创建程序。 然后，程序将显示在“资源管理器”视图中。 您可以像任何其他文件夹一样重命名和删除它，以及访问其设置。 您还可以在此程序中创建子程序。
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![在资源管理器视图中显示程序的屏幕截图](assets/program_explorer.png){zoomable="yes"}
 
-配置自定义选项：
-
-![显示程序自定义字段配置的屏幕截图](assets/program_customfields.png){zoomable="yes"}
+项目的自定义选项的配置方式与计划的配置方式相同。 请参阅[创建和配置计划](#create-plan)。
 
 ## 如何将营销活动链接到项目
 
