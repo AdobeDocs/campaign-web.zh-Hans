@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 35%
+source-wordcount: 734
+ht-degree: 33%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 35%
    * [从头开始创作电子邮件](create-email-content.md)
    * [设置内容的样式](get-started-email-style.md)
 
-1. 默认情况下，为投放启用跟踪。 您可以从&#x200B;**[!UICONTROL 可选功能]**&#x200B;部分中禁用此选项。 [了解如何添加链接和管理跟踪](message-tracking.md)
+1. 默认情况下，为投放启用跟踪。 您可以从投放的&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 跟踪]**&#x200B;选项卡中禁用或配置打开跟踪。 [了解详情](../advanced-settings/delivery-settings.md#tracking-tab)。 [了解如何添加链接和管理跟踪](message-tracking.md)
 
 1. 定义电子邮件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以在发送内容前检查其显示方式。 您还可以验证内容质量，以评估可读性、CTA效果和整体质量。 [了解有关内容质量验证的更多信息](../content/brands-score.md#validate-quality)
 

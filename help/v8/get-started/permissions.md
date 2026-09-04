@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,8 @@ Adobe Campaign 中的每个用户在应用程序内都有具体的权限和限�
 
 如果选中&#x200B;**[!UICONTROL 系统文件夹]**&#x200B;选项，则允许所有操作员访问，无论其权限如何。
 
-您还可以[在 Adobe Campaign 控制台中管理文件夹的权限](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}。
+请参阅此[部分](work-with-folders.md#folder-access-rights)，了解这些权限如何影响您在文件夹上可用的操作。
+
+命名权限还确定操作员可用的文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hans#use-named-rights){target="_blank"}。
 
 Campaign Web 用户界面中的所有权限都与 Campaign 客户端控制台权限同步。

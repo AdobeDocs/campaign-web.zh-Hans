@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 19%
+source-wordcount: 616
+ht-degree: 18%
 
 ---
 
@@ -73,6 +73,7 @@ ht-degree: 19%
 
 以下活动专用于组织和执行工作流。 这些活动的主要任务是协调其他活动：
 
+* [审批](approval.md)：将任务分配给组或单个操作员，并根据他们的答案路由工作流。
 * [外部信号](external-signal.md)：从另一个工作流或API调用触发工作流执行。
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
 * [加入](join.md)：同步工作流的多个执行分支。

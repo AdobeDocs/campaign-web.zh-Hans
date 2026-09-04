@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3521
+source-wordcount: 3646
 ht-degree: 40%
 
 ---
@@ -153,6 +153,19 @@ ht-degree: 40%
   >此选项包括文档的两个版本。 因此，它会影响投放率，因为电子邮件较大。
 
 * **[!UICONTROL 以文本格式发送所有邮件]**：电子邮件以文本格式发送。 HTML格式不会发送，但仅在收件人单击电子邮件时用于镜像页面。
+
+## 跟踪 {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="编辑跟踪"
+>abstract="默认情况下为投放启用跟踪，这表示将跟踪在邮件内容中包括的所有链接。 您可以从此处禁用该选项。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="添加链接和跟踪邮件"
+
+当为投放配置了跟踪日志模式，并且投放模式不是外部时，此选项卡可用。
+
+* **[!UICONTROL 激活跟踪]**：为投放启用或禁用跟踪。 禁用后，将不会收集任何点击或打开跟踪数据。
+* **[!UICONTROL 打开跟踪]** （电子邮件渠道）：启用或禁用使用跟踪像素跟踪邮件打开次数。 仅当启用&#x200B;**[!UICONTROL 激活跟踪]**&#x200B;时，此选项才可用。 这有助于您遵守数据保护法规，例如CNIL或GDPR。
 
 ## 网站分析 {#web-analytics}
 
