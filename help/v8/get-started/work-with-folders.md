@@ -53,7 +53,7 @@ ht-degree: 87%
 
 如果缺少对文件夹的权限，请联系您的管理员。 请参阅此[部分](permissions.md#folder-permissions)，了解如何管理文件夹权限。
 
-命名权限（如&#x200B;**[!UICONTROL 插入文件夹]**、**[!UICONTROL 编辑文件夹]**&#x200B;和&#x200B;**[!UICONTROL 删除文件夹]**）也决定了操作员可以使用哪些文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
+命名权限（如&#x200B;**[!UICONTROL 插入文件夹]**、**[!UICONTROL 编辑文件夹]**&#x200B;和&#x200B;**[!UICONTROL 删除文件夹]**）也决定了操作员可以使用哪些文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hans#use-named-rights){target="_blank"}。
 
 ## 创建新文件夹 {#create-a-folder}
 

@@ -55,6 +55,6 @@ Adobe Campaign 中的每个用户在应用程序内都有具体的权限和限�
 
 请参阅此[部分](work-with-folders.md#folder-access-rights)，了解这些权限如何影响您在文件夹上可用的操作。
 
-命名权限还确定操作员可用的文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
+命名权限还确定操作员可用的文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hans#use-named-rights){target="_blank"}。
 
 Campaign Web 用户界面中的所有权限都与 Campaign 客户端控制台权限同步。
