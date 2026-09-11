@@ -5,7 +5,7 @@ description: 了解如何使用审批工作流活动
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_approval"
 >title="审批活动"
->abstract="**审批**&#x200B;活动需要操作员的参与。 将任务分配给组或单个操作员，自定义通知标题和消息，并将可能的答案定义为输出分支。"
+>abstract="**审批**&#x200B;活动需要操作员参与。 将任务分配给组或单个操作员，自定义通知标题和消息，并将可选答案定义为输出分支。"
 
 **审批**&#x200B;工作流活动允许您向组或个人操作员分配任务，自定义通知电子邮件标题和消息，并将可能的答案（例如“是/否”）定义为输出分支。
 
