@@ -54,7 +54,7 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 
 >[!IMPORTANT]
 >
->这些角色/已命名权限的功能在实施中可能有所不同，这可能会导致授权问题（例如，权限提升或功能中断）。 我们建议用户在转换后查看这些映射，以确保进行正确的访问控制。 [了解有关权限的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>这些角色/已命名权限的功能在实施中可能有所不同，这可能会导致授权问题（例如，权限提升或功能中断）。 我们建议用户在转换后查看这些映射，以确保进行正确的访问控制。 [了解有关权限的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 下表概述了从Adobe Campaign Standard过渡到Campaign v8时用户角色组的迁移方法。 在Campaign Standard中，**安全组**（在Campaign v8中称为&#x200B;**操作员组**）用于将一组角色分配给用户。 虽然某些安全组/操作员组是现成可用的，但如果需要，用户可以创建新组或修改现有组。
 
@@ -62,7 +62,7 @@ Adobe Campaign Standard和Campaign v8中使用了以下概念来实现用户访�
 |---------|----------|---------|
 | **术语**  | 安全组 | 操作员组 |
 
-在Adobe Campaign Standard和Campaign v8中，**安全组**&#x200B;和&#x200B;**操作员组**&#x200B;都映射到管理控制台中的产品配置文件。 如果要向用户分配&#x200B;**安全组**&#x200B;或&#x200B;**操作员组**，您可以在管理控制台中链接相应的&#x200B;**产品配置文件**。 此关联在用户登录时同步。 [了解有关产品配置文件的更多信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+在Adobe Campaign Standard和Campaign v8中，**安全组**&#x200B;和&#x200B;**操作员组**&#x200B;都映射到管理控制台中的产品配置文件。 如果要向用户分配&#x200B;**安全组**&#x200B;或&#x200B;**操作员组**，您可以在管理控制台中链接相应的&#x200B;**产品配置文件**。 此关联在用户登录时同步。 [了解有关产品配置文件的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard安全组** | **Campaign v8操作员组** |
 |----------|---------|

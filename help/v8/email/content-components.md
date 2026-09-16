@@ -175,7 +175,7 @@ ht-degree: 30%
 
    ![显示Email Designer中的资源选择过程的屏幕截图。](assets/email_designer_29.png){zoomable="yes"}
 
-   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
+   要了解有关在Adobe Experience Manager中上传和添加资源的更多信息，请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hans)。
 
    +++
 
