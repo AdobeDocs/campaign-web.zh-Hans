@@ -43,8 +43,8 @@
 <target xml:lang="en-XX">访问某些操作（创建、修改、删除）</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">有关在 Adobe Campaign 中设置权限的详细流程，请参阅 <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8（控制台）文档<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>。</target>
+<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">有关在 Adobe Campaign 中设置权限的详细流程，请参阅 <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8（控制台）文档<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>。</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">Permissions on folders</source>
@@ -79,8 +79,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>文件夹安全设置中权限被拒绝的示例<ph id="2" ctype="x-IMAGE">](assets/folder_security_denied.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">You should not be able to create an object for which you do not have at least one folder with writing rights.</source>
@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">请参阅此<ph id="1" ctype="x-LINK">[</ph>部分<ph id="2" ctype="x-LINK">](work-with-folders.md#folder-access-rights)</ph>，了解这些权限如何影响您在文件夹上可执行的操作。</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">已命名权限还确定了操作员可执行的文件夹操作。请参阅 <ph id="1" ctype="x-LINK">[</ph>Campaign v8 文档<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>。</target>
+<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">已命名权限还确定了操作员可执行的文件夹操作。请参阅 <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 文档<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>。</target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
 <source xml:lang="en-US">All permissions in the Campaign Web user interface synchronize with Campaign Client Console permissions.</source>
