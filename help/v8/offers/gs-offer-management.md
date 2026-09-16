@@ -83,7 +83,7 @@ Campaign Web UI中的典型端到端流程如下：
 
 * **优惠跟踪** — 配置优惠建议的跟踪以馈送建议历史记录。 查看[跟踪优惠建议](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}。
 
-* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的[操作员。
+* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的操作员。
 
 * **交互最佳实践和套利规则**。 请参阅[Campaign交互最佳实践](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}。
 

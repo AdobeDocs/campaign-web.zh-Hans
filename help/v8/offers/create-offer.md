@@ -136,5 +136,5 @@ ht-degree: 3%
 
 选件处于活动状态时，可以从任何以匹配选件空间为目标的投放中进行选择。 在[将优惠添加到您的消息](../msg/offers.md)中了解如何在投放中设置优惠。
 
-有关完整的出站投放集成，包括如何生成引擎调用以及如何将跟踪应用于选件链接，请参阅出站投放](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的[Campaign v8文档选件。
+有关完整的出站投放集成，包括如何生成引擎调用以及如何将跟踪应用于选件链接，请参阅出站投放[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的Campaign v8文档选件。
 
