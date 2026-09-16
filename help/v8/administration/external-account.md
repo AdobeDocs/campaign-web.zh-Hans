@@ -6,9 +6,7 @@ source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # Campaign特定的外部帐户 {#external-account}
 
 按照以下步骤操作，根据您选择的外部帐户类型配置帐户设置。
@@ -105,6 +103,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 方法]** — 在Web服务或联合数据访问(FDA)之间进行选择。
 
-  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/fda#_blank)
+  对于FDA，选择您的FDA帐户。 请注意，与外部系统的Campaign连接仅限于高级用户，并且只能从客户端控制台中使用。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 创建存档工作流]** — 对于在消息中心中注册的每个执行实例，无论您拥有一个还是多个实例，请为与该执行实例关联的每个外部帐户创建单独的存档工作流。

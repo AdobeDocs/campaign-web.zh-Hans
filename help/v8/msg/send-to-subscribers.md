@@ -6,13 +6,12 @@ exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 TQID: https://experienceleague.adobe.com/AqhjUeWF14SOAq23MOAZjlTRiw8UOdc9c9az1AyCJIc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 0%
-
 ---
-
 # 向服务的订阅者发送消息 {#send-to-subscribers}
 
 您可以在Adobe Campaign中创建订阅服务，并向订阅者发送消息。 了解如何在[此页面](../audience//manage-services.md#create-service)上创建订阅服务。

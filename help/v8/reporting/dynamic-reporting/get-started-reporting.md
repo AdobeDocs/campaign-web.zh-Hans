@@ -8,9 +8,7 @@ source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 26%
-
 ---
-
 # 动态报告入门 {#get-started-reporting}
 
 >[!AVAILABILITY]

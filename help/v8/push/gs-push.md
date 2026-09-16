@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '206'
 ht-degree: 98%
-
 ---
-
 # 推送通知入门 {#push}
 
 推送通知对于联系移动应用程序用户至关重要，即使他们并未主动使用您的应用程序也是如此。 它们具有多种用途，例如提供更新、推动特定操作以及向用户推送优惠信息。 请注意，用户必须选择启用以接收这些通知。
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 * **独立投放**：利用个人推送通知投放直接、即时地与客户互动，无需工作流或营销活动。
 
-![](../assets/do-not-localize/book.png) 通过 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hans){target="_blank"}了解如何配置推送通知渠道。
+![](../assets/do-not-localize/book.png) 通过 [Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}了解如何配置推送通知渠道。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

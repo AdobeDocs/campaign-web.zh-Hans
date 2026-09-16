@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 8%
-
 ---
-
 # 审批 {#approval}
 
 >[!CONTEXTUALHELP]
@@ -70,7 +68,7 @@ ht-degree: 8%
 
 1. 定义发送给被分派人的通知的&#x200B;**[!UICONTROL 消息]**。
 
-这两个字段都支持个性化：单击个性化图标可插入事件变量，例如已回复&#x200B;**的**&#x200B;操作员以及可在工作流中的其他位置重复使用的&#x200B;**[!UICONTROL 响应]**。
+这两个字段都支持个性化：单击个性化图标可插入事件变量，例如已回复&#x200B;]**的**[!UICONTROL &#x200B;操作员以及可在工作流中的其他位置重复使用的&#x200B;**[!UICONTROL 响应]**。
 
 ![显示消息个性化的屏幕截图](../assets/workflow-approval2bis.png){zoomable="yes"}
 

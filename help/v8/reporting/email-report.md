@@ -6,20 +6,24 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 TQID: https://experienceleague.adobe.com/Pmd2So-q8JbSJs9dMLqpxJv8s0js59AsEJDhvf5kZmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2481
+source-wordcount: '2481'
 ht-degree: 38%
-
 ---
-
 # 电子邮件投放报告 {#email-report}
 
 **电子邮件投放报告**&#x200B;提供了特定于电子邮件渠道的综合分析和数据。 它提供有关个人投放的绩效、效力和结果的详细信息，使您能够全面了解情况。
@@ -161,7 +165,7 @@ ht-degree: 38%
 >title="按类型细分错误"
 >abstract="**每种类型的错误细分**&#x200B;表提供了每种错误类型发生次数的全面细分。"
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
+每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含错误类型的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -197,7 +201,7 @@ ht-degree: 38%
 >title="按域细分错误"
 >abstract="**每个域的错误细分**&#x200B;表根据所使用的域提供了每个错误发生次数的全面细分。"
 
-每个域&#x200B;**表和图形的**&#x200B;错误划分显示每个域可能遇到的错误的可用数据。
+每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示每个域可能遇到的错误的可用数据。
 
 ![每个域的错误划分屏幕截图](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 

@@ -6,15 +6,15 @@ exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 TQID: https://experienceleague.adobe.com/PPrenfLb4utuqvAsrSitbtZzDHcCehzrOMK4R7L2EMw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: '131'
 ht-degree: 16%
-
 ---
-
 # 为自己的电子邮件内容编写代码 {#code-content}
 
 使用&#x200B;**[!UICONTROL 对您自己的]**&#x200B;模式进行编码，以导入原始HTML并对电子邮件内容进行编码。

@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 6%
-
 ---
-
 # 配置多语言投放 {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]
@@ -109,7 +107,7 @@ ht-degree: 6%
 
 ## 管理语言变体{#manage-variant}
 
-在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”**&#x200B;**。
+在左侧面板中，将显示所有语言变体信息。 若要删除所有语言，请单击“展开”按钮，然后单击“删除所有变体”****。
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 

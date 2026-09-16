@@ -7,9 +7,7 @@ source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 42%
-
 ---
-
 # 创建和管理文件夹
 
 在Adobe Campaign中，您可以创建新文件夹来管理导航树。 在 **[!UICONTROL 资源管理器]**&#x200B;中，转到您想要创建新文件夹的文件夹。

@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
-
 ---
-
 # 添加组件{#adding-components}
 
 组件可帮助您使用不同的维度、量度和时间段自定义报表。

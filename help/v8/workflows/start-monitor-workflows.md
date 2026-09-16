@@ -6,13 +6,12 @@ exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 TQID: https://experienceleague.adobe.com/82in9AqdvERH39JBxOfB5B6yFjo9dFyVpvTRY3QxUCg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 5%
-
 ---
-
 # 启动和监测工作流 {#start-monitor}
 
 在创建工作流并设计要在画布中执行的任务后，您可以启动工作流并监控其执行方式。

@@ -8,31 +8,37 @@ exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
 TQID: https://experienceleague.adobe.com/IIloBQfXp9vdAyFlAT9i-ND86F-e6QuBF-6UNlMmSzI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 2%
-
 ---
-
 # 使用Campaign和其他Adobe解决方案 {#gs-integration}
 
 您可以将Campaign环境与Adobe Experience Cloud解决方案和应用程序连接起来，以便结合使用各种功能。
 
 Adobe Campaign包含多个连接器，这些连接器支持与外部应用程序的通信、连接到数据库引擎以及共享和同步数据。 Adobe配置这些连接。
 
-在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=zh-Hans){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
+在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
 
 ## Adobe Experience Manager {#integration-aem}
 

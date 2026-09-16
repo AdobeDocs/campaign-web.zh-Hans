@@ -6,15 +6,15 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '532'
 ht-degree: 23%
-
 ---
-
 # 短信渠道的营销活动报告 {#campaign-reports-sms-channel}
 
 每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于短信渠道，下文将详细介绍相关报表和量度。 在[此页面](campaign-reports.md)上了解如何访问您的营销活动报告。

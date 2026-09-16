@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # 投放摘要{#delivery-summary}
 
 **[!UICONTROL 投放摘要]**&#x200B;报告详细列出了与电子邮件或若干电子邮件相关的主要信息。

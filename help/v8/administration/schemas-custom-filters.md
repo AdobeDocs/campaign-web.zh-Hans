@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
-
 ---
-
 # 添加自定义过滤器 {#custom-filters}
 
 **[!UICONTROL 清单列表配置]** > **[!UICONTROL 自定义筛选器]**&#x200B;部分允许您选择在架构列表视图的[筛选器窗格](../query/filter.md)中，在&#x200B;**[!UICONTROL 高级筛选器]**&#x200B;规则生成器上方将哪些属性显示为快速访问字段。

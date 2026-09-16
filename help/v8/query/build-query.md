@@ -6,13 +6,12 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2952
+source-wordcount: '2952'
 ht-degree: 7%
-
 ---
-
 # 生成您的第一个查询 {#build-query}
 
 要开始构建查询，请从您选择的位置访问查询建模器，具体取决于您要执行的操作。 此时将打开查询建模器，并显示一个空白画布。 单击&#x200B;**+**&#x200B;按钮配置查询的第一个节点。
@@ -72,7 +71,7 @@ ht-degree: 7%
 >
 >* 对于具有许多值的字段，仅显示前20个值。 在这种情况下，通知&#x200B;**[!UICONTROL 部分加载]**&#x200B;会警告您。
 >* 在每个属性选取器中都可以访问&#x200B;**[!UICONTROL 值分布]**&#x200B;选项。 [了解如何选择属性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A高级筛选器]**&#x200B;对结果添加条件。 [在此处了解详情](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 添加筛选组件 {#filtering}
 

@@ -6,18 +6,20 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: '1707'
 ht-degree: 23%
-
 ---
-
 # 电子邮件渠道的营销活动报表 {#campaign-reports-email-channel}
 
 每个营销活动报告都分为不同的小组件，其中详细说明了营销活动的成功和错误。 对于电子邮件渠道，报告和量度详述如下。 在[此页面](campaign-reports.md)中了解如何访问您的营销活动报告。
@@ -149,7 +151,7 @@ ht-degree: 23%
 >title="按类型细分错误"
 >abstract="**按类型细分错误**&#x200B;图表包含遇到的每种错误类型的可用数据：用户未知、邮箱已满、域无效等。"
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
+每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域类型可能遇到的错误的可用数据。 指标详见下文。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -180,7 +182,7 @@ ht-degree: 23%
 >title="按域细分错误"
 >abstract="**按域细分错误**&#x200B;图表显示遇到的每种错误类型的可用数据（按域细分）。"
 
-每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
+每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分包含每个域可能遇到的错误的可用数据。 指标与上面详述的每种类型&#x200B;]**表和图表的**[!UICONTROL &#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 

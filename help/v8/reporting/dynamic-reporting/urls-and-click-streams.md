@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 6%
-
 ---
-
 # URL 和点击流{#urls-and-click-streams}
 
 **URL和点击流**&#x200B;显示投放期间点击次数最多的URL，如果它们链接到营销活动或项目，则显示多个投放。

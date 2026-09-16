@@ -6,15 +6,15 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # 浏览和过滤列表 {#list-screens}
 
 左侧导航菜单中的大多数链接会显示对象列表，例如&#x200B;**投放**&#x200B;或&#x200B;**营销活动**&#x200B;的列表。 其中一些列表屏幕为只读状态。 您可以自定义列表显示，对这些列表进行筛选，并将列表数据导出为 CSV 文件，具体如下所述。

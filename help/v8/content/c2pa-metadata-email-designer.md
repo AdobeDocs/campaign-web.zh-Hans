@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: 电子邮件和登陆页Designer中的C2PA元数据
+title: 电子邮件和登陆页面设计器中的 C2PA 元数据
 description: 了解已附加到图像的C2PA元数据在Adobe Campaign Web用户界面中的电子邮件和登陆页设计器中移动时会发生什么情况。
 topic: Content Management
 role: User
@@ -9,12 +9,10 @@ level: Beginner
 source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 1%
-
+ht-degree: 4%
 ---
 
-
-# 电子邮件和登陆页Designer中的C2PA元数据 {#c2pa-email-landing-page-designer}
+# 电子邮件和登陆页面设计器中的 C2PA 元数据 {#c2pa-email-landing-page-designer}
 
 >[!BEGINSHADEBOX]
 
@@ -57,4 +55,4 @@ C2PA元数据在Adobe Campaign Web用户界面中的电子邮件和登陆页设�
 ## 其他资源
 
 * [使用“生成内容”](generative-gs.md)
-* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)

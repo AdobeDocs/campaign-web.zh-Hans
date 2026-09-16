@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 40%
-
 ---
-
 # 电子邮件、短信、WhatsApp、推送、直邮活动 {#channel}
 
 通过Adobe Campaign Web，您可以跨电子邮件、短信、WhatsApp、直邮和推送渠道自动执行营销活动。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。

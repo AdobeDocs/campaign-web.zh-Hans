@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 2%
-
 ---
-
 # 创建用户档案维度{#creating-a-custom-profile-dimension}
 
 此外，还可根据在收件人模式扩展期间创建的配置文件数据创建和管理报表。
@@ -64,7 +62,7 @@ ht-degree: 2%
 
 现在，您的用户档案字段已创建，我们需要将其链接到相应的动态报告维度。
 
-在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口，以便能够将PII数据发送到动态报告。 有关详细信息，请参见此 [&#x200B; 页面](pii-agreement.md)。
+在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口，以便能够将PII数据发送到动态报告。 有关详细信息，请参见此 [ 页面](pii-agreement.md)。
 
 1. 导航到资源管理器中的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]** > **[!UICONTROL 数据架构]** > **[!UICONTROL 其他报告字段]**&#x200B;文件夹。
 

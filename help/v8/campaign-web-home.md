@@ -6,18 +6,20 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 703
+workflow-type: tm+mt
+source-wordcount: '703'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign Web 用户界面文档 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
@@ -134,7 +136,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a>
+      <strong>发送消息</strong><br/><a href="msg/gs-deliveries.md">创建投放</a> - <a href="email/create-email.md">电子邮件</a> - <a href="push/gs-push.md">推送</a> - <a href="sms/gs-sms.md">短信</a> - <a href="msg/delivery-template.md">投放模板</a> - <a href="preview-test/preview-test.md">预览和测试</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

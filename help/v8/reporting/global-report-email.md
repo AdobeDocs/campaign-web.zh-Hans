@@ -6,19 +6,22 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 TQID: https://experienceleague.adobe.com/fG2Ob4lanHv2egHLy75-0Cob6OR1nV0Q5UZKiLb67b8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: '1689'
 ht-degree: 25%
-
 ---
-
 # 电子邮件渠道的全局报告 {#global-report-direct}
 
 全局报告在渠道级别为用户提供流量和参与量度的全面概述。
@@ -140,7 +143,7 @@ ht-degree: 25%
 
 ![按类型量度划分错误](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每个类型&#x200B;**表和图形的**&#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
+每个类型&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示了与各个域中遇到的潜在错误相关的数据，具体指标如下所示。
 
 此报告中显示的错误会触发隔离过程。 有关隔离管理的更多信息，请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -171,7 +174,7 @@ ht-degree: 25%
 
 ![每个域量度的错误细分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每个域&#x200B;**表和图形的**&#x200B;[!UICONTROL &#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;]&#x200B;**表和图表的**&#x200B;错误划分共同。
+每个域&#x200B;]**表和图形的**[!UICONTROL &#x200B;错误划分显示了与每个域中潜在错误相关的数据。 指标与上面详述的每种类型&#x200B;]**表和图表的**[!UICONTROL &#x200B;错误划分共同。
 
 ## 跟踪指标 {#tracking-indicators-email}
 

@@ -6,13 +6,12 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 TQID: https://experienceleague.adobe.com/8MWtEgcsPZRYWGan5rJfho6HVt5KqUySGJMG6sUjIkA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 21%
-
 ---
-
 # 设置对照组 {#control-group}
 
 控制组是从投放中排除的子群体。 您可以定义控制组以避免向部分受众发送消息，并将投放后的行为与主目标进行比较。 此选项有助于衡量活动的影响。
@@ -47,7 +46,7 @@ ht-degree: 21%
 
 ### 构建对照组 {#build-extract-target}
 
-要定义控制组，请选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。 如果添加额外群体，请选择&#x200B;**无提取**&#x200B;选项，然后选择此处[&#128279;](#extra-population)详述的额外群体。
+要定义控制组，请选择随机或基于排序从目标群体提取某个百分比或固定数量的用户档案。 如果添加额外群体，请选择&#x200B;**无提取**&#x200B;选项，然后选择此处](#extra-population)详述的额外群体[。
 
 首先，定义如何从目标提取用户档案：随机或基于排序。
 
@@ -122,4 +121,4 @@ ht-degree: 21%
 
 发送投放后，提取发送日志以比较未接收通信的用户档案和有效目标之间的行为。 使用投放日志构建新目标。
 
-要查看从目标中删除了哪些用户档案，请检查&#x200B;**投放日志**。 在本节[&#128279;](#check-control-group)中了解更多。
+要查看从目标中删除了哪些用户档案，请检查&#x200B;**投放日志**。 在本节](#check-control-group)中了解更多[。

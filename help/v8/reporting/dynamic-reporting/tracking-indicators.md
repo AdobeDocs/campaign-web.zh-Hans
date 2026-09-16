@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 2%
-
 ---
-
 # 跟踪指标{#tracking-indicators}
 
 **[!UICONTROL 跟踪指标]**&#x200B;报告包含用于在收到电子邮件后跟踪行为的关键指标。

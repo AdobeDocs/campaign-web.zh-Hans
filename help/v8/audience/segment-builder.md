@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 24%
-
 ---
-
 # 使用规则生成器 {#segment-builder}
 
 通过规则生成器，您可以通过筛选数据库中包含的数据，定义投放所定向的群体。 使用它可通过&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动从工作流构建受众，或在创建投放以创建一次性受众时直接构建受众。

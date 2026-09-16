@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 13%
-
 ---
-
 # 生成一次性受众 {#one-time}
 
 本节介绍如何在创建新投放时构建受众。 在此方案中，通过使用查询建模器查询数据库，定向投放受众中包含的用户档案。 生成的受众仅用于此投放一次，不会保存在受众列表中。

@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
-
 ---
-
 # 动态报告使用协议 {#pii-agreement}
 
 动态报告使用协议的目的是作为数据处理的弹出窗口同意。 默认情况下，协议仅可见，并且只有分配了管理权限的用户才能接受或拒绝协议。

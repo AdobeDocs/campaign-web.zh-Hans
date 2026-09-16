@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 19%
-
 ---
-
 # 自动投放 {#automated-delivery}
 
 >[!CONTEXTUALHELP]
@@ -52,7 +50,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 选择要执行的操作 {#action-to-execute}
 

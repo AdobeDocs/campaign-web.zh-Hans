@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
-
 ---
-
 # 投诉{#complaints}
 
 **[!UICONTROL 投诉量]**&#x200B;报告会将收到最多声明的交付内容识别为垃圾邮件。

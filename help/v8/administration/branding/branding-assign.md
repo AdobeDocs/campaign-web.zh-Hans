@@ -10,9 +10,7 @@ source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 13%
-
 ---
-
 # 分配您的品牌 {#branding-assign}
 
 ## 将品牌链接到模板 {#linking-a-brand-to-a-template}
@@ -47,7 +45,7 @@ ht-degree: 13%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hans)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 创建模板后，您可以将其链接到品牌。 操作步骤：
 

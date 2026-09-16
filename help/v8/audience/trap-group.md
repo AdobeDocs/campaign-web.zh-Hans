@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 4%
-
 ---
-
 # 使用陷印组 {#trap-group}
 
 **[!UICONTROL 陷阱组]**（也称为&#x200B;**[!UICONTROL 种子列表]**）用于在投放中包含特定地址，以通过定向不符合定义的目标条件的用户档案来监视和验证分发过程。 这样，投放范围外的收件人可以像任何其他目标收件人一样接收投放。
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->除了在创建投放[&#128279;](../email/create-email.md#preview-test)期间和从[控制组](control-group.md)中发送验证外，添加陷阱组也是测试受众的好方法。
+>除了在创建投放](../email/create-email.md#preview-test)期间和从[控制组](control-group.md)中发送[验证外，添加陷阱组也是测试受众的好方法。
 
 ## 关于陷阱组 {#about-trap-group}
 

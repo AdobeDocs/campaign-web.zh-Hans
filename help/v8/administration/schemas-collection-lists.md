@@ -6,9 +6,7 @@ source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 3%
-
 ---
-
 # 添加收藏集列表 {#collection-lists}
 
 **自定义列表列表**&#x200B;部分允许您定义收藏集链接，如购买。 然后，相关数据通过专用选项卡显示在用户档案屏幕中。

@@ -6,15 +6,15 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 1%
-
 ---
-
 # 工作流事件变量 {#event-variables}
 
 某些工作流活动允许您在表达式编辑器中编辑脚本以执行特定操作，例如，从以前的活动中检索数据、构建条件或基于事件变量计算文件名。
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->有关脚本以及Adobe Campaign中公开的对象和变量的其他信息，请参阅[此部分](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)中的Campaign v8 （客户端控制台）文档。
+>有关脚本以及Adobe Campaign中公开的对象和变量的其他信息，请参阅[此部分](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)中的Campaign v8 （客户端控制台）文档。
 >
 >请注意，虽然此资源提供了有价值的分析，但可能存在差异，因为它具体适用于客户端控制台，而不是Campaign Web用户界面。
 
