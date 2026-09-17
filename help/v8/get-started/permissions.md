@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 86%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # 权限 {#permissions}
 
 Adobe Campaign 中的每个用户在应用程序内都有具体的权限和限制。 用户可以属于一个操作员组，并继承该组的权限。
@@ -53,8 +53,8 @@ Adobe Campaign 中的每个用户在应用程序内都有具体的权限和限�
 
 如果选中&#x200B;**[!UICONTROL 系统文件夹]**&#x200B;选项，则允许所有操作员访问，无论其权限如何。
 
-请参阅此[部分](work-with-folders.md#folder-access-rights)，了解这些权限如何影响您在文件夹上可用的操作。
+请参阅此[部分](work-with-folders.md#folder-access-rights)，了解这些权限如何影响您在文件夹上可执行的操作。
 
-命名权限还确定操作员可用的文件夹操作。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hans#use-named-rights){target="_blank"}。
+已命名权限还确定了操作员可执行的文件夹操作。 请参阅 [Campaign v8 文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"}。
 
 Campaign Web 用户界面中的所有权限都与 Campaign 客户端控制台权限同步。

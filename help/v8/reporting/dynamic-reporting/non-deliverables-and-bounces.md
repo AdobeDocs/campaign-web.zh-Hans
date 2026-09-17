@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 6%
-
 ---
-
 # 无法投放项和退回{#non-deliverables-and-bounces}
 
 **[!UICONTROL 无法投放项和退回]**&#x200B;报告提供了投放期间遇到的所有错误的详细信息。

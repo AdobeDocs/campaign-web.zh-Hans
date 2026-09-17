@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 开始使用选件管理
+title: 开始使用产品建议管理
 description: 了解如何在Adobe Campaign Web中管理优惠
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 3%
-
+source-wordcount: '763'
+ht-degree: 4%
 ---
-
-# 开始使用选件管理 {#gs-offer-management}
+# 开始使用产品建议管理 {#gs-offer-management}
 
 此功能可让您向投放添加个性化优惠，并针对给定上下文中的每个用户档案显示最相关的优惠。 选件可以是一条简单的通信消息，也可以是一款或多款产品上的促销活动。 根据资格规则和优先级权重，优惠引擎会选择要呈现的最佳建议。
 

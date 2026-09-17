@@ -6,9 +6,7 @@ source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # Campaign特定的外部帐户 {#external-account}
 
 按照以下步骤操作，根据您选择的外部帐户类型配置帐户设置。

@@ -6,9 +6,7 @@ source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
-
 ---
-
 # 使用自定义表单 {#custom-forms}
 
 自定义表单是数据输入界面，允许您直接从Web用户界面管理自定义架构中的记录。 每个自定义表单对应于特定的自定义架构，并提供列表视图以浏览记录，并提供详细信息视图以创建、编辑和删除记录。

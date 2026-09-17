@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 将可编辑列表添加到选件架构
+title: 将可编辑列表添加到产品建议架构
 description: 了解如何直接在选件详细信息屏幕中将自定义收藏集链接显示为可编辑列表。
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 1%
-
+source-wordcount: '449'
+ht-degree: 5%
 ---
-
-# 将可编辑列表添加到选件架构 {#offer-editable-list}
+# 将可编辑列表添加到产品建议架构 {#offer-editable-list}
 
 当您使用自定义收藏集链接（例如链接到选件的一组区段）扩展 [!DNL nms:offer] 架构[&#128279;](../administration/schemas.md)时，可以直接在选件的&#x200B;**[!UICONTROL 自定义选项]**&#x200B;部分中将其显示为可编辑列表。 收藏集不是通过单独的屏幕管理相关记录，而是呈现为选件详细信息中的列表，您可以通过专用对话框内联创建新的相关记录。
 

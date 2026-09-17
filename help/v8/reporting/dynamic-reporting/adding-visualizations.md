@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # 添加可视化{#adding-visualizations}
 
 通过&#x200B;**可视化图表**&#x200B;选项卡，您可以拖放可视化图表项，如面积图、圆环图和图形。 可视化可为您提供数据的图形表示。

@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 创建和管理优惠空间
+title: 创建和管理产品建议空间
 description: 了解如何在Campaign Web中创建、配置、部署和预览优惠空间
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
-# 创建和管理优惠空间 {#offer-space}
+# 创建和管理产品建议空间 {#offer-space}
 
 **优惠空间**&#x200B;定义优惠向联系人公开的位置和方式：它使用的渠道（电子邮件、直邮、短信、入站Web等）、优惠可以使用的内容字段以及构建最终呈现的方式。 单个环境可以包含多个选件空间 — 每个展示点对应一个选件空间。
 

@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 2%
-
 ---
-
 # 创建用户档案维度{#creating-a-custom-profile-dimension}
 
 此外，还可根据在收件人模式扩展期间创建的配置文件数据创建和管理报表。

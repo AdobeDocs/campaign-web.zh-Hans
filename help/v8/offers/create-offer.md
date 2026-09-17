@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 创建和发布优惠
+title: 创建和发布产品建议
 description: 了解如何在Campaign Web中创建、配置、批准和部署选件
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
-# 创建和发布优惠 {#create-offer}
+# 创建和发布产品建议 {#create-offer}
 
 **选件**&#x200B;是个别建议，具有自己的资格期限、目标筛选器、权重和内容。 优惠是通过&#x200B;**类别**&#x200B;在优惠目录中组织的，通过&#x200B;**优惠空间**&#x200B;呈现给收件人。
 

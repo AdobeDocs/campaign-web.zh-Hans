@@ -7,9 +7,7 @@ source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
-
 ---
-
 # 使用轮廓数据扩充事务性消息{#profile-enrichment}
 
 此功能允许您通过将Adobe Campaign数据库字段链接到消息内容来个性化事务型消息。 您可以选择目标映射、扩充列和协调键，以确保准确、实时的个性化，同时保持性能阈值。

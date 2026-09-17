@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 8%
-
+source-wordcount: '1720'
+ht-degree: 10%
 ---
-
 # 安排活动 {#orchestrate}
 
 在您[创建工作流](create-workflow.md)后，无论是从工作流菜单还是在营销策划中，您都可以开始编排它执行的不同任务。 为此，提供了一个可视画布，允许您构建工作流图。 在此图表中，您可以添加各种活动并按顺序连接它们。 画布周围会显示水平和垂直滚动条，您可以通过直接拖动到要查看的区域来导航大型工作流。
@@ -128,7 +127,7 @@ Journey Optimizer允许您将活动及其子节点的全部内容（包括其中
 
 您可以断开两个活动的连接，而不删除其中任何一个活动。 不删除断开连接过渡之后放置的活动：它们会被移动到工作流的一个新的单独分支中。
 
-例如，您可以借此重新组织工作流图，以暂时保留一组要保留的活动，而无需删除和重新创建它们。
+例如，您可以借此重新组织工作流图，将一组想要保留的活动暂时搁置在一旁，而无需删除它们再重新创建。
 
 您可以在单个过渡中执行此操作：
 

@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 4%
-
 ---
-
 # 投放吞吐量{#delivery-throughput}
 
 此报表包含与一个或多个发送的投放吞吐量相关的数据。 它提供：

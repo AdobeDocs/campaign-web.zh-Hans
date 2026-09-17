@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
-
 ---
-
 # 按域细分{#breakdown-by-domains}
 
 此报表包含电子邮件投放的受众中表示的每个域的性能数据。 如果是营销活动或项目报表，则性能数据适用于多个受众。 此数据允许您分析每个域在响应特定事件时的行为。 例如，链接显示、阻止列表上的URL等。

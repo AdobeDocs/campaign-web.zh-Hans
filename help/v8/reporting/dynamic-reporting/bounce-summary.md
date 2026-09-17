@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 8%
-
 ---
-
 # 退回摘要{#bounce-summary}
 
 该报告会详细描述在投放期间遇到的整体硬错误和软错误，以及退回的自动处理。

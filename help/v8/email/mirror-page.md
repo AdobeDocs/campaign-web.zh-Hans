@@ -6,18 +6,21 @@ exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 19%
-
 ---
-
 # 镜像页面 {#mirror-page}
 
 镜像页面是电子邮件的在线版本。 在电子邮件营销中，最佳做法是添加指向镜像页面的链接。 例如，如果用户在收件箱中查看电子邮件时遇到渲染问题或图像损坏，则可以访问电子邮件的镜像页面。 出于无障碍原因或鼓励社交共享的原因，还建议提供在线版本。

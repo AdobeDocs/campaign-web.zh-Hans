@@ -6,17 +6,18 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 TQID: https://experienceleague.adobe.com/wabkxP1ZzkHbK3A8FUFFE0TKdlqvMrhE6PMzLuZaPbU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '315'
 ht-degree: 8%
-
 ---
-
 # 营销活动报告入门 {#campaign-reports}
 
 **营销活动报告**&#x200B;提供&#x200B;**营销活动**&#x200B;的全面概述，其中纳入了所包含不同投放的全部相关信息。 这些报表提供了每个渠道每次投放性能的详细分析，包括成功率、受众参与度和其他关键量度。 它们可帮助您评估活动的整体效率和影响。

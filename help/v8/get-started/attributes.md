@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # 选择属性并将其添加到收藏夹 {#folders}
 
 通过 Campaign Web 用户界面，用户可以根据执行的操作在各个位置从数据库选择属性。 例如，可以在定义直邮投放或要提取的文件的输出列时选择属性。 类似地，使用查询建模器创建规则、过滤器或建立受众时可以选择属性。

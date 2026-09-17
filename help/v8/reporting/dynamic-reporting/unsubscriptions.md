@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 16%
-
 ---
-
 # 退订次数{#unsubscriptions}
 
 **[!UICONTROL 取消订阅次数]**&#x200B;报告可识别取消订阅次数最多的交付内容。

@@ -7,9 +7,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%
-
 ---
-
 # 短信报告{#sms-report}
 
 **SMS**&#x200B;报表提供有关SMS投放的详细信息，如投放率和跳出率。

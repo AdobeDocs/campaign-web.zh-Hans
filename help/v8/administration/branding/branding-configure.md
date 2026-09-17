@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 10%
-
 ---
-
 # 配置品牌 {#branding-configure}
 
 技术管理员可以直接从Web UI创建和管理多个品牌。 这允许您定义构成品牌标识的所有元素，包括徽标甚至电子邮件跟踪设置。
@@ -48,7 +46,7 @@ ht-degree: 10%
 
 **[!UICONTROL Brand]**&#x200B;已配置四个部分：**[!UICONTROL 标识]**、**[!UICONTROL Brand配置]**、**[!UICONTROL 电子邮件标头参数]**&#x200B;和&#x200B;**[!UICONTROL URL跟踪参数]**。
 
-### 标识 {#identity}
+### 身份标识 {#identity}
 
 **[!UICONTROL 标识]**&#x200B;部分允许您定义和个性化您的品牌。
 

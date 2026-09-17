@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 查看优惠环境设置
+title: 检查产品建议环境设置
 description: 了解如何在Campaign Web中查看、配置和部署优惠环境
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 2%
-
+source-wordcount: '319'
+ht-degree: 5%
 ---
-
-# 查看优惠环境设置 {#offer-environment}
+# 检查产品建议环境设置 {#offer-environment}
 
 **优惠环境**&#x200B;是用来组织优惠目录和相关优惠空间的容器。 有两种类型的环境：
 

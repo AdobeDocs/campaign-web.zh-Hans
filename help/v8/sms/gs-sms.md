@@ -6,15 +6,15 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: '173'
 ht-degree: 97%
-
 ---
-
 # 短信投放入门 {#sms}
 
 短信投放提供一种将短信发送到客户的移动设备的实用而又高效的方式。 通过此功能，可创建基于文本的消息、使其个性化和预览基于文本的消息以进行有效的通信。
