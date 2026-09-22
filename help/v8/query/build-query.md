@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '3041'
 ht-degree: 7%
 ---
 # 生成您的第一个查询 {#build-query}
@@ -155,9 +155,11 @@ ht-degree: 7%
 
 >[!ENDTABS]
 
-#### 链接表（1-1和1-N链接）上的自定义条件{#links}
+### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
 自定义条件允许您查询链接到规则当前使用的表的表。 这包括具有1-1基数链接的表，或集合表（1-N链接）。
+
+#### 1-1链接
 
 对于&#x200B;**1-1链接**，导航到链接表，选择所需属性并定义预期值。
 
@@ -169,63 +171,51 @@ ht-degree: 7%
 
 1. 在&#x200B;**Brand**&#x200B;表中导航并选择&#x200B;**标签**&#x200B;属性。
 
-   ![品牌表的屏幕快照](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![品牌表的屏幕快照](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 定义属性的预期值。
 
-   ![已定义预期值的示例](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![品牌表的屏幕快照](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 以下是一个直接选择表链接的查询示例。 必须从专用选取器中选择此表的可用值。
 
-![查询示例示例](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![品牌表的屏幕快照](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-对于&#x200B;**1-N链接**，您可以定义子条件来优化查询，如下面的示例所示。
+#### 1-N链接
 
-+++查询示例
+对于&#x200B;**1-N链接**，您可以通过两种方式定义条件：
 
-在本例中，查询将定向购买与BrewMaster产品相关的收件人，购买总额至少为100$。
+* **选择收藏集本身**，如&#x200B;**购买**。 这会创建一个&#x200B;**[!UICONTROL 存在（例如]**&#x200B;条件），您可以在其中添加子条件。
 
-1. 选择&#x200B;**购买**&#x200B;表并进行确认。
+  +++查询示例
 
-   ![采购表的屏幕快照](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  在本例中，查询定向购买与BrewMaster产品相关且购买金额超过100$的收件人。
 
-1. 将添加叫客过渡，从而允许您创建子条件。
+  1. 选择&#x200B;**购买**&#x200B;表并进行确认。
 
-   ![叫客过渡示例](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义要应用于选定表的子条件。
 
-1. 选择&#x200B;**价格**&#x200B;属性，目标购买金额不少于1000$
+     ![采购表的屏幕快照](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Price属性的屏幕快照](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. 根据您的需要添加子条件。
 
-1. 根据您的需要添加子条件。 在此，我们添加了条件来定向购买BrewMaster产品的用户档案。
+     ![采购表的屏幕快照](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![子条件示例](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **从集合**&#x200B;中选择一个属性，如&#x200B;**购买**&#x200B;下的&#x200B;**价格**。 提供了三个用于定义条件的选项。
 
-#### 使用聚合数据 {#aggregate}
+  ![显示集合条件选项的屏幕截图](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-自定义条件允许您执行聚合操作。 要实现此目的，需要直接从集合表中选择属性：
+  * **[!UICONTROL 默认值]**：对于大多数用例建议使用此选项。 它会自动为集合创建&#x200B;**[!UICONTROL 存在（如]**&#x200B;条件）。 这等效于使用上述方法直接选择集合，并产生相同的结果。 例如，从&#x200B;**Purchases**&#x200B;中选择&#x200B;**Price**&#x200B;属性会创建&#x200B;**Purchases exists，如**&#x200B;条件。 然后，您可以设置运算符和值，例如&#x200B;**等于** `0`。
 
-1. 在所需的集合表中导航，并选择要对其执行聚合操作的属性。
+  * **[!UICONTROL 聚合]**：将聚合函数应用于所选的集合属性。 例如，选择&#x200B;**Count**&#x200B;以创建条件，例如&#x200B;**Count(Price)等于0**。 您可以使用附加条件来优化聚合中包含的记录。
 
-   ![属性列表的屏幕快照](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL 高级]**：使用集合元素的直接连接。 直接评估所选属性，例如&#x200B;**价格（购买/@price）**。 此选项适用于收集要素的单个条件。
 
-1. 在属性窗格中，打开&#x200B;**聚合数据**&#x200B;选项并选择所需的聚合函数。
-
->[!BEGINTABS]
-
->[!TAB 经典查询建模器]
-
-![聚合数据选项的屏幕快照](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB 新规则生成器]
-
-![聚合数据选项的屏幕快照](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  默认情况下已选择&#x200B;**[!UICONTROL 默认]**&#x200B;选项。 在需要计数或聚合集合记录时使用&#x200B;**[!UICONTROL 聚合]**，或在需要直接连接到一个集合属性时使用&#x200B;**[!UICONTROL 高级]**。
 
 ### 选择受众 {#audiences}
 

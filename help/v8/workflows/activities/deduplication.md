@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 39%
+source-wordcount: '835'
+ht-degree: 36%
 ---
 # 重复数据删除 {#deduplication}
 
@@ -69,10 +69,16 @@ ht-degree: 39%
 
 1. 选择要使用的&#x200B;**重复数据删除方法**：
 
-   * **随机选择**：随机选择要保留的重复项记录。
-   * **使用表达式**：保留输入表达式的值最小或最大的记录。
-   * **非空值**：保留表达式不为空的记录。
-   * **遵循值列表**：为一个或多个字段定义值优先级。 若要定义值，请单击&#x200B;**属性**&#x200B;以选择一个字段或创建表达式，然后将值添加到相应的表中。 要定义新字段，请单击位于值列表上方的&#x200B;**添加**&#x200B;按钮。
+   * **[!UICONTROL 随机选择]**：随机选择要保留的重复项记录。
+   * **[!UICONTROL 使用表达式]**：保留指定表达式具有最小值或最大值的记录。 输入&#x200B;**[!UICONTROL 表达式]**，然后选择&#x200B;**[!UICONTROL 排序]**&#x200B;顺序： **[!UICONTROL 升序（最小值优先）]**&#x200B;或&#x200B;**[!UICONTROL 降序（最大值优先）]**。
+   * **[!UICONTROL 非空值]**：保留表达式不为空的记录。
+   * **[!UICONTROL 遵循值列表]**：通过匹配特性或表达式的一个或多个值来定义记录优先级。 单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;以添加属性。 对于每个属性：
+
+     * 在&#x200B;**[!UICONTROL 属性]**&#x200B;字段中，选择属性或创建表达式。
+     * 单击&#x200B;**[!UICONTROL 添加值]**&#x200B;以生成要优先处理的排序值列表。
+     * 使用&#x200B;**[!UICONTROL 为其他值排序]**&#x200B;下拉列表选择如何为不在列表中的值排序，例如&#x200B;**[!UICONTROL 无差异（随机）]**。
+
+     定义了多个属性时，将第一个属性用作主要排序标准，并且以下属性按顺序用作中断符。
 
 1. 选中&#x200B;**生成补码**&#x200B;选项以利用剩余群体。 补充包含所有重复项。 然后，将向活动添加其他过渡。
 

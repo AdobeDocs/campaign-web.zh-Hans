@@ -2,14 +2,46 @@
 title: Campaign v8 Web 用户界面早期发行说明
 description: 2026 Campaign Web 用户界面发布
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # 2026 年发行说明 {#2026-release}
 
 本页列出了 **2026 年版本**&#x200B;的所有变更和改进。 最新发行说明可在[此页面](release-notes.md)查看。
+
+## 2026 年 8 月版本 {#26-8-release}
+
+_2026 年 8 月 18 日_
+
+### 新增功能 {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>审批工作流活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>审批</strong>工作流活动（此前仅在客户端控制台中提供）现已在 Campaign Web 用户界面中提供。 将任务分配给组或单个操作员，自定义通知标题和消息，并将可能的答案（例如“是/否”）定义为输出分支。</p>
+<p>有关更多信息，请参阅<a href="../workflows/activities/approval.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#26-8-improvements}
+
+* **打开跟踪**：您现在可以直接从 Campaign Web 用户界面启用或禁用打开跟踪。 这有助于您遵守数据保护法规。 [了解更多](../advanced-settings/delivery-settings.md#tracking-tab)
+* **项目列表视图**：现在，项目会在专用视图中列出，与营销活动、投放和工作流的展示方式类似。 您可以浏览现有项目并直接从此视图创建新项目。 [了解更多](../administration/plans-programs.md#create-program)
+* **自定义架构配置**：在&#x200B;**操作数据**&#x200B;部分中，您现在可以禁止对自定义架构的记录执行&#x200B;**复制**&#x200B;操作。 [了解更多](../administration/schemas-action-data.md#action-data)
+* **自定义过滤器**：在架构编辑器中，您现在可以使用新的&#x200B;**链接设置**&#x200B;对话框限制链接类型自定义过滤器的选取器中可用的值。 [了解更多](../administration/schemas-custom-filters.md#settings)
+* **架构验证**：您现在可以使用新的&#x200B;**检查**&#x200B;按钮，直接从架构编辑器验证架构的结构。 [了解更多](../administration/schemas-create-publish.md#create-new)
+* **文件夹安全性**：现在，文件夹上可执行的操作统一受操作员的权限管控，与客户端控制台的行为保持一致。 [了解详情](../get-started/work-with-folders.md#about-folders)。
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## 2026 年 7 月版本 {#26-7-release}
 

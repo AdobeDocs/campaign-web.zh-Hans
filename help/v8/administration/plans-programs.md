@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 5%
 ---
 # 计划和项目 {#plan-and-programs}
@@ -97,8 +97,6 @@ ht-degree: 5%
 ### 方#1：您已经有一个项目，并想要创建与其关联的营销策划
 
 要将新营销策划链接到项目，请直接在项目中创建营销策划。
-
-![显示在项目中创建营销活动的屏幕截图](assets/program_campaign_create.png){zoomable="yes"}
 
 **[!UICONTROL 文件夹]**&#x200B;设置将自动填充程序路径。
 

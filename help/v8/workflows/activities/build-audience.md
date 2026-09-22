@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 52%
+source-wordcount: '528'
+ht-degree: 50%
 ---
 # 生成受众 {#build-audience}
 
@@ -58,11 +58,11 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 要创建自己的查询，请执行以下步骤：
 
 1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。 利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是从收件人中选择的。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#targeting)
+1. 选择&#x200B;**定位维度**。 利用定向维度，可定义操作定向的群体，如收件人、合同受益人、操作员或订阅者。 默认情况下，目标是收件人维度。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#targeting)
 1. 单击定向维度旁边的图标以选择&#x200B;**过滤维度**。 利用筛选维度，您可以通过引用相关标准将筛选器应用到目标群体，而无需更改主要定向维度。 [了解有关定向维度的更多信息](../../audience/targeting-dimensions.md#filtering)
 1. 单击&#x200B;**继续**。
 1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
-1. 使用&#x200B;**扩充数据**&#x200B;部分通过数据库中的附加信息（例如合同参考或新闻稿订阅）增强目标数据。 该数据将与受众一起存储在工作流&#x200B;**工作台**&#x200B;中，并且可用于后续的活动。 您可以添加单个扩充属性、集合链接或表达式，并访问高级选项。 有关详细步骤和示例，请参阅[添加扩充数据](enrichment.md#enrichment-add)。
+1. 使用&#x200B;**扩充数据**&#x200B;部分通过数据库中的附加信息（例如合同参考或新闻稿订阅）增强目标数据。 该数据将与受众一起存储在工作流&#x200B;**工作台**&#x200B;中，并且可用于后续的活动。 您可以从外部数据库添加单个扩充属性、集合链接、表达式或字段，并访问高级选项。 有关详细步骤和示例，请参阅[添加扩充数据](enrichment.md#enrichment-add)和[使用外部数据库数据进行扩充](enrichment.md#external-data)。
 
 >[!TAB 读取受众]
 

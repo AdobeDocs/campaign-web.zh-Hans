@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 11%
+source-wordcount: '918'
+ht-degree: 10%
 ---
 # 管理目标映射 {#target-mappings}
 
@@ -64,6 +64,21 @@ ht-degree: 11%
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为目标映射输入&#x200B;**[!UICONTROL 标签]**。
 
 1. 展开&#x200B;**[!UICONTROL 其他选项]**&#x200B;部分以定义高级设置，例如目标映射的内部名称、存储文件夹和描述。
+
+1. 如果要定位移动设备应用程序收件人，请启用&#x200B;**[!UICONTROL 移动设备应用程序的目标映射]**&#x200B;选项。
+
+   ![目标映射属性屏幕显示填充选项](assets/target-mappings-properties0.png)
+
+   然后，您可以：
+
+   * 将现有订阅者应用程序的&#x200B;**[!UICONTROL 架构]**&#x200B;字段留空。 Adobe Campaign会根据收件人模板自动为您生成所需的存储架构。 您可以使用&#x200B;**[!UICONTROL 指定其他字段]**&#x200B;将自定义字段添加到生成的架构。
+   * 选择现有的订户应用程序架构。 在这种情况下，**[!UICONTROL 指定其他字段]**&#x200B;被禁用，因为架构已存在，并且根据所选架构自动填充&#x200B;**[!UICONTROL 筛选维度]**&#x200B;和&#x200B;**[!UICONTROL 定向维度]**&#x200B;字段。
+
+   移动设备目标映射始终使用其自己的专用存储架构，并且排除日志单独存储。 以下&#x200B;**[!UICONTROL 存储]**&#x200B;部分中描述的&#x200B;**[!UICONTROL 排除项]**&#x200B;选项不适用于移动设备目标映射。
+
+   >[!NOTE]
+   >
+   >架构后缀不能包含空格。
 
 1. 选择目标群体。 您可以：
 

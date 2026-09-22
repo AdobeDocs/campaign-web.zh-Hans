@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 26%
+source-wordcount: '1012'
+ht-degree: 18%
 ---
 # 从文件加载电子邮件受众 {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户档案。 加载用户档案后，输入文件中的所有字段都可用于个性化投放[了解如何个性化内容](../personalization/personalize.md)。
 
-输入文件中的配置文件不会添加到数据库中。 它们已加载，并且仅可用于此特定的独立电子邮件投放。
+您可以选择仅为此特定的独立电子邮件投放加载用户档案，而不将它们添加到数据库中，也可以将这些用户档案导入并协调到数据库中。 [了解详情](#upload)。
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户�
    ![在中心部分显示数据映射预览的屏幕截图](assets/select-from-file-map.png)
 
 1. 从&#x200B;**地址字段**&#x200B;下拉列表中指定包含电子邮件地址的列。 如果输入文件中包含此类信息，也可以选择“阻止列表”列。
-1. 调整列设置并使用可用选项定义数据格式化的方式。
+1. 在&#x200B;**[!UICONTROL 列]**&#x200B;部分中，展开一列以调整其设置并使用可用选项定义数据格式化的方式。 对于要用于协调的每个列，请使用&#x200B;**[!UICONTROL 选择目标字段]**&#x200B;将其映射到收件人架构属性。
+
+1. 使用&#x200B;**[!UICONTROL 不将收件人导入数据库]**&#x200B;开关来控制是否将文件的配置文件导入并协调到数据库中。 如果选择导入它们，则显示&#x200B;**[!UICONTROL 字段映射和协调]**&#x200B;部分。 配置以下参数：
+
+   ![在中心部分显示数据映射预览的屏幕截图](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL 操作]**
+
+   选择要在数据库上执行的操作：
+
+   * **[!UICONTROL 更新或插入]**：如果记录存在于数据库中，则更新该记录，否则创建该记录。
+   * **[!UICONTROL 插入]**：将记录插入数据库。
+   * **[!UICONTROL 更新]**：仅更新现有记录。
+   * **[!UICONTROL 仅协调]**：在数据库中查找记录，但不执行更新。
+   * **[!UICONTROL 删除]**：从数据库中删除记录。
+
+   +++
+
+   +++**[!UICONTROL 重复项管理]**
+
+   选择如何处理文件和数据库中都存在的记录：
+
+   * **[!UICONTROL 更新]**（默认）：更新记录。
+   * **[!UICONTROL 拒绝实体]**：排除它并记录错误。
+   * **[!UICONTROL 忽略]**：排除它而不保留跟踪。
+
+   +++
+
+   +++**[!UICONTROL 双人管理]**
+
+   选择如何处理在文件本身中出现多次的记录：
+
+   * **[!UICONTROL 更新]**（默认）：不删除重复项；最后一个匹配记录优先。
+   * **[!UICONTROL 拒绝实体]**：排除多余的记录并记录错误。
+   * **[!UICONTROL 忽略]**：排除多余的记录而不保留跟踪。
+
+   +++
+
+   +++**[!UICONTROL 拒绝类型]**
+
+   选择协调期间如何处理字段级错误：
+
+   * **[!UICONTROL 忽略并记录警告]**：导入所有其他字段并记录错误。
+   * **[!UICONTROL 拒绝父元素]**：拒绝整个记录。
+   * **[!UICONTROL 拒绝所有元素]**：停止导入并拒绝所有内容。
+
+   +++
+
+   +++**[!UICONTROL 协调键字段]**
+
+   在&#x200B;**[!UICONTROL 列]**&#x200B;部分中，您已将某些列映射到目标字段。 在此，选择这些映射字段中的哪些字段应该用于标识记录。
+
+   +++
+
+1. 在&#x200B;**[!UICONTROL 格式]**&#x200B;部分中，指定文件使用的编码、字符串分隔符和列分隔符。
 1. 在确认设置正确后，单击&#x200B;**确认**。
 
 创建消息内容时，利用输入文件中的字段添加个性化。 [了解如何个性化内容](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Adobe Campaign Web用户界面允许您定位存储在外部文件中的用户�
 * 文件中的第一行是列标题。
 * 将文件格式与下面的示例文件对齐：
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## 预览和测试电子邮件 {#test}

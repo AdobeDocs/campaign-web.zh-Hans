@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 10%
+source-wordcount: '1791'
+ht-degree: 9%
 ---
 # 安排活动 {#orchestrate}
 
@@ -48,6 +48,12 @@ ht-degree: 10%
 * **显示映射**：打开显示您位置的画布快照。
 
 ![工作流画布的工具栏选项](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## 保存或放弃更改 {#save-cancel}
+
+使用屏幕顶部的&#x200B;**[!UICONTROL 保存]**&#x200B;按钮保存对工作流所做的更改。
+
+一旦您进行更改，**[!UICONTROL 保存]**&#x200B;旁边也会出现&#x200B;**[!UICONTROL 取消]**&#x200B;按钮。 单击它可放弃所有未保存的更改，并将工作流恢复到其上次保存的版本。 由于此操作无法撤消，因此在放弃更改之前会显示确认消息。
 
 ## 管理活动 {#manage}
 
