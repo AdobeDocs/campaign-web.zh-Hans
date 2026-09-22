@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # 发行说明 {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Adobe Campaign Web 用户界面版本在持续投放模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
-## 2026 年 8 月版本 {#26-8-release}
+## 2026年9月版 {#26-9-release}
 
-_2026 年 8 月 18 日_
+_2026年9月22日_
 
-### 新增功能 {#26-8-features}
+### 新增功能 {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>审批工作流活动</strong><br/></th>
+<th><strong>LINE 渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>审批</strong>工作流活动（此前仅在客户端控制台中提供）现已在 Campaign Web 用户界面中提供。 将任务分配给组或单个操作员，自定义通知标题和消息，并将可能的答案（例如“是/否”）定义为输出分支。</p>
-<p>有关更多信息，请参阅<a href="../workflows/activities/approval.md">详细文档</a>。</p>
+<p>Adobe Campaign现在支持<strong>LINE</strong>渠道，这是一个常用的即时消息应用程序。 使用文本、图像或视频内容，在独立投放或工作流中，以及其他渠道旁创建和发送LINE消息。 <a href="../line/get-started-line.md">了解更多信息</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改进 {#26-8-improvements}
+### 改进 {#26-9-improvements}
 
-* **打开跟踪**：您现在可以直接从 Campaign Web 用户界面启用或禁用打开跟踪。 这有助于您遵守数据保护法规。 [了解更多](../advanced-settings/delivery-settings.md#tracking-tab)
-* **项目列表视图**：现在，项目会在专用视图中列出，与营销活动、投放和工作流的展示方式类似。 您可以浏览现有项目并直接从此视图创建新项目。 [了解更多](../administration/plans-programs.md#create-program)
-* **自定义架构配置**：在&#x200B;**操作数据**&#x200B;部分中，您现在可以禁止对自定义架构的记录执行&#x200B;**复制**&#x200B;操作。 [了解更多](../administration/schemas-action-data.md#action-data)
-* **自定义过滤器**：在架构编辑器中，您现在可以使用新的&#x200B;**链接设置**&#x200B;对话框限制链接类型自定义过滤器的选取器中可用的值。 [了解更多](../administration/schemas-custom-filters.md#settings)
-* **架构验证**：您现在可以使用新的&#x200B;**检查**&#x200B;按钮，直接从架构编辑器验证架构的结构。 [了解更多](../administration/schemas-create-publish.md#create-new)
-* **文件夹安全性**：现在，文件夹上可执行的操作统一受操作员的权限管控，与客户端控制台的行为保持一致。 [了解详情](../get-started/work-with-folders.md#about-folders)。
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **侧面导航访问**：管理员现在可以在侧面导航中隐藏特定的菜单项。 [了解更多](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **其他审批类型**：除了内容和目标审批之外，您现在还可以要求对Campaign投放进行预算和投放开始审批。 [了解更多](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **基于访客的短信定位**：访客目标映射现在可用于短信投放。 [了解更多](../sms/create-sms.md)
+* **工作流取消按钮**：新的&#x200B;**取消**&#x200B;按钮允许您还原工作流中未保存的更改。 [了解更多](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **带多个值的重复数据删除**： **Follow值列表**&#x200B;选项现在支持多个属性。 [了解更多](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **移动设备目标映射**：您现在可以为移动设备应用程序目标创建目标映射。 [了解更多](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **外部数据库扩充**：您现在可以在&#x200B;**扩充**&#x200B;或&#x200B;**生成受众**&#x200B;活动中扩充外部数据库中的数据。 [了解更多](../workflows/activities/enrichment.md#external-data)
+* **文件受众协调**：现在，您可以配置在从文件定位受众时是否将收件人导入数据库。 [了解更多](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **集合上的直接联接**：直接从集合中选择属性时，现在可以选择如何构建条件：使用推荐的默认选项、聚合函数或高级直接联接。 [了解更多](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 
