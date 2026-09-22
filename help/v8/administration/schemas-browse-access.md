@@ -2,10 +2,10 @@
 title: 浏览和访问架构
 description: 了解如何在界面中浏览和访问架构。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # 访问和配置架构 {#access}
 
@@ -62,3 +62,5 @@ ht-degree: 4%
 * [编辑自定义字段](schemas-custom-fields.md) — 配置哪些自定义字段在详细信息屏幕中显示并将它们整理到多个部分中。
 * [添加收藏集列表](schemas-collection-lists.md) — 添加收藏集列表以在配置文件屏幕中显示相关数据。
 * [控制对数据的操作](schemas-action-data.md) — 限制自定义架构的创建、编辑和删除操作。
+
+对于支持左侧导航中一个或多个条目的架构，如&#x200B;**nms:delivery**&#x200B;或&#x200B;**xtk:workflow**，屏幕定义还显示&#x200B;**[!UICONTROL 侧导航访问]**&#x200B;部分。 选中与菜单项对应的&#x200B;**[!UICONTROL 删除]**&#x200B;的菜单访问权限复选框，以在左侧导航中隐藏该实例，适用于该实例上的所有用户，无论其个人访问权限如何。 某些架构支持多个菜单条目：例如，**nms:delivery**&#x200B;由&#x200B;**[!UICONTROL 投放]**&#x200B;和&#x200B;**[!UICONTROL 事务性消息]**&#x200B;条目共享，因此会为每个条目显示一个复选框。

@@ -13,10 +13,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 30%
+source-wordcount: '2702'
+ht-degree: 27%
 ---
 # 扩充 {#enrichment}
 
@@ -38,6 +38,8 @@ ht-degree: 30%
 
 * **另一个工作表**：
   * 定位一组客户，并添加“Purchase”表中的“Amount”和“Type of product”字段。
+
+* **外部数据库**：从存储在外部数据库中的表中添加字段。 [了解详情](#external-data)。
 
 将扩充数据添加到工作流后，便可在后续活动中使用，根据客户的行为、偏好和需求将其划分为不同的组。 它还可用于创建个性化的营销消息和营销活动，以引起目标受众的共鸣。
 
@@ -143,6 +145,42 @@ ht-degree: 30%
 
 [示例](#link-example)部分提供了使用链接的工作流示例。
 
+## 利用外部数据库数据扩充 {#external-data}
+
+通过&#x200B;**扩充**&#x200B;和&#x200B;**生成受众** （查询类型）活动，您可以使用&#x200B;**[!UICONTROL 联合数据访问(FDA)]**&#x200B;外部帐户从存储在外部数据库中的表中添加字段。 [了解如何配置外部帐户](../../administration/create-external-account.md)。
+
+>[!NOTE]
+>
+>只有简单连接可用于协调外部数据库字段。 此类型的扩充不支持高级联接条件。
+
+要添加外部数据库字段，请执行以下步骤：
+
+1. 在活动窗格的&#x200B;**[!UICONTROL 扩充数据]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加外部数据库字段]**。
+1. 选择要使用的FDA外部帐户，然后浏览或输入要使用的表的名称。
+1. 选择所需的列，然后单击&#x200B;**添加**。
+
+   ![显示外部数据库按钮的屏幕截图](../assets/workflow-enrichment8.png)
+
+1. 在&#x200B;**[!UICONTROL 协调条件]**&#x200B;部分中，定义&#x200B;**[!UICONTROL Source]**&#x200B;属性和&#x200B;**[!UICONTROL 目标]**&#x200B;外部列以协调数据。 单击&#x200B;**[!UICONTROL 添加联接]**&#x200B;可添加多个联接。
+
+1. 在&#x200B;**[!UICONTROL 收集的数据]**&#x200B;下拉列表中，选择收集匹配行的方式：
+
+   * **[!UICONTROL 收集所有行]**：检索每个匹配的行。
+   * **[!UICONTROL 限制行数]**：最多检索您定义的行数。 激活&#x200B;**[!UICONTROL 启用排序]**&#x200B;以定义用于确定保留哪些行的顺序。
+   * **[!UICONTROL 单行（专家）]**：通过假定单行匹配来优化查询。 如果这一假设不正确，则结果可能有缺陷（数据缺失或重复）。
+   * **[!UICONTROL 聚合行]**：当收集的列已包含聚合值（如计数或平均值）时，使用此选项。
+   * **[!UICONTROL 合并]**：将匹配的行合并到单个结果中。
+
+   >[!NOTE]
+   >
+   >对于&#x200B;**[!UICONTROL 限制行数]**&#x200B;和&#x200B;**[!UICONTROL 合并]**&#x200B;选项，您可以激活&#x200B;**[!UICONTROL 启用排序]**&#x200B;以定义用于确定保留哪些行的顺序或定义合并顺序。
+
+1. 或者，单击&#x200B;**[!UICONTROL 创建过滤器]**&#x200B;以使用查询建模器过滤外部数据。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)。
+
+   ![显示外部数据库配置的屏幕截图](../assets/workflow-enrichment8.png)
+
+添加的字段使用活动名称和表名进行标记。
+
 ## 数据协调 {#reconciliation}
 
 >[!CONTEXTUALHELP]
@@ -212,7 +250,7 @@ ht-degree: 30%
 在工作流中，如果要使用从投放中的扩充活动中获得的选件，请执行以下步骤：
 
 1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
-如果您只想查看扩充活动中的优惠，请将&#x200B;**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
+如果您只想查看扩充活动中的优惠，请将**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
 
    ![](../assets/offers-settings.png)
 
