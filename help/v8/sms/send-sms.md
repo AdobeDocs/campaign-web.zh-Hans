@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    ![发送短信投放](assets/sms_send_5.png){zoomable="yes"}
 
-   如果短信投放已计划，请单击&#x200B;**[!UICONTROL 按计划发送]**&#x200B;按钮。 在[本节](../msg/gs-messages.md#schedule-the-delivery-sending)中了解有关投放计划的更多信息。
+   如果短信投放已计划，请单击&#x200B;**[!UICONTROL 按计划发送]**&#x200B;按钮。 在[本节](../msg/create-deliveries.md#gs-schedule)中了解有关投放计划的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮以确认发送操作。
 

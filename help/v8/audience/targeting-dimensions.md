@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 12%
@@ -43,7 +43,7 @@ ht-degree: 12%
 | 名称 | 使用投放 | 架构 |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | 收件人 | 用户档案/收件人（内置收件人表） | nms:recipient |
-| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | mns:visitor |
+| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | nms:visitor |
 | 订阅 | 订阅新闻稿等信息服务的用户档案 | nms:subscription |
 | 访客订阅 | 订阅了信息服务的访客 | nms:visitorSub |
 | 运算符 | Adobe Campaign运算符 | nms:operator |

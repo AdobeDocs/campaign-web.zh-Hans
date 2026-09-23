@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 39%
+source-wordcount: '574'
+ht-degree: 38%
 ---
 # 创建短信投放 {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >abstract="选择预定义模板以开始投放您的短信。 通过投放模板，您可在各种营销活动和投放中重用自定义内容和设置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hans" text="使用投放模板"
 
-您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤解释独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，将在[此部分](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中说明创建步骤。
+您可以创建独立的短信投放，或在活动工作流的上下文中创建短信。 以下步骤解释独立（一次性）短信投放的过程。 如果您在营销活动工作流的上下文中工作，将在[此部分](../workflows/activities/channels.md#create-a-delivery-in-a-workflow)中说明创建步骤。
 
 要创建新的独立短信投放，请执行以下步骤：
 
@@ -55,6 +55,8 @@ ht-degree: 39%
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以现有受众为目标或创建您自己的受众。 [了解有关受众的详细信息](../audience/about-recipients.md)。
 
+   除了默认&#x200B;**[!UICONTROL 收件人]**&#x200B;目标映射之外，SMS投放还可以针对&#x200B;**[!UICONTROL 访客]**&#x200B;或&#x200B;**[!UICONTROL 访客订阅]**。 [了解有关定向维度的更多信息](../audience/targeting-dimensions.md#targeting)。
+
    ![显示“选择受众”按钮的屏幕截图](assets/sms_create_2.png){zoomable="yes"}
 
    了解如何在[此页面](../audience/add-audience.md)中选择现有受众。
@@ -71,7 +73,7 @@ ht-degree: 39%
 
    在此屏幕中，您还可以[模拟您的内容](../preview-test/preview-test.md)和[设置选件](../msg/offers.md)。
 
-1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。 启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。 在[本节](../msg/gs-deliveries.md#gs-schedule)中了解有关投放计划的更多信息。
+1. 要安排在特定的日期和时间投放，请开启&#x200B;**[!UICONTROL 启用计划]**&#x200B;选项。 启动投放后，系统会在您为收件人定义的确切日期和时间自动发送消息。 在[本节](../msg/create-deliveries.md#gs-schedule)中了解有关投放计划的更多信息。
 
    >[!NOTE]
    >
