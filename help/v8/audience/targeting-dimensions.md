@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 12%
@@ -43,14 +43,14 @@ ht-degree: 12%
 | 名称 | 使用投放 | 架构 |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | 收件人 | 用户档案/收件人（内置收件人表） | nms:recipient |
-| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | mns:visitor |
+| 访客 | 通过反向链接收集用户档案的访客（例如，病毒式营销） | nms:visitor |
 | 订阅 | 订阅新闻稿等信息服务的用户档案 | nms:subscription |
 | 访客订阅 | 订阅了信息服务的访客 | nms:visitorSub |
 | 运算符 | Adobe Campaign运算符 | nms:operator |
 | 外部文件 | 通过包含所有必需信息的文件投放 | 无链接架构，未输入目标 |
 | 订阅者应用程序 | 订阅应用程序的配置文件 | nms:appSubscriptionRcp |
 
-此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hans#new-mapping){target="_blank"}以了解详情。
+此外，根据特定需求创建新的目标映射。 仅从客户端控制台执行此操作。 请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}以了解详情。
 
 ## 过滤维度 {#filtering}
 

@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 3%
@@ -92,7 +92,7 @@ LINE投放最多可包含五条消息。 单击&#x200B;**[!UICONTROL 添加邮�
 
 1. 定义内容后，单击&#x200B;**保存**，然后单击“上一步”图标以返回投放配置屏幕。
 
-1. 启用&#x200B;**[!UICONTROL 启用计划]**&#x200B;以在特定的日期和时间发送。 [了解详情](../msg/gs-deliveries.md#gs-schedule)。
+1. 启用&#x200B;**[!UICONTROL 启用计划]**&#x200B;以在特定的日期和时间发送。 [了解详情](../msg/create-deliveries.md#gs-schedule)。
 
    ![Line消息计划](assets/line-message9.png)
 

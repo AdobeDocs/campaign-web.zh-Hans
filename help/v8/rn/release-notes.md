@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _2026年9月22日_
 
 ### 改进 {#26-9-improvements}
 
-* **侧面导航访问**：管理员现在可以在侧面导航中隐藏特定的菜单项。 [了解更多](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **其他审批类型**：除了内容和目标审批之外，您现在还可以要求对Campaign投放进行预算和投放开始审批。 [了解更多](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **侧面导航访问**：管理员现在可以在侧面导航中隐藏特定的菜单项。 [了解更多](../administration/schemas-browse-access.md#screen-def)
+* **其他审批类型**：除了内容和目标审批之外，您现在还可以要求对Campaign投放进行预算和投放开始审批。 [了解更多](../campaigns/campaign-approvals.md#configure-approvals)
 * **基于访客的短信定位**：访客目标映射现在可用于短信投放。 [了解更多](../sms/create-sms.md)
-* **工作流取消按钮**：新的&#x200B;**取消**&#x200B;按钮允许您还原工作流中未保存的更改。 [了解更多](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **带多个值的重复数据删除**： **Follow值列表**&#x200B;选项现在支持多个属性。 [了解更多](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **移动设备目标映射**：您现在可以为移动设备应用程序目标创建目标映射。 [了解更多](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **工作流取消按钮**：新的&#x200B;**取消**&#x200B;按钮允许您还原工作流中未保存的更改。 [了解更多](../workflows/orchestrate-activities.md#save-cancel)
+* **带多个值的重复数据删除**： **Follow值列表**&#x200B;选项现在支持多个属性。 [了解更多](../workflows/activities/deduplication.md#deduplication-configuration)
+* **移动设备目标映射**：您现在可以为移动设备应用程序目标创建目标映射。 [了解更多](../administration/target-mappings.md#create-mapping)
 * **外部数据库扩充**：您现在可以在&#x200B;**扩充**&#x200B;或&#x200B;**生成受众**&#x200B;活动中扩充外部数据库中的数据。 [了解更多](../workflows/activities/enrichment.md#external-data)
-* **文件受众协调**：现在，您可以配置在从文件定位受众时是否将收件人导入数据库。 [了解更多](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **集合上的直接联接**：直接从集合中选择属性时，现在可以选择如何构建条件：使用推荐的默认选项、聚合函数或高级直接联接。 [了解更多](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **文件受众协调**：现在，您可以配置在从文件定位受众时是否将收件人导入数据库。 [了解更多](../audience/file-audience.md#upload)
+* **集合上的直接联接**：直接从集合中选择属性时，现在可以选择如何构建条件：使用推荐的默认选项、聚合函数或高级直接联接。 [了解更多](../query/build-query.md#links)
 
