@@ -118,4 +118,4 @@ Campaign Web允许您在可视化工作流画布中创建新受众。 除了从�
 
 了解如何构建和管理受众、如何为投放选择受众，以及如何定义对照组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453212?captions=chi_hans&quality=12)
