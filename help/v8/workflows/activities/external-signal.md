@@ -3,14 +3,18 @@ audience: end-user
 title: 使用外部信号活动
 description: 了解如何使用外部信号工作流活动
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-TQID: https://experienceleague.adobe.com/qsWF6dpzJBCLxrtSd9-3ux-xKOn6wbfMh7oUn-m3w4U
+TQID: 'https://experienceleague.adobe.com/qsWF6dpzJBCLxrtSd9-3ux-xKOn6wbfMh7oUn-m3w4U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
-source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 9%
@@ -38,7 +42,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->本页介绍在Campaign Web用户界面中配置&#x200B;**[!UICONTROL 外部信号]**&#x200B;活动并从另一个工作流或API调用触发该活动的主要步骤。 有关如何触发工作流、最佳实践以及如何使用Campaign API的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)。
+>本页介绍在Campaign Web用户界面中配置&#x200B;**[!UICONTROL 外部信号]**&#x200B;活动并从另一个工作流或API调用触发该活动的主要步骤。 有关如何触发工作流、最佳实践以及如何使用Campaign API的详细信息，请参阅[Campaign v8（客户端控制台）文档](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)。
 
 按照以下步骤配置&#x200B;**外部信号**&#x200B;活动并触发其执行：
 

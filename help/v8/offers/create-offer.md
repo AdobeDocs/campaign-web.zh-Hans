@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 3%
@@ -66,7 +73,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->优惠引擎通过降低权重对符合条件的优惠进行排序，并首先返回最高加权建议。 选择逻辑（称为&#x200B;**套利**）还考虑了在父类别和环境上配置的资格规则和权重。 在[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}中了解有关套利原则的更多信息。
+>优惠引擎通过降低权重对符合条件的优惠进行排序，并首先返回最高加权建议。 选择逻辑（称为&#x200B;**套利**）还考虑了在父类别和环境上配置的资格规则和权重。 在[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中了解有关套利原则的更多信息。
 
 ### 定义内容 {#content}
 
@@ -136,5 +143,5 @@ ht-degree: 3%
 
 选件处于活动状态时，可以从任何以匹配选件空间为目标的投放中进行选择。 在[将优惠添加到您的消息](../msg/offers.md)中了解如何在投放中设置优惠。
 
-有关完整的出站投放集成，包括如何生成引擎调用以及如何将跟踪应用于选件链接，请参阅出站投放[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=zh-Hans){target="_blank"}中的Campaign v8文档选件。
+有关完整的出站投放集成，包括如何生成引擎调用以及如何将跟踪应用于选件链接，请参阅出站投放](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的[Campaign v8文档选件。
 

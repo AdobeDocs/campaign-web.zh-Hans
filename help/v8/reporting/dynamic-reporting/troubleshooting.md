@@ -4,7 +4,17 @@ description: 在此处查找与动态报告相关的常见问题。
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 3%
@@ -105,9 +115,9 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 ## 如何计算定期/事务投放的计数？ {#counts-recurring-deliveries}
 
 处理循环和事务型投放时，这些计数将同时归属于父投放和子投放。
-我们以名为&#x200B;**R1**&#x200B;的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
-假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放将&#x200B;**[!UICONTROL Open]**&#x200B;计数显示为1。
-但是，由于同一人单击了所有投放，因此父定期投放的&#x200B;**[!UICONTROL 唯一打开]**&#x200B;也将为1。
+我们以名为**R1**的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
+假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放将**[!UICONTROL Open]**计数显示为1。
+但是，由于同一人单击了所有投放，因此父定期投放的**[!UICONTROL 唯一打开]**&#x200B;也将为1。
 
 报表应如下所示：
 

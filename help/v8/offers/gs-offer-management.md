@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 4%
@@ -77,14 +84,14 @@ Campaign Web UI中的典型端到端流程如下：
 
 某些选件功能尚未在Web用户界面中公开，仍必须从客户端控制台进行配置：
 
-* **优惠模拟** — **Simulation**&#x200B;模块，允许您在发送之前测试优惠的分布。 查看[优惠模拟](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=zh-Hans#offer-simulation){target="_blank"}。
+* **优惠模拟** — **Simulation**&#x200B;模块，允许您在发送之前测试优惠的分布。 查看[优惠模拟](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}。
 
 * **预定义过滤器**&#x200B;管理 — 可从任何选件引用的可重用过滤器规则。 请参阅[管理预定义过滤器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。
 
-* **优惠跟踪** — 配置优惠建议的跟踪以馈送建议历史记录。 查看[跟踪优惠建议](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=zh-Hans){target="_blank"}。
+* **优惠跟踪** — 配置优惠建议的跟踪以馈送建议历史记录。 查看[跟踪优惠建议](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}。
 
-* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的操作员。
+* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的[操作员。
 
-* **交互最佳实践和套利规则**。 请参阅[Campaign交互最佳实践](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}。
+* **交互最佳实践和套利规则**。 请参阅[Campaign交互最佳实践](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}。
 
 * **报告** — Web用户界面中尚未提供专用的优惠和建议报告。

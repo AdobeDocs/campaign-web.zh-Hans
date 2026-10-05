@@ -3,11 +3,15 @@ audience: end-user
 title: 使用协调工作流活动
 description: 了解如何使用协调工作流活动
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-TQID: https://experienceleague.adobe.com/tq8es8g36fkqJOjufSCwi15W4uN27o1FLTrXAJprMaE
+TQID: 'https://experienceleague.adobe.com/tq8es8g36fkqJOjufSCwi15W4uN27o1FLTrXAJprMaE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 42%
@@ -62,7 +66,7 @@ ht-degree: 42%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="目标选择维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目标选择维度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"

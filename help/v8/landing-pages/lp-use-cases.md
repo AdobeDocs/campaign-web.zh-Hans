@@ -8,17 +8,29 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
+TQID: 'https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
+  - id: d4adbfcb-4ec0-5691-b003-d940294aa34c
+    internal-label: Subscriptions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 10%
@@ -34,7 +46,7 @@ ht-degree: 10%
 >id="acw_landingpages_templates"
 >title="谨慎复制 URL"
 >abstract="在创建登陆页面时，通过四个现成的模板可实现不同的用例：将轮廓添加到 Campaign 数据库或更新轮廓、为客户订阅服务、为客户取消订阅服务或帮助用户退出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hans&#create-landing-page" text="创建登陆页面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="创建登陆页面"
 
 要正确使用登陆页面，请使用专用选项将其引用为消息中的链接。 您无法将已发布的投放仪表板中显示的链接直接复制粘贴到您的投放或网页中。 请改用&#x200B;**模拟内容**&#x200B;功能对其进行测试。
 
@@ -141,7 +153,7 @@ ht-degree: 10%
 
 1. 将显示页面内容。 选择与登陆页面表单对应的部分，并展开&#x200B;**[!UICONTROL 复选框1]**&#x200B;部分。
 
-1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;**选项，请保留** Subscribe in。
+1. 在&#x200B;**[!UICONTROL 订阅和服务]**&#x200B;字段中，选择为事件创建的服务。 如果启用&#x200B;]**选项，请保留**[!UICONTROL  Subscribe in。
 
    ![显示订阅复选框界面的屏幕截图。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
@@ -194,7 +206,7 @@ ht-degree: 10%
 
 您可以设置&#x200B;**[!UICONTROL 阻止列表]**&#x200B;登录页面，以允许用户选择退出所有投放。
 
-1. 在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;**&#x200B;**&#x200B;模板。
+1. 在[创建登陆页面](create-lp.md#create-landing-page)时，请选择&#x200B;****&#x200B;模板。
 
 1. 选择&#x200B;**[!UICONTROL 阻止列表]**&#x200B;页面以编辑其内容。
 

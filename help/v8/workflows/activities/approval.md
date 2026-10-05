@@ -2,7 +2,14 @@
 audience: end-user
 title: 审批工作流活动
 description: 了解如何使用审批工作流活动
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 8%
@@ -68,7 +75,7 @@ ht-degree: 8%
 
 1. 定义发送给被分派人的通知的&#x200B;**[!UICONTROL 消息]**。
 
-这两个字段都支持个性化：单击个性化图标可插入事件变量，例如已回复&#x200B;**的**&#x200B;操作员以及可在工作流中的其他位置重复使用的&#x200B;**[!UICONTROL 响应]**。
+这两个字段都支持个性化：单击个性化图标可插入事件变量，例如已回复&#x200B;]**的**[!UICONTROL &#x200B;操作员以及可在工作流中的其他位置重复使用的&#x200B;**[!UICONTROL 响应]**。
 
 ![显示消息个性化的屏幕截图](../assets/workflow-approval2bis.png){zoomable="yes"}
 

@@ -3,7 +3,14 @@ audience: end-user
 title: 自动投放工作流活动
 description: 了解如何使用自动投放工作流活动
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 19%
@@ -50,7 +57,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>在过渡&#x200B;**中指定的**&#x200B;和由脚本计算的&#x200B;**选项（用于高级用例）只能在客户端控制台中配置。**&#x200B;请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 选择要执行的操作 {#action-to-execute}
 

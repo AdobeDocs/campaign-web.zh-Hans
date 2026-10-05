@@ -3,11 +3,15 @@ audience: end-user
 title: 设计推送通知投放
 description: 了解如何使用Adobe Campaign Web设计推送通知投放
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
+TQID: 'https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 37%
@@ -51,8 +55,8 @@ ht-degree: 37%
 
 * **[!UICONTROL 数据消息]**&#x200B;由客户端应用程序处理。 这些消息将直接发送到移动设备应用程序，后者在设备上生成并显示Android通知。 数据消息仅包含您的自定义应用程序变量。
 
-  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**&#x200B;字段并使用表达式编辑器。 访问此编辑器以自定义消息。
-  在&#x200B;**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，配置在用户激活通知时显示的特定应用程序屏幕。
+  要定义内容、个性化数据并添加动态内容，请单击&#x200B;**[!UICONTROL 消息]**字段并使用表达式编辑器。 访问此编辑器以自定义消息。
+  在**[!UICONTROL 应用程序变量]**&#x200B;菜单中，您的应用程序变量将自动添加。 这些变量允许您定义通知行为。 例如，配置在用户激活通知时显示的特定应用程序屏幕。
 
   ![描述：在Android通知中为数据消息定义内容的示例](assets/push_content_4.png){zoomable="yes"}
 

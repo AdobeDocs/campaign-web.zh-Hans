@@ -2,7 +2,14 @@
 title: 配置默认列表列
 description: 了解如何配置在列表视图中默认显示的列。
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 26%
@@ -13,7 +20,7 @@ ht-degree: 26%
 >id="acw_schema_inventory_list_configuration"
 >title="库存列表配置"
 >abstract="配置列表视图中默认显示的列。 每列都显示其标签和相应的属性。 添加自定义筛选条件，以在列表视图的筛选窗格中显示快速访问筛选条件字段。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=zh-Hans" text="添加自定义过滤器"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="添加自定义过滤器"
 
 **[!UICONTROL 清单列表配置]**&#x200B;部分允许您配置在列表视图中默认显示的列。 每列都显示其标签和相应的属性。
 

@@ -3,11 +3,15 @@ audience: end-user
 title: 使用重复数据删除工作流活动
 description: 了解如何使用重复数据删除工作流活动
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
+TQID: 'https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 36%
@@ -17,12 +21,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**&#x200B;添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。 字段的顺序指定了首先处理哪些。"
+>abstract="在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定相同值允许重复项被标识的字段，如电子邮件地址、名字、姓氏等。 字段的顺序指定了首先处理哪些。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重复数据删除活动"
->abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。 它主要在目标市场选择活动之后，以及使用目标数据的活动之前使用。 当有多个入站过渡可用时，请使用&#x200B;**要连接的集合**&#x200B;部分选择要连接到该活动的过渡。"
+>abstract="**“重复数据删除”**&#x200B;活动用于删除入站活动结果中的重复项。 该活动通常在目标选择活动之后、使用目标数据的活动之前使用。 当存在多个入站过渡时，请使用&#x200B;**“设置加入”**&#x200B;部分来选择要连接到该活动的过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
@@ -37,7 +41,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="重复数据删除设置"
->abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只会保留一条记录。 根据表达式或属性选择重复数据删除模式。 默认情况下，要避免重复的记录是随机选择的。"
+>abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只会保留一条记录。 根据表达式或属性选择重复数据删除模式。 默认情况下，要排除重复项的记录是随机选择的。"
 
 **重复数据删除**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动会删除集客活动结果中的重复项，如收件人列表中重复的用户档案。 **重复数据删除**&#x200B;活动通常用在定向活动之后、使用定向数据的活动之前。
 
@@ -57,7 +61,7 @@ ht-degree: 36%
    >
    >仅当有多个集客过渡可用时，才会显示此部分。
 
-1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**&#x200B;添加属性**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。 字段的顺序指定了首先处理哪些。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)。
+1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性**&#x200B;按钮以指定相同值允许重复项被标识的字段，如电子邮件地址、名字、姓氏等 字段的顺序指定了首先处理哪些。 [了解如何选择属性并将其添加到收藏夹](../../get-started/attributes.md)。
 
 1. 在&#x200B;**重复数据删除设置**&#x200B;部分中，选择要保留的唯一&#x200B;**重复项数**。 此字段的默认值为 1。 值0保留所有重复项。
 

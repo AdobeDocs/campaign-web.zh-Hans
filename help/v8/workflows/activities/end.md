@@ -2,7 +2,14 @@
 audience: end-user
 title: 使用结束工作流活动
 description: 了解如何使用结束工作流活动
-source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 54%
@@ -12,7 +19,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="结束活动"
->abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 当有多个入站过渡可用时，请使用&#x200B;**要连接的集合**&#x200B;部分选择要连接到该活动的过渡。"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动以图形方式标记工作流的终点。 当存在多个入站过渡时，请使用&#x200B;**“设置加入”**&#x200B;部分来选择要连接到该活动的过渡。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"

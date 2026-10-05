@@ -3,14 +3,18 @@ audience: end-user
 title: 使用连续投放工作流活动
 description: 了解如何使用连续投放工作流活动
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+TQID: 'https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 24%
@@ -35,7 +39,7 @@ ht-degree: 24%
 
    * **[!UICONTROL 由入站事件指定]**：目标来自入站过渡（来自上游活动，如生成受众或增量查询）。 这是最常见的选项。
 
-   * 在投放模板&#x200B;**中指定**：目标在模板本身中定义。
+   * 在投放模板&#x200B;]**中指定**[!UICONTROL ：目标在模板本身中定义。
 
    * **[!UICONTROL 在输入事件中指定的文件]**：目标是通过工作流传递的文件提供的。
 

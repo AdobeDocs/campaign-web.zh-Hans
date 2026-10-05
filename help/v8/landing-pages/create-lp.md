@@ -3,16 +3,26 @@ title: 创建登陆页面
 description: 了解如何在Campaign Web中配置和发布登陆页面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
+TQID: 'https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 25%
@@ -165,7 +175,7 @@ The main steps to create landing pages are as follows:
 设置验证码可帮助您保护登陆页面免受垃圾邮件和滥用。
 
 若要使用它，请转到登陆页面的&#x200B;**[!UICONTROL 属性]**。
-在&#x200B;**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
+在**[!UICONTROL 其他选项]**&#x200B;中。 激活&#x200B;**[!UICONTROL 其他启用验证码解决方案]**&#x200B;切换开关。
 
 ![屏幕截图显示“额外启用验证码”解决方案切换](assets/lp-properties-captcha.png){zoomable="yes"}
 

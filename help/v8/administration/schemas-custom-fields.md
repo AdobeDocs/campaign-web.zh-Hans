@@ -2,7 +2,14 @@
 title: 编辑自定义字段
 description: 了解如何配置自定义字段及其在界面中的可见性。
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 12%
@@ -13,7 +20,7 @@ ht-degree: 12%
 >id="acw_schema_detail_screen_configuration"
 >title="详细信息界面配置"
 >abstract="配置在详细信息界面中显示哪些自定义字段，并将它们整理到各个分区中。 在轮廓界面中添加收藏集列表，以显示相关数据。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hans" text="添加收藏集列表"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="添加收藏集列表"
 
 自定义字段是通过Adobe Campaign控制台添加到现成模式的其他属性。 它们允许您通过包含新属性来自定义架构，以满足贵组织的需求。
 
@@ -27,7 +34,7 @@ ht-degree: 12%
 
 1. 选择列表中的架构名称以将其打开，然后单击架构详细信息视图中的&#x200B;**[!UICONTROL 屏幕版本]**&#x200B;按钮以访问屏幕定义。
 
-1. 单击&#x200B;**[!UICONTROL 自定义字段列表]**&#x200B;表上方的省略号图标，然后选择&#x200B;**[!UICONTROL 选择属性]**&#x200B;以选择要在界面中显示的一个或多个自定义字段。
+1. 单击&#x200B;**[!UICONTROL 自定义字段列表]**&#x200B;表上方的省略号图标，然后选择&#x200B;**[!UICONTROL 选择属性]**以选择要在界面中显示的一个或多个自定义字段。
    ![自定义字段屏幕显示可编辑的属性](assets/schemas-custom5.png)
 1. 选择要添加的自定义字段并进行确认。
 

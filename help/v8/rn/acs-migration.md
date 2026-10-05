@@ -3,10 +3,14 @@ audience: end-user
 title: 从 Campaign Standard 过渡到 Adobe Campaign Web
 description: 探索 Campaign Web 用户界面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
+TQID: 'https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -24,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -90,7 +94,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 * **集中化品牌管理**：Adobe Campaign 允许公司定义品牌视觉和技术指南。 用户可以向客户展示一致的品牌形象，从标识到技术细节，如电子邮件发件人、URL 或域名等。 [了解详情](../administration/branding/branding-gs.md)。
 
-* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}。
+* **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
 
 * **登陆页面**：Campaign v8 登陆页面进行了改进，以确保功能与 Campaign Standard 保持一致。 通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面[文档](../landing-pages/get-started-lp.md)了解详情。
 
