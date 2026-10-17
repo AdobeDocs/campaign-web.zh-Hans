@@ -131,7 +131,7 @@ ht-degree: 40%
 
 在此部分中，您可以在这些可用的&#x200B;**目标映射**&#x200B;中选择一个。 在 Adobe Campaign v8 控制台中定义目标映射。 目标映射是操作正在处理的数据类型。 它可让您定义目标群体：收件人、合同受益人、操作员、订阅者等。[了解有关目标映射的更多信息](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+在&#x200B;**[!UICONTROL 排除项]**&#x200B;字段中，您可以选择排除不再希望联系或隔离的用户档案。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hans){target="_blank"}
 
 ## 投放 {#delivery}
 
@@ -269,7 +269,7 @@ ht-degree: 40%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
+请参阅[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hans#validity-period){target="_blank"}以了解有关投放有效期的更多信息。
 
 ### 镜像页面管理（电子邮件渠道） {#mirror}
 

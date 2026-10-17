@@ -48,7 +48,7 @@ and check the [Campaign Web and client console capability matrix](../get-started
 * **优惠目录和类别** — 优惠按&#x200B;**类别**&#x200B;和子类别的分层目录组织。 每个类别可以共享资格规则、有效日期和&#x200B;**应用程序主题**。 设计环境中提供了一个默认类别来接收所有选件。
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=zh-Hans){target="_blank"}.
 -->
 
 * **选件** — 具有自己的资格期限、目标筛选器、权重和内容的单个选件。 在向收件人展示优惠之前，会批准并部署优惠。 [了解详情](create-offer.md)
@@ -86,11 +86,11 @@ Campaign Web UI中的典型端到端流程如下：
 
 * **优惠模拟** — **Simulation**&#x200B;模块，允许您在发送之前测试优惠的分布。 查看[优惠模拟](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=zh-Hans#offer-simulation){target="_blank"}。
 
-* **预定义过滤器**&#x200B;管理 — 可从任何选件引用的可重用过滤器规则。 请参阅[管理预定义过滤器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。
+* **预定义过滤器**&#x200B;管理 — 可从任何选件引用的可重用过滤器规则。 请参阅[管理预定义过滤器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=zh-Hans){target="_blank"}。
 
 * **优惠跟踪** — 配置优惠建议的跟踪以馈送建议历史记录。 查看[跟踪优惠建议](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=zh-Hans){target="_blank"}。
 
-* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的操作员。
+* **操作员角色** — 分配选件管理器/投放管理器权限。 查看交互模块[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html?lang=zh-Hans){target="_blank"}的操作员。
 
 * **交互最佳实践和套利规则**。 请参阅[Campaign交互最佳实践](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hans){target="_blank"}。
 

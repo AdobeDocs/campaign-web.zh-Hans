@@ -67,7 +67,7 @@ ht-degree: 3%
   >
   >考虑资格期限与父类别的交集：即使优惠自己的计划更广，也仅在父类别也符合资格时显示优惠。
 
-* **[!UICONTROL 目标上的筛选器]** — 单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;以打开规则生成器并将选件限制为特定受众。 将筛选器留空以使选件符合整个环境受众的条件。 要重用在平台级别声明的&#x200B;**预定义过滤器**，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。 预定义过滤器是从客户端控制台创建的。
+* **[!UICONTROL 目标上的筛选器]** — 单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;以打开规则生成器并将选件限制为特定受众。 将筛选器留空以使选件符合整个环境受众的条件。 要重用在平台级别声明的&#x200B;**预定义过滤器**，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=zh-Hans){target="_blank"}。 预定义过滤器是从客户端控制台创建的。
 
 * **[!UICONTROL 管理优惠权重]** — 单击&#x200B;**[!UICONTROL 显示优惠权重]**，然后单击&#x200B;**[!UICONTROL 添加权重]**，以便在多个优惠同时符合条件时影响优惠的优先级。 每个权重均具有开始日期、结束日期和可选过滤器。
 

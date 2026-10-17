@@ -96,17 +96,17 @@ Campaign客户端控制台可集中所有功能和设置。 它与Campaign Web�
 
 ## Campaign v8 架构 {#acs-gs-admi-archi}
 
-Campaign v8（控制台）文档中详细介绍了Campaign架构。 在[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}中了解基础知识。
+Campaign v8（控制台）文档中详细介绍了Campaign架构。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}中了解基础知识。
 
 供您开始使用的有用链接：
 
 * [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/ac-components){target="_blank"}中介绍了Adobe Campaign组件和全局架构。
 
-* 请参阅[Campaign架构入门](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}，了解Campaign架构，然后再开始构建实例。
+* 请参阅[Campaign架构入门](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}，了解Campaign架构，然后再开始构建实例。
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* 事务性消息传递（消息中心）是用于管理触发消息的Campaign v8模块。 它依赖于特定体系结构模型，此模型在[此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有详细说明。
+* 事务性消息传递（消息中心）是用于管理触发消息的Campaign v8模块。 它依赖于特定体系结构模型，此模型在[此部分](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有详细说明。
 
 ## Campaign客户端控制台 {#acs-gs-console}
 
@@ -188,7 +188,7 @@ MISSING LINKS:
 
 在客户端控制台中，您可以使用多个选项来自定义用户界面，例如：
 
-* **列表和数据显示** — 此文档提供了管理用户界面设置（如列表、单位或数据显示）的指南： [用户界面设置文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **列表和数据显示** — 此文档提供了管理用户界面设置（如列表、单位或数据显示）的指南： [用户界面设置文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **文件夹管理** — 文件夹是Adobe Campaign中的对象，可用于组织组件和数据。 它们还用于管理权限。 了解如何[使用文件夹](../../v8/get-started/work-with-folders.md)。
 
@@ -204,7 +204,7 @@ MISSING LINKS:
 
 与Campaign Standard类似，Adobe Campaign v8附带其预定义的数据模型。 Adobe Campaign依赖于包含链接在一起的表的云数据库。 在[数据模型文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}中了解详情。
 
-架构是与数据库表关联的XML文档。 它定义数据结构并描述表的SQL定义。 请参阅[架构创建文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+架构是与数据库表关联的XML文档。 它定义数据结构并描述表的SQL定义。 请参阅[架构创建文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 请在此视频中了解如何在Campaign v8中创建架构以及如何扩展现有架构：
 
@@ -212,17 +212,17 @@ MISSING LINKS:
 
 与Campaign Standard中提供的功能类似，您可以创建自定义资源。 在Campaign v8中，自定义资源是自定义或扩展&#x200B;**架构**。
 
-* 在[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中了解如何使用架构。
+* 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中了解如何使用架构。
 
-* 了解如何在[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}中扩展现有架构。
+* 了解如何在[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}中扩展现有架构。
 
-* 了解如何在[此页面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}中创建新架构。
+* 了解如何在[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}中创建新架构。
 
-* 创建或扩展架构时，需要创建或修改关联的输入表单，以使最终用户能够看到这些更改。 利用输入表单，您可以从Adobe Campaign客户端控制台编辑与数据架构关联的实例。 该表单由其名称和命名空间进行标识。 请参阅[输入表单创建文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}。
+* 创建或扩展架构时，需要创建或修改关联的输入表单，以使最终用户能够看到这些更改。 利用输入表单，您可以从Adobe Campaign客户端控制台编辑与数据架构关联的实例。 该表单由其名称和命名空间进行标识。 请参阅[输入表单创建文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}。
 
 ## 工作流和数据管理 {#acs-gs-admin-data-management}
 
-与Adobe Campaign Standard相同，Adobe Campaign v8包括一个工作流模块，允许您在应用程序服务器的不同模块之间编排所有流程和任务。 您可以利用这个全面的图形环境设计各式流程，包括部分划分、活动执行、文件处理、人员参与等。工作流引擎会执行并跟踪这些流程。 请参阅[本文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}以了解如何在Campaign v8中开始使用工作流。
+与Adobe Campaign Standard相同，Adobe Campaign v8包括一个工作流模块，允许您在应用程序服务器的不同模块之间编排所有流程和任务。 您可以利用这个全面的图形环境设计各式流程，包括部分划分、活动执行、文件处理、人员参与等。工作流引擎会执行并跟踪这些流程。 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/data/workflows){target="_blank"}以了解如何在Campaign v8中开始使用工作流。
 
 请参阅下面的指向其他有用资源的链接：
 
@@ -303,7 +303,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 * **电子邮件** - [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中详细介绍了电子邮件设置。
 * **短信** — 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
 * **推送通知** — 此部分[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了配置推送通知渠道的步骤。
-* **事务性消息传递** — 本节中详细介绍了[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤
+* **事务性消息传递** — 本节中详细介绍了[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤
 
 ### 外部帐户 {#acs-gs-ext-accounts}
 
@@ -372,7 +372,7 @@ MISSING LINKS:
 
 所有隔离的地址和隔离规则已从Campaign Standard环境迁移到Campaign v8。 隔离管理无需执行任何特定操作。
 
-作为管理员，从[此页面](../../v8/audience/quarantine.md)开始熟悉Campaign v8中的隔离管理。 另请参阅客户端控制台有关[此部分](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}中隔离管理的详细文档。
+作为管理员，从[此页面](../../v8/audience/quarantine.md)开始熟悉Campaign v8中的隔离管理。 另请参阅客户端控制台有关[此部分](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}中隔离管理的详细文档。
 
 
 ## 管理Adobe Campaign集成 {#acs-gs-integrations}
