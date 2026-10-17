@@ -233,7 +233,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 >
 >* 跟踪链接、镜像页面URL链接、订阅/退订链接的工作方式与Campaign Standard中相同。
 >
->另请参阅以下部分：Adobe Campaign中的[跟踪和监控](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
+>另请参阅以下部分：Adobe Campaign中的[跟踪和监控](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
 
 ### 电子邮件投放 {#acs-gs-marketers-email}
 
@@ -427,11 +427,11 @@ Adobe Campaign 提供三种不同的报告：
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="验证" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>营销活动报告</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>营销活动报告</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign 提供三种不同的报告：
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="潜在客户" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>投放报告</strong>
+<div><a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>投放报告</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign 提供三种不同的报告：
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="全局报告" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong>全局报告</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/reports/global-report/global-reports"><strong>全局报告</strong></a>
 </div>
 <p>
 <div>

@@ -25,7 +25,7 @@ ht-degree: 1%
 
 **优惠空间**&#x200B;定义优惠向联系人公开的位置和方式：它使用的渠道（电子邮件、直邮、短信、入站Web等）、优惠可以使用的内容字段以及构建最终呈现的方式。 单个环境可以包含多个选件空间 — 每个展示点对应一个选件空间。
 
-优惠空间本身不是渠道。 它表示选件在渠道上显示的特定位置。 同一网页上的两个横幅通常对应于两个不同的优惠空间。 有关完整的概念模型，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+优惠空间本身不是渠道。 它表示选件在渠道上显示的特定位置。 同一网页上的两个横幅通常对应于两个不同的优惠空间。 有关完整的概念模型，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hans){target="_blank"}。
 
 ## 创建或修改选件空间{#create-offer-space}
 
@@ -79,19 +79,19 @@ ht-degree: 1%
 
 * 接受时&#x200B;**[!UICONTROL 状态]** — 收件人与优惠交互时应用的状态（通常为&#x200B;**[!UICONTROL 已接受]**）。
 
-可用的状态值与Client Console使用的列表相匹配。 有关详细信息，请参阅控制台文档中的[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"}。
+可用的状态值与Client Console使用的列表相匹配。 有关详细信息，请参阅控制台文档中的[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hans#offer-proposition-statuses){target="_blank"}。
 
 <!--
 >[!NOTE]
 >
->Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
+>Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hans#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
 -->
 
 ### 配置高级设置 {#advanced}
 
-此部分允许您定义&#x200B;**[!UICONTROL 目标标识]**。 单击“添加”**&#x200B;**&#x200B;并选择一或多个&#x200B;**[!UICONTROL 收件人]**&#x200B;属性，或单击“编辑表达式”**[!UICONTROL 以定义自定义表达式]**。 对于基本选件空间，此设置是可选的。 有关其完整引用和行为，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+此部分允许您定义&#x200B;**[!UICONTROL 目标标识]**。 单击“添加”**&#x200B;**&#x200B;并选择一或多个&#x200B;**[!UICONTROL 收件人]**&#x200B;属性，或单击“编辑表达式”**[!UICONTROL 以定义自定义表达式]**。 对于基本选件空间，此设置是可选的。 有关其完整引用和行为，请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hans){target="_blank"}。
 
-在&#x200B;**入站Web渠道**&#x200B;上创建的优惠空间，还需要将网站配置为显示优惠并调用优惠引擎。 此集成在客户端控制台中执行 — 请参阅Campaign v8文档中的[实时显示优惠](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}和[配置优惠引擎集成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}。
+在&#x200B;**入站Web渠道**&#x200B;上创建的优惠空间，还需要将网站配置为显示优惠并调用优惠引擎。 此集成在客户端控制台中执行 — 请参阅Campaign v8文档中的[实时显示优惠](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html?lang=zh-Hans){target="_blank"}和[配置优惠引擎集成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html?lang=zh-Hans){target="_blank"}。
 
 ## 部署优惠空间 {#deploy}
 

@@ -57,7 +57,7 @@ ht-degree: 1%
 
 * **Source架构审核跟踪**&#x200B;允许您在Campaign v8客户端控制台中监视活动以及最近对架构所做的修改。
 
-  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
+  有关架构的详细信息，请参阅[Campaign v8文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
 * **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
 

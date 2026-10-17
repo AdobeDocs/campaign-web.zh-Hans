@@ -77,7 +77,7 @@ ht-degree: 18%
 * **[!UICONTROL 执行文件夹]**，在执行后存储消息。
 * **[!UICONTROL 传递代码]**，如果需要，该代码有助于识别消息以进行报告。
 * **[!UICONTROL 描述]**。
-* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* 在枚举&#x200B;*deliveryNature*&#x200B;中列出的&#x200B;**[!UICONTROL Nature]**，它是您的投放的性质。 [了解有关枚举的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![显示事务性消息模板属性部分的屏幕截图。](assets/template-properties.png){zoomable="yes"}
 

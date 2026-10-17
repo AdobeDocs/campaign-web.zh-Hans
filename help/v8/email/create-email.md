@@ -234,7 +234,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用协调的投放，
-* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
+* 当您的Campaign部署模型为[Adobe Campaign企业完全联合访问(FFDA)](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}时
 * 未上传任何文件时。
 
 ## 发送和监控电子邮件 {#prepare-send}

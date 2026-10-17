@@ -66,4 +66,4 @@ Adobe Campaign中的每个实体都有一个专用架构，确保数据一致性
 >
 >您需要具有管理员权限才能管理架构。
 
-有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有关架构的详细信息，请参阅[Campaign控制台文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
