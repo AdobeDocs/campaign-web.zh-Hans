@@ -18,9 +18,9 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '846'
 ht-degree: 14%
 ---
 # 按波次发送 {#send-using-waves}
@@ -61,6 +61,8 @@ ht-degree: 14%
    >确保最后批次不超过[有效期](delivery-settings.md#validity)选项卡中定义的投放截止日期，否则可能无法发送某些消息。 特定类型控制规则&#x200B;**[!UICONTROL 波次计划检查]**&#x200B;可确保最后一个波次的计划早于投放有效期限。 在[Campaign v8 （客户端控制台）文档](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hans)中了解有关控制规则的更多信息。
    >
    >在配置最后批次时，还必须留出足够的时间进行重试。 [了解详情](delivery-settings.md#retries)
+   >
+   >从投放联系日期开始安排批次。 如果投放在某些波次的计划时间后开始，则这些波次会一起发送，而不是相互隔开。
 
 1. 要监视您的发送，请转到[投放日志](../monitor/delivery-logs.md)。 您可以看到已在已处理批次中发送的投放（**[!UICONTROL 已发送]**&#x200B;状态）以及将在剩余批次中发送的投放（**[!UICONTROL 待处理]**&#x200B;状态）。
 
