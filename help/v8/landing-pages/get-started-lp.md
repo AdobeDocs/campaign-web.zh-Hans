@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # 登陆页面入门 {#get-sarted-lp}
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 >在 Campaign Web 用户界面中创建的登陆页面与从客户端控制台创建的 Web 窗体不同。 无法在 Campaign Web 用户界面中显示或编辑在客户端控制台中创建的 Web 窗体。
 >
 >要了解有关 Web 表单的更多信息，请参阅 [Campaign v8（控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hans){target="_blank"}。
+>
+>在Campaign Web用户界面中创建的登陆页不支持隐藏的输入字段或自定义JavaScript。 要计算和存储不向访客显示的值，请改为在客户端控制台中将表单创建为Web应用程序。
 
 登陆页面的主要功能如下所示：
 

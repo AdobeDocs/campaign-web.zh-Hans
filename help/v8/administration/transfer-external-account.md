@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 6%
+source-wordcount: '794'
+ht-degree: 5%
 ---
 # 传输数据外部帐户 {#transfer-external-account}
 
@@ -71,6 +71,10 @@ Amazon Simple Storage Service (S3)连接器可用于将数据导入或导出Adob
 * **[!UICONTROL 访问密钥]**
 
   若要了解在何处查找您的&#x200B;**[!UICONTROL 访问密钥]**，请参阅此[页面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。
+
+  >[!NOTE]
+  >
+  >Azure Blob存储按名称前缀（而不是模式）过滤文件。 已删除文件掩码中的尾随星号(`*`)，因此`TEST_EXPORT_AZURE_*`与以`TEST_EXPORT_AZURE_`开头的所有文件匹配。 不支持星号后的字符，如`TEST_EXPORT_AZURE_*.csv`中的字符。 [请参阅Microsoft文档以了解详情](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}。
 
 ## SFTP
 
