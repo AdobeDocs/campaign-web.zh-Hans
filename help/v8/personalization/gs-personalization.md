@@ -89,4 +89,4 @@ Adobe Campaign Web 提供了一个表达式编辑器，可让您选择、排列�
 
 了解如何通过使用表达式编辑器来个性化您的消息或添加条件内容，从而使消息内容动态化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505245?captions=chi_hans&quality=12)
