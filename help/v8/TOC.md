@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文档
 description: Campaign Web 文档
 breadcrumb-title: Campaign Web 用户界面
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Adobe Campaign Web 文档 {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [2025 版](rn/release-notes-25.md)
     + [2024 版](rn/release-notes-24.md)
   + {hide-from-toc}[文档更新](rn/documentation-updates.md)
-+ Adobe Campaign 入门 {#start}
++ 快速入门 {#start}
   + [快速入门](get-started/get-started.md)
   + [连接到 Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc}[了解界面](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [从 Campaign Standard 到 v8](rn/acs-migration.md)
   + {hide-from-toc}[AI 驱动的上下文帮助](get-started/using-ai.md)
   + [常见问题解答](get-started/faq.md)
-+ 消息和投放 {#msg}
++ 消息 {#msg}
   + [开始使用消息功能](msg/gs-messages.md)
   + [访问传递](msg/gs-deliveries.md)
   + [创建投放](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [投放警报入门](msg/delivery-alerting.md)
     + [投放警报仪表板](msg/delivery-alerting-dashboards.md)
     + [投放警报条件](msg/delivery-alerting-criteria.md)
-+ 内容管理 {#content}
++ 内容和个性化 {#content}
   + 创建动态内容 {#dynamic-content}
     + [如何将内容设置为动态内容？](personalization/gs-personalization.md)
     + [添加个性化内容](personalization/personalize.md)
@@ -148,17 +148,6 @@ ht-degree: 99%
       + [个性化您的品牌](content/brands-personalize.md)
       + [创建和管理生成式模型](content/generative-models.md)
       + [评估您的内容](content/brands-score.md)
-+ 登陆页面 {#landing-pages}
-  + [登陆页面入门](landing-pages/get-started-lp.md)
-  + [创建和发布登陆页](landing-pages/create-lp.md)
-  + [设计登陆页内容](landing-pages/lp-content.md)
-  + [通过用例学习](landing-pages/lp-use-cases.md)
-+ 产品建议管理 {#offers}
-  + [开始使用产品建议管理](offers/gs-offer-management.md)
-  + [检查产品建议环境设置](offers/offer-environment.md)
-  + [创建和管理产品建议空间](offers/offer-space.md)
-  + [创建和发布产品建议](offers/create-offer.md)
-  + [将可编辑列表添加到产品建议架构](offers/offer-editable-list.md)
 + 用户档案和受众 {#audiences}
   + [轮廓和受众入门](audience/gs-audiences-recipients.md)
   + [目标选择维度](audience/targeting-dimensions.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + 使用订阅服务 {#work-with-services}
     + [创建和管理订阅服务](audience/manage-services.md)
     + [管理订阅者](audience/manage-subscribers.md)
-+ 跨渠道营销活动 {#campaigns}
++ 登陆页面和表单 {#landing-pages}
+  + [登陆页面入门](landing-pages/get-started-lp.md)
+  + [创建和发布登陆页](landing-pages/create-lp.md)
+  + [设计登陆页内容](landing-pages/lp-content.md)
+  + [通过用例学习](landing-pages/lp-use-cases.md)
++ 营销活动 {#campaigns}
   + [开始使用营销活动](campaigns/gs-campaigns.md)
   + [访问和管理营销活动](campaigns/manage-campaigns.md)
   + [创建您的第一个营销活动](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [传输文件](workflows/activities/transfer-file.md)
     + [更新数据](workflows/activities/update-data.md)
     + [等待](workflows/activities/wait.md)
-+ 查询数据库 {#query-database}
++ 产品建议 {#offers}
+  + [开始使用产品建议管理](offers/gs-offer-management.md)
+  + [检查产品建议环境设置](offers/offer-environment.md)
+  + [创建和管理产品建议空间](offers/offer-space.md)
+  + [创建和发布产品建议](offers/create-offer.md)
+  + [将可编辑列表添加到产品建议架构](offers/offer-editable-list.md)
++ 查询和数据 {#query-database}
   + [使用查询建模器](query/query-modeler-overview.md)
   + [生成您的第一个查询](query/build-query.md)
   + [编辑表达式](query/expression-editor.md)
   + {hide-from-toc}[查询示例](query/query-samples.md)
   + [过滤器列表](query/filter.md)
-+ 报告 {#reports}
++ 报告和跟踪 {#reports}
   + [审核跟踪](reporting/audit-trail.md)
   + [关键绩效指标](reporting/kpis.md)
   + 标准报告 {#standard-reports}
