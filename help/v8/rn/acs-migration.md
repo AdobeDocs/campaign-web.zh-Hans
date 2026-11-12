@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # 从 Campaign Standard 过渡至 Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 * **REST API**：Campaign Standard 迁移用户可以使用 REST API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与其他技术对接来构建生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}。
 
-* **登陆页面**：Campaign v8 登陆页面进行了改进，以确保功能与 Campaign Standard 保持一致。 通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面[文档](../landing-pages/get-started-lp.md)了解详情。
+* **登陆页面**： Campaign v8登陆页面包含多项改进，以便与Campaign Standard保持一致。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> 通过[发行说明](../rn/release-notes.md#new-24-4)和登陆页面[文档](../landing-pages/get-started-lp.md)了解详情。
 
 * **视觉片段**：视觉片段是可重复使用的视觉组件，可以在一封或多封电子邮件传递或内容模板中引用。 修改一个片段会更新所有使用该片段的内容。 此功能允许营销用户预先构建多个自定义内容块，以便在改进的设计过程中快速组装消息。 [了解详情](../content/use-visual-fragments.md)。
 

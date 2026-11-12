@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2849'
 ht-degree: 16%
 ---
 # 营销人员入门 {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 >
 >* 处于以下状态之一的投放已迁移为已取消的投放：对于已取消/正在重试。
 >
->* 跟踪链接、镜像页面URL链接、订阅/退订链接的工作方式与Campaign Standard中相同。
+>* 从Campaign v8发送的投放的跟踪链接、镜像页面URL链接和订阅/退订链接均遵循Campaign v8标准。
 >
 >另请参阅以下部分：Adobe Campaign中的[跟踪和监控](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
 
@@ -375,7 +375,7 @@ Adobe Campaign Web用户界面在工作流中使用了查询建模器，从而�
 
 Adobe Campaign v8 Web用户界面重新设计了登陆页面的用户体验。 Campaign允许您创建、设计和共享登陆页面。 借助登陆页面，可将用户定向到在线表单，用户可从中更新其数据，选择启用/禁用接收通信，或订阅特定服务（如新闻稿）。
 
-作为迁移到Campaign v8的Campaign Standard用户，您的现有登陆页面已迁移到Campaign Web用户界面。 您可以访问相同的功能范围。
+作为过渡到Campaign v8的Campaign Standard用户，您现有的登陆页面已迁移到Campaign Web用户界面。<!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 请在以下部分中了解有关登陆页面的更多信息：
 
