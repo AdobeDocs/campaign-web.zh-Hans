@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Campaign Standard与Campaign v8之间的差异 {#acs-v8-differences}
@@ -50,9 +50,9 @@ Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了
 |---|---|
 | 应用程序内渠道在Campaign v8中不可用。 | [应用程序内频道](marketers.md#acs-gs-marketers-in-app) |
 | 要过渡现有的推送工作流和投放，请联系您的Adobe Campaign过渡经理。 | [推送通知](marketers.md#acs-gs-marketers-push) |
-| 在Campaign Standard中，可以将测试配置文件标记为&#x200B;**陷阱**&#x200B;以接收最终发送。 在Campaign v8中，启用选项以在投放的主要受众中包含测试用户档案。 | [测试投放](../../v8/preview-test/test-deliveries.md) |
+| 在Campaign Standard中，可以将测试配置文件标记为&#x200B;**陷阱**&#x200B;以接收最终发送。 在Campaign v8中，在投放的受众设置中添加&#x200B;**陷阱组**。 | [陷阱组](../../v8/audience/trap-group.md) |
 | 在Campaign Web用户界面中创建的登陆页不支持隐藏的输入字段或自定义JavaScript。 | [登陆页面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 受众、工作流和投放 {#data-and-workflows}
 
@@ -63,7 +63,6 @@ Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了
 | 受众会在过渡期间发生转变。 例如，通过查询活动创建的受众会成为预定义过滤器，而文件类型受众会成为没有维度的列表类型受众。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
 | 在Campaign Standard中执行的工作流的历史日志不会迁移。 | [创建工作流](marketers.md#acs-gs-marketers-wf) |
 | 在Campaign Standard中，您可以选择定期电子邮件的聚合期。 此选项在Campaign v8中不可用。 | [渠道活动](../../v8/workflows/activities/channels.md) |
-| 在Campaign Standard中，**文件传输**&#x200B;活动可以按字母数字对文件进行排序。 此选项在Campaign v8中不可用。 | [传输文件](../../v8/workflows/activities/transfer-file.md) |
 | 动态报告涵盖电子邮件投放、包含电子邮件投放的营销活动和事务型消息。 | [报告](marketers.md#acs-gs-marketers-reporting) |
 
 ## 访问和安全性 {#access}
@@ -86,10 +85,7 @@ Campaign Standard安全组、角色和组织单位在过渡期间映射到操作
 |---|---|
 | 在过渡之前从Campaign Standard发送的投放的镜像页面不可用。 从Campaign v8发送的投放的镜像页面可正常使用。 | [镜像页面](../../v8/email/mirror-page.md) |
 | Campaign v8不会捕获在过渡之前从Campaign Standard发送的实时事务投放的跟踪数据。 这些消息的链接仍会重定向。 | [监视事务性消息](../../v8/transactional-messaging/monitor-transactional.md) |
-| 不保留草稿投放的跟踪URL设置。 过渡后，跟踪、镜像页面和订阅链接将遵循Campaign v8标准，默认情况下会跟踪链接。 | [添加链接并跟踪消息](../../v8/email/message-tracking.md) |
 | 没有地理单位。 基于地理单位的访问控制丢失。 | [访问控制](../../v8/get-started/connect-to-campaign.md#access-control) |
-| 转换后，**创建者**&#x200B;和&#x200B;**修改者**&#x200B;实体信息不可用。 | [审核记录](admin-developers.md#acs-gs-admin-audit-trail) |
-| 品牌化子域URL将调整为Campaign v8标准。 不迁移非标准品牌策略配置，而是通过默认品牌提供。 | [品牌](../../v8/administration/branding/branding-gs.md) |
 
 ## API和集成 {#apis-and-integrations}
 
