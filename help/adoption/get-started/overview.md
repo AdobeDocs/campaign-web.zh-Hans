@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 28%
 ---
 # 从 Campaign Standard 到 v8 {#ac-acs}
@@ -56,7 +56,9 @@ ht-degree: 28%
 
 1. 首先了解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下来，根据您的角色[&#128279;](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的体验差异。
+1. 接下来，根据您的角色](#experiences)了解Adobe Campaign Standard与Adobe Campaign v8之间的[体验差异。
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## 新增功能？ {#new}
 
@@ -148,13 +150,13 @@ ht-degree: 28%
 
   SMS的简单性和易用性使其成为非常宝贵的通信渠道，此外，它还具有数十亿终端的无与伦比的稳定性和兼容性。
 
-  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
+  Adobe Campaign v8附带了一个新的基础设施，用于改进短信的发送。 [了解有关新短信设置的更多信息](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
 
 * **已升级的推送基础结构**
 
   Adobe Campaign v8正在推出我们最新的推送通知服务，该服务基于现代尖端技术构建的强大框架提供支持。 此服务旨在解锁更高级别的可扩展性，确保您的通知能够以无缝效率接触到更多受众。 通过我们增强的基础架构和优化的流程，您可以期待更高的扩展性和可靠性，使您能够以前所未有的方式吸引移动应用程序用户并与之建立联系。
 
-  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+  [了解有关已升级的推送基础结构的详细信息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 
 
 ## Managed Services {#ac-managed-services}
@@ -169,9 +171,9 @@ Adobe Campaign v8 是一款托管式云服务，提供主动监督、及时发�
 
 * **中央品牌化**：每个公司都具有属于自己的品牌视觉和技术准则。 通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。 [了解详情](../../v8/administration/branding/branding-gs.md)
 
-* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hans){target="_blank"}
+* **Rest API**：作为 Campaign Standard 迁移用户，您可以使用 Rest API 为 Adobe Campaign 创建集成，并通过将 Adobe Campaign 与您使用的技术面板连接来构建自己的生态系统。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
 
-* **登陆页面** - 对 Campaign v8 登陆页面进行了一些改进，以确保功能与 Campaign Standard 相同。 通过[发行说明](../../v8/rn/release-notes.md#new-24-4)和登陆页面 [文档](../../v8/landing-pages/get-started-lp.md)了解详情。
+* **登陆页面** — 已对Campaign v8登陆页面进行了改进，使其与Campaign Standard保持一致。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> 通过[发行说明](../../v8/rn/release-notes.md#new-24-4)和登陆页面 [文档](../../v8/landing-pages/get-started-lp.md)了解详情。
 
 * **视觉片段**  - 视觉片段是可重复使用的视觉组件，可以在一封或多封电子邮件传递或内容模板中引用。 当修改片段时，使用它的每个内容都会被更新。 此功能用于预构建多个自定义内容块，营销用户可以使用这些块在改进的设计过程中快速组装消息内容。 [了解详情](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 * 投放分析现在是&#x200B;**投放准备工作**。 在需要启动消息准备时，请单击&#x200B;**准备**&#x200B;按钮。 [了解详情](../../v8/monitor/prepare-send.md)。
 * 现在可通过&#x200B;**模拟内容**&#x200B;按钮使用电子邮件预览。 [了解详情](../../v8/preview-test/preview-test.md)
 * 列表现在称为&#x200B;**受众**。 [了解详情](../../v8/audience/gs-audiences-recipients.md)。
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## 新的用户体验
@@ -265,5 +269,5 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
