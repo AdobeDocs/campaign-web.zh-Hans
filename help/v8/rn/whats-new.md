@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 96%
 ---
 # 新增功能 {#new}
 
@@ -48,14 +48,14 @@ ht-degree: 100%
 
 **现代、简便易用且统一的体验**
 
-Campaign 的新 Web 用户界面提供了新的用户体验，并与所有 Adobe Experience Cloud 解决方案和应用程序保持一致。 它提供：
+Campaign的新Web用户界面提供了新的用户体验，可与所有[!DNL Adobe CX Enterprise]解决方案和应用程序连接。 它提供：
 
 * 通过单个共享的用户会话即可访问新 Campaign 界面和您的其他 Adobe 解决方案
 * 新的导航体验，可从左边栏访问所有菜单和文件夹
 * 顶栏中的解决方案和组织切换器
 * Unified Shell 集成，可直接访问社区、帮助中心和支持
 
-在[此页面](../get-started/connect-to-campaign.md)中了解如何登录到 Adobe Experience Cloud 并连接到 Campaign。
+在[此页面](../get-started/connect-to-campaign.md)中了解如何登录到[!DNL Adobe CX Enterprise]并连接到Campaign。
 
 
 **新的强大功能和无缝流程**
@@ -178,7 +178,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 * Campaign Web 用户界面中不提供管理和高级配置功能。
 * 报告量度（例如，打开次数和跟踪数据）每小时更新一次。
 * 投放仪表板 KPI 每 5 分钟更新一次。 - 但投放准备是实时的。
-* 顶栏中可用的 Adobe Experience Cloud 通知和统一帮助尚未集成。
+* 顶部栏中可用的[!DNL Adobe CX Enterprise]通知和统一帮助尚未集成。
 
 在 Campaign Web 用户界面中使用在 Campaign 客户端控制台中创建或修改的工作流时，将适用特定的护栏和限制。 详见[此部分](../get-started/guardrails.md)。
 

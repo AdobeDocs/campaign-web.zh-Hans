@@ -36,18 +36,18 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '283'
 ht-degree: 2%
 ---
 # 使用Campaign和其他Adobe解决方案 {#gs-integration}
 
-您可以将Campaign环境与Adobe Experience Cloud解决方案和应用程序连接起来，以便结合使用各种功能。
+您可以将Campaign环境与[!DNL Adobe CX Enterprise]解决方案和应用程序连接起来，以组合功能。
 
 Adobe Campaign包含多个连接器，这些连接器支持与外部应用程序的通信、连接到数据库引擎以及共享和同步数据。 Adobe配置这些连接。
 
-在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=zh-Hans){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
+在[Campaign v8 （控制台）文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}中了解哪些解决方案和应用程序可以与Campaign连接，以及相关的使用案例。
 
 ## Adobe Experience Manager {#integration-aem}
 

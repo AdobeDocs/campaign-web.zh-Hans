@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 100%
+source-wordcount: '1559'
+ht-degree: 98%
 ---
 # 探索界面 {#user-interface}
 
-新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。 此界面与 Adobe Experience Cloud 应用程序和解决方案集成。
+新的 Adobe Campaign Web 界面提供直观的现代用户体验，可简化营销活动的设计和投放。 此界面与[!DNL Adobe CX Enterprise]应用程序和解决方案集成。
 
-[在本文中](connect-to-campaign.md)，了解如何连接到 Adobe Campaign 并探索有关 Experience Cloud 导航的基础知识。
+请参阅本文](connect-to-campaign.md)以了解如何连接到Adobe Campaign并探索[!DNL CX Enterprise]导航基础知识[。
 
 >[!NOTE]
 >
