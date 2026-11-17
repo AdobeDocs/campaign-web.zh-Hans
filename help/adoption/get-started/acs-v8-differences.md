@@ -52,7 +52,7 @@ Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了
 | 要过渡现有的推送工作流和投放，请联系您的Adobe Campaign过渡经理。 | [推送通知](marketers.md#acs-gs-marketers-push) |
 | 在Campaign Standard中，可以将测试配置文件标记为&#x200B;**陷阱**&#x200B;以接收最终发送。 在Campaign v8中，在投放的受众设置中添加&#x200B;**陷阱组**。 | [陷阱组](../../v8/audience/trap-group.md) |
 | 在Campaign Web用户界面中创建的登陆页不支持隐藏的输入字段或自定义JavaScript。 | [登陆页面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 受众、工作流和投放 {#data-and-workflows}
 
