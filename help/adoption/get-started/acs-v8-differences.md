@@ -29,18 +29,41 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 5a6b111d1aaa2a34ce165eaf6d1b1a997fd8bc85
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1916'
+ht-degree: 3%
 ---
 # Campaign Standard与Campaign v8之间的差异 {#acs-v8-differences}
 
 Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了过渡后影响您的差异，并链接到介绍每个差异的页面。 它补充了[营销人员](marketers.md)以及[管理员和开发人员](admin-developers.md)的指南。
 
-* 有关术语的更改，请参阅[Campaign Standard与Campaign v8之间的主要差异](overview.md#experiences)。
+* 有关术语的更改，请参阅[术语](#terminology)。
 * 有关转换后要运行的检查和报告的问题，请参阅[转换后的检查和疑难解答](post-transition-checks.md)。
 * 有关只能在客户端控制台中使用的功能，请参阅[Campaign Web和Campaign客户端控制台](../../v8/get-started/capability-matrix.md)。
+
+## 术语 {#terminology}
+
+Adobe Campaign v8和Adobe Campaign Standard中的大多数概念都很相似。 但是，存在一些差异，从术语开始。
+
+| 在Campaign Standard中 | 在Campaign v8中 |
+|---|---|
+| 自定义资源 | **架构** |
+| 消息 | **投放** |
+| 产品用户 | **操作员** |
+| 角色 | 已使用&#x200B;**命名权限**&#x200B;配置 |
+| 安全性组 | **操作员组** |
+| 组织实体 | 通过&#x200B;**文件夹权限**&#x200B;管理 |
+
+此外，作为现有的Campaign用户，请注意，一些概念已重命名，以符合最新的术语标准。 这些更改仅适用于Campaign Web用户界面，不会反映在客户端控制台中。
+
+| 在Campaign Standard中 | 在Campaign Web中 | 了解详情 |
+|---|---|---|
+| 收件人 | **配置文件** | [配置文件](../../v8/audience/gs-audiences-recipients.md) |
+| 种子地址 | **测试用户档案** | [测试投放](../../v8/preview-test/test-deliveries.md) |
+| 投放分析 | **投放准备**。 要启动邮件准备，请单击&#x200B;**准备**&#x200B;按钮。 | [准备并发送](../../v8/monitor/prepare-send.md) |
+| 电子邮件预览 | 通过&#x200B;**模拟内容**&#x200B;按钮可用。 | [预览和测试](../../v8/preview-test/preview-test.md) |
+| 列表 | **受众** | [受众](../../v8/audience/gs-audiences-recipients.md) |
 
 ## 渠道和内容 {#channels}
 
@@ -52,7 +75,7 @@ Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了
 | 要过渡现有的推送工作流和投放，请联系您的Adobe Campaign过渡经理。 | [推送通知](marketers.md#acs-gs-marketers-push) |
 | 在Campaign Standard中，可以将测试配置文件标记为&#x200B;**陷阱**&#x200B;以接收最终发送。 在Campaign v8中，在投放的受众设置中添加&#x200B;**陷阱组**。 | [陷阱组](../../v8/audience/trap-group.md) |
 | 在Campaign Web用户界面中创建的登陆页不支持隐藏的输入字段或自定义JavaScript。 | [登陆页面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直邮活动的叫客过渡也承载了生成的文件。 在Campaign v8中，它仅携带目标群体。 若要将文件发送到服务器，请添加&#x200B;**数据提取**&#x200B;活动，然后添加&#x200B;**文件传输**&#x200B;活动。 | [直邮](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 受众、工作流和投放 {#data-and-workflows}
 
@@ -60,7 +83,10 @@ Campaign Standard和Campaign v8中的大多数概念相同。 此页面汇总了
 
 | 更改内容 | 了解详情 |
 |---|---|
-| 受众会在过渡期间发生转变。 例如，通过查询活动创建的受众会成为预定义过滤器，而文件类型受众会成为没有维度的列表类型受众。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
+| 在Campaign v8中，通过Campaign Standard中的查询活动创建的受众成为[预定义过滤器](../../v8/query/build-query.md)。 Campaign v8还支持查询活动。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
+| 读取受众活动变为具有预定义过滤器的查询活动。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
+| 迁移受众后，预定义过滤器仅接受最新值。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
+| 文件类型受众将变为没有维度的列表类型受众。 | [管理受众](marketers.md#acs-gs-marketers-audiences) |
 | 在Campaign Standard中执行的工作流的历史日志不会迁移。 | [创建工作流](marketers.md#acs-gs-marketers-wf) |
 | 在Campaign Standard中，您可以选择定期电子邮件的聚合期。 此选项在Campaign v8中不可用。 | [渠道活动](../../v8/workflows/activities/channels.md) |
 | 动态报告涵盖电子邮件投放、包含电子邮件投放的营销活动和事务型消息。 | [报告](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Campaign Standard安全组、角色和组织单位在过渡期间映射到操作
 | 更改内容 | 了解详情 |
 |---|---|
 | 迁移后，PKEY值会发生变化。 如果您将PKEY存储在Campaign之外，请改为遵循API返回的href。 | [密钥用法](#key-usage) |
-| 某些已迁移的配置文件字段，如时区和`ccpaOptOut`，仅由`profileAndServicesExt/profile` API返回。 | [配置文件时区](#profile-timezone) |
+| 某些已迁移的配置文件字段，如时区和`ccpaOptOut`，仅由`profileAndServicesExt/profile` API返回。 | [配置文件时区和ccpaOptOut](#profile-timezone) |
 | Adobe会迁移您的Adobe Analytics和Audience Manager配置。 您必须再次设置触发器和Adobe Target集成。 | [管理Adobe Campaign集成](admin-developers.md#acs-gs-integrations) |
 
 ## REST API建议和限制 {#rest-api-limitations}
@@ -118,8 +144,6 @@ Campaign Standard安全组、角色和组织单位在过渡期间映射到操作
 * **事务性消息**
 
 >[!AVAILABILITY]
->
->目前，**事务性消息** REST API不可用。
 >
 >下面列出的REST API已弃用，无法使用：
 >* 营销历史记录
@@ -190,11 +214,13 @@ Campaign Standard安全组、角色和组织单位在过渡期间映射到操作
 | - | 500 - RST-360011发生错误 — 请联系您的管理员。 | 500 — 发生错误 — 请联系您的管理员。 |
 | 插入具有无效性别（或任何）枚举值的配置文件/服务 | 500 - RST-360011发生错误 — 请联系您的管理员。 值“invalid”对于“@gender”字段的“nms:recipient:gender”枚举无效 | 500 — 发生错误 — 请联系您的管理员。 |
 
-### 轮廓时区 {#profile-timezone}
+### 配置文件时区和ccpaOptOut {#profile-timezone}
 
 使用Campaign Standard时，时区显示为&#x200B;**profileAndServices/profile** REST API调用的JSON响应的一部分。
 
 使用Campaign v8时，时区仅作为&#x200B;**profileAndServicesExt/profile** REST API调用的一部分显示给用户。 它不是&#x200B;**profileAndServices/profile** REST API调用的一部分，因为它被添加到扩展架构中。
+
+这同样适用于`ccpaOptOut`字段：它仅作为&#x200B;**profileAndServicesExt/profile** REST API调用的一部分显示，而不作为&#x200B;**profileAndServices/profile**&#x200B;调用显示，因为它作为数据迁移的一部分添加到扩展架构中。
 
 ### 工作流外部信号 {#workflow-signals}
 
