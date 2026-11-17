@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 27%
+source-wordcount: '509'
+ht-degree: 18%
 ---
 # 全局报告入门 {#global-report-gs}
 
@@ -65,3 +65,52 @@ ht-degree: 27%
 1. 从&#x200B;**[!UICONTROL URL中并单击流]**，选择&#x200B;**[!UICONTROL 热门访问链接]**&#x200B;或&#x200B;**[!UICONTROL 时段]**。
 
    **[!UICONTROL 查看方式]**&#x200B;选项允许筛选URL、标签或类别。
+
+## LINE渠道报表 {#line-reports}
+
+可用于LINE渠道的报告如下所述。
+
+### 投放概述 {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="LINE投放概述"
+>abstract="查看LINE要投放的消息、投放的消息和投放错误。"
+
+**[!UICONTROL 投放概述]**&#x200B;报告显示要投放的消息、投放的消息以及LINE的投放错误。
+
+### 目标受众 {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="LINE目标受众"
+>abstract="查看LINE投放所定向的受众以及生成的投放结果。"
+
+**[!UICONTROL 目标受众]**&#x200B;图形和表格显示了LINE投放所定向的受众以及生成的投放结果。
+
+### 投放统计信息 {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="LINE投放统计"
+>abstract="查看LINE消息的关键投放结果，包括要投放的消息、投放的消息和投放错误。"
+
+**[!UICONTROL 投放统计信息]**&#x200B;图形和表显示LINE消息的密钥投放结果，包括要投放的消息、投放的消息和投放错误。
+
+### 排除的原因 {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="LINE导致排除"
+>abstract="查看目标用户档案从LINE投放中排除的原因，例如资格、验证或配置规则。"
+
+**[!UICONTROL 排除原因]**&#x200B;图形和表格显示了目标配置文件从LINE投放中排除的原因，如资格、验证或配置规则。
+
+### 投放吞吐量 {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="LINE投放吞吐量"
+>abstract="查看LINE消息在一段时间内的发送速率。"
+
+**[!UICONTROL 投放吞吐量]**&#x200B;报告显示一段时间内的LINE消息发送速率。
