@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1255'
 ht-degree: 2%
 ---
 # 生成图像 {#generative-image}
@@ -32,6 +32,10 @@ ht-degree: 2%
 >在使用AI在Adobe Campaign Web中生成内容之前，您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 有关更多信息，请与您的 Adobe 代表联系。
 
 在Adobe Campaign Web中使用AI可创建引人注目的可视内容，从而在电子邮件、登陆页和推送通知中增强您的消息。 AI可帮助您生成和优化图像，确保您的内容在视觉上富有吸引力并与品牌保持一致。
+
+>[!IMPORTANT]
+>
+>指向AI生成图像的链接是临时的，无法用于向收件人提供图像。 在保存投放时，生成的图像将保存到Campaign实例中，并且链接会被替换。 在发送之前保存您的投放。
 
 ## 用于电子邮件和登陆页面 {#email-web-channels}
 

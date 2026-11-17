@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1509'
 ht-degree: 6%
 ---
 # 配置多语言投放 {#multilingual-delivery}
@@ -32,6 +32,10 @@ ht-degree: 6%
 在多语言投放中，语言管理基于变体。 每个变体表示一种语言。 在创建投放期间，您可以添加多种语言变体以匹配消息中所需的语言数量。 您还可以在添加这些变体后随时更改默认语言。
 
 目前，多语言功能可用于电子邮件、推送通知、事务性消息和短信。
+
+>[!NOTE]
+>
+>不支持单变体多语言投放。 如果您的消息只需要一种语言，请改为创建标准（单个）投放。
 
 要设置多语言投放，请执行以下步骤：
 

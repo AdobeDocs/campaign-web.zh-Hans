@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 12%
+source-wordcount: '3253'
+ht-degree: 13%
 ---
 # 管理员和开发人员快速入门 {#acs-gs-admin}
 
@@ -130,7 +130,7 @@ Campaign客户端控制台是一个本机应用程序，它通过标准互联网
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426444?captions=chi_hans&quality=12&learn=on){transcript=true}
 
-有关详细信息，请参阅[使用客户端控制台](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
+有关详细信息，请参阅[使用客户端控制台](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
 
 ## 管理环境 {#acs-gs-admin-env}
 
@@ -202,7 +202,7 @@ MISSING LINKS:
 
 ## 了解数据模型创建 {#acs-gs-admin-data-model-creation}
 
-与Campaign Standard类似，Adobe Campaign v8附带其预定义的数据模型。 Adobe Campaign依赖于包含链接在一起的表的云数据库。 在[数据模型文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}中了解详情。
+与Campaign Standard类似，Adobe Campaign v8附带其预定义的数据模型。 Adobe Campaign依赖于包含链接在一起的表的云数据库。 在[数据模型文档](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}中了解详情。
 
 架构是与数据库表关联的XML文档。 它定义数据结构并描述表的SQL定义。 请参阅[架构创建文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
@@ -230,7 +230,7 @@ MISSING LINKS:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3452604?captions=chi_hans&quality=12&learn=on){transcript=true}
 
-* Campaign 可帮助您将联系人添加到云数据库。 您可以加载文件、计划和自动更新多个联系人，在网站上收集数据，或直接在收件人表格中输入轮廓信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
+* Campaign 可帮助您将联系人添加到云数据库。 您可以加载文件、计划和自动更新多个联系人，在网站上收集数据，或直接在收件人表格中输入轮廓信息。  请参阅[导入数据（控制台）文档](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/data/import){target="_blank"}以了解详情。
 
 * 您可以轻松地将不同的报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。 请参阅[导出数据文档](../../v8/reporting/export-reports.md)以了解详情。
 
@@ -301,7 +301,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 作为管理员，您必须定义渠道配置。 请参阅下面的链接以了解详情。
 
 * **电子邮件** - [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中详细介绍了电子邮件设置。
-* **短信** — 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
+* **短信** — 请参阅[本文档](https://experienceleague.adobe.com/zh-Hans/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}以了解如何配置短信渠道。
 * **推送通知** — 此部分[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中详细介绍了配置推送通知渠道的步骤。
 * **事务性消息传递** — 本节中详细介绍了[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)在Campaign v8中配置[事务性消息传递](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步骤
 
@@ -377,7 +377,7 @@ MISSING LINKS:
 
 ## 管理Adobe Campaign集成 {#acs-gs-integrations}
 
-您可以将Campaign实例与Adobe Experience Cloud解决方案连接以组合功能。 Adobe Campaign附带几个连接器，允许您与外部应用程序通信、连接到数据库引擎、共享和同步数据。 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/integration){target="_blank"}以了解如何组合解决方案。
+您可以将Campaign实例与[!DNL Adobe CX Enterprise]解决方案连接以组合功能。 Adobe Campaign附带几个连接器，允许您与外部应用程序通信、连接到数据库引擎、共享和同步数据。 请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/connect/integration){target="_blank"}以了解如何组合解决方案。
 
 作为迁移到Campaign v8的Campaign Standard用户，以下内容适用于您：
 

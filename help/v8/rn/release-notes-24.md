@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # 2024 年发行说明 {#2024-release}
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 
 * **文件夹管理**：您现在可以创建与父文件夹不同类型的子文件夹。 [了解更多信息](../get-started/permissions.md#folders)
 
-* **全球化**：作为我们持续努力提供统一用户体验的一部分，我们统一了 Adobe Experience Cloud 产品和应用程序中使用的术语。 这会影响德语术语“Titel”，当它与对象名称相关时会更改为“Label”。 这些变化将会在 UI 和文档中逐步推出。
+* **全球化** — 作为我们持续努力提供统一用户体验的一部分，我们统一了[!DNL Adobe CX Enterprise]产品和应用程序中使用的术语。 这会影响德语术语“Titel”，当它与对象名称相关时会更改为“Label”。 这些变化将会在 UI 和文档中逐步推出。
 
 
 ## 4 月发行说明 {#april-24-4-release}

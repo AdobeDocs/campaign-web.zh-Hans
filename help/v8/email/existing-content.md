@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '330'
+ht-degree: 26%
 ---
 # 导入电子邮件内容 {#existing-content}
 
@@ -31,6 +31,10 @@ ht-degree: 29%
 >[!NOTE]
 >
 >具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
+
+>[!IMPORTANT]
+>
+>请勿在电子邮件内容中使用HTML `<base>`标记。 出于安全原因，此标记不受支持，并且可能会阻止您的内容在内容编辑器中加载。 请改用链接和外部资源的绝对URL。
 
 ➡️ [通过观看视频了解此功能](#video)
 

@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 12%
 ---
 # 为自己的电子邮件内容编写代码 {#code-content}
 
@@ -26,6 +26,10 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >此方法需要了解HTML。
+
+>[!IMPORTANT]
+>
+>请勿在电子邮件内容中使用HTML `<base>`标记。 出于安全原因，此标记不受支持，并且可能会阻止您的内容在内容编辑器中加载。 请改用链接和外部资源的绝对URL。
 
 1. 在[电子邮件Designer](get-started-email-designer.md)主页上，选择&#x200B;**[!UICONTROL 自己编写代码]**。
 

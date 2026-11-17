@@ -14,16 +14,16 @@ product_v2:
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 3%
 ---
 # 使用[!DNL Adobe Experience Manager Assets as a Cloud Service]管理资源{#aem-assets}
 
 ## [!DNL Adobe Experience Manager Assets as a Cloud Service] 入门 {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets as a Cloud Service]是一个集成的协作平台，旨在简化您的创意工作流程并集中数字资产，以实现无缝体验交付。 它简化了已批准生产资产的组织、标记和检索，确保跨团队的品牌一致性。 [!DNL Assets as Cloud Service]界面友好，允许您在Adobe Creative和Experience Cloud应用程序中即时访问和共享资源。
+[!DNL Adobe Experience Manager Assets as a Cloud Service]是一个集成的协作平台，旨在简化您的创意工作流程并集中数字资产，以实现无缝体验交付。 它简化了已批准生产资产的组织、标记和检索，确保跨团队的品牌一致性。 [!DNL Assets as Cloud Service]具有用户友好的界面，允许您在[!DNL Adobe Creative Cloud for enterprise]和[!DNL Adobe CX Enterprise]应用程序中即时访问和共享资产。
 
 请参阅[Adobe Experience Manager Assets as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 

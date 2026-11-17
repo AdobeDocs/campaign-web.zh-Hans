@@ -10,7 +10,7 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
@@ -63,7 +63,7 @@ ht-degree: 11%
    * 对于现有事件类型，请从列表中选择它。
    * 对于新标签，请添加标签和名称。
 
-1. 然后在&#x200B;**事件类型**&#x200B;下拉列表中选择&#x200B;**配置文件RT**。
+1. 然后，在&#x200B;**事件类型**&#x200B;下拉列表中选择&#x200B;**个性化事件**。
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 
