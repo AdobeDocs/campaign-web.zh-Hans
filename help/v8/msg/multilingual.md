@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1517'
 ht-degree: 6%
 ---
 # 配置多语言投放 {#multilingual-delivery}
@@ -27,7 +27,7 @@ ht-degree: 6%
 >title="导入语言变体"
 >abstract="使用此对话框通过导入 CSV 文件来添加语言变体。 该文件会为所选语言自动填充所有可用字段。 确认前，您可以拖放文件，或从计算机中选择文件。"
 
-在Campaign Web UI中，您可以将投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 未定义首选项时，将以默认语言发送消息。
+在Campaign Web UI中，您可以将投放设置为多语言，这允许您根据用户档案的首选语言发送消息。 如果未定义首选项，或者没有变体与用户档案的语言匹配，则以默认语言发送消息。
 
 在多语言投放中，语言管理基于变体。 每个变体表示一种语言。 在创建投放期间，您可以添加多种语言变体以匹配消息中所需的语言数量。 您还可以在添加这些变体后随时更改默认语言。
 
