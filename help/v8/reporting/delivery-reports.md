@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 19%
 ---
 # 投放报告入门 {#reports}
 
@@ -68,3 +68,28 @@ Adobe Campaign 提供了多种类型的报告，可供每次投放使用。 这�
    **[!UICONTROL 查看方式]**&#x200B;选项允许筛选URL、标签或类别。
 
    ![按用于筛选URL、标签或类别的选项查看](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="LINE投放概述"
+>abstract="查看LINE投放要投放的消息、投放的消息和投放错误。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="LINE目标人群"
+>abstract="**目标群体**&#x200B;图形和表格显示与您的LINE受众相关的数据：要投放的消息和排除项。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="LINE总体统计信息"
+>abstract="**总体统计信息**&#x200B;报告显示已发送LINE消息的数据：成功和错误。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="LINE排除"
+>abstract="**排除项**&#x200B;图形和表格显示了阻止排除的用户档案接收LINE消息的原因。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="LINE投放吞吐量"
+>abstract="**投放吞吐量**&#x200B;报告显示指定时间范围内LINE消息的投放速度。"

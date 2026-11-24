@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 10%
+source-wordcount: '377'
+ht-degree: 9%
 ---
 # 营销活动报告入门 {#campaign-reports}
 
@@ -65,42 +65,22 @@ ht-degree: 10%
 
    **[!UICONTROL 查看方式]**&#x200B;选项允许按URL、标签或类别进行筛选。
 
-## LINE渠道报表 {#line-reports}
-
-可用于LINE渠道的报告如下所述。
-
-### 投放摘要 {#line-delivery-summary}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_deliveries_overview"
 >title="投放概述"
 >abstract="查看LINE要投放的消息、投放的消息和投放错误。"
-
-**[!UICONTROL 投放概述]**&#x200B;报告显示要投放的消息、投放的消息以及LINE投放的投放错误。
-
-#### 初始目标受众统计信息 {#line-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_target"
 >title="初始目标受众统计信息"
 >abstract="在执行LINE投放之前，查看初始目标群体和排除的用户档案。"
 
-**[!UICONTROL 初始目标受众统计信息]**&#x200B;表显示在执行LINE投放之前初始目标群体和排除的用户档案。
-
-#### 执行统计信息 {#line-exec-stats}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_exec_stats"
 >title="执行统计信息"
 >abstract="查看LINE消息的处理和投放结果，包括投放的消息和错误。"
 
-**[!UICONTROL 执行统计信息]**&#x200B;表显示LINE消息的处理和投放结果，包括投放的消息和错误。
-
-#### 生成的点击流 {#line-click-streams}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_click_streams"
 >title="生成的点击流"
 >abstract="查看LINE投放的收件人生成的跟踪链接活动。"
-
-**[!UICONTROL 生成的点击流]**&#x200B;表显示由LINE投放的收件人生成的跟踪链接活动。
