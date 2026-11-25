@@ -57,7 +57,7 @@ Adobe Campaign 提供了多种类型的报告，可供每次投放使用。 这�
 
    ![左侧面板上的报告选择菜单](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. 如果您的投放是定期投放，请单击&#x200B;**[!UICONTROL 选择投放]**，以选择要报告的特定投放。
+1. 如果您的投放是定期投放，请单击&#x200B;**[!UICONTROL Select投放]**&#x200B;以选择要报告的特定投放。
 
    您还可以通过选择&#x200B;**[!UICONTROL 联系日期]**&#x200B;将时间段应用于报表。
 
