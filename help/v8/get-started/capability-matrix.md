@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web 和 Campaign 客户端控制台 {#capabilities-matrix}
 
@@ -85,12 +85,12 @@ Campaign Web 用户界面中提供了关键的 Campaign 功能。 此界面主�
 
 ## 通信渠道 {#channels-capabilities}
 
-借助 Campaign Web 用户界面，可创建、设计和发送&#x200B;**电子邮件**、**短信**、**推送通知**&#x200B;和&#x200B;**直邮**，并使用各种专门设计的报告衡量其影响，如[本节](../msg/gs-messages.md)中所详述。 但是，以下渠道目前&#x200B;**不**&#x200B;可用：应用程序内、LINE、呼叫中心/自定义渠道、通过 X (Twitter) 进行的社交媒体营销。
+借助Campaign Web用户界面，您可以创建、设计和发送&#x200B;**电子邮件**、**短信**、**推送通知**、**直邮**、**行**&#x200B;消息、**呼叫中心**&#x200B;投放和&#x200B;**自定义渠道**&#x200B;投放，并使用各种专用报告衡量其影响，如本节[&#128279;](../msg/gs-messages.md)中详述的。 但是，以下渠道当前&#x200B;**不**&#x200B;可用：应用程序内、使用X (Twitter)的社交营销。
 
-使用提供的链接浏览 Campaign v8（客户端控制台）文档，并了解有关这些渠道的更多信息。
+某些渠道功能仅在客户端控制台中可用：
 
-* **LINE 消息传递**。 LINE 是一款免费即时消息、语音和视频通话应用程序，可在所有移动设备和 PC 上使用。 Adobe Campaign 仅允许从客户端控制台发送 LINE 消息。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=zh-Hans){target="_blank"}
-* **呼叫中心和自定义渠道**。 可以在 Campaign 环境中实施呼叫中心和其他自定义渠道。 这些渠道仅可在客户端控制台中使用。 [请参阅 Campaign Classic v7 文档，以了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=zh-Hans#other-channels){target="_blank"}
+* **呼叫中心报告**。 在呼叫中心渠道的Web UI中，报告不可用。 使用客户端控制台访问它们。 [了解详情](../call-center/gs-call-center.md)
+* **自定义渠道配置**。 您可以在Web UI中为自定义渠道创建投放，但在客户端控制台中配置自定义渠道本身。 [了解详情](../call-center/gs-custom-channel.md)
 * 通过 X (Twitter) 进行&#x200B;**社交媒体营销**。 通过发布消息和发送私信来通过 X (Twitter) 与客户互动。 此功能随社交营销插件提供，仅可通过客户端控制台使用。 [了解详情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=zh-Hans){target="_blank"}
 
 ## 登陆页面和 Web 应用程序 {#Webapps-capabilities}
