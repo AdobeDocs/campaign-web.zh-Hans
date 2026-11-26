@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # 开始使用消息功能{#gs-messages}
 
-借助 Adobe Campaign，您可以发送跨渠道营销活动，包括电子邮件、短信、推送、[WhatsApp](../whatsapp/get-started-whatsapp.md) 和直邮，并使用各种专用报告来衡量其结果。
+借助Adobe Campaign，您可以发送跨渠道营销活动，包括电子邮件、短信、推送通知和直邮，并使用各种专门的报告衡量其影响。
 
 这些消息通过投放进行设计和发送，并且可以为每位收件人进行个性化定制。 这些投放可以是独立的，也可以包含在营销活动的工作流中。 在[本节](gs-deliveries.md)中，了解如何在 Adobe Campaign 中创建和管理投放。
 
-Adobe Campaign v8 附带以下投放渠道：电子邮件、短信、推送通知和直邮。 尚不支持其他渠道，例如应用程序内消息传递或通过 X (Twitter) 进行的社交媒体营销。
+Adobe Campaign v8包括以下投放渠道：电子邮件、短信、推送通知、直邮、LINE、呼叫中心和自定义渠道。 尚不支持其他渠道，例如应用程序内消息传递或通过 X (Twitter) 进行的社交媒体营销。
 
 浏览以下部分以了解如何创建和发送消息。
 

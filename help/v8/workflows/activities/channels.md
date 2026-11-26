@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 使用投放工作流活动
-description: 了解如何添加投放工作流活动（电子邮件、推送、短信、WhatsApp、直邮）
+description: 了解如何添加投放工作流活动（电子邮件、推送、短信、直邮）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: 'https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM'
 product_v2:
@@ -14,14 +14,14 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 40%
+source-wordcount: '987'
+ht-degree: 41%
 ---
-# 电子邮件、短信、WhatsApp、推送、直邮活动 {#channel}
+# 电子邮件、短信、推送、直邮活动 {#channel}
 
-通过Adobe Campaign Web，您可以跨电子邮件、短信、WhatsApp、直邮和推送渠道自动执行营销活动。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
+通过Adobe Campaign Web，您可以跨电子邮件、短信、直邮和推送渠道自动执行营销活动。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。
 
 例如，创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信、推送和直邮。 您还可以在客户完成购买后发送跟进电子邮件，或通过短信向客户发送个性化的生日消息。
 
@@ -34,7 +34,6 @@ ht-degree: 40%
 >* [创建独立SMS投放](../../sms/create-sms.md)
 >* [创建独立推送投放](../../push/create-push.md)
 >* [创建独立直邮投放](../../direct-mail/create-direct-mail.md)
->* [创建独立WhatsApp投放](../../whatsapp/create-whatsapp.md)
 
 ## 先决条件 {#channel-activity-prereq}
 
@@ -81,9 +80,9 @@ ht-degree: 40%
 
 要在工作流上下文中设置投放，请执行以下步骤：
 
-1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL WhatsApp]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
+1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
 
-1. 选择&#x200B;**投放类型**：单次或循环。
+1. Select **类型的投放**：单次或循环。
 
    * **单次投放**&#x200B;是只发送一次的一次性投放，如“黑色星期五”电子邮件。
    * 根据在[调度程序活动](scheduler.md)中定义的执行频率，多次发送&#x200B;**循环投放**。 每次运行工作流时，都会重新计算受众，并将投放内容发送到更新后的受众，其中包含更新的内容。 这可以是每周新闻稿或定期生日电子邮件。
@@ -92,7 +91,7 @@ ht-degree: 40%
 
    ![显示工作流中投放活动的屏幕截图](../assets/delivery-activity-in-wf.png)
 
-   从渠道活动配置左窗格中选择模板。 如果之前选择的受众与渠道不兼容，则无法选择模板。 要解决此问题，请更新&#x200B;**生成受众**&#x200B;活动，以选择具有正确目标映射的受众。 在[本节](../../audience/targeting-dimensions.md)中了解有关目标映射的详细信息。
+   从渠道活动配置左窗格Select模板。 如果之前选择的受众与渠道不兼容，则无法选择模板。 要解决此问题，请更新&#x200B;**生成受众**&#x200B;活动，以选择具有正确目标映射的受众。 在[本节](../../audience/targeting-dimensions.md)中了解有关目标映射的详细信息。
 
 1. 单击&#x200B;**创建投放**。 定义消息设置和内容的方式与创建独立投放的方式相同。 测试和模拟内容。 [了解详情](../../msg/gs-messages.md)
 
